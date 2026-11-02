@@ -1,0 +1,25 @@
+/* Safe rich HTML content and Furigana (<ruby><rt>) support for SSW PM Mock Test by Faiz */
+.rich-content{overflow-wrap:anywhere;word-break:normal;}
+.rich-content p{margin:.32em 0;color:inherit;}
+.rich-content p:first-child{margin-top:0;}
+.rich-content p:last-child{margin-bottom:0;}
+.rich-content h1,.rich-content h2,.rich-content h3,.rich-content h4,.rich-content h5,.rich-content h6{font:inherit;font-weight:700;letter-spacing:normal;line-height:1.4;margin:.45em 0;color:inherit;}
+.rich-content h1{font-size:1.35em}.rich-content h2{font-size:1.25em}.rich-content h3{font-size:1.15em}
+.rich-content ul,.rich-content ol{margin:.35em 0;padding-left:1.65em;}
+.rich-content li{margin:.12em 0;}
+.rich-content blockquote{margin:.4em 0;padding:.2em .75em;border-left:3px solid #aab7c1;color:inherit;}
+.rich-content pre,.rich-content code{font-family:ui-monospace,Consolas,monospace;white-space:pre-wrap;}
+.rich-content hr{border:0;border-top:1px solid #bcc6ce;margin:.55em 0;}
+.rich-content table{border-collapse:collapse;max-width:100%;width:auto;display:block;overflow-x:auto;}
+.rich-content th,.rich-content td{border:1px solid #aeb8bf;padding:.22em .42em;vertical-align:top;}
+.rich-content th{font-weight:700;background:#f1f4f6;}
+.rich-content ruby{ruby-position:over;ruby-align:center;margin:0 .02em;}
+.rich-content rt{font-size:.55em;line-height:1.1;letter-spacing:0;font-weight:500;color:#334e68;user-select:none;}
+.rich-content rp{font-size:.55em;}
+body.hide-furigana ruby rt,
+body.hide-furigana ruby rp{display:none!important;}
+.rich-content mark{background:#fff0a8;color:inherit;padding:0 .08em;}
+.rich-content sup,.rich-content sub{line-height:0;}
+.question-prompt.rich-content,.question-instruction.rich-content,.answer-text.rich-content,.review-prompt.rich-content,.review-instruction.rich-content{white-space:pre-wrap;}
+.csv-preview-options>div{margin:.15em 0;}
+.csv-preview-prompt{max-height:7em;overflow:hidden;}

@@ -1,0 +1,56 @@
+/* CSV importer — Anki-style field mapping and live CSV value preview */
+.csv-import-content{display:flex;flex-direction:column;gap:13px;padding:16px 20px 22px;min-width:0}
+.csv-import-note,.csv-media-note{margin:0!important}
+.csv-mapping-intro{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:3px 0}
+.csv-mapping-intro h3{margin:0 0 4px;font-size:14px}
+.csv-mapping-intro p{font-size:11px;margin:0;line-height:1.5;color:var(--muted)}
+.csv-mapping-count{display:flex;align-items:baseline;gap:5px;white-space:nowrap;padding:8px 11px;background:#f2f6f3;border:1px solid #d8e7dc;border-radius:4px;color:#476c52}
+.csv-mapping-count strong{font-size:18px;color:#34744a}
+.csv-mapping-count span{font-size:10px}
+.csv-map-table{border:1px solid #d9e0e3;border-radius:5px;overflow:hidden;background:#fff}
+.csv-map-table-head{display:grid;grid-template-columns:minmax(190px,.72fr) minmax(0,1.5fr);gap:0;background:#edf1f3;color:#596873;border-bottom:1px solid #d2dbe0;font-size:9px;font-weight:800;letter-spacing:.07em}
+.csv-map-table-head>span{padding:11px 13px}
+.csv-map-table-head>span+span{border-left:1px solid #d2dbe0}
+.csv-map-list{max-height:470px;overflow:auto;overscroll-behavior:contain}
+.csv-map-row{display:grid;grid-template-columns:minmax(190px,.72fr) minmax(0,1.5fr);gap:0;border-bottom:1px solid #e6ebee;min-width:0}
+.csv-map-row:last-child{border-bottom:0}
+.csv-map-row:nth-child(even){background:#fbfcfc}
+.csv-map-target{padding:12px 13px;background:rgba(241,244,245,.45);border-right:1px solid #e0e6e9;min-width:0}
+.csv-map-target-title{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:5px}
+.csv-map-target-title strong{font-size:12px;line-height:1.4;color:#263844}
+.csv-required-tag,.csv-optional-tag{font-size:8px;line-height:1;padding:4px 5px;border-radius:3px;font-weight:750;white-space:nowrap}
+.csv-required-tag{background:#fff0e3;color:#a45c24;border:1px solid #f0d1b4}
+.csv-optional-tag{background:#f0f2f3;color:#7b878e;border:1px solid #e1e5e7}
+.csv-map-target small{display:block;font-size:10px;line-height:1.5;color:#7b8790;overflow-wrap:anywhere}
+.csv-map-source{padding:10px 12px;min-width:0}
+.csv-map-select-label{display:block;font-size:9px;font-weight:750;color:#77848c;margin-bottom:5px;letter-spacing:.02em}
+.csv-map-source select{display:block;width:100%;max-width:100%;font-size:11px;min-height:34px;padding:6px 8px;border:1px solid #c7d0d5;border-radius:4px;background:#fff;color:#283943}
+.csv-map-source select:focus{outline:2px solid #d4e5d8;outline-offset:0;border-color:#62966d}
+.csv-map-sample{margin-top:7px;border:1px solid #e2e7e9;background:#fff;border-radius:4px;overflow:hidden;min-width:0}
+.csv-map-sample-meta{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:5px 8px;background:#f6f8f8;border-bottom:1px solid #e7ebed;color:#879198;font-size:9px}
+.csv-map-sample-meta span:last-child{white-space:nowrap;font-variant-numeric:tabular-nums}
+.csv-map-sample-value{padding:8px 9px;max-height:82px;overflow:auto;overflow-wrap:anywhere;font-size:11px;line-height:1.55;color:#33424b;white-space:normal}
+.csv-map-sample-value:empty{min-height:28px}
+.csv-map-sample-value p{margin:0 0 4px;color:inherit}
+.csv-map-sample-value p:last-child{margin-bottom:0}
+.csv-map-sample-value table{font-size:10px;max-width:100%;display:block;overflow:auto}
+.csv-map-sample-value th,.csv-map-sample-value td{padding:3px 5px;border:1px solid #dfe5e8}
+.csv-map-no-source,.csv-map-empty-sample{min-height:37px;padding:9px;color:#8a959c;font-size:10px;line-height:1.5}
+.csv-map-no-source{display:flex;gap:7px;align-items:center}
+.csv-map-no-source-icon{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;background:#edf1f2;color:#7d8a91;border-radius:3px;flex:none}
+.csv-map-empty-sample span{display:block;font-size:9px;color:#a1aaaf;margin-bottom:3px}
+.csv-default-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 12px}
+.csv-default-grid select{font-size:11px;min-width:0}
+.csv-duplicate-toggle{padding:10px 12px;background:#f7f9fa;border:1px solid #e2e8ec;border-radius:5px}
+.csv-import-stats{display:flex;flex-wrap:wrap;gap:8px 17px;padding:10px 12px;background:#f7f9fa;border:1px solid #e4e9ed;border-radius:5px;font-size:11px;color:#667582}
+.csv-import-stats strong{font-size:14px;color:#253b4f;margin-right:4px}
+.csv-preview-wrap{border:1px solid #e0e6ea;border-radius:5px;max-height:260px;overflow:auto}
+.csv-preview-table{min-width:670px;font-size:10px}
+.csv-preview-table th{position:sticky;top:0;z-index:1;padding:9px;background:#f4f7f8}
+.csv-preview-table td{padding:8px 9px;vertical-align:top;max-width:230px;overflow-wrap:anywhere}
+.csv-preview-prompt{font-size:11px;font-family:var(--jp);font-weight:650;white-space:pre-wrap;max-width:260px}
+.csv-preview-table .table-sub{white-space:normal;line-height:1.4}
+@media(max-width:760px){.csv-map-table-head,.csv-map-row{grid-template-columns:minmax(0,1fr)}.csv-map-table-head>span+span{border-left:0;border-top:1px solid #d2dbe0}.csv-map-target{border-right:0;border-bottom:1px dashed #e0e6e9;padding:10px 12px}.csv-map-source{padding:10px 12px}.csv-map-list{max-height:420px}.csv-mapping-intro{align-items:flex-start}.csv-mapping-count{padding:7px 8px}}
+@media(max-width:480px){.csv-map-table-head{font-size:8px}.csv-mapping-intro{flex-direction:column}.csv-default-grid{grid-template-columns:1fr}.csv-import-content{padding:12px}.csv-map-target-title strong{font-size:11px}}
+/* Give the Anki-style two-column mapper enough horizontal room on desktop. */
+.modal:has(.csv-map-table){width:min(1080px,100%)}

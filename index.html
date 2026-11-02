@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="SSW PM Mock Test by Faiz — Simulator ujian mandiri 特定技能1号・飲食料品製造業 (食品製造) dengan bank soal lokal dan mode offline." />
+  <title>SSW PM Mock Test by Faiz — 特定技能1号・飲食料品製造業</title>
+  <link rel="manifest" href="manifest.webmanifest?v=ssw3" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css?v=ssw3" />
+  <link rel="stylesheet" href="CSV-IMPORT-STYLES.css?v=ssw3" />
+  <link rel="stylesheet" href="RICH-HTML-STYLES.css?v=ssw3" />
+  <link rel="stylesheet" href="QUESTION-EDITOR-UPDATES.css?v=ssw3" />
+  <script>
+    (function () {
+      try {
+        if ('caches' in window) {
+          caches.keys().then(function (keys) {
+            keys.forEach(function (k) {
+              if (k.indexOf('jft-practice') !== -1 || k.indexOf('ssw-pm-mock-test-shell-v1') !== -1 || k.indexOf('ssw-pm-mock-test-shell-v2') !== -1) {
+                caches.delete(k);
+              }
+            });
+          });
+        }
+        if ('serviceWorker' in navigator && !localStorage.getItem('ssw_pm_sw_migrated_v3')) {
+          navigator.serviceWorker.getRegistrations().then(function (regs) {
+            var hadOld = regs.length > 0;
+            Promise.all(regs.map(function (r) { return r.unregister(); })).then(function () {
+              localStorage.setItem('ssw_pm_sw_migrated_v3', '1');
+              if (hadOld && navigator.serviceWorker.controller) {
+                location.reload();
+              }
+            });
+          });
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <aside id="sidebar" class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">F</div>
+        <div>
+          <strong id="sidebar-brand-title">SSW PM MOCK TEST</strong>
+          <small id="sidebar-brand-sub">BY FAIZ · 飲食料品製造業</small>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <button class="nav-item active" data-page="home"><span class="nav-icon">⌂</span> <span data-i18n="navHome">Beranda</span></button>
+        <button class="nav-item" data-page="setup"><span class="nav-icon">▣</span> <span data-i18n="navSetup">Mulai Mock Test</span></button>
+        <button class="nav-item" data-page="bank"><span class="nav-icon">▤</span> <span data-i18n="navBank">Bank Soal</span></button>
+        <button class="nav-item" data-page="history"><span class="nav-icon">◷</span> <span data-i18n="navHistory">Riwayat Hasil</span></button>
+        <button class="nav-item" data-page="backup"><span class="nav-icon">⇅</span> <span data-i18n="navBackup">Backup &amp; Data</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="offline-pill"><span class="status-dot"></span><span id="connection-label">Penyimpanan lokal aktif</span></div>
+        <p id="sidebar-disclaimer">Simulator latihan ujian SSW PM (特定技能1号・飲食料品製造業). Independen &amp; tersimpan di perangkat ini.</p>
+      </div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar">
+        <button id="mobile-menu" class="icon-button mobile-only" aria-label="Buka navigasi">☰</button>
+        <div class="breadcrumbs" id="breadcrumbs">Beranda</div>
+        <div class="topbar-right">
+          <label class="lang-Segment" aria-label="Language / Bahasa">
+            <select id="global-lang-select" class="lang-select" title="Ubah Bahasa Antarmuka / Change Interface Language">
+              <option value="id">🇮🇩 Bahasa Indonesia</option>
+              <option value="en">🇬🇧 English</option>
+              <option value="ja">🇯🇵 日本語</option>
+            </select>
+          </label>
+          <span class="local-chip"><span class="status-dot"></span> 特定技能1号・飲食料品製造業</span>
+          <button class="button button-small button-outline" data-page="backup" id="topbar-backup-btn">Backup &amp; Data</button>
+        </div>
+      </header>
+      <div id="view" class="page-content" tabindex="-1">
+        <section class="panel" style="padding:24px;">
+          <strong>Memuat SSW PM Mock Test by Faiz…</strong>
+          <p style="margin-top:6px;">Menyiapkan bank soal 特定技能1号・飲食料品製造業 (Kunci Soal Ujian 1 — CBTP Gino1).</p>
+        </section>
+      </div>
+    </main>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+  <script type="module" src="js/app.js?v=ssw3"></script>
+</body>
+</html>
