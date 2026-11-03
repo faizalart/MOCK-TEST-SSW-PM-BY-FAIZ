@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="./RICH-HTML-STYLES.css?v=ssw3" />
   <link rel="stylesheet" href="./QUESTION-EDITOR-UPDATES.css?v=ssw3" />
 
-  <!-- SERVICE WORKER MIGRATION -->
+  <!-- MIGRASI SERVICE WORKER LAMA -->
   <script>
     (function () {
       try {
@@ -42,7 +42,7 @@
 
         if (
           'serviceWorker' in navigator &&
-          !localStorage.getItem('ssw_pm_sw_migrated_v3')
+          !localStorage.getItem('ssw_pm_sw_migrated_v4')
         ) {
           navigator.serviceWorker.getRegistrations().then(function (regs) {
             var hadOld = regs.length > 0;
@@ -52,7 +52,7 @@
                 return registration.unregister();
               })
             ).then(function () {
-              localStorage.setItem('ssw_pm_sw_migrated_v3', '1');
+              localStorage.setItem('ssw_pm_sw_migrated_v4', '1');
 
               if (hadOld && navigator.serviceWorker.controller) {
                 location.reload();
@@ -60,8 +60,8 @@
             });
           });
         }
-      } catch (e) {
-        console.warn('Service Worker migration:', e);
+      } catch (error) {
+        console.warn('Service Worker migration:', error);
       }
     })();
   </script>
@@ -152,8 +152,6 @@
 
     <!-- MAIN CONTENT -->
     <main class="main-area">
-
-      <!-- TOPBAR -->
       <header class="topbar">
         <button
           id="mobile-menu"
@@ -161,9 +159,7 @@
           aria-label="Buka navigasi"
         >☰</button>
 
-        <div class="breadcrumbs" id="breadcrumbs">
-          Beranda
-        </div>
+        <div class="breadcrumbs" id="breadcrumbs">Beranda</div>
 
         <div class="topbar-right">
           <label class="lang-Segment" aria-label="Language / Bahasa">
