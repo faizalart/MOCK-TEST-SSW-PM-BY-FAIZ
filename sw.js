@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssw-pm-mock-test-shell-v3';
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v4';
 const CORE = [
   './',
   './index.html',
@@ -12,7 +12,7 @@ const CORE = [
   './js/utils.js?v=ssw3',
   './js/archive.js?v=ssw3',
   './manifest.webmanifest?v=ssw3',
-  './assets/icon.svg',
+  './icon.svg',
   './data/ssw-pm-kunci-ujian-1.json',
   './data/ssw-pm-tipe2-nguyen1.json',
   './data/questions.json',
