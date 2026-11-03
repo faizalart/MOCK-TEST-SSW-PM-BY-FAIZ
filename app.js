@@ -1006,16 +1006,47 @@ function questionLocationLabel(q) {
   return [pkg, num, page].filter(Boolean).join(' · ');
 }
 
+
 function mediaURL(media) {
   if (!media) return '';
+
   if (media.blob instanceof Blob) {
-    if (!objectURLs.has(media.id)) objectURLs.set(media.id, URL.createObjectURL(media.blob));
+    if (!objectURLs.has(media.id)) {
+      objectURLs.set(
+        media.id,
+        URL.createObjectURL(media.blob)
+      );
+    }
     return objectURLs.get(media.id);
   }
+
   if (typeof media.path === 'string' && media.path.trim()) {
-  return media.path.trim().replace(/^\.?\/?assets\/questions\//, './');
-}
-  if (typeof media.dataUrl === 'string' && media.dataUrl.trim()) return media.dataUrl.trim();
+    const rawPath = media.path.trim();
+    const marker = 'assets/questions/';
+    const markerIndex = rawPath.indexOf(marker);
+
+    // Tangani path relatif maupun URL absolut lama.
+    if (markerIndex !== -1) {
+      const filename = rawPath.slice(
+        markerIndex + marker.length
+      );
+
+      return `./${filename.replace(/^\/+/, '')}`;
+    }
+
+    if (/^(?:https?:|data:|blob:)/i.test(rawPath)) {
+      return rawPath;
+    }
+
+    return rawPath.startsWith('./')
+      ? rawPath
+      : `./${rawPath.replace(/^\/+/, '')}`;
+  }
+
+  if (typeof media.dataUrl === 'string' && media.dataUrl.trim()) {
+    return media.dataUrl.trim();
+  }
+
   return '';
 }
 
@@ -3581,7 +3612,7 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw3').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw4').catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;
