@@ -1012,7 +1012,9 @@ function mediaURL(media) {
     if (!objectURLs.has(media.id)) objectURLs.set(media.id, URL.createObjectURL(media.blob));
     return objectURLs.get(media.id);
   }
-  if (typeof media.path === 'string' && media.path.trim()) return media.path.trim();
+  if (typeof media.path === 'string' && media.path.trim()) {
+  return media.path.trim().replace(/^\.?\/?assets\/questions\//, './');
+}
   if (typeof media.dataUrl === 'string' && media.dataUrl.trim()) return media.dataUrl.trim();
   return '';
 }
