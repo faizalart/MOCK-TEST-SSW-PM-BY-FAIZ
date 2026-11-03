@@ -3,11 +3,6 @@ import { all, get, put, putMany, del, snapshot, replaceAll, initialise } from '.
 import { serializeDatabase, validateBackup, hydrateBackup, makeZip, readZip } from './archive.js?v=ssw3';
 import { DEFAULT_PACKAGES, $, $$, uid, esc, fmtDate, fmtDuration, fmtDurationHMS, packageName, rawStats, downloadBlob, blobToDataURL, dataURLToBlob, shuffle, validateQuestion } from './utils.js?v=ssw3';
 
-const authoringStyle = document.createElement('link');
-authoringStyle.rel = 'stylesheet';
-authoringStyle.href = new URL('../QUESTION-EDITOR-UPDATES.css?v=ssw3', import.meta.url).href;
-document.head.append(authoringStyle);
-
 const view = $('#view');
 const modalRoot = $('#modal-root');
 const toastRoot = $('#toast-root');

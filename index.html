@@ -38,6 +38,20 @@
       } catch (e) {}
     })();
   </script>
+  <script>
+    window.addEventListener('error', function (e) {
+      console.error('Global error:', e);
+      var view = document.getElementById('view');
+      if (view && (!view.querySelector('.stats-grid') && !view.querySelector('.exam-shell'))) {
+        view.innerHTML = '<section class="panel" style="padding:24px;border-left:4px solid #b53b3b;">' +
+          '<strong style="color:#b53b3b;font-size:16px;">Terjadi Kendala Memuat Aplikasi</strong>' +
+          '<p style="margin:8px 0;font-size:13px;line-height:1.6;">' + (e.message || 'Gagal memuat skrip modul JavaScript.') + '</p>' +
+          '<p style="font-size:12px;color:#666;">File: ' + (e.filename || 'app.js') + ' (baris ' + (e.lineno || '?') + ')</p>' +
+          '<button class="button button-primary" style="margin-top:12px;" onclick="location.reload()">Muat Ulang</button>' +
+          '</section>';
+      }
+    });
+  </script>
 </head>
 <body>
   <div id="app" class="app-shell">
