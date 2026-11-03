@@ -391,3 +391,29 @@ body.exam-mode #app{min-height:0;padding:5px 9px 8px 7px}
 .exam-tool-button.furigana-quick-button.is-active {
   color: #9ecb65;
 }
+
+/* FIX: MOBILE FOOTER AFTER EXIT FULLSCREEN */
+@media (max-width: 760px) {
+  body.exam-mode #app {
+    height: 100vh;
+    height: 100dvh;
+    min-height: 100dvh;
+  }
+
+  .exam-shell {
+    position: relative;
+    height: calc(100vh - 6px);
+    height: calc(100dvh - 6px);
+    min-height: calc(100vh - 6px);
+    min-height: calc(100dvh - 6px);
+  }
+
+  .exam-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    bottom: env(safe-area-inset-bottom, 0px);
+    z-index: 35;
+  }
+}
