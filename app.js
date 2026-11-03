@@ -2418,11 +2418,14 @@ function renderExam() {
 
       <footer class="exam-bottom">
         <div class="exam-bottom-tools">
-          <button type="button" class="exam-tool-button ${state.examSettingsOpen ? 'is-active' : ''}" data-action="exam-settings" title="${esc(t('examSettingsTitle'))}" aria-label="${esc(t('examSettingsTitle'))}">⚙</button>
-          <button type="button" class="exam-tool-button ${!state.mapHidden ? 'is-active' : ''}" data-action="toggle-question-map" title="${esc(t('examToggleMapTitle'))}" aria-label="${esc(t('examToggleMapTitle'))}" aria-pressed="${!state.mapHidden}">▦</button>
-          <button type="button" class="exam-tool-button ${fsActive ? 'is-active' : ''}" data-action="toggle-fullscreen" title="${esc(t('examFullscreenTitle'))}" aria-label="${esc(t('examFullscreenTitle'))}" aria-pressed="${fsActive}"><span class="fs-icon">${fsActive ? '🗗' : '⛶'}</span></button>  <button type="button" class="exam-tool-button furigana-quick-button ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" title="${esc(t('setFuriganaTitle'))}" aria-label="${esc(t('setFuriganaTitle'))}" aria-pressed="${Boolean(state.examPrefs.showFurigana)}">F</button>  <button type="button" class="exam-tool-button furigana-quick-button ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" title="${esc(t('setFuriganaTitle'))}" aria-label="${esc(t('setFuriganaTitle'))}" aria-pressed="${Boolean(state.examPrefs.showFurigana)}">F</button>
-          <button type="button" class="exam-tool-button furigana-quick-button ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" title="Furigana ON/OFF" aria-label="Toggle Furigana" aria-pressed="${Boolean(state.examPrefs.showFurigana)}">F</button>
-        </div>
+  <button type="button" class="exam-tool-button ${state.examSettingsOpen ? 'is-active' : ''}" data-action="exam-settings" title="${esc(t('examSettingsTitle'))}" aria-label="${esc(t('examSettingsTitle'))}">⚙</button>
+
+  <button type="button" class="exam-tool-button ${!state.mapHidden ? 'is-active' : ''}" data-action="toggle-question-map" title="${esc(t('examToggleMapTitle'))}" aria-label="${esc(t('examToggleMapTitle'))}" aria-pressed="${!state.mapHidden}">▦</button>
+
+  <button type="button" class="exam-tool-button ${fsActive ? 'is-active' : ''}" data-action="toggle-fullscreen" title="${esc(t('examFullscreenTitle'))}" aria-label="${esc(t('examFullscreenTitle'))}" aria-pressed="${fsActive}"><span class="fs-icon">${fsActive ? '🗗' : '⛶'}</span></button>
+
+  <button type="button" class="exam-tool-button furigana-quick-button ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" title="Furigana ON/OFF" aria-label="Toggle Furigana" aria-pressed="${Boolean(state.examPrefs.showFurigana)}">F</button>
+</div>
         <div class="exam-nav-buttons">
           <button type="button" class="exam-flag-button ${s.flaggedQuestions.includes(q.id) ? 'is-flagged' : ''}" data-action="toggle-flag" title="${esc(t('examFlagTitle'))}" aria-label="${esc(t('examFlagTitle'))}">⚑</button>
           ${answerPrev}
