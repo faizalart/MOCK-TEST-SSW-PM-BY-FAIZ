@@ -870,7 +870,7 @@ async function toggleFullScreen() {
 function updateFullscreenUI() {
   const active = isFullscreenActive();
   document.body.classList.toggle('is-fullscreen', active);
-  $$('[data-action="toggle-fullscreen"]').forEach(btn => {
+  $$('[<button type="button" class="exam-tool-button ${fsActive ? 'is-active' : ''}" data-action="toggle-fullscreen" title="${esc(t('examFullscreenTitle'))}" aria-label="${esc(t('examFullscreenTitle'))}" aria-pressed="${fsActive}"><span class="fs-icon">${fsActive ? '🗗' : '⛶'}</span></button>]').forEach(btn => {
     btn.classList.toggle('is-active', active);
     btn.setAttribute('aria-pressed', String(active));
     const icon = btn.querySelector('.fs-icon');
