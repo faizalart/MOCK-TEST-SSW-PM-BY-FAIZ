@@ -380,3 +380,14 @@ body.exam-mode #app{min-height:0;padding:5px 9px 8px 7px}
   .no-print{display:none!important}
 }
 .result-photo-editor{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 15px;margin:0 0 14px;border:1px solid var(--border,#d9dde4);border-radius:12px;background:var(--surface,#fff)}.result-photo-editor label{font-weight:700}.result-photo-editor small{color:var(--muted,#667085);font-size:12px}
+/* MINIMAL FURIGANA BUTTON */
+.exam-tool-button.furigana-quick-button {
+  min-width: 22px;
+  padding: 0 3px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.exam-tool-button.furigana-quick-button.is-active {
+  color: #9ecb65;
+}
