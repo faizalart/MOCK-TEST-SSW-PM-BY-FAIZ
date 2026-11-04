@@ -153,16 +153,33 @@ body.exam-mode {
   background: #ffffff !important;
   color: #111111 !important;
   font-family: Arial, "Yu Gothic UI", "Meiryo", sans-serif !important;
+  height: var(--exam-viewport-height, 100dvh) !important;
+  min-height: 0 !important;
+  max-height: var(--exam-viewport-height, 100dvh) !important;
   overflow: hidden !important;
 }
 body.exam-mode #app {
   padding: 0 !important;
   margin: 0 !important;
+  height: var(--exam-viewport-height, 100dvh) !important;
+  min-height: 0 !important;
+  max-height: var(--exam-viewport-height, 100dvh) !important;
+  overflow: hidden !important;
+}
+.exam-mode .main-area,
+.exam-mode .page-content {
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
 }
 .exam-shell {
-  width: 100vw !important;
-  height: 100vh !important;
-  min-height: 100vh !important;
+  width: 100% !important;
+  height: var(--exam-viewport-height, 100dvh) !important;
+  min-height: 0 !important;
+  max-height: var(--exam-viewport-height, 100dvh) !important;
   margin: 0 !important;
   border: 0 !important;
   background: #ffffff !important;
@@ -623,13 +640,13 @@ body.exam-mode #app {
   right: auto !important;
   bottom: auto !important;
   width: 100% !important;
-  flex: none !important;
-  height: 46px !important;
-  min-height: 46px !important;
+  flex: 0 0 auto !important;
+  height: auto !important;
+  min-height: calc(46px + env(safe-area-inset-bottom, 0px)) !important;
   background: #000000 !important;
   border: 0 !important;
   border-top: 2px solid #638c29 !important;
-  padding: 0 10px !important;
+  padding: 0 10px env(safe-area-inset-bottom, 0px) !important;
   display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;

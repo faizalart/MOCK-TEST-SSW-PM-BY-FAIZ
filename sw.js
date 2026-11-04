@@ -1,22 +1,22 @@
 
-const CACHE_NAME = 'ssw-pm-mock-test-shell-v4';
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v5';
 
 const CORE = [
   './',
   './index.html',
 
-  './styles.css?v=ssw4',
+  './styles.css?v=ssw8',
   './CSV-IMPORT-STYLES.css?v=ssw3',
   './RICH-HTML-STYLES.css?v=ssw3',
-  './QUESTION-EDITOR-UPDATES.css?v=ssw3',
+  './QUESTION-EDITOR-UPDATES.css?v=ssw8',
 
-  './app.js?v=ssw5',
+  './app.js?v=ssw8',
   './seed-data.js?v=ssw3',
   './db.js?v=ssw3',
   './utils.js?v=ssw3',
   './archive.js?v=ssw3',
 
-  './manifest.webmanifest?v=ssw4',
+  './manifest.webmanifest?v=hasbulla1',
   './icon.svg'
 ];
 

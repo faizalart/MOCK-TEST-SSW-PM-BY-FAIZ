@@ -14,12 +14,12 @@
   <link rel="manifest" href="./manifest.webmanifest?v=hasbulla1" />
 
   <!-- CSS UTAMA -->
-  <link rel="stylesheet" href="./styles.css?v=ssw7" />
+  <link rel="stylesheet" href="./styles.css?v=ssw8" />
 
   <!-- CSS TAMBAHAN -->
   <link rel="stylesheet" href="./CSV-IMPORT-STYLES.css?v=ssw3" />
   <link rel="stylesheet" href="./RICH-HTML-STYLES.css?v=ssw3" />
-  <link rel="stylesheet" href="./QUESTION-EDITOR-UPDATES.css?v=ssw3" />
+  <link rel="stylesheet" href="./QUESTION-EDITOR-UPDATES.css?v=ssw8" />
 
   <!-- SERVICE WORKER MIGRATION -->
   <script>
@@ -32,7 +32,8 @@
                 key.indexOf('jft-practice') !== -1 ||
                 key.indexOf('ssw-pm-mock-test-shell-v1') !== -1 ||
                 key.indexOf('ssw-pm-mock-test-shell-v2') !== -1 ||
-                key.indexOf('ssw-pm-mock-test-shell-v3') !== -1
+                key.indexOf('ssw-pm-mock-test-shell-v3') !== -1 ||
+                key.indexOf('ssw-pm-mock-test-shell-v4') !== -1
               ) {
                 caches.delete(key);
               }
@@ -42,7 +43,7 @@
 
         if (
           'serviceWorker' in navigator &&
-          !localStorage.getItem('ssw_pm_sw_migrated_v5')
+          !localStorage.getItem('ssw_pm_sw_migrated_v6')
         ) {
           navigator.serviceWorker.getRegistrations().then(function (regs) {
             var hadOld = regs.length > 0;
@@ -52,7 +53,7 @@
                 return registration.unregister();
               })
             ).then(function () {
-              localStorage.setItem('ssw_pm_sw_migrated_v5', '1');
+              localStorage.setItem('ssw_pm_sw_migrated_v6', '1');
 
               if (hadOld && navigator.serviceWorker.controller) {
                 location.reload();
@@ -211,6 +212,6 @@
   <div id="toast-root" class="toast-root" aria-live="polite"></div>
 
   <!-- MAIN JAVASCRIPT -->
-  <script type="module" src="./app.js?v=ssw6"></script>
+  <script type="module" src="./app.js?v=ssw8"></script>
 </body>
 </html>

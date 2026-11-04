@@ -886,62 +886,41 @@ function updateFullscreenUI() {
 }
 
 
-function syncExamViewportHeight() {
-  const visualHeight = window.visualViewport?.height;
-  const height = Math.round(
-    visualHeight ||
-    window.innerHeight ||
-    document.documentElement.clientHeight
-  );
+let examViewportTimers = [];
 
-  if (height > 0) {
-    document.documentElement.style.setProperty(
-      '--exam-viewport-height',
-      `${height}px`
-    );
+function syncExamViewportHeight() {
+  const candidates = [
+    window.visualViewport?.height,
+    window.innerHeight,
+    document.documentElement?.clientHeight
+  ].filter(v => typeof v === 'number' && Number.isFinite(v) && v > 0);
+
+  if (!candidates.length) return;
+
+  const height = Math.round(Math.min(...candidates));
+  document.documentElement.style.setProperty('--exam-viewport-height', `\${height}px`);
+
+  if (document.body.classList.contains('exam-mode') && (window.scrollY !== 0 || window.scrollX !== 0)) {
+    window.scrollTo(0, 0);
   }
 }
 
 function scheduleExamViewportSync() {
-  requestAnimationFrame(() => {
-    syncExamViewportHeight();
-  });
-}
-
-function syncExamViewportAfterResume() {
-  scheduleExamViewportSync();
-
-  // Android sometimes updates the viewport after the page resumes.
-  setTimeout(scheduleExamViewportSync, 120);
-  setTimeout(scheduleExamViewportSync, 350);
-}
-
-
-function syncExamViewportHeight() {
-  const height = Math.round(
-    window.visualViewport?.height ||
-    window.innerHeight ||
-    document.documentElement.clientHeight
-  );
-
-  if (height > 0) {
-    document.documentElement.style.setProperty(
-      '--exam-viewport-height',
-      `${height}px`
-    );
-  }
+  requestAnimationFrame(syncExamViewportHeight);
 }
 
 function syncExamViewportAfterResume() {
   syncExamViewportHeight();
-
   requestAnimationFrame(syncExamViewportHeight);
 
-  setTimeout(syncExamViewportHeight, 120);
-  setTimeout(syncExamViewportHeight, 350);
+  examViewportTimers.forEach(id => clearTimeout(id));
+  examViewportTimers = [
+    setTimeout(syncExamViewportHeight, 100),
+    setTimeout(syncExamViewportHeight, 280),
+    setTimeout(syncExamViewportHeight, 550)
+  ];
 }
 
-// Fullscreen masuk atau keluar.
 document.addEventListener('fullscreenchange', () => {
   updateFullscreenUI();
   syncExamViewportAfterResume();
@@ -952,19 +931,15 @@ document.addEventListener('webkitfullscreenchange', () => {
   syncExamViewportAfterResume();
 });
 
-// Ukuran viewport berubah.
-window.addEventListener('resize', syncExamViewportAfterResume);
+window.addEventListener('resize', syncExamViewportAfterResume, { passive: true });
+window.addEventListener('orientationchange', syncExamViewportAfterResume, { passive: true });
+window.addEventListener('pageshow', syncExamViewportAfterResume, { passive: true });
+window.addEventListener('focus', syncExamViewportAfterResume, { passive: true });
 
-window.visualViewport?.addEventListener(
-  'resize',
-  syncExamViewportAfterResume
-);
-
-// Android kembali dari background/minimize.
-window.addEventListener(
-  'pageshow',
-  syncExamViewportAfterResume
-);
+if (window.visualViewport) {
+  window.visualViewport.addEventListener('resize', syncExamViewportAfterResume, { passive: true });
+  window.visualViewport.addEventListener('scroll', scheduleExamViewportSync, { passive: true });
+}
 
 document.addEventListener('visibilitychange', () => {
   if (!document.hidden) {
@@ -972,32 +947,6 @@ document.addEventListener('visibilitychange', () => {
   }
 });
 
-// Perubahan orientasi HP.
-window.addEventListener('orientationchange', () => {
-  setTimeout(syncExamViewportAfterResume, 200);
-});
-
-// Pengukuran awal.
-syncExamViewportHeight();
-
-
-// Browser viewport changes.
-window.addEventListener('resize', scheduleExamViewportSync);
-window.visualViewport?.addEventListener(
-  'resize',
-  scheduleExamViewportSync
-);
-
-// Android returns from background.
-window.addEventListener('pageshow', syncExamViewportAfterResume);
-
-document.addEventListener('visibilitychange', () => {
-  if (!document.hidden) {
-    syncExamViewportAfterResume();
-  }
-});
-
-// Initial viewport measurement.
 syncExamViewportHeight();
 
 
@@ -2547,6 +2496,7 @@ function renderExam() {
     </div>`;
   document.body.classList.add('exam-mode');
   applyExamPrefs();
+  syncExamViewportHeight();
 }
 
 let examTicker = null;
@@ -3728,7 +3678,7 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw4').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw5').catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;
