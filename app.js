@@ -885,8 +885,67 @@ function updateFullscreenUI() {
   }
 }
 
-document.addEventListener('fullscreenchange', updateFullscreenUI);
-document.addEventListener('webkitfullscreenchange', updateFullscreenUI);
+
+function syncExamViewportHeight() {
+  const visualHeight = window.visualViewport?.height;
+  const height = Math.round(
+    visualHeight ||
+    window.innerHeight ||
+    document.documentElement.clientHeight
+  );
+
+  if (height > 0) {
+    document.documentElement.style.setProperty(
+      '--exam-viewport-height',
+      `${height}px`
+    );
+  }
+}
+
+function scheduleExamViewportSync() {
+  requestAnimationFrame(() => {
+    syncExamViewportHeight();
+  });
+}
+
+function syncExamViewportAfterResume() {
+  scheduleExamViewportSync();
+
+  // Android sometimes updates the viewport after the page resumes.
+  setTimeout(scheduleExamViewportSync, 120);
+  setTimeout(scheduleExamViewportSync, 350);
+}
+
+// Fullscreen entered or exited.
+document.addEventListener('fullscreenchange', () => {
+  updateFullscreenUI();
+  syncExamViewportAfterResume();
+});
+
+document.addEventListener('webkitfullscreenchange', () => {
+  updateFullscreenUI();
+  syncExamViewportAfterResume();
+});
+
+// Browser viewport changes.
+window.addEventListener('resize', scheduleExamViewportSync);
+window.visualViewport?.addEventListener(
+  'resize',
+  scheduleExamViewportSync
+);
+
+// Android returns from background.
+window.addEventListener('pageshow', syncExamViewportAfterResume);
+
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) {
+    syncExamViewportAfterResume();
+  }
+});
+
+// Initial viewport measurement.
+syncExamViewportHeight();
+
 
 function toast(message, type = 'info') {
   const node = document.createElement('div');
