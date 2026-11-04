@@ -1,27 +1,26 @@
-
-const CACHE_NAME = 'ssw-pm-mock-test-shell-v5';
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v10';
 
 const CORE = [
   './',
   './index.html',
 
-  './styles.css?v=ssw8',
+  './styles.css?v=ssw10',
   './CSV-IMPORT-STYLES.css?v=ssw3',
   './RICH-HTML-STYLES.css?v=ssw3',
-  './QUESTION-EDITOR-UPDATES.css?v=ssw8',
+  './QUESTION-EDITOR-UPDATES.css?v=ssw10',
 
-  './app.js?v=ssw8',
+  './app.js?v=ssw10',
   './seed-data.js?v=ssw3',
   './db.js?v=ssw3',
   './utils.js?v=ssw3',
   './archive.js?v=ssw3',
 
-  './manifest.webmanifest?v=hasbulla1',
+  './manifest.webmanifest?v=ssw10',
+  './hasbulla-192.png.png',
+  './hasbulla-512.png.png',
   './icon.svg'
 ];
 
-// Install: file yang gagal ditemukan tidak akan
-// menggagalkan seluruh proses instalasi cache.
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
@@ -36,12 +35,6 @@ self.addEventListener('install', event => {
 
           if (response.ok) {
             await cache.put(url.href, response);
-          } else {
-            console.warn(
-              '[SW] File dilewati:',
-              path,
-              response.status
-            );
           }
         } catch (error) {
           console.warn('[SW] Gagal cache:', path, error);
@@ -53,7 +46,6 @@ self.addEventListener('install', event => {
   })());
 });
 
-// Activate: hapus cache versi lama milik aplikasi ini saja.
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
@@ -71,7 +63,6 @@ self.addEventListener('activate', event => {
   })());
 });
 
-// Fetch: cache-first, lalu ambil dari jaringan.
 self.addEventListener('fetch', event => {
   const req = event.request;
   const url = new URL(req.url);
@@ -84,37 +75,36 @@ self.addEventListener('fetch', event => {
   }
 
   event.respondWith((async () => {
-    const cached = await caches.match(req);
+    try {
+      const networkResponse = await fetch(req);
+      if (networkResponse && networkResponse.ok) {
+        const cache = await caches.open(CACHE_NAME);
+        await cache.put(req, networkResponse.clone());
+        return networkResponse;
+      }
+    } catch (error) {
+      // Offline fallback to cache below
+    }
 
+    const cached = await caches.match(req, { ignoreSearch: false }) || await caches.match(req, { ignoreSearch: true });
     if (cached) return cached;
 
-    try {
-      const response = await fetch(req);
-
-      if (response.ok) {
-        const cache = await caches.open(CACHE_NAME);
-        await cache.put(req, response.clone());
-      }
-
-      return response;
-    } catch (error) {
-      if (req.mode === 'navigate') {
-        return (
-          await caches.match('./index.html')
-        ) || new Response('Aplikasi sedang offline.', {
-          status: 503,
-          headers: {
-            'Content-Type': 'text/plain; charset=utf-8'
-          }
-        });
-      }
-
-      return new Response('File tidak tersedia saat offline.', {
+    if (req.mode === 'navigate') {
+      return (
+        await caches.match('./index.html')
+      ) || new Response('Aplikasi sedang offline.', {
         status: 503,
         headers: {
           'Content-Type': 'text/plain; charset=utf-8'
         }
       });
     }
+
+    return new Response('File tidak tersedia saat offline.', {
+      status: 503,
+      headers: {
+        'Content-Type': 'text/plain; charset=utf-8'
+      }
+    });
   })());
 });

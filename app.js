@@ -889,16 +889,18 @@ function updateFullscreenUI() {
 let examViewportTimers = [];
 
 function syncExamViewportHeight() {
-  const candidates = [
-    window.visualViewport?.height,
-    window.innerHeight,
-    document.documentElement?.clientHeight
-  ].filter(v => typeof v === 'number' && Number.isFinite(v) && v > 0);
+  const vv = window.visualViewport;
+  const height = Math.round(
+    (vv && vv.height > 0 ? vv.height : 0) ||
+    window.innerHeight ||
+    document.documentElement.clientHeight
+  );
+  const offsetTop = Math.round(vv && vv.offsetTop > 0 ? vv.offsetTop : 0);
 
-  if (!candidates.length) return;
-
-  const height = Math.round(Math.min(...candidates));
-  document.documentElement.style.setProperty('--exam-viewport-height', `${height}px`);
+  if (height > 0) {
+    document.documentElement.style.setProperty('--exam-viewport-height', `${height}px`);
+    document.documentElement.style.setProperty('--exam-viewport-top', `${offsetTop}px`);
+  }
 
   if (document.body.classList.contains('exam-mode') && (window.scrollY !== 0 || window.scrollX !== 0)) {
     window.scrollTo(0, 0);
@@ -915,9 +917,10 @@ function syncExamViewportAfterResume() {
 
   examViewportTimers.forEach(id => clearTimeout(id));
   examViewportTimers = [
-    setTimeout(syncExamViewportHeight, 100),
-    setTimeout(syncExamViewportHeight, 280),
-    setTimeout(syncExamViewportHeight, 550)
+    setTimeout(syncExamViewportHeight, 60),
+    setTimeout(syncExamViewportHeight, 180),
+    setTimeout(syncExamViewportHeight, 350),
+    setTimeout(syncExamViewportHeight, 600)
   ];
 }
 
@@ -3678,7 +3681,7 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw5').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw10').catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;

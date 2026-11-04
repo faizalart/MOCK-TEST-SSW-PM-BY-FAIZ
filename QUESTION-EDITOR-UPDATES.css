@@ -161,10 +161,9 @@ body.exam-mode #app {
 }
 .exam-shell {
   position: fixed !important;
-  top: 0 !important;
+  top: var(--exam-viewport-top, 0px) !important;
   left: 0 !important;
   right: 0 !important;
-  bottom: 0 !important;
   width: 100% !important;
   height: var(--exam-viewport-height, 100dvh) !important;
   min-height: 0 !important;
@@ -200,7 +199,17 @@ body.exam-mode #app {
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
+  width: 100% !important;
+  max-width: 100% !important;
   min-width: 0 !important;
+  overflow: hidden !important;
+}
+.exam-title-group {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  overflow: hidden !important;
 }
 
 .exam-name,
@@ -315,6 +324,9 @@ body.exam-mode #app {
 }
 
 .exam-header-finish {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
   height: 36px !important;
   min-height: 36px !important;
   min-width: 136px !important;
@@ -365,6 +377,8 @@ body.exam-mode #app {
   gap: 0 !important;
   flex: 1 1 0% !important;
   min-height: 0 !important;
+  max-height: calc(var(--exam-viewport-height, 100dvh) - 114px) !important;
+  margin-bottom: 46px !important;
   background: #ffffff !important;
   overflow: hidden !important;
 }
@@ -626,10 +640,10 @@ body.exam-mode #app {
 
 /* 6. Bottom Bar (#000000 with 2px solid #638c29 top border, pure icon tools on left) */
 .exam-bottom {
-  position: relative !important;
-  left: auto !important;
-  right: auto !important;
-  bottom: auto !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
   width: 100% !important;
   flex: 0 0 46px !important;
   height: 46px !important;
@@ -646,7 +660,7 @@ body.exam-mode #app {
   align-items: center !important;
   justify-content: space-between !important;
   gap: 8px !important;
-  z-index: 45 !important;
+  z-index: 50 !important;
 }
 
 .exam-bottom-tools {
@@ -953,15 +967,67 @@ body.exam-mode #app {
 
 @media (max-width: 760px) {
   .exam-header {
-    padding: 0 6px !important;
+    grid-template-columns: minmax(0, 1fr) auto auto !important;
+    gap: 6px !important;
+    padding: 0 6px 0 8px !important;
   }
   .exam-name, .exam-section-title {
+    font-size: 10.5px !important;
+    line-height: 1.2 !important;
+  }
+  .exam-clock {
+    gap: 4px !important;
+  }
+  .exam-clock-symbol {
+    width: 18px !important;
+    height: 18px !important;
+    border-width: 2px !important;
+  }
+  .exam-clock-symbol:before {
+    left: 6px !important;
+    top: 2px !important;
+    height: 5px !important;
+  }
+  .exam-clock-symbol:after {
+    left: 6px !important;
+    top: 6px !important;
+    width: 4px !important;
+  }
+  .exam-timer-wrap .timer-label {
+    font-size: 9.5px !important;
+  }
+  .exam-timer-wrap strong {
     font-size: 11px !important;
   }
   .exam-header-finish {
-    min-width: 96px !important;
-    padding: 0 10px !important;
-    font-size: 11px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 0 !important;
+    width: auto !important;
+    height: 30px !important;
+    min-height: 30px !important;
+    padding: 0 8px !important;
+    font-size: 10px !important;
+    white-space: nowrap !important;
+  }
+  .exam-meta-strip {
+    font-size: 10px !important;
+    padding: 0 8px !important;
+    gap: 8px !important;
+  }
+  .exam-meta-strip > span:first-child {
+    min-width: 0 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+  .exam-meta-strip .candidate-label {
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+  }
+  .exam-meta-strip strong {
+    font-size: 10px !important;
   }
   .exam-main {
     grid-template-columns: 30px 48px minmax(0, 1fr) !important;
@@ -970,12 +1036,14 @@ body.exam-mode #app {
   .exam-category-rail,
   .exam-progress-rail {
     width: 30px !important;
+    height: 100% !important;
+    min-height: 0 !important;
   }
   .exam-question-map {
     width: 48px !important;
     height: 100% !important;
     min-height: 0 !important;
-    padding: 6px 4px 24px 5px !important;
+    padding: 6px 4px 20px 5px !important;
   }
   .question-map-item, .question-map-item.current {
     width: 29px !important;
@@ -983,9 +1051,13 @@ body.exam-mode #app {
   .exam-workspace {
     height: 100% !important;
     min-height: 0 !important;
-    padding: 12px 12px 28px 6px !important;
+    padding: 12px 10px 24px 6px !important;
   }
   .exam-bottom {
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
     height: 46px !important;
     min-height: 46px !important;
     max-height: 46px !important;
