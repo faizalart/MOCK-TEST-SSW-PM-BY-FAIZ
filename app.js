@@ -1448,11 +1448,29 @@ function statCard(label, value, note, icon) {
   return `<div class="stat-card"><div class="stat-top"><span>${esc(label)}</span><span class="stat-icon">${icon || '—'}</span></div><div class="stat-value">${value}</div><div class="stat-note">${note}</div></div>`;
 }
 
+function cleanHomeText(value) {
+  return String(value ?? '')
+    .replace(/\s*—\s*/g, ': ')
+    .replace(/\s*→\s*$/g, '')
+    .trim();
+}
+
+function getHomePackageCode(pkg, index) {
+  const id = String(pkg?.id || '');
+  const kunciMatch = id.match(/^ssw-pm-kunci-ujian-(\d+)$/i);
+  if (kunciMatch) return String(kunciMatch[1]).padStart(2, '0');
+  if (id === 'ssw-pm-tipe2-nguyen1' || /tipe-?2/i.test(id)) return 'T2';
+  const bonusMatch = id.match(/^bonus-soal-(\d+)$/i);
+  if (bonusMatch) return `B${bonusMatch[1]}`;
+  return `P${index + 1}`;
+}
+
 function renderHome() {
   const qs = state.questions.length;
   const ready = activeQuestions().length;
   const packages = getAvailablePackages();
   const kunciSet = packages.find(p => p.id === 'ssw-pm-kunci-ujian-1');
+  const activePkgCount = packages.filter(p => p.total > 0).length;
   const inProgress = state.sessions.find(s => s.status === 'in_progress');
   const completedSessions = [...state.sessions]
     .filter(s => s.status !== 'in_progress')
@@ -1460,103 +1478,221 @@ function renderHome() {
   const latest = completedSessions.slice(0, 5);
   const loc = t('locale');
 
+  const kunciPackages = packages.filter(p => String(p.id).startsWith('ssw-pm-kunci-ujian-'));
+  const bonusPackages = packages.filter(p => !String(p.id).startsWith('ssw-pm-kunci-ujian-'));
+  const activeFilter = ['all', 'kunci', 'bonus'].includes(state.homePkgFilter) ? state.homePkgFilter : 'all';
+  const visiblePackages = activeFilter === 'kunci'
+    ? kunciPackages
+    : activeFilter === 'bonus'
+      ? bonusPackages
+      : packages;
+
+  const filterLabels = state.uiLang === 'ja'
+    ? { all: 'すべて', kunci: 'Kunci Ujian', bonus: 'Bonus' }
+    : state.uiLang === 'en'
+      ? { all: 'Semua / All', kunci: 'Kunci Ujian', bonus: 'Bonus' }
+      : { all: 'Semua', kunci: 'Kunci Ujian', bonus: 'Bonus' };
+
   view.innerHTML = `
-    ${pageHead(
-      t('homeKicker'),
-      t('homeTitle'),
-      t('homeDesc'),
-      `<button class="button button-primary" data-action="quick-start-kunci1">${esc(t('homeStartBtn'))} <span>→</span></button>`
-    )}
-    ${inProgress && state.settings.resumeInterrupted ? `<section class="resume-banner"><div><strong>${esc(t('resumeTitle'))}</strong><p>${esc(inProgress.title || 'SSW PM Mock Test')} · ${inProgress.deadline ? `${esc(t('resumeRemaining'))} ${fmtDuration(Math.max(0, Math.floor((inProgress.deadline - Date.now()) / 1000)))}` : esc(t('resumeFlex'))}</p></div><button class="button button-primary" data-action="resume-session" data-id="${inProgress.id}">${esc(t('resumeBtn'))}</button></section>` : ''}
-    <section class="stats-grid">
-      ${statCard(t('statTotalBank'), qs, `${ready} ${t('statReadyNote')}`, '▤')}
-      ${statCard(t('statKunci1'), kunciSet ? kunciSet.active : 0, t('statKunci1Note'), '食')}
-      ${statCard(t('statPackages'), packages.filter(p => p.total > 0).length, t('statPackagesNote'), '▣')}
-      ${statCard(t('statHistory'), completedSessions.length, t('statHistoryNote'), '◷')}
-    </section>
-    <div class="home-grid">
-      <section class="panel section-panel">
-        <div class="panel-head">
-          <div>
-            <h2>${esc(t('pkgPanelTitle'))}</h2>
-            <p>${esc(t('pkgPanelSub'))}</p>
+    <div class="home-dashboard">
+      ${inProgress && state.settings.resumeInterrupted ? `
+        <section class="hd-resume-banner" aria-label="${esc(cleanHomeText(t('resumeTitle')))}">
+          <div class="hd-resume-info">
+            <span class="hd-resume-label">${esc(cleanHomeText(t('resumeTitle')))}</span>
+            <strong class="hd-resume-title">${esc(cleanHomeText(inProgress.title || 'SSW PM Mock Test'))}</strong>
+            <p class="hd-resume-meta">${inProgress.deadline ? `${esc(cleanHomeText(t('resumeRemaining')))}: ${fmtDuration(Math.max(0, Math.floor((inProgress.deadline - Date.now()) / 1000)))}` : esc(cleanHomeText(t('resumeFlex')))}</p>
           </div>
-          <span class="quiet-label">${esc(t('pkgLabel'))}</span>
+          <button type="button" class="hd-btn hd-btn-primary" data-action="resume-session" data-id="${esc(inProgress.id)}">${esc(cleanHomeText(t('resumeBtn')))}</button>
+        </section>
+      ` : ''}
+
+      <section class="hd-command" aria-labelledby="hd-main-title">
+        <div class="hd-command-top">
+          <div class="hd-command-copy">
+            <div class="hd-kicker">${esc(cleanHomeText(t('homeKicker')))}</div>
+            <h1 id="hd-main-title" class="hd-title">${esc(cleanHomeText(t('homeTitle')))}</h1>
+            <p class="hd-desc">${esc(cleanHomeText(t('homeDesc')))}</p>
+          </div>
+          <div class="hd-command-actions">
+            <button type="button" class="hd-btn hd-btn-primary" data-action="quick-start-kunci1">${esc(cleanHomeText(t('homeStartBtn')))}</button>
+            <button type="button" class="hd-btn hd-btn-secondary" data-page="setup">${esc(cleanHomeText(t('configExamBtn')))}</button>
+          </div>
         </div>
-        <div class="section-list">
-          ${packages.map(pkg => `
-            <div class="section-row">
-              <div class="section-monogram">食</div>
-              <div class="section-row-name">
-                <strong>${esc(pkg.name)}</strong>
-                <span>${esc(pkg.sourcePdf ? `${t('pkgSource')}: ${pkg.sourcePdf}` : pkg.description)} · ${pkg.withImage} ${esc(t('pkgWithImg'))}</span>
-              </div>
-              <strong class="section-count">${pkg.active}<small> ${esc(t('pkgUnit'))}</small></strong>
-              <div class="row-actions">
-                <button class="button button-small button-outline" data-action="filter-package" data-id="${esc(pkg.id)}">${esc(t('navBank'))}</button>
-                <button class="button button-small button-primary" data-action="quick-package" data-id="${esc(pkg.id)}">${esc(t('pkgStartBtn'))}</button>
+        <div class="hd-metrics" role="region" aria-label="Ringkasan Data Bank Soal">
+          <div class="hd-metric">
+            <span class="hd-metric-label">${esc(cleanHomeText(t('statTotalBank')))}</span>
+            <strong class="hd-metric-value">${qs}</strong>
+            <span class="hd-metric-note">${ready} ${esc(cleanHomeText(t('statReadyNote')))}</span>
+          </div>
+          <div class="hd-metric">
+            <span class="hd-metric-label">${esc(cleanHomeText(t('statKunci1')))}</span>
+            <strong class="hd-metric-value">${kunciSet ? kunciSet.active : 0}</strong>
+            <span class="hd-metric-note">${esc(cleanHomeText(t('statKunci1Note')))}</span>
+          </div>
+          <div class="hd-metric">
+            <span class="hd-metric-label">${esc(cleanHomeText(t('statPackages')))}</span>
+            <strong class="hd-metric-value">${activePkgCount}</strong>
+            <span class="hd-metric-note">${esc(cleanHomeText(t('statPackagesNote')))}</span>
+          </div>
+          <div class="hd-metric">
+            <span class="hd-metric-label">${esc(cleanHomeText(t('statHistory')))}</span>
+            <strong class="hd-metric-value">${completedSessions.length}</strong>
+            <span class="hd-metric-note">${esc(cleanHomeText(t('statHistoryNote')))}</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="hd-workspace">
+        <section class="hd-panel hd-packages-panel" aria-labelledby="hd-pkg-heading">
+          <div class="hd-panel-head">
+            <div>
+              <h2 id="hd-pkg-heading" class="hd-panel-title">${esc(cleanHomeText(t('pkgPanelTitle')))}</h2>
+              <p class="hd-panel-sub">${esc(cleanHomeText(t('pkgPanelSub')))}</p>
+            </div>
+          </div>
+          <div class="hd-filter-bar">
+            <div class="hd-filter-tabs" role="group" aria-label="${esc(cleanHomeText(t('pkgLabel')))}">
+              <button type="button" class="hd-filter-tab ${activeFilter === 'all' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="all" aria-pressed="${activeFilter === 'all'}">
+                <span>${esc(filterLabels.all)}</span>
+                <span class="hd-filter-count">(${packages.length})</span>
+              </button>
+              <button type="button" class="hd-filter-tab ${activeFilter === 'kunci' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="kunci" aria-pressed="${activeFilter === 'kunci'}">
+                <span>${esc(filterLabels.kunci)}</span>
+                <span class="hd-filter-count">(${kunciPackages.length})</span>
+              </button>
+              <button type="button" class="hd-filter-tab ${activeFilter === 'bonus' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="bonus" aria-pressed="${activeFilter === 'bonus'}">
+                <span>${esc(filterLabels.bonus)}</span>
+                <span class="hd-filter-count">(${bonusPackages.length})</span>
+              </button>
+            </div>
+          </div>
+          <div class="hd-pkg-list">
+            ${visiblePackages.map((pkg, idx) => {
+              const code = getHomePackageCode(pkg, idx);
+              const isPrimary = pkg.id === 'ssw-pm-kunci-ujian-1';
+              return `
+                <div class="hd-pkg-row">
+                  <div class="hd-pkg-code ${isPrimary ? 'is-primary-set' : ''}" aria-hidden="true">${esc(code)}</div>
+                  <div class="hd-pkg-info">
+                    <strong class="hd-pkg-name">${esc(cleanHomeText(pkg.name))}</strong>
+                    <span class="hd-pkg-meta">${esc(cleanHomeText(pkg.sourcePdf ? `${t('pkgSource')}: ${pkg.sourcePdf}` : pkg.description))} · ${pkg.withImage} ${esc(cleanHomeText(t('pkgWithImg')))}</span>
+                  </div>
+                  <div class="hd-pkg-stat">
+                    <strong>${pkg.active}</strong><small>${esc(cleanHomeText(t('pkgUnit')))}</small>
+                  </div>
+                  <div class="hd-pkg-actions">
+                    <button type="button" class="hd-btn hd-btn-secondary hd-btn-compact" data-action="filter-package" data-id="${esc(pkg.id)}">${esc(cleanHomeText(t('navBank')))}</button>
+                    <button type="button" class="hd-btn hd-btn-primary hd-btn-compact" data-action="quick-package" data-id="${esc(pkg.id)}">${esc(cleanHomeText(t('pkgStartBtn')))}</button>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+          <div class="hd-panel-footer">
+            <button type="button" class="hd-btn hd-btn-secondary hd-btn-compact" data-page="bank">${esc(cleanHomeText(t('manageBankBtn')))}</button>
+            <button type="button" class="hd-btn hd-btn-primary hd-btn-compact" data-page="setup">${esc(cleanHomeText(t('configExamBtn')))}</button>
+          </div>
+        </section>
+
+        <div class="hd-side-rail">
+          <section class="hd-panel" aria-labelledby="hd-modes-heading">
+            <div class="hd-panel-head">
+              <div>
+                <h2 id="hd-modes-heading" class="hd-panel-title">${esc(cleanHomeText(t('modesPanelTitle')))}</h2>
+                <p class="hd-panel-sub">${esc(cleanHomeText(t('modesPanelSub')))}</p>
               </div>
             </div>
-          `).join('')}
+            <div class="hd-mode-list">
+              <button type="button" class="hd-mode-item" data-action="quick-practice-kunci1">
+                <span class="hd-mode-badge" aria-hidden="true">ふ</span>
+                <span class="hd-mode-body">
+                  <strong class="hd-mode-title">${esc(cleanHomeText(t('qaPracTitle')))}</strong>
+                  <span class="hd-mode-desc">${esc(cleanHomeText(t('qaPracSub')))}</span>
+                </span>
+              </button>
+              <button type="button" class="hd-mode-item" data-action="quick-custom">
+                <span class="hd-mode-badge" aria-hidden="true">⚙</span>
+                <span class="hd-mode-body">
+                  <strong class="hd-mode-title">${esc(cleanHomeText(t('qaCustTitle')))}</strong>
+                  <span class="hd-mode-desc">${esc(cleanHomeText(t('qaCustSub')))}</span>
+                </span>
+              </button>
+              <button type="button" class="hd-mode-item" data-page="bank">
+                <span class="hd-mode-badge" aria-hidden="true">＋</span>
+                <span class="hd-mode-body">
+                  <strong class="hd-mode-title">${esc(cleanHomeText(t('qaBankTitle')))}</strong>
+                  <span class="hd-mode-desc">${esc(cleanHomeText(t('qaBankSub')))}</span>
+                </span>
+              </button>
+              <button type="button" class="hd-mode-item" data-page="backup">
+                <span class="hd-mode-badge" aria-hidden="true">⇅</span>
+                <span class="hd-mode-body">
+                  <strong class="hd-mode-title">${esc(cleanHomeText(t('qaBackupTitle')))}</strong>
+                  <span class="hd-mode-desc">${esc(cleanHomeText(t('qaBackupSub')))}</span>
+                </span>
+              </button>
+            </div>
+            <div class="hd-scoring-box">
+              <strong class="hd-scoring-title">${esc(cleanHomeText(t('scoringNoticeTitle')))}</strong>
+              <p class="hd-scoring-text">${esc(cleanHomeText(t('scoringNoticeBody')))}</p>
+            </div>
+          </section>
         </div>
-        <div class="panel-footer">
-          <button class="button button-outline" data-page="bank">${esc(t('manageBankBtn'))}</button>
-          <button class="button button-primary" data-page="setup">${esc(t('configExamBtn'))}</button>
-        </div>
-      </section>
-      <section class="panel setup-card">
-        <div class="panel-head">
-          <div>
-            <h2>${esc(t('modesPanelTitle'))}</h2>
-            <p>${esc(t('modesPanelSub'))}</p>
-          </div>
-        </div>
-        <div class="quick-actions">
-          <button class="quick-action" data-action="quick-start-kunci1">
-            <span class="quick-icon">▣</span>
-            <span><strong>${esc(t('qaFullTitle'))}</strong><small>${esc(t('qaFullSub'))}</small></span>
-            <span>→</span>
-          </button>
-          <button class="quick-action" data-action="quick-practice-kunci1">
-            <span class="quick-icon">ふ</span>
-            <span><strong>${esc(t('qaPracTitle'))}</strong><small>${esc(t('qaPracSub'))}</small></span>
-            <span>→</span>
-          </button>
-          <button class="quick-action" data-action="quick-custom">
-            <span class="quick-icon">⚙</span>
-            <span><strong>${esc(t('qaCustTitle'))}</strong><small>${esc(t('qaCustSub'))}</small></span>
-            <span>→</span>
-          </button>
-          <button class="quick-action" data-page="bank">
-            <span class="quick-icon">＋</span>
-            <span><strong>${esc(t('qaBankTitle'))}</strong><small>${esc(t('qaBankSub'))}</small></span>
-            <span>→</span>
-          </button>
-          <button class="quick-action" data-page="backup">
-            <span class="quick-icon">⇅</span>
-            <span><strong>${esc(t('qaBackupTitle'))}</strong><small>${esc(t('qaBackupSub'))}</small></span>
-            <span>→</span>
-          </button>
-        </div>
-        <div class="notice notice-neutral">
-          <strong>${esc(t('scoringNoticeTitle'))}</strong>
-          <p>${esc(t('scoringNoticeBody'))}</p>
-        </div>
-      </section>
-    </div>
-    <section class="panel history-preview">
-      <div class="panel-head">
-        <div>
-          <h2>${esc(t('recentHistTitle'))}</h2>
-          <p>${esc(t('recentHistSub'))}</p>
-        </div>
-        <button class="text-button" data-page="history">${esc(t('viewAllHist'))}</button>
       </div>
-      ${latest.length ? `<div class="table-wrap"><table><thead><tr><th>${esc(t('thDate'))}</th><th>${esc(t('thPkgSim'))}</th><th>${esc(t('thMode'))}</th><th>${esc(t('thCorrect'))}</th><th>${esc(t('thPointScore'))}</th><th>${esc(t('thPercent'))}</th><th></th></tr></thead><tbody>${latest.map(s => {
-        const st = rawStats(s);
-        return `<tr><td>${fmtDate(s.endedAt || s.startedAt, loc)}</td><td><strong>${esc(s.title || 'SSW PM Mock Test')}</strong><small class="table-sub">${esc(s.candidateName || 'Candidate')}</small></td><td>${s.mode === 'practice' ? esc(t('modePractice')) : esc(t('modeExam'))}</td><td><strong>${st.correct} / ${st.total}</strong></td><td>${st.weightedScore} / ${st.maxWeightedScore}</td><td><strong>${st.percent}%</strong></td><td><button class="button button-small button-outline" data-action="open-result" data-id="${s.id}">${esc(t('btnResultReview'))}</button></td></tr>`;
-      }).join('')}</tbody></table></div>` : `<div class="empty-state"><span class="empty-symbol">◷</span><strong>${esc(t('emptyHistTitle'))}</strong><p>${esc(t('emptyHistSub'))}</p></div>`}
-    </section>`;
+
+      <section class="hd-panel hd-history-panel" aria-labelledby="hd-history-heading">
+        <div class="hd-panel-head">
+          <div>
+            <h2 id="hd-history-heading" class="hd-panel-title">${esc(cleanHomeText(t('recentHistTitle')))}</h2>
+            <p class="hd-panel-sub">${esc(cleanHomeText(t('recentHistSub')))}</p>
+          </div>
+          <button type="button" class="hd-link-btn" data-page="history">${esc(cleanHomeText(t('viewAllHist')))}</button>
+        </div>
+        ${latest.length ? `
+          <div class="hd-table-wrap">
+            <table class="hd-table">
+              <thead>
+                <tr>
+                  <th>${esc(cleanHomeText(t('thDate')))}</th>
+                  <th>${esc(cleanHomeText(t('thPkgSim')))}</th>
+                  <th>${esc(cleanHomeText(t('thMode')))}</th>
+                  <th>${esc(cleanHomeText(t('thCorrect')))}</th>
+                  <th>${esc(cleanHomeText(t('thPointScore')))}</th>
+                  <th>${esc(cleanHomeText(t('thPercent')))}</th>
+                  <th>${esc(cleanHomeText(t('thAction')))}</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${latest.map(s => {
+                  const st = rawStats(s);
+                  return `
+                    <tr>
+                      <td data-label="${esc(cleanHomeText(t('thDate')))}">${fmtDate(s.endedAt || s.startedAt, loc)}</td>
+                      <td class="hd-td-pkg" data-label="${esc(cleanHomeText(t('thPkgSim')))}">
+                        <strong class="hd-hist-pkg">${esc(cleanHomeText(s.title || 'SSW PM Mock Test'))}</strong>
+                        <span class="hd-hist-cand">${esc(cleanHomeText(s.candidateName || 'Candidate'))}</span>
+                      </td>
+                      <td data-label="${esc(cleanHomeText(t('thMode')))}">${s.mode === 'practice' ? esc(cleanHomeText(t('modePractice'))) : esc(cleanHomeText(t('modeExam')))}</td>
+                      <td data-label="${esc(cleanHomeText(t('thCorrect')))}"><strong>${st.correct} / ${st.total}</strong></td>
+                      <td data-label="${esc(cleanHomeText(t('thPointScore')))}">${st.weightedScore} / ${st.maxWeightedScore}</td>
+                      <td data-label="${esc(cleanHomeText(t('thPercent')))}"><strong>${st.percent}%</strong></td>
+                      <td class="hd-td-action" data-label="${esc(cleanHomeText(t('thAction')))}">
+                        <button type="button" class="hd-btn hd-btn-secondary hd-btn-compact" data-action="open-result" data-id="${esc(s.id)}">${esc(cleanHomeText(t('btnResultReview')))}</button>
+                      </td>
+                    </tr>
+                  `;
+                }).join('')}
+              </tbody>
+            </table>
+          </div>
+        ` : `
+          <div class="hd-empty-history">
+            <strong>${esc(cleanHomeText(t('emptyHistTitle')))}</strong>
+            <p>${esc(cleanHomeText(t('emptyHistSub')))}</p>
+          </div>
+        `}
+      </section>
+    </div>`;
 }
 
 function modeDescription(mode) {
@@ -3495,6 +3631,7 @@ async function handleAction(action, el) {
     case 'reload-all-builtin': await ensureAllBuiltinSetsLoaded(true); render(); break;
     case 'reload-kunci1': await ensureKunciUjian1Loaded(true); render(); break;
     case 'reload-ssw-tipe2': await ensureSswPmTipe2Loaded(true); render(); break;
+    case 'set-home-pkg-filter': state.homePkgFilter = id || 'all'; renderHome(); break;
     case 'quick-start-kunci1': {
       await ensureKunciUjian1Loaded(false);
       state.setup.mode = 'full';

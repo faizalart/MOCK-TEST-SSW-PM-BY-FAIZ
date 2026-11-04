@@ -1,0 +1,838 @@
+/* ============================================================================
+   HOME-DASHBOARD.css
+   Scoped exclusively to .home-dashboard (Homepage / Dashboard view).
+   Does NOT match or affect .exam-shell, body.exam-mode, or any other screen.
+   Design Direction: Minimalist Modern Clean | Dials: ENERGY 1 / RHYTHM 2 / MOTION 1
+============================================================================ */
+
+.home-dashboard {
+  --hd-surface: #ffffff;
+  --hd-surface-subtle: #f8fafb;
+  --hd-surface-tint: #f2f7eb;
+  --hd-ink: #18222c;
+  --hd-ink-secondary: #43515f;
+  --hd-ink-muted: #52606e;
+  --hd-navy: #25364a;
+  --hd-navy-hover: #1b2838;
+  --hd-olive: #587e23;
+  --hd-olive-hover: #46661a;
+  --hd-olive-text: #3f5e16;
+  --hd-olive-border: #c5dca0;
+  --hd-line: #dfe5ec;
+  --hd-line-strong: #c9d2dc;
+  --hd-radius-panel: 8px;
+  --hd-radius-control: 6px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--hd-ink);
+  font-family: var(--font, Inter, system-ui, -apple-system, "Segoe UI", "Noto Sans JP", sans-serif);
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.home-dashboard *,
+.home-dashboard *::before,
+.home-dashboard *::after {
+  box-sizing: border-box;
+}
+
+/* Focus Affordance (R-32, R-39) */
+.home-dashboard button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.home-dashboard button:focus-visible {
+  outline: 2px solid var(--hd-navy);
+  outline-offset: 2px;
+}
+
+/* 1. Conditional Active Session Resume Banner */
+.home-dashboard .hd-resume-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 20px;
+  background: var(--hd-surface-tint);
+  border: 1px solid var(--hd-olive-border);
+  border-left: 4px solid var(--hd-olive);
+  border-radius: var(--hd-radius-panel);
+}
+
+.home-dashboard .hd-resume-info {
+  min-width: 0;
+}
+
+.home-dashboard .hd-resume-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--hd-olive-text);
+  margin-bottom: 2px;
+}
+
+.home-dashboard .hd-resume-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--hd-ink);
+  line-height: 1.35;
+}
+
+.home-dashboard .hd-resume-meta {
+  font-size: 12px;
+  color: var(--hd-ink-secondary);
+  margin: 2px 0 0;
+}
+
+/* 2. Command Header & Real-Data Metric Ledger */
+.home-dashboard .hd-command {
+  background: var(--hd-surface);
+  border: 1px solid var(--hd-line);
+  border-radius: var(--hd-radius-panel);
+  overflow: hidden;
+}
+
+.home-dashboard .hd-command-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px 26px 22px;
+}
+
+.home-dashboard .hd-command-copy {
+  min-width: 0;
+  max-width: 720px;
+}
+
+.home-dashboard .hd-kicker {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hd-olive-text);
+  margin-bottom: 8px;
+}
+
+.home-dashboard .hd-title {
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  color: var(--hd-ink);
+  margin: 0 0 8px;
+}
+
+.home-dashboard .hd-desc {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--hd-ink-secondary);
+  margin: 0;
+}
+
+.home-dashboard .hd-command-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding-top: 4px;
+}
+
+/* Buttons inside .home-dashboard */
+.home-dashboard .hd-btn {
+  min-height: 40px;
+  padding: 0 16px;
+  border-radius: var(--hd-radius-control);
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  transition: background-color 0.14s ease, border-color 0.14s ease, color 0.14s ease;
+}
+
+.home-dashboard .hd-btn-primary {
+  background: var(--hd-olive);
+  border-color: var(--hd-olive);
+  color: #ffffff;
+}
+
+.home-dashboard .hd-btn-primary:hover:not(:disabled) {
+  background: var(--hd-olive-hover);
+  border-color: var(--hd-olive-hover);
+}
+
+.home-dashboard .hd-btn-secondary {
+  background: var(--hd-surface);
+  border-color: var(--hd-line-strong);
+  color: var(--hd-ink);
+}
+
+.home-dashboard .hd-btn-secondary:hover:not(:disabled) {
+  background: var(--hd-surface-subtle);
+  border-color: var(--hd-navy);
+}
+
+.home-dashboard .hd-btn-compact {
+  min-height: 36px;
+  padding: 0 13px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Inline Real-Data Metric Strip */
+.home-dashboard .hd-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--hd-line);
+  background: var(--hd-surface-subtle);
+}
+
+.home-dashboard .hd-metric {
+  padding: 14px 22px;
+  border-right: 1px solid var(--hd-line);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.home-dashboard .hd-metric:last-child {
+  border-right: 0;
+}
+
+.home-dashboard .hd-metric-label {
+  font-size: 11px;
+  font-weight: 650;
+  color: var(--hd-ink-muted);
+}
+
+.home-dashboard .hd-metric-value {
+  font-size: 22px;
+  font-weight: 750;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--hd-navy);
+  font-variant-numeric: tabular-nums;
+}
+
+.home-dashboard .hd-metric-note {
+  font-size: 11px;
+  color: var(--hd-ink-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 3. Main Two-Column Workspace */
+.home-dashboard .hd-workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(320px, 0.95fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.home-dashboard .hd-panel {
+  background: var(--hd-surface);
+  border: 1px solid var(--hd-line);
+  border-radius: var(--hd-radius-panel);
+  overflow: hidden;
+}
+
+.home-dashboard .hd-panel-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 22px 16px;
+  border-bottom: 1px solid var(--hd-line);
+}
+
+.home-dashboard .hd-panel-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--hd-ink);
+  margin: 0;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+}
+
+.home-dashboard .hd-panel-sub {
+  font-size: 12px;
+  color: var(--hd-ink-secondary);
+  margin: 4px 0 0;
+  line-height: 1.5;
+}
+
+/* Package Category Filter Bar */
+.home-dashboard .hd-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 22px;
+  background: var(--hd-surface-subtle);
+  border-bottom: 1px solid var(--hd-line);
+  flex-wrap: wrap;
+}
+
+.home-dashboard .hd-filter-tabs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.home-dashboard .hd-filter-tab {
+  min-height: 32px;
+  padding: 0 12px;
+  border-radius: var(--hd-radius-control);
+  border: 1px solid var(--hd-line-strong);
+  background: var(--hd-surface);
+  color: var(--hd-ink-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.14s ease, border-color 0.14s ease, color 0.14s ease;
+}
+
+.home-dashboard .hd-filter-tab:hover {
+  border-color: var(--hd-navy);
+  color: var(--hd-ink);
+}
+
+.home-dashboard .hd-filter-tab.is-active {
+  background: var(--hd-navy);
+  border-color: var(--hd-navy);
+  color: #ffffff;
+}
+
+.home-dashboard .hd-filter-count {
+  font-size: 11px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.85;
+}
+
+/* Package List & Rows */
+.home-dashboard .hd-pkg-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 560px;
+  overflow-y: auto;
+}
+
+.home-dashboard .hd-pkg-row {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 22px;
+  border-bottom: 1px solid var(--hd-line);
+  transition: background-color 0.12s ease;
+}
+
+.home-dashboard .hd-pkg-row:last-child {
+  border-bottom: 0;
+}
+
+.home-dashboard .hd-pkg-row:hover {
+  background: var(--hd-surface-subtle);
+}
+
+.home-dashboard .hd-pkg-code {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--hd-radius-control);
+  background: var(--hd-surface-subtle);
+  border: 1px solid var(--hd-line-strong);
+  color: var(--hd-navy);
+  font-size: 12px;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.home-dashboard .hd-pkg-code.is-primary-set {
+  background: var(--hd-surface-tint);
+  border-color: var(--hd-olive-border);
+  color: var(--hd-olive-text);
+}
+
+.home-dashboard .hd-pkg-info {
+  min-width: 0;
+}
+
+.home-dashboard .hd-pkg-name {
+  display: block;
+  font-size: 13px;
+  font-weight: 680;
+  color: var(--hd-ink);
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.home-dashboard .hd-pkg-meta {
+  display: block;
+  font-size: 11px;
+  color: var(--hd-ink-muted);
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
+.home-dashboard .hd-pkg-stat {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  padding: 0 4px;
+}
+
+.home-dashboard .hd-pkg-stat strong {
+  font-size: 15px;
+  font-weight: 750;
+  color: var(--hd-navy);
+}
+
+.home-dashboard .hd-pkg-stat small {
+  font-size: 11px;
+  color: var(--hd-ink-muted);
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.home-dashboard .hd-pkg-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.home-dashboard .hd-panel-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 13px 22px;
+  background: var(--hd-surface-subtle);
+  border-top: 1px solid var(--hd-line);
+}
+
+/* 4. Right Column: Study Modes & Secondary Shortcuts */
+.home-dashboard .hd-side-rail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-dashboard .hd-mode-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-dashboard .hd-mode-item {
+  width: 100%;
+  background: var(--hd-surface);
+  border: 0;
+  border-bottom: 1px solid var(--hd-line);
+  padding: 14px 20px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
+  color: var(--hd-ink);
+  transition: background-color 0.12s ease;
+}
+
+.home-dashboard .hd-mode-item:last-child {
+  border-bottom: 0;
+}
+
+.home-dashboard .hd-mode-item:hover {
+  background: var(--hd-surface-subtle);
+}
+
+.home-dashboard .hd-mode-item:hover .hd-mode-title {
+  color: var(--hd-olive-text);
+}
+
+.home-dashboard .hd-mode-badge {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--hd-radius-control);
+  background: var(--hd-surface-subtle);
+  border: 1px solid var(--hd-line-strong);
+  color: var(--hd-navy);
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.home-dashboard .hd-mode-body {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.home-dashboard .hd-mode-title {
+  font-size: 13px;
+  font-weight: 680;
+  color: var(--hd-ink);
+  line-height: 1.3;
+}
+
+.home-dashboard .hd-mode-desc {
+  font-size: 11px;
+  color: var(--hd-ink-secondary);
+  line-height: 1.45;
+}
+
+/* Scoring Specification Box */
+.home-dashboard .hd-scoring-box {
+  padding: 15px 20px;
+  background: var(--hd-surface-subtle);
+  border-top: 1px solid var(--hd-line);
+}
+
+.home-dashboard .hd-scoring-title {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--hd-ink);
+  margin-bottom: 4px;
+}
+
+.home-dashboard .hd-scoring-text {
+  font-size: 11.5px;
+  line-height: 1.55;
+  color: var(--hd-ink-secondary);
+  margin: 0;
+}
+
+/* 5. Recent Examination History Panel */
+.home-dashboard .hd-link-btn {
+  background: transparent;
+  border: 1px solid var(--hd-line-strong);
+  border-radius: var(--hd-radius-control);
+  color: var(--hd-navy);
+  font-size: 12px;
+  font-weight: 650;
+  min-height: 34px;
+  padding: 0 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.home-dashboard .hd-link-btn:hover {
+  background: var(--hd-surface-subtle);
+  border-color: var(--hd-navy);
+}
+
+.home-dashboard .hd-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.home-dashboard .hd-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 12px;
+}
+
+.home-dashboard .hd-table thead th {
+  background: var(--hd-surface-subtle);
+  color: var(--hd-ink-muted);
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 11px 18px;
+  border-bottom: 1px solid var(--hd-line);
+  white-space: nowrap;
+}
+
+.home-dashboard .hd-table tbody td {
+  padding: 13px 18px;
+  border-bottom: 1px solid var(--hd-line);
+  vertical-align: middle;
+  color: var(--hd-ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.home-dashboard .hd-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.home-dashboard .hd-table tbody tr:hover {
+  background: var(--hd-surface-subtle);
+}
+
+.home-dashboard .hd-hist-pkg {
+  display: block;
+  font-weight: 680;
+  color: var(--hd-ink);
+}
+
+.home-dashboard .hd-hist-cand {
+  display: block;
+  font-size: 11px;
+  color: var(--hd-ink-muted);
+  margin-top: 2px;
+}
+
+.home-dashboard .hd-empty-history {
+  padding: 32px 22px;
+  text-align: center;
+}
+
+.home-dashboard .hd-empty-history strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--hd-ink);
+  margin-bottom: 4px;
+}
+
+.home-dashboard .hd-empty-history p {
+  font-size: 12px;
+  color: var(--hd-ink-secondary);
+  margin: 0 auto;
+  max-width: 460px;
+}
+
+/* ============================================================================
+   RESPONSIVE REFLOW (HOMEPAGE ONLY — NEVER TOUCHES EXAM)
+============================================================================ */
+
+@media (max-width: 1024px) {
+  .home-dashboard .hd-workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .home-dashboard .hd-pkg-list {
+    max-height: 480px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-dashboard .hd-command-top {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .home-dashboard .hd-command-actions {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .home-dashboard .hd-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home-dashboard .hd-metric:nth-child(2) {
+    border-right: 0;
+  }
+
+  .home-dashboard .hd-metric:nth-child(1),
+  .home-dashboard .hd-metric:nth-child(2) {
+    border-bottom: 1px solid var(--hd-line);
+  }
+}
+
+@media (max-width: 640px) {
+  .home-dashboard {
+    gap: 16px;
+  }
+
+  /* 44px Minimum Mobile Touch Targets (R-03) */
+  .home-dashboard .hd-btn,
+  .home-dashboard .hd-btn-compact,
+  .home-dashboard .hd-filter-tab,
+  .home-dashboard .hd-link-btn {
+    min-height: 44px;
+  }
+
+  .home-dashboard .hd-resume-banner {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 14px 16px;
+  }
+
+  .home-dashboard .hd-resume-banner .hd-btn {
+    width: 100%;
+  }
+
+  .home-dashboard .hd-command-top {
+    padding: 18px 16px;
+  }
+
+  .home-dashboard .hd-title {
+    font-size: 20px;
+  }
+
+  .home-dashboard .hd-command-actions {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .home-dashboard .hd-metric {
+    padding: 12px 16px;
+  }
+
+  .home-dashboard .hd-metric-value {
+    font-size: 20px;
+  }
+
+  .home-dashboard .hd-metric-note {
+    white-space: normal;
+    line-height: 1.35;
+  }
+
+  .home-dashboard .hd-panel-head {
+    padding: 16px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .home-dashboard .hd-filter-bar {
+    padding: 10px 16px;
+  }
+
+  .home-dashboard .hd-filter-tabs {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 6px;
+  }
+
+  .home-dashboard .hd-filter-tab {
+    flex: 1 1 auto;
+    justify-content: center;
+    padding: 0 10px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  /* Package Row Reflow on Mobile: Clean 2-Row Card without text squeezing */
+  .home-dashboard .hd-pkg-list {
+    max-height: 520px;
+  }
+
+  .home-dashboard .hd-pkg-row {
+    grid-template-columns: 38px minmax(0, 1fr) auto;
+    gap: 10px 12px;
+    padding: 14px 16px;
+  }
+
+  .home-dashboard .hd-pkg-actions {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 100%;
+    padding-top: 4px;
+  }
+
+  .home-dashboard .hd-pkg-actions .hd-btn {
+    width: 100%;
+  }
+
+  .home-dashboard .hd-panel-footer {
+    padding: 14px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .home-dashboard .hd-panel-footer .hd-btn {
+    width: 100%;
+  }
+
+  .home-dashboard .hd-mode-item {
+    padding: 14px 16px;
+    min-height: 56px;
+  }
+
+  /* Responsive Mobile History Cards (No horizontal table scrolling needed) */
+  .home-dashboard .hd-table thead {
+    display: none;
+  }
+
+  .home-dashboard .hd-table,
+  .home-dashboard .hd-table tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .home-dashboard .hd-table tbody tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 12px;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--hd-line);
+  }
+
+  .home-dashboard .hd-table tbody tr:last-child {
+    border-bottom: 0;
+  }
+
+  .home-dashboard .hd-table tbody td {
+    display: block;
+    padding: 0;
+    border: 0;
+  }
+
+  .home-dashboard .hd-table tbody td::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--hd-ink-muted);
+    margin-bottom: 2px;
+  }
+
+  .home-dashboard .hd-table tbody td.hd-td-pkg {
+    grid-column: 1 / -1;
+  }
+
+  .home-dashboard .hd-table tbody td.hd-td-action {
+    grid-column: 1 / -1;
+    padding-top: 6px;
+  }
+
+  .home-dashboard .hd-table tbody td.hd-td-action::before {
+    display: none;
+  }
+
+  .home-dashboard .hd-table tbody td.hd-td-action .hd-btn {
+    width: 100%;
+  }
+}
