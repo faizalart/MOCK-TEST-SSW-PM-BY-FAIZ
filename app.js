@@ -916,7 +916,32 @@ function syncExamViewportAfterResume() {
   setTimeout(scheduleExamViewportSync, 350);
 }
 
-// Fullscreen entered or exited.
+
+function syncExamViewportHeight() {
+  const height = Math.round(
+    window.visualViewport?.height ||
+    window.innerHeight ||
+    document.documentElement.clientHeight
+  );
+
+  if (height > 0) {
+    document.documentElement.style.setProperty(
+      '--exam-viewport-height',
+      `${height}px`
+    );
+  }
+}
+
+function syncExamViewportAfterResume() {
+  syncExamViewportHeight();
+
+  requestAnimationFrame(syncExamViewportHeight);
+
+  setTimeout(syncExamViewportHeight, 120);
+  setTimeout(syncExamViewportHeight, 350);
+}
+
+// Fullscreen masuk atau keluar.
 document.addEventListener('fullscreenchange', () => {
   updateFullscreenUI();
   syncExamViewportAfterResume();
@@ -926,6 +951,35 @@ document.addEventListener('webkitfullscreenchange', () => {
   updateFullscreenUI();
   syncExamViewportAfterResume();
 });
+
+// Ukuran viewport berubah.
+window.addEventListener('resize', syncExamViewportAfterResume);
+
+window.visualViewport?.addEventListener(
+  'resize',
+  syncExamViewportAfterResume
+);
+
+// Android kembali dari background/minimize.
+window.addEventListener(
+  'pageshow',
+  syncExamViewportAfterResume
+);
+
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) {
+    syncExamViewportAfterResume();
+  }
+});
+
+// Perubahan orientasi HP.
+window.addEventListener('orientationchange', () => {
+  setTimeout(syncExamViewportAfterResume, 200);
+});
+
+// Pengukuran awal.
+syncExamViewportHeight();
+
 
 // Browser viewport changes.
 window.addEventListener('resize', scheduleExamViewportSync);
