@@ -153,29 +153,18 @@ body.exam-mode {
   background: #ffffff !important;
   color: #111111 !important;
   font-family: Arial, "Yu Gothic UI", "Meiryo", sans-serif !important;
-  height: var(--exam-viewport-height, 100dvh) !important;
-  min-height: 0 !important;
-  max-height: var(--exam-viewport-height, 100dvh) !important;
   overflow: hidden !important;
 }
 body.exam-mode #app {
   padding: 0 !important;
   margin: 0 !important;
-  height: var(--exam-viewport-height, 100dvh) !important;
-  min-height: 0 !important;
-  max-height: var(--exam-viewport-height, 100dvh) !important;
-  overflow: hidden !important;
-}
-.exam-mode .main-area,
-.exam-mode .page-content {
-  height: 100% !important;
-  min-height: 0 !important;
-  max-height: 100% !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  overflow: hidden !important;
 }
 .exam-shell {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
   width: 100% !important;
   height: var(--exam-viewport-height, 100dvh) !important;
   min-height: 0 !important;
@@ -187,6 +176,7 @@ body.exam-mode #app {
   display: flex !important;
   flex-direction: column !important;
   overflow: hidden !important;
+  z-index: 30 !important;
 }
 
 /* 1. Top Black Header Bar (#000000) with 3-Column Balanced Grid */
@@ -371,8 +361,9 @@ body.exam-mode #app {
 .exam-main {
   display: grid !important;
   grid-template-columns: 36px 58px minmax(0, 1fr) !important;
+  grid-template-rows: minmax(0, 1fr) !important;
   gap: 0 !important;
-  flex: 1 !important;
+  flex: 1 1 0% !important;
   min-height: 0 !important;
   background: #ffffff !important;
   overflow: hidden !important;
@@ -640,16 +631,21 @@ body.exam-mode #app {
   right: auto !important;
   bottom: auto !important;
   width: 100% !important;
-  flex: 0 0 auto !important;
-  height: auto !important;
-  min-height: calc(46px + env(safe-area-inset-bottom, 0px)) !important;
+  flex: 0 0 46px !important;
+  height: 46px !important;
+  min-height: 46px !important;
+  max-height: 46px !important;
+  margin: 0 !important;
   background: #000000 !important;
   border: 0 !important;
   border-top: 2px solid #638c29 !important;
-  padding: 0 10px env(safe-area-inset-bottom, 0px) !important;
+  padding: 0 10px !important;
   display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
   align-items: center !important;
   justify-content: space-between !important;
+  gap: 8px !important;
   z-index: 45 !important;
 }
 
@@ -969,18 +965,60 @@ body.exam-mode #app {
   }
   .exam-main {
     grid-template-columns: 30px 48px minmax(0, 1fr) !important;
+    grid-template-rows: minmax(0, 1fr) !important;
   }
-  .exam-category-rail {
+  .exam-category-rail,
+  .exam-progress-rail {
     width: 30px !important;
   }
   .exam-question-map {
     width: 48px !important;
-    padding: 6px 4px 56px 5px !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    padding: 6px 4px 24px 5px !important;
   }
   .question-map-item, .question-map-item.current {
     width: 29px !important;
   }
   .exam-workspace {
-    padding: 12px 12px 62px 6px !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    padding: 12px 12px 28px 6px !important;
+  }
+  .exam-bottom {
+    height: 46px !important;
+    min-height: 46px !important;
+    max-height: 46px !important;
+    padding: 0 6px !important;
+    gap: 6px !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+  }
+  .exam-bottom-tools {
+    gap: 4px !important;
+    flex: 0 0 auto !important;
+  }
+  .exam-tool-button {
+    width: 30px !important;
+    min-width: 30px !important;
+    height: 30px !important;
+    font-size: 19px !important;
+  }
+  .exam-nav-buttons {
+    gap: 4px !important;
+    flex: 0 0 auto !important;
+    margin-left: auto !important;
+  }
+  .exam-flag-button {
+    height: 30px !important;
+    min-width: 30px !important;
+    padding: 0 7px !important;
+    font-size: 14px !important;
+  }
+  .exam-nav-buttons .button {
+    height: 30px !important;
+    min-height: 30px !important;
+    padding: 0 8px !important;
+    font-size: 11px !important;
   }
 }
