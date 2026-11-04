@@ -898,7 +898,7 @@ function syncExamViewportHeight() {
   if (!candidates.length) return;
 
   const height = Math.round(Math.min(...candidates));
-  document.documentElement.style.setProperty('--exam-viewport-height', `\${height}px`);
+  document.documentElement.style.setProperty('--exam-viewport-height', `${height}px`);
 
   if (document.body.classList.contains('exam-mode') && (window.scrollY !== 0 || window.scrollX !== 0)) {
     window.scrollTo(0, 0);
