@@ -3,24 +3,24 @@
 <html lang="id">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=5.0, user-scalable=yes" />
   <meta name="theme-color" content="#25364a" />
   <meta name="description" content="SSW PM Mock Test by Faiz — Simulator ujian mandiri 特定技能1号・飲食料品製造業 (食品製造) dengan bank soal lokal dan mode offline." />
 
   <title>SSW PM Mock Test by Faiz — 特定技能1号・飲食料品製造業</title>
 
   <!-- ICON & MANIFEST -->
-  <link rel="icon" href="./hasbulla-192.png" type="image/png" />
-  <link rel="apple-touch-icon" href="./hasbulla-192.png" />
-  <link rel="manifest" href="./manifest.webmanifest?v=ssw11" />
+  <link rel="icon" href="./hasbulla-192.png.png" type="image/png" />
+  <link rel="apple-touch-icon" href="./hasbulla-192.png.png" />
+  <link rel="manifest" href="./manifest.webmanifest?v=ssw12" />
 
   <!-- CSS UTAMA -->
-  <link rel="stylesheet" href="./styles.css?v=ssw11" />
+  <link rel="stylesheet" href="./styles.css?v=ssw12" />
 
   <!-- CSS TAMBAHAN -->
   <link rel="stylesheet" href="./CSV-IMPORT-STYLES.css?v=ssw3" />
   <link rel="stylesheet" href="./RICH-HTML-STYLES.css?v=ssw3" />
-  <link rel="stylesheet" href="./QUESTION-EDITOR-UPDATES.css?v=ssw11" />
+  <link rel="stylesheet" href="./QUESTION-EDITOR-UPDATES.css?v=ssw12" />
 
   <!-- SERVICE WORKER CACHE CLEANUP -->
   <script>
@@ -31,7 +31,7 @@
             keys.forEach(function (key) {
               if (
                 key.indexOf('jft-practice') !== -1 ||
-                (key.indexOf('ssw-pm-mock-test-shell-') === 0 && key !== 'ssw-pm-mock-test-shell-v10')
+                (key.indexOf('ssw-pm-mock-test-shell-') === 0 && key !== 'ssw-pm-mock-test-shell-v11')
               ) {
                 caches.delete(key);
               }
@@ -189,6 +189,6 @@
   <div id="toast-root" class="toast-root" aria-live="polite"></div>
 
   <!-- MAIN JAVASCRIPT -->
-  <script type="module" src="./app.js?v=ssw11"></script>
+  <script type="module" src="./app.js?v=ssw12"></script>
 </body>
 </html>

@@ -153,15 +153,17 @@ body.exam-mode {
   background: #ffffff !important;
   color: #111111 !important;
   font-family: Arial, "Yu Gothic UI", "Meiryo", sans-serif !important;
-  overflow: hidden !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  touch-action: pan-x pan-y pinch-zoom !important;
 }
 body.exam-mode #app {
   padding: 0 !important;
   margin: 0 !important;
 }
 .exam-shell {
-  position: fixed !important;
-  top: var(--exam-viewport-top, 0px) !important;
+  position: relative !important;
+  top: 0 !important;
   left: 0 !important;
   right: 0 !important;
   width: 100% !important;
@@ -176,6 +178,7 @@ body.exam-mode #app {
   flex-direction: column !important;
   overflow: hidden !important;
   z-index: 30 !important;
+  touch-action: pan-x pan-y pinch-zoom !important;
 }
 
 /* 1. Top Black Header Bar (#000000) with 3-Column Balanced Grid */
@@ -1092,5 +1095,79 @@ body.exam-mode #app {
     min-height: 30px !important;
     padding: 0 8px !important;
     font-size: 11px !important;
+  }
+}
+
+
+/* Mobile Fullscreen Landscape Optimization */
+@media (max-height: 520px) and (orientation: landscape) {
+  .exam-header {
+    height: 38px !important;
+    min-height: 38px !important;
+    grid-template-columns: minmax(0, 1fr) auto auto !important;
+    gap: 8px !important;
+    padding: 0 10px !important;
+  }
+  .exam-name, .exam-section-title {
+    font-size: 11px !important;
+    line-height: 1.15 !important;
+  }
+  .exam-header-finish {
+    height: 28px !important;
+    min-height: 28px !important;
+    min-width: 0 !important;
+    padding: 0 10px !important;
+    font-size: 11px !important;
+  }
+  .exam-meta-strip {
+    height: 20px !important;
+    min-height: 20px !important;
+    line-height: 20px !important;
+    font-size: 10.5px !important;
+    padding: 0 10px !important;
+  }
+  .exam-main {
+    grid-template-columns: 32px 50px minmax(0, 1fr) !important;
+    max-height: calc(var(--exam-viewport-height, 100dvh) - 98px) !important;
+    margin-bottom: 40px !important;
+  }
+  .exam-category-rail,
+  .exam-progress-rail {
+    width: 32px !important;
+    height: 100% !important;
+    min-height: 0 !important;
+  }
+  .exam-question-map {
+    width: 50px !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    padding: 6px 4px 16px 6px !important;
+  }
+  .exam-workspace {
+    height: 100% !important;
+    min-height: 0 !important;
+    padding: 10px 16px 24px 10px !important;
+  }
+  .exam-workspace .answer-list {
+    margin-top: 12px !important;
+    gap: 8px !important;
+  }
+  .exam-bottom {
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    max-height: 40px !important;
+    padding: 0 10px !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+  }
+  .exam-tool-button,
+  .exam-flag-button,
+  .exam-nav-buttons .button {
+    height: 28px !important;
+    min-height: 28px !important;
   }
 }

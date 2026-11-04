@@ -1014,6 +1014,36 @@ function isFullscreenActive() {
   return Boolean(document.fullscreenElement || document.webkitFullscreenElement);
 }
 
+async function lockExamLandscape() {
+  try {
+    if (screen.orientation && typeof screen.orientation.lock === 'function') {
+      await screen.orientation.lock('landscape');
+    } else {
+      const legacyLock = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
+      if (typeof legacyLock === 'function') {
+        legacyLock.call(screen, 'landscape');
+      }
+    }
+  } catch (err) {
+    // Diabaikan pada perangkat desktop atau browser yang tidak mendukung kunci orientasi
+  }
+}
+
+function unlockExamOrientation() {
+  try {
+    if (screen.orientation && typeof screen.orientation.unlock === 'function') {
+      screen.orientation.unlock();
+    } else {
+      const legacyUnlock = screen.unlockOrientation || screen.mozUnlockOrientation || screen.msUnlockOrientation;
+      if (typeof legacyUnlock === 'function') {
+        legacyUnlock.call(screen);
+      }
+    }
+  } catch (err) {
+    // Diabaikan jika tidak didukung
+  }
+}
+
 async function toggleFullScreen() {
   const docEl = document.documentElement;
   const reqFs = docEl.requestFullscreen || docEl.webkitRequestFullscreen;
@@ -1025,10 +1055,15 @@ async function toggleFullScreen() {
   try {
     if (!isFullscreenActive()) {
       await reqFs.call(docEl);
-    } else if (exitFs) {
-      await exitFs.call(document);
+      await lockExamLandscape();
+    } else {
+      unlockExamOrientation();
+      if (exitFs) {
+        await exitFs.call(document);
+      }
     }
     updateFullscreenUI();
+    syncExamViewportAfterResume();
   } catch (err) {
     toast(`Mode layar penuh tidak dapat diaktifkan: ${err.message || 'izin ditolak browser'}`, 'warn');
   }
@@ -1057,20 +1092,22 @@ let examViewportTimers = [];
 
 function syncExamViewportHeight() {
   const vv = window.visualViewport;
+  const scale = vv && typeof vv.scale === 'number' ? vv.scale : 1;
+
+  // Jangan ubah tinggi kontainer saat pengguna sedang melakukan pinch-zoom (zoom in / zoom out)
+  if (Math.abs(scale - 1) > 0.02) {
+    return;
+  }
+
   const height = Math.round(
-    (vv && vv.height > 0 ? vv.height : 0) ||
     window.innerHeight ||
+    (vv && vv.height > 0 ? vv.height : 0) ||
     document.documentElement.clientHeight
   );
-  const offsetTop = Math.round(vv && vv.offsetTop > 0 ? vv.offsetTop : 0);
 
   if (height > 0) {
     document.documentElement.style.setProperty('--exam-viewport-height', `${height}px`);
-    document.documentElement.style.setProperty('--exam-viewport-top', `${offsetTop}px`);
-  }
-
-  if (document.body.classList.contains('exam-mode') && (window.scrollY !== 0 || window.scrollX !== 0)) {
-    window.scrollTo(0, 0);
+    document.documentElement.style.setProperty('--exam-viewport-top', '0px');
   }
 }
 
@@ -1091,28 +1128,50 @@ function syncExamViewportAfterResume() {
   ];
 }
 
-document.addEventListener('fullscreenchange', () => {
+function handleFullscreenStateChange() {
+  const active = isFullscreenActive();
+  if (active && document.body.classList.contains('exam-mode') && !document.hidden) {
+    lockExamLandscape();
+  } else {
+    unlockExamOrientation();
+  }
   updateFullscreenUI();
   syncExamViewportAfterResume();
-});
+}
 
-document.addEventListener('webkitfullscreenchange', () => {
-  updateFullscreenUI();
-  syncExamViewportAfterResume();
-});
+document.addEventListener('fullscreenchange', handleFullscreenStateChange);
+document.addEventListener('webkitfullscreenchange', handleFullscreenStateChange);
 
 window.addEventListener('resize', syncExamViewportAfterResume, { passive: true });
 window.addEventListener('orientationchange', syncExamViewportAfterResume, { passive: true });
-window.addEventListener('pageshow', syncExamViewportAfterResume, { passive: true });
+window.addEventListener('pageshow', () => {
+  if (!isFullscreenActive()) unlockExamOrientation();
+  syncExamViewportAfterResume();
+}, { passive: true });
 window.addEventListener('focus', syncExamViewportAfterResume, { passive: true });
 
 if (window.visualViewport) {
   window.visualViewport.addEventListener('resize', syncExamViewportAfterResume, { passive: true });
-  window.visualViewport.addEventListener('scroll', scheduleExamViewportSync, { passive: true });
 }
 
 document.addEventListener('visibilitychange', () => {
-  if (!document.hidden) {
+  if (document.hidden) {
+    // Saat browser di-minimize atau berpindah aplikasi, lepas kunci landscape
+    // dan keluar dari fullscreen agar kembali ke orientasi portrait bawaan HP
+    unlockExamOrientation();
+    if (isFullscreenActive()) {
+      const exitFs = document.exitFullscreen || document.webkitExitFullscreen;
+      if (exitFs) {
+        try {
+          const p = exitFs.call(document);
+          if (p && typeof p.catch === 'function') p.catch(() => {});
+        } catch {}
+      }
+    }
+  } else {
+    if (!isFullscreenActive()) {
+      unlockExamOrientation();
+    }
     syncExamViewportAfterResume();
   }
 });
@@ -1360,6 +1419,9 @@ async function go(page) {
   updateShellLanguage();
   $('#sidebar').classList.remove('sidebar-open');
   document.body.classList.toggle('exam-mode', page === 'exam');
+  if (page !== 'exam') {
+    unlockExamOrientation();
+  }
   view.focus({ preventScroll: true });
 }
 
@@ -3956,7 +4018,7 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw11').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw12').catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;
