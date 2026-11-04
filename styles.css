@@ -392,28 +392,73 @@ body.exam-mode #app{min-height:0;padding:5px 9px 8px 7px}
   color: #9ecb65;
 }
 
-/* FIX: MOBILE FOOTER AFTER EXIT FULLSCREEN */
+
+/* ANDROID VIEWPORT & EXAM FOOTER RESYNC */
 @media (max-width: 760px) {
+  body.exam-mode,
   body.exam-mode #app {
-    height: 100vh;
-    height: 100dvh;
-    min-height: 100dvh;
+    height: var(--exam-viewport-height, 100dvh);
+    min-height: 0;
+    max-height: var(--exam-viewport-height, 100dvh);
+    overflow: hidden;
+  }
+
+  .exam-mode .main-area {
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .exam-mode .page-content {
+    height: 100%;
+    min-height: 0;
+    max-height: 100%;
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0;
   }
 
   .exam-shell {
     position: relative;
-    height: calc(100vh - 6px);
-    height: calc(100dvh - 6px);
-    min-height: calc(100vh - 6px);
-    min-height: calc(100dvh - 6px);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: var(--exam-viewport-height, 100dvh);
+    min-height: 0;
+    max-height: var(--exam-viewport-height, 100dvh);
+    overflow: hidden;
   }
 
+  .exam-header,
+  .exam-meta-strip {
+    flex: 0 0 auto;
+  }
+
+  .exam-main {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .exam-workspace {
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  /* Footer tetap menjadi bagian layout,
+     tidak lagi bergantung pada posisi viewport. */
   .exam-bottom {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    bottom: env(safe-area-inset-bottom, 0px);
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    min-height: 49px;
+    margin: 0;
+    padding-bottom: calc(7px + env(safe-area-inset-bottom, 0px));
     z-index: 35;
   }
 }
