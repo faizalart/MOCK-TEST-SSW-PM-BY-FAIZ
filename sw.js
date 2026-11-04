@@ -1,21 +1,21 @@
-const CACHE_NAME = 'ssw-pm-mock-test-shell-v10';
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v11';
 
 const CORE = [
   './',
   './index.html',
 
-  './styles.css?v=ssw10',
+  './styles.css?v=ssw11',
   './CSV-IMPORT-STYLES.css?v=ssw3',
   './RICH-HTML-STYLES.css?v=ssw3',
-  './QUESTION-EDITOR-UPDATES.css?v=ssw10',
+  './QUESTION-EDITOR-UPDATES.css?v=ssw11',
 
-  './app.js?v=ssw10',
+  './app.js?v=ssw11',
   './seed-data.js?v=ssw3',
   './db.js?v=ssw3',
   './utils.js?v=ssw3',
   './archive.js?v=ssw3',
 
-  './manifest.webmanifest?v=ssw10',
+  './manifest.webmanifest?v=ssw11',
   './hasbulla-192.png.png',
   './hasbulla-512.png.png',
   './icon.svg'

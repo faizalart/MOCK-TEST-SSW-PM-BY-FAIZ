@@ -3,6 +3,173 @@ import { all, get, put, putMany, del, snapshot, replaceAll, initialise } from '.
 import { serializeDatabase, validateBackup, hydrateBackup, makeZip, readZip } from './archive.js?v=ssw3';
 import { DEFAULT_PACKAGES, $, $$, uid, esc, fmtDate, fmtDuration, fmtDurationHMS, packageName, rawStats, downloadBlob, blobToDataURL, dataURLToBlob, shuffle, validateQuestion } from './utils.js?v=ssw3';
 
+const BUILTIN_PACKAGES_META = [
+  {
+    id: 'ssw-pm-kunci-ujian-1',
+    name: 'Kunci Soal Ujian 1 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 1.pdf',
+    description: 'Paket 40 soal SSW 特定技能1号・飲食料品製造業 dengan furigana dan ilustrasi asli.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-2',
+    name: 'Kunci Soal Ujian 2 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 2.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 2 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-3',
+    name: 'Kunci Soal Ujian 3 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 3.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 3 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-4',
+    name: 'Kunci Soal Ujian 4 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 4.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 4 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-5',
+    name: 'Kunci Soal Ujian 5 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 5.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 5 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-6',
+    name: 'Kunci Soal Ujian 6 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 6.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 6 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-7',
+    name: 'Kunci Soal Ujian 7 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 7.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 7 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-8',
+    name: 'Kunci Soal Ujian 8 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 8.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 8 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-9',
+    name: 'Kunci Soal Ujian 9 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 9.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 9 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-10',
+    name: 'Kunci Soal Ujian 10 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 10.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 10 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-11',
+    name: 'Kunci Soal Ujian 11 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 11.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 11 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-12',
+    name: 'Kunci Soal Ujian 12 — CBTP Gino1',
+    sourcePdf: 'Kunci Soal Ujian 12.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 12 — CBTP Gino1.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-13',
+    name: 'Kunci Soal Ujian 13 — Rakuraku Tokutei (2024年10月)',
+    sourcePdf: 'Kunci Soal Ujian 13.pdf',
+    description: 'Paket 40 soal Kunci Soal Ujian 13 — Rakuraku Tokutei (2024年10月).',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-tipe2-nguyen1',
+    name: 'Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1',
+    sourcePdf: 'SSW NGUYEN 1.pdf',
+    description: 'Paket latihan 40 soal SSW PM Tipe 2 (Đề 7 Thực Phẩm GINO1).',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'bonus-soal-1',
+    name: 'Bonus Soal 1',
+    sourcePdf: 'Bonus Soal 1.pdf',
+    description: 'Paket latihan Bonus Soal 1 SSW PM.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'bonus-soal-2',
+    name: 'Bonus Soal 2',
+    sourcePdf: 'Bonus Soal 2.pdf',
+    description: 'Paket latihan Bonus Soal 2 SSW PM.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'bonus-soal-4',
+    name: 'Bonus Soal 4',
+    sourcePdf: 'Bonus Soal 4.pdf',
+    description: 'Paket latihan Bonus Soal 4 SSW PM.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'bonus-soal-5',
+    name: 'Bonus Soal 5',
+    sourcePdf: 'Bonus Soal 5.pdf',
+    description: 'Paket latihan Bonus Soal 5 SSW PM.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'bonus-soal-6',
+    name: 'Bonus Soal 6',
+    sourcePdf: 'Bonus Soal 6.pdf',
+    description: 'Paket latihan Bonus Soal 6 SSW PM.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'bonus-soal-7',
+    name: 'Bonus Soal 7',
+    sourcePdf: 'Bonus Soal 7.pdf',
+    description: 'Paket latihan Bonus Soal 7 SSW PM.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'bonus-soal-8',
+    name: 'Bonus Soal 8',
+    sourcePdf: 'Bonus Soal 8.pdf',
+    description: 'Paket latihan Bonus Soal 8 SSW PM.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'bonus-soal-9',
+    name: 'Bonus Soal 9',
+    sourcePdf: 'Bonus Soal 9.pdf',
+    description: 'Paket latihan Bonus Soal 9 SSW PM.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'bonus-soal-10',
+    name: 'Bonus Soal 10',
+    sourcePdf: 'Bonus Soal 10.pdf',
+    description: 'Paket latihan Bonus Soal 10 SSW PM.',
+    pointsPerQuestion: 3.75
+  }
+];
+if (Array.isArray(DEFAULT_PACKAGES)) {
+  DEFAULT_PACKAGES.splice(0, DEFAULT_PACKAGES.length, ...BUILTIN_PACKAGES_META);
+}
+
 const view = $('#view');
 const modalRoot = $('#modal-root');
 const toastRoot = $('#toast-root');
@@ -1022,7 +1189,7 @@ function getAvailablePackages(questions = state.questions) {
     if (q.active !== false && validateQuestion(q).length === 0) entry.active++;
     if (q.imageMediaId || q.questionImage) entry.withImage++;
   }
-  return [...map.values()].filter(p => p.total > 0 || DEFAULT_PACKAGES.some(d => d.id === p.id));
+  return [...map.values()].filter(p => p.total > 0 || p.id === 'ssw-pm-kunci-ujian-1' || p.id === 'ssw-pm-tipe2-nguyen1');
 }
 
 function getMedia(q, mediaId) {
@@ -1085,6 +1252,10 @@ function mediaURL(media) {
     return objectURLs.get(media.id);
   }
 
+  if (typeof media.dataUrl === 'string' && media.dataUrl.trim()) {
+    return media.dataUrl.trim();
+  }
+
   if (typeof media.path === 'string' && media.path.trim()) {
     const rawPath = media.path.trim();
     const marker = 'assets/questions/';
@@ -1106,10 +1277,6 @@ function mediaURL(media) {
     return rawPath.startsWith('./')
       ? rawPath
       : `./${rawPath.replace(/^\/+/, '')}`;
-  }
-
-  if (typeof media.dataUrl === 'string' && media.dataUrl.trim()) {
-    return media.dataUrl.trim();
   }
 
   return '';
@@ -1134,10 +1301,15 @@ function revokeUnusedURLs() {
 }
 
 async function reloadData() {
-  [state.questions, state.sessions] = await Promise.all([all('questions'), all('sessions')]);
-  for (const q of [...state.questions]) {
+  const prevQuestions = Array.isArray(state.questions) ? state.questions : [];
+  const [dbQuestions, dbSessions] = await Promise.all([all('questions'), all('sessions')]);
+  state.sessions = dbSessions || [];
+  let currentQuestions = dbQuestions || [];
+  let anyChanged = false;
+  for (const q of [...currentQuestions]) {
     if (q.isDemo) {
       await del('questions', q.id);
+      anyChanged = true;
       continue;
     }
     let changed = false;
@@ -1155,9 +1327,21 @@ async function reloadData() {
       q.setName = packageName(q.setId, 'Bank Soal SSW PM');
       changed = true;
     }
-    if (changed) await put('questions', q);
+    if (changed) {
+      await put('questions', q);
+      anyChanged = true;
+    }
   }
-  state.questions = await all('questions');
+  if (anyChanged) {
+    currentQuestions = await all('questions');
+  }
+  if (prevQuestions.length > currentQuestions.length) {
+    const merged = new Map(prevQuestions.map(q => [q.id, q]));
+    for (const q of currentQuestions) merged.set(q.id, q);
+    state.questions = [...merged.values()];
+  } else {
+    state.questions = currentQuestions;
+  }
   const settings = await get('meta', 'settings');
   if (settings) state.settings = { ...state.settings, ...settings };
   revokeUnusedURLs();
@@ -1537,8 +1721,7 @@ function renderBank() {
   const allVisibleSelected = qs.length > 0 && qs.every(q => state.bankSelectedIds.has(q.id));
 
   const actions = `
-    <button class="button button-outline" data-action="reload-kunci1">Muat Ulang Paket Kunci Ujian 1 (40 Soal)</button>
-    <button class="button button-outline" data-action="reload-ssw-tipe2">Muat Paket SSW PM Tipe 2</button>
+    <button class="button button-outline" data-action="reload-all-builtin">Muat Ulang Semua Paket Bawaan</button>
     <button class="button button-outline" data-action="import-json-set">Impor JSON Soal</button>
     <button class="button button-outline" data-action="download-csv-template">Template CSV</button>
     <button class="button button-outline" data-action="import-csv">Impor CSV</button>
@@ -1930,7 +2113,7 @@ function renderHistory() {
 }
 
 function renderBackup() {
-  const qMB = state.questions.reduce((n, q) => n + (q.media || []).reduce((x, m) => x + (m.blob?.size || 0), 0), 0);
+  const qMB = state.questions.reduce((n, q) => n + (q.media || []).reduce((x, m) => x + (m.blob?.size || (m.dataUrl ? Math.round(m.dataUrl.length * 0.75) : 0)), 0), 0);
   const packages = getAvailablePackages();
   view.innerHTML = `
     ${pageHead(
@@ -2946,7 +3129,18 @@ function normalizeExternalQuestion(raw, idx = 0, defaultSetId = 'ssw-pm-kunci-uj
   };
 }
 
-async function importAdditiveQuestionSet(payload, { silent = false, defaultSetId = 'ssw-pm-kunci-ujian-1', defaultSetName = 'Kunci Soal Ujian 1 — CBTP Gino1' } = {}) {
+async function fetchBuiltinJson(filename) {
+  const candidates = [`./${filename}`, `./data/${filename}`];
+  for (const url of candidates) {
+    try {
+      const res = await fetch(url);
+      if (res.ok) return await res.json();
+    } catch {}
+  }
+  return null;
+}
+
+async function importAdditiveQuestionSet(payload, { silent = false, defaultSetId = 'ssw-pm-kunci-ujian-1', defaultSetName = 'Kunci Soal Ujian 1 — CBTP Gino1', skipReload = false } = {}) {
   const rawList = Array.isArray(payload) ? payload : (Array.isArray(payload?.questions) ? payload.questions : []);
   if (!rawList.length) throw new Error('File JSON tidak berisi daftar soal yang valid.');
   const setId = payload?.setId || defaultSetId;
@@ -2955,17 +3149,21 @@ async function importAdditiveQuestionSet(payload, { silent = false, defaultSetId
   for (let i = 0; i < rawList.length; i++) {
     const q = normalizeExternalQuestion(rawList[i], i, setId, setName);
     if (!q) continue;
-    for (const m of (q.media || [])) {
-      if (m.dataUrl && !(m.blob instanceof Blob)) {
-        try { m.blob = dataURLToBlob(m.dataUrl); delete m.dataUrl; } catch {}
-      }
-    }
     const errs = validateQuestion(q);
     if (errs.length) throw new Error(`Soal ${q.id} tidak valid: ${errs.join(', ')}`);
     batch.push(q);
   }
-  const saved = await putMany('questions', batch);
-  await reloadData();
+  const byId = new Map(state.questions.map(q => [q.id, q]));
+  for (const q of batch) byId.set(q.id, q);
+  state.questions = [...byId.values()];
+
+  let saved = batch.length;
+  try {
+    saved = await putMany('questions', batch);
+    if (!skipReload) await reloadData();
+  } catch (err) {
+    console.warn('Penyimpanan IndexedDB penuh/dilewati, menggunakan memori aktif:', err);
+  }
   if (!silent) toast(`Berhasil memuat ${saved} soal ke dalam paket "${setName}".`, 'success');
   return saved;
 }
@@ -2973,40 +3171,114 @@ async function importAdditiveQuestionSet(payload, { silent = false, defaultSetId
 async function ensureKunciUjian1Loaded(force = false) {
   try {
     const existingQs = state.questions.filter(q => q.setId === 'ssw-pm-kunci-ujian-1');
-    if (!force && existingQs.length >= 40) return;
-    let data = null;
-    try {
-      const res = await fetch('./data/ssw-pm-kunci-ujian-1.json');
-      if (res.ok) data = await res.json();
-    } catch {}
-    if (!data) data = SEED_KUNCI_UJIAN_1;
+    if (!force && existingQs.length >= 40) return false;
+    const data = (await fetchBuiltinJson('ssw-pm-kunci-ujian-1.json')) || SEED_KUNCI_UJIAN_1;
     await importAdditiveQuestionSet(data, {
       silent: !force,
       defaultSetId: 'ssw-pm-kunci-ujian-1',
       defaultSetName: 'Kunci Soal Ujian 1 — CBTP Gino1'
     });
+    return true;
   } catch (err) {
     console.warn('Auto-seed Kunci Soal Ujian 1 dilewati:', err);
+    return false;
   }
 }
 
 async function ensureSswPmTipe2Loaded(force = false) {
   try {
     const existingQs = state.questions.filter(q => q.setId === 'ssw-pm-tipe2-nguyen1');
-    if (!force && existingQs.length >= 40) return;
-    let data = null;
-    try {
-      const res = await fetch('./data/ssw-pm-tipe2-nguyen1.json');
-      if (res.ok) data = await res.json();
-    } catch {}
-    if (!data) data = SEED_SSW_TIPE_2;
+    if (!force && existingQs.length >= 40) return false;
+    const data = (await fetchBuiltinJson('ssw-pm-tipe2-nguyen1.json')) || SEED_SSW_TIPE_2;
     await importAdditiveQuestionSet(data, {
       silent: !force,
       defaultSetId: 'ssw-pm-tipe2-nguyen1',
       defaultSetName: 'Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1'
     });
+    return true;
   } catch (err) {
     console.warn('Auto-seed Latsol Tipe 2 SSW PM dilewati:', err);
+    return false;
+  }
+}
+
+async function ensureKunciUjian2Loaded(force = false) {
+  try {
+    const existingQs = state.questions.filter(q => q.setId === 'ssw-pm-kunci-ujian-2');
+    if (!force && existingQs.length >= 40) return false;
+    const data = await fetchBuiltinJson('ssw-pm-kunci-ujian-2.json');
+    if (!data) return false;
+    await importAdditiveQuestionSet(data, {
+      silent: !force,
+      defaultSetId: 'ssw-pm-kunci-ujian-2',
+      defaultSetName: 'Kunci Soal Ujian 2 — CBTP Gino1'
+    });
+    return true;
+  } catch (err) {
+    console.warn('Auto-seed Kunci Soal Ujian 2 dilewati:', err);
+    return false;
+  }
+}
+
+async function ensureKunciUjian3To13Loaded(force = false) {
+  try {
+    const targetSets = new Set([
+      'ssw-pm-kunci-ujian-3', 'ssw-pm-kunci-ujian-4', 'ssw-pm-kunci-ujian-5',
+      'ssw-pm-kunci-ujian-6', 'ssw-pm-kunci-ujian-7', 'ssw-pm-kunci-ujian-8',
+      'ssw-pm-kunci-ujian-9', 'ssw-pm-kunci-ujian-10', 'ssw-pm-kunci-ujian-11',
+      'ssw-pm-kunci-ujian-12', 'ssw-pm-kunci-ujian-13'
+    ]);
+    const existingCount = state.questions.filter(q => targetSets.has(q.setId)).length;
+    if (!force && existingCount >= 440) return false;
+    const data = await fetchBuiltinJson('ssw-pm-all-kunci-ujian-3-to-13.json');
+    if (!data) return false;
+    await importAdditiveQuestionSet(data, {
+      silent: !force,
+      defaultSetId: 'ssw-pm-kunci-ujian-3',
+      defaultSetName: 'Bundle Kunci Soal Ujian 3 s/d 13 (440 Soal)'
+    });
+    return true;
+  } catch (err) {
+    console.warn('Auto-seed Kunci Soal Ujian 3-13 dilewati:', err);
+    return false;
+  }
+}
+
+async function ensureBonusSoal1To10Loaded(force = false) {
+  try {
+    const targetSets = new Set([
+      'bonus-soal-1', 'bonus-soal-2', 'bonus-soal-4',
+      'bonus-soal-5', 'bonus-soal-6', 'bonus-soal-7',
+      'bonus-soal-8', 'bonus-soal-9', 'bonus-soal-10'
+    ]);
+    const existingCount = state.questions.filter(q => targetSets.has(q.setId)).length;
+    if (!force && existingCount >= 354) return false;
+    const data = await fetchBuiltinJson('ssw-pm-bonus-soal-1-to-10-bundle.json');
+    if (!data) return false;
+    await importAdditiveQuestionSet(data, {
+      silent: !force,
+      defaultSetId: 'bonus-soal-1',
+      defaultSetName: 'Bundle Bonus Soal 1 - 10 (9 Paket)'
+    });
+    return true;
+  } catch (err) {
+    console.warn('Auto-seed Bonus Soal 1-10 dilewati:', err);
+    return false;
+  }
+}
+
+async function ensureAllBuiltinSetsLoaded(force = false) {
+  await ensureKunciUjian1Loaded(force);
+  await ensureSswPmTipe2Loaded(force);
+  const results = await Promise.allSettled([
+    ensureKunciUjian2Loaded(force),
+    ensureKunciUjian3To13Loaded(force),
+    ensureBonusSoal1To10Loaded(force)
+  ]);
+  const anyLoaded = results.some(r => r.status === 'fulfilled' && r.value === true);
+  if (anyLoaded || force) {
+    if (state.page !== 'exam') render();
+    if (force) toast('Seluruh paket soal bawaan berhasil dimuat ulang.', 'success');
   }
 }
 
@@ -3043,7 +3315,7 @@ async function importBackupFile(file) {
     const hydrated = hydrateBackup(data);
     await replaceAll(hydrated);
     await reloadData();
-    await ensureKunciUjian1Loaded(false);
+    await ensureAllBuiltinSetsLoaded(false);
     state.activeSession = null;
     state.page = 'home';
     await go('home');
@@ -3158,6 +3430,7 @@ async function handleAction(action, el) {
     }
     case 'import-csv': $('#csv-import-file')?.click(); break;
     case 'import-json-set': $('#json-set-import-file')?.click(); break;
+    case 'reload-all-builtin': await ensureAllBuiltinSetsLoaded(true); render(); break;
     case 'reload-kunci1': await ensureKunciUjian1Loaded(true); render(); break;
     case 'reload-ssw-tipe2': await ensureSswPmTipe2Loaded(true); render(); break;
     case 'quick-start-kunci1': {
@@ -3189,9 +3462,11 @@ async function handleAction(action, el) {
       break;
     }
     case 'quick-package': {
+      const pkgId = id || 'ssw-pm-kunci-ujian-1';
+      const pkg = getAvailablePackages().find(p => p.id === pkgId);
       state.setup.mode = 'full';
-      state.setup.setId = id || 'ssw-pm-kunci-ujian-1';
-      state.setup.count = 40;
+      state.setup.setId = pkgId;
+      state.setup.count = pkg?.active || 40;
       state.setup.duration = state.settings.standardDuration || 70;
       state.setup.practice = false;
       await go('setup');
@@ -3681,11 +3956,12 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw10').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw11').catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;
     renderHome();
+    ensureAllBuiltinSetsLoaded(false).catch(err => console.warn('Auto-seed paket tambahan dilewati:', err));
   } catch (err) {
     console.error(err);
     view.innerHTML = `<section class="panel error-panel"><h1>Penyimpanan belum siap</h1><p>${esc(err.message || 'Browser gagal membuka IndexedDB.')}</p><p>Pastikan aplikasi dibuka dari localhost atau hosting HTTPS dan browser mengizinkan penyimpanan situs.</p><button class="button button-primary" onclick="location.reload()">Coba lagi</button></section>`;
