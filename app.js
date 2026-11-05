@@ -1450,7 +1450,7 @@ function statCard(label, value, note, icon) {
 
 function cleanHomeText(value) {
   return String(value ?? '')
-    .replace(/\s*—\s*/g, ': ')
+    .replace(/\s*—\s*/g, ' · ')
     .replace(/\s*→\s*$/g, '')
     .trim();
 }
@@ -1465,18 +1465,42 @@ function getHomePackageCode(pkg, index) {
   return `P${index + 1}`;
 }
 
+function formatHomePackageTitle(pkg) {
+  const raw = String(pkg?.name || '').trim();
+  const parts = raw.split(/\s*—\s*/);
+  const primary = parts[0]
+    .replace(/\bSSW\s+PM\b/gi, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+  const rawEdition = parts.slice(1).join(' · ').trim();
+  if (!rawEdition || /^CBTP\s+Gino1$/i.test(rawEdition)) {
+    return { primary: primary || cleanHomeText(raw), edition: '' };
+  }
+  const edition = rawEdition
+    .replace(/\bGINO1\b/gi, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+  return { primary: primary || cleanHomeText(raw), edition };
+}
+
+function formatHomeSessionTitle(session) {
+  const raw = String(session?.setName || session?.title || 'Mock Test').trim();
+  const stripped = raw
+    .replace(/^(Mock Test Penuh|Latihan|Simulasi Kustom)\s*—\s*/i, '')
+    .trim();
+  return formatHomePackageTitle({ name: stripped || raw }).primary;
+}
+
 function renderHome() {
-  const qs = state.questions.length;
   const ready = activeQuestions().length;
   const packages = getAvailablePackages();
-  const kunciSet = packages.find(p => p.id === 'ssw-pm-kunci-ujian-1');
-  const activePkgCount = packages.filter(p => p.total > 0).length;
   const inProgress = state.sessions.find(s => s.status === 'in_progress');
   const completedSessions = [...state.sessions]
     .filter(s => s.status !== 'in_progress')
     .sort((a, b) => (b.endedAt || b.startedAt || 0) - (a.endedAt || a.startedAt || 0));
   const latest = completedSessions.slice(0, 5);
   const loc = t('locale');
+  const lang = state.lang || 'id';
 
   const kunciPackages = packages.filter(p => String(p.id).startsWith('ssw-pm-kunci-ujian-'));
   const bonusPackages = packages.filter(p => !String(p.id).startsWith('ssw-pm-kunci-ujian-'));
@@ -1487,197 +1511,216 @@ function renderHome() {
       ? bonusPackages
       : packages;
 
-  const filterLabels = state.uiLang === 'ja'
-    ? { all: 'すべて', kunci: 'Kunci Ujian', bonus: 'Bonus' }
-    : state.uiLang === 'en'
-      ? { all: 'Semua / All', kunci: 'Kunci Ujian', bonus: 'Bonus' }
-      : { all: 'Semua', kunci: 'Kunci Ujian', bonus: 'Bonus' };
+  const copy = lang === 'ja'
+    ? {
+        kicker: '特定技能1号・飲食料品製造業',
+        title: '飲食料品製造業 技能測定試験',
+        spec: 'CBT基準 · 40問 · 70分 · 150点満点',
+        startExam: '模擬試験を開始',
+        startPractice: '時間無制限で練習',
+        startCustom: 'カスタム設定',
+        resumeTag: '中断中のセッション',
+        resumeBtn: '再開する',
+        pkgHeading: '問題パッケージ',
+        totalQuestions: `全${ready}問`,
+        filterAll: 'すべて',
+        filterKunci: '本試験キー',
+        filterBonus: '追加演習',
+        unitSoal: '問',
+        unitImg: '図解',
+        btnQuestions: '問題一覧',
+        btnStartPkg: '開始',
+        histHeading: '最近の試験結果',
+        histCount: `${completedSessions.length}件`,
+        histViewAll: 'すべて表示',
+        histEmpty: '試験履歴はまだありません。',
+        thDate: '日時',
+        thPkg: 'パッケージ',
+        thMode: 'モード',
+        thCorrect: '正解',
+        thScore: '得点',
+        thAcc: '正答率',
+        btnReview: '詳細',
+        utilSetup: '試験設定',
+        utilBank: '問題バンク管理',
+        utilBackup: 'バックアップ・復元'
+      }
+    : lang === 'en'
+      ? {
+          kicker: '特定技能1号・飲食料品製造業',
+          title: 'Food & Beverage Manufacturing Exam',
+          spec: 'CBT Standard · 40 questions · 70 minutes · 150 points',
+          startExam: 'Start Mock Test',
+          startPractice: 'Untimed Practice',
+          startCustom: 'Custom Simulation',
+          resumeTag: 'Session in progress',
+          resumeBtn: 'Resume',
+          pkgHeading: 'Question Packages',
+          totalQuestions: `${ready} questions`,
+          filterAll: 'All',
+          filterKunci: 'Exam Keys',
+          filterBonus: 'Bonus Sets',
+          unitSoal: 'questions',
+          unitImg: 'illustrated',
+          btnQuestions: 'Questions',
+          btnStartPkg: 'Start',
+          histHeading: 'Recent Results',
+          histCount: `${completedSessions.length} sessions`,
+          histViewAll: 'View all',
+          histEmpty: 'No completed examination sessions yet.',
+          thDate: 'Date',
+          thPkg: 'Package',
+          thMode: 'Mode',
+          thCorrect: 'Correct',
+          thScore: 'Points',
+          thAcc: 'Accuracy',
+          btnReview: 'Review',
+          utilSetup: 'Exam Configuration',
+          utilBank: 'Question Bank',
+          utilBackup: 'Backup & Restore'
+        }
+      : {
+          kicker: '特定技能1号・飲食料品製造業',
+          title: 'Simulasi Ujian Pengolahan Makanan',
+          spec: 'Standar CBT · 40 soal · 70 menit · 150 poin',
+          startExam: 'Mulai Mock Test',
+          startPractice: 'Latihan Tanpa Timer',
+          startCustom: 'Simulasi Kustom',
+          resumeTag: 'Sesi berlangsung',
+          resumeBtn: 'Lanjutkan',
+          pkgHeading: 'Paket Soal',
+          totalQuestions: `${ready} soal`,
+          filterAll: 'Semua',
+          filterKunci: 'Kunci Ujian',
+          filterBonus: 'Bonus',
+          unitSoal: 'soal',
+          unitImg: 'ilustrasi',
+          btnQuestions: 'Daftar Soal',
+          btnStartPkg: 'Mulai',
+          histHeading: 'Riwayat Hasil',
+          histCount: `${completedSessions.length} sesi`,
+          histViewAll: 'Lihat semua',
+          histEmpty: 'Belum ada riwayat sesi ujian.',
+          thDate: 'Tanggal',
+          thPkg: 'Paket',
+          thMode: 'Mode',
+          thCorrect: 'Benar',
+          thScore: 'Poin',
+          thAcc: 'Akurasi',
+          btnReview: 'Review',
+          utilSetup: 'Konfigurasi Ujian',
+          utilBank: 'Kelola Bank Soal',
+          utilBackup: 'Backup & Restore'
+        };
 
   view.innerHTML = `
     <div class="home-dashboard">
       ${inProgress && state.settings.resumeInterrupted ? `
-        <section class="hd-resume-banner" aria-label="${esc(cleanHomeText(t('resumeTitle')))}">
+        <section class="hd-resume-banner" aria-label="${esc(copy.resumeTag)}">
           <div class="hd-resume-info">
-            <span class="hd-resume-label">${esc(cleanHomeText(t('resumeTitle')))}</span>
-            <strong class="hd-resume-title">${esc(cleanHomeText(inProgress.title || 'SSW PM Mock Test'))}</strong>
-            <p class="hd-resume-meta">${inProgress.deadline ? `${esc(cleanHomeText(t('resumeRemaining')))}: ${fmtDuration(Math.max(0, Math.floor((inProgress.deadline - Date.now()) / 1000)))}` : esc(cleanHomeText(t('resumeFlex')))}</p>
+            <span class="hd-resume-dot" aria-hidden="true"></span>
+            <span class="hd-resume-label">${esc(copy.resumeTag)}</span>
+            <strong class="hd-resume-title">${esc(formatHomeSessionTitle(inProgress))}</strong>
+            <span class="hd-resume-meta">${inProgress.deadline ? `${esc(cleanHomeText(t('resumeRemaining')))} ${fmtDuration(Math.max(0, Math.floor((inProgress.deadline - Date.now()) / 1000)))}` : esc(cleanHomeText(t('resumeFlex')))}</span>
           </div>
-          <button type="button" class="hd-btn hd-btn-primary" data-action="resume-session" data-id="${esc(inProgress.id)}">${esc(cleanHomeText(t('resumeBtn')))}</button>
+          <button type="button" class="hd-btn hd-btn-primary hd-btn-compact" data-action="resume-session" data-id="${esc(inProgress.id)}">${esc(copy.resumeBtn)}</button>
         </section>
       ` : ''}
 
-      <section class="hd-command" aria-labelledby="hd-main-title">
-        <div class="hd-command-top">
-          <div class="hd-command-copy">
-            <div class="hd-kicker">${esc(cleanHomeText(t('homeKicker')))}</div>
-            <h1 id="hd-main-title" class="hd-title">${esc(cleanHomeText(t('homeTitle')))}</h1>
-            <p class="hd-desc">${esc(cleanHomeText(t('homeDesc')))}</p>
+      <header class="hd-hero" aria-labelledby="hd-main-title">
+        <p class="hd-kicker">${esc(copy.kicker)}</p>
+        <h1 id="hd-main-title" class="hd-title">${esc(copy.title)}</h1>
+        <p class="hd-spec">${esc(copy.spec)}</p>
+        <div class="hd-actions">
+          <button type="button" class="hd-btn hd-btn-primary" data-action="quick-start-kunci1">${esc(copy.startExam)}</button>
+          <button type="button" class="hd-btn hd-btn-secondary" data-action="quick-practice-kunci1">${esc(copy.startPractice)}</button>
+          <button type="button" class="hd-btn hd-btn-ghost" data-action="quick-custom">${esc(copy.startCustom)}</button>
+        </div>
+      </header>
+
+      <section class="hd-section hd-library" aria-labelledby="hd-pkg-heading">
+        <div class="hd-section-head">
+          <div class="hd-section-title-group">
+            <h2 id="hd-pkg-heading" class="hd-section-title">${esc(copy.pkgHeading)}</h2>
+            <span class="hd-section-meta">${esc(copy.totalQuestions)}</span>
           </div>
-          <div class="hd-command-actions">
-            <button type="button" class="hd-btn hd-btn-primary" data-action="quick-start-kunci1">${esc(cleanHomeText(t('homeStartBtn')))}</button>
-            <button type="button" class="hd-btn hd-btn-secondary" data-page="setup">${esc(cleanHomeText(t('configExamBtn')))}</button>
+          <div class="hd-filter-tabs" role="group" aria-label="${esc(copy.pkgHeading)}">
+            <button type="button" class="hd-filter-tab ${activeFilter === 'all' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="all" aria-pressed="${activeFilter === 'all'}">
+              <span>${esc(copy.filterAll)}</span>
+              <span class="hd-filter-count">${packages.length}</span>
+            </button>
+            <button type="button" class="hd-filter-tab ${activeFilter === 'kunci' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="kunci" aria-pressed="${activeFilter === 'kunci'}">
+              <span>${esc(copy.filterKunci)}</span>
+              <span class="hd-filter-count">${kunciPackages.length}</span>
+            </button>
+            <button type="button" class="hd-filter-tab ${activeFilter === 'bonus' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="bonus" aria-pressed="${activeFilter === 'bonus'}">
+              <span>${esc(copy.filterBonus)}</span>
+              <span class="hd-filter-count">${bonusPackages.length}</span>
+            </button>
           </div>
         </div>
-        <div class="hd-metrics" role="region" aria-label="Ringkasan Data Bank Soal">
-          <div class="hd-metric">
-            <span class="hd-metric-label">${esc(cleanHomeText(t('statTotalBank')))}</span>
-            <strong class="hd-metric-value">${qs}</strong>
-            <span class="hd-metric-note">${ready} ${esc(cleanHomeText(t('statReadyNote')))}</span>
-          </div>
-          <div class="hd-metric">
-            <span class="hd-metric-label">${esc(cleanHomeText(t('statKunci1')))}</span>
-            <strong class="hd-metric-value">${kunciSet ? kunciSet.active : 0}</strong>
-            <span class="hd-metric-note">${esc(cleanHomeText(t('statKunci1Note')))}</span>
-          </div>
-          <div class="hd-metric">
-            <span class="hd-metric-label">${esc(cleanHomeText(t('statPackages')))}</span>
-            <strong class="hd-metric-value">${activePkgCount}</strong>
-            <span class="hd-metric-note">${esc(cleanHomeText(t('statPackagesNote')))}</span>
-          </div>
-          <div class="hd-metric">
-            <span class="hd-metric-label">${esc(cleanHomeText(t('statHistory')))}</span>
-            <strong class="hd-metric-value">${completedSessions.length}</strong>
-            <span class="hd-metric-note">${esc(cleanHomeText(t('statHistoryNote')))}</span>
-          </div>
+
+        <div class="hd-pkg-list">
+          ${visiblePackages.map((pkg, idx) => {
+            const code = getHomePackageCode(pkg, idx);
+            const titleObj = formatHomePackageTitle(pkg);
+            const metaText = `${pkg.active} ${copy.unitSoal}${pkg.withImage > 0 ? ` · ${pkg.withImage} ${copy.unitImg}` : ''}`;
+            return `
+              <div class="hd-pkg-row">
+                <span class="hd-pkg-code" aria-hidden="true">${esc(code)}</span>
+                <div class="hd-pkg-main">
+                  <span class="hd-pkg-name">${esc(titleObj.primary)}</span>
+                  ${titleObj.edition ? `<span class="hd-pkg-edition">${esc(titleObj.edition)}</span>` : ''}
+                </div>
+                <span class="hd-pkg-meta">${esc(metaText)}</span>
+                <div class="hd-pkg-actions">
+                  <button type="button" class="hd-row-btn" data-action="filter-package" data-id="${esc(pkg.id)}">${esc(copy.btnQuestions)}</button>
+                  <button type="button" class="hd-row-btn hd-row-btn-primary" data-action="quick-package" data-id="${esc(pkg.id)}">${esc(copy.btnStartPkg)}</button>
+                </div>
+              </div>
+            `;
+          }).join('')}
         </div>
       </section>
 
-      <div class="hd-workspace">
-        <section class="hd-panel hd-packages-panel" aria-labelledby="hd-pkg-heading">
-          <div class="hd-panel-head">
-            <div>
-              <h2 id="hd-pkg-heading" class="hd-panel-title">${esc(cleanHomeText(t('pkgPanelTitle')))}</h2>
-              <p class="hd-panel-sub">${esc(cleanHomeText(t('pkgPanelSub')))}</p>
-            </div>
+      <section class="hd-section hd-history" aria-labelledby="hd-history-heading">
+        <div class="hd-section-head">
+          <div class="hd-section-title-group">
+            <h2 id="hd-history-heading" class="hd-section-title">${esc(copy.histHeading)}</h2>
+            ${completedSessions.length > 0 ? `<span class="hd-section-meta">${esc(copy.histCount)}</span>` : ''}
           </div>
-          <div class="hd-filter-bar">
-            <div class="hd-filter-tabs" role="group" aria-label="${esc(cleanHomeText(t('pkgLabel')))}">
-              <button type="button" class="hd-filter-tab ${activeFilter === 'all' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="all" aria-pressed="${activeFilter === 'all'}">
-                <span>${esc(filterLabels.all)}</span>
-                <span class="hd-filter-count">(${packages.length})</span>
-              </button>
-              <button type="button" class="hd-filter-tab ${activeFilter === 'kunci' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="kunci" aria-pressed="${activeFilter === 'kunci'}">
-                <span>${esc(filterLabels.kunci)}</span>
-                <span class="hd-filter-count">(${kunciPackages.length})</span>
-              </button>
-              <button type="button" class="hd-filter-tab ${activeFilter === 'bonus' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="bonus" aria-pressed="${activeFilter === 'bonus'}">
-                <span>${esc(filterLabels.bonus)}</span>
-                <span class="hd-filter-count">(${bonusPackages.length})</span>
-              </button>
-            </div>
-          </div>
-          <div class="hd-pkg-list">
-            ${visiblePackages.map((pkg, idx) => {
-              const code = getHomePackageCode(pkg, idx);
-              const isPrimary = pkg.id === 'ssw-pm-kunci-ujian-1';
-              return `
-                <div class="hd-pkg-row">
-                  <div class="hd-pkg-code ${isPrimary ? 'is-primary-set' : ''}" aria-hidden="true">${esc(code)}</div>
-                  <div class="hd-pkg-info">
-                    <strong class="hd-pkg-name">${esc(cleanHomeText(pkg.name))}</strong>
-                    <span class="hd-pkg-meta">${esc(cleanHomeText(pkg.sourcePdf ? `${t('pkgSource')}: ${pkg.sourcePdf}` : pkg.description))} · ${pkg.withImage} ${esc(cleanHomeText(t('pkgWithImg')))}</span>
-                  </div>
-                  <div class="hd-pkg-stat">
-                    <strong>${pkg.active}</strong><small>${esc(cleanHomeText(t('pkgUnit')))}</small>
-                  </div>
-                  <div class="hd-pkg-actions">
-                    <button type="button" class="hd-btn hd-btn-secondary hd-btn-compact" data-action="filter-package" data-id="${esc(pkg.id)}">${esc(cleanHomeText(t('navBank')))}</button>
-                    <button type="button" class="hd-btn hd-btn-primary hd-btn-compact" data-action="quick-package" data-id="${esc(pkg.id)}">${esc(cleanHomeText(t('pkgStartBtn')))}</button>
-                  </div>
-                </div>
-              `;
-            }).join('')}
-          </div>
-          <div class="hd-panel-footer">
-            <button type="button" class="hd-btn hd-btn-secondary hd-btn-compact" data-page="bank">${esc(cleanHomeText(t('manageBankBtn')))}</button>
-            <button type="button" class="hd-btn hd-btn-primary hd-btn-compact" data-page="setup">${esc(cleanHomeText(t('configExamBtn')))}</button>
-          </div>
-        </section>
-
-        <div class="hd-side-rail">
-          <section class="hd-panel" aria-labelledby="hd-modes-heading">
-            <div class="hd-panel-head">
-              <div>
-                <h2 id="hd-modes-heading" class="hd-panel-title">${esc(cleanHomeText(t('modesPanelTitle')))}</h2>
-                <p class="hd-panel-sub">${esc(cleanHomeText(t('modesPanelSub')))}</p>
-              </div>
-            </div>
-            <div class="hd-mode-list">
-              <button type="button" class="hd-mode-item" data-action="quick-practice-kunci1">
-                <span class="hd-mode-badge" aria-hidden="true">ふ</span>
-                <span class="hd-mode-body">
-                  <strong class="hd-mode-title">${esc(cleanHomeText(t('qaPracTitle')))}</strong>
-                  <span class="hd-mode-desc">${esc(cleanHomeText(t('qaPracSub')))}</span>
-                </span>
-              </button>
-              <button type="button" class="hd-mode-item" data-action="quick-custom">
-                <span class="hd-mode-badge" aria-hidden="true">⚙</span>
-                <span class="hd-mode-body">
-                  <strong class="hd-mode-title">${esc(cleanHomeText(t('qaCustTitle')))}</strong>
-                  <span class="hd-mode-desc">${esc(cleanHomeText(t('qaCustSub')))}</span>
-                </span>
-              </button>
-              <button type="button" class="hd-mode-item" data-page="bank">
-                <span class="hd-mode-badge" aria-hidden="true">＋</span>
-                <span class="hd-mode-body">
-                  <strong class="hd-mode-title">${esc(cleanHomeText(t('qaBankTitle')))}</strong>
-                  <span class="hd-mode-desc">${esc(cleanHomeText(t('qaBankSub')))}</span>
-                </span>
-              </button>
-              <button type="button" class="hd-mode-item" data-page="backup">
-                <span class="hd-mode-badge" aria-hidden="true">⇅</span>
-                <span class="hd-mode-body">
-                  <strong class="hd-mode-title">${esc(cleanHomeText(t('qaBackupTitle')))}</strong>
-                  <span class="hd-mode-desc">${esc(cleanHomeText(t('qaBackupSub')))}</span>
-                </span>
-              </button>
-            </div>
-            <div class="hd-scoring-box">
-              <strong class="hd-scoring-title">${esc(cleanHomeText(t('scoringNoticeTitle')))}</strong>
-              <p class="hd-scoring-text">${esc(cleanHomeText(t('scoringNoticeBody')))}</p>
-            </div>
-          </section>
-        </div>
-      </div>
-
-      <section class="hd-panel hd-history-panel" aria-labelledby="hd-history-heading">
-        <div class="hd-panel-head">
-          <div>
-            <h2 id="hd-history-heading" class="hd-panel-title">${esc(cleanHomeText(t('recentHistTitle')))}</h2>
-            <p class="hd-panel-sub">${esc(cleanHomeText(t('recentHistSub')))}</p>
-          </div>
-          <button type="button" class="hd-link-btn" data-page="history">${esc(cleanHomeText(t('viewAllHist')))}</button>
+          <button type="button" class="hd-text-link" data-page="history">${esc(copy.histViewAll)}</button>
         </div>
         ${latest.length ? `
           <div class="hd-table-wrap">
             <table class="hd-table">
               <thead>
                 <tr>
-                  <th>${esc(cleanHomeText(t('thDate')))}</th>
-                  <th>${esc(cleanHomeText(t('thPkgSim')))}</th>
-                  <th>${esc(cleanHomeText(t('thMode')))}</th>
-                  <th>${esc(cleanHomeText(t('thCorrect')))}</th>
-                  <th>${esc(cleanHomeText(t('thPointScore')))}</th>
-                  <th>${esc(cleanHomeText(t('thPercent')))}</th>
-                  <th>${esc(cleanHomeText(t('thAction')))}</th>
+                  <th>${esc(copy.thDate)}</th>
+                  <th>${esc(copy.thPkg)}</th>
+                  <th>${esc(copy.thMode)}</th>
+                  <th>${esc(copy.thCorrect)}</th>
+                  <th>${esc(copy.thScore)}</th>
+                  <th>${esc(copy.thAcc)}</th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>
                 ${latest.map(s => {
                   const st = rawStats(s);
+                  const sessionTitle = formatHomeSessionTitle(s);
                   return `
                     <tr>
-                      <td data-label="${esc(cleanHomeText(t('thDate')))}">${fmtDate(s.endedAt || s.startedAt, loc)}</td>
-                      <td class="hd-td-pkg" data-label="${esc(cleanHomeText(t('thPkgSim')))}">
-                        <strong class="hd-hist-pkg">${esc(cleanHomeText(s.title || 'SSW PM Mock Test'))}</strong>
-                        <span class="hd-hist-cand">${esc(cleanHomeText(s.candidateName || 'Candidate'))}</span>
+                      <td data-label="${esc(copy.thDate)}">${fmtDate(s.endedAt || s.startedAt, loc)}</td>
+                      <td class="hd-td-pkg" data-label="${esc(copy.thPkg)}">
+                        <strong class="hd-hist-pkg">${esc(sessionTitle)}</strong>
                       </td>
-                      <td data-label="${esc(cleanHomeText(t('thMode')))}">${s.mode === 'practice' ? esc(cleanHomeText(t('modePractice'))) : esc(cleanHomeText(t('modeExam')))}</td>
-                      <td data-label="${esc(cleanHomeText(t('thCorrect')))}"><strong>${st.correct} / ${st.total}</strong></td>
-                      <td data-label="${esc(cleanHomeText(t('thPointScore')))}">${st.weightedScore} / ${st.maxWeightedScore}</td>
-                      <td data-label="${esc(cleanHomeText(t('thPercent')))}"><strong>${st.percent}%</strong></td>
-                      <td class="hd-td-action" data-label="${esc(cleanHomeText(t('thAction')))}">
-                        <button type="button" class="hd-btn hd-btn-secondary hd-btn-compact" data-action="open-result" data-id="${esc(s.id)}">${esc(cleanHomeText(t('btnResultReview')))}</button>
+                      <td data-label="${esc(copy.thMode)}">${s.mode === 'practice' ? esc(cleanHomeText(t('modePractice'))) : esc(cleanHomeText(t('modeExam')))}</td>
+                      <td data-label="${esc(copy.thCorrect)}">${st.correct} / ${st.total}</td>
+                      <td data-label="${esc(copy.thScore)}">${st.weightedScore} / ${st.maxWeightedScore}</td>
+                      <td data-label="${esc(copy.thAcc)}"><strong>${st.percent}%</strong></td>
+                      <td class="hd-td-action">
+                        <button type="button" class="hd-row-btn" data-action="open-result" data-id="${esc(s.id)}">${esc(copy.btnReview)}</button>
                       </td>
                     </tr>
                   `;
@@ -1686,12 +1729,17 @@ function renderHome() {
             </table>
           </div>
         ` : `
-          <div class="hd-empty-history">
-            <strong>${esc(cleanHomeText(t('emptyHistTitle')))}</strong>
-            <p>${esc(cleanHomeText(t('emptyHistSub')))}</p>
-          </div>
+          <p class="hd-empty-line">${esc(copy.histEmpty)}</p>
         `}
       </section>
+
+      <footer class="hd-utility-bar" aria-label="Utilitas sistem">
+        <button type="button" class="hd-util-link" data-page="setup">${esc(copy.utilSetup)}</button>
+        <span class="hd-util-sep" aria-hidden="true">·</span>
+        <button type="button" class="hd-util-link" data-page="bank">${esc(copy.utilBank)}</button>
+        <span class="hd-util-sep" aria-hidden="true">·</span>
+        <button type="button" class="hd-util-link" data-page="backup">${esc(copy.utilBackup)}</button>
+      </footer>
     </div>`;
 }
 
