@@ -8,7 +8,7 @@
    1. Design Tokens & Root Non-CBT Scope
    -------------------------------------------------------------------------- */
 html:has(body:not(.exam-mode)) {
-  background-color: #efede7;
+  background-color: #f4f6f8;
 }
 
 body:not(.exam-mode) {
@@ -42,8 +42,8 @@ body:not(.exam-mode)::before {
   background-image: url('./assets/zen-warrior-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
-  /* Desktop focal point: frames temple & sakura (top-left), meditating warrior (32% X, 66% Y), and Mt. Fuji (right) */
-  background-position: 32% 66%;
+  /* Desktop focal point: frames foreground hygiene worker & conveyor (left), production line (center), and Hinomaru flag (upper-right) */
+  background-position: 50% 54%;
   transform: translateZ(0);
 }
 
@@ -53,12 +53,12 @@ body:not(.exam-mode)::after {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  /* Single soft mist overlay: preserves photo atmosphere while guaranteeing editorial text contrast */
+  /* Single soft white mist overlay: keeps the Japanese food factory atmosphere subtle while guaranteeing crisp editorial readability */
   background: linear-gradient(
     180deg,
-    rgba(250, 249, 245, 0.64) 0%,
-    rgba(250, 249, 245, 0.48) 46%,
-    rgba(250, 249, 245, 0.62) 100%
+    rgba(252, 253, 254, 0.78) 0%,
+    rgba(252, 253, 254, 0.68) 48%,
+    rgba(252, 253, 254, 0.76) 100%
   );
 }
 
@@ -397,8 +397,8 @@ body:not(.exam-mode) .hd-text-danger:hover {
    -------------------------------------------------------------------------- */
 @media (max-width: 900px) {
   body:not(.exam-mode)::before {
-    /* Tablet focal point: keeps meditating warrior & mountain balanced */
-    background-position: 29% 68%;
+    /* Tablet focal point: keeps foreground hygiene worker & production line balanced */
+    background-position: 38% 58%;
   }
 
   body:not(.exam-mode) .main-area {
@@ -425,8 +425,8 @@ body:not(.exam-mode) .hd-text-danger:hover {
 
 @media (max-width: 640px) {
   body:not(.exam-mode)::before {
-    /* Mobile portrait focal point: centers directly on the meditating Zen warrior on the cliff (x=27%, y=72%) */
-    background-position: 27% 72%;
+    /* Mobile portrait focal point: frames the hygiene worker, stainless conveyor & control panel (x=24%, y=62%) */
+    background-position: 24% 62%;
   }
 
   body:not(.exam-mode) .topbar {
