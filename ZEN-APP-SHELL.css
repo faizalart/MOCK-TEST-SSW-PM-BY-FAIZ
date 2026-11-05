@@ -1,0 +1,457 @@
+/* ==========================================================================
+   ZEN-APP-SHELL.css — GLOBAL ATMOSPHERE, SIDEBAR, TOPBAR & NON-CBT SHELL
+   Scoped strictly to html:has(body:not(.exam-mode)) and body:not(.exam-mode).
+   Active CBT Exam Screen (body.exam-mode / .exam-shell) is 100% FROZEN.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Design Tokens & Root Non-CBT Scope
+   -------------------------------------------------------------------------- */
+html:has(body:not(.exam-mode)) {
+  background-color: #efede7;
+}
+
+body:not(.exam-mode) {
+  --zen-bg: #faf9f5;
+  --zen-surface: rgba(255, 255, 255, 0.86);
+  --zen-surface-solid: #ffffff;
+  --zen-subtle: rgba(247, 247, 245, 0.88);
+  --zen-ink: #171717;
+  --zen-muted: #43433e;
+  --zen-accent: #4a6720;
+  --zen-accent-hover: #3b5319;
+  --zen-danger: #9e2a2b;
+  --zen-line: #dfdfd9;
+  --zen-line-strong: #c9c9c1;
+  --zen-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', sans-serif;
+
+  background: transparent;
+  color: var(--zen-ink);
+  font-family: var(--zen-font);
+}
+
+/* --------------------------------------------------------------------------
+   2. Single Global Atmospheric Background & Soft Mist Overlay
+   -------------------------------------------------------------------------- */
+body:not(.exam-mode)::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url('./assets/zen-warrior-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Desktop focal point: frames temple & sakura (top-left), meditating warrior (32% X, 66% Y), and Mt. Fuji (right) */
+  background-position: 32% 66%;
+  transform: translateZ(0);
+}
+
+body:not(.exam-mode)::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  /* Single soft mist overlay: preserves photo atmosphere while guaranteeing editorial text contrast */
+  background: linear-gradient(
+    180deg,
+    rgba(250, 249, 245, 0.64) 0%,
+    rgba(250, 249, 245, 0.48) 46%,
+    rgba(250, 249, 245, 0.62) 100%
+  );
+}
+
+/* Strict CBT Kill-Switch: Guarantee zero background/overlay leakage during active CBT exam */
+body.exam-mode::before,
+body.exam-mode::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   3. Transparent App Shell & Explicit Z-Index Layering (No Giant White Box)
+   -------------------------------------------------------------------------- */
+body:not(.exam-mode) .app-shell,
+body:not(.exam-mode) .main-area,
+body:not(.exam-mode) .page-content {
+  background: transparent;
+}
+
+body:not(.exam-mode) .app-shell {
+  position: relative;
+  z-index: 1;
+}
+
+body:not(.exam-mode) .main-area {
+  position: relative;
+  z-index: 1;
+  margin-left: 188px;
+  min-height: 100vh;
+}
+
+body:not(.exam-mode) .page-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 44px 40px 72px;
+}
+
+body:not(.exam-mode) #modal-root,
+body:not(.exam-mode) .modal-backdrop {
+  z-index: 60;
+}
+
+body:not(.exam-mode) #toast-root,
+body:not(.exam-mode) .toast-root {
+  z-index: 100;
+}
+
+.zen-loading {
+  margin: 0;
+  padding: 24px 0;
+  font-size: 13.5px;
+  color: var(--zen-muted);
+}
+
+/* --------------------------------------------------------------------------
+   4. Minimalist Sidebar Navigation
+   -------------------------------------------------------------------------- */
+body:not(.exam-mode) .sidebar {
+  z-index: 25;
+  width: 188px;
+  background: rgba(252, 251, 248, 0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--zen-ink);
+  border-right: 1px solid rgba(212, 212, 206, 0.85);
+  padding: 28px 14px 20px;
+  box-shadow: none;
+}
+
+body:not(.exam-mode) .sidebar .brand {
+  padding: 0 10px 28px;
+  gap: 10px;
+}
+
+body:not(.exam-mode) .sidebar .brand-mark {
+  width: 26px;
+  height: 26px;
+  border-radius: 3px;
+  background: #171717;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+body:not(.exam-mode) .sidebar .brand-mark::after {
+  content: none;
+}
+
+/* Hide redundant brand title, sub-caption, disclaimer, and decorative nav icons */
+body:not(.exam-mode) #sidebar-brand-title,
+body:not(.exam-mode) #sidebar-brand-sub,
+body:not(.exam-mode) #sidebar-disclaimer,
+body:not(.exam-mode) .sidebar .nav-icon {
+  display: none;
+}
+
+body:not(.exam-mode) .sidebar .main-nav {
+  gap: 2px;
+}
+
+body:not(.exam-mode) .sidebar .nav-item {
+  height: 38px;
+  padding: 0 10px;
+  border-radius: 4px;
+  color: var(--zen-muted);
+  font-size: 13px;
+  font-weight: 450;
+  background: transparent;
+  box-shadow: none;
+}
+
+body:not(.exam-mode) .sidebar .nav-item:hover {
+  background: rgba(23, 23, 23, 0.05);
+  color: var(--zen-ink);
+}
+
+body:not(.exam-mode) .sidebar .nav-item.active {
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--zen-ink);
+  font-weight: 600;
+  box-shadow: inset 2px 0 0 var(--zen-accent);
+}
+
+body:not(.exam-mode) .sidebar .sidebar-bottom {
+  border-top: 1px solid rgba(212, 212, 206, 0.85);
+  padding: 14px 10px 0;
+}
+
+body:not(.exam-mode) .sidebar .offline-pill {
+  color: var(--zen-muted);
+  font-size: 11px;
+  gap: 7px;
+}
+
+body:not(.exam-mode) .sidebar .status-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--zen-accent);
+  box-shadow: none;
+}
+
+/* --------------------------------------------------------------------------
+   5. Minimalist Topbar & Language Control
+   -------------------------------------------------------------------------- */
+body:not(.exam-mode) .topbar {
+  position: sticky;
+  top: 0;
+  z-index: 15;
+  height: 52px;
+  background: rgba(252, 251, 248, 0.82);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(212, 212, 206, 0.8);
+  padding: 0 40px;
+}
+
+body:not(.exam-mode) .topbar .local-chip,
+body:not(.exam-mode) #topbar-backup-btn {
+  display: none;
+}
+
+body:not(.exam-mode) #breadcrumbs {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--zen-muted);
+  visibility: hidden;
+}
+
+body:not(.exam-mode) #global-lang-select {
+  min-height: 34px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: var(--zen-ink);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--zen-line-strong);
+  border-radius: 4px;
+}
+
+/* --------------------------------------------------------------------------
+   6. Keyboard Accessibility Focus Ring & Shared Button Primitives
+   -------------------------------------------------------------------------- */
+body:not(.exam-mode) button:focus-visible,
+body:not(.exam-mode) a:focus-visible,
+body:not(.exam-mode) input:focus-visible,
+body:not(.exam-mode) select:focus-visible,
+body:not(.exam-mode) [contenteditable="true"]:focus-visible {
+  outline: 2px solid #171717;
+  outline-offset: 2px;
+}
+
+body:not(.exam-mode) .hd-btn,
+body:not(.exam-mode) .hd-btn-primary,
+body:not(.exam-mode) .hd-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0 16px;
+  font-family: var(--zen-font);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+body:not(.exam-mode) .hd-btn-compact {
+  min-height: 32px;
+  padding: 0 13px;
+  font-size: 12.5px;
+}
+
+body:not(.exam-mode) .hd-btn-primary {
+  background: #4a6720;
+  border-color: #4a6720;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+body:not(.exam-mode) .hd-btn-primary:hover:not(:disabled) {
+  background: #3b5319;
+  border-color: #3b5319;
+}
+
+body:not(.exam-mode) .hd-btn-secondary {
+  background: rgba(255, 255, 255, 0.9);
+  border-color: var(--zen-line-strong);
+  color: var(--zen-ink);
+}
+
+body:not(.exam-mode) .hd-btn-secondary:hover:not(:disabled) {
+  background: #ffffff;
+  border-color: var(--zen-ink);
+}
+
+body:not(.exam-mode) .hd-btn-ghost {
+  background: rgba(255, 255, 255, 0.65);
+  border-color: rgba(201, 201, 193, 0.7);
+  color: var(--zen-ink);
+  padding: 0 13px;
+}
+
+body:not(.exam-mode) .hd-btn-ghost:hover:not(:disabled) {
+  background: #ffffff;
+  border-color: var(--zen-ink);
+}
+
+body:not(.exam-mode) .hd-row-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  padding: 0 11px;
+  font-family: var(--zen-font);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--zen-ink);
+  background: #ffffff;
+  border: 1px solid var(--zen-line-strong);
+  border-radius: 3px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.1s ease, border-color 0.1s ease, color 0.1s ease;
+}
+
+body:not(.exam-mode) .hd-row-btn:hover:not(:disabled) {
+  background: #f7f7f5;
+  border-color: var(--zen-ink);
+}
+
+body:not(.exam-mode) .hd-row-btn:disabled,
+body:not(.exam-mode) .hd-btn:disabled,
+body:not(.exam-mode) .hd-btn-primary:disabled,
+body:not(.exam-mode) .hd-btn-secondary:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+body:not(.exam-mode) .hd-row-btn-primary {
+  color: #4a6720;
+  border-color: #9cb280;
+  font-weight: 600;
+}
+
+body:not(.exam-mode) .hd-row-btn-primary:hover:not(:disabled) {
+  background: #4a6720;
+  border-color: #4a6720;
+  color: #ffffff;
+}
+
+body:not(.exam-mode) .zen-danger-btn {
+  color: #9e2a2b;
+  border-color: #dfb8b8;
+}
+
+body:not(.exam-mode) .zen-danger-btn:hover:not(:disabled) {
+  background: #9e2a2b;
+  border-color: #9e2a2b;
+  color: #ffffff;
+}
+
+body:not(.exam-mode) .hd-text-link,
+body:not(.exam-mode) .hd-text-btn {
+  border: 0;
+  background: transparent;
+  padding: 4px 2px;
+  font-family: var(--zen-font);
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--zen-ink);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+body:not(.exam-mode) .hd-text-link:hover,
+body:not(.exam-mode) .hd-text-btn:hover {
+  color: var(--zen-accent);
+}
+
+body:not(.exam-mode) .hd-text-danger {
+  color: #9e2a2b;
+}
+
+body:not(.exam-mode) .hd-text-danger:hover {
+  color: #741b1c;
+}
+
+/* --------------------------------------------------------------------------
+   7. Responsive Shell & Background Focal Point Calibration
+   -------------------------------------------------------------------------- */
+@media (max-width: 900px) {
+  body:not(.exam-mode)::before {
+    /* Tablet focal point: keeps meditating warrior & mountain balanced */
+    background-position: 29% 68%;
+  }
+
+  body:not(.exam-mode) .main-area {
+    margin-left: 0;
+  }
+
+  body:not(.exam-mode) .sidebar {
+    background: rgba(252, 251, 248, 0.96);
+    box-shadow: 8px 0 24px rgba(0, 0, 0, 0.1);
+  }
+
+  body:not(.exam-mode) .topbar {
+    padding: 0 20px;
+  }
+
+  body:not(.exam-mode) #breadcrumbs {
+    visibility: visible;
+  }
+
+  body:not(.exam-mode) .page-content {
+    padding: 32px 20px 56px;
+  }
+}
+
+@media (max-width: 640px) {
+  body:not(.exam-mode)::before {
+    /* Mobile portrait focal point: centers directly on the meditating Zen warrior on the cliff (x=27%, y=72%) */
+    background-position: 27% 72%;
+  }
+
+  body:not(.exam-mode) .topbar {
+    padding: 0 16px;
+  }
+
+  body:not(.exam-mode) #global-lang-select {
+    min-height: 44px;
+  }
+
+  body:not(.exam-mode) .page-content {
+    padding: 24px 16px 48px;
+  }
+
+  body:not(.exam-mode) .hd-btn,
+  body:not(.exam-mode) .hd-btn-primary,
+  body:not(.exam-mode) .hd-btn-secondary,
+  body:not(.exam-mode) .hd-row-btn {
+    min-height: 44px;
+  }
+
+  body:not(.exam-mode) .hd-text-link,
+  body:not(.exam-mode) .hd-text-btn {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+}

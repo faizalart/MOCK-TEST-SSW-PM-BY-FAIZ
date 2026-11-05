@@ -1,182 +1,16 @@
 /* ==========================================================================
-   HOME-DASHBOARD.css — ZEN WHITE DIGITAL LIBRARY (FULL APPLICATION SYSTEM)
-   Scoped strictly to body:not(.exam-mode), .home-dashboard, and .zen-page.
-   Active CBT Exam Screen (body.exam-mode / .exam-shell) is 100% untouched.
+   HOME-DASHBOARD.css — HOMEPAGE ONLY (.home-dashboard)
+   Scoped strictly to .home-dashboard.
+   Active CBT Exam Screen (body.exam-mode / .exam-shell) is 100% FROZEN.
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   1. Global Shell & Navigation Overrides (All Non-CBT Application Pages)
+   1. Homepage Root Container (Open to Global Atmosphere — No Giant Box)
    -------------------------------------------------------------------------- */
-html:has(body:not(.exam-mode)),
-body:not(.exam-mode) {
-  --zen-bg: #ffffff;
-  --zen-subtle: #f7f7f5;
-  --zen-ink: #171717;
-  --zen-muted: #5c5c57;
-  --zen-accent: #4a6720;
-  --zen-accent-hover: #3b5319;
-  --zen-danger: #9e2a2b;
-  --zen-line: #e8e8e4;
-  --zen-line-strong: #d4d4ce;
-  --zen-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', sans-serif;
-
-  background: #ffffff;
-  color: #171717;
-  font-family: var(--zen-font);
-}
-
-body:not(.exam-mode) .app-shell,
-body:not(.exam-mode) .main-area {
-  background: #ffffff;
-}
-
-body:not(.exam-mode) .sidebar {
-  width: 188px;
-  background: #ffffff;
-  color: #171717;
-  border-right: 1px solid #e8e8e4;
-  padding: 28px 14px 20px;
-  box-shadow: none;
-}
-
-body:not(.exam-mode) .main-area {
-  margin-left: 188px;
-}
-
-body:not(.exam-mode) .sidebar .brand {
-  padding: 0 10px 28px;
-  gap: 10px;
-}
-
-body:not(.exam-mode) .sidebar .brand-mark {
-  width: 26px;
-  height: 26px;
-  border-radius: 3px;
-  background: #171717;
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: 600;
-  flex-shrink: 0;
-}
-
-body:not(.exam-mode) .sidebar .brand-mark::after {
-  content: none;
-}
-
-/* Remove repeated brand title, sub-caption, disclaimer, and decorative nav icons in sidebar */
-body:not(.exam-mode) #sidebar-brand-title,
-body:not(.exam-mode) #sidebar-brand-sub,
-body:not(.exam-mode) #sidebar-disclaimer,
-body:not(.exam-mode) .sidebar .nav-icon {
-  display: none;
-}
-
-body:not(.exam-mode) .sidebar .main-nav {
-  gap: 2px;
-}
-
-body:not(.exam-mode) .sidebar .nav-item {
-  height: 38px;
-  padding: 0 10px;
-  border-radius: 4px;
-  color: #5c5c57;
-  font-size: 13px;
-  font-weight: 400;
-  background: transparent;
-  box-shadow: none;
-}
-
-body:not(.exam-mode) .sidebar .nav-item:hover {
-  background: #f7f7f5;
-  color: #171717;
-}
-
-body:not(.exam-mode) .sidebar .nav-item.active {
-  background: #f7f7f5;
-  color: #171717;
-  font-weight: 600;
-  box-shadow: inset 2px 0 0 #4a6720;
-}
-
-body:not(.exam-mode) .sidebar .sidebar-bottom {
-  border-top: 1px solid #e8e8e4;
-  padding: 14px 10px 0;
-}
-
-body:not(.exam-mode) .sidebar .offline-pill {
-  color: #5c5c57;
-  font-size: 11px;
-  gap: 7px;
-}
-
-body:not(.exam-mode) .sidebar .status-dot {
-  width: 6px;
-  height: 6px;
-  background: #4a6720;
-  box-shadow: none;
-}
-
-/* Minimalist Topbar */
-body:not(.exam-mode) .topbar {
-  height: 52px;
-  background: #ffffff;
-  border-bottom: 1px solid #e8e8e4;
-  padding: 0 40px;
-}
-
-body:not(.exam-mode) .topbar .local-chip,
-body:not(.exam-mode) #topbar-backup-btn {
-  display: none;
-}
-
-body:not(.exam-mode) #breadcrumbs {
-  font-size: 12px;
-  font-weight: 500;
-  color: #5c5c57;
-  visibility: hidden;
-}
-
-body:not(.exam-mode) #global-lang-select {
-  min-height: 34px;
-  padding: 4px 10px;
-  font-size: 12px;
-  color: #171717;
-  background: #ffffff;
-  border: 1px solid #e8e8e4;
-  border-radius: 4px;
-}
-
-body:not(.exam-mode) .page-content {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 44px 40px 72px;
-}
-
-.zen-loading {
-  margin: 0;
-  padding: 24px 0;
-  font-size: 13.5px;
-  color: #5c5c57;
-}
-
-/* --------------------------------------------------------------------------
-   2. Shared Editorial Containers (.home-dashboard & .zen-page)
-   -------------------------------------------------------------------------- */
-.home-dashboard,
-.zen-page {
-  --zen-bg: #ffffff;
-  --zen-subtle: #f7f7f5;
-  --zen-ink: #171717;
-  --zen-muted: #5c5c57;
-  --zen-accent: #4a6720;
-  --zen-accent-hover: #3b5319;
-  --zen-danger: #9e2a2b;
-  --zen-line: #e8e8e4;
-  --zen-line-strong: #d4d4ce;
-  --zen-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', sans-serif;
-
+.home-dashboard {
   font-family: var(--zen-font);
   color: var(--zen-ink);
+  background: transparent;
   display: flex;
   flex-direction: column;
   gap: 44px;
@@ -184,94 +18,12 @@ body:not(.exam-mode) .page-content {
 
 .home-dashboard *,
 .home-dashboard *::before,
-.home-dashboard *::after,
-.zen-page *,
-.zen-page *::before,
-.zen-page *::after {
+.home-dashboard *::after {
   box-sizing: border-box;
 }
 
-/* Keyboard Focus Ring */
-body:not(.exam-mode) button:focus-visible,
-body:not(.exam-mode) a:focus-visible,
-body:not(.exam-mode) input:focus-visible,
-body:not(.exam-mode) select:focus-visible,
-body:not(.exam-mode) [contenteditable="true"]:focus-visible {
-  outline: 2px solid #171717;
-  outline-offset: 2px;
-}
-
 /* --------------------------------------------------------------------------
-   3. Shared Page Headers (.zen-page-head & .hd-hero)
-   -------------------------------------------------------------------------- */
-.zen-page .zen-page-head {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 16px 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid var(--zen-ink);
-}
-
-.zen-page .zen-kicker {
-  display: block;
-  margin: 0 0 6px;
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--zen-muted);
-}
-
-.zen-page .zen-page-title {
-  margin: 0;
-  font-size: clamp(22px, 2.6vw, 28px);
-  font-weight: 600;
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  color: var(--zen-ink);
-}
-
-.zen-page .zen-page-meta {
-  margin: 6px 0 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px 10px;
-  font-size: 13px;
-  color: var(--zen-muted);
-  font-variant-numeric: tabular-nums;
-}
-
-.zen-page .zen-page-meta .summary-big {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--zen-ink);
-}
-
-.zen-page .zen-page-meta .summary-big span {
-  font-weight: 400;
-  color: var(--zen-muted);
-}
-
-.zen-page .zen-head-actions,
-.zen-page .zen-page-head-actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-}
-
-.zen-page .zen-meta-count {
-  font-size: 12.5px;
-  color: var(--zen-muted);
-  font-variant-numeric: tabular-nums;
-  margin-right: 4px;
-}
-
-/* --------------------------------------------------------------------------
-   4. Conditional Resume Session Bar & Homepage Hero
+   2. Conditional Resume Session Banner
    -------------------------------------------------------------------------- */
 .home-dashboard .hd-resume-banner {
   display: flex;
@@ -279,7 +31,7 @@ body:not(.exam-mode) [contenteditable="true"]:focus-visible {
   justify-content: space-between;
   gap: 16px;
   padding: 14px 18px;
-  background: var(--zen-subtle);
+  background: rgba(255, 255, 255, 0.88);
   border: 1px solid var(--zen-line-strong);
   border-left: 3px solid var(--zen-accent);
   border-radius: 4px;
@@ -321,18 +73,21 @@ body:not(.exam-mode) [contenteditable="true"]:focus-visible {
   font-variant-numeric: tabular-nums;
 }
 
+/* --------------------------------------------------------------------------
+   3. Editorial Hero Header (Directly on Atmospheric Canvas)
+   -------------------------------------------------------------------------- */
 .home-dashboard .hd-hero {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-bottom: 36px;
-  border-bottom: 1px solid var(--zen-line);
+  padding-bottom: 34px;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.22);
 }
 
 .home-dashboard .hd-kicker {
   margin: 0 0 10px;
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.05em;
   color: var(--zen-muted);
 }
@@ -362,162 +117,14 @@ body:not(.exam-mode) [contenteditable="true"]:focus-visible {
 }
 
 /* --------------------------------------------------------------------------
-   5. Unified Minimalist Buttons (Across All Non-CBT Pages & Modals)
+   4. Homepage Section Headers & Category Filter Tabs
    -------------------------------------------------------------------------- */
-body:not(.exam-mode) .hd-btn,
-body:not(.exam-mode) .hd-btn-primary,
-body:not(.exam-mode) .hd-btn-secondary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 38px;
-  padding: 0 16px;
-  font-family: var(--zen-font);
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 1;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
-}
-
-body:not(.exam-mode) .hd-btn-compact {
-  min-height: 32px;
-  padding: 0 13px;
-  font-size: 12.5px;
-}
-
-body:not(.exam-mode) .hd-btn-primary {
-  background: #4a6720;
-  border-color: #4a6720;
-  color: #ffffff;
-  font-weight: 600;
-}
-
-body:not(.exam-mode) .hd-btn-primary:hover:not(:disabled) {
-  background: #3b5319;
-  border-color: #3b5319;
-}
-
-body:not(.exam-mode) .hd-btn-secondary {
-  background: #ffffff;
-  border-color: #d4d4ce;
-  color: #171717;
-}
-
-body:not(.exam-mode) .hd-btn-secondary:hover:not(:disabled) {
-  background: #f7f7f5;
-  border-color: #171717;
-}
-
-body:not(.exam-mode) .hd-btn-ghost {
-  background: transparent;
-  border-color: transparent;
-  color: #5c5c57;
-  padding: 0 12px;
-}
-
-body:not(.exam-mode) .hd-btn-ghost:hover:not(:disabled) {
-  background: #f7f7f5;
-  color: #171717;
-}
-
-body:not(.exam-mode) .hd-row-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 30px;
-  padding: 0 11px;
-  font-family: var(--zen-font);
-  font-size: 12px;
-  font-weight: 500;
-  color: #171717;
-  background: #ffffff;
-  border: 1px solid #d4d4ce;
-  border-radius: 3px;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background-color 0.1s ease, border-color 0.1s ease, color 0.1s ease;
-}
-
-body:not(.exam-mode) .hd-row-btn:hover:not(:disabled) {
-  background: #f7f7f5;
-  border-color: #171717;
-}
-
-body:not(.exam-mode) .hd-row-btn:disabled,
-body:not(.exam-mode) .hd-btn:disabled,
-body:not(.exam-mode) .hd-btn-primary:disabled,
-body:not(.exam-mode) .hd-btn-secondary:disabled {
-  opacity: 0.45;
-  cursor: not-allowed;
-}
-
-body:not(.exam-mode) .hd-row-btn-primary {
-  color: #4a6720;
-  border-color: #b7c6a1;
-  font-weight: 600;
-}
-
-body:not(.exam-mode) .hd-row-btn-primary:hover:not(:disabled) {
-  background: #4a6720;
-  border-color: #4a6720;
-  color: #ffffff;
-}
-
-body:not(.exam-mode) .zen-danger-btn {
-  color: #9e2a2b;
-  border-color: #dfb8b8;
-}
-
-body:not(.exam-mode) .zen-danger-btn:hover:not(:disabled) {
-  background: #9e2a2b;
-  border-color: #9e2a2b;
-  color: #ffffff;
-}
-
-body:not(.exam-mode) .hd-text-link,
-body:not(.exam-mode) .hd-text-btn {
-  border: 0;
-  background: transparent;
-  padding: 4px 2px;
-  font-family: var(--zen-font);
-  font-size: 12.5px;
-  font-weight: 500;
-  color: #5c5c57;
-  cursor: pointer;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-body:not(.exam-mode) .hd-text-link:hover,
-body:not(.exam-mode) .hd-text-btn:hover {
-  color: #171717;
-}
-
-body:not(.exam-mode) .hd-text-danger {
-  color: #9e2a2b;
-}
-
-body:not(.exam-mode) .hd-text-danger:hover {
-  color: #741b1c;
-}
-
-/* --------------------------------------------------------------------------
-   6. Shared Editorial Sections, Filter Tabs & Package Ledger Rows
-   -------------------------------------------------------------------------- */
-.home-dashboard .hd-section,
-.zen-page .hd-section,
-.zen-page .zen-section-block {
+.home-dashboard .hd-section {
   display: flex;
   flex-direction: column;
 }
 
-.home-dashboard .hd-section-head,
-.zen-page .hd-section-head,
-.zen-page .zen-section-head {
+.home-dashboard .hd-section-head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -527,15 +134,13 @@ body:not(.exam-mode) .hd-text-danger:hover {
   border-bottom: 1px solid var(--zen-ink);
 }
 
-.home-dashboard .hd-section-title-group,
-.zen-page .hd-section-title-group {
+.home-dashboard .hd-section-title-group {
   display: flex;
   align-items: baseline;
   gap: 10px;
 }
 
-.home-dashboard .hd-section-title,
-.zen-page .hd-section-title {
+.home-dashboard .hd-section-title {
   margin: 0;
   font-size: 15px;
   font-weight: 600;
@@ -543,28 +148,25 @@ body:not(.exam-mode) .hd-text-danger:hover {
   color: var(--zen-ink);
 }
 
-.home-dashboard .hd-section-meta,
-.zen-page .hd-section-meta {
+.home-dashboard .hd-section-meta {
   font-size: 12.5px;
   color: var(--zen-muted);
   font-variant-numeric: tabular-nums;
 }
 
-.home-dashboard .hd-filter-tabs,
-.zen-page .hd-filter-tabs {
+.home-dashboard .hd-filter-tabs {
   display: inline-flex;
   align-items: center;
   gap: 4px;
 }
 
-.home-dashboard .hd-filter-tab,
-.zen-page .hd-filter-tab {
+.home-dashboard .hd-filter-tab {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   min-height: 30px;
   padding: 0 10px;
-  border: 0;
+  border: 1px solid transparent;
   border-radius: 4px;
   background: transparent;
   color: var(--zen-muted);
@@ -572,63 +174,66 @@ body:not(.exam-mode) .hd-text-danger:hover {
   font-size: 12.5px;
   font-weight: 500;
   cursor: pointer;
-  transition: color 0.12s ease, background-color 0.12s ease;
+  transition: color 0.12s ease, background-color 0.12s ease, border-color 0.12s ease;
 }
 
-.home-dashboard .hd-filter-tab:hover,
-.zen-page .hd-filter-tab:hover {
+.home-dashboard .hd-filter-tab:hover {
   color: var(--zen-ink);
-  background: var(--zen-subtle);
+  background: rgba(255, 255, 255, 0.72);
 }
 
-.home-dashboard .hd-filter-tab.is-active,
-.zen-page .hd-filter-tab.is-active {
+.home-dashboard .hd-filter-tab.is-active {
   color: var(--zen-ink);
   font-weight: 600;
-  background: var(--zen-subtle);
+  background: rgba(255, 255, 255, 0.88);
+  border-color: var(--zen-line-strong);
 }
 
-.home-dashboard .hd-filter-count,
-.zen-page .hd-filter-count {
+.home-dashboard .hd-filter-count {
   font-size: 11.5px;
   color: var(--zen-muted);
   font-variant-numeric: tabular-nums;
 }
 
-/* Package Ledger Rows */
-.home-dashboard .hd-pkg-list,
-.zen-page .hd-pkg-list {
+/* --------------------------------------------------------------------------
+   5. Package Directory Ledger (Readable Surface Only on the Table/List)
+   -------------------------------------------------------------------------- */
+.home-dashboard .hd-pkg-list {
   display: flex;
   flex-direction: column;
+  background: var(--zen-surface);
+  border: 1px solid var(--zen-line-strong);
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
 }
 
-.home-dashboard .hd-pkg-row,
-.zen-page .hd-pkg-row {
+.home-dashboard .hd-pkg-row {
   display: grid;
-  grid-template-columns: 32px minmax(0, 1fr) auto auto;
+  grid-template-columns: 36px minmax(0, 1fr) auto auto;
   align-items: center;
   gap: 16px;
-  padding: 13px 4px;
+  padding: 13px 16px;
   border-bottom: 1px solid var(--zen-line);
   transition: background-color 0.1s ease;
 }
 
-.home-dashboard .hd-pkg-row:hover,
-.zen-page .hd-pkg-row:hover {
-  background: var(--zen-subtle);
+.home-dashboard .hd-pkg-row:last-child {
+  border-bottom: 0;
 }
 
-.home-dashboard .hd-pkg-code,
-.zen-page .hd-pkg-code {
+.home-dashboard .hd-pkg-row:hover {
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.home-dashboard .hd-pkg-code {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--zen-muted);
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.02em;
 }
 
-.home-dashboard .hd-pkg-main,
-.zen-page .hd-pkg-main {
+.home-dashboard .hd-pkg-main {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
@@ -636,857 +241,100 @@ body:not(.exam-mode) .hd-text-danger:hover {
   min-width: 0;
 }
 
-.home-dashboard .hd-pkg-name,
-.zen-page .hd-pkg-name {
+.home-dashboard .hd-pkg-name {
   font-size: 14px;
   font-weight: 500;
   color: var(--zen-ink);
 }
 
-.home-dashboard .hd-pkg-edition,
-.zen-page .hd-pkg-edition {
+.home-dashboard .hd-pkg-edition {
   font-size: 12px;
   color: var(--zen-muted);
 }
 
-.home-dashboard .hd-pkg-meta,
-.zen-page .hd-pkg-meta {
+.home-dashboard .hd-pkg-meta {
   font-size: 12.5px;
   color: var(--zen-muted);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
 
-.home-dashboard .hd-pkg-actions,
-.zen-page .hd-pkg-actions {
+.home-dashboard .hd-pkg-actions {
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
 /* --------------------------------------------------------------------------
-   7. Shared Tables & Empty States (Beranda & Riwayat)
+   6. Recent History Table & Empty State (Readable Surface Only on Table)
    -------------------------------------------------------------------------- */
-.home-dashboard .hd-empty-line,
-.zen-page .hd-empty-line {
+.home-dashboard .hd-empty-line {
   margin: 0;
-  padding: 20px 0;
+  padding: 18px 16px;
   font-size: 13px;
   color: var(--zen-muted);
-  border-bottom: 1px solid var(--zen-line);
+  background: var(--zen-surface);
+  border: 1px solid var(--zen-line-strong);
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
 }
 
-.zen-page .zen-empty-block {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 14px;
-  padding: 8px 0 20px;
-}
-
-.zen-page .zen-empty-block .hd-empty-line {
-  padding: 8px 0;
-  border-bottom: 0;
-}
-
-.home-dashboard .hd-table-wrap,
-.zen-page .hd-history-table-wrap {
+.home-dashboard .hd-table-wrap {
   width: 100%;
   overflow-x: auto;
+  background: var(--zen-surface);
+  border: 1px solid var(--zen-line-strong);
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
 }
 
-.home-dashboard .hd-table,
-.zen-page .hd-history-table {
+.home-dashboard .hd-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
   font-variant-numeric: tabular-nums;
 }
 
-.home-dashboard .hd-table th,
-.zen-page .hd-history-table th {
+.home-dashboard .hd-table th {
   text-align: left;
-  padding: 10px 8px;
+  padding: 10px 14px;
   font-size: 12px;
   font-weight: 500;
   color: var(--zen-muted);
-  background: transparent;
+  background: rgba(247, 247, 245, 0.65);
   text-transform: none;
   letter-spacing: 0;
   border-bottom: 1px solid var(--zen-line);
   white-space: nowrap;
 }
 
-.home-dashboard .hd-table td,
-.zen-page .hd-history-table td {
-  padding: 12px 8px;
+.home-dashboard .hd-table td {
+  padding: 12px 14px;
   color: var(--zen-ink);
   border-bottom: 1px solid var(--zen-line);
   vertical-align: middle;
 }
 
-.home-dashboard .hd-table th:first-child,
-.home-dashboard .hd-table td:first-child,
-.zen-page .hd-history-table th:first-child,
-.zen-page .hd-history-table td:first-child {
-  padding-left: 2px;
+.home-dashboard .hd-table tr:last-child td {
+  border-bottom: 0;
 }
 
 .home-dashboard .hd-table th:last-child,
-.home-dashboard .hd-table td:last-child,
-.zen-page .hd-history-table th:last-child,
-.zen-page .hd-history-table td:last-child {
-  padding-right: 2px;
+.home-dashboard .hd-table td:last-child {
   text-align: right;
 }
 
-.home-dashboard .hd-hist-pkg,
-.zen-page .hd-session-title {
+.home-dashboard .hd-hist-pkg {
   font-weight: 500;
   color: var(--zen-ink);
 }
 
-.zen-page .zen-table-sub {
-  display: block;
-  margin-top: 2px;
-  font-size: 11.5px;
-  color: var(--zen-muted);
-}
-
-.zen-page .hd-muted {
-  color: var(--zen-muted);
-}
-
-.zen-page .zen-row-actions {
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 12px;
-}
-
 /* --------------------------------------------------------------------------
-   8. Konfigurasi Mock Test (.zen-setup-page & .zen-form)
+   7. Mobile Responsive Breakpoint (<= 640px)
    -------------------------------------------------------------------------- */
-.zen-page .zen-form {
-  max-width: 680px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.zen-page .zen-field-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px 20px;
-}
-
-.zen-page .field,
-.zen-page .zen-field {
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-}
-
-.zen-page .field > span,
-.zen-page .zen-field > .zen-label {
-  font-size: 12.5px;
-  font-weight: 500;
-  color: var(--zen-ink);
-}
-
-.zen-page input[type="text"],
-.zen-page input[type="number"],
-.zen-page input[type="search"],
-.zen-page input[type="file"],
-.zen-page select {
-  width: 100%;
-  min-height: 40px;
-  padding: 8px 12px;
-  font-family: var(--zen-font);
-  font-size: 13.5px;
-  color: var(--zen-ink);
-  background: #ffffff;
-  border: 1px solid var(--zen-line-strong);
-  border-radius: 4px;
-  box-shadow: none;
-}
-
-.zen-page input[readonly],
-.zen-page input:disabled {
-  background: var(--zen-subtle);
-  color: var(--zen-muted);
-}
-
-.zen-page .zen-subhead {
-  margin: 0 0 8px;
-  font-size: 13.5px;
-  font-weight: 600;
-  color: var(--zen-ink);
-}
-
-.zen-page .zen-toggle-group,
-.zen-page .zen-candidate-group {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
-  border-top: 1px solid var(--zen-line);
-}
-
-.zen-page .toggle-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 11px 0;
-  border: 0;
-  border-bottom: 1px solid var(--zen-line);
-  border-radius: 0;
-  background: transparent;
-}
-
-.zen-page .toggle-row span strong {
-  font-size: 13.5px;
-  font-weight: 400;
-  color: var(--zen-ink);
-}
-
-.zen-page .zen-check-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 0;
-  border-bottom: 1px solid var(--zen-line);
-  font-size: 13.5px;
-  color: var(--zen-ink);
-  cursor: pointer;
-}
-
-.zen-page .zen-check-row input[type="checkbox"] {
-  width: 16px;
-  height: 16px;
-  accent-color: var(--zen-accent);
-}
-
-/* Custom Question Picker in Setup */
-.zen-page .zen-picker {
-  border: 1px solid var(--zen-line-strong);
-  border-radius: 4px;
-  background: #ffffff;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.zen-page .custom-picker-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--zen-line);
-  font-size: 13px;
-}
-
-.zen-page .custom-question-list {
-  max-height: 260px;
-  overflow-y: auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.zen-page .custom-question-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 8px 4px;
-  border-bottom: 1px solid var(--zen-line);
-  font-size: 13px;
-  cursor: pointer;
-}
-
-.zen-page .custom-question-row input[type="checkbox"] {
-  margin-top: 2px;
-  accent-color: var(--zen-accent);
-}
-
-.zen-page .custom-question-main strong {
-  font-weight: 400;
-  color: var(--zen-ink);
-}
-
-.zen-page .custom-picker-footer {
-  font-size: 12px;
-  color: var(--zen-muted);
-}
-
-.zen-page .zen-form-actions {
-  padding-top: 8px;
-}
-
-.zen-page .zen-submit-btn {
-  min-height: 44px;
-  padding: 0 28px;
-  font-size: 14px;
-}
-
-/* --------------------------------------------------------------------------
-   9. Bank Soal — Katalog Paket & Daftar Pertanyaan (.zen-bank-page)
-   -------------------------------------------------------------------------- */
-.zen-bank-page .zen-active-pkg-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px 16px;
-  padding: 14px 18px;
-  background: var(--zen-subtle);
-  border: 1px solid var(--zen-line-strong);
-  border-radius: 4px;
-}
-
-.zen-bank-page .zen-active-pkg-info {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 8px 12px;
-}
-
-.zen-bank-page .zen-bulk-bar {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px 10px;
-}
-
-.zen-bank-page .zen-select-all {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 12.5px;
-  color: var(--zen-muted);
-  cursor: pointer;
-  margin-right: 4px;
-}
-
-.zen-bank-page .zen-select-all input[type="checkbox"] {
-  width: 15px;
-  height: 15px;
-  accent-color: var(--zen-accent);
-}
-
-.zen-bank-page .zen-filter-bar {
-  display: grid;
-  grid-template-columns: minmax(220px, 2fr) minmax(160px, 1.3fr) minmax(130px, 1fr) minmax(120px, 0.9fr);
-  gap: 10px;
-  padding: 14px 0;
-  border-bottom: 1px solid var(--zen-line);
-}
-
-/* Editorial Question List Items */
-.zen-bank-page .zen-q-list {
-  display: flex;
-  flex-direction: column;
-}
-
-.zen-bank-page .zen-q-item {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 18px 4px;
-  border-bottom: 1px solid var(--zen-line);
-}
-
-.zen-bank-page .zen-q-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 8px 16px;
-}
-
-.zen-bank-page .zen-q-meta {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px 10px;
-  font-size: 12px;
-  color: var(--zen-muted);
-}
-
-.zen-bank-page .zen-q-meta input[type="checkbox"] {
-  width: 15px;
-  height: 15px;
-  accent-color: var(--zen-accent);
-  cursor: pointer;
-}
-
-.zen-bank-page .zen-q-num {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--zen-ink);
-  font-variant-numeric: tabular-nums;
-}
-
-.zen-bank-page .zen-q-pkg {
-  color: var(--zen-muted);
-}
-
-.zen-bank-page .zen-q-key {
-  padding: 2px 7px;
-  border-radius: 3px;
-  background: var(--zen-subtle);
-  border: 1px solid var(--zen-line-strong);
-  color: var(--zen-ink);
-  font-weight: 600;
-  font-size: 11.5px;
-}
-
-.zen-bank-page .zen-q-tag {
-  font-size: 11.5px;
-  color: var(--zen-muted);
-}
-
-.zen-bank-page .zen-q-actions {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.zen-bank-page .zen-q-prompt {
-  font-size: 15px;
-  line-height: 1.85;
-  color: var(--zen-ink);
-  padding-left: 24px;
-}
-
-.zen-bank-page .zen-q-options {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding-left: 24px;
-}
-
-.zen-bank-page .zen-q-opt {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  font-size: 13.5px;
-  line-height: 1.7;
-  color: var(--zen-muted);
-}
-
-.zen-bank-page .zen-q-opt.is-key {
-  color: var(--zen-ink);
-  font-weight: 600;
-}
-
-.zen-bank-page .zen-q-opt-letter {
-  font-variant-numeric: tabular-nums;
-  min-width: 18px;
-  flex-shrink: 0;
-}
-
-/* --------------------------------------------------------------------------
-   10. Backup & Pengaturan (.zen-backup-page)
-   -------------------------------------------------------------------------- */
-.zen-backup-page .zen-backup-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 32px;
-  padding-top: 20px;
-}
-
-.zen-backup-page .zen-backup-col {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-.zen-backup-page .zen-copy {
-  margin: 0 0 6px;
-  font-size: 13px;
-  line-height: 1.6;
-  color: var(--zen-muted);
-}
-
-.zen-backup-page .zen-btn-row,
-.zen-backup-page .zen-file-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 10px;
-}
-
-.zen-backup-page .zen-file-status {
-  font-size: 12.5px;
-  color: var(--zen-muted);
-}
-
-.zen-backup-page .zen-form {
-  padding-top: 20px;
-}
-
-.zen-backup-page .zen-form-footer-split {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px 20px;
-  padding-top: 8px;
-}
-
-/* --------------------------------------------------------------------------
-   11. Hasil & Review Ujian (.zen-result-page)
-   -------------------------------------------------------------------------- */
-.zen-result-page .zen-result-ledger {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  border-top: 1px solid var(--zen-line);
-  border-bottom: 1px solid var(--zen-line);
-  background: #ffffff;
-  border-left: 0;
-  border-right: 0;
-  border-radius: 0;
-  box-shadow: none;
-  padding: 0;
-}
-
-.zen-result-page .zen-ledger-cell {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  padding: 18px 14px;
-  border-right: 1px solid var(--zen-line);
-}
-
-.zen-result-page .zen-ledger-cell:first-child {
-  padding-left: 2px;
-}
-
-.zen-result-page .zen-ledger-cell:last-child {
-  border-right: 0;
-  padding-right: 2px;
-}
-
-.zen-result-page .zen-ledger-label {
-  font-size: 11.5px;
-  font-weight: 500;
-  color: var(--zen-muted);
-}
-
-.zen-result-page .zen-ledger-value {
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--zen-ink);
-  font-variant-numeric: tabular-nums;
-  line-height: 1.2;
-}
-
-.zen-result-page .zen-ledger-value small {
-  font-size: 12.5px;
-  font-weight: 400;
-  color: var(--zen-muted);
-}
-
-.zen-result-page .zen-ledger-value.is-correct {
-  color: var(--zen-accent);
-}
-
-.zen-result-page .zen-ledger-value.is-wrong {
-  color: var(--zen-danger);
-}
-
-.zen-result-page .zen-result-photo-row {
-  margin-top: -28px;
-}
-
-.zen-result-page .zen-review-section {
-  display: flex;
-  flex-direction: column;
-}
-
-.zen-result-page .zen-review-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px 20px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid var(--zen-ink);
-}
-
-.zen-result-page .zen-review-bar-left {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 14px;
-}
-
-.zen-result-page #review-filter {
-  width: auto;
-  min-width: 210px;
-  min-height: 34px;
-  padding: 4px 10px;
-  font-size: 12.5px;
-}
-
-.zen-result-page .zen-review-list {
-  display: flex;
-  flex-direction: column;
-}
-
-.zen-result-page .zen-review-item {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding: 24px 0;
-  border: 0;
-  border-bottom: 1px solid var(--zen-line);
-  border-radius: 0;
-  background: transparent;
-  box-shadow: none;
-}
-
-.zen-result-page .zen-review-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 8px 16px;
-}
-
-.zen-result-page .zen-review-top-left {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.zen-result-page .zen-review-tag {
-  display: inline-flex;
-  align-items: center;
-  padding: 2px 8px;
-  border-radius: 3px;
-  font-size: 11.5px;
-  font-weight: 600;
-  border: 1px solid var(--zen-line-strong);
-  background: var(--zen-subtle);
-  color: var(--zen-ink);
-}
-
-.zen-result-page .zen-review-tag.is-correct {
-  border-color: #b7c6a1;
-  color: var(--zen-accent);
-  background: #f5f8f1;
-}
-
-.zen-result-page .zen-review-tag.is-wrong {
-  border-color: #dfb8b8;
-  color: var(--zen-danger);
-  background: #fcf6f6;
-}
-
-.zen-result-page .zen-review-source {
-  font-size: 12px;
-  color: var(--zen-muted);
-}
-
-.zen-result-page .zen-review-instruction {
-  font-size: 13px;
-  color: var(--zen-muted);
-  line-height: 1.7;
-}
-
-.zen-result-page .zen-review-prompt {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.85;
-  color: var(--zen-ink);
-}
-
-.zen-result-page .zen-review-image {
-  max-width: 360px;
-  border: 1px solid var(--zen-line);
-  border-radius: 4px;
-}
-
-.zen-result-page .zen-review-options {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.zen-result-page .zen-review-opt {
-  display: grid;
-  grid-template-columns: 26px minmax(0, 1fr) auto;
-  align-items: baseline;
-  gap: 10px;
-  padding: 9px 12px;
-  border: 1px solid var(--zen-line);
-  border-radius: 4px;
-  background: #ffffff;
-  font-size: 14px;
-  line-height: 1.7;
-}
-
-.zen-result-page .zen-review-opt.is-correct {
-  border-color: #b7c6a1;
-  background: #f8faf5;
-}
-
-.zen-result-page .zen-review-opt.is-wrong {
-  border-color: #dfb8b8;
-  background: #fdf8f8;
-}
-
-.zen-result-page .zen-opt-letter {
-  font-weight: 600;
-  font-size: 12.5px;
-  color: var(--zen-muted);
-}
-
-.zen-result-page .zen-review-mark {
-  font-size: 11.5px;
-  font-weight: 600;
-  color: var(--zen-muted);
-  white-space: nowrap;
-}
-
-.zen-result-page .zen-review-opt.is-correct .zen-review-mark {
-  color: var(--zen-accent);
-}
-
-.zen-result-page .zen-review-opt.is-wrong .zen-review-mark {
-  color: var(--zen-danger);
-}
-
-.zen-result-page .zen-review-note {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 6px 10px;
-  padding-top: 4px;
-  font-size: 12.5px;
-  color: var(--zen-muted);
-}
-
-.zen-result-page .zen-review-note-label {
-  font-weight: 600;
-  color: var(--zen-ink);
-}
-
-/* --------------------------------------------------------------------------
-   12. Unified Modals, Question Editor & Toasts (Non-CBT)
-   -------------------------------------------------------------------------- */
-body:not(.exam-mode) .modal-backdrop {
-  background: rgba(23, 23, 23, 0.42);
-  backdrop-filter: none;
-}
-
-body:not(.exam-mode) .modal {
-  border-radius: 6px;
-  border: 1px solid #d4d4ce;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
-  background: #ffffff;
-}
-
-body:not(.exam-mode) .modal-head {
-  padding: 18px 24px;
-  border-bottom: 1px solid #e8e8e4;
-}
-
-body:not(.exam-mode) .modal-head h2 {
-  font-size: 16px;
-  font-weight: 600;
-  color: #171717;
-}
-
-body:not(.exam-mode) .modal-body {
-  padding: 22px 24px;
-}
-
-body:not(.exam-mode) .modal-foot {
-  padding: 14px 24px;
-  border-top: 1px solid #e8e8e4;
-  background: #f7f7f5;
-}
-
-body:not(.exam-mode) .toast {
-  border-radius: 4px;
-  background: #171717;
-  color: #ffffff;
-  border: 1px solid #171717;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
-  font-size: 13px;
-}
-
-/* --------------------------------------------------------------------------
-   13. Responsive Breakpoints (Tablet & Mobile <= 900px / <= 640px)
-   -------------------------------------------------------------------------- */
-@media (max-width: 900px) {
-  body:not(.exam-mode) .main-area {
-    margin-left: 0;
-  }
-
-  body:not(.exam-mode) .sidebar {
-    box-shadow: 8px 0 24px rgba(0, 0, 0, 0.08);
-  }
-
-  body:not(.exam-mode) .topbar {
-    padding: 0 20px;
-  }
-
-  body:not(.exam-mode) #breadcrumbs {
-    visibility: visible;
-  }
-
-  body:not(.exam-mode) .page-content {
-    padding: 32px 20px 56px;
-  }
-
-  .zen-bank-page .zen-filter-bar {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .zen-result-page .zen-result-ledger {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .zen-result-page .zen-ledger-cell:nth-child(3) {
-    border-right: 0;
-  }
-
-  .zen-result-page .zen-ledger-cell:nth-child(-n+3) {
-    border-bottom: 1px solid var(--zen-line);
-  }
-}
-
 @media (max-width: 640px) {
-  body:not(.exam-mode) .topbar {
-    padding: 0 16px;
-  }
-
-  body:not(.exam-mode) #global-lang-select {
-    min-height: 44px;
-  }
-
-  body:not(.exam-mode) .page-content {
-    padding: 24px 16px 48px;
-  }
-
-  .home-dashboard,
-  .zen-page {
+  .home-dashboard {
     gap: 32px;
-  }
-
-  /* Touch-comfortable buttons on mobile */
-  body:not(.exam-mode) .hd-btn,
-  body:not(.exam-mode) .hd-btn-primary,
-  body:not(.exam-mode) .hd-btn-secondary,
-  body:not(.exam-mode) .hd-row-btn {
-    min-height: 44px;
   }
 
   .home-dashboard .hd-resume-banner {
@@ -1499,7 +347,7 @@ body:not(.exam-mode) .toast {
   }
 
   .home-dashboard .hd-hero {
-    padding-bottom: 28px;
+    padding-bottom: 26px;
   }
 
   .home-dashboard .hd-actions {
@@ -1522,57 +370,39 @@ body:not(.exam-mode) .toast {
     border-color: var(--zen-accent);
   }
 
-  .home-dashboard .hd-section-head,
-  .zen-page .hd-section-head,
-  .zen-page .zen-page-head {
+  .home-dashboard .hd-section-head {
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
   }
 
-  .zen-page .zen-head-actions,
-  .zen-page .zen-page-head-actions {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-  }
-
-  .zen-page .zen-head-actions > :first-child,
-  .zen-page .zen-page-head-actions > .hd-btn-primary {
-    grid-column: 1 / -1;
-  }
-
-  .home-dashboard .hd-filter-tabs,
-  .zen-page .hd-filter-tabs {
+  .home-dashboard .hd-filter-tabs {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 6px;
   }
 
-  .home-dashboard .hd-filter-tab,
-  .zen-page .hd-filter-tab {
+  .home-dashboard .hd-filter-tab {
     justify-content: center;
     min-height: 44px;
     padding: 0 8px;
-    border: 1px solid var(--zen-line);
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid var(--zen-line-strong);
   }
 
-  .home-dashboard .hd-filter-tab.is-active,
-  .zen-page .hd-filter-tab.is-active {
+  .home-dashboard .hd-filter-tab.is-active {
+    background: #ffffff;
     border-color: var(--zen-ink);
   }
 
-  .home-dashboard .hd-pkg-row,
-  .zen-page .hd-pkg-row {
+  .home-dashboard .hd-pkg-row {
     grid-template-columns: 28px minmax(0, 1fr) auto;
     gap: 8px 10px;
-    padding: 14px 0;
+    padding: 14px 12px;
   }
 
-  .home-dashboard .hd-pkg-actions,
-  .zen-page .hd-pkg-actions {
+  .home-dashboard .hd-pkg-actions {
     grid-column: 1 / -1;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1581,83 +411,34 @@ body:not(.exam-mode) .toast {
     width: 100%;
   }
 
-  .home-dashboard .hd-row-btn,
-  .zen-page .hd-row-btn {
+  .home-dashboard .hd-row-btn {
     width: 100%;
     font-size: 12.5px;
   }
 
-  /* Setup & Forms on Mobile */
-  .zen-page .zen-field-grid,
-  .zen-backup-page .zen-backup-grid,
-  .zen-bank-page .zen-filter-bar {
-    grid-template-columns: 1fr;
-  }
-
-  .zen-page .zen-submit-btn {
-    width: 100%;
-  }
-
-  /* Bank Soal Question Items on Mobile */
-  .zen-bank-page .zen-q-prompt,
-  .zen-bank-page .zen-q-options {
-    padding-left: 0;
-  }
-
-  .zen-bank-page .zen-q-actions {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 6px;
-  }
-
-  /* Result Ledger on Mobile */
-  .zen-result-page .zen-result-ledger {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .zen-result-page .zen-ledger-cell {
-    border-bottom: 1px solid var(--zen-line);
-  }
-
-  .zen-result-page .zen-ledger-cell:nth-child(2n) {
-    border-right: 0;
-  }
-
-  .zen-result-page .zen-review-opt {
-    grid-template-columns: 24px minmax(0, 1fr);
-  }
-
-  .zen-result-page .zen-review-mark {
-    grid-column: 2;
-  }
-
-  /* Responsive Stacked History Table on Mobile (Beranda & Riwayat) */
-  .home-dashboard .hd-table thead,
-  .zen-page .hd-history-table thead {
+  /* Responsive Stacked History Table on Mobile */
+  .home-dashboard .hd-table thead {
     display: none;
   }
 
   .home-dashboard .hd-table,
   .home-dashboard .hd-table tbody,
   .home-dashboard .hd-table tr,
-  .home-dashboard .hd-table td,
-  .zen-page .hd-history-table,
-  .zen-page .hd-history-table tbody,
-  .zen-page .hd-history-table tr,
-  .zen-page .hd-history-table td {
+  .home-dashboard .hd-table td {
     display: block;
     width: 100%;
   }
 
-  .home-dashboard .hd-table tr,
-  .zen-page .hd-history-table tr {
-    padding: 12px 0;
+  .home-dashboard .hd-table tr {
+    padding: 12px 14px;
     border-bottom: 1px solid var(--zen-line);
   }
 
-  .home-dashboard .hd-table td,
-  .zen-page .hd-history-table td {
+  .home-dashboard .hd-table tr:last-child {
+    border-bottom: 0;
+  }
+
+  .home-dashboard .hd-table td {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1667,35 +448,18 @@ body:not(.exam-mode) .toast {
     text-align: right;
   }
 
-  .home-dashboard .hd-table td::before,
-  .zen-page .hd-history-table td::before {
+  .home-dashboard .hd-table td::before {
     content: attr(data-label);
     font-size: 12px;
     color: var(--zen-muted);
     text-align: left;
   }
 
-  .home-dashboard .hd-table td.hd-td-action,
-  .zen-page .hd-history-table td.hd-col-action {
+  .home-dashboard .hd-table td.hd-td-action {
     padding-top: 10px;
   }
 
-  .home-dashboard .hd-table td.hd-td-action::before,
-  .zen-page .hd-history-table td.hd-col-action::before {
+  .home-dashboard .hd-table td.hd-td-action::before {
     display: none;
-  }
-
-  .zen-page .zen-row-actions {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-  }
-
-  body:not(.exam-mode) .hd-text-link,
-  body:not(.exam-mode) .hd-text-btn {
-    min-height: 44px;
-    display: inline-flex;
-    align-items: center;
   }
 }

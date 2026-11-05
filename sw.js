@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssw-pm-mock-test-shell-v13';
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v17';
 
 const CORE = [
   './',
@@ -8,6 +8,11 @@ const CORE = [
   './CSV-IMPORT-STYLES.css?v=ssw3',
   './RICH-HTML-STYLES.css?v=ssw3',
   './QUESTION-EDITOR-UPDATES.css?v=ssw13',
+  './ZEN-APP-SHELL.css?v=ssw17',
+  './HOME-DASHBOARD.css?v=ssw17',
+  './ZEN-PAGES.css?v=ssw17',
+
+  './assets/zen-warrior-bg.png',
 
   './app.js?v=ssw13',
   './seed-data.js?v=ssw3',
@@ -15,9 +20,8 @@ const CORE = [
   './utils.js?v=ssw3',
   './archive.js?v=ssw3',
 
-  './manifest.webmanifest?v=ssw13',
-  './hasbulla-192.png.png',
-  './hasbulla-512.png.png',
+  './manifest.webmanifest?v=ssw17',
+  './icon.svg?v=ssw17',
   './icon.svg'
 ];
 
@@ -25,7 +29,7 @@ self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
 
-    await Promise.all(
+    await Promise.allSettled(
       CORE.map(async path => {
         try {
           const url = new URL(path, self.registration.scope);
@@ -35,6 +39,8 @@ self.addEventListener('install', event => {
 
           if (response.ok) {
             await cache.put(url.href, response);
+          } else {
+            console.warn('[SW] Lewati pre-cache (status ' + response.status + '):', path);
           }
         } catch (error) {
           console.warn('[SW] Gagal cache:', path, error);
@@ -91,7 +97,7 @@ self.addEventListener('fetch', event => {
 
     if (req.mode === 'navigate') {
       return (
-        await caches.match('./index.html')
+        await caches.match('./index.html', { ignoreSearch: true })
       ) || new Response('Aplikasi sedang offline.', {
         status: 503,
         headers: {

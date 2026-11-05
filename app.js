@@ -2557,12 +2557,14 @@ function renderHistory() {
                   return `<tr>
                     <td class="hd-col-date" data-label="${esc(t('thDate'))}">${fmtDate(s.endedAt || s.startedAt, loc)}</td>
                     <td class="hd-col-pkg" data-label="Paket">
-                      <strong class="hd-session-title">${esc(cleanTitle)}</strong>
-                      <span class="zen-table-sub">${esc(s.candidateName || 'Faiz')}</span>
+                      <div>
+                        <strong class="hd-session-title">${esc(cleanTitle)}</strong>
+                        <span class="zen-table-sub">${esc(s.candidateName || 'Faiz')}</span>
+                      </div>
                     </td>
                     <td class="hd-col-mode" data-label="${esc(t('thMode'))}">${s.mode === 'practice' ? esc(t('modePractice')) : esc(t('modeExam'))}</td>
                     <td class="hd-col-score" data-label="${esc(t('thCorrect'))}">${st.correct} / ${st.total}</td>
-                    <td class="hd-col-points" data-label="${esc(t('thPointScore'))}">${st.weightedScore} <span class="hd-muted">/ ${st.maxWeightedScore}</span></td>
+                    <td class="hd-col-points" data-label="${esc(t('thPointScore'))}"><span>${st.weightedScore} <span class="hd-muted">/ ${st.maxWeightedScore}</span></span></td>
                     <td class="hd-col-pct" data-label="Akurasi"><strong>${st.percent}%</strong></td>
                     <td class="hd-col-time" data-label="${esc(t('thTime'))}">${fmtDuration(elapsed)}</td>
                     <td class="hd-col-action">

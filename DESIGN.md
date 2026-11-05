@@ -4,55 +4,58 @@
 
 - **Product**: SSW PM Mock Test by Faiz (`特定技能1号・飲食料品製造業` — Food & Beverage Manufacturing CBT Examination Simulator)
 - **Subjects Covered**: `食品衛生` (Food Hygiene), `食品安全` (Food Safety), `HACCP`, Manufacturing Procedures (`製造工程管理`), and `労働安全衛生` (Workplace Safety)
-- **Design System**: **ZEN WHITE DIGITAL LIBRARY** (Japanese editorial minimalism, generous whitespace, hairline rule dividers, typography-first hierarchy, zero redundancy across all application pages)
+- **Design System**: **ZEN WHITE DIGITAL LIBRARY** (Japanese editorial minimalism, generous whitespace, hairline rule dividers, typography-first hierarchy, zero redundancy across all application pages, with a single atmospheric Zen warrior canvas on non-CBT pages)
 - **Design Read**: Reading this as a Zen-minimalist digital examination library and CBT simulator for SSW Food & Beverage Manufacturing candidates, in a Japanese editorial Zen White visual language, dial **ENERGY 1 / RHYTHM 1 / MOTION 1**.
 
 ### Anti-Slop Dials
 
 | Dial | Value | Specification |
 |---|---|---|
-| **ENERGY** | `1 / 3` | Calm, silent, paper-white examination portal across all pages. Zero cards, zero gradients, zero status pills, zero decorative icons. |
-| **RHYTHM** | `1 / 3` | Single-column editorial vertical flow separated by crisp `1px` hairlines and generous whitespace (`44px–48px` vertical cadence). |
+| **ENERGY** | `1 / 3` | Calm, silent examination portal across all pages. Zero SaaS cards, zero decorative gradients, zero status pills, zero decorative icons. |
+| **RHYTHM** | `1 / 3` | Single-column editorial vertical flow separated by crisp `1px` hairlines and generous whitespace (`40px–44px` vertical cadence). |
 | **MOTION** | `1 / 3` | Instant, functional hover and `:focus-visible` states (`0.1s–0.12s`). Zero entrance, floating, or decorative animations. |
 
 ---
 
-## 2. Strict Architectural Boundary: Application Pages vs. Frozen CBT Exam Screen
+## 2. Strict Architectural Boundary & 3-File CSS Separation
 
-This repository enforces an absolute boundary between two visual zones:
+This repository enforces an absolute boundary between the frozen active CBT exam screen and the redesigned non-CBT application pages, split cleanly by responsibility across three stylesheets:
 
 ### Zone A: Protected Active CBT Examination Screen (COMPLETELY FROZEN)
 The active CBT examination simulation screen matches the official Prometric/JPF testing interface and is **frozen legacy code**.
 - **Protected JS**: `renderExam()`, `renderExamSettingsPopover()`, `applyExamPrefs()`, `syncExamViewportHeight()`, `startExamTicker()`, `finishExam()`.
+- **Protected Stylesheets (READ-ONLY)**: `styles.css`, `QUESTION-EDITOR-UPDATES.css`, `RICH-HTML-STYLES.css`, `CSV-IMPORT-STYLES.css`.
 - **Protected DOM & CSS Selectors**: `body.exam-mode`, `.exam-shell`, `.exam-header`, `.exam-meta-strip`, `.exam-main`, `.exam-progress-rail`, `.exam-question-map`, `.question-map-grid`, `.question-map-item`, `.exam-workspace`, `.question-card`, `.question-instruction`, `.question-prompt`, `.question-image-frame`, `.answer-list`, `.answer-choice`, `.exam-bottom`, `.exam-bottom-tools`, `.exam-nav-buttons`, `.exam-settings-popover`.
-- **Rule**: Never modify `renderExam()` or any CSS rule in `styles.css` / `QUESTION-EDITOR-UPDATES.css` that applies to `body.exam-mode` or `.exam-shell`.
+- **CBT Kill-Switch**: `body.exam-mode::before, body.exam-mode::after { content: none !important; display: none !important; background: none !important; }` guarantees zero background or overlay leakage during `exam-mode`.
 
-### Zone B: Full Application Shell & Pages (`body:not(.exam-mode)`, `.home-dashboard`, `.zen-page`)
-- **Scoped Stylesheet**: [`HOME-DASHBOARD.css`](file:///c:/Users/Admin/Documents/GitHub/MOCK-TEST-SSW-PM-BY-FAIZ/HOME-DASHBOARD.css)
-- **Scoped Root Selectors**: `body:not(.exam-mode)`, `.home-dashboard`, and `.zen-page`. When the user enters the CBT exam (`renderExam()`), `body` receives `.exam-mode` and `.home-dashboard` / `.zen-page` are unmounted from `#view`, so zero rules in `HOME-DASHBOARD.css` match during an exam.
-- **Covered Application Views**:
-  1. **Global Shell (`body:not(.exam-mode)`)**: Slim `188px` white sidebar with single monogram `F`, concise 5-item navigation (`Beranda`, `Mock Test`, `Bank Soal`, `Riwayat`, `Backup`), quiet offline status indicator, and clean white topbar with flag-free language selector (`Bahasa Indonesia`, `English`, `日本語`).
-  2. **Beranda (`renderHome()` / `.home-dashboard`)**: Conditional active-session resume bar, editorial hero with one-occurrence specification line (`Standar CBT · 40 soal · 70 menit · 150 poin`), categorized `Paket Soal` ledger (`Semua 23`, `Kunci Ujian 13`, `Bonus 10`), and recent `Riwayat Hasil`.
-  3. **Konfigurasi Mock Test (`renderSetup()` / `.zen-setup-page`)**: Single-column editorial form (`680px` max-width) with live header specification (`40 / 40 soal · 70 menit · Maks 150 poin`), zero duplicate side summary card, zero redundant field sub-captions, and one primary CTA (`Mulai Ujian`).
-  4. **Bank Soal & Daftar Pertanyaan (`renderBank()` / `.zen-bank-page`)**: Categorized package directory + readable editorial Japanese question list (`.zen-q-list` > `.zen-q-item`) displaying full Japanese prompts with furigana (`<ruby><rt>`) and `A / B / C` choices without table-cell truncation or repeated package names per row.
-  5. **Riwayat Hasil (`renderHistory()` / `.zen-history-page`)**: Clean hairline evaluation table (`Tanggal`, `Paket`, `Mode`, `Benar`, `Poin`, `Akurasi`, `Durasi`, `Review`, `Hapus`) without colored status badges or mini progress bars.
-  6. **Hasil & Review Jawaban (`renderResult()` / `.zen-result-page`)**: Horizontal 6-metric score ledger (`Skor Poin`, `Akurasi`, `Benar`, `Salah`, `Kosong`, `Durasi`) replacing the conic-gradient donut chart, followed by hairline Japanese question review items (`.zen-review-item`), while preserving `.print-report` for `@media print`.
-  7. **Backup & Pengaturan (`renderBackup()` / `.zen-backup-page`)**: Two-column hairline Export/Restore section and compact `Preferensi Standar` form without giant decorative symbols (`⇧`, `⇩`, `＋`).
-  8. **Modals, Question Editor & Toasts**: Clean `1px` hairline dialogs (`renderQuestionEditor()`, `renderCSVImportModal()`, `confirmModal()`) without redundant notices.
+### Zone B: 3-Stylesheet Non-CBT Design Architecture
+1. **[`ZEN-APP-SHELL.css`](file:///c:/Users/Admin/Documents/GitHub/MOCK-TEST-SSW-PM-BY-FAIZ/ZEN-APP-SHELL.css)**:
+   - Global atmospheric background (`body:not(.exam-mode)::before` using `assets/zen-warrior-bg.png`, `1024x576`, web-optimized `390 KB` PNG) and single soft mist overlay (`body:not(.exam-mode)::after`).
+   - Responsive focal point calibration:
+     - Desktop (`> 900px`): `background-position: 32% 66%` (frames temple eaves & sakura at upper-left, meditating Zen warrior on cliff at lower-left, and Mt. Fuji at center-right).
+     - Tablet (`<= 900px`): `background-position: 29% 68%`.
+     - Mobile (`<= 640px`): `background-position: 27% 72%` (keeps the meditating Zen warrior on the cliff at `x ≈ 27%` visible in portrait mobile viewports).
+   - Transparent `.app-shell`, `.main-area`, and `.page-content` (no giant white wrapper box).
+   - Minimalist `188px` sidebar, topbar, language selector, focus ring, and shared button tokens.
+2. **[`HOME-DASHBOARD.css`](file:///c:/Users/Admin/Documents/GitHub/MOCK-TEST-SSW-PM-BY-FAIZ/HOME-DASHBOARD.css)**:
+   - Scoped strictly to `.home-dashboard` (Homepage only): conditional active-session resume banner, editorial hero directly on the atmospheric canvas, categorized `Paket Soal` ledger (`Semua 23`, `Kunci Ujian 13`, `Bonus 10`), and recent `Riwayat Hasil` table.
+3. **[`ZEN-PAGES.css`](file:///c:/Users/Admin/Documents/GitHub/MOCK-TEST-SSW-PM-BY-FAIZ/ZEN-PAGES.css)**:
+   - Scoped strictly to `.zen-page` (`.zen-setup-page`, `.zen-bank-page`, `.zen-history-page`, `.zen-result-page`, `.zen-backup-page`) and `body:not(.exam-mode)` modals/toasts.
+   - Applies clean white reading surfaces (`rgba(255, 255, 255, 0.86)` to `#ffffff`) exclusively to elements requiring reading contrast (tables, forms, question/review lists, and modal dialogs).
 
 ---
 
 ## 3. Color Palette & Contrast Verification (WCAG AA)
 
-| Token | Hex | Role | Contrast vs `#ffffff` |
+| Token | Value | Role | Contrast vs Reading Surface |
 |---|---|---|---|
-| `--zen-bg` | `#ffffff` | Primary page, sidebar, topbar, and modal surface | — |
-| `--zen-subtle` | `#f7f7f5` | Subtle hover tint & active tab/key fill | — |
-| `--zen-ink` | `#171717` | Primary charcoal typography & section hairlines | `17.9 : 1` (AAA) |
-| `--zen-muted` | `#5c5c57` | Secondary metadata, units, and timestamps | `6.7 : 1` (AA) |
+| `--zen-bg` | `#faf9f5` | Atmospheric mist base tone | — |
+| `--zen-surface` | `rgba(255, 255, 255, 0.86)` | Reading surface for tables, forms, question lists, and ledgers | — |
+| `--zen-ink` | `#171717` | Primary charcoal typography & section hairlines | `>= 15.8 : 1` (AAA) |
+| `--zen-muted` | `#4a4a45` | Secondary metadata, units, and timestamps | `>= 7.4 : 1` (AAA) |
 | `--zen-accent` | `#4a6720` | Muted olive/sage primary action & correct key indicator | `6.3 : 1` (AA) |
 | `--zen-danger` | `#9e2a2b` | Restrained crimson for destructive actions & wrong answers | `7.2 : 1` (AAA) |
-| `--zen-line` | `#e8e8e4` | Soft hairline row separator | — |
+| `--zen-line` | `#dfdfd9` | Soft hairline row separator | — |
 
 ---
 
@@ -60,7 +63,7 @@ The active CBT examination simulation screen matches the official Prometric/JPF 
 
 - **Font Stack**: `'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', sans-serif` with `font-variant-numeric: tabular-nums` on all numeric columns.
 - **One-Line Decision Rationale (`R-31`)**:
-  - **Unified Non-CBT Shell (`body:not(.exam-mode)`)**: Applies the slim white sidebar (`188px`), single `F` monogram, and quiet white topbar across every application page while deactivating 100% when `body.exam-mode` is active.
-  - **Single-Column Setup Form (`.zen-setup-page`)**: Removes the redundant right-hand summary card and field `<small>` explanations that repeated label text, presenting a calm `680px` editorial form with one primary `Mulai Ujian` button.
-  - **Editorial Question List (`.zen-q-list` > `.zen-q-item`)**: Replaces the cramped 8-column question table with full-width hairline items so Japanese kanji, furigana (`<ruby><rt>`), and `A / B / C` options read comfortably without truncation.
-  - **Horizontal 6-Metric Result Ledger (`.zen-result-ledger`)**: Replaces the decorative conic-gradient donut chart and triple-repeated accuracy percentage with a single scannable hairline ledger (`Skor Poin`, `Akurasi`, `Benar`, `Salah`, `Kosong`, `Durasi`).
+  - **Atmospheric Background Without Giant Panel (`ZEN-APP-SHELL.css`)**: Uses a single fixed `assets/zen-warrior-bg.png` layer (`z-index: -2`) and soft mist overlay (`z-index: -1`) while keeping `.app-shell`, `.main-area`, and `.page-content` transparent so the Zen warrior atmosphere breathes naturally around readable table/form surfaces.
+  - **Responsive Off-Center Focal Point (`32% 66%` → `27% 72%`)**: Anchors `background-position` to the meditating Zen warrior on the lower-left cliff (`x ≈ 27%`) rather than blind `center` alignment so the warrior remains visible on mobile portrait viewports (`390×844`).
+  - **3-File CSS Responsibility Split (`ZEN-APP-SHELL.css`, `HOME-DASHBOARD.css`, `ZEN-PAGES.css`)**: Separates global shell/atmosphere, homepage-only layout, and secondary pages/modals while keeping all legacy CBT stylesheets 100% read-only.
+  - **Minimalist Monogram Favicon (`icon.svg`)**: Replaces meme/legacy illustrations with a clean single-character `F` monogram on `#171717` with a `#4a6720` accent square and zero long title text.
