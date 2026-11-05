@@ -179,17 +179,17 @@ const I18N = {
   id: {
     locale: 'id-ID',
     navHome: 'Beranda',
-    navSetup: 'Mulai Mock Test',
+    navSetup: 'Mock Test',
     navBank: 'Bank Soal',
-    navHistory: 'Riwayat Hasil',
-    navBackup: 'Backup & Data',
+    navHistory: 'Riwayat',
+    navBackup: 'Backup',
     pageExam: 'Layar Ujian SSW PM',
     pageResult: 'Hasil Ujian',
     pageReview: 'Review Jawaban',
-    topAddQuestion: '＋ Tambah Soal',
+    topAddQuestion: 'Tambah Soal',
     topStartExam: 'Mulai Ujian',
-    storageOnline: 'Penyimpanan lokal aktif',
-    storageOffline: 'Offline · data lokal aktif',
+    storageOnline: 'Penyimpanan lokal',
+    storageOffline: 'Offline lokal',
     sidebarTagline: 'Simulator Ujian SSW Pengolahan Makanan (食品製造)',
     // Home
     homeKicker: 'SSW PM MOCK TEST BY FAIZ · 特定技能1号・飲食料品製造業',
@@ -365,18 +365,18 @@ const I18N = {
   },
   en: {
     locale: 'en-US',
-    navHome: 'Dashboard',
-    navSetup: 'Start Mock Test',
+    navHome: 'Home',
+    navSetup: 'Mock Test',
     navBank: 'Question Bank',
-    navHistory: 'Exam History',
-    navBackup: 'Backup & Data',
+    navHistory: 'History',
+    navBackup: 'Backup',
     pageExam: 'SSW PM Exam Screen',
     pageResult: 'Exam Result',
     pageReview: 'Answer Review',
-    topAddQuestion: '＋ Add Question',
+    topAddQuestion: 'Add Question',
     topStartExam: 'Start Exam',
-    storageOnline: 'Local storage active',
-    storageOffline: 'Offline · local data active',
+    storageOnline: 'Local storage',
+    storageOffline: 'Offline local',
     sidebarTagline: 'SSW Food Manufacturing Exam Simulator (食品製造)',
     // Home
     homeKicker: 'SSW PM MOCK TEST BY FAIZ · 特定技能1号・飲食料品製造業',
@@ -553,17 +553,17 @@ const I18N = {
   ja: {
     locale: 'ja-JP',
     navHome: 'ホーム',
-    navSetup: '模擬試験開始',
+    navSetup: '模擬試験',
     navBank: '問題バンク',
-    navHistory: '受験履歴',
-    navBackup: 'バックアップ・設定',
+    navHistory: '履歴',
+    navBackup: 'バックアップ',
     pageExam: 'SSW PM 試験画面',
     pageResult: '試験結果',
     pageReview: '解答レビュー',
-    topAddQuestion: '＋ 問題追加',
+    topAddQuestion: '問題追加',
     topStartExam: '試験開始',
-    storageOnline: 'ローカル保存有効',
-    storageOffline: 'オフライン・ローカル動作中',
+    storageOnline: 'ローカル保存',
+    storageOffline: 'オフライン保存',
     sidebarTagline: '特定技能1号・飲食料品製造業 模擬試験シミュレーター',
     // Home
     homeKicker: 'SSW PM MOCK TEST BY FAIZ · 特定技能1号・飲食料品製造業',
@@ -1732,14 +1732,6 @@ function renderHome() {
           <p class="hd-empty-line">${esc(copy.histEmpty)}</p>
         `}
       </section>
-
-      <footer class="hd-utility-bar" aria-label="Utilitas sistem">
-        <button type="button" class="hd-util-link" data-page="setup">${esc(copy.utilSetup)}</button>
-        <span class="hd-util-sep" aria-hidden="true">·</span>
-        <button type="button" class="hd-util-link" data-page="bank">${esc(copy.utilBank)}</button>
-        <span class="hd-util-sep" aria-hidden="true">·</span>
-        <button type="button" class="hd-util-link" data-page="backup">${esc(copy.utilBackup)}</button>
-      </footer>
     </div>`;
 }
 
@@ -1773,146 +1765,198 @@ function renderSetup() {
   const pool = getSetupPool(s);
   const count = s.mode === 'full' ? (pool.length || 40) : Math.max(1, Number(s.count) || 40);
   const actual = Math.min(count, pool.length);
+  const maxPoints = (actual * 3.75).toFixed(2).replace(/\.00$/, '');
+  const lang = state.lang || 'id';
+
+  const L = lang === 'ja'
+    ? {
+        title: '模擬試験の設定',
+        mode: '試験モード',
+        modeFull: '本試験モード（40問・70分）',
+        modePrac: '練習モード（時間無制限）',
+        modeCust: 'カスタム設定',
+        pkg: '問題パッケージ',
+        allPkg: 'すべてのパッケージ',
+        qCount: '問題数',
+        duration: '制限時間（分）',
+        optionsHeading: '出題オプション',
+        randomQ: '問題順をシャッフル',
+        shuffleOpt: '選択肢（A・B・C）をシャッフル',
+        untimed: '制限時間を無効にする',
+        candidateHeading: '受験者情報（任意）',
+        candName: '受験者名',
+        candPhoto: '証明写真（印刷用）',
+        pickerTitle: '問題を個別に選択（任意）',
+        pickerReset: '選択をリセット',
+        startBtn: '試験を開始',
+        unitSoal: '問',
+        unitMin: '分',
+        noLimit: '時間無制限',
+        maxPts: `最大 ${maxPoints} 点`
+      }
+    : lang === 'en'
+      ? {
+          title: 'Simulation Setup',
+          mode: 'Simulation Mode',
+          modeFull: 'Full Mock Test (40 questions · 70 min)',
+          modePrac: 'Untimed Practice',
+          modeCust: 'Custom Simulation',
+          pkg: 'Question Package',
+          allPkg: 'All Question Packages',
+          qCount: 'Question Count',
+          duration: 'Duration (Minutes)',
+          optionsHeading: 'Ordering & Timer',
+          randomQ: 'Shuffle question order',
+          shuffleOpt: 'Shuffle answer choices (A, B, C)',
+          untimed: 'Disable countdown timer',
+          candidateHeading: 'Candidate Details (Optional)',
+          candName: 'Candidate Name',
+          candPhoto: 'Candidate Photo (Print Report)',
+          pickerTitle: 'Select Specific Questions (Optional)',
+          pickerReset: 'Reset Selection',
+          startBtn: 'Start Exam',
+          unitSoal: 'questions',
+          unitMin: 'min',
+          noLimit: 'No time limit',
+          maxPts: `Max ${maxPoints} pts`
+        }
+      : {
+          title: 'Konfigurasi Simulasi',
+          mode: 'Mode Simulasi',
+          modeFull: 'Mock Test Penuh (40 soal · 70 menit)',
+          modePrac: 'Latihan Tanpa Timer',
+          modeCust: 'Simulasi Kustom',
+          pkg: 'Paket Soal',
+          allPkg: 'Semua Paket Soal',
+          qCount: 'Jumlah Soal',
+          duration: 'Durasi (Menit)',
+          optionsHeading: 'Pengaturan Urutan & Waktu',
+          randomQ: 'Acak urutan nomor soal',
+          shuffleOpt: 'Acak urutan pilihan jawaban (A, B, C)',
+          untimed: 'Nonaktifkan batas waktu',
+          candidateHeading: 'Identitas Peserta (Opsional)',
+          candName: 'Nama Peserta',
+          candPhoto: 'Foto Laporan Cetak',
+          pickerTitle: 'Pilih Soal Spesifik (Opsional)',
+          pickerReset: 'Reset Pilihan',
+          startBtn: 'Mulai Ujian',
+          unitSoal: 'soal',
+          unitMin: 'menit',
+          noLimit: 'Tanpa batas waktu',
+          maxPts: `Maks ${maxPoints} poin`
+        };
 
   const packageOptions = [
-    ...packages.map(p => `<option value="${esc(p.id)}" ${s.setId === p.id ? 'selected' : ''}>${esc(p.name)} (${p.active} ${esc(t('pkgUnit'))})</option>`),
-    `<option value="all" ${s.setId === 'all' ? 'selected' : ''}>${esc(t('allPackagesOpt'))} (${activeQuestions().length} ${esc(t('pkgUnit'))})</option>`
+    ...packages.map(p => {
+      const cleanName = formatHomePackageTitle(p).primary;
+      return `<option value="${esc(p.id)}" ${s.setId === p.id ? 'selected' : ''}>${esc(cleanName)} (${p.active} ${esc(L.unitSoal)})</option>`;
+    }),
+    `<option value="all" ${s.setId === 'all' ? 'selected' : ''}>${esc(L.allPkg)} (${activeQuestions().length} ${esc(L.unitSoal)})</option>`
   ].join('');
 
   view.innerHTML = `
-    ${pageHead(
-      t('setupKicker'),
-      t('setupTitle'),
-      t('setupDesc'),
-      `<button class="button button-outline" data-page="bank">${esc(t('openBankBtn'))}</button>`
-    )}
-    <div class="setup-layout">
-      <section class="panel setup-form-panel">
-        <div class="panel-head">
-          <div>
-            <h2>${esc(t('setupFormTitle'))}</h2>
-            <p>${esc(t('setupFormSub'))}</p>
-          </div>
+    <div class="zen-page zen-setup-page">
+      <header class="zen-page-head">
+        <div>
+          <h1 class="zen-page-title">${esc(L.title)}</h1>
+          <p class="zen-page-meta">
+            <span class="summary-big">${actual}<span> / ${count} ${esc(L.unitSoal)}</span></span>
+            <span>·</span>
+            <span>${s.practice ? esc(L.noLimit) : `${Math.max(1, Number(s.duration) || 70)} ${esc(L.unitMin)}`}</span>
+            <span>·</span>
+            <span>${esc(L.maxPts)}</span>
+          </p>
         </div>
-        <form id="setup-form" class="form-stack">
+      </header>
+
+      <form id="setup-form" class="zen-form">
+        <div class="zen-field-grid">
           <label class="field">
-            <span>${esc(t('fieldMode'))}</span>
+            <span>${esc(L.mode)}</span>
             <select name="mode">
-              <option value="full" ${s.mode === 'full' ? 'selected' : ''}>${esc(t('modeOptFull'))}</option>
-              <option value="practice" ${s.mode === 'practice' ? 'selected' : ''}>${esc(t('modeOptPrac'))}</option>
-              <option value="custom" ${s.mode === 'custom' ? 'selected' : ''}>${esc(t('modeOptCust'))}</option>
+              <option value="full" ${s.mode === 'full' ? 'selected' : ''}>${esc(L.modeFull)}</option>
+              <option value="practice" ${s.mode === 'practice' ? 'selected' : ''}>${esc(L.modePrac)}</option>
+              <option value="custom" ${s.mode === 'custom' ? 'selected' : ''}>${esc(L.modeCust)}</option>
             </select>
           </label>
-          <p class="field-help" id="mode-description">${esc(modeDescription(s.mode))}</p>
 
           <label class="field">
-            <span>${esc(t('fieldPackage'))}</span>
+            <span>${esc(L.pkg)}</span>
             <select name="setId">${packageOptions}</select>
-            <small>${esc(t('fieldPkgHelp'))}</small>
           </label>
+        </div>
 
-          <div class="two-fields candidate-setup-fields">
-            <label class="field">
-              <span>${esc(t('fieldCandName'))}</span>
-              <input name="candidateName" type="text" maxlength="80" placeholder="Faiz" value="${esc(s.candidateName || '')}">
-              <small>${esc(t('fieldCandNameHelp'))}</small>
-            </label>
-            <label class="field">
-              <span>${esc(t('fieldCandPhoto'))}</span>
-              <input name="candidatePhoto" id="candidate-photo-upload" type="file" accept="image/*">
-              <small>${esc(t('fieldCandPhotoHelp'))}</small>
-            </label>
-          </div>
+        <div class="zen-field-grid">
+          <label class="field">
+            <span>${esc(L.qCount)}</span>
+            <input name="count" type="number" min="1" max="500" value="${esc(s.mode === 'full' ? (pool.length || 40) : s.count)}" ${s.mode === 'full' ? 'readonly' : ''} required>
+          </label>
+          <label class="field">
+            <span>${esc(L.duration)}</span>
+            <input name="duration" type="number" min="1" max="300" value="${esc(s.duration)}" required ${s.practice ? 'disabled' : ''}>
+          </label>
+        </div>
 
-          <div class="two-fields">
-            <label class="field">
-              <span>${esc(t('fieldCount'))}</span>
-              <input name="count" type="number" min="1" max="500" value="${esc(s.mode === 'full' ? (pool.length || 40) : s.count)}" ${s.mode === 'full' ? 'readonly' : ''} required>
-              <small>${esc(s.mode === 'full' ? t('fieldCountHelpFull') : t('fieldCountHelpCustom'))}</small>
-            </label>
-            <label class="field">
-              <span>${esc(t('fieldDuration'))}</span>
-              <input name="duration" type="number" min="1" max="300" value="${esc(s.duration)}" required ${s.practice ? 'disabled' : ''}>
-              <small>${esc(s.practice ? t('fieldDurHelpPrac') : t('fieldDurHelpTimed'))}</small>
-            </label>
-          </div>
-
-          ${s.mode === 'custom' ? `
-            <div class="custom-question-picker">
-              <div class="custom-picker-head">
-                <div>
-                  <strong>Pilih Soal Secara Spesifik (Opsional)</strong>
-                  <small>Centang soal tertentu jika ingin berlatih nomor pilihan saja, atau biarkan kosong untuk mengambil dari paket.</small>
-                </div>
-                <button type="button" class="text-button" data-action="clear-custom-selection">Reset Pilihan</button>
-              </div>
-              <div class="custom-question-list">
-                ${getCustomCandidates(s).length ? getCustomCandidates(s).map(q => `
-                  <label class="custom-question-row">
-                    <input type="checkbox" name="questionIds" value="${esc(q.id)}" ${state.setupCustomIds.has(q.id) ? 'checked' : ''}>
-                    <span class="custom-question-check"></span>
-                    <span class="custom-question-main">
-                      <strong>#${q.questionNumber || '—'} · ${esc(richPlainText(q.prompt || '(tanpa teks)').slice(0, 110))}</strong>
-                      <small>${esc(questionLocationLabel(q))}${(q.imageMediaId || q.questionImage) ? ' · Bergambar' : ''}</small>
-                    </span>
-                  </label>
-                `).join('') : `<div class="custom-picker-empty">Tidak ada soal aktif pada paket ini.</div>`}
-              </div>
-              <div class="custom-picker-footer">${state.setupCustomIds.size ? `${state.setupCustomIds.size} soal dipilih secara manual` : 'Mengikuti jumlah soal dari paket terpilih'}</div>
+        ${s.mode === 'custom' ? `
+          <div class="custom-question-picker zen-picker">
+            <div class="custom-picker-head">
+              <strong>${esc(L.pickerTitle)}</strong>
+              <button type="button" class="hd-text-link" data-action="clear-custom-selection">${esc(L.pickerReset)}</button>
             </div>
-          ` : ''}
+            <div class="custom-question-list">
+              ${getCustomCandidates(s).length ? getCustomCandidates(s).map(q => `
+                <label class="custom-question-row">
+                  <input type="checkbox" name="questionIds" value="${esc(q.id)}" ${state.setupCustomIds.has(q.id) ? 'checked' : ''}>
+                  <span class="custom-question-main">
+                    <strong>#${q.questionNumber || '1'} · ${esc(richPlainText(q.prompt || '(tanpa teks)').slice(0, 110))}</strong>
+                  </span>
+                </label>
+              `).join('') : `<div class="custom-picker-empty">Tidak ada soal aktif pada paket ini.</div>`}
+            </div>
+            <div class="custom-picker-footer">${state.setupCustomIds.size ? `${state.setupCustomIds.size} soal dipilih` : 'Mengikuti jumlah soal paket'}</div>
+          </div>
+        ` : ''}
 
-          <div class="form-divider"></div>
+        <div class="zen-toggle-group">
+          <h2 class="zen-subhead">${esc(L.optionsHeading)}</h2>
           <label class="toggle-row">
-            <span>
-              <strong>${esc(t('toggleRandomQTitle'))}</strong>
-              <small>${esc(t('toggleRandomQSub'))}</small>
-            </span>
+            <span><strong>${esc(L.randomQ)}</strong></span>
             <input name="random" type="checkbox" ${s.random ? 'checked' : ''}>
             <span class="toggle-ui"></span>
           </label>
           <label class="toggle-row">
-            <span>
-              <strong>${esc(t('toggleShuffleOptTitle'))}</strong>
-              <small>${esc(t('toggleShuffleOptSub'))}</small>
-            </span>
+            <span><strong>${esc(L.shuffleOpt)}</strong></span>
             <input name="shuffleOptions" type="checkbox" ${s.shuffleOptions ? 'checked' : ''}>
             <span class="toggle-ui"></span>
           </label>
           <label class="toggle-row">
-            <span>
-              <strong>${esc(t('togglePracticeTitle'))}</strong>
-              <small>${esc(t('togglePracticeSub'))}</small>
-            </span>
+            <span><strong>${esc(L.untimed)}</strong></span>
             <input name="practice" type="checkbox" ${s.practice ? 'checked' : ''}>
             <span class="toggle-ui"></span>
           </label>
-
-          <button class="button button-primary button-wide" type="submit" ${pool.length === 0 ? 'disabled' : ''}>
-            ${esc(t('startNowBtn'))} <span>→</span>
-          </button>
-          ${pool.length === 0 ? `<div class="notice notice-warn"><strong>Belum ada soal pada paket ini</strong><p>Silakan pilih paket soal lain atau muat ulang paket soal di menu Bank Soal.</p></div>` : ''}
-        </form>
-      </section>
-
-      <aside class="setup-summary">
-        <section class="panel summary-panel">
-          <div class="summary-overline">${esc(t('sumOverline'))}</div>
-          <div class="summary-big">${actual}<span> / ${count} ${esc(t('pkgUnit'))}</span></div>
-          <div class="summary-note">${esc(packageName(s.setId, t('allPackagesOpt')))}</div>
-          <div class="summary-progress"><span style="width:${count ? Math.min(100, (actual / count) * 100) : 0}%"></span></div>
-          <div class="summary-fact"><span>${esc(t('sumFieldField'))}</span><strong>特定技能1号・飲食料品製造業</strong></div>
-          <div class="summary-fact"><span>${esc(t('sumFieldMode'))}</span><strong>${s.mode === 'full' ? esc(t('modeExam')) : s.mode === 'practice' ? esc(t('modePractice')) : 'Custom'}</strong></div>
-          <div class="summary-fact"><span>${esc(t('sumFieldDuration'))}</span><strong>${s.practice ? esc(t('sumFieldNoLimit')) : `${Math.max(1, Number(s.duration) || 70)} ${esc(t('sumFieldMinutes'))}`}</strong></div>
-          <div class="summary-fact"><span>${esc(t('sumFieldQOrder'))}</span><strong>${s.random ? esc(t('sumOrderShuffled')) : esc(t('sumOrderOriginal'))}</strong></div>
-          <div class="summary-fact"><span>${esc(t('sumFieldOptOrder'))}</span><strong>${s.shuffleOptions ? esc(t('sumOptShuffled')) : esc(t('sumOptOriginal'))}</strong></div>
-          <div class="summary-fact"><span>${esc(t('sumFieldWeight'))}</span><strong>3.75 pts / Q (Max ${(actual * 3.75).toFixed(2).replace(/\.00$/, '')})</strong></div>
-        </section>
-        <div class="notice notice-neutral">
-          <strong>${esc(t('sumNavNoticeTitle'))}</strong>
-          <p>${esc(t('sumNavNoticeBody'))}</p>
         </div>
-      </aside>
+
+        <div class="zen-candidate-group">
+          <h2 class="zen-subhead">${esc(L.candidateHeading)}</h2>
+          <div class="zen-field-grid">
+            <label class="field">
+              <span>${esc(L.candName)}</span>
+              <input name="candidateName" type="text" maxlength="80" placeholder="Faiz" value="${esc(s.candidateName || '')}">
+            </label>
+            <label class="field">
+              <span>${esc(L.candPhoto)}</span>
+              <input name="candidatePhoto" id="candidate-photo-upload" type="file" accept="image/*">
+            </label>
+          </div>
+        </div>
+
+        <div class="zen-form-actions">
+          <button class="hd-btn hd-btn-primary zen-submit-btn" type="submit" ${pool.length === 0 ? 'disabled' : ''}>
+            ${esc(L.startBtn)}
+          </button>
+        </div>
+        ${pool.length === 0 ? `<p class="hd-empty-line">Tidak ada soal aktif pada paket ini.</p>` : ''}
+      </form>
     </div>`;
 }
 
@@ -1929,12 +1973,13 @@ function updateCustomSetupSummary() {
   const durationInput = $('#setup-form input[name="duration"]');
   if (durationInput) durationInput.disabled = state.setup.practice;
   const footer = $('.custom-picker-footer');
-  if (footer) footer.textContent = state.setupCustomIds.size ? `${state.setupCustomIds.size} soal dipilih secara manual` : 'Mengikuti jumlah soal dari paket terpilih';
+  if (footer) footer.textContent = state.setupCustomIds.size ? `${state.setupCustomIds.size} soal dipilih` : 'Mengikuti jumlah soal paket';
 }
 
 function renderBank() {
   const f = state.bankFilter;
   const packages = getAvailablePackages();
+  const lang = state.lang || 'id';
   let qs = [...state.questions];
 
   if (f.search) {
@@ -1966,114 +2011,287 @@ function renderBank() {
   const selectedCount = [...state.bankSelectedIds].filter(id => state.questions.some(q => q.id === id)).length;
   const allVisibleSelected = qs.length > 0 && qs.every(q => state.bankSelectedIds.has(q.id));
 
-  const actions = `
-    <button class="button button-outline" data-action="reload-all-builtin">Muat Ulang Semua Paket Bawaan</button>
-    <button class="button button-outline" data-action="import-json-set">Impor JSON Soal</button>
-    <button class="button button-outline" data-action="download-csv-template">Template CSV</button>
-    <button class="button button-outline" data-action="import-csv">Impor CSV</button>
-    <button class="button button-outline" data-action="export-json">Ekspor JSON</button>
-    <button class="button button-outline" data-action="clear-question-selection" ${selectedCount ? '' : 'disabled'}>Batal Pilih</button>
-    <button class="button button-danger" data-action="delete-selected-questions" ${selectedCount ? '' : 'disabled'}>Hapus Dipilih (${selectedCount})</button>
-    <button class="button button-primary" data-action="new-question">${esc(t('topAddQuestion'))}</button>
-  `;
+  const kunciPackages = packages.filter(p => String(p.id).startsWith('ssw-pm-kunci-ujian-'));
+  const bonusPackages = packages.filter(p => !String(p.id).startsWith('ssw-pm-kunci-ujian-'));
+  const activeFilter = ['all', 'kunci', 'bonus'].includes(state.homePkgFilter) ? state.homePkgFilter : 'all';
+  const visiblePackages = activeFilter === 'kunci'
+    ? kunciPackages
+    : activeFilter === 'bonus'
+      ? bonusPackages
+      : packages;
+
+  const activePkgObj = f.setId !== 'all' ? packages.find(p => p.id === f.setId) : null;
+  const activePkgIndex = activePkgObj ? packages.indexOf(activePkgObj) : 0;
+
+  const B = lang === 'ja'
+    ? {
+        title: '問題バンク',
+        meta: `全${activeQuestions().length}問 · ${packages.length}パッケージ`,
+        addBtn: '問題を追加',
+        importCsv: 'CSV読込',
+        importJson: 'JSON読込',
+        csvTpl: 'CSVテンプレート',
+        exportJson: 'JSON出力',
+        reloadBtn: '初期データを再読込',
+        catalogTitle: 'パッケージ一覧',
+        filterAll: 'すべて',
+        filterKunci: '本試験キー',
+        filterBonus: '追加演習',
+        btnOpenQ: '問題を見る',
+        btnStart: '開始',
+        allPkgsBtn: 'すべてのパッケージ',
+        questionsTitle: '問題リスト',
+        shownMeta: `${qs.length}問を表示中`,
+        searchPlaceholder: '問題番号・漢字・キーワードで検索…',
+        allPkgsOpt: `すべてのパッケージ (${state.questions.length})`,
+        mediaAll: 'すべての形式',
+        mediaImg: '図解あり',
+        mediaTxt: 'テキストのみ',
+        statusAll: 'すべての状態',
+        statusActive: '有効',
+        statusInactive: '無効',
+        selectAll: 'すべて選択',
+        clearSel: '選択解除',
+        deleteSel: `選択を削除 (${selectedCount})`,
+        keyLabel: '正解',
+        imgTag: '図解',
+        inactiveTag: '無効',
+        editBtn: '編集',
+        dupBtn: '複製',
+        delBtn: '削除',
+        emptyMsg: '条件に一致する問題がありません。',
+        unitSoal: '問',
+        unitImg: '図解'
+      }
+    : lang === 'en'
+      ? {
+          title: 'Question Bank',
+          meta: `${activeQuestions().length} questions · ${packages.length} packages`,
+          addBtn: 'Add Question',
+          importCsv: 'Import CSV',
+          importJson: 'Import JSON',
+          csvTpl: 'CSV Template',
+          exportJson: 'Export JSON',
+          reloadBtn: 'Reload Built-in Sets',
+          catalogTitle: 'Package Directory',
+          filterAll: 'All',
+          filterKunci: 'Exam Keys',
+          filterBonus: 'Bonus Sets',
+          btnOpenQ: 'Questions',
+          btnStart: 'Start',
+          allPkgsBtn: 'All Packages',
+          questionsTitle: 'Question List',
+          shownMeta: `${qs.length} shown`,
+          searchPlaceholder: 'Search question number, kanji, or text…',
+          allPkgsOpt: `All Packages (${state.questions.length})`,
+          mediaAll: 'All Media',
+          mediaImg: 'Illustrated',
+          mediaTxt: 'Text Only',
+          statusAll: 'All Status',
+          statusActive: 'Active',
+          statusInactive: 'Inactive',
+          selectAll: 'Select all',
+          clearSel: 'Clear',
+          deleteSel: `Delete (${selectedCount})`,
+          keyLabel: 'Key',
+          imgTag: 'Illustrated',
+          inactiveTag: 'Inactive',
+          editBtn: 'Edit',
+          dupBtn: 'Duplicate',
+          delBtn: 'Delete',
+          emptyMsg: 'No questions match the current filter.',
+          unitSoal: 'questions',
+          unitImg: 'illustrated'
+        }
+      : {
+          title: 'Bank Soal',
+          meta: `${activeQuestions().length} soal · ${packages.length} paket`,
+          addBtn: 'Tambah Soal',
+          importCsv: 'Impor CSV',
+          importJson: 'Impor JSON',
+          csvTpl: 'Template CSV',
+          exportJson: 'Ekspor JSON',
+          reloadBtn: 'Muat Ulang Paket',
+          catalogTitle: 'Katalog Paket',
+          filterAll: 'Semua',
+          filterKunci: 'Kunci Ujian',
+          filterBonus: 'Bonus',
+          btnOpenQ: 'Daftar Soal',
+          btnStart: 'Mulai',
+          allPkgsBtn: 'Semua Paket',
+          questionsTitle: 'Daftar Pertanyaan',
+          shownMeta: `${qs.length} soal`,
+          searchPlaceholder: 'Cari nomor soal, kanji, furigana, atau isi pilihan…',
+          allPkgsOpt: `Semua Paket (${state.questions.length})`,
+          mediaAll: 'Semua Media',
+          mediaImg: 'Dengan Ilustrasi',
+          mediaTxt: 'Teks Saja',
+          statusAll: 'Semua Status',
+          statusActive: 'Aktif',
+          statusInactive: 'Nonaktif',
+          selectAll: 'Pilih semua',
+          clearSel: 'Batal Pilih',
+          deleteSel: `Hapus (${selectedCount})`,
+          keyLabel: 'Kunci',
+          imgTag: 'Ilustrasi',
+          inactiveTag: 'Nonaktif',
+          editBtn: 'Edit',
+          dupBtn: 'Duplikat',
+          delBtn: 'Hapus',
+          emptyMsg: 'Tidak ada soal yang cocok dengan filter saat ini.',
+          unitSoal: 'soal',
+          unitImg: 'ilustrasi'
+        };
 
   view.innerHTML = `
-    ${pageHead(
-      'BANK SOAL SSW PM · 特定技能1号・飲食料品製造業',
-      t('navBank'),
-      'Kelola seluruh soal bahasa Jepang, anotasi furigana (ふりがな), ilustrasi gambar, pilihan jawaban A/B/C, dan kunci jawaban.',
-      actions
-    )}
-    <input id="csv-import-file" type="file" accept=".csv,.tsv,text/csv,text/tab-separated-values" hidden>
-    <input id="json-set-import-file" type="file" accept=".json,application/json" hidden>
-    <div class="stats-strip">
-      <span><strong>${state.questions.length}</strong> total soal</span>
-      <span><strong>${activeQuestions().length}</strong> soal aktif</span>
-      <span><strong>${state.questions.filter(q => q.setId === 'ssw-pm-kunci-ujian-1').length}</strong> soal Kunci Ujian 1 (CBTP Gino1)</span>
-      <span><strong>${state.questions.filter(q => q.imageMediaId || q.questionImage).length}</strong> soal bergambar</span>
-      <span><strong>${selectedCount}</strong> dipilih</span>
-    </div>
-    <section class="panel bank-panel">
-      <div class="filter-row">
-        <label class="search-field">
-          <span>⌕</span>
-          <input id="bank-search" placeholder="Cari nomor soal, kanji, furigana, HACCP, 食品衛生, atau isi opsi…" value="${esc(f.search)}">
-        </label>
-        <select id="bank-package-filter" aria-label="Filter paket soal">
-          <option value="all">Semua Paket Soal (${state.questions.length})</option>
-          ${packages.map(p => `<option value="${esc(p.id)}" ${f.setId === p.id ? 'selected' : ''}>${esc(p.name)} (${p.total})</option>`).join('')}
-        </select>
-        <select id="bank-media-filter" aria-label="Filter media">
-          <option value="all" ${f.media === 'all' ? 'selected' : ''}>Semua Tipe Media</option>
-          <option value="with-image" ${f.media === 'with-image' ? 'selected' : ''}>Dengan Ilustrasi Gambar</option>
-          <option value="text-only" ${f.media === 'text-only' ? 'selected' : ''}>Teks Saja</option>
-        </select>
-        <select id="bank-status-filter" aria-label="Filter status">
-          <option value="all" ${f.status === 'all' ? 'selected' : ''}>Semua Status</option>
-          <option value="active" ${f.status === 'active' ? 'selected' : ''}>Aktif</option>
-          <option value="inactive" ${f.status === 'inactive' ? 'selected' : ''}>Nonaktif</option>
-        </select>
-      </div>
-      <div class="table-wrap">
-        <table class="bank-table">
-          <thead>
-            <tr>
-              <th class="bank-select-cell">
-                <label class="bank-select-all-label">
-                  <input id="bank-select-visible" type="checkbox" data-select-visible-questions aria-label="Pilih semua soal yang tampil" ${allVisibleSelected ? 'checked' : ''} ${qs.length ? '' : 'disabled'}>
-                  <span>Semua</span>
-                </label>
-              </th>
-              <th>No.</th>
-              <th>Pertanyaan &amp; Pilihan (Jepang + Furigana)</th>
-              <th>Paket Sumber</th>
-              <th>Kunci</th>
-              <th>Media</th>
-              <th>Status</th>
-              <th>Aksi</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${qs.map(q => {
-              const errs = validateQuestion(q);
-              const img = getQuestionMainMedia(q);
-              const medLabel = [
-                img ? `Ilustrasi (${img.name})` : '',
-                q.options?.some(o => o.mediaId || o.optionImage) ? 'Opsi bergambar' : ''
-              ].filter(Boolean).join(', ') || '—';
-              const keyLetter = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : '—';
-              return `<tr>
-                <td class="bank-select-cell"><input type="checkbox" data-question-select="${esc(q.id)}" aria-label="Pilih soal" ${state.bankSelectedIds.has(q.id) ? 'checked' : ''}></td>
-                <td><strong>#${q.questionNumber || '—'}</strong>${(q.sourcePage || q.pdfPage) ? `<small class="table-sub">Hal. ${q.sourcePage || q.pdfPage}</small>` : ''}</td>
-                <td class="question-cell">
-                  <div class="question-title rich-content" lang="ja">${richHTML(q.prompt || '(pertanyaan kosong)')}</div>
-                  <div class="question-snippet rich-content" lang="ja">${(q.options || []).map((o, i) => `<span><b>${String.fromCharCode(65 + i)}:</b> ${richHTML(o.text)}</span>`).join(' · ')}</div>
-                  ${errs.length ? `<div class="cell-badges"><span class="status status-warn">${errs.length} masalah</span></div>` : ''}
-                </td>
-                <td>
-                  <strong>${esc(packageName(q))}</strong>
-                  <small class="table-sub">${esc(q.sourcePdf || 'Bank Soal Lokal')}</small>
-                </td>
-                <td><span class="status status-on">Opsi ${esc(keyLetter)}</span></td>
-                <td>${esc(medLabel)}</td>
-                <td><span class="status ${q.active === false ? 'status-off' : 'status-on'}">${q.active === false ? 'Nonaktif' : 'Aktif'}</span></td>
-                <td>
-                  <div class="row-actions">
-                    <button class="button button-small button-outline" data-action="edit-question" data-id="${esc(q.id)}">Edit</button>
-                    <button class="icon-button" title="Duplikasi" data-action="duplicate-question" data-id="${esc(q.id)}">⧉</button>
-                    <button class="icon-button danger-icon" title="Hapus" data-action="delete-question" data-id="${esc(q.id)}">×</button>
+    <div class="zen-page zen-bank-page">
+      <input id="csv-import-file" type="file" accept=".csv,.tsv,text/csv,text/tab-separated-values" hidden>
+      <input id="json-set-import-file" type="file" accept=".json,application/json" hidden>
+
+      <header class="zen-page-head">
+        <div>
+          <h1 class="zen-page-title">${esc(B.title)}</h1>
+          <p class="zen-page-meta">${esc(B.meta)}</p>
+        </div>
+        <div class="zen-head-actions">
+          <button type="button" class="hd-btn hd-btn-primary hd-btn-compact" data-action="new-question">${esc(B.addBtn)}</button>
+          <button type="button" class="hd-row-btn" data-action="import-csv">${esc(B.importCsv)}</button>
+          <button type="button" class="hd-row-btn" data-action="import-json-set">${esc(B.importJson)}</button>
+          <button type="button" class="hd-row-btn" data-action="download-csv-template">${esc(B.csvTpl)}</button>
+          <button type="button" class="hd-row-btn" data-action="export-json">${esc(B.exportJson)}</button>
+          <button type="button" class="hd-row-btn" data-action="reload-all-builtin">${esc(B.reloadBtn)}</button>
+        </div>
+      </header>
+
+      ${activePkgObj ? `
+        <section class="zen-active-pkg-bar" aria-label="${esc(B.catalogTitle)}">
+          <div class="zen-active-pkg-info">
+            <span class="hd-pkg-code">${esc(getHomePackageCode(activePkgObj, activePkgIndex))}</span>
+            <strong class="hd-pkg-name">${esc(formatHomePackageTitle(activePkgObj).primary)}</strong>
+            <span class="hd-section-meta">${activePkgObj.active} ${esc(B.unitSoal)}</span>
+          </div>
+          <div class="hd-pkg-actions">
+            <button type="button" class="hd-row-btn" data-action="filter-package" data-id="all">${esc(B.allPkgsBtn)}</button>
+            <button type="button" class="hd-row-btn hd-row-btn-primary" data-action="quick-package" data-id="${esc(activePkgObj.id)}">${esc(B.btnStart)}</button>
+          </div>
+        </section>
+      ` : `
+        <section class="hd-section zen-catalog-section" aria-labelledby="zen-catalog-heading">
+          <div class="hd-section-head">
+            <div class="hd-section-title-group">
+              <h2 id="zen-catalog-heading" class="hd-section-title">${esc(B.catalogTitle)}</h2>
+            </div>
+            <div class="hd-filter-tabs" role="group" aria-label="${esc(B.catalogTitle)}">
+              <button type="button" class="hd-filter-tab ${activeFilter === 'all' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="all" aria-pressed="${activeFilter === 'all'}">
+                <span>${esc(B.filterAll)}</span>
+                <span class="hd-filter-count">${packages.length}</span>
+              </button>
+              <button type="button" class="hd-filter-tab ${activeFilter === 'kunci' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="kunci" aria-pressed="${activeFilter === 'kunci'}">
+                <span>${esc(B.filterKunci)}</span>
+                <span class="hd-filter-count">${kunciPackages.length}</span>
+              </button>
+              <button type="button" class="hd-filter-tab ${activeFilter === 'bonus' ? 'is-active' : ''}" data-action="set-home-pkg-filter" data-id="bonus" aria-pressed="${activeFilter === 'bonus'}">
+                <span>${esc(B.filterBonus)}</span>
+                <span class="hd-filter-count">${bonusPackages.length}</span>
+              </button>
+            </div>
+          </div>
+          <div class="hd-pkg-list">
+            ${visiblePackages.map((pkg, idx) => {
+              const code = getHomePackageCode(pkg, idx);
+              const titleObj = formatHomePackageTitle(pkg);
+              const metaText = `${pkg.active} ${B.unitSoal}${pkg.withImage > 0 ? ` · ${pkg.withImage} ${B.unitImg}` : ''}`;
+              return `
+                <div class="hd-pkg-row">
+                  <span class="hd-pkg-code" aria-hidden="true">${esc(code)}</span>
+                  <div class="hd-pkg-main">
+                    <span class="hd-pkg-name">${esc(titleObj.primary)}</span>
+                    ${titleObj.edition ? `<span class="hd-pkg-edition">${esc(titleObj.edition)}</span>` : ''}
                   </div>
-                </td>
-              </tr>`;
-            }).join('') || `<tr><td colspan="8"><div class="empty-state"><span class="empty-symbol">▤</span><strong>Tidak ada soal yang cocok</strong><p>Ubah kata pencarian atau muat ulang paket soal SSW PM.</p></div></td></tr>`}
-          </tbody>
-        </table>
-      </div>
-      <div class="table-bottom">
-        <span>Menampilkan ${qs.length} dari ${state.questions.length} soal SSW PM</span>
-        <span>${selectedCount} soal dipilih · Tersimpan di IndexedDB</span>
-      </div>
-    </section>`;
+                  <span class="hd-pkg-meta">${esc(metaText)}</span>
+                  <div class="hd-pkg-actions">
+                    <button type="button" class="hd-row-btn" data-action="filter-package" data-id="${esc(pkg.id)}">${esc(B.btnOpenQ)}</button>
+                    <button type="button" class="hd-row-btn hd-row-btn-primary" data-action="quick-package" data-id="${esc(pkg.id)}">${esc(B.btnStart)}</button>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </section>
+      `}
+
+      <section class="hd-section zen-questions-section" aria-labelledby="zen-questions-heading">
+        <div class="hd-section-head">
+          <div class="hd-section-title-group">
+            <h2 id="zen-questions-heading" class="hd-section-title">${esc(B.questionsTitle)}</h2>
+            <span class="hd-section-meta">${esc(B.shownMeta)}</span>
+          </div>
+          <div class="zen-bulk-bar">
+            <label class="zen-select-all">
+              <input id="bank-select-visible" type="checkbox" data-select-visible-questions aria-label="${esc(B.selectAll)}" ${allVisibleSelected ? 'checked' : ''} ${qs.length ? '' : 'disabled'}>
+              <span>${esc(B.selectAll)}</span>
+            </label>
+            <button type="button" class="hd-row-btn" data-action="clear-question-selection" ${selectedCount ? '' : 'disabled'}>${esc(B.clearSel)}</button>
+            <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-selected-questions" ${selectedCount ? '' : 'disabled'}>${esc(B.deleteSel)}</button>
+          </div>
+        </div>
+
+        <div class="zen-filter-bar">
+          <input id="bank-search" class="zen-search-input" type="search" placeholder="${esc(B.searchPlaceholder)}" value="${esc(f.search)}">
+          <select id="bank-package-filter" aria-label="Filter paket soal">
+            <option value="all">${esc(B.allPkgsOpt)}</option>
+            ${packages.map(p => `<option value="${esc(p.id)}" ${f.setId === p.id ? 'selected' : ''}>${esc(formatHomePackageTitle(p).primary)} (${p.total})</option>`).join('')}
+          </select>
+          <select id="bank-media-filter" aria-label="Filter media">
+            <option value="all" ${f.media === 'all' ? 'selected' : ''}>${esc(B.mediaAll)}</option>
+            <option value="with-image" ${f.media === 'with-image' ? 'selected' : ''}>${esc(B.mediaImg)}</option>
+            <option value="text-only" ${f.media === 'text-only' ? 'selected' : ''}>${esc(B.mediaTxt)}</option>
+          </select>
+          <select id="bank-status-filter" aria-label="Filter status">
+            <option value="all" ${f.status === 'all' ? 'selected' : ''}>${esc(B.statusAll)}</option>
+            <option value="active" ${f.status === 'active' ? 'selected' : ''}>${esc(B.statusActive)}</option>
+            <option value="inactive" ${f.status === 'inactive' ? 'selected' : ''}>${esc(B.statusInactive)}</option>
+          </select>
+        </div>
+
+        <div class="zen-q-list">
+          ${qs.length ? qs.map(q => {
+            const img = getQuestionMainMedia(q);
+            const hasImg = Boolean(img || q.options?.some(o => o.mediaId || o.optionImage));
+            const keyLetter = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : 'A';
+            const pkgLabel = formatHomePackageTitle({ name: packageName(q) }).primary;
+            return `
+              <article class="zen-q-item">
+                <div class="zen-q-top">
+                  <div class="zen-q-meta">
+                    <input type="checkbox" data-question-select="${esc(q.id)}" aria-label="Pilih soal #${q.questionNumber || ''}" ${state.bankSelectedIds.has(q.id) ? 'checked' : ''}>
+                    <strong class="zen-q-num">#${q.questionNumber || '1'}</strong>
+                    ${f.setId === 'all' ? `<span class="zen-q-pkg">${esc(pkgLabel)}</span>` : ''}
+                    <span class="zen-q-key">${esc(B.keyLabel)} ${esc(keyLetter)}</span>
+                    ${hasImg ? `<span class="zen-q-tag">${esc(B.imgTag)}</span>` : ''}
+                    ${q.active === false ? `<span class="zen-q-tag">${esc(B.inactiveTag)}</span>` : ''}
+                  </div>
+                  <div class="zen-q-actions">
+                    <button type="button" class="hd-row-btn" data-action="edit-question" data-id="${esc(q.id)}">${esc(B.editBtn)}</button>
+                    <button type="button" class="hd-row-btn" data-action="duplicate-question" data-id="${esc(q.id)}">${esc(B.dupBtn)}</button>
+                    <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-question" data-id="${esc(q.id)}">${esc(B.delBtn)}</button>
+                  </div>
+                </div>
+                <div class="zen-q-prompt rich-content" lang="ja">${richHTML(q.prompt || '(pertanyaan kosong)')}</div>
+                <div class="zen-q-options rich-content" lang="ja">
+                  ${(q.options || []).map((o, i) => `
+                    <div class="zen-q-opt ${i === q.correctIndex ? 'is-key' : ''}">
+                      <span class="zen-q-opt-letter">${String.fromCharCode(65 + i)}.</span>
+                      <span class="zen-q-opt-text">${richHTML(o.text)}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </article>
+            `;
+          }).join('') : `<p class="hd-empty-line">${esc(B.emptyMsg)}</p>`}
+        </div>
+      </section>
+    </div>`;
 }
 
 // CSV Importer for SSW PM
@@ -2303,139 +2521,146 @@ function renderHistory() {
   const loc = t('locale');
 
   view.innerHTML = `
-    ${pageHead(
-      'RIWAYAT & EVALUASI · 特定技能1号・飲食料品製造業',
-      t('navHistory'),
-      'Setiap sesi ujian menyimpan rekaman soal, jawaban yang dipilih, skor poin, dan durasi pengerjaan untuk ditinjau kembali.',
-      `<button class="button button-primary" data-page="setup">＋ ${esc(t('topStartExam'))}</button>`
-    )}
-    <section class="panel history-panel">
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>${esc(t('thDate'))}</th>
-              <th>${esc(t('thPkgSim'))}</th>
-              <th>${esc(t('thMode'))}</th>
-              <th>${esc(t('thCorrect'))}</th>
-              <th>${esc(t('thPointScore'))}</th>
-              <th>${esc(t('thEmpty'))}</th>
-              <th>${esc(t('thPercent'))}</th>
-              <th>${esc(t('thTime'))}</th>
-              <th>${esc(t('thAction'))}</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${hist.map(s => {
-              const st = rawStats(s);
-              const elapsed = s.elapsedSeconds ?? Math.max(0, Math.floor(((s.endedAt || Date.now()) - s.startedAt) / 1000));
-              return `<tr>
-                <td>${fmtDate(s.endedAt || s.startedAt, loc)}</td>
-                <td>
-                  <strong>${esc(s.title || 'SSW PM Mock Test')}</strong>
-                  <small class="table-sub">${esc(s.candidateName || 'Candidate')}</small>
-                </td>
-                <td><span class="status ${s.mode === 'practice' ? 'status-neutral' : 'status-on'}">${s.mode === 'practice' ? esc(t('modePractice')) : esc(t('modeExam'))}</span></td>
-                <td><strong>${st.correct} / ${st.total}</strong></td>
-                <td><strong>${st.weightedScore}</strong> <small class="muted">/ ${st.maxWeightedScore}</small></td>
-                <td>${st.unanswered}</td>
-                <td>
-                  <strong>${st.percent}%</strong>
-                  <div class="mini-progress"><span style="width:${st.percent}%"></span></div>
-                </td>
-                <td>${fmtDuration(elapsed)}</td>
-                <td>
-                  <div class="row-actions">
-                    <button class="button button-small button-outline" data-action="open-result" data-id="${esc(s.id)}">${esc(t('btnResultReview'))}</button>
-                    <button class="icon-button danger-icon" data-action="delete-history" data-id="${esc(s.id)}" title="Delete">×</button>
-                  </div>
-                </td>
-              </tr>`;
-            }).join('') || `<tr><td colspan="9"><div class="empty-state"><span class="empty-symbol">◷</span><strong>${esc(t('emptyHistTitle'))}</strong><p>${esc(t('emptyHistSub'))}</p><button class="button button-primary" data-page="setup">${esc(t('topStartExam'))}</button></div></td></tr>`}
-          </tbody>
-        </table>
-      </div>
-    </section>`;
+    <div class="zen-page zen-history-page">
+      <header class="zen-page-head">
+        <div>
+          <span class="zen-kicker">ARSIP EVALUASI</span>
+          <h1 class="zen-page-title">${esc(t('navHistory'))}</h1>
+        </div>
+        <div class="zen-page-head-actions">
+          <span class="zen-meta-count">${hist.length} sesi</span>
+          <button type="button" class="hd-btn-primary" data-page="setup">${esc(t('topStartExam'))}</button>
+        </div>
+      </header>
+
+      <section class="zen-history-section">
+        ${hist.length ? `
+          <div class="hd-history-table-wrap">
+            <table class="hd-history-table zen-history-table">
+              <thead>
+                <tr>
+                  <th>${esc(t('thDate'))}</th>
+                  <th>Paket</th>
+                  <th>${esc(t('thMode'))}</th>
+                  <th>${esc(t('thCorrect'))}</th>
+                  <th>${esc(t('thPointScore'))}</th>
+                  <th>Akurasi</th>
+                  <th>${esc(t('thTime'))}</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                ${hist.map(s => {
+                  const st = rawStats(s);
+                  const elapsed = s.elapsedSeconds ?? Math.max(0, Math.floor(((s.endedAt || Date.now()) - s.startedAt) / 1000));
+                  const cleanTitle = formatHomeSessionTitle(s);
+                  return `<tr>
+                    <td class="hd-col-date" data-label="${esc(t('thDate'))}">${fmtDate(s.endedAt || s.startedAt, loc)}</td>
+                    <td class="hd-col-pkg" data-label="Paket">
+                      <strong class="hd-session-title">${esc(cleanTitle)}</strong>
+                      <span class="zen-table-sub">${esc(s.candidateName || 'Faiz')}</span>
+                    </td>
+                    <td class="hd-col-mode" data-label="${esc(t('thMode'))}">${s.mode === 'practice' ? esc(t('modePractice')) : esc(t('modeExam'))}</td>
+                    <td class="hd-col-score" data-label="${esc(t('thCorrect'))}">${st.correct} / ${st.total}</td>
+                    <td class="hd-col-points" data-label="${esc(t('thPointScore'))}">${st.weightedScore} <span class="hd-muted">/ ${st.maxWeightedScore}</span></td>
+                    <td class="hd-col-pct" data-label="Akurasi"><strong>${st.percent}%</strong></td>
+                    <td class="hd-col-time" data-label="${esc(t('thTime'))}">${fmtDuration(elapsed)}</td>
+                    <td class="hd-col-action">
+                      <div class="zen-row-actions">
+                        <button type="button" class="hd-row-btn" data-action="open-result" data-id="${esc(s.id)}">Review</button>
+                        <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-history" data-id="${esc(s.id)}" title="Hapus">Hapus</button>
+                      </div>
+                    </td>
+                  </tr>`;
+                }).join('')}
+              </tbody>
+            </table>
+          </div>
+        ` : `
+          <div class="zen-empty-block">
+            <p class="hd-empty-line">${esc(t('emptyHistTitle'))}</p>
+            <button type="button" class="hd-btn-secondary" data-page="setup">${esc(t('topStartExam'))}</button>
+          </div>
+        `}
+      </section>
+    </div>`;
 }
 
 function renderBackup() {
   const qMB = state.questions.reduce((n, q) => n + (q.media || []).reduce((x, m) => x + (m.blob?.size || (m.dataUrl ? Math.round(m.dataUrl.length * 0.75) : 0)), 0), 0);
   const packages = getAvailablePackages();
   view.innerHTML = `
-    ${pageHead(
-      'MANAJEMEN DATA · OFFLINE & BACKUP',
-      t('navBackup'),
-      'Amankan seluruh bank soal SSW PM, ilustrasi gambar, riwayat ujian, serta atur bahasa dan preferensi default simulator.',
-      ''
-    )}
-    <div class="backup-grid">
-      <section class="panel backup-card">
-        <div class="backup-icon">⇧</div>
-        <h2>Ekspor Backup Lengkap</h2>
-        <p>Unduh salinan lengkap database SSW PM Mock Test (soal, furigana, ilustrasi gambar, dan riwayat ujian) dalam format ZIP atau JSON.</p>
-        <div class="backup-stats">
-          <span>${state.questions.length} soal total</span>
-          <span>${packages.filter(p => p.total > 0).length} paket soal</span>
-          <span>${state.sessions.length} riwayat sesi</span>
-          <span>${(qMB / 1024 / 1024).toFixed(1)} MB blob lokal</span>
-        </div>
-        <button class="button button-primary button-wide" data-action="export-zip">Unduh Backup Lengkap (.zip)</button>
-        <button class="button button-outline button-wide" data-action="export-json">Ekspor Database (.json)</button>
-      </section>
-      <section class="panel backup-card">
-        <div class="backup-icon">⇩</div>
-        <h2>Pulihkan atau Impor Paket Soal</h2>
-        <p>Pilih file backup <code>.zip</code> / <code>.json</code> untuk memulihkan database, atau unggah file JSON paket soal untuk ditambahkan tanpa menimpa paket lain.</p>
-        <label class="file-drop" for="backup-file">
-          <span class="file-drop-icon">＋</span>
-          <strong>Pilih file .zip atau .json</strong>
-          <small>Mendukung backup penuh maupun JSON paket soal SSW PM</small>
-          <input id="backup-file" type="file" accept=".zip,.json,application/json,application/zip" hidden>
-        </label>
-        <div id="import-status" class="field-help">Belum ada file dipilih.</div>
-      </section>
-    </div>
-
-    <section class="panel settings-panel">
-      <div class="panel-head">
+    <div class="zen-page zen-backup-page">
+      <header class="zen-page-head">
         <div>
-          <h2>Pengaturan Default Simulator SSW PM</h2>
-          <p>Konfigurasi standar untuk Mock Test Penuh, bahasa interface, dan tampilan layar ujian</p>
+          <span class="zen-kicker">DATA &amp; PREFERENSI</span>
+          <h1 class="zen-page-title">Backup &amp; Pengaturan</h1>
+          <p class="zen-page-meta">${state.questions.length} soal · ${packages.filter(p => p.total > 0).length} paket · ${state.sessions.length} riwayat · ${(qMB / 1024 / 1024).toFixed(1)} MB</p>
         </div>
-      </div>
-      <form id="settings-form" class="settings-grid">
-        <label class="field">
-          <span>Durasi Default Mock Test Penuh (Menit)</span>
-          <input name="standardDuration" type="number" min="1" max="300" value="${state.settings.standardDuration}">
-          <small>Standar ujian SSW PM adalah 70 menit.</small>
-        </label>
-        <label class="field">
-          <span>Jumlah Soal Default</span>
-          <input name="standardCount" type="number" min="1" max="500" value="${state.settings.standardCount}">
-          <small>Standar paket Kunci Soal Ujian 1 adalah 40 soal.</small>
-        </label>
-        <label class="toggle-row">
-          <span>
-            <strong>Lanjutkan ujian otomatis setelah refresh halaman</strong>
-            <small>Timer tetap akurat mengacu pada waktu batas akhir (deadline absolut).</small>
-          </span>
-          <input name="resumeInterrupted" type="checkbox" ${state.settings.resumeInterrupted ? 'checked' : ''}>
-          <span class="toggle-ui"></span>
-        </label>
-        <label class="toggle-row">
-          <span>
-            <strong>Tampilkan Furigana (ふりがな表示) secara default</strong>
-            <small>Dapat diubah kapan saja melalui panel Settings (⚙) saat ujian.</small>
-          </span>
-          <input name="defaultShowFurigana" type="checkbox" ${state.examPrefs.showFurigana ? 'checked' : ''}>
-          <span class="toggle-ui"></span>
-        </label>
-        <div class="settings-submit">
-          <button class="button button-primary" type="submit">Simpan Pengaturan</button>
-          <button type="button" class="button button-danger" data-action="clear-all-data">Reset &amp; Muat Ulang Paket Default</button>
+      </header>
+
+      <section class="zen-section-block">
+        <div class="zen-section-head">
+          <h2 class="hd-section-title">Cadangan &amp; Pemulihan Data</h2>
         </div>
-      </form>
-    </section>`;
+        <div class="zen-backup-grid">
+          <div class="zen-backup-col">
+            <h3 class="zen-subhead">Ekspor Database</h3>
+            <p class="zen-copy">Simpan seluruh bank soal, furigana, ilustrasi gambar, dan riwayat ujian ke penyimpanan perangkat.</p>
+            <div class="zen-btn-row">
+              <button type="button" class="hd-btn-primary" data-action="export-zip">Unduh Arsip (.zip)</button>
+              <button type="button" class="hd-btn-secondary" data-action="export-json">Ekspor JSON (.json)</button>
+            </div>
+          </div>
+
+          <div class="zen-backup-col">
+            <h3 class="zen-subhead">Pulihkan atau Impor Paket</h3>
+            <p class="zen-copy">Pilih berkas <code>.zip</code> atau <code>.json</code> untuk memulihkan cadangan atau menambahkan paket soal.</p>
+            <div class="zen-file-row">
+              <label class="hd-btn-secondary zen-file-trigger" for="backup-file">
+                Pilih Berkas (.zip / .json)
+                <input id="backup-file" type="file" accept=".zip,.json,application/json,application/zip" hidden>
+              </label>
+              <span id="import-status" class="zen-file-status">Belum ada berkas dipilih.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="zen-section-block">
+        <div class="zen-section-head">
+          <h2 class="hd-section-title">Preferensi Standar</h2>
+        </div>
+        <form id="settings-form" class="zen-form">
+          <div class="zen-field-grid zen-field-grid-2">
+            <label class="zen-field">
+              <span class="zen-label">Durasi Standar Mock Test (Menit)</span>
+              <input name="standardDuration" type="number" min="1" max="300" value="${state.settings.standardDuration}">
+            </label>
+            <label class="zen-field">
+              <span class="zen-label">Jumlah Soal Standar</span>
+              <input name="standardCount" type="number" min="1" max="500" value="${state.settings.standardCount}">
+            </label>
+          </div>
+
+          <div class="zen-toggle-group">
+            <label class="zen-check-row">
+              <input name="resumeInterrupted" type="checkbox" ${state.settings.resumeInterrupted ? 'checked' : ''}>
+              <span>Lanjutkan sesi otomatis setelah halaman dimuat ulang</span>
+            </label>
+            <label class="zen-check-row">
+              <input name="defaultShowFurigana" type="checkbox" ${state.examPrefs.showFurigana ? 'checked' : ''}>
+              <span>Tampilkan furigana (ふりがな) secara bawaan</span>
+            </label>
+          </div>
+
+          <div class="zen-form-footer zen-form-footer-split">
+            <button class="hd-btn-primary" type="submit">Simpan Preferensi</button>
+            <button type="button" class="hd-text-btn hd-text-danger" data-action="clear-all-data">Reset &amp; Muat Ulang Paket Bawaan</button>
+          </div>
+        </form>
+      </section>
+    </div>`;
 }
 
 function defaultQuestion(prefill = {}) {
@@ -2538,14 +2763,13 @@ function renderQuestionPreviewMarkup(q) {
 
 function renderQuestionEditor() {
   const q = state.editor.q;
-  const modalTitle = state.editor.isNew ? 'Tambah Soal SSW PM Baru' : `Edit Soal #${q.questionNumber || ''}`;
+  const modalTitle = state.editor.isNew ? 'Tambah Soal Baru' : `Edit Soal #${q.questionNumber || ''}`;
   const packages = getAvailablePackages();
-  const content = `<form id="question-editor" class="form-stack editor-form">
-    <div class="editor-notice">Perubahan disimpan ke database IndexedDB lokal setelah menekan tombol <strong>Simpan Soal</strong>.</div>
+  const content = `<form id="question-editor" class="form-stack editor-form zen-editor-form">
     ${state.editor.previewVisible ? renderQuestionPreviewMarkup(q) : ''}
     <div class="three-fields">
       <label class="field">
-        <span>Paket Soal *</span>
+        <span>Paket Soal</span>
         <select name="setId">
           ${packages.map(p => `<option value="${esc(p.id)}" ${q.setId === p.id ? 'selected' : ''}>${esc(p.name)}</option>`).join('')}
         </select>
@@ -2555,24 +2779,24 @@ function renderQuestionEditor() {
         <input name="questionNumber" type="number" min="1" max="500" value="${esc(q.questionNumber || 1)}">
       </label>
       <label class="field">
-        <span>Halaman PDF Sumber</span>
+        <span>Halaman Sumber</span>
         <input name="sourcePage" type="number" min="1" max="200" value="${esc(q.sourcePage || q.pdfPage || 1)}">
       </label>
     </div>
-    ${richEditorField('prompt','Teks Pertanyaan Bahasa Jepang *',q.prompt,'Tulis pertanyaan bahasa Jepang…',{size:'large',help:'Furigana menggunakan tag <ruby>漢字<rt>かんじ</rt></ruby>.'})}
-    ${richEditorField('instructions','Instruksi Pertanyaan',q.instructions,'Instruksi soal',{size:'small'})}
+    ${richEditorField('prompt','Pertanyaan Bahasa Jepang',q.prompt,'Tulis pertanyaan bahasa Jepang…',{size:'large'})}
+    ${richEditorField('instructions','Instruksi Soal',q.instructions,'Instruksi soal',{size:'small'})}
     <div class="field">
-      <span>Ilustrasi / Gambar Soal (Opsional)</span>
+      <span>Ilustrasi Soal (Opsional)</span>
       ${mediaControl(q,'image',q.imageMediaId,'image/jpeg,image/png,image/webp','Pilih ilustrasi JPG, PNG, atau WebP')}
       <div class="three-fields">
-        <label class="field"><span>Ukuran Tampilan</span><select name="imageSize">${[['compact','Kompak'],['medium','Sedang'],['large','Lebar']].map(([v,l])=>`<option value="${v}" ${q.imageSize===v?'selected':''}>${l}</option>`).join('')}</select></label>
+        <label class="field"><span>Ukuran</span><select name="imageSize">${[['compact','Kompak'],['medium','Sedang'],['large','Lebar']].map(([v,l])=>`<option value="${v}" ${q.imageSize===v?'selected':''}>${l}</option>`).join('')}</select></label>
         <label class="field"><span>Rasio</span><select name="imageRatio">${[['auto','Asli'],['landscape','16:9'],['square','1:1'],['portrait','3:4']].map(([v,l])=>`<option value="${v}" ${q.imageRatio===v?'selected':''}>${l}</option>`).join('')}</select></label>
         <label class="field"><span>Posisi</span><select name="imagePosition">${[['left','Kiri'],['center','Tengah'],['right','Kanan']].map(([v,l])=>`<option value="${v}" ${q.imagePosition===v?'selected':''}>${l}</option>`).join('')}</select></label>
       </div>
     </div>
     <div class="editor-section-title">
-      <div><h3>Pilihan Jawaban (A, B, C)</h3><p>Pilih tepat satu kunci jawaban yang benar.</p></div>
-      <button type="button" class="button button-small button-outline" data-action="add-option" ${q.options.length >= 6 ? 'disabled' : ''}>＋ Tambah Opsi</button>
+      <div><h3>Pilihan Jawaban</h3></div>
+      <button type="button" class="hd-btn-secondary" data-action="add-option" ${q.options.length >= 6 ? 'disabled' : ''}>Tambah Opsi</button>
     </div>
     <div class="option-editor-list">
       ${q.options.map((o, i) => `
@@ -2597,15 +2821,15 @@ function renderQuestionEditor() {
     </div>
     ${richEditorField('explanation','Catatan Sumber / Pembahasan',q.explanation,'Catatan sumber halaman PDF atau pembahasan…',{size:'small'})}
     <div class="two-fields">
-      <label class="field"><span>Status Soal</span><select name="active"><option value="true" ${q.active !== false ? 'selected' : ''}>Aktif — masuk Mock Test</option><option value="false" ${q.active === false ? 'selected' : ''}>Nonaktif — simpan di bank saja</option></select></label>
-      <label class="field"><span>Bobot Poin Soal</span><input name="points" type="number" step="0.05" min="0.5" max="100" value="${esc(q.points || 3.75)}"></label>
+      <label class="field"><span>Status</span><select name="active"><option value="true" ${q.active !== false ? 'selected' : ''}>Aktif</option><option value="false" ${q.active === false ? 'selected' : ''}>Nonaktif</option></select></label>
+      <label class="field"><span>Bobot Poin</span><input name="points" type="number" step="0.05" min="0.5" max="100" value="${esc(q.points || 3.75)}"></label>
     </div>
     <div id="editor-errors" class="notice notice-warn" hidden></div>
   </form>`;
   modal(
     modalTitle,
     content,
-    `<button type="button" class="button button-outline" data-action="close-modal">Batal</button><button type="button" class="button button-outline" data-action="toggle-question-preview">${state.editor.previewVisible ? 'Tutup Preview' : 'Preview Soal'}</button><button type="button" class="button button-primary" data-action="save-question">Simpan Soal</button>`
+    `<button type="button" class="hd-btn-secondary" data-action="close-modal">Batal</button><button type="button" class="hd-btn-secondary" data-action="toggle-question-preview">${state.editor.previewVisible ? 'Tutup Preview' : 'Preview Soal'}</button><button type="button" class="hd-btn-primary" data-action="save-question">Simpan Soal</button>`
   );
 }
 
@@ -3034,8 +3258,12 @@ function buildReviewCardsHTML(s, filter = 'all') {
     (filter === 'correct' && s.answers[q.id] === q.correctIndex)
   );
   if (!qs.length) {
-    return `<div class="panel empty-state"><strong>Tidak ada soal pada filter ini</strong><p>Ubah filter status jawaban di atas untuk menampilkan soal lainnya.</p></div>`;
+    return `<div class="zen-empty-block"><p class="hd-empty-line">Tidak ada soal pada filter ini.</p></div>`;
   }
+  const stripTrailingInstruction = rawPrompt => {
+    const out = String(rawPrompt || '').replace(/(?:<ruby>最<rt>もっと<\/rt><\/ruby>も)?(?:<ruby>正<rt>ただ<\/rt><\/ruby>しい|<ruby>間違<rt>まちが<\/rt><\/ruby>っている)ものを<ruby>一<rt>ひと<\/rt><\/ruby>つ<ruby>選<rt>えら<\/rt><\/ruby>びなさい[。．.]?\s*$/i, '').trim();
+    return out || rawPrompt;
+  };
   return qs.map(q => {
     const qIdx = s.questions.findIndex(x => x.id === q.id) + 1;
     const answer = s.answers[q.id];
@@ -3043,41 +3271,47 @@ function buildReviewCardsHTML(s, filter = 'all') {
     const blank = answer == null;
     const tag = blank ? t('revTagBlank') : correct ? t('revTagCorrect') : t('revTagWrong');
     const img = getQuestionMainMedia(q);
+    const pageNum = q.sourcePage || q.pdfPage || 1;
+    const cleanExplanation = String(q.explanation || '').replace(/\s*—\s*/g, ' · ');
     return `
-      <article class="review-card panel">
-        <div class="review-card-top">
-          <span class="review-number">${esc(t('examQuestionLabel'))} ${qIdx}</span>
-          <span class="status ${blank ? 'status-neutral' : correct ? 'status-on' : 'status-warn'}">${esc(tag)}</span>
-          <span class="review-section">${esc(questionLocationLabel(q))}</span>
+      <article class="review-card zen-review-item ${blank ? 'is-blank' : correct ? 'is-correct' : 'is-wrong'}">
+        <div class="zen-review-top">
+          <div class="zen-review-top-left">
+            <span class="zen-q-num">Soal ${String(qIdx).padStart(2, '0')}</span>
+            <span class="zen-review-tag ${blank ? 'is-blank' : correct ? 'is-correct' : 'is-wrong'}">${esc(tag)}</span>
+          </div>
+          <span class="zen-review-source">Hal. ${esc(pageNum)}</span>
         </div>
-        <div class="review-instruction rich-content" lang="ja">${richHTML(q.instructions || '')}</div>
-        <h3 class="review-prompt rich-content" lang="ja">${richHTML(q.prompt)}</h3>
-        ${img ? `<img class="review-image" src="${mediaURL(img)}" alt="Illustration ${qIdx}">` : ''}
-        <div class="review-options">
+        ${q.instructions ? `<div class="zen-review-instruction rich-content" lang="ja">${richHTML(q.instructions)}</div>` : ''}
+        <h3 class="zen-review-prompt rich-content" lang="ja">${richHTML(q.instructions ? stripTrailingInstruction(q.prompt) : q.prompt)}</h3>
+        ${img ? `<img class="zen-review-image" src="${mediaURL(img)}" alt="Ilustrasi Soal ${qIdx}">` : ''}
+        <div class="zen-review-options">
           ${(q.options || []).map((o, i) => {
             const m = getOptionMedia(q, o, i);
             const isKey = i === q.correctIndex;
             const isUserWrong = i === answer && !correct;
             const isUserCorrect = i === answer && correct;
             const markLabel = isUserCorrect
-              ? t('revMarkUserCorrect')
+              ? 'Jawaban Anda · Benar'
               : isKey
-              ? t('revMarkKey')
+              ? 'Kunci Benar'
               : isUserWrong
-              ? t('revMarkUserWrong')
+              ? 'Jawaban Anda · Salah'
               : '';
             return `
-              <div class="review-option ${isKey ? 'is-correct' : ''} ${isUserWrong ? 'is-wrong' : ''}">
-                <span class="answer-letter">${String.fromCharCode(65 + i)}</span>
-                <span class="rich-content" lang="ja">${richHTML(o.text)}</span>
-                ${m ? `<img src="${mediaURL(m)}" alt="Option image">` : ''}
-                <span class="review-mark">${esc(markLabel)}</span>
+              <div class="zen-review-opt ${isKey ? 'is-correct' : ''} ${isUserWrong ? 'is-wrong' : ''}">
+                <span class="zen-opt-letter">${String.fromCharCode(65 + i)}</span>
+                <div class="zen-opt-body">
+                  <span class="rich-content" lang="ja">${richHTML(o.text)}</span>
+                  ${m ? `<img src="${mediaURL(m)}" alt="Gambar opsi">` : ''}
+                </div>
+                ${markLabel ? `<span class="zen-review-mark">${esc(markLabel)}</span>` : ''}
               </div>`;
           }).join('')}
         </div>
-        <div class="review-explanation">
-          <strong>${esc(t('revKeySource'))}</strong>
-          <div class="rich-content">${q.explanation ? richHTML(q.explanation) : `Key: ${String.fromCharCode(65 + q.correctIndex)}`}</div>
+        <div class="zen-review-note">
+          <span class="zen-review-note-label">Kunci &amp; Catatan:</span>
+          <div class="rich-content">${cleanExplanation ? richHTML(cleanExplanation) : `Kunci Jawaban: ${String.fromCharCode(65 + q.correctIndex)}`}</div>
         </div>
       </article>`;
   }).join('');
@@ -3086,109 +3320,121 @@ function buildReviewCardsHTML(s, filter = 'all') {
 function renderResult() {
   const s = getResultSession();
   if (!s) {
-    view.innerHTML = `<div class="empty-state"><strong>Hasil ujian tidak ditemukan</strong><button class="button button-primary" data-page="history">${esc(t('navHistory'))}</button></div>`;
+    view.innerHTML = `<div class="zen-page"><div class="zen-empty-block"><p class="hd-empty-line">Hasil ujian tidak ditemukan.</p><button class="hd-btn-secondary" data-page="history">${esc(t('navHistory'))}</button></div></div>`;
     return;
   }
   const st = rawStats(s);
   const elapsed = s.elapsedSeconds ?? Math.max(0, Math.floor(((s.endedAt || Date.now()) - s.startedAt) / 1000));
   const f = state.reviewFilter || 'all';
   const loc = t('locale');
-  const badges = s.status === 'time-up' ? `<span class="status status-warn">${esc(t('statusTimeUp'))}</span>` : `<span class="status status-on">${esc(t('statusCompleted'))}</span>`;
+  const statusLabel = s.status === 'time-up' ? t('statusTimeUp') : t('statusCompleted');
+  const cleanTitle = formatHomeSessionTitle(s);
 
   view.innerHTML = `
-    ${pageHead(
-      t('resKicker'),
-      t('resTitle'),
-      `${esc(s.title || 'SSW PM Mock Test')} · ${fmtDate(s.endedAt || s.startedAt, loc)} ${badges}`,
-      `<button class="button button-outline" data-action="print-result">${esc(t('btnPrint'))}</button><button class="button button-outline" data-action="export-result" data-id="${esc(s.id)}">${esc(t('btnExportJson'))}</button><button class="button button-primary" data-page="setup">${esc(t('btnNextExam'))}</button>`
-    )}
-    <div class="result-photo-editor no-print">
-      <label for="result-photo-upload">${esc(t('fieldCandPhoto'))}</label>
-      <input type="file" id="result-photo-upload" accept="image/*">
-      <small>${esc(t('fieldCandPhotoHelp'))}</small>
-    </div>
-
-    <section class="print-report panel">
-      <div class="print-report-brand">
-        <div class="print-brand-mark">F</div>
+    <div class="zen-page zen-result-page">
+      <header class="zen-page-head no-print">
         <div>
-          <strong>SSW PM MOCK TEST BY FAIZ</strong>
-          <small>特定技能1号・飲食料品製造業 · PRACTICE REPORT</small>
+          <span class="zen-kicker">HASIL EVALUASI · ${esc(statusLabel).toUpperCase()}</span>
+          <h1 class="zen-page-title">${esc(cleanTitle)}</h1>
+          <p class="zen-page-meta">${esc(s.candidateName || 'Faiz')} · ${fmtDate(s.endedAt || s.startedAt, loc)} · ${s.mode === 'practice' ? esc(t('modePractice')) : esc(t('modeExam'))}</p>
         </div>
-        <span class="sample-mark">MOCK TEST</span>
-      </div>
-      <h2>Laporan Hasil Simulasi Ujian SSW PM</h2>
-      <p class="print-report-subtitle">Evaluasi latihan mandiri — bukan dokumen kelulusan resmi OTAFF / Prometric</p>
-      <div class="print-candidate-grid">
-        <div class="print-photo-wrap">
-          ${s.candidatePhoto ? `<img class="print-candidate-photo" src="${s.candidatePhoto}" alt="Candidate photo">` : `<div class="print-photo-placeholder">Photo</div>`}
+        <div class="zen-page-head-actions">
+          <button type="button" class="hd-btn-secondary" data-action="print-result">${esc(t('btnPrint'))}</button>
+          <button type="button" class="hd-btn-secondary" data-action="export-result" data-id="${esc(s.id)}">${esc(t('btnExportJson'))}</button>
+          <button type="button" class="hd-btn-primary" data-page="setup">${esc(cleanHomeText(t('btnNextExam')))}</button>
         </div>
-        <div class="print-info">
-          <h3>Candidate &amp; Exam Information</h3>
-          <div><span>${esc(t('examCandidateLabel'))}</span><strong>${esc(s.candidateName || 'Faiz')}</strong></div>
-          <div><span>${esc(t('thPkgSim'))}</span><strong>${esc(s.title || 'SSW PM Mock Test')}</strong></div>
-          <div><span>${esc(t('sumFieldField'))}</span><strong>特定技能1号・飲食料品製造業 (食品製造)</strong></div>
-          <div><span>${esc(t('thDate'))}</span><strong>${fmtDate(s.endedAt || s.startedAt, loc)}</strong></div>
-          <div><span>${esc(t('resElapsed'))}</span><strong>${fmtDuration(elapsed)}</strong></div>
-        </div>
-      </div>
-      <div class="print-score-panel">
-        <div>
-          <span>${esc(t('resCorrectAns'))}</span>
-          <strong>${st.correct} / ${st.total} (${st.percent}%)</strong>
-          <small>${esc(t('resWeighted'))}: ${st.weightedScore} / ${st.maxWeightedScore}</small>
-        </div>
-        <div class="print-score-detail">
-          <div><span>${esc(t('thCorrect'))}</span><b>${st.correct}</b></div>
-          <div><span>Wrong</span><b>${st.wrong}</b></div>
-          <div><span>${esc(t('thEmpty'))}</span><b>${st.unanswered}</b></div>
-        </div>
-      </div>
-    </section>
+      </header>
 
-    <section class="result-hero panel">
-      <div class="result-score">
-        <div class="result-score-label">${esc(t('resCorrectLabel'))}</div>
-        <div class="result-score-number">${st.correct}<span>/ ${st.total}</span></div>
-        <div class="result-score-caption">${esc(t('resPercent'))}: <strong>${st.percent}%</strong> · ${esc(t('resWeighted'))}: <strong>${st.weightedScore} / ${st.maxWeightedScore}</strong></div>
-        <div class="result-ring" style="--score:${st.percent * 3.6}deg">
-          <div><strong>${st.percent}%</strong><small>${esc(t('thCorrect'))}</small></div>
+      <section class="print-report panel">
+        <div class="print-report-brand">
+          <div class="print-brand-mark">F</div>
+          <div>
+            <strong>SSW PM MOCK TEST BY FAIZ</strong>
+            <small>特定技能1号・飲食料品製造業 · PRACTICE REPORT</small>
+          </div>
+          <span class="sample-mark">MOCK TEST</span>
         </div>
-      </div>
-      <div class="result-stats">
-        <div class="result-stat"><span>${esc(t('resTotalQ'))}</span><strong>${st.total}</strong></div>
-        <div class="result-stat"><span>${esc(t('resCorrectAns'))}</span><strong class="text-green">${st.correct}</strong></div>
-        <div class="result-stat"><span>${esc(t('resWrongAns'))}</span><strong class="text-red">${st.wrong}</strong></div>
-        <div class="result-stat"><span>${esc(t('resUnanswered'))}</span><strong>${st.unanswered}</strong></div>
-        <div class="result-stat"><span>${esc(t('resPercent'))}</span><strong>${st.percent}%</strong></div>
-        <div class="result-stat"><span>${esc(t('resWeighted'))}</span><strong>${st.weightedScore} / ${st.maxWeightedScore}</strong></div>
-        <div class="result-stat"><span>${esc(t('resElapsed'))}</span><strong>${fmtDuration(elapsed)}</strong></div>
-        <div class="result-stat"><span>${esc(t('thMode'))}</span><strong>${s.mode === 'practice' ? esc(t('modePractice')) : esc(t('modeExam'))}</strong></div>
-        <div class="result-stat"><span>${esc(t('resStatus'))}</span><strong>${s.status === 'time-up' ? esc(t('statusTimeUp')) : esc(t('statusCompleted'))}</strong></div>
-      </div>
-    </section>
+        <h2>Laporan Hasil Simulasi Ujian SSW PM</h2>
+        <p class="print-report-subtitle">Evaluasi latihan mandiri — bukan dokumen kelulusan resmi OTAFF / Prometric</p>
+        <div class="print-candidate-grid">
+          <div class="print-photo-wrap">
+            ${s.candidatePhoto ? `<img class="print-candidate-photo" src="${s.candidatePhoto}" alt="Candidate photo">` : `<div class="print-photo-placeholder">Photo</div>`}
+          </div>
+          <div class="print-info">
+            <h3>Candidate &amp; Exam Information</h3>
+            <div><span>${esc(t('examCandidateLabel'))}</span><strong>${esc(s.candidateName || 'Faiz')}</strong></div>
+            <div><span>${esc(t('thPkgSim'))}</span><strong>${esc(s.title || 'SSW PM Mock Test')}</strong></div>
+            <div><span>${esc(t('sumFieldField'))}</span><strong>特定技能1号・飲食料品製造業 (食品製造)</strong></div>
+            <div><span>${esc(t('thDate'))}</span><strong>${fmtDate(s.endedAt || s.startedAt, loc)}</strong></div>
+            <div><span>${esc(t('resElapsed'))}</span><strong>${fmtDuration(elapsed)}</strong></div>
+          </div>
+        </div>
+        <div class="print-score-panel">
+          <div>
+            <span>${esc(t('resCorrectAns'))}</span>
+            <strong>${st.correct} / ${st.total} (${st.percent}%)</strong>
+            <small>${esc(t('resWeighted'))}: ${st.weightedScore} / ${st.maxWeightedScore}</small>
+          </div>
+          <div class="print-score-detail">
+            <div><span>${esc(t('thCorrect'))}</span><b>${st.correct}</b></div>
+            <div><span>Wrong</span><b>${st.wrong}</b></div>
+            <div><span>${esc(t('thEmpty'))}</span><b>${st.unanswered}</b></div>
+          </div>
+        </div>
+      </section>
 
-    <section class="review-section-block">
-      <div class="review-filter-bar">
-        <label>
-          ${esc(t('revFilterLabel'))}
-          <select id="review-filter">
-            <option value="all" ${f==='all'?'selected':''}>${esc(t('revFilterAll'))} (${s.questions.length})</option>
-            <option value="wrong" ${f==='wrong'?'selected':''}>${esc(t('revFilterWrong'))} (${st.wrong})</option>
-            <option value="blank" ${f==='blank'?'selected':''}>${esc(t('revFilterBlank'))} (${st.unanswered})</option>
-            <option value="correct" ${f==='correct'?'selected':''}>${esc(t('revFilterCorrect'))} (${st.correct})</option>
-          </select>
-        </label>
-        <div class="review-filter-actions">
-          <button type="button" class="button button-small button-outline" data-action="toggle-furigana-quick">
-            ふりがな表示: <strong>${state.examPrefs.showFurigana ? 'ON' : 'OFF'}</strong>
+      <section class="result-hero zen-result-ledger no-print" aria-label="Ringkasan Skor">
+        <div class="zen-ledger-cell zen-ledger-primary">
+          <span class="zen-ledger-label">Skor Poin</span>
+          <strong class="zen-ledger-value">${st.weightedScore} <small>/ ${st.maxWeightedScore}</small></strong>
+        </div>
+        <div class="zen-ledger-cell">
+          <span class="zen-ledger-label">Akurasi</span>
+          <strong class="zen-ledger-value">${st.percent}%</strong>
+        </div>
+        <div class="zen-ledger-cell">
+          <span class="zen-ledger-label">${esc(t('resCorrectAns'))}</span>
+          <strong class="zen-ledger-value is-correct">${st.correct} <small>/ ${st.total}</small></strong>
+        </div>
+        <div class="zen-ledger-cell">
+          <span class="zen-ledger-label">${esc(t('resWrongAns'))}</span>
+          <strong class="zen-ledger-value ${st.wrong > 0 ? 'is-wrong' : ''}">${st.wrong}</strong>
+        </div>
+        <div class="zen-ledger-cell">
+          <span class="zen-ledger-label">${esc(t('resUnanswered'))}</span>
+          <strong class="zen-ledger-value">${st.unanswered}</strong>
+        </div>
+        <div class="zen-ledger-cell">
+          <span class="zen-ledger-label">Durasi</span>
+          <strong class="zen-ledger-value">${fmtDuration(elapsed)}</strong>
+        </div>
+      </section>
+
+      <div class="zen-result-photo-row no-print">
+        <label class="hd-text-btn" for="result-photo-upload">Ubah Foto Laporan Cetak</label>
+        <input type="file" id="result-photo-upload" accept="image/*" hidden>
+      </div>
+
+      <section class="zen-review-section no-print">
+        <div class="zen-review-bar">
+          <div class="zen-review-bar-left">
+            <h2 class="hd-section-title">Tinjauan Jawaban</h2>
+            <select id="review-filter" aria-label="${esc(t('revFilterLabel'))}">
+              <option value="all" ${f==='all'?'selected':''}>${esc(t('revFilterAll'))} (${s.questions.length})</option>
+              <option value="wrong" ${f==='wrong'?'selected':''}>${esc(t('revFilterWrong'))} (${st.wrong})</option>
+              <option value="blank" ${f==='blank'?'selected':''}>${esc(t('revFilterBlank'))} (${st.unanswered})</option>
+              <option value="correct" ${f==='correct'?'selected':''}>${esc(t('revFilterCorrect'))} (${st.correct})</option>
+            </select>
+          </div>
+          <button type="button" class="hd-btn-secondary" data-action="toggle-furigana-quick">
+            ふりがな: <strong>${state.examPrefs.showFurigana ? 'ON' : 'OFF'}</strong>
           </button>
         </div>
-      </div>
-      <div class="review-list">
-        ${buildReviewCardsHTML(s, f)}
-      </div>
-    </section>`;
+        <div class="review-list zen-review-list">
+          ${buildReviewCardsHTML(s, f)}
+        </div>
+      </section>
+    </div>`;
 }
 
 function renderReview() {

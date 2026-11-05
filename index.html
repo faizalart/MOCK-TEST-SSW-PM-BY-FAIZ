@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="./CSV-IMPORT-STYLES.css?v=ssw3" />
   <link rel="stylesheet" href="./RICH-HTML-STYLES.css?v=ssw3" />
   <link rel="stylesheet" href="./QUESTION-EDITOR-UPDATES.css?v=ssw13" />
-  <link rel="stylesheet" href="./HOME-DASHBOARD.css?v=ssw15" />
+  <link rel="stylesheet" href="./HOME-DASHBOARD.css?v=ssw16" />
 
   <!-- SERVICE WORKER CACHE CLEANUP -->
   <script>
@@ -96,7 +96,7 @@
 
         <button class="nav-item" data-page="setup">
           <span class="nav-icon">▣</span>
-          <span data-i18n="navSetup">Mulai Mock Test</span>
+          <span data-i18n="navSetup">Mock Test</span>
         </button>
 
         <button class="nav-item" data-page="bank">
@@ -106,12 +106,12 @@
 
         <button class="nav-item" data-page="history">
           <span class="nav-icon">◷</span>
-          <span data-i18n="navHistory">Riwayat Hasil</span>
+          <span data-i18n="navHistory">Riwayat</span>
         </button>
 
         <button class="nav-item" data-page="backup">
           <span class="nav-icon">⇅</span>
-          <span data-i18n="navBackup">Backup &amp; Data</span>
+          <span data-i18n="navBackup">Backup</span>
         </button>
       </nav>
 
@@ -121,11 +121,7 @@
           <span id="connection-label">Penyimpanan lokal aktif</span>
         </div>
 
-        <p id="sidebar-disclaimer">
-          Simulator latihan ujian SSW PM
-          (特定技能1号・飲食料品製造業).
-          Independen &amp; tersimpan di perangkat ini.
-        </p>
+        <p id="sidebar-disclaimer"></p>
       </div>
     </aside>
 
@@ -151,9 +147,9 @@
               class="lang-select"
               title="Ubah Bahasa Antarmuka / Change Interface Language"
             >
-              <option value="id">🇮🇩 Bahasa Indonesia</option>
-              <option value="en">🇬🇧 English</option>
-              <option value="ja">🇯🇵 日本語</option>
+              <option value="id">Bahasa Indonesia</option>
+              <option value="en">English</option>
+              <option value="ja">日本語</option>
             </select>
           </label>
 
@@ -167,20 +163,14 @@
             data-page="backup"
             id="topbar-backup-btn"
           >
-            Backup &amp; Data
+            Backup
           </button>
         </div>
       </header>
 
       <!-- APP VIEW -->
       <div id="view" class="page-content" tabindex="-1">
-        <section class="panel" style="padding:24px;">
-          <strong>Memuat SSW PM Mock Test by Faiz…</strong>
-          <p style="margin-top:6px;">
-            Menyiapkan bank soal 特定技能1号・飲食料品製造業
-            (Kunci Soal Ujian 1: CBTP Gino1).
-          </p>
-        </section>
+        <p class="zen-loading">Memuat pustaka soal…</p>
       </div>
     </main>
   </div>
