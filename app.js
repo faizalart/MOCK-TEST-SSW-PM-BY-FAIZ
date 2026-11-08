@@ -1055,6 +1055,7 @@ const state = {
   setupCustomIds: new Set(),
   csvImport: null
 };
+if (typeof window !== 'undefined') { window.state = state; window.isQuestionInStudy = isQuestionInStudy; }
 
 function t(key) {
   const dict = I18N[state.lang] || I18N.id;
@@ -3328,7 +3329,8 @@ function renderExam() {
           const isCurrent = idx === s.currentIndex;
           const isAnswered = s.answers[item.id] != null;
           const isFlagged = s.flaggedQuestions.includes(item.id);
-          return `<button type="button" class="question-map-item ${isCurrent ? 'current' : ''} ${isAnswered ? 'answered' : ''} ${isFlagged ? 'flagged' : ''}" data-action="jump-question" data-index="${idx}" title="No. ${idx + 1}">${idx + 1}</button>`;
+          const isInStudy = isQuestionInStudy(item);
+          return `<button type="button" class="question-map-item ${isCurrent ? 'current' : ''} ${isAnswered ? 'answered' : ''} ${isFlagged ? 'flagged' : ''} ${isInStudy ? 'in-study' : ''}" data-action="jump-question" data-index="${idx}" title="No. ${idx + 1}">${idx + 1}</button>`;
         }).join('')}
       </div>
     </aside>`;
@@ -3398,8 +3400,8 @@ function renderExam() {
   <button type="button" class="exam-tool-button ${!state.mapHidden ? 'is-active' : ''}" data-action="toggle-question-map" title="${esc(t('examToggleMapTitle'))}" aria-label="${esc(t('examToggleMapTitle'))}" aria-pressed="${!state.mapHidden}">▦</button>
 
 <button type="button" class="exam-tool-button ${fsActive ? 'is-active' : ''}" data-action="toggle-fullscreen" title="${esc(t('examFullscreenTitle'))}" aria-label="${esc(t('examFullscreenTitle'))}" aria-pressed="${fsActive}"><span class="fs-icon">${fsActive ? '🗗' : '⛶'}</span></button>
-<button type="button" class="exam-tool-button furigana-quick-button ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" title="${esc(t('setFuriganaTitle'))}" aria-label="Toggle Furigana" aria-pressed="${Boolean(state.examPrefs.showFurigana)}">F</button>
 <button type="button" class="exam-tool-button study-list-quick-button ${inStudy ? 'is-active' : ''}" data-action="toggle-study-list" data-id="${esc(q.id)}" title="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-label="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-pressed="${inStudy}">${inStudy ? '✓' : '+'}</button>
+<button type="button" class="exam-tool-button furigana-quick-button ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" title="${esc(t('setFuriganaTitle'))}" aria-label="Toggle Furigana" aria-pressed="${Boolean(state.examPrefs.showFurigana)}">F</button>
 </div>
         <div class="exam-nav-buttons">
           <button type="button" class="exam-flag-button ${s.flaggedQuestions.includes(q.id) ? 'is-flagged' : ''}" data-action="toggle-flag" title="${esc(t('examFlagTitle'))}" aria-label="${esc(t('examFlagTitle'))}">⚑</button>
@@ -5013,6 +5015,10 @@ async function handleAction(action, el) {
       el.setAttribute('title', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
       el.setAttribute('aria-label', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
       el.textContent = inStudy ? '✓' : '+';
+      const mapBtn = document.querySelector(`.question-map-item[data-index="${s.currentIndex}"]`);
+      if (mapBtn) {
+        mapBtn.classList.toggle('in-study', inStudy);
+      }
       break;
     }
     case 'remove-study-item': {
@@ -5488,7 +5494,7 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw21').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw22').catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;

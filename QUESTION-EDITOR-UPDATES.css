@@ -525,6 +525,18 @@ body.exam-mode #app {
 .question-map-item.flagged {
   box-shadow: inset 0 -3px #ffcf50 !important;
 }
+.question-map-item.in-study {
+  box-shadow: inset 0 3px #38bdf8 !important;
+}
+.question-map-item.in-study.current {
+  box-shadow: inset 0 3px #bae6fd !important;
+}
+.question-map-item.flagged.in-study {
+  box-shadow: inset 0 -3px #ffcf50, inset 0 3px #38bdf8 !important;
+}
+.question-map-item.flagged.in-study.current {
+  box-shadow: inset 0 -3px #ffdf87, inset 0 3px #bae6fd !important;
+}
 
 /* 4. Question Workspace & Pale Blue Prompt Box (#e9f7ff) */
 .exam-workspace {
