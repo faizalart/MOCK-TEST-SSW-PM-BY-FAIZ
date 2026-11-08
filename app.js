@@ -4791,12 +4791,13 @@ async function ensureSpecialLabTopicsLoaded(force = false) {
     ]);
     const existingQs = state.questions.filter(q => targetSets.has(q.setId));
     const needsNameFix = existingQs.some(q => q.setName && q.setName.startsWith('Lab Soal'));
-    if (!force && !needsNameFix && existingQs.length >= 92 && hasCompleteTranslations(existingQs)) return false;
+    const needsRubyFix = existingQs.some(q => !q.prompt || !q.prompt.includes('<ruby>'));
+    if (!force && !needsNameFix && !needsRubyFix && existingQs.length >= 92 && hasCompleteTranslations(existingQs)) return false;
     const data = await fetchBuiltinJson('ssw-pm-special-lab-bundle.json');
     if (!data) return false;
     await importAdditiveQuestionSet(data, {
-      silent: !force && !needsNameFix,
-      force: force || needsNameFix,
+      silent: !force && !needsNameFix && !needsRubyFix,
+      force: force || needsNameFix || needsRubyFix,
       defaultSetId: 'ssw-pm-lab-bakteri',
       defaultSetName: '細菌・微生物・食中毒 (Bacteria Lab)'
     });
