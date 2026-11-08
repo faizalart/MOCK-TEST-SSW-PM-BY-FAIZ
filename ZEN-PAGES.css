@@ -33,9 +33,7 @@
   border-bottom: 1px solid var(--zen-line-strong);
 }
 
-.zen-page .zen-kicker,
-.zen-setup-page .zen-page-head > div:first-child::before,
-.zen-bank-page .zen-page-head > div:first-child::before {
+.zen-page .zen-kicker {
   display: inline-flex;
   align-items: center;
   margin: 0 0 12px;
@@ -48,14 +46,6 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--zen-ink-soft);
-}
-
-.zen-setup-page .zen-page-head > div:first-child::before {
-  content: "SIMULASI CBT · SSW PM";
-}
-
-.zen-bank-page .zen-page-head > div:first-child::before {
-  content: "PUSTAKA & EDITOR SOAL";
 }
 
 .zen-page .zen-page-title {

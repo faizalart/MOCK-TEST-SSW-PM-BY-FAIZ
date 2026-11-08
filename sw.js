@@ -1,20 +1,20 @@
-const CACHE_NAME = 'ssw-pm-mock-test-shell-v21';
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v24';
 
 const CORE = [
   './',
   './index.html',
 
-  './styles.css?v=ssw22',
+  './styles.css?v=ssw24',
   './CSV-IMPORT-STYLES.css?v=ssw3',
   './RICH-HTML-STYLES.css?v=ssw3',
-  './QUESTION-EDITOR-UPDATES.css?v=ssw22',
-  './ZEN-APP-SHELL.css?v=ssw22',
-  './HOME-DASHBOARD.css?v=ssw22',
-  './ZEN-PAGES.css?v=ssw22',
+  './QUESTION-EDITOR-UPDATES.css?v=ssw24',
+  './ZEN-APP-SHELL.css?v=ssw24',
+  './HOME-DASHBOARD.css?v=ssw24',
+  './ZEN-PAGES.css?v=ssw24',
 
   './assets/zen-warrior-bg.png',
 
-  './app.js?v=ssw22',
+  './app.js?v=ssw24',
   './seed-data.js?v=ssw3',
   './db.js?v=ssw3',
   './utils.js?v=ssw3',

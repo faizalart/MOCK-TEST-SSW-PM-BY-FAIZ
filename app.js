@@ -441,7 +441,14 @@ const I18N = {
     reviewPhotoChange: 'Ubah Foto Kandidat pada Report',
     reviewPhotoAdd: 'Tambahkan Foto Kandidat pada Report (Opsional)',
     reviewTransMissing: 'Terjemahan belum tersedia.',
-    revKeySource: 'Informasi Kunci & Sumber'
+    revKeySource: 'Informasi Kunci & Sumber',
+    bankKicker: 'PUSTAKA & EDITOR SOAL',
+    resultKicker: 'HASIL EVALUASI',
+    resultNotFound: 'Hasil ujian tidak ditemukan.',
+    reviewNoMatchFilter: 'Tidak ada soal pada filter ini.',
+    setupPickerEmpty: 'Tidak ada soal aktif pada paket ini.',
+    setupPickerDefault: 'Mengikuti jumlah soal paket',
+    setupPickerSelected: 'soal dipilih'
   },
   en: {
     locale: 'en-US',
@@ -693,7 +700,14 @@ const I18N = {
     reviewPhotoChange: 'Change Candidate Photo on Report',
     reviewPhotoAdd: 'Add Candidate Photo to Report (Optional)',
     reviewTransMissing: 'Translation not available.',
-    revKeySource: 'Answer Key & Source Info'
+    revKeySource: 'Answer Key & Source Info',
+    bankKicker: 'QUESTION LIBRARY & EDITOR',
+    resultKicker: 'EVALUATION RESULTS',
+    resultNotFound: 'Exam result not found.',
+    reviewNoMatchFilter: 'No questions match this filter.',
+    setupPickerEmpty: 'No active questions in this package.',
+    setupPickerDefault: 'Default to package question count',
+    setupPickerSelected: 'questions selected'
   },
   ja: {
     locale: 'ja-JP',
@@ -945,7 +959,14 @@ const I18N = {
     reviewPhotoChange: '証明写真を変更',
     reviewPhotoAdd: '証明写真を追加（任意）',
     reviewTransMissing: '翻訳がまだありません。',
-    revKeySource: '正解・出典情報'
+    revKeySource: '正解・出典情報',
+    bankKicker: '問題ライブラリ＆エディタ',
+    resultKicker: '評価結果',
+    resultNotFound: '試験結果が見つかりません。',
+    reviewNoMatchFilter: 'このフィルターに一致する問題はありません。',
+    setupPickerEmpty: 'このパッケージに有効な問題がありません。',
+    setupPickerDefault: 'パッケージの問題数に従う',
+    setupPickerSelected: '問選択中'
   }
 };
 
@@ -1322,9 +1343,21 @@ function syncExamViewportHeight() {
     return;
   }
 
+  if (document.body && document.body.classList.contains('exam-mode')) {
+    if (window.scrollY !== 0 || window.scrollX !== 0) {
+      window.scrollTo(0, 0);
+    }
+    if (document.documentElement && document.documentElement.scrollTop !== 0) {
+      document.documentElement.scrollTop = 0;
+    }
+    if (document.body && document.body.scrollTop !== 0) {
+      document.body.scrollTop = 0;
+    }
+  }
+
   const height = Math.round(
-    window.innerHeight ||
     (vv && vv.height > 0 ? vv.height : 0) ||
+    window.innerHeight ||
     document.documentElement.clientHeight
   );
 
@@ -1644,13 +1677,26 @@ async function go(page) {
   state.page = page;
   state.examSettingsOpen = false;
   closeModal();
+  if (page === 'exam') {
+    window.scrollTo(0, 0);
+    if (document.documentElement) document.documentElement.scrollTop = 0;
+    if (document.body) document.body.scrollTop = 0;
+    document.body.classList.add('exam-mode');
+    document.documentElement.classList.add('in-exam');
+  } else {
+    document.body.classList.remove('exam-mode');
+    document.documentElement.classList.remove('in-exam');
+    unlockExamOrientation();
+  }
   render();
   $$('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.page === page));
   updateShellLanguage();
   $('#sidebar').classList.remove('sidebar-open');
-  document.body.classList.toggle('exam-mode', page === 'exam');
-  if (page !== 'exam') {
-    unlockExamOrientation();
+  if (page === 'exam') {
+    window.scrollTo(0, 0);
+    if (document.documentElement) document.documentElement.scrollTop = 0;
+    if (document.body) document.body.scrollTop = 0;
+    syncExamViewportAfterResume();
   }
   view.focus({ preventScroll: true });
 }
@@ -2001,6 +2047,7 @@ function renderSetup() {
 
   const L = lang === 'ja'
     ? {
+        kicker: 'CBT模擬試験 · SSW PM',
         title: '模擬試験の設定',
         mode: '試験モード',
         modeFull: '本試験モード（40問・70分）',
@@ -2027,6 +2074,7 @@ function renderSetup() {
       }
     : lang === 'en'
       ? {
+          kicker: 'CBT SIMULATION · SSW PM',
           title: 'Simulation Setup',
           mode: 'Simulation Mode',
           modeFull: 'Full Mock Test (40 questions · 70 min)',
@@ -2052,6 +2100,7 @@ function renderSetup() {
           maxPts: `Max ${maxPoints} pts`
         }
       : {
+          kicker: 'SIMULASI CBT · SSW PM',
           title: 'Konfigurasi Simulasi',
           mode: 'Mode Simulasi',
           modeFull: 'Mock Test Penuh (40 soal · 70 menit)',
@@ -2089,6 +2138,7 @@ function renderSetup() {
     <div class="zen-page zen-setup-page">
       <header class="zen-page-head">
         <div>
+          <span class="zen-kicker">${esc(L.kicker || t('setupKicker'))}</span>
           <h1 class="zen-page-title">${esc(L.title)}</h1>
           <p class="zen-page-meta">
             <span class="summary-big">${actual}<span> / ${count} ${esc(L.unitSoal)}</span></span>
@@ -2142,9 +2192,9 @@ function renderSetup() {
                     <strong>#${q.questionNumber || '1'} · ${esc(richPlainText(q.prompt || '(tanpa teks)').slice(0, 110))}</strong>
                   </span>
                 </label>
-              `).join('') : `<div class="custom-picker-empty">Tidak ada soal aktif pada paket ini.</div>`}
+              `).join('') : `<div class="custom-picker-empty">${esc(t('setupPickerEmpty'))}</div>`}
             </div>
-            <div class="custom-picker-footer">${state.setupCustomIds.size ? `${state.setupCustomIds.size} soal dipilih` : 'Mengikuti jumlah soal paket'}</div>
+            <div class="custom-picker-footer">${state.setupCustomIds.size ? `${state.setupCustomIds.size} ${esc(t('setupPickerSelected'))}` : esc(t('setupPickerDefault'))}</div>
           </div>
         ` : ''}
 
@@ -2186,7 +2236,7 @@ function renderSetup() {
             ${esc(L.startBtn)}
           </button>
         </div>
-        ${pool.length === 0 ? `<p class="hd-empty-line">Tidak ada soal aktif pada paket ini.</p>` : ''}
+        ${pool.length === 0 ? `<p class="hd-empty-line">${esc(t('setupPickerEmpty'))}</p>` : ''}
       </form>
     </div>`;
 }
@@ -2204,7 +2254,7 @@ function updateCustomSetupSummary() {
   const durationInput = $('#setup-form input[name="duration"]');
   if (durationInput) durationInput.disabled = state.setup.practice;
   const footer = $('.custom-picker-footer');
-  if (footer) footer.textContent = state.setupCustomIds.size ? `${state.setupCustomIds.size} soal dipilih` : 'Mengikuti jumlah soal paket';
+  if (footer) footer.textContent = state.setupCustomIds.size ? `${state.setupCustomIds.size} ${t('setupPickerSelected')}` : t('setupPickerDefault');
 }
 
 function renderBank() {
@@ -2256,6 +2306,7 @@ function renderBank() {
 
   const B = lang === 'ja'
     ? {
+        kicker: '問題ライブラリ＆エディタ',
         title: '問題バンク',
         meta: `全${activeQuestions().length}問 · ${packages.length}パッケージ`,
         addBtn: '問題を追加',
@@ -2296,6 +2347,7 @@ function renderBank() {
       }
     : lang === 'en'
       ? {
+          kicker: 'QUESTION LIBRARY & EDITOR',
           title: 'Question Bank',
           meta: `${activeQuestions().length} questions · ${packages.length} packages`,
           addBtn: 'Add Question',
@@ -2335,6 +2387,7 @@ function renderBank() {
           unitImg: 'illustrated'
         }
       : {
+          kicker: 'PUSTAKA & EDITOR SOAL',
           title: 'Bank Soal',
           meta: `${activeQuestions().length} soal · ${packages.length} paket`,
           addBtn: 'Tambah Soal',
@@ -2381,6 +2434,7 @@ function renderBank() {
 
       <header class="zen-page-head">
         <div>
+          <span class="zen-kicker">${esc(B.kicker || t('bankKicker'))}</span>
           <h1 class="zen-page-title">${esc(B.title)}</h1>
           <p class="zen-page-meta">${esc(B.meta)}</p>
         </div>
@@ -2787,7 +2841,7 @@ function renderHistory() {
                   const cleanTitle = formatHomeSessionTitle(s);
                   return `<tr>
                     <td class="hd-col-date" data-label="${esc(t('thDate'))}">${fmtDate(s.endedAt || s.startedAt, loc)}</td>
-                    <td class="hd-col-pkg" data-label="Paket">
+                    <td class="hd-col-pkg" data-label="${esc(t('thPkg'))}">
                       <div>
                         <strong class="hd-session-title">${esc(cleanTitle)}</strong>
                         <span class="zen-table-sub">${esc(s.candidateName || 'Faiz')}</span>
@@ -2796,7 +2850,7 @@ function renderHistory() {
                     <td class="hd-col-mode" data-label="${esc(t('thMode'))}">${s.mode === 'practice' ? esc(t('modePractice')) : esc(t('modeExam'))}</td>
                     <td class="hd-col-score" data-label="${esc(t('thCorrect'))}">${st.correct} / ${st.total}</td>
                     <td class="hd-col-points" data-label="${esc(t('thPointScore'))}"><span>${st.weightedScore} <span class="hd-muted">/ ${st.maxWeightedScore}</span></span></td>
-                    <td class="hd-col-pct" data-label="Akurasi"><strong>${st.percent}%</strong></td>
+                    <td class="hd-col-pct" data-label="${esc(t('thAccuracy'))}"><strong>${st.percent}%</strong></td>
                     <td class="hd-col-time" data-label="${esc(t('thTime'))}">${fmtDuration(elapsed)}</td>
                     <td class="hd-col-action">
                       <div class="zen-row-actions">
@@ -3200,7 +3254,14 @@ async function startExam() {
   state.resultId = null;
   state.finalizing = false;
   state.examSettingsOpen = false;
+  window.scrollTo(0, 0);
+  if (document.documentElement) document.documentElement.scrollTop = 0;
+  if (document.body) document.body.scrollTop = 0;
   await go('exam');
+  window.scrollTo(0, 0);
+  if (document.documentElement) document.documentElement.scrollTop = 0;
+  if (document.body) document.body.scrollTop = 0;
+  syncExamViewportAfterResume();
   startExamTicker();
 }
 
@@ -3411,8 +3472,12 @@ function renderExam() {
       </footer>
     </div>`;
   document.body.classList.add('exam-mode');
+  document.documentElement.classList.add('in-exam');
+  window.scrollTo(0, 0);
+  if (document.documentElement) document.documentElement.scrollTop = 0;
+  if (document.body) document.body.scrollTop = 0;
   applyExamPrefs();
-  syncExamViewportHeight();
+  syncExamViewportAfterResume();
 }
 
 let examTicker = null;
@@ -3519,7 +3584,7 @@ function buildReviewCardsHTML(s, filter = 'all') {
     (filter === 'correct' && s.answers[q.id] === q.correctIndex)
   );
   if (!qs.length) {
-    return `<div class="zen-empty-block"><p class="hd-empty-line">Tidak ada soal pada filter ini.</p></div>`;
+    return `<div class="zen-empty-block"><p class="hd-empty-line">${esc(t('reviewNoMatchFilter'))}</p></div>`;
   }
   const stripTrailingInstruction = rawPrompt => {
     const out = String(rawPrompt || '').replace(/(?:<ruby>最<rt>もっと<\/rt><\/ruby>も)?(?:<ruby>正<rt>ただ<\/rt><\/ruby>しい|<ruby>間違<rt>まちが<\/rt><\/ruby>っている)ものを<ruby>一<rt>ひと<\/rt><\/ruby>つ<ruby>選<rt>えら<\/rt><\/ruby>びなさい[。．.]?\s*$/i, '').trim();
@@ -3676,7 +3741,7 @@ function buildReviewCardsHTML(s, filter = 'all') {
 function renderResult() {
   const s = getResultSession();
   if (!s) {
-    view.innerHTML = `<div class="zen-page"><div class="zen-empty-block"><p class="hd-empty-line">Hasil ujian tidak ditemukan.</p><button class="hd-btn-secondary" data-page="history">${esc(t('navHistory'))}</button></div></div>`;
+    view.innerHTML = `<div class="zen-page"><div class="zen-empty-block"><p class="hd-empty-line">${esc(t('resultNotFound'))}</p><button class="hd-btn-secondary" data-page="history">${esc(t('navHistory'))}</button></div></div>`;
     return;
   }
   const st = rawStats(s);
@@ -3709,7 +3774,7 @@ function renderResult() {
     <div class="zen-page zen-result-page">
       <header class="zen-page-head no-print">
         <div>
-          <span class="zen-kicker">HASIL EVALUASI · ${esc(statusLabel).toUpperCase()}</span>
+          <span class="zen-kicker">${esc(t('resultKicker'))} · ${esc(statusLabel).toUpperCase()}</span>
           <h1 class="zen-page-title">${esc(cleanTitle)}</h1>
           <p class="zen-page-meta">${esc(s.candidateName || 'Faiz')} · ${fmtDate(s.endedAt || s.startedAt, loc)} · ${s.mode === 'practice' ? esc(t('modePractice')) : esc(t('modeExam'))}</p>
         </div>
@@ -4085,7 +4150,7 @@ function renderStudy() {
             <p class="zen-page-desc">${esc(t('studyPageDesc'))}</p>
           </div>
           <div class="zen-page-head-actions">
-            <span class="zen-meta-count" id="study-total-count">0 soal</span>
+            <span class="zen-meta-count" id="study-total-count">0 ${esc(t('studyMetaCount'))}</span>
             <button type="button" class="hd-btn-primary" data-page="setup">${esc(t('topStartExam'))}</button>
           </div>
         </header>
@@ -4147,7 +4212,7 @@ function renderStudy() {
     <div class="zen-page zen-study-page">
       <header class="zen-page-head">
         <div>
-          <span class="zen-kicker">DAFTAR BELAJAR</span>
+          <span class="zen-kicker">${esc(t('studyKicker'))}</span>
           <h1 class="zen-page-title">${esc(t('navStudy'))}</h1>
           <p class="zen-page-desc">${esc(t('studyPageDesc'))}</p>
         </div>
@@ -4221,7 +4286,7 @@ function renderStudy() {
                       <div class="zen-study-opt-body">
                         <span class="rich-content" lang="ja">${richHTML(o.text)}</span>
                       </div>
-                      ${isCorrect ? `<span class="zen-study-correct-badge">✓ Kunci</span>` : ''}
+                      ${isCorrect ? `<span class="zen-study-correct-badge">${esc(t('studyCorrectKey'))}</span>` : ''}
                     </div>
                   `;
                 }).join('')}
@@ -4240,7 +4305,7 @@ function renderStudy() {
                       <div style="display:flex;gap:6px;align-items:baseline;${isKey ? 'font-weight:600;color:#2e5c1e;' : ''}">
                         <span>${letter}.</span>
                         <span>${optTrans ? richHTML(optTrans) : '—'}</span>
-                        ${isKey ? '<span style="font-size:11px;background:#9ecb65;color:#1a3311;padding:1px 5px;border-radius:3px;">Kunci</span>' : ''}
+                        ${isKey ? `<span style="font-size:11px;background:#9ecb65;color:#1a3311;padding:1px 5px;border-radius:3px;">${esc(t('studyCorrectKey'))}</span>` : ''}
                       </div>
                     `;
                   }).join('')}
