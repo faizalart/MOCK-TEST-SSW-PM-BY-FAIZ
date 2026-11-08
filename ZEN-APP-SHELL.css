@@ -347,32 +347,132 @@ body:not(.exam-mode) #topbar-backup-btn {
   display: none !important;
 }
 
-body:not(.exam-mode) #global-lang-select.lang-select {
+/* Minimalist Flag Dropdown */
+.zen-lang-dropdown {
+  position: relative !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.zen-lang-trigger {
   min-height: 34px !important;
   height: 34px !important;
   width: auto !important;
-  min-width: 52px !important;
-  padding: 0 22px 0 10px !important;
-  font-family: var(--zen-font), -apple-system, BlinkMacSystemFont, "Segoe UI Emoji", "Apple Color Emoji", sans-serif !important;
-  font-size: 16px !important;
-  line-height: 1 !important;
-  text-align: center !important;
-  color: var(--zen-ink) !important;
-  background-color: rgba(255, 255, 255, 0.92) !important;
-  border: 1px solid var(--zen-line-strong) !important;
-  border-radius: var(--zen-radius-pill) !important;
+  padding: 0 10px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid var(--zen-line-strong, #cbd5e1) !important;
+  border-radius: var(--zen-radius-pill, 9999px) !important;
   cursor: pointer !important;
-  transition: border-color 0.16s var(--zen-ease), background-color 0.16s var(--zen-ease);
+  color: var(--zen-muted, #64748b) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+  transition: border-color 0.16s ease, background-color 0.16s ease, box-shadow 0.16s ease;
 }
 
-body:not(.exam-mode) #global-lang-select.lang-select:hover {
+.zen-lang-trigger:hover,
+.zen-lang-dropdown.is-open .zen-lang-trigger {
   background-color: #ffffff !important;
-  border-color: var(--zen-ink) !important;
+  border-color: var(--zen-ink, #0f172a) !important;
+  color: var(--zen-ink, #0f172a) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06) !important;
 }
 
-body:not(.exam-mode) #global-lang-select.lang-select:focus {
-  border-color: var(--zen-ink) !important;
-  box-shadow: none !important;
+.zen-lang-trigger:focus-visible {
+  outline: 2px solid #638c29 !important;
+  outline-offset: 2px !important;
+}
+
+.zen-lang-chevron {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  stroke: currentColor;
+}
+
+.zen-lang-dropdown.is-open .zen-lang-chevron {
+  transform: rotate(180deg);
+}
+
+.zen-lang-menu {
+  position: absolute !important;
+  top: calc(100% + 6px) !important;
+  right: 0 !important;
+  z-index: 1000 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 3px !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border-radius: 12px !important;
+  padding: 4px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.12), 0 8px 10px -6px rgba(0, 0, 0, 0.06) !important;
+  min-width: 44px !important;
+  transform-origin: top right !important;
+  animation: zen-dropdown-in 0.15s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.zen-lang-menu[hidden] {
+  display: none !important;
+}
+
+@keyframes zen-dropdown-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.zen-lang-item {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 32px !important;
+  padding: 0 !important;
+  border: 1px solid transparent !important;
+  border-radius: 8px !important;
+  background: transparent !important;
+  cursor: pointer !important;
+  transition: background-color 0.14s ease, border-color 0.14s ease !important;
+}
+
+.zen-lang-item:hover {
+  background-color: #f1f5f9 !important;
+}
+
+.zen-lang-item.is-active {
+  background-color: #f0fdf4 !important;
+  border-color: #86efac !important;
+}
+
+.flag-box {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 2px !important;
+  overflow: hidden !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.06) !important;
+  line-height: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+.flag-box svg {
+  display: block !important;
+}
+
+body:not(.exam-mode) #global-lang-select.lang-select {
+  position: absolute !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
 }
 
 /* --------------------------------------------------------------------------

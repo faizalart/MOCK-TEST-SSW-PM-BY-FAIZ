@@ -1098,8 +1098,31 @@ function pageLabel(page) {
   return map[page] || 'SSW PM Mock Test';
 }
 
+const FLAG_ICONS = {
+  id: `<span class="flag-box"><svg viewBox="0 0 24 16" width="22" height="14" aria-hidden="true"><rect width="24" height="8" fill="#e70011"/><rect y="8" width="24" height="8" fill="#ffffff"/><rect width="24" height="16" fill="none" stroke="rgba(0,0,0,0.12)" stroke-width="1"/></svg></span>`,
+  en: `<span class="flag-box"><svg viewBox="0 0 60 30" width="22" height="14" aria-hidden="true"><clipPath id="uk-clip-active"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="uk-diag-active"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#uk-clip-active)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#uk-diag-active)" stroke="#c8102e" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#c8102e" stroke-width="6"/><rect width="60" height="30" fill="none" stroke="rgba(0,0,0,0.12)" stroke-width="1"/></g></svg></span>`,
+  ja: `<span class="flag-box"><svg viewBox="0 0 24 16" width="22" height="14" aria-hidden="true"><rect width="24" height="16" fill="#ffffff"/><circle cx="12" cy="8" r="4.8" fill="#bc002d"/><rect width="24" height="16" fill="none" stroke="rgba(0,0,0,0.12)" stroke-width="1"/></svg></span>`
+};
+
+function updateLangDropdownUI(lang = state.lang || 'id') {
+  const currentFlag = $('#zen-lang-current-flag');
+  if (currentFlag) {
+    currentFlag.innerHTML = FLAG_ICONS[lang] || FLAG_ICONS.id;
+  }
+  $$('.zen-lang-item').forEach(btn => {
+    const active = btn.dataset.lang === lang;
+    btn.classList.toggle('is-active', active);
+    btn.setAttribute('aria-selected', String(active));
+  });
+  const langSelect = $('#global-lang-select');
+  if (langSelect && langSelect.value !== lang) {
+    langSelect.value = lang;
+  }
+}
+
 function updateShellLanguage() {
   document.documentElement.lang = state.lang;
+  updateLangDropdownUI(state.lang);
   const navMap = {
     home: t('navHome'),
     setup: t('navSetup'),
@@ -5246,6 +5269,19 @@ document.addEventListener('keydown', async e => {
   }
 });
 
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    const wrap = $('#zen-lang-dropdown');
+    const menu = $('#zen-lang-menu');
+    if (wrap && menu && wrap.classList.contains('is-open')) {
+      wrap.classList.remove('is-open');
+      menu.hidden = true;
+      $('#zen-lang-trigger')?.setAttribute('aria-expanded', 'false');
+      $('#zen-lang-trigger')?.focus();
+    }
+  }
+});
+
 let examAnswerPointerStart = null;
 document.addEventListener('pointerdown', e => {
   const choice = e.target.closest?.('.answer-choice[data-action="answer"]');
@@ -5304,6 +5340,46 @@ document.addEventListener('paste', async e => {
 });
 
 document.addEventListener('click', async e => {
+  const langTrigger = e.target.closest('#zen-lang-trigger');
+  if (langTrigger) {
+    const wrap = $('#zen-lang-dropdown');
+    const menu = $('#zen-lang-menu');
+    if (wrap && menu) {
+      const isOpen = wrap.classList.contains('is-open');
+      wrap.classList.toggle('is-open', !isOpen);
+      menu.hidden = isOpen;
+      langTrigger.setAttribute('aria-expanded', String(!isOpen));
+    }
+    return;
+  }
+
+  const langItem = e.target.closest('.zen-lang-item');
+  if (langItem) {
+    const newLang = langItem.dataset.lang;
+    const wrap = $('#zen-lang-dropdown');
+    const menu = $('#zen-lang-menu');
+    if (wrap && menu) {
+      wrap.classList.remove('is-open');
+      menu.hidden = true;
+      $('#zen-lang-trigger')?.setAttribute('aria-expanded', 'false');
+    }
+    if (newLang && newLang !== state.lang) {
+      setLanguage(newLang);
+    }
+    return;
+  }
+
+  // Close lang dropdown when clicking outside
+  if (!e.target.closest('#zen-lang-dropdown')) {
+    const wrap = $('#zen-lang-dropdown');
+    const menu = $('#zen-lang-menu');
+    if (wrap && menu && wrap.classList.contains('is-open')) {
+      wrap.classList.remove('is-open');
+      menu.hidden = true;
+      $('#zen-lang-trigger')?.setAttribute('aria-expanded', 'false');
+    }
+  }
+
   const pageBtn = e.target.closest('[data-page]');
   const actionBtn = e.target.closest('[data-action]');
   if (pageBtn && !actionBtn) {

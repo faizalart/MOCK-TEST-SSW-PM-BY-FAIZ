@@ -17,15 +17,15 @@
   <link rel="manifest" href="./manifest.webmanifest?v=ssw18" />
 
   <!-- CSS UTAMA -->
-  <link rel="stylesheet" href="./styles.css?v=ssw24" />
+  <link rel="stylesheet" href="./styles.css?v=ssw25" />
 
   <!-- CSS TAMBAHAN -->
   <link rel="stylesheet" href="./CSV-IMPORT-STYLES.css?v=ssw3" />
   <link rel="stylesheet" href="./RICH-HTML-STYLES.css?v=ssw3" />
-  <link rel="stylesheet" href="./QUESTION-EDITOR-UPDATES.css?v=ssw24" />
-  <link rel="stylesheet" href="./ZEN-APP-SHELL.css?v=ssw24" />
-  <link rel="stylesheet" href="./HOME-DASHBOARD.css?v=ssw24" />
-  <link rel="stylesheet" href="./ZEN-PAGES.css?v=ssw24" />
+  <link rel="stylesheet" href="./QUESTION-EDITOR-UPDATES.css?v=ssw25" />
+  <link rel="stylesheet" href="./ZEN-APP-SHELL.css?v=ssw25" />
+  <link rel="stylesheet" href="./HOME-DASHBOARD.css?v=ssw25" />
+  <link rel="stylesheet" href="./ZEN-PAGES.css?v=ssw25" />
 
   <!-- SERVICE WORKER CACHE CLEANUP -->
   <script>
@@ -36,7 +36,7 @@
             keys.forEach(function (key) {
               if (
                 key.indexOf('jft-practice') !== -1 ||
-                (key.indexOf('ssw-pm-mock-test-shell-') === 0 && key !== 'ssw-pm-mock-test-shell-v24')
+                (key.indexOf('ssw-pm-mock-test-shell-') === 0 && key !== 'ssw-pm-mock-test-shell-v25')
               ) {
                 caches.delete(key);
               }
@@ -151,18 +151,55 @@
         </div>
 
         <div class="topbar-right">
-          <label class="lang-Segment" aria-label="Language / Bahasa">
+          <div class="zen-lang-dropdown" id="zen-lang-dropdown">
+            <button
+              type="button"
+              class="zen-lang-trigger"
+              id="zen-lang-trigger"
+              aria-haspopup="true"
+              aria-expanded="false"
+              title="Language / Bahasa"
+              aria-label="Select language"
+            >
+              <span class="zen-lang-current-flag" id="zen-lang-current-flag">
+                <span class="flag-box">
+                  <svg viewBox="0 0 24 16" width="22" height="14" aria-hidden="true"><rect width="24" height="8" fill="#e70011"/><rect y="8" width="24" height="8" fill="#ffffff"/><rect width="24" height="16" fill="none" stroke="rgba(0,0,0,0.12)" stroke-width="1"/></svg>
+                </span>
+              </span>
+              <svg class="zen-lang-chevron" width="8" height="5" viewBox="0 0 8 5" fill="none" aria-hidden="true">
+                <path d="M1 1L4 4L7 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="zen-lang-menu" id="zen-lang-menu" role="menu" hidden>
+              <button type="button" class="zen-lang-item" data-lang="id" role="menuitem" title="Bahasa Indonesia" aria-label="Bahasa Indonesia">
+                <span class="flag-box">
+                  <svg viewBox="0 0 24 16" width="22" height="14" aria-hidden="true"><rect width="24" height="8" fill="#e70011"/><rect y="8" width="24" height="8" fill="#ffffff"/><rect width="24" height="16" fill="none" stroke="rgba(0,0,0,0.12)" stroke-width="1"/></svg>
+                </span>
+              </button>
+              <button type="button" class="zen-lang-item" data-lang="en" role="menuitem" title="English" aria-label="English">
+                <span class="flag-box">
+                  <svg viewBox="0 0 60 30" width="22" height="14" aria-hidden="true"><clipPath id="uk-clip-topbar"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="uk-diag-topbar"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#uk-clip-topbar)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#uk-diag-topbar)" stroke="#c8102e" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#c8102e" stroke-width="6"/><rect width="60" height="30" fill="none" stroke="rgba(0,0,0,0.12)" stroke-width="1"/></g></svg>
+                </span>
+              </button>
+              <button type="button" class="zen-lang-item" data-lang="ja" role="menuitem" title="日本語" aria-label="日本語">
+                <span class="flag-box">
+                  <svg viewBox="0 0 24 16" width="22" height="14" aria-hidden="true"><rect width="24" height="16" fill="#ffffff"/><circle cx="12" cy="8" r="4.8" fill="#bc002d"/><rect width="24" height="16" fill="none" stroke="rgba(0,0,0,0.12)" stroke-width="1"/></svg>
+                </span>
+              </button>
+            </div>
+            <!-- Hidden native select for full backward-compatibility with tests & scripts -->
             <select
               id="global-lang-select"
               class="lang-select"
-              title="Ubah Bahasa / Change Language / 言語切替"
-              aria-label="Language selection"
+              style="position:absolute;opacity:0;pointer-events:none;width:1px;height:1px;"
+              aria-hidden="true"
+              tabindex="-1"
             >
               <option value="id" title="Bahasa Indonesia">🇮🇩</option>
               <option value="en" title="English">🇬🇧</option>
               <option value="ja" title="日本語">🇯🇵</option>
             </select>
-          </label>
+          </div>
 
           <span class="local-chip">
             <span class="status-dot"></span>
@@ -191,6 +228,6 @@
   <div id="toast-root" class="toast-root" aria-live="polite"></div>
 
   <!-- MAIN JAVASCRIPT -->
-  <script type="module" src="./app.js?v=ssw24"></script>
+  <script type="module" src="./app.js?v=ssw25"></script>
 </body>
 </html>
