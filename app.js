@@ -2322,7 +2322,6 @@ function renderBank() {
         <div class="zen-q-list">
           ${qs.length ? qs.map(q => {
             const img = getQuestionMainMedia(q);
-  const inStudy = isQuestionInStudy(q);
             const hasImg = Boolean(img || q.options?.some(o => o.mediaId || o.optionImage));
             const keyLetter = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : 'A';
             const pkgLabel = formatHomePackageTitle({ name: packageName(q) }).primary;
@@ -3170,6 +3169,7 @@ function renderExam() {
     </aside>`;
 
   const img = getQuestionMainMedia(q);
+  const inStudy = isQuestionInStudy(q);
   const imageClass = `image-size-${q.imageSize || 'medium'} image-ratio-${q.imageRatio || 'auto'} image-pos-${q.imagePosition || 'center'}`;
   const answerPrev = questionNo > 1
     ? `<button type="button" class="button button-outline" data-action="exam-prev" aria-label="${esc(t('examBackBtn'))}"><span aria-hidden="true">‹</span> ${esc(t('examBackBtn'))}</button>`
@@ -5304,7 +5304,7 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw13').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw20').catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;

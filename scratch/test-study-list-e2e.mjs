@@ -26,6 +26,12 @@ inp.on('data', c => {
     const raw = buf.slice(0, i); buf = buf.slice(i + 1);
     if (!raw.trim()) continue;
     const m = JSON.parse(raw);
+    if (m.method === 'Runtime.consoleAPICalled') {
+      console.log('[BROWSER CONSOLE]', m.params.type, m.params.args.map(a => a.value || a.description).join(' '));
+    }
+    if (m.method === 'Runtime.exceptionThrown') {
+      console.log('[BROWSER EXCEPTION]', m.params.exceptionDetails);
+    }
     if (m.id && pending.has(m.id)) {
       const { resolve, reject } = pending.get(m.id); pending.delete(m.id);
       m.error ? reject(new Error(m.error.message)) : resolve(m.result);
@@ -39,10 +45,10 @@ const send = (method, params = {}, sessionId) => new Promise((resolve, reject) =
 });
 
 const killer = setTimeout(() => {
-  console.error('TIMEOUT 75s');
+  console.error('TIMEOUT 90s');
   proc.kill();
   process.exit(2);
-}, 75000);
+}, 90000);
 
 async function run() {
   try {
@@ -69,16 +75,17 @@ async function run() {
     };
 
     const waitFor = sel => `(async () => {
-      for (let i = 0; i < 120; i++) {
+      for (let i = 0; i < 150; i++) {
         if (document.querySelector(${JSON.stringify(sel)})) return true;
         await new Promise(r => setTimeout(r, 100));
       }
       throw new Error('waitFor timeout: ' + ${JSON.stringify(sel)});
     })()`;
 
-    console.log('1. Navigating to index.html...');
+    console.log('1. Navigating to index.html and waiting for boot()...');
     await send('Page.navigate', { url: indexUrl }, sessionId);
-    await ev(waitFor('[data-page="study"]'), 'boot-study-nav');
+    await ev(waitFor('.home-dashboard'), 'wait-boot-home');
+    await new Promise(r => setTimeout(r, 1200));
 
     console.log('2. Verifying Study List empty state...');
     await ev(`document.querySelector('[data-page="study"]').click()`, 'click-nav-study');
@@ -93,7 +100,7 @@ async function run() {
     console.log('Empty state info:', emptyInfo);
 
     // Screenshot 1: study-list-page-empty.png
-    await new Promise(r => setTimeout(r, 200));
+    await new Promise(r => setTimeout(r, 300));
     const ssEmpty = await send('Page.captureScreenshot', { format: 'png' }, sessionId);
     fs.writeFileSync(path.join(artifactDir, 'study-list-page-empty.png'), Buffer.from(ssEmpty.data, 'base64'));
     console.log('Saved: study-list-page-empty.png');
@@ -141,8 +148,8 @@ async function run() {
 
     console.log('5. Navigating questions in CBT and marking Question 2...');
     await ev(`document.querySelectorAll('.answer-choice')[0].click()`, 'answer-q1');
-    await ev(`document.querySelector('.exam-nav-btn.is-next')?.click() || document.querySelector('[data-action=\"next-question\"]')?.click()`, 'next-q');
-    await new Promise(r => setTimeout(r, 200));
+    await ev(`document.querySelector('[data-action="exam-next"]').click()`, 'next-q');
+    await new Promise(r => setTimeout(r, 300));
 
     // In Q2: verify button is idle (+)
     const q2Idle = await ev(`document.querySelector('.study-list-quick-button')?.textContent?.trim()`, 'q2-text');
@@ -153,9 +160,9 @@ async function run() {
     await new Promise(r => setTimeout(r, 200));
     await ev(`document.querySelectorAll('.answer-choice')[1].click()`, 'answer-q2');
 
-    // Go back to Q1, verify button is still active (✓)
-    await ev(`document.querySelector('.exam-nav-btn.is-prev')?.click() || document.querySelector('[data-action=\"prev-question\"]')?.click()`, 'prev-q');
-    await new Promise(r => setTimeout(r, 200));
+    // Go back to Q1, verify button dynamically updates to active (✓)
+    await ev(`document.querySelector('[data-action="exam-prev"]').click()`, 'prev-q');
+    await new Promise(r => setTimeout(r, 300));
     const q1Check = await ev(`document.querySelector('.study-list-quick-button')?.textContent?.trim()`, 'q1-back-check');
     console.log('Q1 Study button after navigating back:', q1Check);
 
@@ -173,12 +180,12 @@ async function run() {
     })`, 'review-buttons-info');
     console.log('Review Cards Buttons Info:', reviewButtonsInfo);
 
-    // Scroll to review cards and capture screenshot showing both buttons
+    // Scroll to review cards and capture screenshot showing BOTH [F] and [文A] buttons clearly
     await ev(`(() => {
       const c = document.querySelectorAll('.zen-review-item')[0];
       if (c) {
         c.scrollIntoView({ block: 'start' });
-        window.scrollBy(0, -80);
+        window.scrollBy(0, -90);
       }
     })()`, 'scroll-to-review');
     await new Promise(r => setTimeout(r, 300));
@@ -186,7 +193,7 @@ async function run() {
     fs.writeFileSync(path.join(artifactDir, 'review-cards-furigana-and-trans.png'), Buffer.from(ssReview.data, 'base64'));
     console.log('Saved: review-cards-furigana-and-trans.png');
 
-    console.log('7. Navigating to Study List with populated items...');
+    console.log('7. Navigating to Study List with saved questions...');
     await ev(`document.querySelector('[data-page="study"]').click()`, 'open-study-page');
     await ev(waitFor('.zen-study-card'), 'wait-study-cards');
 
@@ -206,7 +213,7 @@ async function run() {
     fs.writeFileSync(path.join(artifactDir, 'study-list-page-populated.png'), Buffer.from(ssPopulated.data, 'base64'));
     console.log('Saved: study-list-page-populated.png');
 
-    console.log('8. Opening Question Detail Modal...');
+    console.log('8. Opening Question Detail Modal from Study List...');
     await ev(`document.querySelector('.zen-study-card [data-action="open-study-detail"]').click()`, 'open-detail');
     await ev(waitFor('.modal-body .zen-study-modal-wrap'), 'wait-detail-modal');
 
@@ -220,7 +227,7 @@ async function run() {
     await ev(`document.querySelector('.modal-header button[data-action="close-modal"]').click()`, 'close-modal');
     await new Promise(r => setTimeout(r, 200));
 
-    console.log('9. Testing Remove item from Study List...');
+    console.log('9. Testing Remove item and empty state transition...');
     const cardsBefore = await ev(`document.querySelectorAll('.zen-study-card').length`, 'count-before-remove');
     await ev(`document.querySelector('.zen-study-card [data-action="remove-study-item"]').click()`, 'remove-first');
     await new Promise(r => setTimeout(r, 250));
