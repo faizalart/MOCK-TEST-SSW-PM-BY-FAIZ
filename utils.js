@@ -39,13 +39,13 @@ export const fmtDurationHMS = seconds => {
 export const packageName = (qOrSetId, fallback = 'Bank Soal SSW PM') => {
   if (!qOrSetId) return fallback;
   if (typeof qOrSetId === 'object') {
-    if (qOrSetId.setName?.trim()) return qOrSetId.setName.trim();
+    if (qOrSetId.setName?.trim()) return qOrSetId.setName.trim().replace(/^Lab Soal\s*—\s*/, '');
     const found = DEFAULT_PACKAGES.find(p => p.id === qOrSetId.setId);
     if (found) return found.name;
     return qOrSetId.setId || fallback;
   }
   const found = DEFAULT_PACKAGES.find(p => p.id === qOrSetId);
-  return found ? found.name : String(qOrSetId);
+  return found ? found.name : String(qOrSetId).replace(/^Lab Soal\s*—\s*/, '');
 };
 
 export const rawStats = session => {

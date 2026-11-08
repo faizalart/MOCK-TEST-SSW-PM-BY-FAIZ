@@ -167,28 +167,28 @@ const BUILTIN_PACKAGES_META = [
   },
   {
     id: 'ssw-pm-lab-bakteri',
-    name: 'Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)',
+    name: '細菌・微生物・食中毒 (Bacteria Lab)',
     sourcePdf: 'SSW_Bacteria_Lab.html',
     description: '32 soal spesialisasi sifat bakteri, karakteristik toksin vs spora, dan pencegahan keracunan makanan.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-lab-suhu',
-    name: 'Lab Soal — 保存温度・温度管理 (Temperature Lab)',
+    name: '保存温度・温度管理 (Temperature Lab)',
     sourcePdf: 'SSW_Temperature_Lab_Fixed_v2.html',
     description: '28 soal standar suhu penyimpanan bahan baku (室温, 15℃, 10℃, 8℃, 5℃, -15℃, -18℃).',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-lab-haccp',
-    name: 'Lab Soal — HACCP・衛生管理 (HACCP Principles)',
+    name: 'HACCP・衛生管理 (HACCP Principles)',
     sourcePdf: 'HACCP_SSW_quiz.html',
     description: '12 soal 7 prinsip HACCP, batas kritis (CL), monitoring, tindakan perbaikan, dan studi kasus.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-lab-alergen',
-    name: 'Lab Soal — アレルゲン・特定原材料 (Allergen Lab)',
+    name: 'アレルゲン・特定原材料 (Allergen Lab)',
     sourcePdf: 'latihan_alergen_jepang_v2.html',
     description: '20 soal 8 bahan wajib, 20 bahan anjuran, pencegahan kontaminasi silang, dan regulasi pelabelan.',
     pointsPerQuestion: 3.75
@@ -1794,7 +1794,7 @@ function getHomePackageCode(pkg, index) {
 }
 
 function formatHomePackageTitle(pkg) {
-  const raw = String(pkg?.name || '').trim();
+  const raw = String(pkg?.name || '').replace(/^Lab Soal\s*—\s*/, '').trim();
   const parts = raw.split(/\s*—\s*/);
   const primary = parts[0]
     .replace(/\bSSW\s+PM\b/gi, '')
@@ -4790,14 +4790,15 @@ async function ensureSpecialLabTopicsLoaded(force = false) {
       'ssw-pm-lab-alergen'
     ]);
     const existingQs = state.questions.filter(q => targetSets.has(q.setId));
-    if (!force && existingQs.length >= 92 && hasCompleteTranslations(existingQs)) return false;
+    const needsNameFix = existingQs.some(q => q.setName && q.setName.startsWith('Lab Soal'));
+    if (!force && !needsNameFix && existingQs.length >= 92 && hasCompleteTranslations(existingQs)) return false;
     const data = await fetchBuiltinJson('ssw-pm-special-lab-bundle.json');
     if (!data) return false;
     await importAdditiveQuestionSet(data, {
-      silent: !force,
-      force,
+      silent: !force && !needsNameFix,
+      force: force || needsNameFix,
       defaultSetId: 'ssw-pm-lab-bakteri',
-      defaultSetName: 'Paket Latihan Tematik Lab (Bakteri, Suhu, HACCP, Alergen)'
+      defaultSetName: '細菌・微生物・食中毒 (Bacteria Lab)'
     });
     return true;
   } catch (err) {
