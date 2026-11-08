@@ -164,6 +164,34 @@ const BUILTIN_PACKAGES_META = [
     sourcePdf: 'Bonus Soal 10.pdf',
     description: 'Paket latihan Bonus Soal 10 SSW PM.',
     pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-lab-bakteri',
+    name: 'Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)',
+    sourcePdf: 'SSW_Bacteria_Lab.html',
+    description: '32 soal spesialisasi sifat bakteri, karakteristik toksin vs spora, dan pencegahan keracunan makanan.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-lab-suhu',
+    name: 'Lab Soal — 保存温度・温度管理 (Temperature Lab)',
+    sourcePdf: 'SSW_Temperature_Lab_Fixed_v2.html',
+    description: '28 soal standar suhu penyimpanan bahan baku (室温, 15℃, 10℃, 8℃, 5℃, -15℃, -18℃).',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-lab-haccp',
+    name: 'Lab Soal — HACCP・衛生管理 (HACCP Principles)',
+    sourcePdf: 'HACCP_SSW_quiz.html',
+    description: '12 soal 7 prinsip HACCP, batas kritis (CL), monitoring, tindakan perbaikan, dan studi kasus.',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'ssw-pm-lab-alergen',
+    name: 'Lab Soal — アレルゲン・特定原材料 (Allergen Lab)',
+    sourcePdf: 'latihan_alergen_jepang_v2.html',
+    description: '20 soal 8 bahan wajib, 20 bahan anjuran, pencegahan kontaminasi silang, dan regulasi pelabelan.',
+    pointsPerQuestion: 3.75
   }
 ];
 if (Array.isArray(DEFAULT_PACKAGES)) {
@@ -3756,6 +3784,11 @@ function buildReviewCardsHTML(s, filter = 'all') {
               ${esc(t('reviewKeyLabel'))} <strong>${esc(keyLetter)}${keyOptTrans ? ` · ${esc(richPlainText(keyOptTrans))}` : (keyOptJa ? ` (${esc(keyOptJa)})` : '')}</strong>
             </span>
           </div>
+          ${q.explanation ? `
+            <div class="zen-trans-explanation" style="margin-top: 6px; padding-top: 8px; border-top: 1px dashed var(--zen-line); font-size: 13.5px; line-height: 1.6; color: var(--zen-ink);">
+              <strong style="display: block; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--zen-muted); margin-bottom: 4px;">Pembahasan & Konsep</strong>
+              <div class="rich-content" style="white-space: pre-wrap;">${richHTML(q.explanation)}</div>
+            </div>` : ''}
         </div>
       </article>`;
   }).join('');
@@ -4748,13 +4781,39 @@ async function ensureBonusSoal1To10Loaded(force = false) {
   }
 }
 
+async function ensureSpecialLabTopicsLoaded(force = false) {
+  try {
+    const targetSets = new Set([
+      'ssw-pm-lab-bakteri',
+      'ssw-pm-lab-suhu',
+      'ssw-pm-lab-haccp',
+      'ssw-pm-lab-alergen'
+    ]);
+    const existingQs = state.questions.filter(q => targetSets.has(q.setId));
+    if (!force && existingQs.length >= 92 && hasCompleteTranslations(existingQs)) return false;
+    const data = await fetchBuiltinJson('ssw-pm-special-lab-bundle.json');
+    if (!data) return false;
+    await importAdditiveQuestionSet(data, {
+      silent: !force,
+      force,
+      defaultSetId: 'ssw-pm-lab-bakteri',
+      defaultSetName: 'Paket Latihan Tematik Lab (Bakteri, Suhu, HACCP, Alergen)'
+    });
+    return true;
+  } catch (err) {
+    console.warn('Auto-seed Special Lab Topics dilewati:', err);
+    return false;
+  }
+}
+
 async function ensureAllBuiltinSetsLoaded(force = false) {
   await ensureKunciUjian1Loaded(force);
   await ensureSswPmTipe2Loaded(force);
   const results = await Promise.allSettled([
     ensureKunciUjian2Loaded(force),
     ensureKunciUjian3To13Loaded(force),
-    ensureBonusSoal1To10Loaded(force)
+    ensureBonusSoal1To10Loaded(force),
+    ensureSpecialLabTopicsLoaded(force)
   ]);
   const anyLoaded = results.some(r => r.status === 'fulfilled' && r.value === true);
   if (anyLoaded || force) {
@@ -5611,6 +5670,14 @@ document.addEventListener('submit', async e => {
 
 $('#mobile-menu')?.addEventListener('click', () => $('#sidebar').classList.toggle('sidebar-open'));
 
+if (typeof window !== 'undefined') {
+  window.getAvailablePackages = getAvailablePackages;
+  window.ensureAllBuiltinSetsLoaded = ensureAllBuiltinSetsLoaded;
+  window.go = go;
+  window.startExam = startExam;
+  window.finishExam = finishExam;
+}
+
 async function boot() {
   try {
     applyExamPrefs();
@@ -5635,7 +5702,7 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw22').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw26').catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;

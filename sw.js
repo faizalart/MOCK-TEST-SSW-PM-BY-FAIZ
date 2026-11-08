@@ -1,20 +1,20 @@
-const CACHE_NAME = 'ssw-pm-mock-test-shell-v25';
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v26';
 
 const CORE = [
   './',
   './index.html',
 
-  './styles.css?v=ssw25',
+  './styles.css?v=ssw26',
   './CSV-IMPORT-STYLES.css?v=ssw3',
   './RICH-HTML-STYLES.css?v=ssw3',
-  './QUESTION-EDITOR-UPDATES.css?v=ssw25',
-  './ZEN-APP-SHELL.css?v=ssw25',
-  './HOME-DASHBOARD.css?v=ssw25',
-  './ZEN-PAGES.css?v=ssw25',
+  './QUESTION-EDITOR-UPDATES.css?v=ssw26',
+  './ZEN-APP-SHELL.css?v=ssw26',
+  './HOME-DASHBOARD.css?v=ssw26',
+  './ZEN-PAGES.css?v=ssw26',
 
   './assets/zen-warrior-bg.png',
 
-  './app.js?v=ssw25',
+  './app.js?v=ssw26',
   './seed-data.js?v=ssw3',
   './db.js?v=ssw3',
   './utils.js?v=ssw3',
@@ -25,6 +25,7 @@ const CORE = [
   './ssw-pm-all-kunci-ujian-3-to-13.json',
   './ssw-pm-tipe2-nguyen1.json',
   './ssw-pm-bonus-soal-1-to-10-bundle.json',
+  './ssw-pm-special-lab-bundle.json',
 
   './manifest.webmanifest?v=ssw18',
   './favicon.png?v=ssw18',

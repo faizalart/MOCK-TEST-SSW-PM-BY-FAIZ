@@ -1,0 +1,4523 @@
+{
+  "format": "ssw-pm-quiz-package",
+  "version": 1,
+  "exportedAt": 1762500000000,
+  "setId": "ssw-pm-special-lab-bundle",
+  "setName": "Paket Latihan Tematik Lab (Bakteri, Suhu, HACCP, Alergen)",
+  "title": "Paket Latihan Tematik Lab SSW PM",
+  "sourcePdf": "Special Topic Labs",
+  "totalPages": 1,
+  "totalQuestions": 92,
+  "maxScore": 345,
+  "pointsPerQuestion": 3.75,
+  "questions": [
+    {
+      "id": "lab-bac-001",
+      "questionNumber": 1,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "食中毒菌の主な原因食品について、食肉（特に鶏肉）が挙げられ、鶏卵が含まれない細菌として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "食中毒菌の主な原因食品について、食肉（特に鶏肉）が挙げられ、鶏卵が含まれない細菌として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (カンピロバクター属菌)】\nカンピロバクターの主な原因食品は「食肉（特に鶏肉）」です。サルモネラ属菌も食肉（特に鶏肉）が原因となりますが、鶏卵（生卵・割卵）も重要な原因食品として明確に記載されます。腸炎ビブリオは魚介類、黄色ブドウ球菌はおにぎりやサンドイッチなどが主な原因食品です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000001,
+      "updatedAt": 1762500000001,
+      "options": [
+        {
+          "id": "A",
+          "text": "サルモネラ属菌",
+          "translation": "Bakteri genus Salmonella"
+        },
+        {
+          "id": "B",
+          "text": "カンピロバクター属菌",
+          "translation": "Bakteri genus Campylobacter"
+        },
+        {
+          "id": "C",
+          "text": "腸炎ビブリオ",
+          "translation": "Vibrio parahaemolyticus"
+        },
+        {
+          "id": "D",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Mengenai makanan penyebab utama keracunan makanan, pilihlah satu bakteri yang paling tepat yang dicantumkan dengan makanan pemicu 'daging (terutama daging ayam)' tanpa menyertakan telur ayam."
+    },
+    {
+      "id": "lab-bac-002",
+      "questionNumber": 2,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "食肉（特に鶏肉）および鶏卵を主な原因食品とし、下痢、腹痛、発熱などの症状を引き起こす食中毒菌として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "食肉（特に鶏肉）および鶏卵を主な原因食品とし、下痢、腹痛、発熱などの症状を引き起こす食中毒菌として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (サルモネラ属菌)】\nサルモネラ属菌は「鶏卵」および「食肉（特に鶏肉）」が代表的な原因食品です。激しい腹痛、下痢、発熱を引き起こします。カンピロバクターは主に鶏肉等の食肉で鶏卵は通常含まれません。ウェルシュ菌はカレーやシチュー等の煮込み料理が中心です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000002,
+      "updatedAt": 1762500000002,
+      "options": [
+        {
+          "id": "A",
+          "text": "カンピロバクター属菌",
+          "translation": "Bakteri genus Campylobacter"
+        },
+        {
+          "id": "B",
+          "text": "サルモネラ属菌",
+          "translation": "Bakteri genus Salmonella"
+        },
+        {
+          "id": "C",
+          "text": "腸炎ビブリオ",
+          "translation": "Vibrio parahaemolyticus"
+        },
+        {
+          "id": "D",
+          "text": "ウェルシュ菌",
+          "translation": "Clostridium perfringens"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bakteri keracunan makanan yang paling tepat, yang memiliki makanan pemicu utama daging (terutama ayam) serta telur ayam, dan menyebabkan gejala diare, sakit perut, serta demam."
+    },
+    {
+      "id": "lab-bac-003",
+      "questionNumber": 3,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "生鮮魚介類を主な原因食品とし、腹痛や激しい下痢を引き起こす好塩性の食中毒菌として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "生鮮魚介類を主な原因食品とし、腹痛や激しい下痢を引き起こす好塩性の食中毒菌として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (腸炎ビブリオ)】\n腸炎ビブリオは海水中に生息する好塩菌で、魚介類（刺身や寿司など）を介して感染し、激しい腹痛や水様性下痢を引き起こします。真水（水道水）や加熱に弱い性質があります。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000003,
+      "updatedAt": 1762500000003,
+      "options": [
+        {
+          "id": "A",
+          "text": "腸管出血性大腸菌",
+          "translation": "Enterohemorrhagic E. coli (EHEC)"
+        },
+        {
+          "id": "B",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        },
+        {
+          "id": "C",
+          "text": "ボツリヌス菌",
+          "translation": "Clostridium botulinum"
+        },
+        {
+          "id": "D",
+          "text": "腸炎ビブリオ",
+          "translation": "Vibrio parahaemolyticus"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bakteri keracunan makanan yang paling tepat, yang menyukai garam (halofilik), bersumber utama dari makanan laut segar (ikan/kerang), dan memicu sakit perut serta diare hebat."
+    },
+    {
+      "id": "lab-bac-004",
+      "questionNumber": 4,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "食肉（特に牛肉）、生野菜、井戸水などが主な原因食品・感染源となる食中毒菌として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "食肉（特に牛肉）、生野菜、井戸水などが主な原因食品・感染源となる食中毒菌として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (腸管出血性大腸菌)】\n腸管出血性大腸菌（O157等）は牛などの家畜の腸管内に生息し、食肉（特に牛肉）、牛糞等で汚染された生野菜や井戸水が感染源となります。少量の菌数でも感染・発症します。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000004,
+      "updatedAt": 1762500000004,
+      "options": [
+        {
+          "id": "A",
+          "text": "サルモネラ属菌",
+          "translation": "Bakteri genus Salmonella"
+        },
+        {
+          "id": "B",
+          "text": "セレウス菌",
+          "translation": "Bacillus cereus"
+        },
+        {
+          "id": "C",
+          "text": "腸管出血性大腸菌（O157、O111など）",
+          "translation": "Enterohemorrhagic E. coli (O157, O111, dll.)"
+        },
+        {
+          "id": "D",
+          "text": "カンピロバクター属菌",
+          "translation": "Bakteri genus Campylobacter"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bakteri keracunan makanan yang paling tepat, yang makanan pemicu serta sumber infeksinya mencakup daging (terutama sapi), sayuran mentah, dan air sumur."
+    },
+    {
+      "id": "lab-bac-005",
+      "questionNumber": 5,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "腸管出血性大腸菌（O157など）に感染した際に見られる特徴的な症状として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "腸管出血性大腸菌（O157など）に感染した際に見られる特徴的な症状として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (激しい腹痛と血便)】\n腸管出血性大腸菌はベロ毒素を産生し、激しい腹痛、水様便に続いて鮮血が混じる「血便」を引き起こすのが大きな特徴です。重症化すると溶血性尿毒症症候群（HUS）を起こす危険があります。呼吸困難はボツリヌス菌、短時間の激しいおう吐は黄色ブドウ球菌の特徴です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000005,
+      "updatedAt": 1762500000005,
+      "options": [
+        {
+          "id": "A",
+          "text": "神経麻痺による呼吸困難",
+          "translation": "Kesulitan bernapas akibat kelumpuhan saraf"
+        },
+        {
+          "id": "B",
+          "text": "激しい腹痛と血便（血液の混ざった下痢）",
+          "translation": "Sakit perut hebat dan tinja berdarah (diare bercampur darah)"
+        },
+        {
+          "id": "C",
+          "text": "潜伏期間30分での激しいおう吐",
+          "translation": "Muntah hebat dengan masa inkubasi 30 menit"
+        },
+        {
+          "id": "D",
+          "text": "高熱のみで下痢は一切生じない",
+          "translation": "Hanya demam tinggi tanpa diare sama sekali"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu gejala paling khas yang tepat yang terlihat saat seseorang terinfeksi Enterohemorrhagic E. coli (O157, dll.)."
+    },
+    {
+      "id": "lab-bac-006",
+      "questionNumber": 6,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "O157やO111などが代表例として分類される食中毒菌の名称として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "O157やO111などが代表例として分類される食中毒菌の名称として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (腸管出血性大腸菌)】\nO157やO111は大腸菌のうちベロ毒素を産生して激しい出血性腸炎を起こす「腸管出血性大腸菌」の血清型（O抗原）です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000006,
+      "updatedAt": 1762500000006,
+      "options": [
+        {
+          "id": "A",
+          "text": "腸管出血性大腸菌",
+          "translation": "Enterohemorrhagic E. coli (EHEC)"
+        },
+        {
+          "id": "B",
+          "text": "サルモネラ属菌",
+          "translation": "Bakteri genus Salmonella"
+        },
+        {
+          "id": "C",
+          "text": "腸炎ビブリオ",
+          "translation": "Vibrio parahaemolyticus"
+        },
+        {
+          "id": "D",
+          "text": "セレウス菌",
+          "translation": "Bacillus cereus"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah nama kelompok bakteri keracunan makanan yang benar, di mana O157 dan O111 diklasifikasikan sebagai contoh utamanya."
+    },
+    {
+      "id": "lab-bac-007",
+      "questionNumber": 7,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "健康な人の皮膚、鼻の中、および化膿した傷口などに生息している食中毒菌として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "健康な人の皮膚、鼻の中、および化膿した傷口などに生息している食中毒菌として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (黄色ブドウ球菌)】\n黄色ブドウ球菌は人の皮膚や鼻腔、特に手指に切り傷や化膿巣がある場合に高頻度で存在します。そのため、手指の傷がある作業者は直接食品に触れる作業を行ってはなりません。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000007,
+      "updatedAt": 1762500000007,
+      "options": [
+        {
+          "id": "A",
+          "text": "ボツリヌス菌",
+          "translation": "Clostridium botulinum"
+        },
+        {
+          "id": "B",
+          "text": "ウェルシュ菌",
+          "translation": "Clostridium perfringens"
+        },
+        {
+          "id": "C",
+          "text": "腸炎ビブリオ",
+          "translation": "Vibrio parahaemolyticus"
+        },
+        {
+          "id": "D",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bakteri keracunan makanan yang paling tepat, yang secara alami berada pada kulit manusia sehat, rongga hidung, dan luka bernanah."
+    },
+    {
+      "id": "lab-bac-008",
+      "questionNumber": 8,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "黄色ブドウ球菌の性質に関する記述として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "黄色ブドウ球菌の性質に関する記述として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (熱に強い毒素を食品中で作る)】\n黄色ブドウ球菌自体は通常の加熱（75℃1分等）で死滅しますが、食品中で増殖する際に産生する「毒素（エンテロトキシン）」が極めて熱に強く、100℃で加熱調理しても破壊されません。芽胞を作る菌ではありません。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000008,
+      "updatedAt": 1762500000008,
+      "options": [
+        {
+          "id": "A",
+          "text": "熱に強い芽胞を作り、100℃の加熱でも生き残る。",
+          "translation": "Membentuk spora tahan panas yang bertahan pada pemanasan 100℃."
+        },
+        {
+          "id": "B",
+          "text": "菌自体が100℃の加熱に耐える極めて強い耐熱性を持つ。",
+          "translation": "Bakterinya sendiri memiliki ketahanan panas luar biasa terhadap 100℃."
+        },
+        {
+          "id": "C",
+          "text": "熱に強い毒素（エンテロトキシン）を食品中で作る。",
+          "translation": "Membuat toksin tahan panas (enterotoksin) di dalam makanan."
+        },
+        {
+          "id": "D",
+          "text": "人の体内でのみ毒素を産生し、食品中では毒素を作らない。",
+          "translation": "Hanya memproduksi toksin di dalam tubuh dan tidak di makanan."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang paling tepat mengenai karakteristik dari Staphylococcus aureus."
+    },
+    {
+      "id": "lab-bac-009",
+      "questionNumber": 9,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "素手でおにぎりを握ったりサンドイッチを調理したりした際に、特に原因となりやすい食中毒菌として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "素手でおにぎりを握ったりサンドイッチを調理したりした際に、特に原因となりやすい食中毒菌として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (黄色ブドウ球菌)】\n黄色ブドウ球菌は手指を介して食品に移るため、おにぎり、サンドイッチ、弁当、和菓子など「加熱後に人の手で直接触れて調製される食品」が主な原因食品となります。手袋着用と手指衛生の徹底が必須です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000009,
+      "updatedAt": 1762500000009,
+      "options": [
+        {
+          "id": "A",
+          "text": "セレウス菌",
+          "translation": "Bacillus cereus"
+        },
+        {
+          "id": "B",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        },
+        {
+          "id": "C",
+          "text": "ウェルシュ菌",
+          "translation": "Clostridium perfringens"
+        },
+        {
+          "id": "D",
+          "text": "カンピロバクター属菌",
+          "translation": "Bakteri genus Campylobacter"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bakteri keracunan makanan yang paling tepat, yang sangat mudah menjadi penyebab ketika memasak onigiri atau sandwich dengan tangan kosong."
+    },
+    {
+      "id": "lab-bac-010",
+      "questionNumber": 10,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "黄色ブドウ球菌による食中毒の主症状および潜伏期間の特徴として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "黄色ブドウ球菌による食中毒の主症状および潜伏期間の特徴として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (潜伏期間が短く、激しい吐き気・おう吐)】\n黄色ブドウ球菌は毒素型食中毒のため、毒素を摂取してから発症までの潜伏期間が平均3時間（1〜5時間）と極めて短く、主症状は激しい吐き気、おう吐、腹痛です。発熱はほとんど見られません。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000010,
+      "updatedAt": 1762500000010,
+      "options": [
+        {
+          "id": "A",
+          "text": "潜伏期間が1〜5時間と短く、激しい吐き気、おう吐、腹痛が起こる。",
+          "translation": "Masa inkubasi singkat (1-5 jam), timbul mual hebat, muntah, dan sakit perut."
+        },
+        {
+          "id": "B",
+          "text": "潜伏期間が2〜7日と長く、高熱と血便が続く。",
+          "translation": "Masa inkubasi panjang (2-7 hari), disertai demam tinggi dan tinja berdarah."
+        },
+        {
+          "id": "C",
+          "text": "下痢のみで、吐き気やおう吐は一切生じない。",
+          "translation": "Hanya diare tanpa mual atau muntah sama sekali."
+        },
+        {
+          "id": "D",
+          "text": "呼吸筋が麻痺し、意識障害と呼吸困難に至る。",
+          "translation": "Otot pernapasan lumpuh hingga terjadi gangguan kesadaran dan sesak napas."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu karakteristik gejala utama dan masa inkubasi keracunan makanan akibat Staphylococcus aureus yang paling tepat."
+    },
+    {
+      "id": "lab-bac-011",
+      "questionNumber": 11,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "穀物加工品やピラフ、炒飯（チャーハン）などが主な原因食品となる食中毒菌として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "穀物加工品やピラフ、炒飯（チャーハン）などが主な原因食品となる食中毒菌として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (セレウス菌)】\nセレウス菌は土壌細菌で、米や小麦などの穀類に広く付着しています。特に炊飯米や焼き飯（チャーハン）、スパゲティ等を室温で放置した際に菌が増殖し、食中毒（主におう吐型）を引き起こします。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000011,
+      "updatedAt": 1762500000011,
+      "options": [
+        {
+          "id": "A",
+          "text": "ウェルシュ菌",
+          "translation": "Clostridium perfringens"
+        },
+        {
+          "id": "B",
+          "text": "ボツリヌス菌",
+          "translation": "Clostridium botulinum"
+        },
+        {
+          "id": "C",
+          "text": "腸炎ビブリオ",
+          "translation": "Vibrio parahaemolyticus"
+        },
+        {
+          "id": "D",
+          "text": "セレウス菌",
+          "translation": "Bacillus cereus"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bakteri keracunan makanan yang paling tepat, yang makanan penyebab utamanya adalah produk olahan serealia, pilaf, dan nasi goreng (chahan)."
+    },
+    {
+      "id": "lab-bac-012",
+      "questionNumber": 12,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "熱に強い芽胞（がほう）を形成し、米飯や麺類の不適切な室温放置によって食中毒を引き起こす細菌として、適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "熱に強い芽胞（がほう）を形成し、米飯や麺類の不適切な室温放置によって食中毒を引き起こす細菌として、適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (セレウス菌)】\nセレウス菌は熱に強い「芽胞」を形成するため、炊飯などの加熱調理でも芽胞が生き残ります。調理後に室温で長時間放置すると芽胞が発芽・増殖して毒素を作ります。黄色ブドウ球菌、サルモネラ、カンピロバクターは芽胞を作りません。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000012,
+      "updatedAt": 1762500000012,
+      "options": [
+        {
+          "id": "A",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        },
+        {
+          "id": "B",
+          "text": "サルモネラ属菌",
+          "translation": "Bakteri genus Salmonella"
+        },
+        {
+          "id": "C",
+          "text": "セレウス菌",
+          "translation": "Bacillus cereus"
+        },
+        {
+          "id": "D",
+          "text": "カンピロバクター属菌",
+          "translation": "Bakteri genus Campylobacter"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bakteri yang tepat, yang membentuk spora tahan panas dan memicu keracunan makanan akibat nasi atau mi yang dibiarkan pada suhu ruang tanpa pengelolaan yang baik."
+    },
+    {
+      "id": "lab-bac-013",
+      "questionNumber": 13,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "セレウス菌の食中毒発症機構に関する記述として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "セレウス菌の食中毒発症機構に関する記述として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (体の中や食品の中で菌が増えて毒素を作る)】\nセレウス菌には2つのタイプがあります。①おう吐型：食品中で増殖して耐熱性毒素を産生。②下痢型：摂取後に小腸内で増殖して毒素を産生。したがって「体の中や食品の中で菌が増えて毒素を作る」と説明されます。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000013,
+      "updatedAt": 1762500000013,
+      "options": [
+        {
+          "id": "A",
+          "text": "菌そのものは毒素を一切作らず、生きた大量の菌が腸壁を破壊する。",
+          "translation": "Bakteri sama sekali tidak membuat toksin, melainkan bakteri hidup merusak dinding usus."
+        },
+        {
+          "id": "B",
+          "text": "体の中や食品の中で菌が増えて毒素を作る（おう吐型と下痢型がある）。",
+          "translation": "Bakteri bertambah di dalam tubuh atau di makanan lalu membuat toksin (ada tipe muntah dan tipe diare)."
+        },
+        {
+          "id": "C",
+          "text": "食品中でのみ増殖可能で、人の体内に入ると直ちに死滅する。",
+          "translation": "Hanya dapat bertambah di makanan dan langsung mati saat masuk ke tubuh manusia."
+        },
+        {
+          "id": "D",
+          "text": "低温（4℃以下）でのみ急速に毒素を産生する。",
+          "translation": "Hanya memproduksi toksin secara cepat pada suhu rendah (4℃ ke bawah)."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan paling tepat mengenai mekanisme timbulnya keracunan makanan oleh Bacillus cereus."
+    },
+    {
+      "id": "lab-bac-014",
+      "questionNumber": 14,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "熱に強い芽胞を形成し、酸素がない環境（嫌気条件）を好む細菌の組み合わせとして、適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "熱に強い芽胞を形成し、酸素がない環境（嫌気条件）を好む細菌の組み合わせとして、適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (ウェルシュ菌、ボツリヌス菌、セレウス菌)】\n芽胞形成菌として代表的なのはウェルシュ菌、ボツリヌス菌、セレウス菌です。特にウェルシュ菌とボツリヌス菌は嫌気性（酸素を嫌う）の芽胞形成菌です。黄色ブドウ球菌やサルモネラ、腸炎ビブリオは芽胞を作りません。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000014,
+      "updatedAt": 1762500000014,
+      "options": [
+        {
+          "id": "A",
+          "text": "ウェルシュ菌、ボツリヌス菌、セレウス菌",
+          "translation": "Clostridium perfringens, C. botulinum, Bacillus cereus"
+        },
+        {
+          "id": "B",
+          "text": "黄色ブドウ球菌、サルモネラ属菌、カンピロバクター属菌",
+          "translation": "S. aureus, Salmonella, Campylobacter"
+        },
+        {
+          "id": "C",
+          "text": "腸炎ビブリオ、黄色ブドウ球菌、腸管出血性大腸菌",
+          "translation": "Vibrio parahaemolyticus, S. aureus, EHEC"
+        },
+        {
+          "id": "D",
+          "text": "ノロウイルス、カンピロバクター属菌、サルモネラ属菌",
+          "translation": "Norovirus, Campylobacter, Salmonella"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu kombinasi bakteri yang tepat, yang mampu membentuk spora tahan panas."
+    },
+    {
+      "id": "lab-bac-015",
+      "questionNumber": 15,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "土のついた原材料や水に存在し、前日に大量調理されたカレーやシチューなどの加熱調理品が主な原因食品となる食中毒菌として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "土のついた原材料や水に存在し、前日に大量調理されたカレーやシチューなどの加熱調理品が主な原因食品となる食中毒菌として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (ウェルシュ菌)】\nウェルシュ菌は土壌や水、人や動物の腸管内に生息し、土のついた根菜類などを大鍋で大量調理したカレー、シチュー、煮物などで多発します。鍋の中心部が酸素のない状態になり、芽胞が生き残って冷める過程で急増します。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000015,
+      "updatedAt": 1762500000015,
+      "options": [
+        {
+          "id": "A",
+          "text": "ボツリヌス菌",
+          "translation": "Clostridium botulinum"
+        },
+        {
+          "id": "B",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        },
+        {
+          "id": "C",
+          "text": "カンピロバクター属菌",
+          "translation": "Bakteri genus Campylobacter"
+        },
+        {
+          "id": "D",
+          "text": "ウェルシュ菌",
+          "translation": "Clostridium perfringens"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bakteri keracunan makanan yang paling tepat, yang terdapat pada bahan baku berpasir/tanah dan air, serta sering bersumber dari kari atau stew yang dimasak dalam jumlah besar pada hari sebelumnya."
+    },
+    {
+      "id": "lab-bac-016",
+      "questionNumber": 16,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "ウェルシュ菌が食中毒を引き起こす際の発症メカニズムとして、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "ウェルシュ菌が食中毒を引き起こす際の発症メカニズムとして、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (体の中で毒素を作る)】\nウェルシュ菌は食品中で大量に増殖した生菌を摂取した後、人の腸管内で芽胞を形成する過程で「エンテロトキシン」という毒素を産生し、腹痛や下痢を引き起こします。食品中で毒素を作る黄色ブドウ球菌やボツリヌス菌と異なります。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000016,
+      "updatedAt": 1762500000016,
+      "options": [
+        {
+          "id": "A",
+          "text": "食品の中で熱に強い毒素を作り、加熱してもその毒素が残る。",
+          "translation": "Membuat toksin tahan panas di dalam makanan, sehingga toksin tetap tersisa meski dipanaskan."
+        },
+        {
+          "id": "B",
+          "text": "食品中で菌が増殖することなく、1個の菌が血液中に直接侵入する。",
+          "translation": "Satu sel bakteri langsung masuk ke dalam darah tanpa berkembang biak di makanan."
+        },
+        {
+          "id": "C",
+          "text": "食品の中で菌が増え、人の体の中（腸管内）で芽胞を形成する際に毒素を作る。",
+          "translation": "Bakteri bertambah di makanan, lalu menghasilkan toksin saat membentuk spora di dalam tubuh manusia."
+        },
+        {
+          "id": "D",
+          "text": "人の皮膚の表面でのみ毒素を産生する。",
+          "translation": "Hanya memproduksi toksin di permukaan kulit manusia."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu mekanisme timbulnya penyakit yang paling tepat saat Clostridium perfringens memicu keracunan makanan."
+    },
+    {
+      "id": "lab-bac-017",
+      "questionNumber": 17,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "ボツリヌス菌の生物学的特徴に関する記述として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "ボツリヌス菌の生物学的特徴に関する記述として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (酸素のない環境で増殖し、熱に強い芽胞を形成する)】\nボツリヌス菌は偏性嫌気性菌（酸素があると増殖できない菌）で、熱に強い芽胞を作ります。土壌や河川に広く分布し、低酸素状態の密閉食品で増殖します。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000017,
+      "updatedAt": 1762500000017,
+      "options": [
+        {
+          "id": "A",
+          "text": "好気性菌であり、空気（酸素）に触れる場所でのみ活発に増殖する。",
+          "translation": "Bakteri aerob yang hanya bertambah aktif di tempat yang terpapar udara (oksigen)."
+        },
+        {
+          "id": "B",
+          "text": "酸素のない環境で増殖し、熱に強い芽胞を形成する。",
+          "translation": "Tumbuh dalam lingkungan tanpa oksigen dan membentuk spora tahan panas."
+        },
+        {
+          "id": "C",
+          "text": "塩分濃度10%以上の海水環境でのみ生育する好塩菌である。",
+          "translation": "Bakteri halofilik yang hanya tumbuh di lingkungan laut berkadar garam 10% ke atas."
+        },
+        {
+          "id": "D",
+          "text": "熱に極めて弱く、50℃で数秒加熱すれば芽胞も完全に死滅する。",
+          "translation": "Sangat lemah terhadap panas; sporanya mati total dengan pemanasan 50℃ beberapa detik."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang paling tepat mengenai karakteristik biologis dari Clostridium botulinum."
+    },
+    {
+      "id": "lab-bac-018",
+      "questionNumber": 18,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "ボツリヌス菌による毒素の産生場所および毒素の性質について、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "ボツリヌス菌による毒素の産生場所および毒素の性質について、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (食品の中で菌が増殖し、強力な神経毒素を産生する)】\nボツリヌス菌は食品内（缶詰、瓶詰め、真空包装食品など）で増殖し、自然界最強クラスの神経毒素（ボツリヌストキシン）を作ります。なお、毒素自体は熱に弱く80℃30分または100℃数分以上の加熱で失活しますが、芽胞は120℃4分以上の高圧蒸気滅菌が必要です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000018,
+      "updatedAt": 1762500000018,
+      "options": [
+        {
+          "id": "A",
+          "text": "酸素のない食品の中で菌が増殖し、極めて強力な神経毒素を産生する。",
+          "translation": "Bakteri bertambah di dalam makanan tanpa oksigen dan menghasilkan neurotoksin sangat kuat."
+        },
+        {
+          "id": "B",
+          "text": "人の小腸内でのみ毒素を作り、食品中では毒素を産生しない。",
+          "translation": "Hanya membuat toksin di dalam usus kecil manusia dan tidak di dalam makanan."
+        },
+        {
+          "id": "C",
+          "text": "食品中では毒素を作らず、呼吸器から吸入されたときのみ毒素を出す。",
+          "translation": "Tidak membuat toksin di makanan, hanya mengeluarkan toksin saat terhirup saluran napas."
+        },
+        {
+          "id": "D",
+          "text": "産生される毒素は100℃で何時間加熱しても絶対に分解されない。",
+          "translation": "Toksin yang dihasilkan tidak akan pernah terurai meski dipanaskan 100℃ selama berjam-jam."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu jawaban yang benar mengenai tempat pembentukan toksin dan sifat toksin oleh Clostridium botulinum."
+    },
+    {
+      "id": "lab-bac-019",
+      "questionNumber": 19,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "瓶詰め食品、自家製缶詰、真空パック食品（レトルト類似食品）などが主な原因食品となりやすい食中毒菌として、適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "瓶詰め食品、自家製缶詰、真空パック食品（レトルト類似食品）などが主な原因食品となりやすい食中毒菌として、適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (ボツリヌス菌)】\nボツリヌス菌は酸素を嫌うため、瓶詰め、缶詰、いずし、真空パックされた要冷蔵食品が常温放置された場合などに増殖し、命に関わる毒素を産生します。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000019,
+      "updatedAt": 1762500000019,
+      "options": [
+        {
+          "id": "A",
+          "text": "セレウス菌",
+          "translation": "Bacillus cereus"
+        },
+        {
+          "id": "B",
+          "text": "サルモネラ属菌",
+          "translation": "Bakteri genus Salmonella"
+        },
+        {
+          "id": "C",
+          "text": "カンピロバクター属菌",
+          "translation": "Bakteri genus Campylobacter"
+        },
+        {
+          "id": "D",
+          "text": "ボツリヌス菌",
+          "translation": "Clostridium botulinum"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bakteri keracunan makanan yang tepat, yang makanan penyebab utamanya adalah makanan kemasan botol/kaca, makanan kaleng rumahan, dan makanan kemasan vakum (mirip retort)."
+    },
+    {
+      "id": "lab-bac-020",
+      "questionNumber": 20,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "吐き気やおう吐に加えて、視力障害（物が二重に見える）や言語障害、呼吸困難などの重篤な神経麻痺症状を引き起こす食中毒菌はどれですか。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "吐き気やおう吐に加えて、視力障害（物が二重に見える）や言語障害、呼吸困難などの重篤な神経麻痺症状を引き起こす食中毒菌はどれですか。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (ボツリヌス菌)】\nボツリヌス菌の神経毒素は末梢神経を麻痺させるため、脱力感、めまい、物が二重に見える、飲み込みにくさに続き、最悪の場合は呼吸困難で死亡する極めて危険な食中毒です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000020,
+      "updatedAt": 1762500000020,
+      "options": [
+        {
+          "id": "A",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        },
+        {
+          "id": "B",
+          "text": "腸炎ビブリオ",
+          "translation": "Vibrio parahaemolyticus"
+        },
+        {
+          "id": "C",
+          "text": "ボツリヌス菌",
+          "translation": "Clostridium botulinum"
+        },
+        {
+          "id": "D",
+          "text": "カンピロバクター属菌",
+          "translation": "Bakteri genus Campylobacter"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Manakah bakteri keracunan makanan yang memicu mual dan muntah, serta gejala kelumpuhan saraf berat seperti gangguan penglihatan ganda, gangguan bicara, hingga kesulitan bernapas?"
+    },
+    {
+      "id": "lab-bac-021",
+      "questionNumber": 21,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "加熱調理に対して「熱に強い芽胞（がほう）」を形成する細菌として、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "加熱調理に対して「熱に強い芽胞（がほう）」を形成する細菌として、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：B (黄色ブドウ球菌)】\nセレウス菌、ウェルシュ菌、ボツリヌス菌はすべて「熱に強い芽胞」を作ります。これに対し、黄色ブドウ球菌は芽胞を作りません（黄色ブドウ球菌で熱に強いのは菌が作った「毒素」です）。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000021,
+      "updatedAt": 1762500000021,
+      "options": [
+        {
+          "id": "A",
+          "text": "セレウス菌",
+          "translation": "Bacillus cereus"
+        },
+        {
+          "id": "B",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        },
+        {
+          "id": "C",
+          "text": "ウェルシュ菌",
+          "translation": "Clostridium perfringens"
+        },
+        {
+          "id": "D",
+          "text": "ボツリヌス菌",
+          "translation": "Clostridium botulinum"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang salah mengenai bakteri yang membentuk spora tahan panas terhadap proses pemanasan makanan."
+    },
+    {
+      "id": "lab-bac-022",
+      "questionNumber": 22,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「食品の中で菌が増殖し、食品中で毒素を産生する（食品内毒素型）」食中毒菌として、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "「食品の中で菌が増殖し、食品中で毒素を産生する（食品内毒素型）」食中毒菌として、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：A (ウェルシュ菌)】\nウェルシュ菌は食品中で菌が増殖した後、食品を食べた人の腸管内で芽胞を作る際に毒素を産生します（生体内毒素型／中間型）。黄色ブドウ球菌、ボツリヌス菌、セレウス菌（おう吐型）は食品の中で毒素を産生します。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000022,
+      "updatedAt": 1762500000022,
+      "options": [
+        {
+          "id": "A",
+          "text": "ウェルシュ菌",
+          "translation": "Clostridium perfringens"
+        },
+        {
+          "id": "B",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        },
+        {
+          "id": "C",
+          "text": "ボツリヌス菌",
+          "translation": "Clostridium botulinum"
+        },
+        {
+          "id": "D",
+          "text": "セレウス菌（おう吐型）",
+          "translation": "Bacillus cereus (tipe muntah)"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bakteri yang salah (bukan tipe yang memproduksi toksin di dalam makanan) di antara bakteri keracunan makanan berikut."
+    },
+    {
+      "id": "lab-bac-023",
+      "questionNumber": 23,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "食品とともに生きた菌を摂取し、「人の体の中で菌が増殖して発症する（感染型）」食中毒菌の組み合わせとして、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "食品とともに生きた菌を摂取し、「人の体の中で菌が増殖して発症する（感染型）」食中毒菌の組み合わせとして、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (カンピロバクター、サルモネラ、腸管出血性大腸菌)】\n生きた菌が体内の腸管粘膜等で増殖して発症するタイプを「感染型」と呼びます。カンピロバクター、サルモネラ、腸管出血性大腸菌、腸炎ビブリオなどが該当します。黄色ブドウ球菌やボツリヌス菌は食品中でできた毒素を摂取する「毒素型」です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000023,
+      "updatedAt": 1762500000023,
+      "options": [
+        {
+          "id": "A",
+          "text": "黄色ブドウ球菌、ボツリヌス菌、セレウス菌（おう吐型）",
+          "translation": "S. aureus, C. botulinum, B. cereus (tipe muntah)"
+        },
+        {
+          "id": "B",
+          "text": "ボツリヌス菌、黄色ブドウ球菌、ウェルシュ菌",
+          "translation": "C. botulinum, S. aureus, C. perfringens"
+        },
+        {
+          "id": "C",
+          "text": "黄色ブドウ球菌、カンピロバクター属菌、ボツリヌス菌",
+          "translation": "S. aureus, Campylobacter, C. botulinum"
+        },
+        {
+          "id": "D",
+          "text": "カンピロバクター属菌、サルモネラ属菌、腸管出血性大腸菌",
+          "translation": "Campylobacter, Salmonella, Enterohemorrhagic E. coli"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu kombinasi bakteri yang paling tepat untuk jenis infeksi (bakteri bertambah banyak di dalam tubuh manusia lalu menimbulkan sakit)."
+    },
+    {
+      "id": "lab-bac-024",
+      "questionNumber": 24,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "腸炎ビブリオによる食中毒の典型的な症状として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "腸炎ビブリオによる食中毒の典型的な症状として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (激しい腹痛と激しい下痢)】\n腸炎ビブリオは夏場の生魚等から感染し、激しい上腹部痛と水のような激しい下痢を引き起こします。血便を伴うこともありますが、主症状は腹痛と激しい下痢です。呼吸困難はボツリヌス菌の症状です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000024,
+      "updatedAt": 1762500000024,
+      "options": [
+        {
+          "id": "A",
+          "text": "神経麻痺による視力低下と呼吸困難",
+          "translation": "Penurunan penglihatan dan sesak napas akibat kelumpuhan saraf"
+        },
+        {
+          "id": "B",
+          "text": "高熱のみで腹痛や下痢は生じない",
+          "translation": "Hanya demam tinggi tanpa sakit perut maupun diare"
+        },
+        {
+          "id": "C",
+          "text": "激しい腹痛と激しい下痢（水様便）",
+          "translation": "Sakit perut hebat dan diare hebat (tinja cair berair)"
+        },
+        {
+          "id": "D",
+          "text": "手指の化膿と皮膚の発疹のみ",
+          "translation": "Hanya luka bernanah di jari dan ruam kulit"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu gejala khas yang paling tepat untuk keracunan makanan akibat Vibrio parahaemolyticus."
+    },
+    {
+      "id": "lab-bac-025",
+      "questionNumber": 25,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "腸管出血性大腸菌に関する記述「毒素を作るものもいる」の正しい解釈として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "腸管出血性大腸菌に関する記述「毒素を作るものもいる」の正しい解釈として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B】\n人の腸内には無害な常在大腸菌も多数存在しますが、腸管出血性大腸菌などの特定の大腸菌は「ベロ毒素」を産生し、出血性下痢や腎機能障害（HUS）を引き起こします。そのため「毒素を作るものもいる」と説明されます。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000025,
+      "updatedAt": 1762500000025,
+      "options": [
+        {
+          "id": "A",
+          "text": "すべての種類の大腸菌が例外なく同一の猛毒を産生する。",
+          "translation": "Semua jenis E. coli tanpa terkecuali memproduksi racun berbahaya yang sama persis."
+        },
+        {
+          "id": "B",
+          "text": "大腸菌の中には、強力なベロ毒素を産生して重症の出血性大腸炎を起こす病原性の菌株（O157など）が存在する。",
+          "translation": "Di antara bakteri E. coli, terdapat strain patogen (seperti O157) yang memproduksi verotoksin kuat pemicu kolitis hemoragik berat."
+        },
+        {
+          "id": "C",
+          "text": "大腸菌は一切毒素を作らず、毒素を作るのはウイルスだけである。",
+          "translation": "E. coli sama sekali tidak membuat toksin, hanya virus yang membuat toksin."
+        },
+        {
+          "id": "D",
+          "text": "大腸菌の毒素は人の皮膚表面でのみ作用し、体内では無害である。",
+          "translation": "Toksin E. coli hanya bekerja di permukaan kulit dan tidak berbahaya di dalam tubuh."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu interpretasi paling tepat mengenai pernyataan 'ada pula jenis yang menghasilkan toksin' pada kelompok bakteri Enterohemorrhagic E. coli."
+    },
+    {
+      "id": "lab-bac-026",
+      "questionNumber": 26,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "食中毒菌の耐熱性に関する次の記述のうち、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "食中毒菌の耐熱性に関する次の記述のうち、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：A】\n黄色ブドウ球菌は「芽胞」を作りません。菌自体は加熱に弱く通常の加熱（75℃1分等）で死滅します。熱に強いのは黄色ブドウ球菌が菌の増殖時に食品中で産生した「毒素（エンテロトキシン）」です。芽胞を作るのはセレウス菌、ウェルシュ菌、ボツリヌス菌です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000026,
+      "updatedAt": 1762500000026,
+      "options": [
+        {
+          "id": "A",
+          "text": "黄色ブドウ球菌は熱に強い芽胞を作るため、100℃の加熱調理でも芽胞が生き残る。",
+          "translation": "Staphylococcus aureus membentuk spora tahan panas sehingga sporanya bertahan pada pemanasan 100℃."
+        },
+        {
+          "id": "B",
+          "text": "黄色ブドウ球菌が食品中で作ったエンテロトキシンは熱に強く、通常の加熱では分解されない。",
+          "translation": "Enterotoksin yang dibuat S. aureus di makanan tahan panas dan tidak terurai pemanasan biasa."
+        },
+        {
+          "id": "C",
+          "text": "セレウス菌は熱に強い芽胞を形成し、米飯の再加熱でも生き残ることがある。",
+          "translation": "Bacillus cereus membentuk spora tahan panas dan dapat bertahan saat pemanasan ulang nasi."
+        },
+        {
+          "id": "D",
+          "text": "ウェルシュ菌は熱に強い芽胞を作るため、大鍋で加熱調理しても生き残る。",
+          "translation": "Clostridium perfringens membentuk spora tahan panas sehingga bertahan dimasak dalam panci besar."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang salah mengenai ketahanan panas dari bakteri keracunan makanan berikut."
+    },
+    {
+      "id": "lab-bac-027",
+      "questionNumber": 27,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "潜伏期間が比較的短く、主な症状として「激しい吐き気やおう吐」が前面に出る食中毒菌の組み合わせとして、適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "潜伏期間が比較的短く、主な症状として「激しい吐き気やおう吐」が前面に出る食中毒菌の組み合わせとして、適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (黄色ブドウ球菌、セレウス菌 おう吐型)】\n食品中にあらかじめ産生された毒素（エンテロトキシンやセレウリド）を摂取することで生じるため、食後1〜5時間程度で激しい吐き気・おう吐を起こします。カンピロバクターやサルモネラは感染型で潜伏期間が長く、腹痛・下痢・発熱が主です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000027,
+      "updatedAt": 1762500000027,
+      "options": [
+        {
+          "id": "A",
+          "text": "カンピロバクター属菌、サルモネラ属菌",
+          "translation": "Campylobacter, Salmonella"
+        },
+        {
+          "id": "B",
+          "text": "腸管出血性大腸菌、腸炎ビブリオ",
+          "translation": "EHEC, Vibrio parahaemolyticus"
+        },
+        {
+          "id": "C",
+          "text": "ウェルシュ菌、カンピロバクター属菌",
+          "translation": "Clostridium perfringens, Campylobacter"
+        },
+        {
+          "id": "D",
+          "text": "黄色ブドウ球菌、セレウス菌（おう吐型）",
+          "translation": "Staphylococcus aureus, Bacillus cereus (tipe muntah)"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah kombinasi bakteri yang tepat, yang memiliki masa inkubasi relatif singkat dan gejala utamanya didominasi mual serta muntah hebat."
+    },
+    {
+      "id": "lab-bac-028",
+      "questionNumber": 28,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "給食施設や飲食店で、前日に大量調理されたカレーや煮込み料理を大鍋のまま室温放置した結果、発生しやすい食中毒菌はどれですか。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "給食施設や飲食店で、前日に大量調理されたカレーや煮込み料理を大鍋のまま室温放置した結果、発生しやすい食中毒菌はどれですか。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (ウェルシュ菌)】\nウェルシュ菌は嫌気性（無酸素を好む）の芽胞形成菌です。大鍋で煮込むと酸素が追い出され、加熱に強い芽胞が生き残ります。調理後そのまま室温でゆっくり冷ますと、40〜50℃付近で爆発的に増殖します。予防には小分けにして急速冷却することが不可欠です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000028,
+      "updatedAt": 1762500000028,
+      "options": [
+        {
+          "id": "A",
+          "text": "腸炎ビブリオ",
+          "translation": "Vibrio parahaemolyticus"
+        },
+        {
+          "id": "B",
+          "text": "カンピロバクター属菌",
+          "translation": "Bakteri genus Campylobacter"
+        },
+        {
+          "id": "C",
+          "text": "ウェルシュ菌",
+          "translation": "Clostridium perfringens"
+        },
+        {
+          "id": "D",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Manakah bakteri keracunan makanan yang sangat mudah terjadi ketika kari atau masakan rebusan dalam jumlah besar dimasak sehari sebelumnya lalu dibiarkan dalam panci besar pada suhu ruang?"
+    },
+    {
+      "id": "lab-bac-029",
+      "questionNumber": 29,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "魚介類に付着して侵入し、人の体内で増殖して激しい下痢や腹痛を引き起こす好塩菌はどれですか。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "魚介類に付着して侵入し、人の体内で増殖して激しい下痢や腹痛を引き起こす好塩菌はどれですか。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (腸炎ビブリオ)】\n海水由来の「好塩菌」であり、魚介類の刺身などを介して経口摂取されると、人の体内で急激に増殖して激しい下痢や腹痛を起こします。真水洗浄と10℃以下（望ましくは5℃以下）の温度管理が有効な予防策です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000029,
+      "updatedAt": 1762500000029,
+      "options": [
+        {
+          "id": "A",
+          "text": "ボツリヌス菌",
+          "translation": "Clostridium botulinum"
+        },
+        {
+          "id": "B",
+          "text": "腸炎ビブリオ",
+          "translation": "Vibrio parahaemolyticus"
+        },
+        {
+          "id": "C",
+          "text": "黄色ブドウ球菌",
+          "translation": "Staphylococcus aureus"
+        },
+        {
+          "id": "D",
+          "text": "セレウス菌",
+          "translation": "Bacillus cereus"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Manakah bakteri halofilik yang menempel pada hasil laut, bertambah banyak di dalam tubuh manusia, dan memicu diare hebat serta sakit perut?"
+    },
+    {
+      "id": "lab-bac-030",
+      "questionNumber": 30,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "ウェルシュ菌による食中毒の症状の特徴として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "ウェルシュ菌による食中毒の症状の特徴として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (主に腹痛と下痢)】\nウェルシュ菌食中毒は、潜伏期間約8〜20時間で、下腹部の腹痛と下痢が主症状です。症状は比較的軽症で、高熱やおう吐はめったに起こりません。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000030,
+      "updatedAt": 1762500000030,
+      "options": [
+        {
+          "id": "A",
+          "text": "主に腹痛と下痢であり、発熱やおう吐はほとんど見られない。",
+          "translation": "Terutama sakit perut dan diare, hampir tidak terlihat demam atau muntah."
+        },
+        {
+          "id": "B",
+          "text": "高熱が数日間続き、呼吸筋が麻痺する。",
+          "translation": "Demam tinggi berlanjut beberapa hari dan otot pernapasan lumpuh."
+        },
+        {
+          "id": "C",
+          "text": "鮮血の混ざった激しい血便と痙攣が起こる。",
+          "translation": "Terjadi tinja berdarah segar yang hebat dan kejang-kejang."
+        },
+        {
+          "id": "D",
+          "text": "手足の皮膚に激しい水ぶくれと膿ができる。",
+          "translation": "Timbul lenting melepuh dan nanah hebat pada kulit tangan dan kaki."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu karakteristik gejala keracunan makanan oleh Clostridium perfringens yang paling tepat."
+    },
+    {
+      "id": "lab-bac-031",
+      "questionNumber": 31,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "食中毒菌と、その代表的な症状の組み合わせとして正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "食中毒菌と、その代表的な症状の組み合わせとして正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (腸管出血性大腸菌 — 腹痛、血便)】\n腸管出血性大腸菌はベロ毒素により激しい腹痛と血便が特徴です。呼吸困難や言語障害はボツリヌス菌の症状です。黄色ブドウ球菌は潜伏期間数時間でおう吐が主症状です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000031,
+      "updatedAt": 1762500000031,
+      "options": [
+        {
+          "id": "A",
+          "text": "腸炎ビブリオ — 呼吸困難、言語障害、視力低下",
+          "translation": "Vibrio parahaemolyticus — Sesak napas, gangguan bicara, penurunan penglihatan"
+        },
+        {
+          "id": "B",
+          "text": "ボツリヌス菌 — 激しい下痢のみで神経症状は一切ない",
+          "translation": "Clostridium botulinum — Hanya diare hebat tanpa gejala saraf sama sekali"
+        },
+        {
+          "id": "C",
+          "text": "黄色ブドウ球菌 — 潜伏期間10日後の高熱と全身発疹",
+          "translation": "Staphylococcus aureus — Demam tinggi dan ruam setelah masa inkubasi 10 hari"
+        },
+        {
+          "id": "D",
+          "text": "腸管出血性大腸菌（O157） — 激しい腹痛、水様便、鮮血便（血便）",
+          "translation": "EHEC (O157) — Sakit perut hebat, diare berair, tinja berdarah segar"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu kombinasi yang benar antara bakteri keracunan makanan dan gejala khasnya."
+    },
+    {
+      "id": "lab-bac-032",
+      "questionNumber": 32,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-bakteri",
+      "setName": "Lab Soal — 細菌・微生物・食中毒 (Bacteria Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "食中毒菌と主な原因食品の組み合わせとして、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "食中毒菌と主な原因食品の組み合わせとして、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：C (腸炎ビブリオ — 炒飯)】\n腸炎ビブリオの原因食品は「生の魚介類」です。炒飯やピラフなどの米飯類が主な原因食品となるのは「セレウス菌」です。他の3つの組み合わせはすべて正しいです。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762500000032,
+      "updatedAt": 1762500000032,
+      "options": [
+        {
+          "id": "A",
+          "text": "ボツリヌス菌 — 瓶詰め食品、真空パック食品",
+          "translation": "Clostridium botulinum — Pangan kemasan botol/kaca, pangan kemasan vakum"
+        },
+        {
+          "id": "B",
+          "text": "黄色ブドウ球菌 — おにぎり、サンドイッチ",
+          "translation": "Staphylococcus aureus — Onigiri, sandwich"
+        },
+        {
+          "id": "C",
+          "text": "腸炎ビブリオ — 炒飯（チャーハン）、ピラフ",
+          "translation": "Vibrio parahaemolyticus — Nasi goreng (chahan), pilaf"
+        },
+        {
+          "id": "D",
+          "text": "セレウス菌 — 穀類加工品、炒飯、スパゲティ",
+          "translation": "Bacillus cereus — Produk olahan serealia, nasi goreng, spageti"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pasangan yang salah antara bakteri keracunan makanan dan makanan penyebab utamanya."
+    },
+    {
+      "id": "lab-temp-001",
+      "questionNumber": 1,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "原材料の保存温度区分において、「室温」で保存するものとして、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "原材料の保存温度区分において、「室温」で保存するものとして、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：C (固形油脂)】\n穀類加工品（小麦粉、デンプン）、液状油脂、調味料は「室温」で保存します。一方、固形油脂（ラード、マーガリン、ショートニング）は室温ではなく「10℃以下」で冷蔵保存する必要があります。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000001,
+      "updatedAt": 1762510000001,
+      "options": [
+        {
+          "id": "A",
+          "text": "穀類加工品（小麦粉、デンプン）",
+          "translation": "Produk olahan serealia (tepung terigu, pati)"
+        },
+        {
+          "id": "B",
+          "text": "液状油脂（サラダ油など）",
+          "translation": "Minyak/lemak cair (minyak salad, dll.)"
+        },
+        {
+          "id": "C",
+          "text": "固形油脂（ラード、マーガリン、ショートニング）",
+          "translation": "Minyak/lemak padat (lard, margarin, shortening)"
+        },
+        {
+          "id": "D",
+          "text": "調味料（砂糖、食塩、みそ、しょう油、食酢）",
+          "translation": "Bumbu dapur (gula, garam, miso, kecap asin, cuka)"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Dalam klasifikasi suhu penyimpanan bahan baku, pilihlah satu item yang salah (bukan disimpan pada suhu ruang)."
+    },
+    {
+      "id": "lab-temp-002",
+      "questionNumber": 2,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "米穀類（コメ）を保管する際の適切な保存温度として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "米穀類（コメ）を保管する際の適切な保存温度として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (15℃以下)】\n米穀類（コメ）は虫の発生や品質劣化を防ぐため、「15℃以下」の冷暗所で保存することが定められています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000002,
+      "updatedAt": 1762510000002,
+      "options": [
+        {
+          "id": "A",
+          "text": "室温（直射日光下）",
+          "translation": "Suhu ruang (di bawah sinar matahari langsung)"
+        },
+        {
+          "id": "B",
+          "text": "10℃前後",
+          "translation": "Sekitar 10℃"
+        },
+        {
+          "id": "C",
+          "text": "−18℃以下",
+          "translation": "−18℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "15℃以下",
+          "translation": "15℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu suhu penyimpanan yang benar dan tepat untuk menyimpan beras dan produk beras (kome)."
+    },
+    {
+      "id": "lab-temp-003",
+      "questionNumber": 3,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "原材料の保存温度の組み合わせとして、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "原材料の保存温度の組み合わせとして、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：A (生鮮魚介類 — 10℃以下)】\n生鮮魚介類（刺身用の魚など）は腸炎ビブリオ等の増殖を防ぐため「5℃以下」で保存しなければなりません。10℃以下では不十分です。冷凍食肉は−15℃以下、冷凍水産物は−18℃以下、液卵は8℃以下で正しいです。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000003,
+      "updatedAt": 1762510000003,
+      "options": [
+        {
+          "id": "A",
+          "text": "生鮮魚介類 — 10℃以下",
+          "translation": "Hasil laut segar (ikan/kerang) — 10℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "冷凍食肉 — −15℃以下",
+          "translation": "Daging beku — −15℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "冷凍水産物 — −18℃以下",
+          "translation": "Produk laut beku — −18℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "液卵 — 8℃以下",
+          "translation": "Telur cair (liquid egg) — 8℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pasangan kategori bahan baku dan suhu penyimpanan yang salah (tidak sesuai ketentuan)."
+    },
+    {
+      "id": "lab-temp-004",
+      "questionNumber": 4,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "保存温度の基準において、「10℃以下」ではなく、冷えすぎによる低温障害を防ぐため「10℃前後」と規定されている品目として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "保存温度の基準において、「10℃以下」ではなく、冷えすぎによる低温障害を防ぐため「10℃前後」と規定されている品目として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (生鮮果実・野菜)】\n生鮮果実・野菜は過度の冷却によって細胞が傷む「低温障害」を起こすことがあるため、基準では「10℃前後」と表記されます。殻付き卵、食肉製品、乳類は「10℃以下」です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000004,
+      "updatedAt": 1762510000004,
+      "options": [
+        {
+          "id": "A",
+          "text": "殻付き卵",
+          "translation": "Telur bercangkang"
+        },
+        {
+          "id": "B",
+          "text": "生鮮果実・野菜",
+          "translation": "Buah dan sayuran segar"
+        },
+        {
+          "id": "C",
+          "text": "食肉製品",
+          "translation": "Produk olahan daging"
+        },
+        {
+          "id": "D",
+          "text": "乳・生クリーム",
+          "translation": "Susu dan krim segar"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu komoditas yang benar, yang ketentuannya ditulis 'sekitar 10℃ (10℃前後)' guna mencegah kerusakan akibat terlalu dingin, bukan '10℃ atau lebih rendah'."
+    },
+    {
+      "id": "lab-temp-005",
+      "questionNumber": 5,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "冷凍保存する品目のうち、規定温度が「−18℃以下」ではなく「−15℃以下」とされている品目として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "冷凍保存する品目のうち、規定温度が「−18℃以下」ではなく「−15℃以下」とされている品目として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (冷凍食肉)】\n冷凍水産物、凍結卵、一般の冷凍食品は「−18℃以下」で保存します。これに対し、冷凍食肉および冷凍食肉製品は「−15℃以下」と規定されています。試験で非常によく問われる重要ポイントです。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000005,
+      "updatedAt": 1762510000005,
+      "options": [
+        {
+          "id": "A",
+          "text": "冷凍水産物",
+          "translation": "Produk perikanan/laut beku"
+        },
+        {
+          "id": "B",
+          "text": "凍結卵",
+          "translation": "Telur beku"
+        },
+        {
+          "id": "C",
+          "text": "冷凍食肉（および冷凍食肉製品）",
+          "translation": "Daging beku (dan produk olahan daging beku)"
+        },
+        {
+          "id": "D",
+          "text": "一般の冷凍食品",
+          "translation": "Makanan beku umum"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Di antara bahan beku berikut, pilihlah satu item yang batas suhu ketentuannya adalah '−15℃ atau lebih rendah', bukan '−18℃ atau lebih rendah'."
+    },
+    {
+      "id": "lab-temp-006",
+      "questionNumber": 6,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「殻付き卵（からつきたまご）」を保存する際の適切な温度基準として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "「殻付き卵（からつきたまご）」を保存する際の適切な温度基準として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (10℃以下)】\n殻付き卵の保存温度基準は「10℃以下」です。割卵された「液卵」はより厳格な「8℃以下」、凍結された「凍結卵」は「−18℃以下」となります。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000006,
+      "updatedAt": 1762510000006,
+      "options": [
+        {
+          "id": "A",
+          "text": "8℃以下",
+          "translation": "8℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "15℃以下",
+          "translation": "15℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "室温（25℃以上）",
+          "translation": "Suhu ruang (25℃ ke atas)"
+        },
+        {
+          "id": "D",
+          "text": "10℃以下",
+          "translation": "10℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu standar suhu yang benar untuk menyimpan telur bercangkang (karatsuki tamago)."
+    },
+    {
+      "id": "lab-temp-007",
+      "questionNumber": 7,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "卵の3つの形態（殻付き卵、液卵、凍結卵）のうち、保存温度が「8℃以下」と定められている形態として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "卵の3つの形態（殻付き卵、液卵、凍結卵）のうち、保存温度が「8℃以下」と定められている形態として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (液卵)】\n液卵は殻を割って中身を取り出しているため、微生物汚染・増殖のリスクが非常に高くなります。そのため殻付き卵（10℃以下）よりも低い「8℃以下」で保存することが義務付けられています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000007,
+      "updatedAt": 1762510000007,
+      "options": [
+        {
+          "id": "A",
+          "text": "液卵（えきらん）",
+          "translation": "Telur cair (liquid egg)"
+        },
+        {
+          "id": "B",
+          "text": "殻付き卵",
+          "translation": "Telur bercangkang"
+        },
+        {
+          "id": "C",
+          "text": "凍結卵",
+          "translation": "Telur beku"
+        },
+        {
+          "id": "D",
+          "text": "乾燥卵白",
+          "translation": "Putih telur bubuk/kering"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Dari tiga bentuk telur (telur bercangkang, telur cair, telur beku), pilihlah bentuk yang batas suhu penyimpanannya ditentukan '8℃ atau lebih rendah'."
+    },
+    {
+      "id": "lab-temp-008",
+      "questionNumber": 8,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「冷凍食肉」と「冷凍水産物」の保存温度基準の比較として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "「冷凍食肉」と「冷凍水産物」の保存温度基準の比較として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B】\n食品衛生の基準において、冷凍食肉は「−15℃以下」、冷凍水産物は脂質の酸化や品質劣化を防ぐためさらに低い「−18℃以下」と定められています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000008,
+      "updatedAt": 1762510000008,
+      "options": [
+        {
+          "id": "A",
+          "text": "冷凍食肉は−18℃以下、冷凍水産物は−15℃以下である。",
+          "translation": "Daging beku adalah −18℃ atau lebih rendah, produk laut beku adalah −15℃ atau lebih rendah."
+        },
+        {
+          "id": "B",
+          "text": "冷凍食肉は−15℃以下、冷凍水産物は−18℃以下である。",
+          "translation": "Daging beku adalah −15℃ atau lebih rendah, produk laut beku adalah −18℃ atau lebih rendah."
+        },
+        {
+          "id": "C",
+          "text": "どちらも同じ10℃以下で保存する。",
+          "translation": "Keduanya disimpan pada suhu yang sama, yaitu 10℃ atau lebih rendah."
+        },
+        {
+          "id": "D",
+          "text": "どちらも同じ−10℃以下で保存する。",
+          "translation": "Keduanya disimpan pada suhu yang sama, yaitu −10℃ atau lebih rendah."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang benar mengenai perbandingan batas suhu penyimpanan antara 'daging beku' dan 'produk laut beku'."
+    },
+    {
+      "id": "lab-temp-009",
+      "questionNumber": 9,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「液状油脂（サラダ油、大豆油などの植物油）」の保管場所・温度として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "「液状油脂（サラダ油、大豆油などの植物油）」の保管場所・温度として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (室温)】\nサラダ油などの液状油脂は「室温」で保存します。冷蔵庫に入れると白く結晶化して固まることがあります。一方、固形油脂（ラードやマーガリン等）は「10℃以下」です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000009,
+      "updatedAt": 1762510000009,
+      "options": [
+        {
+          "id": "A",
+          "text": "10℃以下の冷蔵庫",
+          "translation": "Kulkas/refrigerator 10℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "5℃以下のチルド室",
+          "translation": "Ruang chilled 5℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "室温（直射日光や高温多湿を避けた場所）",
+          "translation": "Suhu ruang (tempat terhindar dari sinar matahari langsung dan kelembapan tinggi)"
+        },
+        {
+          "id": "D",
+          "text": "−18℃以下の冷凍庫",
+          "translation": "Freezer −18℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah lokasi dan suhu penyimpanan yang paling tepat untuk 'minyak/lemak cair (seperti minyak kedelai, minyak salad)'."
+    },
+    {
+      "id": "lab-temp-010",
+      "questionNumber": 10,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "油脂類の保存温度の区別について、正しい記述を一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "油脂類の保存温度の区別について、正しい記述を一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D】\n油脂類は形状によって保存温度が異なります。液状油脂は室温保存ですが、固形油脂（ラード、マーガリン、ショートニングなど）は溶融や変質を防ぐため10℃以下で保存します。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000010,
+      "updatedAt": 1762510000010,
+      "options": [
+        {
+          "id": "A",
+          "text": "液状油脂は「10℃以下」、固形油脂は「室温」で保存する。",
+          "translation": "Minyak cair disimpan pada '10℃ atau lebih rendah', sedangkan lemak padat pada 'suhu ruang'."
+        },
+        {
+          "id": "B",
+          "text": "どちらの油脂もすべて「−18℃以下」で凍結保存しなければならない。",
+          "translation": "Kedua jenis lemak tersebut harus dibekukan pada suhu '−18℃ atau lebih rendah'."
+        },
+        {
+          "id": "C",
+          "text": "どちらの油脂もすべて「15℃以下」で保存する。",
+          "translation": "Kedua jenis lemak tersebut semuanya disimpan pada '15℃ atau lebih rendah'."
+        },
+        {
+          "id": "D",
+          "text": "液状油脂は「室温」、固形油脂（ラード、マーガリンなど）は「10℃以下」で保存する。",
+          "translation": "Minyak cair disimpan pada 'suhu ruang', sedangkan lemak padat (lard, margarin, dll.) pada '10℃ atau lebih rendah'."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang benar mengenai perbedaan suhu penyimpanan untuk kelompok minyak dan lemak."
+    },
+    {
+      "id": "lab-temp-011",
+      "questionNumber": 11,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "乳製品のうち、「バター、チーズ、加糖練乳」の保存温度基準として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "乳製品のうち、「バター、チーズ、加糖練乳」の保存温度基準として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (15℃以下)】\nバター、チーズ、練乳は「15℃以下」の冷暗所・冷蔵庫で保存します。牛乳や濃縮乳、生クリーム（10℃以下）と温度区分が分かれています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000011,
+      "updatedAt": 1762510000011,
+      "options": [
+        {
+          "id": "A",
+          "text": "15℃以下",
+          "translation": "15℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "10℃以下",
+          "translation": "10℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "5℃以下",
+          "translation": "5℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "室温（30℃以下）",
+          "translation": "Suhu ruang (30℃ atau lebih rendah)"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Di antara produk olahan susu, pilihlah standar suhu penyimpanan yang benar untuk 'mentega, keju, dan susu kental manis (rennyu)'."
+    },
+    {
+      "id": "lab-temp-012",
+      "questionNumber": 12,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "生鮮果実および野菜の保管管理に関する記述として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "生鮮果実および野菜の保管管理に関する記述として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (10℃前後)】\n青果物（野菜・果物）は生きているため、冷やしすぎると表面の変色や陥没などの「低温障害」が発生します。そのため「10℃前後」での保管が適切とされています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000012,
+      "updatedAt": 1762510000012,
+      "options": [
+        {
+          "id": "A",
+          "text": "細菌を殺菌するため、必ず「−18℃以下」で完全に凍結させる。",
+          "translation": "Pasti membekukan total pada '−18℃ atau lebih rendah' untuk membunuh bakteri."
+        },
+        {
+          "id": "B",
+          "text": "過冷却による低温障害を防ぐため、「10℃前後」で温度管理を行う。",
+          "translation": "Melakukan pengendalian suhu pada 'sekitar 10℃' untuk mencegah chilling injury akibat terlalu dingin."
+        },
+        {
+          "id": "C",
+          "text": "腐敗を防ぐため、常に「0℃以下」を保たなければならない。",
+          "translation": "Harus selalu menjaga '0℃ atau lebih rendah' untuk mencegah pembusukan."
+        },
+        {
+          "id": "D",
+          "text": "温度管理は不要で、直射日光の当たる野外の室温に放置してよい。",
+          "translation": "Tidak memerlukan kontrol suhu dan boleh dibiarkan di suhu ruang terbuka kena sinar matahari."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang paling tepat mengenai pengelolaan penyimpanan buah dan sayuran segar."
+    },
+    {
+      "id": "lab-temp-013",
+      "questionNumber": 13,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「10℃以下」で保存する品目として、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "「10℃以下」で保存する品目として、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：C (生鮮果実・野菜)】\n食肉、食肉製品、ゆでだこ、固形油脂、殻付き卵はすべて「10℃以下」です。生鮮果実・野菜は「10℃前後」と規定されています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000013,
+      "updatedAt": 1762510000013,
+      "options": [
+        {
+          "id": "A",
+          "text": "食肉および食肉製品",
+          "translation": "Daging dan produk olahan daging"
+        },
+        {
+          "id": "B",
+          "text": "ゆでだこ",
+          "translation": "Gurita rebus"
+        },
+        {
+          "id": "C",
+          "text": "生鮮果実・野菜",
+          "translation": "Buah dan sayuran segar"
+        },
+        {
+          "id": "D",
+          "text": "固形油脂（ラード、マーガリンなど）",
+          "translation": "Lemak padat (lard, margarin, dll.)"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu item yang salah (bukan diklasifikasikan pada batas suhu 10℃ atau lebih rendah)."
+    },
+    {
+      "id": "lab-temp-014",
+      "questionNumber": 14,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「冷凍食肉製品（ハム・ソーセージ等の冷凍品）」を保管する際の基準温度として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "「冷凍食肉製品（ハム・ソーセージ等の冷凍品）」を保管する際の基準温度として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (−15℃以下)】\n冷凍食肉および冷凍食肉製品の保存温度基準は「−15℃以下」です。通常の未冷凍食肉製品は10℃以下、冷凍水産物や一般冷凍食品は−18℃以下です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000014,
+      "updatedAt": 1762510000014,
+      "options": [
+        {
+          "id": "A",
+          "text": "−18℃以下",
+          "translation": "−18℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "10℃以下",
+          "translation": "10℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "5℃以下",
+          "translation": "5℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "−15℃以下",
+          "translation": "−15℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah batas suhu standar yang benar untuk menyimpan 'produk daging beku (seperti ham/sosis beku)'."
+    },
+    {
+      "id": "lab-temp-015",
+      "questionNumber": 15,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "生鮮魚介類（刺身、鮮魚など）の保存温度基準として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "生鮮魚介類（刺身、鮮魚など）の保存温度基準として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (5℃以下)】\n生鮮魚介類は腸炎ビブリオが10℃前後でもわずかに増殖できるため、安全を期して「5℃以下」で保存することが厳格に定められています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000015,
+      "updatedAt": 1762510000015,
+      "options": [
+        {
+          "id": "A",
+          "text": "5℃以下",
+          "translation": "5℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "10℃以下",
+          "translation": "10℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "15℃以下",
+          "translation": "15℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "室温",
+          "translation": "Suhu ruang"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah standar suhu penyimpanan yang paling tepat untuk hasil laut segar (seperti ikan segar untuk sashimi)."
+    },
+    {
+      "id": "lab-temp-016",
+      "questionNumber": 16,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "水産加工品のうち、「ゆでだこ（茹でタコ）」の保存温度基準として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "水産加工品のうち、「ゆでだこ（茹でタコ）」の保存温度基準として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (10℃以下)】\n生の魚介類は5℃以下ですが、加熱調理された加工品である「ゆでだこ」は「10℃以下」で保存します（凍結ゆでだこは−15℃以下）。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000016,
+      "updatedAt": 1762510000016,
+      "options": [
+        {
+          "id": "A",
+          "text": "5℃以下",
+          "translation": "5℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "10℃以下",
+          "translation": "10℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "室温",
+          "translation": "Suhu ruang"
+        },
+        {
+          "id": "D",
+          "text": "−18℃以下",
+          "translation": "−18℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Di antara produk olahan perikanan, pilihlah standar suhu penyimpanan yang benar untuk 'gurita rebus (yudedako)'."
+    },
+    {
+      "id": "lab-temp-017",
+      "questionNumber": 17,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "卵および卵加工品の保存温度の組み合わせとして、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "卵および卵加工品の保存温度の組み合わせとして、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：C (殻付き卵 — 8℃以下)】\n殻付き卵の基準温度は「10℃以下」です。8℃以下が適用されるのは殻を割った「液卵」です。凍結卵は「−18℃以下」です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000017,
+      "updatedAt": 1762510000017,
+      "options": [
+        {
+          "id": "A",
+          "text": "殻付き卵 — 10℃以下",
+          "translation": "Telur bercangkang — 10℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "液卵 — 8℃以下",
+          "translation": "Telur cair — 8℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "殻付き卵 — 8℃以下",
+          "translation": "Telur bercangkang — 8℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "凍結卵 — −18℃以下",
+          "translation": "Telur beku — −18℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pasangan yang salah mengenai suhu penyimpanan telur dan produk olahan telur."
+    },
+    {
+      "id": "lab-temp-018",
+      "questionNumber": 18,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "工場に搬入された原材料の温度管理について、正しい記述を一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "工場に搬入された原材料の温度管理について、正しい記述を一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D】\n冷凍食肉・冷凍食肉製品は−15℃以下、一般の冷凍食品・冷凍水産物は−18℃以下で厳格に管理します。一度解凍したものを再凍結することは品質低下や菌増殖の原因となるため原則禁止です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000018,
+      "updatedAt": 1762510000018,
+      "options": [
+        {
+          "id": "A",
+          "text": "すべての冷凍品は−5℃以上であれば問題なく保管できる。",
+          "translation": "Semua bahan beku dapat disimpan tanpa masalah asalkan suhunya −5℃ ke atas."
+        },
+        {
+          "id": "B",
+          "text": "冷凍食品は解凍して室温に置いた後、再凍結すれば何度でも使用できる。",
+          "translation": "Makanan beku boleh dicairkan di suhu ruang lalu dibekukan ulang berkali-kali."
+        },
+        {
+          "id": "C",
+          "text": "生鮮魚介類は15℃以下で常温放置してよい。",
+          "translation": "Hasil laut segar boleh dibiarkan pada suhu biasa asalkan 15℃ ke bawah."
+        },
+        {
+          "id": "D",
+          "text": "冷凍食肉製品は−15℃以下、一般の冷凍食品は−18℃以下で管理する。",
+          "translation": "Produk olahan daging beku dikelola pada −15℃ ke bawah, makanan beku umum pada −18℃ ke bawah."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang benar mengenai manajemen suhu bahan baku yang diterima di pabrik pangan."
+    },
+    {
+      "id": "lab-temp-019",
+      "questionNumber": 19,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「乳、濃縮乳、脱脂乳、クリーム」の保存温度基準として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "「乳、濃縮乳、脱脂乳、クリーム」の保存温度基準として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (10℃以下)】\n生乳、濃縮乳、脱脂乳、生クリームなどの液体状の乳類は「10℃以下」で保存します。バター、チーズ、練乳は「15℃以下」です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000019,
+      "updatedAt": 1762510000019,
+      "options": [
+        {
+          "id": "A",
+          "text": "10℃以下",
+          "translation": "10℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "15℃以下",
+          "translation": "15℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "室温",
+          "translation": "Suhu ruang"
+        },
+        {
+          "id": "D",
+          "text": "−15℃以下",
+          "translation": "−15℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah standar suhu penyimpanan yang benar untuk 'susu, susu pekat (concentrated milk), susu skim, dan krim segar'."
+    },
+    {
+      "id": "lab-temp-020",
+      "questionNumber": 20,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "乳製品の保存温度区分の対比として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "乳製品の保存温度区分の対比として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B】\n水分活性や加工特性の違いから、牛乳・クリーム等の液状乳は「10℃以下」、バター・チーズ・練乳は「15℃以下」に区分されています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000020,
+      "updatedAt": 1762510000020,
+      "options": [
+        {
+          "id": "A",
+          "text": "「乳・濃縮乳・クリーム」は15℃以下、「バター・チーズ・練乳」は10℃以下である。",
+          "translation": "'Susu, susu pekat, krim' pada 15℃ atau lebih rendah; 'mentega, keju, susu kental manis' pada 10℃ atau lebih rendah."
+        },
+        {
+          "id": "B",
+          "text": "「乳・濃縮乳・クリーム」は10℃以下、「バター・チーズ・練乳」は15℃以下である。",
+          "translation": "'Susu, susu pekat, krim' pada 10℃ atau lebih rendah; 'mentega, keju, susu kental manis' pada 15℃ atau lebih rendah."
+        },
+        {
+          "id": "C",
+          "text": "すべての乳製品は例外なく「室温」で保存する。",
+          "translation": "Semua produk olahan susu tanpa terkecuali disimpan pada 'suhu ruang'."
+        },
+        {
+          "id": "D",
+          "text": "すべての乳製品は「−18℃以下」で凍結保管しなければならない。",
+          "translation": "Semua produk olahan susu harus dibekukan pada '−18℃ atau lebih rendah'."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu perbandingan yang benar mengenai klasifikasi suhu penyimpanan produk olahan susu."
+    },
+    {
+      "id": "lab-temp-021",
+      "questionNumber": 21,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "原材料の保存温度基準において、「15℃以下」で保存する品目の組み合わせとして、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "原材料の保存温度基準において、「15℃以下」で保存する品目の組み合わせとして、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (米穀類／バター・チーズ・練乳)】\n「15℃以下」に分類される代表的な品目は「米穀類（コメ）」と「バター・チーズ・練乳」です。小麦粉や液状油脂は室温、生鮮魚介類は5℃以下です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000021,
+      "updatedAt": 1762510000021,
+      "options": [
+        {
+          "id": "A",
+          "text": "穀類加工品（小麦粉） ／ 液状油脂",
+          "translation": "Produk olahan serealia (tepung terigu) ／ Minyak cair"
+        },
+        {
+          "id": "B",
+          "text": "生鮮魚介類 ／ 固形油脂",
+          "translation": "Hasil laut segar ／ Lemak padat"
+        },
+        {
+          "id": "C",
+          "text": "米穀類（コメ） ／ バター・チーズ・練乳",
+          "translation": "Beras (kome) ／ Mentega, keju, susu kental manis"
+        },
+        {
+          "id": "D",
+          "text": "冷凍食品 ／ 冷凍食肉製品",
+          "translation": "Makanan beku umum ／ Produk daging beku"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Dalam standar suhu penyimpanan bahan baku, pilihlah kombinasi bahan yang benar yang disimpan pada '15℃ atau lebih rendah'."
+    },
+    {
+      "id": "lab-temp-022",
+      "questionNumber": 22,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「冷凍と名がつく原材料はすべて−18℃以下でなければならない」という考えに対する正しい指摘として、適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "「冷凍と名がつく原材料はすべて−18℃以下でなければならない」という考えに対する正しい指摘として、適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D】\n冷凍水産物や一般の冷凍食品は「−18℃以下」ですが、冷凍食肉および冷凍食肉製品は「−15℃以下」と規定されています。したがって「すべて−18℃以下」という一般化は誤りです。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000022,
+      "updatedAt": 1762510000022,
+      "options": [
+        {
+          "id": "A",
+          "text": "正しい。すべての冷凍品は一律に−18℃以下でなければ法的に出荷できない。",
+          "translation": "Benar. Semua barang beku secara hukum wajib seragam pada −18℃ ke bawah untuk dapat dikirim."
+        },
+        {
+          "id": "B",
+          "text": "誤りである。すべての冷凍品は0℃以下であれば何度でもよい。",
+          "translation": "Keliru. Semua barang beku boleh pada suhu berapa saja asalkan di bawah 0℃."
+        },
+        {
+          "id": "C",
+          "text": "正しい。冷凍食肉も冷凍水産物も全く同じ−25℃以下で保存しなければならない。",
+          "translation": "Benar. Daging beku dan produk laut beku harus sama-sama disimpan pada −25℃ ke bawah."
+        },
+        {
+          "id": "D",
+          "text": "誤りである。冷凍食肉および冷凍食肉製品の基準は「−15℃以下」と定められている。",
+          "translation": "Keliru. Standar untuk daging beku dan produk olahan daging beku ditetapkan '−15℃ atau lebih rendah'."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu sanggahan yang tepat terhadap anggapan bahwa 'semua bahan yang diawali kata beku (reitou) harus disimpan pada −18℃ atau lebih rendah'."
+    },
+    {
+      "id": "lab-temp-023",
+      "questionNumber": 23,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「穀類加工品（小麦粉、デンプンなど）」の適切な保管方法として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "「穀類加工品（小麦粉、デンプンなど）」の適切な保管方法として、最も適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (室温)】\n小麦粉やデンプンなどの穀類加工品は「室温」で保管します。湿気や水気を吸うとカビやダニの発生原因となるため、床面への直置きを避け、直射日光・高温多湿を避けたスノコや棚の上で保管します。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000023,
+      "updatedAt": 1762510000023,
+      "options": [
+        {
+          "id": "A",
+          "text": "室温（直射日光や高温多湿を避け、通気性の良い場所）",
+          "translation": "Suhu ruang (terhindar dari sinar matahari langsung dan kelembapan, ventilasi baik)"
+        },
+        {
+          "id": "B",
+          "text": "5℃以下のチルド室で湿度100%に保つ",
+          "translation": "Ruang chilled 5℃ ke bawah dengan kelembapan 100%"
+        },
+        {
+          "id": "C",
+          "text": "−18℃以下の冷凍庫に裸のまま保管する",
+          "translation": "Disimpan tanpa kemasan di dalam freezer −18℃ ke bawah"
+        },
+        {
+          "id": "D",
+          "text": "水気のある床面に直接ダンボールを置く",
+          "translation": "Menaruh kardus langsung di atas lantai yang basah berair"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah metode penyimpanan yang paling tepat untuk 'produk olahan serealia (tepung terigu, tepung pati/tapioka, dll.)'."
+    },
+    {
+      "id": "lab-temp-024",
+      "questionNumber": 24,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "調味料（砂糖、食塩、みそ、しょう油、食酢、ソースなど）の基本の保管温度として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "調味料（砂糖、食塩、みそ、しょう油、食酢、ソースなど）の基本の保管温度として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (室温)】\n未開封の砂糖、食塩、みそ、しょう油、食酢などの調味料は一般に「室温」保存品目に分類されます（開封後は品質保持のため冷暗所・冷蔵が推奨されるものもあります）。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000024,
+      "updatedAt": 1762510000024,
+      "options": [
+        {
+          "id": "A",
+          "text": "10℃以下",
+          "translation": "10℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "室温",
+          "translation": "Suhu ruang"
+        },
+        {
+          "id": "C",
+          "text": "5℃以下",
+          "translation": "5℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "−15℃以下",
+          "translation": "−15℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah suhu penyimpanan dasar yang benar untuk bumbu-bumbu dapur (gula, garam, miso, kecap asin, cuka, saus)."
+    },
+    {
+      "id": "lab-temp-025",
+      "questionNumber": 25,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "次の温度基準のうち、数値として最も低く（最も温度が冷たい）、冷凍水産物や凍結卵に適用されるものはどれですか。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "次の温度基準のうち、数値として最も低く（最も温度が冷たい）、冷凍水産物や凍結卵に適用されるものはどれですか。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (−18℃以下)】\nマイナスの数値は絶対値が大きいほど低温になります。−18℃は−15℃よりも低く、冷凍水産物、冷凍食品、凍結卵の基準温度です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000025,
+      "updatedAt": 1762510000025,
+      "options": [
+        {
+          "id": "A",
+          "text": "−15℃以下",
+          "translation": "−15℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "5℃以下",
+          "translation": "5℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "−18℃以下",
+          "translation": "−18℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "10℃以下",
+          "translation": "10℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Di antara standar suhu berikut, manakah yang secara numerik paling rendah (paling dingin) dan diterapkan pada produk laut beku dan telur beku?"
+    },
+    {
+      "id": "lab-temp-026",
+      "questionNumber": 26,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "原材料とその保存温度基準の組み合わせとして、両方とも正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "原材料とその保存温度基準の組み合わせとして、両方とも正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (食肉 10℃以下／生鮮魚介類 5℃以下)】\n食肉は10℃以下、生鮮魚介類は5℃以下で正しいです。液卵は8℃以下、凍結卵は−18℃以下です。液状油脂は室温、固形油脂は10℃以下です。米穀類は15℃以下、調味料は室温です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000026,
+      "updatedAt": 1762510000026,
+      "options": [
+        {
+          "id": "A",
+          "text": "液卵 — 10℃以下 ／ 凍結卵 — −15℃以下",
+          "translation": "Telur cair — 10℃ atau lebih rendah ／ Telur beku — −15℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "液状油脂 — 10℃以下 ／ 固形油脂 — 室温",
+          "translation": "Minyak cair — 10℃ atau lebih rendah ／ Lemak padat — Suhu ruang"
+        },
+        {
+          "id": "C",
+          "text": "米穀類 — 室温 ／ 調味料 — 15℃以下",
+          "translation": "Beras — Suhu ruang ／ Bumbu dapur — 15℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "食肉 — 10℃以下 ／ 生鮮魚介類 — 5℃以下",
+          "translation": "Daging — 10℃ atau lebih rendah ／ Hasil laut segar — 5℃ atau lebih rendah"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah baris yang seluruh pasangan bahan baku dan suhu penyimpanannya benar."
+    },
+    {
+      "id": "lab-temp-027",
+      "questionNumber": 27,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "一般の「冷凍食品（れいとうしょくひん）」を保管・管理する際の基準温度として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "一般の「冷凍食品（れいとうしょくひん）」を保管・管理する際の基準温度として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (−18℃以下)】\n一般に流通・保管される「冷凍食品」の規格基準温度は「−18℃以下」です。冷凍食肉製品の−15℃以下と区別して覚えましょう。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000027,
+      "updatedAt": 1762510000027,
+      "options": [
+        {
+          "id": "A",
+          "text": "−18℃以下",
+          "translation": "−18℃ atau lebih rendah"
+        },
+        {
+          "id": "B",
+          "text": "−15℃以下",
+          "translation": "−15℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "10℃以下",
+          "translation": "10℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "室温",
+          "translation": "Suhu ruang"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah suhu standar yang benar saat menyimpan dan mengelola 'makanan beku (reitou shokuhin)' pada umumnya."
+    },
+    {
+      "id": "lab-temp-028",
+      "questionNumber": 28,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-suhu",
+      "setName": "Lab Soal — 保存温度・温度管理 (Temperature Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "食品の保存温度に関する次の組み合わせのうち、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "食品の保存温度に関する次の組み合わせのうち、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：B (生鮮魚介類 — 8℃以下)】\n生鮮魚介類の基準は「5℃以下」です（8℃以下は液卵の基準です）。他の選択肢はすべて規定通りの正しい温度です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762510000028,
+      "updatedAt": 1762510000028,
+      "options": [
+        {
+          "id": "A",
+          "text": "生鮮果実・野菜 — 10℃前後",
+          "translation": "Buah dan sayuran segar — Sekitar 10℃"
+        },
+        {
+          "id": "B",
+          "text": "生鮮魚介類 — 8℃以下",
+          "translation": "Hasil laut segar — 8℃ atau lebih rendah"
+        },
+        {
+          "id": "C",
+          "text": "冷凍食肉製品 — −15℃以下",
+          "translation": "Produk olahan daging beku — −15℃ atau lebih rendah"
+        },
+        {
+          "id": "D",
+          "text": "液状油脂 — 室温",
+          "translation": "Minyak cair — Suhu ruang"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Di antara pasangan suhu penyimpanan bahan pangan berikut, pilihlah satu pasangan yang salah."
+    },
+    {
+      "id": "lab-haccp-001",
+      "questionNumber": 1,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "HACCP（ハサップ）による衛生管理の基本的な考え方について、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "HACCP（ハサップ）による衛生管理の基本的な考え方について、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D】\nHACCPは一般衛生管理を前提条件（土台）とし、原材料から出荷までの工程で発生しうる危害要因（ハザード）を科学的に分析（原則1）し、特に重要な工程（重要管理点: CCP）を定めて継続的に監視・記録する衛生管理手法です。重要管理点が複数存在する場合もあります。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000001,
+      "updatedAt": 1762520000001,
+      "options": [
+        {
+          "id": "A",
+          "text": "一般衛生管理はすべて不要になり、重要管理点（CCP）の1箇所だけを管理すればよい。",
+          "translation": "Semua sanitasi umum menjadi tidak diperlukan, cukup mengelola 1 titik kendali kritis (CCP) saja."
+        },
+        {
+          "id": "B",
+          "text": "製造する食品の種類に関わらず、重要管理点は必ず1工場につき1つだけに限定される。",
+          "translation": "Tanpa memandang jenis pangan, CCP wajib dibatasi hanya 1 titik saja per pabrik."
+        },
+        {
+          "id": "C",
+          "text": "決められた管理基準が正しく守られなくても、記録さえ書けば食品を出荷できる。",
+          "translation": "Meski batas kritis tidak ditaati, produk pangan tetap boleh dikirim asalkan catatan ditulis."
+        },
+        {
+          "id": "D",
+          "text": "食品の危害要因を分析し、必要な管理方法（重要管理点）を決めて実行状況を連続的に監視する。",
+          "translation": "Menganalisis bahaya pada pangan, menentukan pengendalian yang diperlukan (CCP), dan memantau pelaksanaannya secara kontinu."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Mengenai prinsip dasar manajemen sanitasi berbasis HACCP, pilihlah satu pernyataan yang benar."
+    },
+    {
+      "id": "lab-haccp-002",
+      "questionNumber": 2,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "HACCPの原則1「危害要因分析（ハザード分析）」で行う業務内容として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "HACCPの原則1「危害要因分析（ハザード分析）」で行う業務内容として、最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：B】\n原則1では、原材料の受け入れから製造、包装、出荷に至るすべての工程で、生物的・化学的・物理的な危害要因（健康被害を引き起こす要因）を洗い出し、それらを防ぐための管理手段を明確にします。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000002,
+      "updatedAt": 1762520000002,
+      "options": [
+        {
+          "id": "A",
+          "text": "重要管理点における温度計の校正作業だけを行う。",
+          "translation": "Hanya melakukan kalibrasi termometer pada titik kendali kritis."
+        },
+        {
+          "id": "B",
+          "text": "原材料や製造工程を調べ、どのような危害要因があり、どう管理する必要があるかを分析・特定する。",
+          "translation": "Memeriksa bahan baku dan proses produksi, menganalisis dan mengidentifikasi bahaya apa yang ada dan bagaimana cara mengendalikannya."
+        },
+        {
+          "id": "C",
+          "text": "製品に貼る最終賞味期限ラベルの印刷作業のみを行う。",
+          "translation": "Hanya melakukan pencetakan label tanggal kedaluwarsa akhir pada produk."
+        },
+        {
+          "id": "D",
+          "text": "基準から外れた製品を廃棄処分する手順だけを決める。",
+          "translation": "Hanya menentukan prosedur pembuangan produk yang menyimpang dari standar."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu tindakan yang paling tepat yang dilakukan pada Prinsip 1 HACCP yaitu 'Analisis Bahaya (Hazard Analysis)'."
+    },
+    {
+      "id": "lab-haccp-003",
+      "questionNumber": 3,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "HACCPの7原則における「原則2」と「原則3」の内容の組み合わせとして、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "HACCPの7原則における「原則2」と「原則3」の内容の組み合わせとして、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D】\n原則2は食品安全の確保に不可欠な「重要管理点（CCP）」を特定・決定すること、原則3はCCPにおいて安全か危険かを分ける限界値である「管理基準（CL: Critical Limit、例：中心温度75℃以上1分間など）」を設定することです。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000003,
+      "updatedAt": 1762520000003,
+      "options": [
+        {
+          "id": "A",
+          "text": "原則2：管理基準の設定 ／ 原則3：記録と文書化",
+          "translation": "Prinsip 2: Penetapan Batas Kritis ／ Prinsip 3: Dokumentasi dan Pencatatan"
+        },
+        {
+          "id": "B",
+          "text": "原則2：監視方法の設定 ／ 原則3：改善措置の設定",
+          "translation": "Prinsip 2: Penetapan Pemantauan ／ Prinsip 3: Penetapan Tindakan Koreksi"
+        },
+        {
+          "id": "C",
+          "text": "原則2：検証方法の設定 ／ 原則3：危害要因分析",
+          "translation": "Prinsip 2: Penetapan Verifikasi ／ Prinsip 3: Analisis Bahaya"
+        },
+        {
+          "id": "D",
+          "text": "原則2：重要管理点（CCP）の決定 ／ 原則3：管理基準（CL）の設定",
+          "translation": "Prinsip 2: Penentuan Titik Kendali Kritis (CCP) ／ Prinsip 3: Penetapan Batas Kritis (CL)"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah kombinasi yang benar antara isi 'Prinsip 2' dan 'Prinsip 3' dalam 7 Prinsip HACCP."
+    },
+    {
+      "id": "lab-haccp-004",
+      "questionNumber": 4,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "重要管理点（CCP）が管理基準を守って適切にコントロールされているかを常時または定期的に確認する「監視方法の設定」は、HACCPのどの原則に該当しますか。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "重要管理点（CCP）が管理基準を守って適切にコントロールされているかを常時または定期的に確認する「監視方法の設定」は、HACCPのどの原則に該当しますか。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B】\n原則4は「監視（モニタリング）方法の設定」です。温度計による中心温度の測定頻度や金属検出機の動作確認手順など、CCPが基準内に収まっているかを監視する具体的な方法を定めます。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000004,
+      "updatedAt": 1762520000004,
+      "options": [
+        {
+          "id": "A",
+          "text": "原則1：危害要因分析",
+          "translation": "Prinsip 1: Analisis Bahaya"
+        },
+        {
+          "id": "B",
+          "text": "原則4：監視（モニタリング）方法の設定",
+          "translation": "Prinsip 4: Penetapan Cara Pemantauan (Monitoring)"
+        },
+        {
+          "id": "C",
+          "text": "原則5：改善措置の設定",
+          "translation": "Prinsip 5: Penetapan Tindakan Koreksi"
+        },
+        {
+          "id": "D",
+          "text": "原則7：記録と保存",
+          "translation": "Prinsip 7: Dokumentasi dan Pencatatan"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Menetapkan metode untuk memeriksa apakah Titik Kendali Kritis (CCP) terkendali dengan baik sesuai batas kritis termasuk ke dalam Prinsip HACCP yang mana?"
+    },
+    {
+      "id": "lab-haccp-005",
+      "questionNumber": 5,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "モニタリングの結果、重要管理点（CCP）が管理基準（CL）を逸脱していることが判明しました。原則5（改善措置）に基づき、事前に決めておくべき事項として最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "モニタリングの結果、重要管理点（CCP）が管理基準（CL）を逸脱していることが判明しました。原則5（改善措置）に基づき、事前に決めておくべき事項として最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：D】\n原則5「改善措置の設定」では、管理基準を逸脱した際に①工程を基準通りに戻す方法（再加熱、温度再調整等）と、②逸脱期間中に通過した影響を受けた食品を特定・隔離し、廃棄または再加工する手順をあらかじめ決めておきます。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000005,
+      "updatedAt": 1762520000005,
+      "options": [
+        {
+          "id": "A",
+          "text": "逸脱があってもそのまま出荷し、後日問題が起きた場合のみ調査を行う手順",
+          "translation": "Prosedur tetap mengirim produk meski ada penyimpangan dan baru investigasi jika kelak timbul masalah."
+        },
+        {
+          "id": "B",
+          "text": "重要管理点の設定そのものを直ちに取り消し、無管理状態でラインを稼働させる規定",
+          "translation": "Aturan langsung membatalkan status CCP itu sendiri dan menjalankan lini tanpa pengawasan."
+        },
+        {
+          "id": "C",
+          "text": "責任者への報告は行わず、作業者個人の判断で製品を隠しておく手順",
+          "translation": "Prosedur menyembunyikan produk secara mandiri tanpa melapor kepada penanggung jawab."
+        },
+        {
+          "id": "D",
+          "text": "工程を正常な状態（基準内）に戻す手順と、基準から外れた状態で製造された食品の隔離・処置方法",
+          "translation": "Prosedur mengembalikan proses ke kondisi normal dan metode isolasi/penanganan produk yang terlanjur dibuat saat penyimpangan."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Jika pemantauan menunjukkan CCP menyimpang dari Batas Kritis, pilihlah satu hal paling tepat yang wajib ditetapkan sebelumnya berdasarkan Prinsip 5 (Tindakan Koreksi)."
+    },
+    {
+      "id": "lab-haccp-006",
+      "questionNumber": 6,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "HACCPの原則6「検証（バリデーション・ベリフィケーション）」に関する記述として、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "HACCPの原則6「検証（バリデーション・ベリフィケーション）」に関する記述として、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：B】\n「監視（モニタリング）」はCCPが基準を守っているかを日々の作業でリアルタイムに確認・測定することです。一方、「検証」はHACCPシステム全体が有効に機能しているか、モニタリングが適切に行われているかを第三者的・定期的に評価・確認する別の概念です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000006,
+      "updatedAt": 1762520000006,
+      "options": [
+        {
+          "id": "A",
+          "text": "HACCPプランに沿って管理が計画通りに正しく実行されているかを確認する。",
+          "translation": "Memastikan apakah pengelolaan benar-benar dijalankan sesuai rencana HACCP."
+        },
+        {
+          "id": "B",
+          "text": "検証は原則4の「日常の監視（モニタリング）」と全く同じ意味であるため、別に行う必要はない。",
+          "translation": "Verifikasi memiliki arti yang sama persis dengan 'pemantauan harian (monitoring)' pada Prinsip 4 sehingga tidak perlu dilakukan secara terpisah."
+        },
+        {
+          "id": "C",
+          "text": "危害要因の除去や低減に対して、設定した管理基準や方法が本当に有効であるかを確認する。",
+          "translation": "Memastikan apakah batas kritis dan metode yang ditetapkan benar-benar efektif mengeliminasi atau mereduksi bahaya."
+        },
+        {
+          "id": "D",
+          "text": "温度計の定期校正や微生物検査、記録の事後レビューは検証活動の一環である。",
+          "translation": "Kalibrasi termometer berkala, uji mikrobiologi, dan peninjauan ulang catatan merupakan bagian dari kegiatan verifikasi."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang salah mengenai Prinsip 6 HACCP yaitu 'Verifikasi'."
+    },
+    {
+      "id": "lab-haccp-007",
+      "questionNumber": 7,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "HACCPの原則7「記録と保存」の重要性について、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "HACCPの原則7「記録と保存」の重要性について、最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：D】\n原則7では、衛生管理が計画通り確実に実施されている証拠（エビデンス）として、モニタリングや改善措置、機器校正等の記録を文書や電磁的記録で適切に保管することが求められます。「記録のないものは、実行されていないのと同じ」と見なされます。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000007,
+      "updatedAt": 1762520000007,
+      "options": [
+        {
+          "id": "A",
+          "text": "異常や逸脱が発生した時だけ記録し、正常に管理できている時は記録を省略してよい。",
+          "translation": "Hanya mencatat saat terjadi keabnormalan atau penyimpangan, dan boleh dilewati saat proses berjalan normal."
+        },
+        {
+          "id": "B",
+          "text": "記録を紙やデータに残す代わりに、担当作業者が記憶しておけば十分である。",
+          "translation": "Cukup diingat oleh pekerja yang bertugas tanpa perlu meninggalkan catatan fisik atau digital."
+        },
+        {
+          "id": "C",
+          "text": "原材料の仕入れ伝票だけを記録し、製造中の温度や時間データは記録しない。",
+          "translation": "Hanya mencatat nota pembelian bahan baku, tanpa perlu mencatat suhu dan waktu selama proses produksi."
+        },
+        {
+          "id": "D",
+          "text": "原則1〜6で策定した計画内容や、日々のモニタリング結果、改善措置、検証結果を文書として正確に記録・保存する。",
+          "translation": "Mendokumentasikan dan menyimpan secara akurat rencana dari Prinsip 1-6, hasil pemantauan harian, tindakan koreksi, dan verifikasi."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang paling tepat mengenai pentingnya Prinsip 7 HACCP yaitu 'Pencatatan dan Dokumentasi'."
+    },
+    {
+      "id": "lab-haccp-008",
+      "questionNumber": 8,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "製造工程において、一般衛生管理や重要管理点（CCP）の管理が正しく実行されなかった場合、製造された食品の対応として正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "製造工程において、一般衛生管理や重要管理点（CCP）の管理が正しく実行されなかった場合、製造された食品の対応として正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (その食品を出荷させない)】\n衛生管理やCCPの管理が正しく実行されなかった場合、食中毒菌の残存や異物混入等の健康危害リスクを排除できないため、その製品を出荷させてはなりません。製品を保留・隔離し、安全性が証明できない限り廃棄処分等の措置をとります。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000008,
+      "updatedAt": 1762520000008,
+      "options": [
+        {
+          "id": "A",
+          "text": "見た目や匂いに大きな異常がなければ、責任者の許可なくそのまま出荷する。",
+          "translation": "Jika tampilan dan baunya tidak aneh, langsung dikirim tanpa memerlukan izin penanggung jawab."
+        },
+        {
+          "id": "B",
+          "text": "安全性が担保されていないため、その食品を出荷させてはならない。",
+          "translation": "Karena keamanannya tidak terjamin, produk pangan tersebut tidak boleh diedarkan/dikirim."
+        },
+        {
+          "id": "C",
+          "text": "記録用紙に「異常なし」と書き直せば、すぐに出荷してよい。",
+          "translation": "Boleh segera dikirim asalkan pada lembar catatan ditulis ulang 'tidak ada kelainan'."
+        },
+        {
+          "id": "D",
+          "text": "価格を半額に値下げして消費者に販売すれば安全上の責任は免除される。",
+          "translation": "Tanggung jawab keamanan gugur jika produk dijual ke konsumen dengan potongan harga setengah."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Jika dalam proses produksi sanitasi umum atau pengendalian CCP tidak dijalankan dengan benar, bagaimana penanganan yang benar terhadap makanan yang diproduksi?"
+    },
+    {
+      "id": "lab-haccp-009",
+      "questionNumber": 9,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "加熱調理工程（CCP）において、管理基準が「中心温度75℃以上で1分間加熱」と定められています。測定したところ中心温度が70℃でした。作業者の対応として最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "加熱調理工程（CCP）において、管理基準が「中心温度75℃以上で1分間加熱」と定められています。測定したところ中心温度が70℃でした。作業者の対応として最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：D】\n管理基準（CL）に達していない場合は加熱不足であり、食中毒菌が残存している危険があります。直ちに再加熱を行い、中心温度75℃以上1分間（ノロウイルス対策では85〜90℃以上90秒間）を確実に達成させます。さらに逸脱と改善措置の内容を責任者に報告して記録します。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000009,
+      "updatedAt": 1762520000009,
+      "options": [
+        {
+          "id": "A",
+          "text": "70℃でもほぼ熱くなっているため、加熱を終了して次の冷却工程へ送る。",
+          "translation": "Karena 70℃ sudah cukup panas, hentikan pemanasan dan langsung kirim ke proses pendinginan berikutnya."
+        },
+        {
+          "id": "B",
+          "text": "温度計の故障と決めつけ、温度計を取り替えて測定し直すだけで加熱は継続しない。",
+          "translation": "Menganggap termometer rusak dan hanya mengganti termometer tanpa melanjutkan pemanasan."
+        },
+        {
+          "id": "C",
+          "text": "測定結果を75℃と書き換えて作業を迅速に進める。",
+          "translation": "Mengubah catatan hasil pengukuran menjadi 75℃ agar pekerjaan selesai lebih cepat."
+        },
+        {
+          "id": "D",
+          "text": "直ちに加熱を継続して中心温度を75℃以上に到達させ、規定時間保持した上で、逸脱を責任者に報告し記録する。",
+          "translation": "Segera lanjutkan pemanasan hingga suhu pusat mencapai 75℃ ke atas selama waktu yang ditentukan, lalu laporkan penyimpangan ke atasan dan catat."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pada proses pemanasan (CCP), batas kritis ditetapkan 'suhu pusat 75℃ ke atas selama 1 menit'. Saat diukur suhunya baru 70℃. Pilihlah tindakan yang paling tepat bagi pekerja."
+    },
+    {
+      "id": "lab-haccp-010",
+      "questionNumber": 10,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "包装工程の金属検出機（CCP）の始業前点検において、テストピースを通したところ検出アラームが作動しませんでした。作業者の適切な対応として正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "包装工程の金属検出機（CCP）の始業前点検において、テストピースを通したところ検出アラームが作動しませんでした。作業者の適切な対応として正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B】\n金属検出機がテストピースを検知できない場合、金属異物が混入した製品がそのまま流出する重大な危険があります。直ちに製造ラインを停止し、責任者に報告します。また、装置がいつから異常だったか不明なため、前回正常に作動していたことが確認できた時点まで遡り、その間に製造された製品をすべて隔離・再検査します。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000010,
+      "updatedAt": 1762520000010,
+      "options": [
+        {
+          "id": "A",
+          "text": "金属検出機を通過させずに、そのまま段ボールに箱詰めして出荷する。",
+          "translation": "Tetap mengemas produk ke dalam kardus dan mengirimnya tanpa melewati detektor logam."
+        },
+        {
+          "id": "B",
+          "text": "直ちにラインを停止し、責任者に報告するとともに、前回の正常確認以降に通過した製品をすべて保留・隔離する。",
+          "translation": "Segera hentikan jalur produksi, lapor penanggung jawab, dan tahan/isolasi seluruh produk yang lewat sejak pemeriksaan normal terakhir."
+        },
+        {
+          "id": "C",
+          "text": "アラームの音量が小さいだけと判断し、製造をそのまま続行する。",
+          "translation": "Menganggap volume alarm hanya terlalu kecil dan tetap melanjutkan produksi."
+        },
+        {
+          "id": "D",
+          "text": "製品の外観を目視で確認するだけで、機械の点検は翌日に回す。",
+          "translation": "Hanya memeriksa tampilan luar produk secara visual dan menunda perbaikan mesin keesokan harinya."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pada pemeriksaan awal mesin detektor logam (CCP) di lini pengemasan, alarm tidak berbunyi saat test piece dilewatkan. Pilihlah tindakan yang benar dan tepat."
+    },
+    {
+      "id": "lab-haccp-011",
+      "questionNumber": 11,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "HACCPにおける食品の危害要因（ハザード）の3つの分類として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "HACCPにおける食品の危害要因（ハザード）の3つの分類として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D】\n食品安全におけるハザードは以下の3つに大別されます。①生物的危害要因（食中毒菌、ノロウイルス、寄生虫など）、②化学的危害要因（残留農薬、洗剤・消毒液、アレルゲン、カビ毒など）、③物理的危害要因（金属片、硬質プラスチック、ガラス片、石など）。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000011,
+      "updatedAt": 1762520000011,
+      "options": [
+        {
+          "id": "A",
+          "text": "価格的危害要因、包装デザインの危害要因、従業員の性格的危害要因",
+          "translation": "Bahaya harga, bahaya desain kemasan, dan bahaya kepribadian karyawan."
+        },
+        {
+          "id": "B",
+          "text": "国内法要因、国際輸出入要因、為替相場要因",
+          "translation": "Faktor hukum domestik, faktor ekspor-impor internasional, dan faktor kurs mata uang."
+        },
+        {
+          "id": "C",
+          "text": "機械故障要因、電気代高騰要因、工場敷地要因",
+          "translation": "Faktor kerusakan mesin, faktor kenaikan tarif listrik, dan faktor lahan pabrik."
+        },
+        {
+          "id": "D",
+          "text": "生物的危害要因（細菌・ウイルス）、化学的危害要因（洗剤・アレルゲン）、物理的危害要因（金属・硬質異物）",
+          "translation": "Bahaya biologis (bakteri/virus), bahaya kimia (deterjen/alergen), dan bahaya fisik (logam/benda keras asing)."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu klasifikasi yang benar dari 3 jenis bahaya (hazard) pangan dalam sistem HACCP."
+    },
+    {
+      "id": "lab-haccp-012",
+      "questionNumber": 12,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-haccp",
+      "setName": "Lab Soal — HACCP・衛生管理 (HACCP Principles)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "一般衛生管理（施設設備の清掃・消毒、手洗い、健康管理など）とHACCPの関係について、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "一般衛生管理（施設設備の清掃・消毒、手洗い、健康管理など）とHACCPの関係について、最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：B】\nHACCPは単独で成立するものではなく、良好な製造規範（GMP）や標準衛生作業手順書（SSOP）などの「一般衛生管理」が工場の土台として日常的に機能していることが不可欠です。土台が不十分な環境では、いくらCCPを管理しても安全な食品を製造することはできません。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762520000012,
+      "updatedAt": 1762520000012,
+      "options": [
+        {
+          "id": "A",
+          "text": "HACCPを導入すれば、工場の清掃や手洗いなどの一般衛生管理は一切行わなくてよい。",
+          "translation": "Jika sudah menerapkan HACCP, sanitasi umum seperti membersihkan pabrik dan mencuci tangan sama sekali tidak perlu dilakukan lagi."
+        },
+        {
+          "id": "B",
+          "text": "一般衛生管理はHACCPの土台（前提条件プログラム: PRP）であり、この土台が確立されて初めてHACCPが有効に機能する。",
+          "translation": "Sanitasi umum adalah fondasi (PRP) dari HACCP; hanya jika fondasi ini tegak barulah sistem HACCP dapat berfungsi secara efektif."
+        },
+        {
+          "id": "C",
+          "text": "一般衛生管理とHACCPは全く別物であり、食品工場では一般衛生管理だけを行えば十分である。",
+          "translation": "Sanitasi umum dan HACCP adalah hal yang sama sekali terpisah, dan di pabrik pangan cukup menjalankan sanitasi umum saja."
+        },
+        {
+          "id": "D",
+          "text": "一般衛生管理を行うとHACCPの管理基準が厳しくなりすぎるため、併用してはならない。",
+          "translation": "Sanitasi umum tidak boleh digabung karena dapat membuat standar batas kritis HACCP menjadi terlalu ketat."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah pernyataan yang paling tepat mengenai hubungan antara Sanitasi Umum (pembersihan fasilitas, cuci tangan, manajemen kesehatan) dan HACCP."
+    },
+    {
+      "id": "lab-alg-001",
+      "questionNumber": 1,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "日本の食品表示法において、容器包装された加工食品に表示が法律で義務付けられている「特定原材料」の品目数として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "日本の食品表示法において、容器包装された加工食品に表示が法律で義務付けられている「特定原材料」の品目数として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B (8品目)】\n食品表示法で表示が義務付けられている「特定原材料」は、えび、かに、くるみ、小麦、そば、卵、乳、落花生（ピーナッツ）の計8品目です（※2023年に「くるみ」が義務品目に追加されました）。表示が推奨される「特定原材料に準ずるもの」は20品目あります。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000001,
+      "updatedAt": 1762530000001,
+      "options": [
+        {
+          "id": "A",
+          "text": "20品目",
+          "translation": "20 bahan"
+        },
+        {
+          "id": "B",
+          "text": "8品目",
+          "translation": "8 bahan"
+        },
+        {
+          "id": "C",
+          "text": "5品目",
+          "translation": "5 bahan"
+        },
+        {
+          "id": "D",
+          "text": "28品目",
+          "translation": "28 bahan"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Dalam Undang-Undang Pelabelan Pangan Jepang, pilihlah jumlah bahan yang benar untuk 'Bahan Baku Tertentu (Tokutei Genzairyou)' yang wajib dicantumkan menurut hukum pada pangan olahan dalam kemasan."
+    },
+    {
+      "id": "lab-alg-002",
+      "questionNumber": 2,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "ナッツ類のうち、法律で表示が「義務」付けられている「特定原材料」として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "ナッツ類のうち、法律で表示が「義務」付けられている「特定原材料」として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (くるみ)】\nナッツ類の中で法律上の表示義務がある「特定原材料」は「落花生（ピーナッツ）」と「くるみ」です。アーモンド、カシューナッツ、マカダミアナッツなどは表示が推奨される「特定原材料に準ずるもの」に区分されています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000002,
+      "updatedAt": 1762530000002,
+      "options": [
+        {
+          "id": "A",
+          "text": "くるみ（walnut）",
+          "translation": "Kenari (walnut)"
+        },
+        {
+          "id": "B",
+          "text": "アーモンド",
+          "translation": "Almond"
+        },
+        {
+          "id": "C",
+          "text": "カシューナッツ",
+          "translation": "Kacang mete (cashew)"
+        },
+        {
+          "id": "D",
+          "text": "マカダミアナッツ",
+          "translation": "Kacang macadamia"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Di antara kelompok kacang-kacangan/kacang pohon, pilihlah satu yang benar sebagai 'Bahan Baku Tertentu (wajib dicantumkan)' menurut hukum."
+    },
+    {
+      "id": "lab-alg-003",
+      "questionNumber": 3,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "法律上の表示義務がある「特定原材料8品目」のみで構成されている組み合わせとして、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "法律上の表示義務がある「特定原材料8品目」のみで構成されている組み合わせとして、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D】\n特定原材料（義務8品目）は「えび・かに・くるみ・小麦・そば・卵・乳・落花生（ピーナッツ）」です。大豆、牛肉、豚肉、鶏肉、ごまなどは「特定原材料に準ずるもの（推奨）」です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000003,
+      "updatedAt": 1762530000003,
+      "options": [
+        {
+          "id": "A",
+          "text": "小麦、大豆、卵、乳、牛肉、豚肉、鶏肉、さけ",
+          "translation": "Gandum, kedelai, telur, susu, sapi, babi, ayam, salmon"
+        },
+        {
+          "id": "B",
+          "text": "そば、落花生、アーモンド、ごま、カシューナッツ、ゼラチン、いか、りんご",
+          "translation": "Soba, kacang tanah, almond, wijen, mete, gelatin, cumi, apel"
+        },
+        {
+          "id": "C",
+          "text": "えび、かに、大豆、オレンジ、キウイフルーツ、バナナ、もも、やまいも",
+          "translation": "Udang, kepiting, kedelai, jeruk, kiwi, pisang, persik, ubi jepang"
+        },
+        {
+          "id": "D",
+          "text": "小麦、そば、卵、乳、落花生、えび、かに、くるみ",
+          "translation": "Gandum, soba, telur, susu, kacang tanah, udang, kepiting, kenari"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu kombinasi yang seluruhnya terdiri dari '8 Bahan Baku Tertentu yang Wajib Dicantumkan'."
+    },
+    {
+      "id": "lab-alg-004",
+      "questionNumber": 4,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "特定原材料の一つである「落花生」の読み方および一般的な別名として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "特定原材料の一つである「落花生」の読み方および一般的な別名として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C (らっかせい／ピーナッツ)】\n「落花生」は「らっかせい」と読み、ピーナッツのことです。特定原材料（表示義務）の一つであり、微量混入でも激しいアレルギー症状（アナフィラキシー）を起こす危険があります。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000004,
+      "updatedAt": 1762530000004,
+      "options": [
+        {
+          "id": "A",
+          "text": "だいず（ソイビーン）",
+          "translation": "Daizu (soybean / kedelai)"
+        },
+        {
+          "id": "B",
+          "text": "こむぎ（ウィート）",
+          "translation": "Komugi (wheat / gandum)"
+        },
+        {
+          "id": "C",
+          "text": "らっかせい（ピーナッツ）",
+          "translation": "Rakkasei (peanut / kacang tanah)"
+        },
+        {
+          "id": "D",
+          "text": "ごま（セサミ）",
+          "translation": "Goma (sesame / wijen)"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah cara baca dan nama umum yang benar untuk '落花生', salah satu bahan baku wajib."
+    },
+    {
+      "id": "lab-alg-005",
+      "questionNumber": 5,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「卵（たまご）」および「乳（にゅう）」の表示に関する記述として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "「卵（たまご）」および「乳（にゅう）」の表示に関する記述として、最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：B】\n「卵」および「乳」は特定原材料（義務品目）です。加熱調理してもアレルゲンとしての反応性を完全になくすことはできないため、微量でも原材料として使用した場合は必ず表示しなければなりません（鶏卵だけでなくうずら卵等も含みます）。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000005,
+      "updatedAt": 1762530000005,
+      "options": [
+        {
+          "id": "A",
+          "text": "卵は表示義務があるが、牛乳やチーズなどの乳製品は表示義務がない。",
+          "translation": "Telur wajib dicantumkan, namun produk olahan susu seperti susu dan keju tidak wajib."
+        },
+        {
+          "id": "B",
+          "text": "どちらも特定原材料（表示義務）であり、原材料として少量でも使用した場合は必ず表示しなければならない。",
+          "translation": "Keduanya adalah bahan baku wajib; bila digunakan sebagai bahan bahkan dalam jumlah sedikit pun wajib dicantumkan."
+        },
+        {
+          "id": "C",
+          "text": "加熱調理して完全に火を通せばアレルゲン性が消えるため、表示を省略できる。",
+          "translation": "Boleh menghilangkan pelabelan jika dipanaskan matang sempurna karena sifat alergennya hilang."
+        },
+        {
+          "id": "D",
+          "text": "鶏卵のみが表示対象で、うずらの卵は特定原材料の範囲外である。",
+          "translation": "Hanya telur ayam yang menjadi sasaran, telur puyuh di luar cakupan bahan baku wajib."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah pernyataan yang paling tepat mengenai pelabelan 'telur (tamago)' dan 'susu/produk susu (nyuu)'."
+    },
+    {
+      "id": "lab-alg-006",
+      "questionNumber": 6,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「そば」が特定原材料（表示義務）に指定されている主な理由として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "「そば」が特定原材料（表示義務）に指定されている主な理由として、最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：A】\nそばは微量の粉末吸入や喫食でもアナフィラキシーショック等の急激かつ重篤な症状を引き起こすリスクが高いため、古くから特定原材料（表示義務）の最重要品目として指定されています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000006,
+      "updatedAt": 1762530000006,
+      "options": [
+        {
+          "id": "A",
+          "text": "極めて微量の混入であっても、呼吸困難やショックなど生命に関わる重篤なアレルギー症状を引き起こしやすいため。",
+          "translation": "Karena bahkan kontaminasi dalam jumlah sangat sedikit pun sangat mudah memicu gejala alergi berat yang mengancam nyawa seperti sesak napas dan syok."
+        },
+        {
+          "id": "B",
+          "text": "日本のすべての食品工場で必ず毎日使用されている原材料だから。",
+          "translation": "Karena merupakan bahan baku yang pasti digunakan setiap hari di semua pabrik pangan Jepang."
+        },
+        {
+          "id": "C",
+          "text": "そば粉は賞味期限が非常に短く腐敗しやすい細菌を持っているから。",
+          "translation": "Karena tepung soba memiliki masa kedaluwarsa yang sangat singkat dan membawa bakteri pembusuk."
+        },
+        {
+          "id": "D",
+          "text": "外国から輸入されるそば粉に農薬が多く含まれているから。",
+          "translation": "Karena tepung soba yang diimpor dari luar negeri banyak mengandung pestisida."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu alasan paling tepat mengapa 'soba (buckwheat)' ditetapkan sebagai Bahan Baku Tertentu yang Wajib Dicantumkan."
+    },
+    {
+      "id": "lab-alg-007",
+      "questionNumber": 7,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "近年のアレルギー発症事例の急増に伴い、2023年（令和5年）に「特定原材料（表示義務）」へ新たに追加・昇格された品目として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "近年のアレルギー発症事例の急増に伴い、2023年（令和5年）に「特定原材料（表示義務）」へ新たに追加・昇格された品目として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D (くるみ)】\nくるみは健康志向等による消費量の増加に伴い、重篤な即時型アレルギー事例が急増したため、2023年3月に特定原材料に準ずるもの（推奨）から「特定原材料（表示義務）」へ追加指定されました。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000007,
+      "updatedAt": 1762530000007,
+      "options": [
+        {
+          "id": "A",
+          "text": "アーモンド",
+          "translation": "Almond"
+        },
+        {
+          "id": "B",
+          "text": "ごま",
+          "translation": "Wijen"
+        },
+        {
+          "id": "C",
+          "text": "大豆",
+          "translation": "Kedelai"
+        },
+        {
+          "id": "D",
+          "text": "くるみ",
+          "translation": "Kenari (walnut)"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Seiring lonjakan kasus alergi, pilihlah satu bahan yang resmi dinaikkan statusnya menjadi 'Bahan Baku Tertentu (Wajib Dicantumkan)' pada tahun 2023."
+    },
+    {
+      "id": "lab-alg-008",
+      "questionNumber": 8,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "原材料に使用される「肉類（食肉）」のアレルゲン表示区分について、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "原材料に使用される「肉類（食肉）」のアレルゲン表示区分について、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：C】\n食肉類（牛肉、豚肉、鶏肉）はすべて「特定原材料に準ずるもの（表示が推奨される20品目）」です。義務8品目には肉類は含まれていませんが、消費者への正確な情報提供のため表示が強く推奨されています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000008,
+      "updatedAt": 1762530000008,
+      "options": [
+        {
+          "id": "A",
+          "text": "牛肉だけが「特定原材料（表示義務）」で、豚肉と鶏肉は表示不要である。",
+          "translation": "Hanya daging sapi yang 'wajib', sedangkan babi dan ayam tidak memerlukan pelabelan."
+        },
+        {
+          "id": "B",
+          "text": "豚肉は義務品目であるが、牛肉と鶏肉はアレルゲン品目に一切指定されていない。",
+          "translation": "Daging babi adalah bahan wajib, namun sapi dan ayam sama sekali tidak terdaftar sebagai alergen."
+        },
+        {
+          "id": "C",
+          "text": "牛肉、豚肉、鶏肉は、いずれも「特定原材料に準ずるもの（表示推奨20品目）」に区分されている。",
+          "translation": "Daging sapi, daging babi, dan daging ayam semuanya diklasifikasikan ke dalam 'Bahan Rekomendasi (20 bahan anjuran)'."
+        },
+        {
+          "id": "D",
+          "text": "食肉はすべて特定原材料（表示義務8品目）に指定されている。",
+          "translation": "Semua daging konsumsi ditetapkan ke dalam 8 bahan baku wajib."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah pernyataan yang benar mengenai klasifikasi pelabelan alergen untuk kelompok daging (daging konsumsi)."
+    },
+    {
+      "id": "lab-alg-009",
+      "questionNumber": 9,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「特定原材料に準ずるもの（表示推奨20品目）」に含まれる果実類の組み合わせとして、適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "「特定原材料に準ずるもの（表示推奨20品目）」に含まれる果実類の組み合わせとして、適切なものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：B】\nアレルゲン表示推奨品目（特定原材料に準ずるもの）に指定されている果実類は、オレンジ、キウイフルーツ、バナナ、もも、りんごの5品目です（※まつたけは過去指定されていましたが削除されました）。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000009,
+      "updatedAt": 1762530000009,
+      "options": [
+        {
+          "id": "A",
+          "text": "いちご、ぶどう、みかん、メロン、すいか",
+          "translation": "Stroberi, anggur, jeruk mikan, melon, semangka"
+        },
+        {
+          "id": "B",
+          "text": "オレンジ、キウイフルーツ、バナナ、もも、りんご",
+          "translation": "Jeruk, kiwi, pisang, persik (momo), apel"
+        },
+        {
+          "id": "C",
+          "text": "パイナップル、レモン、グレープフルーツ、マンゴー",
+          "translation": "Nanas, lemon, grapefruit, mangga"
+        },
+        {
+          "id": "D",
+          "text": "ブルーベリー、アボカド、梨、柿",
+          "translation": "Bluberi, alpukat, pir, kesemek"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah kombinasi buah yang tepat yang termasuk ke dalam 'Bahan Rekomendasi (20 Bahan yang Dianjurkan)'."
+    },
+    {
+      "id": "lab-alg-010",
+      "questionNumber": 10,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "魚介類のアレルゲン表示区分について、義務品目（特定原材料）と推奨品目の組み合わせとして正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "魚介類のアレルゲン表示区分について、義務品目（特定原材料）と推奨品目の組み合わせとして正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A】\n甲殻類の「えび」「かに」の2品目が法律上の「特定原材料（表示義務）」です。魚介類のうち「あわび」「いか」「いくら」「さけ」「さば」の5品目は「特定原材料に準ずるもの（表示推奨）」です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000010,
+      "updatedAt": 1762530000010,
+      "options": [
+        {
+          "id": "A",
+          "text": "義務品目：えび、かに ／ 推奨品目：あわび、いか、いくら、さけ、さば",
+          "translation": "Bahan Wajib: udang, kepiting ／ Bahan Rekomendasi: abalon, cumi, ikura, salmon, makarel"
+        },
+        {
+          "id": "B",
+          "text": "義務品目：さけ、さば ／ 推奨品目：えび、かに、たこ",
+          "translation": "Bahan Wajib: salmon, makarel ／ Bahan Rekomendasi: udang, kepiting, gurita"
+        },
+        {
+          "id": "C",
+          "text": "義務品目：いか、たこ ／ 推奨品目：あわび、ホタテ、マグロ",
+          "translation": "Bahan Wajib: cumi, gurita ／ Bahan Rekomendasi: abalon, scallop, tuna"
+        },
+        {
+          "id": "D",
+          "text": "魚介類はすべて表示義務品目に指定されている。",
+          "translation": "Seluruh hasil perikanan/laut ditetapkan ke dalam bahan wajib."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah kombinasi yang benar antara bahan wajib dan bahan rekomendasi untuk produk hasil laut/perikanan."
+    },
+    {
+      "id": "lab-alg-011",
+      "questionNumber": 11,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "「大豆（だいず）」および「ごま」の日本におけるアレルゲン表示上の位置づけとして、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "「大豆（だいず）」および「ごま」の日本におけるアレルゲン表示上の位置づけとして、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D】\n大豆（しょう油や豆腐の原料）およびごまは、使用頻度が高くアレルギー症例も多く存在しますが、日本の食品表示法上は「特定原材料に準ずるもの（表示推奨）」に分類されています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000011,
+      "updatedAt": 1762530000011,
+      "options": [
+        {
+          "id": "A",
+          "text": "どちらも「特定原材料（法律で表示が義務付けられている品目）」である。",
+          "translation": "Keduanya adalah 'Bahan Baku Tertentu (wajib dicantumkan secara hukum)'."
+        },
+        {
+          "id": "B",
+          "text": "大豆は義務品目であるが、ごまはアレルゲン対象品目ではない。",
+          "translation": "Kedelai adalah bahan wajib, namun wijen bukan merupakan bahan alergen."
+        },
+        {
+          "id": "C",
+          "text": "ごまは義務品目であるが、大豆はアレルゲン対象品目ではない。",
+          "translation": "Wijen adalah bahan wajib, namun kedelai bukan merupakan bahan alergen."
+        },
+        {
+          "id": "D",
+          "text": "どちらも「特定原材料に準ずるもの（表示を推奨する品目）」に分類される。",
+          "translation": "Keduanya diklasifikasikan sebagai 'Bahan Rekomendasi (dianjurkan untuk dicantumkan)'."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu pernyataan yang benar mengenai posisi pelabelan alergen untuk 'kedelai (daizu)' dan 'wijen (goma)' di Jepang."
+    },
+    {
+      "id": "lab-alg-012",
+      "questionNumber": 12,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "同一の製造ラインで「アレルゲンを含む製品」と「アレルゲンを含まない製品」の両方を製造する場合、交差汚染（コンタミネーション）を防ぐ生産計画として最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "同一の製造ラインで「アレルゲンを含む製品」と「アレルゲンを含まない製品」の両方を製造する場合、交差汚染（コンタミネーション）を防ぐ生産計画として最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：C】\nアレルゲンの交差汚染を防ぐ基本原則は「製造スケジュールの工夫（シークエンス管理）」です。非アレルゲン製品を先に製造し、アレルゲン含有製品を最後に製造すれば、翌朝までの完全な分解洗浄・消毒と組み合わせて交差汚染リスクを最小化できます。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000012,
+      "updatedAt": 1762530000012,
+      "options": [
+        {
+          "id": "A",
+          "text": "アレルゲンを含む製品を先に製造し、その直後に清掃を行わずに非アレルゲン製品を流す。",
+          "translation": "Memproduksi produk ber-alergen lebih dahulu, lalu langsung menjalankan produk non-alergen tanpa pembersihan."
+        },
+        {
+          "id": "B",
+          "text": "午前と午後で1時間ごとに製品を交互に切り替えて製造効率を最大化する。",
+          "translation": "Berganti-ganti produk setiap jam antara pagi dan siang untuk memaksimalkan efisiensi."
+        },
+        {
+          "id": "C",
+          "text": "アレルゲンを含まない製品を先に製造し、アレルゲンを含む製品を1日の最後に製造する。",
+          "translation": "Memproduksi produk non-alergen terlebih dahulu, dan memproduksi produk yang mengandung alergen di akhir hari produksi."
+        },
+        {
+          "id": "D",
+          "text": "製造順序はアレルゲンに関係なく、製品のパッケージの色順に決定する。",
+          "translation": "Urutan produksi ditentukan berdasarkan warna kemasan produk tanpa memedulikan alergen."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Jika memproduksi produk ber-alergen dan non-alergen pada lini yang sama, pilihlah rencana produksi yang paling tepat untuk mencegah kontaminasi silang."
+    },
+    {
+      "id": "lab-alg-013",
+      "questionNumber": 13,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "アレルゲンを含む製品を製造した後、アレルゲンを含まない製品へラインを切り替える際の洗浄・確認手順として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "アレルゲンを含む製品を製造した後、アレルゲンを含まない製品へラインを切り替える際の洗浄・確認手順として、最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：B】\nアレルゲンは微量（ppmオーダー）の混入でもアレルギー患者に重篤な危害を及ぼします。切り替え時には設備の分解洗浄、適切な洗剤による残渣除去を行い、タンパク質残留確認や簡易アレルゲン検査キット（イムノクロマト法等）を用いて洗浄の有効性を確認します。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000013,
+      "updatedAt": 1762530000013,
+      "options": [
+        {
+          "id": "A",
+          "text": "乾いた布でベルトコンベアの表面を軽く払うだけで直ちに製造を開始する。",
+          "translation": "Cukup mengusap ringan permukaan konveyor dengan kain kering lalu segera memulai produksi."
+        },
+        {
+          "id": "B",
+          "text": "製造設備を分解して隅々まで徹底的に洗浄し、残留検査（スワブ検査キット等）でアレルゲン残存がないことを確認する。",
+          "translation": "Membongkar peralatan dan membersihkannya secara menyeluruh, lalu memverifikasi tidak adanya residu alergen melalui uji swab kit."
+        },
+        {
+          "id": "C",
+          "text": "最初の10個の製品にアレルゲンが混ざることを前提として、そのまま出荷する。",
+          "translation": "Mengirim produk seperti biasa dengan asumsi 10 produk pertama pasti tercampur alergen."
+        },
+        {
+          "id": "D",
+          "text": "前回の製品の匂いが消えていれば、水洗いは一切行わなくてよい。",
+          "translation": "Jika aroma produk sebelumnya sudah hilang, pencucian air sama sekali tidak perlu dilakukan."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah prosedur pembersihan dan verifikasi yang paling tepat saat beralih memproduksi produk non-alergen setelah memproduksi produk ber-alergen."
+    },
+    {
+      "id": "lab-alg-014",
+      "questionNumber": 14,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "原材料の計量室において、小麦粉や卵液などのアレルゲン原料を取り扱う際の交差汚染防止策として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "原材料の計量室において、小麦粉や卵液などのアレルゲン原料を取り扱う際の交差汚染防止策として、最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：A】\nアレルゲンの交差汚染を防ぐため、器具（計量カップ、ヘラ、スコップ、バケット等）をアレルゲン原料専用とし、色分け（例：小麦粉＝黄、卵＝赤、非アレルゲン＝白など）して混用を物理的に防ぎます。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000014,
+      "updatedAt": 1762530000014,
+      "options": [
+        {
+          "id": "A",
+          "text": "スコップ、計量容器、バットなどを色分け（カラーリング）し、アレルゲン専用の器具として区別して使用する。",
+          "translation": "Memberi kode warna pada sekop, wadah takar, dan baki wadah, lalu menggunakannya khusus untuk masing-masing alergen."
+        },
+        {
+          "id": "B",
+          "text": "1本のスコップをすべての粉末原材料の計量に使い回して作業効率を高める。",
+          "translation": "Menggunakan 1 sekop secara bergantian untuk semua bahan bubuk demi mempercepat efisiensi."
+        },
+        {
+          "id": "C",
+          "text": "アレルゲン原料の容器のフタは常に開けたままにして素早く取り出せるようにする。",
+          "translation": "Selalu membiarkan tutup wadah bahan alergen terbuka agar cepat diambil."
+        },
+        {
+          "id": "D",
+          "text": "こぼれた小麦粉は手で払って他の調味料の容器の中に戻す。",
+          "translation": "Tepung terigu yang tumpah ditepuk dengan tangan lalu dimasukkan kembali ke wadah bumbu lain."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah tindakan pencegahan kontaminasi silang yang paling tepat saat menangani bahan baku alergen seperti tepung terigu dan telur cair di ruang penimbangan."
+    },
+    {
+      "id": "lab-alg-015",
+      "questionNumber": 15,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "食品の包装ラベルにおけるアレルゲンの「可能性表示（予防的表示）」に関する食品表示法のルールとして、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "食品の包装ラベルにおけるアレルゲンの「可能性表示（予防的表示）」に関する食品表示法のルールとして、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：D】\n食品表示基準上、洗浄管理等の交差汚染防止措置を怠ったまま免責を狙って「〇〇が入っているかもしれません」「〇〇が入っている可能性があります」といった可能性表示（曖昧表示）を行うことは禁止されています。※なお、共通ライン製造の事実を客観的に示す「本品製造ラインでは〇〇を含む製品を製造しています」という注意喚起は認められています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000015,
+      "updatedAt": 1762530000015,
+      "options": [
+        {
+          "id": "A",
+          "text": "洗浄が面倒な場合は、すべてのアレルゲンについて「入っているかもしれない」と書けば自由に免責される。",
+          "translation": "Jika malas membersihkan alat, bebas lepas tanggung jawab dengan menulis 'mungkin mengandung' untuk semua alergen."
+        },
+        {
+          "id": "B",
+          "text": "可能性表示を行えば、法律で義務付けられている特定原材料の正式な表示を省略できる。",
+          "translation": "Melakukan pelabelan kemungkinan memperbolehkan penghapusan pelabelan resmi bahan wajib."
+        },
+        {
+          "id": "C",
+          "text": "すべての加工食品に「28品目すべてが入っているかもしれない」と記載することが義務付けられている。",
+          "translation": "Diwajibkan mencantumkan 'mungkin mengandung seluruh 28 bahan' pada semua pangan olahan."
+        },
+        {
+          "id": "D",
+          "text": "「卵が入っているかもしれません」のような曖昧な注意喚起表示（可能性表示）は原則として認められていない。",
+          "translation": "Pelabelan peringatan yang ambigu seperti 'mungkin mengandung telur' (pelabelan kemungkinan) pada prinsipnya dilarang."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah aturan hukum pelabelan pangan yang benar mengenai 'pelabelan kemungkinan (precautionary labeling)' alergen pada kemasan produk pangan."
+    },
+    {
+      "id": "lab-alg-016",
+      "questionNumber": 16,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "原材料の受け入れ担当者が納品された原材料を点検する際、アレルゲン管理の観点で最も重要な確認行動はどれですか。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "原材料の受け入れ担当者が納品された原材料を点検する際、アレルゲン管理の観点で最も重要な確認行動はどれですか。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：C】\n原材料の配合変更や製造元での規格変更により、意図しないアレルゲンが新たに原材料へ追加される場合があります。受入時に現品ラベルと規格書を厳格に照合し、配合の変更がないかを確認することがアレルゲン事故を防ぐ防波堤となります。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000016,
+      "updatedAt": 1762530000016,
+      "options": [
+        {
+          "id": "A",
+          "text": "ダンボールのサイズが工場の棚に収まるかどうかだけを確認する。",
+          "translation": "Hanya memeriksa apakah ukuran kardus muat di rak penyimpanan pabrik."
+        },
+        {
+          "id": "B",
+          "text": "納品業者のトラックの車体の色をチェックするだけで検収を終える。",
+          "translation": "Menyelesaikan pemeriksaan hanya dengan memeriksa warna mobil truk pengantar."
+        },
+        {
+          "id": "C",
+          "text": "納品書、原材料規格書、および現品の外装ラベルを照合し、事前登録されていないアレルゲンの有無を確認する。",
+          "translation": "Mencocokkan surat jalan, spesifikasi bahan baku, dan label kemasan barang fisik untuk memastikan ada tidaknya alergen yang tidak terdaftar."
+        },
+        {
+          "id": "D",
+          "text": "ラベルを読まずに、直ちに開封して常温倉庫へ運び込む。",
+          "translation": "Langsung membuka dan memasukkannya ke gudang suhu ruang tanpa membaca label sama sekali."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Manakah tindakan pemeriksaan yang paling penting dari sudut pandang pengendalian alergen saat petugas penerimaan bahan baku memeriksa barang yang dikirim?"
+    },
+    {
+      "id": "lab-alg-017",
+      "questionNumber": 17,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "製造ラインでアレルゲンの誤表示や交差汚染が発生した場合に想定される最悪の消費者危害として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "製造ラインでアレルゲンの誤表示や交差汚染が発生した場合に想定される最悪の消費者危害として、最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：B】\n食物アレルギーは、微量のアレルゲン摂取でも血圧低下、呼吸困難、意識消失を伴う「アナフィラキシーショック」を引き起こし、短時間で死に至る重篤な健康危害となります。そのため、アレルゲン管理は製品回収（リコール）の主要因であり、工場全体で最優先管理されます。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000017,
+      "updatedAt": 1762530000017,
+      "options": [
+        {
+          "id": "A",
+          "text": "消費者が味の濃さに満足して大量に追加注文を行う。",
+          "translation": "Konsumen puas dengan kekayaan rasanya lalu memesan tambahan dalam jumlah besar."
+        },
+        {
+          "id": "B",
+          "text": "食物アレルギー患者が摂取し、アナフィラキシーショックにより呼吸停止や心肺停止などの生命の危険に陥る。",
+          "translation": "Konsumen penderita alergi mengonsumsi dan mengalami syok anafilaksis hingga henti napas/henti jantung yang mengancam nyawa."
+        },
+        {
+          "id": "C",
+          "text": "食品の賞味期限が予定よりも1週間長くなる。",
+          "translation": "Masa kedaluwarsa produk menjadi lebih panjang satu minggu dari yang dijadwalkan."
+        },
+        {
+          "id": "D",
+          "text": "工場の電気代が大幅に安くなる。",
+          "translation": "Biaya listrik pabrik menjadi jauh lebih murah secara signifikan."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah satu bahaya terburuk yang paling tepat yang dapat dialami konsumen jika terjadi kesalahan pelabelan atau kontaminasi silang alergen pada lini produksi."
+    },
+    {
+      "id": "lab-alg-018",
+      "questionNumber": 18,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "加工食品の原材料名欄において、個々の原材料名の直後に括弧をつけて「マヨネーズ（卵を含む）」のように表示する方式の名称として、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "加工食品の原材料名欄において、個々の原材料名の直後に括弧をつけて「マヨネーズ（卵を含む）」のように表示する方式の名称として、正しいものを一つ選びなさい。",
+      "instructions": "正しいものを一つ選びなさい。",
+      "explanation": "【正解：A (個別表示)】\n原材料名の直後にどのアレルゲンを含むかを個別に記載する方法を「個別表示」と呼びます（例：「パン粉（小麦を含む）」）。消費者がどの原材料に何のアレルゲンが含まれているかを最も正確かつ安全に把握できるため、原則として個別表示が推奨されています。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000018,
+      "updatedAt": 1762530000018,
+      "options": [
+        {
+          "id": "A",
+          "text": "個別表示（こべつひょうじ）",
+          "translation": "Pelabelan Individual (Kobetsu Hyouji)"
+        },
+        {
+          "id": "B",
+          "text": "一括表示（いっかつひょうじ）",
+          "translation": "Pelabelan Gabungan/Kolektif (Ikkatsu Hyouji)"
+        },
+        {
+          "id": "C",
+          "text": "免責表示（めんせきひょうじ）",
+          "translation": "Pelabelan Pelepasan Tanggung Jawab"
+        },
+        {
+          "id": "D",
+          "text": "非表示（ひひょうじ）",
+          "translation": "Non-display / Tanpa Tampilan"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah istilah yang benar untuk metode penulisan pelabelan yang menyertakan tanda kurung tepat setelah nama bahan seperti 'mayones (mengandung telur)' pada kolom bahan baku."
+    },
+    {
+      "id": "lab-alg-019",
+      "questionNumber": 19,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "製造室内で小麦粉などのアレルゲン粉末原料を床にこぼしてしまった場合の清掃手順として、最も適切なものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "製造室内で小麦粉などのアレルゲン粉末原料を床にこぼしてしまった場合の清掃手順として、最も適切なものを一つ選びなさい。",
+      "instructions": "最も適切なものを一つ選びなさい。",
+      "explanation": "【正解：D】\nアレルゲンの微粉末（小麦粉、大豆粉、そば粉など）は、エアブローや乾式箒で掃くと空気中に舞い上がり（エアロゾル化）、周囲の非アレルゲン製造ラインや設備の上部に落下して広範囲な交差汚染を引き起こします。HEPAフィルター付き掃除機や湿式拭き取り清掃が必須です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000019,
+      "updatedAt": 1762530000019,
+      "options": [
+        {
+          "id": "A",
+          "text": "圧縮空気のエアブローを最大風量で吹き付け、部屋全体へ粉塵を拡散させる。",
+          "translation": "Meniupkan angin kompresor dengan kecepatan maksimal agar debu menyebar ke seluruh ruangan."
+        },
+        {
+          "id": "B",
+          "text": "そのまま放置し、次善のシフトの作業者が踏み固めるのを待つ。",
+          "translation": "Membiarkannya begitu saja dan menunggu giliran kerja berikutnya menginjak-injaknya."
+        },
+        {
+          "id": "C",
+          "text": "作業靴で蹴飛ばして、近くの非アレルゲン製品の投入ホッパーの中へ落とす。",
+          "translation": "Menendangnya dengan sepatu kerja dan memasukkannya ke corong bahan non-alergen terdekat."
+        },
+        {
+          "id": "D",
+          "text": "エアガン（圧縮空気）で吹き飛ばさず、HEPAフィルター付き集塵機で吸引するか、湿らせたモップで周囲に飛散しないよう拭き取る。",
+          "translation": "Tidak meniupnya dengan semprotan angin kompresor, melainkan menyedot dengan vakum HEPA atau mengepel basah agar tidak beterbangan."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Pilihlah prosedur pembersihan yang paling tepat jika pekerja menumpahkan bahan bubuk ber-alergen seperti tepung terigu ke lantai ruang produksi."
+    },
+    {
+      "id": "lab-alg-020",
+      "questionNumber": 20,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-lab-alergen",
+      "setName": "Lab Soal — アレルゲン・特定原材料 (Allergen Lab)",
+      "points": 3.75,
+      "questionImage": "",
+      "questionText": "アレルゲン原料を取り扱う作業者の行動基準として、誤っているものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "アレルゲン原料を取り扱う作業者の行動基準として、誤っているものを一つ選びなさい。",
+      "instructions": "誤っているものを一つ選びなさい。",
+      "explanation": "【誤り（正解）：C】\nアレルゲンを扱った手袋や作業服には目に見えない微量のアレルゲン粉末が付着しています。手袋の交換や手洗い・粘着ローラーがけを行わずに非アレルゲン製品やラインに触れる行為は、重大な交差汚染（二次汚染）を引き起こす違反行為です。",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1762530000020,
+      "updatedAt": 1762530000020,
+      "options": [
+        {
+          "id": "A",
+          "text": "アレルゲン原料の計量作業が終了した後、手袋を廃棄して丁寧に手洗い・手指消毒を行った。",
+          "translation": "Setelah selesai menimbang bahan alergen, membuang sarung tangan lalu mencuci dan mendisinfeksi tangan dengan cermat."
+        },
+        {
+          "id": "B",
+          "text": "アレルゲン専用の作業エプロンを着用し、一般エリアへ移動する前に脱いで指定場所に保管した。",
+          "translation": "Mengenakan celemek kerja khusus alergen dan melepasnya ke tempat yang ditentukan sebelum pindah ke area umum."
+        },
+        {
+          "id": "C",
+          "text": "アレルゲンを触った手袋のまま、手洗いや手袋交換を行わずに非アレルゲンの製造ラインへ入って作業を続けた。",
+          "translation": "Tetap memakai sarung tangan yang telah menyentuh alergen untuk masuk dan bekerja di lini non-alergen tanpa cuci tangan atau ganti sarung tangan."
+        },
+        {
+          "id": "D",
+          "text": "アレルゲン原料の容器に破損や粉漏れがないかを日常的に点検した。",
+          "translation": "Memeriksa secara rutin apakah wadah bahan alergen tidak mengalami kerusakan atau kebocoran bubuk."
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Di antara standar perilaku pekerja yang menangani bahan alergen berikut, pilihlah satu tindakan yang salah (tidak boleh dilakukan)."
+    }
+  ]
+}
