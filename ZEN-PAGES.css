@@ -1542,6 +1542,28 @@
   font-size: 12.5px;
 }
 
+.zen-result-page .zen-study-card-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 750;
+  color: #6c7883;
+}
+
+.zen-result-page .zen-study-card-btn:hover {
+  color: #1a2228;
+  border-color: #8da4b8;
+}
+
+.zen-result-page .zen-study-card-btn.is-active {
+  background: rgba(158, 203, 101, 0.18) !important;
+  border-color: #9ecb65 !important;
+  color: #446e16 !important;
+  font-weight: 800;
+  box-shadow: 0 0 0 1px rgba(158, 203, 101, 0.35);
+}
+
 /* Per-card furigana override; specificity beats body.hide-furigana in RICH-HTML-STYLES.css */
 body .zen-result-page .zen-review-item.furigana-off ruby rt,
 body .zen-result-page .zen-review-item.furigana-off ruby rp {

@@ -391,6 +391,56 @@ const I18N = {
     revMarkUserCorrect: '✓ Jawaban Anda & Kunci Benar',
     revMarkKey: '✓ Kunci Jawaban Benar',
     revMarkUserWrong: '✗ Jawaban Anda',
+    furiShowTitle: 'Tampilkan Furigana',
+    furiHideTitle: 'Sembunyikan Furigana',
+    transShowTitle: 'Tampilkan Terjemahan Indonesia',
+    transHideTitle: 'Sembunyikan Terjemahan Indonesia',
+    histKicker: 'ARSIP EVALUASI',
+    unitSessions: 'sesi',
+    unitPackages: 'paket',
+    thPkg: 'Paket',
+    thAccuracy: 'Akurasi',
+    btnReview: 'Review',
+    btnDelete: 'Hapus',
+    emptyHistTitle: 'Belum ada rekaman ujian.',
+    emptyHistSub: 'Selesaikan satu sesi Mock Test untuk mulai melihat tren skor.',
+    backupKicker: 'DATA & PREFERENSI',
+    backupTitle: 'Backup & Pengaturan',
+    backupSecBackup: 'Cadangan & Pemulihan Data',
+    backupExportTitle: 'Ekspor Database',
+    backupExportDesc: 'Simpan seluruh bank soal, furigana, ilustrasi gambar, dan riwayat ujian ke penyimpanan perangkat.',
+    backupBtnZip: 'Unduh Arsip (.zip)',
+    backupBtnJson: 'Ekspor JSON (.json)',
+    backupRestoreTitle: 'Pulihkan atau Impor Paket',
+    backupRestoreDesc: 'Pilih berkas .zip atau .json untuk memulihkan cadangan atau menambahkan paket soal.',
+    backupBtnChooseFile: 'Pilih Berkas (.zip / .json)',
+    backupStatusNoFile: 'Belum ada berkas dipilih.',
+    backupSecPrefs: 'Preferensi Standar',
+    backupFieldDuration: 'Durasi Standar Mock Test (Menit)',
+    backupFieldCount: 'Jumlah Soal Standar',
+    backupToggleResume: 'Lanjutkan sesi otomatis setelah halaman dimuat ulang',
+    backupToggleFurigana: 'Tampilkan furigana (ふりがな) secara bawaan',
+    backupBtnSave: 'Simpan Preferensi',
+    backupBtnReset: 'Reset & Muat Ulang Paket Bawaan',
+    studyKicker: 'DAFTAR BELAJAR',
+    studyMetaCount: 'soal tersimpan',
+    studyAddedDate: 'Ditambahkan:',
+    studyCorrectKey: '✓ Kunci',
+    studyPromptTransLabel: 'Terjemahan Pertanyaan:',
+    studyExplanationLabel: 'Pembahasan:',
+    studyTransMissing: 'Terjemahan belum tersedia',
+    studyNoMatchFilter: 'Tidak ada soal yang cocok dengan filter atau kata kunci pencarian.',
+    studyResetFilterBtn: 'Reset Filter',
+    btnClose: 'Tutup',
+    reviewSectionTitle: 'Tinjauan Jawaban',
+    reviewSelectedLabel: 'Pilihan:',
+    reviewKeyLabel: 'Kunci:',
+    reviewTagCorrect: 'Benar',
+    reviewTagWrong: 'Salah',
+    reviewTagBlank: 'Kosong',
+    reviewPhotoChange: 'Ubah Foto Kandidat pada Report',
+    reviewPhotoAdd: 'Tambahkan Foto Kandidat pada Report (Opsional)',
+    reviewTransMissing: 'Terjemahan belum tersedia.',
     revKeySource: 'Informasi Kunci & Sumber'
   },
   en: {
@@ -578,6 +628,71 @@ const I18N = {
     revMarkUserCorrect: '✓ Your Answer & Correct Key',
     revMarkKey: '✓ Correct Answer Key',
     revMarkUserWrong: '✗ Your Answer',
+    navStudy: 'Study List',
+    studyPageDesc: 'Questions marked during CBT exams for deeper review and practice.',
+    studyAddTooltip: 'Add to Study List',
+    studyRemoveTooltip: 'Remove from Study List',
+    studyAddedToast: 'Question added to Study List.',
+    studyRemovedToast: 'Question removed from Study List.',
+    studyEmptyTitle: 'Study List is Empty',
+    studyEmptyDesc: 'Mark challenging questions during CBT exams or review by clicking the + button.',
+    studyFilterAll: 'All Packages',
+    studySearchPlaceholder: 'Search questions (Japanese / translation)…',
+    studySortRecent: 'Recently Added',
+    studySortOldest: 'Oldest Added',
+    studySortNumber: 'Question Number',
+    studyDetail: 'Question Detail',
+    studyRemoveBtn: 'Remove from List',
+    furiShowTitle: 'Show Furigana',
+    furiHideTitle: 'Hide Furigana',
+    transShowTitle: 'Show Indonesian Translation',
+    transHideTitle: 'Hide Indonesian Translation',
+    histKicker: 'EVALUATION ARCHIVE',
+    unitSessions: 'sessions',
+    unitPackages: 'packages',
+    thPkg: 'Package',
+    thAccuracy: 'Accuracy',
+    btnReview: 'Review',
+    btnDelete: 'Delete',
+    emptyHistTitle: 'No examination records yet.',
+    emptyHistSub: 'Complete a Mock Test session to view score trends and progress.',
+    backupKicker: 'DATA & PREFERENCES',
+    backupTitle: 'Backup & Settings',
+    backupSecBackup: 'Data Backup & Restore',
+    backupExportTitle: 'Export Database',
+    backupExportDesc: 'Save the entire question bank, furigana, illustrations, and exam history to local storage.',
+    backupBtnZip: 'Download Archive (.zip)',
+    backupBtnJson: 'Export JSON (.json)',
+    backupRestoreTitle: 'Restore or Import Packages',
+    backupRestoreDesc: 'Choose a .zip or .json file to restore backups or add question packages.',
+    backupBtnChooseFile: 'Choose File (.zip / .json)',
+    backupStatusNoFile: 'No file selected.',
+    backupSecPrefs: 'Standard Preferences',
+    backupFieldDuration: 'Standard Mock Test Duration (Minutes)',
+    backupFieldCount: 'Standard Question Count',
+    backupToggleResume: 'Automatically resume session after page reload',
+    backupToggleFurigana: 'Show furigana (ふりがな) by default',
+    backupBtnSave: 'Save Preferences',
+    backupBtnReset: 'Reset & Reload Built-in Sets',
+    studyKicker: 'STUDY LIST',
+    studyMetaCount: 'saved questions',
+    studyAddedDate: 'Added:',
+    studyCorrectKey: '✓ Key',
+    studyPromptTransLabel: 'Question Translation:',
+    studyExplanationLabel: 'Explanation:',
+    studyTransMissing: 'Translation not available',
+    studyNoMatchFilter: 'No questions match the current filter or search keyword.',
+    studyResetFilterBtn: 'Reset Filter',
+    btnClose: 'Close',
+    reviewSectionTitle: 'Answer Review',
+    reviewSelectedLabel: 'Selected:',
+    reviewKeyLabel: 'Key:',
+    reviewTagCorrect: 'Correct',
+    reviewTagWrong: 'Incorrect',
+    reviewTagBlank: 'Unanswered',
+    reviewPhotoChange: 'Change Candidate Photo on Report',
+    reviewPhotoAdd: 'Add Candidate Photo to Report (Optional)',
+    reviewTransMissing: 'Translation not available.',
     revKeySource: 'Answer Key & Source Info'
   },
   ja: {
@@ -780,6 +895,56 @@ const I18N = {
     revMarkUserCorrect: '✓ あなたの回答（正解）',
     revMarkKey: '✓ 正解の選択肢',
     revMarkUserWrong: '✗ あなたの回答',
+    furiShowTitle: 'ふりがなを表示',
+    furiHideTitle: 'ふりがなを非表示',
+    transShowTitle: 'インドネシア語訳を表示',
+    transHideTitle: 'インドネシア語訳を非表示',
+    histKicker: '評価アーカイブ',
+    unitSessions: '件',
+    unitPackages: 'パッケージ',
+    thPkg: 'パッケージ',
+    thAccuracy: '正答率',
+    btnReview: '詳細',
+    btnDelete: '削除',
+    emptyHistTitle: '試験履歴はまだありません。',
+    emptyHistSub: '模擬試験を完了すると、ここにスコア履歴が表示されます。',
+    backupKicker: 'データ＆設定',
+    backupTitle: 'バックアップと設定',
+    backupSecBackup: 'データのバックアップと復元',
+    backupExportTitle: 'データベース出力',
+    backupExportDesc: '問題バンク、ふりがな、画像、試験履歴を端末に保存します。',
+    backupBtnZip: 'ZIPアーカイブ保存 (.zip)',
+    backupBtnJson: 'JSON出力 (.json)',
+    backupRestoreTitle: 'バックアップ復元・パッケージ追加',
+    backupRestoreDesc: '.zip または .json ファイルを選択してデータを復元または追加します。',
+    backupBtnChooseFile: 'ファイルを選択 (.zip / .json)',
+    backupStatusNoFile: 'ファイル未選択',
+    backupSecPrefs: '基本設定',
+    backupFieldDuration: '模擬試験の標準時間（分）',
+    backupFieldCount: '標準問題数',
+    backupToggleResume: 'ページ再読み込み後にセッションを自動再開',
+    backupToggleFurigana: 'ふりがなをデフォルトで表示する',
+    backupBtnSave: '設定を保存',
+    backupBtnReset: '初期データをリセット＆再読込',
+    studyKicker: '学習リスト',
+    studyMetaCount: '問保存',
+    studyAddedDate: '追加日:',
+    studyCorrectKey: '✓ 正解',
+    studyPromptTransLabel: '問題の翻訳:',
+    studyExplanationLabel: '解説:',
+    studyTransMissing: '翻訳がまだありません',
+    studyNoMatchFilter: 'フィルターまたは検索キーワードに一致する問題がありません。',
+    studyResetFilterBtn: 'フィルターをリセット',
+    btnClose: '閉じる',
+    reviewSectionTitle: '解答の確認',
+    reviewSelectedLabel: 'あなたの回答:',
+    reviewKeyLabel: '正解:',
+    reviewTagCorrect: '正解',
+    reviewTagWrong: '不正解',
+    reviewTagBlank: '未回答',
+    reviewPhotoChange: '証明写真を変更',
+    reviewPhotoAdd: '証明写真を追加（任意）',
+    reviewTransMissing: '翻訳がまだありません。',
     revKeySource: '正解・出典情報'
   }
 };
@@ -923,9 +1088,9 @@ function updateShellLanguage() {
   };
   $$('.nav-item').forEach(btn => {
     const p = btn.dataset.page;
-    const spans = btn.querySelectorAll('span');
-    if (p && navMap[p] && spans.length >= 2) {
-      spans[1].textContent = navMap[p];
+    const labelSpan = btn.querySelector('[data-i18n]') || btn.querySelectorAll('span')[1];
+    if (p && navMap[p] && labelSpan) {
+      labelSpan.textContent = navMap[p];
     }
   });
   const tagline = $('.brand-tagline');
@@ -2589,11 +2754,11 @@ function renderHistory() {
     <div class="zen-page zen-history-page">
       <header class="zen-page-head">
         <div>
-          <span class="zen-kicker">ARSIP EVALUASI</span>
+          <span class="zen-kicker">${esc(t('histKicker'))}</span>
           <h1 class="zen-page-title">${esc(t('navHistory'))}</h1>
         </div>
         <div class="zen-page-head-actions">
-          <span class="zen-meta-count">${hist.length} sesi</span>
+          <span class="zen-meta-count">${hist.length} ${esc(t('unitSessions'))}</span>
           <button type="button" class="hd-btn-primary" data-page="setup">${esc(t('topStartExam'))}</button>
         </div>
       </header>
@@ -2605,11 +2770,11 @@ function renderHistory() {
               <thead>
                 <tr>
                   <th>${esc(t('thDate'))}</th>
-                  <th>Paket</th>
+                  <th>${esc(t('thPkg'))}</th>
                   <th>${esc(t('thMode'))}</th>
                   <th>${esc(t('thCorrect'))}</th>
                   <th>${esc(t('thPointScore'))}</th>
-                  <th>Akurasi</th>
+                  <th>${esc(t('thAccuracy'))}</th>
                   <th>${esc(t('thTime'))}</th>
                   <th></th>
                 </tr>
@@ -2634,8 +2799,8 @@ function renderHistory() {
                     <td class="hd-col-time" data-label="${esc(t('thTime'))}">${fmtDuration(elapsed)}</td>
                     <td class="hd-col-action">
                       <div class="zen-row-actions">
-                        <button type="button" class="hd-row-btn" data-action="open-result" data-id="${esc(s.id)}">Review</button>
-                        <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-history" data-id="${esc(s.id)}" title="Hapus">Hapus</button>
+                        <button type="button" class="hd-row-btn" data-action="open-result" data-id="${esc(s.id)}">${esc(t('btnReview'))}</button>
+                        <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-history" data-id="${esc(s.id)}" title="${esc(t('btnDelete'))}">${esc(t('btnDelete'))}</button>
                       </div>
                     </td>
                   </tr>`;
@@ -2660,35 +2825,35 @@ function renderBackup() {
     <div class="zen-page zen-backup-page">
       <header class="zen-page-head">
         <div>
-          <span class="zen-kicker">DATA &amp; PREFERENSI</span>
-          <h1 class="zen-page-title">Backup &amp; Pengaturan</h1>
-          <p class="zen-page-meta">${state.questions.length} soal · ${packages.filter(p => p.total > 0).length} paket · ${state.sessions.length} riwayat · ${(qMB / 1024 / 1024).toFixed(1)} MB</p>
+          <span class="zen-kicker">${esc(t('backupKicker'))}</span>
+          <h1 class="zen-page-title">${esc(t('backupTitle'))}</h1>
+          <p class="zen-page-meta">${state.questions.length} ${esc(t('unitSoal'))} · ${packages.filter(p => p.total > 0).length} ${esc(t('unitPackages'))} · ${state.sessions.length} ${esc(t('unitSessions'))} · ${(qMB / 1024 / 1024).toFixed(1)} MB</p>
         </div>
       </header>
 
       <section class="zen-section-block">
         <div class="zen-section-head">
-          <h2 class="hd-section-title">Cadangan &amp; Pemulihan Data</h2>
+          <h2 class="hd-section-title">${esc(t('backupSecBackup'))}</h2>
         </div>
         <div class="zen-backup-grid">
           <div class="zen-backup-col">
-            <h3 class="zen-subhead">Ekspor Database</h3>
-            <p class="zen-copy">Simpan seluruh bank soal, furigana, ilustrasi gambar, dan riwayat ujian ke penyimpanan perangkat.</p>
+            <h3 class="zen-subhead">${esc(t('backupExportTitle'))}</h3>
+            <p class="zen-copy">${esc(t('backupExportDesc'))}</p>
             <div class="zen-btn-row">
-              <button type="button" class="hd-btn-primary" data-action="export-zip">Unduh Arsip (.zip)</button>
-              <button type="button" class="hd-btn-secondary" data-action="export-json">Ekspor JSON (.json)</button>
+              <button type="button" class="hd-btn-primary" data-action="export-zip">${esc(t('backupBtnZip'))}</button>
+              <button type="button" class="hd-btn-secondary" data-action="export-json">${esc(t('backupBtnJson'))}</button>
             </div>
           </div>
 
           <div class="zen-backup-col">
-            <h3 class="zen-subhead">Pulihkan atau Impor Paket</h3>
-            <p class="zen-copy">Pilih berkas <code>.zip</code> atau <code>.json</code> untuk memulihkan cadangan atau menambahkan paket soal.</p>
+            <h3 class="zen-subhead">${esc(t('backupRestoreTitle'))}</h3>
+            <p class="zen-copy">${esc(t('backupRestoreDesc'))}</p>
             <div class="zen-file-row">
               <label class="hd-btn-secondary zen-file-trigger" for="backup-file">
-                Pilih Berkas (.zip / .json)
+                ${esc(t('backupBtnChooseFile'))}
                 <input id="backup-file" type="file" accept=".zip,.json,application/json,application/zip" hidden>
               </label>
-              <span id="import-status" class="zen-file-status">Belum ada berkas dipilih.</span>
+              <span id="import-status" class="zen-file-status">${esc(t('backupStatusNoFile'))}</span>
             </div>
           </div>
         </div>
@@ -2696,16 +2861,16 @@ function renderBackup() {
 
       <section class="zen-section-block">
         <div class="zen-section-head">
-          <h2 class="hd-section-title">Preferensi Standar</h2>
+          <h2 class="hd-section-title">${esc(t('backupSecPrefs'))}</h2>
         </div>
         <form id="settings-form" class="zen-form">
           <div class="zen-field-grid zen-field-grid-2">
             <label class="zen-field">
-              <span class="zen-label">Durasi Standar Mock Test (Menit)</span>
+              <span class="zen-label">${esc(t('backupFieldDuration'))}</span>
               <input name="standardDuration" type="number" min="1" max="300" value="${state.settings.standardDuration}">
             </label>
             <label class="zen-field">
-              <span class="zen-label">Jumlah Soal Standar</span>
+              <span class="zen-label">${esc(t('backupFieldCount'))}</span>
               <input name="standardCount" type="number" min="1" max="500" value="${state.settings.standardCount}">
             </label>
           </div>
@@ -2713,17 +2878,17 @@ function renderBackup() {
           <div class="zen-toggle-group">
             <label class="zen-check-row">
               <input name="resumeInterrupted" type="checkbox" ${state.settings.resumeInterrupted ? 'checked' : ''}>
-              <span>Lanjutkan sesi otomatis setelah halaman dimuat ulang</span>
+              <span>${esc(t('backupToggleResume'))}</span>
             </label>
             <label class="zen-check-row">
               <input name="defaultShowFurigana" type="checkbox" ${state.examPrefs.showFurigana ? 'checked' : ''}>
-              <span>Tampilkan furigana (ふりがな) secara bawaan</span>
+              <span>${esc(t('backupToggleFurigana'))}</span>
             </label>
           </div>
 
           <div class="zen-form-footer zen-form-footer-split">
-            <button class="hd-btn-primary" type="submit">Simpan Preferensi</button>
-            <button type="button" class="hd-text-btn hd-text-danger" data-action="clear-all-data">Reset &amp; Muat Ulang Paket Bawaan</button>
+            <button class="hd-btn-primary" type="submit">${esc(t('backupBtnSave'))}</button>
+            <button type="button" class="hd-text-btn hd-text-danger" data-action="clear-all-data">${esc(t('backupBtnReset'))}</button>
           </div>
         </form>
       </section>
@@ -3069,9 +3234,9 @@ function renderExamSettingsPopover() {
             <label for="exam-pref-lang"><strong>${esc(t('setLangTitle'))}</strong></label>
           </div>
           <select id="exam-pref-lang" aria-label="${esc(t('setLangTitle'))}">
-            <option value="id" ${state.lang === 'id' ? 'selected' : ''}>Bahasa Indonesia (ID)</option>
-            <option value="en" ${state.lang === 'en' ? 'selected' : ''}>English (EN)</option>
-            <option value="ja" ${state.lang === 'ja' ? 'selected' : ''}>日本語 (JA)</option>
+            <option value="id" ${state.lang === 'id' ? 'selected' : ''}>🇮🇩 ID</option>
+            <option value="en" ${state.lang === 'en' ? 'selected' : ''}>🇬🇧 EN</option>
+            <option value="ja" ${state.lang === 'ja' ? 'selected' : ''}>🇯🇵 JA</option>
           </select>
         </div>
 
@@ -3364,10 +3529,11 @@ function buildReviewCardsHTML(s, filter = 'all') {
     const answer = s.answers[q.id];
     const correct = answer === q.correctIndex;
     const blank = answer == null;
-    const tag = blank ? 'Kosong' : correct ? 'Benar' : 'Salah';
+    const tag = blank ? t('reviewTagBlank') : correct ? t('reviewTagCorrect') : t('reviewTagWrong');
     const img = getQuestionMainMedia(q);
     const isTransOpen = Boolean(state.showAllTranslations || state.openTranslationIds?.has(q.id));
     const cardFuriOn = state.cardFurigana?.has(q.id) ? Boolean(state.cardFurigana.get(q.id)) : Boolean(state.examPrefs.showFurigana);
+    const inStudy = isQuestionInStudy(q);
 
     const resolveLiveOption = (opt, idx) => {
       if (!opt || !Array.isArray(liveQ?.options)) return {};
@@ -3421,11 +3587,11 @@ function buildReviewCardsHTML(s, filter = 'all') {
       const isKey = i === q.correctIndex;
       const isUser = i === answer;
       const badgeMark = isKey && isUser
-        ? '✓ Pilihan & Kunci'
+        ? (state.lang === 'ja' ? '✓ あなたの回答・正解' : state.lang === 'en' ? '✓ Selected & Key' : '✓ Pilihan & Kunci')
         : isKey
-        ? '✓ Kunci'
+        ? (state.lang === 'ja' ? '✓ 正解' : state.lang === 'en' ? '✓ Key' : '✓ Kunci')
         : isUser
-        ? '✕ Pilihan Anda'
+        ? (state.lang === 'ja' ? '✕ あなたの回答' : state.lang === 'en' ? '✕ Your Choice' : '✕ Pilihan Anda')
         : '';
       return `
         <div class="zen-trans-opt ${isKey ? 'is-key' : ''} ${isUser && !correct ? 'is-wrong' : ''}">
@@ -3447,11 +3613,14 @@ function buildReviewCardsHTML(s, filter = 'all') {
             <span class="zen-review-tag ${blank ? 'is-blank' : correct ? 'is-correct' : 'is-wrong'}">${esc(tag)}</span>
           </div>
           <div class="zen-review-top-right">
-            <button type="button" class="zen-icon-toggle zen-furi-card-btn ${cardFuriOn ? 'is-active' : ''}" data-action="toggle-card-furigana" data-id="${esc(q.id)}" aria-pressed="${cardFuriOn}" title="${cardFuriOn ? 'Sembunyikan Furigana' : 'Tampilkan Furigana'}" aria-label="Furigana nomor ${qIdx}">
+            <button type="button" class="zen-icon-toggle zen-furi-card-btn ${cardFuriOn ? 'is-active' : ''}" data-action="toggle-card-furigana" data-id="${esc(q.id)}" aria-pressed="${cardFuriOn}" title="${cardFuriOn ? esc(t('furiHideTitle')) : esc(t('furiShowTitle'))}" aria-label="Furigana ${qIdx}">
               <span class="zen-icon-glyph" aria-hidden="true">F</span>
             </button>
-            <button type="button" class="zen-icon-toggle zen-trans-card-btn ${isTransOpen ? 'is-active' : ''}" data-action="toggle-card-translation" data-id="${esc(q.id)}" aria-expanded="${isTransOpen}" title="${isTransOpen ? 'Sembunyikan Terjemahan Indonesia' : 'Tampilkan Terjemahan Indonesia'}" aria-label="Terjemahan Indonesia nomor ${qIdx}">
+            <button type="button" class="zen-icon-toggle zen-trans-card-btn ${isTransOpen ? 'is-active' : ''}" data-action="toggle-card-translation" data-id="${esc(q.id)}" aria-expanded="${isTransOpen}" title="${isTransOpen ? esc(t('transHideTitle')) : esc(t('transShowTitle'))}" aria-label="Translation ${qIdx}">
               <span class="zen-icon-glyph" aria-hidden="true">文A</span>
+            </button>
+            <button type="button" class="zen-icon-toggle zen-study-card-btn ${inStudy ? 'is-active' : ''}" data-action="toggle-review-study" data-id="${esc(q.id)}" aria-pressed="${inStudy}" title="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-label="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}">
+              <span class="zen-icon-glyph" aria-hidden="true">${inStudy ? '✓' : '+'}</span>
             </button>
           </div>
         </div>
@@ -3485,16 +3654,16 @@ function buildReviewCardsHTML(s, filter = 'all') {
         <div class="zen-translation-panel ${isTransOpen ? 'is-open' : ''}" ${isTransOpen ? '' : 'hidden'} lang="id">
           ${promptTrans
             ? `<div class="zen-trans-prompt rich-content">${richHTML(promptTrans)}</div>`
-            : `<div class="zen-trans-missing">Terjemahan belum tersedia.</div>`}
+            : `<div class="zen-trans-missing">${esc(t('reviewTransMissing'))}</div>`}
           <div class="zen-trans-options-list">
             ${transOptionsHTML}
           </div>
           <div class="zen-trans-eval-bar">
             <span class="zen-trans-eval-chip ${blank ? 'is-blank' : correct ? 'is-correct' : 'is-wrong'}">
-              Pilihan: <strong>${blank ? '—' : `${esc(userLetter)}${userOptTrans ? ` · ${esc(richPlainText(userOptTrans))}` : (userOptJa ? ` (${esc(userOptJa)})` : '')}`}</strong>
+              ${esc(t('reviewSelectedLabel'))} <strong>${blank ? '—' : `${esc(userLetter)}${userOptTrans ? ` · ${esc(richPlainText(userOptTrans))}` : (userOptJa ? ` (${esc(userOptJa)})` : '')}`}</strong>
             </span>
             <span class="zen-trans-eval-chip is-correct">
-              Kunci: <strong>${esc(keyLetter)}${keyOptTrans ? ` · ${esc(richPlainText(keyOptTrans))}` : (keyOptJa ? ` (${esc(keyOptJa)})` : '')}</strong>
+              ${esc(t('reviewKeyLabel'))} <strong>${esc(keyLetter)}${keyOptTrans ? ` · ${esc(richPlainText(keyOptTrans))}` : (keyOptJa ? ` (${esc(keyOptJa)})` : '')}</strong>
             </span>
           </div>
         </div>
@@ -3703,14 +3872,14 @@ function renderResult() {
       </section>
 
       <div class="zen-result-photo-row no-print">
-        <label class="hd-text-btn" for="result-photo-upload">${s.candidatePhoto ? 'Ubah Foto Kandidat pada Report' : 'Tambahkan Foto Kandidat pada Report (Opsional)'}</label>
+        <label class="hd-text-btn" for="result-photo-upload">${s.candidatePhoto ? esc(t('reviewPhotoChange')) : esc(t('reviewPhotoAdd'))}</label>
         <input type="file" id="result-photo-upload" accept="image/*" hidden>
       </div>
 
       <section class="zen-review-section no-print">
         <div class="zen-review-bar">
           <div class="zen-review-bar-left">
-            <h2 class="hd-section-title">Tinjauan Jawaban</h2>
+            <h2 class="hd-section-title">${esc(t('reviewSectionTitle'))}</h2>
             <select id="review-filter" aria-label="${esc(t('revFilterLabel'))}">
               <option value="all" ${f==='all'?'selected':''}>${esc(t('revFilterAll'))} (${s.questions.length})</option>
               <option value="wrong" ${f==='wrong'?'selected':''}>${esc(t('revFilterWrong'))} (${st.wrong})</option>
@@ -3719,10 +3888,10 @@ function renderResult() {
             </select>
           </div>
           <div class="zen-review-bar-actions">
-            <button type="button" class="zen-icon-toggle zen-trans-global-btn ${state.showAllTranslations ? 'is-active' : ''}" data-action="toggle-all-translations" aria-pressed="${Boolean(state.showAllTranslations)}" title="${state.showAllTranslations ? 'Sembunyikan Semua Terjemahan Indonesia' : 'Tampilkan Semua Terjemahan Indonesia'}" aria-label="Tampilkan atau sembunyikan semua terjemahan bahasa Indonesia">
+            <button type="button" class="zen-icon-toggle zen-trans-global-btn ${state.showAllTranslations ? 'is-active' : ''}" data-action="toggle-all-translations" aria-pressed="${Boolean(state.showAllTranslations)}" title="${state.showAllTranslations ? esc(t('transHideTitle')) : esc(t('transShowTitle'))}" aria-label="Tampilkan atau sembunyikan semua terjemahan bahasa Indonesia">
               <span class="zen-icon-glyph" aria-hidden="true">文A</span>
             </button>
-            <button type="button" class="zen-icon-toggle ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" aria-pressed="${Boolean(state.examPrefs.showFurigana)}" title="${state.examPrefs.showFurigana ? 'Sembunyikan Furigana (ふりがな)' : 'Tampilkan Furigana (ふりがな)'}" aria-label="Tampilkan atau sembunyikan furigana">
+            <button type="button" class="zen-icon-toggle ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" aria-pressed="${Boolean(state.examPrefs.showFurigana)}" title="${state.examPrefs.showFurigana ? esc(t('furiHideTitle')) : esc(t('furiShowTitle'))}" aria-label="Tampilkan atau sembunyikan furigana">
               <span class="zen-icon-glyph" aria-hidden="true">F</span>
             </button>
           </div>
@@ -3852,7 +4021,7 @@ function openStudyDetail(item) {
       <div class="zen-study-card-meta">
         <span class="zen-study-pkg-pill">${esc(item.setName || packageName(item.setId))}</span>
         <span class="zen-study-qnum-pill">No. ${item.questionNumber}</span>
-        <span class="zen-study-date">Ditambahkan: ${fmtDate(item.addedAt)}</span>
+        <span class="zen-study-date">${esc(t('studyAddedDate'))} ${fmtDate(item.addedAt, t('locale'))}</span>
       </div>
 
       ${item.instructions ? `<div class="zen-review-instruction rich-content" lang="ja">${richHTML(item.instructions)}</div>` : ''}
@@ -3872,7 +4041,7 @@ function openStudyDetail(item) {
                 <span class="rich-content" lang="ja">${richHTML(o.text)}</span>
                 ${optTrans ? `<div class="zen-trans-opt-text" style="color:#566a7f;font-size:12.5px;margin-top:2px;">${richHTML(optTrans)}</div>` : ''}
               </div>
-              ${isCorrect ? `<span class="zen-study-correct-badge">✓ Kunci</span>` : ''}
+              ${isCorrect ? `<span class="zen-study-correct-badge">${esc(t('studyCorrectKey'))}</span>` : ''}
             </div>
           `;
         }).join('')}
@@ -3880,22 +4049,22 @@ function openStudyDetail(item) {
 
       ${item.promptTranslation ? `
         <div class="zen-study-translation-panel">
-          <strong style="color: #1a2228;">Terjemahan Pertanyaan:</strong>
+          <strong style="color: #1a2228;">${esc(t('studyPromptTransLabel'))}</strong>
           <div class="rich-content" lang="id">${richHTML(item.promptTranslation)}</div>
         </div>
       ` : ''}
 
       ${item.explanation ? `
         <div class="zen-study-explanation">
-          <strong>Pembahasan:</strong>
+          <strong>${esc(t('studyExplanationLabel'))}</strong>
           <div class="rich-content">${richHTML(item.explanation)}</div>
         </div>
       ` : ''}
     </div>
   `;
   const footer = `
-    <button type="button" class="button button-outline" data-action="close-modal">Tutup</button>
-    <button type="button" class="button button-danger" data-action="remove-study-item" data-id="${esc(item.id)}" onclick="closeModal()">Hapus dari Study List</button>
+    <button type="button" class="button button-outline" data-action="close-modal">${esc(t('btnClose'))}</button>
+    <button type="button" class="button button-danger" data-action="remove-study-item" data-id="${esc(item.id)}" onclick="closeModal()">${esc(t('studyRemoveBtn'))}</button>
   `;
   modal(`${esc(item.setName || 'Soal')} — No. ${item.questionNumber}`, content, footer);
 }
@@ -3909,7 +4078,7 @@ function renderStudy() {
       <div class="zen-page zen-study-page">
         <header class="zen-page-head">
           <div>
-            <span class="zen-kicker">DAFTAR BELAJAR</span>
+            <span class="zen-kicker">${esc(t('studyKicker'))}</span>
             <h1 class="zen-page-title">${esc(t('navStudy'))}</h1>
             <p class="zen-page-desc">${esc(t('studyPageDesc'))}</p>
           </div>
@@ -3981,7 +4150,7 @@ function renderStudy() {
           <p class="zen-page-desc">${esc(t('studyPageDesc'))}</p>
         </div>
         <div class="zen-page-head-actions">
-          <span class="zen-meta-count" id="study-total-count">${totalCount} soal tersimpan</span>
+          <span class="zen-meta-count" id="study-total-count">${totalCount} ${esc(t('studyMetaCount'))}</span>
           <button type="button" class="hd-btn-primary" data-page="setup">${esc(t('topStartExam'))}</button>
         </div>
       </header>
@@ -4010,8 +4179,8 @@ function renderStudy() {
       <section class="zen-study-list">
         ${filtered.length === 0 ? `
           <div class="zen-empty-block" style="padding: 36px 20px;">
-            <p class="hd-empty-line">Tidak ada soal yang cocok dengan filter atau kata kunci pencarian.</p>
-            <button type="button" class="hd-btn-ghost" id="study-reset-filter-btn">Reset Filter</button>
+            <p class="hd-empty-line">${esc(t('studyNoMatchFilter'))}</p>
+            <button type="button" class="hd-btn-ghost" id="study-reset-filter-btn">${esc(t('studyResetFilterBtn'))}</button>
           </div>
         ` : filtered.map(item => {
           const img = getQuestionMainMedia(item);
@@ -4025,7 +4194,7 @@ function renderStudy() {
                 <div class="zen-study-card-meta">
                   <span class="zen-study-pkg-pill">${esc(item.setName || packageName(item.setId))}</span>
                   <span class="zen-study-qnum-pill">No. ${item.questionNumber}</span>
-                  <span class="zen-study-date">${fmtDate(item.addedAt)}</span>
+                  <span class="zen-study-date">${esc(t('studyAddedDate'))} ${fmtDate(item.addedAt, t('locale'))}</span>
                 </div>
                 <div class="zen-study-card-actions">
                   <button type="button" class="zen-icon-toggle ${furiOn ? 'is-active' : ''}" data-action="toggle-study-card-furigana" data-id="${esc(item.id)}" title="Toggle Furigana" aria-pressed="${furiOn}">F</button>
@@ -4059,7 +4228,7 @@ function renderStudy() {
               <div class="zen-study-translation-panel ${transOpen ? '' : 'is-hidden'}" lang="id">
                 ${item.promptTranslation ? `
                   <div style="font-weight:600;margin-bottom:4px;">${richHTML(item.promptTranslation)}</div>
-                ` : `<div style="color:var(--zen-muted);font-style:italic;">Terjemahan belum tersedia</div>`}
+                ` : `<div style="color:var(--zen-muted);font-style:italic;">${esc(t('studyTransMissing'))}</div>`}
                 <div style="display:flex;flex-direction:column;gap:3px;margin-top:6px;font-size:13px;">
                   ${(item.options || []).map((o, idx) => {
                     const isKey = idx === item.correctIndex;
@@ -4818,7 +4987,22 @@ async function handleAction(action, el) {
       $$('[data-action="exam-settings"]').forEach(b => b.classList.remove('is-active'));
       break;
     }
-        case 'toggle-study-list': {
+            case 'toggle-review-study': {
+      if (!id) break;
+      const s = getResultSession();
+      const q = (s?.questions || []).find(x => x.id === id) || (state.questions || []).find(x => x.id === id);
+      if (!q) break;
+      const inStudy = await toggleStudyItem(q);
+      el.classList.toggle('is-active', inStudy);
+      el.setAttribute('aria-pressed', String(inStudy));
+      el.setAttribute('title', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
+      el.setAttribute('aria-label', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
+      const glyph = el.querySelector('.zen-icon-glyph');
+      if (glyph) glyph.textContent = inStudy ? '✓' : '+';
+      else el.textContent = inStudy ? '✓' : '+';
+      break;
+    }
+    case 'toggle-study-list': {
       const s = state.activeSession;
       if (!s || !Array.isArray(s.questions)) break;
       const q = s.questions[s.currentIndex];
@@ -5304,7 +5488,7 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw20').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw21').catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;
