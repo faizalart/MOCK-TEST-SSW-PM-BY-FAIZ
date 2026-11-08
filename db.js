@@ -1,6 +1,6 @@
 const DB_NAME = 'ssw-pm-mock-test-db';
-const DB_VERSION = 1;
-const STORES = ['questions', 'themes', 'passages', 'sessions', 'meta', 'audioGroups'];
+const DB_VERSION = 2;
+const STORES = ['questions', 'themes', 'passages', 'sessions', 'meta', 'audioGroups', 'studyList'];
 
 const memoryFallback = {
   questions: new Map(),
@@ -8,7 +8,8 @@ const memoryFallback = {
   passages: new Map(),
   sessions: new Map(),
   meta: new Map(),
-  audioGroups: new Map()
+  audioGroups: new Map(),
+  studyList: new Map()
 };
 let useMemoryFallback = false;
 let dbPromise;
@@ -43,6 +44,7 @@ function openDB() {
         if (!db.objectStoreNames.contains('sessions')) db.createObjectStore('sessions', { keyPath: 'id' });
         if (!db.objectStoreNames.contains('meta')) db.createObjectStore('meta', { keyPath: 'key' });
         if (!db.objectStoreNames.contains('audioGroups')) db.createObjectStore('audioGroups', { keyPath: 'id' });
+        if (!db.objectStoreNames.contains('studyList')) db.createObjectStore('studyList', { keyPath: 'id' });
       };
       req.onsuccess = () => {
         clearTimeout(timer);

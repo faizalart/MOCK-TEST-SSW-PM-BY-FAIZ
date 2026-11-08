@@ -36,20 +36,24 @@
         {
           "id": "A",
           "text": "<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>が<ruby>病気<rt>びょうき</rt></ruby>になって、<ruby>給料<rt>きゅうりょう</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がる.",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Orang yang membuat pangan tersebut akan jatuh sakit dan gajinya turun."
         },
         {
           "id": "B",
           "text": "<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>が<ruby>病気<rt>びょうき</rt></ruby>になって、<ruby>作<rt>つく</rt></ruby>った<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>信用<rt>しんよう</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちる.",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Orang yang memakan pangan tersebut akan jatuh sakit dan kepercayaan terhadap perusahaan pembuatnya akan menurun."
         },
         {
           "id": "C",
           "text": "<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>った<ruby>会社<rt>かいしゃ</rt></ruby>が<ruby>有名<rt>ゆうめい</rt></ruby>になって、その<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>別<rt>べつ</rt></ruby>の<ruby>商品<rt>しょうひん</rt></ruby>が<ruby>売<rt>う</rt></ruby>れる。",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Perusahaan yang membuat pangan tersebut menjadi terkenal dan produk lain dari perusahaan tersebut menjadi laku."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Apa yang akan terjadi jika produk pangan yang tidak aman dibuat dan dijual? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q002",
@@ -79,20 +83,24 @@
         {
           "id": "A",
           "text": "<ruby>誰<rt>だれ</rt></ruby>でも<ruby>連絡<rt>れんらく</rt></ruby>しないで、<ruby>仕事<rt>しごと</rt></ruby>を<ruby>休<rt>やす</rt></ruby>む",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Libur kerja tanpa menghubungi siapa pun."
         },
         {
           "id": "B",
           "text": "<ruby>職場<rt>しょくば</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>連絡<rt>れんらく</rt></ruby>して、<ruby>仕事<rt>しごと</rt></ruby>を<ruby>休<rt>やす</rt></ruby>む",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menghubungi penanggung jawab tempat kerja dan mengambil izin libur kerja."
         },
         {
           "id": "C",
           "text": "どんな<ruby>体<rt>からだ</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くても、<ruby>職場<rt>しょくば</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く。",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Tetap pergi ke tempat kerja meskipun kondisi tubuh sedang buruk."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Apa yang sebaiknya dilakukan ketika kondisi tubuh sedang kurang sehat sebelum berangkat ke tempat kerja? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q003",
@@ -122,20 +130,24 @@
         {
           "id": "A",
           "text": "<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memastikan konsentrasi cairan pembersih (deterjen)."
         },
         {
           "id": "B",
           "text": "<ruby>洗浄<rt>せんじょう</rt></ruby>する<ruby>部分<rt>ぶぶん</rt></ruby>を、<ruby>日<rt>ひ</rt></ruby>によって<ruby>変<rt>か</rt></ruby>える",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mengubah bagian yang dicuci tergantung harinya."
         },
         {
           "id": "C",
           "text": "<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>で<ruby>洗<rt>あら</rt></ruby>った<ruby>後<rt>あと</rt></ruby>、<ruby>洗<rt>あら</rt></ruby>い<ruby>流<rt>なが</rt></ruby>さずに<ruby>乾<rt>かわ</rt></ruby>かす",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mengeringkannya tanpa membilas setelah dicuci dengan cairan pembersih."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Bagaimana cara yang tepat saat mencuci mesin atau peralatan? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q004",
@@ -165,20 +177,24 @@
         {
           "id": "A",
           "text": "<ruby>時間<rt>じかん</rt></ruby>が<ruby>気<rt>き</rt></ruby>になるので、<ruby>何度<rt>なんど</rt></ruby>も<ruby>時計<rt>とけい</rt></ruby>を<ruby>見<rt>み</rt></ruby>る.",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Berkali-kali melihat jam karena khawatir dengan waktu."
         },
         {
           "id": "B",
           "text": "<ruby>隣<rt>となり</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>とテレビの<ruby>話<rt>はな</rt></ruby>しながら<ruby>作業<rt>さぎょう</rt></ruby>する.",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Bekerja sambil mengobrol tentang acara televisi dengan rekan di sebelah."
         },
         {
           "id": "C",
           "text": "<ruby>製品<rt>せいひん</rt></ruby>の<ruby>状態<rt>じょうたい</rt></ruby>や、<ruby>異物<rt>いぶつ</rt></ruby>があるかどうか<ruby>注意<rt>ちゅうい</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memperhatikan kondisi produk serta ada tidaknya kontaminasi benda asing."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Bagaimana sikap yang baik selama bekerja? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q005",
@@ -208,20 +224,24 @@
         {
           "id": "A",
           "text": "<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>や<ruby>鼻<rt>はな</rt></ruby>を<ruby>触<rt>さわ</rt></ruby>った<ruby>後<rt>あと</rt></ruby>は、<ruby>3秒待<rt>３びょうま</rt></ruby>ってから<ruby>作業<rt>さぎょう</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Setelah menyentuh rambut atau hidung, menunggu 3 detik sebelum kembali bekerja."
         },
         {
           "id": "B",
           "text": "トイレの<ruby>後<rt>あと</rt></ruby>は、<ruby>洗剤<rt>せんざい</rt></ruby>で<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>って、<ruby>消毒液<rt>しょうどくえき</rt></ruby>で<ruby>消毒<rt>しょうどく</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Setelah dari toilet, mencuci tangan dengan sabun pembersih dan melakukan disinfeksi dengan cairan disinfektan."
         },
         {
           "id": "C",
           "text": "<ruby>手<rt>て</rt></ruby>がぬれた<ruby>時<rt>とき</rt></ruby>は、<ruby>作業服<rt>さぎょうふく</rt></ruby>でふいて、<ruby>乾<rt>かわ</rt></ruby>いたのを<ruby>確認<rt>かくにん</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Saat tangan basah, mengelapnya pada pakaian kerja dan memastikan tangan sudah kering."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Pilihlah satu jawaban yang benar mengenai tindakan higienis selama bekerja."
     },
     {
       "id": "kunci1-q006",
@@ -251,20 +271,24 @@
         {
           "id": "A",
           "text": "<ruby>清掃<rt>せいそう</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Resik / Pembersihan (Seiso)"
         },
         {
           "id": "B",
           "text": "<ruby>集中<rt>しゅうちゅう</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Konsentrasi (Shuchu)"
         },
         {
           "id": "C",
           "text": "<ruby>制作<rt>せいさく</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Produksi / Pembuatan (Seisaku)"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "\"Kegiatan 5S\" adalah lima kegiatan utama untuk manajemen higiene umum. Selain \"Ringkas (Seiri)\", \"Rapi (Seiton)\", \"Rawat (Seiketsu)\", dan \"Rajin (Shukan/Shitsuke)\", apakah satu kegiatan lainnya? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q007",
@@ -294,20 +318,24 @@
         {
           "id": "A",
           "text": "<ruby>職場<rt>しょくば</rt></ruby>や<ruby>工場<rt>こうじょう</rt></ruby>などのゴミを<ruby>捨<rt>す</rt></ruby>てる",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Membuang sampah di tempat kerja atau pabrik."
         },
         {
           "id": "B",
           "text": "<ruby>決<rt>き</rt></ruby>められたことを<ruby>常<rt>つね</rt></ruby>に<ruby>守<rt>まも</rt></ruby>って<ruby>実行<rt>じっこう</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Selalu mematuhi dan menjalankan hal-hal yang telah ditetapkan."
         },
         {
           "id": "C",
           "text": "<ruby>作業道具<rt>さぎょうどうぐ</rt></ruby>や<ruby>材料<rt>ざいりょう</rt></ruby>の<ruby>置<rt>お</rt></ruby>き<ruby>場所<rt>ばじょ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めておく",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menentukan tempat penyimpanan peralatan kerja dan bahan terlebih dahulu."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Kegiatan seperti apakah \"Rapi (Seiton)\" dalam kegiatan 5S? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q008",
@@ -337,20 +365,24 @@
         {
           "id": "A",
           "text": "<ruby>卵<rt>たまご</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Telur dan daging ayam"
         },
         {
           "id": "B",
           "text": "<ruby>米<rt>こめ</rt></ruby>、<ruby>麦<rt>むぎ</rt></ruby>、<ruby>豆<rt>まめ</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Beras, gandum, dan kacang-kacangan"
         },
         {
           "id": "C",
           "text": "<ruby>牡蠣<rt>かき</rt></ruby>などのなどの<ruby>二枚貝<rt>にまいがい</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Kerang berkeping dua (bivalvia) seperti tiram"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Pangan apakah yang menjadi penyebab utama keracunan makanan akibat Norovirus? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q009",
@@ -380,20 +412,24 @@
         {
           "id": "A",
           "text": "カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Bakteri genus Campylobacter"
         },
         {
           "id": "B",
           "text": "<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Vibrio parahaemolyticus"
         },
         {
           "id": "C",
           "text": "ボツリヌス<ruby>菌<rt>きん</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Clostridium botulinum"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Bakteri manakah yang penyebab utamanya adalah daging (daging ayam) dan menimbulkan gejala diare, sakit perut, serta demam jika terinfeksi? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q010",
@@ -423,20 +459,24 @@
         {
           "id": "A",
           "text": "<ruby>生<rt>せい</rt></ruby>の<ruby>牡蠣<rt>かき</rt></ruby>や<ruby>生肉<rt>なまにく</rt></ruby>は、<ruby>室温<rt>しつおん</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menyimpan tiram mentah dan daging mentah pada suhu ruang."
         },
         {
           "id": "B",
           "text": "<ruby>器具<rt>きぐ</rt></ruby>、<ruby>容器<rt>ようき</rt></ruby>、<ruby>装置<rt>そうち</rt></ruby>などは、<ruby>常<rt>つね</rt></ruby>に<ruby>清潔<rt>せいけつ</rt></ruby>にする",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Selalu menjaga kebersihan peralatan, wadah, dan mesin."
         },
         {
           "id": "C",
           "text": "<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>は、できるだけゆっくり<ruby>冷<rt>ひ</rt></ruby>やす",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mendinginkan pangan yang telah dipanaskan secara perlahan-lahan."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Apa yang diperlukan untuk mencegah keracunan makanan di pabrik pangan? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q011",
@@ -466,20 +506,24 @@
         {
           "id": "A",
           "text": "0ºC-10ºC",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "0°C - 10°C"
         },
         {
           "id": "B",
           "text": "30ºC-40ºC",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "30°C - 40°C"
         },
         {
           "id": "C",
           "text": "60ºC-70ºC",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "60°C - 70°C"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Pada suhu berapa derajat kebanyakan mikroorganisme berkembang biak dengan cepat? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q012",
@@ -509,20 +553,24 @@
         {
           "id": "A",
           "text": "45ºC-90 <ruby>秒間<rt>びょうあいだ</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "45°C selama 90 detik"
         },
         {
           "id": "B",
           "text": "55ºC-70 <ruby>秒間<rt>びょうあいだ</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "55°C selama 70 detik"
         },
         {
           "id": "C",
           "text": "75ºC-60 <ruby>秒間<rt>びょうあいだ</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "75°C selama 60 detik"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Untuk membunuh sebagian besar mikroorganisme, pemanasan dilakukan pada suhu berapa derajat dan selama berapa detik? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q013",
@@ -552,20 +600,24 @@
         {
           "id": "A",
           "text": "<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Suhu permukaan pangan"
         },
         {
           "id": "B",
           "text": "<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中心<rt>ちゅうしん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Suhu bagian tengah (suhu inti) pangan"
         },
         {
           "id": "C",
           "text": "<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>と<ruby>中心<rt>ちゅうしん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>の<ruby>平均値<rt>へいきんち</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Nilai rata-rata suhu permukaan dan suhu bagian tengah pangan"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Saat melakukan pemanasan pangan untuk membunuh mikroorganisme, bagian mana dari pangan yang diukur suhunya? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q014",
@@ -595,20 +647,24 @@
         {
           "id": "A",
           "text": "Ⅹ<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Detektor benda asing sinar-X (X-ray)"
         },
         {
           "id": "B",
           "text": "<ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Detektor logam"
         },
         {
           "id": "C",
           "text": "<ruby>自記温度時計<rt>じきおんどどけい</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Termometer perekam otomatis"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Apa nama mesin yang terutama digunakan untuk mendeteksi batu atau kaca? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q015",
@@ -638,20 +694,24 @@
         {
           "id": "A",
           "text": "ー5ºC<ruby>以下<rt>いか</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "-5°C atau lebih rendah"
         },
         {
           "id": "B",
           "text": "ー10ºC<ruby>以下<rt>いか</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "-10°C atau lebih rendah"
         },
         {
           "id": "C",
           "text": "ー15ºC<ruby>以下<rt>いか</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "-15°C atau lebih rendah"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Berdasarkan Undang-Undang Higiene Pangan Jepang, berapa derajat standar suhu maksimal untuk freezer (lemari pembeku)? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q016",
@@ -681,20 +741,24 @@
         {
           "id": "A",
           "text": "さとう",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Gula"
         },
         {
           "id": "B",
           "text": "そば",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Soba (gandum kuda / buckwheat)"
         },
         {
           "id": "C",
           "text": "とうもろこし",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Jagung"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Manakah pangan pemicu alergi (alergen) yang wajib dicantumkan pada label pangan olahan dalam kemasan wadah? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q017",
@@ -724,20 +788,24 @@
         {
           "id": "A",
           "text": "<ruby>完成<rt>かんせい</rt></ruby>した<ruby>製品<rt>せいひん</rt></ruby>を<ruby>検査<rt>けんさ</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memeriksa produk yang telah selesai dibuat."
         },
         {
           "id": "B",
           "text": "<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れを<ruby>集中力<rt>しゅうなかちから</rt></ruby>に<ruby>管理<rt>かんり</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mengelola penerimaan bahan baku secara terpusat."
         },
         {
           "id": "C",
           "text": "<ruby>危険要因<rt>きけんよういん</rt></ruby>を<ruby>明確<rt>めいかく</rt></ruby>にして<ruby>重要点<rt>じゅうようてん</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memperjelas faktor bahaya dan mengelola titik kendali kritis."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Apa yang dilakukan dalam HACCP demi keamanan produk? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q018",
@@ -767,20 +835,24 @@
         {
           "id": "A",
           "text": "<ruby>危険<rt>きけん</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>担当<rt>たんとう</rt></ruby>することが<ruby>多<rt>おお</rt></ruby>い",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Lebih sering ditugaskan pada pekerjaan yang berbahaya."
         },
         {
           "id": "B",
           "text": "<ruby>年齢<rt>ねんれい</rt></ruby>が<ruby>若<rt>わか</rt></ruby>く、<ruby>作業時間<rt>さぎょうじかん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Banyak yang berusia muda dan memiliki jam kerja yang panjang."
         },
         {
           "id": "C",
           "text": "<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れていないため、<ruby>危険<rt>きけん</rt></ruby>に<ruby>気<rt>き</rt></ruby>が<ruby>付<rt>つ</rt></ruby>きにくい",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Belum terbiasa dengan pekerjaan sehingga sulit menyadari bahaya."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Apa alasan kecelakaan kerja lebih banyak terjadi pada pekerja yang kurang berpengalaman dibandingkan pekerja yang sudah lama bekerja? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q019",
@@ -810,20 +882,24 @@
         {
           "id": "A",
           "text": "ポケットやボタンのある<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>く",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mengenakan pakaian kerja yang memiliki saku dan kancing."
         },
         {
           "id": "B",
           "text": "<ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>袖口<rt>そでぐち</rt></ruby>は、<ruby>絞<rt>しぼ</rt></ruby>ったものを<ruby>使<rt>つか</rt></ruby>う",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menggunakan pakaian kerja yang bagian ujung lengannya mengerut (bermanset rapat)."
         },
         {
           "id": "C",
           "text": "ロッカーの<ruby>中<rt>なか</rt></ruby>で、<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業服<rt>さぎょうふく</rt></ruby>やきれいな<ruby>作業服<rt>さぎょうふく</rt></ruby>がくっつかないようにする",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memastikan pakaian kerja yang kotor dan pakaian kerja yang bersih tidak saling menempel di dalam loker."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Hal apa saja yang perlu diperhatikan mengenai pakaian kerja? Pilihlah satu jawaban yang salah."
     },
     {
       "id": "kunci1-q020",
@@ -853,20 +929,24 @@
         {
           "id": "A",
           "text": "<ruby>清潔<rt>せいけつ</rt></ruby>かどう<ruby>確認<rt>かくにん</rt></ruby>してから<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>る",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memastikan pakaian kerja dalam keadaan bersih sebelum dikenakan."
         },
         {
           "id": "B",
           "text": "トイレの<ruby>後手洗<rt>あとてあら</rt></ruby>いでは、<ruby>石鹼<rt>せっけん</rt></ruby>だけ<ruby>使<rt>つか</rt></ruby>う",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Saat mencuci tangan setelah dari toilet, cukup menggunakan sabun saja."
         },
         {
           "id": "C",
           "text": "<ruby>汚染区<rt>おせんく</rt></ruby>から<ruby>非汚染区<rt>ひおせんく</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>時<rt>とき</rt></ruby>は、<ruby>作業靴<rt>さぎょうくつ</rt></ruby>を<ruby>消毒<rt>しょうどく</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mendisinfeksi sepatu kerja saat masuk dari area terkontaminasi ke area tidak terkontaminasi."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Hal apa yang harus diperhatikan sebelum masuk ke area kerja? Pilihlah satu jawaban yang salah."
     },
     {
       "id": "kunci1-q021",
@@ -896,20 +976,24 @@
         {
           "id": "A",
           "text": "<ruby>危険<rt>きけん</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>をしている<ruby>人<rt>ひと</rt></ruby>を<ruby>見<rt>み</rt></ruby>たら、すぐ<ruby>声<rt>こえ</rt></ruby>をかける",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Segera menegur jika melihat orang yang sedang melakukan pekerjaan berbahaya."
         },
         {
           "id": "B",
           "text": "<ruby>危険<rt>きけん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけたら、<ruby>責任者<rt>せきにんしゃ</rt></ruby>にすぐ<ruby>報告<rt>ほうこく</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Segera melapor kepada penanggung jawab jika menemukan tempat yang berbahaya."
         },
         {
           "id": "C",
           "text": "<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れる<ruby>時間<rt>じかん</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>い<ruby>時<rt>とき</rt></ruby>は、<ruby>黙<rt>だま</rt></ruby>って<ruby>離<rt>はな</rt></ruby>れてもいい",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Boleh meninggalkan tempat kerja tanpa izin jika hanya sebentar."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai tindakan selama bekerja."
     },
     {
       "id": "kunci1-q022",
@@ -939,20 +1023,24 @@
         {
           "id": "A",
           "text": "<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>決<rt>き</rt></ruby>められた<ruby>検査項目<rt>けんさこうもく</rt></ruby>があれば、それに、<ruby>従<rt>したが</rt></ruby>って<ruby>検査<rt>けんさ</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Jika ada item pemeriksaan yang ditetapkan oleh undang-undang, lakukan pemeriksaan sesuai ketentuan tersebut."
         },
         {
           "id": "B",
           "text": "カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>の<ruby>検査<rt>けんさ</rt></ruby>は、<ruby>日本<rt>にほん</rt></ruby>では<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>禁止<rt>きんし</rt></ruby>されている",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Pemeriksaan bakteri genus Campylobacter dilarang oleh undang-undang di Jepang."
         },
         {
           "id": "C",
           "text": "<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>検査項目<rt>けんさこうもく</rt></ruby>は、<ruby>一般生菌数<rt>いっぱんせいきんすう</rt></ruby>、<ruby>大腸菌<rt>だいちょうきん</rt></ruby>、<ruby>大腸群菌<rt>だいちょうぐんきん</rt></ruby>などある",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Item pemeriksaan umum meliputi angka lempeng total (jumlah bakteri hidup umum), E. coli, dan bakteri koliform."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai pengujian mikroorganisme pada produk."
     },
     {
       "id": "kunci1-q023",
@@ -982,20 +1070,24 @@
         {
           "id": "A",
           "text": "<ruby>危害<rt>きがい</rt></ruby>の<ruby>要因<rt>よういん</rt></ruby>を、<ruby>全部書<rt>ぜんぶか</rt></ruby>いて、はっきりわかるようにする",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menuliskan seluruh faktor bahaya agar dapat dipahami dengan jelas."
         },
         {
           "id": "B",
           "text": "<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>をするだけで、かならず<ruby>危害<rt>きがい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きない",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Hanya dengan melakukan analisis faktor bahaya saja, bahaya pasti tidak akan terjadi."
         },
         {
           "id": "C",
           "text": "<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>をする<ruby>時<rt>とき</rt></ruby>は、今まで<ruby>検査記録<rt>けんさきろく</rt></ruby>や<ruby>関連<rt>かんれん</rt></ruby>のある<ruby>本<rt>ほん</rt></ruby>なども<ruby>見<rt>み</rt></ruby>ている",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Saat melakukan analisis faktor bahaya, catatan pemeriksaan sebelumnya dan buku-buku terkait juga turut dipelajari."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai analisis faktor bahaya."
     },
     {
       "id": "kunci1-q024",
@@ -1025,20 +1117,24 @@
         {
           "id": "A",
           "text": "<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>製品<rt>せいひん</rt></ruby>は、<ruby>一日<rt>ついたち</rt></ruby>の<ruby>作業<rt>さぎょう</rt></ruby>の<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>製造<rt>せいぞう</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memproduksi produk yang mengandung bahan baku spesifik (alergen wajib) pada urutan paling awal kerja di hari tersebut."
         },
         {
           "id": "B",
           "text": "アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>と、<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>を、<ruby>別<rt>べつ</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menyimpan bahan baku yang mengandung alergen secara terpisah dari bahan baku yang tidak mengandung alergen."
         },
         {
           "id": "C",
           "text": "アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>同<rt>おな</rt></ruby>じラインで<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>場合<rt>ばあい</rt></ruby>、<ruby>徹底的<rt>てっていてき</rt></ruby>に<ruby>洗浄<rt>せんじょう</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mencuci peralatan secara menyeluruh apabila memproduksi bahan baku yang mengandung alergen dan yang tidak mengandung alergen pada lini produksi yang sama."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Tercampurnya pangan pemicu alergi ke dalam pangan lain disebut \"kontaminasi silang\". Apa yang dilakukan untuk mencegah \"kontaminasi silang\"? Pilihlah satu jawaban yang salah."
     },
     {
       "id": "kunci1-q025",
@@ -1068,20 +1164,24 @@
         {
           "id": "A",
           "text": "<ruby>検証方法<rt>けんしょうほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Penetapan metode verifikasi"
         },
         {
           "id": "B",
           "text": "<ruby>施設基準<rt>しせつきじゅん</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Penetapan standar fasilitas"
         },
         {
           "id": "C",
           "text": "モニタリング<ruby>方法<rt>ほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Penetapan metode pemantauan (monitoring)"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Item apa saja yang terdapat dalam \"7 Prinsip\" HACCP? Pilihlah satu jawaban yang salah."
     },
     {
       "id": "kunci1-q026",
@@ -1111,20 +1211,24 @@
         {
           "id": "A",
           "text": "<ruby>石<rt>いし</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Batu"
         },
         {
           "id": "B",
           "text": "<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Rambut"
         },
         {
           "id": "C",
           "text": "ガラス",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Kaca"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Benda apa saja yang termasuk dalam \"benda asing berbahaya\"? Pilihlah satu jawaban yang salah."
     },
     {
       "id": "kunci1-q027",
@@ -1154,20 +1258,24 @@
         {
           "id": "A",
           "text": "<ruby>保護帽子<rt>ほごぼうし</rt></ruby>をかぶる<ruby>前<rt>まえ</rt></ruby>に、<ruby>傷<rt>きず</rt></ruby>がないかをチェックする",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memeriksa ada tidaknya kerusakan pada helm pelindung sebelum mengenakannya."
         },
         {
           "id": "B",
           "text": "<ruby>化学物質<rt>かがくぶっしつ</rt></ruby>や<ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>時<rt>とき</rt></ruby>は、<ruby>保護<rt>ほご</rt></ruby>メガネや<ruby>手袋<rt>てぶくろ</rt></ruby>をつける",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mengenakan kacamata pelindung dan sarung tangan saat menggunakan bahan kimia atau cairan obat/pembersih."
         },
         {
           "id": "C",
           "text": "<ruby>安全靴<rt>あんぜんぐつ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>空気<rt>くうき</rt></ruby>をい<ruby>入<rt>はい</rt></ruby>るため、つま<ruby>先<rt>さき</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さな<ruby>穴<rt>あな</rt></ruby>をあけておく",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Membuat lubang kecil di bagian ujung jari sepatu keselamatan agar udara bisa masuk ke dalam sepatu."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Helm pelindung, penyumbat telinga (earplug), dan sepatu keselamatan disebut alat pelindung diri (APD) untuk melindungi tubuh. Pilihlah satu jawaban yang salah mengenai alat pelindung diri (APD)."
     },
     {
       "id": "kunci1-q028",
@@ -1197,20 +1305,24 @@
         {
           "id": "A",
           "text": "こまめに<ruby>休憩<rt>きゅうけい</rt></ruby>をして、<ruby>水分補給<rt>すいぶんほきゅう</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Beristirahat secara berkala dan mencukupi asupan cairan."
         },
         {
           "id": "B",
           "text": "ストレッチを<ruby>中心<rt>ちゅうしん</rt></ruby>とした<ruby>予防体操<rt>よぼうたいそう</rt></ruby>をする",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Melakukan senam pencegahan yang berfokus pada peregangan (stretching)."
         },
         {
           "id": "C",
           "text": "<ruby>空気<rt>くうき</rt></ruby>を<ruby>通<rt>とお</rt></ruby>して、<ruby>汗<rt>あせ</rt></ruby>や<ruby>水分<rt>すいぶん</rt></ruby>を<ruby>吸<rt>す</rt></ruby>って、<ruby>乾<rt>かわ</rt></ruby>きやすい<ruby>衣服<rt>いふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>る",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mengenakan pakaian yang memiliki sirkulasi udara baik, menyerap keringat atau air, dan cepat kering."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Di tempat dengan suhu dan kelembapan tinggi, terdapat bahaya \"sengatan panas (heatstroke)\". Apa yang sebaiknya dilakukan untuk mencegah heatstroke? Pilihlah satu jawaban yang salah."
     },
     {
       "id": "kunci1-q029",
@@ -1240,20 +1352,24 @@
         {
           "id": "A",
           "text": "<ruby>機械<rt>きかい</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>う<ruby>時<rt>とき</rt></ruby>は、<ruby>水<rt>みず</rt></ruby>で<ruby>流<rt>なが</rt></ruby>すだけで<ruby>良<rt>よ</rt></ruby>い",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Saat mencuci mesin, cukup dengan menyiramkan air saja."
         },
         {
           "id": "B",
           "text": "<ruby>機械<rt>きかい</rt></ruby>の<ruby>取<rt>と</rt></ruby>り<ruby>外<rt>はず</rt></ruby>せるところは、<ruby>外<rt>はず</rt></ruby>して<ruby>掃除<rt>そうじ</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Melepas bagian mesin yang dapat dilepas lalu membersihkannya."
         },
         {
           "id": "C",
           "text": "<ruby>掃除<rt>そうじ</rt></ruby>する<ruby>時<rt>とき</rt></ruby>は、<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menghentikan mesin saat melakukan pembersihan."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai cara membersihkan mesin."
     },
     {
       "id": "kunci1-q030",
@@ -1283,20 +1399,24 @@
         {
           "id": "A",
           "text": "<ruby>必要<rt>ひつよう</rt></ruby>があれば、<ruby>非常停止<rt>ひじょうていし</rt></ruby>ボタンで<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menghentikan mesin dengan tombol berhenti darurat jika diperlukan."
         },
         {
           "id": "B",
           "text": "<ruby>周<rt>まわ</rt></ruby>りにいる<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>同僚<rt>どうりょう</rt></ruby>に、<ruby>大<rt>おお</rt></ruby>きなこえで<ruby>知<rt>し</rt></ruby>らせる",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memberitahu penanggung jawab atau rekan kerja di sekitar dengan suara keras."
         },
         {
           "id": "C",
           "text": "<ruby>誰<rt>だれ</rt></ruby>でも<ruby>相談<rt>そうだん</rt></ruby>しないで<ruby>作業場<rt>さぎょうじょう</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れて、<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>へ<ruby>避難<rt>ひなん</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Meninggalkan area kerja dan mengungsi ke tempat aman tanpa berkonsultasi atau memberi tahu siapa pun."
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Apa yang harus dilakukan ketika terjadi kondisi tidak normal / darurat? Pilihlah satu jawaban yang salah."
     },
     {
       "id": "kunci1-q031",
@@ -1326,20 +1446,24 @@
         {
           "id": "A",
           "text": "<ruby>誇<rt>ほこ</rt></ruby>りを<ruby>落<rt>お</rt></ruby>とす",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menghilangkan debu dan kotoran yang menempel"
         },
         {
           "id": "B",
           "text": "マッサージをする",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Melakukan pijatan"
         },
         {
           "id": "C",
           "text": "<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>冷<rt>ひ</rt></ruby>やす",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mendinginkan pakaian kerja"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Saat memasuki area kerja, pekerja menggunakan rol perekat (adhesive roller). Untuk tujuan apa rol perekat digunakan? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q032",
@@ -1369,20 +1493,24 @@
         {
           "id": "A",
           "text": "<ruby>乾燥<rt>かんそう</rt></ruby>（ドライヤーを<ruby>使<rt>つか</rt></ruby>う）",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Pengeringan (menggunakan pengering udara)"
         },
         {
           "id": "B",
           "text": "<ruby>消毒<rt>しょうどく</rt></ruby>（<ruby>消毒液<rt>しょうどくえき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う）",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Disinfeksi (menggunakan cairan disinfektan)"
         },
         {
           "id": "C",
           "text": "<ruby>保湿<rt>ほしつ</rt></ruby>（クリームを<ruby>塗<rt>ぬ</rt></ruby>る）",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Melembapkan (mengoleskan krim)"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Mengenai prosedur mencuci tangan, apa yang tepat untuk mengisi bagian 〇〇 di bawah ini? Pilihlah satu jawaban yang benar. Membilas kotoran dengan air ≫ Mencuci dengan sabun pembersih ≫ Membilas dengan air mengalir ≫ Mengeringkan/mengelap ≫ 〇〇"
     },
     {
       "id": "kunci1-q033",
@@ -1412,17 +1540,20 @@
         {
           "id": "A",
           "text": "レンチでレポートを<ruby>締<rt>しま</rt></ruby>るときの<ruby>作業位置<rt>さぎょういち</rt></ruby>は、<ruby>安定<rt>あんてい</rt></ruby>な<ruby>姿勢<rt>しせい</rt></ruby>を<ruby>避<rt>さ</rt></ruby>けること",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menghindari postur yang stabil pada posisi kerja saat mengencangkan baut dengan kunci pas."
         },
         {
           "id": "B",
           "text": "<ruby>作業開始前<rt>さぎょうかいしまえ</rt></ruby>に、レンチにすり<ruby>減<rt>へ</rt></ruby>りなどの<ruby>故障<rt>こしょう</rt></ruby>がないか<ruby>確認<rt>かくにん</rt></ruby>すること",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memastikan kunci pas tidak mengalami kerusakan seperti aus sebelum memulai pekerjaan."
         },
         {
           "id": "C",
           "text": "<ruby>脚立<rt>きゃたつ</rt></ruby>の<ruby>天板<rt>てんばん</rt></ruby>には<ruby>立<rt>た</rt></ruby>てないこと",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Tidak berdiri di atas papan puncak tangga lipat."
         }
       ],
       "media": [
@@ -1432,7 +1563,8 @@
           "type": "image/png",
           "path": "assets/questions/ssw-pm-kunci-ujian-1-q033.png"
         }
-      ]
+      ],
+      "promptTranslation": "Saat menaiki tangga lipat (stepladder) untuk mengencangkan baut di dekat langit-langit, pekerja hampir terjatuh dari tangga lipat. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilihlah satu jawaban yang salah."
     },
     {
       "id": "kunci1-q034",
@@ -1462,17 +1594,20 @@
         {
           "id": "A",
           "text": "クレーンを<ruby>使<rt>つか</rt></ruby>う<ruby>時<rt>とき</rt></ruby>の<ruby>自分<rt>じぶん</rt></ruby>の<ruby>立<rt>た</rt></ruby>つ<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>十分理解<rt>じゅうぶんりかい</rt></ruby>していなかったこと",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Kurang memahami posisi berdiri yang aman bagi diri sendiri saat menggunakan derek."
         },
         {
           "id": "B",
           "text": "フレコンバッグをつり<ruby>上<rt>あ</rt></ruby>げる<ruby>際<rt>さい</rt></ruby>、クレーンのワイヤーが<ruby>切<rt>き</rt></ruby>れていたこと",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Kawat derek putus saat mengangkat karung jumbo."
         },
         {
           "id": "C",
           "text": "クレーンを<ruby>使<rt>つか</rt></ruby>う<ruby>時<rt>とき</rt></ruby>、フレコンバッグを<ruby>気<rt>き</rt></ruby>がつきましたこと",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menyadari keberadaan karung jumbo saat menggunakan derek."
         }
       ],
       "media": [
@@ -1482,7 +1617,8 @@
           "type": "image/png",
           "path": "assets/questions/ssw-pm-kunci-ujian-1-q034.png"
         }
-      ]
+      ],
+      "promptTranslation": "Saat mengangkat karung jumbo (flexible container bag) dengan derek (crane) untuk diturunkan dari bak truk, karung tersebut berayun dan menghantam tubuh sehingga pekerja hampir terjatuh dari bak truk. Apa penyebab kecelakaan ini? Pilihlah satu jawaban yang paling tepat."
     },
     {
       "id": "kunci1-q035",
@@ -1512,20 +1648,24 @@
         {
           "id": "A",
           "text": "<ruby>溶液<rt>ようえき</rt></ruby>4 ㎖、<ruby>水<rt>みず</rt></ruby>996 ㎖",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Larutan 4 ml, air 996 ml"
         },
         {
           "id": "B",
           "text": "<ruby>溶液<rt>ようえき</rt></ruby>２㎖、<ruby>水<rt>みず</rt></ruby>998 ㎖",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Larutan 2 ml, air 998 ml"
         },
         {
           "id": "C",
           "text": "<ruby>溶液<rt>ようえき</rt></ruby>4 ㎖、<ruby>水<rt>みず</rt></ruby>1000 ㎖",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Larutan 4 ml, air 1.000 ml"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Tersedia larutan natrium hipoklorit (NaClO) dengan konsentrasi 10%. Saat ingin membuat 1 L larutan natrium hipoklorit (NaClO) 400 ppm, berapa ml larutan tersebut dan air yang masing-masing diperlukan? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q036",
@@ -1555,20 +1695,24 @@
         {
           "id": "A",
           "text": "15 ㎏",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "15 kg"
         },
         {
           "id": "B",
           "text": "16 ㎏",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "16 kg"
         },
         {
           "id": "C",
           "text": "17 ㎏",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "17 kg"
         }
       ],
-      "media": []
+      "media": [],
+      "promptTranslation": "Berikut adalah komposisi untuk 450 g mi udon. Jika dibuat dengan komposisi yang sama dan tersedia 10 kg tepung terigu, berapa kg mi udon yang dapat dihasilkan? Pilihlah satu jawaban yang benar. (Bahan: Jumlah) Tepung terigu: 300 g, Garam: 15 g, Air: 135 g"
     },
     {
       "id": "kunci1-q037",
@@ -1598,17 +1742,20 @@
         {
           "id": "A",
           "text": "ぞうきんを<ruby>使<rt>つか</rt></ruby>わずに<ruby>清掃<rt>せいそう</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Membersihkan tanpa menggunakan kain lap."
         },
         {
           "id": "B",
           "text": "<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めてから<ruby>清掃<rt>せいそう</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menghentikan mesin terlebih dahulu sebelum membersihkan."
         },
         {
           "id": "C",
           "text": "<ruby>近<rt>ちか</rt></ruby>くでほかの<ruby>人<rt>ひと</rt></ruby>が<ruby>見<rt>み</rt></ruby>ている<ruby>時<rt>とき</rt></ruby>に<ruby>清掃<rt>せいそう</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Membersihkan saat ada orang lain yang mengawasi di dekatnya."
         }
       ],
       "media": [
@@ -1618,7 +1765,8 @@
           "type": "image/png",
           "path": "assets/questions/ssw-pm-kunci-ujian-1-q037.png"
         }
-      ]
+      ],
+      "promptTranslation": "Saat sedang membersihkan konveyor sabuk (belt conveyor) yang sedang bergerak, kain lap tersangkut pada sabuk sehingga tangan hampir terlilit masuk ke dalam mesin. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q038",
@@ -1648,17 +1796,20 @@
         {
           "id": "A",
           "text": "<ruby>冷凍<rt>れいとう</rt></ruby>に<ruby>温度<rt>おんど</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げて、<ruby>床<rt>ゆか</rt></ruby>の<ruby>霜<rt>しも</rt></ruby>を<ruby>取<rt>と</rt></ruby>る",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Menaikkan suhu freezer untuk menghilangkan bunga es di lantai."
         },
         {
           "id": "B",
           "text": "<ruby>霜<rt>しも</rt></ruby>や<ruby>水濡<rt>みずぬ</rt></ruby>れを<ruby>踏<rt>ふ</rt></ruby>んで<ruby>滑<rt>すべ</rt></ruby>らないよう、<ruby>大股<rt>おおまた</rt></ruby>で<ruby>歩<rt>ある</rt></ruby>く",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Berjalan dengan langkah lebar agar tidak terpeleset saat menginjak bunga es atau genangan air."
         },
         {
           "id": "C",
           "text": "<ruby>滑<rt>すべ</rt></ruby>りにくい<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>いて、<ruby>床<rt>ゆか</rt></ruby>の<ruby>霜<rt>しも</rt></ruby>や<ruby>水濡<rt>みずぬ</rt></ruby>れに<ruby>注意<rt>ちゅうい</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mengenakan sepatu anti-selip dan berhati-hati terhadap bunga es serta lantai yang basah."
         }
       ],
       "media": [
@@ -1668,7 +1819,8 @@
           "type": "image/png",
           "path": "assets/questions/ssw-pm-kunci-ujian-1-q038.png"
         }
-      ]
+      ],
+      "promptTranslation": "Saat sedang bekerja di dalam freezer (lemari pembeku), kaki terpeleset dan terjatuh akibat bunga es di lantai. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q039",
@@ -1698,17 +1850,20 @@
         {
           "id": "A",
           "text": "<ruby>機械<rt>きかい</rt></ruby>のわきに<ruby>柵<rt>さく</rt></ruby>をつけて、うえに<ruby>乗<rt>の</rt></ruby>れないようにする",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memasang pagar pembatas di samping mesin agar orang tidak bisa naik ke atasnya."
         },
         {
           "id": "B",
           "text": "ローラーが<ruby>回転<rt>かいてん</rt></ruby>しないように、ローラーを<ruby>固定<rt>こてい</rt></ruby>する",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Mengunci rol agar tidak berputar."
         },
         {
           "id": "C",
           "text": "ローラーコンベアのうえにカバーをつけて、<ruby>歩<rt>ある</rt></ruby>きやすくする",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memasang penutup di atas konveyor rol agar mudah dilewati dengan berjalan kaki."
         }
       ],
       "media": [
@@ -1718,7 +1873,8 @@
           "type": "image/png",
           "path": "assets/questions/ssw-pm-kunci-ujian-1-q039.png"
         }
-      ]
+      ],
+      "promptTranslation": "Ketika hendak menuju ke sisi seberang mesin, seorang pekerja naik ke atas konveyor rol (roller conveyor) sehingga terjatuh dan terluka. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilihlah satu jawaban yang benar."
     },
     {
       "id": "kunci1-q040",
@@ -1748,17 +1904,20 @@
         {
           "id": "A",
           "text": "<ruby>二人<rt>ふたり</rt></ruby>で<ruby>持<rt>も</rt></ruby>つ",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memegangnya berdua"
         },
         {
           "id": "B",
           "text": "<ruby>右手<rt>みぎて</rt></ruby>だけ<ruby>持<rt>も</rt></ruby>つ",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memegang hanya dengan tangan kanan"
         },
         {
           "id": "C",
           "text": "<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>持<rt>も</rt></ruby>つ",
-          "mediaId": ""
+          "mediaId": "",
+          "translation": "Memegang dengan menggunakan alat bantu"
         }
       ],
       "media": [
@@ -1768,7 +1927,8 @@
           "type": "image/png",
           "path": "assets/questions/ssw-pm-kunci-ujian-1-q040.png"
         }
-      ]
+      ],
+      "promptTranslation": "Saat memotong daging dengan mesin pengiris (slicer) tanpa penutup pengaman, tangan kanan hampir terpotong oleh pisau berputar. Untuk mencegah kecelakaan, selain memasang penutup pengaman, bagaimana cara memegang daging yang baik? Pilihlah satu jawaban yang benar."
     }
   ]
 }

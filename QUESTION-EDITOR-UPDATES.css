@@ -1227,3 +1227,32 @@ body.exam-mode #app {
 .review-option > .review-mark:empty {
   display: none !important;
 }
+
+/* Enable Yomitan / Anki / Browser Text Selection on CBT Question & Answer Choices */
+.exam-workspace .question-card,
+.exam-workspace .question-instruction,
+.exam-workspace .question-instruction *,
+.exam-workspace .question-prompt,
+.exam-workspace .question-prompt *,
+.exam-workspace .answer-choice,
+.exam-workspace .answer-content,
+.exam-workspace .answer-text,
+.exam-workspace .answer-text * {
+  -webkit-user-select: text !important;
+  user-select: text !important;
+}
+
+.exam-workspace .answer-choice {
+  cursor: pointer;
+}
+
+.exam-workspace .answer-text {
+  cursor: text;
+}
+
+.exam-workspace .answer-letter,
+.exam-workspace .answer-radio {
+  -webkit-user-select: none;
+  user-select: none;
+}
+

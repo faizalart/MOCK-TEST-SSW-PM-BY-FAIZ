@@ -10,20 +10,22 @@
   <title>SSW PM Mock Test by Faiz: 特定技能1号・飲食料品製造業</title>
 
   <!-- ICON & MANIFEST -->
-  <link rel="icon" type="image/svg+xml" href="./icon.svg?v=ssw17" />
-  <link rel="apple-touch-icon" href="./icon.svg?v=ssw17" />
-  <link rel="manifest" href="./manifest.webmanifest?v=ssw17" />
+  <link rel="icon" type="image/png" sizes="64x64" href="./favicon.png?v=ssw18" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./hasbulla-192.png?v=ssw18" />
+  <link rel="shortcut icon" type="image/png" href="./favicon.png?v=ssw18" />
+  <link rel="apple-touch-icon" sizes="192x192" href="./hasbulla-192.png?v=ssw18" />
+  <link rel="manifest" href="./manifest.webmanifest?v=ssw18" />
 
   <!-- CSS UTAMA -->
-  <link rel="stylesheet" href="./styles.css?v=ssw13" />
+  <link rel="stylesheet" href="./styles.css?v=ssw20" />
 
   <!-- CSS TAMBAHAN -->
   <link rel="stylesheet" href="./CSV-IMPORT-STYLES.css?v=ssw3" />
   <link rel="stylesheet" href="./RICH-HTML-STYLES.css?v=ssw3" />
-  <link rel="stylesheet" href="./QUESTION-EDITOR-UPDATES.css?v=ssw13" />
-  <link rel="stylesheet" href="./ZEN-APP-SHELL.css?v=ssw17" />
-  <link rel="stylesheet" href="./HOME-DASHBOARD.css?v=ssw17" />
-  <link rel="stylesheet" href="./ZEN-PAGES.css?v=ssw17" />
+  <link rel="stylesheet" href="./QUESTION-EDITOR-UPDATES.css?v=ssw20" />
+  <link rel="stylesheet" href="./ZEN-APP-SHELL.css?v=ssw20" />
+  <link rel="stylesheet" href="./HOME-DASHBOARD.css?v=ssw20" />
+  <link rel="stylesheet" href="./ZEN-PAGES.css?v=ssw20" />
 
   <!-- SERVICE WORKER CACHE CLEANUP -->
   <script>
@@ -34,7 +36,7 @@
             keys.forEach(function (key) {
               if (
                 key.indexOf('jft-practice') !== -1 ||
-                (key.indexOf('ssw-pm-mock-test-shell-') === 0 && key !== 'ssw-pm-mock-test-shell-v18')
+                (key.indexOf('ssw-pm-mock-test-shell-') === 0 && key !== 'ssw-pm-mock-test-shell-v20')
               ) {
                 caches.delete(key);
               }
@@ -83,7 +85,7 @@
     <!-- SIDEBAR -->
     <aside id="sidebar" class="sidebar">
       <div class="brand">
-        <div class="brand-mark">F</div>
+        <div class="brand-mark"><img src="./favicon.png?v=ssw18" alt="SSW PM Icon" width="28" height="28" /></div>
         <div>
           <strong id="sidebar-brand-title">SSW PM MOCK TEST</strong>
           <small id="sidebar-brand-sub">BY FAIZ · 飲食料品製造業</small>
@@ -111,7 +113,13 @@
           <span data-i18n="navHistory">Riwayat</span>
         </button>
 
-        <button class="nav-item" data-page="backup">
+                <button class="nav-item" data-page="study">
+          <span class="nav-icon">🔖</span>
+          <span data-i18n="navStudy">Study List</span>
+          <span class="nav-badge is-zero" id="nav-study-badge">0</span>
+        </button>
+
+<button class="nav-item" data-page="backup">
           <span class="nav-icon">⇅</span>
           <span data-i18n="navBackup">Backup</span>
         </button>
@@ -182,6 +190,6 @@
   <div id="toast-root" class="toast-root" aria-live="polite"></div>
 
   <!-- MAIN JAVASCRIPT -->
-  <script type="module" src="./app.js?v=ssw13"></script>
+  <script type="module" src="./app.js?v=ssw20"></script>
 </body>
 </html>

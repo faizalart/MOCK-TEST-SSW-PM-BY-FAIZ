@@ -182,6 +182,36 @@ const I18N = {
     navSetup: 'Mock Test',
     navBank: 'Bank Soal',
     navHistory: 'Riwayat',
+    navStudy: 'Study List',
+    studyPageDesc: 'Kumpulan soal yang ditandai selama ujian untuk dipelajari kembali.',
+    studyAddTooltip: 'Tambahkan ke Study List',
+    studyRemoveTooltip: 'Hapus dari Study List',
+    studyAddedToast: 'Soal berhasil ditambahkan ke Study List.',
+    studyRemovedToast: 'Soal dihapus dari Study List.',
+    studyEmptyTitle: 'Study List Masih Kosong',
+    studyEmptyDesc: 'Tandai soal yang sulit saat ujian CBT dengan menekan tombol + di sebelah tombol F.',
+    studyFilterAll: 'Semua Paket',
+    studySearchPlaceholder: 'Cari soal (Jepang / Indonesia)…',
+    studySortRecent: 'Terbaru Ditambahkan',
+    studySortOldest: 'Terlama Ditambahkan',
+    studySortNumber: 'Nomor Soal',
+    studyDetail: 'Detail Soal',
+    studyRemoveBtn: 'Hapus dari List',
+    navStudy: 'Study List',
+    studyPageDesc: 'Questions marked during CBT exams for deeper review and practice.',
+    studyAddTooltip: 'Add to Study List',
+    studyRemoveTooltip: 'Remove from Study List',
+    studyAddedToast: 'Question added to Study List.',
+    studyRemovedToast: 'Question removed from Study List.',
+    studyEmptyTitle: 'Study List is Empty',
+    studyEmptyDesc: 'Mark challenging questions during CBT exams by clicking the + button next to F.',
+    studyFilterAll: 'All Packages',
+    studySearchPlaceholder: 'Search questions (Japanese / translation)…',
+    studySortRecent: 'Recently Added',
+    studySortOldest: 'Oldest Added',
+    studySortNumber: 'Question Number',
+    studyDetail: 'Question Detail',
+    studyRemoveBtn: 'Remove from List',
     navBackup: 'Backup',
     pageExam: 'Layar Ujian SSW PM',
     pageResult: 'Hasil Ujian',
@@ -556,6 +586,21 @@ const I18N = {
     navSetup: '模擬試験',
     navBank: '問題バンク',
     navHistory: '履歴',
+    navStudy: '学習リスト',
+    studyPageDesc: 'CBT模擬試験中に後で復習したい問題としてブックマークした問題一覧です。',
+    studyAddTooltip: '学習リストに追加',
+    studyRemoveTooltip: '学習リストから削除',
+    studyAddedToast: '問題を学習リストに追加しました。',
+    studyRemovedToast: '問題を学習リストから削除しました。',
+    studyEmptyTitle: '学習リストは空です',
+    studyEmptyDesc: 'CBT試験中に「F」ボタン横の「+」を押すと、ここに問題を保存して復習できます。',
+    studyFilterAll: 'すべての問題集',
+    studySearchPlaceholder: '問題を検索（日本語 / インドネシア語）…',
+    studySortRecent: '最近追加された順',
+    studySortOldest: '最初に追加された順',
+    studySortNumber: '問題番号順',
+    studyDetail: '問題詳細',
+    studyRemoveBtn: 'リストから削除',
     navBackup: 'バックアップ',
     pageExam: 'SSW PM 試験画面',
     pageResult: '試験結果',
@@ -813,6 +858,16 @@ const state = {
   activeSession: null,
   resultId: null,
   reviewFilter: 'all',
+  showAllTranslations: false,
+  openTranslationIds: new Set(),
+  cardFurigana: new Map(),
+  studyList: [],
+  studySearch: '',
+  studyPackageFilter: 'all',
+  studySort: 'recent',
+  studyCardFurigana: new Map(),
+  studyCardTrans: new Set(),
+
   bankSelectedIds: new Set(),
   bankVisibleIds: [],
   bankFilter: {
@@ -847,6 +902,7 @@ function pageLabel(page) {
     setup: t('navSetup'),
     bank: t('navBank'),
     history: t('navHistory'),
+    study: t('navStudy'),
     backup: t('navBackup'),
     exam: t('pageExam'),
     result: t('pageResult'),
@@ -862,6 +918,7 @@ function updateShellLanguage() {
     setup: t('navSetup'),
     bank: t('navBank'),
     history: t('navHistory'),
+    study: t('navStudy'),
     backup: t('navBackup')
   };
   $$('.nav-item').forEach(btn => {
@@ -1361,8 +1418,10 @@ function revokeUnusedURLs() {
 
 async function reloadData() {
   const prevQuestions = Array.isArray(state.questions) ? state.questions : [];
-  const [dbQuestions, dbSessions] = await Promise.all([all('questions'), all('sessions')]);
+  const [dbQuestions, dbSessions, dbStudyList] = await Promise.all([all('questions'), all('sessions'), all('studyList')]);
   state.sessions = dbSessions || [];
+  state.studyList = Array.isArray(dbStudyList) ? dbStudyList : [];
+  updateStudyBadge();
   let currentQuestions = dbQuestions || [];
   let anyChanged = false;
   for (const q of [...currentQuestions]) {
@@ -1395,6 +1454,11 @@ async function reloadData() {
     currentQuestions = await all('questions');
   }
   if (prevQuestions.length > currentQuestions.length) {
+    const dbIds = new Set(currentQuestions.map(q => q.id));
+    const missingInDb = prevQuestions.filter(q => !dbIds.has(q.id));
+    if (missingInDb.length) {
+      try { await putMany('questions', missingInDb); } catch {}
+    }
     const merged = new Map(prevQuestions.map(q => [q.id, q]));
     for (const q of currentQuestions) merged.set(q.id, q);
     state.questions = [...merged.values()];
@@ -1432,6 +1496,7 @@ function render() {
   else if (state.page === 'setup') renderSetup();
   else if (state.page === 'bank') renderBank();
   else if (state.page === 'history') renderHistory();
+  else if (state.page === 'study') renderStudy();
   else if (state.page === 'backup') renderBackup();
   else if (state.page === 'exam') renderExam();
   else if (state.page === 'result') renderResult();
@@ -2257,6 +2322,7 @@ function renderBank() {
         <div class="zen-q-list">
           ${qs.length ? qs.map(q => {
             const img = getQuestionMainMedia(q);
+  const inStudy = isQuestionInStudy(q);
             const hasImg = Boolean(img || q.options?.some(o => o.mediaId || o.optionImage));
             const keyLetter = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : 'A';
             const pkgLabel = formatHomePackageTitle({ name: packageName(q) }).primary;
@@ -2675,12 +2741,13 @@ function defaultQuestion(prefill = {}) {
     sourcePage: 1,
     points: 3.75,
     prompt: '',
+    promptTranslation: '',
     questionText: '',
     instructions: '<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。',
     options: [
-      { id: 'A', text: '', mediaId: '' },
-      { id: 'B', text: '', mediaId: '' },
-      { id: 'C', text: '', mediaId: '' }
+      { id: 'A', text: '', translation: '', mediaId: '' },
+      { id: 'B', text: '', translation: '', mediaId: '' },
+      { id: 'C', text: '', translation: '', mediaId: '' }
     ],
     correctIndex: 0,
     correctAnswer: 'A',
@@ -2786,6 +2853,7 @@ function renderQuestionEditor() {
       </label>
     </div>
     ${richEditorField('prompt','Pertanyaan Bahasa Jepang',q.prompt,'Tulis pertanyaan bahasa Jepang…',{size:'large'})}
+    ${richEditorField('promptTranslation','Terjemahan Pertanyaan (Bahasa Indonesia · Ditampilkan Setelah Finish Exam)',q.promptTranslation || q.translation || '','Tulis terjemahan Bahasa Indonesia untuk pertanyaan ini…',{size:'small'})}
     ${richEditorField('instructions','Instruksi Soal',q.instructions,'Instruksi soal',{size:'small'})}
     <div class="field">
       <span>Ilustrasi Soal (Opsional)</span>
@@ -2805,8 +2873,9 @@ function renderQuestionEditor() {
         <div class="option-editor" data-option-row="${i}">
           <div class="option-editor-index">${String.fromCharCode(65+i)}</div>
           <div class="field option-text-field">
-            <span>Pilihan ${String.fromCharCode(65+i)}</span>
+            <span>Pilihan ${String.fromCharCode(65+i)} (Jepang)</span>
             ${richEditorControl(`optionText${i}`,o.text,'Isi pilihan jawaban…',{size:'small',compact:true,label:`Pilihan ${String.fromCharCode(65+i)}`})}
+            <input type="text" name="optionTranslation${i}" value="${esc(o.translation || o.textId || '')}" placeholder="Terjemahan Bahasa Indonesia Opsi ${String.fromCharCode(65+i)} (opsional)…" aria-label="Terjemahan Opsi ${String.fromCharCode(65+i)}">
           </div>
           <div class="option-correct">
             <input type="radio" name="correctIndex" value="${i}" ${q.correctIndex === i ? 'checked' : ''} aria-label="Jadikan opsi ${String.fromCharCode(65+i)} kunci benar">
@@ -2847,7 +2916,7 @@ function syncQuestionDraft() {
   q.pdfPage = q.sourcePage;
   q.points = Number.parseFloat(fd.get('points')) || 3.75;
 
-  for (const key of ['prompt','instructions','explanation']) {
+  for (const key of ['prompt','promptTranslation','instructions','explanation']) {
     const rich = form.querySelector(`[data-rich-field="${key}"]`);
     if (rich) q[key] = normalizedRichEditorValue(rich.innerHTML);
   }
@@ -2858,10 +2927,12 @@ function syncQuestionDraft() {
   q.correctAnswer = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : '';
   q.options = q.options.map((o, i) => {
     const rich = form.querySelector(`[data-rich-field="optionText${i}"]`);
+    const transInput = form.querySelector(`input[name="optionTranslation${i}"]`);
     return {
       ...o,
       id: String.fromCharCode(65 + i),
-      text: normalizedRichEditorValue(rich ? rich.innerHTML : o.text)
+      text: normalizedRichEditorValue(rich ? rich.innerHTML : o.text),
+      translation: transInput ? String(transInput.value || '').trim() : String(o.translation || o.textId || '').trim()
     };
   });
   q.imageSize = fd.get('imageSize') || q.imageSize || 'medium';
@@ -2899,9 +2970,26 @@ function buildExamQuestions(setup) {
   });
 }
 
+function getExamPackageDisplayName(session, currentQ = null) {
+  const rawSetId = session?.setId && session.setId !== 'all' ? session.setId : (currentQ?.setId || session?.setId || '');
+  const rawName = (session?.setId && session.setId !== 'all' && session?.setName)
+    ? session.setName
+    : (rawSetId ? packageName(rawSetId, session?.setName || '') : (session?.setName || ''));
+  if (!rawName) return formatHomeSessionTitle(session) || 'Kunci Soal Ujian 1';
+  const stripped = String(rawName)
+    .replace(/^(Mock Test Penuh|Latihan|Simulasi Kustom)\s*—\s*/i, '')
+    .trim();
+  const parts = stripped.split(/\s*—\s*/);
+  return (parts[0] || stripped).trim();
+}
+
 async function startExam() {
   const setup = state.setup;
-  const qs = buildExamQuestions(setup);
+  let qs = buildExamQuestions(setup);
+  if (!qs.length) {
+    await ensureAllBuiltinSetsLoaded(false);
+    qs = buildExamQuestions(setup);
+  }
   if (!qs.length) {
     toast('Belum ada soal aktif yang sesuai dengan konfigurasi.', 'warn');
     return;
@@ -3047,14 +3135,14 @@ function renderExam() {
     const m = getOptionMedia(q, o, i);
     const letter = String.fromCharCode(65 + i);
     return `
-      <button type="button" class="answer-choice ${selected ? 'selected' : ''}" data-action="answer" data-index="${i}" aria-pressed="${selected}">
+      <div role="radio" tabindex="0" class="answer-choice ${selected ? 'selected' : ''}" data-action="answer" data-index="${i}" aria-checked="${selected}" aria-pressed="${selected}">
         <span class="answer-letter">${letter}</span>
         <span class="answer-content">
           ${o.text ? `<div class="answer-text rich-content" lang="ja">${richHTML(o.text)}</div>` : ''}
           ${m ? `<img class="answer-image" src="${mediaURL(m)}" alt="Option ${letter}">` : ''}
         </span>
         <span class="answer-radio" aria-hidden="true"></span>
-      </button>`;
+      </div>`;
   }).join('');
 
   const cleanExamPrompt = rawPrompt => {
@@ -3090,13 +3178,15 @@ function renderExam() {
     ? `<button type="button" class="button button-primary" data-action="exam-next">${esc(t('examNextBtn'))} <span aria-hidden="true">›</span></button>`
     : `<button type="button" class="button button-primary" data-action="exam-finish">${esc(t('examNextBtn'))} <span aria-hidden="true">›</span></button>`;
 
+  const activePkgName = getExamPackageDisplayName(s, q);
+
   view.innerHTML = `
     <div class="exam-shell ${s.flaggedQuestions.includes(q.id) ? 'question-flagged' : ''} ${state.mapHidden ? 'map-hidden' : ''}">
       <header class="exam-header">
         <div class="exam-header-left">
           <div class="exam-title-group">
             <div class="exam-name">${esc(t('examQuestionLabel'))}: ${questionNo}</div>
-            <div class="exam-section-title">${esc(t('examSectionLabel'))}: 特定技能1号・飲食料品製造業</div>
+            <div class="exam-section-title">${esc(t('examSectionLabel'))}: ${esc(activePkgName)}</div>
           </div>
         </div>
 
@@ -3116,7 +3206,7 @@ function renderExam() {
       </header>
 
       <div class="exam-meta-strip">
-        <span><b>${esc(t('examTestLabel'))}:</b> SSW PM Mock Test — 特定技能1号・飲食料品製造業 (食品製造)</span>
+        <span><b>${esc(t('examTestLabel'))}:</b> SSW PM Mock Test</span>
         <span class="candidate-label"><b>${esc(t('examCandidateLabel'))}:</b> <strong>${esc(s.candidateName || 'Faiz')}</strong></span>
       </div>
 
@@ -3144,6 +3234,7 @@ function renderExam() {
 
 <button type="button" class="exam-tool-button ${fsActive ? 'is-active' : ''}" data-action="toggle-fullscreen" title="${esc(t('examFullscreenTitle'))}" aria-label="${esc(t('examFullscreenTitle'))}" aria-pressed="${fsActive}"><span class="fs-icon">${fsActive ? '🗗' : '⛶'}</span></button>
 <button type="button" class="exam-tool-button furigana-quick-button ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" title="${esc(t('setFuriganaTitle'))}" aria-label="Toggle Furigana" aria-pressed="${Boolean(state.examPrefs.showFurigana)}">F</button>
+<button type="button" class="exam-tool-button study-list-quick-button ${inStudy ? 'is-active' : ''}" data-action="toggle-study-list" data-id="${esc(q.id)}" title="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-label="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-pressed="${inStudy}">${inStudy ? '✓' : '+'}</button>
 </div>
         <div class="exam-nav-buttons">
           <button type="button" class="exam-flag-button ${s.flaggedQuestions.includes(q.id) ? 'is-flagged' : ''}" data-action="toggle-flag" title="${esc(t('examFlagTitle'))}" aria-label="${esc(t('examFlagTitle'))}">⚑</button>
@@ -3190,6 +3281,7 @@ async function setExamAnswer(index) {
     const active = i === Number(index);
     el.classList.toggle('selected', active);
     el.setAttribute('aria-pressed', String(active));
+    el.setAttribute('aria-checked', String(active));
   });
   const answered = answeredCount(s);
   const totalQ = s.questions.length;
@@ -3267,26 +3359,105 @@ function buildReviewCardsHTML(s, filter = 'all') {
     return out || rawPrompt;
   };
   return qs.map(q => {
+    const liveQ = state.questions.find(x => x.id === q.id) || q;
     const qIdx = s.questions.findIndex(x => x.id === q.id) + 1;
     const answer = s.answers[q.id];
     const correct = answer === q.correctIndex;
     const blank = answer == null;
-    const tag = blank ? t('revTagBlank') : correct ? t('revTagCorrect') : t('revTagWrong');
+    const tag = blank ? 'Kosong' : correct ? 'Benar' : 'Salah';
     const img = getQuestionMainMedia(q);
-    const pageNum = q.sourcePage || q.pdfPage || 1;
-    const cleanExplanation = String(q.explanation || '').replace(/\s*—\s*/g, ' · ');
+    const isTransOpen = Boolean(state.showAllTranslations || state.openTranslationIds?.has(q.id));
+    const cardFuriOn = state.cardFurigana?.has(q.id) ? Boolean(state.cardFurigana.get(q.id)) : Boolean(state.examPrefs.showFurigana);
+
+    const resolveLiveOption = (opt, idx) => {
+      if (!opt || !Array.isArray(liveQ?.options)) return {};
+      const origId = String(opt.originalId || '').trim().toUpperCase();
+      if (origId) {
+        const byOrig = liveQ.options.find(lo => String(lo.id || '').trim().toUpperCase() === origId);
+        if (byOrig) return byOrig;
+      }
+      const optPlain = richPlainText(opt.text || '');
+      if (optPlain && !/^[ABC]$/i.test(optPlain)) {
+        const byText = liveQ.options.find(lo => richPlainText(lo.text || '') === optPlain);
+        if (byText) return byText;
+      }
+      const curId = String(opt.id || '').trim().toUpperCase();
+      if (curId) {
+        const byId = liveQ.options.find(lo => String(lo.id || '').trim().toUpperCase() === curId);
+        if (byId) return byId;
+      }
+      return liveQ.options[idx] || {};
+    };
+
+    const resolveOptTrans = (opt, idx) => {
+      if (!opt) return '';
+      const liveOpt = resolveLiveOption(opt, idx);
+      return String(
+        opt.translation || opt.textId || opt.optionTranslation || opt.terjemahan ||
+        liveOpt.translation || liveOpt.textId || liveOpt.optionTranslation || liveOpt.terjemahan || ''
+      ).trim();
+    };
+
+    const promptTrans = String(
+      q.promptTranslation || liveQ.promptTranslation ||
+      q.translation || liveQ.translation ||
+      q.promptId || liveQ.promptId ||
+      q.terjemahan || liveQ.terjemahan || ''
+    ).trim();
+
+    const userLetter = blank ? null : String.fromCharCode(65 + answer);
+    const userOpt = blank ? null : (q.options?.[answer] || null);
+    const userOptTrans = userOpt ? resolveOptTrans(userOpt, answer) : '';
+    const userOptJa = userOpt ? richPlainText(userOpt.text || '') : '';
+
+    const keyLetter = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : 'A';
+    const keyOpt = Number.isInteger(q.correctIndex) ? (q.options?.[q.correctIndex] || null) : null;
+    const keyOptTrans = keyOpt ? resolveOptTrans(keyOpt, q.correctIndex) : '';
+    const keyOptJa = keyOpt ? richPlainText(keyOpt.text || '') : '';
+
+    const transOptionsHTML = (q.options || []).map((o, i) => {
+      const letter = String.fromCharCode(65 + i);
+      const optTrans = resolveOptTrans(o, i);
+      const isKey = i === q.correctIndex;
+      const isUser = i === answer;
+      const badgeMark = isKey && isUser
+        ? '✓ Pilihan & Kunci'
+        : isKey
+        ? '✓ Kunci'
+        : isUser
+        ? '✕ Pilihan Anda'
+        : '';
+      return `
+        <div class="zen-trans-opt ${isKey ? 'is-key' : ''} ${isUser && !correct ? 'is-wrong' : ''}">
+          <span class="zen-trans-opt-letter">${letter}</span>
+          <div class="zen-trans-opt-body">
+            ${optTrans
+              ? `<span class="zen-trans-opt-text rich-content">${richHTML(optTrans)}</span>`
+              : `<span class="zen-trans-missing-inline">—</span>`}
+          </div>
+          ${badgeMark ? `<span class="zen-trans-badge ${isKey ? 'is-key' : 'is-user-wrong'}">${esc(badgeMark)}</span>` : ''}
+        </div>`;
+    }).join('');
+
     return `
-      <article class="review-card zen-review-item ${blank ? 'is-blank' : correct ? 'is-correct' : 'is-wrong'}">
+      <article class="review-card zen-review-item ${blank ? 'is-blank' : correct ? 'is-correct' : 'is-wrong'} ${cardFuriOn ? 'furigana-on' : 'furigana-off'}" data-review-id="${esc(q.id)}">
         <div class="zen-review-top">
           <div class="zen-review-top-left">
-            <span class="zen-q-num">Soal ${String(qIdx).padStart(2, '0')}</span>
+            <span class="zen-q-num">${String(qIdx).padStart(2, '0')}</span>
             <span class="zen-review-tag ${blank ? 'is-blank' : correct ? 'is-correct' : 'is-wrong'}">${esc(tag)}</span>
           </div>
-          <span class="zen-review-source">Hal. ${esc(pageNum)}</span>
+          <div class="zen-review-top-right">
+            <button type="button" class="zen-icon-toggle zen-furi-card-btn ${cardFuriOn ? 'is-active' : ''}" data-action="toggle-card-furigana" data-id="${esc(q.id)}" aria-pressed="${cardFuriOn}" title="${cardFuriOn ? 'Sembunyikan Furigana' : 'Tampilkan Furigana'}" aria-label="Furigana nomor ${qIdx}">
+              <span class="zen-icon-glyph" aria-hidden="true">F</span>
+            </button>
+            <button type="button" class="zen-icon-toggle zen-trans-card-btn ${isTransOpen ? 'is-active' : ''}" data-action="toggle-card-translation" data-id="${esc(q.id)}" aria-expanded="${isTransOpen}" title="${isTransOpen ? 'Sembunyikan Terjemahan Indonesia' : 'Tampilkan Terjemahan Indonesia'}" aria-label="Terjemahan Indonesia nomor ${qIdx}">
+              <span class="zen-icon-glyph" aria-hidden="true">文A</span>
+            </button>
+          </div>
         </div>
         ${q.instructions ? `<div class="zen-review-instruction rich-content" lang="ja">${richHTML(q.instructions)}</div>` : ''}
         <h3 class="zen-review-prompt rich-content" lang="ja">${richHTML(q.instructions ? stripTrailingInstruction(q.prompt) : q.prompt)}</h3>
-        ${img ? `<img class="zen-review-image" src="${mediaURL(img)}" alt="Ilustrasi Soal ${qIdx}">` : ''}
+        ${img ? `<img class="zen-review-image" src="${mediaURL(img)}" alt="Ilustrasi ${qIdx}">` : ''}
         <div class="zen-review-options">
           ${(q.options || []).map((o, i) => {
             const m = getOptionMedia(q, o, i);
@@ -3294,11 +3465,11 @@ function buildReviewCardsHTML(s, filter = 'all') {
             const isUserWrong = i === answer && !correct;
             const isUserCorrect = i === answer && correct;
             const markLabel = isUserCorrect
-              ? 'Jawaban Anda · Benar'
+              ? '✓'
               : isKey
-              ? 'Kunci Benar'
+              ? '✓'
               : isUserWrong
-              ? 'Jawaban Anda · Salah'
+              ? '✕'
               : '';
             return `
               <div class="zen-review-opt ${isKey ? 'is-correct' : ''} ${isUserWrong ? 'is-wrong' : ''}">
@@ -3307,13 +3478,25 @@ function buildReviewCardsHTML(s, filter = 'all') {
                   <span class="rich-content" lang="ja">${richHTML(o.text)}</span>
                   ${m ? `<img src="${mediaURL(m)}" alt="Gambar opsi">` : ''}
                 </div>
-                ${markLabel ? `<span class="zen-review-mark">${esc(markLabel)}</span>` : ''}
+                ${markLabel ? `<span class="zen-review-mark" aria-hidden="true">${esc(markLabel)}</span>` : ''}
               </div>`;
           }).join('')}
         </div>
-        <div class="zen-review-note">
-          <span class="zen-review-note-label">Kunci &amp; Catatan:</span>
-          <div class="rich-content">${cleanExplanation ? richHTML(cleanExplanation) : `Kunci Jawaban: ${String.fromCharCode(65 + q.correctIndex)}`}</div>
+        <div class="zen-translation-panel ${isTransOpen ? 'is-open' : ''}" ${isTransOpen ? '' : 'hidden'} lang="id">
+          ${promptTrans
+            ? `<div class="zen-trans-prompt rich-content">${richHTML(promptTrans)}</div>`
+            : `<div class="zen-trans-missing">Terjemahan belum tersedia.</div>`}
+          <div class="zen-trans-options-list">
+            ${transOptionsHTML}
+          </div>
+          <div class="zen-trans-eval-bar">
+            <span class="zen-trans-eval-chip ${blank ? 'is-blank' : correct ? 'is-correct' : 'is-wrong'}">
+              Pilihan: <strong>${blank ? '—' : `${esc(userLetter)}${userOptTrans ? ` · ${esc(richPlainText(userOptTrans))}` : (userOptJa ? ` (${esc(userOptJa)})` : '')}`}</strong>
+            </span>
+            <span class="zen-trans-eval-chip is-correct">
+              Kunci: <strong>${esc(keyLetter)}${keyOptTrans ? ` · ${esc(richPlainText(keyOptTrans))}` : (keyOptJa ? ` (${esc(keyOptJa)})` : '')}</strong>
+            </span>
+          </div>
         </div>
       </article>`;
   }).join('');
@@ -3331,6 +3514,25 @@ function renderResult() {
   const loc = t('locale');
   const statusLabel = s.status === 'time-up' ? t('statusTimeUp') : t('statusCompleted');
   const cleanTitle = formatHomeSessionTitle(s);
+  const dObj = new Date(s.endedAt || s.startedAt || Date.now());
+  const prometricDate = `${dObj.getFullYear()}/${String(dObj.getMonth() + 1).padStart(2, '0')}/${String(dObj.getDate()).padStart(2, '0')}`;
+  const modeReportLabel = s.mode === 'practice'
+    ? 'Practice Mode (Untimed)'
+    : `CBT Mock Test (${s.durationMinutes || 70} Mins)`;
+
+  const configuredPassingScore = Number(s.passingScore ?? state.settings?.passingScore) > 0
+    ? Number(s.passingScore ?? state.settings?.passingScore)
+    : null;
+  const isPassed = configuredPassingScore != null ? st.weightedScore >= configuredPassingScore : null;
+  const examResultText = configuredPassingScore != null
+    ? (isPassed ? '合格 / PASS' : '不合格 / FAIL')
+    : `${s.status === 'time-up' ? '時間切れ完了 / Completed (Time Up)' : '完了（自己評価） / Completed (Self-Evaluation)'} — ${st.correct} / ${st.total} Correct`;
+  const examResultStateClass = configuredPassingScore != null
+    ? (isPassed ? 'is-pass' : 'is-fail')
+    : 'is-completed';
+  const passingScoreText = configuredPassingScore != null
+    ? `${configuredPassingScore} / ${st.maxWeightedScore}`
+    : `未設定（自己評価・${st.maxWeightedScore}点満点） / Not Set in Mock Test Config`;
 
   view.innerHTML = `
     <div class="zen-page zen-result-page">
@@ -3341,79 +3543,167 @@ function renderResult() {
           <p class="zen-page-meta">${esc(s.candidateName || 'Faiz')} · ${fmtDate(s.endedAt || s.startedAt, loc)} · ${s.mode === 'practice' ? esc(t('modePractice')) : esc(t('modeExam'))}</p>
         </div>
         <div class="zen-page-head-actions">
-          <button type="button" class="hd-btn-secondary" data-action="print-result">${esc(t('btnPrint'))}</button>
+          <button type="button" class="hd-btn-secondary" data-action="print-result">Print / Save as PDF</button>
           <button type="button" class="hd-btn-secondary" data-action="export-result" data-id="${esc(s.id)}">${esc(t('btnExportJson'))}</button>
           <button type="button" class="hd-btn-primary" data-page="setup">${esc(cleanHomeText(t('btnNextExam')))}</button>
         </div>
       </header>
 
-      <section class="print-report panel">
-        <div class="print-report-brand">
-          <div class="print-brand-mark">F</div>
-          <div>
-            <strong>SSW PM MOCK TEST BY FAIZ</strong>
-            <small>特定技能1号・飲食料品製造業 · PRACTICE REPORT</small>
+      <section class="prometric-report print-report" aria-label="Mock Test Result Notification">
+        <div class="pr-sheet-top">
+          <div class="pr-issuer-brand">
+            <img class="pr-issuer-icon" src="./favicon.png?v=ssw18" alt="SSW PM Mock Test Icon" width="38" height="38">
+            <div class="pr-issuer-text">
+              <strong>SSW PM MOCK TEST</strong>
+              <span>特定技能1号・飲食料品製造業 · SIMULATOR EVALUASI MANDIRI</span>
+            </div>
           </div>
-          <span class="sample-mark">MOCK TEST</span>
+          <span class="pr-mock-badge">MOCK TEST / NOT OFFICIAL</span>
         </div>
-        <h2>Laporan Hasil Simulasi Ujian SSW PM</h2>
-        <p class="print-report-subtitle">Evaluasi latihan mandiri — bukan dokumen kelulusan resmi OTAFF / Prometric</p>
-        <div class="print-candidate-grid">
-          <div class="print-photo-wrap">
-            ${s.candidatePhoto ? `<img class="print-candidate-photo" src="${s.candidatePhoto}" alt="Candidate photo">` : `<div class="print-photo-placeholder">Photo</div>`}
-          </div>
-          <div class="print-info">
-            <h3>Candidate &amp; Exam Information</h3>
-            <div><span>${esc(t('examCandidateLabel'))}</span><strong>${esc(s.candidateName || 'Faiz')}</strong></div>
-            <div><span>${esc(t('thPkgSim'))}</span><strong>${esc(s.title || 'SSW PM Mock Test')}</strong></div>
-            <div><span>${esc(t('sumFieldField'))}</span><strong>特定技能1号・飲食料品製造業 (食品製造)</strong></div>
-            <div><span>${esc(t('thDate'))}</span><strong>${fmtDate(s.endedAt || s.startedAt, loc)}</strong></div>
-            <div><span>${esc(t('resElapsed'))}</span><strong>${fmtDuration(elapsed)}</strong></div>
-          </div>
-        </div>
-        <div class="print-score-panel">
-          <div>
-            <span>${esc(t('resCorrectAns'))}</span>
-            <strong>${st.correct} / ${st.total} (${st.percent}%)</strong>
-            <small>${esc(t('resWeighted'))}: ${st.weightedScore} / ${st.maxWeightedScore}</small>
-          </div>
-          <div class="print-score-detail">
-            <div><span>${esc(t('thCorrect'))}</span><b>${st.correct}</b></div>
-            <div><span>Wrong</span><b>${st.wrong}</b></div>
-            <div><span>${esc(t('thEmpty'))}</span><b>${st.unanswered}</b></div>
-          </div>
-        </div>
-      </section>
 
-      <section class="result-hero zen-result-ledger no-print" aria-label="Ringkasan Skor">
-        <div class="zen-ledger-cell zen-ledger-primary">
-          <span class="zen-ledger-label">Skor Poin</span>
-          <strong class="zen-ledger-value">${st.weightedScore} <small>/ ${st.maxWeightedScore}</small></strong>
+        <div class="pr-title-block">
+          <h2 class="pr-title-jp" lang="ja">模擬試験結果通知書</h2>
+          <p class="pr-title-en">Mock Test Result Notification</p>
         </div>
-        <div class="zen-ledger-cell">
-          <span class="zen-ledger-label">Akurasi</span>
-          <strong class="zen-ledger-value">${st.percent}%</strong>
+
+        <div class="pr-candidate-section ${s.candidatePhoto ? 'has-photo' : ''}">
+          <div class="pr-meta-columns">
+            <div class="pr-meta-col">
+              <div class="pr-meta-row">
+                <div class="pr-meta-label">
+                  <span class="pr-lbl-jp" lang="ja">受験者名</span>
+                  <span class="pr-lbl-en">Candidate Name</span>
+                </div>
+                <div class="pr-meta-val">: <strong>${esc(s.candidateName || 'Faiz')}</strong></div>
+              </div>
+              <div class="pr-meta-row">
+                <div class="pr-meta-label">
+                  <span class="pr-lbl-jp" lang="ja">セッションID</span>
+                  <span class="pr-lbl-en">Session ID</span>
+                </div>
+                <div class="pr-meta-val">: <span>${esc(s.id)}</span></div>
+              </div>
+              <div class="pr-meta-row">
+                <div class="pr-meta-label">
+                  <span class="pr-lbl-jp" lang="ja">問題パッケージ</span>
+                  <span class="pr-lbl-en">Question Package</span>
+                </div>
+                <div class="pr-meta-val">: <strong>${esc(cleanTitle)}</strong></div>
+              </div>
+            </div>
+
+            <div class="pr-meta-col">
+              <div class="pr-meta-row">
+                <div class="pr-meta-label">
+                  <span class="pr-lbl-jp" lang="ja">試験日</span>
+                  <span class="pr-lbl-en">Test Date</span>
+                </div>
+                <div class="pr-meta-val">: <span>${esc(prometricDate)}</span></div>
+              </div>
+              <div class="pr-meta-row">
+                <div class="pr-meta-label">
+                  <span class="pr-lbl-jp" lang="ja">試験モード</span>
+                  <span class="pr-lbl-en">Exam Mode</span>
+                </div>
+                <div class="pr-meta-val">: <span>${esc(modeReportLabel)}</span></div>
+              </div>
+              <div class="pr-meta-row">
+                <div class="pr-meta-label">
+                  <span class="pr-lbl-jp" lang="ja">所要時間</span>
+                  <span class="pr-lbl-en">Duration</span>
+                </div>
+                <div class="pr-meta-val">: <span>${esc(fmtDuration(elapsed))}</span></div>
+              </div>
+            </div>
+          </div>
+
+          ${s.candidatePhoto ? `
+            <div class="pr-photo-frame">
+              <img class="pr-candidate-photo" src="${s.candidatePhoto}" alt="Candidate photo">
+            </div>
+          ` : ''}
         </div>
-        <div class="zen-ledger-cell">
-          <span class="zen-ledger-label">${esc(t('resCorrectAns'))}</span>
-          <strong class="zen-ledger-value is-correct">${st.correct} <small>/ ${st.total}</small></strong>
+
+        <div class="pr-results-section">
+          <div class="pr-results-intro">
+            <p class="pr-intro-jp" lang="ja">試験の結果は以下の通りです。</p>
+            <p class="pr-intro-en">Your test results are as follows.</p>
+          </div>
+
+          <div class="pr-results-table">
+            <div class="pr-result-row">
+              <div class="pr-result-label">
+                <span class="pr-lbl-jp" lang="ja">試験名</span>
+                <span class="pr-lbl-en">Exam Name</span>
+              </div>
+              <div class="pr-result-val">
+                <div class="pr-exam-name-jp" lang="ja">: 飲食料品製造業特定技能1号技能測定試験（模擬試験）</div>
+                <div class="pr-exam-name-en">Food and Beverage Manufacturing Specified Skilled Worker (i) Skills Evaluation Test — ${esc(cleanTitle)}</div>
+              </div>
+            </div>
+
+            <div class="pr-result-row">
+              <div class="pr-result-label">
+                <span class="pr-lbl-jp" lang="ja">得点</span>
+                <span class="pr-lbl-en">Score</span>
+              </div>
+              <div class="pr-result-val pr-score-val">
+                : <strong>${st.weightedScore}</strong> <span class="pr-score-max">/ ${st.maxWeightedScore}</span> <span class="pr-score-pct">(${st.percent}%)</span>
+              </div>
+            </div>
+
+            <div class="pr-result-row">
+              <div class="pr-result-label">
+                <span class="pr-lbl-jp" lang="ja">試験結果</span>
+                <span class="pr-lbl-en">Exam Result</span>
+              </div>
+              <div class="pr-result-val">
+                : <strong class="pr-exam-status ${examResultStateClass}">${esc(examResultText)}</strong>
+              </div>
+            </div>
+
+            <div class="pr-result-row">
+              <div class="pr-result-label">
+                <span class="pr-lbl-jp" lang="ja">合格基準点</span>
+                <span class="pr-lbl-en">Passing Score</span>
+              </div>
+              <div class="pr-result-val">
+                : <span>${esc(passingScoreText)}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pr-breakdown-grid" aria-label="Score Breakdown">
+            <div class="pr-breakdown-cell">
+              <span class="pr-bd-label">正解数 / Correct</span>
+              <strong class="pr-bd-val is-correct">${st.correct} <small>/ ${st.total}</small></strong>
+            </div>
+            <div class="pr-breakdown-cell">
+              <span class="pr-bd-label">不正解数 / Wrong</span>
+              <strong class="pr-bd-val ${st.wrong > 0 ? 'is-wrong' : ''}">${st.wrong}</strong>
+            </div>
+            <div class="pr-breakdown-cell">
+              <span class="pr-bd-label">未回答 / Unanswered</span>
+              <strong class="pr-bd-val">${st.unanswered}</strong>
+            </div>
+            <div class="pr-breakdown-cell">
+              <span class="pr-bd-label">正答率 / Accuracy</span>
+              <strong class="pr-bd-val">${st.percent}%</strong>
+            </div>
+            <div class="pr-breakdown-cell">
+              <span class="pr-bd-label">所要時間 / Duration</span>
+              <strong class="pr-bd-val">${esc(fmtDuration(elapsed))}</strong>
+            </div>
+          </div>
         </div>
-        <div class="zen-ledger-cell">
-          <span class="zen-ledger-label">${esc(t('resWrongAns'))}</span>
-          <strong class="zen-ledger-value ${st.wrong > 0 ? 'is-wrong' : ''}">${st.wrong}</strong>
-        </div>
-        <div class="zen-ledger-cell">
-          <span class="zen-ledger-label">${esc(t('resUnanswered'))}</span>
-          <strong class="zen-ledger-value">${st.unanswered}</strong>
-        </div>
-        <div class="zen-ledger-cell">
-          <span class="zen-ledger-label">Durasi</span>
-          <strong class="zen-ledger-value">${fmtDuration(elapsed)}</strong>
-        </div>
+
+        <footer class="pr-sheet-footer">
+          <p class="pr-disclaimer">This document is a practice test result generated by SSW PM Mock Test. It is not an official OTAFF or Prometric examination certificate.</p>
+        </footer>
       </section>
 
       <div class="zen-result-photo-row no-print">
-        <label class="hd-text-btn" for="result-photo-upload">Ubah Foto Laporan Cetak</label>
+        <label class="hd-text-btn" for="result-photo-upload">${s.candidatePhoto ? 'Ubah Foto Kandidat pada Report' : 'Tambahkan Foto Kandidat pada Report (Opsional)'}</label>
         <input type="file" id="result-photo-upload" accept="image/*" hidden>
       </div>
 
@@ -3428,15 +3718,415 @@ function renderResult() {
               <option value="correct" ${f==='correct'?'selected':''}>${esc(t('revFilterCorrect'))} (${st.correct})</option>
             </select>
           </div>
-          <button type="button" class="hd-btn-secondary" data-action="toggle-furigana-quick">
-            ふりがな: <strong>${state.examPrefs.showFurigana ? 'ON' : 'OFF'}</strong>
-          </button>
+          <div class="zen-review-bar-actions">
+            <button type="button" class="zen-icon-toggle zen-trans-global-btn ${state.showAllTranslations ? 'is-active' : ''}" data-action="toggle-all-translations" aria-pressed="${Boolean(state.showAllTranslations)}" title="${state.showAllTranslations ? 'Sembunyikan Semua Terjemahan Indonesia' : 'Tampilkan Semua Terjemahan Indonesia'}" aria-label="Tampilkan atau sembunyikan semua terjemahan bahasa Indonesia">
+              <span class="zen-icon-glyph" aria-hidden="true">文A</span>
+            </button>
+            <button type="button" class="zen-icon-toggle ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" aria-pressed="${Boolean(state.examPrefs.showFurigana)}" title="${state.examPrefs.showFurigana ? 'Sembunyikan Furigana (ふりがな)' : 'Tampilkan Furigana (ふりがな)'}" aria-label="Tampilkan atau sembunyikan furigana">
+              <span class="zen-icon-glyph" aria-hidden="true">F</span>
+            </button>
+          </div>
         </div>
         <div class="review-list zen-review-list">
           ${buildReviewCardsHTML(s, f)}
         </div>
       </section>
     </div>`;
+}
+
+
+function updateStudyBadge() {
+  const count = Array.isArray(state.studyList) ? state.studyList.length : 0;
+  const badge = $('#nav-study-badge');
+  if (badge) {
+    badge.textContent = String(count);
+    badge.classList.toggle('is-zero', count === 0);
+  }
+}
+
+function getStudyKey(q) {
+  if (!q) return '';
+  const liveQ = (state.questions || []).find(x => x.id === q.id) || q;
+  const setId = liveQ.setId || q.setId || 'ssw-pm-kunci-ujian-1';
+  return `${setId}::${q.id}`;
+}
+
+function isQuestionInStudy(q) {
+  if (!q) return false;
+  const liveQ = (state.questions || []).find(x => x.id === q.id) || q;
+  const setId = liveQ.setId || q.setId || 'ssw-pm-kunci-ujian-1';
+  const studyId = `${setId}::${q.id}`;
+  return (state.studyList || []).some(
+    item => item.id === studyId || item.id === q.id || (item.questionId === q.id && (item.setId === setId || item.packageId === setId))
+  );
+}
+
+function makeStudyItem(q) {
+  const liveQ = (state.questions || []).find(x => x.id === q.id) || q;
+  const setId = liveQ.setId || q.setId || 'ssw-pm-kunci-ujian-1';
+  const studyId = `${setId}::${q.id}`;
+  const setName = packageName(setId, liveQ.setName || q.setName || setId);
+  return {
+    id: studyId,
+    compositeId: studyId,
+    packageId: setId,
+    setId: setId,
+    setName: setName,
+    questionId: q.id,
+    questionNumber: liveQ.questionNumber ?? q.questionNumber ?? 1,
+    prompt: liveQ.prompt || q.prompt || '',
+    questionText: liveQ.prompt || q.prompt || '',
+    instructions: liveQ.instructions || q.instructions || '',
+    options: structuredClone(liveQ.options || q.options || []),
+    correctIndex: liveQ.correctIndex ?? q.correctIndex ?? 0,
+    correctAnswer: liveQ.correctAnswer || q.correctAnswer || 'A',
+    explanation: liveQ.explanation || q.explanation || '',
+    promptTranslation: liveQ.promptTranslation || q.promptTranslation || '',
+    imageMediaId: liveQ.imageMediaId || q.imageMediaId || null,
+    questionImage: liveQ.questionImage || q.questionImage || null,
+    imageSize: liveQ.imageSize || q.imageSize || 'medium',
+    imageRatio: liveQ.imageRatio || q.imageRatio || 'auto',
+    imagePosition: liveQ.imagePosition || q.imagePosition || 'center',
+    media: liveQ.media || q.media || null,
+    addedAt: new Date().toISOString()
+  };
+}
+
+async function toggleStudyItem(q) {
+  if (!q) return false;
+  const liveQ = (state.questions || []).find(x => x.id === q.id) || q;
+  const setId = liveQ.setId || q.setId || 'ssw-pm-kunci-ujian-1';
+  const studyId = `${setId}::${q.id}`;
+  if (!Array.isArray(state.studyList)) state.studyList = [];
+  
+  const existingIdx = state.studyList.findIndex(
+    item => item.id === studyId || item.id === q.id || (item.questionId === q.id && (item.setId === setId || item.packageId === setId))
+  );
+
+  if (existingIdx >= 0) {
+    const existing = state.studyList[existingIdx];
+    state.studyList.splice(existingIdx, 1);
+    try {
+      await del('studyList', existing.id);
+    } catch (e) {
+      console.warn('Gagal menghapus dari IndexedDB studyList:', e);
+    }
+    updateStudyBadge();
+    toast(t('studyRemovedToast'), 'info');
+    return false;
+  } else {
+    const newItem = makeStudyItem(q);
+    state.studyList.unshift(newItem);
+    try {
+      await put('studyList', newItem);
+    } catch (e) {
+      console.warn('Gagal menyimpan ke IndexedDB studyList:', e);
+    }
+    updateStudyBadge();
+    toast(t('studyAddedToast'), 'success');
+    return true;
+  }
+}
+
+async function removeStudyItem(studyId) {
+  if (!studyId || !Array.isArray(state.studyList)) return;
+  const idx = state.studyList.findIndex(item => item.id === studyId || item.questionId === studyId);
+  if (idx >= 0) {
+    const item = state.studyList[idx];
+    state.studyList.splice(idx, 1);
+    try {
+      await del('studyList', item.id);
+    } catch (e) {
+      console.warn('Gagal menghapus studyList:', e);
+    }
+    updateStudyBadge();
+    toast(t('studyRemovedToast'), 'info');
+  }
+}
+
+function openStudyDetail(item) {
+  if (!item) return;
+  const img = getQuestionMainMedia(item);
+  const content = `
+    <div class="zen-study-modal-wrap">
+      <div class="zen-study-card-meta">
+        <span class="zen-study-pkg-pill">${esc(item.setName || packageName(item.setId))}</span>
+        <span class="zen-study-qnum-pill">No. ${item.questionNumber}</span>
+        <span class="zen-study-date">Ditambahkan: ${fmtDate(item.addedAt)}</span>
+      </div>
+
+      ${item.instructions ? `<div class="zen-review-instruction rich-content" lang="ja">${richHTML(item.instructions)}</div>` : ''}
+      <h3 class="zen-study-prompt rich-content" lang="ja" style="margin: 8px 0 12px;">${richHTML(item.prompt)}</h3>
+
+      ${img ? `<img class="zen-study-image" src="${mediaURL(img)}" alt="Ilustrasi">` : ''}
+
+      <div class="zen-study-options">
+        ${(item.options || []).map((o, i) => {
+          const isCorrect = i === item.correctIndex;
+          const letter = String.fromCharCode(65 + i);
+          const optTrans = o.translation || o.textId || '';
+          return `
+            <div class="zen-study-opt ${isCorrect ? 'is-correct' : ''}">
+              <span class="zen-study-opt-letter">${letter}</span>
+              <div class="zen-study-opt-body">
+                <span class="rich-content" lang="ja">${richHTML(o.text)}</span>
+                ${optTrans ? `<div class="zen-trans-opt-text" style="color:#566a7f;font-size:12.5px;margin-top:2px;">${richHTML(optTrans)}</div>` : ''}
+              </div>
+              ${isCorrect ? `<span class="zen-study-correct-badge">✓ Kunci</span>` : ''}
+            </div>
+          `;
+        }).join('')}
+      </div>
+
+      ${item.promptTranslation ? `
+        <div class="zen-study-translation-panel">
+          <strong style="color: #1a2228;">Terjemahan Pertanyaan:</strong>
+          <div class="rich-content" lang="id">${richHTML(item.promptTranslation)}</div>
+        </div>
+      ` : ''}
+
+      ${item.explanation ? `
+        <div class="zen-study-explanation">
+          <strong>Pembahasan:</strong>
+          <div class="rich-content">${richHTML(item.explanation)}</div>
+        </div>
+      ` : ''}
+    </div>
+  `;
+  const footer = `
+    <button type="button" class="button button-outline" data-action="close-modal">Tutup</button>
+    <button type="button" class="button button-danger" data-action="remove-study-item" data-id="${esc(item.id)}" onclick="closeModal()">Hapus dari Study List</button>
+  `;
+  modal(`${esc(item.setName || 'Soal')} — No. ${item.questionNumber}`, content, footer);
+}
+
+function renderStudy() {
+  const items = Array.isArray(state.studyList) ? state.studyList : [];
+  const totalCount = items.length;
+
+  if (totalCount === 0) {
+    view.innerHTML = `
+      <div class="zen-page zen-study-page">
+        <header class="zen-page-head">
+          <div>
+            <span class="zen-kicker">DAFTAR BELAJAR</span>
+            <h1 class="zen-page-title">${esc(t('navStudy'))}</h1>
+            <p class="zen-page-desc">${esc(t('studyPageDesc'))}</p>
+          </div>
+          <div class="zen-page-head-actions">
+            <span class="zen-meta-count" id="study-total-count">0 soal</span>
+            <button type="button" class="hd-btn-primary" data-page="setup">${esc(t('topStartExam'))}</button>
+          </div>
+        </header>
+
+        <div class="zen-empty-block">
+          <div class="zen-empty-icon" style="font-size: 48px; margin-bottom: 12px;">🔖</div>
+          <h3 class="hd-empty-title">${esc(t('studyEmptyTitle'))}</h3>
+          <p class="hd-empty-line" style="max-width: 440px; margin: 0 auto 20px; line-height: 1.6; color: var(--zen-muted);">
+            ${esc(t('studyEmptyDesc'))}
+          </p>
+          <button type="button" class="hd-btn-primary" data-page="setup">${esc(t('topStartExam'))}</button>
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  // Count per package
+  const pkgMap = new Map();
+  for (const item of items) {
+    const pkgId = item.setId || item.packageId || 'unknown';
+    const pkgName = item.setName || packageName(pkgId, pkgId);
+    if (!pkgMap.has(pkgId)) {
+      pkgMap.set(pkgId, { id: pkgId, name: pkgName, count: 0 });
+    }
+    pkgMap.get(pkgId).count++;
+  }
+  const packages = Array.from(pkgMap.values()).sort((a, b) => b.count - a.count);
+
+  // Filter
+  const qSearch = (state.studySearch || '').toLowerCase().trim();
+  const pkgFilter = state.studyPackageFilter || 'all';
+
+  let filtered = items.filter(item => {
+    if (pkgFilter !== 'all' && item.setId !== pkgFilter && item.packageId !== pkgFilter) {
+      return false;
+    }
+    if (qSearch) {
+      const pText = (item.prompt || '').toLowerCase();
+      const pTrans = (item.promptTranslation || '').toLowerCase();
+      const optText = (item.options || []).map(o => (o.text || '') + ' ' + (o.translation || '')).join(' ').toLowerCase();
+      const matches = pText.includes(qSearch) || pTrans.includes(qSearch) || optText.includes(qSearch);
+      if (!matches) return false;
+    }
+    return true;
+  });
+
+  // Sort
+  const sortMode = state.studySort || 'recent';
+  if (sortMode === 'recent') {
+    filtered.sort((a, b) => new Date(b.addedAt || 0) - new Date(a.addedAt || 0));
+  } else if (sortMode === 'oldest') {
+    filtered.sort((a, b) => new Date(a.addedAt || 0) - new Date(b.addedAt || 0));
+  } else if (sortMode === 'number') {
+    filtered.sort((a, b) => (a.questionNumber || 0) - (b.questionNumber || 0));
+  }
+
+  view.innerHTML = `
+    <div class="zen-page zen-study-page">
+      <header class="zen-page-head">
+        <div>
+          <span class="zen-kicker">DAFTAR BELAJAR</span>
+          <h1 class="zen-page-title">${esc(t('navStudy'))}</h1>
+          <p class="zen-page-desc">${esc(t('studyPageDesc'))}</p>
+        </div>
+        <div class="zen-page-head-actions">
+          <span class="zen-meta-count" id="study-total-count">${totalCount} soal tersimpan</span>
+          <button type="button" class="hd-btn-primary" data-page="setup">${esc(t('topStartExam'))}</button>
+        </div>
+      </header>
+
+      <section class="zen-study-filter-bar">
+        <div class="zen-study-filter-left">
+          <div class="zen-study-search-wrap">
+            <input type="search" id="study-search-input" placeholder="${esc(t('studySearchPlaceholder'))}" value="${esc(state.studySearch || '')}">
+          </div>
+          <select class="hd-select" id="study-pkg-select">
+            <option value="all">${esc(t('studyFilterAll'))} (${totalCount})</option>
+            ${packages.map(p => `
+              <option value="${esc(p.id)}" ${pkgFilter === p.id ? 'selected' : ''}>${esc(p.name)} (${p.count})</option>
+            `).join('')}
+          </select>
+        </div>
+        <div class="zen-study-filter-right">
+          <select class="hd-select" id="study-sort-select">
+            <option value="recent" ${sortMode === 'recent' ? 'selected' : ''}>${esc(t('studySortRecent'))}</option>
+            <option value="oldest" ${sortMode === 'oldest' ? 'selected' : ''}>${esc(t('studySortOldest'))}</option>
+            <option value="number" ${sortMode === 'number' ? 'selected' : ''}>${esc(t('studySortNumber'))}</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="zen-study-list">
+        ${filtered.length === 0 ? `
+          <div class="zen-empty-block" style="padding: 36px 20px;">
+            <p class="hd-empty-line">Tidak ada soal yang cocok dengan filter atau kata kunci pencarian.</p>
+            <button type="button" class="hd-btn-ghost" id="study-reset-filter-btn">Reset Filter</button>
+          </div>
+        ` : filtered.map(item => {
+          const img = getQuestionMainMedia(item);
+          const furiOn = state.studyCardFurigana?.has(item.id)
+            ? Boolean(state.studyCardFurigana.get(item.id))
+            : Boolean(state.examPrefs.showFurigana);
+          const transOpen = state.studyCardTrans?.has(item.id) ?? true;
+          return `
+            <article class="zen-study-card ${furiOn ? 'furigana-on' : 'furigana-off'}" data-study-id="${esc(item.id)}">
+              <div class="zen-study-card-top">
+                <div class="zen-study-card-meta">
+                  <span class="zen-study-pkg-pill">${esc(item.setName || packageName(item.setId))}</span>
+                  <span class="zen-study-qnum-pill">No. ${item.questionNumber}</span>
+                  <span class="zen-study-date">${fmtDate(item.addedAt)}</span>
+                </div>
+                <div class="zen-study-card-actions">
+                  <button type="button" class="zen-icon-toggle ${furiOn ? 'is-active' : ''}" data-action="toggle-study-card-furigana" data-id="${esc(item.id)}" title="Toggle Furigana" aria-pressed="${furiOn}">F</button>
+                  <button type="button" class="zen-icon-toggle ${transOpen ? 'is-active' : ''}" data-action="toggle-study-card-translation" data-id="${esc(item.id)}" title="Toggle Terjemahan" aria-pressed="${transOpen}">文A</button>
+                  <button type="button" class="zen-action-btn" data-action="open-study-detail" data-id="${esc(item.id)}" title="${esc(t('studyDetail'))}">🔍 Detail</button>
+                  <button type="button" class="zen-action-btn is-danger" data-action="remove-study-item" data-id="${esc(item.id)}" title="${esc(t('studyRemoveBtn'))}">✕</button>
+                </div>
+              </div>
+
+              ${item.instructions ? `<div class="zen-review-instruction rich-content" lang="ja">${richHTML(item.instructions)}</div>` : ''}
+              <h3 class="zen-study-prompt rich-content" lang="ja">${richHTML(item.prompt)}</h3>
+
+              ${img ? `<img class="zen-study-image" src="${mediaURL(img)}" alt="Ilustrasi Soal ${item.questionNumber}">` : ''}
+
+              <div class="zen-study-options">
+                ${(item.options || []).map((o, idx) => {
+                  const isCorrect = idx === item.correctIndex;
+                  const letter = String.fromCharCode(65 + idx);
+                  return `
+                    <div class="zen-study-opt ${isCorrect ? 'is-correct' : ''}">
+                      <span class="zen-study-opt-letter">${letter}</span>
+                      <div class="zen-study-opt-body">
+                        <span class="rich-content" lang="ja">${richHTML(o.text)}</span>
+                      </div>
+                      ${isCorrect ? `<span class="zen-study-correct-badge">✓ Kunci</span>` : ''}
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+
+              <div class="zen-study-translation-panel ${transOpen ? '' : 'is-hidden'}" lang="id">
+                ${item.promptTranslation ? `
+                  <div style="font-weight:600;margin-bottom:4px;">${richHTML(item.promptTranslation)}</div>
+                ` : `<div style="color:var(--zen-muted);font-style:italic;">Terjemahan belum tersedia</div>`}
+                <div style="display:flex;flex-direction:column;gap:3px;margin-top:6px;font-size:13px;">
+                  ${(item.options || []).map((o, idx) => {
+                    const isKey = idx === item.correctIndex;
+                    const letter = String.fromCharCode(65 + idx);
+                    const optTrans = o.translation || o.textId || '';
+                    return `
+                      <div style="display:flex;gap:6px;align-items:baseline;${isKey ? 'font-weight:600;color:#2e5c1e;' : ''}">
+                        <span>${letter}.</span>
+                        <span>${optTrans ? richHTML(optTrans) : '—'}</span>
+                        ${isKey ? '<span style="font-size:11px;background:#9ecb65;color:#1a3311;padding:1px 5px;border-radius:3px;">Kunci</span>' : ''}
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+              </div>
+
+              ${item.explanation ? `
+                <div class="zen-study-explanation">
+                  <strong>Pembahasan:</strong>
+                  <div class="rich-content">${richHTML(item.explanation)}</div>
+                </div>
+              ` : ''}
+            </article>
+          `;
+        }).join('')}
+      </section>
+    </div>
+  `;
+
+  // Attach listeners
+  const sInput = $('#study-search-input');
+  if (sInput) {
+    sInput.addEventListener('input', (e) => {
+      state.studySearch = e.target.value;
+      renderStudy();
+      const nextInput = $('#study-search-input');
+      if (nextInput) {
+        nextInput.focus();
+        nextInput.selectionStart = nextInput.selectionEnd = nextInput.value.length;
+      }
+    });
+  }
+
+  const pkgSelect = $('#study-pkg-select');
+  if (pkgSelect) {
+    pkgSelect.addEventListener('change', (e) => {
+      state.studyPackageFilter = e.target.value;
+      renderStudy();
+    });
+  }
+
+  const sortSelect = $('#study-sort-select');
+  if (sortSelect) {
+    sortSelect.addEventListener('change', (e) => {
+      state.studySort = e.target.value;
+      renderStudy();
+    });
+  }
+
+  const resetBtn = $('#study-reset-filter-btn');
+  if (resetBtn) {
+    resetBtn.addEventListener('click', () => {
+      state.studySearch = '';
+      state.studyPackageFilter = 'all';
+      renderStudy();
+    });
+  }
 }
 
 function renderReview() {
@@ -3573,15 +4263,18 @@ function normalizeExternalQuestion(raw, idx = 0, defaultSetId = 'ssw-pm-kunci-uj
         path: optImg
       });
     }
+    const optTrans = String(o?.translation ?? o?.textId ?? o?.optionTranslation ?? o?.terjemahan ?? '').trim();
     const entry = {
       id: optLetter,
       text: String(o?.text ?? optLetter).trim(),
+      translation: optTrans,
       mediaId: optMediaId
     };
     if (optImg) entry.optionImage = optImg;
     return entry;
   });
 
+  const promptTranslation = String(raw.promptTranslation ?? raw.translation ?? raw.promptId ?? raw.terjemahan ?? '').trim();
   let correctIndex = Number.isInteger(raw.correctIndex) ? raw.correctIndex : null;
   const correctAnswer = raw.correctAnswer != null ? String(raw.correctAnswer).trim().toUpperCase() : null;
   if (correctIndex == null && correctAnswer) {
@@ -3607,6 +4300,7 @@ function normalizeExternalQuestion(raw, idx = 0, defaultSetId = 'ssw-pm-kunci-uj
     questionImage,
     questionText,
     prompt,
+    promptTranslation,
     instructions: raw.instructions || '<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。',
     options,
     correctIndex,
@@ -3634,21 +4328,50 @@ async function fetchBuiltinJson(filename) {
   return null;
 }
 
-async function importAdditiveQuestionSet(payload, { silent = false, defaultSetId = 'ssw-pm-kunci-ujian-1', defaultSetName = 'Kunci Soal Ujian 1 — CBTP Gino1', skipReload = false } = {}) {
+function hasCompleteTranslations(questions) {
+  return Array.isArray(questions) && questions.length > 0 && questions.every(q =>
+    Boolean(String(q.promptTranslation || '').trim()) &&
+    Array.isArray(q.options) &&
+    q.options.length > 0 &&
+    q.options.every(o => Boolean(String(o.translation || '').trim()))
+  );
+}
+
+function mergeQuestionTranslations(existing, incoming) {
+  if (!existing) return incoming;
+  const merged = structuredClone(existing);
+  if (!String(merged.promptTranslation || '').trim() && String(incoming.promptTranslation || '').trim()) {
+    merged.promptTranslation = String(incoming.promptTranslation).trim();
+  }
+  if (Array.isArray(merged.options) && Array.isArray(incoming.options)) {
+    merged.options = merged.options.map((opt, idx) => {
+      if (String(opt?.translation || '').trim()) return opt;
+      const optId = String(opt?.id || '').trim().toUpperCase();
+      const match = incoming.options.find(io => String(io?.id || '').trim().toUpperCase() === optId) || incoming.options[idx];
+      const trans = String(match?.translation || '').trim();
+      return trans ? { ...opt, translation: trans } : opt;
+    });
+  }
+  return merged;
+}
+
+async function importAdditiveQuestionSet(payload, { silent = false, force = false, defaultSetId = 'ssw-pm-kunci-ujian-1', defaultSetName = 'Kunci Soal Ujian 1 — CBTP Gino1', skipReload = false } = {}) {
   const rawList = Array.isArray(payload) ? payload : (Array.isArray(payload?.questions) ? payload.questions : []);
   if (!rawList.length) throw new Error('File JSON tidak berisi daftar soal yang valid.');
   const setId = payload?.setId || defaultSetId;
   const setName = payload?.setName || payload?.title || defaultSetName;
+  const byId = new Map(state.questions.map(q => [q.id, q]));
   const batch = [];
   for (let i = 0; i < rawList.length; i++) {
-    const q = normalizeExternalQuestion(rawList[i], i, setId, setName);
-    if (!q) continue;
-    const errs = validateQuestion(q);
-    if (errs.length) throw new Error(`Soal ${q.id} tidak valid: ${errs.join(', ')}`);
-    batch.push(q);
+    const normalized = normalizeExternalQuestion(rawList[i], i, setId, setName);
+    if (!normalized) continue;
+    const errs = validateQuestion(normalized);
+    if (errs.length) throw new Error(`Soal ${normalized.id} tidak valid: ${errs.join(', ')}`);
+    const existing = byId.get(normalized.id);
+    const finalQ = (!force && existing) ? mergeQuestionTranslations(existing, normalized) : normalized;
+    byId.set(finalQ.id, finalQ);
+    batch.push(finalQ);
   }
-  const byId = new Map(state.questions.map(q => [q.id, q]));
-  for (const q of batch) byId.set(q.id, q);
   state.questions = [...byId.values()];
 
   let saved = batch.length;
@@ -3665,10 +4388,11 @@ async function importAdditiveQuestionSet(payload, { silent = false, defaultSetId
 async function ensureKunciUjian1Loaded(force = false) {
   try {
     const existingQs = state.questions.filter(q => q.setId === 'ssw-pm-kunci-ujian-1');
-    if (!force && existingQs.length >= 40) return false;
+    if (!force && existingQs.length >= 40 && hasCompleteTranslations(existingQs)) return false;
     const data = (await fetchBuiltinJson('ssw-pm-kunci-ujian-1.json')) || SEED_KUNCI_UJIAN_1;
     await importAdditiveQuestionSet(data, {
       silent: !force,
+      force,
       defaultSetId: 'ssw-pm-kunci-ujian-1',
       defaultSetName: 'Kunci Soal Ujian 1 — CBTP Gino1'
     });
@@ -3682,10 +4406,11 @@ async function ensureKunciUjian1Loaded(force = false) {
 async function ensureSswPmTipe2Loaded(force = false) {
   try {
     const existingQs = state.questions.filter(q => q.setId === 'ssw-pm-tipe2-nguyen1');
-    if (!force && existingQs.length >= 40) return false;
+    if (!force && existingQs.length >= 40 && hasCompleteTranslations(existingQs)) return false;
     const data = (await fetchBuiltinJson('ssw-pm-tipe2-nguyen1.json')) || SEED_SSW_TIPE_2;
     await importAdditiveQuestionSet(data, {
       silent: !force,
+      force,
       defaultSetId: 'ssw-pm-tipe2-nguyen1',
       defaultSetName: 'Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1'
     });
@@ -3699,11 +4424,12 @@ async function ensureSswPmTipe2Loaded(force = false) {
 async function ensureKunciUjian2Loaded(force = false) {
   try {
     const existingQs = state.questions.filter(q => q.setId === 'ssw-pm-kunci-ujian-2');
-    if (!force && existingQs.length >= 40) return false;
+    if (!force && existingQs.length >= 40 && hasCompleteTranslations(existingQs)) return false;
     const data = await fetchBuiltinJson('ssw-pm-kunci-ujian-2.json');
     if (!data) return false;
     await importAdditiveQuestionSet(data, {
       silent: !force,
+      force,
       defaultSetId: 'ssw-pm-kunci-ujian-2',
       defaultSetName: 'Kunci Soal Ujian 2 — CBTP Gino1'
     });
@@ -3722,12 +4448,13 @@ async function ensureKunciUjian3To13Loaded(force = false) {
       'ssw-pm-kunci-ujian-9', 'ssw-pm-kunci-ujian-10', 'ssw-pm-kunci-ujian-11',
       'ssw-pm-kunci-ujian-12', 'ssw-pm-kunci-ujian-13'
     ]);
-    const existingCount = state.questions.filter(q => targetSets.has(q.setId)).length;
-    if (!force && existingCount >= 440) return false;
+    const existingQs = state.questions.filter(q => targetSets.has(q.setId));
+    if (!force && existingQs.length >= 440 && hasCompleteTranslations(existingQs)) return false;
     const data = await fetchBuiltinJson('ssw-pm-all-kunci-ujian-3-to-13.json');
     if (!data) return false;
     await importAdditiveQuestionSet(data, {
       silent: !force,
+      force,
       defaultSetId: 'ssw-pm-kunci-ujian-3',
       defaultSetName: 'Bundle Kunci Soal Ujian 3 s/d 13 (440 Soal)'
     });
@@ -3745,12 +4472,13 @@ async function ensureBonusSoal1To10Loaded(force = false) {
       'bonus-soal-5', 'bonus-soal-6', 'bonus-soal-7',
       'bonus-soal-8', 'bonus-soal-9', 'bonus-soal-10'
     ]);
-    const existingCount = state.questions.filter(q => targetSets.has(q.setId)).length;
-    if (!force && existingCount >= 354) return false;
+    const existingQs = state.questions.filter(q => targetSets.has(q.setId));
+    if (!force && existingQs.length >= 354 && hasCompleteTranslations(existingQs)) return false;
     const data = await fetchBuiltinJson('ssw-pm-bonus-soal-1-to-10-bundle.json');
     if (!data) return false;
     await importAdditiveQuestionSet(data, {
       silent: !force,
+      force,
       defaultSetId: 'bonus-soal-1',
       defaultSetName: 'Bundle Bonus Soal 1 - 10 (9 Paket)'
     });
@@ -4090,10 +4818,103 @@ async function handleAction(action, el) {
       $$('[data-action="exam-settings"]').forEach(b => b.classList.remove('is-active'));
       break;
     }
+        case 'toggle-study-list': {
+      const s = state.activeSession;
+      if (!s || !Array.isArray(s.questions)) break;
+      const q = s.questions[s.currentIndex];
+      if (!q) break;
+      const inStudy = await toggleStudyItem(q);
+      el.classList.toggle('is-active', inStudy);
+      el.setAttribute('aria-pressed', String(inStudy));
+      el.setAttribute('title', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
+      el.setAttribute('aria-label', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
+      el.textContent = inStudy ? '✓' : '+';
+      break;
+    }
+    case 'remove-study-item': {
+      if (!id) break;
+      await removeStudyItem(id);
+      if (state.page === 'study') renderStudy();
+      break;
+    }
+    case 'open-study-detail': {
+      if (!id) break;
+      const item = (state.studyList || []).find(x => x.id === id);
+      if (item) openStudyDetail(item);
+      break;
+    }
+    case 'toggle-study-card-furigana': {
+      if (!id) break;
+      const current = state.studyCardFurigana?.has(id) ? Boolean(state.studyCardFurigana.get(id)) : Boolean(state.examPrefs.showFurigana);
+      const next = !current;
+      if (!state.studyCardFurigana) state.studyCardFurigana = new Map();
+      state.studyCardFurigana.set(id, next);
+      const card = el.closest('.zen-study-card');
+      if (card) {
+        card.classList.toggle('furigana-on', next);
+        card.classList.toggle('furigana-off', !next);
+      }
+      el.classList.toggle('is-active', next);
+      el.setAttribute('aria-pressed', String(next));
+      break;
+    }
+    case 'toggle-study-card-translation': {
+      if (!id) break;
+      if (!state.studyCardTrans) state.studyCardTrans = new Set();
+      const isOpen = state.studyCardTrans.has(id);
+      if (isOpen) state.studyCardTrans.delete(id);
+      else state.studyCardTrans.add(id);
+      const card = el.closest('.zen-study-card');
+      if (card) {
+        const panel = card.querySelector('.zen-study-translation-panel');
+        if (panel) panel.classList.toggle('is-hidden', isOpen);
+      }
+      el.classList.toggle('is-active', !isOpen);
+      el.setAttribute('aria-expanded', String(!isOpen));
+      break;
+    }
     case 'toggle-furigana-quick': {
       state.examPrefs.showFurigana = !state.examPrefs.showFurigana;
       saveExamPrefs(state.examPrefs);
       applyExamPrefs();
+      state.cardFurigana.clear();
+      if (state.page === 'result' || state.page === 'review') renderResult();
+      break;
+    }
+    case 'toggle-card-furigana': {
+      if (!id) break;
+      const current = state.cardFurigana.has(id) ? Boolean(state.cardFurigana.get(id)) : Boolean(state.examPrefs.showFurigana);
+      const next = !current;
+      state.cardFurigana.set(id, next);
+      const card = el.closest('.zen-review-item');
+      if (card) {
+        card.classList.toggle('furigana-on', next);
+        card.classList.toggle('furigana-off', !next);
+      }
+      el.classList.toggle('is-active', next);
+      el.setAttribute('aria-pressed', String(next));
+      el.setAttribute('title', next ? 'Sembunyikan Furigana' : 'Tampilkan Furigana');
+      break;
+    }
+    case 'toggle-all-translations': {
+      state.showAllTranslations = !state.showAllTranslations;
+      if (!state.showAllTranslations) {
+        state.openTranslationIds.clear();
+      }
+      if (state.page === 'result' || state.page === 'review') renderResult();
+      break;
+    }
+    case 'toggle-card-translation': {
+      if (!id) break;
+      const s = getResultSession();
+      if (state.showAllTranslations) {
+        state.showAllTranslations = false;
+        state.openTranslationIds = new Set((s?.questions || []).map(q => q.id).filter(qid => qid !== id));
+      } else if (state.openTranslationIds.has(id)) {
+        state.openTranslationIds.delete(id);
+      } else {
+        state.openTranslationIds.add(id);
+      }
       if (state.page === 'result' || state.page === 'review') renderResult();
       break;
     }
@@ -4150,11 +4971,17 @@ async function handleAction(action, el) {
   }
 }
 
-// Keyboard shortcut 'F' for Full Screen Mode during active exam
-document.addEventListener('keydown', e => {
+// Keyboard shortcut 'F' for Full Screen Mode and Enter/Space for answer choices during active exam
+document.addEventListener('keydown', async e => {
   if (state.page !== 'exam') return;
-  if (e.ctrlKey || e.metaKey || e.altKey || e.repeat) return;
   const target = e.target;
+  const answerChoice = target?.closest?.('.answer-choice[data-action="answer"]');
+  if (answerChoice && (e.key === 'Enter' || e.key === ' ')) {
+    e.preventDefault();
+    await setExamAnswer(Number(answerChoice.dataset.index));
+    return;
+  }
+  if (e.ctrlKey || e.metaKey || e.altKey || e.repeat) return;
   if (target && (target.matches?.('input, textarea, select, [contenteditable="true"]') || target.closest?.('[contenteditable="true"]'))) {
     return;
   }
@@ -4163,6 +4990,16 @@ document.addEventListener('keydown', e => {
     toggleFullScreen();
   }
 });
+
+let examAnswerPointerStart = null;
+document.addEventListener('pointerdown', e => {
+  const choice = e.target.closest?.('.answer-choice[data-action="answer"]');
+  if (choice) {
+    examAnswerPointerStart = { x: e.clientX, y: e.clientY };
+  } else {
+    examAnswerPointerStart = null;
+  }
+}, { passive: true });
 
 document.addEventListener('mousedown', e => {
   if (e.target.closest('.rich-editor-toolbar button')) e.preventDefault();
@@ -4222,6 +5059,22 @@ document.addEventListener('click', async e => {
   if (actionBtn) {
     const action = actionBtn.dataset.action;
     if (action === 'close-modal' && actionBtn.classList.contains('modal-backdrop') && e.target !== actionBtn) return;
+    if (action === 'answer') {
+      const moved = examAnswerPointerStart
+        ? Math.hypot(e.clientX - examAnswerPointerStart.x, e.clientY - examAnswerPointerStart.y)
+        : 0;
+      examAnswerPointerStart = null;
+      const sel = window.getSelection ? window.getSelection() : null;
+      const selectedText = sel && !sel.isCollapsed ? String(sel.toString() || '').trim() : '';
+      const selectionInsideExam = Boolean(
+        selectedText &&
+        sel?.anchorNode &&
+        actionBtn.closest('.exam-workspace')?.contains(sel.anchorNode)
+      );
+      if (moved > 6 || selectionInsideExam) {
+        return;
+      }
+    }
     e.preventDefault();
     try { await handleAction(action, actionBtn); }
     catch (err) { console.error(err); toast(err.message || 'Terjadi kesalahan.', 'error'); }

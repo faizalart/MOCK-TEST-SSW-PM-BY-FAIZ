@@ -1,27 +1,37 @@
-const CACHE_NAME = 'ssw-pm-mock-test-shell-v18';
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v20';
 
 const CORE = [
   './',
   './index.html',
 
-  './styles.css?v=ssw13',
+  './styles.css?v=ssw20',
   './CSV-IMPORT-STYLES.css?v=ssw3',
   './RICH-HTML-STYLES.css?v=ssw3',
-  './QUESTION-EDITOR-UPDATES.css?v=ssw13',
-  './ZEN-APP-SHELL.css?v=ssw17',
-  './HOME-DASHBOARD.css?v=ssw17',
-  './ZEN-PAGES.css?v=ssw17',
+  './QUESTION-EDITOR-UPDATES.css?v=ssw20',
+  './ZEN-APP-SHELL.css?v=ssw20',
+  './HOME-DASHBOARD.css?v=ssw20',
+  './ZEN-PAGES.css?v=ssw20',
 
   './assets/zen-warrior-bg.png',
 
-  './app.js?v=ssw13',
+  './app.js?v=ssw20',
   './seed-data.js?v=ssw3',
   './db.js?v=ssw3',
   './utils.js?v=ssw3',
   './archive.js?v=ssw3',
 
-  './manifest.webmanifest?v=ssw17',
-  './icon.svg?v=ssw17',
+  './ssw-pm-kunci-ujian-1.json',
+  './ssw-pm-kunci-ujian-2.json',
+  './ssw-pm-all-kunci-ujian-3-to-13.json',
+  './ssw-pm-tipe2-nguyen1.json',
+  './ssw-pm-bonus-soal-1-to-10-bundle.json',
+
+  './manifest.webmanifest?v=ssw18',
+  './favicon.png?v=ssw18',
+  './favicon.png',
+  './hasbulla-192.png',
+  './hasbulla-512.png',
+  './icon.svg?v=ssw18',
   './icon.svg'
 ];
 
