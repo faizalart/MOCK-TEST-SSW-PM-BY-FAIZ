@@ -5857,8 +5857,163 @@ if (typeof window !== 'undefined') {
   window.finishExam = finishExam;
 }
 
+/* ==========================================================================
+   FEATURE 004: Global Mobile Swipe Navigation Across All Main Tabs
+   ========================================================================== */
+const ORDERED_MAIN_TABS = Object.freeze([
+  'home',
+  'setup',
+  'bank',
+  'history',
+  'study',
+  'backup'
+]);
+
+const SWIPE_CONFIG = Object.freeze({
+  THRESHOLD_PX: 70,
+  MAX_DURATION_MS: 800,
+  DOMINANCE_RATIO: 1.5,
+  EXEMPT_PAGES: Object.freeze(['exam', 'result', 'review'])
+});
+
+function getAdjacentMainTab(currentPage, direction) {
+  const currentIndex = ORDERED_MAIN_TABS.indexOf(currentPage);
+  if (currentIndex === -1) return null;
+  if (direction === 'next') {
+    const nextIndex = currentIndex + 1;
+    return nextIndex < ORDERED_MAIN_TABS.length ? ORDERED_MAIN_TABS[nextIndex] : null;
+  }
+  if (direction === 'prev') {
+    const prevIndex = currentIndex - 1;
+    return prevIndex >= 0 ? ORDERED_MAIN_TABS[prevIndex] : null;
+  }
+  return null;
+}
+
+function isSwipeTargetExcluded(target) {
+  if (!target || !(target instanceof Element)) return false;
+  // 1. Interactive controls
+  if (target.closest('input, textarea, select, button, a, [role="slider"], [role="button"], audio, video, canvas, [data-no-swipe]')) {
+    return true;
+  }
+  // 2. Horizontally scrollable carousels & containers
+  if (target.closest('.hd-pkg-pills, #home-pkg-pills, .table-scroll, pre, code, [data-horizontal-scroll]')) {
+    return true;
+  }
+  // 3. Ancestral horizontal overflow check
+  let curr = target;
+  while (curr && curr !== document.body && curr !== document.documentElement) {
+    if (curr.scrollWidth > curr.clientWidth) {
+      try {
+        const style = window.getComputedStyle(curr);
+        const ox = style.overflowX;
+        if (ox === 'auto' || ox === 'scroll') return true;
+      } catch (_) {}
+    }
+    curr = curr.parentElement;
+  }
+  return false;
+}
+
+let swipeSession = null;
+
+function initSwipeNavigation() {
+  const onTouchStart = (e) => {
+    if (!e.touches || e.touches.length !== 1) {
+      swipeSession = null;
+      return;
+    }
+    // Check exempt pages (CBT active, Results, Review)
+    if (SWIPE_CONFIG.EXEMPT_PAGES.includes(state.page)) {
+      swipeSession = null;
+      return;
+    }
+    // Check if modal or dialog is open
+    const hasModal = Boolean(document.querySelector('.modal-backdrop:not([hidden]), .zen-dialog:not([hidden]), #editor-modal:not([hidden]), #settings-modal:not([hidden]), #csv-import-modal:not([hidden])'));
+    if (hasModal) {
+      swipeSession = null;
+      return;
+    }
+    // Check target exclusion
+    if (isSwipeTargetExcluded(e.target)) {
+      swipeSession = null;
+      return;
+    }
+
+    const t = e.touches[0];
+    swipeSession = {
+      startX: t.clientX,
+      startY: t.clientY,
+      startTime: Date.now(),
+      isVerticalScroll: false,
+      hasNavigated: false
+    };
+  };
+
+  const onTouchMove = (e) => {
+    if (!swipeSession || swipeSession.hasNavigated || swipeSession.isVerticalScroll) return;
+    if (!e.touches || e.touches.length !== 1) {
+      swipeSession = null;
+      return;
+    }
+    const t = e.touches[0];
+    const dx = t.clientX - swipeSession.startX;
+    const dy = t.clientY - swipeSession.startY;
+
+    // Early vertical scroll locking
+    if (Math.abs(dy) > Math.abs(dx)) {
+      swipeSession.isVerticalScroll = true;
+    }
+  };
+
+  const onTouchEnd = async (e) => {
+    if (!swipeSession || swipeSession.hasNavigated || swipeSession.isVerticalScroll) {
+      swipeSession = null;
+      return;
+    }
+    const duration = Date.now() - swipeSession.startTime;
+    if (duration > SWIPE_CONFIG.MAX_DURATION_MS) {
+      swipeSession = null;
+      return;
+    }
+
+    const changedTouch = e.changedTouches && e.changedTouches[0];
+    if (!changedTouch) {
+      swipeSession = null;
+      return;
+    }
+
+    const dx = changedTouch.clientX - swipeSession.startX;
+    const dy = changedTouch.clientY - swipeSession.startY;
+    const absX = Math.abs(dx);
+    const absY = Math.abs(dy);
+
+    if (absX >= SWIPE_CONFIG.THRESHOLD_PX && absX > absY * SWIPE_CONFIG.DOMINANCE_RATIO) {
+      const direction = dx < 0 ? 'next' : 'prev';
+      const targetPage = getAdjacentMainTab(state.page, direction);
+      swipeSession.hasNavigated = true;
+      swipeSession = null;
+      if (targetPage) {
+        await go(targetPage);
+      }
+    } else {
+      swipeSession = null;
+    }
+  };
+
+  const onTouchCancel = () => {
+    swipeSession = null;
+  };
+
+  document.addEventListener('touchstart', onTouchStart, { passive: true });
+  document.addEventListener('touchmove', onTouchMove, { passive: true });
+  document.addEventListener('touchend', onTouchEnd, { passive: true });
+  document.addEventListener('touchcancel', onTouchCancel, { passive: true });
+}
+
 async function boot() {
   try {
+    initSwipeNavigation();
     applyExamPrefs();
     updateShellLanguage();
     const seedKunci = (SEED_KUNCI_UJIAN_1?.questions || []).map((q, i) => normalizeExternalQuestion(q, i, 'ssw-pm-kunci-ujian-1', 'Kunci Soal Ujian 1 — CBTP Gino1')).filter(Boolean);
