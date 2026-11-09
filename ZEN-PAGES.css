@@ -651,6 +651,42 @@
   border-radius: 0;
 }
 
+.zen-bank-page .zen-q-collapse-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.zen-bank-page .zen-toggle-bank-list-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+  padding: 0 16px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--zen-ink);
+  background: #ffffff;
+  border: 1px solid var(--zen-line-strong);
+  border-radius: var(--zen-radius-pill);
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+.zen-bank-page .zen-toggle-bank-list-btn:hover {
+  background: #fbfbf9;
+  border-color: var(--zen-ink);
+}
+
+.zen-bank-page .zen-btn-arrow {
+  font-size: 11px;
+  line-height: 1;
+  color: var(--zen-muted);
+  transition: transform 0.12s ease;
+}
+
 .zen-bank-page .zen-bulk-bar {
   display: flex;
   align-items: center;
@@ -808,6 +844,91 @@
   font-variant-numeric: tabular-nums;
   min-width: 20px;
   flex-shrink: 0;
+}
+
+/* Bank Soal Pagination */
+.zen-bank-page .zen-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 22px 0 10px;
+  margin-top: 20px;
+  border-top: 1px solid var(--zen-line);
+}
+
+.zen-bank-page .zen-pagination-info {
+  font-size: 13.5px;
+  color: var(--zen-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.zen-bank-page .zen-pagination-info strong {
+  color: var(--zen-ink);
+  font-weight: 650;
+}
+
+.zen-bank-page .zen-pagination-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.zen-bank-page .zen-page-nav-btn {
+  min-height: 36px;
+  padding: 0 14px;
+  font-size: 12.5px;
+  font-weight: 600;
+  border-radius: var(--zen-radius-pill);
+}
+
+.zen-bank-page .zen-page-numbers {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.zen-bank-page .zen-page-num-btn {
+  min-width: 36px;
+  height: 36px;
+  padding: 0 10px;
+  border-radius: var(--zen-radius-pill);
+  border: 1px solid var(--zen-line-strong);
+  background: #ffffff;
+  color: var(--zen-ink);
+  font-size: 13px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+.zen-bank-page .zen-page-num-btn:hover:not(.is-active) {
+  background: #fbfbf9;
+  border-color: var(--zen-ink);
+}
+
+.zen-bank-page .zen-page-num-btn.is-active {
+  background: var(--zen-ink);
+  border-color: var(--zen-ink);
+  color: #ffffff;
+  cursor: default;
+}
+
+.zen-bank-page .zen-page-ellipsis {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  height: 36px;
+  font-size: 13px;
+  color: var(--zen-muted);
+  user-select: none;
 }
 
 /* --------------------------------------------------------------------------
@@ -1921,6 +2042,40 @@ body:not(.exam-mode) .toast {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 6px;
+  }
+
+  .zen-bank-page .zen-q-collapse-head {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .zen-bank-page .zen-toggle-bank-list-btn {
+    width: 100%;
+    justify-content: center;
+    min-height: 44px;
+  }
+
+  .zen-bank-page .zen-pagination {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+  }
+
+  .zen-bank-page .zen-pagination-nav {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .zen-bank-page .zen-page-nav-btn {
+    flex: 1 1 auto;
+    min-height: 44px;
+  }
+
+  .zen-bank-page .zen-page-num-btn {
+    min-width: 40px;
+    height: 40px;
   }
 
   /* Result Ledger on Mobile */
