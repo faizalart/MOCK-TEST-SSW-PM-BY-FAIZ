@@ -1756,6 +1756,12 @@ async function go(page) {
 }
 
 function render() {
+  if (state.page !== 'exam') {
+    document.body.classList.remove('exam-mode');
+    document.documentElement.classList.remove('in-exam');
+    unlockExamOrientation();
+    updateFullscreenUI();
+  }
   applyExamPrefs();
   updateShellLanguage();
   if (state.page === 'home') renderHome();
@@ -3750,6 +3756,9 @@ async function finishExam(timeUp = false, manualConfirmed = false) {
   await reloadData();
   state.page = 'result';
   document.body.classList.remove('exam-mode');
+  document.documentElement.classList.remove('in-exam');
+  unlockExamOrientation();
+  updateFullscreenUI();
   render();
 }
 
