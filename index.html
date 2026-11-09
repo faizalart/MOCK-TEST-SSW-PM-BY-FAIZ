@@ -27,28 +27,6 @@
   <link rel="stylesheet" href="./HOME-DASHBOARD.css?v=ssw27" />
   <link rel="stylesheet" href="./ZEN-PAGES.css?v=ssw27" />
 
-  <!-- SERVICE WORKER CACHE CLEANUP -->
-  <script>
-    (function () {
-      try {
-        if ('caches' in window) {
-          caches.keys().then(function (keys) {
-            keys.forEach(function (key) {
-              if (
-                key.indexOf('jft-practice') !== -1 ||
-                (key.indexOf('ssw-pm-mock-test-shell-') === 0 && key !== 'ssw-pm-mock-test-shell-v25')
-              ) {
-                caches.delete(key);
-              }
-            });
-          });
-        }
-      } catch (error) {
-        console.warn('Service Worker cache cleanup:', error);
-      }
-    })();
-  </script>
-
   <!-- GLOBAL ERROR HANDLER -->
   <script>
     window.addEventListener('error', function (e) {

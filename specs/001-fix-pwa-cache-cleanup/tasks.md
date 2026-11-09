@@ -19,8 +19,8 @@
 
 **Purpose**: Prepare verification scripts and test harnesses without modifying application code.
 
-- [ ] T001 [P] Create automated dynamic consistency assertion script in `tests/verify-cache-governance.js` per `quickstart.md`
-- [ ] T002 [P] Create headless browser test harness script in `tests/test-cache-cleanup-scenarios.js` covering cold install, warm reload, offline reload, legacy upgrade, and foreign cache preservation
+- [x] T001 [P] Create automated dynamic consistency assertion script in `tests/verify-cache-governance.js` per `quickstart.md`
+- [x] T002 [P] Create headless browser test harness script in `tests/test-cache-cleanup-scenarios.js` covering cold install, warm reload, offline reload, legacy upgrade, and foreign cache preservation
 
 ---
 
@@ -28,8 +28,8 @@
 
 **Purpose**: Establish baseline state and verify existing read-only components.
 
-- [ ] T003 Verify `sw.js` `activate` event handler is read-only and strictly prefix-gated to `key.startsWith('ssw-pm-mock-test-shell-') && key !== CACHE_NAME` in `sw.js`
-- [ ] T004 Run baseline consistency check using `tests/verify-cache-governance.js` to capture initial failure points
+- [x] T003 Verify `sw.js` `activate` event handler is read-only and strictly prefix-gated to `key.startsWith('ssw-pm-mock-test-shell-') && key !== CACHE_NAME` in `sw.js`
+- [x] T004 Run baseline consistency check using `tests/verify-cache-governance.js` to capture initial failure points
 
 **Checkpoint**: Foundation verified — User story implementation can now begin.
 
@@ -44,9 +44,9 @@ Load application once, trigger warm reload, disconnect network, and verify that 
 
 ### Implementation for User Story 1
 
-- [ ] T005 [US1] Remove unsafe inline cache deletion script (lines 31–50) in `index.html` to eliminate active cache deletion (`key !== 'ssw-pm-mock-test-shell-v25'`)
-- [ ] T006 [US1] Verify in `index.html` that no other `<script>` tag invokes `caches.delete()` or references `ssw-pm-mock-test-shell-`
-- [ ] T007 [US1] Execute Scenario 3 (Warm Reload) and Scenario 4 (Offline Reload) from `quickstart.md` using `tests/test-cache-cleanup-scenarios.js` to verify all 28 CORE entries load with zero failed critical resources
+- [x] T005 [US1] Remove unsafe inline cache deletion script (lines 31–50) in `index.html` to eliminate active cache deletion (`key !== 'ssw-pm-mock-test-shell-v25'`)
+- [x] T006 [US1] Verify in `index.html` that no other `<script>` tag invokes `caches.delete()` or references `ssw-pm-mock-test-shell-`
+- [x] T007 [US1] Execute Scenario 3 (Warm Reload) and Scenario 4 (Offline Reload) from `quickstart.md` using `tests/test-cache-cleanup-scenarios.js` to verify all 28 CORE entries load with zero failed critical resources
 
 **Checkpoint**: User Story 1 is complete. Active cache `v27` is preserved across reloads and offline launches.
 
@@ -61,8 +61,8 @@ Run `tests/verify-cache-governance.js` and assert that active version dynamicall
 
 ### Implementation for User Story 3
 
-- [ ] T008 [US3] Update Service Worker registration URL query parameter from `./sw.js?v=ssw26` to `./sw.js?v=ssw27` in `app.js` (line 5707)
-- [ ] T009 [US3] Run dynamic consistency validation via `node tests/verify-cache-governance.js` to verify all 4 invariant checks pass with zero errors
+- [x] T008 [US3] Update Service Worker registration URL query parameter from `./sw.js?v=ssw26` to `./sw.js?v=ssw27` in `app.js` (line 5707)
+- [x] T009 [US3] Run dynamic consistency validation via `node tests/verify-cache-governance.js` to verify all 4 invariant checks pass with zero errors
 
 **Checkpoint**: User Story 3 is complete. Codebase is fully synchronized to active shell version `v27`.
 
@@ -77,8 +77,8 @@ Seed artificial caches (`v25`, `v26`, `jft-practice-core`, `unrelated-project-ca
 
 ### Implementation for User Story 2
 
-- [ ] T010 [US2] Execute Scenario 5 (Upgrade From Legacy Cache) from `quickstart.md` via `tests/test-cache-cleanup-scenarios.js` to verify obsolete `v25` and `v26` eviction
-- [ ] T011 [US2] Execute Scenario 6 (Preservation of Unrelated Same-Origin Caches) from `quickstart.md` via `tests/test-cache-cleanup-scenarios.js` to verify foreign and `jft-practice` cache retention
+- [x] T010 [US2] Execute Scenario 5 (Upgrade From Legacy Cache) from `quickstart.md` via `tests/test-cache-cleanup-scenarios.js` to verify obsolete `v25` and `v26` eviction
+- [x] T011 [US2] Execute Scenario 6 (Preservation of Unrelated Same-Origin Caches) from `quickstart.md` via `tests/test-cache-cleanup-scenarios.js` to verify foreign and `jft-practice` cache retention
 
 **Checkpoint**: User Story 2 is complete. Obsolete application caches are purged safely without cross-origin collateral damage.
 
@@ -88,9 +88,9 @@ Seed artificial caches (`v25`, `v26`, `jft-practice-core`, `unrelated-project-ca
 
 **Purpose**: Execute full regression audits, Tier 3 Quality Gate checks, and retain test assets permanently.
 
-- [ ] T012 Run full headless browser suite (`tests/test-cache-cleanup-scenarios.js`) across desktop (1440px) and mobile (390px) viewports
-- [ ] T013 Verify Constitution v1.1.0 Tier 3 Quality Gates: Gate 1 (Zero-dependency & Scope), Gate 3 (Multi-Viewport Parity), Gate 4 (SW & Cache Sync)
-- [ ] T014 Retain test scripts `tests/verify-cache-governance.js` and `tests/test-cache-cleanup-scenarios.js` permanently in `tests/` for continuous reproducible regression testing
+- [x] T012 Run full headless browser suite (`tests/test-cache-cleanup-scenarios.js`) across desktop (1440px) and mobile (390px) viewports
+- [x] T013 Verify Constitution v1.1.0 Tier 3 Quality Gates: Gate 1 (Zero-dependency & Scope), Gate 3 (Multi-Viewport Parity), Gate 4 (SW & Cache Sync)
+- [x] T014 Retain test scripts `tests/verify-cache-governance.js` and `tests/test-cache-cleanup-scenarios.js` permanently in `tests/` for continuous reproducible regression testing
 
 ---
 
