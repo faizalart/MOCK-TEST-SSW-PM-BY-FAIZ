@@ -1084,6 +1084,9 @@ const state = {
 
   bankSelectedIds: new Set(),
   bankVisibleIds: [],
+  bankListExpanded: false,
+  bankPage: 1,
+  bankPageSize: 50,
   bankFilter: {
     search: '',
     setId: 'all',
@@ -2308,40 +2311,98 @@ function updateCustomSetupSummary() {
   if (footer) footer.textContent = state.setupCustomIds.size ? `${state.setupCustomIds.size} ${t('setupPickerSelected')}` : t('setupPickerDefault');
 }
 
+function fastCleanText(html = '') {
+  return String(html || '')
+    .replace(/<rt[\s\S]*?<\/rt>/gi, '')
+    .replace(/<rp[\s\S]*?<\/rp>/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function getBankQuestionSearchText(q) {
+  if (q._bankSearchText) return q._bankSearchText;
+  const promptText = q.questionText || fastCleanText(q.prompt);
+  const instrText = fastCleanText(q.instructions);
+  const optText = (q.options || []).map(o => fastCleanText(o.text)).join(' ');
+  const explText = fastCleanText(q.explanation);
+  const pkgName = q.setName || '';
+  const numText = q.questionNumber ? `soal ${q.questionNumber}` : '';
+  const text = `${promptText} ${instrText} ${optText} ${explText} ${pkgName} ${q.sourcePdf || ''} ${numText}`.toLowerCase();
+  q._bankSearchText = text;
+  return text;
+}
+
+function generatePaginationPages(currentPage, totalPages) {
+  if (totalPages <= 7) {
+    return Array.from({ length: totalPages }, (_, i) => i + 1);
+  }
+  const pages = [1];
+  if (currentPage > 3) {
+    pages.push('…');
+  }
+  const start = Math.max(2, currentPage - 1);
+  const end = Math.min(totalPages - 1, currentPage + 1);
+  for (let i = start; i <= end; i++) {
+    pages.push(i);
+  }
+  if (currentPage < totalPages - 2) {
+    pages.push('…');
+  }
+  pages.push(totalPages);
+  return pages;
+}
+
 function renderBank() {
   const f = state.bankFilter;
   const packages = getAvailablePackages();
   const lang = state.lang || 'id';
-  let qs = [...state.questions];
 
-  if (f.search) {
-    const term = f.search.toLowerCase();
-    qs = qs.filter(q => [
-      richPlainText(q.prompt),
-      q.prompt,
-      richPlainText(q.instructions),
-      q.explanation,
-      q.setName,
-      q.sourcePdf,
-      q.questionNumber ? `soal ${q.questionNumber}` : '',
-      ...(q.options || []).map(o => `${richPlainText(o.text)} ${o.text}`)
-    ].join(' ').toLowerCase().includes(term));
+  let qs = [];
+  let totalItems = 0;
+  let pageSize = state.bankPageSize || 50;
+  let totalPages = 1;
+  let currentPage = 1;
+  let startIdx = 0;
+  let endIdx = 0;
+  let pageItems = [];
+  let selectedCount = 0;
+  let allVisibleSelected = false;
+
+  if (state.bankListExpanded) {
+    qs = [...state.questions];
+
+    if (f.search) {
+      const term = f.search.toLowerCase().trim();
+      qs = qs.filter(q => getBankQuestionSearchText(q).includes(term));
+    }
+    if (f.setId !== 'all') qs = qs.filter(q => q.setId === f.setId);
+    if (f.media === 'with-image') qs = qs.filter(q => Boolean(q.imageMediaId || q.questionImage || q.options?.some(o => o.mediaId || o.optionImage)));
+    if (f.media === 'text-only') qs = qs.filter(q => !(q.imageMediaId || q.questionImage || q.options?.some(o => o.mediaId || o.optionImage)));
+    if (f.status === 'active') qs = qs.filter(q => q.active !== false);
+    if (f.status === 'inactive') qs = qs.filter(q => q.active === false);
+
+    qs.sort((a, b) => {
+      if (a.setId !== b.setId) return String(a.setId).localeCompare(String(b.setId));
+      if (a.questionNumber != null && b.questionNumber != null) return a.questionNumber - b.questionNumber;
+      return (a.createdAt || 0) - (b.createdAt || 0);
+    });
+
+    state.bankVisibleIds = qs.map(q => q.id);
+    selectedCount = [...state.bankSelectedIds].filter(id => state.questions.some(q => q.id === id)).length;
+    allVisibleSelected = qs.length > 0 && qs.every(q => state.bankSelectedIds.has(q.id));
+
+    totalItems = qs.length;
+    totalPages = Math.max(1, Math.ceil(totalItems / pageSize));
+    if (state.bankPage > totalPages) state.bankPage = totalPages;
+    if (state.bankPage < 1) state.bankPage = 1;
+    currentPage = state.bankPage;
+    startIdx = (currentPage - 1) * pageSize;
+    endIdx = Math.min(startIdx + pageSize, totalItems);
+    pageItems = qs.slice(startIdx, endIdx);
+  } else {
+    state.bankVisibleIds = [];
   }
-  if (f.setId !== 'all') qs = qs.filter(q => q.setId === f.setId);
-  if (f.media === 'with-image') qs = qs.filter(q => Boolean(q.imageMediaId || q.questionImage || q.options?.some(o => o.mediaId || o.optionImage)));
-  if (f.media === 'text-only') qs = qs.filter(q => !(q.imageMediaId || q.questionImage || q.options?.some(o => o.mediaId || o.optionImage)));
-  if (f.status === 'active') qs = qs.filter(q => q.active !== false);
-  if (f.status === 'inactive') qs = qs.filter(q => q.active === false);
-
-  qs.sort((a, b) => {
-    if (a.setId !== b.setId) return String(a.setId).localeCompare(String(b.setId));
-    if (a.questionNumber != null && b.questionNumber != null) return a.questionNumber - b.questionNumber;
-    return (a.createdAt || 0) - (b.createdAt || 0);
-  });
-
-  state.bankVisibleIds = qs.map(q => q.id);
-  const selectedCount = [...state.bankSelectedIds].filter(id => state.questions.some(q => q.id === id)).length;
-  const allVisibleSelected = qs.length > 0 && qs.every(q => state.bankSelectedIds.has(q.id));
 
   const kunciPackages = packages.filter(p => String(p.id).startsWith('ssw-pm-kunci-ujian-'));
   const bonusPackages = packages.filter(p => !String(p.id).startsWith('ssw-pm-kunci-ujian-'));
@@ -2373,8 +2434,14 @@ function renderBank() {
         btnOpenQ: '問題を見る',
         btnStart: '開始',
         allPkgsBtn: 'すべてのパッケージ',
-        questionsTitle: '問題リスト',
-        shownMeta: `${qs.length}問を表示中`,
+        questionsTitle: '問題バンク（個別問題）',
+        soalAvailable: '問が利用可能',
+        btnShowQuestions: '問題一覧を表示',
+        btnHideQuestions: '問題一覧を折りたたむ',
+        btnPrev: '前へ',
+        btnNext: '次へ',
+        pageShowing: (start, end, total) => `${total}問中 ${start}–${end}問を表示`,
+        shownMeta: `${totalItems}問を表示中`,
         searchPlaceholder: '問題番号・漢字・キーワードで検索…',
         allPkgsOpt: `すべてのパッケージ (${state.questions.length})`,
         mediaAll: 'すべての形式',
@@ -2414,8 +2481,14 @@ function renderBank() {
           btnOpenQ: 'Questions',
           btnStart: 'Start',
           allPkgsBtn: 'All Packages',
-          questionsTitle: 'Question List',
-          shownMeta: `${qs.length} shown`,
+          questionsTitle: 'Individual Question Bank',
+          soalAvailable: 'questions available',
+          btnShowQuestions: 'Show question list',
+          btnHideQuestions: 'Hide question list',
+          btnPrev: 'Previous',
+          btnNext: 'Next',
+          pageShowing: (start, end, total) => `Showing ${start}–${end} of ${total}`,
+          shownMeta: `${totalItems} shown`,
           searchPlaceholder: 'Search question number, kanji, or text…',
           allPkgsOpt: `All Packages (${state.questions.length})`,
           mediaAll: 'All Media',
@@ -2454,8 +2527,14 @@ function renderBank() {
           btnOpenQ: 'Daftar Soal',
           btnStart: 'Mulai',
           allPkgsBtn: 'Semua Paket',
-          questionsTitle: 'Daftar Pertanyaan',
-          shownMeta: `${qs.length} soal`,
+          questionsTitle: 'Bank Soal Individual',
+          soalAvailable: 'soal tersedia',
+          btnShowQuestions: 'Tampilkan daftar soal',
+          btnHideQuestions: 'Sembunyikan daftar soal',
+          btnPrev: 'Sebelumnya',
+          btnNext: 'Berikutnya',
+          pageShowing: (start, end, total) => `Menampilkan soal ${start}–${end} dari ${total}`,
+          shownMeta: `${totalItems} soal`,
           searchPlaceholder: 'Cari nomor soal, kanji, furigana, atau isi pilihan…',
           allPkgsOpt: `Semua Paket (${state.questions.length})`,
           mediaAll: 'Semua Media',
@@ -2556,12 +2635,34 @@ function renderBank() {
         </section>
       `}
 
-      <section class="hd-section zen-questions-section" aria-labelledby="zen-questions-heading">
-        <div class="hd-section-head">
-          <div class="hd-section-title-group">
-            <h2 id="zen-questions-heading" class="hd-section-title">${esc(B.questionsTitle)}</h2>
-            <span class="hd-section-meta">${esc(B.shownMeta)}</span>
+      ${!state.bankListExpanded ? `
+        <section class="hd-section zen-questions-section is-collapsed" aria-labelledby="zen-questions-heading">
+          <div class="hd-section-head zen-q-collapse-head">
+            <div class="hd-section-title-group">
+              <h2 id="zen-questions-heading" class="hd-section-title">${esc(B.questionsTitle)}</h2>
+              <span class="hd-section-meta">${state.questions.length.toLocaleString('id-ID')} ${esc(B.soalAvailable)}</span>
+            </div>
+            <button type="button" class="hd-btn hd-btn-secondary zen-toggle-bank-list-btn" data-action="toggle-bank-list" aria-expanded="false">
+              <span>${esc(B.btnShowQuestions)}</span>
+              <span class="zen-btn-arrow" aria-hidden="true">▼</span>
+            </button>
           </div>
+        </section>
+      ` : `
+        <section class="hd-section zen-questions-section is-expanded" aria-labelledby="zen-questions-heading">
+          <div class="hd-section-head zen-q-collapse-head">
+            <div class="hd-section-title-group">
+              <h2 id="zen-questions-heading" class="hd-section-title">${esc(B.questionsTitle)}</h2>
+              <span class="hd-section-meta">${esc(B.shownMeta)}</span>
+            </div>
+            <div class="zen-collapse-head-actions">
+              <button type="button" class="hd-btn hd-btn-secondary zen-toggle-bank-list-btn" data-action="toggle-bank-list" aria-expanded="true">
+                <span>${esc(B.btnHideQuestions)}</span>
+                <span class="zen-btn-arrow" aria-hidden="true">▲</span>
+              </button>
+            </div>
+          </div>
+
           <div class="zen-bulk-bar">
             <label class="zen-select-all">
               <input id="bank-select-visible" type="checkbox" data-select-visible-questions aria-label="${esc(B.selectAll)}" ${allVisibleSelected ? 'checked' : ''} ${qs.length ? '' : 'disabled'}>
@@ -2570,63 +2671,92 @@ function renderBank() {
             <button type="button" class="hd-row-btn" data-action="clear-question-selection" ${selectedCount ? '' : 'disabled'}>${esc(B.clearSel)}</button>
             <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-selected-questions" ${selectedCount ? '' : 'disabled'}>${esc(B.deleteSel)}</button>
           </div>
-        </div>
 
-        <div class="zen-filter-bar">
-          <input id="bank-search" class="zen-search-input" type="search" placeholder="${esc(B.searchPlaceholder)}" value="${esc(f.search)}">
-          <select id="bank-package-filter" aria-label="Filter paket soal">
-            <option value="all">${esc(B.allPkgsOpt)}</option>
-            ${packages.map(p => `<option value="${esc(p.id)}" ${f.setId === p.id ? 'selected' : ''}>${esc(formatHomePackageTitle(p).primary)} (${p.total})</option>`).join('')}
-          </select>
-          <select id="bank-media-filter" aria-label="Filter media">
-            <option value="all" ${f.media === 'all' ? 'selected' : ''}>${esc(B.mediaAll)}</option>
-            <option value="with-image" ${f.media === 'with-image' ? 'selected' : ''}>${esc(B.mediaImg)}</option>
-            <option value="text-only" ${f.media === 'text-only' ? 'selected' : ''}>${esc(B.mediaTxt)}</option>
-          </select>
-          <select id="bank-status-filter" aria-label="Filter status">
-            <option value="all" ${f.status === 'all' ? 'selected' : ''}>${esc(B.statusAll)}</option>
-            <option value="active" ${f.status === 'active' ? 'selected' : ''}>${esc(B.statusActive)}</option>
-            <option value="inactive" ${f.status === 'inactive' ? 'selected' : ''}>${esc(B.statusInactive)}</option>
-          </select>
-        </div>
+          <div class="zen-filter-bar">
+            <input id="bank-search" class="zen-search-input" type="search" placeholder="${esc(B.searchPlaceholder)}" value="${esc(f.search)}">
+            <select id="bank-package-filter" aria-label="Filter paket soal">
+              <option value="all">${esc(B.allPkgsOpt)}</option>
+              ${packages.map(p => `<option value="${esc(p.id)}" ${f.setId === p.id ? 'selected' : ''}>${esc(formatHomePackageTitle(p).primary)} (${p.total})</option>`).join('')}
+            </select>
+            <select id="bank-media-filter" aria-label="Filter media">
+              <option value="all" ${f.media === 'all' ? 'selected' : ''}>${esc(B.mediaAll)}</option>
+              <option value="with-image" ${f.media === 'with-image' ? 'selected' : ''}>${esc(B.mediaImg)}</option>
+              <option value="text-only" ${f.media === 'text-only' ? 'selected' : ''}>${esc(B.mediaTxt)}</option>
+            </select>
+            <select id="bank-status-filter" aria-label="Filter status">
+              <option value="all" ${f.status === 'all' ? 'selected' : ''}>${esc(B.statusAll)}</option>
+              <option value="active" ${f.status === 'active' ? 'selected' : ''}>${esc(B.statusActive)}</option>
+              <option value="inactive" ${f.status === 'inactive' ? 'selected' : ''}>${esc(B.statusInactive)}</option>
+            </select>
+          </div>
 
-        <div class="zen-q-list">
-          ${qs.length ? qs.map(q => {
-            const img = getQuestionMainMedia(q);
-            const hasImg = Boolean(img || q.options?.some(o => o.mediaId || o.optionImage));
-            const keyLetter = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : 'A';
-            const pkgLabel = formatHomePackageTitle({ name: packageName(q) }).primary;
-            return `
-              <article class="zen-q-item">
-                <div class="zen-q-top">
-                  <div class="zen-q-meta">
-                    <input type="checkbox" data-question-select="${esc(q.id)}" aria-label="Pilih soal #${q.questionNumber || ''}" ${state.bankSelectedIds.has(q.id) ? 'checked' : ''}>
-                    <strong class="zen-q-num">#${q.questionNumber || '1'}</strong>
-                    ${f.setId === 'all' ? `<span class="zen-q-pkg">${esc(pkgLabel)}</span>` : ''}
-                    <span class="zen-q-key">${esc(B.keyLabel)} ${esc(keyLetter)}</span>
-                    ${hasImg ? `<span class="zen-q-tag">${esc(B.imgTag)}</span>` : ''}
-                    ${q.active === false ? `<span class="zen-q-tag">${esc(B.inactiveTag)}</span>` : ''}
-                  </div>
-                  <div class="zen-q-actions">
-                    <button type="button" class="hd-row-btn" data-action="edit-question" data-id="${esc(q.id)}">${esc(B.editBtn)}</button>
-                    <button type="button" class="hd-row-btn" data-action="duplicate-question" data-id="${esc(q.id)}">${esc(B.dupBtn)}</button>
-                    <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-question" data-id="${esc(q.id)}">${esc(B.delBtn)}</button>
-                  </div>
-                </div>
-                <div class="zen-q-prompt rich-content" lang="ja">${richHTML(q.prompt || '(pertanyaan kosong)')}</div>
-                <div class="zen-q-options rich-content" lang="ja">
-                  ${(q.options || []).map((o, i) => `
-                    <div class="zen-q-opt ${i === q.correctIndex ? 'is-key' : ''}">
-                      <span class="zen-q-opt-letter">${String.fromCharCode(65 + i)}.</span>
-                      <span class="zen-q-opt-text">${richHTML(o.text)}</span>
+          <div class="zen-q-list">
+            ${pageItems.length ? pageItems.map(q => {
+              const img = getQuestionMainMedia(q);
+              const hasImg = Boolean(img || q.options?.some(o => o.mediaId || o.optionImage));
+              const keyLetter = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : 'A';
+              const pkgLabel = formatHomePackageTitle({ name: packageName(q) }).primary;
+              return `
+                <article class="zen-q-item">
+                  <div class="zen-q-top">
+                    <div class="zen-q-meta">
+                      <input type="checkbox" data-question-select="${esc(q.id)}" aria-label="Pilih soal #${q.questionNumber || ''}" ${state.bankSelectedIds.has(q.id) ? 'checked' : ''}>
+                      <strong class="zen-q-num">#${q.questionNumber || '1'}</strong>
+                      ${f.setId === 'all' ? `<span class="zen-q-pkg">${esc(pkgLabel)}</span>` : ''}
+                      <span class="zen-q-key">${esc(B.keyLabel)} ${esc(keyLetter)}</span>
+                      ${hasImg ? `<span class="zen-q-tag">${esc(B.imgTag)}</span>` : ''}
+                      ${q.active === false ? `<span class="zen-q-tag">${esc(B.inactiveTag)}</span>` : ''}
                     </div>
-                  `).join('')}
+                    <div class="zen-q-actions">
+                      <button type="button" class="hd-row-btn" data-action="edit-question" data-id="${esc(q.id)}">${esc(B.editBtn)}</button>
+                      <button type="button" class="hd-row-btn" data-action="duplicate-question" data-id="${esc(q.id)}">${esc(B.dupBtn)}</button>
+                      <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-question" data-id="${esc(q.id)}">${esc(B.delBtn)}</button>
+                    </div>
+                  </div>
+                  <div class="zen-q-prompt rich-content" lang="ja">${richHTML(q.prompt || '(pertanyaan kosong)')}</div>
+                  <div class="zen-q-options rich-content" lang="ja">
+                    ${(q.options || []).map((o, i) => `
+                      <div class="zen-q-opt ${i === q.correctIndex ? 'is-key' : ''}">
+                        <span class="zen-q-opt-letter">${String.fromCharCode(65 + i)}.</span>
+                        <span class="zen-q-opt-text">${richHTML(o.text)}</span>
+                      </div>
+                    `).join('')}
+                  </div>
+                </article>
+              `;
+            }).join('') : `<p class="hd-empty-line">${esc(B.emptyMsg)}</p>`}
+          </div>
+
+          <div class="zen-pagination">
+            <div class="zen-pagination-info">
+              ${totalItems > 0 ? `${esc(B.pageShowing(startIdx + 1, endIdx, totalItems.toLocaleString('id-ID')))}` : esc(B.emptyMsg)}
+            </div>
+            ${totalPages > 1 ? `
+              <nav class="zen-pagination-nav" aria-label="Navigasi halaman soal">
+                <button type="button" class="hd-row-btn zen-page-nav-btn" data-action="bank-prev-page" ${currentPage === 1 ? 'disabled aria-disabled="true"' : ''}>
+                  ‹ ${esc(B.btnPrev)}
+                </button>
+                <div class="zen-page-numbers">
+                  ${generatePaginationPages(currentPage, totalPages).map(p => {
+                    if (p === '…') {
+                      return `<span class="zen-page-ellipsis" aria-hidden="true">…</span>`;
+                    }
+                    const isCurrent = p === currentPage;
+                    return `
+                      <button type="button" class="zen-page-num-btn ${isCurrent ? 'is-active' : ''}" data-action="bank-go-page" data-page-num="${p}" ${isCurrent ? 'aria-current="page"' : ''}>
+                        ${p}
+                      </button>
+                    `;
+                  }).join('')}
                 </div>
-              </article>
-            `;
-          }).join('') : `<p class="hd-empty-line">${esc(B.emptyMsg)}</p>`}
-        </div>
-      </section>
+                <button type="button" class="hd-row-btn zen-page-nav-btn" data-action="bank-next-page" ${currentPage === totalPages ? 'disabled aria-disabled="true"' : ''}>
+                  ${esc(B.btnNext)} ›
+                </button>
+              </nav>
+            ` : ''}
+          </div>
+        </section>
+      `}
     </div>`;
 }
 
@@ -5017,7 +5147,43 @@ async function handleAction(action, el) {
     }
     case 'filter-package': {
       state.bankFilter.setId = id || 'all';
+      state.bankListExpanded = true;
+      state.bankPage = 1;
       await go('bank');
+      break;
+    }
+    case 'toggle-bank-list': {
+      state.bankListExpanded = !state.bankListExpanded;
+      if (state.bankListExpanded) {
+        state.bankPage = 1;
+      }
+      renderBank();
+      break;
+    }
+    case 'bank-prev-page': {
+      if (state.bankPage > 1) {
+        state.bankPage--;
+        renderBank();
+        const heading = document.getElementById('zen-questions-heading');
+        if (heading) heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      break;
+    }
+    case 'bank-next-page': {
+      state.bankPage++;
+      renderBank();
+      const heading = document.getElementById('zen-questions-heading');
+      if (heading) heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      break;
+    }
+    case 'bank-go-page': {
+      const pageNum = Number(el?.dataset?.pageNum || el?.dataset?.id || id);
+      if (pageNum && pageNum !== state.bankPage) {
+        state.bankPage = pageNum;
+        renderBank();
+        const heading = document.getElementById('zen-questions-heading');
+        if (heading) heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
       break;
     }
     case 'download-csv-template': downloadCSVTemplate(); break;
@@ -5573,6 +5739,7 @@ document.addEventListener('change', async e => {
       if (target.id === 'bank-package-filter') state.bankFilter.setId = target.value;
       if (target.id === 'bank-media-filter') state.bankFilter.media = target.value;
       if (target.id === 'bank-status-filter') state.bankFilter.status = target.value;
+      state.bankPage = 1;
       renderBank();
       return;
     }
@@ -5607,6 +5774,7 @@ document.addEventListener('input', e => {
   }
   if (tEl.matches('#bank-search')) {
     state.bankFilter.search = tEl.value;
+    state.bankPage = 1;
     const start = tEl.selectionStart;
     renderBank();
     const next = $('#bank-search');
