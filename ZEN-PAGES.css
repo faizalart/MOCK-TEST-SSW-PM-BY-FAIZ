@@ -810,6 +810,33 @@
   gap: 6px;
 }
 
+.zen-bank-page .zen-q-actions .zen-study-btn {
+  min-width: 34px;
+  width: 34px;
+  height: 32px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: var(--zen-radius-sm);
+  transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+
+.zen-bank-page .zen-q-actions .zen-study-btn.is-active {
+  background: #0f766e;
+  border-color: #0f766e;
+  color: #ffffff;
+}
+
+.zen-bank-page .zen-q-actions .zen-study-btn.is-active:hover {
+  background: #115e59;
+  border-color: #115e59;
+  color: #ffffff;
+}
+
 .zen-bank-page .zen-q-prompt {
   font-size: 15.5px;
   line-height: 1.9;
@@ -2040,8 +2067,15 @@ body:not(.exam-mode) .toast {
   .zen-bank-page .zen-q-actions {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: 38px repeat(3, minmax(0, 1fr));
     gap: 6px;
+  }
+
+  .zen-bank-page .zen-q-actions .zen-study-btn {
+    width: 100%;
+    min-width: 38px;
+    height: 36px;
+    font-size: 16px;
   }
 
   .zen-bank-page .zen-q-collapse-head {
