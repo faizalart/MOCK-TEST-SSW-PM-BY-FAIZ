@@ -203,8 +203,8 @@ export async function runAllScenarios() {
     const cacheInspection = await cdp1.eval(`
       (async () => {
         const keys = await caches.keys();
-        const activeName = keys.find(k => k.startsWith('ssw-pm-mock-test-shell-v27'));
-        if (!activeName) return { error: 'Active cache bucket v27 not found', keys };
+        const activeName = keys.find(k => k.startsWith('ssw-pm-mock-test-shell-v28'));
+        if (!activeName) return { error: 'Active cache bucket v28 not found', keys };
         const cache = await caches.open(activeName);
         const requests = await cache.keys();
         return {
@@ -217,7 +217,7 @@ export async function runAllScenarios() {
     `, sessionId);
 
     console.log(`[Cache Inspection]: Found ${cacheInspection.entryCount} CORE entries in ${cacheInspection.activeName}`);
-    if (cacheInspection.activeName === 'ssw-pm-mock-test-shell-v27' && cacheInspection.entryCount === 28) {
+    if (cacheInspection.activeName === 'ssw-pm-mock-test-shell-v28' && cacheInspection.entryCount === 28) {
       summary.scenario1_coldInstall = true;
       console.log('[PASS] Scenario 1 & 2: Cold install and SW activation verified with 28 CORE entries.');
     }
@@ -229,9 +229,9 @@ export async function runAllScenarios() {
 
     const warmKeys = await cdp1.eval(`caches.keys()`, sessionId);
     console.log('[Warm Reload Caches]:', warmKeys);
-    if (warmKeys.includes('ssw-pm-mock-test-shell-v27')) {
+    if (warmKeys.includes('ssw-pm-mock-test-shell-v28')) {
       summary.scenario3_warmReload = true;
-      console.log('[PASS] Scenario 3: Active cache v27 retained 100% on warm reload.');
+      console.log('[PASS] Scenario 3: Active cache v28 retained 100% on warm reload.');
     }
 
     // SCENARIO 4: Offline Reload & Critical Resource Audit
@@ -291,15 +291,15 @@ export async function runAllScenarios() {
     const CORE_ENTRIES = [
       './',
       './index.html',
-      './styles.css?v=ssw27',
+      './styles.css?v=ssw28',
       './CSV-IMPORT-STYLES.css?v=ssw3',
       './RICH-HTML-STYLES.css?v=ssw3',
-      './QUESTION-EDITOR-UPDATES.css?v=ssw27',
-      './ZEN-APP-SHELL.css?v=ssw27',
-      './HOME-DASHBOARD.css?v=ssw27',
-      './ZEN-PAGES.css?v=ssw27',
+      './QUESTION-EDITOR-UPDATES.css?v=ssw28',
+      './ZEN-APP-SHELL.css?v=ssw28',
+      './HOME-DASHBOARD.css?v=ssw28',
+      './ZEN-PAGES.css?v=ssw28',
       './assets/zen-warrior-bg.png',
-      './app.js?v=ssw27',
+      './app.js?v=ssw28',
       './seed-data.js?v=ssw3',
       './db.js?v=ssw3',
       './utils.js?v=ssw3',
@@ -321,7 +321,7 @@ export async function runAllScenarios() {
 
     const offlineCoreAudit = await cdp1.eval(`
       (async (entries) => {
-        const cache = await caches.open('ssw-pm-mock-test-shell-v27');
+        const cache = await caches.open('ssw-pm-mock-test-shell-v28');
         const results = [];
 
         for (const entry of entries) {
@@ -480,10 +480,10 @@ export async function runAllScenarios() {
     // 2. Pre-seed artificial legacy and foreign caches BEFORE sw.js is ever registered
     const seeded = await cdp2.eval(`
       (async () => {
-        const c1 = await caches.open('ssw-pm-mock-test-shell-v25');
-        await c1.put('/v25-asset', new Response('v25'));
-        const c2 = await caches.open('ssw-pm-mock-test-shell-v26');
-        await c2.put('/v26-asset', new Response('v26'));
+        const c1 = await caches.open('ssw-pm-mock-test-shell-v26');
+        await c1.put('/v26-asset', new Response('v26'));
+        const c2 = await caches.open('ssw-pm-mock-test-shell-v27');
+        await c2.put('/v27-asset', new Response('v27'));
         const c3 = await caches.open('jft-practice-core');
         await c3.put('/jft-asset', new Response('jft'));
         const c4 = await caches.open('unrelated-project-cache-v1');
@@ -494,30 +494,30 @@ export async function runAllScenarios() {
 
     console.log('[Pre-existing Caches Seeded on Client]:', seeded);
 
-    // 3. Now navigate to the application index.html (triggers SW registration & activation of v27)
+    // 3. Now navigate to the application index.html (triggers SW registration & activation of v28)
     await cdp2.send('Page.navigate', { url: baseUrl }, sessionId);
     await new Promise(r => setTimeout(r, 4500)); // allow install -> activate -> claims cycle
 
     const postUpgradeKeys = await cdp2.eval(`caches.keys()`, sessionId);
     console.log('[Caches After Service Worker Activation]:', postUpgradeKeys);
 
-    const hasV25 = postUpgradeKeys.includes('ssw-pm-mock-test-shell-v25');
     const hasV26 = postUpgradeKeys.includes('ssw-pm-mock-test-shell-v26');
     const hasV27 = postUpgradeKeys.includes('ssw-pm-mock-test-shell-v27');
+    const hasV28 = postUpgradeKeys.includes('ssw-pm-mock-test-shell-v28');
     const hasJft = postUpgradeKeys.includes('jft-practice-core');
     const hasForeign = postUpgradeKeys.includes('unrelated-project-cache-v1');
 
     console.log('[Eviction & Preservation Results]:', {
-      v25_evicted: !hasV25,
       v26_evicted: !hasV26,
-      v27_preserved: hasV27,
+      v27_evicted: !hasV27,
+      v28_preserved: hasV28,
       jft_preserved: hasJft,
       foreign_preserved: hasForeign
     });
 
-    if (!hasV25 && !hasV26 && hasV27) {
+    if (!hasV26 && !hasV27 && hasV28) {
       summary.scenario5_legacyEviction = true;
-      console.log('[PASS] Scenario 5: Obsolete shell caches (v25, v26) were automatically evicted by sw.js activate.');
+      console.log('[PASS] Scenario 5: Obsolete shell caches (v26, v27) were automatically evicted by sw.js activate.');
     } else {
       summary.errors.push('Obsolete shell caches were not evicted');
     }

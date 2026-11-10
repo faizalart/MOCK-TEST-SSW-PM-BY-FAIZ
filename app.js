@@ -6036,7 +6036,7 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw27').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw28').catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;
