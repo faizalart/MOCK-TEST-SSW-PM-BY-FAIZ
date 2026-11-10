@@ -63,8 +63,10 @@ export function runGovernanceCheck() {
   );
 
   // Invariant 4: Validate sw.js activate handler is dynamically prefix-gated
-  const hasDynamicActivate = swContent.includes("key.startsWith('ssw-pm-mock-test-shell-') &&\n          key !== CACHE_NAME") ||
-                             swContent.includes("key.startsWith('ssw-pm-mock-test-shell-') && key !== CACHE_NAME");
+  const normalizedSw = swContent.replace(/\r\n/g, '\n');
+  const hasDynamicActivate = normalizedSw.includes("key.startsWith('ssw-pm-mock-test-shell-') &&\n          key !== CACHE_NAME") ||
+                             normalizedSw.includes("key.startsWith('ssw-pm-mock-test-shell-') && key !== CACHE_NAME") ||
+                             /key\.startsWith\(['"]ssw-pm-mock-test-shell-['"]\)\s*&&\s*key\s*!==\s*CACHE_NAME/.test(normalizedSw);
   assert(
     hasDynamicActivate,
     'sw.js activate handler dynamically evicts obsolete shell caches (key !== CACHE_NAME)',

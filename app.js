@@ -2702,6 +2702,7 @@ function renderBank() {
               const hasImg = Boolean(img || q.options?.some(o => o.mediaId || o.optionImage));
               const keyLetter = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : 'A';
               const pkgLabel = formatHomePackageTitle({ name: packageName(q) }).primary;
+              const inStudy = isQuestionInStudy(q);
               return `
                 <article class="zen-q-item">
                   <div class="zen-q-top">
@@ -2714,6 +2715,7 @@ function renderBank() {
                       ${q.active === false ? `<span class="zen-q-tag">${esc(B.inactiveTag)}</span>` : ''}
                     </div>
                     <div class="zen-q-actions">
+                      <button type="button" class="hd-row-btn zen-study-btn ${inStudy ? 'is-active' : ''}" data-action="add-bank-study" data-id="${esc(q.id)}" title="${inStudy ? 'Sudah ada di Study List' : t('studyAddTooltip')}" aria-label="${inStudy ? 'Sudah ada di Study List' : t('studyAddTooltip')}" aria-pressed="${inStudy}">${inStudy ? '✓' : '+'}</button>
                       <button type="button" class="hd-row-btn" data-action="edit-question" data-id="${esc(q.id)}">${esc(B.editBtn)}</button>
                       <button type="button" class="hd-row-btn" data-action="duplicate-question" data-id="${esc(q.id)}">${esc(B.dupBtn)}</button>
                       <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-question" data-id="${esc(q.id)}">${esc(B.delBtn)}</button>
@@ -5199,6 +5201,36 @@ async function handleAction(action, el) {
     case 'close-csv-import': state.csvImport = null; closeModal(); break;
     case 'apply-csv-import': await applyCSVImport(); break;
     case 'new-question': newQuestion({ setId: state.bankFilter.setId !== 'all' ? state.bankFilter.setId : 'ssw-pm-kunci-ujian-1' }); break;
+    case 'add-bank-study': {
+      if (!id || el.dataset.pending === '1') break;
+      el.dataset.pending = '1';
+      try {
+        const q = (state.questions || []).find(x => x.id === id);
+        if (!q) break;
+        if (isQuestionInStudy(q)) {
+          toast('Soal sudah tersimpan di Study List.', 'info');
+          break;
+        }
+        const newItem = makeStudyItem(q);
+        if (!Array.isArray(state.studyList)) state.studyList = [];
+        state.studyList.unshift(newItem);
+        try {
+          await put('studyList', newItem);
+        } catch (err) {
+          console.warn('Gagal menyimpan ke IndexedDB studyList:', err);
+        }
+        updateStudyBadge();
+        toast(t('studyAddedToast'), 'success');
+        el.classList.add('is-active');
+        el.setAttribute('aria-pressed', 'true');
+        el.setAttribute('title', 'Sudah ada di Study List');
+        el.setAttribute('aria-label', 'Sudah ada di Study List');
+        el.textContent = '✓';
+      } finally {
+        delete el.dataset.pending;
+      }
+      break;
+    }
     case 'edit-question': editQuestion(id); break;
     case 'save-question': await saveQuestion(); break;
     case 'clear-custom-selection': state.setupCustomIds.clear(); renderSetup(); break;
