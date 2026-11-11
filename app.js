@@ -6,93 +6,93 @@ import { DEFAULT_PACKAGES, $, $$, uid, esc, fmtDate, fmtDuration, fmtDurationHMS
 const BUILTIN_PACKAGES_META = [
   {
     id: 'ssw-pm-kunci-ujian-1',
-    name: 'Kunci Soal Ujian 1 — CBTP Gino1',
+    name: 'Soal Ujian 1 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 1.pdf',
     description: 'Paket 40 soal SSW 特定技能1号・飲食料品製造業 dengan furigana dan ilustrasi asli.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-2',
-    name: 'Kunci Soal Ujian 2 — CBTP Gino1',
+    name: 'Soal Ujian 2 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 2.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 2 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 2 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-3',
-    name: 'Kunci Soal Ujian 3 — CBTP Gino1',
+    name: 'Soal Ujian 3 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 3.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 3 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 3 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-4',
-    name: 'Kunci Soal Ujian 4 — CBTP Gino1',
+    name: 'Soal Ujian 4 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 4.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 4 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 4 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-5',
-    name: 'Kunci Soal Ujian 5 — CBTP Gino1',
+    name: 'Soal Ujian 5 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 5.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 5 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 5 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-6',
-    name: 'Kunci Soal Ujian 6 — CBTP Gino1',
+    name: 'Soal Ujian 6 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 6.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 6 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 6 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-7',
-    name: 'Kunci Soal Ujian 7 — CBTP Gino1',
+    name: 'Soal Ujian 7 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 7.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 7 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 7 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-8',
-    name: 'Kunci Soal Ujian 8 — CBTP Gino1',
+    name: 'Soal Ujian 8 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 8.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 8 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 8 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-9',
-    name: 'Kunci Soal Ujian 9 — CBTP Gino1',
+    name: 'Soal Ujian 9 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 9.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 9 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 9 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-10',
-    name: 'Kunci Soal Ujian 10 — CBTP Gino1',
+    name: 'Soal Ujian 10 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 10.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 10 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 10 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-11',
-    name: 'Kunci Soal Ujian 11 — CBTP Gino1',
+    name: 'Soal Ujian 11 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 11.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 11 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 11 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-12',
-    name: 'Kunci Soal Ujian 12 — CBTP Gino1',
+    name: 'Soal Ujian 12 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 12.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 12 — CBTP Gino1.',
+    description: 'Paket 40 soal Soal Ujian 12 — CBTP Gino1.',
     pointsPerQuestion: 3.75
   },
   {
     id: 'ssw-pm-kunci-ujian-13',
-    name: 'Kunci Soal Ujian 13 — Rakuraku Tokutei (2024年10月)',
+    name: 'Soal Ujian 13 — Rakuraku Tokutei (2024年10月)',
     sourcePdf: 'Kunci Soal Ujian 13.pdf',
-    description: 'Paket 40 soal Kunci Soal Ujian 13 — Rakuraku Tokutei (2024年10月).',
+    description: 'Paket 40 soal Soal Ujian 13 — Rakuraku Tokutei (2024年10月).',
     pointsPerQuestion: 3.75
   },
   {
@@ -247,7 +247,7 @@ const I18N = {
     resumeBtn: 'Lanjutkan Ujian',
     statTotalBank: 'Total Bank Soal',
     statReadyNote: 'soal aktif siap diujikan',
-    statKunci1: 'Kunci Soal Ujian 1',
+    statKunci1: 'Soal Ujian 1',
     statKunci1Note: 'CBTP Gino1 · 40 soal + furigana & ilustrasi',
     statPackages: 'Paket Soal SSW PM',
     statPackagesNote: 'Tersimpan di IndexedDB lokal',
@@ -264,7 +264,7 @@ const I18N = {
     configExamBtn: 'Konfigurasi Mock Test',
     modesPanelTitle: 'Mode Latihan & Simulasi',
     modesPanelSub: 'Sesuaikan mode pengerjaan dengan target belajar SSW PM Anda',
-    qaFullTitle: 'Mock Test Penuh — Kunci Soal Ujian 1',
+    qaFullTitle: 'Mock Test Penuh — Soal Ujian 1',
     qaFullSub: '40 soal CBTP Gino1 · Durasi 70 menit · Bobot 3,75 poin/soal',
     qaPracTitle: 'Mode Latihan Fleksibel',
     qaPracSub: 'Tanpa batas waktu · Bebas berpindah soal & atur ふりがな表示',
@@ -275,7 +275,7 @@ const I18N = {
     qaBackupTitle: 'Backup & Restore Database',
     qaBackupSub: 'Ekspor/impor paket soal beserta gambar secara lokal (.zip / .json)',
     scoringNoticeTitle: 'Informasi Penilaian SSW PM',
-    scoringNoticeBody: 'Setiap soal pada paket Kunci Soal Ujian 1 bernilai 3,75 poin (maksimum 150 poin untuk 40 soal). Hasil menampilkan jumlah benar dari 40 soal dan persentase mentah sebagai indikator utama evaluasi mandiri.',
+    scoringNoticeBody: 'Setiap soal pada paket Soal Ujian 1 bernilai 3,75 poin (maksimum 150 poin untuk 40 soal). Hasil menampilkan jumlah benar dari 40 soal dan persentase mentah sebagai indikator utama evaluasi mandiri.',
     recentHistTitle: 'Riwayat Mock Test Terakhir',
     recentHistSub: 'Tersimpan secara lokal pada browser perangkat ini',
     viewAllHist: 'Lihat semua riwayat →',
@@ -309,7 +309,7 @@ const I18N = {
     modeDescCust: 'Simulasi Kustom: tentukan sendiri jumlah soal, durasi waktu, paket sumber soal, urutan soal, maupun pengacakan posisi opsi jawaban.',
     fieldPackage: 'Paket Soal SSW PM',
     allPackagesOpt: 'Semua Paket Bank Soal SSW PM',
-    fieldPkgHelp: 'Paket utama: Kunci Soal Ujian 1 — CBTP Gino1 (40 soal dari PDF).',
+    fieldPkgHelp: 'Paket utama: Soal Ujian 1 — CBTP Gino1 (40 soal dari PDF).',
     fieldCandName: 'Nama Kandidat / Peserta',
     fieldCandNameHelp: 'Ditampilkan pada header layar ujian dan laporan hasil.',
     fieldCandPhoto: 'Foto Kandidat (Opsional)',
@@ -491,7 +491,7 @@ const I18N = {
     resumeBtn: 'Resume Exam',
     statTotalBank: 'Total Question Bank',
     statReadyNote: 'active questions ready',
-    statKunci1: 'Kunci Soal Ujian 1',
+    statKunci1: 'Soal Ujian 1',
     statKunci1Note: 'CBTP Gino1 · 40 questions + furigana & images',
     statPackages: 'SSW PM Question Sets',
     statPackagesNote: 'Stored in local IndexedDB',
@@ -508,7 +508,7 @@ const I18N = {
     configExamBtn: 'Configure Mock Test',
     modesPanelTitle: 'Practice & Simulation Modes',
     modesPanelSub: 'Tailor the test experience to your SSW PM study goals',
-    qaFullTitle: 'Full Mock Test — Kunci Soal Ujian 1',
+    qaFullTitle: 'Full Mock Test — Soal Ujian 1',
     qaFullSub: '40 CBTP Gino1 questions · 70 minutes · 3.75 pts/question',
     qaPracTitle: 'Flexible Practice Mode',
     qaPracSub: 'Untimed · Jump freely & toggle ふりがな表示 anytime',
@@ -519,7 +519,7 @@ const I18N = {
     qaBackupTitle: 'Backup & Restore Database',
     qaBackupSub: 'Export/import question sets and images locally (.zip / .json)',
     scoringNoticeTitle: 'SSW PM Scoring Information',
-    scoringNoticeBody: 'Each question in Kunci Soal Ujian 1 carries 3.75 points (maximum 150 points for 40 questions). Results show raw correct answers out of 40 and percentage as the primary self-evaluation metric.',
+    scoringNoticeBody: 'Each question in Soal Ujian 1 carries 3.75 points (maximum 150 points for 40 questions). Results show raw correct answers out of 40 and percentage as the primary self-evaluation metric.',
     recentHistTitle: 'Recent Mock Test History',
     recentHistSub: 'Stored locally in your browser on this device',
     viewAllHist: 'View all history →',
@@ -553,7 +553,7 @@ const I18N = {
     modeDescCust: 'Custom Simulation: choose your own question count, duration, question set, question order, and option shuffling.',
     fieldPackage: 'SSW PM Question Package',
     allPackagesOpt: 'All SSW PM Question Sets',
-    fieldPkgHelp: 'Primary set: Kunci Soal Ujian 1 — CBTP Gino1 (40 questions from PDF).',
+    fieldPkgHelp: 'Primary set: Soal Ujian 1 — CBTP Gino1 (40 questions from PDF).',
     fieldCandName: 'Candidate Name',
     fieldCandNameHelp: 'Displayed on the CBT exam header and printable result report.',
     fieldCandPhoto: 'Candidate Photo (Optional)',
@@ -767,7 +767,7 @@ const I18N = {
     resumeBtn: '試験を再開する',
     statTotalBank: '総問題数',
     statReadyNote: '問が出題可能',
-    statKunci1: 'Kunci Soal Ujian 1',
+    statKunci1: 'Soal Ujian 1',
     statKunci1Note: 'CBTP Gino1 · 全40問（ふりがな・イラスト付）',
     statPackages: '問題パッケージ数',
     statPackagesNote: 'IndexedDBにローカル保存',
@@ -784,7 +784,7 @@ const I18N = {
     configExamBtn: '試験設定へ',
     modesPanelTitle: '練習・模擬試験モード',
     modesPanelSub: '学習目的に合わせて出題モードを選択してください',
-    qaFullTitle: '本番形式模擬試験 — Kunci Soal Ujian 1',
+    qaFullTitle: '本番形式模擬試験 — Soal Ujian 1',
     qaFullSub: '全40問 · 制限時間70分 · 1問3.75点（150点満点）',
     qaPracTitle: 'フリー練習モード',
     qaPracSub: '時間制限なし · 自由な問題移動＆ふりがな表示切替',
@@ -795,7 +795,7 @@ const I18N = {
     qaBackupTitle: 'バックアップと復元',
     qaBackupSub: '問題データと画像をZIP / JSON形式で保存・復元',
     scoringNoticeTitle: '採点について',
-    scoringNoticeBody: 'Kunci Soal Ujian 1は1問3.75点（40問で150点満点）です。結果画面では40問中の正解数と正答率（％）をメイン指標として表示します。',
+    scoringNoticeBody: 'Soal Ujian 1は1問3.75点（40問で150点満点）です。結果画面では40問中の正解数と正答率（％）をメイン指標として表示します。',
     recentHistTitle: '最近の受験履歴',
     recentHistSub: 'このブラウザにローカル保存されています',
     viewAllHist: 'すべての履歴を見る →',
@@ -829,7 +829,7 @@ const I18N = {
     modeDescCust: 'カスタム試験：問題数、制限時間、問題順序のシャッフル、選択肢の並び順シャッフルを自由に設定できます。',
     fieldPackage: '出題パッケージ',
     allPackagesOpt: 'すべてのSSW PM問題セット',
-    fieldPkgHelp: 'メインセット：Kunci Soal Ujian 1 — CBTP Gino1（PDF全40問）。',
+    fieldPkgHelp: 'メインセット：Soal Ujian 1 — CBTP Gino1（PDF全40問）。',
     fieldCandName: '受験者名（任意）',
     fieldCandNameHelp: '試験画面上部および結果レポートに表示されます。',
     fieldCandPhoto: '受験者写真（任意）',
@@ -1679,12 +1679,15 @@ async function reloadData() {
         q.setName = 'Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1';
       } else {
         q.setId = 'ssw-pm-kunci-ujian-1';
-        q.setName = 'Kunci Soal Ujian 1 — CBTP Gino1';
+        q.setName = 'Soal Ujian 1 — CBTP Gino1';
       }
       changed = true;
     }
     if (!q.setName) {
       q.setName = packageName(q.setId, 'Bank Soal SSW PM');
+      changed = true;
+    } else if (/^Kunci Soal Ujian\b/.test(q.setName)) {
+      q.setName = q.setName.replace(/^Kunci Soal Ujian\b/, 'Soal Ujian');
       changed = true;
     }
     if (changed) {
@@ -1792,7 +1795,7 @@ function getHomePackageCode(pkg, index) {
 }
 
 function formatHomePackageTitle(pkg) {
-  const raw = String(pkg?.name || '').replace(/^Lab Soal\s*—\s*/, '').trim();
+  const raw = String(pkg?.name || '').replace(/^Lab Soal\s*—\s*/, '').replace(/^Kunci Soal Ujian\b/, 'Soal Ujian').trim();
   const parts = raw.split(/\s*—\s*/);
   const primary = parts[0]
     .replace(/\bSSW\s+PM\b/gi, '')
@@ -3146,7 +3149,7 @@ function defaultQuestion(prefill = {}) {
   return {
     id: uid('ssw-q'),
     setId: 'ssw-pm-kunci-ujian-1',
-    setName: 'Kunci Soal Ujian 1 — CBTP Gino1',
+    setName: 'Soal Ujian 1 — CBTP Gino1',
     questionNumber: state.questions.filter(q => q.setId === (prefill.setId || 'ssw-pm-kunci-ujian-1')).length + 1,
     sourcePdf: 'Kunci Soal Ujian 1.pdf',
     sourcePage: 1,
@@ -3386,7 +3389,7 @@ function getExamPackageDisplayName(session, currentQ = null) {
   const rawName = (session?.setId && session.setId !== 'all' && session?.setName)
     ? session.setName
     : (rawSetId ? packageName(rawSetId, session?.setName || '') : (session?.setName || ''));
-  if (!rawName) return formatHomeSessionTitle(session) || 'Kunci Soal Ujian 1';
+  if (!rawName) return formatHomeSessionTitle(session) || 'Soal Ujian 1';
   const stripped = String(rawName)
     .replace(/^(Mock Test Penuh|Latihan|Simulasi Kustom)\s*—\s*/i, '')
     .trim();
@@ -4667,11 +4670,11 @@ async function exportBackupZIP() {
   }
 }
 
-function normalizeExternalQuestion(raw, idx = 0, defaultSetId = 'ssw-pm-kunci-ujian-1', defaultSetName = 'Kunci Soal Ujian 1 — CBTP Gino1') {
+function normalizeExternalQuestion(raw, idx = 0, defaultSetId = 'ssw-pm-kunci-ujian-1', defaultSetName = 'Soal Ujian 1 — CBTP Gino1') {
   if (!raw || typeof raw !== 'object') return null;
   const num = Number.isInteger(raw.questionNumber) ? raw.questionNumber : (idx + 1);
   const setId = String(raw.setId || defaultSetId).trim();
-  const setName = String(raw.setName || packageName(setId, defaultSetName)).trim();
+  const setName = String(raw.setName || packageName(setId, defaultSetName)).replace(/^Kunci Soal Ujian\b/, 'Soal Ujian').trim();
   const id = String(raw.id || `${setId}-q${String(num).padStart(3, '0')}`).trim();
   const questionImage = String(raw.questionImage || '').trim();
   const prompt = String(raw.prompt || raw.questionText || `Soal ${num}`).trim();
@@ -4791,7 +4794,7 @@ function mergeQuestionTranslations(existing, incoming) {
   return merged;
 }
 
-async function importAdditiveQuestionSet(payload, { silent = false, force = false, defaultSetId = 'ssw-pm-kunci-ujian-1', defaultSetName = 'Kunci Soal Ujian 1 — CBTP Gino1', skipReload = false } = {}) {
+async function importAdditiveQuestionSet(payload, { silent = false, force = false, defaultSetId = 'ssw-pm-kunci-ujian-1', defaultSetName = 'Soal Ujian 1 — CBTP Gino1', skipReload = false } = {}) {
   const rawList = Array.isArray(payload) ? payload : (Array.isArray(payload?.questions) ? payload.questions : []);
   if (!rawList.length) throw new Error('File JSON tidak berisi daftar soal yang valid.');
   const setId = payload?.setId || defaultSetId;
@@ -4830,7 +4833,7 @@ async function ensureKunciUjian1Loaded(force = false) {
       silent: !force,
       force,
       defaultSetId: 'ssw-pm-kunci-ujian-1',
-      defaultSetName: 'Kunci Soal Ujian 1 — CBTP Gino1'
+      defaultSetName: 'Soal Ujian 1 — CBTP Gino1'
     });
     return true;
   } catch (err) {
@@ -4867,7 +4870,7 @@ async function ensureKunciUjian2Loaded(force = false) {
       silent: !force,
       force,
       defaultSetId: 'ssw-pm-kunci-ujian-2',
-      defaultSetName: 'Kunci Soal Ujian 2 — CBTP Gino1'
+      defaultSetName: 'Soal Ujian 2 — CBTP Gino1'
     });
     return true;
   } catch (err) {
@@ -4892,7 +4895,7 @@ async function ensureKunciUjian3To13Loaded(force = false) {
       silent: !force,
       force,
       defaultSetId: 'ssw-pm-kunci-ujian-3',
-      defaultSetName: 'Bundle Kunci Soal Ujian 3 s/d 13 (440 Soal)'
+      defaultSetName: 'Bundle Soal Ujian 3 s/d 13 (440 Soal)'
     });
     return true;
   } catch (err) {
@@ -5069,7 +5072,7 @@ async function saveSettings(form) {
 async function clearAllData() {
   const yes = await confirmModal(
     'Reset dan muat ulang paket default?',
-    'Seluruh perubahan kustom dan riwayat sesi akan direset, kemudian paket soal default SSW PM (Kunci Soal Ujian 1 & Tipe 2) akan dimuat ulang secara bersih.',
+    'Seluruh perubahan kustom dan riwayat sesi akan direset, kemudian paket soal default SSW PM (Soal Ujian 1 & Tipe 2) akan dimuat ulang secara bersih.',
     'Reset Data'
   );
   if (!yes) return;
@@ -6096,7 +6099,7 @@ async function boot() {
     initSwipeNavigation();
     applyExamPrefs();
     updateShellLanguage();
-    const seedKunci = (SEED_KUNCI_UJIAN_1?.questions || []).map((q, i) => normalizeExternalQuestion(q, i, 'ssw-pm-kunci-ujian-1', 'Kunci Soal Ujian 1 — CBTP Gino1')).filter(Boolean);
+    const seedKunci = (SEED_KUNCI_UJIAN_1?.questions || []).map((q, i) => normalizeExternalQuestion(q, i, 'ssw-pm-kunci-ujian-1', 'Soal Ujian 1 — CBTP Gino1')).filter(Boolean);
     const seedTipe2 = (SEED_SSW_TIPE_2?.questions || []).map((q, i) => normalizeExternalQuestion(q, i, 'ssw-pm-tipe2-nguyen1', 'Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1')).filter(Boolean);
     state.questions = [...seedKunci, ...seedTipe2];
     renderHome();
