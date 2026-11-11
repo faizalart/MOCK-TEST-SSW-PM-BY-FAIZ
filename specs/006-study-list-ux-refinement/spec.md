@@ -87,13 +87,13 @@ As a candidate returning to Bank Soal or reloading the browser, I want question 
 
 ### Functional Requirements
 
-- **FR-001**: System MUST render a minimalist outline flag icon button (`data-action="toggle-bank-study"`) on each question card in Bank Soal within `.zen-q-actions`.
-- **FR-002**: System MUST render the flag icon as a clean SVG outline without circular background bubbles, badges, speech bubbles, chevrons, expanding arrows, rotation, or bouncing animation.
-- **FR-003**: System MUST display the inactive flag state using outline styling (`fill: none; stroke: currentColor;`) with accessible label `"Tambahkan ke Study List"`.
-- **FR-004**: System MUST display the active flag state using restrained accent styling (`color: var(--zen-teal, #0f766e); fill: currentColor;`) with accessible label `"Hapus dari Study List"`.
-- **FR-005**: First click on an inactive flag MUST add the question to the canonical `studyList` store in IndexedDB using `makeStudyItem(q)` and composite ID `${setId}::${q.id}`, transition the icon to active state, show a success toast `"Soal ditambahkan ke Study List."`, and increment the sidebar badge by 1.
-- **FR-006**: Second click on an active flag MUST remove the question from `studyList` in IndexedDB, revert the icon to inactive outline state, show an info toast `"Soal dihapus dari Study List."`, and decrement the sidebar badge by 1.
-- **FR-007**: Individual flag clicks MUST stop event propagation (`event.stopPropagation()`) to prevent selecting the question checkbox or opening detail modals.
+- **FR-001**: System MUST render a minimalist plus icon button (`data-action="toggle-bank-study"`) on each question card in Bank Soal within `.zen-q-actions`.
+- **FR-002**: System MUST render the plus icon as a clean SVG plus (two perpendicular strokes, 14×14px) without circular background bubbles, badges, speech bubbles, chevrons, expanding arrows, rotation, or bouncing animation.
+- **FR-003**: System MUST display the inactive plus state using stroke styling (`fill: none; stroke: currentColor; color: var(--zen-muted);`) with accessible label `"Tambahkan ke Study List"`.
+- **FR-004**: System MUST display the active plus state using restrained accent styling (`color: var(--zen-teal, #0f766e); fill: none; stroke: currentColor;`) with accessible label `"Hapus dari Study List"`.
+- **FR-005**: First click on an inactive plus button MUST add the question to the canonical `studyList` store in IndexedDB using `makeStudyItem(q)` and composite ID `${setId}::${q.id}`, transition the icon to active state, show a success toast `"Soal ditambahkan ke Study List."`, and increment the sidebar badge by 1.
+- **FR-006**: Second click on an active plus button MUST remove the question from `studyList` in IndexedDB, revert the icon to inactive state, show an info toast `"Soal dihapus dari Study List."`, and decrement the sidebar badge by 1.
+- **FR-007**: Individual plus button clicks MUST stop event propagation (`event.stopPropagation()`) to prevent selecting the question checkbox or opening detail modals.
 - **FR-008**: System MUST render a minimalist Plus icon button (`data-action="bulk-add-study"`) in the Bank Soal selection toolbar (`.zen-bulk-bar`) alongside the existing Clear Selection and Delete Selected buttons.
 - **FR-009**: The selection toolbar bulk Plus button MUST be disabled when `state.bankSelectedIds.size === 0` and enabled when 1 or more questions are selected.
 - **FR-010**: Clicking the bulk Plus button MUST add all selected questions to the Study List using the existing `studyList` store.

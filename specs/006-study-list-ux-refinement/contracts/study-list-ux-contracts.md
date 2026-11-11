@@ -103,13 +103,13 @@ ELSE:
 
 ---
 
-## Contract 3: Flag Icon & DOM Presentation Contract
+## Contract 3: Study List Action Icon & DOM Presentation Contract
 
-### 1. Standalone Flag Icon Specification
+### 1. Minimalist Plus Icon Specification
 ```html
-<svg class="zen-flag-icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
-  <line x1="4" y1="22" x2="4" y2="15"></line>
+<svg class="zen-study-icon" viewBox="0 0 14 14" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <path d="M2 7h10M7 2v10"></path>
+
 </svg>
 ```
 
@@ -135,7 +135,8 @@ ELSE:
   transition: color 0.12s ease;
 }
 
-.zen-bank-page .zen-q-actions .zen-study-btn .zen-flag-icon {
+.zen-bank-page .zen-q-actions .zen-study-btn svg,
+.zen-bank-page .zen-q-actions .zen-study-btn .zen-study-icon {
   width: 14px;
   height: 14px;
   fill: none;
@@ -149,8 +150,9 @@ ELSE:
   border: 0 !important;
 }
 
-.zen-bank-page .zen-q-actions .zen-study-btn.is-active .zen-flag-icon {
-  fill: currentColor;
+.zen-bank-page .zen-q-actions .zen-study-btn.is-active svg,
+.zen-bank-page .zen-q-actions .zen-study-btn.is-active .zen-study-icon {
+  fill: none;
   stroke: currentColor;
 }
 
