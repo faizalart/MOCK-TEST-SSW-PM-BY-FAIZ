@@ -1,7 +1,7 @@
 export const DEFAULT_PACKAGES = [
   {
     id: 'ssw-pm-kunci-ujian-1',
-    name: 'Kunci Soal Ujian 1 — CBTP Gino1',
+    name: 'Soal Ujian 1 — CBTP Gino1',
     sourcePdf: 'Kunci Soal Ujian 1.pdf',
     description: 'Paket 40 soal SSW 特定技能1号・飲食料品製造業 dengan furigana dan ilustrasi asli.',
     pointsPerQuestion: 3.75
@@ -39,13 +39,13 @@ export const fmtDurationHMS = seconds => {
 export const packageName = (qOrSetId, fallback = 'Bank Soal SSW PM') => {
   if (!qOrSetId) return fallback;
   if (typeof qOrSetId === 'object') {
-    if (qOrSetId.setName?.trim()) return qOrSetId.setName.trim().replace(/^Lab Soal\s*—\s*/, '');
+    if (qOrSetId.setName?.trim()) return qOrSetId.setName.trim().replace(/^Lab Soal\s*—\s*/, '').replace(/^Kunci Soal Ujian\b/, 'Soal Ujian');
     const found = DEFAULT_PACKAGES.find(p => p.id === qOrSetId.setId);
     if (found) return found.name;
     return qOrSetId.setId || fallback;
   }
   const found = DEFAULT_PACKAGES.find(p => p.id === qOrSetId);
-  return found ? found.name : String(qOrSetId).replace(/^Lab Soal\s*—\s*/, '');
+  return found ? found.name : String(qOrSetId).replace(/^Lab Soal\s*—\s*/, '').replace(/^Kunci Soal Ujian\b/, 'Soal Ujian');
 };
 
 export const rawStats = session => {
