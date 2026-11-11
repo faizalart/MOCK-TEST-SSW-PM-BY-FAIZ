@@ -1057,6 +1057,7 @@ const state = {
   },
   examPrefs: loadExamPrefs(),
   examSettingsOpen: false,
+  practiceTranslationOpen: false,
   editor: null,
   activeSession: null,
   resultId: null,
@@ -3446,6 +3447,7 @@ async function startExam() {
   };
   await put('sessions', session);
   state.activeSession = session;
+  state.practiceTranslationOpen = false;
   state.resultId = null;
   state.finalizing = false;
   state.examSettingsOpen = false;
@@ -3541,6 +3543,7 @@ function renderExam() {
   const q = currentExamQuestion(s);
   if (!q) { finishExam(false); return; }
   s.flaggedQuestions = Array.isArray(s.flaggedQuestions) ? s.flaggedQuestions : [];
+  const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
 
   const totalQ = s.questions.length;
   const questionNo = s.currentIndex + 1;
@@ -3553,6 +3556,7 @@ function renderExam() {
 
   const optHTML = (q.options || []).map((o, i) => {
     const selected = s.answers[q.id] === i;
+    const optTrans = String(o.translation || '').trim();
     const m = getOptionMedia(q, o, i);
     const letter = String.fromCharCode(65 + i);
     return `
@@ -3560,6 +3564,7 @@ function renderExam() {
         <span class="answer-letter">${letter}</span>
         <span class="answer-content">
           ${o.text ? `<div class="answer-text rich-content" lang="ja">${richHTML(o.text)}</div>` : ''}
+          ${isUntimedPractice && state.practiceTranslationOpen && optTrans ? `<span class="practice-option-translation" lang="id">${richHTML(optTrans)}</span>` : ''}
           ${m ? `<img class="answer-image" src="${mediaURL(m)}" alt="Option ${letter}">` : ''}
         </span>
         <span class="answer-radio" aria-hidden="true"></span>
@@ -3593,6 +3598,7 @@ function renderExam() {
 
   const img = getQuestionMainMedia(q);
   const inStudy = isQuestionInStudy(q);
+  const promptTrans = String(q.promptTranslation || '').trim();
   const imageClass = `image-size-${q.imageSize || 'medium'} image-ratio-${q.imageRatio || 'auto'} image-pos-${q.imagePosition || 'center'}`;
   const answerPrev = questionNo > 1
     ? `<button type="button" class="button button-outline" data-action="exam-prev" aria-label="${esc(t('examBackBtn'))}"><span aria-hidden="true">‹</span> ${esc(t('examBackBtn'))}</button>`
@@ -3641,6 +3647,7 @@ function renderExam() {
           <div class="question-card">
             <div class="question-instruction rich-content" lang="ja">${richHTML(q.instructions || '<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。')}</div>
             <div class="question-prompt rich-content" lang="ja">${richHTML(cleanExamPrompt(q.prompt))}</div>
+            ${isUntimedPractice && state.practiceTranslationOpen && promptTrans ? `<div class="practice-question-translation" lang="id">${richHTML(promptTrans)}</div>` : ''}
             ${img ? `<div class="question-image-frame ${imageClass}"><img class="question-display-image" src="${mediaURL(img)}" alt="Illustration Question ${questionNo}"></div>` : ''}
           </div>
           <div class="answer-list" role="radiogroup" aria-label="Answer choices question ${questionNo}">
@@ -3657,6 +3664,20 @@ function renderExam() {
 
 <button type="button" class="exam-tool-button ${fsActive ? 'is-active' : ''}" data-action="toggle-fullscreen" title="${esc(t('examFullscreenTitle'))}" aria-label="${esc(t('examFullscreenTitle'))}" aria-pressed="${fsActive}"><span class="fs-icon">${fsActive ? '🗗' : '⛶'}</span></button>
 <button type="button" class="exam-tool-button study-list-quick-button ${inStudy ? 'is-active' : ''}" data-action="toggle-study-list" data-id="${esc(q.id)}" title="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-label="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-pressed="${inStudy}">${inStudy ? '✓' : '+'}</button>
+${isUntimedPractice ? `
+<button type="button"
+  class="exam-tool-button practice-trans-btn ${state.practiceTranslationOpen ? 'is-active' : ''}"
+  data-action="toggle-practice-translation"
+  title="${state.practiceTranslationOpen ? 'Sembunyikan Terjemahan' : 'Tampilkan Terjemahan'}"
+  aria-label="Toggle Terjemahan Indonesia"
+  aria-expanded="${Boolean(state.practiceTranslationOpen)}"
+  aria-pressed="${Boolean(state.practiceTranslationOpen)}">
+  <svg class="practice-globe-icon" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="8" cy="8" r="6.5"/>
+    <path d="M1.5 8h13"/>
+    <ellipse cx="8" cy="8" rx="3.2" ry="6.5"/>
+  </svg>
+</button>` : ''}
 <button type="button" class="exam-tool-button furigana-quick-button ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" title="${esc(t('setFuriganaTitle'))}" aria-label="Toggle Furigana" aria-pressed="${Boolean(state.examPrefs.showFurigana)}">F</button>
 </div>
         <div class="exam-nav-buttons">
@@ -3749,6 +3770,7 @@ async function finishExam(timeUp = false, manualConfirmed = false) {
     return finishExam(false, true);
   }
   state.finalizing = true;
+  state.practiceTranslationOpen = false;
   state.examSettingsOpen = false;
   if (examTicker) { clearInterval(examTicker); examTicker = null; }
   s.endedAt = Date.now();
@@ -5426,6 +5448,14 @@ async function handleAction(action, el) {
       if (mapBtn) {
         mapBtn.classList.toggle('in-study', inStudy);
       }
+      break;
+    }
+    case 'toggle-practice-translation': {
+      const s = activeExam();
+      const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+      if (!isUntimedPractice) break;
+      state.practiceTranslationOpen = !state.practiceTranslationOpen;
+      renderExam();
       break;
     }
     case 'remove-study-item': {
