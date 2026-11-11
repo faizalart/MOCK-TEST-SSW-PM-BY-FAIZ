@@ -902,3 +902,82 @@ body:not(.exam-mode) .hd-text-danger:hover {
   font-weight: 800;
   box-shadow: 0 0 0 1px rgba(158, 203, 101, 0.35);
 }
+
+/* CBT EXAM TOOL BUTTON: PRACTICE TRANSLATION TOGGLE */
+.exam-tool-button.practice-trans-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 2px !important;
+  color: #6c7883 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  position: relative;
+  cursor: pointer;
+}
+
+/* 44x44px touch target clearance without distorting footer alignment */
+.exam-tool-button.practice-trans-btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 44px;
+  height: 44px;
+  transform: translate(-50%, -50%);
+  pointer-events: auto;
+}
+
+.exam-tool-button.practice-trans-btn:hover {
+  color: #1a2228 !important;
+  background: transparent !important;
+}
+
+.exam-tool-button.practice-trans-btn.is-active {
+  color: #0f766e !important;
+  background: transparent !important;
+}
+
+.exam-tool-button.practice-trans-btn .practice-globe-icon {
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
+  max-width: 16px !important;
+  max-height: 16px !important;
+  fill: none !important;
+  stroke: currentColor !important;
+  stroke-width: 1.3 !important;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  display: block;
+}
+
+/* PRACTICE MODE INLINE QUESTION TRANSLATION */
+.practice-question-translation {
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #5a6672;
+  font-weight: 400;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+/* PRACTICE MODE INLINE OPTION TRANSLATION */
+.practice-option-translation {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #64748b;
+  font-weight: 400;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  box-shadow: none;
+}
