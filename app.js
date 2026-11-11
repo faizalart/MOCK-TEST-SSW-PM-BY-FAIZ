@@ -216,6 +216,8 @@ const I18N = {
     studyRemoveTooltip: 'Hapus dari Study List',
     studyAddedToast: 'Soal berhasil ditambahkan ke Study List.',
     studyRemovedToast: 'Soal dihapus dari Study List.',
+    studyToggleAction: 'Toggle Study List',
+    addSelStudy: 'Tambah ke Study List',
     studyEmptyTitle: 'Study List Masih Kosong',
     studyEmptyDesc: 'Tandai soal yang sulit saat ujian CBT dengan menekan tombol + di sebelah tombol F.',
     studyFilterAll: 'Semua Paket',
@@ -225,21 +227,6 @@ const I18N = {
     studySortNumber: 'Nomor Soal',
     studyDetail: 'Detail Soal',
     studyRemoveBtn: 'Hapus dari List',
-    navStudy: 'Study List',
-    studyPageDesc: 'Questions marked during CBT exams for deeper review and practice.',
-    studyAddTooltip: 'Add to Study List',
-    studyRemoveTooltip: 'Remove from Study List',
-    studyAddedToast: 'Question added to Study List.',
-    studyRemovedToast: 'Question removed from Study List.',
-    studyEmptyTitle: 'Study List is Empty',
-    studyEmptyDesc: 'Mark challenging questions during CBT exams by clicking the + button next to F.',
-    studyFilterAll: 'All Packages',
-    studySearchPlaceholder: 'Search questions (Japanese / translation)…',
-    studySortRecent: 'Recently Added',
-    studySortOldest: 'Oldest Added',
-    studySortNumber: 'Question Number',
-    studyDetail: 'Question Detail',
-    studyRemoveBtn: 'Remove from List',
     navBackup: 'Backup',
     pageExam: 'Layar Ujian SSW PM',
     pageResult: 'Hasil Ujian',
@@ -749,6 +736,8 @@ const I18N = {
     studyRemoveTooltip: '学習リストから削除',
     studyAddedToast: '問題を学習リストに追加しました。',
     studyRemovedToast: '問題を学習リストから削除しました。',
+    studyToggleAction: '学習リスト切り替え',
+    addSelStudy: '学習リストに追加',
     studyEmptyTitle: '学習リストは空です',
     studyEmptyDesc: 'CBT試験中に「F」ボタン横の「+」を押すと、ここに問題を保存して復習できます。',
     studyFilterAll: 'すべての問題集',
@@ -2458,6 +2447,7 @@ function renderBank() {
         statusInactive: '無効',
         selectAll: 'すべて選択',
         clearSel: '選択解除',
+        addSelStudy: '学習リストに追加',
         deleteSel: `選択を削除 (${selectedCount})`,
         keyLabel: '正解',
         imgTag: '図解',
@@ -2505,6 +2495,7 @@ function renderBank() {
           statusInactive: 'Inactive',
           selectAll: 'Select all',
           clearSel: 'Clear',
+          addSelStudy: 'Add to Study List',
           deleteSel: `Delete (${selectedCount})`,
           keyLabel: 'Key',
           imgTag: 'Illustrated',
@@ -2551,6 +2542,7 @@ function renderBank() {
           statusInactive: 'Nonaktif',
           selectAll: 'Pilih semua',
           clearSel: 'Batal Pilih',
+          addSelStudy: 'Tambah ke Study List',
           deleteSel: `Hapus (${selectedCount})`,
           keyLabel: 'Kunci',
           imgTag: 'Ilustrasi',
@@ -2675,6 +2667,13 @@ function renderBank() {
               <span>${esc(B.selectAll)}</span>
             </label>
             <button type="button" class="hd-row-btn" data-action="clear-question-selection" ${selectedCount ? '' : 'disabled'}>${esc(B.clearSel)}</button>
+            <button type="button" class="hd-row-btn zen-bulk-study-btn" data-action="bulk-add-study" ${selectedCount ? '' : 'disabled'} title="${esc(B.addSelStudy || 'Tambah ke Study List')}" aria-label="${esc(B.addSelStudy || 'Tambah ke Study List')}">
+              <svg class="zen-bulk-plus-icon" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+              </svg>
+              <span>${esc(B.addSelStudy || 'Tambah ke Study List')}</span>
+            </button>
             <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-selected-questions" ${selectedCount ? '' : 'disabled'}>${esc(B.deleteSel)}</button>
           </div>
 
@@ -2715,7 +2714,12 @@ function renderBank() {
                       ${q.active === false ? `<span class="zen-q-tag">${esc(B.inactiveTag)}</span>` : ''}
                     </div>
                     <div class="zen-q-actions">
-                      <button type="button" class="hd-row-btn zen-study-btn ${inStudy ? 'is-active' : ''}" data-action="add-bank-study" data-id="${esc(q.id)}" title="${inStudy ? 'Sudah ada di Study List' : t('studyAddTooltip')}" aria-label="${inStudy ? 'Sudah ada di Study List' : t('studyAddTooltip')}" aria-pressed="${inStudy}">${inStudy ? '✓' : '+'}</button>
+                      <button type="button" class="hd-row-btn zen-study-btn ${inStudy ? 'is-active' : ''}" data-action="toggle-bank-study" data-id="${esc(q.id)}" title="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-label="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-pressed="${inStudy}">
+                        <svg class="zen-flag-icon" viewBox="0 0 24 24" width="14" height="14" fill="${inStudy ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                          <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1z"></path>
+                          <line x1="4" y1="22" x2="4" y2="15"></line>
+                        </svg>
+                      </button>
                       <button type="button" class="hd-row-btn" data-action="edit-question" data-id="${esc(q.id)}">${esc(B.editBtn)}</button>
                       <button type="button" class="hd-row-btn" data-action="duplicate-question" data-id="${esc(q.id)}">${esc(B.dupBtn)}</button>
                       <button type="button" class="hd-row-btn zen-danger-btn" data-action="delete-question" data-id="${esc(q.id)}">${esc(B.delBtn)}</button>
@@ -5201,31 +5205,24 @@ async function handleAction(action, el) {
     case 'close-csv-import': state.csvImport = null; closeModal(); break;
     case 'apply-csv-import': await applyCSVImport(); break;
     case 'new-question': newQuestion({ setId: state.bankFilter.setId !== 'all' ? state.bankFilter.setId : 'ssw-pm-kunci-ujian-1' }); break;
+    case 'toggle-bank-study':
     case 'add-bank-study': {
       if (!id || el.dataset.pending === '1') break;
       el.dataset.pending = '1';
       try {
         const q = (state.questions || []).find(x => x.id === id);
         if (!q) break;
-        if (isQuestionInStudy(q)) {
-          toast('Soal sudah tersimpan di Study List.', 'info');
-          break;
-        }
-        const newItem = makeStudyItem(q);
-        if (!Array.isArray(state.studyList)) state.studyList = [];
-        state.studyList.unshift(newItem);
-        try {
-          await put('studyList', newItem);
-        } catch (err) {
-          console.warn('Gagal menyimpan ke IndexedDB studyList:', err);
-        }
-        updateStudyBadge();
-        toast(t('studyAddedToast'), 'success');
-        el.classList.add('is-active');
-        el.setAttribute('aria-pressed', 'true');
-        el.setAttribute('title', 'Sudah ada di Study List');
-        el.setAttribute('aria-label', 'Sudah ada di Study List');
-        el.textContent = '✓';
+        const inStudy = await toggleStudyItem(q);
+        const allMatchingBtns = document.querySelectorAll(`.zen-study-btn[data-id="${id}"]`);
+        const btnsToUpdate = allMatchingBtns.length ? allMatchingBtns : [el];
+        btnsToUpdate.forEach(btn => {
+          btn.classList.toggle('is-active', inStudy);
+          btn.setAttribute('aria-pressed', String(inStudy));
+          btn.setAttribute('title', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
+          btn.setAttribute('aria-label', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
+          const svg = btn.querySelector('.zen-flag-icon');
+          if (svg) svg.setAttribute('fill', inStudy ? 'currentColor' : 'none');
+        });
       } finally {
         delete el.dataset.pending;
       }
@@ -5235,6 +5232,62 @@ async function handleAction(action, el) {
     case 'save-question': await saveQuestion(); break;
     case 'clear-custom-selection': state.setupCustomIds.clear(); renderSetup(); break;
     case 'delete-question': await deleteQuestion(id); break;
+    case 'bulk-add-study': {
+      if (!state.bankSelectedIds || state.bankSelectedIds.size === 0 || el.dataset.pending === '1') break;
+      el.dataset.pending = '1';
+      try {
+        let addedCount = 0;
+        let skippedCount = 0;
+        const toPut = [];
+        if (!Array.isArray(state.studyList)) state.studyList = [];
+
+        for (const qId of state.bankSelectedIds) {
+          const q = (state.questions || []).find(x => x.id === qId);
+          if (!q) continue;
+          if (isQuestionInStudy(q)) {
+            skippedCount++;
+          } else {
+            const item = makeStudyItem(q);
+            state.studyList.unshift(item);
+            toPut.push(item);
+            addedCount++;
+          }
+        }
+
+        if (toPut.length > 0) {
+          for (const item of toPut) {
+            try {
+              await put('studyList', item);
+            } catch (err) {
+              console.warn('Gagal menyimpan ke IndexedDB studyList:', err);
+            }
+          }
+          updateStudyBadge();
+        }
+
+        for (const qId of state.bankSelectedIds) {
+          const matchingBtns = document.querySelectorAll(`.zen-study-btn[data-id="${qId}"]`);
+          matchingBtns.forEach(cardBtn => {
+            cardBtn.classList.add('is-active');
+            cardBtn.setAttribute('aria-pressed', 'true');
+            cardBtn.setAttribute('title', t('studyRemoveTooltip'));
+            cardBtn.setAttribute('aria-label', t('studyRemoveTooltip'));
+            const svg = cardBtn.querySelector('.zen-flag-icon');
+            if (svg) svg.setAttribute('fill', 'currentColor');
+          });
+        }
+
+        const msg = state.lang === 'ja'
+          ? `${addedCount}問を追加 · ${skippedCount}問は登録済み`
+          : state.lang === 'en'
+            ? `${addedCount} question${addedCount === 1 ? '' : 's'} added · ${skippedCount} already in list`
+            : `${addedCount} soal ditambahkan · ${skippedCount} sudah ada`;
+        toast(msg, addedCount > 0 ? 'success' : 'info');
+      } finally {
+        delete el.dataset.pending;
+      }
+      break;
+    }
     case 'delete-selected-questions': await deleteSelectedQuestions(); break;
     case 'clear-question-selection': state.bankSelectedIds.clear(); renderBank(); break;
     case 'toggle-question-preview':
