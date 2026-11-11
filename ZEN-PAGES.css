@@ -870,7 +870,7 @@
   outline-offset: -2px;
 }
 
-.zen-bank-page .zen-q-actions .zen-study-btn .zen-flag-icon {
+.zen-bank-page .zen-q-actions .zen-study-btn .zen-study-icon {
   width: 14px;
   height: 14px;
   min-width: 14px;
@@ -881,13 +881,13 @@
   display: block;
   fill: none;
   stroke: currentColor;
-  stroke-width: 2;
+  stroke-width: 1.8;
   stroke-linecap: round;
   stroke-linejoin: round;
   box-shadow: none !important;
   transform: none !important;
   animation: none !important;
-  transition: fill 0.12s ease, stroke 0.12s ease;
+  transition: color 0.12s ease;
 }
 
 .zen-bank-page .zen-q-actions .zen-study-btn.is-active {
@@ -904,8 +904,8 @@
   color: #0d635c !important;
 }
 
-.zen-bank-page .zen-q-actions .zen-study-btn.is-active .zen-flag-icon {
-  fill: currentColor;
+.zen-bank-page .zen-q-actions .zen-study-btn.is-active .zen-study-icon {
+  fill: none !important;
   stroke: currentColor;
 }
 
@@ -2161,7 +2161,7 @@ body:not(.exam-mode) .toast {
     animation: none !important;
   }
 
-  .zen-bank-page .zen-q-actions .zen-study-btn .zen-flag-icon {
+  .zen-bank-page .zen-q-actions .zen-study-btn .zen-study-icon {
     width: 14px;
     height: 14px;
     min-width: 14px;

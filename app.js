@@ -2715,9 +2715,8 @@ function renderBank() {
                     </div>
                     <div class="zen-q-actions">
                       <button type="button" class="hd-row-btn zen-study-btn ${inStudy ? 'is-active' : ''}" data-action="toggle-bank-study" data-id="${esc(q.id)}" title="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-label="${inStudy ? esc(t('studyRemoveTooltip')) : esc(t('studyAddTooltip'))}" aria-pressed="${inStudy}">
-                        <svg class="zen-flag-icon" viewBox="0 0 24 24" width="14" height="14" fill="${inStudy ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                          <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1z"></path>
-                          <line x1="4" y1="22" x2="4" y2="15"></line>
+                        <svg class="zen-study-icon" viewBox="0 0 14 14" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                          <path d="M2 7h10M7 2v10"></path>
                         </svg>
                       </button>
                       <button type="button" class="hd-row-btn" data-action="edit-question" data-id="${esc(q.id)}">${esc(B.editBtn)}</button>
@@ -5220,8 +5219,6 @@ async function handleAction(action, el) {
           btn.setAttribute('aria-pressed', String(inStudy));
           btn.setAttribute('title', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
           btn.setAttribute('aria-label', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
-          const svg = btn.querySelector('.zen-flag-icon');
-          if (svg) svg.setAttribute('fill', inStudy ? 'currentColor' : 'none');
         });
       } finally {
         delete el.dataset.pending;
@@ -5272,8 +5269,6 @@ async function handleAction(action, el) {
             cardBtn.setAttribute('aria-pressed', 'true');
             cardBtn.setAttribute('title', t('studyRemoveTooltip'));
             cardBtn.setAttribute('aria-label', t('studyRemoveTooltip'));
-            const svg = cardBtn.querySelector('.zen-flag-icon');
-            if (svg) svg.setAttribute('fill', 'currentColor');
           });
         }
 

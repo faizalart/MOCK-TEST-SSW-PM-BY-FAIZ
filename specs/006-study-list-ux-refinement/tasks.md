@@ -170,3 +170,12 @@ flowchart TD
 6. Implement User Story 4 (Persistence & Isolation) -> Test independently.
 7. Run Phase 7 (Multi-viewport responsive verification and full regression suite).
 8. Ensure 100% exit code 0 across all 7 test suites.
+
+---
+
+## Phase 8: Post-Convergence Correction — Individual Plus Icon Replacement
+
+**Purpose**: Replace the individual question card flag SVG with a minimalist plus (+) SVG while strictly preserving two-way toggle behavior, IndexedDB persistence, sidebar badge synchronization, selection toolbar, and all non-interfering invariants.
+
+- [x] T026 [US1] Replace individual question card flag SVG markup in `app.js` (`renderBank()`) and styles in `ZEN-PAGES.css` with a minimalist 14×14px plus (+) SVG (`viewBox="0 0 14 14"`, horizontal: `M2 7h10`, vertical: `M7 2v10`), stroke-based geometry, transparent background in all states, inactive subtle gray (`var(--zen-muted)`), and active restrained teal (`var(--zen-teal)`), maintaining the 44×44px touch target without containers or animations.
+- [x] T027 [US1] Update automated CDP regression test suite in `tests/test-study-list-ux-refinement.mjs` to assert the minimalist plus icon geometry, transparent background, 14×14px SVG dimensions, 44px touch target, inactive gray, active teal, two-way toggle invariance, and multi-viewport layout parity.
