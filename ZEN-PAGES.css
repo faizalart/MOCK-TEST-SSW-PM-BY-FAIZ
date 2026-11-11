@@ -698,6 +698,28 @@
   width: auto;
 }
 
+.zen-bank-page .zen-bulk-bar .zen-bulk-study-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--zen-ink, #171717);
+  transition: color 0.12s ease, border-color 0.12s ease, background-color 0.12s ease;
+}
+
+.zen-bank-page .zen-bulk-bar .zen-bulk-study-btn .zen-bulk-plus-icon {
+  width: 13px;
+  height: 13px;
+  flex: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+}
+
+.zen-bank-page .zen-bulk-bar .zen-bulk-study-btn:not(:disabled):hover {
+  color: var(--zen-teal, #0f766e);
+  border-color: rgba(15, 118, 110, 0.4);
+  background: rgba(15, 118, 110, 0.05);
+}
+
 .zen-bank-page .zen-select-all {
   display: inline-flex;
   align-items: center;
@@ -811,30 +833,80 @@
 }
 
 .zen-bank-page .zen-q-actions .zen-study-btn {
-  min-width: 34px;
-  width: 34px;
-  height: 32px;
-  padding: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 1;
-  border-radius: var(--zen-radius-sm);
-  transition: background-color 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+  min-width: 44px !important;
+  width: 44px !important;
+  min-height: 44px !important;
+  height: 44px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  transform: none !important;
+  animation: none !important;
+  color: var(--zen-muted, #71717a) !important;
+  cursor: pointer;
+  transition: color 0.12s ease;
+}
+
+.zen-bank-page .zen-q-actions .zen-study-btn:hover,
+.zen-bank-page .zen-q-actions .zen-study-btn:focus,
+.zen-bank-page .zen-q-actions .zen-study-btn:active {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  transform: none !important;
+  animation: none !important;
+  color: var(--zen-ink, #171717) !important;
+  outline: none;
+}
+
+.zen-bank-page .zen-q-actions .zen-study-btn:focus-visible {
+  outline: 2px solid var(--zen-teal, #0f766e);
+  outline-offset: -2px;
+}
+
+.zen-bank-page .zen-q-actions .zen-study-btn .zen-flag-icon {
+  width: 14px;
+  height: 14px;
+  min-width: 14px;
+  min-height: 14px;
+  max-width: 14px;
+  max-height: 14px;
+  flex: none;
+  display: block;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  box-shadow: none !important;
+  transform: none !important;
+  animation: none !important;
+  transition: fill 0.12s ease, stroke 0.12s ease;
 }
 
 .zen-bank-page .zen-q-actions .zen-study-btn.is-active {
-  background: #0f766e;
-  border-color: #0f766e;
-  color: #ffffff;
+  background: transparent !important;
+  border: 0 !important;
+  color: var(--zen-teal, #0f766e) !important;
 }
 
-.zen-bank-page .zen-q-actions .zen-study-btn.is-active:hover {
-  background: #115e59;
-  border-color: #115e59;
-  color: #ffffff;
+.zen-bank-page .zen-q-actions .zen-study-btn.is-active:hover,
+.zen-bank-page .zen-q-actions .zen-study-btn.is-active:focus,
+.zen-bank-page .zen-q-actions .zen-study-btn.is-active:active {
+  background: transparent !important;
+  border: 0 !important;
+  color: #0d635c !important;
+}
+
+.zen-bank-page .zen-q-actions .zen-study-btn.is-active .zen-flag-icon {
+  fill: currentColor;
+  stroke: currentColor;
 }
 
 .zen-bank-page .zen-q-prompt {
@@ -2067,15 +2139,35 @@ body:not(.exam-mode) .toast {
   .zen-bank-page .zen-q-actions {
     width: 100%;
     display: grid;
-    grid-template-columns: 38px repeat(3, minmax(0, 1fr));
+    grid-template-columns: 44px repeat(3, minmax(0, 1fr));
     gap: 6px;
+    align-items: center;
   }
 
   .zen-bank-page .zen-q-actions .zen-study-btn {
-    width: 100%;
-    min-width: 38px;
-    height: 36px;
-    font-size: 16px;
+    width: 44px !important;
+    min-width: 44px !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    transform: none !important;
+    animation: none !important;
+  }
+
+  .zen-bank-page .zen-q-actions .zen-study-btn .zen-flag-icon {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+    max-width: 14px;
+    max-height: 14px;
   }
 
   .zen-bank-page .zen-q-collapse-head {
