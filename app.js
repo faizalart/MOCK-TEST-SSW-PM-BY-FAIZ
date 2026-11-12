@@ -3562,11 +3562,11 @@ function renderExam() {
     return `
       <div role="radio" tabindex="0" class="answer-choice ${selected ? 'selected' : ''}" data-action="answer" data-index="${i}" aria-checked="${selected}" aria-pressed="${selected}">
         <span class="answer-letter">${letter}</span>
-        <span class="answer-content">
+        <div class="answer-content">
           ${o.text ? `<div class="answer-text rich-content" lang="ja">${richHTML(o.text)}</div>` : ''}
           ${isUntimedPractice && state.practiceTranslationOpen && optTrans ? `<span class="practice-option-translation" lang="id">${richHTML(optTrans)}</span>` : ''}
           ${m ? `<img class="answer-image" src="${mediaURL(m)}" alt="Option ${letter}">` : ''}
-        </span>
+        </div>
         <span class="answer-radio" aria-hidden="true"></span>
       </div>`;
   }).join('');
