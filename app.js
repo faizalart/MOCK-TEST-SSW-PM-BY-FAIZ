@@ -3851,6 +3851,7 @@ function renderExamSettingsPopover() {
 }
 
 function renderExam() {
+  const options = arguments[0] || {};
   const s = activeExam();
   if (!s) { state.page = 'home'; renderHome(); return; }
   if (s.deadline && Date.now() >= s.deadline) { finishExam(true); return; }
@@ -3858,6 +3859,100 @@ function renderExam() {
   if (!q) { finishExam(false); return; }
   s.flaggedQuestions = Array.isArray(s.flaggedQuestions) ? s.flaggedQuestions : [];
   const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+
+  const getWorkspace = () => {
+    if (typeof view !== 'undefined' && view && typeof view.querySelector === 'function') {
+      return view.querySelector('.exam-workspace');
+    }
+    if (typeof document !== 'undefined' && document && typeof document.querySelector === 'function') {
+      return document.querySelector('.exam-workspace');
+    }
+    return null;
+  };
+  const prevWorkspace = getWorkspace();
+  const prevScrollTop = prevWorkspace ? prevWorkspace.scrollTop : 0;
+  const shouldPreserveScroll = Boolean(options && (options.preserveScroll || options.scrollTarget));
+  const scrollTarget = options && options.scrollTarget ? options.scrollTarget : null;
+
+  function findExamTargetSentenceElement(workspace, target) {
+    if (!workspace || !target) return null;
+
+    if (target.targetType === 'prompt') {
+      return workspace.querySelector('.practice-prompt-row') ||
+             workspace.querySelector('.question-card') ||
+             workspace.querySelector('.question-prompt');
+    }
+
+    if (target.targetType === 'option') {
+      if (target.optKey) {
+        const escapedKey = (typeof CSS !== 'undefined' && CSS.escape)
+          ? CSS.escape(target.optKey)
+          : String(target.optKey).replace(/(["\\])/g, '\\$1');
+        const btn = workspace.querySelector(`.practice-row-ctrl[data-opt-key="${escapedKey}"]`);
+        if (btn) {
+          return btn.closest('.practice-option-row') || btn.closest('.answer-choice');
+        }
+      }
+      if (typeof target.index === 'number' && !isNaN(target.index)) {
+        const choice = workspace.querySelector(`.answer-choice[data-index="${target.index}"]`);
+        if (choice) {
+          return choice.closest('.practice-option-row') || choice;
+        }
+      }
+    }
+
+    return null;
+  }
+
+  function scrollSentenceIntoView(workspace, targetEl, { behavior = 'smooth' } = {}) {
+    if (!workspace || !targetEl) return;
+
+    const wsRect = workspace.getBoundingClientRect();
+    const elRect = targetEl.getBoundingClientRect();
+
+    // Position of target relative to workspace scroll content
+    const targetTop = (elRect.top - wsRect.top) + workspace.scrollTop;
+    const targetHeight = elRect.height;
+    const viewportHeight = workspace.clientHeight;
+    const maxScroll = Math.max(0, workspace.scrollHeight - viewportHeight);
+
+    // Generous margin for comfortable reading context
+    const MARGIN = 20;
+    const currentVisibleTop = workspace.scrollTop;
+    const currentVisibleBottom = currentVisibleTop + viewportHeight;
+
+    // Check if target is already comfortably and fully in view:
+    const isComfortablyVisible = (targetTop >= currentVisibleTop + MARGIN) &&
+                                (targetTop + targetHeight <= currentVisibleBottom - MARGIN);
+
+    if (isComfortablyVisible) {
+      return;
+    }
+
+    let idealScroll;
+    if (targetHeight + MARGIN * 2 <= viewportHeight) {
+      // Center the sentence card cleanly in the workspace viewport
+      const targetMiddle = targetTop + targetHeight / 2;
+      idealScroll = targetMiddle - viewportHeight / 2;
+    } else {
+      // If card is taller than viewport (e.g. mobile or extensive kotoba list), align with top margin
+      idealScroll = targetTop - MARGIN;
+    }
+
+    idealScroll = Math.max(0, Math.min(idealScroll, maxScroll));
+
+    if (Math.abs(workspace.scrollTop - idealScroll) > 2) {
+      if (typeof workspace.scrollTo === 'function') {
+        try {
+          workspace.scrollTo({ top: idealScroll, behavior });
+        } catch (err) {
+          workspace.scrollTop = idealScroll;
+        }
+      } else {
+        workspace.scrollTop = idealScroll;
+      }
+    }
+  }
 
   const totalQ = s.questions.length;
   const questionNo = s.currentIndex + 1;
@@ -4077,13 +4172,40 @@ ${isUntimedPractice ? `
         </div>
       </footer>
     </div>`;
-  document.body.classList.add('exam-mode');
-  document.documentElement.classList.add('in-exam');
-  window.scrollTo(0, 0);
-  if (document.documentElement) document.documentElement.scrollTop = 0;
-  if (document.body) document.body.scrollTop = 0;
+  if (document.body) document.body.classList.add('exam-mode');
+  if (document.documentElement) document.documentElement.classList.add('in-exam');
+
+  const newWorkspace = getWorkspace();
+
+  if (shouldPreserveScroll && newWorkspace) {
+    // Instantly restore previous scroll position to eliminate jump/reset to top
+    newWorkspace.scrollTop = prevScrollTop;
+  } else {
+    if (typeof window !== 'undefined' && typeof window.scrollTo === 'function') {
+      window.scrollTo(0, 0);
+    }
+    if (typeof document !== 'undefined' && document) {
+      if (document.documentElement) document.documentElement.scrollTop = 0;
+      if (document.body) document.body.scrollTop = 0;
+    }
+  }
+
   applyExamPrefs();
   syncExamViewportAfterResume();
+
+  if (scrollTarget && newWorkspace) {
+    const runScroll = () => {
+      const targetEl = findExamTargetSentenceElement(newWorkspace, scrollTarget);
+      if (targetEl) {
+        scrollSentenceIntoView(newWorkspace, targetEl, { behavior: 'smooth' });
+      }
+    };
+    if (typeof requestAnimationFrame === 'function') {
+      requestAnimationFrame(runScroll);
+    } else {
+      runScroll();
+    }
+  }
 }
 
 let examTicker = null;
@@ -5852,7 +5974,7 @@ async function handleAction(action, el) {
       if (!isUntimedPractice) break;
       state.practiceTranslationOpen = !state.practiceTranslationOpen;
       resetSelectiveTranslationOverrides(s);
-      renderExam();
+      renderExam({ preserveScroll: true });
       break;
     }
     case 'toggle-selective-trans': {
@@ -5863,8 +5985,10 @@ async function handleAction(action, el) {
       if (!q) break;
       const targetType = el.dataset.targetType;
       const optKey = targetType === 'option' ? (el.dataset.optKey || null) : null;
+      const row = (el && typeof el.closest === 'function') ? el.closest('.practice-option-row') : null;
+      const index = (row && typeof row.querySelector === 'function') ? Number(row.querySelector('.answer-choice')?.dataset?.index) : null;
       toggleSelectiveTrans(s, q.id, optKey);
-      renderExam();
+      renderExam({ scrollTarget: { targetType, optKey, index } });
       break;
     }
     case 'toggle-selective-kotoba': {
@@ -5878,6 +6002,9 @@ async function handleAction(action, el) {
       if (targetType === 'option' && !optKey) break;
       if (targetType !== 'option' && targetType !== 'prompt') break;
 
+      const row = (el && typeof el.closest === 'function') ? el.closest('.practice-option-row') : null;
+      const index = (row && typeof row.querySelector === 'function') ? Number(row.querySelector('.answer-choice')?.dataset?.index) : null;
+
       toggleSelectiveKotoba(s, q.id, optKey);
 
       if (typeof ensureKotobaDataLoaded === 'function') {
@@ -5887,7 +6014,7 @@ async function handleAction(action, el) {
           // Gracefully continue even if data loading fails
         }
       }
-      renderExam();
+      renderExam({ scrollTarget: { targetType, optKey, index } });
       break;
     }
     case 'remove-study-item': {
@@ -6008,7 +6135,7 @@ async function handleAction(action, el) {
         if (ix >= 0) ss.flaggedQuestions.splice(ix, 1);
         else ss.flaggedQuestions.push(cq.id);
         await persistExam();
-        renderExam();
+        renderExam({ preserveScroll: true });
       }
       break;
     }
