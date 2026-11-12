@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssw-pm-mock-test-shell-v28';
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v30';
 
 const CORE = [
   './',
@@ -26,6 +26,8 @@ const CORE = [
   './ssw-pm-tipe2-nguyen1.json',
   './ssw-pm-bonus-soal-1-to-10-bundle.json',
   './ssw-pm-special-lab-bundle.json',
+  './data/sharedKotobaDictionary.json',
+  './data/kotobaMapping.json',
 
   './manifest.webmanifest?v=ssw18',
   './favicon.png?v=ssw18',

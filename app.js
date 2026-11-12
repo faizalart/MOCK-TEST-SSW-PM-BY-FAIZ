@@ -3372,7 +3372,9 @@ function buildExamQuestions(setup) {
       const shuffled = shuffle(tagged);
       q.options = shuffled.map((item, newIdx) => ({
         ...item.opt,
-        originalId: item.opt.id || String.fromCharCode(65 + newIdx),
+        originalId: (item.opt.originalId != null && String(item.opt.originalId).trim())
+          ? String(item.opt.originalId).trim()
+          : (item.opt.id != null && String(item.opt.id).trim() ? String(item.opt.id).trim() : null),
         id: String.fromCharCode(65 + newIdx)
       }));
       const newCorrect = shuffled.findIndex(item => item.isCorrect);
@@ -3417,6 +3419,8 @@ async function startExam() {
       'Mulai Ujian Baru'
     );
     if (!yes) return;
+    if (active && active.selectiveState) delete active.selectiveState;
+    if (state.activeSession && state.activeSession.selectiveState) delete state.activeSession.selectiveState;
     active.status = 'interrupted';
     active.endedAt = Date.now();
     await put('sessions', active);
@@ -3447,6 +3451,10 @@ async function startExam() {
   };
   await put('sessions', session);
   state.activeSession = session;
+  if (isPractice) {
+    initSelectiveState(session);
+    ensureKotobaDataLoaded();
+  }
   state.practiceTranslationOpen = false;
   state.resultId = null;
   state.finalizing = false;
@@ -3465,6 +3473,298 @@ async function startExam() {
 function activeExam() { return state.activeSession; }
 function currentExamQuestion(session = activeExam()) { return session?.questions?.[session.currentIndex] || null; }
 function answeredCount(session = activeExam()) { return (session?.questions || []).filter(q => session.answers[q.id] != null).length; }
+
+/* ==========================================================================
+   FEATURE 008: Session-Scoped Selective State (Task T009)
+   ========================================================================== */
+function initSelectiveState(s) {
+  if (!s || s.mode !== 'practice') return null;
+  const stateObj = { questions: {} };
+  Object.defineProperty(s, 'selectiveState', {
+    value: stateObj,
+    writable: true,
+    enumerable: false,
+    configurable: true
+  });
+  return stateObj;
+}
+
+function getSelectiveState(s = activeExam()) {
+  if (!s || s.mode !== 'practice') return null;
+  if (!s.selectiveState) {
+    initSelectiveState(s);
+  }
+  return s.selectiveState;
+}
+
+function getSelectiveQuestionState(s = activeExam(), qId, create = false) {
+  const selState = getSelectiveState(s);
+  if (!selState || !qId) return null;
+  if (!selState.questions[qId]) {
+    if (!create) return null;
+    selState.questions[qId] = {
+      translation: null,
+      kotoba: false,
+      options: {}
+    };
+  }
+  return selState.questions[qId];
+}
+
+function getSelectiveOptionState(s = activeExam(), qId, origOptId, create = false) {
+  const qState = getSelectiveQuestionState(s, qId, create);
+  if (!qState || !origOptId) return null;
+  let optId = origOptId;
+  if (typeof origOptId === 'object' && origOptId !== null) {
+    optId = (origOptId.originalId != null && String(origOptId.originalId).trim())
+      ? String(origOptId.originalId).trim()
+      : (origOptId.id != null && String(origOptId.id).trim() ? String(origOptId.id).trim() : "");
+  } else if (typeof origOptId === 'string' && origOptId.includes('::')) {
+    const parts = origOptId.split('::');
+    optId = parts[parts.length - 1];
+  }
+  if (!optId) return null;
+  optId = String(optId).trim();
+  if (!optId) return null;
+  if (!qState.options[optId]) {
+    if (!create) return null;
+    qState.options[optId] = {
+      translation: null,
+      kotoba: false
+    };
+  }
+  return qState.options[optId];
+}
+
+/* ==========================================================================
+   FEATURE 008: Stable Composite Option Key (Task T010)
+   ========================================================================== */
+function getOptionKey(qId, opt) {
+  if (qId == null) return null;
+  const cleanQId = String(qId).trim();
+  if (!cleanQId) return null;
+  if (!opt || typeof opt !== 'object') return null;
+
+  let rawOptId = '';
+  if ('originalId' in opt) {
+    if (opt.originalId != null && String(opt.originalId).trim()) {
+      rawOptId = String(opt.originalId).trim();
+    }
+  } else if (opt.id != null && String(opt.id).trim()) {
+    rawOptId = String(opt.id).trim();
+  }
+
+  if (!rawOptId) return null;
+
+  return `${cleanQId}::${rawOptId}`;
+}
+
+/* ==========================================================================
+   FEATURE 008: Selective Translation Toggle Handler (Task T013)
+   ========================================================================== */
+function toggleSelectiveTrans(s = activeExam(), qId, optKey = null) {
+  if (!s || s.mode !== 'practice') return null;
+  if (!qId) return null;
+
+  if (optKey) {
+    const optState = getSelectiveOptionState(s, qId, optKey, true);
+    if (!optState) return null;
+    const currentEffective = (optState.translation !== null && optState.translation !== undefined)
+      ? Boolean(optState.translation)
+      : Boolean(state.practiceTranslationOpen);
+    optState.translation = !currentEffective;
+    return optState.translation;
+  }
+
+  const qState = getSelectiveQuestionState(s, qId, true);
+  if (!qState) return null;
+  const currentEffective = (qState.translation !== null && qState.translation !== undefined)
+    ? Boolean(qState.translation)
+    : Boolean(state.practiceTranslationOpen);
+  qState.translation = !currentEffective;
+  return qState.translation;
+}
+
+/* ==========================================================================
+   FEATURE 008: Global Toolbar Globe Reset Handler (Task T014)
+   ========================================================================== */
+function resetSelectiveTranslationOverrides(s = activeExam()) {
+  if (!s || !s.selectiveState || !s.selectiveState.questions) return;
+  for (const qId of Object.keys(s.selectiveState.questions)) {
+    const qState = s.selectiveState.questions[qId];
+    if (!qState) continue;
+    qState.translation = null;
+    if (qState.options) {
+      for (const optKey of Object.keys(qState.options)) {
+        const optState = qState.options[optKey];
+        if (optState) {
+          optState.translation = null;
+        }
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   FEATURE 008: Selective Kotoba Toggle Handler (Task T018)
+   ========================================================================== */
+function toggleSelectiveKotoba(s = activeExam(), qId, optKey = null) {
+  if (!s || s.mode !== 'practice' || s.deadline || s.timed) return null;
+  if (!qId) return null;
+
+  if (optKey !== null && optKey !== undefined) {
+    if (typeof optKey === 'string' && !optKey.trim()) return null;
+    const optState = getSelectiveOptionState(s, qId, optKey, true);
+    if (!optState) return null;
+    optState.kotoba = !Boolean(optState.kotoba);
+    return optState.kotoba;
+  }
+
+  const qState = getSelectiveQuestionState(s, qId, true);
+  if (!qState) return null;
+  qState.kotoba = !Boolean(qState.kotoba);
+  return qState.kotoba;
+}
+
+/* ==========================================================================
+   FEATURE 008: Production Kotoba Data Loader, Resolver & Viewer (Task T017)
+   ========================================================================== */
+let kotobaMappingCache = null;
+let kotobaDictionaryCache = null;
+let kotobaLoadingPromise = null;
+
+function setKotobaData(mappingData = null, dictData = null) {
+  if (mappingData && typeof mappingData === 'object') {
+    kotobaMappingCache = mappingData;
+  }
+  if (dictData && typeof dictData === 'object') {
+    kotobaDictionaryCache = dictData;
+  }
+}
+
+async function ensureKotobaDataLoaded() {
+  if (kotobaMappingCache && kotobaDictionaryCache) {
+    return { mapping: kotobaMappingCache, dictionary: kotobaDictionaryCache };
+  }
+  if (kotobaLoadingPromise) return kotobaLoadingPromise;
+
+  kotobaLoadingPromise = (async () => {
+    try {
+      const [mappingData, dictData] = await Promise.all([
+        fetchBuiltinJson('kotobaMapping.json'),
+        fetchBuiltinJson('sharedKotobaDictionary.json')
+      ]);
+      if (mappingData && mappingData.questions) {
+        kotobaMappingCache = mappingData;
+      }
+      if (dictData && dictData.terms) {
+        kotobaDictionaryCache = dictData;
+      }
+    } catch (err) {
+      console.warn('Gagal memuat dataset Kotoba:', err);
+    } finally {
+      kotobaLoadingPromise = null;
+    }
+    return { mapping: kotobaMappingCache, dictionary: kotobaDictionaryCache };
+  })();
+
+  return kotobaLoadingPromise;
+}
+
+/**
+ * Resolves verified Kotoba entries from shared dictionary and mapping.
+ *
+ * @param {string|string[]} target - Question ID string OR array of term ID strings
+ * @param {object|string|null} [optOrKey=null] - Option object, composite key, original option ID, or null
+ * @param {object|null} [dictOverride=null] - Optional dictionary override
+ * @param {object|null} [mappingOverride=null] - Optional mapping override
+ * @returns {Array<{id: string, kanji: string, furigana: string, arti: string, status: string}>}
+ */
+function resolveKotobaEntries(target, optOrKey = null, dictOverride = null, mappingOverride = null) {
+  const dict = dictOverride || (typeof window !== 'undefined' && window.sharedKotobaDictionary) || kotobaDictionaryCache;
+  if (!dict || !dict.terms || typeof dict.terms !== 'object') return [];
+
+  let termIds = [];
+
+  if (Array.isArray(target)) {
+    termIds = target;
+  } else if (typeof target === 'string' && target.trim()) {
+    const qId = target.trim();
+    const mapping = mappingOverride || (typeof window !== 'undefined' && window.kotobaMapping) || kotobaMappingCache;
+    if (!mapping) return [];
+
+    if (!optOrKey) {
+      // Prompt context
+      termIds = Array.isArray(mapping.questions?.[qId]) ? mapping.questions[qId] : [];
+    } else {
+      // Option context
+      let origOptId = null;
+      if (typeof optOrKey === 'object' && optOrKey !== null) {
+        origOptId = (optOrKey.originalId != null && String(optOrKey.originalId).trim())
+          ? String(optOrKey.originalId).trim()
+          : (optOrKey.id != null && String(optOrKey.id).trim() ? String(optOrKey.id).trim() : null);
+      } else if (typeof optOrKey === 'string' && optOrKey.trim()) {
+        const cleanStr = optOrKey.trim();
+        origOptId = cleanStr.includes('::') ? cleanStr.split('::').pop() : cleanStr;
+      }
+
+      if (!origOptId) return [];
+
+      const compositeKey = `${qId}::${origOptId}`;
+      termIds = Array.isArray(mapping.byCompositeKey?.[compositeKey])
+        ? mapping.byCompositeKey[compositeKey]
+        : (Array.isArray(mapping.options?.[qId]?.[origOptId]) ? mapping.options[qId][origOptId] : []);
+    }
+  } else {
+    return [];
+  }
+
+  if (!Array.isArray(termIds) || !termIds.length) return [];
+
+  const seenIds = new Set();
+  const results = [];
+
+  for (const id of termIds) {
+    if (!id || typeof id !== 'string') continue;
+    const cleanId = id.trim();
+    if (!cleanId || seenIds.has(cleanId)) continue;
+
+    const entry = dict.terms[cleanId];
+    if (entry && entry.status === 'verified') {
+      seenIds.add(cleanId);
+      results.push({
+        id: String(entry.id || cleanId),
+        kanji: String(entry.kanji || ''),
+        furigana: String(entry.furigana || ''),
+        arti: String(entry.arti || ''),
+        status: entry.status
+      });
+    }
+  }
+
+  return results;
+}
+
+/**
+ * Renders verified Kotoba entries into a minimal vertical list markup.
+ * Term is wrapped in <ruby class="kotoba-ruby">${kanji}<rt>${furigana}</rt></ruby>
+ * for zero-DOM-churn toolbar F synchronization.
+ *
+ * @param {Array<{id: string, kanji: string, furigana: string, arti: string}>} kotobaEntries
+ * @returns {string} HTML string
+ */
+function renderKotobaList(kotobaEntries) {
+  if (!Array.isArray(kotobaEntries) || !kotobaEntries.length) return '';
+  return kotobaEntries.map(entry => `
+    <div class="practice-kotoba-item" data-term-id="${esc(entry.id)}">
+      <span class="kotoba-term-wrap">
+        <ruby class="kotoba-ruby">${esc(entry.kanji)}<rt>${esc(entry.furigana || '')}</rt></ruby>
+      </span>
+      <span class="kotoba-separator" aria-hidden="true">—</span>
+      <span class="kotoba-meaning" lang="id">${esc(entry.arti || '')}</span>
+    </div>
+  `).join('');
+}
 
 function renderExamSettingsPopover() {
   const prefs = state.examPrefs;
@@ -3528,6 +3828,20 @@ function renderExamSettingsPopover() {
             <span class="fs-label">${esc(fsActive ? t('setFsActive') : t('setFsTitle'))}</span>
           </button>
         </div>
+
+        <div class="exam-setting-row exam-attribution-section">
+          <div class="exam-slider-head">
+            <strong>Data Sources &amp; Licenses</strong>
+          </div>
+          <div class="exam-attribution-body">
+            <p class="exam-attribution-lead">
+              This application uses data from the <strong>JMdict</strong> dictionary file. The JMdict data is the property of the <strong>Electronic Dictionary Research and Development Group (EDRDG)</strong> and is used in accordance with the Group's <a href="https://www.edrdg.org/edrdg/licence.html" target="_blank" rel="noopener noreferrer">licence</a>.
+            </p>
+            <p class="exam-attribution-detail">
+              The vocabulary dataset is derived from the <a href="https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project" target="_blank" rel="noopener noreferrer">JMdict Project</a>, matched to SSW Food Processing (飲食料品製造業) requirements, and enriched with in-house curated Indonesian definitions released under <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. The application software, CBT scoring engine, and platform code remain separate proprietary works.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="exam-settings-foot">
         <button type="button" class="button button-small button-outline" data-action="reset-exam-prefs">${esc(t('setResetBtn'))}</button>
@@ -3559,15 +3873,56 @@ function renderExam() {
     const optTrans = String(o.translation || '').trim();
     const m = getOptionMedia(q, o, i);
     const letter = String.fromCharCode(65 + i);
-    return `
+    const optKey = isUntimedPractice ? getOptionKey(q.id, o) : '';
+    const optSelState = isUntimedPractice ? getSelectiveOptionState(s, q.id, optKey, false) : null;
+    const isOptKotobaOpen = isUntimedPractice ? Boolean(optSelState?.kotoba) : false;
+    const resolvedOptKotoba = (isUntimedPractice && isOptKotobaOpen)
+      ? resolveKotobaEntries(q.id, optKey || o)
+      : [];
+    const isOptTransOpen = isUntimedPractice
+      ? (optSelState?.translation !== null && optSelState?.translation !== undefined
+          ? Boolean(optSelState.translation)
+          : Boolean(state.practiceTranslationOpen))
+      : false;
+
+    const answerChoiceHTML = `
       <div role="radio" tabindex="0" class="answer-choice ${selected ? 'selected' : ''}" data-action="answer" data-index="${i}" aria-checked="${selected}" aria-pressed="${selected}">
         <span class="answer-letter">${letter}</span>
         <div class="answer-content">
           ${o.text ? `<div class="answer-text rich-content" lang="ja">${richHTML(o.text)}</div>` : ''}
-          ${isUntimedPractice && state.practiceTranslationOpen && optTrans ? `<span class="practice-option-translation" lang="id">${richHTML(optTrans)}</span>` : ''}
+          ${isOptTransOpen && optTrans ? `<span class="practice-option-translation" lang="id">${richHTML(optTrans)}</span>` : ''}
+          ${isOptKotobaOpen && resolvedOptKotoba.length ? `
+          <div class="practice-kotoba-list practice-option-kotoba" lang="ja">
+            ${renderKotobaList(resolvedOptKotoba)}
+          </div>` : ''}
           ${m ? `<img class="answer-image" src="${mediaURL(m)}" alt="Option ${letter}">` : ''}
         </div>
         <span class="answer-radio" aria-hidden="true"></span>
+      </div>`;
+
+    if (!isUntimedPractice) {
+      return answerChoiceHTML;
+    }
+
+    return `
+      <div class="practice-option-row">
+        <button type="button"
+                class="practice-row-ctrl practice-ctrl-trans ${isOptTransOpen ? 'is-active' : ''}"
+                data-action="toggle-selective-trans"
+                data-target-type="option"
+                data-opt-key="${esc(optKey)}"
+                aria-expanded="${Boolean(isOptTransOpen)}"
+                aria-label="Terjemahan Opsi ${letter}"
+                title="${isOptTransOpen ? 'Sembunyikan terjemahan opsi' : 'Tampilkan terjemahan opsi'}"></button>
+        ${answerChoiceHTML}
+        <button type="button"
+                class="practice-row-ctrl practice-ctrl-kotoba ${isOptKotobaOpen ? 'is-active' : ''}"
+                data-action="toggle-selective-kotoba"
+                data-target-type="option"
+                data-opt-key="${esc(optKey)}"
+                aria-expanded="${Boolean(isOptKotobaOpen)}"
+                aria-label="Kosakata Opsi ${letter}"
+                title="${isOptKotobaOpen ? 'Sembunyikan kosakata opsi' : 'Tampilkan kosakata opsi'}"></button>
       </div>`;
   }).join('');
 
@@ -3599,6 +3954,16 @@ function renderExam() {
   const img = getQuestionMainMedia(q);
   const inStudy = isQuestionInStudy(q);
   const promptTrans = String(q.promptTranslation || '').trim();
+  const qSelState = isUntimedPractice ? getSelectiveQuestionState(s, q.id, false) : null;
+  const isPromptKotobaOpen = isUntimedPractice ? Boolean(qSelState?.kotoba) : false;
+  const resolvedPromptKotoba = (isUntimedPractice && isPromptKotobaOpen)
+    ? resolveKotobaEntries(q.id, null)
+    : [];
+  const isPromptTransOpen = isUntimedPractice
+    ? (qSelState?.translation !== null && qSelState?.translation !== undefined
+        ? Boolean(qSelState.translation)
+        : Boolean(state.practiceTranslationOpen))
+    : false;
   const imageClass = `image-size-${q.imageSize || 'medium'} image-ratio-${q.imageRatio || 'auto'} image-pos-${q.imagePosition || 'center'}`;
   const answerPrev = questionNo > 1
     ? `<button type="button" class="button button-outline" data-action="exam-prev" aria-label="${esc(t('examBackBtn'))}"><span aria-hidden="true">‹</span> ${esc(t('examBackBtn'))}</button>`
@@ -3646,8 +4011,33 @@ function renderExam() {
         <section class="exam-workspace" aria-label="Question ${questionNo}">
           <div class="question-card">
             <div class="question-instruction rich-content" lang="ja">${richHTML(q.instructions || '<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。')}</div>
+            ${isUntimedPractice ? `
+            <div class="practice-prompt-row">
+              <button type="button"
+                      class="practice-row-ctrl practice-ctrl-trans ${isPromptTransOpen ? 'is-active' : ''}"
+                      data-action="toggle-selective-trans"
+                      data-target-type="prompt"
+                      aria-expanded="${Boolean(isPromptTransOpen)}"
+                      aria-label="Terjemahan Kalimat Soal"
+                      title="${isPromptTransOpen ? 'Sembunyikan terjemahan soal' : 'Tampilkan terjemahan soal'}"></button>
+              <div class="practice-prompt-center">
+                <div class="question-prompt rich-content" lang="ja">${richHTML(cleanExamPrompt(q.prompt))}</div>
+                ${isPromptTransOpen && promptTrans ? `<div class="practice-question-translation" lang="id">${richHTML(promptTrans)}</div>` : ''}
+                ${isPromptKotobaOpen && resolvedPromptKotoba.length ? `
+                <div class="practice-kotoba-list practice-question-kotoba" lang="ja">
+                  ${renderKotobaList(resolvedPromptKotoba)}
+                </div>` : ''}
+              </div>
+              <button type="button"
+                      class="practice-row-ctrl practice-ctrl-kotoba ${isPromptKotobaOpen ? 'is-active' : ''}"
+                      data-action="toggle-selective-kotoba"
+                      data-target-type="prompt"
+                      aria-expanded="${Boolean(isPromptKotobaOpen)}"
+                      aria-label="Kosakata Soal"
+                      title="${isPromptKotobaOpen ? 'Sembunyikan kosakata soal' : 'Tampilkan kosakata soal'}"></button>
+            </div>` : `
             <div class="question-prompt rich-content" lang="ja">${richHTML(cleanExamPrompt(q.prompt))}</div>
-            ${isUntimedPractice && state.practiceTranslationOpen && promptTrans ? `<div class="practice-question-translation" lang="id">${richHTML(promptTrans)}</div>` : ''}
+            ${isUntimedPractice && state.practiceTranslationOpen && promptTrans ? `<div class="practice-question-translation" lang="id">${richHTML(promptTrans)}</div>` : ''}`}
             ${img ? `<div class="question-image-frame ${imageClass}"><img class="question-display-image" src="${mediaURL(img)}" alt="Illustration Question ${questionNo}"></div>` : ''}
           </div>
           <div class="answer-list" role="radiogroup" aria-label="Answer choices question ${questionNo}">
@@ -3772,6 +4162,9 @@ async function finishExam(timeUp = false, manualConfirmed = false) {
   state.finalizing = true;
   state.practiceTranslationOpen = false;
   state.examSettingsOpen = false;
+  if (s && s.selectiveState) {
+    delete s.selectiveState;
+  }
   if (examTicker) { clearInterval(examTicker); examTicker = null; }
   s.endedAt = Date.now();
   s.status = timeUp ? 'time-up' : 'completed';
@@ -5378,6 +5771,9 @@ async function handleAction(action, el) {
           await finishExam(true);
         } else {
           state.activeSession = s;
+          if (s.mode === 'practice' && !s.selectiveState) {
+            initSelectiveState(s);
+          }
           state.page = 'exam';
           await go('exam');
           startExamTicker();
@@ -5455,6 +5851,42 @@ async function handleAction(action, el) {
       const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
       if (!isUntimedPractice) break;
       state.practiceTranslationOpen = !state.practiceTranslationOpen;
+      resetSelectiveTranslationOverrides(s);
+      renderExam();
+      break;
+    }
+    case 'toggle-selective-trans': {
+      const s = activeExam();
+      const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+      if (!isUntimedPractice) break;
+      const q = currentExamQuestion(s);
+      if (!q) break;
+      const targetType = el.dataset.targetType;
+      const optKey = targetType === 'option' ? (el.dataset.optKey || null) : null;
+      toggleSelectiveTrans(s, q.id, optKey);
+      renderExam();
+      break;
+    }
+    case 'toggle-selective-kotoba': {
+      const s = activeExam();
+      const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+      if (!isUntimedPractice) break;
+      const q = currentExamQuestion(s);
+      if (!q) break;
+      const targetType = el.dataset.targetType;
+      const optKey = targetType === 'option' ? (el.dataset.optKey || null) : null;
+      if (targetType === 'option' && !optKey) break;
+      if (targetType !== 'option' && targetType !== 'prompt') break;
+
+      toggleSelectiveKotoba(s, q.id, optKey);
+
+      if (typeof ensureKotobaDataLoaded === 'function') {
+        try {
+          await ensureKotobaDataLoaded();
+        } catch (e) {
+          // Gracefully continue even if data loading fails
+        }
+      }
       renderExam();
       break;
     }
@@ -5620,6 +6052,16 @@ document.addEventListener('keydown', async e => {
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
+    if (state.examSettingsOpen) {
+      state.examSettingsOpen = false;
+      const pop = $('#exam-settings-popover');
+      if (pop) {
+        pop.hidden = true;
+        pop.classList.remove('is-open');
+      }
+      $('[data-action="exam-settings"]').forEach(b => b.classList.remove('is-active'));
+      $('[data-action="exam-settings"]')?.focus();
+    }
     const wrap = $('#zen-lang-dropdown');
     const menu = $('#zen-lang-menu');
     if (wrap && menu && wrap.classList.contains('is-open')) {
@@ -5727,6 +6169,17 @@ document.addEventListener('click', async e => {
       menu.hidden = true;
       $('#zen-lang-trigger')?.setAttribute('aria-expanded', 'false');
     }
+  }
+
+  // Close exam settings popover when clicking outside
+  if (state.examSettingsOpen && !e.target.closest('#exam-settings-popover') && !e.target.closest('[data-action="exam-settings"]')) {
+    state.examSettingsOpen = false;
+    const pop = $('#exam-settings-popover');
+    if (pop) {
+      pop.hidden = true;
+      pop.classList.remove('is-open');
+    }
+    $('[data-action="exam-settings"]').forEach(b => b.classList.remove('is-active'));
   }
 
   const pageBtn = e.target.closest('[data-page]');
@@ -5968,6 +6421,18 @@ if (typeof window !== 'undefined') {
   window.go = go;
   window.startExam = startExam;
   window.finishExam = finishExam;
+  window.initSelectiveState = initSelectiveState;
+  window.getSelectiveState = getSelectiveState;
+  window.getSelectiveQuestionState = getSelectiveQuestionState;
+  window.getSelectiveOptionState = getSelectiveOptionState;
+  window.getOptionKey = getOptionKey;
+  window.toggleSelectiveTrans = toggleSelectiveTrans;
+  window.resetSelectiveTranslationOverrides = resetSelectiveTranslationOverrides;
+  window.setKotobaData = setKotobaData;
+  window.ensureKotobaDataLoaded = ensureKotobaDataLoaded;
+  window.resolveKotobaEntries = resolveKotobaEntries;
+  window.renderKotobaList = renderKotobaList;
+  window.toggleSelectiveKotoba = toggleSelectiveKotoba;
 }
 
 /* ==========================================================================
