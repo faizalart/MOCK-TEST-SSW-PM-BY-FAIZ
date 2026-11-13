@@ -1292,3 +1292,37 @@ body.exam-mode #app {
   user-select: none;
 }
 
+/* ==========================================================================
+   FEATURE 009 (US2): Mobile Fill Screen Fallback & Pinch-to-Zoom Preservation (T008)
+   ========================================================================== */
+body.exam-mode.is-fill-screen {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100vw !important;
+  height: var(--exam-viewport-height, 100dvh) !important;
+  max-height: var(--exam-viewport-height, 100dvh) !important;
+  overflow: hidden !important;
+  touch-action: pan-x pan-y pinch-zoom !important;
+}
+
+body.exam-mode.is-fill-screen #sidebar,
+body.exam-mode.is-fill-screen .topbar,
+body.exam-mode.is-fill-screen #mobile-menu {
+  display: none !important;
+}
+
+body.exam-mode.is-fill-screen .exam-shell,
+body.exam-mode .exam-viewport,
+body.exam-mode.is-fill-screen .exam-workspace,
+body.exam-mode.is-fill-screen .exam-main {
+  touch-action: pan-x pan-y pinch-zoom !important;
+}
+
+body.exam-mode.is-fill-screen .exam-shell {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  height: var(--exam-viewport-height, 100dvh) !important;
+  max-height: var(--exam-viewport-height, 100dvh) !important;
+  overflow-x: hidden !important;
+}
+

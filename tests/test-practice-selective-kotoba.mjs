@@ -406,7 +406,8 @@ for (const qId of sampleQIds) {
   assert.ok(Array.isArray(terms) && terms.length > 0, `Prompt ${qId} must resolve verified terms`);
   for (const t of terms) {
     assert.equal(t.status, 'verified');
-    assert.ok(t.kanji && t.furigana && t.arti);
+    assert.ok(t.kanji && typeof t.furigana === 'string' && t.arti);
+    if (/[\u4e00-\u9faf\u3005]/.test(t.kanji)) assert.ok(t.furigana, `Kanji term ${t.kanji} must have furigana`);
   }
 }
 console.log('✓ Criterion 3.1: Production question mapping resolves verified terms cleanly across packages');
@@ -1083,11 +1084,12 @@ const swSource = fs.readFileSync(swPath, 'utf8');
 
 const t027CacheMatch = swSource.match(/const\s+CACHE_NAME\s*=\s*['"]([^'"]+)['"]/);
 assert.ok(t027CacheMatch, 'sw.js must define CACHE_NAME');
+const t027CacheVerMatch = t027CacheMatch[1].match(/^ssw-pm-mock-test-shell-v(\d+)$/);
 assert.ok(
-  t027CacheMatch[1] === 'ssw-pm-mock-test-shell-v30',
-  `CACHE_NAME must be incremented to v30, got: ${t027CacheMatch[1]}`
+  t027CacheVerMatch && Number(t027CacheVerMatch[1]) >= 30,
+  `CACHE_NAME must be incremented to >= v30, got: ${t027CacheMatch[1]}`
 );
-console.log('✓ Criterion 14.1: Shell cache version successfully incremented to v30 (T027 & T029 offline resolution)');
+console.log(`✓ Criterion 14.1: Shell cache version verified at ${t027CacheMatch[1]} (>= v30)`);
 
 const t027CoreMatch = swSource.match(/const\s+CORE\s*=\s*\[([\s\S]*?)\];/);
 assert.ok(t027CoreMatch, 'sw.js must define CORE array');

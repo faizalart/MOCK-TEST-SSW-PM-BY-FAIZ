@@ -1043,6 +1043,148 @@ function saveExamPrefs(prefs) {
   }
 }
 
+const EXAM_SHORTCUTS_STORAGE_KEY = 'sswPmExamShortcuts';
+
+const DEFAULT_EXAM_SHORTCUTS = Object.freeze({
+  nextQuestion: 'ArrowRight',
+  prevQuestion: 'ArrowLeft',
+  selectOption1: '1',
+  selectOption2: '2',
+  selectOption3: '3',
+  selectOption4: '4',
+  toggleFurigana: 'e',
+  toggleMap: 'q',
+  toggleFlag: 'w',
+  openSettings: 'r',
+  togglePracticeTranslation: 'y'
+});
+
+const EXAM_SHORTCUT_ACTIONS = Object.freeze([
+  { id: 'nextQuestion', label: 'Soal Berikutnya' },
+  { id: 'prevQuestion', label: 'Soal Sebelumnya' },
+  { id: 'selectOption1', label: 'Pilih Opsi 1' },
+  { id: 'selectOption2', label: 'Pilih Opsi 2' },
+  { id: 'selectOption3', label: 'Pilih Opsi 3' },
+  { id: 'selectOption4', label: 'Pilih Opsi 4 (jika ada)' },
+  { id: 'toggleFurigana', label: 'Toggle Furigana' },
+  { id: 'toggleMap', label: 'Toggle Peta Soal' },
+  { id: 'toggleFlag', label: 'Tandai Soal (Flag)' },
+  { id: 'openSettings', label: 'Buka Pengaturan' },
+  { id: 'togglePracticeTranslation', label: 'Terjemahan Practice' }
+]);
+
+const RESERVED_SHORTCUT_KEYS = new Set(['f', 'Escape', 'Enter', ' ', 'Tab']);
+
+const MODIFIER_ONLY_KEYS = new Set([
+  'Shift', 'Control', 'Alt', 'Meta', 'CapsLock', 'NumLock', 'ScrollLock',
+  'ContextMenu', 'OS', 'Process', 'Unidentified', 'Dead', 'AltGraph'
+]);
+
+function normalizeShortcutKey(rawKey) {
+  if (typeof rawKey !== 'string' || !rawKey.length) return null;
+  if (MODIFIER_ONLY_KEYS.has(rawKey)) return null;
+  if (rawKey === 'Spacebar' || rawKey === ' ') return ' ';
+  if (rawKey === 'Escape' || rawKey === 'Enter' || rawKey === 'Tab') return rawKey;
+  if (rawKey === 'ArrowLeft' || rawKey === 'ArrowRight' || rawKey === 'ArrowUp' || rawKey === 'ArrowDown') {
+    return rawKey;
+  }
+  if (/^[a-zA-Z]$/.test(rawKey)) return rawKey.toLowerCase();
+  if (/^[0-9]$/.test(rawKey)) return rawKey;
+  if (rawKey.length === 1 && !/\s/.test(rawKey)) return rawKey;
+  return null;
+}
+
+function formatShortcutKeyLabel(key) {
+  switch (key) {
+    case 'ArrowRight': return '→';
+    case 'ArrowLeft': return '←';
+    case 'ArrowUp': return '↑';
+    case 'ArrowDown': return '↓';
+    case ' ': return 'Space';
+    default: return /^[a-z]$/.test(key) ? key.toUpperCase() : String(key || '');
+  }
+}
+
+function getShortcutActionLabel(actionId) {
+  const found = EXAM_SHORTCUT_ACTIONS.find(item => item.id === actionId);
+  return found ? found.label : actionId;
+}
+
+function loadExamShortcuts() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(EXAM_SHORTCUTS_STORAGE_KEY) || 'null');
+    const source = raw && typeof raw === 'object'
+      ? (raw.bindings && typeof raw.bindings === 'object' ? raw.bindings : raw)
+      : null;
+    if (!source) return { ...DEFAULT_EXAM_SHORTCUTS };
+    const next = {};
+    const usedKeys = new Set();
+    for (const actionId of Object.keys(DEFAULT_EXAM_SHORTCUTS)) {
+      const normalized = normalizeShortcutKey(source[actionId]);
+      if (!normalized || RESERVED_SHORTCUT_KEYS.has(normalized) || usedKeys.has(normalized)) {
+        return { ...DEFAULT_EXAM_SHORTCUTS };
+      }
+      usedKeys.add(normalized);
+      next[actionId] = normalized;
+    }
+    return next;
+  } catch {
+    return { ...DEFAULT_EXAM_SHORTCUTS };
+  }
+}
+
+function saveExamShortcuts(shortcuts) {
+  try {
+    localStorage.setItem(EXAM_SHORTCUTS_STORAGE_KEY, JSON.stringify({
+      version: 1,
+      updatedAt: new Date().toISOString(),
+      bindings: shortcuts
+    }));
+  } catch (err) {
+    console.warn('Gagal menyimpan shortcut ujian:', err);
+  }
+}
+
+function assignExamShortcut(actionId, rawKey) {
+  if (!Object.prototype.hasOwnProperty.call(DEFAULT_EXAM_SHORTCUTS, actionId)) {
+    return { ok: false, reason: 'unknown-action', message: 'Aksi shortcut tidak dikenal.' };
+  }
+  const normalized = normalizeShortcutKey(rawKey);
+  if (!normalized) {
+    return { ok: false, reason: 'invalid', message: 'Tombol tersebut tidak dapat digunakan sebagai shortcut.' };
+  }
+  if (RESERVED_SHORTCUT_KEYS.has(normalized)) {
+    return {
+      ok: false,
+      reason: 'reserved',
+      message: `Tombol ${formatShortcutKeyLabel(normalized)} dicadangkan oleh sistem dan tidak bisa dipakai.`
+    };
+  }
+  for (const [otherAction, otherKey] of Object.entries(state.examShortcuts)) {
+    if (otherAction !== actionId && otherKey === normalized) {
+      return {
+        ok: false,
+        reason: 'conflict',
+        conflictAction: otherAction,
+        message: `Tombol ${formatShortcutKeyLabel(normalized)} sudah dipakai untuk "${getShortcutActionLabel(otherAction)}".`
+      };
+    }
+  }
+  state.examShortcuts = {
+    ...state.examShortcuts,
+    [actionId]: normalized
+  };
+  saveExamShortcuts(state.examShortcuts);
+  return { ok: true, key: normalized };
+}
+
+function resetExamShortcuts() {
+  state.examShortcuts = { ...DEFAULT_EXAM_SHORTCUTS };
+  state.shortcutCaptureAction = null;
+  state.shortcutConflictMessage = '';
+  saveExamShortcuts(state.examShortcuts);
+}
+
 const state = {
   page: 'home',
   lang: loadLang(),
@@ -1056,8 +1198,13 @@ const state = {
     defaultSetId: 'ssw-pm-kunci-ujian-1'
   },
   examPrefs: loadExamPrefs(),
+  examShortcuts: loadExamShortcuts(),
+  shortcutCaptureAction: null,
+  shortcutConflictMessage: '',
+  examFillScreen: false,
   examSettingsOpen: false,
   practiceTranslationOpen: false,
+  practiceRevealAnswer: false,
   editor: null,
   activeSession: null,
   resultId: null,
@@ -1299,7 +1446,16 @@ function applyExamPrefs() {
 }
 
 function isFullscreenActive() {
-  return Boolean(document.fullscreenElement || document.webkitFullscreenElement);
+  return Boolean(state.examFillScreen || document.fullscreenElement || document.webkitFullscreenElement);
+}
+
+function shouldUseFillScreenFallback() {
+  const docEl = document.documentElement;
+  const hasNativeFs = Boolean(docEl && (docEl.requestFullscreen || docEl.webkitRequestFullscreen));
+  if (!hasNativeFs) return true;
+  const coarsePointer = Boolean(window.matchMedia && window.matchMedia('(pointer: coarse)').matches);
+  const mobileUA = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '');
+  return coarsePointer || mobileUA;
 }
 
 async function lockExamLandscape() {
@@ -1333,11 +1489,19 @@ function unlockExamOrientation() {
 }
 
 async function toggleFullScreen() {
+  if (shouldUseFillScreenFallback()) {
+    state.examFillScreen = !state.examFillScreen;
+    updateFullscreenUI();
+    syncExamViewportAfterResume();
+    return;
+  }
   const docEl = document.documentElement;
   const reqFs = docEl.requestFullscreen || docEl.webkitRequestFullscreen;
   const exitFs = document.exitFullscreen || document.webkitExitFullscreen;
   if (!reqFs) {
-    toast('Browser ini tidak mendukung Fullscreen API.', 'warn');
+    state.examFillScreen = !state.examFillScreen;
+    updateFullscreenUI();
+    syncExamViewportAfterResume();
     return;
   }
   try {
@@ -1358,8 +1522,11 @@ async function toggleFullScreen() {
 }
 
 function updateFullscreenUI() {
-  const active = isFullscreenActive();
-  document.body.classList.toggle('is-fullscreen', active);
+  const nativeActive = Boolean(document.fullscreenElement || document.webkitFullscreenElement);
+  const fillActive = Boolean(state.examFillScreen);
+  const active = nativeActive || fillActive;
+  document.body.classList.toggle('is-fullscreen', nativeActive);
+  document.body.classList.toggle('is-fill-screen', fillActive);
   $$('[data-action="toggle-fullscreen"]').forEach(btn => {
     btn.classList.toggle('is-active', active);
     btn.setAttribute('aria-pressed', String(active));
@@ -1380,10 +1547,8 @@ let examViewportTimers = [];
 
 function syncExamViewportHeight() {
   const vv = window.visualViewport;
-  const scale = vv && typeof vv.scale === 'number' ? vv.scale : 1;
-
-  // Jangan ubah tinggi kontainer saat pengguna sedang melakukan pinch-zoom (zoom in / zoom out)
-  if (Math.abs(scale - 1) > 0.02) {
+  // visualViewport.scale is strictly a read-only observer; pinch zoom is actuated by the browser.
+  if (vv && typeof vv.scale === 'number' && vv.scale > 1.02) {
     return;
   }
 
@@ -1731,9 +1896,21 @@ async function go(page) {
     document.body.classList.add('exam-mode');
     document.documentElement.classList.add('in-exam');
   } else {
-    document.body.classList.remove('exam-mode');
+    state.examFillScreen = false;
+    state.practiceRevealAnswer = false;
+    lastExamMapSessionId = null;
+    document.body.classList.remove('exam-mode', 'is-fill-screen');
     document.documentElement.classList.remove('in-exam');
     unlockExamOrientation();
+    if (document.fullscreenElement || document.webkitFullscreenElement) {
+      const exitFs = document.exitFullscreen || document.webkitExitFullscreen;
+      if (exitFs) {
+        try {
+          const p = exitFs.call(document);
+          if (p && typeof p.catch === 'function') p.catch(() => {});
+        } catch {}
+      }
+    }
   }
   render();
   $$('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.page === page));
@@ -1750,7 +1927,10 @@ async function go(page) {
 
 function render() {
   if (state.page !== 'exam') {
-    document.body.classList.remove('exam-mode');
+    state.examFillScreen = false;
+    state.practiceRevealAnswer = false;
+    lastExamMapSessionId = null;
+    document.body.classList.remove('exam-mode', 'is-fill-screen');
     document.documentElement.classList.remove('in-exam');
     unlockExamOrientation();
     updateFullscreenUI();
@@ -3456,9 +3636,15 @@ async function startExam() {
     ensureKotobaDataLoaded();
   }
   state.practiceTranslationOpen = false;
+  state.practiceRevealAnswer = false;
+  lastExamMapSessionId = null;
   state.resultId = null;
   state.finalizing = false;
   state.examSettingsOpen = false;
+  state.examFillScreen = false;
+  activeExamPointers.clear();
+  wasMultiTouch = false;
+  multiTouchCooldownUntil = 0;
   window.scrollTo(0, 0);
   if (document.documentElement) document.documentElement.scrollTop = 0;
   if (document.body) document.body.scrollTop = 0;
@@ -3680,18 +3866,38 @@ async function ensureKotobaDataLoaded() {
  * @param {object|null} [mappingOverride=null] - Optional mapping override
  * @returns {Array<{id: string, kanji: string, furigana: string, arti: string, status: string}>}
  */
+const kotobaDiagnosticLogged = new Set();
+
 function resolveKotobaEntries(target, optOrKey = null, dictOverride = null, mappingOverride = null) {
   const dict = dictOverride || (typeof window !== 'undefined' && window.sharedKotobaDictionary) || kotobaDictionaryCache;
   if (!dict || !dict.terms || typeof dict.terms !== 'object') return [];
 
   let termIds = [];
+  let activeMapping = mappingOverride || (typeof window !== 'undefined' && window.kotobaMapping) || kotobaMappingCache;
 
   if (Array.isArray(target)) {
     termIds = target;
   } else if (typeof target === 'string' && target.trim()) {
     const qId = target.trim();
-    const mapping = mappingOverride || (typeof window !== 'undefined' && window.kotobaMapping) || kotobaMappingCache;
+    const mapping = activeMapping;
     if (!mapping) return [];
+
+    const dictSchema = dict._meta?.schemaVersion || dict._meta?.datasetVersion || null;
+    const mapSchema = mapping._meta?.schemaVersion || mapping._meta?.datasetVersion || null;
+    const dictDataVer = dict._meta?.dataVersion || dict._meta?.datasetVersion || null;
+    const mapDataVer = mapping._meta?.dataVersion || mapping._meta?.datasetVersion || null;
+    if ((dictSchema && mapSchema && dictSchema !== mapSchema) || (dictDataVer && mapDataVer && dictDataVer !== mapDataVer)) {
+      const verKey = `ver:${dictSchema}:${mapSchema}:${dictDataVer}:${mapDataVer}`;
+      if (!kotobaDiagnosticLogged.has(verKey)) {
+        kotobaDiagnosticLogged.add(verKey);
+        console.error('[Kotoba] Version mismatch between dictionary and mapping:', {
+          dictSchema,
+          mapSchema,
+          dictDataVer,
+          mapDataVer
+        });
+      }
+    }
 
     if (!optOrKey) {
       // Prompt context
@@ -3730,7 +3936,15 @@ function resolveKotobaEntries(target, optOrKey = null, dictOverride = null, mapp
     if (!cleanId || seenIds.has(cleanId)) continue;
 
     const entry = dict.terms[cleanId];
-    if (entry && entry.status === 'verified') {
+    if (!entry) {
+      const missKey = `miss:${cleanId}`;
+      if (!kotobaDiagnosticLogged.has(missKey)) {
+        kotobaDiagnosticLogged.add(missKey);
+        console.error('[Kotoba] Missing term ID:', cleanId, typeof target === 'string' ? target : 'array');
+      }
+      continue;
+    }
+    if (entry.status === 'verified') {
       seenIds.add(cleanId);
       results.push({
         id: String(entry.id || cleanId),
@@ -3764,6 +3978,57 @@ function renderKotobaList(kotobaEntries) {
       <span class="kotoba-meaning" lang="id">${esc(entry.arti || '')}</span>
     </div>
   `).join('');
+}
+
+function renderExamShortcutsSection() {
+  const bindings = state.examShortcuts || DEFAULT_EXAM_SHORTCUTS;
+  const captureAction = state.shortcutCaptureAction;
+  const conflictMsg = state.shortcutConflictMessage || '';
+  return `
+        <div id="exam-shortcuts-section" class="exam-setting-row exam-shortcuts-section">
+          <div class="exam-shortcuts-head">
+            <strong>Keyboard Shortcuts</strong>
+            <button type="button" class="button button-small button-outline" data-action="reset-exam-shortcuts">Reset Shortcuts</button>
+          </div>
+          <p class="exam-shortcuts-hint">Klik tombol key lalu tekan tombol baru. Tekan Esc untuk batal. Tombol F tetap untuk Layar Penuh.</p>
+          <div class="exam-shortcuts-status" role="status" aria-live="polite">${esc(conflictMsg)}</div>
+          <div class="exam-shortcuts-list">
+            ${EXAM_SHORTCUT_ACTIONS.map(item => {
+              const isCapturing = captureAction === item.id;
+              const currentKey = bindings[item.id] ?? DEFAULT_EXAM_SHORTCUTS[item.id];
+              const badgeText = isCapturing ? 'Press a key...' : formatShortcutKeyLabel(currentKey);
+              return `
+                <div class="exam-shortcut-row">
+                  <span class="exam-shortcut-label">${esc(item.label)}</span>
+                  <button
+                    type="button"
+                    class="exam-shortcut-key-btn ${isCapturing ? 'is-capturing' : ''}"
+                    data-action="capture-exam-shortcut"
+                    data-shortcut-action="${esc(item.id)}"
+                    aria-pressed="${isCapturing ? 'true' : 'false'}"
+                    aria-label="${esc(item.label)}: ${esc(badgeText)}"
+                  >${esc(badgeText)}</button>
+                </div>`;
+            }).join('')}
+          </div>
+        </div>`;
+}
+
+function refreshExamShortcutsUI() {
+  const existing = $('#exam-shortcuts-section');
+  if (!existing) return;
+  const body = existing.closest('.exam-settings-body');
+  const prevScroll = body ? body.scrollTop : 0;
+  const wrapper = document.createElement('div');
+  wrapper.innerHTML = renderExamShortcutsSection().trim();
+  const nextSection = wrapper.firstElementChild;
+  if (nextSection) {
+    existing.replaceWith(nextSection);
+    if (body) body.scrollTop = prevScroll;
+    if (state.shortcutCaptureAction) {
+      nextSection.querySelector(`[data-shortcut-action="${state.shortcutCaptureAction}"]`)?.focus();
+    }
+  }
 }
 
 function renderExamSettingsPopover() {
@@ -3829,6 +4094,8 @@ function renderExamSettingsPopover() {
           </button>
         </div>
 
+        ${renderExamShortcutsSection()}
+
         <div class="exam-setting-row exam-attribution-section">
           <div class="exam-slider-head">
             <strong>Data Sources &amp; Licenses</strong>
@@ -3850,6 +4117,8 @@ function renderExamSettingsPopover() {
     </aside>`;
 }
 
+let lastExamMapSessionId = null;
+
 function renderExam() {
   const options = arguments[0] || {};
   const s = activeExam();
@@ -3859,6 +4128,9 @@ function renderExam() {
   if (!q) { finishExam(false); return; }
   s.flaggedQuestions = Array.isArray(s.flaggedQuestions) ? s.flaggedQuestions : [];
   const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+
+  const prevMap = (typeof view !== 'undefined' && view?.querySelector?.('.exam-question-map')) || (typeof document !== 'undefined' ? document?.querySelector?.('.exam-question-map') : null);
+  const prevMapScrollTop = prevMap ? prevMap.scrollTop : 0;
 
   const getWorkspace = () => {
     if (typeof view !== 'undefined' && view && typeof view.querySelector === 'function') {
@@ -3980,6 +4252,13 @@ function renderExam() {
           : Boolean(state.practiceTranslationOpen))
       : false;
 
+    const showCorrectKey = Boolean(
+      isUntimedPractice &&
+      state.practiceRevealAnswer &&
+      Number.isInteger(q.correctIndex) &&
+      i === q.correctIndex
+    );
+
     const answerChoiceHTML = `
       <div role="radio" tabindex="0" class="answer-choice ${selected ? 'selected' : ''}" data-action="answer" data-index="${i}" aria-checked="${selected}" aria-pressed="${selected}">
         <span class="answer-letter">${letter}</span>
@@ -3992,6 +4271,7 @@ function renderExam() {
           </div>` : ''}
           ${m ? `<img class="answer-image" src="${mediaURL(m)}" alt="Option ${letter}">` : ''}
         </div>
+        ${showCorrectKey ? `<span class="practice-answer-key-check" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>` : ''}
         <span class="answer-radio" aria-hidden="true"></span>
       </div>`;
 
@@ -4162,6 +4442,17 @@ ${isUntimedPractice ? `
     <path d="M1.5 8h13"/>
     <ellipse cx="8" cy="8" rx="3.2" ry="6.5"/>
   </svg>
+</button>
+<button type="button"
+  class="exam-tool-button practice-reveal-btn ${state.practiceRevealAnswer ? 'is-active' : ''}"
+  data-action="toggle-practice-reveal-answer"
+  title="${state.practiceRevealAnswer ? 'Sembunyikan Kunci Jawaban' : 'Tampilkan Kunci Jawaban'}"
+  aria-label="Toggle Kunci Jawaban"
+  aria-pressed="${Boolean(state.practiceRevealAnswer)}">
+  <svg class="practice-eye-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/>
+    <circle cx="12" cy="12" r="3"/>
+  </svg>
 </button>` : ''}
 <button type="button" class="exam-tool-button furigana-quick-button ${state.examPrefs.showFurigana ? 'is-active' : ''}" data-action="toggle-furigana-quick" title="${esc(t('setFuriganaTitle'))}" aria-label="Toggle Furigana" aria-pressed="${Boolean(state.examPrefs.showFurigana)}">F</button>
 </div>
@@ -4174,6 +4465,12 @@ ${isUntimedPractice ? `
     </div>`;
   if (document.body) document.body.classList.add('exam-mode');
   if (document.documentElement) document.documentElement.classList.add('in-exam');
+
+  const newMap = (typeof view !== 'undefined' && view?.querySelector?.('.exam-question-map')) || (typeof document !== 'undefined' ? document?.querySelector?.('.exam-question-map') : null);
+  if (newMap && isUntimedPractice && s.id === lastExamMapSessionId) {
+    newMap.scrollTop = prevMapScrollTop;
+  }
+  lastExamMapSessionId = s.id;
 
   const newWorkspace = getWorkspace();
 
@@ -4300,9 +4597,21 @@ async function finishExam(timeUp = false, manualConfirmed = false) {
   state.finalizing = false;
   await reloadData();
   state.page = 'result';
-  document.body.classList.remove('exam-mode');
+  state.examFillScreen = false;
+  state.practiceRevealAnswer = false;
+  lastExamMapSessionId = null;
+  document.body.classList.remove('exam-mode', 'is-fill-screen');
   document.documentElement.classList.remove('in-exam');
   unlockExamOrientation();
+  if (document.fullscreenElement || document.webkitFullscreenElement) {
+    const exitFs = document.exitFullscreen || document.webkitExitFullscreen;
+    if (exitFs) {
+      try {
+        const p = exitFs.call(document);
+        if (p && typeof p.catch === 'function') p.catch(() => {});
+      } catch {}
+    }
+  }
   updateFullscreenUI();
   render();
 }
@@ -5917,23 +6226,50 @@ async function handleAction(action, el) {
     }
     case 'exam-settings': {
       state.examSettingsOpen = !state.examSettingsOpen;
+      if (!state.examSettingsOpen) {
+        state.shortcutCaptureAction = null;
+        state.shortcutConflictMessage = '';
+      }
       const pop = $('#exam-settings-popover');
       if (pop) {
         pop.hidden = !state.examSettingsOpen;
         pop.classList.toggle('is-open', state.examSettingsOpen);
       }
       $$('[data-action="exam-settings"]').forEach(b => b.classList.toggle('is-active', state.examSettingsOpen));
+      refreshExamShortcutsUI();
       updateFullscreenUI();
       break;
     }
     case 'close-exam-settings': {
       state.examSettingsOpen = false;
+      state.shortcutCaptureAction = null;
+      state.shortcutConflictMessage = '';
       const pop = $('#exam-settings-popover');
       if (pop) {
         pop.hidden = true;
         pop.classList.remove('is-open');
       }
       $$('[data-action="exam-settings"]').forEach(b => b.classList.remove('is-active'));
+      refreshExamShortcutsUI();
+      break;
+    }
+    case 'capture-exam-shortcut': {
+      const actionId = el.dataset.shortcutAction;
+      if (!actionId || !Object.prototype.hasOwnProperty.call(DEFAULT_EXAM_SHORTCUTS, actionId)) break;
+      if (state.shortcutCaptureAction === actionId) {
+        state.shortcutCaptureAction = null;
+        state.shortcutConflictMessage = '';
+      } else {
+        state.shortcutCaptureAction = actionId;
+        state.shortcutConflictMessage = '';
+      }
+      refreshExamShortcutsUI();
+      break;
+    }
+    case 'reset-exam-shortcuts': {
+      resetExamShortcuts();
+      refreshExamShortcutsUI();
+      toast('Shortcut keyboard dikembalikan ke default.', 'info');
       break;
     }
             case 'toggle-review-study': {
@@ -5974,6 +6310,14 @@ async function handleAction(action, el) {
       if (!isUntimedPractice) break;
       state.practiceTranslationOpen = !state.practiceTranslationOpen;
       resetSelectiveTranslationOverrides(s);
+      renderExam({ preserveScroll: true });
+      break;
+    }
+    case 'toggle-practice-reveal-answer': {
+      const s = activeExam();
+      const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+      if (!isUntimedPractice) break;
+      state.practiceRevealAnswer = !state.practiceRevealAnswer;
       renderExam({ preserveScroll: true });
       break;
     }
@@ -6157,28 +6501,19 @@ async function handleAction(action, el) {
   }
 }
 
-// Keyboard shortcut 'F' for Full Screen Mode and Enter/Space for answer choices during active exam
+// Single consolidated keyboard listener for Escape, answer choice Enter/Space, shortcut capture, reserved F fullscreen, and custom exam shortcuts
 document.addEventListener('keydown', async e => {
-  if (state.page !== 'exam') return;
-  const target = e.target;
-  const answerChoice = target?.closest?.('.answer-choice[data-action="answer"]');
-  if (answerChoice && (e.key === 'Enter' || e.key === ' ')) {
-    e.preventDefault();
-    await setExamAnswer(Number(answerChoice.dataset.index));
-    return;
-  }
-  if (e.ctrlKey || e.metaKey || e.altKey || e.repeat) return;
-  if (target && (target.matches?.('input, textarea, select, [contenteditable="true"]') || target.closest?.('[contenteditable="true"]'))) {
-    return;
-  }
-  if (e.key === 'f' || e.key === 'F') {
-    e.preventDefault();
-    toggleFullScreen();
-  }
-});
-
-document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
+    if (state.shortcutCaptureAction) {
+      e.preventDefault();
+      e.stopPropagation();
+      const canceledAction = state.shortcutCaptureAction;
+      state.shortcutCaptureAction = null;
+      state.shortcutConflictMessage = '';
+      refreshExamShortcutsUI();
+      $(`#exam-shortcuts-section [data-shortcut-action="${canceledAction}"]`)?.focus();
+      return;
+    }
     if (state.examSettingsOpen) {
       state.examSettingsOpen = false;
       const pop = $('#exam-settings-popover');
@@ -6186,8 +6521,9 @@ document.addEventListener('keydown', e => {
         pop.hidden = true;
         pop.classList.remove('is-open');
       }
-      $('[data-action="exam-settings"]').forEach(b => b.classList.remove('is-active'));
+      $$('[data-action="exam-settings"]').forEach(b => b.classList.remove('is-active'));
       $('[data-action="exam-settings"]')?.focus();
+      return;
     }
     const wrap = $('#zen-lang-dropdown');
     const menu = $('#zen-lang-menu');
@@ -6196,18 +6532,243 @@ document.addEventListener('keydown', e => {
       menu.hidden = true;
       $('#zen-lang-trigger')?.setAttribute('aria-expanded', 'false');
       $('#zen-lang-trigger')?.focus();
+      return;
+    }
+  }
+
+  if (state.page !== 'exam') return;
+  const target = e.target;
+
+  if (state.shortcutCaptureAction) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (e.isComposing || e.repeat || MODIFIER_ONLY_KEYS.has(e.key)) return;
+    if (e.ctrlKey || e.metaKey || e.altKey) {
+      state.shortcutConflictMessage = 'Gunakan tombol tunggal tanpa Ctrl, Alt, atau Meta.';
+      refreshExamShortcutsUI();
+      return;
+    }
+    const result = assignExamShortcut(state.shortcutCaptureAction, e.key);
+    if (result.ok) {
+      const updatedAction = state.shortcutCaptureAction;
+      state.shortcutCaptureAction = null;
+      state.shortcutConflictMessage = '';
+      refreshExamShortcutsUI();
+      $(`#exam-shortcuts-section [data-shortcut-action="${updatedAction}"]`)?.focus();
+    } else {
+      state.shortcutConflictMessage = result.message;
+      refreshExamShortcutsUI();
+    }
+    return;
+  }
+
+  const answerChoice = target?.closest?.('.answer-choice[data-action="answer"]');
+  if (answerChoice && (e.key === 'Enter' || e.key === ' ')) {
+    e.preventDefault();
+    await setExamAnswer(Number(answerChoice.dataset.index));
+    return;
+  }
+
+  const activeEl = typeof document !== 'undefined' ? document.activeElement : null;
+  if (
+    (target && (target.matches?.('input, textarea, select, [contenteditable="true"]') || target.closest?.('[contenteditable="true"]'))) ||
+    (activeEl && (activeEl.matches?.('input, textarea, select, [contenteditable="true"]') || activeEl.closest?.('[contenteditable="true"]')))
+  ) {
+    return;
+  }
+
+  if (e.isComposing || e.ctrlKey || e.metaKey || e.altKey || e.repeat) return;
+
+  if (e.key === 'f' || e.key === 'F') {
+    e.preventDefault();
+    toggleFullScreen();
+    return;
+  }
+
+  const normalizedKey = normalizeShortcutKey(e.key);
+  if (!normalizedKey) return;
+
+  const bindings = state.examShortcuts || DEFAULT_EXAM_SHORTCUTS;
+  const matchedAction = Object.keys(bindings).find(actionId => bindings[actionId] === normalizedKey);
+  if (!matchedAction) return;
+
+  const s = activeExam();
+  if (!s) return;
+
+  e.preventDefault();
+
+  switch (matchedAction) {
+    case 'nextQuestion':
+      if (s.currentIndex < s.questions.length - 1) await moveExamTo(s.currentIndex + 1);
+      break;
+    case 'prevQuestion':
+      if (s.currentIndex > 0) await moveExamTo(s.currentIndex - 1);
+      break;
+    case 'selectOption1':
+    case 'selectOption2':
+    case 'selectOption3':
+    case 'selectOption4': {
+      const optionIdx = Number(matchedAction.slice(-1)) - 1;
+      const q = currentExamQuestion(s);
+      if (q && Array.isArray(q.options) && optionIdx >= 0 && optionIdx < q.options.length) {
+        await setExamAnswer(optionIdx);
+      }
+      break;
+    }
+    case 'toggleFurigana':
+      state.examPrefs.showFurigana = !state.examPrefs.showFurigana;
+      saveExamPrefs(state.examPrefs);
+      applyExamPrefs();
+      break;
+    case 'toggleMap': {
+      state.mapHidden = !state.mapHidden;
+      saveMapHidden(state.mapHidden);
+      const shell = $('.exam-shell', view);
+      if (shell) shell.classList.toggle('map-hidden', state.mapHidden);
+      $$('[data-action="toggle-question-map"]').forEach(btn => {
+        btn.classList.toggle('is-active', !state.mapHidden);
+        btn.setAttribute('aria-pressed', String(!state.mapHidden));
+      });
+      break;
+    }
+    case 'toggleFlag': {
+      const cq = currentExamQuestion(s);
+      if (cq) {
+        s.flaggedQuestions = Array.isArray(s.flaggedQuestions) ? s.flaggedQuestions : [];
+        const ix = s.flaggedQuestions.indexOf(cq.id);
+        if (ix >= 0) s.flaggedQuestions.splice(ix, 1);
+        else s.flaggedQuestions.push(cq.id);
+        await persistExam();
+        renderExam({ preserveScroll: true });
+      }
+      break;
+    }
+    case 'openSettings': {
+      state.examSettingsOpen = !state.examSettingsOpen;
+      if (!state.examSettingsOpen) {
+        state.shortcutCaptureAction = null;
+        state.shortcutConflictMessage = '';
+      }
+      const pop = $('#exam-settings-popover');
+      if (pop) {
+        pop.hidden = !state.examSettingsOpen;
+        pop.classList.toggle('is-open', state.examSettingsOpen);
+      }
+      $$('[data-action="exam-settings"]').forEach(b => b.classList.toggle('is-active', state.examSettingsOpen));
+      refreshExamShortcutsUI();
+      updateFullscreenUI();
+      break;
+    }
+    case 'togglePracticeTranslation': {
+      const isUntimedPractice = Boolean(s.mode === 'practice' && !s.deadline && !s.timed);
+      if (isUntimedPractice) {
+        state.practiceTranslationOpen = !state.practiceTranslationOpen;
+        resetSelectiveTranslationOverrides(s);
+        renderExam({ preserveScroll: true });
+      }
+      break;
     }
   }
 });
 
+const DEFAULT_PINCH_COOLDOWN_MS = 150;
+const activeExamPointers = new Map();
+let wasMultiTouch = false;
+let multiTouchCooldownUntil = 0;
+
+function isExamMultiTouchGuarded() {
+  return activeExamPointers.size >= 2 || wasMultiTouch || Date.now() < multiTouchCooldownUntil;
+}
+
+const PINCH_GUARDED_EXAM_ACTIONS = new Set([
+  'answer',
+  'toggle-selective-trans',
+  'toggle-selective-kotoba',
+  'toggle-fullscreen',
+  'exam-settings',
+  'toggle-furigana-quick',
+  'toggle-question-map',
+  'toggle-flag',
+  'toggle-practice-translation',
+  'toggle-practice-reveal-answer',
+  'exam-prev',
+  'exam-next',
+  'exam-finish',
+  'jump-question'
+]);
+
 let examAnswerPointerStart = null;
-document.addEventListener('pointerdown', e => {
-  const choice = e.target.closest?.('.answer-choice[data-action="answer"]');
-  if (choice) {
-    examAnswerPointerStart = { x: e.clientX, y: e.clientY };
-  } else {
-    examAnswerPointerStart = null;
-  }
+const supportsPointerEvents = typeof window !== 'undefined' && 'PointerEvent' in window;
+
+if (supportsPointerEvents) {
+  document.addEventListener('pointerdown', e => {
+    if (state.page === 'exam' && e.target?.closest?.('.exam-shell')) {
+      if (Date.now() >= multiTouchCooldownUntil && activeExamPointers.size === 0) {
+        wasMultiTouch = false;
+      }
+      activeExamPointers.set(e.pointerId, { x: e.clientX, y: e.clientY, time: Date.now() });
+      if (activeExamPointers.size >= 2) {
+        wasMultiTouch = true;
+        examAnswerPointerStart = null;
+      }
+    }
+    if (wasMultiTouch || activeExamPointers.size >= 2) {
+      examAnswerPointerStart = null;
+      return;
+    }
+    const choice = e.target.closest?.('.answer-choice[data-action="answer"]');
+    if (choice) {
+      examAnswerPointerStart = { x: e.clientX, y: e.clientY };
+    } else {
+      examAnswerPointerStart = null;
+    }
+  }, { passive: true });
+
+  const handleExamPointerEnd = e => {
+    if (activeExamPointers.has(e.pointerId)) {
+      activeExamPointers.delete(e.pointerId);
+    }
+    if (e.type === 'pointercancel') {
+      activeExamPointers.clear();
+    }
+    if (activeExamPointers.size === 0 && wasMultiTouch) {
+      multiTouchCooldownUntil = Date.now() + DEFAULT_PINCH_COOLDOWN_MS;
+      wasMultiTouch = false;
+    }
+  };
+
+  document.addEventListener('pointerup', handleExamPointerEnd, { passive: true });
+  document.addEventListener('pointercancel', handleExamPointerEnd, { passive: true });
+} else {
+  // Fallback exclusively for legacy browsers lacking PointerEvent support
+  document.addEventListener('touchstart', e => {
+    if (state.page === 'exam' && e.target?.closest?.('.exam-shell') && e.touches && e.touches.length >= 2) {
+      wasMultiTouch = true;
+      examAnswerPointerStart = null;
+    }
+  }, { passive: true });
+
+  const handleExamTouchEnd = e => {
+    if (state.page === 'exam' && (!e.touches || e.touches.length === 0) && wasMultiTouch) {
+      multiTouchCooldownUntil = Date.now() + DEFAULT_PINCH_COOLDOWN_MS;
+      wasMultiTouch = false;
+    }
+  };
+
+  document.addEventListener('touchend', handleExamTouchEnd, { passive: true });
+  document.addEventListener('touchcancel', () => {
+    if (state.page === 'exam') {
+      if (wasMultiTouch) {
+        multiTouchCooldownUntil = Date.now() + DEFAULT_PINCH_COOLDOWN_MS;
+        wasMultiTouch = false;
+      }
+    }
+  }, { passive: true });
+}
+
+window.addEventListener('blur', () => {
+  activeExamPointers.clear();
+  wasMultiTouch = false;
 }, { passive: true });
 
 document.addEventListener('mousedown', e => {
@@ -6318,6 +6879,9 @@ document.addEventListener('click', async e => {
   }
   if (actionBtn) {
     const action = actionBtn.dataset.action;
+    if (state.page === 'exam' && PINCH_GUARDED_EXAM_ACTIONS.has(action) && isExamMultiTouchGuarded()) {
+      return;
+    }
     if (action === 'close-modal' && actionBtn.classList.contains('modal-backdrop') && e.target !== actionBtn) return;
     if (action === 'answer') {
       const moved = examAnswerPointerStart
@@ -6746,6 +7310,7 @@ async function boot() {
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;
     renderHome();
+    if (typeof window !== 'undefined') window.__APP_BOOTED__ = true;
     ensureAllBuiltinSetsLoaded(false).catch(err => console.warn('Auto-seed paket tambahan dilewati:', err));
   } catch (err) {
     console.error(err);

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ssw-pm-mock-test-shell-v30';
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v31';
 
 const CORE = [
   './',
