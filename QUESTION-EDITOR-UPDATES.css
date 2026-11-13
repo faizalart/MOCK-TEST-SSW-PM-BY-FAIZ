@@ -1326,3 +1326,120 @@ body.exam-mode.is-fill-screen .exam-shell {
   overflow-x: hidden !important;
 }
 
+/* ==========================================================================
+   FEATURE 010: Practice Review Retry & Breadcrumb Styling (Tasks T003, T009, T011)
+   ========================================================================== */
+
+/* Persistent Top Breadcrumb Navigation */
+.exam-retry-breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 16px;
+  background: var(--zen-bg-subtle, #fcfcfb);
+  border-bottom: 1px solid var(--zen-line, #dfdfd9);
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--zen-muted, #4a4a45);
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 10;
+}
+
+.exam-retry-breadcrumb .breadcrumb-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+}
+
+.exam-retry-breadcrumb .breadcrumb-item {
+  color: var(--zen-muted, #4a4a45);
+}
+
+.exam-retry-breadcrumb .breadcrumb-parent {
+  font-weight: 500;
+  color: var(--zen-ink, #171717);
+}
+
+.exam-retry-breadcrumb .breadcrumb-separator {
+  color: var(--zen-line-strong, #8c8c85);
+  user-select: none;
+}
+
+.exam-retry-breadcrumb .breadcrumb-current {
+  font-weight: 600;
+  color: var(--zen-ink, #171717);
+}
+
+.exam-retry-breadcrumb .breadcrumb-return-btn {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--zen-ink, #171717);
+  background: #ffffff;
+  border: 1px solid var(--zen-line, #dfdfd9);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease;
+  white-space: nowrap;
+}
+
+.exam-retry-breadcrumb .breadcrumb-return-btn:hover {
+  background: #f0f0ee;
+  border-color: #8c8c85;
+}
+
+.exam-retry-breadcrumb .breadcrumb-return-btn:focus-visible {
+  outline: 2px solid var(--zen-ink, #171717);
+  outline-offset: 1px;
+}
+
+/* Retry Button in Review Bar */
+.retry-incorrect-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  background: var(--zen-ink, #171717);
+  border: 1px solid var(--zen-ink, #171717);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.12s ease, opacity 0.12s ease;
+  white-space: nowrap;
+}
+
+.retry-incorrect-btn:hover {
+  background: #333330;
+  border-color: #333330;
+}
+
+.retry-incorrect-btn:focus-visible {
+  outline: 2px solid var(--zen-ink, #171717);
+  outline-offset: 2px;
+}
+
+/* Origin Question Reference Badge on Question Card */
+.exam-question-origin-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  margin-left: 8px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--zen-muted, #4a4a45);
+  background: #f4f4f2;
+  border: 1px solid var(--zen-line, #dfdfd9);
+  border-radius: 3px;
+  vertical-align: middle;
+}
+

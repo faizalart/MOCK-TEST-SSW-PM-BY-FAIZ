@@ -1044,8 +1044,9 @@ function saveExamPrefs(prefs) {
 }
 
 const EXAM_SHORTCUTS_STORAGE_KEY = 'sswPmExamShortcuts';
+const EXAM_SHORTCUTS_VERSION = 2;
 
-const DEFAULT_EXAM_SHORTCUTS = Object.freeze({
+const DEFAULT_SHORTCUTS_V1 = Object.freeze({
   nextQuestion: 'ArrowRight',
   prevQuestion: 'ArrowLeft',
   selectOption1: '1',
@@ -1059,9 +1060,37 @@ const DEFAULT_EXAM_SHORTCUTS = Object.freeze({
   togglePracticeTranslation: 'y'
 });
 
+const DEFAULT_SHORTCUTS_V2 = Object.freeze({
+  ...DEFAULT_SHORTCUTS_V1,
+  scrollQuestionUp: 'ArrowUp',
+  scrollQuestionDown: 'ArrowDown',
+  toggleStudyList: 't',
+  togglePracticeReveal: 'u',
+  toggleQuestionTrans: 'g',
+  toggleOption1Trans: 'a',
+  toggleOption2Trans: 's',
+  toggleOption3Trans: 'd',
+  toggleQuestionKotoba: 'v',
+  toggleOption1Kotoba: 'z',
+  toggleOption2Kotoba: 'x',
+  toggleOption3Kotoba: 'c'
+});
+
+const DEFAULT_SHORTCUTS_US3 = Object.freeze({
+  ...DEFAULT_SHORTCUTS_V1,
+  scrollQuestionUp: 'ArrowUp',
+  scrollQuestionDown: 'ArrowDown',
+  toggleStudyList: 't',
+  togglePracticeReveal: 'u'
+});
+
+const DEFAULT_EXAM_SHORTCUTS = DEFAULT_SHORTCUTS_V2;
+
 const EXAM_SHORTCUT_ACTIONS = Object.freeze([
   { id: 'nextQuestion', label: 'Soal Berikutnya' },
   { id: 'prevQuestion', label: 'Soal Sebelumnya' },
+  { id: 'scrollQuestionUp', label: 'Gulir Halaman ke Atas' },
+  { id: 'scrollQuestionDown', label: 'Gulir Halaman ke Bawah' },
   { id: 'selectOption1', label: 'Pilih Opsi 1' },
   { id: 'selectOption2', label: 'Pilih Opsi 2' },
   { id: 'selectOption3', label: 'Pilih Opsi 3' },
@@ -1070,7 +1099,17 @@ const EXAM_SHORTCUT_ACTIONS = Object.freeze([
   { id: 'toggleMap', label: 'Toggle Peta Soal' },
   { id: 'toggleFlag', label: 'Tandai Soal (Flag)' },
   { id: 'openSettings', label: 'Buka Pengaturan' },
-  { id: 'togglePracticeTranslation', label: 'Terjemahan Practice' }
+  { id: 'togglePracticeTranslation', label: 'Terjemahan Practice' },
+  { id: 'toggleStudyList', label: 'Tandai ke Study List' },
+  { id: 'togglePracticeReveal', label: 'Intip Kunci Jawaban' },
+  { id: 'toggleQuestionTrans', label: 'Terjemahan Kalimat Soal' },
+  { id: 'toggleOption1Trans', label: 'Terjemahan Opsi 1' },
+  { id: 'toggleOption2Trans', label: 'Terjemahan Opsi 2' },
+  { id: 'toggleOption3Trans', label: 'Terjemahan Opsi 3' },
+  { id: 'toggleQuestionKotoba', label: 'Kosakata Soal' },
+  { id: 'toggleOption1Kotoba', label: 'Kosakata Opsi 1' },
+  { id: 'toggleOption2Kotoba', label: 'Kosakata Opsi 2' },
+  { id: 'toggleOption3Kotoba', label: 'Kosakata Opsi 3' }
 ]);
 
 const RESERVED_SHORTCUT_KEYS = new Set(['f', 'Escape', 'Enter', ' ', 'Tab']);
@@ -1117,16 +1156,33 @@ function loadExamShortcuts() {
       ? (raw.bindings && typeof raw.bindings === 'object' ? raw.bindings : raw)
       : null;
     if (!source) return { ...DEFAULT_EXAM_SHORTCUTS };
+
     const next = {};
     const usedKeys = new Set();
+
+    // Pass 1: Preserve valid, non-reserved, non-conflicting user bindings from storage
     for (const actionId of Object.keys(DEFAULT_EXAM_SHORTCUTS)) {
-      const normalized = normalizeShortcutKey(source[actionId]);
-      if (!normalized || RESERVED_SHORTCUT_KEYS.has(normalized) || usedKeys.has(normalized)) {
-        return { ...DEFAULT_EXAM_SHORTCUTS };
+      if (source[actionId] !== undefined) {
+        const normalized = normalizeShortcutKey(source[actionId]);
+        if (normalized && !RESERVED_SHORTCUT_KEYS.has(normalized) && !usedKeys.has(normalized)) {
+          next[actionId] = normalized;
+          usedKeys.add(normalized);
+        }
       }
-      usedKeys.add(normalized);
-      next[actionId] = normalized;
     }
+
+    // Pass 2: Populate missing new Schema v2 actions with default keys
+    for (const [actionId, defaultKey] of Object.entries(DEFAULT_EXAM_SHORTCUTS)) {
+      if (!next[actionId]) {
+        if (!usedKeys.has(defaultKey) && !RESERVED_SHORTCUT_KEYS.has(defaultKey)) {
+          next[actionId] = defaultKey;
+          usedKeys.add(defaultKey);
+        } else {
+          next[actionId] = defaultKey;
+        }
+      }
+    }
+
     return next;
   } catch {
     return { ...DEFAULT_EXAM_SHORTCUTS };
@@ -1136,7 +1192,7 @@ function loadExamShortcuts() {
 function saveExamShortcuts(shortcuts) {
   try {
     localStorage.setItem(EXAM_SHORTCUTS_STORAGE_KEY, JSON.stringify({
-      version: 1,
+      version: EXAM_SHORTCUTS_VERSION,
       updatedAt: new Date().toISOString(),
       bindings: shortcuts
     }));
@@ -1453,9 +1509,10 @@ function shouldUseFillScreenFallback() {
   const docEl = document.documentElement;
   const hasNativeFs = Boolean(docEl && (docEl.requestFullscreen || docEl.webkitRequestFullscreen));
   if (!hasNativeFs) return true;
-  const coarsePointer = Boolean(window.matchMedia && window.matchMedia('(pointer: coarse)').matches);
-  const mobileUA = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent || '');
-  return coarsePointer || mobileUA;
+  // Guard iOS where element fullscreen is known to fail or throw
+  const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent || '');
+  if (isIOS) return true;
+  return false;
 }
 
 async function lockExamLandscape() {
@@ -1489,35 +1546,33 @@ function unlockExamOrientation() {
 }
 
 async function toggleFullScreen() {
+  // Path 1: Fallback environment (iOS or unsupported)
   if (shouldUseFillScreenFallback()) {
     state.examFillScreen = !state.examFillScreen;
     updateFullscreenUI();
     syncExamViewportAfterResume();
     return;
   }
+
+  // Path 2: Standard / Android environment with native API
   const docEl = document.documentElement;
   const reqFs = docEl.requestFullscreen || docEl.webkitRequestFullscreen;
   const exitFs = document.exitFullscreen || document.webkitExitFullscreen;
-  if (!reqFs) {
-    state.examFillScreen = !state.examFillScreen;
-    updateFullscreenUI();
-    syncExamViewportAfterResume();
-    return;
-  }
+  const fsEl = document.fullscreenElement || document.webkitFullscreenElement;
+
   try {
-    if (!isFullscreenActive()) {
-      await reqFs.call(docEl);
-      await lockExamLandscape();
+    if (!fsEl) {
+      if (reqFs) await reqFs.call(docEl);
     } else {
-      unlockExamOrientation();
-      if (exitFs) {
-        await exitFs.call(document);
-      }
+      if (exitFs) await exitFs.call(document);
     }
+  } catch (err) {
+    console.warn('[Fullscreen] Native request rejected or failed:', err);
+    // Graceful fallback to CSS fill-screen on unexpected browser security rejection
+    state.examFillScreen = !state.examFillScreen;
+  } finally {
     updateFullscreenUI();
     syncExamViewportAfterResume();
-  } catch (err) {
-    toast(`Mode layar penuh tidak dapat diaktifkan: ${err.message || 'izin ditolak browser'}`, 'warn');
   }
 }
 
@@ -1530,6 +1585,7 @@ function updateFullscreenUI() {
   $$('[data-action="toggle-fullscreen"]').forEach(btn => {
     btn.classList.toggle('is-active', active);
     btn.setAttribute('aria-pressed', String(active));
+    btn.setAttribute('title', active ? 'Keluar Layar Penuh (Esc)' : 'Layar Penuh');
     const icon = btn.querySelector('.fs-icon');
     if (icon) icon.textContent = active ? '🗗' : '⛶';
     const label = btn.querySelector('.fs-label');
@@ -1540,6 +1596,21 @@ function updateFullscreenUI() {
     fsBadge.textContent = active ? t('setFsActive') : t('setFsInactive');
     fsBadge.className = `status ${active ? 'status-on' : 'status-neutral'}`;
   }
+}
+
+function cleanupFullscreen() {
+  const exitFs = document.exitFullscreen || document.webkitExitFullscreen;
+  const isFs = Boolean(document.fullscreenElement || document.webkitFullscreenElement);
+  if (isFs && exitFs) {
+    try {
+      const p = exitFs.call(document);
+      if (p && typeof p.catch === 'function') p.catch(() => {});
+    } catch {}
+  }
+  state.examFillScreen = false;
+  document.body.classList.remove('is-fullscreen', 'is-fill-screen');
+  unlockExamOrientation();
+  updateFullscreenUI();
 }
 
 
@@ -1594,12 +1665,6 @@ function syncExamViewportAfterResume() {
 }
 
 function handleFullscreenStateChange() {
-  const active = isFullscreenActive();
-  if (active && document.body.classList.contains('exam-mode') && !document.hidden) {
-    lockExamLandscape();
-  } else {
-    unlockExamOrientation();
-  }
   updateFullscreenUI();
   syncExamViewportAfterResume();
 }
@@ -1896,21 +1961,11 @@ async function go(page) {
     document.body.classList.add('exam-mode');
     document.documentElement.classList.add('in-exam');
   } else {
-    state.examFillScreen = false;
     state.practiceRevealAnswer = false;
     lastExamMapSessionId = null;
-    document.body.classList.remove('exam-mode', 'is-fill-screen');
+    document.body.classList.remove('exam-mode');
     document.documentElement.classList.remove('in-exam');
-    unlockExamOrientation();
-    if (document.fullscreenElement || document.webkitFullscreenElement) {
-      const exitFs = document.exitFullscreen || document.webkitExitFullscreen;
-      if (exitFs) {
-        try {
-          const p = exitFs.call(document);
-          if (p && typeof p.catch === 'function') p.catch(() => {});
-        } catch {}
-      }
-    }
+    cleanupFullscreen();
   }
   render();
   $$('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.page === page));
@@ -1927,13 +1982,11 @@ async function go(page) {
 
 function render() {
   if (state.page !== 'exam') {
-    state.examFillScreen = false;
     state.practiceRevealAnswer = false;
     lastExamMapSessionId = null;
-    document.body.classList.remove('exam-mode', 'is-fill-screen');
+    document.body.classList.remove('exam-mode');
     document.documentElement.classList.remove('in-exam');
-    unlockExamOrientation();
-    updateFullscreenUI();
+    cleanupFullscreen();
   }
   applyExamPrefs();
   updateShellLanguage();
@@ -3656,8 +3709,88 @@ async function startExam() {
   startExamTicker();
 }
 
+async function launchRetryIncorrectQuestions(parentSession) {
+  const t0 = performance.now();
+  if (!parentSession) return;
+  const allQuestions = parentSession.questions || [];
+  const wrongQuestions = allQuestions.filter(q => {
+    const userAns = parentSession.answers ? parentSession.answers[q.id] : undefined;
+    return userAns != null && userAns !== q.correctIndex;
+  });
+
+  if (!wrongQuestions.length) {
+    toast('Tidak ada jawaban salah untuk diulangi', 'info');
+    return;
+  }
+
+  const clonedQuestions = wrongQuestions.map(q => {
+    const origIndex = allQuestions.findIndex(pq => pq.id === q.id);
+    const clone = JSON.parse(JSON.stringify(q));
+    clone.originQuestionNumber = origIndex >= 0 ? origIndex + 1 : undefined;
+    return clone;
+  });
+
+  const retrySession = {
+    id: uid('exam'),
+    candidateName: String(parentSession.candidateName || '').trim() || 'Faiz',
+    candidatePhoto: parentSession.candidatePhoto || '',
+    title: `Latihan Ulang Jawaban Salah — ${parentSession.packageTitle || parentSession.setName || 'Ujian Utama'}`,
+    setId: parentSession.setId || parentSession.packageId || 'custom',
+    setName: parentSession.setName || parentSession.packageTitle || 'Paket Ujian',
+    packageId: parentSession.packageId || parentSession.setId || 'custom',
+    packageTitle: parentSession.packageTitle || parentSession.setName || 'Paket Ujian',
+    originSessionId: parentSession.id,
+    originExamTitle: formatHomeSessionTitle(parentSession) || parentSession.packageTitle || parentSession.setName || 'Sesi Ujian Utama',
+    questions: clonedQuestions,
+    answers: {},
+    flaggedQuestions: [],
+    currentIndex: 0,
+    startedAt: Date.now(),
+    deadline: null,
+    timed: false,
+    durationMinutes: 0,
+    status: 'in_progress',
+    mode: 'practice',
+    setup: {
+      setId: parentSession.setId || 'custom',
+      mode: 'practice',
+      practice: true,
+      duration: 0
+    }
+  };
+
+  ensureKotobaDataLoaded();
+  initSelectiveState(retrySession);
+  await put('sessions', retrySession);
+  state.activeSession = retrySession;
+  state.practiceTranslationOpen = false;
+  state.practiceRevealAnswer = false;
+  lastExamMapSessionId = null;
+  state.resultId = null;
+  state.finalizing = false;
+  state.examSettingsOpen = false;
+  state.examFillScreen = false;
+  activeExamPointers.clear();
+  wasMultiTouch = false;
+  multiTouchCooldownUntil = 0;
+
+  await go('exam');
+  startExamTicker();
+
+  const t1 = performance.now();
+  console.log(`[Performance] launchRetryIncorrectQuestions completed in ${(t1 - t0).toFixed(2)} ms`);
+}
+
 function activeExam() { return state.activeSession; }
 function currentExamQuestion(session = activeExam()) { return session?.questions?.[session.currentIndex] || null; }
+function getExamDisplayedOptions(s = activeExam(), q = currentExamQuestion(s)) {
+  if (!q || !Array.isArray(q.options)) return [];
+  return q.options.map((opt, i) => ({
+    ...opt,
+    visualIndex: i,
+    key: getOptionKey(q.id, opt)
+  }));
+}
 function answeredCount(session = activeExam()) { return (session?.questions || []).filter(q => session.answers[q.id] != null).length; }
 
 /* ==========================================================================
@@ -4088,7 +4221,7 @@ function renderExamSettingsPopover() {
             <span id="exam-settings-fs-status" class="status ${fsActive ? 'status-on' : 'status-neutral'}">${esc(fsActive ? t('setFsActive') : t('setFsInactive'))}</span>
           </div>
           <p class="exam-fs-hint">${esc(t('setFsHint'))}</p>
-          <button type="button" class="button button-small button-outline button-wide" data-action="toggle-fullscreen">
+          <button type="button" class="button button-small button-outline button-wide" data-action="toggle-fullscreen" aria-pressed="${String(fsActive)}">
             <span class="fs-icon">${fsActive ? '🗗' : '⛶'}</span>
             <span class="fs-label">${esc(fsActive ? t('setFsActive') : t('setFsTitle'))}</span>
           </button>
@@ -4351,10 +4484,25 @@ function renderExam() {
 
   view.innerHTML = `
     <div class="exam-shell ${s.flaggedQuestions.includes(q.id) ? 'question-flagged' : ''} ${state.mapHidden ? 'map-hidden' : ''}">
+      ${s.originSessionId ? `
+      <nav class="exam-retry-breadcrumb no-print" aria-label="Navigasi Sesi Ulang">
+        <div class="breadcrumb-container">
+          <span class="breadcrumb-item breadcrumb-parent">${esc(s.originExamTitle || 'Sesi Ujian Utama')}</span>
+          <span class="breadcrumb-separator" aria-hidden="true">›</span>
+          <span class="breadcrumb-item breadcrumb-current">Latihan Ulang Jawaban Salah</span>
+          <button type="button"
+                  class="button button-subtle button-small breadcrumb-return-btn"
+                  data-action="return-to-parent-results"
+                  data-parent-id="${esc(s.originSessionId)}"
+                  aria-label="Kembali ke Hasil Ujian Utama">
+            ‹ Kembali ke Hasil Utama
+          </button>
+        </div>
+      </nav>` : ''}
       <header class="exam-header">
         <div class="exam-header-left">
           <div class="exam-title-group">
-            <div class="exam-name">${esc(t('examQuestionLabel'))}: ${questionNo}</div>
+            <div class="exam-name">${esc(t('examQuestionLabel'))}: ${questionNo}${q.originQuestionNumber ? ` <span class="exam-question-origin-badge" title="Nomor soal pada ujian utama">Asal: Soal #${q.originQuestionNumber}</span>` : ''}</div>
             <div class="exam-section-title">${esc(t('examSectionLabel'))}: ${esc(activePkgName)}</div>
           </div>
         </div>
@@ -4597,22 +4745,11 @@ async function finishExam(timeUp = false, manualConfirmed = false) {
   state.finalizing = false;
   await reloadData();
   state.page = 'result';
-  state.examFillScreen = false;
   state.practiceRevealAnswer = false;
   lastExamMapSessionId = null;
-  document.body.classList.remove('exam-mode', 'is-fill-screen');
+  document.body.classList.remove('exam-mode');
   document.documentElement.classList.remove('in-exam');
-  unlockExamOrientation();
-  if (document.fullscreenElement || document.webkitFullscreenElement) {
-    const exitFs = document.exitFullscreen || document.webkitExitFullscreen;
-    if (exitFs) {
-      try {
-        const p = exitFs.call(document);
-        if (p && typeof p.catch === 'function') p.catch(() => {});
-      } catch {}
-    }
-  }
-  updateFullscreenUI();
+  cleanupFullscreen();
   render();
 }
 
@@ -4821,6 +4958,21 @@ function renderResult() {
 
   view.innerHTML = `
     <div class="zen-page zen-result-page">
+      ${s.originSessionId ? `
+      <nav class="exam-retry-breadcrumb no-print" aria-label="Navigasi Sesi Ulang">
+        <div class="breadcrumb-container">
+          <span class="breadcrumb-item breadcrumb-parent">${esc(s.originExamTitle || 'Sesi Ujian Utama')}</span>
+          <span class="breadcrumb-separator" aria-hidden="true">›</span>
+          <span class="breadcrumb-item breadcrumb-current">Latihan Ulang Jawaban Salah</span>
+          <button type="button"
+                  class="button button-subtle button-small breadcrumb-return-btn"
+                  data-action="return-to-parent-results"
+                  data-parent-id="${esc(s.originSessionId)}"
+                  aria-label="Kembali ke Hasil Ujian Utama">
+            ‹ Kembali ke Hasil Utama
+          </button>
+        </div>
+      </nav>` : ''}
       <header class="zen-page-head no-print">
         <div>
           <span class="zen-kicker">${esc(t('resultKicker'))} · ${esc(statusLabel).toUpperCase()}</span>
@@ -5002,6 +5154,13 @@ function renderResult() {
               <option value="blank" ${f==='blank'?'selected':''}>${esc(t('revFilterBlank'))} (${st.unanswered})</option>
               <option value="correct" ${f==='correct'?'selected':''}>${esc(t('revFilterCorrect'))} (${st.correct})</option>
             </select>
+            <button type="button"
+                    class="button button-primary button-small retry-incorrect-btn"
+                    data-action="retry-incorrect-questions"
+                    data-session-id="${esc(s.id)}"
+                    aria-label="Ulangi Jawaban Salah (${st.wrong})">
+              Ulangi Jawaban Salah (${st.wrong})
+            </button>
           </div>
           <div class="zen-review-bar-actions">
             <button type="button" class="zen-icon-toggle zen-trans-global-btn ${state.showAllTranslations ? 'is-active' : ''}" data-action="toggle-all-translations" aria-pressed="${Boolean(state.showAllTranslations)}" title="${state.showAllTranslations ? esc(t('transHideTitle')) : esc(t('transShowTitle'))}" aria-label="Tampilkan atau sembunyikan semua terjemahan bahasa Indonesia">
@@ -6484,6 +6643,38 @@ async function handleAction(action, el) {
       break;
     }
     case 'exam-finish': await finishExam(false); break;
+    case 'retry-incorrect-questions': {
+      const sessId = el?.getAttribute('data-session-id') || id || state.resultId;
+      const parentSession = sessId ? (state.sessions || []).find(x => x.id === sessId) : getResultSession();
+      if (!parentSession) {
+        toast('Sesi ujian tidak ditemukan.', 'error');
+        break;
+      }
+      await launchRetryIncorrectQuestions(parentSession);
+      break;
+    }
+    case 'return-to-parent-results': {
+      const parentId = el?.getAttribute('data-parent-id') || el?.closest('[data-parent-id]')?.getAttribute('data-parent-id');
+      if (!parentId) break;
+
+      if (state.page === 'exam') {
+        await persistExam();
+        if (state.activeSession && state.activeSession.selectiveState) {
+          delete state.activeSession.selectiveState;
+        }
+        cleanupFullscreen();
+        document.body.classList.remove('exam-mode', 'is-fill-screen');
+        document.documentElement.classList.remove('in-exam');
+        if (examTicker) { clearInterval(examTicker); examTicker = null; }
+      }
+
+      state.resultId = parentId;
+      state.page = 'result';
+      state.reviewFilter = 'all';
+      await reloadData();
+      render();
+      break;
+    }
     case 'open-result': state.resultId = id; state.reviewFilter = 'all'; state.page = 'result'; render(); break;
     case 'open-review': state.resultId = id; state.reviewFilter = 'all'; state.page = 'review'; render(); break;
     case 'print-result': window.print(); break;
@@ -6499,6 +6690,16 @@ async function handleAction(action, el) {
       break;
     }
   }
+}
+
+function isInputOrEditable(element) {
+  if (!element || typeof element !== 'object') return false;
+  try {
+    if (element.matches?.('input, textarea, select, [contenteditable="true"]') || element.closest?.('[contenteditable="true"]')) {
+      return true;
+    }
+  } catch {}
+  return false;
 }
 
 // Single consolidated keyboard listener for Escape, answer choice Enter/Space, shortcut capture, reserved F fullscreen, and custom exam shortcuts
@@ -6570,26 +6771,29 @@ document.addEventListener('keydown', async e => {
   }
 
   const activeEl = typeof document !== 'undefined' ? document.activeElement : null;
-  if (
-    (target && (target.matches?.('input, textarea, select, [contenteditable="true"]') || target.closest?.('[contenteditable="true"]'))) ||
-    (activeEl && (activeEl.matches?.('input, textarea, select, [contenteditable="true"]') || activeEl.closest?.('[contenteditable="true"]')))
-  ) {
+  if (isInputOrEditable(target) || isInputOrEditable(activeEl)) {
     return;
   }
 
-  if (e.isComposing || e.ctrlKey || e.metaKey || e.altKey || e.repeat) return;
-
-  if (e.key === 'f' || e.key === 'F') {
-    e.preventDefault();
-    toggleFullScreen();
-    return;
-  }
+  if (e.isComposing || e.ctrlKey || e.metaKey || e.altKey) return;
 
   const normalizedKey = normalizeShortcutKey(e.key);
   if (!normalizedKey) return;
 
   const bindings = state.examShortcuts || DEFAULT_EXAM_SHORTCUTS;
   const matchedAction = Object.keys(bindings).find(actionId => bindings[actionId] === normalizedKey);
+
+  if (e.repeat && matchedAction !== 'scrollQuestionUp' && matchedAction !== 'scrollQuestionDown') {
+    return;
+  }
+
+  if (e.key === 'f' || e.key === 'F') {
+    if (e.repeat) return;
+    e.preventDefault();
+    toggleFullScreen();
+    return;
+  }
+
   if (!matchedAction) return;
 
   const s = activeExam();
@@ -6598,6 +6802,20 @@ document.addEventListener('keydown', async e => {
   e.preventDefault();
 
   switch (matchedAction) {
+    case 'scrollQuestionDown': {
+      const workspace = document.querySelector('.exam-workspace');
+      if (workspace) {
+        workspace.scrollTop += 80;
+      }
+      break;
+    }
+    case 'scrollQuestionUp': {
+      const workspace = document.querySelector('.exam-workspace');
+      if (workspace) {
+        workspace.scrollTop = Math.max(0, workspace.scrollTop - 80);
+      }
+      break;
+    }
     case 'nextQuestion':
       if (s.currentIndex < s.questions.length - 1) await moveExamTo(s.currentIndex + 1);
       break;
@@ -6666,6 +6884,89 @@ document.addEventListener('keydown', async e => {
         resetSelectiveTranslationOverrides(s);
         renderExam({ preserveScroll: true });
       }
+      break;
+    }
+    case 'toggleStudyList': {
+      const q = currentExamQuestion(s);
+      if (!q) break;
+      const inStudy = await toggleStudyItem(q);
+      const btn = document.querySelector('.study-list-quick-button');
+      if (btn) {
+        btn.classList.toggle('is-active', inStudy);
+        btn.setAttribute('aria-pressed', String(inStudy));
+        btn.setAttribute('title', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
+        btn.setAttribute('aria-label', inStudy ? t('studyRemoveTooltip') : t('studyAddTooltip'));
+        btn.textContent = inStudy ? '✓' : '+';
+      }
+      const mapBtn = document.querySelector(`.question-map-item[data-index="${s.currentIndex}"]`);
+      if (mapBtn) {
+        mapBtn.classList.toggle('in-study', inStudy);
+      }
+      break;
+    }
+    case 'togglePracticeReveal': {
+      const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+      if (!isUntimedPractice) break;
+      state.practiceRevealAnswer = !state.practiceRevealAnswer;
+      renderExam({ preserveScroll: true });
+      break;
+    }
+    case 'toggleQuestionTrans': {
+      const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+      if (!isUntimedPractice) break;
+      const q = currentExamQuestion(s);
+      if (!q) break;
+      toggleSelectiveTrans(s, q.id, null);
+      renderExam({ preserveScroll: true });
+      break;
+    }
+    case 'toggleOption1Trans':
+    case 'toggleOption2Trans':
+    case 'toggleOption3Trans': {
+      const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+      if (!isUntimedPractice) break;
+      const q = currentExamQuestion(s);
+      if (!q) break;
+      const targetVisualIdx = matchedAction === 'toggleOption1Trans' ? 0 : (matchedAction === 'toggleOption2Trans' ? 1 : 2);
+      const displayed = getExamDisplayedOptions(s, q);
+      const opt = displayed[targetVisualIdx];
+      if (!opt || !opt.key) break;
+      toggleSelectiveTrans(s, q.id, opt.key);
+      renderExam({ preserveScroll: true });
+      break;
+    }
+    case 'toggleQuestionKotoba': {
+      const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+      if (!isUntimedPractice) break;
+      const q = currentExamQuestion(s);
+      if (!q) break;
+      toggleSelectiveKotoba(s, q.id, null);
+      if (typeof ensureKotobaDataLoaded === 'function') {
+        try {
+          await ensureKotobaDataLoaded();
+        } catch (e) {}
+      }
+      renderExam({ preserveScroll: true });
+      break;
+    }
+    case 'toggleOption1Kotoba':
+    case 'toggleOption2Kotoba':
+    case 'toggleOption3Kotoba': {
+      const isUntimedPractice = Boolean(s && s.mode === 'practice' && !s.deadline && !s.timed);
+      if (!isUntimedPractice) break;
+      const q = currentExamQuestion(s);
+      if (!q) break;
+      const targetVisualIdx = matchedAction === 'toggleOption1Kotoba' ? 0 : (matchedAction === 'toggleOption2Kotoba' ? 1 : 2);
+      const displayed = getExamDisplayedOptions(s, q);
+      const opt = displayed[targetVisualIdx];
+      if (!opt || !opt.key) break;
+      toggleSelectiveKotoba(s, q.id, opt.key);
+      if (typeof ensureKotobaDataLoaded === 'function') {
+        try {
+          await ensureKotobaDataLoaded();
+        } catch (e) {}
+      }
+      renderExam({ preserveScroll: true });
       break;
     }
   }
@@ -7107,10 +7408,17 @@ document.addEventListener('submit', async e => {
 $('#mobile-menu')?.addEventListener('click', () => $('#sidebar').classList.toggle('sidebar-open'));
 
 if (typeof window !== 'undefined') {
+  window.put = put;
+  window.get = get;
+  window.all = all;
+  window.getAll = all;
+  window.reloadData = reloadData;
+  window.render = render;
   window.getAvailablePackages = getAvailablePackages;
   window.ensureAllBuiltinSetsLoaded = ensureAllBuiltinSetsLoaded;
   window.go = go;
   window.startExam = startExam;
+  window.moveExamTo = moveExamTo;
   window.finishExam = finishExam;
   window.initSelectiveState = initSelectiveState;
   window.getSelectiveState = getSelectiveState;
@@ -7124,6 +7432,12 @@ if (typeof window !== 'undefined') {
   window.resolveKotobaEntries = resolveKotobaEntries;
   window.renderKotobaList = renderKotobaList;
   window.toggleSelectiveKotoba = toggleSelectiveKotoba;
+  window.getExamDisplayedOptions = getExamDisplayedOptions;
+  window.shouldUseFillScreenFallback = shouldUseFillScreenFallback;
+  window.isFullscreenActive = isFullscreenActive;
+  window.toggleFullScreen = toggleFullScreen;
+  window.updateFullscreenUI = updateFullscreenUI;
+  window.cleanupFullscreen = cleanupFullscreen;
 }
 
 /* ==========================================================================

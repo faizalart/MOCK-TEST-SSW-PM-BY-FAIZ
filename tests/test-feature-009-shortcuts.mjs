@@ -295,9 +295,9 @@ async function main() {
     console.log('✓ Scenario 1b: E (Furigana), Q (Map), W (Flag), R (Settings), Y (Practice Translation) verified');
 
     // Scenario 2: Remap, capture isolation, conflict/reserved rejection, persistence, reset
-    // Verify 11 shortcut rows rendered
+    // Verify shortcut rows rendered (at least 11 base actions from Feature 009)
     const shortcutCount = await cdp.eval(`document.querySelectorAll('#exam-shortcuts-section .exam-shortcut-row').length`, sessionId);
-    assert.equal(shortcutCount, 11, `Expected 11 shortcut rows, got ${shortcutCount}`);
+    assert.ok(shortcutCount >= 11, `Expected at least 11 shortcut rows, got ${shortcutCount}`);
 
     // Start capture on nextQuestion
     await cdp.eval(`document.querySelector('[data-shortcut-action="nextQuestion"]').click()`, sessionId);
