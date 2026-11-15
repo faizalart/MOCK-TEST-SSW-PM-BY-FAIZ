@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "2026-11-15T16:20:49.568Z",
+    "updatedAt": "2026-11-15T16:21:10.620Z",
     "branch": "fix/kotoba-audit-40"
   },
   "targetManifestPath": "deliverables/kotoba-audit-40/target-manifest.json",
@@ -12,7 +12,8 @@
     "batch-03",
     "batch-04",
     "batch-05",
-    "batch-06"
+    "batch-06",
+    "batch-07"
   ],
   "completedPackageIds": [
     "ssw-pm-kunci-ujian-16",
@@ -44,10 +45,15 @@
     "bonus-soal-10",
     "bonus-soal-5",
     "bonus-soal-6",
-    "ssw-pm-kunci-ujian-11"
+    "ssw-pm-kunci-ujian-11",
+    "ssw-pm-lab-alergen",
+    "bonus-soal-7",
+    "ssw-pm-kunci-ujian-7",
+    "ssw-pm-kunci-ujian-1",
+    "bonus-soal-4"
   ],
   "currentPackageId": null,
-  "currentPhase": "BATCH_BATCH-06_VERIFIED",
+  "currentPhase": "BATCH_BATCH-07_VERIFIED",
   "filesModifiedInProduction": [
     "data/sharedKotobaDictionary.json",
     "data/kotobaMapping.json",
@@ -61,6 +67,6 @@
     "baselineRecordedForAll60": true
   },
   "unresolvedFindings": {},
-  "lastSuccessfulCheckpoint": "batch-06-verified",
-  "nextAction": "Proceed with batch-07"
+  "lastSuccessfulCheckpoint": "batch-07-verified",
+  "nextAction": "Proceed with batch-08"
 }
