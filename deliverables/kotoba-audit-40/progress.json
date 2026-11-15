@@ -1,0 +1,35 @@
+{
+  "_meta": {
+    "updatedAt": "2026-11-15T16:12:00.789Z",
+    "branch": "fix/kotoba-audit-40"
+  },
+  "targetManifestPath": "deliverables/kotoba-audit-40/target-manifest.json",
+  "selectionStatus": "CONFIRMED_ALL_50_NON_OTAFF_BY_USER",
+  "totalBatches": 10,
+  "completedBatches": [
+    "batch-01"
+  ],
+  "completedPackageIds": [
+    "ssw-pm-kunci-ujian-16",
+    "ssw-pm-kunci-ujian-14",
+    "ssw-pm-kunci-ujian-15",
+    "latsol-tambahan-02",
+    "latsol-reguler-05"
+  ],
+  "currentPackageId": null,
+  "currentPhase": "BATCH_BATCH-01_VERIFIED",
+  "filesModifiedInProduction": [
+    "data/sharedKotobaDictionary.json",
+    "data/kotobaMapping.json",
+    "data/kotoba-dan-kategori-tambahan.json",
+    "data/ssw-pm-kunci-ujian-16.json",
+    "data/ssw-pm-kunci-ujian-14.json",
+    "data/ssw-pm-kunci-ujian-15.json"
+  ],
+  "validationResults": {
+    "baselineRecordedForAll60": true
+  },
+  "unresolvedFindings": {},
+  "lastSuccessfulCheckpoint": "batch-01-verified",
+  "nextAction": "Proceed with batch-02"
+}

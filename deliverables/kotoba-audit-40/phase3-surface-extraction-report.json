@@ -1,0 +1,3772 @@
+{
+  "summary": {
+    "totalUniqueSurfacesInTargets": 2041,
+    "matchedInExistingMasterDict": 1954,
+    "needingNewDictionaryCuration": 87,
+    "cohort1ContextsWithV2Errors": 103
+  },
+  "needingCuration": [
+    {
+      "surface": "えらびなさい",
+      "count": 110,
+      "master": null,
+      "autoReading": "えらびなさい",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "作業着について、まちがっているものを一つえらびなさい。"
+    },
+    {
+      "surface": "まちがっている",
+      "count": 52,
+      "master": null,
+      "autoReading": "まちがっている",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "作業着について、まちがっているものを一つえらびなさい。"
+    },
+    {
+      "surface": "選んで",
+      "count": 25,
+      "master": null,
+      "autoReading": "えらんで",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "マニュアルの使用について間違っているものを選んでください。"
+    },
+    {
+      "surface": "えらんで",
+      "count": 13,
+      "master": null,
+      "autoReading": "えらんで",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "期限表示についてケアレスミスをしないためになんですか。まちがっているものを一つえらんでください。"
+    },
+    {
+      "surface": "下",
+      "count": 12,
+      "master": null,
+      "autoReading": "した",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket",
+        "cohort_4_pilot_otaff51"
+      ],
+      "sample": "機械の下は決してくぐらないようにする"
+    },
+    {
+      "surface": "分け",
+      "count": 9,
+      "master": null,
+      "autoReading": "わけ",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "一般衛生管理は3つ分けます。施設、設備、器具の衛生管理と作業者の衛生管理ともう一つのは何ですか。正しいものを一つ選びない。"
+    },
+    {
+      "surface": "従うと",
+      "count": 8,
+      "master": null,
+      "autoReading": "したがうと",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "右の表は300gのパンの配合例です。この配合に従うと小麦粉4kgからどれだけのパンを作ることができますか。"
+    },
+    {
+      "surface": "殺",
+      "count": 7,
+      "master": null,
+      "autoReading": "ころ",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "多くの微生物を殺すためには、何度で何秒ぐらい加熱しますか。正しいものを一つ選びなさい。"
+    },
+    {
+      "surface": "秒",
+      "count": 6,
+      "master": null,
+      "autoReading": "",
+      "cohorts": [
+        "cohort_1_spec009_canonical"
+      ],
+      "sample": "髪の毛や鼻を触った後は、3秒待ってから作業する"
+    },
+    {
+      "surface": "あたって",
+      "count": 6,
+      "master": null,
+      "autoReading": "あたって",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "冷凍した魚を包丁で切る作業をおこなっていたところ、右手で持っていた包丁が滑って左手にあたって手を切りそうになった。この事故の原因は何ですか。"
+    },
+    {
+      "surface": "はげしい",
+      "count": 6,
+      "master": null,
+      "autoReading": "はげしい",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "腹痛はげしい下痢"
+    },
+    {
+      "surface": "きかい",
+      "count": 6,
+      "master": null,
+      "autoReading": "きかい",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "汚れたきかい、きぐなどはかならずせんじょうしてかたずけます"
+    },
+    {
+      "surface": "正しくない",
+      "count": 5,
+      "master": null,
+      "autoReading": "ただしくない",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "微生物の繁殖を防ぐため、何をするべきですか。正しくないものを1つ選びなさい。"
+    },
+    {
+      "surface": "おきます",
+      "count": 5,
+      "master": null,
+      "autoReading": "おきます",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "包丁はそのままにしておきます"
+    },
+    {
+      "surface": "NaCl",
+      "count": 5,
+      "master": null,
+      "autoReading": "nacl",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "濃度5%NaCl溶液があります、100ppmのNaCl溶液を2Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさい"
+    },
+    {
+      "surface": "汚染されにくい",
+      "count": 4,
+      "master": null,
+      "autoReading": "おせんされにくい",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "まめや穀類などは汚染されにくい"
+    },
+    {
+      "surface": "油",
+      "count": 4,
+      "master": null,
+      "autoReading": "あぶら",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "ゆかにこぼれた水や油は、すぐにふきとる。"
+    },
+    {
+      "surface": "慣れて",
+      "count": 4,
+      "master": null,
+      "autoReading": "なれて",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket",
+        "cohort_4_pilot_otaff51"
+      ],
+      "sample": "作業に慣れていないため、危険に気がつきにくい。"
+    },
+    {
+      "surface": "なかなか",
+      "count": 4,
+      "master": null,
+      "autoReading": "なかなか",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "危険になかなか気がつかない人です。"
+    },
+    {
+      "surface": "にくい",
+      "count": 3,
+      "master": null,
+      "autoReading": "にくい",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "作業に慣れていないから、危険を気づきにくい。"
+    },
+    {
+      "surface": "なし",
+      "count": 3,
+      "master": null,
+      "autoReading": "なし",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "4℃以下、乾燥、汚れなし環境"
+    },
+    {
+      "surface": "もつ",
+      "count": 3,
+      "master": null,
+      "autoReading": "もつ",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "手袋をつけていない手で食品をもつ。"
+    },
+    {
+      "surface": "びんづめ",
+      "count": 3,
+      "master": null,
+      "autoReading": "びんづめ",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "缶詰、びんづめ"
+    },
+    {
+      "surface": "あいだ",
+      "count": 3,
+      "master": null,
+      "autoReading": "あいだ",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "30℃ -40℃ あいだで"
+    },
+    {
+      "surface": "あらいます",
+      "count": 3,
+      "master": null,
+      "autoReading": "あらいます",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "間違っている方法で手をあらいます"
+    },
+    {
+      "surface": "とくに",
+      "count": 3,
+      "master": null,
+      "autoReading": "とくに",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "異物混入でとくに多いのはなんですか。正しいものを一つえらびなさい。"
+    },
+    {
+      "surface": "すばやく",
+      "count": 2,
+      "master": null,
+      "autoReading": "すばやく",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "異常事態を発見したら、まず何が起こっているかをすばやく確認する。"
+    },
+    {
+      "surface": "及",
+      "count": 2,
+      "master": null,
+      "autoReading": "及",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "原材料及び製造工程から考えられる危害をリストアップする。"
+    },
+    {
+      "surface": "やすく",
+      "count": 2,
+      "master": null,
+      "autoReading": "やすく",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "コンベヤーを乗りやすくするため、カバーをつける。"
+    },
+    {
+      "surface": "求めて",
+      "count": 2,
+      "master": null,
+      "autoReading": "もとめて",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "消費者が美味しい食べ物を求めている"
+    },
+    {
+      "surface": "帰った",
+      "count": 2,
+      "master": null,
+      "autoReading": "かえった",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "がまんできなかったので、だれにも報告せずに帰った。"
+    },
+    {
+      "surface": "開く",
+      "count": 2,
+      "master": null,
+      "autoReading": "ひらく",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "ホースにかかる水の圧力でホース動き、バランスを崩す可能性があるので、ゆっくり蛇口を開く"
+    },
+    {
+      "surface": "ＣＣＰ",
+      "count": 2,
+      "master": null,
+      "autoReading": "ｃｃｐ",
+      "cohorts": [
+        "cohort_1_spec009_canonical",
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "食品では、一般衛生管理だけでなく、危害要因が含まれないようにするための特みが必要です。危害要因分析、重要管理点（ＣＣＰ）と管理基準を決める、"
+    },
+    {
+      "surface": "巻き込まれそうになった",
+      "count": 2,
+      "master": null,
+      "autoReading": "まきこまれそうになった",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "ベルトコンベアを止めない清掃をおこなっていたところ、ぞうきんが引っか掛かって手が巻き込まれそうになった。この事故の原因は何ですか。正しいもの"
+    },
+    {
+      "surface": "美味しく食べられる",
+      "count": 2,
+      "master": null,
+      "autoReading": "おいしくたべられる",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "美味しく食べられる期間の最後の日です。"
+    },
+    {
+      "surface": "痛める",
+      "count": 2,
+      "master": null,
+      "autoReading": "痛める",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "腰痛（重い釜を持ち上げて腰を痛める作業者）"
+    },
+    {
+      "surface": "ぞうしょく",
+      "count": 2,
+      "master": null,
+      "autoReading": "ぞうしょく",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "微生物はなんど°間でぞうしょくしますか。。ただしものをひとつえらびなさい"
+    },
+    {
+      "surface": "じゅうような",
+      "count": 2,
+      "master": null,
+      "autoReading": "じゅうような",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "原材料の受入のけっかは、その後の製造工程でどのように対応するかを判断するためのじゅうようなデータになります。なんですか。正しいものを一つえら"
+    },
+    {
+      "surface": "つねに",
+      "count": 2,
+      "master": null,
+      "autoReading": "つねに",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "作業靴はつねに せいかつに して おきます"
+    },
+    {
+      "surface": "つかった",
+      "count": 2,
+      "master": null,
+      "autoReading": "つかった",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "作業靴はおんせんくからひおんせんくに入るときにかならず、決められたしょどくえきをつかったせんじょうそうちでしょどくします"
+    },
+    {
+      "surface": "ふくそう",
+      "count": 2,
+      "master": null,
+      "autoReading": "ふくそう",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "最後にふくそうが正しいかどうかかくにんします"
+    },
+    {
+      "surface": "せんじょう",
+      "count": 2,
+      "master": null,
+      "autoReading": "せんじょう",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "汚れたきかい、きぐなどはかならずせんじょうしてかたずけます"
+    },
+    {
+      "surface": "すべり",
+      "count": 2,
+      "master": null,
+      "autoReading": "すべり",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "れいとうこの ゆかにしもがついて、すべりやすくなっていたこと"
+    },
+    {
+      "surface": "上がり",
+      "count": 1,
+      "master": null,
+      "autoReading": "あがり",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "整理：作業効率が上がり、転倒災害の危険も減ります。"
+    },
+    {
+      "surface": "取り外して",
+      "count": 1,
+      "master": null,
+      "autoReading": "とりはずして",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "安全装置が働いたようだったので、安全装置を取り外して動かした。"
+    },
+    {
+      "surface": "聞いた",
+      "count": 1,
+      "master": null,
+      "autoReading": "きいた",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "作業手順が分からなかったので、職場の責任者に聞いた。"
+    },
+    {
+      "surface": "動かす",
+      "count": 1,
+      "master": null,
+      "autoReading": "うごかす",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "できるだけ早く動かすべきだと思い、手順書どおりに行わず自分で直した。"
+    },
+    {
+      "surface": "思い",
+      "count": 1,
+      "master": null,
+      "autoReading": "おもい",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "できるだけ早く動かすべきだと思い、手順書どおりに行わず自分で直した。"
+    },
+    {
+      "surface": "直した",
+      "count": 1,
+      "master": null,
+      "autoReading": "なおした",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "できるだけ早く動かすべきだと思い、手順書どおりに行わず自分で直した。"
+    },
+    {
+      "surface": "右",
+      "count": 1,
+      "master": null,
+      "autoReading": "みぎ",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "右の表は300gのパンの配合例です。この配合に従うと小麦粉4kgからどれだけのパンを作ることができますか。"
+    },
+    {
+      "surface": "飲めば",
+      "count": 1,
+      "master": null,
+      "autoReading": "のめば",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "薬を飲めば大丈夫です。"
+    },
+    {
+      "surface": "普通",
+      "count": 1,
+      "master": null,
+      "autoReading": "ふつう",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "普通に働いてもいいです。"
+    },
+    {
+      "surface": "滑った",
+      "count": 1,
+      "master": null,
+      "autoReading": "すべった",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "滑ったり転んだりする「転倒」災害を防ぐために、何をするべきですか。間違っているものを1つ選びなさい。"
+    },
+    {
+      "surface": "守らないで",
+      "count": 1,
+      "master": null,
+      "autoReading": "まもらないで",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "作業手順を守らないで行います。"
+    },
+    {
+      "surface": "後早",
+      "count": 1,
+      "master": null,
+      "autoReading": "あとはや",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "加熱した後早めに食品を冷やす。"
+    },
+    {
+      "surface": "緩めて",
+      "count": 1,
+      "master": null,
+      "autoReading": "ゆるめて",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "服などを緩めて体を冷やす。"
+    },
+    {
+      "surface": "巻き込まれそう",
+      "count": 1,
+      "master": null,
+      "autoReading": "まきこまれそう",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "（作業員が雑巾で機械を清掃している写真があります。機械がまだ動いているから、手が巻き込まれそうとしました。）このような災害を防ぐため、どうし"
+    },
+    {
+      "surface": "転びにくい",
+      "count": 1,
+      "master": null,
+      "autoReading": "ころびにくい",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "転びにくい靴を履く。"
+    },
+    {
+      "surface": "渡",
+      "count": 1,
+      "master": null,
+      "autoReading": "わた",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "動いているローラーコンベヤーの反対側に行きたいので、コンベヤー上に乗って渡ろうとした時、滑って転んでしまいました。このような災害を防ぐため、"
+    },
+    {
+      "surface": "乗る",
+      "count": 1,
+      "master": null,
+      "autoReading": "のる",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "コンベヤーを止めてから乗る。"
+    },
+    {
+      "surface": "乗らない",
+      "count": 1,
+      "master": null,
+      "autoReading": "のらない",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "コンベヤーの上を乗らないようにするため、脇から通る。"
+    },
+    {
+      "surface": "為",
+      "count": 1,
+      "master": null,
+      "autoReading": "ため",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "安全な食品を提供する為の全体像はどれか、正しいものを一つ選びなさい。"
+    },
+    {
+      "surface": "属",
+      "count": 1,
+      "master": null,
+      "autoReading": "ぞく",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "下記の食中毒を引き起こす主な細菌とウイルスはどれか、正しいものを一つ選びなさい。（腸管出血性大腸菌、サルモネラ属、腸炎ビブリオ）"
+    },
+    {
+      "surface": "込",
+      "count": 1,
+      "master": null,
+      "autoReading": "こ",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "外の微生物を工場内に持ち込ませないため。"
+    },
+    {
+      "surface": "思った",
+      "count": 1,
+      "master": null,
+      "autoReading": "おもった",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "誰かが使うと思ったので、そのまま作業場に置く。"
+    },
+    {
+      "surface": "取り",
+      "count": 1,
+      "master": null,
+      "autoReading": "とり",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "機械の取りはずせるところは、はずしてそうじする。"
+    },
+    {
+      "surface": "居て",
+      "count": 1,
+      "master": null,
+      "autoReading": "いて",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "高温多湿工場内でめまい、立ちくらみ人が居て、正しいものを一つ選びなさい。"
+    },
+    {
+      "surface": "遅い",
+      "count": 1,
+      "master": null,
+      "autoReading": "おそい",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "コンベアのスピードが遅いので、機械を停止させなくぞうきんで拭く"
+    },
+    {
+      "surface": "重ねない",
+      "count": 1,
+      "master": null,
+      "autoReading": "かさねない",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "荷物を重ねないようにする"
+    },
+    {
+      "surface": "アップ",
+      "count": 1,
+      "master": null,
+      "autoReading": "あっぷ",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "操作スピードをアップしたいので、箱を重ねて、ふらついて台車に足をのせ、ストッパーを付けない"
+    },
+    {
+      "surface": "ふらついて",
+      "count": 1,
+      "master": null,
+      "autoReading": "ふらついて",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "操作スピードをアップしたいので、箱を重ねて、ふらついて台車に足をのせ、ストッパーを付けない"
+    },
+    {
+      "surface": "付",
+      "count": 1,
+      "master": null,
+      "autoReading": "つ",
+      "cohorts": [
+        "cohort_3_unaudited_ujian_14_16"
+      ],
+      "sample": "操作スピードをアップしたいので、箱を重ねて、ふらついて台車に足をのせ、ストッパーを付けない"
+    },
+    {
+      "surface": "引っか掛かって",
+      "count": 1,
+      "master": null,
+      "autoReading": "ひっかかかって",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "ベルトコンベアを止めない清掃をおこなっていたところ、ぞうきんが引っか掛かって手が巻き込まれそうになった。この事故の原因は何ですか。正しいもの"
+    },
+    {
+      "surface": "はずす",
+      "count": 1,
+      "master": null,
+      "autoReading": "はずす",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "作業に邪魔なときは、機械の囲いや安全装置をはずす。"
+    },
+    {
+      "surface": "込まれた",
+      "count": 1,
+      "master": null,
+      "autoReading": "こまれた",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "原材料の受入れなど、作業場の外から持ち込まれた.原材料などを扱う区域です。"
+    },
+    {
+      "surface": "閉めた",
+      "count": 1,
+      "master": null,
+      "autoReading": "しめた",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "窓やドアを閉めたままで、空気を入れ換えないことは何の意味ですか。。ただしものをひとつえらびなさい"
+    },
+    {
+      "surface": "入れ換えない",
+      "count": 1,
+      "master": null,
+      "autoReading": "いれかえない",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "窓やドアを閉めたままで、空気を入れ換えないことは何の意味ですか。。ただしものをひとつえらびなさい"
+    },
+    {
+      "surface": "増えた",
+      "count": 1,
+      "master": null,
+      "autoReading": "ふえた",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "食べた食品についていた細菌が増えた毒素を作り、健康障害を起こすもの"
+    },
+    {
+      "surface": "ローラ",
+      "count": 1,
+      "master": null,
+      "autoReading": "ろーら",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "粘着ローラとエアーシャワーについて正しいものはどれですか。"
+    },
+    {
+      "surface": "込まない",
+      "count": 1,
+      "master": null,
+      "autoReading": "こまない",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "作業場の中に微生物を持ち込まないために"
+    },
+    {
+      "surface": "使い分け",
+      "count": 1,
+      "master": null,
+      "autoReading": "つかいわけ",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "器具の使い分け"
+    },
+    {
+      "surface": "下さ",
+      "count": 1,
+      "master": null,
+      "autoReading": "くださ",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "次の写真を見て下さい。正しいものをひとつ選びなさい"
+    },
+    {
+      "surface": "せいかつ",
+      "count": 1,
+      "master": null,
+      "autoReading": "せいかつ",
+      "cohorts": [
+        "cohort_2_unaudited_19_paket"
+      ],
+      "sample": "作業靴はつねに せいかつに して おきます"
+    },
+    {
+      "surface": "従わなく",
+      "count": 1,
+      "master": null,
+      "autoReading": "したがわなく",
+      "cohorts": [
+        "cohort_4_pilot_otaff51"
+      ],
+      "sample": "作業に慣れてきたら、工場のルールや作業手順書に従わなくても、自分の経験や判断で作業を進めてよい。"
+    },
+    {
+      "surface": "進めて",
+      "count": 1,
+      "master": null,
+      "autoReading": "すすめて",
+      "cohorts": [
+        "cohort_4_pilot_otaff51"
+      ],
+      "sample": "作業に慣れてきたら、工場のルールや作業手順書に従わなくても、自分の経験や判断で作業を進めてよい。"
+    },
+    {
+      "surface": "伸ばした",
+      "count": 1,
+      "master": null,
+      "autoReading": "のばした",
+      "cohorts": [
+        "cohort_4_pilot_otaff51"
+      ],
+      "sample": "重い物を持ち上げるときは、膝を伸ばしたまま体から荷物を離し、不安定な姿勢で素早く持ち上げる。"
+    },
+    {
+      "surface": "伸ばして",
+      "count": 1,
+      "master": null,
+      "autoReading": "のばして",
+      "cohorts": [
+        "cohort_4_pilot_otaff51"
+      ],
+      "sample": "荷物を体に近づけて抱え、腰を下ろした状態から膝を伸ばしてゆっくり立ち上がる。"
+    }
+  ],
+  "cohort1Actions": [
+    {
+      "setId": "ssw-pm-kunci-ujian-1",
+      "contextKey": "kunci1-q005::A",
+      "plain": "髪の毛や鼻を触った後は、3秒待ってから作業する",
+      "existingIds": [
+        "kb-v2-p1-022",
+        "kb-v2-p1-342",
+        "kb-v2-p1-066",
+        "kb-v2-p1-346",
+        "kb-v2-p1-170",
+        "kb-v2-p1-060",
+        "kb-v2-p1-344",
+        "kb-v2-p1-171",
+        "kb-v2-p1-338",
+        "kb-1297540",
+        "kb-v2-p1-147"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci1-q005::A",
+          "surface": "秒",
+          "message": "Unmapped lexical term \"秒\" at index 13 of kunci1-q005::A"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-1",
+      "contextKey": "kunci1-q006",
+      "plain": "「5S活動」とは、一般衛生管理者のための５つの主要な活動のことです。「整理」「整頓」「清潔」「習慣」の他の一つは何ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-337",
+        "kb-ext-0103-e4b880e888",
+        "kb-v2-p1-350",
+        "kb-v2-p1-312",
+        "kb-1326320",
+        "kb-v2-p1-353",
+        "kb-1208360",
+        "kb-v2-p1-291",
+        "kb-v2-p1-304",
+        "kb-1376250",
+        "kb-1376230",
+        "kb-1378200",
+        "kb-1333090",
+        "kb-v2-p1-069",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-344",
+        "kb-v2-p1-263",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci1-q006",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 1 of kunci1-q006"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-1",
+      "contextKey": "kunci1-q007",
+      "plain": "5S活動の中の「整頓」は、どのような活動ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-350",
+        "kb-v2-p1-068",
+        "kb-1376230",
+        "kb-v2-p1-344",
+        "kb-v2-p1-270",
+        "kb-1208360",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci1-q007",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of kunci1-q007"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-1",
+      "contextKey": "kunci1-q012::A",
+      "plain": "45ºC-90 秒間",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci1-q012::A",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 8 of kunci1-q012::A"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-1",
+      "contextKey": "kunci1-q012::B",
+      "plain": "55ºC-70 秒間",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci1-q012::B",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 8 of kunci1-q012::B"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-1",
+      "contextKey": "kunci1-q012::C",
+      "plain": "75ºC-60 秒間",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci1-q012::C",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 8 of kunci1-q012::C"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-2",
+      "contextKey": "kunci-ujian-2-q008",
+      "plain": "5S活動の取り組みについてはどれか、間違っているものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-350",
+        "kb-v2-p2-101",
+        "kb-v2-p1-315",
+        "kb-v2-p1-344",
+        "kb-v2-p2-253",
+        "kb-v2-p1-115",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-2-q008",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of kunci-ujian-2-q008"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-2",
+      "contextKey": "kunci-ujian-2-q033",
+      "plain": "表はソーセージ1セット(6本)の配合例です。この配合に従うと豚ひき肉6㎏からどれだけのソーセージを作れるか？",
+      "existingIds": [
+        "kb-v2-p2-248",
+        "kb-v2-p1-344",
+        "kb-v2-p2-091",
+        "kb-ext-0018-e382bbe383",
+        "kb-v2-p1-350",
+        "kb-ext-1441-e9858de590",
+        "kb-v2-p1-304",
+        "kb-v2-p1-267",
+        "kb-1473070",
+        "kb-v2-p1-347",
+        "kb-v2-p2-009",
+        "kb-v2-p1-349",
+        "kb-v2-p2-053",
+        "kb-v2-p1-338",
+        "kb-v2-p2-255",
+        "kb-v2-p1-346",
+        "kb-v2-p2-213",
+        "kb-v2-p1-343"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-2-q033",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 13 of kunci-ujian-2-q033"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-3",
+      "contextKey": "kunci-ujian-3-q016",
+      "plain": "「5S活動」は製品の安全や品質保持に重要な役割を果たします。では、「5S」のうち、整理・整頓・清掃・習慣に加えてもう1つは何ですか？",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-344",
+        "kb-1380760",
+        "kb-v2-p1-350",
+        "kb-1153930",
+        "kb-v2-p1-342",
+        "kb-ext-1526-e59381e8b3",
+        "kb-v2-p1-347",
+        "kb-1336820",
+        "kb-v2-p1-353",
+        "kb-1538000",
+        "kb-v2-p1-346",
+        "kb-v2-p6-406",
+        "kb-v2-p1-348",
+        "kb-v2-p4-055",
+        "kb-v2-p2-247",
+        "kb-1376250",
+        "kb-1376230",
+        "kb-1378320",
+        "kb-1333090",
+        "kb-v2-p3-268",
+        "kb-v2-p1-351",
+        "kb-v2-p4-200",
+        "kb-v2-p6-074",
+        "kb-v2-p1-310"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-3-q016",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 1 of kunci-ujian-3-q016"
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-3-q016",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 34 of kunci-ujian-3-q016"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-3",
+      "contextKey": "kunci-ujian-3-q030",
+      "plain": "5S活動と労働安全との関係で間違えっている組み合わせはどれですか。間違っているものを選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-349",
+        "kb-ext-1800-e58ab4e583",
+        "kb-v2-p1-350",
+        "kb-1215810",
+        "kb-v2-p1-348",
+        "kb-v2-p5-416",
+        "kb-v2-p3-123",
+        "kb-v2-p1-344",
+        "kb-v2-p1-264",
+        "kb-v2-p1-310",
+        "kb-v2-p1-115",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-3-q030",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of kunci-ujian-3-q030"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-3",
+      "contextKey": "kunci-ujian-3-q032::C",
+      "plain": "台車を使えないときは、二人で持つか1回で運べるようにしましょう。",
+      "existingIds": [
+        "kb-1412630",
+        "kb-v2-p1-346",
+        "kb-v2-p6-385",
+        "kb-v2-p1-307",
+        "kb-v2-p1-344",
+        "kb-1582670",
+        "kb-v2-p1-348",
+        "kb-v2-p1-239",
+        "kb-v2-p1-343",
+        "kb-v2-p6-356",
+        "kb-v2-p1-327",
+        "kb-v2-p3-175",
+        "kb-v2-p5-347",
+        "kb-v2-p5-348",
+        "kb-v2-p4-200"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-3-q032::C",
+          "surface": "回",
+          "message": "Unmapped lexical term \"回\" at index 18 of kunci-ujian-3-q032::C"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-4",
+      "contextKey": "kunci-ujian-4-q032",
+      "plain": "30濃度％のNaC1O溶液があります。100 ppmのNaC1O溶液から3Lを作るのに、溶液と水はどれぐらいの量が必要ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-1469970",
+        "kb-v2-p6-161",
+        "kb-v2-p1-350",
+        "kb-v2-p6-164",
+        "kb-1546100",
+        "kb-v2-p1-345",
+        "kb-v2-p1-135",
+        "kb-v2-p1-338",
+        "kb-v2-p1-346",
+        "kb-v2-p1-151",
+        "kb-v2-p1-347",
+        "kb-v2-p1-349",
+        "kb-v2-p6-016",
+        "kb-v2-p1-344",
+        "kb-v2-p2-254",
+        "kb-v2-p6-116",
+        "kb-1487660",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-4-q032",
+          "surface": "ppm",
+          "message": "Unmapped lexical term \"ppm\" at index 23 of kunci-ujian-4-q032"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-5",
+      "contextKey": "kunci-ujian-5-q006",
+      "plain": "食中毒菌を75℃で1分間加熱すると、どうなりますか？",
+      "existingIds": [
+        "kb-2134080",
+        "kb-v2-p1-346",
+        "kb-v2-p1-348",
+        "kb-v2-p6-045",
+        "kb-1190470",
+        "kb-v2-p1-146",
+        "kb-v2-p1-272"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "kunci-ujian-5-q006",
+          "termId": "kb-v2-p6-045",
+          "message": "Substring collision: \"間\" (kb-v2-p6-045) only appears inside another compound in \"食中毒菌を75℃で1分間加熱すると、どうなりますか？\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-5-q006",
+          "surface": "分間",
+          "message": "Unmapped lexical term \"分間\" at index 10 of kunci-ujian-5-q006"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-5",
+      "contextKey": "kunci-ujian-5-q011",
+      "plain": "「5S活動」とは、一般衛生管理者のための５つの主要な活動のことです。「整理」；「整頓」；「清潔」；「清掃」のほかの一つは何ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-337",
+        "kb-ext-0103-e4b880e888",
+        "kb-v2-p1-350",
+        "kb-v2-p1-312",
+        "kb-1326320",
+        "kb-v2-p1-353",
+        "kb-1208360",
+        "kb-v2-p1-291",
+        "kb-v2-p1-304",
+        "kb-1376250",
+        "kb-v2-p5-190",
+        "kb-1376230",
+        "kb-1378200",
+        "kb-1378320",
+        "kb-v2-p1-287",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-344",
+        "kb-v2-p6-074",
+        "kb-v2-p1-343",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-5-q011",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 1 of kunci-ujian-5-q011"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-7",
+      "contextKey": "kunci-ujian-7-q011",
+      "plain": "5S活動は製品の安全,品質保持につながる一般衛生管理の上で重要な活動です。5Sは「整理」、「整頓」、「清掃」、「習慣」ともう一つは何ですか。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-344",
+        "kb-1380760",
+        "kb-v2-p1-350",
+        "kb-1153930",
+        "kb-ext-1526-e59381e8b3",
+        "kb-v2-p1-347",
+        "kb-v2-p5-225",
+        "kb-v2-p1-353",
+        "kb-v2-p1-345",
+        "kb-v2-p5-424",
+        "kb-ext-0102-e4b880e888",
+        "kb-v2-p6-011",
+        "kb-v2-p1-348",
+        "kb-1336820",
+        "kb-1208360",
+        "kb-v2-p1-304",
+        "kb-v2-p4-055",
+        "kb-1376250",
+        "kb-1376230",
+        "kb-1378320",
+        "kb-1333090",
+        "kb-v2-p1-349",
+        "kb-v2-p1-351",
+        "kb-v2-p4-200",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p6-074",
+        "kb-v2-p1-310"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-7-q011",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of kunci-ujian-7-q011"
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-7-q011",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 37 of kunci-ujian-7-q011"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-7",
+      "contextKey": "kunci-ujian-7-q024",
+      "plain": "5S活動と労働安全との関係で間違っている組み合わせはどれか。一つ選びなさい",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-349",
+        "kb-ext-1800-e58ab4e583",
+        "kb-v2-p1-350",
+        "kb-1215810",
+        "kb-v2-p1-348",
+        "kb-v2-p1-115",
+        "kb-v2-p3-123",
+        "kb-v2-p1-344",
+        "kb-v2-p2-253",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-7-q024",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of kunci-ujian-7-q024"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-7",
+      "contextKey": "kunci-ujian-7-q034",
+      "plain": "下はソーセージ１セット（６本）の配合例です。この配合に従うと豚ひき肉６Kgからどれだけのソーセージを作れるか？豚ひき肉：300g、塩：6g、玉ねぎ：20g",
+      "existingIds": [
+        "kb-v2-p6-120",
+        "kb-v2-p1-344",
+        "kb-v2-p2-091",
+        "kb-ext-0018-e382bbe383",
+        "kb-v2-p1-350",
+        "kb-ext-1441-e9858de590",
+        "kb-v2-p1-304",
+        "kb-v2-p1-267",
+        "kb-1473070",
+        "kb-v2-p1-347",
+        "kb-v2-p2-009",
+        "kb-v2-p1-349",
+        "kb-v2-p2-053",
+        "kb-v2-p6-163",
+        "kb-v2-p1-338",
+        "kb-v2-p2-255",
+        "kb-v2-p1-346",
+        "kb-v2-p2-213",
+        "kb-v2-p1-343",
+        "kb-v2-p6-081",
+        "kb-v2-p2-055"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-7-q034",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 13 of kunci-ujian-7-q034"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-7",
+      "contextKey": "kunci-ujian-7-q034::A",
+      "plain": "20本",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-7-q034::A",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 2 of kunci-ujian-7-q034::A"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-7",
+      "contextKey": "kunci-ujian-7-q034::B",
+      "plain": "120本",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-7-q034::B",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 3 of kunci-ujian-7-q034::B"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-7",
+      "contextKey": "kunci-ujian-7-q034::C",
+      "plain": "180本",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-7-q034::C",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 3 of kunci-ujian-7-q034::C"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-8",
+      "contextKey": "kunci-ujian-8-q006",
+      "plain": "5S活動は製品の安全、品質保持につながる一般衛生管理の上で重要な活動です。「整理」、「整頓」、「清潔」、「習慣」のもう一つは何ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-344",
+        "kb-1380760",
+        "kb-v2-p1-350",
+        "kb-1153930",
+        "kb-ext-1526-e59381e8b3",
+        "kb-v2-p1-347",
+        "kb-v2-p5-225",
+        "kb-v2-p1-353",
+        "kb-v2-p1-345",
+        "kb-v2-p5-424",
+        "kb-ext-0102-e4b880e888",
+        "kb-v2-p6-011",
+        "kb-v2-p1-348",
+        "kb-1336820",
+        "kb-1208360",
+        "kb-v2-p1-304",
+        "kb-1376250",
+        "kb-1376230",
+        "kb-1378200",
+        "kb-1333090",
+        "kb-v2-p1-351",
+        "kb-v2-p4-200",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p6-074",
+        "kb-v2-p3-181",
+        "kb-v2-p1-343",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-8-q006",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of kunci-ujian-8-q006"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-8",
+      "contextKey": "kunci-ujian-8-q033",
+      "plain": "のうど10のNaCLOようえきがあります。200 ppmのNaCLOようえきから１Lをつくるのに、ようえきとみずはどれぐらいのょがひつようですか。ただしいものをひとつえらびなさい。",
+      "existingIds": [
+        "kb-v2-p1-350",
+        "kb-v2-p4-200",
+        "kb-v2-p4-037",
+        "kb-v2-p6-483",
+        "kb-v2-p1-305",
+        "kb-v2-p5-367",
+        "kb-v2-p1-345",
+        "kb-v2-p1-135",
+        "kb-v2-p1-338",
+        "kb-v2-p1-346",
+        "kb-v2-p3-276",
+        "kb-v2-p5-424",
+        "kb-v2-p1-347",
+        "kb-v2-p1-349",
+        "kb-v2-p3-176",
+        "kb-v2-p3-194",
+        "kb-v2-p1-344",
+        "kb-v2-p2-254",
+        "kb-v2-p5-348",
+        "kb-v2-p6-146",
+        "kb-v2-p5-225",
+        "kb-v2-p1-310",
+        "kb-v2-p6-346",
+        "kb-v2-p3-175",
+        "kb-v2-p1-313",
+        "kb-v2-p1-290",
+        "kb-v2-p5-204",
+        "kb-v2-p5-205",
+        "kb-v2-p1-353",
+        "kb-v2-p4-201",
+        "kb-v2-fix-tadashii"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-8-q033",
+          "surface": "ppm",
+          "message": "Unmapped lexical term \"ppm\" at index 25 of kunci-ujian-8-q033"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-11",
+      "contextKey": "kunci-ujian-11-q007",
+      "plain": "5S活動の実践において、間違っているものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-350",
+        "kb-1321260",
+        "kb-v2-p3-338",
+        "kb-v2-p1-115",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-11-q007",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of kunci-ujian-11-q007"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-11",
+      "contextKey": "kunci-ujian-11-q022",
+      "plain": "ある工場で、特定の機械の故障率を調査するために、1日に100回のテストを行います。そのうち5回が故障でした。この故障率をパーセントで表すと何パーセントですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-242",
+        "kb-1578700",
+        "kb-v2-p1-348",
+        "kb-1455210",
+        "kb-v2-p1-350",
+        "kb-1220810",
+        "kb-2630590",
+        "kb-v2-p1-346",
+        "kb-1429120",
+        "kb-v2-p1-147",
+        "kb-v2-p1-328",
+        "kb-v2-p1-347",
+        "kb-v2-p6-206",
+        "kb-v2-p2-026",
+        "kb-v2-p3-291",
+        "kb-v2-p1-268",
+        "kb-v2-p2-247",
+        "kb-v2-p1-345",
+        "kb-1267180",
+        "kb-v2-p1-148",
+        "kb-v2-p1-267",
+        "kb-v2-p6-183",
+        "kb-v2-p6-113",
+        "kb-v2-p3-181",
+        "kb-v2-p1-349",
+        "kb-v2-p6-074",
+        "kb-v2-p6-526",
+        "kb-v2-p5-200",
+        "kb-v2-p6-527",
+        "kb-v2-p6-528",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-11-q022",
+          "surface": "日",
+          "message": "Unmapped lexical term \"日\" at index 25 of kunci-ujian-11-q022"
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-11-q022",
+          "surface": "回",
+          "message": "Unmapped lexical term \"回\" at index 30 of kunci-ujian-11-q022"
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-11-q022",
+          "surface": "回",
+          "message": "Unmapped lexical term \"回\" at index 46 of kunci-ujian-11-q022"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-11",
+      "contextKey": "kunci-ujian-11-q023",
+      "plain": "あるパーティーで、ピザを提供することになっています。ピザ1枚を作るのに、生地を300g、トマトソースを100g、チーズを200g使用します。パーティーで提供するピザが10枚ある場合、生地、トマトソース、チーズを合計で何g使用する必要がありますか？",
+      "existingIds": [
+        "kb-v2-p1-242",
+        "kb-v2-p6-184",
+        "kb-v2-p1-348",
+        "kb-v2-p6-225",
+        "kb-v2-p1-346",
+        "kb-v2-p2-184",
+        "kb-v2-p1-291",
+        "kb-v2-p1-347",
+        "kb-v2-p1-309",
+        "kb-v2-p1-313",
+        "kb-v2-p3-291",
+        "kb-v2-p1-151",
+        "kb-v2-p1-350",
+        "kb-1379330",
+        "kb-v2-p6-226",
+        "kb-v2-p3-056",
+        "kb-v2-p3-057",
+        "kb-1306200",
+        "kb-v2-p2-262",
+        "kb-v2-p1-345",
+        "kb-1355810",
+        "kb-1284740",
+        "kb-v2-p6-074",
+        "kb-v2-p6-162",
+        "kb-v2-p2-208",
+        "kb-1487660",
+        "kb-v2-p1-136"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-11-q023",
+          "surface": "枚",
+          "message": "Unmapped lexical term \"枚\" at index 29 of kunci-ujian-11-q023"
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-11-q023",
+          "surface": "枚",
+          "message": "Unmapped lexical term \"枚\" at index 85 of kunci-ujian-11-q023"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-11",
+      "contextKey": "kunci-ujian-11-q027::B",
+      "plain": "少なくとも20秒間洗う。",
+      "existingIds": [
+        "kb-v2-p6-295",
+        "kb-v2-p6-045",
+        "kb-v2-p1-163"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "kunci-ujian-11-q027::B",
+          "termId": "kb-v2-p6-045",
+          "message": "Substring collision: \"間\" (kb-v2-p6-045) only appears inside another compound in \"少なくとも20秒間洗う。\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-11-q027::B",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 7 of kunci-ujian-11-q027::B"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-12",
+      "contextKey": "kunci-ujian-12-q015::A",
+      "plain": "中心温度を「75°Cで1分間」加熱する",
+      "existingIds": [
+        "kb-ext-1228-e4b8ade5bf",
+        "kb-v2-p1-346",
+        "kb-v2-p1-348",
+        "kb-v2-p6-045",
+        "kb-1190470",
+        "kb-v2-p1-147"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "kunci-ujian-12-q015::A",
+          "termId": "kb-v2-p6-045",
+          "message": "Substring collision: \"間\" (kb-v2-p6-045) only appears inside another compound in \"中心温度を「75°Cで1分間」加熱する\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-12-q015::A",
+          "surface": "分間",
+          "message": "Unmapped lexical term \"分間\" at index 12 of kunci-ujian-12-q015::A"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-12",
+      "contextKey": "kunci-ujian-12-q018::C",
+      "plain": "75°Cで1分間以上加熱すること",
+      "existingIds": [
+        "kb-v2-p1-348",
+        "kb-v2-p6-045",
+        "kb-1155120",
+        "kb-1190470",
+        "kb-v2-p1-147",
+        "kb-v2-p1-291"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "kunci-ujian-12-q018::C",
+          "termId": "kb-v2-p6-045",
+          "message": "Substring collision: \"間\" (kb-v2-p6-045) only appears inside another compound in \"75°Cで1分間以上加熱すること\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-12-q018::C",
+          "surface": "分間",
+          "message": "Unmapped lexical term \"分間\" at index 6 of kunci-ujian-12-q018::C"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-13",
+      "contextKey": "kunci-ujian-13-q011",
+      "plain": "「5S 活動」とは、一般衛生管理者のための５つの主要な活動のことです。「整理」「整頓」「清潔」「清掃」のほかの一つは何ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p4-055",
+        "kb-1208360",
+        "kb-v2-p1-337",
+        "kb-ext-0103-e4b880e888",
+        "kb-v2-p1-350",
+        "kb-v2-p1-312",
+        "kb-1326320",
+        "kb-v2-p1-353",
+        "kb-v2-p1-291",
+        "kb-v2-p1-304",
+        "kb-1376250",
+        "kb-1376230",
+        "kb-1378200",
+        "kb-1378320",
+        "kb-v2-p1-287",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-344",
+        "kb-v2-p6-074",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-v2-p5-208",
+        "kb-v2-p4-201",
+        "kb-v2-p1-313"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-13-q011",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 1 of kunci-ujian-13-q011"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-13",
+      "contextKey": "kunci-ujian-13-q015",
+      "plain": "5S活動の中の「整頓」は、どのような活動ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-350",
+        "kb-v2-p6-012",
+        "kb-1376230",
+        "kb-v2-p1-344",
+        "kb-v2-p1-270",
+        "kb-1208360",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p5-208",
+        "kb-v2-p1-353",
+        "kb-v2-p4-201",
+        "kb-v2-p1-313"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "kunci-ujian-13-q015",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of kunci-ujian-13-q015"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-13",
+      "contextKey": "kunci-ujian-13-q018",
+      "plain": "作業場に入る時に、粘着ローラーを使っています。何のために粘着ローラーを使いますか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-ext-0639-e4bd9ce6a5",
+        "kb-v2-p1-347",
+        "kb-v2-p1-189",
+        "kb-v2-p6-044",
+        "kb-v2-p1-009",
+        "kb-v2-p1-346",
+        "kb-v2-p1-116",
+        "kb-v2-p6-074",
+        "kb-v2-p1-350",
+        "kb-v2-p1-328",
+        "kb-v2-p4-068",
+        "kb-v2-p5-200",
+        "kb-v2-p1-117",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "kunci-ujian-13-q018",
+          "termId": "kb-v2-p4-068",
+          "message": "Substring collision: \"粘着ローラ\" (kb-v2-p4-068) only appears inside another compound in \"作業場に入る時に、粘着ローラーを使っています。何のために粘着ローラーを使いますか。正しいものを一つ選びなさい。\""
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-tipe2-nguyen1",
+      "contextKey": "q015::A",
+      "plain": "中心温度85℃ー90℃、90秒以内",
+      "existingIds": [
+        "kb-ext-1228-e4b8ade5bf",
+        "kb-v2-p4-126"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "q015::A",
+          "surface": "秒",
+          "message": "Unmapped lexical term \"秒\" at index 14 of q015::A"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-tipe2-nguyen1",
+      "contextKey": "q015::B",
+      "plain": "中心温度85℃ー90℃、90秒以上",
+      "existingIds": [
+        "kb-ext-1228-e4b8ade5bf",
+        "kb-1155120"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "q015::B",
+          "surface": "秒",
+          "message": "Unmapped lexical term \"秒\" at index 14 of q015::B"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-tipe2-nguyen1",
+      "contextKey": "q015::C",
+      "plain": "表面温度85℃ー90℃、90秒以上",
+      "existingIds": [
+        "kb-1489880",
+        "kb-1183510",
+        "kb-1155120"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "q015::C",
+          "surface": "秒",
+          "message": "Unmapped lexical term \"秒\" at index 14 of q015::C"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-tipe2-nguyen1",
+      "contextKey": "q016::A",
+      "plain": "5S",
+      "existingIds": [
+        "kb-v2-p4-055"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "q016::A",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of q016::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-1",
+      "contextKey": "bonus-soal-1-q004",
+      "plain": "冷凍の原材料の方法について間違っているものを一選びない。",
+      "existingIds": [
+        "kb-1557170",
+        "kb-v2-p1-350",
+        "kb-1261430",
+        "kb-1517090",
+        "kb-v2-p1-315",
+        "kb-v2-p1-115",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p5-207"
+      ],
+      "errs": [
+        {
+          "code": "SURFACE_NOT_IN_CONTEXT",
+          "contextKey": "bonus-soal-1-q004",
+          "termId": "kb-ext-0088-e4b880e381",
+          "message": "Mapped term \"一つ\" (kb-ext-0088-e4b880e381) not found in context text"
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-1-q004",
+          "surface": "一",
+          "message": "Unmapped lexical term \"一\" at index 22 of bonus-soal-1-q004"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-1",
+      "contextKey": "bonus-soal-1-q006",
+      "plain": "「5S活動」とは、一般衛生管理のための５つの主要な活動のことです。「整理」「整頓」「清潔」「習慣」の他の一つは何ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-337",
+        "kb-ext-0102-e4b880e888",
+        "kb-v2-p1-350",
+        "kb-v2-p1-312",
+        "kb-1326320",
+        "kb-v2-p1-353",
+        "kb-1208360",
+        "kb-v2-p1-291",
+        "kb-v2-p1-304",
+        "kb-1376250",
+        "kb-1376230",
+        "kb-1378200",
+        "kb-1333090",
+        "kb-v2-p5-042",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-344",
+        "kb-v2-p5-075",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-1-q006",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 1 of bonus-soal-1-q006"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-1",
+      "contextKey": "bonus-soal-1-q007",
+      "plain": "5S活動の中の「整頓」は、どのような活動ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-350",
+        "kb-v2-p5-012",
+        "kb-1376230",
+        "kb-v2-p1-344",
+        "kb-v2-p1-270",
+        "kb-1208360",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-1-q007",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of bonus-soal-1-q007"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-1",
+      "contextKey": "bonus-soal-1-q012::A",
+      "plain": "45℃、90秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-1-q012::A",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"45℃、90秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-1-q012::A",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 6 of bonus-soal-1-q012::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-1",
+      "contextKey": "bonus-soal-1-q012::B",
+      "plain": "55℃、70秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-1-q012::B",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"55℃、70秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-1-q012::B",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 6 of bonus-soal-1-q012::B"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-1",
+      "contextKey": "bonus-soal-1-q012::C",
+      "plain": "75℃、60秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-1-q012::C",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"75℃、60秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-1-q012::C",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 6 of bonus-soal-1-q012::C"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-1",
+      "contextKey": "bonus-soal-1-q020",
+      "plain": "飲食料品製造業特定技能１号の在留資格者が働く業種は色々があります。業種で必要なものは何ですか。間違っているものを一つ選びなさい。",
+      "existingIds": [
+        "kb-ext-0115-e9a3b2e9a3",
+        "kb-v2-p1-350",
+        "kb-ext-0617-e59ca8e795",
+        "kb-v2-p1-345",
+        "kb-v2-p1-181",
+        "kb-1239450",
+        "kb-v2-p1-344",
+        "kb-1587850",
+        "kb-v2-p1-135",
+        "kb-v2-p1-348",
+        "kb-1487660",
+        "kb-v2-p1-353",
+        "kb-v2-p1-290",
+        "kb-v2-p5-075",
+        "kb-v2-p1-310",
+        "kb-v2-p1-115",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-1-q020",
+          "surface": "号",
+          "message": "Unmapped lexical term \"号\" at index 12 of bonus-soal-1-q020"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-2",
+      "contextKey": "bonus-soal-2-q033",
+      "plain": "表はソーセージ1セット(6本)の配合例です。この配合に従うと豚ひき肉6㎏からどれだけのソーセージを作れるか？",
+      "existingIds": [
+        "kb-v2-p5-166",
+        "kb-v2-p1-344",
+        "kb-v2-p2-091",
+        "kb-ext-0018-e382bbe383",
+        "kb-v2-p1-350",
+        "kb-ext-1441-e9858de590",
+        "kb-v2-p1-304",
+        "kb-v2-p1-267",
+        "kb-1473070",
+        "kb-v2-p1-347",
+        "kb-v2-p2-009",
+        "kb-v2-p1-349",
+        "kb-v2-p2-053",
+        "kb-v2-p1-338",
+        "kb-v2-p2-255",
+        "kb-v2-p1-346",
+        "kb-v2-p2-213",
+        "kb-v2-p1-343"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-2-q033",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 13 of bonus-soal-2-q033"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-2",
+      "contextKey": "bonus-soal-2-q033::A",
+      "plain": "20本",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-2-q033::A",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 2 of bonus-soal-2-q033::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-2",
+      "contextKey": "bonus-soal-2-q033::B",
+      "plain": "1 20本",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-2-q033::B",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 4 of bonus-soal-2-q033::B"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-2",
+      "contextKey": "bonus-soal-2-q033::C",
+      "plain": "1 80本",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-2-q033::C",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 4 of bonus-soal-2-q033::C"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-4",
+      "contextKey": "bonus-soal-4-q007",
+      "plain": "5S活動の中の「整理」の意味で正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-350",
+        "kb-v2-p5-012",
+        "kb-1376250",
+        "kb-1156800",
+        "kb-v2-p1-348",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-4-q007",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of bonus-soal-4-q007"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-4",
+      "contextKey": "bonus-soal-4-q020::A",
+      "plain": "経験が3年未満の作業者で、経験が少なくて作業に慣れていない人です。",
+      "existingIds": [
+        "kb-1251270",
+        "kb-v2-p1-345",
+        "kb-v2-p5-371",
+        "kb-v2-p1-350",
+        "kb-2451180",
+        "kb-v2-p1-348",
+        "kb-v2-p5-372",
+        "kb-1297540",
+        "kb-v2-p1-347",
+        "kb-v2-p1-131",
+        "kb-v2-p5-013",
+        "kb-v2-p1-304"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-4-q020::A",
+          "surface": "年",
+          "message": "Unmapped lexical term \"年\" at index 4 of bonus-soal-4-q020::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-4",
+      "contextKey": "bonus-soal-4-q022",
+      "plain": "5S活動で正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-348",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-4-q022",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of bonus-soal-4-q022"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-4",
+      "contextKey": "bonus-soal-4-q025",
+      "plain": "労働災害を無くすために守るべき大切なことは「5S」、「正しい服装」、「作業手順書とルールを守る」もう一つはなんですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-1560430",
+        "kb-v2-p1-346",
+        "kb-v2-p5-293",
+        "kb-v2-p1-328",
+        "kb-v2-p1-176",
+        "kb-v2-p3-283",
+        "kb-1414340",
+        "kb-v2-p1-353",
+        "kb-v2-p1-291",
+        "kb-v2-p1-344",
+        "kb-v2-p4-055",
+        "kb-v2-p1-245",
+        "kb-1500970",
+        "kb-ext-0637-e4bd9ce6a5",
+        "kb-v2-p1-349",
+        "kb-v2-p3-022",
+        "kb-v2-p1-351",
+        "kb-v2-p4-200",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p2-076",
+        "kb-v2-p4-228",
+        "kb-v2-p1-310",
+        "kb-v2-p1-290",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-4-q025",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 22 of bonus-soal-4-q025"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-4",
+      "contextKey": "bonus-soal-4-q032",
+      "plain": "濃度30%のNaClO溶液があります。100 ppmのNaClO溶液から3Lを作るのに、溶液と水はどれぐらいの量が必要ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-1469970",
+        "kb-v2-p1-350",
+        "kb-v2-p1-019",
+        "kb-1546100",
+        "kb-v2-p1-345",
+        "kb-v2-p1-135",
+        "kb-v2-p1-338",
+        "kb-v2-p1-346",
+        "kb-v2-p1-151",
+        "kb-v2-p1-347",
+        "kb-v2-p1-349",
+        "kb-v2-p5-016",
+        "kb-v2-p1-344",
+        "kb-v2-p2-254",
+        "kb-v2-p5-169",
+        "kb-1487660",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-4-q032",
+          "surface": "ppm",
+          "message": "Unmapped lexical term \"ppm\" at index 23 of bonus-soal-4-q032"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-5",
+      "contextKey": "bonus-soal-5-q006::A",
+      "plain": "45℃、90秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-5-q006::A",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"45℃、90秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-5-q006::A",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 6 of bonus-soal-5-q006::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-5",
+      "contextKey": "bonus-soal-5-q006::B",
+      "plain": "55℃、70秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-5-q006::B",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"55℃、70秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-5-q006::B",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 6 of bonus-soal-5-q006::B"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-5",
+      "contextKey": "bonus-soal-5-q006::C",
+      "plain": "75℃、60秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-5-q006::C",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"75℃、60秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-5-q006::C",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 6 of bonus-soal-5-q006::C"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-5",
+      "contextKey": "bonus-soal-5-q011",
+      "plain": "「5S活動」とは、一般衛生管理者のための５つの主要な活動のことです。「整理」；「整頓」；「清潔」；「清掃」のほかの一つは何ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-337",
+        "kb-ext-0103-e4b880e888",
+        "kb-v2-p1-350",
+        "kb-v2-p1-312",
+        "kb-1326320",
+        "kb-v2-p1-353",
+        "kb-1208360",
+        "kb-v2-p1-291",
+        "kb-v2-p1-304",
+        "kb-1376250",
+        "kb-v2-p5-190",
+        "kb-1376230",
+        "kb-1378200",
+        "kb-1378320",
+        "kb-v2-p1-287",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-344",
+        "kb-v2-p5-075",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-5-q011",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 1 of bonus-soal-5-q011"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-5",
+      "contextKey": "bonus-soal-5-q015",
+      "plain": "5S活動の中の整頓は、どのような活動ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-350",
+        "kb-v2-p5-012",
+        "kb-1376230",
+        "kb-v2-p1-344",
+        "kb-v2-p1-270",
+        "kb-1208360",
+        "kb-v2-p1-304",
+        "kb-v2-p1-343",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-5-q015",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of bonus-soal-5-q015"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-5",
+      "contextKey": "bonus-soal-5-q032::A",
+      "plain": "溶液1 ml、水999ml",
+      "existingIds": [
+        "kb-1546100",
+        "kb-v2-p5-016"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-5-q032::A",
+          "surface": "ml",
+          "message": "Unmapped lexical term \"ml\" at index 4 of bonus-soal-5-q032::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-6",
+      "contextKey": "bonus-soal-6-q029::A",
+      "plain": "85℃から 90℃で 90 秒以上",
+      "existingIds": [
+        "kb-v2-p1-338",
+        "kb-v2-p1-348",
+        "kb-1155120"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-6-q029::A",
+          "surface": "秒",
+          "message": "Unmapped lexical term \"秒\" at index 14 of bonus-soal-6-q029::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-6",
+      "contextKey": "bonus-soal-6-q029::B",
+      "plain": "中 心温 度120℃ ４分以上",
+      "existingIds": [
+        "kb-v2-p5-012",
+        "kb-v2-p5-177",
+        "kb-v2-p5-176",
+        "kb-1155120"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-6-q029::B",
+          "surface": "分",
+          "message": "Unmapped lexical term \"分\" at index 12 of bonus-soal-6-q029::B"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-6",
+      "contextKey": "bonus-soal-6-q029::C",
+      "plain": "中心温度75℃ １分以上",
+      "existingIds": [
+        "kb-ext-1228-e4b8ade5bf",
+        "kb-1155120"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-6-q029::C",
+          "surface": "分",
+          "message": "Unmapped lexical term \"分\" at index 9 of bonus-soal-6-q029::C"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-6",
+      "contextKey": "bonus-soal-6-q030::A",
+      "plain": "200ppm で 5分間以内",
+      "existingIds": [
+        "kb-v2-p1-348",
+        "kb-v2-p5-046",
+        "kb-v2-p4-126"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-6-q030::A",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"200ppm で 5分間以内\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-6-q030::A",
+          "surface": "分間",
+          "message": "Unmapped lexical term \"分間\" at index 10 of bonus-soal-6-q030::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-6",
+      "contextKey": "bonus-soal-6-q030::B",
+      "plain": "100ppm で 10分間",
+      "existingIds": [
+        "kb-v2-p1-348",
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-6-q030::B",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"100ppm で 10分間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-6-q030::B",
+          "surface": "分間",
+          "message": "Unmapped lexical term \"分間\" at index 11 of bonus-soal-6-q030::B"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-6",
+      "contextKey": "bonus-soal-6-q030::C",
+      "plain": "100ppm で 8分",
+      "existingIds": [
+        "kb-v2-p1-348"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-6-q030::C",
+          "surface": "分",
+          "message": "Unmapped lexical term \"分\" at index 10 of bonus-soal-6-q030::C"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-7",
+      "contextKey": "bonus-soal-7-q006",
+      "plain": "「5S活動」とは、一般衛生管理のための5つの主要な活動のことです。「整理」「整頓」「清潔」「習慣」の他の一つは何ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-337",
+        "kb-ext-0102-e4b880e888",
+        "kb-v2-p1-350",
+        "kb-v2-p1-312",
+        "kb-1326320",
+        "kb-v2-p1-353",
+        "kb-1208360",
+        "kb-v2-p1-291",
+        "kb-v2-p1-304",
+        "kb-1376250",
+        "kb-1376230",
+        "kb-1378200",
+        "kb-1333090",
+        "kb-v2-p5-042",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-344",
+        "kb-v2-p5-075",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-7-q006",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 1 of bonus-soal-7-q006"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-7",
+      "contextKey": "bonus-soal-7-q007",
+      "plain": "5S活動の中の「整理」の意味で正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-350",
+        "kb-v2-p5-012",
+        "kb-1376250",
+        "kb-1156800",
+        "kb-v2-p1-348",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-7-q007",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of bonus-soal-7-q007"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-7",
+      "contextKey": "bonus-soal-7-q020",
+      "plain": "飲食料品製造業特定技能1号の在留資格者が働く業種は色々があります。業種で必要なものは何ですか。間違っているものを一つ選びなさい。",
+      "existingIds": [
+        "kb-ext-0115-e9a3b2e9a3",
+        "kb-v2-p1-350",
+        "kb-ext-0617-e59ca8e795",
+        "kb-v2-p1-345",
+        "kb-v2-p1-181",
+        "kb-1239450",
+        "kb-v2-p1-344",
+        "kb-1587850",
+        "kb-v2-p1-135",
+        "kb-v2-p1-348",
+        "kb-1487660",
+        "kb-v2-p1-353",
+        "kb-v2-p1-290",
+        "kb-v2-p5-075",
+        "kb-v2-p1-310",
+        "kb-v2-p1-115",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-7-q020",
+          "surface": "号",
+          "message": "Unmapped lexical term \"号\" at index 12 of bonus-soal-7-q020"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-7",
+      "contextKey": "bonus-soal-7-q021::A",
+      "plain": "経験が3年未満の作業者で、経験が少なくて作業に慣れていない人です。",
+      "existingIds": [
+        "kb-1251270",
+        "kb-v2-p1-345",
+        "kb-v2-p5-371",
+        "kb-v2-p1-350",
+        "kb-2451180",
+        "kb-v2-p1-348",
+        "kb-v2-p5-372",
+        "kb-1297540",
+        "kb-v2-p1-347",
+        "kb-v2-p1-131",
+        "kb-v2-p5-013",
+        "kb-v2-p1-304"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-7-q021::A",
+          "surface": "年",
+          "message": "Unmapped lexical term \"年\" at index 4 of bonus-soal-7-q021::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-7",
+      "contextKey": "bonus-soal-7-q023",
+      "plain": "5S活動で正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-348",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-7-q023",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of bonus-soal-7-q023"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-7",
+      "contextKey": "bonus-soal-7-q026",
+      "plain": "労働災害を無くすために守るべき大切なことは「5S」、「正しい服装」、「作業手順書とルールを守る」もう一つはなんですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-1560430",
+        "kb-v2-p1-346",
+        "kb-v2-p5-293",
+        "kb-v2-p1-328",
+        "kb-v2-p1-176",
+        "kb-v2-p3-283",
+        "kb-1414340",
+        "kb-v2-p1-353",
+        "kb-v2-p1-291",
+        "kb-v2-p1-344",
+        "kb-v2-p4-055",
+        "kb-v2-p1-245",
+        "kb-1500970",
+        "kb-ext-0637-e4bd9ce6a5",
+        "kb-v2-p1-349",
+        "kb-v2-p3-022",
+        "kb-v2-p1-351",
+        "kb-v2-p4-200",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p2-076",
+        "kb-v2-p4-228",
+        "kb-v2-p1-310",
+        "kb-v2-p1-290",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-7-q026",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 22 of bonus-soal-7-q026"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-7",
+      "contextKey": "bonus-soal-7-q033",
+      "plain": "濃度30%のNaClO溶液があります。100 ppm のNaClO溶液から3Lを作るのに、溶液と水はどれぐらいの量が必要ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-1469970",
+        "kb-v2-p1-350",
+        "kb-v2-p1-019",
+        "kb-1546100",
+        "kb-v2-p1-345",
+        "kb-v2-p1-135",
+        "kb-v2-p1-338",
+        "kb-v2-p1-346",
+        "kb-v2-p1-151",
+        "kb-v2-p1-347",
+        "kb-v2-p1-349",
+        "kb-v2-p5-016",
+        "kb-v2-p1-344",
+        "kb-v2-p2-254",
+        "kb-v2-p5-169",
+        "kb-1487660",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-7-q033",
+          "surface": "ppm",
+          "message": "Unmapped lexical term \"ppm\" at index 23 of bonus-soal-7-q033"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-8",
+      "contextKey": "bonus-soal-8-q007",
+      "plain": "5S活動の中の「整頓」は、どのような活動ですか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p1-016",
+        "kb-v2-p1-350",
+        "kb-v2-p5-012",
+        "kb-1376230",
+        "kb-v2-p1-344",
+        "kb-v2-p1-270",
+        "kb-1208360",
+        "kb-v2-p1-310",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-8-q007",
+          "surface": "5S",
+          "message": "Unmapped lexical term \"5S\" at index 0 of bonus-soal-8-q007"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-8",
+      "contextKey": "bonus-soal-8-q012::A",
+      "plain": "45℃、90秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-8-q012::A",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"45℃、90秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-8-q012::A",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 6 of bonus-soal-8-q012::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-8",
+      "contextKey": "bonus-soal-8-q012::B",
+      "plain": "55℃、70秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-8-q012::B",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"55℃、70秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-8-q012::B",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 6 of bonus-soal-8-q012::B"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-8",
+      "contextKey": "bonus-soal-8-q012::C",
+      "plain": "75℃、60秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-8-q012::C",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"75℃、60秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-8-q012::C",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 6 of bonus-soal-8-q012::C"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-8",
+      "contextKey": "bonus-soal-8-q032",
+      "plain": "表はソーセージ1セット(6本)の配合例です。この配合に従うと豚ひき肉6kgからどれだけのソーセージを作れるか？",
+      "existingIds": [
+        "kb-v2-p5-166",
+        "kb-v2-p1-344",
+        "kb-v2-p2-091",
+        "kb-ext-0018-e382bbe383",
+        "kb-v2-p1-350",
+        "kb-ext-1441-e9858de590",
+        "kb-v2-p1-304",
+        "kb-v2-p1-267",
+        "kb-1473070",
+        "kb-v2-p1-347",
+        "kb-v2-p2-009",
+        "kb-v2-p1-349",
+        "kb-v2-p2-053",
+        "kb-v2-p1-338",
+        "kb-v2-p2-255",
+        "kb-v2-p1-346",
+        "kb-v2-p2-213",
+        "kb-v2-p1-343"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-8-q032",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 13 of bonus-soal-8-q032"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-8",
+      "contextKey": "bonus-soal-8-q032::A",
+      "plain": "20本",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-8-q032::A",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 2 of bonus-soal-8-q032::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-8",
+      "contextKey": "bonus-soal-8-q032::B",
+      "plain": "120本",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-8-q032::B",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 3 of bonus-soal-8-q032::B"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-8",
+      "contextKey": "bonus-soal-8-q032::C",
+      "plain": "180本",
+      "existingIds": [],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-8-q032::C",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 3 of bonus-soal-8-q032::C"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-9",
+      "contextKey": "bonus-soal-9-q001",
+      "plain": "飲食料品製造業特定技能１号の在留資格者が働く業種は色々があります。業種で必要なものは何ですか。間違っているものを一つ選びなさい。",
+      "existingIds": [
+        "kb-ext-0115-e9a3b2e9a3",
+        "kb-v2-p1-350",
+        "kb-ext-0617-e59ca8e795",
+        "kb-v2-p1-345",
+        "kb-v2-p1-181",
+        "kb-1239450",
+        "kb-v2-p1-344",
+        "kb-1587850",
+        "kb-v2-p1-135",
+        "kb-v2-p1-348",
+        "kb-1487660",
+        "kb-v2-p1-353",
+        "kb-v2-p1-290",
+        "kb-v2-p5-075",
+        "kb-v2-p1-310",
+        "kb-v2-p1-115",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-9-q001",
+          "surface": "号",
+          "message": "Unmapped lexical term \"号\" at index 12 of bonus-soal-9-q001"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-9",
+      "contextKey": "bonus-soal-9-q028",
+      "plain": "食品では、一般衛生管理だけでなく、危害要因が含まれないようにするための特みが必要です。危害要因分析、重要管理点（ＣＣＰ）と管理基準を決める、もう一つはか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-1358600",
+        "kb-v2-p1-348",
+        "kb-v2-p1-344",
+        "kb-ext-0102-e4b880e888",
+        "kb-v2-p1-326",
+        "kb-v2-p1-353",
+        "kb-v2-p3-179",
+        "kb-ext-0314-e58db1e5ae",
+        "kb-v2-p1-345",
+        "kb-v2-p3-250",
+        "kb-v2-p2-260",
+        "kb-v2-p2-273",
+        "kb-v2-p1-350",
+        "kb-v2-p5-337",
+        "kb-1487660",
+        "kb-v2-p1-304",
+        "kb-ext-0315-e58db1e5ae",
+        "kb-ext-0834-e9878de8a6",
+        "kb-v2-p2-020",
+        "kb-v2-p1-349",
+        "kb-ext-0292-e7aea1e790",
+        "kb-v2-p1-346",
+        "kb-v2-p3-282",
+        "kb-v2-p1-351",
+        "kb-v2-p4-200",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-343",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "SURFACE_NOT_IN_CONTEXT",
+          "contextKey": "bonus-soal-9-q028",
+          "termId": "kb-v2-p2-020",
+          "message": "Mapped term \"CCP\" (kb-v2-p2-020) not found in context text"
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-9-q028",
+          "surface": "ＣＣＰ",
+          "message": "Unmapped lexical term \"ＣＣＰ\" at index 56 of bonus-soal-9-q028"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-10",
+      "contextKey": "bonus-soal-10-q007::A",
+      "plain": "45℃、90 秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-10-q007::A",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"45℃、90 秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-10-q007::A",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 7 of bonus-soal-10-q007::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-10",
+      "contextKey": "bonus-soal-10-q007::B",
+      "plain": "55℃、70 秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-10-q007::B",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"55℃、70 秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-10-q007::B",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 7 of bonus-soal-10-q007::B"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-10",
+      "contextKey": "bonus-soal-10-q007::C",
+      "plain": "75℃、60 秒間",
+      "existingIds": [
+        "kb-v2-p5-046"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-10-q007::C",
+          "termId": "kb-v2-p5-046",
+          "message": "Substring collision: \"間\" (kb-v2-p5-046) only appears inside another compound in \"75℃、60 秒間\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-10-q007::C",
+          "surface": "秒間",
+          "message": "Unmapped lexical term \"秒間\" at index 7 of bonus-soal-10-q007::C"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-10",
+      "contextKey": "bonus-soal-10-q017",
+      "plain": "作業場に入る時に、 粘着ローラーを使っています。何のために 粘着ローラーを使いますか。正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-ext-0639-e4bd9ce6a5",
+        "kb-v2-p1-347",
+        "kb-v2-p1-189",
+        "kb-v2-p5-045",
+        "kb-v2-p1-009",
+        "kb-v2-p1-346",
+        "kb-v2-p1-116",
+        "kb-v2-p5-075",
+        "kb-v2-p1-350",
+        "kb-v2-p1-328",
+        "kb-v2-p4-068",
+        "kb-v2-p5-200",
+        "kb-v2-p1-117",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-10-q017",
+          "termId": "kb-v2-p4-068",
+          "message": "Substring collision: \"粘着ローラ\" (kb-v2-p4-068) only appears inside another compound in \"作業場に入る時に、 粘着ローラーを使っています。何のために 粘着ローラーを使いますか。正しいものを一つ選びなさい。\""
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-10",
+      "contextKey": "bonus-soal-10-q019::A",
+      "plain": "髪の毛や鼻を触った後は、3秒待ってから作業する。",
+      "existingIds": [
+        "kb-v2-p1-022",
+        "kb-v2-p1-342",
+        "kb-v2-p5-015",
+        "kb-v2-p1-346",
+        "kb-v2-p1-170",
+        "kb-v2-p5-010",
+        "kb-v2-p1-344",
+        "kb-v2-p1-171",
+        "kb-v2-p1-338",
+        "kb-1297540",
+        "kb-v2-p1-147"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "bonus-soal-10-q019::A",
+          "surface": "秒",
+          "message": "Unmapped lexical term \"秒\" at index 13 of bonus-soal-10-q019::A"
+        }
+      ]
+    },
+    {
+      "setId": "bonus-soal-10",
+      "contextKey": "bonus-soal-10-q035",
+      "plain": "弁当の盛り付け作業後、歩いて移動しようとしたところ、濡れた床で滑って転倒しそうになった。転倒しそうになった原因は何ですか。",
+      "existingIds": [
+        "kb-1513060",
+        "kb-v2-p1-350",
+        "kb-v2-p5-122",
+        "kb-ext-0630-e4bd9ce6a5",
+        "kb-v2-p5-239",
+        "kb-1158400",
+        "kb-v2-p3-175",
+        "kb-v2-p1-305",
+        "kb-v2-p1-319",
+        "kb-v2-p1-292",
+        "kb-v2-p2-112",
+        "kb-v2-p5-026",
+        "kb-v2-p1-348",
+        "kb-v2-p1-230",
+        "kb-1619700",
+        "kb-v2-p5-342",
+        "kb-v2-p4-200",
+        "kb-v2-p1-347",
+        "kb-v2-p1-240",
+        "kb-v2-p2-124",
+        "kb-1261190",
+        "kb-v2-p1-344",
+        "kb-v2-p5-075",
+        "kb-v2-p1-310"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "bonus-soal-10-q035",
+          "termId": "kb-1619700",
+          "message": "Substring collision: \"転倒\" (kb-1619700) only appears inside another compound in \"弁当の盛り付け作業後、歩いて移動しようとしたところ、濡れた床で滑って転倒しそうになった。転倒しそうになった原因は何ですか\""
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "contextKey": "lab-bac-004::C",
+      "plain": "腸管出血性大腸菌（O157、O111など）",
+      "existingIds": [
+        "kb-2126920",
+        "kb-v2-p3-002",
+        "kb-v2-p1-336"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-004::C",
+          "surface": "O157",
+          "message": "Unmapped lexical term \"O157\" at index 9 of lab-bac-004::C"
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-004::C",
+          "surface": "O111",
+          "message": "Unmapped lexical term \"O111\" at index 14 of lab-bac-004::C"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "contextKey": "lab-bac-005",
+      "plain": "腸管出血性大腸菌（O157など）に感染した際に見られる特徴的な症状として、最も適切なものを一つ選びなさい。",
+      "existingIds": [
+        "kb-2126920",
+        "kb-v2-p3-002",
+        "kb-v2-p1-336",
+        "kb-v2-p1-347",
+        "kb-1212470",
+        "kb-v2-p1-148",
+        "kb-v2-p3-335",
+        "kb-v2-p3-253",
+        "kb-2123700",
+        "kb-v2-p1-353",
+        "kb-1351030",
+        "kb-v2-p1-321",
+        "kb-v2-p1-261",
+        "kb-1437430",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-005",
+          "surface": "O157",
+          "message": "Unmapped lexical term \"O157\" at index 9 of lab-bac-005"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "contextKey": "lab-bac-005::C",
+      "plain": "潜伏期間30分での激しいおう吐",
+      "existingIds": [
+        "kb-2842881",
+        "kb-v2-p1-348",
+        "kb-v2-p1-350",
+        "kb-v2-p2-228",
+        "kb-1565520"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-005::C",
+          "surface": "分",
+          "message": "Unmapped lexical term \"分\" at index 6 of lab-bac-005::C"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "contextKey": "lab-bac-006",
+      "plain": "O157やO111などが代表例として分類される食中毒菌の名称として、正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-v2-p3-002",
+        "kb-v2-p1-342",
+        "kb-v2-p1-336",
+        "kb-v2-p1-345",
+        "kb-1412240",
+        "kb-v2-p1-321",
+        "kb-1504460",
+        "kb-v2-p3-230",
+        "kb-2134080",
+        "kb-v2-p1-350",
+        "kb-1531620",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-006",
+          "surface": "O157",
+          "message": "Unmapped lexical term \"O157\" at index 0 of lab-bac-006"
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-006",
+          "surface": "O111",
+          "message": "Unmapped lexical term \"O111\" at index 5 of lab-bac-006"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "contextKey": "lab-bac-010::A",
+      "plain": "潜伏期間が1〜5時間と短く、激しい吐き気、おう吐、腹痛が起こる。",
+      "existingIds": [
+        "kb-2842881",
+        "kb-v2-p1-345",
+        "kb-v2-p1-349",
+        "kb-v2-p2-232",
+        "kb-v2-p2-228",
+        "kb-v2-p3-221",
+        "kb-1565520",
+        "kb-1501230",
+        "kb-v2-p3-244"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-010::A",
+          "surface": "時間",
+          "message": "Unmapped lexical term \"時間\" at index 8 of lab-bac-010::A"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "contextKey": "lab-bac-010::B",
+      "plain": "潜伏期間が2〜7日と長く、高熱と血便が続く。",
+      "existingIds": [
+        "kb-2842881",
+        "kb-v2-p1-345",
+        "kb-v2-p1-349",
+        "kb-v2-p2-231",
+        "kb-1283880",
+        "kb-1669930",
+        "kb-v2-p3-256"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-010::B",
+          "surface": "日",
+          "message": "Unmapped lexical term \"日\" at index 8 of lab-bac-010::B"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "contextKey": "lab-bac-016::B",
+      "plain": "食品中で菌が増殖することなく、1個の菌が血液中に直接侵入する。",
+      "existingIds": [
+        "kb-ext-0943-e9a39fe593",
+        "kb-v2-p1-348",
+        "kb-v2-p3-150",
+        "kb-v2-p1-345",
+        "kb-1403250",
+        "kb-v2-p1-147",
+        "kb-v2-p1-291",
+        "kb-v2-p1-353",
+        "kb-v2-p3-179",
+        "kb-v2-p1-350",
+        "kb-2532930",
+        "kb-v2-p1-347",
+        "kb-1431110",
+        "kb-1359850"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-016::B",
+          "surface": "個",
+          "message": "Unmapped lexical term \"個\" at index 16 of lab-bac-016::B"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "contextKey": "lab-bac-025::B",
+      "plain": "大腸菌の中には、強力なベロ毒素を産生して重症の出血性大腸炎を起こす病原性の菌株（O157など）が存在する。",
+      "existingIds": [
+        "kb-1786900",
+        "kb-v2-p1-350",
+        "kb-v2-p3-143",
+        "kb-v2-p1-347",
+        "kb-v2-p1-344",
+        "kb-1236600",
+        "kb-v2-p1-353",
+        "kb-v2-p3-011",
+        "kb-1455590",
+        "kb-v2-p1-346",
+        "kb-2168310",
+        "kb-v2-p1-308",
+        "kb-1336310",
+        "kb-2841022",
+        "kb-1786890",
+        "kb-v2-p3-245",
+        "kb-2124840",
+        "kb-2513560",
+        "kb-v2-p3-002",
+        "kb-v2-p1-336",
+        "kb-v2-p1-345",
+        "kb-1406150",
+        "kb-v2-p1-147"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-025::B",
+          "surface": "O157",
+          "message": "Unmapped lexical term \"O157\" at index 40 of lab-bac-025::B"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "contextKey": "lab-bac-031::C",
+      "plain": "黄色ブドウ球菌 — 潜伏期間10日後の高熱と全身発疹",
+      "existingIds": [
+        "kb-v2-p2-039",
+        "kb-2842881",
+        "kb-v2-p3-141",
+        "kb-v2-p1-350",
+        "kb-1283880",
+        "kb-v2-p1-349",
+        "kb-1395410",
+        "kb-1477600"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "lab-bac-031::C",
+          "termId": "kb-v2-p3-141",
+          "message": "Substring collision: \"後\" (kb-v2-p3-141) only appears inside another compound in \"黄色ブドウ球菌 — 潜伏期間10日後の高熱と全身発疹\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-031::C",
+          "surface": "日後",
+          "message": "Unmapped lexical term \"日後\" at index 16 of lab-bac-031::C"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "contextKey": "lab-bac-031::D",
+      "plain": "腸管出血性大腸菌（O157） — 激しい腹痛、水様便、鮮血便（血便）",
+      "existingIds": [
+        "kb-2126920",
+        "kb-v2-p3-002",
+        "kb-v2-p2-228",
+        "kb-1501230",
+        "kb-ext-0993-e6b0b4e6a7",
+        "kb-ext-1108-e9aeaee8a1",
+        "kb-1669930"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-bac-031::D",
+          "surface": "O157",
+          "message": "Unmapped lexical term \"O157\" at index 9 of lab-bac-031::D"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-haccp",
+      "contextKey": "lab-haccp-009",
+      "plain": "加熱調理工程（CCP）において、管理基準が「中心温度75℃以上で1分間加熱」と定められています。測定したところ中心温度が70℃でした。作業者の対応として最も適切なものを一つ選びなさい。",
+      "existingIds": [
+        "kb-1190470",
+        "kb-1429310",
+        "kb-1278200",
+        "kb-v2-p2-020",
+        "kb-v2-p3-338",
+        "kb-ext-0292-e7aea1e790",
+        "kb-v2-p1-345",
+        "kb-ext-1228-e4b8ade5bf",
+        "kb-1155120",
+        "kb-v2-p1-348",
+        "kb-v2-p3-337",
+        "kb-v2-p1-349",
+        "kb-v2-p3-232",
+        "kb-v2-p1-313",
+        "kb-v2-p3-291",
+        "kb-1404570",
+        "kb-v2-p1-148",
+        "kb-v2-p1-292",
+        "kb-2451180",
+        "kb-v2-p1-350",
+        "kb-1409840",
+        "kb-v2-p1-321",
+        "kb-v2-p1-261",
+        "kb-1437430",
+        "kb-v2-p1-353",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "lab-haccp-009",
+          "termId": "kb-v2-p3-337",
+          "message": "Substring collision: \"間\" (kb-v2-p3-337) only appears inside another compound in \"加熱調理工程（CCP）において、管理基準が「中心温度75℃以上で1分間加熱」と定められています。測定したところ中心温度が\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-haccp-009",
+          "surface": "分間",
+          "message": "Unmapped lexical term \"分間\" at index 33 of lab-haccp-009"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-alergen",
+      "contextKey": "lab-alg-007",
+      "plain": "近年のアレルギー発症事例の急増に伴い、2023年（令和5年）に「特定原材料（表示義務）」へ新たに追加・昇格された品目として、正しいものを一つ選びなさい。",
+      "existingIds": [
+        "kb-1242510",
+        "kb-v2-p1-350",
+        "kb-v2-p2-018",
+        "kb-2398850",
+        "kb-1314540",
+        "kb-1228870",
+        "kb-v2-p1-347",
+        "kb-v2-p3-201",
+        "kb-2839013",
+        "kb-ext-1372-e789b9e5ae",
+        "kb-ext-1508-e8a1a8e7a4",
+        "kb-v2-p1-341",
+        "kb-v2-p3-137",
+        "kb-1432460",
+        "kb-1349740",
+        "kb-v2-p1-144",
+        "kb-1490700",
+        "kb-v2-p1-321",
+        "kb-v2-p1-245",
+        "kb-v2-p1-290",
+        "kb-v2-p1-346",
+        "kb-ext-0088-e4b880e381",
+        "kb-v2-p1-130"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-alg-007",
+          "surface": "年",
+          "message": "Unmapped lexical term \"年\" at index 23 of lab-alg-007"
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-alg-007",
+          "surface": "年",
+          "message": "Unmapped lexical term \"年\" at index 28 of lab-alg-007"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-alergen",
+      "contextKey": "lab-alg-012::B",
+      "plain": "午前と午後で1時間ごとに製品を交互に切り替えて製造効率を最大化する。",
+      "existingIds": [
+        "kb-1269060",
+        "kb-v2-p1-349",
+        "kb-1268990",
+        "kb-v2-p1-348",
+        "kb-v2-p3-188",
+        "kb-v2-p1-347",
+        "kb-1380760",
+        "kb-v2-p1-346",
+        "kb-1271940",
+        "kb-v2-p3-305",
+        "kb-1380690",
+        "kb-1275210",
+        "kb-1294190",
+        "kb-v2-p1-147"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-alg-012::B",
+          "surface": "時間",
+          "message": "Unmapped lexical term \"時間\" at index 7 of lab-alg-012::B"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-alergen",
+      "contextKey": "lab-alg-012::C",
+      "plain": "アレルゲンを含まない製品を先に製造し、アレルゲンを含む製品を1日の最後に製造する。",
+      "existingIds": [
+        "kb-v2-p3-005",
+        "kb-v2-p1-346",
+        "kb-v2-p1-201",
+        "kb-1380760",
+        "kb-v2-p3-139",
+        "kb-v2-p1-347",
+        "kb-1380690",
+        "kb-v2-p3-175",
+        "kb-v2-p1-200",
+        "kb-v2-p1-350",
+        "kb-1293810",
+        "kb-v2-p1-147"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-alg-012::C",
+          "surface": "日",
+          "message": "Unmapped lexical term \"日\" at index 31 of lab-alg-012::C"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-alergen",
+      "contextKey": "lab-alg-013::C",
+      "plain": "最初の10個の製品にアレルゲンが混ざることを前提として、そのまま出荷する。",
+      "existingIds": [
+        "kb-1293990",
+        "kb-v2-p1-350",
+        "kb-1380760",
+        "kb-v2-p1-347",
+        "kb-v2-p3-005",
+        "kb-v2-p1-345",
+        "kb-v2-p3-243",
+        "kb-v2-p1-291",
+        "kb-v2-p1-346",
+        "kb-1393680",
+        "kb-v2-p1-321",
+        "kb-v2-p2-017",
+        "kb-1338350",
+        "kb-v2-p1-147"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-alg-013::C",
+          "surface": "個",
+          "message": "Unmapped lexical term \"個\" at index 5 of lab-alg-013::C"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-alergen",
+      "contextKey": "lab-alg-014::B",
+      "plain": "1本のスコップをすべての粉末原材料の計量に使い回して作業効率を高める。",
+      "existingIds": [
+        "kb-v2-p1-350",
+        "kb-v2-p3-031",
+        "kb-v2-p1-346",
+        "kb-v2-p3-127",
+        "kb-1504880",
+        "kb-1261430",
+        "kb-1252260",
+        "kb-v2-p1-347",
+        "kb-v2-p3-312",
+        "kb-ext-0632-e4bd9ce6a5",
+        "kb-v2-p3-313"
+      ],
+      "errs": [
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-alg-014::B",
+          "surface": "本",
+          "message": "Unmapped lexical term \"本\" at index 1 of lab-alg-014::B"
+        }
+      ]
+    },
+    {
+      "setId": "ssw-pm-lab-alergen",
+      "contextKey": "lab-alg-017::C",
+      "plain": "食品の賞味期限が予定よりも1週間長くなる。",
+      "existingIds": [
+        "kb-1358600",
+        "kb-v2-p1-350",
+        "kb-1351980",
+        "kb-v2-p1-345",
+        "kb-1543240",
+        "kb-v2-p1-322",
+        "kb-v2-p3-337",
+        "kb-v2-p2-231",
+        "kb-v2-p1-241"
+      ],
+      "errs": [
+        {
+          "code": "SUBSTRING_KANJI_COLLISION",
+          "contextKey": "lab-alg-017::C",
+          "termId": "kb-v2-p3-337",
+          "message": "Substring collision: \"間\" (kb-v2-p3-337) only appears inside another compound in \"食品の賞味期限が予定よりも1週間長くなる。\""
+        },
+        {
+          "code": "MISSING_LEXICAL_TERM",
+          "contextKey": "lab-alg-017::C",
+          "surface": "週間",
+          "message": "Unmapped lexical term \"週間\" at index 14 of lab-alg-017::C"
+        }
+      ]
+    }
+  ]
+}
