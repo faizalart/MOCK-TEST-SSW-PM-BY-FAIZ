@@ -177,6 +177,9 @@ export const CURATED_ROWS = [
   ['入れ換えない', 'いれかえない', 'inflected_verb', 'tidak mengganti / menukar (udara)', '入れ換える'],
   ['持ち込まれた', 'もちこまれた', 'inflected_verb', 'dibawa masuk (pasif lampau)', '持ち込む'],
   ['美味しく食べられる', 'おいしくたべられる', 'word', 'dapat dimakan dengan lezat'],
+  // Batch 04 — nguyen-03, nguyen-09, nguyen-02, nguyen-10, nguyen-01
+  ['巻き込まれそうになった', 'まきこまれそうになった', 'word', 'hampir terlilit / terjepit mesin'],
+  ['引っか掛かって', 'ひっかかかって', 'inflected_verb', 'tersangkut / terkait (penulisan 引っ掛かって)', '引っ掛かる'],
 ];
 
 export function buildCuratedMap() {
