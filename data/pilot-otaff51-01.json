@@ -351,11 +351,13 @@
         "殺菌（さっきん）",
         "おこなう（おこなう）",
         "濃度（のうど）",
+        "%（%）",
         "次亜塩素酸ナトリウム（じあえんそさんなとりうむ）",
         "原液（げんえき）",
         "使って（つかって）",
         "ppm（ぴーぴーえむ）",
         "消毒液（しょうどくえき）",
+        "L（りっとる）",
         "ml（ml）",
         "作ります（つくります）",
         "必要な（ひつような）",
@@ -372,11 +374,13 @@
         "殺菌（さっきん） : sterilisasi / pembasmian kuman",
         "おこなう（おこなう） : melakukan",
         "濃度（のうど） : konsentrasi / kepekatan",
+        "%（%） : persen (satuan persentase %)",
         "次亜塩素酸ナトリウム（じあえんそさんなとりうむ） : natrium hipoklorit (NaClO)",
         "原液（げんえき） : larutan pekat (konsentrat)",
         "使って（つかって） : menggunakan (dasar: 使う)",
         "ppm（ぴーぴーえむ） : bagian per juta (ppm)",
         "消毒液（しょうどくえき） : larutan disinfektan",
+        "L（りっとる） : liter (satuan volume cairan)",
         "ml（ml） : mililiter",
         "作ります（つくります） : membuat / memproduksi",
         "必要な（ひつような） : perlu / dibutuhkan",
@@ -387,7 +391,7 @@
         "一つ（ひとつ） : satu",
         "選びなさい（えらびなさい） : pilihlah"
       ],
-      "kotobaFormatted": "調理器具（ちょうりきぐ） : peralatan masak\n野菜（やさい） : sayuran\n殺菌（さっきん） : sterilisasi / pembasmian kuman\nおこなう（おこなう） : melakukan\n濃度（のうど） : konsentrasi / kepekatan\n次亜塩素酸ナトリウム（じあえんそさんなとりうむ） : natrium hipoklorit (NaClO)\n原液（げんえき） : larutan pekat (konsentrat)\n使って（つかって） : menggunakan (dasar: 使う)\nppm（ぴーぴーえむ） : bagian per juta (ppm)\n消毒液（しょうどくえき） : larutan disinfektan\nml（ml） : mililiter\n作ります（つくります） : membuat / memproduksi\n必要な（ひつような） : perlu / dibutuhkan\n水（みず） : air\n量（りょう） : jumlah / takaran\n組み合わせ（くみあわせ） : kombinasi / pasangan\n正しい（ただしい） : benar / tepat\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah"
+      "kotobaFormatted": "調理器具（ちょうりきぐ） : peralatan masak\n野菜（やさい） : sayuran\n殺菌（さっきん） : sterilisasi / pembasmian kuman\nおこなう（おこなう） : melakukan\n濃度（のうど） : konsentrasi / kepekatan\n%（%） : persen (satuan persentase %)\n次亜塩素酸ナトリウム（じあえんそさんなとりうむ） : natrium hipoklorit (NaClO)\n原液（げんえき） : larutan pekat (konsentrat)\n使って（つかって） : menggunakan (dasar: 使う)\nppm（ぴーぴーえむ） : bagian per juta (ppm)\n消毒液（しょうどくえき） : larutan disinfektan\nL（りっとる） : liter (satuan volume cairan)\nml（ml） : mililiter\n作ります（つくります） : membuat / memproduksi\n必要な（ひつような） : perlu / dibutuhkan\n水（みず） : air\n量（りょう） : jumlah / takaran\n組み合わせ（くみあわせ） : kombinasi / pasangan\n正しい（ただしい） : benar / tepat\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah"
     },
     {
       "id": "pilot-otaff51-q004",
@@ -453,7 +457,7 @@
         "イラスト（イラスト）",
         "重い釜（おもいかま）",
         "両手（りょうて）",
-        "持ち上げ（もちあげ）",
+        "持ち上げた（もちあげた）",
         "とき（とき）",
         "腰（こし）",
         "強い（つよい）",
@@ -496,7 +500,7 @@
         "イラスト（イラスト） : gambar ilustrasi",
         "重い釜（おもいかま） : ketel/panci besar yang berat",
         "両手（りょうて） : kedua tangan",
-        "持ち上げ（もちあげ） : mengangkat ke atas",
+        "持ち上げた（もちあげた） : mengangkat ke atas",
         "とき（とき） : ketika / saat",
         "腰（こし） : pinggang",
         "強い（つよい） : kuat / tahan",
@@ -535,7 +539,7 @@
         "状態（じょうたい） : kondisi / keadaan",
         "伸ばして（のばして） : meluruskan / merentangkan"
       ],
-      "kotobaFormatted": "イラスト（イラスト） : gambar ilustrasi\n重い釜（おもいかま） : ketel/panci besar yang berat\n両手（りょうて） : kedua tangan\n持ち上げ（もちあげ） : mengangkat ke atas\nとき（とき） : ketika / saat\n腰（こし） : pinggang\n強い（つよい） : kuat / tahan\n痛み（いたみ） : rasa sakit / nyeri\n感じた（かんじた） : merasakan (lampau)\n腰痛（ようつう） : sakit pinggang (low back pain)\n災害（さいがい） : kecelakaan kerja / bencana\n防ぐ（ふせぐ） : mencegah\n対策（たいさく） : tindakan pencegahan / penanggulangan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n重い物（おもいもの） : benda berat\n持ち上げる（もちあげる） : mengangkat\n体（からだ） : tubuh\n近づけて（ちかづけて） : mendekatkan\n膝（ひざ） : lutut\n曲げて（まげて） : menekuk (lutut)\n下ろして（おろして） : menurunkan\n抱え（かかえ） : memeluk / mengangkat\n伸ばしながら（のばしながら） : sambil meluruskan\nゆっくり（ゆっくり） : perlahan\n立ち上がる（たちあがる） : berdiri\n運ぶ（はこぶ） : mengangkut / membawa\nできるだけ（できるだけ） : sebisa mungkin\n台車（だいしゃ） : troli pengangkut barang\n使用する（しようする） : menggunakan\n伸ばした（のばした） : meluruskan / merentangkan (lampau)\nまま（まま） : apa adanya / tetap\n荷物（にもつ） : barang bawaan / muatan\n離（はな） : Menjauh dari zona bahaya mesin yang sedang beroperasi\n不安定な（ふあんていな） : tidak stabil\n姿勢（しせい） : postur / sikap tubuh\n素早く（すばやく） : dengan cepat\n下ろした（おろした） : menurunkan (pinggang/beban) (lampau)\n状態（じょうたい） : kondisi / keadaan\n伸ばして（のばして） : meluruskan / merentangkan"
+      "kotobaFormatted": "イラスト（イラスト） : gambar ilustrasi\n重い釜（おもいかま） : ketel/panci besar yang berat\n両手（りょうて） : kedua tangan\n持ち上げた（もちあげた） : mengangkat ke atas\nとき（とき） : ketika / saat\n腰（こし） : pinggang\n強い（つよい） : kuat / tahan\n痛み（いたみ） : rasa sakit / nyeri\n感じた（かんじた） : merasakan (lampau)\n腰痛（ようつう） : sakit pinggang (low back pain)\n災害（さいがい） : kecelakaan kerja / bencana\n防ぐ（ふせぐ） : mencegah\n対策（たいさく） : tindakan pencegahan / penanggulangan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n重い物（おもいもの） : benda berat\n持ち上げる（もちあげる） : mengangkat\n体（からだ） : tubuh\n近づけて（ちかづけて） : mendekatkan\n膝（ひざ） : lutut\n曲げて（まげて） : menekuk (lutut)\n下ろして（おろして） : menurunkan\n抱え（かかえ） : memeluk / mengangkat\n伸ばしながら（のばしながら） : sambil meluruskan\nゆっくり（ゆっくり） : perlahan\n立ち上がる（たちあがる） : berdiri\n運ぶ（はこぶ） : mengangkut / membawa\nできるだけ（できるだけ） : sebisa mungkin\n台車（だいしゃ） : troli pengangkut barang\n使用する（しようする） : menggunakan\n伸ばした（のばした） : meluruskan / merentangkan (lampau)\nまま（まま） : apa adanya / tetap\n荷物（にもつ） : barang bawaan / muatan\n離（はな） : Menjauh dari zona bahaya mesin yang sedang beroperasi\n不安定な（ふあんていな） : tidak stabil\n姿勢（しせい） : postur / sikap tubuh\n素早く（すばやく） : dengan cepat\n下ろした（おろした） : menurunkan (pinggang/beban) (lampau)\n状態（じょうたい） : kondisi / keadaan\n伸ばして（のばして） : meluruskan / merentangkan"
     },
     {
       "id": "pilot-otaff51-q005",
@@ -635,8 +639,7 @@
         "手のひら（てのひら）",
         "禁止マーク（きんしまーく）",
         "点検中（てんけんちゅう）",
-        "スイッチ（スイッチ）",
-        "入れる（いれる）",
+        "スイッチを入れるな（すいっちをいれるな）",
         "危険（きけん）",
         "手をふれるな（てをふれるな）",
         "はさまれ注意（はさまれちゅうい）",
@@ -658,14 +661,13 @@
         "手のひら（てのひら） : telapak tangan",
         "禁止マーク（きんしまーく） : tanda larangan",
         "点検中（てんけんちゅう） : sedang dalam pemeriksaan",
-        "スイッチ（スイッチ） : sakelar / tombol daya",
-        "入れる（いれる） : memasukkan / menyalakan",
+        "スイッチを入れるな（すいっちをいれるな） : jangan menyalakan sakelar",
         "危険（きけん） : bahaya / berbahaya",
         "手をふれるな（てをふれるな） : jangan menyentuh dengan tangan",
         "はさまれ注意（はさまれちゅうい） : awas terjepit mesin",
         "HA（HA） : Analisis Bahaya (Hazard Analysis)"
       ],
-      "kotobaFormatted": "作業場（さぎょうじょう） : area kerja / tempat kerja\n使う（つかう） : menggunakan\n安全標識（あんぜんひょうしき） : rambu keselamatan kerja\n手（て） : tangan\n触れる（ふれる） : bersentuhan dengan\n禁止する（きんしする） : melarang\n標識（ひょうしき） : rambu / tanda peringatan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n手で触れるな（てでふれるな） : jangan disentuh dengan tangan\n手のひら（てのひら） : telapak tangan\n禁止マーク（きんしまーく） : tanda larangan\n点検中（てんけんちゅう） : sedang dalam pemeriksaan\nスイッチ（スイッチ） : sakelar / tombol daya\n入れる（いれる） : memasukkan / menyalakan\n危険（きけん） : bahaya / berbahaya\n手をふれるな（てをふれるな） : jangan menyentuh dengan tangan\nはさまれ注意（はさまれちゅうい） : awas terjepit mesin\nHA（HA） : Analisis Bahaya (Hazard Analysis)"
+      "kotobaFormatted": "作業場（さぎょうじょう） : area kerja / tempat kerja\n使う（つかう） : menggunakan\n安全標識（あんぜんひょうしき） : rambu keselamatan kerja\n手（て） : tangan\n触れる（ふれる） : bersentuhan dengan\n禁止する（きんしする） : melarang\n標識（ひょうしき） : rambu / tanda peringatan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n手で触れるな（てでふれるな） : jangan disentuh dengan tangan\n手のひら（てのひら） : telapak tangan\n禁止マーク（きんしまーく） : tanda larangan\n点検中（てんけんちゅう） : sedang dalam pemeriksaan\nスイッチを入れるな（すいっちをいれるな） : jangan menyalakan sakelar\n危険（きけん） : bahaya / berbahaya\n手をふれるな（てをふれるな） : jangan menyentuh dengan tangan\nはさまれ注意（はさまれちゅうい） : awas terjepit mesin\nHA（HA） : Analisis Bahaya (Hazard Analysis)"
     }
   ]
 }

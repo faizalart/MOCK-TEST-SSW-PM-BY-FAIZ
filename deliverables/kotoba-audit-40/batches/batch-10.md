@@ -1,6 +1,6 @@
 # Batch Report: `batch-10`
 
-- **Completed At**: `2026-11-15T16:22:17.860Z`
+- **Completed At**: `2026-11-15T16:32:50.915Z`
 - **Packages**: `ssw-pm-kunci-ujian-4`, `ssw-pm-kunci-ujian-10`, `ssw-pm-kunci-ujian-6`, `ssw-pm-kunci-ujian-9`, `ssw-pm-lab-suhu`
 - **Strict Context Errors**: **1 -> 0**
 - **Protected 10 OTAFF SHA-256 & Parity**: **VERIFIED IDENTICAL**
@@ -8,8 +8,8 @@
 
 | Set ID | Cohort | Qs | Errors Before | Errors After | Span % After |
 | --- | --- | ---: | ---: | ---: | ---: |
-| `ssw-pm-kunci-ujian-4` | `cohort_1_spec009_canonical` | 40 | 1 | **0** | 100% |
+| `ssw-pm-kunci-ujian-4` | `cohort_1_spec009_canonical` | 40 | 0 | **0** | 100% |
 | `ssw-pm-kunci-ujian-10` | `cohort_1_spec009_canonical` | 40 | 0 | **0** | 100% |
 | `ssw-pm-kunci-ujian-6` | `cohort_1_spec009_canonical` | 40 | 0 | **0** | 100% |
-| `ssw-pm-kunci-ujian-9` | `cohort_1_spec009_canonical` | 40 | 0 | **0** | 100% |
+| `ssw-pm-kunci-ujian-9` | `cohort_1_spec009_canonical` | 40 | 1 | **0** | 100% |
 | `ssw-pm-lab-suhu` | `cohort_1_spec009_canonical` | 28 | 0 | **0** | 100% |

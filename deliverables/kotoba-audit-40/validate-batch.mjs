@@ -62,6 +62,7 @@ export const HIRA_LEXICAL = new Set([
   'すばやく', 'なかなか', 'つねに', 'くっつかない', 'きかい', 'きぐ', 'せんじょう', 'かたずけます', 'かくにん',
   'せいかつ', 'せいけつ', 'せいり', 'せいとん', 'ふくそう', 'けっか', 'じゅうような', 'ほうこく', 'ぞうしょく',
   'あいだ', 'あらいます', 'だれ', 'だれにも', 'もつ', 'とる', 'やる', 'なし', 'あたって', 'ほかに',
+  'きんぞく', 'かみのけ', 'いみ',
 ]);
 
 export const SEGMENT_ATTACHED_PARTICLES = new Set([
@@ -72,6 +73,7 @@ export const SEGMENT_ATTACHED_PARTICLES = new Set([
 export const TECHNICAL_ASCII = new Set([
   'ppm', 'ml', 'kg', 'g', 'L', 'm', 'HACCP', 'CCP', 'ＣＣＰ', 'HA', 'KYT', 'FIFO', 'OTAFF', 'SNS', '5S', 'O157', 'O111',
   'NaClO', 'NaCl', 'NaC1O', 'NAClO', 'X', 'Ｘ', 'CC',
+  '°C', 'ºC', '℃', '㎏', '%', '％',
 ]);
 
 const PREFIX_MARKER_RE = /^(?:\[(?:イラスト|標識|図|写真|品目|保護具|画像)[A-Za-z0-9]+\]\s*)+/u;

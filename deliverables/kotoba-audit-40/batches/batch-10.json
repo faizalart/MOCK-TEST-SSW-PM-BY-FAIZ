@@ -1,6 +1,6 @@
 {
   "batchId": "batch-10",
-  "completedAt": "2026-11-15T16:22:17.860Z",
+  "completedAt": "2026-11-15T16:32:50.915Z",
   "packages": [
     "ssw-pm-kunci-ujian-4",
     "ssw-pm-kunci-ujian-10",
@@ -15,7 +15,7 @@
       "setId": "ssw-pm-kunci-ujian-4",
       "cohort": "cohort_1_spec009_canonical",
       "questions": 40,
-      "errors": 1,
+      "errors": 0,
       "spanPct": 100
     },
     {
@@ -36,7 +36,7 @@
       "setId": "ssw-pm-kunci-ujian-9",
       "cohort": "cohort_1_spec009_canonical",
       "questions": 40,
-      "errors": 0,
+      "errors": 1,
       "spanPct": 100
     },
     {
@@ -98,7 +98,7 @@
     }
   ],
   "touchedPackageFiles": [],
-  "curatedTermsTotalInMaster": 179,
+  "curatedTermsTotalInMaster": 188,
   "protected10Verified": true,
   "immutabilityVerified": true
 }

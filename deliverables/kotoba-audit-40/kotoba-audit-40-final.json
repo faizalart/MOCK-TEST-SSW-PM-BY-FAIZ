@@ -1,0 +1,1728 @@
+{
+  "generatedAt": "2026-11-15T16:40:23.117Z",
+  "branch": "fix/kotoba-audit-40",
+  "scopeNote": "Upgraded from initial 40-package prompt to all 50 non-OTAFF packages per explicit user instruction (\"garap semua yg non otaff benerin ktobanya\"), while keeping all 10 OTAFF PM51 packages untouched.",
+  "dictionaryComparison": {
+    "before": {
+      "totalTerms": 6359,
+      "verifiedTerms": 6315,
+      "unresolvedTerms": 44,
+      "mappingQuestions": 2139,
+      "mappingCompositeKeys": 6583,
+      "supplementaryEntries": 1133,
+      "dataVersion": "20261113-v2"
+    },
+    "after": {
+      "totalTerms": 6547,
+      "verifiedTerms": 6503,
+      "unresolvedTerms": 44,
+      "curatedAuditTermsAdded": 188,
+      "patchedDefectiveMasterTerms": 14,
+      "placeholderTangoCount": 0,
+      "mappingQuestions": 2139,
+      "mappingCompositeKeys": 6583,
+      "supplementaryEntries": 1133,
+      "dataVersion": "20261113-v2"
+    }
+  },
+  "summaryByCohort": {
+    "targets50": {
+      "packageCount": 50,
+      "questions": 1739,
+      "options": 5383,
+      "contexts": 7122,
+      "before": {
+        "v2CompletenessErrors": 3145,
+        "avgSpanCoveragePct": 82.01,
+        "emptyPrompts": 20,
+        "emptyOptions": 197
+      },
+      "after": {
+        "v2CompletenessErrors": 12,
+        "strictValidatorErrors": 0,
+        "avgSpanCoveragePct": 88.5,
+        "emptyPrompts": 0,
+        "emptyOptions": 18
+      }
+    },
+    "cohort1Spec009_27": {
+      "packageCount": 27,
+      "questions": 1006,
+      "options": 3110,
+      "contexts": 4116,
+      "before": {
+        "v2CompletenessErrors": 133,
+        "avgSpanCoveragePct": 100,
+        "emptyPrompts": 0,
+        "emptyOptions": 92
+      },
+      "after": {
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "avgSpanCoveragePct": 100,
+        "emptyPrompts": 0,
+        "emptyOptions": 6
+      }
+    },
+    "cohort2_19Paket_19": {
+      "packageCount": 19,
+      "questions": 581,
+      "options": 1811,
+      "contexts": 2392,
+      "before": {
+        "v2CompletenessErrors": 1010,
+        "avgSpanCoveragePct": 65.61,
+        "emptyPrompts": 0,
+        "emptyOptions": 0
+      },
+      "after": {
+        "v2CompletenessErrors": 12,
+        "strictValidatorErrors": 0,
+        "avgSpanCoveragePct": 74.68,
+        "emptyPrompts": 0,
+        "emptyOptions": 12
+      }
+    },
+    "cohort3Ujian14_16_3": {
+      "packageCount": 3,
+      "questions": 147,
+      "options": 442,
+      "contexts": 589,
+      "before": {
+        "v2CompletenessErrors": 1930,
+        "avgSpanCoveragePct": 30.17,
+        "emptyPrompts": 20,
+        "emptyOptions": 105
+      },
+      "after": {
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "avgSpanCoveragePct": 76.47,
+        "emptyPrompts": 0,
+        "emptyOptions": 0
+      }
+    },
+    "cohort4Pilot_1": {
+      "packageCount": 1,
+      "questions": 5,
+      "options": 20,
+      "contexts": 25,
+      "before": {
+        "v2CompletenessErrors": 72,
+        "avgSpanCoveragePct": 63.64,
+        "emptyPrompts": 0,
+        "emptyOptions": 0
+      },
+      "after": {
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "avgSpanCoveragePct": 76.71,
+        "emptyPrompts": 0,
+        "emptyOptions": 0
+      }
+    },
+    "protected10Reference": {
+      "packageCount": 10,
+      "questions": 400,
+      "options": 1200,
+      "contexts": 1600,
+      "before": {
+        "v2CompletenessErrors": 0,
+        "avgSpanCoveragePct": 79.36,
+        "emptyPrompts": 0,
+        "emptyOptions": 0
+      },
+      "after": {
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "avgSpanCoveragePct": 79.36,
+        "emptyPrompts": 0,
+        "emptyOptions": 0
+      }
+    }
+  },
+  "benchmarks": {
+    "protected10OtaffAvgSpanPct": 79.36,
+    "latsolNguyen01": {
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 425,
+        "v2CompletenessErrors": 26,
+        "spanCoveragePct": 76.13
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 10.7,
+        "avgOptionTerms": 3.23,
+        "uniqueReferencedTerms": 434,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 79.06
+      }
+    }
+  },
+  "packages": [
+    {
+      "setId": "ssw-pm-kunci-ujian-1",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-07",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 111,
+        "uniqueReferencedTerms": 531,
+        "v2CompletenessErrors": 6,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 17.52,
+        "avgOptionTerms": 6.57,
+        "uniqueReferencedTerms": 540,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-2",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-09",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 495,
+        "v2CompletenessErrors": 2,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 117,
+        "avgPromptTerms": 13.55,
+        "avgOptionTerms": 5.96,
+        "uniqueReferencedTerms": 504,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-3",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-08",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 116,
+        "uniqueReferencedTerms": 505,
+        "v2CompletenessErrors": 4,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 14.88,
+        "avgOptionTerms": 6.26,
+        "uniqueReferencedTerms": 517,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-4",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-10",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 537,
+        "v2CompletenessErrors": 1,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.63,
+        "avgOptionTerms": 7.93,
+        "uniqueReferencedTerms": 540,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-5",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-09",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 549,
+        "v2CompletenessErrors": 3,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 18.43,
+        "avgOptionTerms": 8.47,
+        "uniqueReferencedTerms": 556,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-6",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-10",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 119,
+        "uniqueReferencedTerms": 534,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 14.93,
+        "avgOptionTerms": 7.49,
+        "uniqueReferencedTerms": 540,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-7",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-07",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 546,
+        "v2CompletenessErrors": 7,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.57,
+        "avgOptionTerms": 5.7,
+        "uniqueReferencedTerms": 554,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-8",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-09",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 482,
+        "v2CompletenessErrors": 2,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 20.1,
+        "avgOptionTerms": 6.72,
+        "uniqueReferencedTerms": 490,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-9",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-10",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 322,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 22.13,
+        "avgOptionTerms": 11.49,
+        "uniqueReferencedTerms": 326,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-10",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-10",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 484,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.78,
+        "avgOptionTerms": 8.53,
+        "uniqueReferencedTerms": 485,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-11",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-06",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 477,
+        "v2CompletenessErrors": 8,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.7,
+        "avgOptionTerms": 7.42,
+        "uniqueReferencedTerms": 485,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-12",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-08",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 343,
+        "v2CompletenessErrors": 4,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 117,
+        "avgPromptTerms": 15.97,
+        "avgOptionTerms": 9.42,
+        "uniqueReferencedTerms": 348,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-13",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-08",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 567,
+        "v2CompletenessErrors": 3,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 18.98,
+        "avgOptionTerms": 6.67,
+        "uniqueReferencedTerms": 574,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-14",
+      "role": "target_repair_50",
+      "cohort": "cohort_3_unaudited_ujian_14_16",
+      "batchId": "batch-01",
+      "questionCount": 59,
+      "optionCount": 177,
+      "totalContexts": 236,
+      "before": {
+        "promptContextsNonEmpty": 51,
+        "optionContextsNonEmpty": 156,
+        "uniqueReferencedTerms": 333,
+        "v2CompletenessErrors": 684,
+        "spanCoveragePct": 36.22
+      },
+      "after": {
+        "promptContextsNonEmpty": 59,
+        "optionContextsNonEmpty": 177,
+        "avgPromptTerms": 6.81,
+        "avgOptionTerms": 3.81,
+        "uniqueReferencedTerms": 569,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 77.4
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-15",
+      "role": "target_repair_50",
+      "cohort": "cohort_3_unaudited_ujian_14_16",
+      "batchId": "batch-01",
+      "questionCount": 38,
+      "optionCount": 114,
+      "totalContexts": 152,
+      "before": {
+        "promptContextsNonEmpty": 34,
+        "optionContextsNonEmpty": 78,
+        "uniqueReferencedTerms": 175,
+        "v2CompletenessErrors": 527,
+        "spanCoveragePct": 27.95
+      },
+      "after": {
+        "promptContextsNonEmpty": 38,
+        "optionContextsNonEmpty": 114,
+        "avgPromptTerms": 9.39,
+        "avgOptionTerms": 3.35,
+        "uniqueReferencedTerms": 398,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 74.37
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-16",
+      "role": "target_repair_50",
+      "cohort": "cohort_3_unaudited_ujian_14_16",
+      "batchId": "batch-01",
+      "questionCount": 50,
+      "optionCount": 151,
+      "totalContexts": 201,
+      "before": {
+        "promptContextsNonEmpty": 42,
+        "optionContextsNonEmpty": 103,
+        "uniqueReferencedTerms": 200,
+        "v2CompletenessErrors": 719,
+        "spanCoveragePct": 26.34
+      },
+      "after": {
+        "promptContextsNonEmpty": 50,
+        "optionContextsNonEmpty": 151,
+        "avgPromptTerms": 7.36,
+        "avgOptionTerms": 4.15,
+        "uniqueReferencedTerms": 503,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 77.64
+      }
+    },
+    {
+      "setId": "ssw-pm-tipe2-nguyen1",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-08",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 576,
+        "v2CompletenessErrors": 4,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.25,
+        "avgOptionTerms": 9.43,
+        "uniqueReferencedTerms": 580,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "bonus-soal-1",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-05",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 480,
+        "v2CompletenessErrors": 11,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 17.48,
+        "avgOptionTerms": 4.93,
+        "uniqueReferencedTerms": 488,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "bonus-soal-2",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-08",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 458,
+        "v2CompletenessErrors": 4,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 13.78,
+        "avgOptionTerms": 5.34,
+        "uniqueReferencedTerms": 467,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "bonus-soal-4",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-07",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 479,
+        "v2CompletenessErrors": 5,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.85,
+        "avgOptionTerms": 5.94,
+        "uniqueReferencedTerms": 487,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "bonus-soal-5",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-06",
+      "questionCount": 36,
+      "optionCount": 108,
+      "totalContexts": 144,
+      "before": {
+        "promptContextsNonEmpty": 36,
+        "optionContextsNonEmpty": 105,
+        "uniqueReferencedTerms": 544,
+        "v2CompletenessErrors": 9,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 36,
+        "optionContextsNonEmpty": 108,
+        "avgPromptTerms": 18.22,
+        "avgOptionTerms": 7.37,
+        "uniqueReferencedTerms": 552,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "bonus-soal-6",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-06",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 430,
+        "v2CompletenessErrors": 8,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 13.55,
+        "avgOptionTerms": 5.51,
+        "uniqueReferencedTerms": 437,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "bonus-soal-7",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-07",
+      "questionCount": 39,
+      "optionCount": 117,
+      "totalContexts": 156,
+      "before": {
+        "promptContextsNonEmpty": 39,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 467,
+        "v2CompletenessErrors": 7,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 39,
+        "optionContextsNonEmpty": 117,
+        "avgPromptTerms": 17.41,
+        "avgOptionTerms": 5.55,
+        "uniqueReferencedTerms": 476,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "bonus-soal-8",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-06",
+      "questionCount": 39,
+      "optionCount": 117,
+      "totalContexts": 156,
+      "before": {
+        "promptContextsNonEmpty": 39,
+        "optionContextsNonEmpty": 108,
+        "uniqueReferencedTerms": 446,
+        "v2CompletenessErrors": 11,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 39,
+        "optionContextsNonEmpty": 117,
+        "avgPromptTerms": 15.03,
+        "avgOptionTerms": 5.09,
+        "uniqueReferencedTerms": 455,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "bonus-soal-9",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-09",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 456,
+        "v2CompletenessErrors": 2,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.4,
+        "avgOptionTerms": 5.98,
+        "uniqueReferencedTerms": 459,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "bonus-soal-10",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-06",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 557,
+        "v2CompletenessErrors": 9,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 17.65,
+        "avgOptionTerms": 6.45,
+        "uniqueReferencedTerms": 564,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-05",
+      "questionCount": 32,
+      "optionCount": 128,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 32,
+        "optionContextsNonEmpty": 128,
+        "uniqueReferencedTerms": 309,
+        "v2CompletenessErrors": 13,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 32,
+        "optionContextsNonEmpty": 128,
+        "avgPromptTerms": 19.88,
+        "avgOptionTerms": 5.28,
+        "uniqueReferencedTerms": 317,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-lab-suhu",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-10",
+      "questionCount": 28,
+      "optionCount": 112,
+      "totalContexts": 140,
+      "before": {
+        "promptContextsNonEmpty": 28,
+        "optionContextsNonEmpty": 112,
+        "uniqueReferencedTerms": 214,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 28,
+        "optionContextsNonEmpty": 112,
+        "avgPromptTerms": 15.36,
+        "avgOptionTerms": 4.73,
+        "uniqueReferencedTerms": 217,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-lab-haccp",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-09",
+      "questionCount": 12,
+      "optionCount": 48,
+      "totalContexts": 60,
+      "before": {
+        "promptContextsNonEmpty": 12,
+        "optionContextsNonEmpty": 48,
+        "uniqueReferencedTerms": 354,
+        "v2CompletenessErrors": 2,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 12,
+        "optionContextsNonEmpty": 48,
+        "avgPromptTerms": 20.58,
+        "avgOptionTerms": 13.21,
+        "uniqueReferencedTerms": 356,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "ssw-pm-lab-alergen",
+      "role": "target_repair_50",
+      "cohort": "cohort_1_spec009_canonical",
+      "batchId": "batch-07",
+      "questionCount": 20,
+      "optionCount": 80,
+      "totalContexts": 100,
+      "before": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 80,
+        "uniqueReferencedTerms": 473,
+        "v2CompletenessErrors": 8,
+        "spanCoveragePct": 100
+      },
+      "after": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 80,
+        "avgPromptTerms": 19.6,
+        "avgOptionTerms": 10,
+        "uniqueReferencedTerms": 478,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 100
+      }
+    },
+    {
+      "setId": "latsol-nguyen-01",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-04",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 425,
+        "v2CompletenessErrors": 26,
+        "spanCoveragePct": 76.13
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 10.7,
+        "avgOptionTerms": 3.23,
+        "uniqueReferencedTerms": 434,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 79.06
+      }
+    },
+    {
+      "setId": "latsol-nguyen-02",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-04",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 387,
+        "v2CompletenessErrors": 36,
+        "spanCoveragePct": 73.8
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 8.38,
+        "avgOptionTerms": 3.48,
+        "uniqueReferencedTerms": 403,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 77.95
+      }
+    },
+    {
+      "setId": "latsol-nguyen-03",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-04",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 367,
+        "v2CompletenessErrors": 39,
+        "spanCoveragePct": 70.47
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 8.95,
+        "avgOptionTerms": 3.24,
+        "uniqueReferencedTerms": 383,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 74.53
+      }
+    },
+    {
+      "setId": "latsol-nguyen-04",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-03",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 403,
+        "v2CompletenessErrors": 49,
+        "spanCoveragePct": 71.27
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 9.55,
+        "avgOptionTerms": 3.54,
+        "uniqueReferencedTerms": 425,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 76.32
+      }
+    },
+    {
+      "setId": "latsol-nguyen-05",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-03",
+      "questionCount": 36,
+      "optionCount": 108,
+      "totalContexts": 144,
+      "before": {
+        "promptContextsNonEmpty": 36,
+        "optionContextsNonEmpty": 108,
+        "uniqueReferencedTerms": 446,
+        "v2CompletenessErrors": 41,
+        "spanCoveragePct": 71.12
+      },
+      "after": {
+        "promptContextsNonEmpty": 36,
+        "optionContextsNonEmpty": 107,
+        "avgPromptTerms": 9.67,
+        "avgOptionTerms": 4.27,
+        "uniqueReferencedTerms": 459,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 75.18
+      }
+    },
+    {
+      "setId": "latsol-nguyen-06",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-03",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 366,
+        "v2CompletenessErrors": 48,
+        "spanCoveragePct": 71.24
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 6.78,
+        "avgOptionTerms": 3.26,
+        "uniqueReferencedTerms": 377,
+        "v2CompletenessErrors": 12,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 74.83
+      }
+    },
+    {
+      "setId": "latsol-nguyen-07",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-03",
+      "questionCount": 39,
+      "optionCount": 117,
+      "totalContexts": 156,
+      "before": {
+        "promptContextsNonEmpty": 39,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 397,
+        "v2CompletenessErrors": 43,
+        "spanCoveragePct": 75.53
+      },
+      "after": {
+        "promptContextsNonEmpty": 39,
+        "optionContextsNonEmpty": 117,
+        "avgPromptTerms": 10.64,
+        "avgOptionTerms": 3.52,
+        "uniqueReferencedTerms": 416,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 79.39
+      }
+    },
+    {
+      "setId": "latsol-nguyen-08",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-05",
+      "questionCount": 39,
+      "optionCount": 117,
+      "totalContexts": 156,
+      "before": {
+        "promptContextsNonEmpty": 39,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 384,
+        "v2CompletenessErrors": 25,
+        "spanCoveragePct": 75.28
+      },
+      "after": {
+        "promptContextsNonEmpty": 39,
+        "optionContextsNonEmpty": 117,
+        "avgPromptTerms": 9.33,
+        "avgOptionTerms": 3.34,
+        "uniqueReferencedTerms": 394,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 78.51
+      }
+    },
+    {
+      "setId": "latsol-nguyen-09",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-04",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 390,
+        "v2CompletenessErrors": 38,
+        "spanCoveragePct": 70.15
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 9.25,
+        "avgOptionTerms": 3.4,
+        "uniqueReferencedTerms": 406,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 74.34
+      }
+    },
+    {
+      "setId": "latsol-nguyen-10",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-04",
+      "questionCount": 41,
+      "optionCount": 123,
+      "totalContexts": 164,
+      "before": {
+        "promptContextsNonEmpty": 41,
+        "optionContextsNonEmpty": 123,
+        "uniqueReferencedTerms": 386,
+        "v2CompletenessErrors": 33,
+        "spanCoveragePct": 71.48
+      },
+      "after": {
+        "promptContextsNonEmpty": 41,
+        "optionContextsNonEmpty": 123,
+        "avgPromptTerms": 8.95,
+        "avgOptionTerms": 3.59,
+        "uniqueReferencedTerms": 403,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 75.19
+      }
+    },
+    {
+      "setId": "latsol-reguler-01",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-02",
+      "questionCount": 20,
+      "optionCount": 65,
+      "totalContexts": 85,
+      "before": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 65,
+        "uniqueReferencedTerms": 129,
+        "v2CompletenessErrors": 73,
+        "spanCoveragePct": 55.06
+      },
+      "after": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 65,
+        "avgPromptTerms": 7.75,
+        "avgOptionTerms": 2.6,
+        "uniqueReferencedTerms": 135,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 79.26
+      }
+    },
+    {
+      "setId": "latsol-reguler-02",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-03",
+      "questionCount": 20,
+      "optionCount": 60,
+      "totalContexts": 80,
+      "before": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 60,
+        "uniqueReferencedTerms": 160,
+        "v2CompletenessErrors": 54,
+        "spanCoveragePct": 56.05
+      },
+      "after": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 60,
+        "avgPromptTerms": 8.95,
+        "avgOptionTerms": 2.9,
+        "uniqueReferencedTerms": 173,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 72.93
+      }
+    },
+    {
+      "setId": "latsol-reguler-03",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-02",
+      "questionCount": 20,
+      "optionCount": 60,
+      "totalContexts": 80,
+      "before": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 60,
+        "uniqueReferencedTerms": 182,
+        "v2CompletenessErrors": 55,
+        "spanCoveragePct": 54.86
+      },
+      "after": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 60,
+        "avgPromptTerms": 8.05,
+        "avgOptionTerms": 2.75,
+        "uniqueReferencedTerms": 194,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 74.21
+      }
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-02",
+      "questionCount": 20,
+      "optionCount": 80,
+      "totalContexts": 100,
+      "before": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 80,
+        "uniqueReferencedTerms": 205,
+        "v2CompletenessErrors": 56,
+        "spanCoveragePct": 61.56
+      },
+      "after": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 73,
+        "avgPromptTerms": 6.5,
+        "avgOptionTerms": 3,
+        "uniqueReferencedTerms": 214,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 69.12
+      }
+    },
+    {
+      "setId": "latsol-reguler-05",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-01",
+      "questionCount": 20,
+      "optionCount": 61,
+      "totalContexts": 81,
+      "before": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 61,
+        "uniqueReferencedTerms": 201,
+        "v2CompletenessErrors": 77,
+        "spanCoveragePct": 59.93
+      },
+      "after": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 57,
+        "avgPromptTerms": 8.5,
+        "avgOptionTerms": 3.61,
+        "uniqueReferencedTerms": 216,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 75.18
+      }
+    },
+    {
+      "setId": "latsol-reguler-06",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-02",
+      "questionCount": 20,
+      "optionCount": 61,
+      "totalContexts": 81,
+      "before": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 61,
+        "uniqueReferencedTerms": 193,
+        "v2CompletenessErrors": 65,
+        "spanCoveragePct": 57.51
+      },
+      "after": {
+        "promptContextsNonEmpty": 20,
+        "optionContextsNonEmpty": 61,
+        "avgPromptTerms": 7.9,
+        "avgOptionTerms": 3.39,
+        "uniqueReferencedTerms": 201,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 78.35
+      }
+    },
+    {
+      "setId": "latsol-tambahan-01",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-05",
+      "questionCount": 25,
+      "optionCount": 86,
+      "totalContexts": 111,
+      "before": {
+        "promptContextsNonEmpty": 25,
+        "optionContextsNonEmpty": 86,
+        "uniqueReferencedTerms": 212,
+        "v2CompletenessErrors": 17,
+        "spanCoveragePct": 61.91
+      },
+      "after": {
+        "promptContextsNonEmpty": 25,
+        "optionContextsNonEmpty": 86,
+        "avgPromptTerms": 6.76,
+        "avgOptionTerms": 2.92,
+        "uniqueReferencedTerms": 216,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 66.72
+      }
+    },
+    {
+      "setId": "latsol-tambahan-02",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-01",
+      "questionCount": 30,
+      "optionCount": 120,
+      "totalContexts": 150,
+      "before": {
+        "promptContextsNonEmpty": 30,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 316,
+        "v2CompletenessErrors": 224,
+        "spanCoveragePct": 47.55
+      },
+      "after": {
+        "promptContextsNonEmpty": 30,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 5.23,
+        "avgOptionTerms": 3.11,
+        "uniqueReferencedTerms": 299,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 69.93
+      }
+    },
+    {
+      "setId": "latsol-hitungan-01",
+      "role": "target_repair_50",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "batchId": "batch-05",
+      "questionCount": 11,
+      "optionCount": 33,
+      "totalContexts": 44,
+      "before": {
+        "promptContextsNonEmpty": 11,
+        "optionContextsNonEmpty": 33,
+        "uniqueReferencedTerms": 41,
+        "v2CompletenessErrors": 11,
+        "spanCoveragePct": 65.63
+      },
+      "after": {
+        "promptContextsNonEmpty": 11,
+        "optionContextsNonEmpty": 33,
+        "avgPromptTerms": 15.09,
+        "avgOptionTerms": 2.09,
+        "uniqueReferencedTerms": 45,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 67.89
+      }
+    },
+    {
+      "setId": "pilot-otaff51-01",
+      "role": "target_repair_50",
+      "cohort": "cohort_4_pilot_otaff51",
+      "batchId": "batch-02",
+      "questionCount": 5,
+      "optionCount": 20,
+      "totalContexts": 25,
+      "before": {
+        "promptContextsNonEmpty": 5,
+        "optionContextsNonEmpty": 20,
+        "uniqueReferencedTerms": 115,
+        "v2CompletenessErrors": 72,
+        "spanCoveragePct": 63.64
+      },
+      "after": {
+        "promptContextsNonEmpty": 5,
+        "optionContextsNonEmpty": 20,
+        "avgPromptTerms": 15.4,
+        "avgOptionTerms": 7.4,
+        "uniqueReferencedTerms": 148,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 76.71
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-01",
+      "role": "protected_reference",
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "batchId": null,
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 601,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 79.89
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.65,
+        "avgOptionTerms": 4.73,
+        "uniqueReferencedTerms": 601,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 79.89
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-02",
+      "role": "protected_reference",
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "batchId": null,
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 679,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 79.92
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 16.57,
+        "avgOptionTerms": 5.38,
+        "uniqueReferencedTerms": 679,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 79.92
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-03",
+      "role": "protected_reference",
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "batchId": null,
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 687,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 78.56
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.88,
+        "avgOptionTerms": 6.43,
+        "uniqueReferencedTerms": 687,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 78.56
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-04",
+      "role": "protected_reference",
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "batchId": null,
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 734,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 78.32
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.97,
+        "avgOptionTerms": 7.21,
+        "uniqueReferencedTerms": 734,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 78.32
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-05",
+      "role": "protected_reference",
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "batchId": null,
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 665,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 77.26
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 15.88,
+        "avgOptionTerms": 5.65,
+        "uniqueReferencedTerms": 665,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 77.26
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-06",
+      "role": "protected_reference",
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "batchId": null,
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 678,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 80.08
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 16.23,
+        "avgOptionTerms": 5.92,
+        "uniqueReferencedTerms": 678,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 80.08
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-07",
+      "role": "protected_reference",
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "batchId": null,
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 691,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 78.17
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 16.05,
+        "avgOptionTerms": 6.11,
+        "uniqueReferencedTerms": 691,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 78.17
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-08",
+      "role": "protected_reference",
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "batchId": null,
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 672,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 80.13
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 16.4,
+        "avgOptionTerms": 6.38,
+        "uniqueReferencedTerms": 672,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 80.13
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-09",
+      "role": "protected_reference",
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "batchId": null,
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 646,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 82.11
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 16.38,
+        "avgOptionTerms": 5.94,
+        "uniqueReferencedTerms": 646,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 82.11
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-10",
+      "role": "protected_reference",
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "batchId": null,
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "before": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 748,
+        "v2CompletenessErrors": 0,
+        "spanCoveragePct": 79.14
+      },
+      "after": {
+        "promptContextsNonEmpty": 40,
+        "optionContextsNonEmpty": 120,
+        "avgPromptTerms": 16.57,
+        "avgOptionTerms": 6.73,
+        "uniqueReferencedTerms": 748,
+        "v2CompletenessErrors": 0,
+        "strictValidatorErrors": 0,
+        "spanCoveragePct": 79.14
+      }
+    }
+  ]
+}

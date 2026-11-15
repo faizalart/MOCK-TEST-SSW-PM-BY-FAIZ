@@ -46,7 +46,7 @@ export const EXCLUDED_MASTER_SURFACES = new Set([
   'ぶら', '込', '挙', '殺', '受', '応', '脱', '慣', '移', '除', '黙', '付', '対',
   '端', '割', '話', '業', '違', '属', '機', '器', '渡', '居', '剤',
   'ぶつか', 'はなぜ', 'ければ', 'だし', '計画通', '仕組', 'とは', 'はな', '近づ', '煮込',
-  '及', '取り', '下さ', '込ま', '込まれ',
+  '及', '取り', '下さ', '込ま', '込まれ', 'くだ',
 ]);
 
 // Curated phrase priority table (longest-first during tokenization)
@@ -67,7 +67,7 @@ export const EXTRA_CURATED_PHRASES = [
   '選びなさい', '選んで', '選び', '選びない', '正しい', '正しく', '正しくない', '正し',
   '広がりやすい', '広がり', '増えやすい', '増えない', '増やさない', '増えた', 'つけない',
   '汚染されにくい', '転びにくい', '腐りにくい', '気づきにくい', '乗りやすく', '乗りにくい', 'すべりやすくなっていた', 'すべりやすい',
-  '美味しく食べられる', '美味しく', '美味しい', '持ち上げ', '持ち上げる', '持ち上げて', '持ち込ませない', '持ち込まない', '持ち込まれた',
+  '美味しく食べられる', '美味しく', '美味しい', '持ち上げた', '持ち上げ', '持ち上げる', '持ち上げて', '持ち込ませない', '持ち込まない', '持ち込まれた',
   '取り除き', '取り除きます', '取り除く', '取り出す', '取りはずせる', '取り外して', '取り外す',
   '巻き込まれそうになった', '巻き込まれそうに', '巻き込まれそう', '巻き込まれる', '巻き込まれ', '巻き込み',
   '引っか掛かって', '引っかかって', '詰め込んでは', '詰め込んで', '詰め込む',
@@ -84,7 +84,7 @@ export const EXTRA_CURATED_PHRASES = [
   '伸ばした', '伸ばして', '伸ばす', '抱え', '下ろした', '立ち上がる', '滑って', '滑った', '転んで', '転んだり', '壊れて', '崩す', '痛める',
   '進めて', '進める', 'はずして', 'はずせる', 'はずす', 'そうじする', 'そうじ',
   // All-hiragana domain nouns/compounds found in tambahan-02 & reguler
-  'きかいそうさ', 'ちゅういじこう', 'きがいよういんぶんせき', 'きがいよういん', 'てがいよういん', 'けんこうきがいよういん',
+  'きかいそうさ', 'ちゅういじこう', 'きがいてきがいよういん', 'きがいよういんぶんせき', 'きがいよういん', 'てがいよういん', 'けんこうきがいよういん',
   'がほうきん', 'おうしょくブドウ', 'おうしょく', 'かねつおんど', 'じゅうようかんりてん', 'けんしょうほうほう',
   'ひつようなもの', 'ふようなもの', 'いぶつこんにゅう', 'しようきぐ', 'しようした', 'しようしない',
   'せんじょうそうち', 'せんじょうざい', 'さっきんざい', 'しょうどく', 'しょどくえき', 'しょどく', 'せんざい', 'すりこみ',
@@ -100,7 +100,7 @@ export const EXTRA_CURATED_PHRASES = [
   'かいてん', 'ぶぶん', 'ささえる', 'せんよう', 'どうぐ', 'つねに', 'せいかつ', 'せいけつ', 'せいとん', 'せいり',
   'ふくそう', 'とくに', 'すべり', 'だれにも', 'だれ', 'あらいます', 'びんづめ', 'あいだ', 'はげしい', 'すばやく', 'なかなか',
   'ほうこく', 'もどします', 'ボルト', 'しめるとき', 'ちから', 'しせい', 'さける', 'てくび', 'あたま', 'たまご', 'ピナッツ', 'まめ',
-  'さいに', 'ぶどう', 'こしょう', 'フォークリフト', 'スライサー', 'スイッチ', 'エアーカーテン',
+  'さいに', 'ぶどう', 'こしょう', 'フォークリフト', 'スライサー', 'スイッチを入れるな', 'スイッチ', 'エアーカーテン',
   '誰か', '他の', '後で', '次に', '後に', '時に', '普通', '居て',
   '日付検査機', '一般生菌数', '時間管理', '一番多い', '汚れないように', '分析', '時計', '指輪', '危険要因',
 ].sort((a, b) => [...b].length - [...a].length || b.length - a.length);
@@ -177,12 +177,34 @@ export function buildMasterLookup(dict) {
   }
   for (const list of bySurface.values()) {
     list.sort((a, b) => {
-      const sA = (a.id.startsWith('kb-otaff51-') ? 4 : 0) + (a.id.startsWith('kb-audit-') ? 3 : 0) + (a.entryType !== 'inflected_verb' ? 2 : 0) + (a.arti.length <= 45 ? 1 : 0);
-      const sB = (b.id.startsWith('kb-otaff51-') ? 4 : 0) + (b.id.startsWith('kb-audit-') ? 3 : 0) + (b.entryType !== 'inflected_verb' ? 2 : 0) + (b.arti.length <= 45 ? 1 : 0);
+      const sA = (a.id.startsWith('kb-otaff51-') ? 4 : 0) + (a.id.startsWith('kb-audit-') ? 3 : 0) + (['kb-latsol-liter', 'kb-latsol-tsu', 'kb-latsol-celsius'].includes(a.id) ? 1 : 0) + (a.entryType !== 'inflected_verb' ? 2 : 0) + (a.arti.length <= 45 ? 1 : 0);
+      const sB = (b.id.startsWith('kb-otaff51-') ? 4 : 0) + (b.id.startsWith('kb-audit-') ? 3 : 0) + (['kb-latsol-liter', 'kb-latsol-tsu', 'kb-latsol-celsius'].includes(b.id) ? 1 : 0) + (b.entryType !== 'inflected_verb' ? 2 : 0) + (b.arti.length <= 45 ? 1 : 0);
       return sB - sA;
     });
   }
   return bySurface;
+}
+
+function matchUnitAt(plain, i) {
+  const ch = plain[i];
+  if (ch === '℃') return { surface: '℃', reading: 'ど', len: 1 };
+  if (ch === '㎏') return { surface: '㎏', reading: 'きろぐらむ', len: 1 };
+  if (ch === '%') return { surface: '%', reading: '', len: 1 };
+  if (ch === '％') return { surface: '％', reading: '', len: 1 };
+  if ((plain.startsWith('°C', i) || plain.startsWith('ºC', i)) && !/[A-Za-z0-9]/.test(plain[i + 2] || '')) {
+    return { surface: plain.slice(i, i + 2), reading: 'ど', len: 2 };
+  }
+  const beforeTrim = plain.slice(0, i).replace(/[ \u3000]+$/, '');
+  const digitAttached = /[0-9０-９]$/.test(beforeTrim) && !/[A-Za-z][0-9０-９]+$/.test(beforeTrim);
+  if (digitAttached) {
+    if (ch === 'つ') return { surface: 'つ', reading: 'つ', len: 1 };
+    for (const u of ['ppm', 'ml', 'kg', 'L', 'g', 'm']) {
+      if (plain.startsWith(u, i) && !/[A-Za-z0-9]/.test(plain[i + u.length] || '')) {
+        return { surface: u, reading: u.toLowerCase(), len: u.length };
+      }
+    }
+  }
+  return null;
 }
 
 export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedMap = {}, dryRun = false }) {
@@ -215,7 +237,7 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
     const out = [];
     const seen = new Set();
     const push = (s, r) => {
-      if (!s || /^[0-9０-９.,\-+℃°%％~〜～・]+$/.test(s)) return;
+      if (!s || /^[0-9０-９.,\-+°~〜～・]+$/.test(s)) return;
       if (PURE_PARTICLES.has(s)) return;
       if (/^[A-Za-z]+$/.test(s) && !TECHNICAL_ASCII.has(s)) return;
       if (!seen.has(s)) { seen.add(s); out.push({ surface: s, reading: r || '' }); }
@@ -226,7 +248,11 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
       const ch = plain[i];
       const prevCh = i > 0 ? plain[i - 1] : '';
 
-      // 0. Technical ASCII
+      // 0a. Measurement units & digit-attached counters (℃, °C, ºC, ㎏, %, ％, 2L, 15kg, 100ml, 3つ)
+      const um = matchUnitAt(plain, i);
+      if (um) { push(um.surface, um.reading); i += um.len; continue; }
+
+      // 0b. Technical ASCII
       if (!/[A-Za-z0-9]/.test(prevCh)) {
         let th = null;
         for (const t of (TECH_INDEX.get(ch) || [])) {
@@ -234,7 +260,7 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
         }
         if (th) { push(th, th.toLowerCase()); i += th.length; continue; }
       }
-      if (/[\s、。・「」『』（）()／→：；,."'%％℃°\-+〜～【】◎×○0-9０-９①-⑩!！※\[\]．＋\?？]/.test(ch)) { i++; continue; }
+      if (/[\s、。・「」『』（）()／→：；,."'\-+〜～【】◎×○0-9０-９①-⑩!！※\[\]．＋\?？°]/.test(ch)) { i++; continue; }
 
       // 1. Curated multi-word / tricky phrase
       let chHit = null;
@@ -416,6 +442,17 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
                 rec.count++;
                 uncurated.set(err.surface, rec);
               }
+            }
+          }
+          // Add any explicit measurement units / digit-attached counters in Cohort 1
+          for (let ui = 0; ui < plain.length; ) {
+            const um = matchUnitAt(plain, ui);
+            if (um) {
+              const uid = pickBestId(um.surface);
+              if (uid) addId(uid);
+              ui += um.len;
+            } else {
+              ui++;
             }
           }
           // Prune any Cohort 1 substring-swallowed kanji fragment whose removal still leaves 100% span coverage

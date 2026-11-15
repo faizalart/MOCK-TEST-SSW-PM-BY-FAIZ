@@ -278,10 +278,10 @@
     },
     "schemaVersion": "2.0.0",
     "dataVersion": "20261113-v2",
-    "totalTerms": 6538,
-    "verifiedTerms": 6494,
-    "verifiedCount": 6494,
-    "updatedAt": "2026-11-15T16:22:17.860Z"
+    "totalTerms": 6547,
+    "verifiedTerms": 6503,
+    "verifiedCount": 6503,
+    "updatedAt": "2026-11-15T16:37:13.187Z"
   },
   "terms": {
     "kb-ext-0001-e383bce383": {
@@ -116032,6 +116032,79 @@
       "furigana": "びょう",
       "unitType": "word",
       "arti": "detik (satuan waktu)",
+      "status": "verified"
+    },
+    "kb-audit-0180": {
+      "id": "kb-audit-0180",
+      "kanji": "きんぞく",
+      "furigana": "きんぞく",
+      "unitType": "word",
+      "arti": "logam (penulisan hiragana dari 金属)",
+      "status": "verified"
+    },
+    "kb-audit-0181": {
+      "id": "kb-audit-0181",
+      "kanji": "かみのけ",
+      "furigana": "かみのけ",
+      "unitType": "word",
+      "arti": "rambut / helai rambut (髪の毛)",
+      "status": "verified"
+    },
+    "kb-audit-0182": {
+      "id": "kb-audit-0182",
+      "kanji": "きがいてきがいよういん",
+      "furigana": "きがいてきがいよういん",
+      "unitType": "word",
+      "arti": "istilah pengecoh (pelafalan rancu)",
+      "status": "verified"
+    },
+    "kb-audit-0183": {
+      "id": "kb-audit-0183",
+      "kanji": "いみ",
+      "furigana": "いみ",
+      "unitType": "word",
+      "arti": "arti / makna (意味)",
+      "status": "verified"
+    },
+    "kb-audit-0184": {
+      "id": "kb-audit-0184",
+      "kanji": "°C",
+      "furigana": "ど",
+      "unitType": "technical",
+      "arti": "derajat Celcius (satuan suhu)",
+      "status": "verified"
+    },
+    "kb-audit-0185": {
+      "id": "kb-audit-0185",
+      "kanji": "ºC",
+      "furigana": "ど",
+      "unitType": "technical",
+      "arti": "derajat Celcius (satuan suhu)",
+      "status": "verified"
+    },
+    "kb-audit-0186": {
+      "id": "kb-audit-0186",
+      "kanji": "%",
+      "furigana": "",
+      "unitType": "technical",
+      "arti": "persen (satuan persentase %)",
+      "status": "verified"
+    },
+    "kb-audit-0187": {
+      "id": "kb-audit-0187",
+      "kanji": "げんそく",
+      "furigana": "げんそく",
+      "unitType": "word",
+      "arti": "prinsip dasar (原則)",
+      "status": "verified"
+    },
+    "kb-audit-0188": {
+      "id": "kb-audit-0188",
+      "kanji": "閉めます",
+      "furigana": "しめます",
+      "unitType": "inflected_verb",
+      "arti": "menutup (pintu/tutup)",
+      "dictForm": "閉める",
       "status": "verified"
     }
   }

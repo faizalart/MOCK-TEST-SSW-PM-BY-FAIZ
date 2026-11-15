@@ -187,6 +187,16 @@ export const CURATED_ROWS = [
   ['日後', 'にちご', 'word', 'sekian hari setelahnya / hari kemudian'],
   // Batch 06 — bonus-soal-8, bonus-soal-10, bonus-soal-5, bonus-soal-6, kunci-ujian-11
   ['秒', 'びょう', 'word', 'detik (satuan waktu)'],
+  // Final convergence — genuine hiragana lexical & measurement unit terms
+  ['きんぞく', 'きんぞく', 'word', 'logam (penulisan hiragana dari 金属)'],
+  ['かみのけ', 'かみのけ', 'word', 'rambut / helai rambut (髪の毛)'],
+  ['きがいてきがいよういん', 'きがいてきがいよういん', 'word', 'istilah pengecoh (pelafalan rancu)'],
+  ['いみ', 'いみ', 'word', 'arti / makna (意味)'],
+  ['°C', 'ど', 'technical', 'derajat Celcius (satuan suhu)'],
+  ['ºC', 'ど', 'technical', 'derajat Celcius (satuan suhu)'],
+  ['%', '', 'technical', 'persen (satuan persentase %)'],
+  ['げんそく', 'げんそく', 'word', 'prinsip dasar (原則)'],
+  ['閉めます', 'しめます', 'inflected_verb', 'menutup (pintu/tutup)', '閉める'],
 ];
 
 export function buildCuratedMap() {

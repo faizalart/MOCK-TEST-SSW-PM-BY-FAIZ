@@ -1,0 +1,451 @@
+{
+  "generatedAt": "2026-11-15T16:40:16.839Z",
+  "branch": "fix/kotoba-audit-40",
+  "baselineBackupDir": "deliverables/kotoba-audit-40/backups/baseline-20261115/data",
+  "modifiedDataFilesCount": 7,
+  "modifiedDataFiles": [
+    "data/kotoba-dan-kategori-tambahan.json",
+    "data/kotobaMapping.json",
+    "data/pilot-otaff51-01.json",
+    "data/sharedKotobaDictionary.json",
+    "data/ssw-pm-kunci-ujian-14.json",
+    "data/ssw-pm-kunci-ujian-15.json",
+    "data/ssw-pm-kunci-ujian-16.json"
+  ],
+  "unchangedProtectedOtaffFiles": [
+    "data/latsol-otaff-pm51-01.json",
+    "data/latsol-otaff-pm51-02.json",
+    "data/latsol-otaff-pm51-03.json",
+    "data/latsol-otaff-pm51-04.json",
+    "data/latsol-otaff-pm51-05.json",
+    "data/latsol-otaff-pm51-06.json",
+    "data/latsol-otaff-pm51-07.json",
+    "data/latsol-otaff-pm51-08.json",
+    "data/latsol-otaff-pm51-09.json",
+    "data/latsol-otaff-pm51-10.json"
+  ],
+  "allDataFiles": [
+    {
+      "path": "data/kotoba-dan-kategori-tambahan.json",
+      "role": "modified_master_kotoba_sidecar",
+      "changed": true,
+      "baselineSha256": "83846c5124e18e69e527c8f7070685ea9bb38a42b25199be1773010c6353a449",
+      "currentSha256": "ee030e0748a255a5c7b62aa55ec0b8c5fd14f604362c8dd00e60b94e876373c9",
+      "baselineBytes": 3558102,
+      "currentBytes": 3926258
+    },
+    {
+      "path": "data/kotobaMapping.json",
+      "role": "modified_master_kotoba_sidecar",
+      "changed": true,
+      "baselineSha256": "c26d9e919f1162a75c431ae436936fdf340c87e8bf0f27f1baca9d0050fe8219",
+      "currentSha256": "c51d31e56dc2c8ea8b00c90be7c439e31e8c9209c312435b770158a9123294d4",
+      "baselineBytes": 2817537,
+      "currentBytes": 2952784
+    },
+    {
+      "path": "data/latsol-hitungan-01.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "515593a2a76b26bd8ce3671a74763e70b6eaefa3da0f6a7261c2bbdaf8373449",
+      "currentSha256": "515593a2a76b26bd8ce3671a74763e70b6eaefa3da0f6a7261c2bbdaf8373449",
+      "baselineBytes": 29836,
+      "currentBytes": 29836
+    },
+    {
+      "path": "data/latsol-nguyen-01.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "c320d56969bc5068e6600f37c689d730b0ec9810ce492f12d4bb4bad23eded1e",
+      "currentSha256": "c320d56969bc5068e6600f37c689d730b0ec9810ce492f12d4bb4bad23eded1e",
+      "baselineBytes": 104774,
+      "currentBytes": 104774
+    },
+    {
+      "path": "data/latsol-nguyen-02.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "53f5a4861eadf3a5ee5b5ab4a627eb37fcbee0af5346884fca4b449896041767",
+      "currentSha256": "53f5a4861eadf3a5ee5b5ab4a627eb37fcbee0af5346884fca4b449896041767",
+      "baselineBytes": 99747,
+      "currentBytes": 99747
+    },
+    {
+      "path": "data/latsol-nguyen-03.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "0fbef4d719bfd569d73e5f8d8ea3715477e0728c0d21d4f2ff9d9727859ac3c7",
+      "currentSha256": "0fbef4d719bfd569d73e5f8d8ea3715477e0728c0d21d4f2ff9d9727859ac3c7",
+      "baselineBytes": 101494,
+      "currentBytes": 101494
+    },
+    {
+      "path": "data/latsol-nguyen-04.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "59dca253ec9b431f4c93b2e50ab4092fcff1cb783169f2a4b2d073310f70130d",
+      "currentSha256": "59dca253ec9b431f4c93b2e50ab4092fcff1cb783169f2a4b2d073310f70130d",
+      "baselineBytes": 104481,
+      "currentBytes": 104481
+    },
+    {
+      "path": "data/latsol-nguyen-05.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "2661f907838decc0c74c912ad22372b8c6c327420ab25bc899057956d24ac9cd",
+      "currentSha256": "2661f907838decc0c74c912ad22372b8c6c327420ab25bc899057956d24ac9cd",
+      "baselineBytes": 95731,
+      "currentBytes": 95731
+    },
+    {
+      "path": "data/latsol-nguyen-06.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "615a178afcf97e58bed64d8561945687ca4865e2b1f6ae469a1fe48c8c3ee04f",
+      "currentSha256": "615a178afcf97e58bed64d8561945687ca4865e2b1f6ae469a1fe48c8c3ee04f",
+      "baselineBytes": 98774,
+      "currentBytes": 98774
+    },
+    {
+      "path": "data/latsol-nguyen-07.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "be93326065b3abe5a6068a8b2894a2894029d8f3c6efbf3058a69931cf45e42f",
+      "currentSha256": "be93326065b3abe5a6068a8b2894a2894029d8f3c6efbf3058a69931cf45e42f",
+      "baselineBytes": 103719,
+      "currentBytes": 103719
+    },
+    {
+      "path": "data/latsol-nguyen-08.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "b67db4d29bb3e3b61a40c5dd920f2fb50c6977c7ec74729dee6df29e99966f52",
+      "currentSha256": "b67db4d29bb3e3b61a40c5dd920f2fb50c6977c7ec74729dee6df29e99966f52",
+      "baselineBytes": 100852,
+      "currentBytes": 100852
+    },
+    {
+      "path": "data/latsol-nguyen-09.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "c7bfb0452f18da069feb666764c5c23f0b241b77903ef6d6c1798d0d0ad5d47a",
+      "currentSha256": "c7bfb0452f18da069feb666764c5c23f0b241b77903ef6d6c1798d0d0ad5d47a",
+      "baselineBytes": 106028,
+      "currentBytes": 106028
+    },
+    {
+      "path": "data/latsol-nguyen-10.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "e218346b0199bfdbf177bc10afaff6caeb64dc6f3575dc78d1a4ba248f9d9b75",
+      "currentSha256": "e218346b0199bfdbf177bc10afaff6caeb64dc6f3575dc78d1a4ba248f9d9b75",
+      "baselineBytes": 108833,
+      "currentBytes": 108833
+    },
+    {
+      "path": "data/latsol-otaff-pm51-01.json",
+      "role": "protected_otaff_reference",
+      "changed": false,
+      "baselineSha256": "7993bc3295854c3d13561628b96ae9061ddec889e7d815bd77e11629a1a5cc66",
+      "currentSha256": "7993bc3295854c3d13561628b96ae9061ddec889e7d815bd77e11629a1a5cc66",
+      "baselineBytes": 301479,
+      "currentBytes": 301479
+    },
+    {
+      "path": "data/latsol-otaff-pm51-02.json",
+      "role": "protected_otaff_reference",
+      "changed": false,
+      "baselineSha256": "40ec3f0386929d76e98742e4089794a6e5991b684e80678934c482a18598338f",
+      "currentSha256": "40ec3f0386929d76e98742e4089794a6e5991b684e80678934c482a18598338f",
+      "baselineBytes": 320244,
+      "currentBytes": 320244
+    },
+    {
+      "path": "data/latsol-otaff-pm51-03.json",
+      "role": "protected_otaff_reference",
+      "changed": false,
+      "baselineSha256": "bd0074fafb998ec59862fd503be9a44b0d783e6727427f189f653c4e7f3e833c",
+      "currentSha256": "bd0074fafb998ec59862fd503be9a44b0d783e6727427f189f653c4e7f3e833c",
+      "baselineBytes": 329477,
+      "currentBytes": 329477
+    },
+    {
+      "path": "data/latsol-otaff-pm51-04.json",
+      "role": "protected_otaff_reference",
+      "changed": false,
+      "baselineSha256": "7bea344857e5c7b17af23c45eda7bfc51b1ec7c37bd332ef40dc327e2dd8b74d",
+      "currentSha256": "7bea344857e5c7b17af23c45eda7bfc51b1ec7c37bd332ef40dc327e2dd8b74d",
+      "baselineBytes": 348521,
+      "currentBytes": 348521
+    },
+    {
+      "path": "data/latsol-otaff-pm51-05.json",
+      "role": "protected_otaff_reference",
+      "changed": false,
+      "baselineSha256": "25d6d686797f91826a1ad3bc108bfa53b75cdbe3d9d4205cea54036735047b51",
+      "currentSha256": "25d6d686797f91826a1ad3bc108bfa53b75cdbe3d9d4205cea54036735047b51",
+      "baselineBytes": 315311,
+      "currentBytes": 315311
+    },
+    {
+      "path": "data/latsol-otaff-pm51-06.json",
+      "role": "protected_otaff_reference",
+      "changed": false,
+      "baselineSha256": "4626bdc707b29986f7c34632bf3471165f7d6240a6dd47d400c48791c1d5c727",
+      "currentSha256": "4626bdc707b29986f7c34632bf3471165f7d6240a6dd47d400c48791c1d5c727",
+      "baselineBytes": 327059,
+      "currentBytes": 327059
+    },
+    {
+      "path": "data/latsol-otaff-pm51-07.json",
+      "role": "protected_otaff_reference",
+      "changed": false,
+      "baselineSha256": "c0ed1ae66db148c1a48a9fb7b548b5d124b0492e401e9c19c5a2a3330cd83c0e",
+      "currentSha256": "c0ed1ae66db148c1a48a9fb7b548b5d124b0492e401e9c19c5a2a3330cd83c0e",
+      "baselineBytes": 326966,
+      "currentBytes": 326966
+    },
+    {
+      "path": "data/latsol-otaff-pm51-08.json",
+      "role": "protected_otaff_reference",
+      "changed": false,
+      "baselineSha256": "f3b57da900116ae415fbe01d8620e9fe88227d6166102412f64268c1f23f4e45",
+      "currentSha256": "f3b57da900116ae415fbe01d8620e9fe88227d6166102412f64268c1f23f4e45",
+      "baselineBytes": 330469,
+      "currentBytes": 330469
+    },
+    {
+      "path": "data/latsol-otaff-pm51-09.json",
+      "role": "protected_otaff_reference",
+      "changed": false,
+      "baselineSha256": "b2e246fc879fce6541c2f2f348907381b9282ab8803f3af1569c81f1ada3b4c3",
+      "currentSha256": "b2e246fc879fce6541c2f2f348907381b9282ab8803f3af1569c81f1ada3b4c3",
+      "baselineBytes": 330004,
+      "currentBytes": 330004
+    },
+    {
+      "path": "data/latsol-otaff-pm51-10.json",
+      "role": "protected_otaff_reference",
+      "changed": false,
+      "baselineSha256": "832c30cc284ee8661bd1e5f44dfa4363cf3cfd0b3c02b4a1a63125c9b4cb9a83",
+      "currentSha256": "832c30cc284ee8661bd1e5f44dfa4363cf3cfd0b3c02b4a1a63125c9b4cb9a83",
+      "baselineBytes": 343946,
+      "currentBytes": 343946
+    },
+    {
+      "path": "data/latsol-reguler-01.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "81b01f4e2b2b1510cfe81447ab3ab6003daae10a5b055a7cc0cceb034c3c8651",
+      "currentSha256": "81b01f4e2b2b1510cfe81447ab3ab6003daae10a5b055a7cc0cceb034c3c8651",
+      "baselineBytes": 45714,
+      "currentBytes": 45714
+    },
+    {
+      "path": "data/latsol-reguler-02.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "2071f5da2ae47cfa0b611babffc359d0a3d63f192b8d5c7f66d8d2b7764bdddd",
+      "currentSha256": "2071f5da2ae47cfa0b611babffc359d0a3d63f192b8d5c7f66d8d2b7764bdddd",
+      "baselineBytes": 44929,
+      "currentBytes": 44929
+    },
+    {
+      "path": "data/latsol-reguler-03.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "dab45165aef4737d5a6047515862fd9147f233dffd1495ebcbc83328f9d84c3d",
+      "currentSha256": "dab45165aef4737d5a6047515862fd9147f233dffd1495ebcbc83328f9d84c3d",
+      "baselineBytes": 44782,
+      "currentBytes": 44782
+    },
+    {
+      "path": "data/latsol-reguler-04.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "7a055948632db28d3e7451190caf0708710db631e888d23b60039b1a9e7b66a5",
+      "currentSha256": "7a055948632db28d3e7451190caf0708710db631e888d23b60039b1a9e7b66a5",
+      "baselineBytes": 53523,
+      "currentBytes": 53523
+    },
+    {
+      "path": "data/latsol-reguler-05.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "cfdf414c6635129e30debcf821d94c1e0f087793a1511a0600b8cecb252cddd3",
+      "currentSha256": "cfdf414c6635129e30debcf821d94c1e0f087793a1511a0600b8cecb252cddd3",
+      "baselineBytes": 49811,
+      "currentBytes": 49811
+    },
+    {
+      "path": "data/latsol-reguler-06.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "560312b52e06419cec7e9d48817856d3931defa94ae3cc3e021dd5824fa20854",
+      "currentSha256": "560312b52e06419cec7e9d48817856d3931defa94ae3cc3e021dd5824fa20854",
+      "baselineBytes": 47287,
+      "currentBytes": 47287
+    },
+    {
+      "path": "data/latsol-tambahan-01.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "3c1b93e4e66ab87d5c416ada51e82a6c2197eee2930df0366930ef590f85dd86",
+      "currentSha256": "3c1b93e4e66ab87d5c416ada51e82a6c2197eee2930df0366930ef590f85dd86",
+      "baselineBytes": 64393,
+      "currentBytes": 64393
+    },
+    {
+      "path": "data/latsol-tambahan-02.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "e0d4407b8a74dfd4b948f5a332e8f075fb9a35f2d0e7190eb8a0e9c9d23f108c",
+      "currentSha256": "e0d4407b8a74dfd4b948f5a332e8f075fb9a35f2d0e7190eb8a0e9c9d23f108c",
+      "baselineBytes": 76506,
+      "currentBytes": 76506
+    },
+    {
+      "path": "data/pilot-otaff51-01.json",
+      "role": "modified_target_package_inline_kotoba_only",
+      "changed": true,
+      "baselineSha256": "8929297614dff4a9e8632807fc17ee7fe4bbde4d316e499c0e2a5a7aa5e95b3b",
+      "currentSha256": "ad82c62eb42f2194c2e550d5a452a6e2c1138f665e302cf81532a25185a6ddba",
+      "baselineBytes": 46772,
+      "currentBytes": 51782
+    },
+    {
+      "path": "data/questions.json",
+      "role": "unchanged_legacy_archive",
+      "changed": false,
+      "baselineSha256": "b5861e1b6693ac3c43da1c3aa99301b49c6552f9d0f610d79ab3056b120400ea",
+      "currentSha256": "b5861e1b6693ac3c43da1c3aa99301b49c6552f9d0f610d79ab3056b120400ea",
+      "baselineBytes": 207998,
+      "currentBytes": 207998
+    },
+    {
+      "path": "data/sharedKotobaDictionary.json",
+      "role": "modified_master_kotoba_sidecar",
+      "changed": true,
+      "baselineSha256": "c3e279a0d839e8f0016094a5ee168ad23e900390e9c9659d93cfbc82f6acd14f",
+      "currentSha256": "f2a91623abbf0f2d89371b0cc98efb1f0b2713bd5f70728a658dad4865feef02",
+      "baselineBytes": 3698919,
+      "currentBytes": 3744002
+    },
+    {
+      "path": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "currentSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "baselineBytes": 7926778,
+      "currentBytes": 7926778
+    },
+    {
+      "path": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "currentSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "baselineBytes": 6775729,
+      "currentBytes": 6775729
+    },
+    {
+      "path": "data/ssw-pm-kunci-ujian-1.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "250e4fb81494432343125ecb7ec46d8b0918e7ad36874c47c4d1be983d517292",
+      "currentSha256": "250e4fb81494432343125ecb7ec46d8b0918e7ad36874c47c4d1be983d517292",
+      "baselineBytes": 112251,
+      "currentBytes": 112251
+    },
+    {
+      "path": "data/ssw-pm-kunci-ujian-14.json",
+      "role": "modified_target_package_inline_kotoba_only",
+      "changed": true,
+      "baselineSha256": "fb3de2a17d264e0d2c6be50448725dddf01dabe7c8973b43e39264bca2872bd8",
+      "currentSha256": "3ec02939b115e988147dc2d971b5bfa47fb44321505379db4239604a027d9166",
+      "baselineBytes": 243185,
+      "currentBytes": 329154
+    },
+    {
+      "path": "data/ssw-pm-kunci-ujian-15.json",
+      "role": "modified_target_package_inline_kotoba_only",
+      "changed": true,
+      "baselineSha256": "9f338bb9b92aecf4bd130f5cd414deb61bed4a7ec684b27754f8489a474baffa",
+      "currentSha256": "a9751d7510622a9d99c802cdd1d4208762ff867c72700de8876bcfe58bc172b2",
+      "baselineBytes": 142565,
+      "currentBytes": 214546
+    },
+    {
+      "path": "data/ssw-pm-kunci-ujian-16.json",
+      "role": "modified_target_package_inline_kotoba_only",
+      "changed": true,
+      "baselineSha256": "7a7031806a1baf76105d35520a3fdaf67dd24faccbd07779bc16ff72a34c3b15",
+      "currentSha256": "b947da5ff6500560ff960cf1d09b3650cd0e3fe5598ea1e525056993ba7e3ff4",
+      "baselineBytes": 185501,
+      "currentBytes": 277879
+    },
+    {
+      "path": "data/ssw-pm-kunci-ujian-2.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "b472cdc3be7446b67c4bfd2d54735ff02060bcb2a3f65eee4e7f44d5e69f484d",
+      "currentSha256": "b472cdc3be7446b67c4bfd2d54735ff02060bcb2a3f65eee4e7f44d5e69f484d",
+      "baselineBytes": 196253,
+      "currentBytes": 196253
+    },
+    {
+      "path": "data/ssw-pm-special-lab-bundle.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "9a1de8cc67d92da19b4b810537670b587d977aa3f8a21dc88efaa4f49a89748e",
+      "currentSha256": "9a1de8cc67d92da19b4b810537670b587d977aa3f8a21dc88efaa4f49a89748e",
+      "baselineBytes": 314006,
+      "currentBytes": 314006
+    },
+    {
+      "path": "data/ssw-pm-tipe2-nguyen1.json",
+      "role": "unchanged_target_package",
+      "changed": false,
+      "baselineSha256": "f6ba05e7830352859cff29fb24b60529c304c9ee62960e2cca989b094b9c98c3",
+      "currentSha256": "f6ba05e7830352859cff29fb24b60529c304c9ee62960e2cca989b094b9c98c3",
+      "baselineBytes": 102572,
+      "currentBytes": 102572
+    }
+  ],
+  "deliverablesAndToolingFiles": [
+    "deliverables/kotoba-audit-40/backups",
+    "deliverables/kotoba-audit-40/baseline-immutable-snapshot.json",
+    "deliverables/kotoba-audit-40/baseline-report.json",
+    "deliverables/kotoba-audit-40/baseline-report.md",
+    "deliverables/kotoba-audit-40/batches",
+    "deliverables/kotoba-audit-40/build-final-deliverables.mjs",
+    "deliverables/kotoba-audit-40/changed-files-manifest.json",
+    "deliverables/kotoba-audit-40/curated-audit-terms.mjs",
+    "deliverables/kotoba-audit-40/inspect-batch.mjs",
+    "deliverables/kotoba-audit-40/inspect-hira3.mjs",
+    "deliverables/kotoba-audit-40/kotoba-audit-40-final.json",
+    "deliverables/kotoba-audit-40/kotoba-audit-40-final.md",
+    "deliverables/kotoba-audit-40/kotoba-audit-50-delta.json",
+    "deliverables/kotoba-audit-40/lib-repair-batch.mjs",
+    "deliverables/kotoba-audit-40/phase0-chronology-and-errors.mjs",
+    "deliverables/kotoba-audit-40/phase0-discover.mjs",
+    "deliverables/kotoba-audit-40/phase0-discovery-raw.json",
+    "deliverables/kotoba-audit-40/phase0-forensic-ids.mjs",
+    "deliverables/kotoba-audit-40/phase1-build-manifest-and-baseline.mjs",
+    "deliverables/kotoba-audit-40/phase2-all50-audit-findings.json",
+    "deliverables/kotoba-audit-40/phase2-audit-all-50-contexts.mjs",
+    "deliverables/kotoba-audit-40/phase2b-deep-anomalies.mjs",
+    "deliverables/kotoba-audit-40/phase2c-scan-hiragana-and-full.mjs",
+    "deliverables/kotoba-audit-40/phase3-extract-all-surfaces.mjs",
+    "deliverables/kotoba-audit-40/phase3-surface-extraction-report.json",
+    "deliverables/kotoba-audit-40/progress.json",
+    "deliverables/kotoba-audit-40/progress.md",
+    "deliverables/kotoba-audit-40/protected-packages-integrity-report.json",
+    "deliverables/kotoba-audit-40/run-batch.mjs",
+    "deliverables/kotoba-audit-40/target-manifest.json",
+    "deliverables/kotoba-audit-40/unresolved-findings.json",
+    "deliverables/kotoba-audit-40/validate-batch.mjs",
+    "deliverables/kotoba-audit-40/verify-browser-kotoba.mjs"
+  ]
+}

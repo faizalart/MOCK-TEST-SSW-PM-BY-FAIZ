@@ -1,6 +1,6 @@
 {
   "batchId": "batch-01",
-  "completedAt": "2026-11-15T16:12:00.789Z",
+  "completedAt": "2026-11-15T16:31:51.273Z",
   "packages": [
     "ssw-pm-kunci-ujian-16",
     "ssw-pm-kunci-ujian-14",
@@ -8,43 +8,43 @@
     "latsol-tambahan-02",
     "latsol-reguler-05"
   ],
-  "beforeTotalErrors": 3813,
+  "beforeTotalErrors": 2,
   "afterTotalErrors": 0,
   "beforeByPackage": [
     {
       "setId": "ssw-pm-kunci-ujian-16",
       "cohort": "cohort_3_unaudited_ujian_14_16",
       "questions": 50,
-      "errors": 1295,
-      "spanPct": 26.34
+      "errors": 0,
+      "spanPct": 77.57
     },
     {
       "setId": "ssw-pm-kunci-ujian-14",
       "cohort": "cohort_3_unaudited_ujian_14_16",
       "questions": 59,
-      "errors": 1207,
-      "spanPct": 36.22
+      "errors": 0,
+      "spanPct": 77.46
     },
     {
       "setId": "ssw-pm-kunci-ujian-15",
       "cohort": "cohort_3_unaudited_ujian_14_16",
       "questions": 38,
-      "errors": 914,
-      "spanPct": 27.95
+      "errors": 0,
+      "spanPct": 74.73
     },
     {
       "setId": "latsol-tambahan-02",
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 30,
-      "errors": 280,
-      "spanPct": 47.55
+      "errors": 2,
+      "spanPct": 70.24
     },
     {
       "setId": "latsol-reguler-05",
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 20,
-      "errors": 117,
-      "spanPct": 59.93
+      "errors": 0,
+      "spanPct": 74.8
     }
   ],
   "afterByPackage": [
@@ -53,7 +53,7 @@
       "cohort": "cohort_3_unaudited_ujian_14_16",
       "questions": 50,
       "errors": 0,
-      "spanPct": 77.57,
+      "spanPct": 77.64,
       "spec009Check": null
     },
     {
@@ -61,7 +61,7 @@
       "cohort": "cohort_3_unaudited_ujian_14_16",
       "questions": 59,
       "errors": 0,
-      "spanPct": 77.46,
+      "spanPct": 77.4,
       "spec009Check": null
     },
     {
@@ -69,7 +69,7 @@
       "cohort": "cohort_3_unaudited_ujian_14_16",
       "questions": 38,
       "errors": 0,
-      "spanPct": 74.73,
+      "spanPct": 74.37,
       "spec009Check": null
     },
     {
@@ -77,7 +77,7 @@
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 30,
       "errors": 0,
-      "spanPct": 70.24,
+      "spanPct": 69.93,
       "spec009Check": null
     },
     {
@@ -85,7 +85,7 @@
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 20,
       "errors": 0,
-      "spanPct": 74.8,
+      "spanPct": 75.18,
       "spec009Check": null
     }
   ],
@@ -94,7 +94,7 @@
     "data/ssw-pm-kunci-ujian-14.json",
     "data/ssw-pm-kunci-ujian-15.json"
   ],
-  "curatedTermsTotalInMaster": 147,
+  "curatedTermsTotalInMaster": 188,
   "protected10Verified": true,
   "immutabilityVerified": true
 }
