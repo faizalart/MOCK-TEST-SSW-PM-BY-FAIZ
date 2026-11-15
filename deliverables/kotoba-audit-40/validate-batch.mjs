@@ -557,7 +557,9 @@ export function validatePackagesList({ packageIds, manifest, dict, mapping, kt, 
     const pkgErrors = [];
     for (const q of qs) {
       const pIds = mapping.questions?.[q.id];
-      const pHtml = q.prompt || q.questionText || extractQuestionPlainText(q);
+      const pHtml = pm.cohort === 'cohort_1_spec009_canonical'
+        ? extractQuestionPlainText(q)
+        : (q.prompt || q.questionText || extractQuestionPlainText(q));
       pkgErrors.push(...validateStrictContext({
         contextKey: q.id,
         html: pHtml,

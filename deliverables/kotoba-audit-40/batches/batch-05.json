@@ -1,0 +1,104 @@
+{
+  "batchId": "batch-05",
+  "completedAt": "2026-11-15T16:19:20.109Z",
+  "packages": [
+    "latsol-nguyen-08",
+    "latsol-tambahan-01",
+    "latsol-hitungan-01",
+    "ssw-pm-lab-bakteri",
+    "bonus-soal-1"
+  ],
+  "beforeTotalErrors": 125,
+  "afterTotalErrors": 0,
+  "beforeByPackage": [
+    {
+      "setId": "latsol-nguyen-08",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 39,
+      "errors": 44,
+      "spanPct": 75.28
+    },
+    {
+      "setId": "latsol-tambahan-01",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 25,
+      "errors": 38,
+      "spanPct": 61.91
+    },
+    {
+      "setId": "latsol-hitungan-01",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 11,
+      "errors": 21,
+      "spanPct": 65.63
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 32,
+      "errors": 13,
+      "spanPct": 100
+    },
+    {
+      "setId": "bonus-soal-1",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 9,
+      "spanPct": 100
+    }
+  ],
+  "afterByPackage": [
+    {
+      "setId": "latsol-nguyen-08",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 39,
+      "errors": 0,
+      "spanPct": 78.57,
+      "spec009Check": null
+    },
+    {
+      "setId": "latsol-tambahan-01",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 25,
+      "errors": 0,
+      "spanPct": 66.77,
+      "spec009Check": null
+    },
+    {
+      "setId": "latsol-hitungan-01",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 11,
+      "errors": 0,
+      "spanPct": 67.22,
+      "spec009Check": null
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 32,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": {
+        "validatorErrors": 0,
+        "spanCoveragePct": 100,
+        "unresolvedSpans": 0
+      }
+    },
+    {
+      "setId": "bonus-soal-1",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": {
+        "validatorErrors": 0,
+        "spanCoveragePct": 100,
+        "unresolvedSpans": 0
+      }
+    }
+  ],
+  "touchedPackageFiles": [],
+  "curatedTermsTotalInMaster": 178,
+  "protected10Verified": true,
+  "immutabilityVerified": true
+}

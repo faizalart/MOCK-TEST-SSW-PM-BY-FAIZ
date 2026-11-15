@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "updatedAt": "2026-11-15T16:16:26.368Z",
+    "updatedAt": "2026-11-15T16:19:20.109Z",
     "branch": "fix/kotoba-audit-40"
   },
   "targetManifestPath": "deliverables/kotoba-audit-40/target-manifest.json",
@@ -10,7 +10,8 @@
     "batch-01",
     "batch-02",
     "batch-03",
-    "batch-04"
+    "batch-04",
+    "batch-05"
   ],
   "completedPackageIds": [
     "ssw-pm-kunci-ujian-16",
@@ -32,10 +33,15 @@
     "latsol-nguyen-09",
     "latsol-nguyen-02",
     "latsol-nguyen-10",
-    "latsol-nguyen-01"
+    "latsol-nguyen-01",
+    "latsol-nguyen-08",
+    "latsol-tambahan-01",
+    "latsol-hitungan-01",
+    "ssw-pm-lab-bakteri",
+    "bonus-soal-1"
   ],
   "currentPackageId": null,
-  "currentPhase": "BATCH_BATCH-04_VERIFIED",
+  "currentPhase": "BATCH_BATCH-05_VERIFIED",
   "filesModifiedInProduction": [
     "data/sharedKotobaDictionary.json",
     "data/kotobaMapping.json",
@@ -49,6 +55,6 @@
     "baselineRecordedForAll60": true
   },
   "unresolvedFindings": {},
-  "lastSuccessfulCheckpoint": "batch-04-verified",
-  "nextAction": "Proceed with batch-05"
+  "lastSuccessfulCheckpoint": "batch-05-verified",
+  "nextAction": "Proceed with batch-06"
 }

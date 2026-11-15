@@ -477,7 +477,10 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
         });
       };
 
-      const nextQIds = resolveCtx(q.prompt || q.questionText || extractQuestionPlainText(q), mapping.questions?.[q.id] || []);
+      const qHtml = pm.cohort === 'cohort_1_spec009_canonical'
+        ? extractQuestionPlainText(q)
+        : (q.prompt || q.questionText || extractQuestionPlainText(q));
+      const nextQIds = resolveCtx(qHtml, mapping.questions?.[q.id] || []);
       mapping.questions[q.id] = nextQIds;
       mapping.options[q.id] = mapping.options[q.id] || {};
 

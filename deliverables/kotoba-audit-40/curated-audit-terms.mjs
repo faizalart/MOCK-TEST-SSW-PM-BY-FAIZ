@@ -180,6 +180,11 @@ export const CURATED_ROWS = [
   // Batch 04 — nguyen-03, nguyen-09, nguyen-02, nguyen-10, nguyen-01
   ['巻き込まれそうになった', 'まきこまれそうになった', 'word', 'hampir terlilit / terjepit mesin'],
   ['引っか掛かって', 'ひっかかかって', 'inflected_verb', 'tersangkut / terkait (penulisan 引っ掛かって)', '引っ掛かる'],
+  // Batch 05 — nguyen-08, tambahan-01, hitungan-01, ssw-pm-lab-bakteri, bonus-soal-1
+  ['NaCl', 'nacl', 'technical', 'Natrium klorida / garam dapur (NaCl)'],
+  ['下さい', 'ください', 'word', 'silakan / tolong (bentuk sopan ください)'],
+  ['動いてる', 'うごいてる', 'inflected_verb', 'sedang bergerak / beroperasi (動いている)', '動く'],
+  ['日後', 'にちご', 'word', 'sekian hari setelahnya / hari kemudian'],
 ];
 
 export function buildCuratedMap() {

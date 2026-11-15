@@ -278,10 +278,10 @@
     },
     "schemaVersion": "2.0.0",
     "dataVersion": "20261113-v2",
-    "totalTerms": 6533,
-    "verifiedTerms": 6489,
-    "verifiedCount": 6489,
-    "updatedAt": "2026-11-15T16:16:26.368Z"
+    "totalTerms": 6537,
+    "verifiedTerms": 6493,
+    "verifiedCount": 6493,
+    "updatedAt": "2026-11-15T16:19:20.109Z"
   },
   "terms": {
     "kb-ext-0001-e383bce383": {
@@ -115991,6 +115991,39 @@
       "unitType": "inflected_verb",
       "arti": "tersangkut / terkait (penulisan 引っ掛かって)",
       "dictForm": "引っ掛かる",
+      "status": "verified"
+    },
+    "kb-audit-0175": {
+      "id": "kb-audit-0175",
+      "kanji": "NaCl",
+      "furigana": "nacl",
+      "unitType": "technical",
+      "arti": "Natrium klorida / garam dapur (NaCl)",
+      "status": "verified"
+    },
+    "kb-audit-0176": {
+      "id": "kb-audit-0176",
+      "kanji": "下さい",
+      "furigana": "ください",
+      "unitType": "word",
+      "arti": "silakan / tolong (bentuk sopan ください)",
+      "status": "verified"
+    },
+    "kb-audit-0177": {
+      "id": "kb-audit-0177",
+      "kanji": "動いてる",
+      "furigana": "うごいてる",
+      "unitType": "inflected_verb",
+      "arti": "sedang bergerak / beroperasi (動いている)",
+      "dictForm": "動く",
+      "status": "verified"
+    },
+    "kb-audit-0178": {
+      "id": "kb-audit-0178",
+      "kanji": "日後",
+      "furigana": "にちご",
+      "unitType": "word",
+      "arti": "sekian hari setelahnya / hari kemudian",
       "status": "verified"
     }
   }
