@@ -38,6 +38,7 @@ export const PATCHED_DEFECTIVE_TERMS = {
   'kb-1402930': { arti: 'bunga es di freezer (harus dicairkan/defrost)' },
   'kb-1217730': { arti: 'wajah (dilarang menyentuh wajah saat mengolah pangan)' },
   'kb-u1416-3f4581a001': { furigana: 'きれこすれ' },
+  'kb-1502840': { arti: 'menit (satuan durasi waktu)' },
 };
 
 // Bad/fragment surfaces never auto-picked by tokenizer
@@ -375,17 +376,17 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
               if (e?.kanji === '一つ' && plain.includes('一選びない')) addId(pickBestId('一'));
               continue;
             }
-            if (e.kanji === '間' && (/([0-9０-９])秒間/.test(plain) || /([0-9０-９])分間/.test(plain) || /([0-9０-９])週間/.test(plain))) {
-              if (/[0-9０-９]秒間/.test(plain)) { addId(pickBestId('秒')); addId(pickBestId('秒間')); }
-              if (/[0-9０-９]分間/.test(plain)) { addId(pickBestId('分')); addId(pickBestId('分間')); }
-              if (/[0-9０-９]週間/.test(plain)) { addId(pickBestId('週間')); }
+            if (e.kanji === '間' && (/([0-9０-９])\s*秒間/.test(plain) || /([0-9０-９])\s*分間/.test(plain) || /([0-9０-９])\s*週間/.test(plain))) {
+              if (/[0-9０-９]\s*秒間/.test(plain)) { addId(pickBestId('秒間')); }
+              if (/[0-9０-９]\s*分間/.test(plain)) { addId(pickBestId('分間')); }
+              if (/[0-9０-９]\s*週間/.test(plain)) { addId(pickBestId('週間')); }
               continue;
             }
-            if (oldId === 'kb-v2-p4-068' && plain.includes('粘着ローラー')) {
+            if (oldId === 'kb-v2-p4-068' && plain.includes('粘着ローラー') && !plain.replace(/粘着ローラー/g, '').includes('粘着ローラ')) {
               addId(pickBestId('粘着ローラー'));
               continue;
             }
-            if (oldId === 'kb-v2-p3-141' && /[0-9０-９]日後/.test(plain)) {
+            if (oldId === 'kb-v2-p3-141' && /[0-9０-９]\s*日後/.test(plain)) {
               addId(pickBestId('日後'));
               continue;
             }
@@ -399,9 +400,13 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
           const preErrs = validateStrictContext({ contextKey: q.id, html, termIds: next, dict, knownLexiconIndex: null });
           for (const err of preErrs) {
             if (err.code === 'MISSING_LEXICAL_TERM' && err.surface) {
-              if (err.surface === '日' && /[0-9０-９]日後/.test(plain)) {
+              if (err.surface === '日' && /[0-9０-９]\s*日後/.test(plain)) {
                 const rid = pickBestId('日後');
                 if (rid) addId(rid);
+                continue;
+              }
+              if (err.surface === '分' && /[0-9０-９]\s*分(?!間)/.test(plain) && dict.terms['kb-1502840']) {
+                addId('kb-1502840');
                 continue;
               }
               const id = pickBestId(err.surface);
@@ -413,7 +418,33 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
               }
             }
           }
-          return next;
+          // Prune any Cohort 1 substring-swallowed kanji fragment whose removal still leaves 100% span coverage
+          const c1Resolved = next.map(id => dict.terms[id]).filter(Boolean);
+          const filtered = next.filter(id => {
+            const e = dict.terms[id];
+            if (!e || !hasKanji(e.kanji)) return true;
+            const offsets = [];
+            let idx = plain.indexOf(e.kanji);
+            while (idx !== -1) { offsets.push(idx); idx = plain.indexOf(e.kanji, idx + 1); }
+            if (!offsets.length) return false;
+            return offsets.some(pos => {
+              const end = pos + e.kanji.length;
+              const swallowed = c1Resolved.some(other =>
+                other.id !== e.id &&
+                other.kanji.length > e.kanji.length &&
+                (() => {
+                  let oi = plain.indexOf(other.kanji);
+                  while (oi !== -1) {
+                    if (oi <= pos && oi + other.kanji.length >= end) return true;
+                    oi = plain.indexOf(other.kanji, oi + 1);
+                  }
+                  return false;
+                })()
+              );
+              return !swallowed;
+            });
+          });
+          return filtered;
         }
 
         // Cohorts 2, 3, 4: full clean rebuild + retain valid non-colliding uncovered legacy terms

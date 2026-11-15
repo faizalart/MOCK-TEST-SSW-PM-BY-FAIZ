@@ -185,6 +185,8 @@ export const CURATED_ROWS = [
   ['下さい', 'ください', 'word', 'silakan / tolong (bentuk sopan ください)'],
   ['動いてる', 'うごいてる', 'inflected_verb', 'sedang bergerak / beroperasi (動いている)', '動く'],
   ['日後', 'にちご', 'word', 'sekian hari setelahnya / hari kemudian'],
+  // Batch 06 — bonus-soal-8, bonus-soal-10, bonus-soal-5, bonus-soal-6, kunci-ujian-11
+  ['秒', 'びょう', 'word', 'detik (satuan waktu)'],
 ];
 
 export function buildCuratedMap() {

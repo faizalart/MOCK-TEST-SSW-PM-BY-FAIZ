@@ -278,10 +278,10 @@
     },
     "schemaVersion": "2.0.0",
     "dataVersion": "20261113-v2",
-    "totalTerms": 6537,
-    "verifiedTerms": 6493,
-    "verifiedCount": 6493,
-    "updatedAt": "2026-11-15T16:19:20.109Z"
+    "totalTerms": 6538,
+    "verifiedTerms": 6494,
+    "verifiedCount": 6494,
+    "updatedAt": "2026-11-15T16:20:49.568Z"
   },
   "terms": {
     "kb-ext-0001-e383bce383": {
@@ -46349,7 +46349,7 @@
       "candidateEntSeqs": [
         "1502840"
       ],
-      "arti": "Menit (satuan durasi waktu pemanasan atau cuci tangan)",
+      "arti": "menit (satuan durasi waktu)",
       "provenance": {
         "lemmaSource": "jmdict_edrdg",
         "furiganaSource": "jmdict_edrdg",
@@ -116024,6 +116024,14 @@
       "furigana": "にちご",
       "unitType": "word",
       "arti": "sekian hari setelahnya / hari kemudian",
+      "status": "verified"
+    },
+    "kb-audit-0179": {
+      "id": "kb-audit-0179",
+      "kanji": "秒",
+      "furigana": "びょう",
+      "unitType": "word",
+      "arti": "detik (satuan waktu)",
       "status": "verified"
     }
   }
