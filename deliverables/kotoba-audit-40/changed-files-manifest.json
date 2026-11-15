@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T16:40:16.839Z",
+  "generatedAt": "2026-11-15T19:30:16.963Z",
   "branch": "fix/kotoba-audit-40",
   "baselineBackupDir": "deliverables/kotoba-audit-40/backups/baseline-20261115/data",
   "modifiedDataFilesCount": 7,
@@ -30,18 +30,18 @@
       "role": "modified_master_kotoba_sidecar",
       "changed": true,
       "baselineSha256": "83846c5124e18e69e527c8f7070685ea9bb38a42b25199be1773010c6353a449",
-      "currentSha256": "ee030e0748a255a5c7b62aa55ec0b8c5fd14f604362c8dd00e60b94e876373c9",
+      "currentSha256": "82bf84ab9f94437817f1a08d7df92d6faa621639f070a1e72288bcba3cbd4e5a",
       "baselineBytes": 3558102,
-      "currentBytes": 3926258
+      "currentBytes": 3960117
     },
     {
       "path": "data/kotobaMapping.json",
       "role": "modified_master_kotoba_sidecar",
       "changed": true,
       "baselineSha256": "c26d9e919f1162a75c431ae436936fdf340c87e8bf0f27f1baca9d0050fe8219",
-      "currentSha256": "c51d31e56dc2c8ea8b00c90be7c439e31e8c9209c312435b770158a9123294d4",
+      "currentSha256": "7b61ba8260a230c01084833ff7b692db68ed44f535d4c6256bad98d006f38318",
       "baselineBytes": 2817537,
-      "currentBytes": 2952784
+      "currentBytes": 2822876
     },
     {
       "path": "data/latsol-hitungan-01.json",
@@ -309,9 +309,9 @@
       "role": "modified_target_package_inline_kotoba_only",
       "changed": true,
       "baselineSha256": "8929297614dff4a9e8632807fc17ee7fe4bbde4d316e499c0e2a5a7aa5e95b3b",
-      "currentSha256": "ad82c62eb42f2194c2e550d5a452a6e2c1138f665e302cf81532a25185a6ddba",
+      "currentSha256": "f397c8d9a8f44182bdd45468d5a1d0932d16529235eaf866e0409718d8aead8f",
       "baselineBytes": 46772,
-      "currentBytes": 51782
+      "currentBytes": 52434
     },
     {
       "path": "data/questions.json",
@@ -327,9 +327,9 @@
       "role": "modified_master_kotoba_sidecar",
       "changed": true,
       "baselineSha256": "c3e279a0d839e8f0016094a5ee168ad23e900390e9c9659d93cfbc82f6acd14f",
-      "currentSha256": "f2a91623abbf0f2d89371b0cc98efb1f0b2713bd5f70728a658dad4865feef02",
+      "currentSha256": "c6d315876d77159359c41b5db367dab7804b4074956ff6e2a2f353f7aaa1505f",
       "baselineBytes": 3698919,
-      "currentBytes": 3744002
+      "currentBytes": 3980601
     },
     {
       "path": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
@@ -363,27 +363,27 @@
       "role": "modified_target_package_inline_kotoba_only",
       "changed": true,
       "baselineSha256": "fb3de2a17d264e0d2c6be50448725dddf01dabe7c8973b43e39264bca2872bd8",
-      "currentSha256": "3ec02939b115e988147dc2d971b5bfa47fb44321505379db4239604a027d9166",
+      "currentSha256": "9960d46f9534342e4f059a9258f63483c0b58f5cd59f99f2184c0f464faef132",
       "baselineBytes": 243185,
-      "currentBytes": 329154
+      "currentBytes": 332722
     },
     {
       "path": "data/ssw-pm-kunci-ujian-15.json",
       "role": "modified_target_package_inline_kotoba_only",
       "changed": true,
       "baselineSha256": "9f338bb9b92aecf4bd130f5cd414deb61bed4a7ec684b27754f8489a474baffa",
-      "currentSha256": "a9751d7510622a9d99c802cdd1d4208762ff867c72700de8876bcfe58bc172b2",
+      "currentSha256": "a78ba4353a3b75c1cca7398fe2cd034b9ca04dc93e28a12b5c468325e6de5c13",
       "baselineBytes": 142565,
-      "currentBytes": 214546
+      "currentBytes": 213243
     },
     {
       "path": "data/ssw-pm-kunci-ujian-16.json",
       "role": "modified_target_package_inline_kotoba_only",
       "changed": true,
       "baselineSha256": "7a7031806a1baf76105d35520a3fdaf67dd24faccbd07779bc16ff72a34c3b15",
-      "currentSha256": "b947da5ff6500560ff960cf1d09b3650cd0e3fe5598ea1e525056993ba7e3ff4",
+      "currentSha256": "8b949b4d265013fab58a2cd2b3955ec4679d0b4f6412220d4275f1f47c139361",
       "baselineBytes": 185501,
-      "currentBytes": 277879
+      "currentBytes": 281138
     },
     {
       "path": "data/ssw-pm-kunci-ujian-2.json",

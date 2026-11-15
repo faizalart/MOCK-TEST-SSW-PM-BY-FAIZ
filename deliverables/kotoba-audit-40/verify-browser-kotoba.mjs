@@ -232,8 +232,13 @@ async function main() {
     assert(t2OptA.some(t => t.kanji === 'つ'), 'tipe2-nguyen1 q024 Opt A must render つ');
     checks.push({ cohort: 'cohort_1', qId: 'q024::A', count: t2OptA.length, sample: t2OptA.map(t => t.kanji) });
 
-    // 3. Cohort 2: latsol-nguyen-01 #32 (prompt + opt A + furigana toggle) & #39 (sign スイッチを入れるな)
+    // 3. Cohort 2: latsol-nguyen-01 #1, #32 (prompt + opt A + furigana toggle) & #39 (sign スイッチを入れるな)
     await startPractice('latsol-nguyen-01', 40);
+    await jumpToQuestionId('nguyen01-q001');
+    const n01P = await togglePromptKotoba();
+    assert(n01P.some(t => t.kanji === 'アレルギー食品') && n01P.some(t => t.kanji === '特定原材料') && n01P.some(t => t.kanji === 'つ'), 'nguyen01-q001 prompt missing expected terms');
+    checks.push({ cohort: 'cohort_2', qId: 'nguyen01-q001', count: n01P.length, sample: n01P.map(t => t.kanji) });
+
     await jumpToQuestionId('nguyen01-q032');
     const n32P = await togglePromptKotoba();
     assert(n32P.some(t => t.kanji === '持ち上げた') && n32P.some(t => t.kanji === '間違っている'), 'nguyen01-q032 prompt missing expected repaired terms');
@@ -263,19 +268,78 @@ async function main() {
     const tb11A = await toggleOptionKotoba(0);
     const tb11B = await toggleOptionKotoba(1);
     assert(tb11A.some(t => t.kanji === 'きんぞく') && tb11B.some(t => t.kanji === 'かみのけ'), 'tambahan02-q011 options must render きんぞく and かみのけ');
+    await jumpToQuestionId('tambahan02-q016');
+    const tb16B = await toggleOptionKotoba(1);
+    assert(tb16B.some(t => t.kanji === 'よごれ') && tb16B.some(t => t.kanji === 'きがつきにくい'), 'tambahan02-q016 Opt B must render よごれ and きがつきにくい');
+    checks.push({ cohort: 'cohort_2', qId: 'tambahan02-q016::B', sample: tb16B.map(t => t.kanji) });
+
     await jumpToQuestionId('tambahan02-q028');
     const tb28C = await toggleOptionKotoba(2);
     assert(tb28C.some(t => t.kanji === 'きがいてきがいよういん'), 'tambahan02-q028 Opt C must render きがいてきがいよういん');
     checks.push({ cohort: 'cohort_2', qId: 'tambahan02-q011/q028', sample: [tb11A[0]?.kanji, tb11B[0]?.kanji, tb28C[0]?.kanji] });
 
-    // 6. Cohort 2: latsol-nguyen-05 #36 Option C (non-Japanese truncated placeholder [] handles gracefully)
+    // 6. Cohort 2: latsol-nguyen-05 #36 Option C (non-Japanese truncated placeholder [] handles gracefully), nguyen-03 #24 (3つあります), reguler-05 #10
     await startPractice('latsol-nguyen-05', 36);
     await jumpToQuestionId('nguyen05-q036');
     const n05C = await toggleOptionKotoba(2, false);
     assert.equal(n05C.length, 0, 'Non-Japanese truncated option handles safely with 0 items and 0 errors');
     checks.push({ cohort: 'cohort_2', qId: 'nguyen05-q036::C', count: 0, gracefulEmpty: true });
 
-    // 7. Cohort 3: ssw-pm-kunci-ujian-14 #35 (3つ) & ssw-pm-kunci-ujian-16 #1 (4 options A..D)
+    await startPractice('latsol-nguyen-03', 40);
+    await jumpToQuestionId('nguyen03-q024');
+    const n03A = await toggleOptionKotoba(0);
+    assert(n03A.some(t => t.kanji === 'つ'), 'nguyen03-q024 Opt A (3つあります) must render つ');
+    checks.push({ cohort: 'cohort_2', qId: 'nguyen03-q024::A', sample: n03A.map(t => t.kanji) });
+
+    await startPractice('latsol-reguler-05', 20);
+    await jumpToQuestionId('reguler05-q010');
+    const r05A = await toggleOptionKotoba(0);
+    assert(r05A.some(t => t.kanji === '滑りにくい') && r05A.some(t => t.kanji === '靴') && r05A.some(t => t.kanji === '履いた'), 'reguler05-q010 Opt A missing expected terms');
+    checks.push({ cohort: 'cohort_2', qId: 'reguler05-q010::A', sample: r05A.map(t => t.kanji) });
+
+    // 6b. Cohort 1 user screenshot & regression checks: kunci-ujian-10 #1, 9 #18, 12 #16, 5 #17
+    await startPractice('ssw-pm-kunci-ujian-10', 40);
+    await jumpToQuestionId('kunci-ujian-10-q001');
+    const u10OptA = await toggleOptionKotoba(0);
+    assert(u10OptA.some(t => t.kanji === 'つまずいたり') && u10OptA.some(t => t.kanji === '指さします') && u10OptA.some(t => t.kanji === '走ったり'), 'kunci-ujian-10-q001 Opt A must render complete つまずいたり & 指さします');
+    for (const shred of ['つ', 'まず', 'い', 'た', 'り', '指', 'さ', 'します']) {
+      assert(!u10OptA.some(t => t.kanji === shred), `kunci-ujian-10-q001 Opt A must NOT contain shredded fragment "${shred}"`);
+    }
+    const u10OptC = await toggleOptionKotoba(2);
+    assert(u10OptC.some(t => t.kanji === '必かならず') && u10OptC.some(t => t.kanji === '指さします') && u10OptC.some(t => t.kanji === '転れた'), 'kunci-ujian-10-q001 Opt C must render 必かならず & 指さします');
+    for (const shred of ['指', 'さ', 'します']) {
+      assert(!u10OptC.some(t => t.kanji === shred), `kunci-ujian-10-q001 Opt C must NOT contain shredded fragment "${shred}"`);
+    }
+    checks.push({ cohort: 'cohort_1', qId: 'kunci-ujian-10-q001::A+C', optA: u10OptA.map(t => t.kanji), optC: u10OptC.map(t => t.kanji) });
+
+    await startPractice('ssw-pm-kunci-ujian-9', 40);
+    await jumpToQuestionId('kunci-ujian-9-q018');
+    const u9A = await toggleOptionKotoba(0);
+    const u9B = await toggleOptionKotoba(1);
+    const u9C = await toggleOptionKotoba(2);
+    assert(u9A.some(t => t.kanji === 'どくそ') && u9A.some(t => t.kanji === 'しょくちゅうどく'), 'kunci-ujian-9-q018 Opt A must render どくそ + しょくちゅうどく');
+    assert(u9B.some(t => t.kanji === 'かんせんがた') && u9C.some(t => t.kanji === 'ウイルス'), 'kunci-ujian-9-q018 Opt B/C missing expected terms');
+    checks.push({ cohort: 'cohort_1', qId: 'kunci-ujian-9-q018::A..C', optA: u9A.map(t => t.kanji), optB: u9B.map(t => t.kanji), optC: u9C.map(t => t.kanji) });
+
+    await startPractice('ssw-pm-kunci-ujian-12', 40);
+    await jumpToQuestionId('kunci-ujian-12-q016');
+    const u12A = await toggleOptionKotoba(0);
+    assert(u12A.some(t => t.kanji === '水分') && u12A.some(t => t.kanji === '拭き取る'), 'kunci-ujian-12-q016 Opt A must render 水分 + 拭き取る');
+    checks.push({ cohort: 'cohort_1', qId: 'kunci-ujian-12-q016::A', sample: u12A.map(t => t.kanji) });
+
+    await startPractice('ssw-pm-kunci-ujian-5', 40);
+    await jumpToQuestionId('kunci-ujian-5-q017');
+    const u5A = await toggleOptionKotoba(0);
+    assert(u5A.some(t => t.kanji === 'いっぱんてき') && u5A.some(t => t.kanji === 'れいとうこ') && u5A.some(t => t.kanji === '℃'), 'kunci-ujian-5-q017 Opt A missing expected hiragana/unit terms');
+    checks.push({ cohort: 'cohort_1', qId: 'kunci-ujian-5-q017::A', sample: u5A.map(t => t.kanji) });
+
+    // 7. Cohort 3: ssw-pm-kunci-ujian-14 #35 (3つ), ssw-pm-kunci-ujian-15 #36, ssw-pm-kunci-ujian-16 #1 (4 options A..D)
+    await startPractice('ssw-pm-kunci-ujian-15', 38);
+    await jumpToQuestionId('kunci-ujian-15-q036');
+    const u15P = await togglePromptKotoba();
+    assert(u15P.some(t => t.kanji === '霜') && u15P.some(t => t.kanji === 'すべって') && u15P.some(t => t.kanji === '転んで'), 'kunci-ujian-15-q036 prompt missing expected terms');
+    checks.push({ cohort: 'cohort_3', qId: 'kunci-ujian-15-q036', sample: u15P.map(t => t.kanji) });
+
     await startPractice('ssw-pm-kunci-ujian-14', 59);
     await jumpToQuestionId('kunci-ujian-14-q035');
     const u14OptA = await toggleOptionKotoba(0);

@@ -19,7 +19,9 @@ import {
   validateStrictContext,
   validatePackagesList,
   verifyProtectedAndImmutability,
+  isBannedFragmentEntry,
 } from './validate-batch.mjs';
+import { auditSentenceSpans } from '../../scripts/audit-kotoba-coverage.mjs';
 
 const ROOT = process.cwd();
 const OUT_DIR = path.join(ROOT, 'deliverables/kotoba-audit-40');
@@ -47,6 +49,14 @@ export const EXCLUDED_MASTER_SURFACES = new Set([
   '端', '割', '話', '業', '違', '属', '機', '器', '渡', '居', '剤',
   'ぶつか', 'はなぜ', 'ければ', 'だし', '計画通', '仕組', 'とは', 'はな', '近づ', '煮込',
   '及', '取り', '下さ', '込ま', '込まれ', 'くだ',
+  'でしょ', 'しょ', 'にくい', '必', '取', '選', '巻', '置', '代', '滑', '防', '多', '感', '一',
+  'びなさい', 'き込まれそうに', '呼ばれま', '洗い流', 'えら', '当た',
+  'サル', 'ネラ', 'トリウム', 'ビブリ', 'ント', 'ぞれ',
+  '全部書', '自動的止', '古', '刺', '閉', '望', '擦', '浴', '適',
+  '蹴飛', '行', '混', '失', '終', '離', '使用す',
+  '粉漏', '時自分', '飛',
+  '週間長', '作業中口',
+  'す', 'れ', 'ら', 'うに',
 ]);
 
 // Curated phrase priority table (longest-first during tokenization)
@@ -106,10 +116,10 @@ export const EXTRA_CURATED_PHRASES = [
 ].sort((a, b) => [...b].length - [...a].length || b.length - a.length);
 
 const OKURI_VERB_ADJ = /^(?:なければならない|なければなりません|なければ|てはいけない|てはいけません|てはいけず|ていませんでした|ていません|ていました|ていなかった|ていますか|ていない|ています|ている|ていた|ておく|ておいた|ておき|ており|てしまう|てしまった|てしまい|てくる|てきた|てみる|てみた|てから|ては|ても|て|でいる|でいた|でいない|で|られる|られない|られた|られて|られず|られ|させる|させない|させた|させて|させ|せる|せない|せた|せて|われる|われ|まれない|まれる|まれて|まれた|まれますか|まれます|まれず|ないように|ないか|ないで|ないと|ない|なかった|なく|なくなる|くなり|くなった|くなる|くても|たい|たがる|たり|たら|た|ますか|ます|ました|ません|ましょう|ませない|ませ|なさい|ながら|やすい|やすく|にくい|にくく|すぎて|すぎる|すぎた|すぎ|ず|ずに|ぬ|かった|くない|ければ|しい|しく|しかった|しくない|しければ|んでいれば|んで|んだ|って|っていた|ってい|った|いて|いた|えて|えた|えても|えている|えてお|えなくて|えない|えます|えました|える|ける|けた|けて|けやすく|けます|けました|けない|けません|きる|きた|きて|きない|きられる|めて|めた|める|めば|めます|めました|めなかった|めない|めません|ねて|ねた|ねないで|ねない|ねる|れない|れて|れた|れる|とします|としました|としません|とす|とさない|とした|として|とせる|げて|げた|げる|べて|べた|べる|せて|せた|せる|へる|おらず|おう|そう|かり|かる|かった|かりて|かれば|かりない|かし|かす|かして|かした|かさない|かさず|かさ|ばした|ばして|ばす|ばないように|ばない|まらない|まって|まった|まる|らないで|らなくて|らない|らず|らせます|らせました|らせない|らせて|らせた|らせる|らせ|らしておく|らして|らす|らし|らない|わない|わなく|わずに|わせ|やさない|やす|かせ|かせる|がる|がって|がり|なない|まない|かない|こり|こる|けば|ねば|めば|べば|せば|れば|ければ|されている|されていた|される|され|された|されて|する|した|して|しない|せず|できる|でき|できた|できない|く|ぐ|す|つ|ぬ|ぶ|む|る|い|う|さ|み|り|き|け|ち)/;
-const OKURI_SURU_ONLY = /^(?:しなければならない|しなければなりません|していませんか|していませんでした|していますか|していない|しています|している|ていた|ておく|てしまう|てしまった|てください|てから|ては|ても|しないように|しないで|しない|しないか|せず|される|され|された|されて|されない|させる|させない|させて|しやすい|しやすく|しにくい|しにくく|すぎる|すぎて|すぎた|するか|する|した|して|し)/;
+const OKURI_SURU_ONLY = /^(?:しなければならない|しなければなりません|しなければ|していませんか|していませんでした|していますか|していない|しています|している|してあります|しております|ていた|ておく|てしまう|てしまった|てください|てから|ては|ても|しないように|しないで|しない|しないか|せず|される|され|された|されて|されない|させる|させない|させて|しやすい|しやすく|しにくい|しにくく|すぎる|すぎて|すぎた|したり|しよう|するか|する|した|して|し)/;
 const COUNTER_KANJIS = new Set(['日', '年', '月', '週', '時', '分', '秒', '件', '回', '度', '番', '倍', '割', '人', '個', '枚', '箱', '台', '本', '冊', '袋', '種', '品', '兆', '億', '万', '円']);
-const VERB_ADJ_STEMS = new Set(['使', '見', '作', '入', '出', '書', '切', '起', '置', '知', '持', '合', '増', '決', '食', '洗', '伸', '動', '押', '取', '流', '拭', '抜', '貼', '破', '着', '飛', '死', '直', '落', '読', '呼', '過', '減', '替', '詰', '折', '戻', '広', '溶', '思', '変', '考', '飲', '凍', '続', '冷', '消', '焼', '乾', '育', '歩', '隠', '止', '立', '割', '言', '覚', '倒', '塗', '聞', '開', '守', '触', '崩', '待', '痛', '獲', '扱', '濡', '振', '積', '吸', '含', '忘', '寝', '投', '試', '行', '握', '履', '示', '保', '降', '走', '進', '防', '載', '延', '噛', '縮', '腐', '助', '鳴', '越', '撮', '蹴', '叩', '頼', '覆', '探', '燃', '飾', '怒', '留', '並', '違', '硬', '占', '遅', '届', '買', '確', '学', '束', '欠', '暖', '弱', '古', '重', '遠', '暗', '安', '厳', '近', '高', '低', '深', '細', '速', '早', '強', '軽', '新', '正', '良', '悪', '大', '小', '多', '少', '長', '短', '忙', '空', '晴', '似', '編', '計', '測', '治', '発', '吐', '困', '迷', '喜', '驚', '笑', '泣', '眠', '遊', '働', '休', '泳', '乗', '渡', '曲', '壊', '汚', '温', '熱', '沸', '焦', '煮', '炒', '揚', '蒸', '茹', '刻', '混', '巻', '包', '閉', '締', '緩', '差', '挿', '引', '掴', '抱', '担', '運', '拾', '捨', '掃', '磨', '干', '揃', '片', '整', '描', '数', '量', '調', '査', '検', '認', '判', '選', '定', '犯', '避', '逃', '救', '支', '報', '告', '連', '絡', '伝', '話', '答', '問', '尋', '断', '許', '禁', '始', '終', '繰', '返', '帰', '来', '離', '集', '散', '分', '配', '交', '換', '代', '化', '上', '下', '昇', '登', '座', '転', '滑', '挟', '踏', '殴', '刺', '残', '余', '足', '満', '塞', '漏', '溢', '柔', '鈍', '鋭', '厚', '薄', '狭', '太', '丸', '平', '危', '誤', '同', '異', '腫', '膨', '損', '照', '済', '通', '成', '求', '従', '居', '勝', '負', '教', '習', '払', '借', '貸', '送', '傾', '削', '喋', '任']);
-const COMPOUND_INFLECT_STEMS = new Set(['見直', '取扱', '切換', '着替', '長持', '霧吹', '引掛', '巻込', '盛付', '吹付', '噴付', '洗流', '拭取', '取出', '取除', '持込', '持上', '立上', '詰込', '切替', '引超', '間違', '当は', '書直', '見分', '振下', '乗越', '飛出', '飛込', '走回', '組立', '締付', '話合', '照合', '面白', '細長', '薄暗', '甘酸', '手早', '真新', '可愛', '見上', '見下', '見渡', '押出', '吸込', '飛散', '落着', '落込', '積重', '折曲', '折返', '繰返', '差込', '抜取', '振返', '立止', '寝坊', '用意', '確認', '美味', '横切', '入換', '取外', '後片付', '使分']);
+const VERB_ADJ_STEMS = new Set(['使', '見', '作', '入', '出', '書', '切', '起', '置', '知', '持', '合', '増', '決', '食', '洗', '伸', '動', '押', '取', '流', '拭', '抜', '貼', '破', '着', '飛', '死', '直', '落', '読', '呼', '過', '減', '替', '詰', '折', '戻', '広', '溶', '思', '変', '考', '飲', '凍', '続', '冷', '消', '焼', '乾', '育', '歩', '隠', '止', '立', '割', '言', '覚', '倒', '塗', '聞', '開', '守', '触', '崩', '待', '痛', '獲', '扱', '濡', '振', '積', '吸', '含', '忘', '寝', '投', '試', '行', '握', '履', '示', '保', '降', '走', '進', '防', '載', '延', '噛', '縮', '腐', '助', '鳴', '越', '撮', '蹴', '叩', '頼', '覆', '探', '燃', '飾', '怒', '留', '並', '違', '硬', '占', '遅', '届', '買', '確', '学', '束', '欠', '暖', '弱', '古', '重', '遠', '暗', '安', '厳', '近', '高', '低', '深', '細', '速', '早', '強', '軽', '新', '正', '良', '悪', '大', '小', '多', '少', '長', '短', '忙', '空', '晴', '似', '編', '計', '測', '治', '発', '吐', '困', '迷', '喜', '驚', '笑', '泣', '眠', '遊', '働', '休', '泳', '乗', '渡', '曲', '壊', '汚', '温', '熱', '沸', '焦', '煮', '炒', '揚', '蒸', '茹', '刻', '混', '巻', '包', '閉', '締', '緩', '差', '挿', '引', '掴', '抱', '担', '運', '拾', '捨', '掃', '磨', '干', '揃', '片', '整', '描', '数', '量', '調', '査', '検', '認', '判', '選', '定', '犯', '避', '逃', '救', '支', '報', '告', '連', '絡', '伝', '話', '答', '問', '尋', '断', '許', '禁', '始', '終', '繰', '返', '帰', '来', '離', '集', '散', '分', '配', '交', '換', '代', '化', '上', '下', '昇', '登', '座', '転', '滑', '挟', '踏', '殴', '刺', '残', '余', '足', '満', '塞', '漏', '溢', '柔', '鈍', '鋭', '厚', '薄', '狭', '太', '丸', '平', '危', '誤', '同', '異', '腫', '膨', '損', '照', '済', '通', '成', '求', '従', '居', '勝', '負', '教', '習', '払', '借', '貸', '送', '傾', '削', '喋', '任', '表', '生', '儲', '揃']);
+const COMPOUND_INFLECT_STEMS = new Set(['見直', '取扱', '切換', '着替', '長持', '霧吹', '引掛', '巻込', '盛付', '吹付', '噴付', '洗流', '拭取', '取出', '取除', '持込', '持上', '立上', '詰込', '切替', '引超', '間違', '当は', '書直', '見分', '振下', '乗越', '飛出', '飛込', '走回', '組立', '締付', '話合', '照合', '面白', '細長', '薄暗', '甘酸', '手早', '真新', '可愛', '見上', '見下', '見渡', '押出', '吸込', '飛散', '落着', '落込', '積重', '折曲', '折返', '繰返', '差込', '抜取', '振返', '立止', '寝坊', '用意', '確認', '美味', '横切', '入換', '取外', '後片付', '使分', '義務付', '色分', '箱詰', '前掛', '引抜', '金もう']);
 
 function buildIdx(arr) {
   const m = new Map();
@@ -126,7 +136,9 @@ function buildIdx(arr) {
 function parseHtmlRuby(html) {
   const s = String(html || '')
     .replace(/\*\*/g, '')
-    .replace(/^(?:\[(?:イラスト|標識|図|写真|品目|保護具|画像)[A-Za-z0-9]+\]\s*)+/u, '');
+    .replace(/^(?:\[(?:イラスト|標識|図|写真|品目|保護具|画像)[A-Za-z0-9]+\]\s*)+/u, '')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/([\u3041-\u3096\u30A1-\u30F6\u4E00-\u9FFF々○])\r?\n(?![ア-オ][\u3041-\u3096\u30A1-\u30F6ー]{2,})(?=[\u3041-\u3096\u30A1-\u30F6\u4E00-\u9FFF々○])/gu, '$1');
   let plain = '';
   const rubySpans = [];
   let last = 0;
@@ -166,10 +178,13 @@ export function buildMasterLookup(dict) {
   for (const [id, e] of Object.entries(dict.terms || {})) {
     if (!e || e.status !== 'verified' || !e.kanji || e.furigana === 'たんご') continue;
     if (e.unitType === 'morpheme_fragment' || e.entryType === 'morpheme_fragment') continue;
+    if (isBannedFragmentEntry(id, e)) continue;
     if (hasKanji(e.kanji) && (!e.furigana || !isValidHiraganaReading(e.furigana) || !/^[\u3041-\u3096ー]+$/.test(e.furigana))) continue;
     if (!e.arti || e.arti.length > 60) continue;
     if ((e.unitType === 'inflected_verb' || e.unitType === 'inflected_adj') && !e.dictForm) continue;
     const k = e.kanji.trim();
+    if (/^[\u3041-\u3096\u30A1-\u30F6ー]$/.test(k) && id !== 'kb-latsol-tsu') continue;
+    if (/^[ぁぃぅぇぉゃゅょゎっァィゥェォャュョヮッー]+$/.test(k)) continue;
     if (['kb-ext-0165-e4b88b3a3a', 'kb-ext-1710-e6b2b93a3a', 'kb-ext-0369-e6b1823a3a'].includes(e.id)) continue; // prefer full reading/noun over stem fragment
     if (EXCLUDED_MASTER_SURFACES.has(k)) continue;
     if (!bySurface.has(k)) bySurface.set(k, []);
@@ -197,14 +212,44 @@ function matchUnitAt(plain, i) {
   const beforeTrim = plain.slice(0, i).replace(/[ \u3000]+$/, '');
   const digitAttached = /[0-9０-９]$/.test(beforeTrim) && !/[A-Za-z][0-9０-９]+$/.test(beforeTrim);
   if (digitAttached) {
-    if (ch === 'つ') return { surface: 'つ', reading: 'つ', len: 1 };
-    for (const u of ['ppm', 'ml', 'kg', 'L', 'g', 'm']) {
+    if (ch === 'つ' && /^(?:$|[\s、。・「」『』（）(),.!！?？をのにはがではとだもやか]|あり(?:ます|ません))/.test(plain.slice(i + 1))) {
+      return { surface: 'つ', reading: 'つ', len: 1 };
+    }
+    for (const u of ['ppm', 'ml', 'kg', 'Kg', 'L', 'l', 'g', 'm', 'CC']) {
       if (plain.startsWith(u, i) && !/[A-Za-z0-9]/.test(plain[i + u.length] || '')) {
         return { surface: u, reading: u.toLowerCase(), len: u.length };
       }
     }
   }
   return null;
+}
+
+function hasCrossBoundaryCollision(mk, text, pos) {
+  const prevCh = pos > 0 ? text[pos - 1] : '';
+  const afterSlice = text.slice(pos + mk.length);
+  const nextCh = afterSlice[0] || '';
+  if (mk === 'まず' && prevCh === 'つ') return true;
+  if (mk === 'します' && text.slice(Math.max(0, pos - 2), pos) === '指さ') return true;
+  if (mk === 'たこ' && prevCh === 'っ') return true;
+  if (mk === 'です' && nextCh === 'べ') return true;
+  if (mk === 'のみ' && text.startsWith('のみず', pos)) return true;
+  if (mk === 'かんし' && (prevCh === 'じ' || prevCh === 'う' || nextCh === 'ょ' || nextCh === 'ゅ')) return true;
+  if (mk === 'はな' && nextCh === 'ん') return true;
+  if (mk === 'どの' && prevCh === 'う') return true;
+  if (mk === 'なし' && nextCh === 'ょ') return true;
+  if (mk === 'つかう' && prevCh === 'あ') return true;
+  if (mk === 'うし' && prevCh === 'ゅ') return true;
+  if (mk === 'うち' && (prevCh === 'う' || prevCh === 'そ')) return true;
+  if (mk === 'だい' && afterSlice.startsWith('ちょう')) return true;
+  if (mk === 'はさみ' && afterSlice.startsWith('そうに')) return true;
+  if (mk === 'ひじ' && afterSlice.startsWith('ょう')) return true;
+  if (mk === 'に対し' && nextCh === 'て') return true;
+  if (mk === 'ただ' && nextCh === 'し') return true;
+  if (mk === 'とし' && !/^(?:[、。.,\s」』）()]|$)/.test(nextCh)) return true;
+  if (mk === 'あた' && nextCh !== 'を') return true;
+  if (mk === 'たらく' && prevCh === 'は') return true;
+  if (mk === 'なく' && /^(?:て|なる|なり|なっ|す|し)/.test(afterSlice)) return true;
+  return false;
 }
 
 export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedMap = {}, dryRun = false }) {
@@ -219,26 +264,58 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
   }
 
   const masterBySurface = buildMasterLookup(dict);
-  const masterKeysMulti = [...masterBySurface.keys()].filter(k => [...k].length >= 2 && !PURE_PARTICLES.has(k) && k.length <= 16 && !/^\[/.test(k) && !/[A-Za-z]{4,}/.test(k));
-  const CURATED_INDEX = buildIdx(EXTRA_CURATED_PHRASES);
+  const masterKeysMulti = [...masterBySurface.keys()].filter(k => [...k].length >= 2 && !PURE_PARTICLES.has(k) && k.length <= 36 && !/^\[/.test(k) && (!/[A-Za-z]{4,}/.test(k) || k.includes('Ôn nhanh')));
+  const c1KeysMulti = [...masterBySurface.keys()].filter(k => [...k].length >= 2 && k.length <= 36);
+  const curatedAll = new Set(EXTRA_CURATED_PHRASES);
+  for (const k of Object.keys(applyCuratedMap || {})) {
+    if ([...k].length >= 2) curatedAll.add(k);
+  }
+  const CURATED_INDEX = buildIdx([...curatedAll]);
   const MASTER_INDEX = buildIdx(masterKeysMulti);
+  const C1_MULTI_INDEX = buildIdx(c1KeysMulti);
   const HIRA_INDEX = buildIdx([...HIRA_LEXICAL].sort((a, b) => b.length - a.length));
   const GRAMMAR_INDEX = buildIdx([...PURE_PARTICLES]);
   const TECH_INDEX = buildIdx([...TECHNICAL_ASCII].filter(t => t.length >= 2).sort((a, b) => b.length - a.length));
   const segJa = new Intl.Segmenter('ja', { granularity: 'word' });
 
+  const C1_PARTICLE_SURFACES = new Set(['を', 'が', 'と', 'に', 'の', 'で', 'も', 'へ', 'や', 'は', 'な', 'か', 'ア', 'イ', 'ウ', 'エ', 'オ', 'つ', '≫', '−', '‐', 'A', 'B', 'C', 'Ｓ', 'S', '；', '＝', '→', 'l', 'L']);
+  const c1ParticleBySurface = new Map();
+  for (const [id, e] of Object.entries(dict.terms || {})) {
+    if (!e || e.status !== 'verified' || !e.kanji) continue;
+    const k = e.kanji.trim();
+    if (!C1_PARTICLE_SURFACES.has(k)) continue;
+    if (isBannedFragmentEntry(id, e)) continue;
+    if (!e.arti || e.arti.length > 60) continue;
+    if (k === 'つ' && id !== 'kb-latsol-tsu') continue;
+    if (!c1ParticleBySurface.has(k)) c1ParticleBySurface.set(k, []);
+    c1ParticleBySurface.get(k).push(e);
+  }
+  for (const list of c1ParticleBySurface.values()) {
+    list.sort((a, b) => {
+      const sA = (a.unitType === 'particle' ? 4 : 0) + (a.id.startsWith('kb-v2-p1-') ? 2 : 0) + (a.arti.length <= 40 ? 1 : 0);
+      const sB = (b.unitType === 'particle' ? 4 : 0) + (b.id.startsWith('kb-v2-p1-') ? 2 : 0) + (b.arti.length <= 40 ? 1 : 0);
+      return sB - sA;
+    });
+  }
+  const pickC1ParticleId = (s) => {
+    const hits = c1ParticleBySurface.get(s);
+    return hits && hits.length ? hits[0].id : null;
+  };
+
   const pickBestId = (surface) => {
     const hits = masterBySurface.get(surface);
     return hits && hits.length ? hits[0].id : null;
   };
+  const knownIdx = buildKnownLexiconIndex(dict);
 
-  function tokenizeToSurfaces(html) {
-    const { plain, rubySpans } = parseHtmlRuby(html);
+  function tokenizeToSurfaces(html, isCohort1 = false) {
+    const preNormalizedHtml = String(html || '').replace(/(<\/ruby>|[\u3041-\u3096\u30A1-\u30F6ー\u4E00-\u9FFF々○])\s*(?:<br\s*\/?>|\r?\n)\s*(?![ア-オ](?:ヘアーネット|ブラッシング|[\u3041-\u3096ー]{2,}))(?=[\u3041-\u3096ー])/giu, '$1');
+    const { plain, rubySpans } = parseHtmlRuby(preNormalizedHtml);
     const out = [];
     const seen = new Set();
     const push = (s, r) => {
       if (!s || /^[0-9０-９.,\-+°~〜～・]+$/.test(s)) return;
-      if (PURE_PARTICLES.has(s)) return;
+      if (!isCohort1 && PURE_PARTICLES.has(s)) return;
       if (/^[A-Za-z]+$/.test(s) && !TECHNICAL_ASCII.has(s)) return;
       if (!seen.has(s)) { seen.add(s); out.push({ surface: s, reading: r || '' }); }
     };
@@ -247,6 +324,10 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
     while (i < plain.length) {
       const ch = plain[i];
       const prevCh = i > 0 ? plain[i - 1] : '';
+
+      // Typo/parenthesized compounds starting with digit or punctuation before matchUnitAt/punct skips them
+      if (plain.startsWith('３つのそ', i)) { push('３つのそ', 'みっつのそ'); i += 4; continue; }
+      if (plain.startsWith('（カラーリング）し', i)) { push('（カラーリング）し', 'からーりんぐし'); i += 9; continue; }
 
       // 0a. Measurement units & digit-attached counters (℃, °C, ºC, ㎏, %, ％, 2L, 15kg, 100ml, 3つ)
       const um = matchUnitAt(plain, i);
@@ -260,24 +341,71 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
         }
         if (th) { push(th, th.toLowerCase()); i += th.length; continue; }
       }
-      if (/[\s、。・「」『』（）()／→：；,."'\-+〜～【】◎×○0-9０-９①-⑩!！※\[\]．＋\?？°]/.test(ch)) { i++; continue; }
+      if (/[\s、。・「」『』（）()／→：；,."'\-+〜～【】◎×○0-9０-９①-⑩!！※\[\]．＋\?？°−‐≫]/.test(ch)) { i++; continue; }
 
-      // 1. Curated multi-word / tricky phrase
+      // Choice-list Katakana labels fused onto next word (e.g. アヘアーネット, イブラッシング, ウぼうし, エかくにん, オさぎょうふく)
+      // or standalone choice labels 'ア'..'オ' separated by 、/newline (gap-filler restores kb-v2-p6-279..283 without uncurated noise)
+      if (
+        plain.startsWith('アヘアーネット', i) ||
+        plain.startsWith('イブラッシング', i) ||
+        plain.startsWith('ウぼうし', i) ||
+        plain.startsWith('エかくにん', i) ||
+        plain.startsWith('オさぎょうふく', i) ||
+        ('アイウエオ'.includes(ch) &&
+          (i === 0 || plain[i - 1] === '、' || plain[i - 1] === '\n') &&
+          (i + 1 === plain.length || plain[i + 1] === '、' || plain[i + 1] === '\n'))
+      ) {
+        i += 1; continue;
+      }
+      // Prevent Master hiragana words from eating single-char particles across boundaries
+      // (のうどん, のみぞ, はきけんなので, ときかい, できをつけ, であるく, もしました, かみず, でたらく)
+      if (
+        plain.startsWith('のうどん', i) ||
+        plain.startsWith('のみぞ', i) ||
+        plain.startsWith('はきけんなので', i) ||
+        plain.startsWith('ときかい', i) ||
+        plain.startsWith('できをつけ', i) ||
+        plain.startsWith('であるく', i) ||
+        plain.startsWith('もしました', i) ||
+        plain.startsWith('かみず', i) ||
+        plain.startsWith('でたらく', i)
+      ) {
+        i += 1; continue;
+      }
+      if (plain.startsWith('からだいしゃ', i)) {
+        push('から', 'から'); i += 2; continue;
+      }
+      if (plain.startsWith('しめるときかい', i)) {
+        push('しめる', 'しめる'); i += 3; continue;
+      }
+
+      // 1. Curated multi-word / tricky phrase (defer to strictly longer valid MASTER match so short curated roots never shadow longer compounds)
       let chHit = null;
       for (const cp of (CURATED_INDEX.get(ch) || [])) {
-        if (plain.startsWith(cp, i)) { chHit = cp; break; }
+        if (cp === 'のうど' && plain[i + 3] === 'ん') continue;
+        if (plain.startsWith(cp, i) && !hasCrossBoundaryCollision(cp, plain, i)) { chHit = cp; break; }
       }
-      if (chHit) { push(chHit, getReading(plain, rubySpans, i, i + chHit.length)); i += chHit.length; continue; }
+      if (chHit) {
+        const chLen = [...chHit].length;
+        let masterLonger = null;
+        for (const mk of (MASTER_INDEX.get(ch) || [])) {
+          if ([...mk].length <= chLen) break;
+          if (plain.startsWith(mk, i) && !hasCrossBoundaryCollision(mk, plain, i)) { masterLonger = mk; break; }
+        }
+        if (!masterLonger) { push(chHit, getReading(plain, rubySpans, i, i + chHit.length)); i += chHit.length; continue; }
+      }
 
       // 2. Existing master multi-char surface
       let mkHit = null;
       for (const mk of (MASTER_INDEX.get(ch) || [])) {
         if (!plain.startsWith(mk, i)) continue;
+        if (hasCrossBoundaryCollision(mk, plain, i)) continue;
         const lastChar = mk[mk.length - 1];
         const afterSlice = plain.slice(i + mk.length);
         if (/[\u30a1-\u30f6]/.test(lastChar) && /^[\u30a1-\u30f6ー]/.test(afterSlice)) continue;
         if (/[A-Za-z0-9]/.test(lastChar) && /^[A-Za-z0-9]/.test(afterSlice)) continue;
-        if (/[\u3041-\u3096]/.test(lastChar) && /^(?:やすい|やすく|にくい|にくく|すぎ|ている|ていた|て|た|る|ない|ます|はいけない|はいけません|いけない|いる|いた|いない|おり|おく|おいた|しまう|しまった|くる|きた|みる|みた)/.test(afterSlice)) continue;
+        if (/[\u3041-\u3096]/.test(lastChar) && !lastChar.endsWith('い') && /^(?:やすい|やすく|にくい|にくく|すぎ|ている|ていた|てはいけません|てはいけない|ています|ていない|ており|ておく|ておいた|てしまう|てしまった|てくる|てきた|てみる|てみた|てから|ます|ました|ません|ましょう|ない|なく|なかった|た(?!め|ち|び|だ)|て(?![きく])|る(?!ため|とき|こと|もの|の|と))/.test(afterSlice)) continue;
+        if ((lastChar === 'て' || lastChar === 'で') && /^(?:いる|いた|いない|おり|おく|おいた|しまう|しまった|くる|きた|みる|みた|はいけない|はいけません|いけない)/.test(afterSlice)) continue;
         if (hasKanji(lastChar) && afterSlice[0] && hasKanji(afterSlice[0]) && !COUNTER_KANJIS.has(afterSlice[0])) {
           if (!MASTER_INDEX.has(afterSlice[0])) continue;
         }
@@ -344,30 +472,33 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
         continue;
       }
 
-      // 5. Hiragana lexical
+      // 5. Hiragana lexical (never skip Step 1/2 across a hiragana boundary)
       if (/[\u3041-\u3096ー]/.test(ch)) {
         let lh = null;
-        for (const hw of (HIRA_INDEX.get(ch) || [])) { if (plain.startsWith(hw, i)) { lh = hw; break; } }
+        for (const hw of (HIRA_INDEX.get(ch) || [])) {
+          if (plain.startsWith(hw, i) && !hasCrossBoundaryCollision(hw, plain, i)) { lh = hw; break; }
+        }
         if (lh) { push(lh, lh); i += lh.length; continue; }
         let gh = null;
-        for (const gt of (GRAMMAR_INDEX.get(ch) || [])) { if (plain.startsWith(gt, i)) { gh = gt; break; } }
-        if (gh) { i += gh.length; continue; }
-        const chunk = plain.slice(i).match(/^[\u3041-\u3096ー]+/)[0];
-        let pos = 0;
-        while (pos < chunk.length) {
-          const sub = chunk.slice(pos);
-          const sc = sub[0];
-          let sl = null;
-          for (const hw of (HIRA_INDEX.get(sc) || [])) { if (sub.startsWith(hw)) { sl = hw; break; } }
-          if (sl) { push(sl, sl); pos += sl.length; continue; }
-          let sg = null;
-          for (const gt of (GRAMMAR_INDEX.get(sc) || [])) { if (sub.startsWith(gt)) { sg = gt; break; } }
-          if (sg) { pos += sg.length; continue; }
-          const first = [...segJa.segment(sub)][0]?.segment || sub[0];
-          if (!PURE_PARTICLES.has(first) && HIRA_LEXICAL.has(first)) push(first, first);
-          pos += first.length;
+        for (const gt of (GRAMMAR_INDEX.get(ch) || [])) {
+          if (!plain.startsWith(gt, i)) continue;
+          if (gt === 'について' && /^ついて(?:いる|いた|いない|おり|います)/.test(plain.slice(i + 1))) continue;
+          gh = gt;
+          break;
         }
-        i += chunk.length;
+        if (gh) {
+          if (isCohort1 && [...gh].length >= 2 && !hasCrossBoundaryCollision(gh, plain, i) && pickBestId(gh)) {
+            push(gh, gh);
+          }
+          i += gh.length;
+          continue;
+        }
+        const hiraRun = plain.slice(i).match(/^[\u3041-\u3096ー]+/)[0];
+        const first = [...segJa.segment(hiraRun)][0]?.segment || hiraRun[0];
+        if (!PURE_PARTICLES.has(first) && HIRA_LEXICAL.has(first) && !hasCrossBoundaryCollision(first, plain, i)) {
+          push(first, first);
+        }
+        i += first.length;
         continue;
       }
 
@@ -388,104 +519,9 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
     let inlineUpdated = 0;
 
     for (const q of qs) {
-      const resolveCtx = (html, prevIds) => {
+      const resolveCtx = (html, c1TextArg, ctxKey) => {
         const plain = cleanContextText(html);
-        if (pm.cohort === 'cohort_1_spec009_canonical') {
-          // Preserve all valid Spec-009 mappings, fix only errors!
-          const next = [];
-          const seen = new Set();
-          const addId = (id) => { if (id && !seen.has(id)) { seen.add(id); next.push(id); } };
-          for (const oldId of (prevIds || [])) {
-            const e = dict.terms[oldId];
-            if (!e || !plain.includes(e.kanji)) {
-              if (e?.kanji === 'CCP' && plain.includes('ＣＣＰ')) addId(pickBestId('ＣＣＰ'));
-              if (e?.kanji === '一つ' && plain.includes('一選びない')) addId(pickBestId('一'));
-              continue;
-            }
-            if (e.kanji === '間' && (/([0-9０-９])\s*秒間/.test(plain) || /([0-9０-９])\s*分間/.test(plain) || /([0-9０-９])\s*週間/.test(plain))) {
-              if (/[0-9０-９]\s*秒間/.test(plain)) { addId(pickBestId('秒間')); }
-              if (/[0-9０-９]\s*分間/.test(plain)) { addId(pickBestId('分間')); }
-              if (/[0-9０-９]\s*週間/.test(plain)) { addId(pickBestId('週間')); }
-              continue;
-            }
-            if (oldId === 'kb-v2-p4-068' && plain.includes('粘着ローラー') && !plain.replace(/粘着ローラー/g, '').includes('粘着ローラ')) {
-              addId(pickBestId('粘着ローラー'));
-              continue;
-            }
-            if (oldId === 'kb-v2-p3-141' && /[0-9０-９]\s*日後/.test(plain)) {
-              addId(pickBestId('日後'));
-              continue;
-            }
-            if (oldId === 'kb-1619700' && (prevIds || []).includes('kb-v2-p2-124')) {
-              // skip redundant 転倒 swallowed inside 転倒しそうに
-              continue;
-            }
-            addId(oldId);
-          }
-          // Add any MISSING_LEXICAL_TERM flagged by validateStrictContext
-          const preErrs = validateStrictContext({ contextKey: q.id, html, termIds: next, dict, knownLexiconIndex: null });
-          for (const err of preErrs) {
-            if (err.code === 'MISSING_LEXICAL_TERM' && err.surface) {
-              if (err.surface === '日' && /[0-9０-９]\s*日後/.test(plain)) {
-                const rid = pickBestId('日後');
-                if (rid) addId(rid);
-                continue;
-              }
-              if (err.surface === '分' && /[0-9０-９]\s*分(?!間)/.test(plain) && dict.terms['kb-1502840']) {
-                addId('kb-1502840');
-                continue;
-              }
-              const id = pickBestId(err.surface);
-              if (id) addId(id);
-              else {
-                const rec = uncurated.get(err.surface) || { surface: err.surface, reading: err.surface, count: 0, sample: plain.slice(0, 75), ctx: q.id };
-                rec.count++;
-                uncurated.set(err.surface, rec);
-              }
-            }
-          }
-          // Add any explicit measurement units / digit-attached counters in Cohort 1
-          for (let ui = 0; ui < plain.length; ) {
-            const um = matchUnitAt(plain, ui);
-            if (um) {
-              const uid = pickBestId(um.surface);
-              if (uid) addId(uid);
-              ui += um.len;
-            } else {
-              ui++;
-            }
-          }
-          // Prune any Cohort 1 substring-swallowed kanji fragment whose removal still leaves 100% span coverage
-          const c1Resolved = next.map(id => dict.terms[id]).filter(Boolean);
-          const filtered = next.filter(id => {
-            const e = dict.terms[id];
-            if (!e || !hasKanji(e.kanji)) return true;
-            const offsets = [];
-            let idx = plain.indexOf(e.kanji);
-            while (idx !== -1) { offsets.push(idx); idx = plain.indexOf(e.kanji, idx + 1); }
-            if (!offsets.length) return false;
-            return offsets.some(pos => {
-              const end = pos + e.kanji.length;
-              const swallowed = c1Resolved.some(other =>
-                other.id !== e.id &&
-                other.kanji.length > e.kanji.length &&
-                (() => {
-                  let oi = plain.indexOf(other.kanji);
-                  while (oi !== -1) {
-                    if (oi <= pos && oi + other.kanji.length >= end) return true;
-                    oi = plain.indexOf(other.kanji, oi + 1);
-                  }
-                  return false;
-                })()
-              );
-              return !swallowed;
-            });
-          });
-          return filtered;
-        }
-
-        // Cohorts 2, 3, 4: full clean rebuild + retain valid non-colliding uncovered legacy terms
-        const { tokens } = tokenizeToSurfaces(html);
+        const { tokens } = tokenizeToSurfaces(html, pm.cohort === 'cohort_1_spec009_canonical');
         const nextIds = [];
         const seenIds = new Set();
         const addTerm = (id) => { if (id && !seenIds.has(id)) { seenIds.add(id); nextIds.push(id); } };
@@ -494,61 +530,143 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
           const id = pickBestId(tok.surface);
           if (id) addTerm(id);
           else {
-            const rec = uncurated.get(tok.surface) || { surface: tok.surface, reading: tok.reading, count: 0, sample: plain.slice(0, 75), ctx: q.id };
+            const rec = uncurated.get(tok.surface) || { surface: tok.surface, reading: tok.reading, count: 0, sample: plain.slice(0, 75), ctx: ctxKey };
             rec.count++;
             uncurated.set(tok.surface, rec);
           }
         }
 
-        // Check if validateStrictContext flags any leftover UNMAPPED_DICTIONARY_TERM or MISSING_LEXICAL_TERM
-        // (iteratively fill using pickBestId if needed, e.g. compound split edge cases)
-        const knownIdx = buildKnownLexiconIndex(dict);
-        const postErrs = validateStrictContext({ contextKey: q.id, html, termIds: nextIds, dict, knownLexiconIndex: knownIdx });
+        const postErrs = validateStrictContext({ contextKey: ctxKey, html, termIds: nextIds, dict, knownLexiconIndex: knownIdx, cohort: pm.cohort });
         for (const err of postErrs) {
           if ((err.code === 'MISSING_LEXICAL_TERM' || err.code === 'UNMAPPED_DICTIONARY_TERM') && err.surface) {
+            // Choice-list fused label 'アヘアーネット' has 'ア' restored by C1 gap-filler alongside ヘアーネット
+            if (err.surface === 'アヘアーネット') continue;
             const id = pickBestId(err.surface);
             if (id) addTerm(id);
             else {
-              const rec = uncurated.get(err.surface) || { surface: err.surface, reading: err.surface, count: 0, sample: plain.slice(0, 75), ctx: q.id };
+              const rec = uncurated.get(err.surface) || { surface: err.surface, reading: err.surface, count: 0, sample: plain.slice(0, 75), ctx: ctxKey };
               rec.count++;
               uncurated.set(err.surface, rec);
             }
           }
         }
 
-        // Prune any shorter term that is strictly swallowed at EVERY occurrence in plain by another mapped longer term (avoids SUBSTRING_KANJI_COLLISION)
-        const resolvedTerms = nextIds.map(id => dict.terms[id]).filter(Boolean);
-        return nextIds.filter(id => {
-          const e = dict.terms[id];
-          if (!e) return false;
-          if (!hasKanji(e.kanji)) return true;
-          const offsets = [];
-          let idx = plain.indexOf(e.kanji);
-          while (idx !== -1) { offsets.push(idx); idx = plain.indexOf(e.kanji, idx + 1); }
-          if (!offsets.length) return false;
-          return offsets.some(pos => {
-            const end = pos + e.kanji.length;
-            const swallowed = resolvedTerms.some(other =>
-              other.id !== e.id &&
-              other.kanji.length > e.kanji.length &&
-              (() => {
-                let oi = plain.indexOf(other.kanji);
-                while (oi !== -1) {
-                  if (oi <= pos && oi + other.kanji.length >= end) return true;
-                  oi = plain.indexOf(other.kanji, oi + 1);
-                }
-                return false;
-              })()
-            );
-            return !swallowed;
+        const pruneSwallowed = (ids, matchText = plain) => {
+          const resolvedTerms = ids.map(id => dict.terms[id]).filter(Boolean);
+          return ids.filter(id => {
+            const e = dict.terms[id];
+            if (!e) return false;
+            if (!hasKanji(e.kanji)) return true;
+            const offsets = [];
+            let idx = matchText.indexOf(e.kanji);
+            while (idx !== -1) { offsets.push(idx); idx = matchText.indexOf(e.kanji, idx + 1); }
+            if (!offsets.length) return false;
+            return offsets.some(pos => {
+              const end = pos + e.kanji.length;
+              const swallowed = resolvedTerms.some(other =>
+                other.id !== e.id &&
+                other.kanji.length > e.kanji.length &&
+                (() => {
+                  let oi = matchText.indexOf(other.kanji);
+                  while (oi !== -1) {
+                    if (oi <= pos && oi + other.kanji.length >= end) return true;
+                    oi = matchText.indexOf(other.kanji, oi + 1);
+                  }
+                  return false;
+                })()
+              );
+              return !swallowed;
+            });
           });
-        });
+        };
+
+        let finalIds = pruneSwallowed(nextIds);
+        if (pm.cohort !== 'cohort_1_spec009_canonical') {
+          return finalIds;
+        }
+
+        // Cohort 1 Spec-009 span-coverage completion without ever shredding words into fragments/1-kana
+        const c1Text = c1TextArg || plain;
+        const finalSet = new Set(finalIds);
+        const addFinal = (id) => { if (id && !finalSet.has(id)) { finalSet.add(id); finalIds.push(id); } };
+
+        const spanAudit = auditSentenceSpans(c1Text, finalIds, dict);
+        for (const u of spanAudit.unresolvedSpans) {
+          let off = 0;
+          while (off < u.text.length) {
+            const gPos = u.start + off;
+            const ch = u.text[off];
+            let mHit = null;
+            for (const mk of (C1_MULTI_INDEX.get(ch) || [])) {
+              if (!u.text.startsWith(mk, off)) continue;
+              if (hasCrossBoundaryCollision(mk, c1Text, gPos)) continue;
+              if (mk === 'について' && /^ついて(?:いる|いた|いない|おり|います)/.test(c1Text.slice(gPos + 1))) continue;
+              const lastChar = mk[mk.length - 1];
+              const afterGlobal = c1Text.slice(gPos + mk.length);
+              if (/[\u30a1-\u30f6]/.test(lastChar) && /^[\u30a1-\u30f6ー]/.test(afterGlobal)) continue;
+              if (/[A-Za-z0-9]/.test(lastChar) && /^[A-Za-z0-9]/.test(afterGlobal)) continue;
+              mHit = mk;
+              break;
+            }
+            if (mHit) {
+              const id = pickBestId(mHit);
+              if (id) {
+                addFinal(id);
+                off += mHit.length;
+                continue;
+              }
+            }
+
+            const prevGlobal = gPos > 0 ? c1Text[gPos - 1] : '';
+            const nextGlobal = gPos + 1 < c1Text.length ? c1Text[gPos + 1] : '';
+            let canUseSingle = false;
+            if (ch === 'つ') {
+              canUseSingle = /[0-9０-９一二三四五六七八九十]\s*$/.test(c1Text.slice(0, gPos)) && /^(?:$|[\s、。・「」『』（）(),.!！?？をのにはがではとだもやか])/.test(c1Text.slice(gPos + 1));
+            } else if (/^[ア-オ]$/.test(ch)) {
+              canUseSingle = !/[\u30A1-\u30F6ー]/.test(prevGlobal) && !/^[ー]$/.test(nextGlobal) && (!/[\u30A1-\u30F6]/.test(nextGlobal) || prevGlobal === '\n' || prevGlobal === '' || /[\s\u3041-\u3096]/.test(prevGlobal));
+            } else if (/^[ABC]$/.test(ch)) {
+              canUseSingle = !/[A-Za-z0-9]/.test(prevGlobal) && !/[A-Za-z0-9]/.test(nextGlobal);
+            } else if (C1_PARTICLE_SURFACES.has(ch)) {
+              canUseSingle = true;
+            }
+            if (canUseSingle) {
+              const pid = pickC1ParticleId(ch);
+              if (pid) {
+                addFinal(pid);
+                off += 1;
+                continue;
+              }
+            }
+
+            let endOff = off + 1;
+            while (endOff < u.text.length) {
+              const nc = u.text[endOff];
+              if (C1_PARTICLE_SURFACES.has(nc) && nc !== 'つ' && !/^[ア-オABC]$/.test(nc)) break;
+              if ((C1_MULTI_INDEX.get(nc) || []).some(mk => u.text.startsWith(mk, endOff) && !hasCrossBoundaryCollision(mk, c1Text, u.start + endOff))) break;
+              endOff++;
+            }
+            const missingRun = u.text.slice(off, endOff);
+            if (missingRun) {
+              const rec = uncurated.get(missingRun) || { surface: missingRun, reading: missingRun, count: 0, sample: c1Text.slice(0, 75), ctx: ctxKey };
+              rec.count++;
+              uncurated.set(missingRun, rec);
+            }
+            off = endOff;
+          }
+        }
+
+        const prunedC1 = pruneSwallowed(finalIds, c1Text);
+        if (auditSentenceSpans(c1Text, prunedC1, dict).unresolvedSpans.length === 0) {
+          return prunedC1;
+        }
+        return finalIds;
       };
 
+      const qPlain = extractQuestionPlainText(q);
       const qHtml = pm.cohort === 'cohort_1_spec009_canonical'
-        ? extractQuestionPlainText(q)
-        : (q.prompt || q.questionText || extractQuestionPlainText(q));
-      const nextQIds = resolveCtx(qHtml, mapping.questions?.[q.id] || []);
+        ? qPlain
+        : (q.prompt || q.questionText || qPlain);
+      const nextQIds = resolveCtx(qHtml, qPlain, q.id);
       mapping.questions[q.id] = nextQIds;
       mapping.options[q.id] = mapping.options[q.id] || {};
 
@@ -559,8 +677,8 @@ export function repairContextList({ dict, mapping, kt, packageIds, applyCuratedM
         const opt = q.options[oi];
         const oid = extractOptionId(opt, oi);
         const ck = `${q.id}::${oid}`;
-        const prevOptIds = mapping.byCompositeKey?.[ck] || mapping.options?.[q.id]?.[oid] || [];
-        const nextOptIds = resolveCtx(opt.text || extractOptionPlainText(opt), prevOptIds);
+        const optPlain = extractOptionPlainText(opt);
+        const nextOptIds = resolveCtx(opt.text || optPlain, optPlain, ck);
         mapping.options[q.id][oid] = nextOptIds;
         mapping.byCompositeKey[ck] = nextOptIds;
         for (const id of nextOptIds) {

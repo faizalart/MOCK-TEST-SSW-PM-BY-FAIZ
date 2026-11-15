@@ -1,6 +1,6 @@
 {
   "batchId": "batch-08",
-  "completedAt": "2026-11-15T16:32:40.666Z",
+  "completedAt": "2026-11-15T19:26:13.773Z",
   "packages": [
     "bonus-soal-2",
     "ssw-pm-kunci-ujian-12",
@@ -8,42 +8,42 @@
     "ssw-pm-tipe2-nguyen1",
     "ssw-pm-kunci-ujian-13"
   ],
-  "beforeTotalErrors": 2,
+  "beforeTotalErrors": 2037,
   "afterTotalErrors": 0,
   "beforeByPackage": [
     {
       "setId": "bonus-soal-2",
       "cohort": "cohort_1_spec009_canonical",
       "questions": 40,
-      "errors": 1,
+      "errors": 80,
       "spanPct": 100
     },
     {
       "setId": "ssw-pm-kunci-ujian-12",
       "cohort": "cohort_1_spec009_canonical",
       "questions": 40,
-      "errors": 0,
+      "errors": 1502,
       "spanPct": 100
     },
     {
       "setId": "ssw-pm-kunci-ujian-3",
       "cohort": "cohort_1_spec009_canonical",
       "questions": 40,
-      "errors": 1,
+      "errors": 139,
       "spanPct": 100
     },
     {
       "setId": "ssw-pm-tipe2-nguyen1",
       "cohort": "cohort_1_spec009_canonical",
       "questions": 40,
-      "errors": 0,
+      "errors": 124,
       "spanPct": 100
     },
     {
       "setId": "ssw-pm-kunci-ujian-13",
       "cohort": "cohort_1_spec009_canonical",
       "questions": 40,
-      "errors": 0,
+      "errors": 192,
       "spanPct": 100
     }
   ],
@@ -102,7 +102,7 @@
     }
   ],
   "touchedPackageFiles": [],
-  "curatedTermsTotalInMaster": 188,
+  "curatedTermsTotalInMaster": 1171,
   "protected10Verified": true,
   "immutabilityVerified": true
 }

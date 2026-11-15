@@ -15,7 +15,10 @@ export const DEFAULT_MAPPING_PATH = 'data/kotobaMapping.json';
 export const AUDIT_DIR = 'specs/009-cbt-shortcuts-zoom-kotoba/audit';
 
 export function readJson(filePath) {
-  const abs = path.resolve(process.cwd(), filePath);
+  let abs = path.resolve(process.cwd(), filePath);
+  if (!fs.existsSync(abs) && !filePath.startsWith('data/') && fs.existsSync(path.resolve(process.cwd(), 'data', filePath))) {
+    abs = path.resolve(process.cwd(), 'data', filePath);
+  }
   return JSON.parse(fs.readFileSync(abs, 'utf8'));
 }
 
@@ -32,7 +35,9 @@ export function stripRubyAndHtml(raw) {
   return raw
     .replace(/<rt\b[^>]*>[\s\S]*?<\/rt>/gi, '')
     .replace(/<rp\b[^>]*>[\s\S]*?<\/rp>/gi, '')
+    .replace(/<br\s*\/?>/gi, '\n')
     .replace(/<[^>]+>/g, '')
+    .replace(/([\u3041-\u3096\u30A1-\u30F6ー\u4E00-\u9FFF々○])\r?\n(?![ア-オ][\u3041-\u3096\u30A1-\u30F6ー]{2,})(?=[\u3041-\u3096\u30A1-\u30F6ー\u4E00-\u9FFF々○])/gu, '$1')
     .replace(/&nbsp;/gi, ' ')
     .replace(/&amp;/gi, '&')
     .replace(/&lt;/gi, '<')

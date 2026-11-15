@@ -1,6 +1,6 @@
 {
   "batchId": "batch-05",
-  "completedAt": "2026-11-15T16:32:24.913Z",
+  "completedAt": "2026-11-15T19:25:48.783Z",
   "packages": [
     "latsol-nguyen-08",
     "latsol-tambahan-01",
@@ -8,42 +8,42 @@
     "ssw-pm-lab-bakteri",
     "bonus-soal-1"
   ],
-  "beforeTotalErrors": 4,
+  "beforeTotalErrors": 101,
   "afterTotalErrors": 0,
   "beforeByPackage": [
     {
       "setId": "latsol-nguyen-08",
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 39,
-      "errors": 0,
-      "spanPct": 78.57
+      "errors": 1,
+      "spanPct": 78.51
     },
     {
       "setId": "latsol-tambahan-01",
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 25,
-      "errors": 4,
-      "spanPct": 66.77
+      "errors": 0,
+      "spanPct": 66.72
     },
     {
       "setId": "latsol-hitungan-01",
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 11,
-      "errors": 0,
-      "spanPct": 67.22
+      "errors": 1,
+      "spanPct": 67.89
     },
     {
       "setId": "ssw-pm-lab-bakteri",
       "cohort": "cohort_1_spec009_canonical",
       "questions": 32,
-      "errors": 0,
+      "errors": 35,
       "spanPct": 100
     },
     {
       "setId": "bonus-soal-1",
       "cohort": "cohort_1_spec009_canonical",
       "questions": 40,
-      "errors": 0,
+      "errors": 64,
       "spanPct": 100
     }
   ],
@@ -53,7 +53,7 @@
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 39,
       "errors": 0,
-      "spanPct": 78.51,
+      "spanPct": 79.88,
       "spec009Check": null
     },
     {
@@ -61,7 +61,7 @@
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 25,
       "errors": 0,
-      "spanPct": 66.72,
+      "spanPct": 68.96,
       "spec009Check": null
     },
     {
@@ -98,7 +98,7 @@
     }
   ],
   "touchedPackageFiles": [],
-  "curatedTermsTotalInMaster": 188,
+  "curatedTermsTotalInMaster": 1171,
   "protected10Verified": true,
   "immutabilityVerified": true
 }

@@ -442,7 +442,7 @@ const mdLines = [
   `| \`v2Completeness\` Errors (50 Targets) | **${c50.before.v2CompletenessErrors.toLocaleString()}** | **${c50.after.v2CompletenessErrors}** | All 12 residual flags are bracketed \`[画像A/B/C]\` UI tags in \`latsol-nguyen-06\` (intentionally excluded by \`PREFIX_MARKER_RE\`) |`,
   `| Mean Span Coverage (50 Targets) | **${c50.before.avgSpanCoveragePct}%** | **${c50.after.avgSpanCoveragePct}%** | Converged to 100% Cohort 1 / ~77-80% OTAFF standard |`,
   `| Empty Prompt Contexts (50 Targets) | **${c50.before.emptyPrompts}** | **${c50.after.emptyPrompts}** | Every Japanese prompt mapped |`,
-  `| Empty Option Contexts (50 Targets) | **${c50.before.emptyOptions}** | **${c50.after.emptyOptions}** | Remaining 18 are pure numbers / English acronyms / PDF truncated marker |`,
+  `| Empty Option Contexts (50 Targets) | **${c50.before.emptyOptions}** | **${c50.after.emptyOptions}** | Remaining ${emptyOptions.length} are pure numbers / English acronyms / PDF truncated marker |`,
   `| Dictionary Terms (Total / Verified) | ${finalJson.dictionaryComparison.before.totalTerms} / ${finalJson.dictionaryComparison.before.verifiedTerms} | **${finalJson.dictionaryComparison.after.totalTerms} / ${finalJson.dictionaryComparison.after.verifiedTerms}** | +${finalJson.dictionaryComparison.after.curatedAuditTermsAdded} curated (\`kb-audit-0001..\`), 0 \`たんご\` |`,
   `| Mapping Composite Keys | ${finalJson.dictionaryComparison.before.mappingCompositeKeys} | **${finalJson.dictionaryComparison.after.mappingCompositeKeys}** | Complete per-option keys synced with \`mapping.options\` |`,
   `| Protected 10 OTAFF Reference Packages | 0 errors | **0 errors (100% SHA-256 identical)** | Zero file hash or resolved Kotoba changes |`,

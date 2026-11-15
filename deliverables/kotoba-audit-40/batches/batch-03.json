@@ -1,6 +1,6 @@
 {
   "batchId": "batch-03",
-  "completedAt": "2026-11-15T16:36:59.521Z",
+  "completedAt": "2026-11-15T19:25:43.194Z",
   "packages": [
     "latsol-reguler-02",
     "latsol-nguyen-04",
@@ -8,7 +8,7 @@
     "latsol-nguyen-07",
     "latsol-nguyen-05"
   ],
-  "beforeTotalErrors": 0,
+  "beforeTotalErrors": 23,
   "afterTotalErrors": 0,
   "beforeByPackage": [
     {
@@ -22,28 +22,28 @@
       "setId": "latsol-nguyen-04",
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 40,
-      "errors": 0,
-      "spanPct": 76.29
+      "errors": 9,
+      "spanPct": 76.32
     },
     {
       "setId": "latsol-nguyen-06",
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 40,
-      "errors": 0,
+      "errors": 4,
       "spanPct": 74.83
     },
     {
       "setId": "latsol-nguyen-07",
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 39,
-      "errors": 0,
+      "errors": 7,
       "spanPct": 79.39
     },
     {
       "setId": "latsol-nguyen-05",
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 36,
-      "errors": 0,
+      "errors": 3,
       "spanPct": 75.18
     }
   ],
@@ -53,7 +53,7 @@
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 20,
       "errors": 0,
-      "spanPct": 72.93,
+      "spanPct": 77.58,
       "spec009Check": null
     },
     {
@@ -61,7 +61,7 @@
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 40,
       "errors": 0,
-      "spanPct": 76.32,
+      "spanPct": 77.04,
       "spec009Check": null
     },
     {
@@ -69,7 +69,7 @@
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 40,
       "errors": 0,
-      "spanPct": 74.83,
+      "spanPct": 77.57,
       "spec009Check": null
     },
     {
@@ -77,7 +77,7 @@
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 39,
       "errors": 0,
-      "spanPct": 79.39,
+      "spanPct": 79.88,
       "spec009Check": null
     },
     {
@@ -85,12 +85,12 @@
       "cohort": "cohort_2_unaudited_19_paket",
       "questions": 36,
       "errors": 0,
-      "spanPct": 75.18,
+      "spanPct": 77.8,
       "spec009Check": null
     }
   ],
   "touchedPackageFiles": [],
-  "curatedTermsTotalInMaster": 188,
+  "curatedTermsTotalInMaster": 1171,
   "protected10Verified": true,
   "immutabilityVerified": true
 }

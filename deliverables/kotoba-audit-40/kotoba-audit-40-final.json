@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T16:40:23.117Z",
+  "generatedAt": "2026-11-15T19:30:23.122Z",
   "branch": "fix/kotoba-audit-40",
   "scopeNote": "Upgraded from initial 40-package prompt to all 50 non-OTAFF packages per explicit user instruction (\"garap semua yg non otaff benerin ktobanya\"), while keeping all 10 OTAFF PM51 packages untouched.",
   "dictionaryComparison": {
@@ -13,10 +13,10 @@
       "dataVersion": "20261113-v2"
     },
     "after": {
-      "totalTerms": 6547,
-      "verifiedTerms": 6503,
+      "totalTerms": 7530,
+      "verifiedTerms": 7486,
       "unresolvedTerms": 44,
-      "curatedAuditTermsAdded": 188,
+      "curatedAuditTermsAdded": 1171,
       "patchedDefectiveMasterTerms": 14,
       "placeholderTangoCount": 0,
       "mappingQuestions": 2139,
@@ -40,7 +40,7 @@
       "after": {
         "v2CompletenessErrors": 12,
         "strictValidatorErrors": 0,
-        "avgSpanCoveragePct": 88.5,
+        "avgSpanCoveragePct": 89.41,
         "emptyPrompts": 0,
         "emptyOptions": 18
       }
@@ -78,7 +78,7 @@
       "after": {
         "v2CompletenessErrors": 12,
         "strictValidatorErrors": 0,
-        "avgSpanCoveragePct": 74.68,
+        "avgSpanCoveragePct": 76.62,
         "emptyPrompts": 0,
         "emptyOptions": 12
       }
@@ -97,7 +97,7 @@
       "after": {
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "avgSpanCoveragePct": 76.47,
+        "avgSpanCoveragePct": 78.81,
         "emptyPrompts": 0,
         "emptyOptions": 0
       }
@@ -116,7 +116,7 @@
       "after": {
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "avgSpanCoveragePct": 76.71,
+        "avgSpanCoveragePct": 78.22,
         "emptyPrompts": 0,
         "emptyOptions": 0
       }
@@ -154,12 +154,12 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 10.7,
+        "avgPromptTerms": 10.63,
         "avgOptionTerms": 3.23,
-        "uniqueReferencedTerms": 434,
+        "uniqueReferencedTerms": 443,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 79.06
+        "spanCoveragePct": 79.99
       }
     }
   },
@@ -182,9 +182,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 17.52,
-        "avgOptionTerms": 6.57,
-        "uniqueReferencedTerms": 540,
+        "avgPromptTerms": 17.32,
+        "avgOptionTerms": 6.33,
+        "uniqueReferencedTerms": 549,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -208,9 +208,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 117,
-        "avgPromptTerms": 13.55,
-        "avgOptionTerms": 5.96,
-        "uniqueReferencedTerms": 504,
+        "avgPromptTerms": 13.47,
+        "avgOptionTerms": 5.95,
+        "uniqueReferencedTerms": 506,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -234,9 +234,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 14.88,
-        "avgOptionTerms": 6.26,
-        "uniqueReferencedTerms": 517,
+        "avgPromptTerms": 13.95,
+        "avgOptionTerms": 5.55,
+        "uniqueReferencedTerms": 506,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -260,9 +260,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 15.63,
-        "avgOptionTerms": 7.93,
-        "uniqueReferencedTerms": 540,
+        "avgPromptTerms": 14.82,
+        "avgOptionTerms": 7.3,
+        "uniqueReferencedTerms": 533,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -286,9 +286,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 18.43,
-        "avgOptionTerms": 8.47,
-        "uniqueReferencedTerms": 556,
+        "avgPromptTerms": 14.18,
+        "avgOptionTerms": 6.67,
+        "uniqueReferencedTerms": 611,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -312,9 +312,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 14.93,
-        "avgOptionTerms": 7.49,
-        "uniqueReferencedTerms": 540,
+        "avgPromptTerms": 12.72,
+        "avgOptionTerms": 6.49,
+        "uniqueReferencedTerms": 556,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -338,8 +338,8 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 15.57,
-        "avgOptionTerms": 5.7,
+        "avgPromptTerms": 14.35,
+        "avgOptionTerms": 5.32,
         "uniqueReferencedTerms": 554,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
@@ -364,9 +364,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 20.1,
-        "avgOptionTerms": 6.72,
-        "uniqueReferencedTerms": 490,
+        "avgPromptTerms": 15.97,
+        "avgOptionTerms": 5.32,
+        "uniqueReferencedTerms": 539,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -390,9 +390,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 22.13,
-        "avgOptionTerms": 11.49,
-        "uniqueReferencedTerms": 326,
+        "avgPromptTerms": 13.1,
+        "avgOptionTerms": 6.37,
+        "uniqueReferencedTerms": 502,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -416,9 +416,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 15.78,
-        "avgOptionTerms": 8.53,
-        "uniqueReferencedTerms": 485,
+        "avgPromptTerms": 12.3,
+        "avgOptionTerms": 6.22,
+        "uniqueReferencedTerms": 536,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -442,9 +442,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 15.7,
-        "avgOptionTerms": 7.42,
-        "uniqueReferencedTerms": 485,
+        "avgPromptTerms": 14.95,
+        "avgOptionTerms": 6.88,
+        "uniqueReferencedTerms": 476,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -468,9 +468,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 117,
-        "avgPromptTerms": 15.97,
-        "avgOptionTerms": 9.42,
-        "uniqueReferencedTerms": 348,
+        "avgPromptTerms": 10,
+        "avgOptionTerms": 5.67,
+        "uniqueReferencedTerms": 456,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -494,9 +494,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 18.98,
-        "avgOptionTerms": 6.67,
-        "uniqueReferencedTerms": 574,
+        "avgPromptTerms": 17.05,
+        "avgOptionTerms": 6.05,
+        "uniqueReferencedTerms": 564,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -520,12 +520,12 @@
       "after": {
         "promptContextsNonEmpty": 59,
         "optionContextsNonEmpty": 177,
-        "avgPromptTerms": 6.81,
-        "avgOptionTerms": 3.81,
-        "uniqueReferencedTerms": 569,
+        "avgPromptTerms": 6.88,
+        "avgOptionTerms": 3.86,
+        "uniqueReferencedTerms": 590,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 77.4
+        "spanCoveragePct": 79.95
       }
     },
     {
@@ -546,12 +546,12 @@
       "after": {
         "promptContextsNonEmpty": 38,
         "optionContextsNonEmpty": 114,
-        "avgPromptTerms": 9.39,
-        "avgOptionTerms": 3.35,
-        "uniqueReferencedTerms": 398,
+        "avgPromptTerms": 8.76,
+        "avgOptionTerms": 3.36,
+        "uniqueReferencedTerms": 408,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 74.37
+        "spanCoveragePct": 76.63
       }
     },
     {
@@ -573,11 +573,11 @@
         "promptContextsNonEmpty": 50,
         "optionContextsNonEmpty": 151,
         "avgPromptTerms": 7.36,
-        "avgOptionTerms": 4.15,
-        "uniqueReferencedTerms": 503,
+        "avgOptionTerms": 4.25,
+        "uniqueReferencedTerms": 521,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 77.64
+        "spanCoveragePct": 79.85
       }
     },
     {
@@ -598,9 +598,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 15.25,
-        "avgOptionTerms": 9.43,
-        "uniqueReferencedTerms": 580,
+        "avgPromptTerms": 14.43,
+        "avgOptionTerms": 8.5,
+        "uniqueReferencedTerms": 595,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -624,9 +624,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 17.48,
-        "avgOptionTerms": 4.93,
-        "uniqueReferencedTerms": 488,
+        "avgPromptTerms": 16.57,
+        "avgOptionTerms": 4.64,
+        "uniqueReferencedTerms": 481,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -650,9 +650,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 13.78,
-        "avgOptionTerms": 5.34,
-        "uniqueReferencedTerms": 467,
+        "avgPromptTerms": 12.88,
+        "avgOptionTerms": 5.17,
+        "uniqueReferencedTerms": 454,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -676,9 +676,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 15.85,
-        "avgOptionTerms": 5.94,
-        "uniqueReferencedTerms": 487,
+        "avgPromptTerms": 15.25,
+        "avgOptionTerms": 5.44,
+        "uniqueReferencedTerms": 473,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -702,9 +702,9 @@
       "after": {
         "promptContextsNonEmpty": 36,
         "optionContextsNonEmpty": 108,
-        "avgPromptTerms": 18.22,
-        "avgOptionTerms": 7.37,
-        "uniqueReferencedTerms": 552,
+        "avgPromptTerms": 15.25,
+        "avgOptionTerms": 6.79,
+        "uniqueReferencedTerms": 538,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -728,9 +728,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 13.55,
-        "avgOptionTerms": 5.51,
-        "uniqueReferencedTerms": 437,
+        "avgPromptTerms": 11.88,
+        "avgOptionTerms": 4.94,
+        "uniqueReferencedTerms": 422,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -754,9 +754,9 @@
       "after": {
         "promptContextsNonEmpty": 39,
         "optionContextsNonEmpty": 117,
-        "avgPromptTerms": 17.41,
-        "avgOptionTerms": 5.55,
-        "uniqueReferencedTerms": 476,
+        "avgPromptTerms": 16.54,
+        "avgOptionTerms": 5.12,
+        "uniqueReferencedTerms": 463,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -780,9 +780,9 @@
       "after": {
         "promptContextsNonEmpty": 39,
         "optionContextsNonEmpty": 117,
-        "avgPromptTerms": 15.03,
-        "avgOptionTerms": 5.09,
-        "uniqueReferencedTerms": 455,
+        "avgPromptTerms": 14.23,
+        "avgOptionTerms": 4.96,
+        "uniqueReferencedTerms": 440,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -806,9 +806,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 15.4,
-        "avgOptionTerms": 5.98,
-        "uniqueReferencedTerms": 459,
+        "avgPromptTerms": 14.43,
+        "avgOptionTerms": 5.52,
+        "uniqueReferencedTerms": 460,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -832,9 +832,9 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 17.65,
-        "avgOptionTerms": 6.45,
-        "uniqueReferencedTerms": 564,
+        "avgPromptTerms": 16,
+        "avgOptionTerms": 6.1,
+        "uniqueReferencedTerms": 546,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -858,9 +858,9 @@
       "after": {
         "promptContextsNonEmpty": 32,
         "optionContextsNonEmpty": 128,
-        "avgPromptTerms": 19.88,
-        "avgOptionTerms": 5.28,
-        "uniqueReferencedTerms": 317,
+        "avgPromptTerms": 18.41,
+        "avgOptionTerms": 5.13,
+        "uniqueReferencedTerms": 320,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -884,9 +884,9 @@
       "after": {
         "promptContextsNonEmpty": 28,
         "optionContextsNonEmpty": 112,
-        "avgPromptTerms": 15.36,
-        "avgOptionTerms": 4.73,
-        "uniqueReferencedTerms": 217,
+        "avgPromptTerms": 14.82,
+        "avgOptionTerms": 4.61,
+        "uniqueReferencedTerms": 214,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -910,9 +910,9 @@
       "after": {
         "promptContextsNonEmpty": 12,
         "optionContextsNonEmpty": 48,
-        "avgPromptTerms": 20.58,
-        "avgOptionTerms": 13.21,
-        "uniqueReferencedTerms": 356,
+        "avgPromptTerms": 19.67,
+        "avgOptionTerms": 12.73,
+        "uniqueReferencedTerms": 364,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -936,9 +936,9 @@
       "after": {
         "promptContextsNonEmpty": 20,
         "optionContextsNonEmpty": 80,
-        "avgPromptTerms": 19.6,
-        "avgOptionTerms": 10,
-        "uniqueReferencedTerms": 478,
+        "avgPromptTerms": 19,
+        "avgOptionTerms": 9.46,
+        "uniqueReferencedTerms": 484,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 100
@@ -962,12 +962,12 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 10.7,
+        "avgPromptTerms": 10.63,
         "avgOptionTerms": 3.23,
-        "uniqueReferencedTerms": 434,
+        "uniqueReferencedTerms": 443,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 79.06
+        "spanCoveragePct": 79.99
       }
     },
     {
@@ -988,12 +988,12 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 8.38,
-        "avgOptionTerms": 3.48,
-        "uniqueReferencedTerms": 403,
+        "avgPromptTerms": 8.43,
+        "avgOptionTerms": 3.5,
+        "uniqueReferencedTerms": 409,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 77.95
+        "spanCoveragePct": 79.39
       }
     },
     {
@@ -1014,12 +1014,12 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 8.95,
-        "avgOptionTerms": 3.24,
-        "uniqueReferencedTerms": 383,
+        "avgPromptTerms": 9.03,
+        "avgOptionTerms": 3.29,
+        "uniqueReferencedTerms": 403,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 74.53
+        "spanCoveragePct": 77.64
       }
     },
     {
@@ -1040,12 +1040,12 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 9.55,
-        "avgOptionTerms": 3.54,
-        "uniqueReferencedTerms": 425,
+        "avgPromptTerms": 9.43,
+        "avgOptionTerms": 3.6,
+        "uniqueReferencedTerms": 431,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 76.32
+        "spanCoveragePct": 77.04
       }
     },
     {
@@ -1066,12 +1066,12 @@
       "after": {
         "promptContextsNonEmpty": 36,
         "optionContextsNonEmpty": 107,
-        "avgPromptTerms": 9.67,
-        "avgOptionTerms": 4.27,
-        "uniqueReferencedTerms": 459,
+        "avgPromptTerms": 9.53,
+        "avgOptionTerms": 4.35,
+        "uniqueReferencedTerms": 477,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 75.18
+        "spanCoveragePct": 77.8
       }
     },
     {
@@ -1092,12 +1092,12 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 6.78,
-        "avgOptionTerms": 3.26,
-        "uniqueReferencedTerms": 377,
+        "avgPromptTerms": 6.88,
+        "avgOptionTerms": 3.31,
+        "uniqueReferencedTerms": 390,
         "v2CompletenessErrors": 12,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 74.83
+        "spanCoveragePct": 77.57
       }
     },
     {
@@ -1118,12 +1118,12 @@
       "after": {
         "promptContextsNonEmpty": 39,
         "optionContextsNonEmpty": 117,
-        "avgPromptTerms": 10.64,
-        "avgOptionTerms": 3.52,
-        "uniqueReferencedTerms": 416,
+        "avgPromptTerms": 10.46,
+        "avgOptionTerms": 3.55,
+        "uniqueReferencedTerms": 422,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 79.39
+        "spanCoveragePct": 79.88
       }
     },
     {
@@ -1144,12 +1144,12 @@
       "after": {
         "promptContextsNonEmpty": 39,
         "optionContextsNonEmpty": 117,
-        "avgPromptTerms": 9.33,
-        "avgOptionTerms": 3.34,
-        "uniqueReferencedTerms": 394,
+        "avgPromptTerms": 9.36,
+        "avgOptionTerms": 3.36,
+        "uniqueReferencedTerms": 400,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 78.51
+        "spanCoveragePct": 79.88
       }
     },
     {
@@ -1170,12 +1170,12 @@
       "after": {
         "promptContextsNonEmpty": 40,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 9.25,
-        "avgOptionTerms": 3.4,
-        "uniqueReferencedTerms": 406,
+        "avgPromptTerms": 9.35,
+        "avgOptionTerms": 3.42,
+        "uniqueReferencedTerms": 415,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 74.34
+        "spanCoveragePct": 76.8
       }
     },
     {
@@ -1196,12 +1196,12 @@
       "after": {
         "promptContextsNonEmpty": 41,
         "optionContextsNonEmpty": 123,
-        "avgPromptTerms": 8.95,
-        "avgOptionTerms": 3.59,
-        "uniqueReferencedTerms": 403,
+        "avgPromptTerms": 8.83,
+        "avgOptionTerms": 3.63,
+        "uniqueReferencedTerms": 411,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 75.19
+        "spanCoveragePct": 76.47
       }
     },
     {
@@ -1222,12 +1222,12 @@
       "after": {
         "promptContextsNonEmpty": 20,
         "optionContextsNonEmpty": 65,
-        "avgPromptTerms": 7.75,
+        "avgPromptTerms": 7.35,
         "avgOptionTerms": 2.6,
-        "uniqueReferencedTerms": 135,
+        "uniqueReferencedTerms": 139,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 79.26
+        "spanCoveragePct": 80.71
       }
     },
     {
@@ -1248,12 +1248,12 @@
       "after": {
         "promptContextsNonEmpty": 20,
         "optionContextsNonEmpty": 60,
-        "avgPromptTerms": 8.95,
-        "avgOptionTerms": 2.9,
-        "uniqueReferencedTerms": 173,
+        "avgPromptTerms": 8.5,
+        "avgOptionTerms": 2.95,
+        "uniqueReferencedTerms": 179,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 72.93
+        "spanCoveragePct": 77.58
       }
     },
     {
@@ -1274,12 +1274,12 @@
       "after": {
         "promptContextsNonEmpty": 20,
         "optionContextsNonEmpty": 60,
-        "avgPromptTerms": 8.05,
-        "avgOptionTerms": 2.75,
-        "uniqueReferencedTerms": 194,
+        "avgPromptTerms": 7.6,
+        "avgOptionTerms": 2.78,
+        "uniqueReferencedTerms": 197,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 74.21
+        "spanCoveragePct": 75.31
       }
     },
     {
@@ -1301,11 +1301,11 @@
         "promptContextsNonEmpty": 20,
         "optionContextsNonEmpty": 73,
         "avgPromptTerms": 6.5,
-        "avgOptionTerms": 3,
-        "uniqueReferencedTerms": 214,
+        "avgOptionTerms": 3.05,
+        "uniqueReferencedTerms": 219,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 69.12
+        "spanCoveragePct": 70.87
       }
     },
     {
@@ -1327,11 +1327,11 @@
         "promptContextsNonEmpty": 20,
         "optionContextsNonEmpty": 57,
         "avgPromptTerms": 8.5,
-        "avgOptionTerms": 3.61,
-        "uniqueReferencedTerms": 216,
+        "avgOptionTerms": 3.62,
+        "uniqueReferencedTerms": 220,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 75.18
+        "spanCoveragePct": 76.65
       }
     },
     {
@@ -1352,12 +1352,12 @@
       "after": {
         "promptContextsNonEmpty": 20,
         "optionContextsNonEmpty": 61,
-        "avgPromptTerms": 7.9,
-        "avgOptionTerms": 3.39,
-        "uniqueReferencedTerms": 201,
+        "avgPromptTerms": 7.95,
+        "avgOptionTerms": 3.38,
+        "uniqueReferencedTerms": 206,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 78.35
+        "spanCoveragePct": 79.96
       }
     },
     {
@@ -1378,12 +1378,12 @@
       "after": {
         "promptContextsNonEmpty": 25,
         "optionContextsNonEmpty": 86,
-        "avgPromptTerms": 6.76,
-        "avgOptionTerms": 2.92,
-        "uniqueReferencedTerms": 216,
+        "avgPromptTerms": 6.88,
+        "avgOptionTerms": 2.97,
+        "uniqueReferencedTerms": 225,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 66.72
+        "spanCoveragePct": 68.96
       }
     },
     {
@@ -1404,12 +1404,12 @@
       "after": {
         "promptContextsNonEmpty": 30,
         "optionContextsNonEmpty": 120,
-        "avgPromptTerms": 5.23,
-        "avgOptionTerms": 3.11,
-        "uniqueReferencedTerms": 299,
+        "avgPromptTerms": 5.7,
+        "avgOptionTerms": 3.28,
+        "uniqueReferencedTerms": 329,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 69.93
+        "spanCoveragePct": 75.3
       }
     },
     {
@@ -1430,9 +1430,9 @@
       "after": {
         "promptContextsNonEmpty": 11,
         "optionContextsNonEmpty": 33,
-        "avgPromptTerms": 15.09,
+        "avgPromptTerms": 15.18,
         "avgOptionTerms": 2.09,
-        "uniqueReferencedTerms": 45,
+        "uniqueReferencedTerms": 46,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
         "spanCoveragePct": 67.89
@@ -1457,11 +1457,11 @@
         "promptContextsNonEmpty": 5,
         "optionContextsNonEmpty": 20,
         "avgPromptTerms": 15.4,
-        "avgOptionTerms": 7.4,
-        "uniqueReferencedTerms": 148,
+        "avgOptionTerms": 7.45,
+        "uniqueReferencedTerms": 151,
         "v2CompletenessErrors": 0,
         "strictValidatorErrors": 0,
-        "spanCoveragePct": 76.71
+        "spanCoveragePct": 78.22
       }
     },
     {

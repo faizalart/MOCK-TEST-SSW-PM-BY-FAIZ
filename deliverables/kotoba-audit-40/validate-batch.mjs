@@ -62,7 +62,7 @@ export const HIRA_LEXICAL = new Set([
   'すばやく', 'なかなか', 'つねに', 'くっつかない', 'きかい', 'きぐ', 'せんじょう', 'かたずけます', 'かくにん',
   'せいかつ', 'せいけつ', 'せいり', 'せいとん', 'ふくそう', 'けっか', 'じゅうような', 'ほうこく', 'ぞうしょく',
   'あいだ', 'あらいます', 'だれ', 'だれにも', 'もつ', 'とる', 'やる', 'なし', 'あたって', 'ほかに',
-  'きんぞく', 'かみのけ', 'いみ',
+  'きんぞく', 'かみのけ', 'いみ', 'ただしく', 'てぬぐい', 'みず',
 ]);
 
 export const SEGMENT_ATTACHED_PARTICLES = new Set([
@@ -71,13 +71,42 @@ export const SEGMENT_ATTACHED_PARTICLES = new Set([
 ]);
 
 export const TECHNICAL_ASCII = new Set([
-  'ppm', 'ml', 'kg', 'g', 'L', 'm', 'HACCP', 'CCP', 'ＣＣＰ', 'HA', 'KYT', 'FIFO', 'OTAFF', 'SNS', '5S', 'O157', 'O111',
-  'NaClO', 'NaCl', 'NaC1O', 'NAClO', 'X', 'Ｘ', 'CC',
+  'ppm', 'ml', 'kg', 'Kg', 'g', 'L', 'l', 'm', 'HACCP', 'CCP', 'ＣＣＰ', 'HA', 'KYT', 'FIFO', 'OTAFF', 'SNS', '5S', 'O157', 'O111',
+  'NaClO', 'NaCl', 'NaC1O', 'NAClO', 'NaCLO', 'HEPA', 'X', 'Ｘ', 'CC',
   '°C', 'ºC', '℃', '㎏', '%', '％',
 ]);
 
 const PREFIX_MARKER_RE = /^(?:\[(?:イラスト|標識|図|写真|品目|保護具|画像)[A-Za-z0-9]+\]\s*)+/u;
 const segJa = new Intl.Segmenter('ja', { granularity: 'word' });
+
+const FRAG_ARTI_RE = /(terpotong|fragmen|akhiran|awalan \(typo|suku kata|typo 文|penanda lampau)/i;
+const FRAG_ARTI_ALLOW_RE = /^(?:切り|切れ|切らない|切れた|切断|一部|部分|十分|区分|中央|中心|中華|中立|中身|途中|中程度|作業中|空気中|血液中|熱中症)/;
+const SMALL_KANA_ONLY_RE = /^[ぁぃぅぇぉゃゅょゎっァィゥェォャュョヮッー]+$/;
+const SINGLE_KANA_RE = /^[\u3041-\u3096\u30A1-\u30F6]$/;
+const C1_ALLOWED_SINGLE_KANA = new Set([
+  'を', 'が', 'と', 'に', 'の', 'で', 'も', 'へ', 'や', 'は', 'な', 'か',
+  'ア', 'イ', 'ウ', 'エ', 'オ',
+]);
+const BANNED_FRAGMENT_IDS = new Set([
+  'kb-v2-p1-313', 'kb-v2-p5-221', 'kb-v2-p5-432', 'kb-v2-p6-158', 'kb-v2-p6-519',
+  'kb-v2-p6-489', 'kb-v2-p3-291',
+]);
+const BANNED_SINGLE_KANJI_SHREDS = new Set(['選', '巻', '置', '代', '取', '必', '滑', '防', '込', '多', '感', '一']);
+const BANNED_KANA_FRAGMENT_SURFACES = new Set([
+  'でしょ', 'にくい', 'びなさい', 'き込まれそうに', '呼ばれま', 'ぶつか', '洗い流',
+  'くだ', 'えら', '当た', 'サル', 'ネラ', 'トリウム', 'ビブリ', 'ント', 'ぞれ',
+]);
+
+export function isBannedFragmentEntry(id, e) {
+  if (!e) return false;
+  if (BANNED_FRAGMENT_IDS.has(id)) return true;
+  if (e.unitType === 'morpheme_fragment' || e.entryType === 'morpheme_fragment') return true;
+  const k = (e.kanji || '').trim();
+  if (SMALL_KANA_ONLY_RE.test(k)) return true;
+  if (BANNED_KANA_FRAGMENT_SURFACES.has(k)) return true;
+  if (FRAG_ARTI_RE.test(e.arti || '') && !FRAG_ARTI_ALLOW_RE.test(k)) return true;
+  return false;
+}
 
 export function cleanContextText(html) {
   return stripRubyAndHtml(String(html || '').replace(/\*\*/g, '')).replace(PREFIX_MARKER_RE, '');
@@ -117,10 +146,12 @@ export function validateStrictContext({
   termIds,
   dict,
   knownLexiconIndex = null,
+  cohort = null,
 }) {
   const errors = [];
   const plain = cleanContextText(html);
   const terms = dict.terms || {};
+  const isCohort1 = cohort === 'cohort_1_spec009_canonical';
 
   if (!Array.isArray(termIds)) {
     errors.push({ code: 'MISSING_MAPPING_ARRAY', contextKey, message: 'termIds must be an array' });
@@ -133,6 +164,28 @@ export function validateStrictContext({
     if (!e || e.status !== 'verified') {
       errors.push({ code: 'DANGLING_OR_UNVERIFIED_TERM', contextKey, termId: id, message: `Dangling or unverified termId: ${id}` });
       continue;
+    }
+    const surf = (e.kanji || '').trim();
+    if (isBannedFragmentEntry(id, e)) {
+      errors.push({ code: 'BANNED_FRAGMENT_TERM', contextKey, termId: id, surface: surf, message: `Banned fragment/shred term "${surf}" (${id}: ${e.arti})` });
+    }
+    if (SMALL_KANA_ONLY_RE.test(surf)) {
+      errors.push({ code: 'SMALL_KANA_SHRED', contextKey, termId: id, surface: surf, message: `Small kana shred "${surf}" (${id}) is forbidden` });
+    }
+    if (BANNED_SINGLE_KANJI_SHREDS.has(surf)) {
+      errors.push({ code: 'WRONG_KANJI_SPLIT', contextKey, termId: id, surface: surf, message: `Bare split kanji "${surf}" (${id}) is forbidden` });
+    }
+    if (SINGLE_KANA_RE.test(surf)) {
+      if (surf === 'つ') {
+        const hasNumeralTsu = /[0-9０-９一二三四五六七八九十]\s*つ(?=$|[\s、。・「」『』（）(),.!！?？をのにはがではとだもやか]|あり(?:ます|ません))/.test(plain);
+        if (!hasNumeralTsu) {
+          errors.push({ code: 'SINGLE_KANA_SHRED', contextKey, termId: id, surface: surf, message: `Non-numeral single kana "${surf}" (${id}) shredded out of word in ${contextKey}` });
+        }
+      } else if (!isCohort1) {
+        errors.push({ code: 'SINGLE_KANA_SHRED', contextKey, termId: id, surface: surf, message: `Single-kana entry "${surf}" (${id}) is forbidden in ${cohort || 'non-C1'}` });
+      } else if (!C1_ALLOWED_SINGLE_KANA.has(surf)) {
+        errors.push({ code: 'SINGLE_KANA_SHRED', contextKey, termId: id, surface: surf, message: `Non-particle single-kana shred "${surf}" (${id}) is forbidden even in Cohort 1` });
+      }
     }
     if (e.furigana === 'たんご') {
       errors.push({ code: 'PLACEHOLDER_TANGO_READING', contextKey, termId: id, message: `Placeholder たんご reading on ${id} (${e.kanji})` });
@@ -191,6 +244,83 @@ export function validateStrictContext({
         termId: item.e.id,
         message: `Substring collision: "${item.e.kanji}" (${item.e.id}) only appears inside another compound in "${plain.slice(0, 60)}"`,
       });
+    }
+  }
+
+  // Wrong kanji splits & hiragana word shredding checks
+  for (const item of coveredOffsets) {
+    const k = item.e.kanji;
+    if (k === '指') {
+      const okYubi = item.offsets.some(pos => {
+        const swallowed = coveredOffsets.some(other =>
+          other.e.id !== item.e.id &&
+          other.len > 1 &&
+          other.offsets.some(op => op <= pos && op + other.len >= pos + 1)
+        );
+        if (swallowed) return false;
+        const next = plain[pos + 1] || '';
+        return next !== 'さ' && next !== '差';
+      });
+      if (!okYubi) {
+        errors.push({
+          code: 'WRONG_KANJI_SPLIT',
+          contextKey,
+          termId: item.e.id,
+          surface: k,
+          message: `Kanji "指" (${item.e.id}) split out of 指さす/指差呼称 in "${plain.slice(0, 60)}"`,
+        });
+      }
+    }
+
+    if (/^[ア-オ]$/.test(k)) {
+      const okChoice = item.offsets.some(pos => {
+        const L = pos > 0 ? plain[pos - 1] : '';
+        const R = pos + 1 < plain.length ? plain[pos + 1] : '';
+        return !/[\u30A1-\u30F6ー]/.test(L) && !/^[ー]$/.test(R) && (!/[\u30A1-\u30F6]/.test(R) || L === '\n' || L === '' || /[\s\u3041-\u3096]/.test(L));
+      });
+      if (!okChoice) {
+        errors.push({
+          code: 'FRAGMENT_SHREDDING',
+          contextKey,
+          termId: item.e.id,
+          surface: k,
+          message: `Single katakana "${k}" shredded out of katakana word in "${plain.slice(0, 60)}"`,
+        });
+      }
+    }
+
+    if (!hasKanji(k) && [...k].length >= 2 && [...k].length <= 3) {
+      const okKanaWord = item.offsets.some(pos => {
+        const end = pos + item.len;
+        const swallowed = coveredOffsets.some(other =>
+          other.e.id !== item.e.id &&
+          other.len > item.len &&
+          other.offsets.some(op => op <= pos && op + other.len >= end)
+        );
+        if (swallowed) return false;
+        const L = pos > 0 ? plain[pos - 1] : '';
+        const R = end < plain.length ? plain[end] : '';
+        if (k === 'まず' && L === 'つ') return false;
+        if (k === 'します' && plain.slice(Math.max(0, pos - 2), pos) === '指さ') return false;
+        if (k === 'たこ' && L === 'っ') return false;
+        if (k === 'です' && plain.slice(pos, pos + 3) === 'ですべ') return false;
+        if (k === 'のみ' && plain.slice(pos, pos + 3) === 'のみず') return false;
+        if (k === 'かんし' && (R === 'ょ' || L === 'じ')) return false;
+        if (k === 'はな' && R === 'ん') return false;
+        if (k === 'どの' && L === 'う') return false;
+        if (k === 'なし' && R === 'ょ') return false;
+        if (k === 'つかう' && L === 'あ') return false;
+        return true;
+      });
+      if (!okKanaWord) {
+        errors.push({
+          code: 'FRAGMENT_SHREDDING',
+          contextKey,
+          termId: item.e.id,
+          surface: k,
+          message: `Fragment shredding: "${k}" (${item.e.id}) only appears mid-word in "${plain.slice(0, 60)}"`,
+        });
+      }
     }
   }
 
@@ -464,7 +594,72 @@ export function runNegativeTests() {
   });
   assert.equal(pos9Real.length, 0, `Pos 9 failed: expected 0 errors, got ${JSON.stringify(pos9Real)}`);
 
-  console.log('ALL 9 NEGATIVE + POSITIVE VALIDATOR UNIT TESTS PASSED!');
+  // Neg 10: Shredded つまずいたり (つ + まず + い + た + り)
+  const fragDict = {
+    terms: {
+      ...sampleDict.terms,
+      't-tsu': { id: 't-tsu', kanji: 'つ', furigana: 'つ', unitType: 'particle', arti: 'buah', status: 'verified' },
+      't-mazu': { id: 't-mazu', kanji: 'まず', furigana: 'まず', unitType: 'word', arti: 'pertama-tama', status: 'verified' },
+      't-i': { id: 'kb-v2-p1-313', kanji: 'い', furigana: 'い', unitType: 'word', arti: 'awalan (typo 文)', status: 'verified' },
+      'kb-v2-p1-313': { id: 'kb-v2-p1-313', kanji: 'い', furigana: 'い', unitType: 'word', arti: 'awalan (typo 文)', status: 'verified' },
+      't-ta': { id: 't-ta', kanji: 'た', furigana: 'た', unitType: 'particle', arti: 'penanda lampau', status: 'verified' },
+      't-ri': { id: 't-ri', kanji: 'り', furigana: 'り', unitType: 'particle', arti: 'akhiran kata kerja', status: 'verified' },
+      't-yubi': { id: 't-yubi', kanji: '指', furigana: 'ゆび', unitType: 'word', arti: 'jari', status: 'verified' },
+      't-sa': { id: 't-sa', kanji: 'さ', furigana: 'さ', unitType: 'particle', arti: 'akhiran kata sifat', status: 'verified' },
+      't-shimasu': { id: 't-shimasu', kanji: 'します', furigana: 'します', unitType: 'inflected_verb', dictForm: 'する', arti: 'melakukan', status: 'verified' },
+      't-yu': { id: 't-yu', kanji: 'ゅ', furigana: '', unitType: 'particle', arti: 'suku kata', status: 'verified' },
+      'kb-v2-p5-221': { id: 'kb-v2-p5-221', kanji: 'でしょ', furigana: 'でしょ', unitType: 'particle', arti: 'kira-kira (terpotong)', status: 'verified' },
+      'kb-audit-0007': { id: 'kb-audit-0007', kanji: 'にくい', furigana: 'にくい', unitType: 'word', arti: 'sulit', status: 'verified' },
+    }
+  };
+  const neg10 = validateStrictContext({
+    contextKey: 'neg-shred-tsumazu',
+    html: '物につまずいたり',
+    termIds: ['t-tsu', 't-mazu', 'kb-v2-p1-313', 't-ta', 't-ri'],
+    dict: fragDict,
+    cohort: 'cohort_1_spec009_canonical',
+  });
+  assert(neg10.some(e => e.code === 'FRAGMENT_SHREDDING' || e.code === 'SINGLE_KANA_SHRED' || e.code === 'BANNED_FRAGMENT_TERM'), 'Neg 10 failed: shredded つまずいたり must fail');
+
+  // Neg 11: Split 指 + さ + します inside 指さします
+  const neg11 = validateStrictContext({
+    contextKey: 'neg-yubi-sashimasu',
+    html: '転れることを指さします。',
+    termIds: ['t-yubi', 't-sa', 't-shimasu'],
+    dict: fragDict,
+    cohort: 'cohort_1_spec009_canonical',
+  });
+  assert(neg11.some(e => e.code === 'WRONG_KANJI_SPLIT'), 'Neg 11 failed: 指 inside 指さします must fail');
+
+  // Neg 12: Small kana shred in しょくちゅうどく
+  const neg12 = validateStrictContext({
+    contextKey: 'neg-small-kana',
+    html: 'しょくちゅうどく',
+    termIds: ['t-yu'],
+    dict: fragDict,
+    cohort: 'cohort_1_spec009_canonical',
+  });
+  assert(neg12.some(e => e.code === 'SMALL_KANA_SHRED'), 'Neg 12 failed: small kana ゅ must fail');
+
+  // Neg 13: でしょ and にくい leaks in Cohort 2-4
+  const neg13a = validateStrictContext({
+    contextKey: 'neg-desho-c24',
+    html: '正しいものはどれでしょうか。',
+    termIds: ['kb-v2-p5-221'],
+    dict: fragDict,
+    cohort: 'cohort_2_unaudited_19_paket',
+  });
+  const neg13b = validateStrictContext({
+    contextKey: 'neg-nikui-c24',
+    html: 'きがつきにくい',
+    termIds: ['kb-audit-0007'],
+    dict: fragDict,
+    cohort: 'cohort_2_unaudited_19_paket',
+  });
+  assert(neg13a.some(e => e.code === 'BANNED_FRAGMENT_TERM'), 'Neg 13a failed: でしょ leak must fail');
+  assert(neg13b.some(e => e.code === 'BANNED_FRAGMENT_TERM'), 'Neg 13b failed: にくい leak must fail');
+
+  console.log('ALL 13 NEGATIVE + POSITIVE VALIDATOR UNIT TESTS PASSED!');
 }
 
 function sha256Text(text) {
@@ -567,7 +762,8 @@ export function validatePackagesList({ packageIds, manifest, dict, mapping, kt, 
         html: pHtml,
         termIds: pIds,
         dict,
-        knownLexiconIndex: pm.cohort === 'cohort_1_spec009_canonical' ? null : knownIdx,
+        knownLexiconIndex: knownIdx,
+        cohort: pm.cohort,
       }));
 
       // Check inline kotobaU/kt consistency if present
@@ -595,7 +791,8 @@ export function validatePackagesList({ packageIds, manifest, dict, mapping, kt, 
           html: opt.text || extractOptionPlainText(opt),
           termIds: byCk,
           dict,
-          knownLexiconIndex: pm.cohort === 'cohort_1_spec009_canonical' ? null : knownIdx,
+          knownLexiconIndex: knownIdx,
+          cohort: pm.cohort,
         }));
       }
     }

@@ -1,7 +1,7 @@
 # Final Kotoba Audit & Repair Report — All 50 Non-OTAFF Latsol Packages
 
 - **Branch**: `fix/kotoba-audit-40` (`main` untouched, nothing pushed)
-- **Generated At**: `2026-11-15T16:40:23.117Z`
+- **Generated At**: `2026-11-15T19:30:23.122Z`
 - **Scope**: All **50** non-OTAFF packages (**1,739 questions**, **5,383 options**, **7,122 contexts**) repaired across `batch-01`..`batch-10`; **10** Protected OTAFF PM 5.1 packages (`1,600` contexts) kept **100% byte-identical** and mapping-identical.
 
 ## 1. Executive Summary (Before vs After)
@@ -10,10 +10,10 @@
 | --- | ---: | ---: | --- |
 | Strict Validator Errors (50 Targets) | — | **0** | `validateStrictContext` + Spec-009 + inline sync |
 | `v2Completeness` Errors (50 Targets) | **3,145** | **12** | All 12 residual flags are bracketed `[画像A/B/C]` UI tags in `latsol-nguyen-06` (intentionally excluded by `PREFIX_MARKER_RE`) |
-| Mean Span Coverage (50 Targets) | **82.01%** | **88.5%** | Converged to 100% Cohort 1 / ~77-80% OTAFF standard |
+| Mean Span Coverage (50 Targets) | **82.01%** | **89.41%** | Converged to 100% Cohort 1 / ~77-80% OTAFF standard |
 | Empty Prompt Contexts (50 Targets) | **20** | **0** | Every Japanese prompt mapped |
 | Empty Option Contexts (50 Targets) | **197** | **18** | Remaining 18 are pure numbers / English acronyms / PDF truncated marker |
-| Dictionary Terms (Total / Verified) | 6359 / 6315 | **6547 / 6503** | +188 curated (`kb-audit-0001..`), 0 `たんご` |
+| Dictionary Terms (Total / Verified) | 6359 / 6315 | **7530 / 7486** | +1171 curated (`kb-audit-0001..`), 0 `たんご` |
 | Mapping Composite Keys | 6583 | **6583** | Complete per-option keys synced with `mapping.options` |
 | Protected 10 OTAFF Reference Packages | 0 errors | **0 errors (100% SHA-256 identical)** | Zero file hash or resolved Kotoba changes |
 
@@ -22,12 +22,12 @@
 | Cohort | Packages | Qs | Ctxs | Errors Before (`v2`) | Errors After (`v2` / Strict) | Empty Prompts | Empty Options | Span % Before -> After |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Cohort 1 — Spec-009 Canonical | 27 | 1006 | 4116 | 133 | **0 / 0** | 0 | 6 | 100% -> **100%** |
-| Cohort 2 — 19 Paket Latsol | 19 | 581 | 2392 | 1010 | **12 / 0** | 0 | 12 | 65.61% -> **74.68%** |
-| Cohort 3 — Soal Ujian 14–16 | 3 | 147 | 589 | 1930 | **0 / 0** | 0 | 0 | 30.17% -> **76.47%** |
-| Cohort 4 — Pilot OTAFF 5.1 | 1 | 5 | 25 | 72 | **0 / 0** | 0 | 0 | 63.64% -> **76.71%** |
+| Cohort 2 — 19 Paket Latsol | 19 | 581 | 2392 | 1010 | **12 / 0** | 0 | 12 | 65.61% -> **76.62%** |
+| Cohort 3 — Soal Ujian 14–16 | 3 | 147 | 589 | 1930 | **0 / 0** | 0 | 0 | 30.17% -> **78.81%** |
+| Cohort 4 — Pilot OTAFF 5.1 | 1 | 5 | 25 | 72 | **0 / 0** | 0 | 0 | 63.64% -> **78.22%** |
 | Protected 10 — OTAFF PM 5.1 (Ref) | 10 | 400 | 1600 | 0 | **0 / 0** | 0 | 0 | 79.36% -> **79.36%** |
 
-- **Benchmark `latsol-nguyen-01`**: Span coverage **76.13% -> 79.06%**, `v2` errors **26 -> 0**, strict errors **0**, `avgPromptTerms=10.7`, `avgOptionTerms=3.23` (vs Protected OTAFF mean span **79.36%**).
+- **Benchmark `latsol-nguyen-01`**: Span coverage **76.13% -> 79.99%**, `v2` errors **26 -> 0**, strict errors **0**, `avgPromptTerms=10.63`, `avgOptionTerms=3.23` (vs Protected OTAFF mean span **79.36%**).
 
 ## 3. Per-Package Verification Table (50 Repaired Targets)
 
@@ -46,9 +46,9 @@
 | 11 | `ssw-pm-kunci-ujian-11` | `cohort_1_spec009_canonical` | `batch-06` | 40 | 8 | **0 / 0** | 100% -> **100%** | 0 / 0 |
 | 12 | `ssw-pm-kunci-ujian-12` | `cohort_1_spec009_canonical` | `batch-08` | 40 | 4 | **0 / 0** | 100% -> **100%** | 0 / 3 |
 | 13 | `ssw-pm-kunci-ujian-13` | `cohort_1_spec009_canonical` | `batch-08` | 40 | 3 | **0 / 0** | 100% -> **100%** | 0 / 0 |
-| 14 | `ssw-pm-kunci-ujian-14` | `cohort_3_unaudited_ujian_14_16` | `batch-01` | 59 | 684 | **0 / 0** | 36.22% -> **77.4%** | 0 / 0 |
-| 15 | `ssw-pm-kunci-ujian-15` | `cohort_3_unaudited_ujian_14_16` | `batch-01` | 38 | 527 | **0 / 0** | 27.95% -> **74.37%** | 0 / 0 |
-| 16 | `ssw-pm-kunci-ujian-16` | `cohort_3_unaudited_ujian_14_16` | `batch-01` | 50 | 719 | **0 / 0** | 26.34% -> **77.64%** | 0 / 0 |
+| 14 | `ssw-pm-kunci-ujian-14` | `cohort_3_unaudited_ujian_14_16` | `batch-01` | 59 | 684 | **0 / 0** | 36.22% -> **79.95%** | 0 / 0 |
+| 15 | `ssw-pm-kunci-ujian-15` | `cohort_3_unaudited_ujian_14_16` | `batch-01` | 38 | 527 | **0 / 0** | 27.95% -> **76.63%** | 0 / 0 |
+| 16 | `ssw-pm-kunci-ujian-16` | `cohort_3_unaudited_ujian_14_16` | `batch-01` | 50 | 719 | **0 / 0** | 26.34% -> **79.85%** | 0 / 0 |
 | 17 | `ssw-pm-tipe2-nguyen1` | `cohort_1_spec009_canonical` | `batch-08` | 40 | 4 | **0 / 0** | 100% -> **100%** | 0 / 0 |
 | 18 | `bonus-soal-1` | `cohort_1_spec009_canonical` | `batch-05` | 40 | 11 | **0 / 0** | 100% -> **100%** | 0 / 0 |
 | 19 | `bonus-soal-2` | `cohort_1_spec009_canonical` | `batch-08` | 40 | 4 | **0 / 0** | 100% -> **100%** | 0 / 0 |
@@ -63,26 +63,26 @@
 | 28 | `ssw-pm-lab-suhu` | `cohort_1_spec009_canonical` | `batch-10` | 28 | 0 | **0 / 0** | 100% -> **100%** | 0 / 0 |
 | 29 | `ssw-pm-lab-haccp` | `cohort_1_spec009_canonical` | `batch-09` | 12 | 2 | **0 / 0** | 100% -> **100%** | 0 / 0 |
 | 30 | `ssw-pm-lab-alergen` | `cohort_1_spec009_canonical` | `batch-07` | 20 | 8 | **0 / 0** | 100% -> **100%** | 0 / 0 |
-| 31 | `latsol-nguyen-01` | `cohort_2_unaudited_19_paket` | `batch-04` | 40 | 26 | **0 / 0** | 76.13% -> **79.06%** | 0 / 0 |
-| 32 | `latsol-nguyen-02` | `cohort_2_unaudited_19_paket` | `batch-04` | 40 | 36 | **0 / 0** | 73.8% -> **77.95%** | 0 / 0 |
-| 33 | `latsol-nguyen-03` | `cohort_2_unaudited_19_paket` | `batch-04` | 40 | 39 | **0 / 0** | 70.47% -> **74.53%** | 0 / 0 |
-| 34 | `latsol-nguyen-04` | `cohort_2_unaudited_19_paket` | `batch-03` | 40 | 49 | **0 / 0** | 71.27% -> **76.32%** | 0 / 0 |
-| 35 | `latsol-nguyen-05` | `cohort_2_unaudited_19_paket` | `batch-03` | 36 | 41 | **0 / 0** | 71.12% -> **75.18%** | 0 / 1 |
-| 36 | `latsol-nguyen-06` | `cohort_2_unaudited_19_paket` | `batch-03` | 40 | 48 | **12 / 0** | 71.24% -> **74.83%** | 0 / 0 |
-| 37 | `latsol-nguyen-07` | `cohort_2_unaudited_19_paket` | `batch-03` | 39 | 43 | **0 / 0** | 75.53% -> **79.39%** | 0 / 0 |
-| 38 | `latsol-nguyen-08` | `cohort_2_unaudited_19_paket` | `batch-05` | 39 | 25 | **0 / 0** | 75.28% -> **78.51%** | 0 / 0 |
-| 39 | `latsol-nguyen-09` | `cohort_2_unaudited_19_paket` | `batch-04` | 40 | 38 | **0 / 0** | 70.15% -> **74.34%** | 0 / 0 |
-| 40 | `latsol-nguyen-10` | `cohort_2_unaudited_19_paket` | `batch-04` | 41 | 33 | **0 / 0** | 71.48% -> **75.19%** | 0 / 0 |
-| 41 | `latsol-reguler-01` | `cohort_2_unaudited_19_paket` | `batch-02` | 20 | 73 | **0 / 0** | 55.06% -> **79.26%** | 0 / 0 |
-| 42 | `latsol-reguler-02` | `cohort_2_unaudited_19_paket` | `batch-03` | 20 | 54 | **0 / 0** | 56.05% -> **72.93%** | 0 / 0 |
-| 43 | `latsol-reguler-03` | `cohort_2_unaudited_19_paket` | `batch-02` | 20 | 55 | **0 / 0** | 54.86% -> **74.21%** | 0 / 0 |
-| 44 | `latsol-reguler-04` | `cohort_2_unaudited_19_paket` | `batch-02` | 20 | 56 | **0 / 0** | 61.56% -> **69.12%** | 0 / 7 |
-| 45 | `latsol-reguler-05` | `cohort_2_unaudited_19_paket` | `batch-01` | 20 | 77 | **0 / 0** | 59.93% -> **75.18%** | 0 / 4 |
-| 46 | `latsol-reguler-06` | `cohort_2_unaudited_19_paket` | `batch-02` | 20 | 65 | **0 / 0** | 57.51% -> **78.35%** | 0 / 0 |
-| 47 | `latsol-tambahan-01` | `cohort_2_unaudited_19_paket` | `batch-05` | 25 | 17 | **0 / 0** | 61.91% -> **66.72%** | 0 / 0 |
-| 48 | `latsol-tambahan-02` | `cohort_2_unaudited_19_paket` | `batch-01` | 30 | 224 | **0 / 0** | 47.55% -> **69.93%** | 0 / 0 |
+| 31 | `latsol-nguyen-01` | `cohort_2_unaudited_19_paket` | `batch-04` | 40 | 26 | **0 / 0** | 76.13% -> **79.99%** | 0 / 0 |
+| 32 | `latsol-nguyen-02` | `cohort_2_unaudited_19_paket` | `batch-04` | 40 | 36 | **0 / 0** | 73.8% -> **79.39%** | 0 / 0 |
+| 33 | `latsol-nguyen-03` | `cohort_2_unaudited_19_paket` | `batch-04` | 40 | 39 | **0 / 0** | 70.47% -> **77.64%** | 0 / 0 |
+| 34 | `latsol-nguyen-04` | `cohort_2_unaudited_19_paket` | `batch-03` | 40 | 49 | **0 / 0** | 71.27% -> **77.04%** | 0 / 0 |
+| 35 | `latsol-nguyen-05` | `cohort_2_unaudited_19_paket` | `batch-03` | 36 | 41 | **0 / 0** | 71.12% -> **77.8%** | 0 / 1 |
+| 36 | `latsol-nguyen-06` | `cohort_2_unaudited_19_paket` | `batch-03` | 40 | 48 | **12 / 0** | 71.24% -> **77.57%** | 0 / 0 |
+| 37 | `latsol-nguyen-07` | `cohort_2_unaudited_19_paket` | `batch-03` | 39 | 43 | **0 / 0** | 75.53% -> **79.88%** | 0 / 0 |
+| 38 | `latsol-nguyen-08` | `cohort_2_unaudited_19_paket` | `batch-05` | 39 | 25 | **0 / 0** | 75.28% -> **79.88%** | 0 / 0 |
+| 39 | `latsol-nguyen-09` | `cohort_2_unaudited_19_paket` | `batch-04` | 40 | 38 | **0 / 0** | 70.15% -> **76.8%** | 0 / 0 |
+| 40 | `latsol-nguyen-10` | `cohort_2_unaudited_19_paket` | `batch-04` | 41 | 33 | **0 / 0** | 71.48% -> **76.47%** | 0 / 0 |
+| 41 | `latsol-reguler-01` | `cohort_2_unaudited_19_paket` | `batch-02` | 20 | 73 | **0 / 0** | 55.06% -> **80.71%** | 0 / 0 |
+| 42 | `latsol-reguler-02` | `cohort_2_unaudited_19_paket` | `batch-03` | 20 | 54 | **0 / 0** | 56.05% -> **77.58%** | 0 / 0 |
+| 43 | `latsol-reguler-03` | `cohort_2_unaudited_19_paket` | `batch-02` | 20 | 55 | **0 / 0** | 54.86% -> **75.31%** | 0 / 0 |
+| 44 | `latsol-reguler-04` | `cohort_2_unaudited_19_paket` | `batch-02` | 20 | 56 | **0 / 0** | 61.56% -> **70.87%** | 0 / 7 |
+| 45 | `latsol-reguler-05` | `cohort_2_unaudited_19_paket` | `batch-01` | 20 | 77 | **0 / 0** | 59.93% -> **76.65%** | 0 / 4 |
+| 46 | `latsol-reguler-06` | `cohort_2_unaudited_19_paket` | `batch-02` | 20 | 65 | **0 / 0** | 57.51% -> **79.96%** | 0 / 0 |
+| 47 | `latsol-tambahan-01` | `cohort_2_unaudited_19_paket` | `batch-05` | 25 | 17 | **0 / 0** | 61.91% -> **68.96%** | 0 / 0 |
+| 48 | `latsol-tambahan-02` | `cohort_2_unaudited_19_paket` | `batch-01` | 30 | 224 | **0 / 0** | 47.55% -> **75.3%** | 0 / 0 |
 | 49 | `latsol-hitungan-01` | `cohort_2_unaudited_19_paket` | `batch-05` | 11 | 11 | **0 / 0** | 65.63% -> **67.89%** | 0 / 0 |
-| 50 | `pilot-otaff51-01` | `cohort_4_pilot_otaff51` | `batch-02` | 5 | 72 | **0 / 0** | 63.64% -> **76.71%** | 0 / 0 |
+| 50 | `pilot-otaff51-01` | `cohort_4_pilot_otaff51` | `batch-02` | 5 | 72 | **0 / 0** | 63.64% -> **78.22%** | 0 / 0 |
 
 ## 4. Modified Files & Unresolved Findings Transparency
 

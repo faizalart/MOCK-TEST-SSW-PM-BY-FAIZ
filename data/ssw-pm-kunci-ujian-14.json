@@ -63,7 +63,7 @@
         "消費者（しょうひしゃ）",
         "安全な（あんぜんな）",
         "食品（しょくひん）",
-        "提供（ていきょう）",
+        "提供する（ていきょうする）",
         "ために（ために）",
         "条件（じょうけん）",
         "必要（ひつよう）",
@@ -86,7 +86,7 @@
         "消費者（しょうひしゃ） : konsumen",
         "安全な（あんぜんな） : aman",
         "食品（しょくひん） : makanan / produk pangan",
-        "提供（ていきょう） : Penyajian makanan aman kepada konsumen",
+        "提供する（ていきょうする） : menyediakan / menyajikan",
         "ために（ために） : untuk / demi",
         "条件（じょうけん） : syarat / kondisi",
         "必要（ひつよう） : perlu / dibutuhkan",
@@ -105,7 +105,7 @@
         "生産施設（せいさんしせつ） : fasilitas pabrik produksi pangan",
         "面積（めんせき） : Luas area lantai kerja pabrik"
       ],
-      "kotobaFormatted": "消費者（しょうひしゃ） : konsumen\n安全な（あんぜんな） : aman\n食品（しょくひん） : makanan / produk pangan\n提供（ていきょう） : Penyajian makanan aman kepada konsumen\nために（ために） : untuk / demi\n条件（じょうけん） : syarat / kondisi\n必要（ひつよう） : perlu / dibutuhkan\n原材料（げんざいりょう） : bahan baku\nきれいな（きれいな） : bersih\n製造環境（せいぞうかんきょう） : lingkungan produksi\nほかに（ほかに） : selain itu\nもう（もう） : lagi / sudah\n一つ（ひとつ） : satu\n何（なん） : Berapa / apa\n衛生的取り扱い（えいせいてきとりあつかい） : penanganan higienis\n効果的（こうかてき） : secara efektif\nコスト削減（こすとさくげん） : pengurangan biaya\n方法（ほうほう） : cara / metode\n生産規模（せいさんきぼ） : skala kapasitas produksi\n生産施設（せいさんしせつ） : fasilitas pabrik produksi pangan\n面積（めんせき） : Luas area lantai kerja pabrik"
+      "kotobaFormatted": "消費者（しょうひしゃ） : konsumen\n安全な（あんぜんな） : aman\n食品（しょくひん） : makanan / produk pangan\n提供する（ていきょうする） : menyediakan / menyajikan\nために（ために） : untuk / demi\n条件（じょうけん） : syarat / kondisi\n必要（ひつよう） : perlu / dibutuhkan\n原材料（げんざいりょう） : bahan baku\nきれいな（きれいな） : bersih\n製造環境（せいぞうかんきょう） : lingkungan produksi\nほかに（ほかに） : selain itu\nもう（もう） : lagi / sudah\n一つ（ひとつ） : satu\n何（なん） : Berapa / apa\n衛生的取り扱い（えいせいてきとりあつかい） : penanganan higienis\n効果的（こうかてき） : secara efektif\nコスト削減（こすとさくげん） : pengurangan biaya\n方法（ほうほう） : cara / metode\n生産規模（せいさんきぼ） : skala kapasitas produksi\n生産施設（せいさんしせつ） : fasilitas pabrik produksi pangan\n面積（めんせき） : Luas area lantai kerja pabrik"
     },
     {
       "id": "kunci-ujian-14-q002",
@@ -259,6 +259,7 @@
         "つ（つ）",
         "原則（げんそく）",
         "守らなければ（まもらなければ）",
+        "なりません（なりません）",
         "つけない（つけない）",
         "増やさない（ふやさない）",
         "ほかに（ほかに）",
@@ -279,6 +280,7 @@
         "つ（つ） : buah / butir (satuan hitung)",
         "原則（げんそく） : prinsip dasar",
         "守らなければ（まもらなければ） : harus mematuhi",
+        "なりません（なりません） : menjadi / harus (dengan なければ)",
         "つけない（つけない） : tidak menempel / memakai",
         "増やさない（ふやさない） : tidak memperbanyak",
         "ほかに（ほかに） : selain itu",
@@ -289,7 +291,7 @@
         "殺す（ころす） : membunuh (bakteri)",
         "増殖させない（ぞうしょくさせない） : tidak membiarkan berkembang biak"
       ],
-      "kotobaFormatted": "食中毒（しょくちゅうどく） : keracunan makanan\n原因（げんいん） : penyebab\nとなる（となる） : menjadi\n微生物（びせいぶつ） : mikroorganisme / mikroba\n防ぐ（ふせぐ） : mencegah\nために（ために） : untuk / demi\nつ（つ） : buah / butir (satuan hitung)\n原則（げんそく） : prinsip dasar\n守らなければ（まもらなければ） : harus mematuhi\nつけない（つけない） : tidak menempel / memakai\n増やさない（ふやさない） : tidak memperbanyak\nほかに（ほかに） : selain itu\nもう（もう） : lagi / sudah\n一つ（ひとつ） : satu\n何（なん） : Berapa / apa\n汚染（おせん） : kontaminasi / pencemaran\n殺す（ころす） : membunuh (bakteri)\n増殖させない（ぞうしょくさせない） : tidak membiarkan berkembang biak"
+      "kotobaFormatted": "食中毒（しょくちゅうどく） : keracunan makanan\n原因（げんいん） : penyebab\nとなる（となる） : menjadi\n微生物（びせいぶつ） : mikroorganisme / mikroba\n防ぐ（ふせぐ） : mencegah\nために（ために） : untuk / demi\nつ（つ） : buah / butir (satuan hitung)\n原則（げんそく） : prinsip dasar\n守らなければ（まもらなければ） : harus mematuhi\nなりません（なりません） : menjadi / harus (dengan なければ)\nつけない（つけない） : tidak menempel / memakai\n増やさない（ふやさない） : tidak memperbanyak\nほかに（ほかに） : selain itu\nもう（もう） : lagi / sudah\n一つ（ひとつ） : satu\n何（なん） : Berapa / apa\n汚染（おせん） : kontaminasi / pencemaran\n殺す（ころす） : membunuh (bakteri)\n増殖させない（ぞうしょくさせない） : tidak membiarkan berkembang biak"
     },
     {
       "id": "kunci-ujian-14-q004",
@@ -868,13 +870,14 @@
         "作業服（さぎょうふく）",
         "何（なん）",
         "注意し（ちゅういし）",
+        "なければなりませんか（なければなりませんか）",
         "間違っている（まちがっている）",
         "一つ（ひとつ）",
         "選びなさい（えらびなさい）",
         "ついて（ついて）",
         "ポケット（ポケット）",
         "ボタン（ボタン）",
-        "ついている（ついている）",
+        "がついている（がついている）",
         "服（ふく）",
         "着る（きる）",
         "汚れない（よごれない）",
@@ -891,13 +894,14 @@
         "作業服（さぎょうふく） : pakaian kerja",
         "何（なん） : Berapa / apa",
         "注意し（ちゅういし） : berhati-hati / memperhatikan",
+        "なければなりませんか（なければなりませんか） : apakah harus / wajib dilakukan",
         "間違っている（まちがっている） : salah / keliru",
         "一つ（ひとつ） : satu",
         "選びなさい（えらびなさい） : pilihlah",
         "ついて（ついて） : menempel / melekat",
         "ポケット（ポケット） : saku / kantong",
         "ボタン（ボタン） : kancing / tombol",
-        "ついている（ついている） : menempel / terpasang",
+        "がついている（がついている） : terpasang / terdapat (kancing dll.)",
         "服（ふく） : pakaian",
         "着る（きる） : memakai (pakaian)",
         "汚れない（よごれない） : tidak menjadi kotor",
@@ -910,7 +914,7 @@
         "ズボン（ズボン） : celana panjang",
         "入れる（いれる） : memasukkan / menyalakan"
       ],
-      "kotobaFormatted": "作業服（さぎょうふく） : pakaian kerja\n何（なん） : Berapa / apa\n注意し（ちゅういし） : berhati-hati / memperhatikan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\nポケット（ポケット） : saku / kantong\nボタン（ボタン） : kancing / tombol\nついている（ついている） : menempel / terpasang\n服（ふく） : pakaian\n着る（きる） : memakai (pakaian)\n汚れない（よごれない） : tidak menjadi kotor\n汚れた（よごれた） : kotor (dasar: 汚れる)\nロッカー（ロッカー） : loker\nくっつかない（くっつかない） : tidak menempel (dasar: くっつく)\nようにする（ようにする） : berusaha agar\n上着（うわぎ） : baju atasan (jaket kerja)\n裾（すそ） : ujung bawah pakaian/topi\nズボン（ズボン） : celana panjang\n入れる（いれる） : memasukkan / menyalakan"
+      "kotobaFormatted": "作業服（さぎょうふく） : pakaian kerja\n何（なん） : Berapa / apa\n注意し（ちゅういし） : berhati-hati / memperhatikan\nなければなりませんか（なければなりませんか） : apakah harus / wajib dilakukan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\nポケット（ポケット） : saku / kantong\nボタン（ボタン） : kancing / tombol\nがついている（がついている） : terpasang / terdapat (kancing dll.)\n服（ふく） : pakaian\n着る（きる） : memakai (pakaian)\n汚れない（よごれない） : tidak menjadi kotor\n汚れた（よごれた） : kotor (dasar: 汚れる)\nロッカー（ロッカー） : loker\nくっつかない（くっつかない） : tidak menempel (dasar: くっつく)\nようにする（ようにする） : berusaha agar\n上着（うわぎ） : baju atasan (jaket kerja)\n裾（すそ） : ujung bawah pakaian/topi\nズボン（ズボン） : celana panjang\n入れる（いれる） : memasukkan / menyalakan"
     },
     {
       "id": "kunci-ujian-14-q011",
@@ -967,7 +971,8 @@
         "作業（さぎょう）",
         "前（まえ）",
         "何（なん）",
-        "確認（かくにん）",
+        "確認しなければ（かくにんしなければ）",
+        "なりませんか（なりませんか）",
         "作業場所（さぎょうばしょ）",
         "作業内容（さぎょうないよう）",
         "一緒（いっしょ）",
@@ -982,7 +987,8 @@
         "作業（さぎょう） : pekerjaan / tugas",
         "前（まえ） : Sebelum melakukan tahapan kerja berikutnya",
         "何（なん） : Berapa / apa",
-        "確認（かくにん） : pemeriksaan / konfirmasi",
+        "確認しなければ（かくにんしなければ） : harus memeriksa (条件)",
+        "なりませんか（なりませんか） : haruskah (dalam なければなりませんか)",
         "作業場所（さぎょうばしょ） : tempat / area kerja produksi",
         "作業内容（さぎょうないよう） : rincian instruksi tugas kerja",
         "一緒（いっしょ） : Bersama-sama / serentak",
@@ -993,7 +999,7 @@
         "置く（おく） : meletakkan",
         "場所（ばしょ） : tempat / lokasi"
       ],
-      "kotobaFormatted": "作業（さぎょう） : pekerjaan / tugas\n前（まえ） : Sebelum melakukan tahapan kerja berikutnya\n何（なん） : Berapa / apa\n確認（かくにん） : pemeriksaan / konfirmasi\n作業場所（さぎょうばしょ） : tempat / area kerja produksi\n作業内容（さぎょうないよう） : rincian instruksi tugas kerja\n一緒（いっしょ） : Bersama-sama / serentak\n働く（はたらく） : bekerja\n人（ひと） : orang\n名前（なまえ） : nama\n消毒液（しょうどくえき） : larutan disinfektan\n置く（おく） : meletakkan\n場所（ばしょ） : tempat / lokasi"
+      "kotobaFormatted": "作業（さぎょう） : pekerjaan / tugas\n前（まえ） : Sebelum melakukan tahapan kerja berikutnya\n何（なん） : Berapa / apa\n確認しなければ（かくにんしなければ） : harus memeriksa (条件)\nなりませんか（なりませんか） : haruskah (dalam なければなりませんか)\n作業場所（さぎょうばしょ） : tempat / area kerja produksi\n作業内容（さぎょうないよう） : rincian instruksi tugas kerja\n一緒（いっしょ） : Bersama-sama / serentak\n働く（はたらく） : bekerja\n人（ひと） : orang\n名前（なまえ） : nama\n消毒液（しょうどくえき） : larutan disinfektan\n置く（おく） : meletakkan\n場所（ばしょ） : tempat / lokasi"
     },
     {
       "id": "kunci-ujian-14-q012",
@@ -1050,7 +1056,7 @@
         "エアシャワー（エアシャワー）",
         "入る（はいる）",
         "何（なん）",
-        "消毒（しょうどく）",
+        "消毒する（しょうどくする）",
         "髪の毛（かみのけ）",
         "ほこり（ほこり）",
         "落とす（おとす）",
@@ -1061,14 +1067,14 @@
         "エアシャワー（エアシャワー） : air shower (bilik hembus udara)",
         "入る（はいる） : masuk",
         "何（なん） : Berapa / apa",
-        "消毒（しょうどく） : disinfeksi",
+        "消毒する（しょうどくする） : mendisinfeksi",
         "髪の毛（かみのけ） : helai rambut",
         "ほこり（ほこり） : debu",
         "落とす（おとす） : menghilangkan / menjatuhkan",
         "体（からだ） : tubuh",
         "きれい（きれい） : bersih / rapi"
       ],
-      "kotobaFormatted": "エアシャワー（エアシャワー） : air shower (bilik hembus udara)\n入る（はいる） : masuk\n何（なん） : Berapa / apa\n消毒（しょうどく） : disinfeksi\n髪の毛（かみのけ） : helai rambut\nほこり（ほこり） : debu\n落とす（おとす） : menghilangkan / menjatuhkan\n体（からだ） : tubuh\nきれい（きれい） : bersih / rapi"
+      "kotobaFormatted": "エアシャワー（エアシャワー） : air shower (bilik hembus udara)\n入る（はいる） : masuk\n何（なん） : Berapa / apa\n消毒する（しょうどくする） : mendisinfeksi\n髪の毛（かみのけ） : helai rambut\nほこり（ほこり） : debu\n落とす（おとす） : menghilangkan / menjatuhkan\n体（からだ） : tubuh\nきれい（きれい） : bersih / rapi"
     },
     {
       "id": "kunci-ujian-14-q013",
@@ -1230,6 +1236,7 @@
         "責任者（せきにんしゃ）",
         "報告する（ほうこくする）",
         "時間（じかん）",
+        "あったら（あったら）",
         "作業場（さぎょうじょう）",
         "一緒（いっしょ）",
         "仕事（しごと）",
@@ -1249,11 +1256,12 @@
         "ついて（ついて） : menempel / melekat",
         "危険な（きけんな） : bahaya",
         "場所（ばしょ） : tempat / lokasi",
-        "見つけたら（みつけたら） : jika menemukan (dasar: 見つける)",
+        "見つけたら（みつけたら） : jika menemukan",
         "すぐ（すぐ） : segera",
         "責任者（せきにんしゃ） : penanggung jawab / atasan",
         "報告する（ほうこくする） : melaporkan",
         "時間（じかん） : waktu / durasi",
+        "あったら（あったら） : apabila ada / tersedia",
         "作業場（さぎょうじょう） : area kerja / tempat kerja",
         "一緒（いっしょ） : Bersama-sama / serentak",
         "仕事（しごと） : pekerjaan",
@@ -1261,10 +1269,10 @@
         "話す（はなす） : berbicara",
         "周り（まわり） : sekitar",
         "動き（うごき） : gerakan / pergerakan",
-        "したら（したら） : jika melakukan",
+        "したら（したら） : jika melakukan / setelah itu",
         "注意する（ちゅういする） : memperhatikan / waspada"
       ],
-      "kotobaFormatted": "作業中（さぎょうちゅう） : saat sedang bekerja\n注意点（ちゅういてん） : poin perhatian\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n危険な（きけんな） : bahaya\n場所（ばしょ） : tempat / lokasi\n見つけたら（みつけたら） : jika menemukan (dasar: 見つける)\nすぐ（すぐ） : segera\n責任者（せきにんしゃ） : penanggung jawab / atasan\n報告する（ほうこくする） : melaporkan\n時間（じかん） : waktu / durasi\n作業場（さぎょうじょう） : area kerja / tempat kerja\n一緒（いっしょ） : Bersama-sama / serentak\n仕事（しごと） : pekerjaan\n人（ひと） : orang\n話す（はなす） : berbicara\n周り（まわり） : sekitar\n動き（うごき） : gerakan / pergerakan\nしたら（したら） : jika melakukan\n注意する（ちゅういする） : memperhatikan / waspada"
+      "kotobaFormatted": "作業中（さぎょうちゅう） : saat sedang bekerja\n注意点（ちゅういてん） : poin perhatian\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n危険な（きけんな） : bahaya\n場所（ばしょ） : tempat / lokasi\n見つけたら（みつけたら） : jika menemukan\nすぐ（すぐ） : segera\n責任者（せきにんしゃ） : penanggung jawab / atasan\n報告する（ほうこくする） : melaporkan\n時間（じかん） : waktu / durasi\nあったら（あったら） : apabila ada / tersedia\n作業場（さぎょうじょう） : area kerja / tempat kerja\n一緒（いっしょ） : Bersama-sama / serentak\n仕事（しごと） : pekerjaan\n人（ひと） : orang\n話す（はなす） : berbicara\n周り（まわり） : sekitar\n動き（うごき） : gerakan / pergerakan\nしたら（したら） : jika melakukan / setelah itu\n注意する（ちゅういする） : memperhatikan / waspada"
     },
     {
       "id": "kunci-ujian-14-q015",
@@ -1322,6 +1330,7 @@
         "防ぐ（ふせぐ）",
         "ために（ために）",
         "何（なん）",
+        "しなければなりません（しなければなりません）",
         "原材料（げんざいりょう）",
         "異物（いぶつ）",
         "入って（はいって）",
@@ -1341,6 +1350,7 @@
         "小さい（ちいさい）",
         "製品（せいひん）",
         "入っている（はいっている）",
+        "わかったら（わかったら）",
         "だれにも（だれにも）",
         "言わず（いわず）",
         "取り出す（とりだす）"
@@ -1350,6 +1360,7 @@
         "防ぐ（ふせぐ） : mencegah",
         "ために（ために） : untuk / demi",
         "何（なん） : Berapa / apa",
+        "しなければなりません（しなければなりません） : harus / wajib dilakukan",
         "原材料（げんざいりょう） : bahan baku",
         "異物（いぶつ） : benda asing",
         "入って（はいって） : masuk / terkandung",
@@ -1369,11 +1380,12 @@
         "小さい（ちいさい） : kecil",
         "製品（せいひん） : produk jadi",
         "入っている（はいっている） : terdapat di dalam",
+        "わかったら（わかったら） : jika diketahui / dimengerti",
         "だれにも（だれにも） : kepada siapa pun (tidak)",
         "言わず（いわず） : tanpa mengatakan",
         "取り出す（とりだす） : mengambil / mengeluarkan"
       ],
-      "kotobaFormatted": "異物混入（いぶつこんにゅう） : kontaminasi / masuknya benda asing\n防ぐ（ふせぐ） : mencegah\nために（ために） : untuk / demi\n何（なん） : Berapa / apa\n原材料（げんざいりょう） : bahan baku\n異物（いぶつ） : benda asing\n入って（はいって） : masuk / terkandung\nよく（よく） : dengan baik / sering\n観察（かんさつ） : pengamatan / observasi\n作業服（さぎょうふく） : pakaian kerja\n着る（きる） : memakai (pakaian)\nとき（とき） : ketika / saat\n髪の毛ネット（かみのけねっと） : jaring penutup rambut (hairnet)\nかぶらないで（かぶらないで） : tanpa memakai (topi/penutup)\n帽子（ぼうし） : topi kerja\n直接（ちょくせつ） : secara langsung\nかぶる（かぶる） : memakai (helm/topi)\n自分（じぶん） : diri sendiri\n担当（たんとう） : penanggung jawab / tugas\n作業場（さぎょうじょう） : area kerja / tempat kerja\n小さい（ちいさい） : kecil\n製品（せいひん） : produk jadi\n入っている（はいっている） : terdapat di dalam\nだれにも（だれにも） : kepada siapa pun (tidak)\n言わず（いわず） : tanpa mengatakan\n取り出す（とりだす） : mengambil / mengeluarkan"
+      "kotobaFormatted": "異物混入（いぶつこんにゅう） : kontaminasi / masuknya benda asing\n防ぐ（ふせぐ） : mencegah\nために（ために） : untuk / demi\n何（なん） : Berapa / apa\nしなければなりません（しなければなりません） : harus / wajib dilakukan\n原材料（げんざいりょう） : bahan baku\n異物（いぶつ） : benda asing\n入って（はいって） : masuk / terkandung\nよく（よく） : dengan baik / sering\n観察（かんさつ） : pengamatan / observasi\n作業服（さぎょうふく） : pakaian kerja\n着る（きる） : memakai (pakaian)\nとき（とき） : ketika / saat\n髪の毛ネット（かみのけねっと） : jaring penutup rambut (hairnet)\nかぶらないで（かぶらないで） : tanpa memakai (topi/penutup)\n帽子（ぼうし） : topi kerja\n直接（ちょくせつ） : secara langsung\nかぶる（かぶる） : memakai (helm/topi)\n自分（じぶん） : diri sendiri\n担当（たんとう） : penanggung jawab / tugas\n作業場（さぎょうじょう） : area kerja / tempat kerja\n小さい（ちいさい） : kecil\n製品（せいひん） : produk jadi\n入っている（はいっている） : terdapat di dalam\nわかったら（わかったら） : jika diketahui / dimengerti\nだれにも（だれにも） : kepada siapa pun (tidak)\n言わず（いわず） : tanpa mengatakan\n取り出す（とりだす） : mengambil / mengeluarkan"
     },
     {
       "id": "kunci-ujian-14-q016",
@@ -2104,7 +2116,7 @@
         "含む（ふくむ）",
         "原材料（げんざいりょう）",
         "含まない（ふくまない）",
-        "区分（くぶん）",
+        "区分して（くぶんして）",
         "保管する（ほかんする）",
         "特定原材料（とくていげんざいりょう）",
         "製品（せいひん）",
@@ -2129,7 +2141,7 @@
         "含む（ふくむ） : mengandung",
         "原材料（げんざいりょう） : bahan baku",
         "含まない（ふくまない） : tidak mengandung (dasar: 含む)",
-        "区分（くぶん） : pemisahan / klasifikasi",
+        "区分して（くぶんして） : memisahkan zona (~て)",
         "保管する（ほかんする） : menyimpan",
         "特定原材料（とくていげんざいりょう） : bahan baku spesifik (alergen wajib label)",
         "製品（せいひん） : produk jadi",
@@ -2144,7 +2156,7 @@
         "徹底（てってい） : penerapan tuntas / menyeluruh",
         "しなければならない（しなければならない） : harus dilakukan"
       ],
-      "kotobaFormatted": "交差汚染（こうさおせん） : kontaminasi silang (cross-contamination)\n防止（ぼうし） : pencegahan\n間違っている（まちがっている） : salah / keliru\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\nアレルギー食品（あれるぎーしょくひん） : makanan pemicu alergi\n含む（ふくむ） : mengandung\n原材料（げんざいりょう） : bahan baku\n含まない（ふくまない） : tidak mengandung (dasar: 含む)\n区分（くぶん） : pemisahan / klasifikasi\n保管する（ほかんする） : menyimpan\n特定原材料（とくていげんざいりょう） : bahan baku spesifik (alergen wajib label)\n製品（せいひん） : produk jadi\n製造する（せいぞうする） : memproduksi / membuat\n場合（ばあい） : apabila / dalam kasus\n一日（いちにち） : satu hari\n始め（はじめ） : awal / permulaan\n同じ（おなじ） : sama\nライン（ライン） : lini produksi\nとき（とき） : ketika / saat\n洗浄（せんじょう） : pencucian\n徹底（てってい） : penerapan tuntas / menyeluruh\nしなければならない（しなければならない） : harus dilakukan"
+      "kotobaFormatted": "交差汚染（こうさおせん） : kontaminasi silang (cross-contamination)\n防止（ぼうし） : pencegahan\n間違っている（まちがっている） : salah / keliru\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\nアレルギー食品（あれるぎーしょくひん） : makanan pemicu alergi\n含む（ふくむ） : mengandung\n原材料（げんざいりょう） : bahan baku\n含まない（ふくまない） : tidak mengandung (dasar: 含む)\n区分して（くぶんして） : memisahkan zona (~て)\n保管する（ほかんする） : menyimpan\n特定原材料（とくていげんざいりょう） : bahan baku spesifik (alergen wajib label)\n製品（せいひん） : produk jadi\n製造する（せいぞうする） : memproduksi / membuat\n場合（ばあい） : apabila / dalam kasus\n一日（いちにち） : satu hari\n始め（はじめ） : awal / permulaan\n同じ（おなじ） : sama\nライン（ライン） : lini produksi\nとき（とき） : ketika / saat\n洗浄（せんじょう） : pencucian\n徹底（てってい） : penerapan tuntas / menyeluruh\nしなければならない（しなければならない） : harus dilakukan"
     },
     {
       "id": "kunci-ujian-14-q025",
@@ -2668,7 +2680,7 @@
         "よく（よく） : dengan baik / sering",
         "覚える（おぼえる） : mengingat / menghafal",
         "分からない（わからない） : tidak tahu / tidak mengerti",
-        "時（とき） : Saat / ketika terjadi suatu kondisi",
+        "時（とき） : saat / waktu",
         "とりあえず（とりあえず） : untuk sementara waktu",
         "対応（たいおう） : penanganan / respons",
         "慣れ（なれ） : kebiasaan / terbiasa",
@@ -2678,7 +2690,7 @@
         "動作（どうさ） : gerakan tubuh",
         "強引な（ごういな） : memaksa / kasar"
       ],
-      "kotobaFormatted": "決められた（きめられた） : yang telah ditetapkan (dasar: 決める)\n作業手順（さぎょうてじゅん） : prosedur kerja (SOP)\n守る（まもる） : melindungi / mematuhi\n際（さい） : saat / ketika\n注意事項（ちゅういじこう） : hal-hal yang harus diperhatikan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n作業手順書（さぎょうてじゅんしょ） : dokumen prosedur kerja (SOP)\n書かれている（かかれている） : tertulis\n繰り返し（くりかえし） : berulang kali\n練習し（れんしゅうし） : berlatih\nよく（よく） : dengan baik / sering\n覚える（おぼえる） : mengingat / menghafal\n分からない（わからない） : tidak tahu / tidak mengerti\n時（とき） : Saat / ketika terjadi suatu kondisi\nとりあえず（とりあえず） : untuk sementara waktu\n対応（たいおう） : penanganan / respons\n慣れ（なれ） : kebiasaan / terbiasa\nケガ（けが） : cedera / luka\n注意し（ちゅういし） : berhati-hati / memperhatikan\n軽はずみな（かるはずみな） : ceroboh / gegabah\n動作（どうさ） : gerakan tubuh\n強引な（ごういな） : memaksa / kasar"
+      "kotobaFormatted": "決められた（きめられた） : yang telah ditetapkan (dasar: 決める)\n作業手順（さぎょうてじゅん） : prosedur kerja (SOP)\n守る（まもる） : melindungi / mematuhi\n際（さい） : saat / ketika\n注意事項（ちゅういじこう） : hal-hal yang harus diperhatikan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n作業手順書（さぎょうてじゅんしょ） : dokumen prosedur kerja (SOP)\n書かれている（かかれている） : tertulis\n繰り返し（くりかえし） : berulang kali\n練習し（れんしゅうし） : berlatih\nよく（よく） : dengan baik / sering\n覚える（おぼえる） : mengingat / menghafal\n分からない（わからない） : tidak tahu / tidak mengerti\n時（とき） : saat / waktu\nとりあえず（とりあえず） : untuk sementara waktu\n対応（たいおう） : penanganan / respons\n慣れ（なれ） : kebiasaan / terbiasa\nケガ（けが） : cedera / luka\n注意し（ちゅういし） : berhati-hati / memperhatikan\n軽はずみな（かるはずみな） : ceroboh / gegabah\n動作（どうさ） : gerakan tubuh\n強引な（ごういな） : memaksa / kasar"
     },
     {
       "id": "kunci-ujian-14-q031",
@@ -2751,15 +2763,15 @@
         "製品（せいひん）",
         "品質向上（ひんしつこうじょう）",
         "食中毒予防（しょくちゅうどくよぼう）",
-        "異物混入（いぶつこんにゅう）",
-        "防止（ぼうし）",
+        "異物混入防止（いぶつこんにゅうぼうし）",
         "効果（こうか）",
         "習慣（しゅうかん）",
         "無駄（むだ）",
         "時間（じかん）",
         "減り（へり）",
         "品質（ひんしつ）",
-        "向上（こうじょう）"
+        "向上（こうじょう）",
+        "されます（されます）"
       ],
       "kotobaV": [
         "5S（ごえす） : 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke)",
@@ -2781,17 +2793,17 @@
         "製品（せいひん） : produk jadi",
         "品質向上（ひんしつこうじょう） : peningkatan mutu produk",
         "食中毒予防（しょくちゅうどくよぼう） : pencegahan keracunan makanan",
-        "異物混入（いぶつこんにゅう） : kontaminasi / masuknya benda asing",
-        "防止（ぼうし） : pencegahan",
+        "異物混入防止（いぶつこんにゅうぼうし） : pencegahan kontaminasi benda asing",
         "効果（こうか） : efektivitas / hasil guna",
         "習慣（しゅうかん） : Shitsuke (kebiasaan)",
         "無駄（むだ） : pemborosan (muda)",
         "時間（じかん） : waktu / durasi",
         "減り（へり） : berkurang",
         "品質（ひんしつ） : kualitas / mutu produk",
-        "向上（こうじょう） : peningkatan mutu dan kesadaran"
+        "向上（こうじょう） : peningkatan mutu dan kesadaran",
+        "されます（されます） : dilakukan (pasif sopan)"
       ],
-      "kotobaFormatted": "5S（ごえす） : 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke)\n活動（かつどう） : aktivitas / kegiatan\n労働安全（ろうどうあんぜん） : keselamatan kerja\n関係（かんけい） : hubungan / keterkaitan\n間違えている（まちがえている） : keliru / melakukan kesalahan\n組み合わせ（くみあわせ） : kombinasi / pasangan\nどれか（どれか） : yang mana\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n整理（せいり） : Seiri (Ringkas: membuang barang yang tidak diperlukan)\n作業効率（さぎょうこうりつ） : Efisiensi kerja pengolahan makanan\n上がり（あがり） : meningkat / naik\n転倒災害（てんとうさいがい） : kecelakaan terpeleset / jatuh di permukaan sama\n危険（きけん） : bahaya / berbahaya\n減ります（へります） : berkurang (sopan)\n清潔（せいけつ） : bersih dan higienis (seiketsu)\n製品（せいひん） : produk jadi\n品質向上（ひんしつこうじょう） : peningkatan mutu produk\n食中毒予防（しょくちゅうどくよぼう） : pencegahan keracunan makanan\n異物混入（いぶつこんにゅう） : kontaminasi / masuknya benda asing\n防止（ぼうし） : pencegahan\n効果（こうか） : efektivitas / hasil guna\n習慣（しゅうかん） : Shitsuke (kebiasaan)\n無駄（むだ） : pemborosan (muda)\n時間（じかん） : waktu / durasi\n減り（へり） : berkurang\n品質（ひんしつ） : kualitas / mutu produk\n向上（こうじょう） : peningkatan mutu dan kesadaran"
+      "kotobaFormatted": "5S（ごえす） : 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke)\n活動（かつどう） : aktivitas / kegiatan\n労働安全（ろうどうあんぜん） : keselamatan kerja\n関係（かんけい） : hubungan / keterkaitan\n間違えている（まちがえている） : keliru / melakukan kesalahan\n組み合わせ（くみあわせ） : kombinasi / pasangan\nどれか（どれか） : yang mana\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n整理（せいり） : Seiri (Ringkas: membuang barang yang tidak diperlukan)\n作業効率（さぎょうこうりつ） : Efisiensi kerja pengolahan makanan\n上がり（あがり） : meningkat / naik\n転倒災害（てんとうさいがい） : kecelakaan terpeleset / jatuh di permukaan sama\n危険（きけん） : bahaya / berbahaya\n減ります（へります） : berkurang (sopan)\n清潔（せいけつ） : bersih dan higienis (seiketsu)\n製品（せいひん） : produk jadi\n品質向上（ひんしつこうじょう） : peningkatan mutu produk\n食中毒予防（しょくちゅうどくよぼう） : pencegahan keracunan makanan\n異物混入防止（いぶつこんにゅうぼうし） : pencegahan kontaminasi benda asing\n効果（こうか） : efektivitas / hasil guna\n習慣（しゅうかん） : Shitsuke (kebiasaan)\n無駄（むだ） : pemborosan (muda)\n時間（じかん） : waktu / durasi\n減り（へり） : berkurang\n品質（ひんしつ） : kualitas / mutu produk\n向上（こうじょう） : peningkatan mutu dan kesadaran\nされます（されます） : dilakukan (pasif sopan)"
     },
     {
       "id": "kunci-ujian-14-q032",
@@ -2853,18 +2865,18 @@
         "間違っている（まちがっている）",
         "一つ（ひとつ）",
         "選びなさい（えらびなさい）",
-        "発見（はっけん）",
-        "したら（したら）",
+        "発見したら（はっけんしたら）",
         "まず（まず）",
         "何（なん）",
         "起こっている（おこっている）",
         "すばやく（すばやく）",
-        "確認（かくにん）",
+        "確認する（かくにんする）",
         "必要な（ひつような）",
         "時（とき）",
         "非常停止ボタン（ひじょうていしぼたん）",
         "機械（きかい）",
         "止める（とめる）",
+        "まわり（まわり）",
         "責任者（せきにんしゃ）",
         "同僚（どうりょう）",
         "小さな（ちいさな）",
@@ -2880,25 +2892,25 @@
         "間違っている（まちがっている） : salah / keliru",
         "一つ（ひとつ） : satu",
         "選びなさい（えらびなさい） : pilihlah",
-        "発見（はっけん） : penemuan",
-        "したら（したら） : jika melakukan",
+        "発見したら（はっけんしたら） : jika menemukan",
         "まず（まず） : pertama-tama / terlebih dahulu",
         "何（なん） : Berapa / apa",
         "起こっている（おこっている） : sedang terjadi",
         "すばやく（すばやく） : dengan cepat / sigap",
-        "確認（かくにん） : pemeriksaan / konfirmasi",
+        "確認する（かくにんする） : memeriksa / memastikan",
         "必要な（ひつような） : perlu / dibutuhkan",
-        "時（とき） : Saat / ketika terjadi suatu kondisi",
+        "時（とき） : saat / waktu",
         "非常停止ボタン（ひじょうていしぼたん） : tombol berhenti darurat",
         "機械（きかい） : mesin",
         "止める（とめる） : menghentikan",
+        "まわり（まわり） : sekitar / sekeliling",
         "責任者（せきにんしゃ） : penanggung jawab / atasan",
         "同僚（どうりょう） : rekan kerja",
         "小さな（ちいさな） : kecil",
         "声（こえ） : suara",
         "知らせる（しらせる） : memberitahu"
       ],
-      "kotobaFormatted": "異常事態（いじょうじたい） : keadaan tidak normal / darurat\n労働災害（ろうどうさいがい） : kecelakaan kerja\n発生（はっせい） : timbulnya / kejadian\n際（さい） : saat / ketika\nやる（やる） : melakukan / mengerjakan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n発見（はっけん） : penemuan\nしたら（したら） : jika melakukan\nまず（まず） : pertama-tama / terlebih dahulu\n何（なん） : Berapa / apa\n起こっている（おこっている） : sedang terjadi\nすばやく（すばやく） : dengan cepat / sigap\n確認（かくにん） : pemeriksaan / konfirmasi\n必要な（ひつような） : perlu / dibutuhkan\n時（とき） : Saat / ketika terjadi suatu kondisi\n非常停止ボタン（ひじょうていしぼたん） : tombol berhenti darurat\n機械（きかい） : mesin\n止める（とめる） : menghentikan\n責任者（せきにんしゃ） : penanggung jawab / atasan\n同僚（どうりょう） : rekan kerja\n小さな（ちいさな） : kecil\n声（こえ） : suara\n知らせる（しらせる） : memberitahu"
+      "kotobaFormatted": "異常事態（いじょうじたい） : keadaan tidak normal / darurat\n労働災害（ろうどうさいがい） : kecelakaan kerja\n発生（はっせい） : timbulnya / kejadian\n際（さい） : saat / ketika\nやる（やる） : melakukan / mengerjakan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n発見したら（はっけんしたら） : jika menemukan\nまず（まず） : pertama-tama / terlebih dahulu\n何（なん） : Berapa / apa\n起こっている（おこっている） : sedang terjadi\nすばやく（すばやく） : dengan cepat / sigap\n確認する（かくにんする） : memeriksa / memastikan\n必要な（ひつような） : perlu / dibutuhkan\n時（とき） : saat / waktu\n非常停止ボタン（ひじょうていしぼたん） : tombol berhenti darurat\n機械（きかい） : mesin\n止める（とめる） : menghentikan\nまわり（まわり） : sekitar / sekeliling\n責任者（せきにんしゃ） : penanggung jawab / atasan\n同僚（どうりょう） : rekan kerja\n小さな（ちいさな） : kecil\n声（こえ） : suara\n知らせる（しらせる） : memberitahu"
     },
     {
       "id": "kunci-ujian-14-q033",
@@ -2973,6 +2985,7 @@
         "ついて（ついて）",
         "安全装置（あんぜんそうち）",
         "働いた（はたらいた）",
+        "たの（たの）",
         "取り外して（とりはずして）",
         "動かした（うごかした）",
         "作業手順（さぎょうてじゅん）",
@@ -3004,6 +3017,7 @@
         "ついて（ついて） : menempel / melekat",
         "安全装置（あんぜんそうち） : perangkat pengaman mesin",
         "働いた（はたらいた） : bekerja (lampau)",
+        "たの（たの） : yang lain / lainnya (他の)",
         "取り外して（とりはずして） : melepas / mencopot",
         "動かした（うごかした） : menggerakkan (lampau)",
         "作業手順（さぎょうてじゅん） : prosedur kerja (SOP)",
@@ -3020,7 +3034,7 @@
         "自分（じぶん） : diri sendiri",
         "直した（なおした） : memperbaiki (lampau)"
       ],
-      "kotobaFormatted": "イラスト（イラスト） : gambar ilustrasi\n食品機械（しょくひんきかい） : mesin pengolahan makanan\n操作（そうさ） : pengoperasian mesin\nしている（している） : sedang melakukan (dasar: する)\n様子（ようす） : keadaan / situasi\n止まった（とまった） : berhenti (lampau)\n場合（ばあい） : apabila / dalam kasus\n操作手順（そうさてじゅん） : prosedur pengoperasian\n正しい（ただしい） : benar / tepat\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n安全装置（あんぜんそうち） : perangkat pengaman mesin\n働いた（はたらいた） : bekerja (lampau)\n取り外して（とりはずして） : melepas / mencopot\n動かした（うごかした） : menggerakkan (lampau)\n作業手順（さぎょうてじゅん） : prosedur kerja (SOP)\n分（ふん） : menit (satuan durasi waktu)\n職場（しょくば） : tempat kerja\n責任者（せきにんしゃ） : penanggung jawab / atasan\n聞いた（きいた） : bertanya / mendengar (lampau)\nできるだけ（できるだけ） : sebisa mungkin\n早く（はやく） : dengan cepat / segera\n動かすべきだ（うごかすべきだ） : seharusnya segera menjalankan\n思い（おもい） : mengira / berpikir\n手順書（てじゅんしょ） : dokumen prosedur (SOP)\n行わず（おこなわず） : tanpa melakukan\n自分（じぶん） : diri sendiri\n直した（なおした） : memperbaiki (lampau)"
+      "kotobaFormatted": "イラスト（イラスト） : gambar ilustrasi\n食品機械（しょくひんきかい） : mesin pengolahan makanan\n操作（そうさ） : pengoperasian mesin\nしている（している） : sedang melakukan (dasar: する)\n様子（ようす） : keadaan / situasi\n止まった（とまった） : berhenti (lampau)\n場合（ばあい） : apabila / dalam kasus\n操作手順（そうさてじゅん） : prosedur pengoperasian\n正しい（ただしい） : benar / tepat\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n安全装置（あんぜんそうち） : perangkat pengaman mesin\n働いた（はたらいた） : bekerja (lampau)\nたの（たの） : yang lain / lainnya (他の)\n取り外して（とりはずして） : melepas / mencopot\n動かした（うごかした） : menggerakkan (lampau)\n作業手順（さぎょうてじゅん） : prosedur kerja (SOP)\n分（ふん） : menit (satuan durasi waktu)\n職場（しょくば） : tempat kerja\n責任者（せきにんしゃ） : penanggung jawab / atasan\n聞いた（きいた） : bertanya / mendengar (lampau)\nできるだけ（できるだけ） : sebisa mungkin\n早く（はやく） : dengan cepat / segera\n動かすべきだ（うごかすべきだ） : seharusnya segera menjalankan\n思い（おもい） : mengira / berpikir\n手順書（てじゅんしょ） : dokumen prosedur (SOP)\n行わず（おこなわず） : tanpa melakukan\n自分（じぶん） : diri sendiri\n直した（なおした） : memperbaiki (lampau)"
     },
     {
       "id": "kunci-ujian-14-q034",
@@ -3092,7 +3106,7 @@
         "kg（kg）",
         "どれだけ（どれだけ）",
         "作る（つくる）",
-        "できますか（できますか）"
+        "ことができます（ことができます）"
       ],
       "kotobaV": [
         "右（みぎ） : kanan (arah/sisi kanan)",
@@ -3106,9 +3120,9 @@
         "kg（kg） : kilogram",
         "どれだけ（どれだけ） : seberapa banyak",
         "作る（つくる） : membuat",
-        "できますか（できますか） : dapat dibuat (dasar: できる)"
+        "ことができます（ことができます） : dapat / bisa melakukan"
       ],
-      "kotobaFormatted": "右（みぎ） : kanan (arah/sisi kanan)\n表（ひょう） : tabel\ng（g） : gram (satuan berat)\nパン（ぱん） : roti\n配合例（はいごうれい） : contoh formula campuran\n配合（はいごう） : komposisi / resep\n従うと（したがうと） : jika mengikuti / sesuai dengan\n小麦粉（こむぎこ） : tepung terigu\nkg（kg） : kilogram\nどれだけ（どれだけ） : seberapa banyak\n作る（つくる） : membuat\nできますか（できますか） : dapat dibuat (dasar: できる)"
+      "kotobaFormatted": "右（みぎ） : kanan (arah/sisi kanan)\n表（ひょう） : tabel\ng（g） : gram (satuan berat)\nパン（ぱん） : roti\n配合例（はいごうれい） : contoh formula campuran\n配合（はいごう） : komposisi / resep\n従うと（したがうと） : jika mengikuti / sesuai dengan\n小麦粉（こむぎこ） : tepung terigu\nkg（kg） : kilogram\nどれだけ（どれだけ） : seberapa banyak\n作る（つくる） : membuat\nことができます（ことができます） : dapat / bisa melakukan"
     },
     {
       "id": "kunci-ujian-14-q035",
@@ -3647,17 +3661,18 @@
         "含まない（ふくまない）",
         "マーク（マーク）",
         "つけて（つけて）",
-        "区別（くべつ）",
+        "区別し（くべつし）",
         "一緒（いっしょ）",
         "保管する（ほかんする）",
         "特定原材料（とくていげんざいりょう）",
         "蓋（ふた）",
+        "いれば（いれば）",
         "他の（ほかの）",
         "原材料（げんざいりょう）",
         "重ねて（かさねて）",
         "置いて（おいて）",
         "良い（よい）",
-        "区分（くぶん）"
+        "区分して（くぶんして）"
       ],
       "kotobaV": [
         "アレルギー食品（あれるぎーしょくひん） : makanan pemicu alergi",
@@ -3673,19 +3688,20 @@
         "含まない（ふくまない） : tidak mengandung (dasar: 含む)",
         "マーク（マーク） : tanda / simbol",
         "つけて（つけて） : memasang (dasar: つける)",
-        "区別（くべつ） : pembedaan / pemisahan penggunaan",
+        "区別し（くべつし） : membedakan (区別する)",
         "一緒（いっしょ） : Bersama-sama / serentak",
         "保管する（ほかんする） : menyimpan",
         "特定原材料（とくていげんざいりょう） : bahan baku spesifik (alergen wajib label)",
         "蓋（ふた） : tutup / penutup",
+        "いれば（いれば） : jika ada / jika berada",
         "他の（ほかの） : yang lain / lainnya",
         "原材料（げんざいりょう） : bahan baku",
         "重ねて（かさねて） : menumpuk",
         "置いて（おいて） : meletakkan / menaruh",
         "良い（よい） : baik",
-        "区分（くぶん） : pemisahan / klasifikasi"
+        "区分して（くぶんして） : memisahkan zona (~て)"
       ],
-      "kotobaFormatted": "アレルギー食品（あれるぎーしょくひん） : makanan pemicu alergi\n交差汚染防止（こうさおせんぼうし） : pencegahan kontaminasi silang\n正しい（ただしい） : benar / tepat\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n使用する（しようする） : menggunakan\n器具（きぐ） : peralatan / perkakas\nアレルギー（アレルギー） : alergi\n含む（ふくむ） : mengandung\n含まない（ふくまない） : tidak mengandung (dasar: 含む)\nマーク（マーク） : tanda / simbol\nつけて（つけて） : memasang (dasar: つける)\n区別（くべつ） : pembedaan / pemisahan penggunaan\n一緒（いっしょ） : Bersama-sama / serentak\n保管する（ほかんする） : menyimpan\n特定原材料（とくていげんざいりょう） : bahan baku spesifik (alergen wajib label)\n蓋（ふた） : tutup / penutup\n他の（ほかの） : yang lain / lainnya\n原材料（げんざいりょう） : bahan baku\n重ねて（かさねて） : menumpuk\n置いて（おいて） : meletakkan / menaruh\n良い（よい） : baik\n区分（くぶん） : pemisahan / klasifikasi"
+      "kotobaFormatted": "アレルギー食品（あれるぎーしょくひん） : makanan pemicu alergi\n交差汚染防止（こうさおせんぼうし） : pencegahan kontaminasi silang\n正しい（ただしい） : benar / tepat\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n使用する（しようする） : menggunakan\n器具（きぐ） : peralatan / perkakas\nアレルギー（アレルギー） : alergi\n含む（ふくむ） : mengandung\n含まない（ふくまない） : tidak mengandung (dasar: 含む)\nマーク（マーク） : tanda / simbol\nつけて（つけて） : memasang (dasar: つける)\n区別し（くべつし） : membedakan (区別する)\n一緒（いっしょ） : Bersama-sama / serentak\n保管する（ほかんする） : menyimpan\n特定原材料（とくていげんざいりょう） : bahan baku spesifik (alergen wajib label)\n蓋（ふた） : tutup / penutup\nいれば（いれば） : jika ada / jika berada\n他の（ほかの） : yang lain / lainnya\n原材料（げんざいりょう） : bahan baku\n重ねて（かさねて） : menumpuk\n置いて（おいて） : meletakkan / menaruh\n良い（よい） : baik\n区分して（くぶんして） : memisahkan zona (~て)"
     },
     {
       "id": "kunci-ujian-14-q042",
@@ -3769,7 +3785,7 @@
         "自主的（じしゅてき） : secara mandiri / inisiatif sendiri",
         "検査（けんさ） : pemeriksaan / pengujian",
         "行う（おこなう） : melakukan",
-        "時（とき） : Saat / ketika terjadi suatu kondisi",
+        "時（とき） : saat / waktu",
         "一般生菌数（いっぱんせいきんすう） : angka lempeng total bakteri hidup",
         "大腸菌（だいちょうきん） : bakteri E. coli",
         "大腸菌群（だいちょうきんぐん） : kelompok bakteri koliform",
@@ -3782,7 +3798,7 @@
         "場合（ばあい） : apabila / dalam kasus",
         "従う（したがう） : mematuhi / mengikuti"
       ],
-      "kotobaFormatted": "微生物検査（びせいぶつけんさ） : uji laboratorium mikrobiologi\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n自主的（じしゅてき） : secara mandiri / inisiatif sendiri\n検査（けんさ） : pemeriksaan / pengujian\n行う（おこなう） : melakukan\n時（とき） : Saat / ketika terjadi suatu kondisi\n一般生菌数（いっぱんせいきんすう） : angka lempeng total bakteri hidup\n大腸菌（だいちょうきん） : bakteri E. coli\n大腸菌群（だいちょうきんぐん） : kelompok bakteri koliform\n主体（しゅたい） : pokok / utama\nのみ（のみ） : hanya / saja\n検査項目（けんさこうもく） : item pemeriksaan\n基準（きじゅん） : standar / kriteria\n法律（ほうりつ） : undang-undang / hukum\n定められた（さだめられた） : yang telah ditetapkan\n場合（ばあい） : apabila / dalam kasus\n従う（したがう） : mematuhi / mengikuti"
+      "kotobaFormatted": "微生物検査（びせいぶつけんさ） : uji laboratorium mikrobiologi\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n自主的（じしゅてき） : secara mandiri / inisiatif sendiri\n検査（けんさ） : pemeriksaan / pengujian\n行う（おこなう） : melakukan\n時（とき） : saat / waktu\n一般生菌数（いっぱんせいきんすう） : angka lempeng total bakteri hidup\n大腸菌（だいちょうきん） : bakteri E. coli\n大腸菌群（だいちょうきんぐん） : kelompok bakteri koliform\n主体（しゅたい） : pokok / utama\nのみ（のみ） : hanya / saja\n検査項目（けんさこうもく） : item pemeriksaan\n基準（きじゅん） : standar / kriteria\n法律（ほうりつ） : undang-undang / hukum\n定められた（さだめられた） : yang telah ditetapkan\n場合（ばあい） : apabila / dalam kasus\n従う（したがう） : mematuhi / mengikuti"
     },
     {
       "id": "kunci-ujian-14-q043",
@@ -3928,7 +3944,7 @@
       "promptTranslation": "Untuk mencegah agar mikroorganisme tidak berkembang biak, pilihlah satu tindakan yang salah.",
       "kotobaU": [
         "微生物（びせいぶつ）",
-        "増殖（ぞうしょく）",
+        "増殖しない（ぞうしょくしない）",
         "ようにするため（ようにするため）",
         "間違っている（まちがっている）",
         "一つ（ひとつ）",
@@ -3941,7 +3957,7 @@
       ],
       "kotobaV": [
         "微生物（びせいぶつ） : mikroorganisme / mikroba",
-        "増殖（ぞうしょく） : perkembangbiakan bakteri",
+        "増殖しない（ぞうしょくしない） : tidak berkembang biak",
         "ようにするため（ようにするため） : agar / supaya",
         "間違っている（まちがっている） : salah / keliru",
         "一つ（ひとつ） : satu",
@@ -3952,7 +3968,7 @@
         "すぐに（すぐに） : segera",
         "食べる（たべる） : makan"
       ],
-      "kotobaFormatted": "微生物（びせいぶつ） : mikroorganisme / mikroba\n増殖（ぞうしょく） : perkembangbiakan bakteri\nようにするため（ようにするため） : agar / supaya\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n常温（じょうおん） : suhu ruang\n保管する（ほかんする） : menyimpan\n高温（こうおん） : suhu tinggi\nすぐに（すぐに） : segera\n食べる（たべる） : makan"
+      "kotobaFormatted": "微生物（びせいぶつ） : mikroorganisme / mikroba\n増殖しない（ぞうしょくしない） : tidak berkembang biak\nようにするため（ようにするため） : agar / supaya\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n常温（じょうおん） : suhu ruang\n保管する（ほかんする） : menyimpan\n高温（こうおん） : suhu tinggi\nすぐに（すぐに） : segera\n食べる（たべる） : makan"
     },
     {
       "id": "kunci-ujian-14-q045",
@@ -4016,6 +4032,7 @@
         "髪の毛（かみのけ）",
         "虫（むし）",
         "作業中（さぎょうちゅう）",
+        "わかったら（わかったら）",
         "直ちに（ただちに）",
         "作業（さぎょう）",
         "止めて（とめて）",
@@ -4035,15 +4052,16 @@
         "髪の毛（かみのけ） : helai rambut",
         "虫（むし） : serangga / hama",
         "作業中（さぎょうちゅう） : saat sedang bekerja",
+        "わかったら（わかったら） : jika diketahui / dimengerti",
         "直ちに（ただちに） : segera / seketika",
         "作業（さぎょう） : pekerjaan / tugas",
         "止めて（とめて） : menghentikan (dasar: 止める)",
         "自分（じぶん） : diri sendiri",
-        "取り除きます（とりのぞきます） : menyingkirkan (sopan)",
+        "取り除きます（とりのぞきます） : menghilangkan / membuang",
         "金属（きんぞく） : logam",
         "ガラス（ガラス） : kaca"
       ],
-      "kotobaFormatted": "異物混入（いぶつこんにゅう） : kontaminasi / masuknya benda asing\n問題（もんだい） : soal / masalah\n管理（かんり） : pengelolaan / manajemen\n正しい（ただしい） : benar / tepat\n選びなさい（えらびなさい） : pilihlah\n特に（とくに） : khususnya / terutama\n多い（おおい） : banyak\n髪の毛（かみのけ） : helai rambut\n虫（むし） : serangga / hama\n作業中（さぎょうちゅう） : saat sedang bekerja\n直ちに（ただちに） : segera / seketika\n作業（さぎょう） : pekerjaan / tugas\n止めて（とめて） : menghentikan (dasar: 止める)\n自分（じぶん） : diri sendiri\n取り除きます（とりのぞきます） : menyingkirkan (sopan)\n金属（きんぞく） : logam\nガラス（ガラス） : kaca"
+      "kotobaFormatted": "異物混入（いぶつこんにゅう） : kontaminasi / masuknya benda asing\n問題（もんだい） : soal / masalah\n管理（かんり） : pengelolaan / manajemen\n正しい（ただしい） : benar / tepat\n選びなさい（えらびなさい） : pilihlah\n特に（とくに） : khususnya / terutama\n多い（おおい） : banyak\n髪の毛（かみのけ） : helai rambut\n虫（むし） : serangga / hama\n作業中（さぎょうちゅう） : saat sedang bekerja\nわかったら（わかったら） : jika diketahui / dimengerti\n直ちに（ただちに） : segera / seketika\n作業（さぎょう） : pekerjaan / tugas\n止めて（とめて） : menghentikan (dasar: 止める)\n自分（じぶん） : diri sendiri\n取り除きます（とりのぞきます） : menghilangkan / membuang\n金属（きんぞく） : logam\nガラス（ガラス） : kaca"
     },
     {
       "id": "kunci-ujian-14-q046",
@@ -4108,11 +4126,11 @@
         "機械（きかい）",
         "器具（きぐ）",
         "必ず（かならず）",
-        "洗浄（せんじょう）",
+        "洗浄して（せんじょうして）",
         "片づける（かたづける）",
         "作業靴（さぎょうくつ）",
         "汚れて（よごれて）",
-        "しないで（しないで）",
+        "洗浄しない（せんじょうしない）",
         "よい（よい）"
       ],
       "kotobaV": [
@@ -4127,14 +4145,14 @@
         "機械（きかい） : mesin",
         "器具（きぐ） : peralatan / perkakas",
         "必ず（かならず） : pasti / wajib",
-        "洗浄（せんじょう） : pencucian",
+        "洗浄して（せんじょうして） : mencuci bersih (~て)",
         "片づける（かたづける） : membereskan",
         "作業靴（さぎょうくつ） : sepatu kerja",
         "汚れて（よごれて） : menjadi kotor",
-        "しないで（しないで） : tanpa melakukan (dasar: する)",
+        "洗浄しない（せんじょうしない） : tidak mencuci bersih",
         "よい（よい） : baik / boleh"
       ],
-      "kotobaFormatted": "作業中（さぎょうちゅう） : saat sedang bekerja\n行う（おこなう） : melakukan\n正しい（ただしい） : benar / tepat\n選びなさい（えらびなさい） : pilihlah\n使用器具（しようきぐ） : peralatan yang digunakan\nどこ（どこ） : di mana\n良い（よい） : baik\n汚れた（よごれた） : kotor (dasar: 汚れる)\n機械（きかい） : mesin\n器具（きぐ） : peralatan / perkakas\n必ず（かならず） : pasti / wajib\n洗浄（せんじょう） : pencucian\n片づける（かたづける） : membereskan\n作業靴（さぎょうくつ） : sepatu kerja\n汚れて（よごれて） : menjadi kotor\nしないで（しないで） : tanpa melakukan (dasar: する)\nよい（よい） : baik / boleh"
+      "kotobaFormatted": "作業中（さぎょうちゅう） : saat sedang bekerja\n行う（おこなう） : melakukan\n正しい（ただしい） : benar / tepat\n選びなさい（えらびなさい） : pilihlah\n使用器具（しようきぐ） : peralatan yang digunakan\nどこ（どこ） : di mana\n良い（よい） : baik\n汚れた（よごれた） : kotor (dasar: 汚れる)\n機械（きかい） : mesin\n器具（きぐ） : peralatan / perkakas\n必ず（かならず） : pasti / wajib\n洗浄して（せんじょうして） : mencuci bersih (~て)\n片づける（かたづける） : membereskan\n作業靴（さぎょうくつ） : sepatu kerja\n汚れて（よごれて） : menjadi kotor\n洗浄しない（せんじょうしない） : tidak mencuci bersih\nよい（よい） : baik / boleh"
     },
     {
       "id": "kunci-ujian-14-q047",
@@ -4199,7 +4217,7 @@
         "後（あと）",
         "必ず（かならず）",
         "洗剤（せんざい）",
-        "手（て）",
+        "手を（てを）",
         "洗い（あらい）",
         "次に（つぎに）",
         "アルコール（アルコール）",
@@ -4210,7 +4228,8 @@
         "使用した（しようした）",
         "場所（ばしょ）",
         "置いて（おいて）",
-        "濡れていた（ぬれていた）",
+        "手（て）",
+        "濡れていたら（ぬれていたら）",
         "作業服（さぎょうふく）",
         "拭く（ふく）"
       ],
@@ -4226,7 +4245,7 @@
         "後（あと） : Setelah menyelesaikan suatu tahapan kerja",
         "必ず（かならず） : pasti / wajib",
         "洗剤（せんざい） : deterjen / sabun",
-        "手（て） : tangan",
+        "手を（てを） : tangan (objek)",
         "洗い（あらい） : mencuci",
         "次に（つぎに） : selanjutnya / berikutnya",
         "アルコール（アルコール） : alkohol",
@@ -4234,14 +4253,15 @@
         "消毒する（しょうどくする） : mendisinfeksi",
         "汚れた（よごれた） : kotor (dasar: 汚れる)",
         "使用器具（しようきぐ） : peralatan yang digunakan",
-        "使用した（しようした） : yang digunakan",
+        "使用した（しようした） : telah menggunakan",
         "場所（ばしょ） : tempat / lokasi",
         "置いて（おいて） : meletakkan / menaruh",
-        "濡れていた（ぬれていた） : basah (lampau)",
+        "手（て） : tangan",
+        "濡れていたら（ぬれていたら） : jika dalam kondisi basah",
         "作業服（さぎょうふく） : pakaian kerja",
         "拭く（ふく） : mengelap / mengeringkan"
       ],
-      "kotobaFormatted": "作業中（さぎょうちゅう） : saat sedang bekerja\n衛生上（えいせいじょう） : dari segi sanitasi / higienitas\n注意事項（ちゅういじこう） : hal-hal yang harus diperhatikan\n正しい（ただしい） : benar / tepat\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nトイレ（トイレ） : toilet\n行った（いった） : pergi\n後（あと） : Setelah menyelesaikan suatu tahapan kerja\n必ず（かならず） : pasti / wajib\n洗剤（せんざい） : deterjen / sabun\n手（て） : tangan\n洗い（あらい） : mencuci\n次に（つぎに） : selanjutnya / berikutnya\nアルコール（アルコール） : alkohol\n消毒液（しょうどくえき） : larutan disinfektan\n消毒する（しょうどくする） : mendisinfeksi\n汚れた（よごれた） : kotor (dasar: 汚れる)\n使用器具（しようきぐ） : peralatan yang digunakan\n使用した（しようした） : yang digunakan\n場所（ばしょ） : tempat / lokasi\n置いて（おいて） : meletakkan / menaruh\n濡れていた（ぬれていた） : basah (lampau)\n作業服（さぎょうふく） : pakaian kerja\n拭く（ふく） : mengelap / mengeringkan"
+      "kotobaFormatted": "作業中（さぎょうちゅう） : saat sedang bekerja\n衛生上（えいせいじょう） : dari segi sanitasi / higienitas\n注意事項（ちゅういじこう） : hal-hal yang harus diperhatikan\n正しい（ただしい） : benar / tepat\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\nトイレ（トイレ） : toilet\n行った（いった） : pergi\n後（あと） : Setelah menyelesaikan suatu tahapan kerja\n必ず（かならず） : pasti / wajib\n洗剤（せんざい） : deterjen / sabun\n手を（てを） : tangan (objek)\n洗い（あらい） : mencuci\n次に（つぎに） : selanjutnya / berikutnya\nアルコール（アルコール） : alkohol\n消毒液（しょうどくえき） : larutan disinfektan\n消毒する（しょうどくする） : mendisinfeksi\n汚れた（よごれた） : kotor (dasar: 汚れる)\n使用器具（しようきぐ） : peralatan yang digunakan\n使用した（しようした） : telah menggunakan\n場所（ばしょ） : tempat / lokasi\n置いて（おいて） : meletakkan / menaruh\n手（て） : tangan\n濡れていたら（ぬれていたら） : jika dalam kondisi basah\n作業服（さぎょうふく） : pakaian kerja\n拭く（ふく） : mengelap / mengeringkan"
     },
     {
       "id": "kunci-ujian-14-q048",
@@ -4309,10 +4329,13 @@
         "修理（しゅうり）",
         "動いている（うごいている）",
         "絶対（ぜったい）",
-        "手（て）",
+        "手を（てを）",
         "入れて（いれて）",
+        "いけない（いけない）",
         "下（した）",
-        "決して（けっして）"
+        "決して（けっして）",
+        "くぐらない（くぐらない）",
+        "ようにする（ようにする）"
       ],
       "kotobaV": [
         "機械操作（きかいそうさ） : pengoperasian mesin",
@@ -4329,12 +4352,15 @@
         "修理（しゅうり） : perbaikan / reparasi",
         "動いている（うごいている） : sedang bergerak (dasar: 動く)",
         "絶対（ぜったい） : mutlak / sama sekali (tidak boleh)",
-        "手（て） : tangan",
+        "手を（てを） : tangan (objek)",
         "入れて（いれて） : memasukkan",
+        "いけない（いけない） : tidak boleh / terlarang",
         "下（した） : bagian bawah",
-        "決して（けっして） : jangan pernah / sekali-kali"
+        "決して（けっして） : jangan pernah / sekali-kali",
+        "くぐらない（くぐらない） : tidak melintas di bawah",
+        "ようにする（ようにする） : berusaha agar"
       ],
-      "kotobaFormatted": "機械操作（きかいそうさ） : pengoperasian mesin\n関する（かんする） : terkait dengan\n注意事項（ちゅういじこう） : hal-hal yang harus diperhatikan\n間違っている（まちがっている） : salah / keliru\n選びなさい（えらびなさい） : pilihlah\n機械（きかい） : mesin\n異常（いじょう） : ketidaknormalan / kelainan\n見つかった（みつかった） : ditemukan\nとき（とき） : ketika / saat\n止めて（とめて） : menghentikan (dasar: 止める)\n自分（じぶん） : diri sendiri\n修理（しゅうり） : perbaikan / reparasi\n動いている（うごいている） : sedang bergerak (dasar: 動く)\n絶対（ぜったい） : mutlak / sama sekali (tidak boleh)\n手（て） : tangan\n入れて（いれて） : memasukkan\n下（した） : bagian bawah\n決して（けっして） : jangan pernah / sekali-kali"
+      "kotobaFormatted": "機械操作（きかいそうさ） : pengoperasian mesin\n関する（かんする） : terkait dengan\n注意事項（ちゅういじこう） : hal-hal yang harus diperhatikan\n間違っている（まちがっている） : salah / keliru\n選びなさい（えらびなさい） : pilihlah\n機械（きかい） : mesin\n異常（いじょう） : ketidaknormalan / kelainan\n見つかった（みつかった） : ditemukan\nとき（とき） : ketika / saat\n止めて（とめて） : menghentikan (dasar: 止める)\n自分（じぶん） : diri sendiri\n修理（しゅうり） : perbaikan / reparasi\n動いている（うごいている） : sedang bergerak (dasar: 動く)\n絶対（ぜったい） : mutlak / sama sekali (tidak boleh)\n手を（てを） : tangan (objek)\n入れて（いれて） : memasukkan\nいけない（いけない） : tidak boleh / terlarang\n下（した） : bagian bawah\n決して（けっして） : jangan pernah / sekali-kali\nくぐらない（くぐらない） : tidak melintas di bawah\nようにする（ようにする） : berusaha agar"
     },
     {
       "id": "kunci-ujian-14-q049",
@@ -4394,6 +4420,7 @@
         "作業手順（さぎょうてじゅん）",
         "守る（まもる）",
         "よそ見（よそみ）",
+        "をするこ（をすること）",
         "無駄な話（むだなはなし）"
       ],
       "kotobaV": [
@@ -4403,9 +4430,10 @@
         "作業手順（さぎょうてじゅん） : prosedur kerja (SOP)",
         "守る（まもる） : melindungi / mematuhi",
         "よそ見（よそみ） : meleng / melihat ke tempat lain",
+        "をするこ（をすること） : melakukan hal tersebut (typo するこ)",
         "無駄な話（むだなはなし） : obrolan sia-sia / mengobrol"
       ],
-      "kotobaFormatted": "作業場（さぎょうじょう） : area kerja / tempat kerja\n何（なん） : Berapa / apa\nしなければならない（しなければならない） : harus dilakukan\n作業手順（さぎょうてじゅん） : prosedur kerja (SOP)\n守る（まもる） : melindungi / mematuhi\nよそ見（よそみ） : meleng / melihat ke tempat lain\n無駄な話（むだなはなし） : obrolan sia-sia / mengobrol"
+      "kotobaFormatted": "作業場（さぎょうじょう） : area kerja / tempat kerja\n何（なん） : Berapa / apa\nしなければならない（しなければならない） : harus dilakukan\n作業手順（さぎょうてじゅん） : prosedur kerja (SOP)\n守る（まもる） : melindungi / mematuhi\nよそ見（よそみ） : meleng / melihat ke tempat lain\nをするこ（をすること） : melakukan hal tersebut (typo するこ)\n無駄な話（むだなはなし） : obrolan sia-sia / mengobrol"
     },
     {
       "id": "kunci-ujian-14-q050",
@@ -4559,9 +4587,9 @@
         "汚れた（よごれた）",
         "作業服（さぎょうふく）",
         "とき（とき）",
+        "れい（れい）",
         "くっつかない（くっつかない）",
         "ようにする（ようにする）",
-        "きれい（きれい）",
         "いつも（いつも）",
         "清潔な（せいけつな）",
         "着る（きる）"
@@ -4576,14 +4604,14 @@
         "汚れた（よごれた） : kotor (dasar: 汚れる)",
         "作業服（さぎょうふく） : pakaian kerja",
         "とき（とき） : ketika / saat",
+        "れい（れい） : contoh / ilustrasi",
         "くっつかない（くっつかない） : tidak menempel (dasar: くっつく)",
         "ようにする（ようにする） : berusaha agar",
-        "きれい（きれい） : bersih / rapi",
         "いつも（いつも） : selalu",
         "清潔な（せいけつな） : bersih / higienis",
         "着る（きる） : memakai (pakaian)"
       ],
-      "kotobaFormatted": "間違っている（まちがっている） : salah / keliru\n選びなさい（えらびなさい） : pilihlah\n装飾品（そうしょくひん） : aksesori perhiasan\n外して（はずして） : melepas (dasar: 外す)\nポケット（ポケット） : saku / kantong\n入れる（いれる） : memasukkan / menyalakan\n汚れた（よごれた） : kotor (dasar: 汚れる)\n作業服（さぎょうふく） : pakaian kerja\nとき（とき） : ketika / saat\nくっつかない（くっつかない） : tidak menempel (dasar: くっつく)\nようにする（ようにする） : berusaha agar\nきれい（きれい） : bersih / rapi\nいつも（いつも） : selalu\n清潔な（せいけつな） : bersih / higienis\n着る（きる） : memakai (pakaian)"
+      "kotobaFormatted": "間違っている（まちがっている） : salah / keliru\n選びなさい（えらびなさい） : pilihlah\n装飾品（そうしょくひん） : aksesori perhiasan\n外して（はずして） : melepas (dasar: 外す)\nポケット（ポケット） : saku / kantong\n入れる（いれる） : memasukkan / menyalakan\n汚れた（よごれた） : kotor (dasar: 汚れる)\n作業服（さぎょうふく） : pakaian kerja\nとき（とき） : ketika / saat\nれい（れい） : contoh / ilustrasi\nくっつかない（くっつかない） : tidak menempel (dasar: くっつく)\nようにする（ようにする） : berusaha agar\nいつも（いつも） : selalu\n清潔な（せいけつな） : bersih / higienis\n着る（きる） : memakai (pakaian)"
     },
     {
       "id": "kunci-ujian-14-q052",
@@ -4656,7 +4684,7 @@
       "kotobaV": [
         "体調（たいちょう） : kondisi kesehatan fisik",
         "悪い（わるい） : buruk / tidak baik",
-        "時（とき） : Saat / ketika terjadi suatu kondisi",
+        "時（とき） : saat / waktu",
         "何（なん） : Berapa / apa",
         "すれば（すれば） : jika melakukan",
         "いい（いい） : baik",
@@ -4670,7 +4698,7 @@
         "普通（ふつう） : biasa / normal",
         "働いて（はたらいて） : bekerja"
       ],
-      "kotobaFormatted": "体調（たいちょう） : kondisi kesehatan fisik\n悪い（わるい） : buruk / tidak baik\n時（とき） : Saat / ketika terjadi suatu kondisi\n何（なん） : Berapa / apa\nすれば（すれば） : jika melakukan\nいい（いい） : baik\n薬（くすり） : obat\n飲めば（のめば） : jika minum\n大丈夫（だいじょうぶ） : Aman / tidak ada masalah kebersihan atau kerusakan\n工場（こうじょう） : pabrik\n責任者（せきにんしゃ） : penanggung jawab / atasan\n報告（ほうこく） : laporan / melaporkan\nします（します） : melakukan (sopan)\n普通（ふつう） : biasa / normal\n働いて（はたらいて） : bekerja"
+      "kotobaFormatted": "体調（たいちょう） : kondisi kesehatan fisik\n悪い（わるい） : buruk / tidak baik\n時（とき） : saat / waktu\n何（なん） : Berapa / apa\nすれば（すれば） : jika melakukan\nいい（いい） : baik\n薬（くすり） : obat\n飲めば（のめば） : jika minum\n大丈夫（だいじょうぶ） : Aman / tidak ada masalah kebersihan atau kerusakan\n工場（こうじょう） : pabrik\n責任者（せきにんしゃ） : penanggung jawab / atasan\n報告（ほうこく） : laporan / melaporkan\nします（します） : melakukan (sopan)\n普通（ふつう） : biasa / normal\n働いて（はたらいて） : bekerja"
     },
     {
       "id": "kunci-ujian-14-q053",
@@ -4732,7 +4760,7 @@
         "一つ（ひとつ）",
         "選びなさい（えらびなさい）",
         "金属検出器（きんぞくけんしゅつき）",
-        "加熱殺菌（かねつさっきん）",
+        "加熱殺菌工程（かねつさっきんこうてい）",
         "入出庫現場（にゅうしゅっこげんば）"
       ],
       "kotobaV": [
@@ -4744,10 +4772,10 @@
         "一つ（ひとつ） : satu",
         "選びなさい（えらびなさい） : pilihlah",
         "金属検出器（きんぞくけんしゅつき） : detektor logam",
-        "加熱殺菌（かねつさっきん） : sterilisasi dengan pemanasan",
+        "加熱殺菌工程（かねつさっきんこうてい） : proses sterilisasi dengan pemanasan",
         "入出庫現場（にゅうしゅっこげんば） : area keluar-masuk barang"
       ],
-      "kotobaFormatted": "重要管理点（じゅうようかんりてん） : titik kendali kritis (Critical Control Point / CCP)\nCCP（CCP） : Titik Kendali Kritis (CCP)\nうち（うち） : di antara\n間違っている（まちがっている） : salah / keliru\n工程（こうてい） : tahapan proses\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n金属検出器（きんぞくけんしゅつき） : detektor logam\n加熱殺菌（かねつさっきん） : sterilisasi dengan pemanasan\n入出庫現場（にゅうしゅっこげんば） : area keluar-masuk barang"
+      "kotobaFormatted": "重要管理点（じゅうようかんりてん） : titik kendali kritis (Critical Control Point / CCP)\nCCP（CCP） : Titik Kendali Kritis (CCP)\nうち（うち） : di antara\n間違っている（まちがっている） : salah / keliru\n工程（こうてい） : tahapan proses\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n金属検出器（きんぞくけんしゅつき） : detektor logam\n加熱殺菌工程（かねつさっきんこうてい） : proses sterilisasi dengan pemanasan\n入出庫現場（にゅうしゅっこげんば） : area keluar-masuk barang"
     },
     {
       "id": "kunci-ujian-14-q054",
@@ -4903,14 +4931,14 @@
         "分からない（わからない）",
         "時（とき）",
         "責任者（せきにんしゃ）",
-        "確認（かくにん）",
-        "します（します）",
+        "確認します（かくにんします）",
         "安全装置（あんぜんそうち）",
         "仕事（しごと）",
         "効率（こうりつ）",
         "影響（えいきょう）",
         "はずして（はずして）",
-        "作業（さぎょう）"
+        "作業（さぎょう）",
+        "します（します）"
       ],
       "kotobaV": [
         "作業手順（さぎょうてじゅん） : prosedur kerja (SOP)",
@@ -4922,18 +4950,18 @@
         "繰り返し（くりかえし） : berulang kali",
         "覚えます（おぼえます） : mengingat / menghafal",
         "分からない（わからない） : tidak tahu / tidak mengerti",
-        "時（とき） : Saat / ketika terjadi suatu kondisi",
+        "時（とき） : saat / waktu",
         "責任者（せきにんしゃ） : penanggung jawab / atasan",
-        "確認（かくにん） : pemeriksaan / konfirmasi",
-        "します（します） : melakukan (sopan)",
+        "確認します（かくにんします） : memeriksa (sopan)",
         "安全装置（あんぜんそうち） : perangkat pengaman mesin",
         "仕事（しごと） : pekerjaan",
         "効率（こうりつ） : Efisiensi produktivitas kerja pabrik",
         "影響（えいきょう） : dampak / pengaruh",
         "はずして（はずして） : melepas / mencopot",
-        "作業（さぎょう） : pekerjaan / tugas"
+        "作業（さぎょう） : pekerjaan / tugas",
+        "します（します） : melakukan (sopan)"
       ],
-      "kotobaFormatted": "作業手順（さぎょうてじゅん） : prosedur kerja (SOP)\n間違っている（まちがっている） : salah / keliru\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n作業手順書（さぎょうてじゅんしょ） : dokumen prosedur kerja (SOP)\n書かれている（かかれている） : tertulis\n繰り返し（くりかえし） : berulang kali\n覚えます（おぼえます） : mengingat / menghafal\n分からない（わからない） : tidak tahu / tidak mengerti\n時（とき） : Saat / ketika terjadi suatu kondisi\n責任者（せきにんしゃ） : penanggung jawab / atasan\n確認（かくにん） : pemeriksaan / konfirmasi\nします（します） : melakukan (sopan)\n安全装置（あんぜんそうち） : perangkat pengaman mesin\n仕事（しごと） : pekerjaan\n効率（こうりつ） : Efisiensi produktivitas kerja pabrik\n影響（えいきょう） : dampak / pengaruh\nはずして（はずして） : melepas / mencopot\n作業（さぎょう） : pekerjaan / tugas"
+      "kotobaFormatted": "作業手順（さぎょうてじゅん） : prosedur kerja (SOP)\n間違っている（まちがっている） : salah / keliru\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n作業手順書（さぎょうてじゅんしょ） : dokumen prosedur kerja (SOP)\n書かれている（かかれている） : tertulis\n繰り返し（くりかえし） : berulang kali\n覚えます（おぼえます） : mengingat / menghafal\n分からない（わからない） : tidak tahu / tidak mengerti\n時（とき） : saat / waktu\n責任者（せきにんしゃ） : penanggung jawab / atasan\n確認します（かくにんします） : memeriksa (sopan)\n安全装置（あんぜんそうち） : perangkat pengaman mesin\n仕事（しごと） : pekerjaan\n効率（こうりつ） : Efisiensi produktivitas kerja pabrik\n影響（えいきょう） : dampak / pengaruh\nはずして（はずして） : melepas / mencopot\n作業（さぎょう） : pekerjaan / tugas\nします（します） : melakukan (sopan)"
     },
     {
       "id": "kunci-ujian-14-q056",
@@ -5099,7 +5127,7 @@
         "働いた（はたらいた）",
         "経験（けいけん）",
         "少ない（すくない）",
-        "人（ひと）",
+        "人たち（ひとたち）",
         "労働災害（ろうどうさいがい）",
         "一番多い（いちばんおおい）",
         "選びなさい（えらびなさい）",
@@ -5112,7 +5140,7 @@
         "働いた（はたらいた） : bekerja (lampau)",
         "経験（けいけん） : pengalaman",
         "少ない（すくない） : sedikit",
-        "人（ひと） : orang",
+        "人たち（ひとたち） : orang-orang",
         "労働災害（ろうどうさいがい） : kecelakaan kerja",
         "一番多い（いちばんおおい） : paling banyak / terbanyak",
         "選びなさい（えらびなさい） : pilihlah",
@@ -5121,7 +5149,7 @@
         "転倒（てんとう） : terjatuh / terpeleset di permukaan yang sama",
         "切れ・こすれ（きれこすれ） : terpotong / teriris dan tergores"
       ],
-      "kotobaFormatted": "働いた（はたらいた） : bekerja (lampau)\n経験（けいけん） : pengalaman\n少ない（すくない） : sedikit\n人（ひと） : orang\n労働災害（ろうどうさいがい） : kecelakaan kerja\n一番多い（いちばんおおい） : paling banyak / terbanyak\n選びなさい（えらびなさい） : pilihlah\n挟まれ（はさまれ） : terjepit\n巻き込まれ（まきこまれ） : terlilit / tertarik masuk ke mesin\n転倒（てんとう） : terjatuh / terpeleset di permukaan yang sama\n切れ・こすれ（きれこすれ） : terpotong / teriris dan tergores"
+      "kotobaFormatted": "働いた（はたらいた） : bekerja (lampau)\n経験（けいけん） : pengalaman\n少ない（すくない） : sedikit\n人たち（ひとたち） : orang-orang\n労働災害（ろうどうさいがい） : kecelakaan kerja\n一番多い（いちばんおおい） : paling banyak / terbanyak\n選びなさい（えらびなさい） : pilihlah\n挟まれ（はさまれ） : terjepit\n巻き込まれ（まきこまれ） : terlilit / tertarik masuk ke mesin\n転倒（てんとう） : terjatuh / terpeleset di permukaan yang sama\n切れ・こすれ（きれこすれ） : terpotong / teriris dan tergores"
     },
     {
       "id": "kunci-ujian-14-q058",
@@ -5178,8 +5206,8 @@
         "腰痛症災害防止（ようつうしょうさいがいぼうし）",
         "ポイント（ポイント）",
         "間違っている（まちがっている）",
-        "つ（つ）",
         "選びなさい（えらびなさい）",
+        "ついて（ついて）",
         "片足（かたあし）",
         "前（まえ）",
         "出し（だし）",
@@ -5212,8 +5240,8 @@
         "腰痛症災害防止（ようつうしょうさいがいぼうし） : pencegahan cedera nyeri pinggang",
         "ポイント（ポイント） : poin penting",
         "間違っている（まちがっている） : salah / keliru",
-        "つ（つ） : buah / butir (satuan hitung)",
         "選びなさい（えらびなさい） : pilihlah",
+        "ついて（ついて） : menempel / melekat",
         "片足（かたあし） : satu kaki",
         "前（まえ） : Sebelum melakukan tahapan kerja berikutnya",
         "出し（だし） : mengeluarkan / melangkahkan",
@@ -5227,7 +5255,7 @@
         "伸ばす（のばす） : meluruskan",
         "重い物（おもいもの） : benda berat",
         "持ち上げる（もちあげる） : mengangkat",
-        "時（とき） : Saat / ketika terjadi suatu kondisi",
+        "時（とき） : saat / waktu",
         "お腹（おなか） : perut",
         "力（ちから） : Kekuatan fisik saat mengangkat beban kerja",
         "入れず（いれず） : tanpa memasukkan / mengerahkan",
@@ -5242,7 +5270,7 @@
         "姿勢（しせい） : postur / sikap tubuh",
         "取り扱う（とりあつかう） : menangani / mengolah"
       ],
-      "kotobaFormatted": "腰痛症災害防止（ようつうしょうさいがいぼうし） : pencegahan cedera nyeri pinggang\nポイント（ポイント） : poin penting\n間違っている（まちがっている） : salah / keliru\nつ（つ） : buah / butir (satuan hitung)\n選びなさい（えらびなさい） : pilihlah\n片足（かたあし） : satu kaki\n前（まえ） : Sebelum melakukan tahapan kerja berikutnya\n出し（だし） : mengeluarkan / melangkahkan\n膝（ひざ） : lutut\n曲げ（まげ） : menekuk\n腰（こし） : pinggang\n十分に（じゅうぶんに） : cukup / memadai\n下ろして（おろして） : menurunkan\n重い（おもい） : berat\n抱え（かかえ） : memeluk / mengangkat\n伸ばす（のばす） : meluruskan\n重い物（おもいもの） : benda berat\n持ち上げる（もちあげる） : mengangkat\n時（とき） : Saat / ketika terjadi suatu kondisi\nお腹（おなか） : perut\n力（ちから） : Kekuatan fisik saat mengangkat beban kerja\n入れず（いれず） : tanpa memasukkan / mengerahkan\n呼吸（こきゅう） : pernapasan\n整えて（ととのえて） : mengatur (napas/kondisi)\n行う（おこなう） : melakukan\nできるだけ（できるだけ） : sebisa mungkin\n体（からだ） : tubuh\n近づいて（ちかづいて） : mendekat\n重心（じゅうしん） : titik pusat berat tubuh\n低く（ひくく） : rendah\n姿勢（しせい） : postur / sikap tubuh\n取り扱う（とりあつかう） : menangani / mengolah"
+      "kotobaFormatted": "腰痛症災害防止（ようつうしょうさいがいぼうし） : pencegahan cedera nyeri pinggang\nポイント（ポイント） : poin penting\n間違っている（まちがっている） : salah / keliru\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n片足（かたあし） : satu kaki\n前（まえ） : Sebelum melakukan tahapan kerja berikutnya\n出し（だし） : mengeluarkan / melangkahkan\n膝（ひざ） : lutut\n曲げ（まげ） : menekuk\n腰（こし） : pinggang\n十分に（じゅうぶんに） : cukup / memadai\n下ろして（おろして） : menurunkan\n重い（おもい） : berat\n抱え（かかえ） : memeluk / mengangkat\n伸ばす（のばす） : meluruskan\n重い物（おもいもの） : benda berat\n持ち上げる（もちあげる） : mengangkat\n時（とき） : saat / waktu\nお腹（おなか） : perut\n力（ちから） : Kekuatan fisik saat mengangkat beban kerja\n入れず（いれず） : tanpa memasukkan / mengerahkan\n呼吸（こきゅう） : pernapasan\n整えて（ととのえて） : mengatur (napas/kondisi)\n行う（おこなう） : melakukan\nできるだけ（できるだけ） : sebisa mungkin\n体（からだ） : tubuh\n近づいて（ちかづいて） : mendekat\n重心（じゅうしん） : titik pusat berat tubuh\n低く（ひくく） : rendah\n姿勢（しせい） : postur / sikap tubuh\n取り扱う（とりあつかう） : menangani / mengolah"
     },
     {
       "id": "kunci-ujian-14-q059",
@@ -5300,15 +5328,15 @@
         "災害防止（さいがいぼうし）",
         "ポイント（ポイント）",
         "正しい（ただしい）",
-        "つ（つ）",
         "選びなさい（えらびなさい）",
+        "ついて（ついて）",
         "大きい（おおきい）",
         "物（もの）",
         "重い（おもい）",
         "持つ（もつ）",
         "時（とき）",
         "台車（だいしゃ）",
-        "使用（しよう）",
+        "使用しましょう（しようしましょう）",
         "床（ゆか）",
         "常に（つねに）",
         "濡れて（ぬれて）",
@@ -5316,22 +5344,23 @@
         "使えない（つかえない）",
         "二人（ふたり）",
         "回（かい）",
-        "運べる（はこべる）"
+        "運べる（はこべる）",
+        "しましょう（しましょう）"
       ],
       "kotobaV": [
         "転倒（てんとう） : terjatuh / terpeleset di permukaan yang sama",
         "災害防止（さいがいぼうし） : Pencegahan kecelakaan kerja pabrik (K3)",
         "ポイント（ポイント） : poin penting",
         "正しい（ただしい） : benar / tepat",
-        "つ（つ） : buah / butir (satuan hitung)",
         "選びなさい（えらびなさい） : pilihlah",
+        "ついて（ついて） : menempel / melekat",
         "大きい（おおきい） : besar",
         "物（もの） : Barang / benda yang ditangani dalam pekerjaan",
         "重い（おもい） : berat",
         "持つ（もつ） : memegang",
-        "時（とき） : Saat / ketika terjadi suatu kondisi",
+        "時（とき） : saat / waktu",
         "台車（だいしゃ） : troli pengangkut barang",
-        "使用（しよう） : penggunaan",
+        "使用しましょう（しようしましょう） : mari gunakan (ajakan)",
         "床（ゆか） : lantai",
         "常に（つねに） : selalu",
         "濡れて（ぬれて） : basah",
@@ -5339,9 +5368,10 @@
         "使えない（つかえない） : tidak dapat digunakan",
         "二人（ふたり） : dua orang",
         "回（かい） : Kali / putaran siklus pembersihan",
-        "運べる（はこべる） : dapat diangkut"
+        "運べる（はこべる） : dapat diangkut",
+        "しましょう（しましょう） : mari lakukan (ajakan sopan)"
       ],
-      "kotobaFormatted": "転倒（てんとう） : terjatuh / terpeleset di permukaan yang sama\n災害防止（さいがいぼうし） : Pencegahan kecelakaan kerja pabrik (K3)\nポイント（ポイント） : poin penting\n正しい（ただしい） : benar / tepat\nつ（つ） : buah / butir (satuan hitung)\n選びなさい（えらびなさい） : pilihlah\n大きい（おおきい） : besar\n物（もの） : Barang / benda yang ditangani dalam pekerjaan\n重い（おもい） : berat\n持つ（もつ） : memegang\n時（とき） : Saat / ketika terjadi suatu kondisi\n台車（だいしゃ） : troli pengangkut barang\n使用（しよう） : penggunaan\n床（ゆか） : lantai\n常に（つねに） : selalu\n濡れて（ぬれて） : basah\n良い（よい） : baik\n使えない（つかえない） : tidak dapat digunakan\n二人（ふたり） : dua orang\n回（かい） : Kali / putaran siklus pembersihan\n運べる（はこべる） : dapat diangkut"
+      "kotobaFormatted": "転倒（てんとう） : terjatuh / terpeleset di permukaan yang sama\n災害防止（さいがいぼうし） : Pencegahan kecelakaan kerja pabrik (K3)\nポイント（ポイント） : poin penting\n正しい（ただしい） : benar / tepat\n選びなさい（えらびなさい） : pilihlah\nついて（ついて） : menempel / melekat\n大きい（おおきい） : besar\n物（もの） : Barang / benda yang ditangani dalam pekerjaan\n重い（おもい） : berat\n持つ（もつ） : memegang\n時（とき） : saat / waktu\n台車（だいしゃ） : troli pengangkut barang\n使用しましょう（しようしましょう） : mari gunakan (ajakan)\n床（ゆか） : lantai\n常に（つねに） : selalu\n濡れて（ぬれて） : basah\n良い（よい） : baik\n使えない（つかえない） : tidak dapat digunakan\n二人（ふたり） : dua orang\n回（かい） : Kali / putaran siklus pembersihan\n運べる（はこべる） : dapat diangkut\nしましょう（しましょう） : mari lakukan (ajakan sopan)"
     }
   ]
 }
