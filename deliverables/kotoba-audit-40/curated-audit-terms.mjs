@@ -167,6 +167,16 @@ export const CURATED_ROWS = [
   ['増えた', 'ふえた', 'inflected_verb', 'bertambah / berkembang biak (lampau)', '増える'],
   ['止めます', 'とめます', 'inflected_verb', 'menghentikan / mematikan', '止める'],
   ['片付けます', 'かたづけます', 'inflected_verb', 'membereskan / merapikan', '片付ける'],
+  // Batch 03 — reguler-02, nguyen-04, nguyen-06, nguyen-07, nguyen-05
+  ['分けます', 'わけます', 'inflected_verb', 'membagi / memisahkan', '分ける'],
+  ['なかなか', 'なかなか', 'word', 'tidak mudah / sulit (dengan negatif)'],
+  ['あたって', 'あたって', 'inflected_verb', 'mengenai / menyentuh / terbentur', '当たる'],
+  ['はずす', 'はずす', 'word', 'melepas / menanggalkan (外す)'],
+  ['落とします', 'おとします', 'inflected_verb', 'merontokkan / menghilangkan', '落とす'],
+  ['閉めた', 'しめた', 'inflected_verb', 'menutup (pintu/jendela) (lampau)', '閉める'],
+  ['入れ換えない', 'いれかえない', 'inflected_verb', 'tidak mengganti / menukar (udara)', '入れ換える'],
+  ['持ち込まれた', 'もちこまれた', 'inflected_verb', 'dibawa masuk (pasif lampau)', '持ち込む'],
+  ['美味しく食べられる', 'おいしくたべられる', 'word', 'dapat dimakan dengan lezat'],
 ];
 
 export function buildCuratedMap() {

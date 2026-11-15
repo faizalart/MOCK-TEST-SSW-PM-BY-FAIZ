@@ -278,10 +278,10 @@
     },
     "schemaVersion": "2.0.0",
     "dataVersion": "20261113-v2",
-    "totalTerms": 6522,
-    "verifiedTerms": 6478,
-    "verifiedCount": 6478,
-    "updatedAt": "2026-11-15T16:13:32.844Z"
+    "totalTerms": 6531,
+    "verifiedTerms": 6487,
+    "verifiedCount": 6487,
+    "updatedAt": "2026-11-15T16:14:45.588Z"
   },
   "terms": {
     "kb-ext-0001-e383bce383": {
@@ -115896,6 +115896,84 @@
       "unitType": "inflected_verb",
       "arti": "membereskan / merapikan",
       "dictForm": "片付ける",
+      "status": "verified"
+    },
+    "kb-audit-0164": {
+      "id": "kb-audit-0164",
+      "kanji": "分けます",
+      "furigana": "わけます",
+      "unitType": "inflected_verb",
+      "arti": "membagi / memisahkan",
+      "dictForm": "分ける",
+      "status": "verified"
+    },
+    "kb-audit-0165": {
+      "id": "kb-audit-0165",
+      "kanji": "なかなか",
+      "furigana": "なかなか",
+      "unitType": "word",
+      "arti": "tidak mudah / sulit (dengan negatif)",
+      "status": "verified"
+    },
+    "kb-audit-0166": {
+      "id": "kb-audit-0166",
+      "kanji": "あたって",
+      "furigana": "あたって",
+      "unitType": "inflected_verb",
+      "arti": "mengenai / menyentuh / terbentur",
+      "dictForm": "当たる",
+      "status": "verified"
+    },
+    "kb-audit-0167": {
+      "id": "kb-audit-0167",
+      "kanji": "はずす",
+      "furigana": "はずす",
+      "unitType": "word",
+      "arti": "melepas / menanggalkan (外す)",
+      "status": "verified"
+    },
+    "kb-audit-0168": {
+      "id": "kb-audit-0168",
+      "kanji": "落とします",
+      "furigana": "おとします",
+      "unitType": "inflected_verb",
+      "arti": "merontokkan / menghilangkan",
+      "dictForm": "落とす",
+      "status": "verified"
+    },
+    "kb-audit-0169": {
+      "id": "kb-audit-0169",
+      "kanji": "閉めた",
+      "furigana": "しめた",
+      "unitType": "inflected_verb",
+      "arti": "menutup (pintu/jendela) (lampau)",
+      "dictForm": "閉める",
+      "status": "verified"
+    },
+    "kb-audit-0170": {
+      "id": "kb-audit-0170",
+      "kanji": "入れ換えない",
+      "furigana": "いれかえない",
+      "unitType": "inflected_verb",
+      "arti": "tidak mengganti / menukar (udara)",
+      "dictForm": "入れ換える",
+      "status": "verified"
+    },
+    "kb-audit-0171": {
+      "id": "kb-audit-0171",
+      "kanji": "持ち込まれた",
+      "furigana": "もちこまれた",
+      "unitType": "inflected_verb",
+      "arti": "dibawa masuk (pasif lampau)",
+      "dictForm": "持ち込む",
+      "status": "verified"
+    },
+    "kb-audit-0172": {
+      "id": "kb-audit-0172",
+      "kanji": "美味しく食べられる",
+      "furigana": "おいしくたべられる",
+      "unitType": "word",
+      "arti": "dapat dimakan dengan lezat",
       "status": "verified"
     }
   }
