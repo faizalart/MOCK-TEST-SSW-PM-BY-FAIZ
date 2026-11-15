@@ -150,6 +150,23 @@ export const CURATED_ROWS = [
   ['じゅうような', 'じゅうような', 'word', 'yang penting (重要な)'],
   ['かんし', 'かんし', 'word', 'pemantauan / pengawasan (監視)'],
   ['きろく', 'きろく', 'word', 'mencatat / catatan (記録)'],
+  // Batch 02 — reguler-01, pilot-otaff51-01, reguler-06, reguler-04, reguler-03
+  ['はげしい', 'はげしい', 'word', 'hebat / parah / deras'],
+  ['あいだ', 'あいだ', 'word', 'di antara / selama rentang'],
+  ['入れ換えます', 'いれかえます', 'inflected_verb', 'mengganti / menukar (udara)', '入れ換える'],
+  ['使い分け', 'つかいわけ', 'word', 'penggunaan terpisah sesuai tujuan'],
+  ['痛める', 'いためる', 'word', 'mencederai / membuat sakit'],
+  ['慣れて', 'なれて', 'inflected_verb', 'terbiasa / sudah mahir', '慣れる'],
+  ['従わなく', 'したがわなく', 'inflected_verb', 'tidak mematuhi / mengikuti', '従う'],
+  ['進めて', 'すすめて', 'inflected_verb', 'melanjutkan / menjalankan (kerja)', '進める'],
+  ['伸ばした', 'のばした', 'inflected_verb', 'meluruskan / merentangkan (lampau)', '伸ばす'],
+  ['下ろした', 'おろした', 'inflected_verb', 'menurunkan (pinggang/beban) (lampau)', '下ろす'],
+  ['伸ばして', 'のばして', 'inflected_verb', 'meluruskan / merentangkan', '伸ばす'],
+  ['その日', 'そのひ', 'word', 'hari itu / hari tersebut'],
+  ['備えて', 'そなえて', 'inflected_verb', 'mempersiapkan / mengantisipasi', '備える'],
+  ['増えた', 'ふえた', 'inflected_verb', 'bertambah / berkembang biak (lampau)', '増える'],
+  ['止めます', 'とめます', 'inflected_verb', 'menghentikan / mematikan', '止める'],
+  ['片付けます', 'かたづけます', 'inflected_verb', 'membereskan / merapikan', '片付ける'],
 ];
 
 export function buildCuratedMap() {
