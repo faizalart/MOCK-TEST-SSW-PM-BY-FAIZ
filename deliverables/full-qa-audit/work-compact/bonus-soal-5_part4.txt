@@ -1,0 +1,83 @@
+# AUDIT SHEET: bonus-soal-5 (Bonus Soal 5) | Batch qa-batch-05 | Part 4 (Q13-16 of 36)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=bonus-soal-5-q013 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0093 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q005 (ssw-pm-kunci-ujian-4), bonus-soal-10-q030 (bonus-soal-10), nguyen05-q013 (latsol-nguyen-05)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>の<ruby>出<rt>で</rt></ruby>た<ruby>人<rt>ひと</rt></ruby>には<ruby>何<rt>なに</rt></ruby>をすればよ<br>いでしょうか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 熱中症の症状の出た人には何をすればよ
+いでしょうか。間違っているものを選びなさい。
+  PROMPT_TRANS: Apa yang sebaiknya dilakukan terhadap orang yang menunjukkan gejala sengatan panas (heatstroke)? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 13 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-otaff51-0425] 熱中症(ねっちゅうしょう) [compound_technical] = sengatan panas (heatstroke) | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p4-216] 出た(でた) [inflected, df:出る] = yang keluar / muncul | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p5-220] でしょう(-) [particle] = kira-kira / bukan? | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>衣服<rt>いふく</rt></ruby>をゆるめてからだを<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Melonggarkan pakaian dan mendinginkan tubuhnya.
+    KOTOBA: [kb-otaff51-0543] 衣服(いふく) [noun] = pakaian | [kb-v2-p5-303] ゆるめて(-) [inflected, df:ゆるめる] = melonggarkan (pakaian) | [kb-v2-p2-080] からだ(-) [word] = tubuh / badan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>水<rt>みず</rt></ruby>に<ruby>食塩<rt>しょくえん</rt></ruby>とブドウ<ruby>糖<rt>とう</rt></ruby>を<ruby>溶<rt>と</rt></ruby>かした<ruby>飲物<rt>のみもの</rt></ruby>を<ruby>与<rt>あた</rt></ruby>え<br>る。
+    TRANS: Memberikan minuman berupa air yang dilarutkan garam dan glukosa.
+    KOTOBA: [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0658] 食塩(しょくえん) [noun] = garam dapur | [kb-v2-p5-129] ブドウ糖(ぶどうとう) [compound_technical] = glukosa (gula anggur) | [kb-v2-p5-304] 溶かした(とかした) [inflected, df:溶かす] = melarutkan (lampau) | [kb-1600430] 飲物(のみもの) [word] = Minuman produk olahan cair | [kb-v2-p5-305] 与える(あたえる) [word] = memberikan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=そのまま<ruby>寝<rt>ね</rt></ruby>かして<ruby>置<rt>お</rt></ruby>く。
+    TRANS: Membiarkannya berbaring begitu saja.
+    KOTOBA: [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p5-306] 寝かして(ねかして) [inflected, df:寝かす] = membaringkan | [kb-v2-p3-275] 置く(おく) [word] = meletakkan
+
+=== #Q14 | ID=bonus-soal-5-q014 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  CLUSTER CL-0211 (n=3, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-10-q022 (bonus-soal-10), nguyen05-q014 (latsol-nguyen-05)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>日本<rt>にほん</rt></ruby>で<ruby>表示<rt>ひょうじ</rt></ruby>しなければならないアレルギー<br><ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさ<br>い。
+  QUESTION_TEXT: 日本で表示しなければならないアレルギー
+食品はどれですか。正しいものを一つ選びなさ
+い。
+  PROMPT_TRANS: Manakah pangan alergen yang wajib dicantumkan pada label di Jepang? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 14 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-1582710] 日本(にほん) [word] = Jepang | [kb-audit-0961] 表示しなければ(ひょうじしなければ) [expression] = harus menampilkan (条件) | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>砂糖<rt>さとう</rt></ruby>
+    TRANS: Gula
+    KOTOBA: [kb-otaff51-0469] 砂糖(さとう) [noun] = gula
+  OPT B: HTML=<ruby>乳<rt>にゅう</rt></ruby>
+    TRANS: Susu
+    KOTOBA: [kb-otaff51-0102] 乳(にゅう) [noun] = susu
+  OPT C: HTML=たこ
+    TRANS: Gurita
+    KOTOBA: [kb-v2-p3-071] たこ(-) [word] = gurita
+
+=== #Q15 | ID=bonus-soal-5-q015 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  CLUSTER CL-0006 (n=10, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q007 (ssw-pm-kunci-ujian-1), kunci-ujian-7-q027 (ssw-pm-kunci-ujian-7), kunci-ujian-13-q015 (ssw-pm-kunci-ujian-13), bonus-soal-1-q007 (bonus-soal-1), bonus-soal-8-q007 (bonus-soal-8), bonus-soal-10-q021 (bonus-soal-10), nguyen01-q007 (latsol-nguyen-01), nguyen05-q015 (latsol-nguyen-05), nguyen08-q007 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5S<ruby>活動<rt>かつどう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>の<ruby>整頓<rt>せいとん</rt></ruby>は、どのような<ruby>活動<rt>かつどう</rt></ruby>です<br>か。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 5S活動の中の整頓は、どのような活動です
+か。正しいものを一つ選びなさい。
+  PROMPT_TRANS: Kegiatan seperti apakah Rapi (Penataan / Seiton) dalam kegiatan 5S? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 15 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>職場<rt>しょくば</rt></ruby>や<ruby>工場<rt>こうじょう</rt></ruby>などのゴミを<ruby>捨<rt>す</rt></ruby>てる。
+    TRANS: Membuang sampah di tempat kerja atau pabrik.
+    KOTOBA: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-034] ゴミ(-) [word] = sampah | [kb-v2-p1-174] 捨てる(すてる) [word] = membuang | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>決<rt>き</rt></ruby>められたことを<ruby>常<rt>つね</rt></ruby>に<ruby>守<rt>まも</rt></ruby>って<ruby>実行<rt>じっこう</rt></ruby>する。
+    TRANS: Selalu mematuhi dan melaksanakan hal-hal yang telah ditetapkan.
+    KOTOBA: [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-284] 常に(つねに) [word] = selalu | [kb-v2-p1-175] 守って(まもって) [inflected_verb, df:守る] = mematuhi (dasar: 守る) | [kb-v2-p2-219] 実行する(じっこうする) [word] = melaksanakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>作業道具<rt>さぎょうどうぐ</rt></ruby>や<ruby>材料<rt>ざいりょう</rt></ruby>の<ruby>置<rt>お</rt></ruby>き<ruby>場所<rt>ばじょ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めておく。
+    TRANS: Menentukan tempat penyimpanan peralatan kerja dan bahan terlebih dahulu.
+    KOTOBA: [kb-ext-0649-e4bd9ce6a5] 作業道具(さぎょうどうぐ) [compound_technical] = peralatan kerja | [kb-1296670] 材料(ざいりょう) [word] = bahan | [kb-v2-p1-023] 置き場所(おきばしょ) [word] = tempat penyimpanan | [kb-v2-p1-177] 決めて(きめて) [inflected_verb, df:決める] = menetapkan (dasar: 決める) | [kb-v2-p1-243] おく(-) [word] = melakukan terlebih dahulu | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q16 | ID=bonus-soal-5-q016 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-226 (ーつ): "satu buah (typo: 一つ)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0349 (―つ): "satu buah (typo garis: 一つ)"
+  CLUSTER CL-0146 (n=11, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-13-q016 (ssw-pm-kunci-ujian-13), bonus-soal-1-q005 (bonus-soal-1), bonus-soal-4-q009 (bonus-soal-4), bonus-soal-7-q005 (bonus-soal-7), bonus-soal-7-q009 (bonus-soal-7), nguyen01-q005 (latsol-nguyen-01), nguyen04-q009 (latsol-nguyen-04), nguyen05-q016 (latsol-nguyen-05), nguyen07-q005 (latsol-nguyen-07), nguyen07-q009 (latsol-nguyen-07)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>は３つ<ruby>分<rt>わ</rt></ruby>けま<br>す。<ruby>施設<rt>しせつ</rt></ruby>、<ruby>設備<rt>せつび</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>と<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<br><ruby>衛生管理<rt>えいせいかんり</rt></ruby>ともうーつのは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<br>―つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: 一般衛生管理は３つ分けま
+す。施設、設備、器具の衛生管理と作業者の
+衛生管理ともうーつのは何ですか。正しいものを
+―つ選びない。
+  PROMPT_TRANS: Manajemen higiene umum dibagi menjadi 3 bagian. Selain manajemen higiene fasilitas, peralatan, serta perkakas dan manajemen higiene pekerja, apakah satu bagian lainnya? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 16 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-audit-0164] 分けます(わけます) [inflected_verb, df:分ける] = membagi / memisahkan | [kb-otaff51-0335] 施設(しせつ) [noun] = fasilitas bangunan | [kb-otaff51-0570] 設備(せつび) [noun] = fasilitas / instalasi peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-v2-p5-226] ーつ(-) [word] = satu buah (typo: 一つ) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0349] ―つ(ひとつ) [word] = satu buah (typo garis: 一つ) | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>。
+    TRANS: Manajemen kesehatan pekerja.
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>、<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>。
+    TRANS: Manajemen higiene bahan baku dan produk pangan.
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>。
+    TRANS: Manajemen keselamatan kerja.
+    KOTOBA: [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung

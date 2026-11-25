@@ -1,0 +1,75 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-1 (Soal Ujian 1 — CBTP Gino1) | Batch qa-batch-01 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=kunci1-q029 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 1.pdf p.5 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>機械掃除<rt>きかいそうじ</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai cara membersihkan mesin.
+  EXPLANATION: Sumber: Kunci Soal Ujian 1.pdf (Halaman 5, Câu 29 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-ext-0338-e6a99fe6a2] 機械掃除(きかいそうじ) [compound_technical] = pembersihan mesin | [kb-v2-p1-029] やり方(やりかた) [word] = cara melakukan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>機械<rt>きかい</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>う<ruby>時<rt>とき</rt></ruby>は、<ruby>水<rt>みず</rt></ruby>で<ruby>流<rt>なが</rt></ruby>すだけで<ruby>良<rt>よ</rt></ruby>い
+    TRANS: Saat mencuci mesin, cukup dengan menyiramkan air saja.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-208] 流す(ながす) [word] = mengalirkan / membilas | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>機械<rt>きかい</rt></ruby>の<ruby>取<rt>と</rt></ruby>り<ruby>外<rt>はず</rt></ruby>せるところは、<ruby>外<rt>はず</rt></ruby>して<ruby>掃除<rt>そうじ</rt></ruby>する
+    TRANS: Melepas bagian mesin yang dapat dilepas lalu membersihkannya.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-121] 取り外せる(とりはずせる) [inflected_verb, df:取り外す] = bisa dilepas (dasar: 取り外す) | [kb-v2-p1-292] ところ(-) [word] = bagian / tempat | [kb-v2-p1-209] 外して(はずして) [inflected_verb, df:外す] = melepas (dasar: 外す) | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=<ruby>掃除<rt>そうじ</rt></ruby>する<ruby>時<rt>とき</rt></ruby>は、<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める
+    TRANS: Menghentikan mesin saat melakukan pembersihan.
+    KOTOBA: [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-210] 止める(とめる) [word] = menghentikan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q30 | ID=kunci1-q030 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 1.pdf p.5 ===
+  CLUSTER CL-0028 (n=6, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q030 (bonus-soal-1), bonus-soal-9-q030 (bonus-soal-9), bonus-soal-10-q016 (bonus-soal-10), nguyen01-q030 (latsol-nguyen-01), nguyen09-q030 (latsol-nguyen-09)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異常事態<rt>いじょうじたい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きた<ruby>時<rt>とき</rt></ruby>に、どうしますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan ketika terjadi kondisi tidak normal / darurat? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 1.pdf (Halaman 5, Câu 30 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-v2-p1-197] 起きた(おきた) [inflected_verb, df:起きる] = terjadi (dasar: 起きる) | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>必要<rt>ひつよう</rt></ruby>があれば、<ruby>非常停止<rt>ひじょうていし</rt></ruby>ボタンで<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める
+    TRANS: Menghentikan mesin dengan tombol berhenti darurat jika diperlukan.
+    KOTOBA: [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-otaff51-0635] 非常停止ボタン(ひじょうていしぼたん) [compound_technical] = tombol berhenti darurat | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-210] 止める(とめる) [word] = menghentikan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>周<rt>まわ</rt></ruby>りにいる<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>同僚<rt>どうりょう</rt></ruby>に、<ruby>大<rt>おお</rt></ruby>きなこえで<ruby>知<rt>し</rt></ruby>らせる
+    TRANS: Memberitahu penanggung jawab atau rekan kerja di sekitar dengan suara keras.
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-1453580] 同僚(どうりょう) [word] = rekan kerja | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-v2-p1-078] こえ(-) [word] = suara | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>誰<rt>だれ</rt></ruby>でも<ruby>相談<rt>そうだん</rt></ruby>しないで<ruby>作業場<rt>さぎょうじょう</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れて、<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>へ<ruby>避難<rt>ひなん</rt></ruby>する
+    TRANS: Meninggalkan area kerja dan mengungsi ke tempat aman tanpa berkonsultasi atau memberi tahu siapa pun.
+    KOTOBA: [kb-1416830] 誰(だれ) [standalone_term] = Siapa / pihak penanggung jawab yang ditunjuk | [kb-audit-0954] 相談しないで(そうだんしないで) [inflected_verb, df:相談する] = tanpa berkonsultasi | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-298] 離れて(はなれて) [inflected_verb, df:離れる] = meninggalkan (dasar: 離れる) | [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-1484660] 避難(ひなん) [word] = evakuasi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-341] へ(-) [particle] = ke (arah tujuan)
+
+=== #Q31 | ID=kunci1-q031 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 1.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p1-098 (誇り): "debu (typo 埃)"
+  CLUSTER CL-0029 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q018 (ssw-pm-kunci-ujian-13), bonus-soal-1-q031 (bonus-soal-1), bonus-soal-5-q018 (bonus-soal-5), bonus-soal-9-q031 (bonus-soal-9), bonus-soal-10-q017 (bonus-soal-10), nguyen01-q031 (latsol-nguyen-01), nguyen05-q018 (latsol-nguyen-05), nguyen09-q031 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラーを<ruby>使<rt>つか</rt></ruby>っています。<ruby>何<rt>なん</rt></ruby>のために<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラーを<ruby>使<rt>つか</rt></ruby>いますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat memasuki area kerja, pekerja menggunakan rol perekat (adhesive roller). Untuk tujuan apa rol perekat digunakan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 1.pdf (Halaman 5, Câu 31 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-otaff51-0490] 粘着ローラー(ねんちゃくろーらー) [compound_technical] = rol perekat pembersih debu/rambut | [kb-v2-p1-116] 使っています(つかっています) [inflected_verb, df:使う] = sedang memakai (dasar: 使う) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-117] 使いますか(つかいますか) [inflected_verb, df:使う] = digunakan untuk apa (dasar: 使う) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>誇<rt>ほこ</rt></ruby>りを<ruby>落<rt>お</rt></ruby>とす
+    TRANS: Menghilangkan debu dan kotoran yang menempel
+    KOTOBA: [kb-v2-p1-098] 誇り(ほこり) [word] = debu (typo 埃) | [kb-v2-p1-214] 落とす(おとす) [word] = menghilangkan / menjatuhkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=マッサージをする
+    TRANS: Melakukan pijatan
+    KOTOBA: [kb-ext-0029-e3839ee383] マッサージ(-) [word] = pijat | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>冷<rt>ひ</rt></ruby>やす
+    TRANS: Mendinginkan pakaian kerja
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q32 | ID=kunci1-q032 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 1.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0030 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-5-q036 (ssw-pm-kunci-ujian-5), bonus-soal-5-q036 (bonus-soal-5), bonus-soal-10-q040 (bonus-soal-10)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手洗<rt>てあら</rt></ruby>いの<ruby>手順<rt>てじゅん</rt></ruby>について、<ruby>下<rt>した</rt></ruby>の〇〇には<ruby>何<rt>なに</rt></ruby>が<ruby>入<rt>はい</rt></ruby>りますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。<br><ruby>水<rt>みず</rt></ruby>で<ruby>汚<rt>よご</rt></ruby>れを<ruby>落<rt>お</rt></ruby>とす ≫ <ruby>洗剤<rt>せんざい</rt></ruby>で<ruby>洗<rt>せん</rt></ruby>う ≫ <ruby>水<rt>みず</rt></ruby>で<ruby>洗<rt>せん</rt></ruby>い<ruby>流<rt>りゅう</rt></ruby>す ≫ ふき<ruby>取<rt>と</rt></ruby>る ≫ 〇〇
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai prosedur mencuci tangan, apa yang tepat untuk mengisi bagian 〇〇 di bawah ini? Pilihlah satu jawaban yang benar. Membilas kotoran dengan air ≫ Mencuci dengan sabun pembersih ≫ Membilas dengan air mengalir ≫ Mengeringkan/mengelap ≫ 〇〇
+  EXPLANATION: Sumber: Kunci Soal Ujian 1.pdf (Halaman 5, Câu 32 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-otaff51-0312] 手順(てじゅん) [noun] = urutan prosedur / langkah | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p1-354] 〇〇(-) [expression] = bagian kosong (isi jawaban) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-124] 入りますか(はいりますか) [inflected_verb, df:入る] = masuk (dasar: 入る) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-v2-p1-214] 落とす(おとす) [word] = menghilangkan / menjatuhkan | [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-otaff51-0384] 洗い流す(あらいながす) [verb] = membilas dengan air mengalir | [kb-v2-p1-215] ふき取る(ふきとる) [word] = mengelap hingga kering | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-355] ≫(-) [expression] = urutan langkah berikutnya
+  OPT A: HTML=<ruby>乾燥<rt>かんそう</rt></ruby>（ドライヤーを<ruby>使<rt>つか</rt></ruby>う）
+    TRANS: Pengeringan (menggunakan pengering udara)
+    KOTOBA: [kb-otaff51-0103] 乾燥(かんそう) [noun] = pengeringan | [kb-v2-p1-046] ドライヤー(-) [word] = pengering | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>消毒<rt>しょうどく</rt></ruby>（<ruby>消毒液<rt>しょうどくえき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う）
+    TRANS: Disinfeksi (menggunakan cairan disinfektan)
+    KOTOBA: [kb-otaff51-0389] 消毒(しょうどく) [noun] = disinfeksi | [kb-otaff51-0390] 消毒液(しょうどくえき) [compound_technical] = larutan disinfektan | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>保湿<rt>ほしつ</rt></ruby>（クリームを<ruby>塗<rt>ぬ</rt></ruby>る）
+    TRANS: Melembapkan (mengoleskan krim)
+    KOTOBA: [kb-2077730] 保湿(ほしつ) [word] = pelembapan | [kb-v2-p1-047] クリーム(-) [word] = krim | [kb-v2-p1-216] 塗る(ぬる) [word] = mengoleskan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

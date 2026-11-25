@@ -1,0 +1,90 @@
+# AUDIT SHEET: latsol-tambahan-02 (Latsol Tambahan 02) | Batch qa-batch-10 | Part 4 (Q13-16 of 30)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=tambahan02-q013 | KEY=B (idx=1) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="微生物がぞうしょくする 10°C―60°C の おんどにある時間をできるだけみじかくすることが じゅうようです。そのためには何をしますか。ま" vs questionText="微生物がぞうそくする 10°C―60°C の おんどにある時間をできるだけみじかくすることが じゅうようです。そのためには何をしますか。まち" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-v2-p5-398 "食": kotoba="しょく" vs ruby="た" || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:D] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("すぐに食べません") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>がぞうしょくする 10°C―60°C の おんどにある<ruby>時間<rt>じかん</rt></ruby>をできるだけみじかくすることが じゅうようです。そのためには<ruby>何<rt>なに</rt></ruby>をしますか。まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらんでください
+  QUESTION_TEXT: 微生物がぞうそくする 10°C―60°C の おんどにある時間をできるだけみじかくすることが じゅうようです。そのためには何をしますか。まちがっているものを一つえらんでください
+  PROMPT_TRANS: Sangat penting untuk mempersingkat waktu makanan berada pada suhu 10°C–60°C di mana mikroorganisme berkembang biak. Untuk itu, apa yang dilakukan? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 5, nomor 13. Bobot: 5.0 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0093] ぞうしょく(ぞうしょく) [word] = perkembangbiakan bakteri (増殖) | [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-audit-0118] おんど(おんど) [word] = suhu / temperatur (温度) | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-audit-0119] みじかく(みじかく) [inflected_adj, df:短い] = mempersingkat / menjadi singkat (短く) | [kb-audit-0120] じゅうよう(じゅうよう) [word] = penting (重要) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=こうおんで ほかんする
+    TRANS: Menyimpan pada suhu tinggi (di atas 60°C)
+    KOTOBA: [kb-audit-0121] こうおん(こうおん) [word] = suhu tinggi (高温) | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管)
+  OPT B: HTML=すぐに<ruby>食<rt>た</rt></ruby>べません
+    TRANS: Tidak segera dimakan (membiarkannya lama)
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p5-398] 食(しょく) [word] = makanan / pangan
+  OPT C: HTML=すみやかに れいきゃくする
+    TRANS: Segera mendinginkannya
+    KOTOBA: [kb-audit-0122] すみやか(すみやか) [word] = segera / dengan cepat (速やか) | [kb-latsol-9957f355b2] れいきゃく(れいきゃく) [word] = pendinginan
+  OPT D: HTML=れいぞうやれいとうで ほかんする
+    TRANS: Menyimpan di lemari pendingin atau pembeku
+    KOTOBA: [kb-audit-0123] れいぞう(れいぞう) [word] = pendinginan / kulkas (冷蔵) | [kb-audit-0079] れいとう(れいとう) [word] = pembekuan / freezer (冷凍) | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管)
+
+=== #Q14 | ID=tambahan02-q014 | KEY=B (idx=1) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="ボツリヌス菌などの がほうきんを ころす かねつおんどと 時間は どれですか" vs questionText="ボツリヌス菌などの がほうきんのを ころす かねつおんどと 時間は どれですか" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 芽胞菌 || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:D] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("120°C 4分以上") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ボツリヌス<ruby>菌<rt>きん</rt></ruby>などの がほうきんを ころす かねつおんどと <ruby>時間<rt>じかん</rt></ruby>は どれですか
+  QUESTION_TEXT: ボツリヌス菌などの がほうきんのを ころす かねつおんどと 時間は どれですか
+  PROMPT_TRANS: Berapa suhu dan waktu pemanasan untuk membunuh bakteri pembentuk spora (芽胞菌) seperti bakteri Botulinum?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 5, nomor 14. Bobot: 5.0 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-latsol-be7b1bd264] がほうきん(がほうきん) [word] = bakteri pembentuk spora (芽胞菌) | [kb-audit-0691] ころす(ころす) [word] = membunuh (kuman) | [kb-latsol-fb99f2e539] かねつおんど(かねつおんど) [word] = suhu pemanasan | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=120°C 1<ruby>分以上<rt>ぷんいじょう</rt></ruby>
+    TRANS: 120°C selama 1 menit atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih
+  OPT B: HTML=120°C 4<ruby>分以上<rt>ぷんいじょう</rt></ruby>
+    TRANS: 120°C selama 4 menit atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih
+  OPT C: HTML=75°C 1<ruby>分以上<rt>ぷんいじょう</rt></ruby>
+    TRANS: 75°C selama 1 menit atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih
+  OPT D: HTML=75°C 4<ruby>分以上<rt>ぷんいじょう</rt></ruby>
+    TRANS: 75°C selama 4 menit atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih
+
+=== #Q15 | ID=tambahan02-q015 | KEY=C (idx=2) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="いっぱんてきな しょくちゅうどくきんを ころす かねつおんどと 時間は どれですか" vs questionText="いっぱんてきな しょくちゅうどきんのを ころす かねつおんどと 時間は どれですか" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:D] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう" || [PRIOR_KEY_AUDIT_SOURCE_CONFLICT@question] Pada Kunci Jawaban PDF 30 Soal Hal. 13, nomor 15 tertulis B (120°C 4分以上) karena terduplikasi dari jawaban nomor 14 (bakteri pembentuk spora / ボツリヌス菌). Untuk bakteri keracunan makanan umum (一般的な食中毒菌), standar pemanasannya adalah 75°C selama 1 menit atau lebih (Opsi C). Kunci JSON saat ini (C) sudah benar.
+  PRIOR_KEY_AUDIT: SOURCE_CONFLICT | Pada Kunci Jawaban PDF 30 Soal Hal. 13, nomor 15 tertulis B (120°C 4分以上) karena terduplikasi dari jawaban nomor 14 (bakteri pembentuk spora / ボツリヌス菌). Untuk bakteri keracunan makanan umum (一般的な食中毒菌), standar pemanasannya adalah 75°C selama 1 menit atau lebih (Opsi C). Kunci JSON saat ini (C) sudah benar.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: いっぱんてきな しょくちゅうどくきんを ころす かねつおんどと <ruby>時間<rt>じかん</rt></ruby>は どれですか
+  QUESTION_TEXT: いっぱんてきな しょくちゅうどきんのを ころす かねつおんどと 時間は どれですか
+  PROMPT_TRANS: Berapa suhu dan waktu pemanasan untuk membunuh bakteri keracunan makanan secara umum?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 5, nomor 15. Bobot: 5.0 poin. Kunci jawaban: C. Koreksi QA: Kunci PDF Hal. 13 tertulis B (120°C 4分以上) karena terduplikasi dari Soal 14. Untuk bakteri keracunan makanan umum (一般的な食中毒菌), standar pemanasannya adalah 75°C selama 1 menit atau lebih (Opsi C).
+  KOTOBA_PROMPT: [kb-audit-0231] いっぱんてき(いっぱんてき) [word] = umum / secara umum (一般的) | [kb-latsol-616f219e2d] しょくちゅうどくきん(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan | [kb-audit-0691] ころす(ころす) [word] = membunuh (kuman) | [kb-latsol-fb99f2e539] かねつおんど(かねつおんど) [word] = suhu pemanasan | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=120°C 1<ruby>分以上<rt>ぷんいじょう</rt></ruby>
+    TRANS: 120°C selama 1 menit atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih
+  OPT B: HTML=120°C 4<ruby>分以上<rt>ぷんいじょう</rt></ruby>
+    TRANS: 120°C selama 4 menit atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih
+  OPT C: HTML=75°C 1<ruby>分以上<rt>ぷんいじょう</rt></ruby>
+    TRANS: 75°C selama 1 menit atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih
+  OPT D: HTML=75°C 4<ruby>分以上<rt>ぷんいじょう</rt></ruby>
+    TRANS: 75°C selama 4 menit atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih
+
+=== #Q16 | ID=tambahan02-q016 | KEY=D (idx=3) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.6 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [PROMPT_POLARITY_MISMATCH_NEG@promptTranslation] JP asks wrong/incorrect, ID may lack salah/keliru/tidak tepat || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-latsol-08846d4343 (ホコリ): "debu (typo 埃)" || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-latsol-08846d4343 (ホコリ): "debu (typo 埃)" || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-latsol-08846d4343 (ホコリ): "debu (typo 埃)" || [JP_WHITESPACE_BETWEEN_JP@opt:D] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:D] kb-audit-0124 (こかん): "penggantian suku cadang (typo こうかん)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi D ("エアコンフィルターは ていきてきにせんじょうまたこかんする") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: エアコンのせいそうと<ruby>作業場<rt>さぎょうじょう</rt></ruby>のパイプを ていきてきに きちんと<ruby>行<rt>おこな</rt></ruby>っていないと、どうなりますか。まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらんでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Jika pembersihan AC dan pipa di tempat kerja tidak dilakukan secara berkala dengan benar, apa yang akan terjadi? Pilihlah satu pernyataan yang tidak sesuai dengan pertanyaan dampak tersebut.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 6, nomor 16. Bobot: 5.0 poin. Kunci jawaban: D. Visual: Foto pipa logam dan saluran udara di langit-langit ruang pabrik yang berdebu.
+  KOTOBA_PROMPT: [kb-v2-p4-073] エアコン(-) [word] = pendingin ruangan (AC) | [kb-v2-p6-325] せいそう(-) [word] = pembersihan (bacaan 清掃) | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p6-214] パイプ(-) [word] = pipa | [kb-audit-0094] ていきてき(ていきてき) [word] = secara berkala / rutin (定期的) | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-latsol-2497f201d7] 行って(おこなって) [word] = melakukan / melaksanakan | [kb-v2-p1-272] どうなりますか(-) [expression] = akan menjadi bagaimana | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=このホコリもエアコンの<ruby>風<rt>かぜ</rt></ruby>でひろがってしまうかもしれません
+    TRANS: Debu ini juga mungkin akan menyebar terbawa angin AC
+    KOTOBA: [kb-latsol-08846d4343] ホコリ(ほこり) [word] = debu (typo 埃) | [kb-v2-p4-073] エアコン(-) [word] = pendingin ruangan (AC) | [kb-v2-p5-162] 風(かぜ) [word] = angin / udara | [kb-audit-1146] かもしれません(かもしれません) [expression] = mungkin (bisa terjadi)
+  OPT B: HTML=<ruby>目<rt>め</rt></ruby>より<ruby>高<rt>たか</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>は よごれやホコリにきがつきにくい
+    TRANS: Tempat yang lebih tinggi dari mata sulit disadari adanya kotoran dan debu
+    KOTOBA: [kb-otaff51-0461] 目(め) [noun] = mata | [kb-v2-p1-255] 高い(たかい) [word] = tinggi | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-audit-0229] よごれ(よごれ) [word] = kotoran / noda (汚れ) | [kb-latsol-08846d4343] ホコリ(ほこり) [word] = debu (typo 埃) | [kb-audit-0007] きがつきにくい(きがつきにくい) [word] = sulit disadari / sulit terlihat (気がつきにくい)
+  OPT C: HTML=カビやホコリを<ruby>作業場<rt>さぎょうじょう</rt></ruby>ないにまきちらしてしまうことに なります
+    TRANS: Akan mengakibatkan jamur dan debu bertebaran ke dalam tempat kerja
+    KOTOBA: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-latsol-08846d4343] ホコリ(ほこり) [word] = debu (typo 埃) | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja
+  OPT D: HTML=エアコンフィルターは ていきてきにせんじょうまたこかんする
+    TRANS: Filter AC dicuci atau diganti secara berkala (tindakan pencegahan, bukan dampak)
+    KOTOBA: [kb-latsol-2d8b179016] エアコンフィルター(えあこんふぃるたー) [word] = filter AC (pendingin ruangan) | [kb-audit-0094] ていきてき(ていきてき) [word] = secara berkala / rutin (定期的) | [kb-audit-0077] せんじょう(せんじょう) [word] = pencucian / pembersihan (洗浄) | [kb-audit-0124] こかん(こかん) [word] = penggantian suku cadang (typo こうかん)

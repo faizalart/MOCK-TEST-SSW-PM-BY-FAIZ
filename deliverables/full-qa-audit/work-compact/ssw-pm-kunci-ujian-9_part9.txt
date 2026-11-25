@@ -1,0 +1,71 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-9 (Soal Ujian 9 — CBTP Gino1) | Batch qa-batch-02 | Part 9 (Q33-36 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q33 | ID=kunci-ujian-9-q033 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.6 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: しごとちゅうにたいちょうがわるくなったときのこうどうとして、ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu tindakan yang benar ketika kondisi tubuh menurun (sakit) saat sedang bekerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 6, Câu 33 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-1047] しごとちゅう(しごとちゅう) [word] = saat bekerja (仕事中) | [kb-audit-0846] たいちょう(たいちょう) [word] = kondisi tubuh / kesehatan | [kb-audit-0847] わるく(わるく) [inflected_adj, df:悪い] = menjadi buruk | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-audit-0712] こうどう(こうどう) [word] = tindakan / perilaku | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=がまんできなかったので、だれにもほうこくせずにかえった。
+    TRANS: Karena tidak tahan lagi, langsung pulang tanpa melapor kepada siapa pun.
+    KOTOBA: [kb-audit-0848] がまん(がまん) [word] = menahan diri / bersabar | [kb-audit-0473] できなかった(できなかった) [inflected_verb, df:できる] = tidak bisa (lampau) | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-audit-0020] だれにも(だれにも) [word] = kepada siapa pun (tidak) | [kb-audit-0873] ほうこく(ほうこく) [word] = laporan / melaporkan | [kb-audit-0643] せずに(せずに) [expression, df:する] = tanpa melakukan | [kb-v2-p6-610] かえった(-) [inflected, df:帰る] = pulang (lampau)
+  OPT B: HTML=すぐにじょうしにほうこくした
+    TRANS: Segera melapor kepada atasan.
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-audit-0730] じょうし(じょうし) [word] = atasan / penyelia | [kb-audit-1029] ほうこくした(ほうこくした) [inflected_verb, df:報告する] = telah melapor (報告する) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=じょうしにほうこくせずトイレにいった。
+    TRANS: Pergi ke toilet tanpa melapor kepada atasan.
+    KOTOBA: [kb-audit-0730] じょうし(じょうし) [word] = atasan / penyelia | [kb-audit-0873] ほうこく(ほうこく) [word] = laporan / melaporkan | [kb-audit-0644] せず(せず) [expression, df:する] = tanpa melakukan | [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-audit-0725] いった(いった) [inflected_verb, df:行く] = pergi (bentuk lampau) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q34 | ID=kunci-ujian-9-q034 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.6 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: しょくひんきかいをそうさしているようすです。きゅうにていでんはっせいしましたただしいものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat sedang mengoperasikan mesin pengolahan pangan, tiba-tiba terjadi pemadaman listrik. Pilihlah satu tindakan yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 6, Câu 34 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0731] そうさ(そうさ) [word] = pengoperasian mesin | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-audit-0452] ようすです(ようすです) [word] = adalah situasi / keadaan (様子です) | [kb-audit-0849] きゅうに(きゅうに) [adverb] = secara tiba-tiba | [kb-audit-0115] ていでん(ていでん) [word] = pemadaman listrik / mati lampu (停電) | [kb-audit-0633] はっせい(はっせい) [word] = timbul / terjadi | [kb-audit-1166] しました(しました) [inflected_verb, df:する] = telah melakukan (する) | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=きかいをとまるので、そのままにする。
+    TRANS: Membiarkannya begitu saja karena mesin sudah berhenti.
+    KOTOBA: [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0655] とまる(とまる) [word] = berhenti / terhenti | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=スイッチをきる
+    TRANS: Mematikan sakelar (switch) mesin.
+    KOTOBA: [kb-v2-p4-071] スイッチ(-) [word] = sakelar / tombol daya | [kb-audit-0664] きる(きる) [word] = memakai / memotong / mematikan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=きかいをまだうごくかどうかをかくにんするため、てでさわってみる。
+    TRANS: Menyentuh mesin dengan tangan untuk memastikan apakah mesin masih bergerak atau tidak.
+    KOTOBA: [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-v2-p6-592] まだ(-) [word] = masih | [kb-audit-0850] うごく(うごく) [word] = bergerak / beroperasi | [kb-v2-p1-317] かどうか(-) [particle] = apakah ... atau tidak | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-audit-0410] てで(てで) [word] = dengan tangan (手で) | [kb-audit-0851] さわってみる(さわってみる) [inflected_verb, df:触る] = menyentuh untuk mengecek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q35 | ID=kunci-ujian-9-q035 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.6 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:C] 報告
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: こうおんたしつこうじょうないでめまい、たちぐらみひとがいて、ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di dalam pabrik yang bersuhu dan berkelembapan tinggi, ada pekerja yang mengalami pusing dan kunang-kunang saat berdiri. Pilihlah satu tindakan yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 6, Câu 35 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0121] こうおん(こうおん) [word] = suhu tinggi (高温) | [kb-audit-0853] たしつ(たしつ) [word] = kelembapan tinggi | [kb-audit-0795] こうじょう(こうじょう) [word] = pabrik | [kb-v2-p2-094] めまい(-) [word] = pusing / pening | [kb-audit-0854] たちぐらみ(たちぐらみ) [word] = pusing berkunang-kunang | [kb-audit-0325] ひと(ひと) [word] = orang / manusia (人) | [kb-audit-1096] いて(いて) [inflected_verb, df:いる] = ada / berada (いる) | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=いふくをゆるめて、みずをのませ、しごとをつづける。
+    TRANS: Melonggarkan pakaiannya, memberi minum air, lalu menyuruhnya melanjutkan pekerjaan.
+    KOTOBA: [kb-audit-0855] いふく(いふく) [word] = pakaian | [kb-v2-p5-303] ゆるめて(-) [inflected, df:ゆるめる] = melonggarkan (pakaian) | [kb-audit-0347] みず(みず) [word] = air (水) | [kb-audit-0856] のませ(のませ) [inflected_verb, df:飲む] = memberi minum | [kb-audit-1046] しごと(しごと) [word] = pekerjaan (仕事) | [kb-audit-0857] つづける(つづける) [word] = melanjutkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=すぐきゅうきゅうしゃをよぶ
+    TRANS: Segera memanggil ambulans.
+    KOTOBA: [kb-v2-p1-282] すぐ(-) [word] = segera | [kb-audit-0858] きゅうきゅうしゃ(きゅうきゅうしゃ) [word] = ambulans | [kb-v2-p6-613] よぶ(-) [word] = memanggil | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=すずしいばしょへひなんさせ、かかりいんに報告する。
+    TRANS: Mengevakuasinya ke tempat yang sejuk dan melapor kepada petugas/penanggung jawab.
+    KOTOBA: [kb-audit-0715] すずしい(すずしい) [adjective] = sejuk / dingin | [kb-audit-0361] ばしょ(ばしょ) [word] = tempat / lokasi (場所) | [kb-audit-0422] ひなん(ひなん) [word] = evakuasi / mengungsi (避難) | [kb-v2-p3-234] させ(-) [inflected, df:する] = membuat jadi (kausatif) | [kb-audit-0859] かかりいん(かかりいん) [word] = petugas penanggung jawab | [kb-v2-p2-157] 報告する(ほうこくする) [word] = melaporkan | [kb-v2-p1-341] へ(-) [particle] = ke (arah tujuan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q36 | ID=kunci-ujian-9-q036 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: きかい（コンベア）をそうじするとき、ただしくないものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu tindakan yang tidak benar saat membersihkan mesin (konveyor).
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 7, Câu 36 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-v2-p6-182] コンベア(-) [technical] = ban berjalan (konveyor) | [kb-audit-0023] そうじする(そうじする) [word] = membersihkan (掃除する) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-audit-0334] ただしく(ただしく) [inflected_adj, df:正しい] = dengan benar (正しく) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=きかいをとめてから、そうじする
+    TRANS: Menghentikan mesin terlebih dahulu sebelum membersihkan.
+    KOTOBA: [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0651] とめて(とめて) [inflected_verb, df:止める] = menghentikan | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-audit-0023] そうじする(そうじする) [word] = membersihkan (掃除する) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=コンベアのスピードがおそいので、きかいをていしさせなくぞうきんでふく
+    TRANS: Karena kecepatan konveyor lambat, mengelapnya dengan kain lap tanpa menghentikan mesin.
+    KOTOBA: [kb-v2-p6-182] コンベア(-) [technical] = ban berjalan (konveyor) | [kb-v2-p6-200] スピード(-) [word] = kecepatan | [kb-v2-p6-294] おそい(-) [word] = lambat | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0082] ていし(ていし) [word] = berhenti / menghentikan (停止) | [kb-audit-0398] なく(なく) [word] = tanpa (bentuk sambung ない) | [kb-v2-p1-054] ぞうきん(-) [word] = kain lap | [kb-audit-1085] ふく(ふく) [word] = pakaian; mengelap (服／拭く) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p3-234] させ(-) [inflected, df:する] = membuat jadi (kausatif) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=「そうじちゅう」をひょうじ、うっかりきどうすることをぼうしする
+    TRANS: Memasang tanda "Sedang Dibersihkan" untuk mencegah mesin dinyalakan secara tidak sengaja.
+    KOTOBA: [kb-audit-1140] そうじちゅう(そうじちゅう) [word] = sedang bersih-bersih | [kb-audit-0860] ひょうじ(ひょうじ) [word] = penandaan / menampilkan | [kb-u1416-fd5ea95f0c] うっかり(うっかり) [word] = tidak sengaja / lalai | [kb-audit-0449] きどう(きどう) [word] = menghidupkan mesin (起動) | [kb-audit-0216] することを(することを) [word] = melakukan hal tersebut | [kb-audit-0234] ぼうし(ぼうし) [word] = topi / penutup kepala (帽子) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

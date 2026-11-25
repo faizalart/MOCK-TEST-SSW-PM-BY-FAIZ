@@ -1,0 +1,79 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-14 (Soal Ujian 14) | Batch qa-batch-03 | Part 8 (Q29-32 of 59)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=kunci-ujian-14-q029 | KEY=A (idx=0) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 14.pdf p.7 ===
+  CLUSTER CL-0076 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q017 (ssw-pm-kunci-ujian-3), kunci-ujian-7-q022 (ssw-pm-kunci-ujian-7)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPにおいて<ruby>作業現場<rt>さぎょうげんば</rt></ruby>に<ruby>任<rt>まか</rt></ruby>されている<ruby>重要<rt>じゅうよう</rt></ruby>なことは、<ruby>何<rt>なん</rt></ruby>ですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam pelaksanaan HACCP, hal penting apa yang dipercayakan kepada tempat kerja (lini produksi)? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 7, nomor 問題29 (Q29). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 4 (hlm. 59), tugas di lini produksi adalah: (1) どこが重要管理点かを知る, (2) 管理基準の設定値を知る, (3) 重要管理点を監視（モニタリング）する, (4) モニタリング結果を記録し、保管する. Jadi bukan sekadar 'モニタリング結果を知る' (mengetahui hasil monitoring), melainkan wajib mencatat dan menyimpannya.
+  INLINE_KOTOBA_COUNT: 14
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-2761730] 作業現場(さぎょうげんば) [word] = area lantai kerja produksi | [kb-audit-0053] 任されている(まかされている) [inflected_verb, df:任せる] = dipercayakan / diserahkan tugas | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=モニタリング<ruby>結果<rt>けっか</rt></ruby>を<ruby>知<rt>し</rt></ruby>る。
+    TRANS: Sekadar mengetahui hasil monitoring.
+    KOTOBA: [kb-u1416-b5efcd5b25] モニタリング結果(もにたりんぐけっか) [word] = hasil pemantauan (monitoring) | [kb-v2-p2-173] 知る(しる) [word] = mengetahui
+  OPT B: HTML=<ruby>管理基準<rt>かんりきじゅん</rt></ruby>の<ruby>設定値<rt>せっていち</rt></ruby>を<ruby>知<rt>し</rt></ruby>る。
+    TRANS: Mengetahui nilai ketetapan standar kendali (batas kritis).
+    KOTOBA: [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-ext-1080-e8a8ade5ae] 設定値(せっていち) [word] = nilai yang ditetapkan | [kb-v2-p2-173] 知る(しる) [word] = mengetahui
+  OPT C: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>を<ruby>監視<rt>かんし</rt></ruby>する。
+    TRANS: Memantau (mengawasi) Titik Kendali Kritis (CCP).
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0460] 監視(かんし) [noun] = pemantauan (monitoring)
+
+=== #Q30 | ID=kunci-ujian-14-q030 | KEY=B (idx=1) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 14.pdf p.8 ===
+  CLUSTER CL-0115 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-7-q023 (ssw-pm-kunci-ujian-7)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>決<rt>き</rt></ruby>められた<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る<ruby>際<rt>さい</rt></ruby>の<ruby>注意事項<rt>ちゅういじこう</rt></ruby>として、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai hal yang perlu diperhatikan saat mematuhi prosedur kerja yang telah ditetapkan, pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 8, nomor 問題30 (Q30). Bobot: 2.54 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 68), jika tidak memahami prosedur kerja, pekerja wajib bertanya kepada penanggung jawab (責任者に確認する), tidak boleh bertindak sendiri.
+  INLINE_KOTOBA_COUNT: 24
+  KOTOBA_PROMPT: [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-otaff51-0382] 注意事項(ちゅういじこう) [compound_technical] = hal-hal yang harus diperhatikan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>に<ruby>書<rt>か</rt></ruby>かれている<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>を<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>し<ruby>練習<rt>れんしゅう</rt></ruby>し、よく<ruby>覚<rt>おぼ</rt></ruby>える。
+    TRANS: Berlatih berulang kali prosedur kerja yang tertulis dalam dokumen SOP dan mengingatnya dengan baik.
+    KOTOBA: [kb-otaff51-0123] 作業手順書(さぎょうてじゅんしょ) [compound_technical] = dokumen prosedur kerja (SOP) | [kb-v2-p6-505] 書かれている(かかれている) [inflected, df:書く] = tertulis | [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-v2-p2-175] 繰り返し(くりかえし) [word] = berulang kali | [kb-v2-p2-176] 練習し(れんしゅうし) [inflected, df:練習する] = berlatih | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-v2-p6-417] 覚える(おぼえる) [word] = mengingat / menghafal
+  OPT B: HTML=<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からない<ruby>時<rt>とき</rt></ruby>は、とりあえず<ruby>対応<rt>たいおう</rt></ruby>する。
+    TRANS: Saat tidak memahami prosedur kerja, menanganinya sendiri terlebih dahulu sebisanya.
+    KOTOBA: [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-latsol-wakaranai] 分からない(わからない) [inflected_verb, df:分かる] = tidak tahu / tidak mengerti | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-v2-p6-603] とりあえず(-) [expression] = untuk sementara waktu | [kb-otaff51-0277] 対応(たいおう) [noun] = penanganan / respons
+  OPT C: HTML=<ruby>慣<rt>な</rt></ruby>れによるケガに<ruby>注意<rt>ちゅうい</rt></ruby>し、<ruby>軽<rt>かる</rt></ruby>はずみな<ruby>動作<rt>どうさ</rt></ruby>や<ruby>強引<rt>ごういん</rt></ruby>な<ruby>動作<rt>どうさ</rt></ruby>をしない
+    TRANS: Berhati-hati terhadap cedera akibat rasa terlalu terbiasa, serta tidak melakukan gerakan gegabah atau memaksa.
+    KOTOBA: [kb-v2-p2-107] 慣れ(なれ) [word] = kebiasaan / terbiasa | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-v2-p2-177] 注意し(ちゅういし) [inflected, df:注意する] = berhati-hati / memperhatikan | [kb-v2-p2-240] 軽はずみな(かるはずみな) [word] = ceroboh / gegabah | [kb-1451350] 動作(どうさ) [word] = gerakan tubuh | [kb-v2-p2-241] 強引な(ごういな) [word] = memaksa / kasar
+
+=== #Q31 | ID=kunci-ujian-14-q031 | KEY=C (idx=2) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 14.pdf p.8 ===
+  CLUSTER CL-0086 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q030 (ssw-pm-kunci-ujian-3), kunci-ujian-7-q024 (ssw-pm-kunci-ujian-7)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5S<ruby>活動<rt>かつどう</rt></ruby>と<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>との<ruby>関係<rt>かんけい</rt></ruby>で<ruby>間違<rt>まちが</rt></ruby>えている<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせはどれか<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pasangan yang salah mengenai hubungan antara kegiatan 5S dan keselamatan kerja.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 8, nomor 問題31 (Q31). Bobot: 2.54 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 69), '無駄な時間が減り、製品の品質も向上します' adalah manfaat dari 整頓 (Seiton / Rapi), sedangkan 習慣 (Shuukan) adalah membiasakan diri mematuhi aturan yang ditetapkan.
+  INLINE_KOTOBA_COUNT: 28
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-1215810] 関係(かんけい) [word] = hubungan / keterkaitan | [kb-audit-0005] 間違えている(まちがえている) [inflected_verb, df:間違える] = keliru / melakukan kesalahan | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>整理<rt>せいり</rt></ruby>：<ruby>作業効率<rt>さぎょうこうりつ</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がり、<ruby>転倒災害<rt>てんとうさいがい</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby>も<ruby>減<rt>へ</rt></ruby>ります。
+    TRANS: Seiri (Ringkas): Efisiensi kerja meningkat dan bahaya kecelakaan terjatuh juga berkurang.
+    KOTOBA: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-ext-0632-e4bd9ce6a5] 作業効率(さぎょうこうりつ) [word] = Efisiensi kerja pengolahan makanan | [kb-audit-0031] 上がり(あがり) [inflected_verb, df:上がる] = meningkat / naik | [kb-otaff51-0588] 転倒災害(てんとうさいがい) [compound_technical] = kecelakaan terpeleset / jatuh di permukaan sama | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p4-175] 減ります(へります) [inflected, df:減る] = berkurang (sopan)
+  OPT B: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>：<ruby>製品<rt>せいひん</rt></ruby>の<ruby>品質向上<rt>ひんしつこうじょう</rt></ruby>、<ruby>食中毒予防<rt>しょくちゅうどくよぼう</rt></ruby>、<ruby>異物混入防止<rt>いぶつこんにゅうぼうし</rt></ruby>に<ruby>効果<rt>こうか</rt></ruby>があります。
+    TRANS: Seiketsu (Rawat): Berdampak pada peningkatan mutu produk, pencegahan keracunan makanan, dan pencegahan kontaminasi benda asing.
+    KOTOBA: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-ext-1525-e59381e8b3] 品質向上(ひんしつこうじょう) [word] = peningkatan mutu produk | [kb-ext-0926-e9a39fe4b8] 食中毒予防(しょくちゅうどくよぼう) [word] = pencegahan keracunan makanan | [kb-ext-0078-e795b0e789] 異物混入防止(いぶつこんにゅうぼうし) [word] = pencegahan kontaminasi benda asing | [kb-1275130] 効果(こうか) [word] = efektivitas / hasil guna
+  OPT C: HTML=<ruby>習慣<rt>しゅうかん</rt></ruby>：<ruby>無駄<rt>むだ</rt></ruby>な<ruby>時間<rt>じかん</rt></ruby>が<ruby>減<rt>へ</rt></ruby>り、<ruby>製品<rt>せいひん</rt></ruby>の<ruby>品質<rt>ひんしつ</rt></ruby>も<ruby>向上<rt>こうじょう</rt></ruby>されます。
+    TRANS: Shuukan (Rajin): Waktu yang terbuang berkurang dan mutu produk juga meningkat.
+    KOTOBA: [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan) | [kb-1530510] 無駄(むだ) [word] = pemborosan (muda) | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p6-473] 減り(へり) [inflected, df:減る] = berkurang | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-1490580] 品質(ひんしつ) [word] = kualitas / mutu produk | [kb-1277250] 向上(こうじょう) [word] = peningkatan mutu dan kesadaran | [kb-audit-0390] されます(されます) [inflected_verb, df:される] = dilakukan (pasif sopan)
+
+=== #Q32 | ID=kunci-ujian-14-q032 | KEY=C (idx=2) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 14.pdf p.8 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0159 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=q026 (ssw-pm-tipe2-nguyen1)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異常事態<rt>いじょうじたい</rt></ruby>や<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>した<ruby>際<rt>さい</rt></ruby>にやるべきことで、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai hal yang harus dilakukan saat terjadi kondisi abnormal atau kecelakaan kerja, pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 8, nomor 問題32 (Q32). Bobot: 2.54 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 76), saat terjadi kondisi darurat/kecelakaan kerja, pekerja harus berteriak memberi tahu sekitar dengan suara keras (大きな声で知らせる), bukan suara kecil.
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-v2-p4-219] やる(-) [word] = melakukan / mengerjakan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>異常事態<rt>いじょうじたい</rt></ruby>を<ruby>発見<rt>はっけん</rt></ruby>したら、まず<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>こっているかをすばやく<ruby>確認<rt>かくにん</rt></ruby>する。
+    TRANS: Saat menemukan kondisi abnormal, pertama-tama periksa dengan cepat apa yang sedang terjadi.
+    KOTOBA: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-audit-0597] 発見したら(はっけんしたら) [inflected_verb, df:発見する] = jika menemukan | [kb-v2-p4-208] まず(-) [word] = pertama-tama / terlebih dahulu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-172] 起こっている(おこっている) [inflected, df:起こる] = sedang terjadi | [kb-audit-0032] すばやく(すばやく) [word] = dengan cepat / sigap | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan
+  OPT B: HTML=<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>時<rt>とき</rt></ruby>は<ruby>非常停止<rt>ひじょうていし</rt></ruby>ボタンで<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める。
+    TRANS: Saat diperlukan, hentikan mesin dengan tombol berhenti darurat (emergency stop).
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-otaff51-0635] 非常停止ボタン(ひじょうていしぼたん) [compound_technical] = tombol berhenti darurat | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-210] 止める(とめる) [word] = menghentikan
+  OPT C: HTML=まわりにいる<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>同僚<rt>どうりょう</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さな<ruby>声<rt>こえ</rt></ruby>で<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memberi tahu penanggung jawab atau rekan kerja di sekitar dengan suara kecil.
+    KOTOBA: [kb-audit-0713] まわり(まわり) [word] = sekitar / sekeliling | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-1453580] 同僚(どうりょう) [word] = rekan kerja | [kb-v2-p1-257] 小さな(ちいさな) [word] = kecil | [kb-v2-p1-077] 声(こえ) [word] = suara | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu

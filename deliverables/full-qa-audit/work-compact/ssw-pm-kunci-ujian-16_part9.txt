@@ -1,0 +1,76 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-16 (Soal Ujian 16) | Batch qa-batch-04 | Part 9 (Q33-36 of 50)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q33 | ID=kunci-ujian-16-q033 | KEY=A (idx=0) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 16.pdf p.12 ===
+  CLUSTER CL-0058 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q027 (ssw-pm-kunci-ujian-2), bonus-soal-2-q027 (bonus-soal-2), nguyen02-q027 (latsol-nguyen-02)
+  INSTR: まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>として、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai cara menangani bahan sterilisasi/disinfektan (sakkinzai), pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 12, nomor 門33 (Q33). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 51), bahan kimia/disinfektan harus disimpan di tempat khusus yang telah ditentukan dan terpisah dari makanan, tidak boleh disimpan di sembarang tempat.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p2-108] 扱い方(あつかいかた) [word] = cara penanganan | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>は、どこで<ruby>保管<rt>ほかん</rt></ruby>しても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Bahan sterilisasi boleh disimpan di mana saja.
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p2-217] 保管しても(ほかんしても) [inflected, df:保管する] = meskipun disimpan | [kb-v2-p1-248] 良い(よい) [word] = baik
+  OPT B: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>容器<rt>ようき</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>すときは、<ruby>必<rt>かなら</rt></ruby>ず<ruby>移<rt>うつ</rt></ruby>した<ruby>容器<rt>ようき</rt></ruby>に「<ruby>殺菌剤<rt>さっきんざい</rt></ruby>」と<ruby>表示<rt>ひょうじ</rt></ruby>する。
+    TRANS: Saat memindahkan bahan sterilisasi ke wadah lain, wajib mencantumkan label "Bahan Sterilisasi" pada wadah tersebut.
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-v2-p2-205] 移す(うつす) [word] = memindahkan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p2-206] 移した(うつした) [inflected, df:移す] = yang dipindahkan | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan
+  OPT C: HTML=<ruby>目<rt>め</rt></ruby>に<ruby>入<rt>はい</rt></ruby>らないようにする。
+    TRANS: Berhati-hati agar cairan tidak masuk ke mata.
+    KOTOBA: [kb-otaff51-0461] 目(め) [noun] = mata | [kb-v2-p2-162] 入らない(はいらない) [inflected, df:入る] = tidak masuk | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+
+=== #Q34 | ID=kunci-ujian-16-q034 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.12 ===
+  CLUSTER CL-0163 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-16-q043 (ssw-pm-kunci-ujian-16)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>仕事中<rt>しごとちゅう</rt></ruby>に<ruby>体調<rt>たいちょう</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くなったときの<ruby>行動<rt>こうどう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai tindakan yang tepat saat kondisi tubuh jatuh sakit di tengah pekerjaan, pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 12, nomor 門34 (Q34). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Apabila merasa tidak enak badan saat sedang bekerja, pekerja wajib segera melapor kepada atasan/penanggung jawab (すぐに上司に報告した).
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-1305020] 仕事中(しごとちゅう) [word] = saat sedang bekerja | [kb-ext-latsol-0090] 体調(たいちょう) [word] = kondisi kesehatan fisik | [kb-v2-p6-292] 悪く(わるく) [inflected, df:悪い] = buruk / tidak enak | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=がまんできなかったので、だれにも<ruby>報告<rt>ほうこく</rt></ruby>せずに<ruby>帰<rt>かえ</rt></ruby>った。
+    TRANS: Karena tidak tahan lagi, langsung pulang tanpa melapor kepada siapa pun.
+    KOTOBA: [kb-audit-0848] がまん(がまん) [word] = menahan diri / bersabar | [kb-audit-0473] できなかった(できなかった) [inflected_verb, df:できる] = tidak bisa (lampau) | [kb-audit-0020] だれにも(だれにも) [word] = kepada siapa pun (tidak) | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-audit-0643] せずに(せずに) [expression, df:する] = tanpa melakukan | [kb-audit-0021] 帰った(かえった) [inflected_verb, df:帰る] = pulang (lampau)
+  OPT B: HTML=すぐに<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>した。
+    TRANS: Segera melaporkan kepada atasan.
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-u1416-c408874d46] 上司(じょうし) [word] = atasan | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan
+  OPT C: HTML=<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>せずトイレに<ruby>行<rt>い</rt></ruby>った。
+    TRANS: Pergi ke toilet tanpa melapor kepada atasan.
+    KOTOBA: [kb-u1416-c408874d46] 上司(じょうし) [word] = atasan | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-v2-p2-160] 行った(いった) [inflected, df:行く] = pergi
+
+=== #Q35 | ID=kunci-ujian-16-q035 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.12 ===
+  INSTR: まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>手洗<rt>てあら</rt></ruby>いについて、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai pencucian tangan, pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 12, nomor 門35 (Q35). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 29), bagian sela kuku (爪の中) adalah tempat berkumpulnya kuman sehingga wajib disikat/dibersihkan dengan cermat.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>手<rt>て</rt></ruby>についた<ruby>汚<rt>よご</rt></ruby>れや<ruby>微生物<rt>びせいぶつ</rt></ruby>をとるためにおこなう
+    TRANS: Dilakukan untuk menghilangkan kotoran dan mikroorganisme yang menempel di tangan.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p2-199] とる(-) [word] = mengambil / menghilangkan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p4-147] おこなう(-) [word] = melakukan
+  OPT B: HTML=つめの<ruby>中<rt>なか</rt></ruby>は<ruby>洗<rt>あら</rt></ruby>わなくてもよい。
+    TRANS: Bagian dalam sela kuku tidak perlu dicuci.
+    KOTOBA: [kb-v2-p2-079] つめ(-) [word] = kuku | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p2-008] 洗わなくても(あらわなくても) [inflected, df:洗う] = meskipun tidak mencuci | [kb-v2-p2-243] よい(-) [word] = baik / boleh
+  OPT C: HTML=ゆびのあいだや<ruby>手首<rt>てくび</rt></ruby>までしっかり<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci dengan bersih sela-sela jari hingga pergelangan tangan.
+    KOTOBA: [kb-u1416-96dd9efcce] ゆびのあいだ(ゆびのあいだ) [word] = sela-sela jari | [kb-otaff51-0313] 手首(てくび) [noun] = pergelangan tangan | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci
+
+=== #Q36 | ID=kunci-ujian-16-q036 | KEY=C (idx=2) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.13 ===
+  INSTR: まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うときに<ruby>注意<rt>ちゅうい</rt></ruby>する<ruby>点<rt>てん</rt></ruby>として、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai poin yang diperhatikan saat menggunakan cairan sterilisasi/disinfektan, pilihlah satu yang salah menurut soal ini.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 13, nomor 門36 (Q36). Bobot: 3.0 poin. Kunci jawaban: C. Pembahasan: Dalam modul latihan dasar pengelolaan disinfektan kimia (seperti natrium hipoklorit), dua parameter utama yang diperiksa pekerja adalah konsentrasi (濃度) dan waktu (時間), sehingga kunci PDF menetapkan C (殺菌剤の温度).
+  INLINE_KOTOBA_COUNT: 12
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada | [kb-1441390] 点(てん) [standalone_term] = Poin / titik kendali dalam tahapan pengolahan | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>
+    TRANS: Konsentrasi bahan sterilisasi
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan
+  OPT B: HTML=<ruby>殺菌<rt>さっきん</rt></ruby>する<ruby>時間<rt>じかん</rt></ruby>
+    TRANS: Waktu perendaman/sterilisasi
+    KOTOBA: [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi
+  OPT C: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>
+    TRANS: Suhu bahan sterilisasi
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur

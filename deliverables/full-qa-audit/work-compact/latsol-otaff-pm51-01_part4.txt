@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-01 (Latsol OTAFF SSW PM Modul 5.1 - Paket 01) | Batch qa-batch-11 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=otaff-pm51-01-q013 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.18 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:B] 加熱
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>と<ruby>予防対策<rt>よぼうたいさく</rt></ruby>についての<ruby>説明<rt>せつめい</rt></ruby>として、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu penjelasan yang salah mengenai keracunan makanan akibat Norovirus dan langkah pencegahannya.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 18–19 (Bab 2.2(3)②, hal. 13–14 teks). Bobot: 3 poin. Kunci jawaban: C. Pernyataan C salah karena Norovirus TIDAK mati dengan disinfeksi alkohol (アルコール消毒では死にません); peralatan harus didisinfeksi menggunakan larutan natrium hipoklorit 200 ppm.
+  INLINE_KOTOBA_COUNT: 28
+  KOTOBA_PROMPT: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-1609950] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-ext-latsol-0033] 予防対策(よぼうたいさく) [word] = tindakan pencegahan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-1386460] 説明(せつめい) [word] = penjelasan / uraian | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-115] 間違っている(まちがっている) [inflected_verb, df:間違う] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=ノロウイルスは<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では<ruby>増<rt>ふ</rt></ruby>えないが、<ruby>感染<rt>かんせん</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>の<ruby>腸<rt>ちょう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>増<rt>ふ</rt></ruby>える。
+    TRANS: Norovirus tidak berkembang biak di dalam makanan, tetapi berkembang biak di dalam usus manusia yang terinfeksi.
+    KOTOBA: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0793] 増えない(ふえない) [inflected_verb, df:増える] = tidak berkembang biak | [kb-1212470] 感染(かんせん) [word] = infeksi | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0794] 腸(ちょう) [noun] = usus | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak
+  OPT B: HTML=<ruby>加熱<rt>かねつ</rt></ruby>でやっつけるには、<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中心温度<rt>ちゅうしんおんど</rt></ruby>85℃〜90℃で90<ruby>秒間以上<rt>びょうかんいじょう</rt></ruby>加熱する。
+    TRANS: Untuk membasminya dengan pemanasan, panaskan suhu inti makanan pada 85°C–90°C selama minimal 90 detik.
+    KOTOBA: [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba) | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-ext-1228-e4b8ade5bf] 中心温度(ちゅうしんおんど) [word] = suhu inti bagian tengah makanan | [kb-otaff51-0843] 秒間以上加熱(びょうかんいじょうかねつ) [compound_technical] = pemanasan minimal ... detik
+  OPT C: HTML=ノロウイルスにはアルコール<ruby>消毒<rt>しょうどく</rt></ruby>が<ruby>非常<rt>ひじょう</rt></ruby>に<ruby>有効<rt>ゆうこう</rt></ruby>であるため、<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムは<ruby>使<rt>つか</rt></ruby>わない。
+    TRANS: Disinfeksi alkohol sangat efektif untuk Norovirus sehingga natrium hipoklorit tidak digunakan.
+    KOTOBA: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-latsol-e473f38bc9] アルコール消毒(あるこーるしょうどく) [word] = disinfeksi alkohol | [kb-1484920] 非常(ひじょう) [word] = darurat / sangat | [kb-1541290] 有効(ゆうこう) [word] = efektif / berlaku | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-pilot51-058] 次亜塩素酸ナトリウム(じあえんそさんなとりうむ) [compound_technical] = natrium hipoklorit (NaClO) | [kb-v2-p2-211] 使わない(つかわない) [inflected, df:使う] = tidak menggunakan
+
+=== #Q14 | ID=otaff-pm51-01-q014 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.19 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-otaff51-0705 "分間以上": kotoba="ふんかんいじょう" vs ruby="ぷんかんいじょう"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: サバ、イワシ、サケ、アジ、イカなどの<ruby>魚介類<rt>ぎょかいるい</rt></ruby>に<ruby>寄生<rt>きせい</rt></ruby>する「アニサキス」を<ruby>冷凍<rt>れいとう</rt></ruby>によって<ruby>殺<rt>ころ</rt></ruby>すための<ruby>条件<rt>じょうけん</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu kondisi yang benar untuk mematikan parasit 'Anisakis' yang menginfeksi hasil laut seperti makarel, sarden, salmon, kembung, dan cumi-cumi melalui proses pembekuan.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 19 (Bab 2.2(3)④, hal. 14 teks). Bobot: 3 poin. Kunci jawaban: A. Parasit Anisakis dapat dimatikan dengan pemanasan ≥70°C (atau 60°C selama 1 menit) atau dengan pembekuan pada suhu -20°C selama 24 jam atau lebih.
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-v2-p5-108] サバ(-) [word] = ikan makarel / kembung | [kb-v2-p6-234] イワシ(-) [word] = ikan sarden | [kb-v2-p6-235] サケ(-) [word] = ikan salmon | [kb-v2-p5-109] アジ(-) [word] = ikan kembung (aji) | [kb-v2-p5-107] イカ(-) [word] = cumi-cumi | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1233120] 魚介類(ぎょかいるい) [word] = ikan dan makanan laut | [kb-1219750] 寄生(きせい) [word] = parasitisme (cacing parasit) | [kb-otaff51-0032] アニサキス(あにさきす) [compound_technical] = parasit Anisakis | [kb-1557170] 冷凍(れいとう) [word] = pembekuan | [kb-v2-p1-316] によって(-) [particle] = tergantung pada / oleh | [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri) | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1356510] 条件(じょうけん) [word] = syarat / kondisi | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=-20℃で24<ruby>時間以上<rt>じかんいじょう</rt></ruby><ruby>冷凍<rt>れいとう</rt></ruby>する。
+    TRANS: Membekukan pada suhu -20°C selama 24 jam atau lebih.
+    KOTOBA: [kb-otaff51-0844] 時間以上冷凍(じかんいじょうれいとう) [compound_technical] = pembekuan minimal ... jam
+  OPT B: HTML=4℃で12<ruby>時間以上<rt>じかんいじょう</rt></ruby><ruby>冷蔵<rt>れいぞう</rt></ruby>する。
+    TRANS: Mendinginkan pada suhu 4°C selama 12 jam atau lebih.
+    KOTOBA: [kb-otaff51-1002] 時間以上(じかんいじょう) [compound_technical] = selama ... jam atau lebih | [kb-1557100] 冷蔵(れいぞう) [word] = penyimpanan dingin (kulkas)
+  OPT C: HTML=-5℃で30<ruby>分間以上<rt>ぷんかんいじょう</rt></ruby><ruby>冷凍<rt>れいとう</rt></ruby>する。
+    TRANS: Membekukan pada suhu -5°C selama 30 menit atau lebih.
+    KOTOBA: [kb-otaff51-0705] 分間以上(ふんかんいじょう) [compound_technical] = selama ... menit atau lebih | [kb-1557170] 冷凍(れいとう) [word] = pembekuan
+
+=== #Q15 | ID=otaff-pm51-01-q015 | KEY=B (idx=1) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.20 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5Sの<ruby>活動<rt>かつどう</rt></ruby>のうち、「いらない<ruby>器具<rt>きぐ</rt></ruby>や<ruby>道具<rt>どうぐ</rt></ruby>をなくして、<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>器具<rt>きぐ</rt></ruby>や<ruby>道具<rt>どうぐ</rt></ruby>だけにすること」を<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara kegiatan 5S, disebut apakah tindakan 'menyingkirkan peralatan atau perkakas yang tidak diperlukan sehingga hanya menyisakan peralatan yang diperlukan saja'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 20 (Bab 2.3(1)①, hal. 15 teks). Bobot: 3 poin. Kunci jawaban: B. 整理 (Seiri) adalah membuang barang/peralatan yang tidak dipakai dan hanya menyisakan barang yang diperlukan.
+  INLINE_KOTOBA_COUNT: 16
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-1218920] 器具(きぐ) [word] = peralatan / perkakas | [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-154] 言います(いいます) [inflected, df:言う] = mengucapkan / menyebut | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>整頓<rt>せいとん</rt></ruby>（Seiton）
+    TRANS: Seiton (Rapi)
+    KOTOBA: [kb-1376230] 整頓(せいとん) [word] = Seiton (rapi)
+  OPT B: HTML=<ruby>整理<rt>せいり</rt></ruby>（Seiri）
+    TRANS: Seiri (Ringkas)
+    KOTOBA: [kb-1376250] 整理(せいり) [word] = Seiri (ringkas)
+  OPT C: HTML=<ruby>清掃<rt>せいそう</rt></ruby>（Seisou）
+    TRANS: Seisou (Resik)
+    KOTOBA: [kb-1378320] 清掃(せいそう) [word] = Seiso (resik / bersih-bersih)
+
+=== #Q16 | ID=otaff-pm51-01-q016 | KEY=A (idx=0) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.21 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>（ゾーニング）において、<ruby>加熱<rt>かねつ</rt></ruby>や<ruby>薬剤<rt>やくざい</rt></ruby>による<ruby>殺菌<rt>さっきん</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<ruby>食品<rt>しょくひん</rt></ruby>のトッピング、<ruby>盛<rt>も</rt></ruby>り<ruby>付<rt>つ</rt></ruby>け、<ruby>包装<rt>ほうそう</rt></ruby>などの<ruby>作業<rt>さぎょう</rt></ruby>をおこなう<ruby>区域<rt>くいき</rt></ruby>はどこですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam manajemen higiene pembagian zona (zoning), di zona manakah pekerjaan seperti pemberian topping, penataan (plating), dan pengemasan makanan yang telah selesai disterilisasi dengan pemanasan atau bahan kimia dilakukan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 21 (Bab 2.3(2)①, hal. 16 teks). Bobot: 3 poin. Kunci jawaban: A. 清潔作業区域 (zona kerja bersih) adalah area untuk menangani makanan yang sudah melewati proses sterilisasi, seperti pemberian topping, plating, dan pengemasan.
+  INLINE_KOTOBA_COUNT: 22
+  KOTOBA_PROMPT: [kb-ext-0416-e58cbae588] 区分衛生管理(くぶんえいせいかんり) [word] = manajemen higiene pemisahan zona | [kb-otaff51-0056] ゾーニング(ぞーにんぐ) [compound_technical] = pembagian zona higiene (zoning) | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-otaff51-0539] 薬剤による殺菌(やくざいによるさっきん) [compound_technical] = sterilisasi menggunakan bahan kimia | [kb-v2-p4-157] 終わった(おわった) [inflected, df:終わる] = telah selesai | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-otaff51-0058] トッピング(とっぴんぐ) [noun] = pemberian taburan/topping | [kb-v2-p5-122] 盛り付け(もりつけ) [word] = penataan makanan (plating) | [kb-1515510] 包装(ほうそう) [word] = pengemasan / kemasan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-1244090] 区域(くいき) [word] = zona / area pabrik | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>
+    TRANS: Zona kerja bersih (Seiketsu Sagyou Kuiki)
+    KOTOBA: [kb-v2-p4-057] 清潔作業区域(せいけつさぎょうくいき) [compound_technical] = zona kerja bersih
+  OPT B: HTML=<ruby>準清潔作業区域<rt>じゅんせいけつさぎょうくいき</rt></ruby>
+    TRANS: Zona kerja semi-bersih (Jun-seiketsu Sagyou Kuiki)
+    KOTOBA: [kb-ext-0845-e6ba96e6b8] 準清潔作業区域(じゅんせいけつさぎょうくいき) [word] = zona kerja semi-bersih
+  OPT C: HTML=<ruby>汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>
+    TRANS: Zona kerja terkontaminasi (Osen Sagyou Kuiki)
+    KOTOBA: [kb-ext-0151-e6b19ae69f] 汚染作業区域(おせんさぎょうくいき) [word] = zona kerja kotor / terkontaminasi

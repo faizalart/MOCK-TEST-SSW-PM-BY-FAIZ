@@ -1,0 +1,71 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-6 (Soal Ujian 6 — CBTP Gino1) | Batch qa-batch-02 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=kunci-ujian-6-q013 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0309 (特定原材料料): "bahan alergen wajib (typo: 特定原材料)" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-audit-0309 "特定原材料料": kotoba="とくていげんざいりょう" vs ruby="とくていげんざいりょうりょう" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0309 (特定原材料料): "bahan alergen wajib (typo: 特定原材料)" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-audit-0309 "特定原材料料": kotoba="とくていげんざいりょう" vs ruby="とくていげんざいりょうりょう"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>った<ruby>加工食品<rt>かこうしょくひん</rt></ruby>には、<ruby>何<rt>なに</rt></ruby>を<ruby>示<rt>しめ</rt></ruby>す<ruby>必要<rt>ひつよう</rt></ruby>がありますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang wajib dicantumkan pada pangan olahan yang menggunakan bahan baku yang mengandung zat alergen?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 3, Câu 13 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p2-027] 使った(つかった) [inflected, df:使う] = yang digunakan | [kb-otaff51-0189] 加工食品(かこうしょくひん) [compound_technical] = makanan olahan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p6-397] 示す(しめす) [word] = menunjukkan | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=<ruby>特定原材料料<rt>とくていげんざいりょうりょう</rt></ruby>に<ruby>準<rt>じゅん</rt></ruby>ずるもの（<ruby>推奨<rt>すいしょう</rt></ruby>）
+    TRANS: Bahan yang disamakan dengan bahan baku spesifik (anjuran)
+    KOTOBA: [kb-audit-0309] 特定原材料料(とくていげんざいりょう) [word] = bahan alergen wajib (typo: 特定原材料) | [kb-v2-p3-241] 準ずる(じゅんずる) [word] = setara / mengikuti aturan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0325] 推奨(すいしょう) [noun] = anjuran / rekomendasi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>特定原材料料<rt>とくていげんざいりょうりょう</rt></ruby>（<ruby>義務<rt>ぎむ</rt></ruby>）
+    TRANS: Bahan baku spesifik / alergen wajib (wajib)
+    KOTOBA: [kb-audit-0309] 特定原材料料(とくていげんざいりょう) [word] = bahan alergen wajib (typo: 特定原材料) | [kb-otaff51-0505] 義務(ぎむ) [noun] = kewajiban
+  OPT C: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>産地<rt>さんち</rt></ruby>
+    TRANS: Daerah asal bahan baku
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1303820] 産地(さんち) [word] = daerah asal bahan baku | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q14 | ID=kunci-ujian-6-q014 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>殺菌<rt>さっきん</rt></ruby>について、<ruby>次<rt>つぎ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものはどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pernyataan di bawah ini yang benar mengenai sterilisasi menggunakan bahan kimia?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 3, Câu 14 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>殺菌<rt>さっきん</rt></ruby>は<ruby>加熱処理<rt>かねつしょり</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>ない
+    TRANS: Sterilisasi menggunakan bahan kimia tidak memerlukan proses pemanasan
+    KOTOBA: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-2848991] 加熱処理(かねつしょり) [word] = perlakuan pemanasan | [kb-audit-0474] 必要ない(ひつようない) [adjective, df:必要だ] = tidak perlu | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>殺菌<rt>さっきん</rt></ruby>には<ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>と<ruby>処理時間<rt>しょりじかん</rt></ruby>が<ruby>重要<rt>じゅうよう</rt></ruby>である
+    TRANS: Dalam sterilisasi menggunakan bahan kimia, konsentrasi bahan kimia dan waktu perlakuan sangatlah penting
+    KOTOBA: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-otaff51-0172] 処理時間(しょりじかん) [compound_technical] = waktu penanganan / perendaman | [kb-otaff51-0609] 重要(じゅうよう) [adjective] = penting | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>殺菌<rt>さっきん</rt></ruby>は、<ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>種類<rt>しゅるい</rt></ruby>に<ruby>関係<rt>かんけい</rt></ruby>なく<ruby>同<rt>おな</rt></ruby>じ<ruby>効果<rt>こうか</rt></ruby>がある
+    TRANS: Sterilisasi menggunakan bahan kimia memiliki efek yang sama tanpa memandang jenis bahan kimianya
+    KOTOBA: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-1328890] 種類(しゅるい) [word] = jenis / macam | [kb-1215810] 関係(かんけい) [word] = hubungan / keterkaitan | [kb-audit-0398] なく(なく) [word] = tanpa (bentuk sambung ない) | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-1275130] 効果(こうか) [word] = efektivitas / hasil guna | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q15 | ID=kunci-ujian-6-q015 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>や<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>棚<rt>たな</rt></ruby>や<ruby>床<rt>ゆか</rt></ruby>をどのように<ruby>管理<rt>かんり</rt></ruby>しますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bagaimana cara mengelola rak dan lantai di dalam kulkas maupun freezer?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 3, Câu 15 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-otaff51-0347] 棚(たな) [noun] = rak | [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-v2-p1-271] どのように(-) [expression] = dengan cara bagaimana | [kb-audit-1008] 管理しますか(かんりしますか) [inflected_verb, df:管理する] = apakah mengelola? | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>清掃<rt>せいそう</rt></ruby>して、<ruby>清潔<rt>せいけつ</rt></ruby>に<ruby>保<rt>たも</rt></ruby>つ
+    TRANS: Membersihkannya secara berkala dan menjaganya tetap bersih
+    KOTOBA: [kb-otaff51-0271] 定期的(ていきてき) [adjective] = secara berkala / rutin | [kb-audit-1020] 清掃して(せいそうして) [inflected_verb, df:清掃する] = membersihkan (~て) | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-v2-p2-170] 保つ(たもつ) [word] = menjaga / mempertahankan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>使<rt>つか</rt></ruby>う<ruby>前<rt>まえ</rt></ruby>だけ<ruby>掃除<rt>そうじ</rt></ruby>する
+    TRANS: Membersihkannya hanya sebelum digunakan saja
+    KOTOBA: [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p1-335] だけ(-) [particle] = hanya | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan | [kb-v2-p1-147] する(-) [word] = melakukan
+  OPT C: HTML=<ruby>掃除<rt>そうじ</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>ない
+    TRANS: Tidak perlu dibersihkan
+    KOTOBA: [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan | [kb-audit-0474] 必要ない(ひつようない) [adjective, df:必要だ] = tidak perlu | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q16 | ID=kunci-ujian-6-q016 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>」の<ruby>中<rt>なか</rt></ruby>で、<ruby>病気<rt>びょうき</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>細菌<rt>さいきん</rt></ruby>やウイルスは<ruby>何<rt>なん</rt></ruby>と<ruby>呼<rt>よ</rt></ruby>ばれますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara "Faktor Bahaya Biologis", disebut apakah bakteri atau virus yang menjadi penyebab penyakit?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 3, Câu 16 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0441] 生物的危害要因(せいぶつてききがいよういん) [compound_technical] = faktor bahaya biologis | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0453] 病気(びょうき) [noun] = penyakit / sakit | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-126] 呼ばれます(よばれます) [inflected_verb, df:呼ぶ] = disebut (dasar: 呼ぶ) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>有害生物<rt>ゆうがいせいぶつ</rt></ruby>
+    TRANS: Organisme berbahaya (hama)
+    KOTOBA: [kb-ext-1717-e69c89e5ae] 有害生物(ゆうがいせいぶつ) [word] = hama perusak pangan (serangga/tikus)
+  OPT B: HTML=<ruby>病原性微生物<rt>びょうげんせいびせいぶつ</rt></ruby>
+    TRANS: Mikroorganisme patogen
+    KOTOBA: [kb-otaff51-0452] 病原性微生物(びょうげんせいびせいぶつ) [compound_technical] = mikroorganisme patogen
+  OPT C: HTML=<ruby>殺菌微生物<rt>さっきんびせいぶつ</rt></ruby>
+    TRANS: Mikroorganisme sterilisasi
+    KOTOBA: [kb-ext-0663-e6aebae88f] 殺菌微生物(さっきんびせいぶつ) [word] = mikroba target sterilisasi

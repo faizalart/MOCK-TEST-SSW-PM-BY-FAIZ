@@ -1,0 +1,78 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-2 (Soal Ujian 2 — CBTP Gino1) | Batch qa-batch-01 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=kunci-ujian-2-q013 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.2 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-v2-p2-040 (モリタニング結果): "hasil pemantauan (typo: モニタリング)"
+  CLUSTER CL-0045 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q027 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCP に<ruby>沿<rt>そ</rt></ruby>った<ruby>衛生管理重要管理点<rt>えいせいかんりじゅうようかんりてん</rt></ruby>(CCP)を<ruby>行<rt>おこな</rt></ruby>う<ruby>上<rt>うえ</rt></ruby>で、<ruby>間違<rt>まちが</rt></ruby>っているものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah dalam menjalankan Titik Kendali Kritis (CCP) pada manajemen higiene berbasis HACCP.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 2, Câu 13 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p2-220] 沿った(そった) [inflected, df:沿う] = sesuai dengan | [kb-ext-0135-e8a19be794] 衛生管理重要管理点(えいせいかんりじゅうようかんりてん) [word] = titik kendali kritis sanitasi (CCP) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=<ruby>抜<rt>ぬ</rt></ruby>き<ruby>取<rt>と</rt></ruby>り<ruby>検査結果<rt>けんさけっか</rt></ruby>を<ruby>信<rt>しん</rt></ruby>じる
+    TRANS: Mempercayai hasil pemeriksaan uji petik (sampling) saja
+    KOTOBA: [kb-v2-p2-048] 抜き取り検査(ぬきとりけんさ) [compound_technical] = inspeksi sampling (acak) | [kb-1254690] 結果(けっか) [word] = hasil pemeriksaan | [kb-v2-p2-172] 信じる(しんじる) [word] = memercayai | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>管理基準<rt>かんりきじゅん</rt></ruby>の<ruby>設定値<rt>せっていち</rt></ruby>を<ruby>知<rt>し</rt></ruby>る
+    TRANS: Mengetahui nilai standar pengendalian yang telah ditetapkan
+    KOTOBA: [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-ext-1080-e8a8ade5ae] 設定値(せっていち) [word] = nilai yang ditetapkan | [kb-v2-p2-173] 知る(しる) [word] = mengetahui | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=モリタニング<ruby>結果<rt>けっか</rt></ruby>を<ruby>記録<rt>きろく</rt></ruby>し、<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Mencatat dan menyimpan hasil pemantauan (monitoring)
+    KOTOBA: [kb-v2-p2-040] モリタニング結果(もりたりんぐけっか) [compound_technical] = hasil pemantauan (typo: モニタリング) | [kb-v2-p2-028] 記録し(きろくし) [inflected, df:記録する] = mencatat | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q14 | ID=kunci-ujian-2-q014 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.3 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p2-258 (ようる): "yang disebabkan (typo: よる)"
+  CLUSTER CL-0046 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-16-q016 (ssw-pm-kunci-ujian-16), bonus-soal-5-q029 (bonus-soal-5), nguyen05-q029 (latsol-nguyen-05)
+  INSTR: <ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>労働安全衛生<rt>ろうどうあんぜんえいせい</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う<ruby>上<rt>うえ</rt></ruby>で、<ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang paling tepat dalam melaksanakan keselamatan dan kesehatan kerja (K3).
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 3, Câu 14 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-ext-1801-e58ab4e583] 労働安全衛生(ろうどうあんぜんえいせい) [word] = keselamatan dan kesehatan kerja (K3) | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>を<ruby>繰<rt>かえ</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>し<ruby>練習<rt>れんしゅう</rt></ruby>し、<ruby>慣<rt>な</rt></ruby>れにようるケガに<ruby>注意<rt>ちゅうい</rt></ruby>し、<ruby>軽<rt>かる</rt></ruby>はずみな<ruby>動作<rt>どうさ</rt></ruby>や<ruby>強引<rt>ごういん</rt></ruby>な<ruby>動作<rt>どうさ</rt></ruby>をしない
+    TRANS: Berlatih prosedur kerja secara berulang-ulang, berhati-hati terhadap cedera akibat terlalu terbiasa (lengah), dan tidak melakukan gerakan ceroboh atau dipaksakan.
+    KOTOBA: [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-v2-p2-175] 繰り返し(くりかえし) [word] = berulang kali | [kb-v2-p2-176] 練習し(れんしゅうし) [inflected, df:練習する] = berlatih | [kb-v2-p2-107] 慣れ(なれ) [word] = kebiasaan / terbiasa | [kb-v2-p2-258] ようる(-) [word] = yang disebabkan (typo: よる) | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-v2-p2-177] 注意し(ちゅういし) [inflected, df:注意する] = berhati-hati / memperhatikan | [kb-v2-p2-240] 軽はずみな(かるはずみな) [word] = ceroboh / gegabah | [kb-1451350] 動作(どうさ) [word] = gerakan tubuh | [kb-v2-p2-241] 強引な(ごういな) [word] = memaksa / kasar | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT B: HTML=タオルや<ruby>手<rt>て</rt></ruby>ぬぐいを<ruby>首<rt>くび</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>いて、<ruby>仕事<rt>しごと</rt></ruby>する
+    TRANS: Bekerja dengan melilitkan handuk atau kain lap di leher.
+    KOTOBA: [kb-v2-p2-087] タオル(-) [word] = handuk | [kb-v2-p2-088] 手ぬぐい(てぬぐい) [word] = kain lap / handuk tipis Jepang | [kb-otaff51-0669] 首(くび) [noun] = leher | [kb-v2-p2-144] 巻いて(まいて) [inflected, df:巻く] = melilitkan / menggulung | [kb-otaff51-0110] 仕事(しごと) [noun] = pekerjaan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=“かもしれない”は<ruby>想定<rt>そうてい</rt></ruby>なので、<ruby>意識<rt>いしき</rt></ruby>しなくてもよい
+    TRANS: Karena pemikiran "mungkin saja terjadi bahaya" hanyalah asumsi, maka tidak perlu diperhatikan.
+    KOTOBA: [kb-v2-p2-034] かもしれない(-) [expression] = mungkin / bisa jadi | [kb-1399630] 想定(そうてい) [word] = perkiraan / asumsi | [kb-v2-p2-275] なので(-) [particle] = karena (kata benda) | [kb-v2-p2-174] 意識しなくても(いしきしなくても) [inflected, df:意識する] = meskipun tidak menyadari | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q15 | ID=kunci-ujian-2-q015 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.3 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  CLUSTER CL-0047 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-16-q018 (ssw-pm-kunci-ujian-16)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下記<rt>かき</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>主<rt>おも</rt></ruby>な<ruby>細菌<rt>さいきん</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>、サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>、<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai jenis keracunan makanan yang disebabkan oleh bakteri utama berikut: Escherichia coli enterohemoragik (EHEC), bakteri genus Salmonella, dan Vibrio parahaemolyticus.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 3, Câu 15 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-1184690] 下記(かき) [word] = berikut ini | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p2-179] 引き起こす(ひきおこす) [word] = menimbulkan / menyebabkan | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-otaff51-0525] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [compound_technical] = bakteri E. coli enterohemoragik (O157, O111) | [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella | [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>毒素型<rt>どくそがた</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>
+    TRANS: Keracunan makanan tipe toksin (racun)
+    KOTOBA: [kb-ext-1377-e6af92e7b4] 毒素型(どくそがた) [word] = tipe toksin (racun) | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>感染型<rt>かんせんがた</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>
+    TRANS: Keracunan makanan tipe infeksi
+    KOTOBA: [kb-ext-0277-e6849fe69f] 感染型(かんせんがた) [word] = tipe infeksi | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=ウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>
+    TRANS: Keracunan makanan akibat virus
+    KOTOBA: [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan
+
+=== #Q16 | ID=kunci-ujian-2-q016 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.3 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  CLUSTER CL-0048 (n=7, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q016 (bonus-soal-2), bonus-soal-8-q016 (bonus-soal-8), bonus-soal-9-q016 (bonus-soal-9), nguyen02-q016 (latsol-nguyen-02), nguyen08-q016 (latsol-nguyen-08), nguyen09-q016 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>増殖<rt>ぞうしょく</rt></ruby>させないための<ruby>方法<rt>ほうほう</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai cara mencegah perkembangbiakan mikroorganisme.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 3, Câu 16 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p2-182] 増殖させない(ぞうしょくさせない) [inflected, df:増殖する] = tidak membiarkan berkembang biak | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>から<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>常温<rt>じょうおん</rt></ruby>で<ruby>長<rt>なが</rt></ruby>く<ruby>放置<rt>ほうち</rt></ruby>する。
+    TRANS: Membiarkan pangan yang baru dikeluarkan dari kulkas pada suhu ruang dalam waktu lama.
+    KOTOBA: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p2-135] 取り出した(とりだした) [inflected, df:取り出す] = mengambil keluar (lampau) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1798230] 常温(じょうおん) [word] = suhu ruang | [kb-audit-0895] 長く(ながく) [inflected_adj, df:長い] = menjadi lama / panjang | [kb-v2-p2-189] 放置する(ほうちする) [word] = membiarkan begitu saja | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>加熱<rt>かねつ</rt></ruby>したものを<ruby>室温<rt>しつおん</rt></ruby>で<ruby>温度<rt>おんど</rt></ruby>をゆっくりさげる。
+    TRANS: Menurunkan suhu pangan yang telah dipanaskan secara perlahan-lahan pada suhu ruang.
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-v2-p2-190] さげる(-) [word] = menurunkan (suhu) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>世代交代時間<rt>せだいこうたいじかん</rt></ruby>があるので、<ruby>時間<rt>じかん</rt></ruby>もコントロールするのが<ruby>必要<rt>ひつよう</rt></ruby>である。
+    TRANS: Karena mikroorganisme memiliki waktu generasi (pembelahan sel), maka pengendalian waktu juga diperlukan.
+    KOTOBA: [kb-ext-1002-e4b896e4bb] 世代交代時間(せだいこうたいじかん) [word] = waktu pembelahan sel bakteri | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p2-191] コントロールする(-) [word] = mengendalikan / mengontrol | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung

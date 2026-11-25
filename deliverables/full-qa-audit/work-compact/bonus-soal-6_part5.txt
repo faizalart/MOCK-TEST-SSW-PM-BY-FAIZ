@@ -1,0 +1,81 @@
+# AUDIT SHEET: bonus-soal-6 (Bonus Soal 6) | Batch qa-batch-05 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=bonus-soal-6-q017 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 6.pdf p.7 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-212 (謝る): "salah (typo: 誤る)"
+  CLUSTER CL-0230 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=nguyen06-q017 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ヒスタミンは、<ruby>保存状態<rt>ほぞんじょうたい</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いと<ruby>増<rt>ふ</rt></ruby>えるので、<ruby>原材料<rt>げんざいりょう</rt></ruby>として<ruby>受入<rt>うけい</rt></ruby>れ<br>た <ruby>魚<rt>さかな</rt></ruby>はなにをしますか。 <ruby>謝<rt>あやま</rt></ruby>る<ruby>物<rt>もの</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: ヒスタミンは、保存状態が悪いと増えるので、原材料として受入れ
+た 魚はなにをしますか。 謝る物を選びなさい。
+  PROMPT_TRANS: Histamin akan bertambah jika kondisi penyimpanannya buruk, maka apa yang harus dilakukan terhadap ikan yang diterima sebagai bahan baku? Pilihlah jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 7, Soal 17) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-otaff51-0065] ヒスタミン(ひすたみん) [noun] = histamin | [kb-otaff51-0131] 保存状態(ほぞんじょうたい) [compound_technical] = kondisi penyimpanan | [kb-v2-p1-246] 悪い(わるい) [word] = buruk / tidak baik | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-latsol-2adab93bfd] 受入れた(うけいれた) [word] = penerimaan bahan baku | [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-v2-p2-256] なに(-) [word] = apa | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-v2-p5-212] 謝る(あやまる) [word] = salah (typo: 誤る) | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=すぐに<ruby>冷蔵<rt>れいぞう</rt></ruby>
+    TRANS: Segera disimpan di lemari pendingin (kulkas)
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-otaff51-0167] 冷蔵(れいぞう) [noun] = pendinginan (chilling)
+  OPT B: HTML=すぐ<ruby>冷凍<rt>れいとう</rt></ruby>
+    TRANS: Segera dibekukan
+    KOTOBA: [kb-v2-p1-282] すぐ(-) [word] = segera | [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing)
+  OPT C: HTML=ゆっくり<ruby>冷凍<rt>れいとう</rt></ruby>
+    TRANS: Dibekukan secara perlahan
+    KOTOBA: [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing)
+
+=== #Q18 | ID=bonus-soal-6-q018 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 6.pdf p.7 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-otaff51-0148 "傷口": kotoba="きずぐち" vs ruby="き" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p5-203 (ずぐち): "luka (typo: きずぐち)" || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text
+  CLUSTER CL-0231 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=nguyen06-q018 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>の <ruby>特徴<rt>とくちょう</rt></ruby>はなんですか。<ruby>正<rt>ただ</rt></ruby>しものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah ciri-ciri bakteri genus Salmonella? Pilihlah jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 7, Soal 18) · Kunci Jawaban Sumber: B.
+  KOTOBA_PROMPT: [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella | [kb-otaff51-0434] 特徴(とくちょう) [noun] = karakteristik / ciri khas | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p5-363] 正し(ただし) [word] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>人<rt>ひと</rt></ruby>の<ruby>皮膚<rt>ひふ</rt></ruby>や<ruby>傷口<rt>き</rt></ruby>ずぐちにいる。
+    TRANS: Berada pada kulit atau luka manusia.
+    KOTOBA: [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0458] 皮膚(ひふ) [noun] = kulit | [kb-otaff51-0148] 傷口(きずぐち) [noun] = luka terbuka | [kb-v2-p5-203] ずぐち(-) [word] = luka (typo: きずぐち) | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>体<rt>からだ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>菌<rt>きん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えて <ruby>発症<rt>はっしょう</rt></ruby>する
+    TRANS: Bakteri berkembang biak di dalam tubuh dan menimbulkan gejala penyakit
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-150] 菌(きん) [word] = bakteri / kuman | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-2398850] 発症(はっしょう) [word] = timbulnya gejala penyakit | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>熱<rt>ねつ</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>芽胞<rt>がほう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る
+    TRANS: Membentuk spora yang tahan terhadap panas
+    KOTOBA: [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q19 | ID=bonus-soal-6-q019 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 6.pdf p.7 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  CLUSTER CL-0232 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=nguyen06-q019 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作<rt>さく</rt></ruby><ruby>業<rt>ぎょう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なん</rt></ruby>の <ruby>症状<rt>しょうじょう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しなければなりませんか。<ruby>間違<rt>まちが</rt></ruby>っ<br>ている<ruby>原則<rt>げんそく</rt></ruby>を 1 つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 作業を始める前に何の 症状を確認しなければなりませんか。間違っ
+ている原則を 1 つ選びなさい。
+  PROMPT_TRANS: Gejala apa yang harus diperiksa sebelum memulai pekerjaan? Pilihlah 1 jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 7, Soal 19) · Kunci Jawaban Sumber: B.
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p5-246] 始める(はじめる) [word] = memulai | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-audit-0939] 確認しなければ(かくにんしなければ) [expression] = harus memeriksa (条件) | [kb-audit-0371] なりませんか(なりませんか) [inflected_verb, df:なる] = haruskah (dalam なければなりませんか) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>下痢<rt>げり</rt></ruby>、<ruby>発熱<rt>はつねつ</rt></ruby>
+    TRANS: Diare, demam
+    KOTOBA: [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam
+  OPT B: HTML=<ruby>体重<rt>たいじゅう</rt></ruby>
+    TRANS: Berat badan
+    KOTOBA: [kb-1409540] 体重(たいじゅう) [word] = Berat badan tubuh pekerja
+  OPT C: HTML=<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、<ruby>手指<rt>てゆび</rt></ruby>の<ruby>傷<rt>きず</rt></ruby>
+    TRANS: Mual, luka pada jari dan tangan
+    KOTOBA: [kb-otaff51-0230] 吐き気(はきけ) [noun] = rasa mual | [kb-otaff51-0309] 手指(てゆび) [noun] = jari-jari tangan | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q20 | ID=bonus-soal-6-q020 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 6.pdf p.7 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 何
+  CLUSTER CL-0233 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=nguyen06-q020 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>香水<rt>こうすい</rt></ruby>などは<ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>使用<rt>しよう</rt></ruby>を<ruby>禁止<rt>きんし</rt></ruby>される<ruby>理由<rt>りゆう</rt></ruby>は何ですか。<ruby>正<rt>ただ</rt></ruby>しいも<br>のを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 香水などは食品製造工場で使用を禁止される理由は何ですか。正しいも
+のを一つ選びなさい。
+  PROMPT_TRANS: Apakah alasan pelarangan penggunaan parfum dan sejenisnya di pabrik pengolahan pangan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 7, Soal 20) · Kunci Jawaban Sumber: A.
+  KOTOBA_PROMPT: [kb-otaff51-0670] 香水(こうすい) [noun] = parfum | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-otaff51-0126] 使用(しよう) [noun] = penggunaan | [kb-1241550] 禁止(きんし) [word] = dilarang | [kb-v2-p3-230] される(-) [inflected, df:する] = dilakukan (pasif) | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>品質<rt>ひんしつ</rt></ruby>に<ruby>悪<rt>わる</rt></ruby>い<ruby>影響<rt>えいきょう</rt></ruby>があるため
+    TRANS: Karena berdampak buruk pada kualitas pangan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1490580] 品質(ひんしつ) [word] = kualitas / mutu produk | [kb-v2-p1-246] 悪い(わるい) [word] = buruk / tidak baik | [kb-1173660] 影響(えいきょう) [word] = dampak / pengaruh | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>香水<rt>こうすい</rt></ruby>は<ruby>物理危害要因<rt>ぶつりきがいよういん</rt></ruby>なので、<ruby>気<rt>き</rt></ruby>をつける
+    TRANS: Harus berhati-hati karena parfum merupakan faktor bahaya fisik
+    KOTOBA: [kb-otaff51-0670] 香水(こうすい) [noun] = parfum | [kb-ext-1564-e789a9e790] 物理危害要因(ぶつりきがいよういん) [word] = faktor bahaya fisik | [kb-v2-p2-275] なので(-) [particle] = karena (kata benda) | [kb-latsol-54832517b9] 気をつける(きをつける) [word] = berhati-hati / waspada | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>の<ruby>恐<rt>おそ</rt></ruby>れがあるため
+    TRANS: Karena berisiko menyebabkan kontaminasi benda asing
+    KOTOBA: [kb-otaff51-0451] 異物混入(いぶつこんにゅう) [compound_technical] = kontaminasi / masuknya benda asing | [kb-v2-p4-099] 恐れ(おそれ) [word] = risiko / kemungkinan bahaya | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek

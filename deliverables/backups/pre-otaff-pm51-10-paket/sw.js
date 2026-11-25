@@ -1,0 +1,171 @@
+const CACHE_NAME = 'ssw-pm-mock-test-shell-v40';
+
+const CORE = [
+  './',
+  './index.html',
+
+  './styles.css?v=ssw28',
+  './CSV-IMPORT-STYLES.css?v=ssw3',
+  './RICH-HTML-STYLES.css?v=ssw3',
+  './QUESTION-EDITOR-UPDATES.css?v=ssw28',
+  './ZEN-APP-SHELL.css?v=ssw28',
+  './HOME-DASHBOARD.css?v=ssw28',
+  './ZEN-PAGES.css?v=ssw28',
+
+  './assets/zen-warrior-bg.png',
+
+  './app.js?v=ssw40',
+  './app.js?v=ssw40',
+  './seed-data.js?v=ssw3',
+  './db.js?v=ssw3',
+  './utils.js?v=ssw3',
+  './archive.js?v=ssw3',
+
+  './data/ssw-pm-kunci-ujian-1.json',
+  './data/ssw-pm-kunci-ujian-2.json',
+  './data/ssw-pm-all-kunci-ujian-3-to-13.json',
+  './data/ssw-pm-kunci-ujian-14.json',
+  './data/ssw-pm-kunci-ujian-15.json',
+  './data/ssw-pm-kunci-ujian-16.json',
+  './data/ssw-pm-tipe2-nguyen1.json',
+  './data/ssw-pm-bonus-soal-1-to-10-bundle.json',
+  './data/ssw-pm-special-lab-bundle.json',
+  './data/latsol-nguyen-01.json',
+  './data/latsol-nguyen-02.json',
+  './data/latsol-nguyen-03.json',
+  './data/latsol-nguyen-04.json',
+  './data/latsol-nguyen-05.json',
+  './data/latsol-nguyen-06.json',
+  './data/latsol-nguyen-07.json',
+  './data/latsol-nguyen-08.json',
+  './data/latsol-nguyen-09.json',
+  './data/latsol-nguyen-10.json',
+  './data/latsol-reguler-01.json',
+  './data/latsol-reguler-02.json',
+  './data/latsol-reguler-03.json',
+  './data/latsol-reguler-04.json',
+  './data/latsol-reguler-05.json',
+  './data/latsol-reguler-06.json',
+  './data/latsol-tambahan-01.json',
+  './data/latsol-tambahan-02.json',
+  './data/latsol-hitungan-01.json',
+  './data/pilot-otaff51-01.json',
+  './data/kotoba-dan-kategori-tambahan.json',
+  './data/sharedKotobaDictionary.json',
+  './data/kotobaMapping.json',
+
+  './manifest.webmanifest?v=ssw18',
+  './favicon.png?v=ssw18',
+  './favicon.png',
+  './hasbulla-192.png',
+  './hasbulla-512.png',
+  './icon.svg?v=ssw18',
+  './icon.svg'
+];
+
+self.addEventListener('install', event => {
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+
+    await Promise.allSettled(
+      CORE.map(async path => {
+        try {
+          const url = new URL(path, self.registration.scope);
+          const response = await fetch(url.href, {
+            cache: 'reload'
+          });
+
+          if (response.ok) {
+            await cache.put(url.href, response);
+          } else {
+            console.warn('[SW] Lewati pre-cache (status ' + response.status + '):', path);
+          }
+        } catch (error) {
+          console.warn('[SW] Gagal cache:', path, error);
+        }
+      })
+    );
+
+    await self.skipWaiting();
+  })());
+});
+
+self.addEventListener('activate', event => {
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+
+    await Promise.all(
+      keys
+        .filter(key =>
+          key.startsWith('ssw-pm-mock-test-shell-') &&
+          key !== CACHE_NAME
+        )
+        .map(key => caches.delete(key))
+    );
+
+    try {
+      const currentCache = await caches.open(CACHE_NAME);
+      const cachedRequests = await currentCache.keys();
+      await Promise.all(
+        cachedRequests
+          .filter(req => req.url.includes('/assets/questions/') && !req.url.includes('v=crop2'))
+          .map(req => currentCache.delete(req))
+      );
+    } catch { }
+
+    await self.clients.claim();
+  })());
+});
+
+self.addEventListener('fetch', event => {
+  const req = event.request;
+  const url = new URL(req.url);
+
+  if (
+    req.method !== 'GET' ||
+    url.origin !== self.location.origin
+  ) {
+    return;
+  }
+
+  const isMutableAsset =
+    url.pathname.includes('/assets/questions/') ||
+    url.pathname.endsWith('.json') ||
+    url.pathname.endsWith('/app.js') ||
+    url.pathname.endsWith('/sw.js');
+
+  event.respondWith((async () => {
+    try {
+      const networkResponse = await fetch(req, isMutableAsset ? { cache: 'no-cache' } : undefined);
+      if (networkResponse && networkResponse.ok) {
+        const cache = await caches.open(CACHE_NAME);
+        await cache.put(req, networkResponse.clone());
+        return networkResponse;
+      }
+    } catch (error) {
+      // Offline fallback to cache below
+    }
+
+    const cached = await caches.match(req, { ignoreSearch: false }) ||
+      (!url.pathname.includes('/assets/questions/') ? await caches.match(req, { ignoreSearch: true }) : null);
+    if (cached) return cached;
+
+    if (req.mode === 'navigate') {
+      return (
+        await caches.match('./index.html', { ignoreSearch: true })
+      ) || new Response('Aplikasi sedang offline.', {
+        status: 503,
+        headers: {
+          'Content-Type': 'text/plain; charset=utf-8'
+        }
+      });
+    }
+
+    return new Response('File tidak tersedia saat offline.', {
+      status: 503,
+      headers: {
+        'Content-Type': 'text/plain; charset=utf-8'
+      }
+    });
+  })());
+});

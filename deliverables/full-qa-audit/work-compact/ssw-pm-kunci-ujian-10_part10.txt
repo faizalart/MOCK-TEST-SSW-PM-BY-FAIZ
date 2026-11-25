@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-10 (Soal Ujian 10 — CBTP Gino1) | Batch qa-batch-02 | Part 10 (Q37-40 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=kunci-ujian-10-q037 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: てんとうしそうになったじこのげんいんはなんですか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa penyebab kecelakaan hampir terjatuh (terpeleset)? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 7, Câu 37 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0290] てんとう(てんとう) [word] = terjatuh / terpeleset (転倒) | [kb-latsol-shisou] しそう(しそう) [word] = pemikiran (pengecoh 5S: 思想) | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-audit-0646] じこ(じこ) [word] = kecelakaan / insiden | [kb-audit-0671] げんいん(げんいん) [word] = penyebab | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ゆかがぬれていて、りょうてがふさがらない。
+    TRANS: Lantai basah dan kedua tangan tidak memegang barang.
+    KOTOBA: [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-audit-0721] ぬれていて(ぬれていて) [inflected_verb, df:濡れる] = dalam keadaan basah | [kb-audit-0099] りょうて(りょうて) [word] = kedua tangan (両手) | [kb-audit-0135] ふさがらない(ふさがらない) [inflected_verb, df:塞がる] = tidak terhalang / tidak penuh (塞がらない) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=ゆかにしもがついて、すべりやすくなったこと。
+    TRANS: Muncul bunga es di lantai sehingga menjadi licin.
+    KOTOBA: [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-v2-p6-341] しも(-) [word] = embun beku / bunga es (bacaan 霜) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat | [kb-audit-0684] すべりやすく(すべりやすく) [inflected_adj, df:滑りやすい] = menjadi mudah terpeleset | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=ゆかがぬれていて、りょうてがふさがったじょうたいでいどうした。
+    TRANS: Berpindah tempat di lantai yang basah dalam kondisi kedua tangan penuh memegang barang.
+    KOTOBA: [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-audit-0721] ぬれていて(ぬれていて) [inflected_verb, df:濡れる] = dalam keadaan basah | [kb-audit-0099] りょうて(りょうて) [word] = kedua tangan (両手) | [kb-latsol-fusagatta] ふさがった(ふさがった) [inflected_verb, df:ふさがる] = penuh / memegang barang di kedua tangan | [kb-audit-0131] じょうたい(じょうたい) [word] = keadaan / kondisi (状態) | [kb-audit-0132] いどうした(いどうした) [inflected_verb, df:移動する] = berpindah / berjalan (移動した) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q38 | ID=kunci-ujian-10-q038 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.8 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:C] 歩, 重, 持, 移動 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0539 (あるおももいどう): "berjalan membawa barang (typo)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: この<ruby>事故<rt>じこ</rt></ruby>になる<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa penyebab terjadinya kecelakaan ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 8, Câu 38 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-v2-p1-267] この(-) [word] = ini | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=トラックにきをつけなかったこと。
+    TRANS: Tidak memperhatikan keberadaan truk.
+    KOTOBA: [kb-v2-p2-084] トラック(-) [word] = truk | [kb-audit-1101] きをつけなかった(きをつけなかった) [expression] = tidak berhati-hati | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>の<ruby>照明<rt>しょうめい</rt></ruby>をつけなかったこと。
+    TRANS: Tidak menyalakan lampu penerangan tempat parkir.
+    KOTOBA: [kb-1426920] 駐車場(ちゅうしゃじょう) [word] = Area tempat parkir kendaraan pabrik | [kb-1350990] 照明(しょうめい) [word] = penerangan lampu pabrik | [kb-otaff51-0714] つけ(つけ) [inflected_verb, df:つける] = mengoleskan / memakai | [kb-v2-p3-334] なかった(-) [particle] = tidak (lampau) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=あるおももいどう<br>歩きながら重いものを持って移動したこと。
+    TRANS: Berjalan berpindah tempat sambil membawa benda yang berat.
+    KOTOBA: [kb-audit-0539] あるおももいどう(あるきおもいどう) [expression] = berjalan membawa barang (typo) | [kb-v2-p6-437] 歩きながら(あるきながら) [inflected, df:歩く] = sambil berjalan | [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p2-139] 持って(もって) [inflected, df:持つ] = membawa / memegang | [kb-otaff51-0476] 移動(いどう) [noun] = perpindahan / bergerak | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q39 | ID=kunci-ujian-10-q039 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.8 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: かいだんをおりていたとき、スマートフォンをみながらおりていたため、かいだんをふみはずし、てんらくしそうになった。このじこをふせぐ<br>ために、どうしたらいいですか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: かいだんをおりていたとき、スマートフォンをみながらおりていたため、かいだんをふみはずし、てんらくしそうになった。このじこをふせぐ
+ために、どうしたらいいですか。ただしいものをひとつえらびなさい。
+  PROMPT_TRANS: Saat menuruni tangga sambil melihat ponsel pintar (smartphone), pekerja salah menginjak anak tangga dan hampir jatuh. Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 8, Câu 39 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p6-606] かいだん(-) [word] = tangga | [kb-audit-0803] おりていた(おりていた) [inflected_verb, df:降りる] = sedang menuruni (tangga) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p6-171] スマートフォン(-) [word] = ponsel pintar (smartphone) | [kb-audit-1113] みながら(みながら) [inflected_verb, df:見る] = sambil melihat (見る) | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-audit-0685] ふみはずし(ふみはずし) [inflected_verb, df:踏み外す] = salah pijakan / terpeleset | [kb-audit-0720] てんらく(てんらく) [word] = terjatuh dari ketinggian | [kb-latsol-shisou] しそう(しそう) [word] = pemikiran (pengecoh 5S: 思想) | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-0646] じこ(じこ) [word] = kecelakaan / insiden | [kb-audit-0241] ふせぐ(ふせぐ) [word] = mencegah (防ぐ) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT A: HTML=スマートフォンはたちどまってしようしない。
+    TRANS: Menggunakan ponsel pintar tanpa berhenti berjalan.
+    KOTOBA: [kb-v2-p6-171] スマートフォン(-) [word] = ponsel pintar (smartphone) | [kb-audit-0804] たちどまって(たちどまって) [inflected_verb, df:立ち止まる] = berhenti melangkah dulu | [kb-audit-0080] しようしない(しようしない) [inflected_verb, df:使用する] = tidak menggunakan (使用しない) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=あるきながらスマートフォンをみる。かいだんおりたら、しない。
+    TRANS: Melihat ponsel pintar sambil berjalan, tetapi tidak melakukannya saat menuruni tangga.
+    KOTOBA: [kb-audit-1103] あるきながら(あるきながら) [inflected_verb, df:歩く] = sambil berjalan (歩く) | [kb-v2-p6-171] スマートフォン(-) [word] = ponsel pintar (smartphone) | [kb-audit-0805] みる(みる) [word] = melihat | [kb-v2-p6-606] かいだん(-) [word] = tangga | [kb-audit-0612] おりたら(おりたら) [inflected_verb, df:降りる] = jika turun / setelah turun | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=あるいているときや、かいだんをあるいているときは、スマートフォンをしようしない。
+    TRANS: Tidak menggunakan ponsel pintar saat sedang berjalan maupun saat menaiki/menuruni tangga.
+    KOTOBA: [kb-audit-0292] あるいて(あるいて) [inflected_verb, df:歩く] = berjalan kaki (歩いて) | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p6-606] かいだん(-) [word] = tangga | [kb-v2-p6-171] スマートフォン(-) [word] = ponsel pintar (smartphone) | [kb-audit-0080] しようしない(しようしない) [inflected_verb, df:使用する] = tidak menggunakan (使用しない) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q40 | ID=kunci-ujian-10-q040 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.9 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 450グラムのうどんめんをつくるためには、こむぎこ300グラムがひつようです。では、こむぎこ６キログラムからどれだけのうどんめん<br>つく<br>をることができるでしょうか。
+  QUESTION_TEXT: 450グラムのうどんめんをつくるためには、こむぎこ300グラムがひつようです。では、こむぎこ６キログラムからどれだけのうどんめん
+つく
+をることができるでしょうか。
+  PROMPT_TRANS: Untuk membuat 450 gram mi udon, diperlukan 300 gram tepung terigu. Lalu, berapa banyak mi udon yang dapat dibuat dari 6 kilogram tepung terigu?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 9, Câu 40 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p5-179] グラム(-) [word] = gram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-otaff51-0725] めん(めん) [noun] = mie / adonan mie | [kb-audit-0421] つくる(つくる) [word] = membuat / memproduksi (作る) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-audit-0282] こむぎこ(こむぎこ) [word] = tepung terigu (小麦粉) | [kb-audit-0638] ひつよう(ひつよう) [word] = kebutuhan / perlu | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p5-180] キログラム(-) [word] = kilogram (satuan berat) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-audit-0208] つくをる(つくる) [inflected_verb, df:作る] = membuat (penulisan typo: つくる) | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p5-220] でしょう(-) [particle] = kira-kira / bukan? | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=9キログラムのうどんめん
+    TRANS: 9 kilogram mi udon
+    KOTOBA: [kb-v2-p5-180] キログラム(-) [word] = kilogram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-otaff51-0725] めん(めん) [noun] = mie / adonan mie | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=300キログラムのうどんめん
+    TRANS: 300 kilogram mi udon
+    KOTOBA: [kb-v2-p5-180] キログラム(-) [word] = kilogram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-otaff51-0725] めん(めん) [noun] = mie / adonan mie | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=450グラムのうどんめん
+    TRANS: 450 gram mi udon
+    KOTOBA: [kb-v2-p5-179] グラム(-) [word] = gram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-otaff51-0725] めん(めん) [noun] = mie / adonan mie | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung

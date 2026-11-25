@@ -1,0 +1,70 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-12 (Soal Ujian 12 — CBTP Gino1) | Batch qa-batch-03 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=kunci-ujian-12-q017 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスについてただしいことをえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang benar mengenai Norovirus.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 3, Câu 17 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>感染<rt>かんせん</rt></ruby>した<ruby>人<rt>ひと</rt></ruby>の<ruby>体<rt>からだ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>増<rt>ふ</rt></ruby>える
+    TRANS: Berkembang biak di dalam tubuh manusia yang terinfeksi
+    KOTOBA: [kb-otaff51-0305] 感染(かんせん) [noun] = infeksi / penularan | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=ロウイルスは、<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では<ruby>増<rt>ふ</rt></ruby>える
+    TRANS: Norovirus berkembang biak di dalam makanan
+    KOTOBA: [kb-audit-0206] ロウイルス(ろういるす) [technical] = Norovirus (penulisan kurang huruf ノ: ノロウイルス) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>鶏肉<rt>とりにく</rt></ruby>に<ruby>存在<rt>そんざい</rt></ruby>する
+    TRANS: Terdapat pada daging ayam
+    KOTOBA: [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-1406150] 存在(そんざい) [word] = keberadaan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q18 | ID=kunci-ujian-12-q018 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>多<rt>おお</rt></ruby>くの<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>を<ruby>防止方法<rt>ぼうしほうほう</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah metode pencegahan untuk sebagian besar bakteri penyebab keracunan makanan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 4, Câu 18 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-ext-1656-e998b2e6ad] 防止方法(ぼうしほうほう) [word] = metode pencegahan bahaya | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=げんざいりょうはよくせんじょうする
+    TRANS: Mencuci bahan baku dengan baik
+    KOTOBA: [kb-v2-p5-201] げんざいりょう(-) [word] = bahan baku (bacaan 原材料) | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-audit-0077] せんじょう(せんじょう) [word] = pencucian / pembersihan (洗浄) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=2ぶいじょうでちゅうしんおんどの100℃いじょうでかねつする
+    TRANS: Memanaskan dengan suhu bagian tengah (suhu inti) 100°C atau lebih selama 2 menit atau lebih
+    KOTOBA: [kb-v2-p6-624] ぶいじょう(-) [expression] = lebih dari (menit, typo: 分以上) | [kb-audit-0244] ちゅうしんおんど(ちゅうしんおんど) [word] = suhu inti / bagian tengah (中心温度) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-audit-0250] いじょう(いじょう) [word] = di atas / lebih dari atau sama (以上) | [kb-audit-0222] かねつ(かねつ) [word] = pemanasan (加熱) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=75°Cで1<ruby>分間以上加熱<rt>ふんかんいじょうかねつ</rt></ruby>すること
+    TRANS: Memanaskan pada suhu 75°C selama 1 menit atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-otaff51-0705] 分間以上(ふんかんいじょう) [compound_technical] = selama ... menit atau lebih | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q19 | ID=kunci-ujian-12-q019 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5 Sのせいりについてただしいものをえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang benar mengenai "Ringkas / Pemilahan (Seiri)" dalam 5S.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 4, Câu 19 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-latsol-82c9c74e4f] せいり(せいり) [word] = Seiri (pemilahan barang 5S) | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-055] S(-) [technical] = huruf S (5S: Seiri/Seiton/dll) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>器具<rt>きぐ</rt></ruby>や<ruby>道具<rt>どうぐ</rt></ruby>を、<ruby>必要<rt>ひつよう</rt></ruby>なときにすぐに<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>せるようにすること
+    TRANS: Menata peralatan dan perkakas agar dapat segera diambil saat diperlukan
+    KOTOBA: [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p3-315] 取り出せる(とりだせる) [inflected, df:取り出す] = dapat mengambil keluar | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>不要<rt>ふよう</rt></ruby>なものをなくして、<ruby>必要<rt>ひつよう</rt></ruby>なものだけにすること。
+    TRANS: Menyingkirkan/membuang barang yang tidak diperlukan dan menyisakan barang yang diperlukan saja
+    KOTOBA: [kb-latsol-90a80dc9bf] 不要な(ふような) [word] = tidak diperlukan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0894] なくして(なくして) [inflected_verb, df:なくす] = menghilangkan / menyingkirkan | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-335] だけ(-) [particle] = hanya | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=きめられたことをきめられたとおりにできること
+    TRANS: Dapat melakukan hal yang telah ditentukan sesuai dengan aturan yang ditetapkan
+    KOTOBA: [kb-audit-0109] きめられた(きめられた) [inflected_verb, df:決める] = yang telah ditentukan (決められた) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p2-031] とおり(-) [word] = sesuai / seperti | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q20 | ID=kunci-ujian-12-q020 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: くぶんえいせいかんりとはなんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dimaksud dengan manajemen higiene berdasarkan pembagian zona (kubun eisei kanri)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 4, Câu 20 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p6-630] くぶん(-) [word] = pemisahan / pengelompokan | [kb-v2-p6-588] えいせいかんり(-) [technical] = manajemen kebersihan / sanitasi | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=しせつせつびきぐなどをくべつせずそのままつかう
+    TRANS: Menggunakan fasilitas, peralatan, dan perkakas begitu saja tanpa membedakannya
+    KOTOBA: [kb-audit-0696] しせつ(しせつ) [word] = fasilitas | [kb-audit-0697] せつび(せつび) [word] = peralatan / instalasi mesin | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-audit-0752] くべつせず(くべつせず) [expression, df:区別する] = tanpa membeda-bedakan | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-fix-tsukau] つかう(-) [] = menggunakan (使う) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=きかいやせつびなどのじょうたいをかくにんする
+    TRANS: Memeriksa kondisi mesin dan peralatan
+    KOTOBA: [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0697] せつび(せつび) [word] = peralatan / instalasi mesin | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-audit-0131] じょうたい(じょうたい) [word] = keadaan / kondisi (状態) | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=せいけつさぎょうくいきじゅんせいけつさぎょうくいきおせんさぎょうくいきなどにする
+    TRANS: Membagi area menjadi area kerja bersih, area kerja semi-bersih, area kerja terkontaminasi (kotor), dan sebagainya
+    KOTOBA: [kb-latsol-ba01a8a7ea] せいけつ(せいけつ) [word] = Seiketsu (menjaga kebersihan 5S) | [kb-audit-0219] さぎょうくいき(さぎょうくいき) [word] = area kerja / zona kerja (作業区域) | [kb-audit-0218] じゅんせいけつ(じゅんせいけつ) [word] = semi-bersih (準清潔) | [kb-audit-0240] おせん(おせん) [word] = kontaminasi / pencemaran (汚染) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

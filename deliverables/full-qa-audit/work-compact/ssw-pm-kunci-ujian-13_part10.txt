@@ -1,0 +1,88 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-13 (Soal Ujian 13 — Rakuraku Tokutei (2024年10月)) | Batch qa-batch-03 | Part 10 (Q37-40 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=kunci-ujian-13-q037 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.10 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  CLUSTER CL-0154 (n=5, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q031 (bonus-soal-4), bonus-soal-7-q032 (bonus-soal-7), nguyen04-q031 (latsol-nguyen-04), nguyen07-q032 (latsol-nguyen-07)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業台<rt>さぎょうだい</rt></ruby>で <ruby>食<rt>しょく</rt></ruby>パンを<ruby>手<rt>て</rt></ruby>で<ruby>押<rt>お</rt></ruby>しながらスライスしていたとき、<ruby>指<rt>ゆび</rt></ruby>がスライサーの<ruby>刃<rt>は</rt></ruby><br>で<ruby>切<rt>き</rt></ruby>れそうになった。この<ruby>事故<rt>じこ</rt></ruby>を <ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>正<rt>ただ</rt></ruby>しいも<br>のを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 作業台で 食パンを手で押しながらスライスしていたとき、指がスライサーの刃
+で切れそうになった。この事故を 防ぐために、どうしたらいいですか。正しいも
+のを一つ選びなさい。
+  PROMPT_TRANS: Saat sedang mengiris roti tawar di meja kerja sambil mendorongnya dengan tangan, jari hampir terpotong oleh pisau mesin pengiris (slicer). Apa yang sebaiknya dilakukan untuk mencegah kecelakaan ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 10, Nomor 37) · Kunci Jawaban PDF (Teks Merah): B.
+  KOTOBA_PROMPT: [kb-otaff51-0121] 作業台(さぎょうだい) [noun] = meja kerja | [kb-v2-p2-066] 食パン(しょくぱん) [word] = roti tawar | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-131] 押しながら(おしながら) [inflected, df:押す] = sambil menekan/mendorong | [kb-v2-p2-129] スライスしていた(-) [inflected, df:スライスする] = sedang mengiris (lampau) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-otaff51-0175] 刃(は) [noun] = mata pisau | [kb-v2-p2-127] 切れそうに(きれそうに) [inflected, df:切れる] = hampir terpotong | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-267] この(-) [word] = ini | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=スライサーを<ruby>使<rt>つか</rt></ruby>うときは、<ruby>両手<rt>りょうて</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す。
+    TRANS: Saat menggunakan mesin pengiris (slicer), dorong roti menggunakan kedua tangan.
+    KOTOBA: [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0099] 両手(りょうて) [noun] = kedua tangan | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-v2-p2-130] 押し出す(おしだす) [word] = mendorong keluar | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=スライサーを<ruby>使<rt>つか</rt></ruby>うときは、<ruby>押<rt>お</rt></ruby>し<ruby>板<rt>いた</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す。
+    TRANS: Saat menggunakan mesin pengiris (slicer), dorong roti menggunakan papan pendorong.
+    KOTOBA: [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0316] 押し板(おしいた) [compound_technical] = pelat pendorong (pada mesin pengiris roti) | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-v2-p2-130] 押し出す(おしだす) [word] = mendorong keluar | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=スライサーを<ruby>使<rt>つか</rt></ruby>うときは、<ruby>左手<rt>ひだりて</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す。
+    TRANS: Saat menggunakan mesin pengiris (slicer), dorong roti menggunakan tangan kiri.
+    KOTOBA: [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1290900] 左手(ひだりて) [word] = tangan kiri | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-v2-p2-130] 押し出す(おしだす) [word] = mendorong keluar | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q38 | ID=kunci-ujian-13-q038 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.11 ===
+  FLAGS: [OPT_PROHIBITION_MISMATCH@optTranslation:C] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh
+  CLUSTER CL-0155 (n=3, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q040 (bonus-soal-1), nguyen01-q040 (latsol-nguyen-01)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>下記<rt>かき</rt></ruby>の<ruby>標識<rt>ひょうしき</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby><br>びなさい。
+  QUESTION_TEXT: 安全標識について、下記の標識はどういう意味ですか。正しいものを一つ選
+びなさい。
+  PROMPT_TRANS: Mengenai rambu keselamatan, apa arti rambu di bawah ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 11, Nomor 38) · Kunci Jawaban PDF (Teks Merah): A.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-1184690] 下記(かき) [word] = berikut ini | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-audit-0404] どういう(どういう) [word] = bagaimana / seperti apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>転落<rt>てんらく</rt></ruby>する<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる
+    TRANS: Memperingatkan bahaya jatuh dari ketinggian
+    KOTOBA: [kb-otaff51-0589] 転落(てんらく) [noun] = terguling jatuh dari tangga/ketinggian | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>転<rt>はこ</rt></ruby>ぶ<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる
+    TRANS: Memperingatkan bahaya terjatuh / tersandung
+    KOTOBA: [kb-v2-p5-289] 転ぶ(ころぶ) [word] = terjatuh / terpeleset | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>扉<rt>とびら</rt></ruby>をあけっ<ruby>放<rt>ぱな</rt></ruby>しにすることを<ruby>禁止<rt>きんし</rt></ruby>する
+    TRANS: Melarang membiarkan pintu terbuka terus
+    KOTOBA: [kb-otaff51-0308] 扉(とびら) [noun] = pintu | [kb-v2-p5-268] あけっ放し(あけっぱなし) [word] = dibiarkan terbuka | [kb-audit-0216] することを(することを) [word] = melakukan hal tersebut | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q39 | ID=kunci-ujian-13-q039 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.11 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 知 || [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: ゴ, グル着用 || [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 足元が滑りやすいですご注意ください, 足元注意 || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: 保護メガネ着用
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>目<rt>め</rt></ruby>を<ruby>保護<rt>ほご</rt></ruby>する<ruby>必要<rt>ひつよう</rt></ruby>があることを知らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれです<br>か。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 安全標識について、目を保護する必要があることを知らせる標識はどれです
+か。間違っているものを一つ選びなさい。
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan perlunya melindungi mata? Pilihlah satu jawaban yang salah (atau sesuai gambar).
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 11, Nomor 39) · Kunci Jawaban PDF (Teks Merah): B.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0461] 目(め) [noun] = mata | [kb-1513530] 保護(ほご) [word] = perlindungan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=A
+    TRANS: Pilihan A — Rambu wajib memakai goggle pelindung (ゴーグル着用 / WEAR GOGGLES)
+    MEDIA: media-kunci-ujian-13-q039-a
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan B — Rambu peringatan lantai licin / hati-hati langkah kaki (足元が滑りやすいですご注意ください / 足元注意)
+    MEDIA: media-kunci-ujian-13-q039-b
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan C — Rambu wajib memakai kacamata pelindung (保護メガネ着用 / WEAR SAFETY GLASSES)
+    MEDIA: media-kunci-ujian-13-q039-c
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C
+
+=== #Q40 | ID=kunci-ujian-13-q040 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.11 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0636 "非常口": kotoba="ひじょうぐち" vs ruby="ひじょうくち" || [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: 非常口 || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: 足元注意
+  CLUSTER CL-0156 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q039 (bonus-soal-4)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>避難<rt>ひなん</rt></ruby>するための<ruby>非常口<rt>ひじょうくち</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれです<br>か。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 安全標識について、避難するための非常口の場所を知らせる標識はどれです
+か。間違っているものを一つ選びなさい。
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan lokasi pintu darurat untuk evakuasi? Pilihlah satu jawaban yang salah (atau sesuai gambar).
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 11, Nomor 40) · Kunci Jawaban PDF (Teks Merah): C.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-1484660] 避難(ひなん) [word] = evakuasi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-otaff51-0636] 非常口(ひじょうぐち) [compound_technical] = pintu darurat | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=A
+    TRANS: Pilihan A — Rambu petunjuk arah pintu darurat (非常口 / EMERGENCY EXIT) dengan panah kiri
+    MEDIA: media-kunci-ujian-13-q040-a
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan B — Rambu piktogram pintu darurat berwarna hijau (orang berlari menuju pintu keluar)
+    MEDIA: media-kunci-ujian-13-q040-b
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan C — Rambu peringatan hati-hati tersandung / perhatikan langkah kaki (足元注意 / WATCH YOUR STEP)
+    MEDIA: media-kunci-ujian-13-q040-c
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C

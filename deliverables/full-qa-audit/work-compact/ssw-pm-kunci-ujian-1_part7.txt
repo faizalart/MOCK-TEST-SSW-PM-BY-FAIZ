@@ -1,0 +1,76 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-1 (Soal Ujian 1 — CBTP Gino1) | Batch qa-batch-01 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci1-q025 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 1.pdf p.4 ===
+  CLUSTER CL-0024 (n=8, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q006 (ssw-pm-kunci-ujian-13), bonus-soal-1-q025 (bonus-soal-1), bonus-soal-8-q024 (bonus-soal-8), bonus-soal-10-q012 (bonus-soal-10), nguyen01-q025 (latsol-nguyen-01), nguyen08-q024 (latsol-nguyen-08), nguyen10-q026 (latsol-nguyen-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCP の「7 <ruby>原則<rt>げんそく</rt></ruby>」には、どんな<ruby>項目<rt>こうもく</rt></ruby>がありますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Item apa saja yang terdapat dalam "7 Prinsip" HACCP? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 1.pdf (Halaman 4, Câu 25 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>検証方法<rt>けんしょうほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode verifikasi
+    KOTOBA: [kb-otaff51-0351] 検証方法(けんしょうほうほう) [compound_technical] = metode verifikasi | [kb-1386060] 設定(せってい) [word] = penetapan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>施設基準<rt>しせつきじゅん</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan standar fasilitas
+    KOTOBA: [kb-ext-0709-e696bde8a8] 施設基準(しせつきじゅん) [compound_technical] = standar fasilitas | [kb-1386060] 設定(せってい) [word] = penetapan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=モニタリング<ruby>方法<rt>ほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode pemantauan (monitoring)
+    KOTOBA: [kb-v2-p1-005] モニタリング方法(もにたりんぐほうほう) [compound_technical] = metode pemantauan | [kb-1386060] 設定(せってい) [word] = penetapan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q26 | ID=kunci1-q026 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 1.pdf p.4 ===
+  CLUSTER CL-0025 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=bonus-soal-10-q013 (bonus-soal-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>危険異物<rt>きけんいぶつ</rt></ruby>」にはどんなものがありますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Benda apa saja yang termasuk dalam "benda asing berbahaya"? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 1.pdf (Halaman 4, Câu 26 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-ext-0317-e58db1e999] 危険異物(きけんいぶつ) [compound_technical] = benda asing berbahaya | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>石<rt>いし</rt></ruby>
+    TRANS: Batu
+    KOTOBA: [kb-otaff51-0468] 石(いし) [noun] = batu
+  OPT B: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>
+    TRANS: Rambut
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut
+  OPT C: HTML=ガラス
+    TRANS: Kaca
+    KOTOBA: [kb-v2-p1-057] ガラス(-) [word] = kaca
+
+=== #Q27 | ID=kunci1-q027 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 1.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0456 (い入る): "memasuki / masuk (typo: 入る)"
+  CLUSTER CL-0026 (n=2, diffPrompt=true, diffOpt=true, diffTrans=false): twins=bonus-soal-10-q039 (bonus-soal-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>保護帽<rt>ほごぼう</rt></ruby>（ヘルメットなど）や<ruby>耳栓<rt>みみせん</rt></ruby>、<ruby>安全靴<rt>あんぜんぐつ</rt></ruby>などは、<ruby>体<rt>からだ</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る<ruby>保護具<rt>ほごぐ</rt></ruby>と<ruby>呼<rt>よ</rt></ruby>ばれます。<ruby>保護具<rt>ほごぐ</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Helm pelindung, penyumbat telinga (earplug), dan sepatu keselamatan disebut alat pelindung diri (APD) untuk melindungi tubuh. Pilihlah satu jawaban yang salah mengenai alat pelindung diri (APD).
+  EXPLANATION: Sumber: Kunci Soal Ujian 1.pdf (Halaman 5, Câu 27 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-2701130] 保護帽(ほごぼう) [compound_technical] = helm pelindung | [kb-otaff51-0076] ヘルメット(へるめっと) [noun] = helm keselamatan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0511] 耳栓(みみせん) [compound_technical] = penyumbat telinga (earplug) | [kb-otaff51-0269] 安全靴(あんぜんぐつ) [compound_technical] = sepatu keselamatan (safety shoes) | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-ext-1615-e4bf9de8ad] 保護具(ほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-v2-p1-126] 呼ばれます(よばれます) [inflected_verb, df:呼ぶ] = disebut (dasar: 呼ぶ) | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT A: HTML=<ruby>保護帽子<rt>ほごぼうし</rt></ruby>をかぶる<ruby>前<rt>まえ</rt></ruby>に、<ruby>傷<rt>きず</rt></ruby>がないかをチェックする
+    TRANS: Memeriksa ada tidaknya kerusakan pada helm pelindung sebelum mengenakannya.
+    KOTOBA: [kb-ext-1618-e4bf9de8ad] 保護帽子(ほごぼうし) [compound_technical] = helm pelindung | [kb-v2-p1-202] かぶる(-) [word] = memakai (helm/topi) | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p1-044] チェック(-) [word] = pemeriksaan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT B: HTML=<ruby>化学物質<rt>かがくぶっしつ</rt></ruby>や<ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>時<rt>とき</rt></ruby>は、<ruby>保護<rt>ほご</rt></ruby>メガネや<ruby>手袋<rt>てぶくろ</rt></ruby>をつける
+    TRANS: Mengenakan kacamata pelindung dan sarung tangan saat menggunakan bahan kimia atau cairan obat/pembersih.
+    KOTOBA: [kb-otaff51-0207] 化学物質(かがくぶっしつ) [compound_technical] = zat kimia | [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-otaff51-0138] 保護メガネ(ほごめがね) [compound_technical] = kacamata pelindung (safety glasses) | [kb-otaff51-0311] 手袋(てぶくろ) [noun] = sarung tangan | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=<ruby>安全靴<rt>あんぜんぐつ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>空気<rt>くうき</rt></ruby>をい<ruby>入<rt>はい</rt></ruby>るため、つま<ruby>先<rt>さき</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さな<ruby>穴<rt>あな</rt></ruby>をあけておく
+    TRANS: Membuat lubang kecil di bagian ujung jari sepatu keselamatan agar udara bisa masuk ke dalam sepatu.
+    KOTOBA: [kb-otaff51-0269] 安全靴(あんぜんぐつ) [compound_technical] = sepatu keselamatan (safety shoes) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-1245470] 空気(くうき) [word] = udara | [kb-audit-0456] い入る(いる) [word] = memasuki / masuk (typo: 入る) | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-032] つま先(つまさき) [word] = ujung jari kaki | [kb-v2-p1-257] 小さな(ちいさな) [word] = kecil | [kb-v2-p1-081] 穴(あな) [word] = lubang | [kb-v2-p5-270] あけておく(-) [expression] = melubangi / membiarkan terbuka | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q28 | ID=kunci1-q028 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 1.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0027 (n=2, diffPrompt=false, diffOpt=true, diffTrans=false): twins=bonus-soal-10-q014 (bonus-soal-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>温度<rt>おんど</rt></ruby>と<ruby>湿度<rt>しつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>いところでは「<ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>」の<ruby>危険<rt>きけん</rt></ruby>があります。<ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>を<ruby>予防<rt>よぼう</rt></ruby>するために<ruby>何<rt>なに</rt></ruby>をするとよいですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di tempat dengan suhu dan kelembapan tinggi, terdapat bahaya "sengatan panas (heatstroke)". Apa yang sebaiknya dilakukan untuk mencegah heatstroke? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 1.pdf (Halaman 5, Câu 28 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0409] 湿度(しつど) [noun] = kelembapan udara | [kb-v2-p1-255] 高い(たかい) [word] = tinggi | [kb-v2-p1-292] ところ(-) [word] = bagian / tempat | [kb-otaff51-0425] 熱中症(ねっちゅうしょう) [compound_technical] = sengatan panas (heatstroke) | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-1543660] 予防(よぼう) [word] = pencegahan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-145] するとよい(-) [expression] = sebaiknya dilakukan (dasar: する) | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=こまめに<ruby>休憩<rt>きゅうけい</rt></ruby>をして、<ruby>水分補給<rt>すいぶんほきゅう</rt></ruby>する
+    TRANS: Beristirahat secara berkala dan mencukupi asupan cairan.
+    KOTOBA: [kb-v2-p1-277] こまめに(-) [word] = secara rutin / berkala | [kb-otaff51-0114] 休憩(きゅうけい) [noun] = istirahat | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-2399610] 水分補給(すいぶんほきゅう) [compound_technical] = asupan cairan / rehidrasi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=ストレッチを<ruby>中心<rt>ちゅうしん</rt></ruby>とした<ruby>予防体操<rt>よぼうたいそう</rt></ruby>をする
+    TRANS: Melakukan senam pencegahan yang berfokus pada peregangan (stretching).
+    KOTOBA: [kb-v2-p1-045] ストレッチ(-) [word] = peregangan | [kb-1424550] 中心(ちゅうしん) [word] = pusat / bagian tengah | [kb-v2-p1-319] とした(-) [expression] = hendak melakukan | [kb-ext-1726-e4ba88e998] 予防体操(よぼうたいそう) [compound_technical] = senam pencegahan cedera | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>空気<rt>くうき</rt></ruby>を<ruby>通<rt>とお</rt></ruby>して、<ruby>汗<rt>あせ</rt></ruby>や<ruby>水分<rt>すいぶん</rt></ruby>を<ruby>吸<rt>す</rt></ruby>って、<ruby>乾<rt>かわ</rt></ruby>きやすい<ruby>衣服<rt>いふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>る
+    TRANS: Mengenakan pakaian yang memiliki sirkulasi udara baik, menyerap keringat atau air, dan cepat kering.
+    KOTOBA: [kb-1245470] 空気(くうき) [word] = udara | [kb-audit-1086] 通して(とおして) [inflected_verb, df:通す] = melewati / meloloskan (通す) | [kb-otaff51-0376] 汗(あせ) [noun] = keringat | [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-v2-p1-207] 吸って(すって) [inflected_verb, df:吸う] = menyerap (dasar: 吸う) | [kb-v2-p1-111] 乾きやすい(かわきやすい) [inflected_adj, df:乾く] = mudah kering (dasar: 乾く) | [kb-otaff51-0543] 衣服(いふく) [noun] = pakaian | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)

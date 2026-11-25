@@ -1,0 +1,85 @@
+# AUDIT SHEET: latsol-reguler-05 (Latsol Reguler 05) | Batch qa-batch-09 | Part 2 (Q5-8 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=reguler05-q005 | KEY=A (idx=0) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="異常事態の例はなんですか。ただしいものをひとつえらびなさい。" vs questionText="異常事態の例はなんですか。。ただしものをひとつえらびなさい"
+  CLUSTER CL-0264 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=reguler03-q016 (latsol-reguler-03)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("レバーがぐらぐらします") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異常事態<rt>いじょうじたい</rt></ruby>の<ruby>例<rt>れい</rt></ruby>はなんですか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: 異常事態の例はなんですか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Manakah yang merupakan contoh keadaan tidak normal (abnormal) pada mesin/peralatan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 2, nomor 5. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-ext-latsol-0055] 例(れい) [word] = contoh | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=レバーがぐらぐらします
+    TRANS: Tuas (lever) goyang/longgar
+    KOTOBA: [kb-latsol-lever] レバー(ればー) [word] = tuas / handel mesin | [kb-latsol-guragura] ぐらぐら(ぐらぐら) [word] = goyang / longgar / tidak stabil | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=<ruby>赤<rt>あか</rt></ruby>いランプがついていません
+    TRANS: Lampu merah tidak menyala
+    KOTOBA: [kb-latsol-a1c92ffa4e] 赤い(あかい) [word] = merah | [kb-latsol-lamp] ランプ(らんぷ) [word] = lampu indikator | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat | [kb-audit-0368] いません(いません) [inflected_verb, df:いる] = tidak ada / tidak sedang
+  OPT C: HTML=<ruby>青<rt>あお</rt></ruby>いランプがついています
+    TRANS: Lampu biru/hijau menyala
+    KOTOBA: [kb-latsol-f50610bd7e] 青い(あおい) [word] = biru | [kb-latsol-lamp] ランプ(らんぷ) [word] = lampu indikator | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat | [kb-audit-0369] います(います) [inflected_verb, df:いる] = ada / sedang melakukan
+
+=== #Q6 | ID=reguler05-q006 | KEY=B (idx=1) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="次を見てみてください! 1. 保管管理責任者 2. 保管温度 3. 保管期間 4. 保管場所 HACCP原則の「記録の維持管理」をするときは" vs questionText="次を見てみてください ! 1. 保管管理責任者 2. 保管温度 3. 保管期間 4. 保管場所 HACCP原則の「記録の維持管理」をするとき" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("1, 3, 4") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>次<rt>つぎ</rt></ruby>を<ruby>見<rt>み</rt></ruby>てみてください！ 1. <ruby>保管管理責任者<rt>ほかんかんりせきにんしゃ</rt></ruby> 2. <ruby>保管温度<rt>ほかんおんど</rt></ruby> 3. <ruby>保管期間<rt>ほかんきかん</rt></ruby> 4. <ruby>保管場所<rt>ほかんばしょ</rt></ruby> HACCP<ruby>原則<rt>げんそく</rt></ruby>の「<ruby>記録<rt>きろく</rt></ruby>の<ruby>維持管理<rt>いじかんり</rt></ruby>」をするときは、<ruby>記録<rt>きろく</rt></ruby>の<ruby>保管<rt>ほかん</rt></ruby>については<ruby>何<rt>なに</rt></ruby>が<ruby>明確<rt>めいかく</rt></ruby>にしておくことが<ruby>必要<rt>ひつよう</rt></ruby>ですか？
+  QUESTION_TEXT: 次を見てみてください ! 1. 保管管理責任者 2. 保管温度 3. 保管期間 4. 保管場所 HACCP原則の「記録の維持管理」をするときは、記録の保管については何が明確しておくことが必要ですか ?
+  PROMPT_TRANS: Perhatikan poin berikut! 1. Penanggung jawab pengelolaan penyimpanan 2. Suhu penyimpanan 3. Masa penyimpanan 4. Tempat penyimpanan. Saat menjalankan prinsip HACCP "Pemeliharaan dan Pengelolaan Catatan/Rekaman", hal apa saja yang perlu diperjelas terkait penyimpanan catatan tersebut?
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 2, nomor 6. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-v2-p5-278] 見て(みて) [inflected, df:見る] = melihat | [kb-ext-latsol-0069] 保管管理責任者(ほかんかんりせきにんしゃ) [word] = penanggung jawab pengelolaan penyimpan | [kb-otaff51-0137] 保管温度(ほかんおんど) [compound_technical] = suhu penyimpanan | [kb-ext-latsol-0070] 保管期間(ほかんきかん) [word] = periode penyimpanan | [kb-otaff51-0133] 保管場所(ほかんばしょ) [compound_technical] = tempat penyimpanan | [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman | [kb-ext-latsol-0071] 維持管理(いじかんり) [word] = pengelolaan pemeliharaan | [kb-audit-1102] するとき(するとき) [expression] = ketika melakukan (する時) | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-latsol-efb1c63b55] 明確に(めいかくに) [word] = jelas | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=1, 2, 3
+    TRANS: 1, 2, 3
+    KOTOBA: (EMPTY)
+  OPT B: HTML=1, 3, 4
+    TRANS: 1, 3, 4
+    KOTOBA: (EMPTY)
+  OPT C: HTML=1, 2, 4
+    TRANS: 1, 2, 4
+    KOTOBA: (EMPTY)
+  OPT D: HTML=2, 3, 4
+    TRANS: 2, 3, 4
+    KOTOBA: (EMPTY)
+
+=== #Q7 | ID=reguler05-q007 | KEY=B (idx=1) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="化学的危害要因について間違っているものはどれですか?" vs questionText="化学的危害要因について間違っているものはどれですか ?"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("ミネラル、殺菌剤、洗浄剤") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>化学的危害要因<rt>かがくてききがいよういん</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものはどれですか？
+  QUESTION_TEXT: 化学的危害要因について間違っているものはどれですか ?
+  PROMPT_TRANS: Manakah yang salah mengenai faktor bahaya kimiawi?
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 2, nomor 7. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0208] 化学的危害要因(かがくてききがいよういん) [compound_technical] = faktor bahaya kimia | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>農薬<rt>のうやく</rt></ruby>、<ruby>抗生物質<rt>こうせいぶっしつ</rt></ruby>、<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>
+    TRANS: Pestisida, antibiotik, bahan pembersih/deterjen
+    KOTOBA: [kb-1470780] 農薬(のうやく) [word] = pestisida | [kb-ext-latsol-0072] 抗生物質(こうせいぶっしつ) [word] = zat antibiotik | [kb-otaff51-0386] 洗浄剤(せんじょうざい) [compound_technical] = bahan pencuci / deterjen
+  OPT B: HTML=ミネラル、<ruby>殺菌剤<rt>さっきんざい</rt></ruby>、<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>
+    TRANS: Mineral, disinfektan/bakterisida, bahan pembersih
+    KOTOBA: [kb-latsol-mineral] ミネラル(みねらる) [word] = mineral | [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0386] 洗浄剤(せんじょうざい) [compound_technical] = bahan pencuci / deterjen
+  OPT C: HTML=<ruby>抗生物質<rt>こうせいぶっしつ</rt></ruby>、<ruby>農薬<rt>のうやく</rt></ruby>、<ruby>殺菌剤<rt>さっきんざい</rt></ruby>
+    TRANS: Antibiotik, pestisida, disinfektan/bakterisida
+    KOTOBA: [kb-ext-latsol-0072] 抗生物質(こうせいぶっしつ) [word] = zat antibiotik | [kb-1470780] 農薬(のうやく) [word] = pestisida | [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida
+
+=== #Q8 | ID=reguler05-q008 | KEY=B (idx=1) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="ただしい手洗い方法はどれですか?ただしいものをひとつえらびなさい。" vs questionText="ただし手洗い方法はどれですか? ただしものをひとつえらびなさい。。" || [KANJI_WITHOUT_RUBY@opt:A] 水, 濡, 石, 拭, 水, 流 || [KANJI_WITHOUT_RUBY@opt:B] 水, 流, 洗剤, 洗, 水, 洗, 流, 拭, 取, 消毒 || [KANJI_WITHOUT_RUBY@opt:C] 水, 流, 洗剤, 洗, 水, 洗, 流, 消毒, 拭, 取
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("b.（水で流す → 洗剤をつけ洗う → 水で洗い流す → ペーパーで拭き取る → アルコール消毒）") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ただしい<ruby>手洗<rt>てあら</rt></ruby>い<ruby>方法<rt>ほうほう</rt></ruby>はどれですか？ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: ただし手洗い方法はどれですか? ただしものをひとつえらびなさい。。
+  PROMPT_TRANS: Manakah urutan cara mencuci tangan yang benar? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 3, nomor 8. Bobot: 7.5 poin. Kunci jawaban: B. Visual: 3 baris diagram tahapan cuci tangan (a, b, c).
+  KOTOBA_PROMPT: [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-latsol-9fe83e4cd4] 手洗い方法(てあらいほうほう) [word] = cara mencuci tangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=a.（水で濡らす → 石けん → こする → ペーパーで拭く → 水で流す）
+    TRANS: Urutan gambar a (mengeringkan tangan dengan tisu sebelum membilas sabun dengan air)
+    MEDIA: media-reguler05-q008-option-a
+    KOTOBA: [kb-otaff51-0369] 水(みず) [noun] = air | [kb-latsol-nurasu] 濡らす(ぬらす) [word] = membasahi | [kb-latsol-d1493a2c5a] 石けん(せっけん) [word] = sabun cuci tangan | [kb-latsol-kosuru] こする(こする) [word] = menggosok (tangan) | [kb-latsol-40f9f7b926] ペーパー(ぺーぱー) [word] = kertas / tisu pengering tangan | [kb-latsol-fuku] 拭く(ふく) [word] = mengelap / mengeringkan | [kb-v2-p1-208] 流す(ながす) [word] = mengalirkan / membilas
+  OPT B: HTML=b.（水で流す → 洗剤をつけ洗う → 水で洗い流す → ペーパーで拭き取る → アルコール消毒）
+    TRANS: Urutan gambar b (membasahi dengan air → sabun → membilas air → mengeringkan dengan tisu → disinfeksi alkohol)
+    MEDIA: media-reguler05-q008-option-b
+    KOTOBA: [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-208] 流す(ながす) [word] = mengalirkan / membilas | [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-otaff51-0714] つけ(つけ) [inflected_verb, df:つける] = mengoleskan / memakai | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-otaff51-0384] 洗い流す(あらいながす) [verb] = membilas dengan air mengalir | [kb-latsol-40f9f7b926] ペーパー(ぺーぱー) [word] = kertas / tisu pengering tangan | [kb-v2-p3-329] 拭き取る(ふきとる) [word] = mengelap hingga bersih | [kb-otaff51-0034] アルコール消毒(あるこーるしょうどく) [compound_technical] = disinfeksi dengan alkohol
+  OPT C: HTML=c.（水で流す → 洗剤をつけ洗う → 水で洗い流す → アルコール消毒 → ペーパーで拭き取る）
+    TRANS: Urutan gambar c (menyemprotkan disinfektan alkohol sebelum mengeringkan tangan dengan tisu)
+    MEDIA: media-reguler05-q008-option-c
+    KOTOBA: [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-208] 流す(ながす) [word] = mengalirkan / membilas | [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-otaff51-0714] つけ(つけ) [inflected_verb, df:つける] = mengoleskan / memakai | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-otaff51-0384] 洗い流す(あらいながす) [verb] = membilas dengan air mengalir | [kb-otaff51-0034] アルコール消毒(あるこーるしょうどく) [compound_technical] = disinfeksi dengan alkohol | [kb-latsol-40f9f7b926] ペーパー(ぺーぱー) [word] = kertas / tisu pengering tangan | [kb-v2-p3-329] 拭き取る(ふきとる) [word] = mengelap hingga bersih

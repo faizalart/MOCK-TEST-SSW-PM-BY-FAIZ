@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-11 (Soal Ujian 11 — CBTP Gino1) | Batch qa-batch-03 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=kunci-ujian-11-q013 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-ext-0817-e58d81e588 "十分加熱": kotoba="じゅうぶんかねつ" vs ruby="じゅっぷんかねつ"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>に<ruby>存在<rt>そんざい</rt></ruby>し、<ruby>十分加熱<rt>じゅっぷんかねつ</rt></ruby>しないと<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>しやすい<ruby>原因<rt>げんいん</rt></ruby>はどれか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah penyebab yang terdapat pada kerang-kerangan (bivalvia) seperti tiram dan mudah menyebabkan keracunan makanan jika tidak melalui pemanasan yang cukup?
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 2, Câu 13 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia) | [kb-v2-p2-183] 存在し(そんざいし) [inflected, df:存在する] = ada / terdapat | [kb-ext-0817-e58d81e588] 十分加熱(じゅうぶんかねつ) [word] = pemanasan menyeluruh hingga matang | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p2-180] 発生しやすい(はっせいしやすい) [inflected, df:発生する] = mudah terjadi | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>赤痢菌<rt>せきりきん</rt></ruby>
+    TRANS: Bakteri Shigella (disentri) / Norovirus
+    KOTOBA: [kb-1645900] 赤痢菌(せきりきん) [word] = bakteri Shigella (disentri)
+  OPT B: HTML=<ruby>赤痢菌<rt>せきりきん</rt></ruby>
+    TRANS: Bakteri Shigella (disentri) / Norovirus
+    KOTOBA: [kb-1645900] 赤痢菌(せきりきん) [word] = bakteri Shigella (disentri)
+  OPT C: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+
+=== #Q14 | ID=kunci-ujian-11-q014 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品提供<rt>しょくひんていきょう</rt></ruby>のための<ruby>条件<rt>じょうけん</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>でないものを<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah hal yang paling tidak tepat sebagai syarat untuk menyediakan produk pangan yang aman.
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 3, Câu 14 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-ext-0944-e9a39fe593] 食品提供(しょくひんていきょう) [word] = penyajian makanan ke konsumen | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1356510] 条件(じょうけん) [word] = syarat / kondisi | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0598] 適切(てきせつ) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p5-222] ください(-) [particle] = silakan / tolong | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>選択<rt>せんたく</rt></ruby>
+    TRANS: Pemilihan bahan baku yang aman
+    KOTOBA: [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1392290] 選択(せんたく) [word] = pemilihan / opsi pilihan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>衛生的<rt>えいせいてき</rt></ruby>な<ruby>製造環境<rt>せいぞうかんきょう</rt></ruby>の<ruby>確保<rt>かくほ</rt></ruby>
+    TRANS: Penjaminan lingkungan produksi yang higienis
+    KOTOBA: [kb-1609370] 衛生的(えいせいてき) [word] = higienis | [kb-ext-1055-e8a3bde980] 製造環境(せいぞうかんきょう) [word] = lingkungan produksi | [kb-1205920] 確保(かくほ) [word] = memastikan ketersediaan | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>経済的<rt>けいざいてき</rt></ruby>な<ruby>価格設定<rt>かかくせってい</rt></ruby>
+    TRANS: Penetapan harga yang ekonomis
+    KOTOBA: [kb-1609740] 経済的(けいざいてき) [word] = Secara ekonomis dan efisien | [kb-2540530] 価格設定(かかくせってい) [word] = Penetapan harga jual produk | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na
+
+=== #Q15 | ID=kunci-ujian-11-q015 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.3 ===
+  CLUSTER CL-0138 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=kunci-ujian-11-q019 (ssw-pm-kunci-ujian-11)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>倉庫<rt>そうこ</rt></ruby>で<ruby>高<rt>たか</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>にある<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>す<ruby>際<rt>さい</rt></ruby>、<ruby>脚立<rt>きゃたつ</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>するときに<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>確保<rt>かくほ</rt></ruby>するためにどのような<ruby>手順<rt>てじゅん</rt></ruby>を<ruby>取<rt>と</rt></ruby>るべきですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Prosedur apa yang harus dilakukan untuk memastikan keselamatan saat menggunakan tangga lipat (kyatatsu) ketika mengambil barang di tempat tinggi di gudang? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 3, Câu 15 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0143] 倉庫(そうこ) [noun] = gudang | [kb-v2-p1-255] 高い(たかい) [word] = tinggi | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p1-242] ある(-) [word] = ada | [kb-1347310] 商品(しょうひん) [word] = produk barang | [kb-u1416-4e39efcb4f] 取り出す(とりだす) [word] = mengambil / mengeluarkan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-otaff51-0517] 脚立(きゃたつ) [noun] = tangga lipat (stepladder) | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1205920] 確保(かくほ) [word] = memastikan ketersediaan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-otaff51-0312] 手順(てじゅん) [noun] = urutan prosedur / langkah | [kb-v2-p1-233] 取る(とる) [word] = menghilangkan / mengambil | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>脚立<rt>きゃたつ</rt></ruby>は、<ruby>必<rt>ひつ</rt></ruby>ず<ruby>開<rt>ひら</rt></ruby>き<ruby>止<rt>ど</rt></ruby>めを<ruby>セット<rt>せっと</rt></ruby>して<ruby>使用<rt>しよう</rt></ruby>する。
+    TRANS: Selalu memasang pengunci bukaan (penahan) saat menggunakan tangga lipat.
+    KOTOBA: [kb-otaff51-0517] 脚立(きゃたつ) [noun] = tangga lipat (stepladder) | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p2-051] 開き止め(ひらきどめ) [compound_technical] = pengunci bentangan (tangga lipat) | [kb-v2-p2-148] セットして(-) [inflected, df:セットする] = memasang / mengatur | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>下<rt>お</rt></ruby>りる<ruby>時<rt>とき</rt></ruby>に<ruby>両手<rt>りょうて</rt></ruby>で<ruby>脚立<rt>きゃたつ</rt></ruby>をつかむため、<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>床<rt>ゆか</rt></ruby>に<ruby>投<rt>な</rt></ruby>げる。
+    TRANS: Melempar produk ke lantai agar kedua tangan dapat berpegangan pada tangga lipat saat turun.
+    KOTOBA: [kb-v2-p2-141] 下りる(おりる) [word] = turun | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-otaff51-0099] 両手(りょうて) [noun] = kedua tangan | [kb-otaff51-0517] 脚立(きゃたつ) [noun] = tangga lipat (stepladder) | [kb-v2-p2-143] つかむ(-) [word] = menggenggam / berpegangan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1347310] 商品(しょうひん) [word] = produk barang | [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-v2-p2-149] 投げる(なげる) [word] = melempar | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>す<ruby>際<rt>さい</rt></ruby>には<ruby>脚立<rt>きゃたつ</rt></ruby>の<ruby>手<rt>て</rt></ruby>すりに<ruby>体重<rt>たいじゅう</rt></ruby>をかける。
+    TRANS: Menumpukan berat badan pada pegangan tangga lipat saat mengambil barang.
+    KOTOBA: [kb-1347310] 商品(しょうひん) [word] = produk barang | [kb-u1416-4e39efcb4f] 取り出す(とりだす) [word] = mengambil / mengeluarkan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-otaff51-0517] 脚立(きゃたつ) [noun] = tangga lipat (stepladder) | [kb-v2-p2-081] 手すり(てすり) [word] = pegangan tangga | [kb-1409540] 体重(たいじゅう) [word] = Berat badan tubuh pekerja | [kb-v2-p1-190] かける(-) [word] = memanggil / menegur | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q16 | ID=kunci-ujian-11-q016 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.3 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  CLUSTER CL-0139 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=kunci-ujian-11-q020 (ssw-pm-kunci-ujian-11)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>倉庫<rt>そうこ</rt></ruby>でフォークリフトを<ruby>使用<rt>しよう</rt></ruby>して<ruby>高<rt>たか</rt></ruby>い<ruby>棚<rt>たな</rt></ruby>から<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>す<ruby>際<rt>さい</rt></ruby>、<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>確保<rt>かくほ</rt></ruby>するためにどのような<ruby>手順<rt>てじゅん</rt></ruby>を<ruby>取<rt>と</rt></ruby>るべきですか。<ruby>正<rt>ただ</rt></ruby>しいものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Prosedur apa yang harus dilakukan untuk memastikan keselamatan saat menggunakan forklift ketika mengambil barang dari rak tinggi di gudang? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 3, Câu 16 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0143] 倉庫(そうこ) [noun] = gudang | [kb-otaff51-0071] フォークリフト(ふぉーくりふと) [noun] = forklift | [kb-audit-0966] 使用して(しようして) [inflected_verb, df:使用する] = menggunakan (~て) | [kb-v2-p1-255] 高い(たかい) [word] = tinggi | [kb-otaff51-0347] 棚(たな) [noun] = rak | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-1347310] 商品(しょうひん) [word] = produk barang | [kb-u1416-4e39efcb4f] 取り出す(とりだす) [word] = mengambil / mengeluarkan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1205920] 確保(かくほ) [word] = memastikan ketersediaan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-otaff51-0312] 手順(てじゅん) [noun] = urutan prosedur / langkah | [kb-v2-p1-233] 取る(とる) [word] = menghilangkan / mengambil | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=フォークリフトを<ruby>高速<rt>こうそく</rt></ruby>で<ruby>操作<rt>そうさ</rt></ruby>する。
+    TRANS: Mengoperasikan forklift dengan kecepatan tinggi.
+    KOTOBA: [kb-otaff51-0071] フォークリフト(ふぉーくりふと) [noun] = forklift | [kb-1283700] 高速(こうそく) [word] = kecepatan tinggi | [kb-1400050] 操作(そうさ) [word] = pengoperasian mesin | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>不安定<rt>ふあんてい</rt></ruby>な<ruby>位置<rt>いち</rt></ruby>に<ruby>積<rt>つ</rt></ruby>み<ruby>上<rt>あ</rt></ruby>げる。
+    TRANS: Menumpuk barang pada posisi yang tidak stabil.
+    KOTOBA: [kb-1347310] 商品(しょうひん) [word] = produk barang | [kb-latsol-831d07b0f6] 不安定な(ふあんていな) [word] = tidak stabil | [kb-1587310] 位置(いち) [word] = posisi / tata letak barang | [kb-v2-p2-132] 積み上げる(つみあげる) [word] = menumpuk ke atas | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=フォークリフトの<ruby>安全帯<rt>あんぜんたい</rt></ruby>を<ruby>着用<rt>ちゃくよう</rt></ruby>し、<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>速度<rt>そくど</rt></ruby>で<ruby>移動<rt>いどう</rt></ruby>する。
+    TRANS: Mengenakan sabuk pengaman forklift dan bergerak dengan kecepatan yang tepat.
+    KOTOBA: [kb-otaff51-0071] フォークリフト(ふぉーくりふと) [noun] = forklift | [kb-2544890] 安全帯(あんぜんたい) [word] = sabuk pengaman kerja tinggi | [kb-audit-1010] 着用し(ちゃくようし) [inflected_verb, df:着用する] = mengenakan / memakai | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-1405050] 速度(そくど) [word] = kecepatan putaran / laju | [kb-v2-p2-214] 移動する(いどうする) [word] = berpindah / berjalan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi

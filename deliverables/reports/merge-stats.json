@@ -1,0 +1,47 @@
+{
+  "backupsCreated": [
+    "deliverables\\backups\\pre-otaff-pm51-10-paket\\utils.js",
+    "deliverables\\backups\\pre-otaff-pm51-10-paket\\app.js",
+    "deliverables\\backups\\pre-otaff-pm51-10-paket\\sw.js",
+    "deliverables\\backups\\pre-otaff-pm51-10-paket\\index.html",
+    "deliverables\\backups\\pre-otaff-pm51-10-paket\\data\\sharedKotobaDictionary.json",
+    "deliverables\\backups\\pre-otaff-pm51-10-paket\\data\\kotobaMapping.json",
+    "deliverables\\backups\\pre-otaff-pm51-10-paket\\data\\kotoba-dan-kategori-tambahan.json"
+  ],
+  "copiedPackages": 10,
+  "copiedPngs": 122,
+  "dictionary": {
+    "before": 4658,
+    "delta": 753,
+    "addedNewIds": 753,
+    "reusedById": 0,
+    "contentOverlapWithExistingMaster": 179,
+    "conflictsResolved": 0,
+    "after": 5411,
+    "normalizedFurigana": [
+      {
+        "id": "kb-otaff51-0067",
+        "before": "ひやり・はっと",
+        "after": "ひやりはっと"
+      },
+      {
+        "id": "kb-otaff51-0068",
+        "before": "ひやり・はっとかつどう",
+        "after": "ひやりはっとかつどう"
+      }
+    ]
+  },
+  "mapping": {
+    "questionsBefore": 1739,
+    "questionsAdded": 400,
+    "questionsAfter": 2139,
+    "optionContextsAdded": 1200,
+    "compositeKeysBefore": 5383,
+    "compositeKeysAfter": 6583
+  },
+  "kotobaTambahan": {
+    "before": 733,
+    "added": 400,
+    "after": 1133
+  }
+}

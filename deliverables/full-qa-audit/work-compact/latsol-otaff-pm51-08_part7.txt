@@ -1,0 +1,74 @@
+# AUDIT SHEET: latsol-otaff-pm51-08 (Latsol OTAFF SSW PM Modul 5.1 - Paket 08) | Batch qa-batch-12 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=otaff-pm51-08-q025 | KEY=A (idx=0) | CAT=第2章 4. HACCPによる衛生管理（Bab 2.4: Manajemen Higiene HACCP） | SRC=Bab 1-3.pdf p.45 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPの<ruby>記録<rt>きろく</rt></ruby>の<ruby>具体例<rt>ぐたいれい</rt></ruby>として、テキストに<ruby>挙<rt>あ</rt></ruby>げられているものはどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang disebutkan di dalam buku teks sebagai contoh konkret dari pencatatan (rekaman) dalam sistem HACCP? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 45 (Bab 2.4(5), hal. 40 teks). Bobot: 3 poin. Kunci jawaban: A. Contoh pencatatan pada halaman 40 teks adalah suhu bagian dalam kulkas, suhu inti hamburger yang dipanaskan, dan konsentrasi larutan sterilisasi yang digunakan.
+  INLINE_KOTOBA_COUNT: 31
+  KOTOBA_PROMPT: [kb-v2-p1-018] HACCP(-) [abbreviation] = sistem jaminan keamanan pangan HACCP | [kb-1223440] 記録(きろく) [word] = pencatatan / rekaman data | [kb-otaff51-0753] 具体例(ぐたいれい) [noun] = contoh konkret | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-otaff51-0731] 挙げられている(あげられている) [inflected_verb, df:挙げる] = disebutkan / tercantum | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>や、<ruby>加熱<rt>かねつ</rt></ruby>されたハンバーグの<ruby>中心温度<rt>ちゅうしんおんど</rt></ruby>、<ruby>使<rt>つか</rt></ruby>った<ruby>殺菌液<rt>さっきんえき</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>を、いつ・<ruby>誰<rt>だれ</rt></ruby>が・どのように<ruby>記録<rt>きろく</rt></ruby>するか。
+    TRANS: Mencatat suhu di dalam kulkas, suhu inti hamburger yang telah dipanaskan, atau konsentrasi larutan sterilisasi yang digunakan (kapan, siapa, dan bagaimana mencatatnya).
+    KOTOBA: [kb-1557110] 冷蔵庫(れいぞうこ) [word] = kulkas (lemari pendingin) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-1183510] 温度(おんど) [word] = suhu | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-otaff51-0762] ハンバーグ(はんばーぐ) [noun] = daging patty / hamburg | [kb-ext-1228-e4b8ade5bf] 中心温度(ちゅうしんおんど) [word] = suhu inti bagian tengah makanan | [kb-v2-p2-027] 使った(つかった) [inflected, df:使う] = yang digunakan | [kb-ext-0661-e6aebae88f] 殺菌液(さっきんえき) [word] = cairan disinfektan / pembunuh kuman | [kb-1469970] 濃度(のうど) [word] = konsentrasi / kadar | [kb-otaff51-0755] いつ(いつ) [adverb] = kapan | [kb-v2-p1-262] 誰(だれ) [word] = siapa | [kb-1223440] 記録(きろく) [word] = pencatatan / rekaman data
+  OPT B: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>自宅<rt>じたく</rt></ruby>のテレビのチャンネルを<ruby>記録<rt>きろく</rt></ruby>する。
+    TRANS: Mencatat saluran televisi di rumah pekerja.
+    KOTOBA: [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-1318260] 自宅(じたく) [word] = Rumah tempat tinggal pekerja | [kb-v2-p1-033] テレビ(-) [word] = televisi | [kb-otaff51-1521] チャンネル(ちゃんねる) [noun] = saluran TV / kanal | [kb-1223440] 記録(きろく) [word] = pencatatan / rekaman data
+  OPT C: HTML=<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>を<ruby>通<rt>とお</rt></ruby>った<ruby>車<rt>くるま</rt></ruby>の<ruby>数<rt>かず</rt></ruby>を<ruby>記録<rt>きろく</rt></ruby>する。
+    TRANS: Mencatat jumlah mobil yang lewat di depan pabrik.
+    KOTOBA: [kb-1578700] 工場(こうじょう) [word] = pabrik | [kb-v2-p1-059] 前(まえ) [word] = sebelum | [kb-otaff51-1522] 通った(とおった) [inflected_verb, df:通る] = melintas / lewat | [kb-v2-p6-267] 車(くるま) [word] = mobil / kendaraan | [kb-1580820] 数(かず) [standalone_term] = Jumlah hitungan angka kuantitas | [kb-1223440] 記録(きろく) [word] = pencatatan / rekaman data
+
+=== #Q26 | ID=otaff-pm51-08-q026 | KEY=B (idx=1) | CAT=第3章 労働安全（Bab 3: Keselamatan Kerja） | SRC=Bab 1-3.pdf p.50 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>重<rt>おも</rt></ruby>いものを<ruby>持<rt>も</rt></ruby>ちあげるときや、<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>して<ruby>重<rt>おも</rt></ruby>いものを<ruby>運<rt>はこ</rt></ruby>ぶときなどに<ruby>起<rt>お</rt></ruby>こり、<ruby>一度起<rt>いちどお</rt></ruby>こると<ruby>長<rt>なが</rt></ruby>い<ruby>間治<rt>あいだなお</rt></ruby>らなかったり<ruby>何度<rt>なんど</rt></ruby>も<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>しやすくなったりする<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kecelakaan kerja manakah yang terjadi saat mengangkat benda berat atau berulang kali mengangkut benda berat, yang jika sekali terjadi sering kali membutuhkan waktu lama untuk sembuh atau mudah kambuh berulang kali? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 50 (Bab 3.1(2)⑥, hal. 45 teks). Bobot: 5 poin. Kunci jawaban: B. 「腰痛」災害 terjadi saat mengangkat atau berulang kali mengangkut benda berat, dan memiliki ciri sering sulit sembuh dalam waktu lama serta mudah kambuh berulang kali.
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-1523] 持ちあげるとき(もちあげるとき) [expression] = saat mengangkat ke atas | [kb-latsol-b09dc99a8c] 繰り返して(くりかえして) [word] = berulang kali | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0721] 起こり(おこり) [inflected_verb, df:起こる] = terjadi | [kb-otaff51-0934] 一度(いちど) [adverb] = satu kali | [kb-v2-p3-244] 起こる(おこる) [word] = terjadi | [kb-otaff51-1524] 長い間(ながいあいだ) [expression] = dalam jangka waktu lama | [kb-otaff51-1525] 治らなかった(なおらなかった) [inflected_verb, df:治る] = tidak sembuh / pulih | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-otaff51-1526] 繰り返しやすくなったり(くりかえしやすくなったり) [inflected_verb, df:繰り返す] = menjadi mudah kambuh/berulang | [kb-1560430] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=「<ruby>感電<rt>かんでん</rt></ruby>」<ruby>災害<rt>さいがい</rt></ruby>
+    TRANS: Kecelakaan 'tersengat listrik'
+    KOTOBA: [kb-1212540] 感電(かんでん) [word] = tersengat aliran listrik | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana
+  OPT B: HTML=「<ruby>腰痛<rt>ようつう</rt></ruby>」<ruby>災害<rt>さいがい</rt></ruby>
+    TRANS: Kecelakaan 'sakit pinggang (youtsuu)'
+    KOTOBA: [kb-1288430] 腰痛(ようつう) [word] = nyeri pinggang | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana
+  OPT C: HTML=「<ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>」<ruby>災害<rt>さいがい</rt></ruby>
+    TRANS: Kecelakaan 'sengatan panas'
+    KOTOBA: [kb-ext-1417-e786b1e4b8] 熱中症(ねっちゅうしょう) [compound_technical] = heatstroke / sengatan panas | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana
+
+=== #Q27 | ID=otaff-pm51-08-q027 | KEY=C (idx=2) | CAT=第3章 労働安全（Bab 3: Keselamatan Kerja） | SRC=Bab 1-3.pdf p.52 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>薬品<rt>やくひん</rt></ruby>や「<ruby>微粉<rt>びふん</rt></ruby>（<ruby>非常<rt>ひじょう</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さな<ruby>粉<rt>こな</rt></ruby>）」を<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>うときや、「<ruby>高圧洗浄作業<rt>こうあつせんじょうさぎょう</rt></ruby>」のときに、<ruby>液<rt>えき</rt></ruby>・<ruby>粉<rt>こな</rt></ruby>・<ruby>洗浄物<rt>せんじょうぶつ</rt></ruby>が<ruby>眼<rt>め</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るのを<ruby>防<rt>ふせ</rt></ruby>ぐために<ruby>着用<rt>ちゃくよう</rt></ruby>する<ruby>安全保護具<rt>あんぜんほごぐ</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat menangani bahan kimia atau 'serbuk sangat halus (bifun)', maupun saat melakukan 'pekerjaan pencucian bertekanan tinggi (kouatsu senjou)', alat pelindung diri (APD) manakah yang wajib dikenakan untuk mencegah cairan, serbuk, atau kotoran cucian masuk ke mata? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 52 (Bab 3.2(2)② Tabel APD, hal. 47 teks). Bobot: 5 poin. Kunci jawaban: C. 保護メガネ digunakan untuk melindungi mata (眼のケガの防止) saat menangani bahan kimia, serbuk sangat halus (微粉), maupun saat melakukan pencucian bertekanan tinggi (高圧洗浄作業).
+  INLINE_KOTOBA_COUNT: 27
+  KOTOBA_PROMPT: [kb-v2-p4-098] 薬品(やくひん) [word] = bahan kimia | [kb-otaff51-0297] 微粉(びふん) [compound_technical] = serbuk sangat halus | [kb-1484920] 非常(ひじょう) [word] = darurat / sangat | [kb-v2-p1-257] 小さな(ちいさな) [word] = kecil | [kb-1504770] 粉(こな) [standalone_term] = Bubuk tepung bahan baku makanan | [kb-v2-p3-311] 取り扱う(とりあつかう) [word] = menangani / mengolah | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0984] 高圧洗浄作業(こうあつせんじょうさぎょう) [compound_technical] = pekerjaan cuci bertekanan tinggi | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-otaff51-1527] 液(えき) [noun] = cairan / larutan | [kb-1390970] 洗浄(せんじょう) [word] = pencucian / pembersihan | [kb-v2-p2-246] 物(もの) [word] = benda / barang | [kb-v2-p5-152] 眼(め) [word] = mata | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-pilot51-022] 着用する(ちゃくようする) [verb] = mengenakan / memakai | [kb-pilot51-020] 安全保護具(あんぜんほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>耳栓<rt>みみせん</rt></ruby>
+    TRANS: Penyumbat telinga (earplug)
+    KOTOBA: [kb-1317270] 耳栓(みみせん) [word] = penutup telinga
+  OPT B: HTML=くさり<ruby>手袋<rt>てぶくろ</rt></ruby>
+    TRANS: Sarung tangan rantai
+    KOTOBA: [kb-otaff51-0013] くさり手袋(くさりてぶくろ) [compound_technical] = sarung tangan rantai baja tahan karat
+  OPT C: HTML=<ruby>保護<rt>ほご</rt></ruby>メガネ（またはゴーグル）
+    TRANS: Kacamata pelindung / safety glasses (atau goggle)
+    KOTOBA: [kb-v2-p1-015] 保護メガネ(ほごめがね) [compound_technical] = kacamata pelindung | [kb-otaff51-0051] ゴーグル(ごーぐる) [noun] = kacamata goggle pelindung
+
+=== #Q28 | ID=otaff-pm51-08-q028 | KEY=A (idx=0) | CAT=第3章 労働安全（Bab 3: Keselamatan Kerja） | SRC=Bab 1-3.pdf p.52 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>大<rt>おお</rt></ruby>きな「<ruby>騒音<rt>そうおん</rt></ruby>」を<ruby>発<rt>はっ</rt></ruby>する<ruby>場所<rt>ばしょ</rt></ruby>で<ruby>作業<rt>さぎょう</rt></ruby>するときに、「<ruby>難聴<rt>なんちょう</rt></ruby>（<ruby>耳<rt>みみ</rt></ruby>が<ruby>聞<rt>き</rt></ruby>こえにくくなること）」になるのを<ruby>防<rt>ふせ</rt></ruby>ぐために<ruby>着用<rt>ちゃくよう</rt></ruby>する<ruby>安全保護具<rt>あんぜんほごぐ</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat bekerja di tempat yang mengeluarkan 'kebisingan (souon)' keras, alat pelindung diri (APD) manakah yang dikenakan untuk mencegah terjadinya 'gangguan pendengaran / ketulian (nanchou)'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 52 (Bab 3.2(2)② Tabel APD, hal. 47 teks). Bobot: 5 poin. Kunci jawaban: A. 耳栓 (earplug) dikenakan di area bising (騒音を発する場所) sebagai peredam suara (防音) untuk mencegah gangguan pendengaran (難聴になることを防ぎます).
+  INLINE_KOTOBA_COUNT: 27
+  KOTOBA_PROMPT: [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-otaff51-0671] 騒音(そうおん) [noun] = kebisingan | [kb-otaff51-1528] 発する(はっする) [verb] = mengeluarkan (suara keras) | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-302] するときに(-) [expression] = ketika melakukan | [kb-otaff51-0631] 難聴(なんちょう) [compound_technical] = gangguan pendengaran / ketulian | [kb-otaff51-0510] 耳(みみ) [noun] = telinga | [kb-otaff51-1529] 聞こえにくくなる(きこえにくくなる) [expression] = menjadi sulit mendengar | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-pilot51-022] 着用する(ちゃくようする) [verb] = mengenakan / memakai | [kb-pilot51-020] 安全保護具(あんぜんほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>耳栓<rt>みみせん</rt></ruby>（<ruby>防音<rt>ぼうおん</rt></ruby>）
+    TRANS: Penyumbat telinga / mimi-sen (peredam bising)
+    KOTOBA: [kb-1317270] 耳栓(みみせん) [word] = penutup telinga | [kb-otaff51-0627] 防音(ぼうおん) [compound_technical] = peredaman suara bising
+  OPT B: HTML=<ruby>耐熱<rt>たいねつ</rt></ruby>エプロン（やけど<ruby>防止<rt>ぼうし</rt></ruby>）
+    TRANS: Celemek tahan panas (pencegah luka bakar)
+    KOTOBA: [kb-latsol-65b2da4173] 耐熱エプロン(たいねつえぷろん) [word] = celemek tahan panas | [kb-latsol-yakedo] やけど(やけど) [word] = luka bakar (火傷) | [kb-1520380] 防止(ぼうし) [word] = pencegahan
+  OPT C: HTML=<ruby>安全靴<rt>あんぜんぐつ</rt></ruby>（<ruby>足<rt>あし</rt></ruby>の<ruby>圧傷防止<rt>あっしょうぼうし</rt></ruby>）
+    TRANS: Sepatu keselamatan (pencegah cedera remuk pada kaki)
+    KOTOBA: [kb-2834919] 安全靴(あんぜんぐつ) [compound_technical] = sepatu keselamatan | [kb-v2-p1-088] 足(あし) [word] = kaki | [kb-otaff51-0241] 圧傷防止(あっしょうぼうし) [compound_technical] = pencegahan cedera remuk/tertimpa

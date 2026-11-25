@@ -1,0 +1,75 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-3 (Soal Ujian 3 — CBTP Gino1) | Batch qa-batch-01 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=kunci-ujian-3-q017 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.3 ===
+  CLUSTER CL-0076 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-7-q022 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q029 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPにおいて<ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>任<rt>まか</rt></ruby>されている<ruby>重要<rt>じゅうよう</rt></ruby>なことは、<ruby>何<rt>なん</rt></ruby>ですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam HACCP, hal penting apa yang menjadi tanggung jawab pekerja di area kerja? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 3, Câu 17 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-audit-0053] 任されている(まかされている) [inflected_verb, df:任せる] = dipercayakan / diserahkan tugas | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=モニタリング<ruby>結果<rt>けっか</rt></ruby>を<ruby>知<rt>し</rt></ruby>る。
+    TRANS: Cukup mengetahui hasil pemantauan (monitoring) saja
+    KOTOBA: [kb-u1416-b5efcd5b25] モニタリング結果(もにたりんぐけっか) [word] = hasil pemantauan (monitoring) | [kb-v2-p2-173] 知る(しる) [word] = mengetahui | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>管理基準<rt>かんりきじゅん</rt></ruby>の<ruby>設定値<rt>せっていち</rt></ruby>を<ruby>知<rt>し</rt></ruby>る
+    TRANS: Mengetahui nilai standar pengendalian yang telah ditetapkan
+    KOTOBA: [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-ext-1080-e8a8ade5ae] 設定値(せっていち) [word] = nilai yang ditetapkan | [kb-v2-p2-173] 知る(しる) [word] = mengetahui | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>を<ruby>監視<rt>かんし</rt></ruby>する
+    TRANS: Memantau Titik Kendali Kritis (CCP)
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0460] 監視(かんし) [noun] = pemantauan (monitoring) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q18 | ID=kunci-ujian-3-q018 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-v2-p6-491 "密": kotoba="みつ" vs ruby="ひそか"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>新型<rt>しんがた</rt></ruby>コロナウイルス<ruby>感染症<rt>かんせんしょう</rt></ruby>の<ruby>予防方法<rt>よぼうほうほう</rt></ruby>について、<ruby>普段<rt>ふだん</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>で<ruby>気<rt>き</rt></ruby>をつけることは「３つの<ruby>密<rt>ひそか</rt></ruby>」にならないようにする。「<ruby>密閉<rt>みっぺい</rt></ruby>」「<ruby>密接<rt>みっせつ</rt></ruby>」ともう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>です<br>か。
+  QUESTION_TEXT: 新型コロナウイルス感染症の予防方法について、普段の生活で気をつけることは「３つの密」にならないようにする。「密閉」「密接」ともう一つは何です
+か。
+  PROMPT_TRANS: Mengenai cara pencegahan infeksi virus Corona baru (COVID-19), hal yang perlu diperhatikan dalam kehidupan sehari-hari adalah menghindari "3M (3 Mitsu)". Selain "Ruang tertutup (Mippei)" dan "Kontak dekat (Missetsu)", apakah satu hal lainnya?
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 3, Câu 18 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p6-192] 新型コロナウイルス(しんがたころなういるす) [compound_technical] = virus corona baru (COVID-19) | [kb-1614180] 感染症(かんせんしょう) [word] = penyakit menular | [kb-ext-1728-e4ba88e998] 予防方法(よぼうほうほう) [word] = metode pencegahan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-1497180] 普段(ふだん) [word] = Biasanya / kondisi normal sehari-hari | [kb-1378860] 生活(せいかつ) [word] = kehidupan sehari-hari | [kb-latsol-54832517b9] 気をつける(きをつける) [word] = berhati-hati / waspada | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-v2-p6-491] 密(みつ) [word] = padat / tertutup (3C) | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-otaff51-0276] 密閉(みっぺい) [noun] = penutupan rapat / kedap | [kb-1528290] 密接(みっせつ) [word] = berhubungan sangat erat | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT A: HTML=<ruby>密集<rt>みっしゅう</rt></ruby>
+    TRANS: Kerumunan / Padat orang (Misshu)
+    KOTOBA: [kb-1528280] 密集(みっしゅう) [word] = kepadatan tinggi / berdesakan
+  OPT B: HTML=<ruby>密偵<rt>みってい</rt></ruby>
+    TRANS: Mata-mata (Mittei)
+    KOTOBA: [kb-1641760] 密偵(みってい) [word] = Mata-mata / pemeriksaan rahasia
+  OPT C: HTML=<ruby>密告<rt>みっこく</rt></ruby>
+    TRANS: Pengaduan rahasia (Mikkoku)
+    KOTOBA: [kb-1528250] 密告(みっこく) [word] = pelaporan rahasia pelanggaran
+
+=== #Q19 | ID=kunci-ujian-3-q019 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.3 ===
+  CLUSTER CL-0077 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-7-q013 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q018 (ssw-pm-kunci-ujian-14), nguyen03-q019 (latsol-nguyen-03)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>の<ruby>規定<rt>きてい</rt></ruby>では、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>基準温度<rt>きじゅんおんど</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berdasarkan ketentuan Undang-Undang Higiene Pangan Jepang, berapakah standar suhu untuk kulkas (lemari pendingin)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 3, Câu 19 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0653] 食品衛生法(しょくひんえいせいほう) [compound_technical] = Undang-Undang Higiene Pangan Jepang | [kb-1223060] 規定(きてい) [word] = ketentuan / peraturan | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0245] 基準温度(きじゅんおんど) [compound_technical] = suhu standar | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=4℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 4°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 10°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 15°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q20 | ID=kunci-ujian-3-q020 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.3 ===
+  CLUSTER CL-0078 (n=3, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-14-q016 (ssw-pm-kunci-ujian-14), nguyen03-q020 (latsol-nguyen-03)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>鉄<rt>てつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけることができる<ruby>機械<rt>きかい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai mesin yang dapat mendeteksi besi (logam).
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 3, Câu 20 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p6-260] 鉄(てつ) [word] = besi | [kb-v2-p2-165] 見つける(みつける) [word] = menemukan | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>温度計<rt>おんどけい</rt></ruby>
+    TRANS: Termometer
+    KOTOBA: [kb-otaff51-0407] 温度計(おんどけい) [noun] = termometer / alat ukur suhu
+  OPT B: HTML=<ruby>日付検査機<rt>ひづけけんさき</rt></ruby>
+    TRANS: Mesin pemeriksa tanggal
+    KOTOBA: [kb-ext-1402-e697a5e4bb] 日付検査機(ひづけけんさき) [word] = mesin pemeriksa tanggal kedaluwarsa
+  OPT C: HTML=<ruby>金属検査機<rt>きんぞくけんさき</rt></ruby>
+    TRANS: Mesin pemeriksa logam (metal detector)
+    KOTOBA: [kb-ext-0410-e98791e5b1] 金属検査機(きんぞくけんさき) [word] = mesin pemeriksa logam

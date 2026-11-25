@@ -1,0 +1,80 @@
+# AUDIT SHEET: bonus-soal-10 (Bonus Soal 10) | Batch qa-batch-06 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=bonus-soal-10-q001 | KEY=B (idx=1) | CAT= | SRC=Bonus soal 10.pdf p.1 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0001 (n=2, diffPrompt=true, diffOpt=true, diffTrans=false): twins=kunci1-q001 (ssw-pm-kunci-ujian-1)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>ではない <ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>って、<br>それが<ruby>売<rt>う</rt></ruby>られてしまうとどうなりますか。<br><ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang akan terjadi jika produk pangan yang tidak aman dibuat dan dijual? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 1, Soal 1) · Kunci Jawaban Sumber: B. Catatan: Pada PDF sumber Bonus Soal 10, opsi pada Soal 1 & 2 tidak diberi warna merah; kunci jawaban (B) disinkronkan dari soal identik pada Kunci Soal Ujian 1.
+  KOTOBA_PROMPT: [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-v2-p1-314] ではない(-) [particle] = bukan (penegas negatif) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-149] 作って(つくって) [inflected_verb, df:作る] = membuat (dasar: 作る) | [kb-v2-p1-266] それ(-) [word] = itu | [kb-v2-p1-134] 売られて(うられて) [inflected_verb, df:売る] = terjual (dasar: 売る) | [kb-v2-p1-244] しまう(-) [word] = terlanjur terjadi | [kb-v2-p1-272] どうなりますか(-) [expression] = akan menjadi bagaimana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>った<ruby>人病気<rt>ひとびょうき</rt></ruby>になって、<ruby>給料<rt>きゅうりょう</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がる。
+    TRANS: Orang yang membuat pangan menjadi sakit dan gajinya turun.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-150] 作った(つくった) [inflected_verb, df:作る] = yang membuat (dasar: 作る) | [kb-ext-0978-e4babae797] 人病気(ひとびょうき) [word] = penyakit pada manusia | [kb-v2-p1-309] なって(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-1230360] 給料(きゅうりょう) [word] = gaji / upah | [kb-v2-p1-155] 下がる(さがる) [word] = turun | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>が<ruby>病気<rt>びょうき</rt></ruby>になって、<ruby>作<rt>つく</rt></ruby>った<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>信用<rt>しんよう</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちる。
+    TRANS: Orang yang memakan pangan tersebut menjadi sakit dan kepercayaan terhadap perusahaan pembuatnya menurun.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0453] 病気(びょうき) [noun] = penyakit / sakit | [kb-v2-p1-309] なって(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-150] 作った(つくった) [inflected_verb, df:作る] = yang membuat (dasar: 作る) | [kb-otaff51-0115] 会社(かいしゃ) [noun] = perusahaan | [kb-otaff51-0140] 信用(しんよう) [noun] = kepercayaan (kredibilitas) | [kb-v2-p1-153] 落ちる(おちる) [word] = jatuh / menurun | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>った<ruby>会社<rt>かいしゃ</rt></ruby>が<ruby>有名<rt>ゆうめい</rt></ruby>になって、その<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>別<rt>べつ</rt></ruby>の <ruby>食品<rt>しょくひん</rt></ruby>が<ruby>売<rt>う</rt></ruby>れる。
+    TRANS: Perusahaan yang membuat pangan menjadi terkenal dan produk pangan lain dari perusahaan tersebut menjadi laku.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-150] 作った(つくった) [inflected_verb, df:作る] = yang membuat (dasar: 作る) | [kb-otaff51-0115] 会社(かいしゃ) [noun] = perusahaan | [kb-1541620] 有名(ゆうめい) [word] = terkenal | [kb-v2-p1-309] なって(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-268] その(-) [word] = itu | [kb-v2-p1-294] 別(べつ) [word] = lain / terpisah | [kb-v2-p1-156] 売れる(うれる) [word] = laku terjual | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q2 | ID=bonus-soal-10-q002 | KEY=B (idx=1) | CAT= | SRC=Bonus soal 10.pdf p.1 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0002 (n=2, diffPrompt=true, diffOpt=true, diffTrans=false): twins=kunci1-q002 (ssw-pm-kunci-ujian-1)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>職場<rt>しょくば</rt></ruby>に<ruby>行<rt>い</rt></ruby>く<ruby>前<rt>まえ</rt></ruby>に <ruby>体<rt>からだ</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い<ruby>時<rt>とき</rt></ruby>に、<br>どうすれば<ruby>良<rt>よ</rt></ruby>いですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang sebaiknya dilakukan ketika kondisi tubuh sedang kurang sehat sebelum berangkat ke tempat kerja? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 1, Soal 2) · Kunci Jawaban Sumber: B. Catatan: Pada PDF sumber Bonus Soal 10, opsi pada Soal 1 & 2 tidak diberi warna merah; kunci jawaban (B) disinkronkan dari soal identik pada Kunci Soal Ujian 1.
+  KOTOBA_PROMPT: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-v2-p1-158] 行く(いく) [word] = pergi | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-1429170] 調子(ちょうし) [word] = kondisi tubuh | [kb-v2-p1-246] 悪い(わるい) [word] = buruk / tidak baik | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p1-273] どうすれば(-) [expression] = bagaimana sebaiknya | [kb-audit-0881] 良いですか(いいですか) [expression] = apakah boleh / baik | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>誰<rt>だれ</rt></ruby>にも<ruby>連絡<rt>れんらく</rt></ruby>しないで、<ruby>仕事<rt>しごと</rt></ruby>を<ruby>休<rt>やす</rt></ruby>む。
+    TRANS: Libur bekerja tanpa menghubungi siapa pun.
+    KOTOBA: [kb-1416830] 誰(だれ) [standalone_term] = Siapa / pihak penanggung jawab yang ditunjuk | [kb-1559900] 連絡(れんらく) [word] = menghubungi / laporan | [kb-v2-p1-142] しないで(-) [inflected_verb, df:する] = tanpa melakukan (dasar: する) | [kb-otaff51-0110] 仕事(しごと) [noun] = pekerjaan | [kb-v2-p1-157] 休む(やすむ) [word] = beristirahat / libur | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>職場<rt>しょくば</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>連絡<rt>れんらく</rt></ruby>して、<ruby>仕事<rt>しごと</rt></ruby>を<ruby>休<rt>やす</rt></ruby>む。
+    TRANS: Menghubungi penanggung jawab di tempat kerja lalu libur bekerja.
+    KOTOBA: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-1559900] 連絡(れんらく) [word] = menghubungi / laporan | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-otaff51-0110] 仕事(しごと) [noun] = pekerjaan | [kb-v2-p1-157] 休む(やすむ) [word] = beristirahat / libur | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=どんなに <ruby>体<rt>からだ</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くても、<ruby>職場<rt>しょくば</rt></ruby>に<ruby>行<rt>い</rt></ruby>く。
+    TRANS: Tetap pergi ke tempat kerja betapapun buruknya kondisi tubuh.
+    KOTOBA: [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-1429170] 調子(ちょうし) [word] = kondisi tubuh | [kb-v2-p1-247] 悪くても(わるくても) [inflected_adj, df:悪い] = meskipun buruk (dasar: 悪い) | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-v2-p1-158] 行く(いく) [word] = pergi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q3 | ID=bonus-soal-10-q003 | KEY=C (idx=2) | CAT= | SRC=Bonus soal 10.pdf p.2 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  CLUSTER CL-0007 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q008 (ssw-pm-kunci-ujian-1), kunci-ujian-7-q028 (ssw-pm-kunci-ujian-7), bonus-soal-1-q008 (bonus-soal-1), bonus-soal-8-q008 (bonus-soal-8), nguyen01-q008 (latsol-nguyen-01), nguyen08-q008 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスによる <ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>原因<rt>げんいん</rt></ruby>になる <ruby>食品<rt>しょくひん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<br><ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: ノロウイルスによる 食中毒の主な原因になる 食品は何ですか。正しいものを
+一つ選びなさい。
+  PROMPT_TRANS: Pangan apakah yang menjadi penyebab utama keracunan makanan akibat Norovirus? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 2, Soal 3) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>卵<rt>たまご</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>
+    TRANS: Telur dan daging ayam
+    KOTOBA: [kb-otaff51-0216] 卵(たまご) [noun] = telur | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam
+  OPT B: HTML=<ruby>米<rt>こめ</rt></ruby>、<ruby>麦<rt>むぎ</rt></ruby>、<ruby>豆<rt>まめ</rt></ruby>
+    TRANS: Beras, gandum, dan kacang-kacangan
+    KOTOBA: [kb-1508750] 米(こめ) [standalone_term] = Beras mentah bahan baku pangan pokok | [kb-v2-p1-072] 麦(むぎ) [word] = gandum | [kb-v2-p1-073] 豆(まめ) [word] = kacang-kacangan
+  OPT C: HTML=<ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚目<rt>にまいめ</rt></ruby>
+    TRANS: Kerang dua cangkang (bivalvia) seperti tiram
+    KOTOBA: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1463210] 二枚目(にまいめ) [word] = Lembar kedua / sarung tangan lapis kedua | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q4 | ID=bonus-soal-10-q004 | KEY=A (idx=0) | CAT= | SRC=Bonus soal 10.pdf p.2 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  CLUSTER CL-0008 (n=6, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci1-q009 (ssw-pm-kunci-ujian-1), bonus-soal-1-q009 (bonus-soal-1), bonus-soal-8-q009 (bonus-soal-8), nguyen01-q009 (latsol-nguyen-01), nguyen08-q009 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>主<rt>おも</rt></ruby>な<ruby>原因<rt>げんいん</rt></ruby>になる <ruby>食品<rt>しょくひん</rt></ruby>は <ruby>食肉<rt>しょくにく</rt></ruby>（<ruby>鶏肉<rt>とりにく</rt></ruby>）で、<ruby>感染<rt>かんせん</rt></ruby>すると、<ruby>下痢<rt>げり</rt></ruby>、<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>発熱<rt>はつねつ</rt></ruby>の<br><ruby>症状<rt>しょうじょう</rt></ruby>が<ruby>出<rt>で</rt></ruby>る<ruby>細菌<rt>さいきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 主な原因になる 食品は 食肉（鶏肉）で、感染すると、下痢、腹痛、発熱の
+症状が出る細菌はどれですか。正しいものを一つ選びなさい。
+  PROMPT_TRANS: Bakteri manakah yang penyebab utamanya adalah daging (daging ayam) dan menimbulkan gejala diare, sakit perut, serta demam jika terinfeksi? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 2, Soal 4) · Kunci Jawaban Sumber: A.
+  KOTOBA_PROMPT: [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-otaff51-0305] 感染(かんせん) [noun] = infeksi / penularan | [kb-v2-p1-146] すると(-) [expression] = jika melakukan | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p1-178] 出る(でる) [word] = muncul / keluar | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Campylobacter
+    KOTOBA: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter
+  OPT B: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus
+    KOTOBA: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT C: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum

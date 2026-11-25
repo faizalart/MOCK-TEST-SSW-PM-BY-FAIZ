@@ -1,0 +1,80 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-15 (Soal Ujian 15) | Batch qa-batch-03 | Part 3 (Q9-12 of 38)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=kunci-ujian-15-q009 | KEY=B (idx=1) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 15.pdf p.3 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Makanan manakah yang menjadi penyebab keracunan makanan akibat bakteri genus Cam"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan manakah yang menjadi penyebab keracunan makanan akibat bakteri genus Campylobacter? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 3, nomor 9 (Q9). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 1 (hlm. 14), sumber utama keracunan Campylobacter adalah daging ayam (鶏肉).
+  INLINE_KOTOBA_COUNT: 11
+  KOTOBA_PROMPT: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>野菜<rt>やさい</rt></ruby>
+    TRANS: Sayuran
+    KOTOBA: [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran
+  OPT B: HTML=<ruby>鶏肉<rt>とりにく</rt></ruby>
+    TRANS: Daging ayam
+    KOTOBA: [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam
+  OPT C: HTML=<ruby>魚介類<rt>ぎょかいるい</rt></ruby>
+    TRANS: Hasil laut (ikan dan kerang-kerangan)
+    KOTOBA: [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan)
+
+=== #Q10 | ID=kunci-ujian-15-q010 | KEY=A (idx=0) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 15.pdf p.3 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Manakah yang merupakan karakteristik kapang/jamur (kabi)? Pilihlah satu yang ben"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カビの<ruby>特徴<rt>とくちょう</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang merupakan karakteristik kapang/jamur (kabi)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 3, nomor 10 (Q10). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 1 (hlm. 22), kapang (カビ) tidak dapat dihilangkan sepenuhnya dari lingkungan.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-otaff51-0434] 特徴(とくちょう) [noun] = karakteristik / ciri khas | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>完全<rt>かんぜん</rt></ruby>になくすことができない。
+    TRANS: Tidak dapat dihilangkan sepenuhnya.
+    KOTOBA: [kb-1211510] 完全(かんぜん) [word] = sempurna / menyeluruh | [kb-otaff51-0732] なくす(なくす) [verb] = menghilangkan | [kb-audit-0468] ことができ(ことができ) [expression, df:できる] = dapat / bisa dilakukan
+  OPT B: HTML=<ruby>豆<rt>まめ</rt></ruby>、<ruby>穀類<rt>こくるい</rt></ruby>、<ruby>野菜<rt>やさい</rt></ruby>、<ruby>果物<rt>くだもの</rt></ruby>などがカビに<ruby>汚染<rt>おせん</rt></ruby>されにくいです。
+    TRANS: Kacang-kacangan, biji-bijian, sayuran, dan buah-buahan sulit terkontaminasi kapang.
+    KOTOBA: [kb-v2-p1-073] 豆(まめ) [word] = kacang-kacangan | [kb-1287310] 穀類(こくるい) [word] = serealia / biji-bijian | [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-otaff51-0344] 果物(くだもの) [noun] = buah-buahan | [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-audit-0029] 汚染されにくい(おせんされにくい) [word] = sulit terkontaminasi
+  OPT C: HTML=4℃<ruby>以下<rt>いか</rt></ruby>ではカビは<ruby>増殖速<rt>ぞうしょくはや</rt></ruby>いです。
+    TRANS: Pada suhu 4°C ke bawah kapang berkembang biak dengan cepat.
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-otaff51-1373] 速い(はやい) [adjective] = cepat
+
+=== #Q11 | ID=kunci-ujian-15-q011 | KEY=B (idx=1) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 15.pdf p.3 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Ada 3 prinsip untuk mencegah mikroorganisme penyebab keracunan makanan. Selain "" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: 殺す, やっつける
+  CLUSTER CL-0125 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-8-q011 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐ3つの<ruby>原則<rt>げんそく</rt></ruby>があります。「つけない」、「<ruby>増<rt>ふ</rt></ruby>やさない」のほかにもう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なに</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada 3 prinsip untuk mencegah mikroorganisme penyebab keracunan makanan. Selain "tidak menempelkan (tsukenai)" dan "tidak memperbanyak (fuyasanai)", apakah satu prinsip lainnya? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 3, nomor 11 (Q11). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: TEMUAN AUDIT PENTING (QUESTION_DEFECTIVE): Secara keilmuan SSW PM (hlm. 18), prinsip ke-3 adalah 「やっつける（殺す）」 (membunuh/mensterilkan mikroorganisme). Namun pada PDF sumber ĐỀ SỐ 3 nomor 11, ketiga opsi tertulis negatif (A. 殺さない, B. 生まれさせない, C. 下げない) dan kunci PDF memilih 11.B. Teks asli dan kunci PDF (B) dipertahankan sesuai aturan pelestarian sumber, serta ditandai QUESTION_DEFECTIVE pada laporan audit.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai | [kb-v2-p4-164] 増やさない(ふやさない) [inflected, df:増やす] = tidak memperbanyak | [kb-v2-p1-286] ほかに(-) [expression] = selain itu | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>殺<rt>ころ</rt></ruby>さない
+    TRANS: Tidak membunuh (korosanai — cacat redaksi pada PDF sumber; seharusnya 殺す / やっつける)
+    KOTOBA: [kb-latsol-74aacf17ea] 殺さない(ころさない) [word] = tidak membunuh (bakteri)
+  OPT B: HTML=<ruby>生<rt>う</rt></ruby>まれさせない
+    TRANS: Tidak membiarkan lahir/muncul (umaresasenai — ditandai sebagai kunci pada PDF sumber)
+    KOTOBA: [kb-audit-0063] 生まれさせない(うまれさせない) [inflected_verb, df:生まれる] = tidak membiarkan timbul
+  OPT C: HTML=<ruby>下<rt>さ</rt></ruby>げない
+    TRANS: Tidak menurunkan (sagenai)
+    KOTOBA: [kb-latsol-664dbf6500] 下げ(さげ) [word] = Menurunkan barang atau menurunkan ping
+
+=== #Q12 | ID=kunci-ujian-15-q012 | KEY=C (idx=2) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 15.pdf p.4 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Ada 3 faktor yang menyebabkan mikroorganisme berkembang biak. Selain "suhu" dan " || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0126 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-8-q012 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>する3つの<ruby>要因<rt>よういん</rt></ruby>があります。「<ruby>温度<rt>おんど</rt></ruby>」、「<ruby>水分<rt>すいぶん</rt></ruby>」のほかのもう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なに</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada 3 faktor yang menyebabkan mikroorganisme berkembang biak. Selain "suhu" dan "kadar air", apakah satu faktor lainnya? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 4, nomor 12 (Q12). Bobot: 3.95 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 1 (hlm. 19), 3 syarat perkembangbiakan mikroorganisme adalah suhu (温度), air (水分), dan nutrisi (栄養). Catatan: Pada PDF asli tertulis typo '衛生物が増速する' untuk '微生物が増殖する'.
+  INLINE_KOTOBA_COUNT: 14
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1546670] 要因(よういん) [word] = faktor penyebab | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>光<rt>ひかり</rt></ruby>
+    TRANS: Cahaya
+    KOTOBA: [kb-1272780] 光(ひかり) [standalone_term] = Cahaya / penyinaran ultraviolet sterilisasi
+  OPT B: HTML=<ruby>気圧<rt>きあつ</rt></ruby>
+    TRANS: Tekanan udara
+    KOTOBA: [kb-1221880] 気圧(きあつ) [word] = tekanan udara
+  OPT C: HTML=<ruby>栄養<rt>えいよう</rt></ruby>
+    TRANS: Nutrisi / zat gizi
+    KOTOBA: [kb-otaff51-0345] 栄養(えいよう) [noun] = nutrisi / zat gizi

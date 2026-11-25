@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-nguyen-05 (Latsol Nguyen 05) | Batch qa-batch-07 | Part 6 (Q21-24 of 36)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=nguyen05-q021 | KEY=C (idx=2) | CAT= | SRC=5.pdf p.1 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 重要管理点
+  CLUSTER CL-0214 (n=6, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-5-q021 (bonus-soal-5), bonus-soal-9-q029 (bonus-soal-9), nguyen03-q029 (latsol-nguyen-03), nguyen09-q029 (latsol-nguyen-09), nguyen10-q030 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("重要管理点が一つだけある。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものはどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pernyataan yang salah mengenai Titik Kendali Kritis (重要管理点 / CCP)?
+  EXPLANATION: Sumber: 5.pdf, halaman 1, nomor 21. Bobot: 4.17 poin. Kunci jawaban: C. Pada 5.pdf Soal 21, kunci sistem sudah tepat menandai C ('重要管理点が一つだけある').
+  KOTOBA_PROMPT: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>では、<ruby>管理基準<rt>かんりきじゅん</rt></ruby>を<ruby>必<rt>かなら</rt></ruby>ず<ruby>守<rt>まも</rt></ruby>らなければいけません。
+    TRANS: Pada titik kendali kritis, standar pengelolaan (batas kritis) wajib dipatuhi.
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p5-357] 守らなければ(まもらなければ) [inflected, df:守る] = harus mematuhi | [kb-audit-0466] いけません(いけません) [expression, df:いく] = tidak boleh / harus (sopan)
+  OPT B: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>が<ruby>一<rt>ひと</rt></ruby>つではなく、<ruby>二<rt>ふた</rt></ruby>つ<ruby>以上<rt>いじょう</rt></ruby>になる<ruby>食品<rt>しょくひん</rt></ruby>もある。
+    TRANS: Ada juga produk pangan yang titik kendali kritisnya bukan hanya satu, melainkan dua atau lebih.
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-227] 二つ(ふたつ) [word] = dua buah | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan
+  OPT C: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>が<ruby>一<rt>ひと</rt></ruby>つだけある。
+    TRANS: Titik kendali kritis hanya ada satu saja.
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu
+
+=== #Q22 | ID=nguyen05-q022 | KEY=B (idx=1) | CAT= | SRC=5.pdf p.1 ===
+  CLUSTER CL-0089 (n=5, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q033 (ssw-pm-kunci-ujian-3), kunci-ujian-13-q022 (ssw-pm-kunci-ujian-13), kunci-ujian-14-q058 (ssw-pm-kunci-ujian-14), bonus-soal-5-q022 (bonus-soal-5)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("重いものを持ち上げる時はお腹に力を入れず、呼吸を整えて行う。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>腰痛症災害防止<rt>ようつうしょうさいがいぼうし</rt></ruby>のポイントについて、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai poin pencegahan kecelakaan sakit pinggang (low back pain), pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 5.pdf, halaman 1, nomor 22. Bobot: 4.17 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-ext-0586-e885b0e797] 腰痛症災害防止(ようつうしょうさいがいぼうし) [word] = pencegahan cedera nyeri pinggang | [kb-v2-p5-093] ポイント(-) [word] = poin penting | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>片足<rt>かたあし</rt></ruby>を<ruby>前<rt>まえ</rt></ruby>にだし<ruby>膝<rt>ひざ</rt></ruby>を<ruby>曲<rt>ま</rt></ruby>げ、<ruby>腰<rt>こし</rt></ruby>を<ruby>十分<rt>じゅうぶん</rt></ruby>におろして、<ruby>重<rt>おも</rt></ruby>いものを<ruby>抱<rt>かか</rt></ruby>え、<ruby>膝<rt>ひざ</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばす。
+    TRANS: Majukan satu kaki ke depan, tekuk lutut, turunkan pinggang secukupnya, dekap barang berat, lalu luruskan lutut.
+    KOTOBA: [kb-1681050] 片足(かたあし) [word] = satu kaki | [kb-audit-0687] 前にだし(まえにだし) [expression, df:出す] = melangkahkan maju ke depan | [kb-otaff51-0527] 膝(ひざ) [noun] = lutut | [kb-v2-p5-381] 曲げ(まげ) [inflected, df:曲げる] = menekuk | [kb-otaff51-0522] 腰(こし) [noun] = pinggang | [kb-latsol-85c4fd8b40] 十分に(じゅうぶんに) [word] = cukup / memadai | [kb-v2-p5-259] おろして(-) [inflected, df:おろす] = menurunkan | [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-v2-p5-382] 抱え(かかえ) [inflected, df:抱える] = memeluk / mengangkat | [kb-v2-p5-383] 伸ばす(のばす) [word] = meluruskan
+  OPT B: HTML=<ruby>重<rt>おも</rt></ruby>いものを<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げる<ruby>時<rt>とき</rt></ruby>はお<ruby>腹<rt>はら</rt></ruby>に<ruby>力<rt>ちから</rt></ruby>を<ruby>入<rt>い</rt></ruby>れず、<ruby>呼吸<rt>こきゅう</rt></ruby>を<ruby>整<rt>ととの</rt></ruby>えて<ruby>行<rt>おこな</rt></ruby>う。
+    TRANS: Saat mengangkat barang berat, lakukan tanpa memberi tenaga pada perut sambil mengatur napas.
+    KOTOBA: [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-otaff51-0317] 持ち上げる(もちあげる) [verb] = mengangkat | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-v2-p5-156] お腹(おなか) [word] = perut | [kb-1554820] 力(ちから) [standalone_term] = Kekuatan fisik saat mengangkat beban kerja | [kb-v2-p5-384] 入れず(いれず) [inflected, df:入れる] = tanpa memasukkan / mengerahkan | [kb-1266470] 呼吸(こきゅう) [word] = pernapasan | [kb-v2-p5-323] 整えて(ととのえて) [inflected, df:整える] = mengatur (napas/kondisi) | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan
+  OPT C: HTML=できるだけ<ruby>重<rt>おも</rt></ruby>いものに<ruby>体<rt>からだ</rt></ruby>を<ruby>近づ<rt>ちか</rt></ruby>いて<ruby>中心<rt>ちゅうしん</rt></ruby>を<ruby>低<rt>ひく</rt></ruby>くするような<ruby>姿勢<rt>しせい</rt></ruby>で<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>う。
+    TRANS: Tangani dengan postur tubuh sedekat mungkin dengan barang berat dan merendahkan titik tumpu/pusat gravitasi.
+    KOTOBA: [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p5-385] 近づいて(ちかづいて) [inflected, df:近づく] = mendekat | [kb-1424550] 中心(ちゅうしん) [word] = pusat / bagian tengah | [kb-v2-p3-210] 低く(ひくく) [inflected, df:低い] = rendah | [kb-otaff51-0259] 姿勢(しせい) [noun] = postur / sikap tubuh | [kb-v2-p3-311] 取り扱う(とりあつかう) [word] = menangani / mengolah
+
+=== #Q23 | ID=nguyen05-q023 | KEY=A (idx=0) | CAT= | SRC=5.pdf p.1 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:B] Potential doubled/colliding particle
+  CLUSTER CL-0148 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q023 (ssw-pm-kunci-ujian-13), bonus-soal-5-q023 (bonus-soal-5)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("機械の清掃、修理は、機械を止めてから行う。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>動<rt>うご</rt></ruby>いている<ruby>機械<rt>きかい</rt></ruby>への「はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ」の<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan untuk mencegah kecelakaan "terjepit atau terlilit" pada mesin yang sedang bergerak? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 5.pdf, halaman 1, nomor 23. Bobot: 4.17 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-v2-p1-229] 動いている(うごいている) [inflected_verb, df:動く] = sedang bergerak (dasar: 動く) | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>機械<rt>きかい</rt></ruby>の<ruby>清掃<rt>せいそう</rt></ruby>、<ruby>修理<rt>しゅうり</rt></ruby>は、<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めてから<ruby>行<rt>おこな</rt></ruby>う。
+    TRANS: Pembersihan dan perbaikan mesin dilakukan setelah menghentikan mesin.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-otaff51-0142] 修理(しゅうり) [noun] = perbaikan / reparasi | [kb-v2-p1-211] 止めて(とめて) [inflected_verb, df:止める] = menghentikan (dasar: 止める) | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan
+  OPT B: HTML=<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>邪魔<rt>じゃま</rt></ruby>なときは、<ruby>機械<rt>きかい</rt></ruby>の<ruby>囲<rt>かこ</rt></ruby>いや<ruby>安全装置<rt>あんぜんそうち</rt></ruby>をはずす。
+    TRANS: Ketika mengganggu pekerjaan, lepaskan pelindung mesin atau perangkat keselamatan.
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1323500] 邪魔(じゃま) [word] = menghalangi / mengganggu | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p5-308] 囲い(かこい) [word] = pagar / penutup pengaman | [kb-otaff51-0268] 安全装置(あんぜんそうち) [compound_technical] = perangkat pengaman mesin | [kb-audit-0167] はずす(はずす) [word] = melepas / menanggalkan (外す)
+  OPT C: HTML=<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めた<ruby>時<rt>とき</rt></ruby>は<ruby>早<rt>はや</rt></ruby>く<ruby>修理<rt>しゅうり</rt></ruby>しなければならないので<ruby>周囲<rt>しゅうい</rt></ruby>に<ruby>知<rt>し</rt></ruby>らせない。
+    TRANS: Saat menghentikan mesin, karena harus segera diperbaiki, tidak perlu memberi tahu orang di sekitar.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p5-413] 止めた(とめた) [inflected, df:止める] = menghentikan (lampau) | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-v2-p4-144] 早く(はやく) [inflected, df:早い] = dengan cepat / segera | [kb-otaff51-0142] 修理(しゅうり) [noun] = perbaikan / reparasi | [kb-v2-p1-101] しなければならない(-) [expression] = harus dilakukan | [kb-1331030] 周囲(しゅうい) [word] = sekeliling / sekitar | [kb-v2-p5-309] 知らせない(しらせない) [inflected, df:知らせる] = tidak memberitahukan
+
+=== #Q24 | ID=nguyen05-q024 | KEY=B (idx=1) | CAT= | SRC=5.pdf p.1 ===
+  CLUSTER CL-0149 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q024 (ssw-pm-kunci-ujian-13), bonus-soal-2-q015 (bonus-soal-2), bonus-soal-5-q024 (bonus-soal-5), bonus-soal-8-q015 (bonus-soal-8), bonus-soal-9-q015 (bonus-soal-9), nguyen02-q015 (latsol-nguyen-02), nguyen08-q015 (latsol-nguyen-08), nguyen09-q015 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("改善措置をおこなうまでに、作った食品を捨てるか作り直すかを決めなくてもいい。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>管理基準<rt>かんりきじゅん</rt></ruby>から<ruby>逸脱<rt>いつだつ</rt></ruby>した<ruby>場合<rt>ばあい</rt></ruby>、<ruby>改善措置<rt>かいぜんそち</rt></ruby>のため、なにをしなければなりませんか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apabila terjadi penyimpangan dari batas kritis/standar manajemen, apa yang harus dilakukan untuk tindakan perbaikan (corrective action)? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 5.pdf, halaman 1, nomor 15. Bobot: 4.17 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-otaff51-0595] 逸脱(いつだつ) [noun] = penyimpangan dari batas standar | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-otaff51-0327] 改善措置(かいぜんそち) [compound_technical] = tindakan korektif / perbaikan | [kb-v2-p2-256] なに(-) [word] = apa | [kb-audit-0376] しなければなりません(しなければなりません) [word] = harus / wajib dilakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>危害要因<rt>きがいよういん</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>らないようにしなければなりません。
+    TRANS: Harus memastikan tidak ada faktor bahaya yang tersisa di dalam makanan.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-v2-p4-206] 残らない(のこらない) [inflected, df:残る] = tidak tersisa / tertinggal | [kb-audit-0376] しなければなりません(しなければなりません) [word] = harus / wajib dilakukan
+  OPT B: HTML=<ruby>改善措置<rt>かいぜんそち</rt></ruby>をおこなうまでに、<ruby>作<rt>つく</rt></ruby>った<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>捨<rt>す</rt></ruby>てるか<ruby>作<rt>つく</rt></ruby>り<ruby>直<rt>なお</rt></ruby>すかを<ruby>決<rt>き</rt></ruby>めなくてもいい。
+    TRANS: Sampai tindakan perbaikan dilakukan, tidak perlu memutuskan apakah makanan yang telah dibuat akan dibuang atau diolah ulang.
+    KOTOBA: [kb-otaff51-0327] 改善措置(かいぜんそち) [compound_technical] = tindakan korektif / perbaikan | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-150] 作った(つくった) [inflected_verb, df:作る] = yang membuat (dasar: 作る) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-174] 捨てる(すてる) [word] = membuang | [kb-v2-p5-249] 作り直す(つくりなおす) [word] = membuat ulang | [kb-v2-p5-247] 決めなくても(きめなくても) [inflected, df:決める] = tidak perlu menentukan | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT C: HTML=<ruby>改善措置<rt>かいぜんそち</rt></ruby>をおこなうときは、<ruby>必<rt>かなら</rt></ruby>ず<ruby>責任者<rt>せきにんしゃ</rt></ruby>の<ruby>指示<rt>しじ</rt></ruby>に<ruby>従<rt>したが</rt></ruby>ってください。
+    TRANS: Saat melakukan tindakan perbaikan, pastikan selalu mengikuti instruksi penanggung jawab.
+    KOTOBA: [kb-otaff51-0327] 改善措置(かいぜんそち) [compound_technical] = tindakan korektif / perbaikan | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p1-193] 従って(したがって) [inflected_verb, df:従う] = sesuai / mengikuti (dasar: 従う)

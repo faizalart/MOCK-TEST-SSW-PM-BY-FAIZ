@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-03 (Latsol Reguler 03) | Batch qa-batch-09 | Part 4 (Q13-16 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=reguler03-q013 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-2233690 "気": kotoba="け" vs ruby="き"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("指がいたい") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>はなんですか。。まちがっているものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah gejala dari sengatan panas (heatstroke)? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 4, nomor 13. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0425] 熱中症(ねっちゅうしょう) [compound_technical] = sengatan panas (heatstroke) | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>倦怠感<rt>けんたいかん</rt></ruby>
+    TRANS: Rasa lemas / kelelahan
+    KOTOBA: [kb-1256060] 倦怠感(けんたいかん) [word] = rasa lemas / keletihan fisik
+  OPT B: HTML=<ruby>指<rt>ゆび</rt></ruby>がいたい
+    TRANS: Jari terasa sakit
+    KOTOBA: [kb-v2-p2-078] 指(ゆび) [word] = jari
+  OPT C: HTML=<ruby>虚脱感<rt>きょだつかん</rt></ruby> やる<ruby>気<rt>き</rt></ruby>が<ruby>出<rt>で</rt></ruby>ない
+    TRANS: Kehilangan tenaga / lesu dan tidak bersemangat
+    KOTOBA: [kb-ext-latsol-0051] 虚脱感(きょだつかん) [word] = rasa lemas / kolaps | [kb-v2-p4-219] やる(-) [word] = melakukan / mengerjakan | [kb-2233690] 気(け) [standalone_term] = Tanda-tanda / indikasi gejala | [kb-latsol-e3c34d6b24] 出ない(でない) [word] = tidak keluar / tidak muncul
+
+=== #Q14 | ID=reguler03-q014 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("目の前が白くなって、何もわからなくなって、倒れる") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>重<rt>おも</rt></ruby>い<ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>はなんですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah gejala dari sengatan panas (heatstroke) tingkat berat? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 4, nomor 14. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-otaff51-0425] 熱中症(ねっちゅうしょう) [compound_technical] = sengatan panas (heatstroke) | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>体<rt>からだ</rt></ruby>が<ruby>寒<rt>さむ</rt></ruby>い
+    TRANS: Tubuh terasa dingin
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-latsol-770d42f80b] 寒い(さむい) [word] = dingin
+  OPT B: HTML=<ruby>目<rt>め</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>が<ruby>白<rt>しろ</rt></ruby>くなって、<ruby>何<rt>なに</rt></ruby>もわからなくなって、<ruby>倒<rt>たお</rt></ruby>れる
+    TRANS: Pandangan menjadi putih/gelap, kehilangan kesadaran, lalu pingsan/roboh
+    KOTOBA: [kb-otaff51-0461] 目(め) [noun] = mata | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-ext-latsol-0053] 白(しろ) [word] = putih | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-latsol-taoreru] 倒れる(たおれる) [word] = roboh / tumbang
+  OPT C: HTML=<ruby>足<rt>あし</rt></ruby>がいたい
+    TRANS: Kaki terasa sakit
+    KOTOBA: [kb-v2-p1-088] 足(あし) [word] = kaki
+
+=== #Q15 | ID=reguler03-q015 | KEY=A (idx=0) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.4 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("熱い場所に避難しています") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>への<ruby>対応<rt>たいおう</rt></ruby>はどうしたらいいですか。まちがっているものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bagaimana penanganan terhadap gejala sengatan panas (heatstroke)? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 4, nomor 15. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0425] 熱中症(ねっちゅうしょう) [compound_technical] = sengatan panas (heatstroke) | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-otaff51-0277] 対応(たいおう) [noun] = penanganan / respons | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>熱<rt>あつ</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>避難<rt>ひなん</rt></ruby>しています
+    TRANS: Mengevakuasi ke tempat yang panas
+    KOTOBA: [kb-v2-p2-227] 熱い(あつい) [word] = panas | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-1484660] 避難(ひなん) [word] = evakuasi | [kb-audit-0369] います(います) [inflected_verb, df:いる] = ada / sedang melakukan
+  OPT B: HTML=<ruby>涼<rt>すず</rt></ruby>しい<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>移動<rt>いどう</rt></ruby>させます
+    TRANS: Memindahkan ke tempat yang sejuk
+    KOTOBA: [kb-latsol-suzushii] 涼しい(すずしい) [word] = sejuk | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-otaff51-0476] 移動(いどう) [noun] = perpindahan / bergerak
+  OPT C: HTML=<ruby>衣服<rt>いふく</rt></ruby>をゆるめて、<ruby>体<rt>からだ</rt></ruby>を<ruby>冷<rt>ひ</rt></ruby>やします
+    TRANS: Melonggarkan pakaian dan mendinginkan tubuh
+    KOTOBA: [kb-otaff51-0543] 衣服(いふく) [noun] = pakaian | [kb-v2-p5-303] ゆるめて(-) [inflected, df:ゆるめる] = melonggarkan (pakaian) | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-latsol-hiyashimasu] 冷やします(ひやします) [inflected_verb, df:冷やす] = mendinginkan
+
+=== #Q16 | ID=reguler03-q016 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  CLUSTER CL-0264 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=reguler05-q005 (latsol-reguler-05)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("レバーがぐらぐらします") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異常事態<rt>いじょうじたい</rt></ruby>の<ruby>例<rt>れい</rt></ruby>はなんですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang merupakan contoh kondisi tidak normal (abnormal)? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 5, nomor 16. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-ext-latsol-0055] 例(れい) [word] = contoh | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>赤<rt>あか</rt></ruby>いランプがついていません
+    TRANS: Lampu merah tidak menyala
+    KOTOBA: [kb-latsol-a1c92ffa4e] 赤い(あかい) [word] = merah | [kb-latsol-lamp] ランプ(らんぷ) [word] = lampu indikator | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat | [kb-audit-0368] いません(いません) [inflected_verb, df:いる] = tidak ada / tidak sedang
+  OPT B: HTML=レバーがぐらぐらします
+    TRANS: Tuas (lever) bergoyang-goyang/longgar
+    KOTOBA: [kb-latsol-lever] レバー(ればー) [word] = tuas / handel mesin | [kb-latsol-guragura] ぐらぐら(ぐらぐら) [word] = goyang / longgar / tidak stabil | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=<ruby>青<rt>あお</rt></ruby>いランプがついています
+    TRANS: Lampu biru menyala
+    KOTOBA: [kb-latsol-f50610bd7e] 青い(あおい) [word] = biru | [kb-latsol-lamp] ランプ(らんぷ) [word] = lampu indikator | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat | [kb-audit-0369] います(います) [inflected_verb, df:いる] = ada / sedang melakukan

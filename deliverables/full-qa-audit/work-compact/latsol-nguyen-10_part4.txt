@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-10 (Latsol Nguyen 10) | Batch qa-batch-08 | Part 4 (Q13-16 of 41)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=nguyen10-q013 | KEY=C (idx=2) | CAT= | SRC=10 (2).pdf p.3 ===
+  CLUSTER CL-0181 (n=3, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q012 (bonus-soal-2), nguyen02-q012 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("魚。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ヒスタミンはどこにありますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di manakah histamin berada? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 3, nomor 13. Bobot: 3.66 poin. Kunci jawaban: C. Nomor asli PDF: Câu 12 (Halaman 3).
+  KOTOBA_PROMPT: [kb-otaff51-0065] ヒスタミン(ひすたみん) [noun] = histamin | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>果物<rt>くだもの</rt></ruby>。
+    TRANS: Buah-buahan.
+    KOTOBA: [kb-otaff51-0344] 果物(くだもの) [noun] = buah-buahan
+  OPT B: HTML=<ruby>牛乳<rt>ぎゅうにゅう</rt></ruby>。
+    TRANS: Susu sapi.
+    KOTOBA: [kb-1231590] 牛乳(ぎゅうにゅう) [word] = susu sapi
+  OPT C: HTML=<ruby>魚<rt>さかな</rt></ruby>。
+    TRANS: Ikan (terutama ikan berdaging merah).
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan
+
+=== #Q14 | ID=nguyen10-q014 | KEY=C (idx=2) | CAT= | SRC=10 (2).pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0582 "赤身魚": kotoba="あかみざかな" vs ruby="あかみさかな"
+  CLUSTER CL-0142 (n=8, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-13-q007 (ssw-pm-kunci-ujian-13), bonus-soal-2-q013 (bonus-soal-2), bonus-soal-5-q007 (bonus-soal-5), bonus-soal-9-q013 (bonus-soal-9), nguyen02-q013 (latsol-nguyen-02), nguyen05-q007 (latsol-nguyen-05), nguyen09-q013 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("魚を受け入れたすぐに冷凍したらいいです。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ヒスタミン<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためにどうしたらいいのか<ruby>一<rt>ひと</rt></ruby>つ<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang sebaiknya dilakukan untuk mencegah keracunan makanan akibat histamin? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 3, nomor 14. Bobot: 3.66 poin. Kunci jawaban: C. Nomor asli PDF: Câu 13 (Halaman 3).
+  KOTOBA_PROMPT: [kb-otaff51-0066] ヒスタミン食中毒(ひすたみんしょくちゅうどく) [compound_technical] = keracunan makanan akibat histamin | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=<ruby>魚<rt>さかな</rt></ruby>を<ruby>獲<rt>と</rt></ruby>った<ruby>後<rt>あと</rt></ruby>ゆっくり<ruby>冷凍<rt>れいとう</rt></ruby>してもいいです。
+    TRANS: Setelah menangkap ikan, boleh dibekukan secara perlahan.
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-v2-p5-281] 獲った(とった) [inflected, df:獲る] = menangkap (ikan) | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing) | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT B: HTML=マグロやサバなどの<ruby>赤身魚<rt>あかみさかな</rt></ruby>はどこでも<ruby>保存<rt>ほぞん</rt></ruby>できる。
+    TRANS: Ikan berdaging merah seperti tuna dan makarel (saba) dapat disimpan di mana saja.
+    KOTOBA: [kb-v2-p3-077] マグロ(-) [word] = ikan tuna | [kb-v2-p5-108] サバ(-) [word] = ikan makarel / kembung | [kb-otaff51-0582] 赤身魚(あかみざかな) [compound_technical] = ikan berdaging merah (tuna, makarel, sarden) | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan
+  OPT C: HTML=<ruby>魚<rt>さかな</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れたすぐに<ruby>冷凍<rt>れいとう</rt></ruby>したらいいです。
+    TRANS: Sebaiknya segera dibekukan begitu ikan diterima.
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-latsol-042ad2c34d] 受け入れた(うけいれた) [word] = penerimaan bahan baku | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-audit-0592] 冷凍したら(れいとうしたら) [inflected_verb, df:冷凍する] = jika membekukan | [kb-v2-p1-249] いい(-) [word] = baik
+
+=== #Q15 | ID=nguyen10-q015 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.3 ===
+  CLUSTER CL-0182 (n=7, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q014 (bonus-soal-2), bonus-soal-8-q014 (bonus-soal-8), bonus-soal-9-q014 (bonus-soal-9), nguyen02-q014 (latsol-nguyen-02), nguyen08-q014 (latsol-nguyen-08), nguyen09-q014 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("冷蔵庫。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>冷却方法<rt>れいきゃくほうほう</rt></ruby>ついて<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai metode pendinginan (reikyaku houhou).
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 3, nomor 15. Bobot: 3.66 poin. Kunci jawaban: B. Nomor asli PDF: Câu 14 (Halaman 3).
+  KOTOBA_PROMPT: [kb-ext-1778-e586b7e58d] 冷却方法(れいきゃくほうほう) [word] = metode pendinginan | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>風冷<rt>ふうれい</rt></ruby>。
+    TRANS: Pendinginan dengan hembusan udara (air cooling).
+    KOTOBA: [kb-otaff51-0647] 風冷(ふうれい) [compound_technical] = pendinginan dengan hembusan angin
+  OPT B: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>。
+    TRANS: Lemari pendingin (kulkas).
+    KOTOBA: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller)
+  OPT C: HTML=<ruby>水冷<rt>すいれい</rt></ruby>。
+    TRANS: Pendinginan dengan air (water cooling).
+    KOTOBA: [kb-otaff51-0370] 水冷(すいれい) [compound_technical] = pendinginan dengan air dingin
+
+=== #Q16 | ID=nguyen10-q016 | KEY=C (idx=2) | CAT= | SRC=10 (2).pdf p.4 ===
+  CLUSTER CL-0014 (n=4, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci1-q015 (ssw-pm-kunci-ujian-1), bonus-soal-1-q015 (bonus-soal-1), nguyen01-q015 (latsol-nguyen-01)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("－15℃以下") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>日本<rt>にほん</rt></ruby>の<ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>では、<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>基準温度<rt>きじゅんおんど</rt></ruby>は<ruby>何度以下<rt>なんどいか</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berdasarkan Undang-Undang Sanitasi Pangan Jepang, berapakah suhu standar untuk freezer (lemari pembeku)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 4, nomor 16. Bobot: 3.66 poin. Kunci jawaban: C. Nomor asli PDF: Câu 15 (Halaman 4).
+  KOTOBA_PROMPT: [kb-1582710] 日本(にほん) [word] = Jepang | [kb-otaff51-0653] 食品衛生法(しょくひんえいせいほう) [compound_technical] = Undang-Undang Higiene Pangan Jepang | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-otaff51-0245] 基準温度(きじゅんおんど) [compound_technical] = suhu standar | [kb-ext-0183-e4bd95e5ba] 何度以下(なんどいか) [word] = berapa derajat atau kurang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=－5℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: -5°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=－10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: -10°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=－15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: -15°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal

@@ -1,0 +1,78 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-16 (Soal Ujian 16) | Batch qa-batch-04 | Part 2 (Q5-8 of 50)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=kunci-ujian-16-q005 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>本日出勤予定<rt>ほんじつしゅっきんよてい</rt></ruby>ありますが、おなかをこわしたり、<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>がある。<ruby>下記<rt>かき</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hari ini Anda dijadwalkan masuk kerja, tetapi sedang sakit perut (diare) atau merasa mual ingin muntah. Di antara pilihan berikut, pilihlah satu tindakan yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 2, nomor 門5 (Q5). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 25), apabila mengalami diare atau mual/muntah sebelum berangkat kerja, pekerja wajib melapor kepada penanggung jawab dan mengikuti instruksinya.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-ext-1660-e69cace697] 本日出勤(ほんじつしゅっきん) [word] = masuk kerja hari ini | [kb-1543240] 予定(よてい) [word] = rencana / jadwal | [kb-v2-p2-093] おなか(-) [word] = perut | [kb-audit-0039] こわしたり(こわしたり) [inflected_verb, df:壊す] = sakit perut / mengalami kerusakan | [kb-otaff51-0230] 吐き気(はきけ) [noun] = rasa mual | [kb-1184690] 下記(かき) [word] = berikut ini | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=そのまま<ruby>出勤<rt>しゅっきん</rt></ruby>する
+    TRANS: Tetap berangkat masuk kerja begitu saja
+    KOTOBA: [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p2-154] 出勤する(しゅっきんする) [word] = berangkat kerja
+  OPT B: HTML=<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>し、<ruby>指示<rt>しじ</rt></ruby>に<ruby>従<rt>したが</rt></ruby>います
+    TRANS: Melaporkan kepada penanggung jawab dan mengikuti instruksinya
+    KOTOBA: [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-156] 報告し(ほうこくし) [inflected, df:報告する] = melapor | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p2-158] 従います(したがいます) [inflected, df:従う] = mematuhi / mengikuti
+  OPT C: HTML=<ruby>自己判断<rt>じこはんだん</rt></ruby>で<ruby>休<rt>やす</rt></ruby>みます
+    TRANS: Libur atas keputusan sendiri tanpa melapor
+    KOTOBA: [kb-2834030] 自己判断(じこはんだん) [word] = keputusan sendiri | [kb-v2-p2-155] 休みます(やすみます) [inflected, df:休む] = beristirahat / absen
+
+=== #Q6 | ID=kunci-ujian-16-q006 | KEY=C (idx=2) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  CLUSTER CL-0038 (n=7, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q005 (ssw-pm-kunci-ujian-2), bonus-soal-2-q005 (bonus-soal-2), bonus-soal-8-q005 (bonus-soal-8), nguyen02-q005 (latsol-nguyen-02), nguyen08-q005 (latsol-nguyen-08), nguyen10-q006 (latsol-nguyen-10)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>う<ruby>流<rt>なが</rt></ruby>れとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai urutan prosedur yang dilakukan sebelum masuk ke ruang kerja produksi, pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 2, nomor 門6 (Q6). Bobot: 3.0 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 28–29), urutan standar memasuki area kerja adalah: mengenakan pakaian kerja dengan benar → menghilangkan debu/rambut dengan粘着ローラー & エアーシャワー → mencuci tangan & disinfeksi (手洗い) tepat sebelum masuk ruang produksi.
+  INLINE_KOTOBA_COUNT: 14
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p2-106] 流れ(ながれ) [word] = alur / urutan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着<rt>き</rt></ruby>、<ruby>手洗<rt>てあら</rt></ruby>い、<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラー、エアーシャワー
+    TRANS: Memakai pakaian kerja dengan benar → cuci tangan → roller perekat → air shower
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-ext-1224-e79d803a3a] 着(き) [inflected_verb] = Mengenakan seragam kerja sanitasi, masker, dan hairnet | [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-otaff51-0490] 粘着ローラー(ねんちゃくろーらー) [compound_technical] = rol perekat pembersih debu/rambut | [kb-otaff51-0040] エアーシャワー(えあーしゃわー) [compound_technical] = air shower (bilik hembusan udara bersih)
+  OPT B: HTML=<ruby>手洗<rt>てあら</rt></ruby>い、<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>、<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラー、エアーシャワー
+    TRANS: Cuci tangan → memakai pakaian kerja → roller perekat → air shower
+    KOTOBA: [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-ext-1224-e79d803a3a] 着(き) [inflected_verb] = Mengenakan seragam kerja sanitasi, masker, dan hairnet | [kb-otaff51-0490] 粘着ローラー(ねんちゃくろーらー) [compound_technical] = rol perekat pembersih debu/rambut | [kb-otaff51-0040] エアーシャワー(えあーしゃわー) [compound_technical] = air shower (bilik hembusan udara bersih)
+  OPT C: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着<rt>き</rt></ruby>、<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラー、エアーシャワー、<ruby>手洗<rt>てあら</rt></ruby>い
+    TRANS: Memakai pakaian kerja dengan benar → roller perekat → air shower → cuci tangan
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-ext-1224-e79d803a3a] 着(き) [inflected_verb] = Mengenakan seragam kerja sanitasi, masker, dan hairnet | [kb-otaff51-0490] 粘着ローラー(ねんちゃくろーらー) [compound_technical] = rol perekat pembersih debu/rambut | [kb-otaff51-0040] エアーシャワー(えあーしゃわー) [compound_technical] = air shower (bilik hembusan udara bersih) | [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan
+
+=== #Q7 | ID=kunci-ujian-16-q007 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業前<rt>さぎょうまえ</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>うことはどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah hal yang dilakukan sebelum memulai pekerjaan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 3, nomor 門7 (Q7). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 30), sebelum bekerja pekerja wajib mengonfirmasi isi pekerjaan sekaligus memeriksa kondisi kebersihan/fungsi mesin, perangkat, dan peralatan (作業内容・機械・装置・器具を確認).
+  INLINE_KOTOBA_COUNT: 14
+  KOTOBA_PROMPT: [kb-ext-0644-e4bd9ce6a5] 作業前(さぎょうまえ) [word] = sebelum bekerja | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>作業内容<rt>さぎょうないよう</rt></ruby>・<ruby>機械<rt>きかい</rt></ruby>・<ruby>装置<rt>そうち</rt></ruby>・<ruby>器具<rt>きぐ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>し、<ruby>洗浄<rt>せんじょう</rt></ruby>・<ruby>殺菌<rt>さっきん</rt></ruby>する
+    TRANS: Memeriksa isi pekerjaan, mesin, perangkat, dan peralatan, serta melakukan pencucian dan sterilisasi bila diperlukan
+    KOTOBA: [kb-ext-0650-e4bd9ce6a5] 作業内容(さぎょうないよう) [word] = rincian instruksi tugas kerja | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-1402360] 装置(そうち) [word] = perangkat / peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-audit-0927] 確認し(かくにんし) [inflected_verb, df:確認する] = memeriksa (確認する) | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman
+  OPT B: HTML=<ruby>作業内容<rt>さぎょうないよう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>、<ruby>機械<rt>きかい</rt></ruby>・<ruby>装置<rt>そうち</rt></ruby>・<ruby>器具<rt>きぐ</rt></ruby>を<ruby>洗浄<rt>せんじょう</rt></ruby>・<ruby>殺菌<rt>さっきん</rt></ruby>する
+    TRANS: Hanya memeriksa isi pekerjaan tanpa memeriksa kondisi mesin/alat
+    KOTOBA: [kb-ext-0650-e4bd9ce6a5] 作業内容(さぎょうないよう) [word] = rincian instruksi tugas kerja | [kb-otaff51-0471] 確認(かくにん) [noun] = pemeriksaan / konfirmasi | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-1402360] 装置(そうち) [word] = perangkat / peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman
+  OPT C: HTML=<ruby>機械<rt>きかい</rt></ruby>・<ruby>装置<rt>そうち</rt></ruby>・<ruby>器具<rt>きぐ</rt></ruby>を<ruby>洗浄<rt>せんじょう</rt></ruby>・<ruby>殺菌<rt>さっきん</rt></ruby>する
+    TRANS: Hanya mencuci dan mensterilkan mesin, perangkat, dan peralatan
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-1402360] 装置(そうち) [word] = perangkat / peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman
+
+=== #Q8 | ID=kunci-ujian-16-q008 | KEY=C (idx=2) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.3 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0880 (消毒液し): "menggunakan disinfektan (typo)"
+  CLUSTER CL-0039 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q006 (ssw-pm-kunci-ujian-2), bonus-soal-2-q006 (bonus-soal-2), bonus-soal-8-q006 (bonus-soal-8), nguyen02-q006 (latsol-nguyen-02), nguyen08-q006 (latsol-nguyen-08), nguyen10-q007 (latsol-nguyen-10)
+  INSTR: <ruby>最<rt>もっと</rt></ruby>も<ruby>良<rt>よ</rt></ruby>いものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>について、<ruby>最<rt>もっと</rt></ruby>も<ruby>良<rt>よ</rt></ruby>いものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai tindakan selama bekerja, pilihlah yang paling baik.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 3, nomor 門8 (Q8). Bobot: 3.0 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 31), selama bekerja dilarang mengobrol (ムダ話をしない), dan jika ditemukan kelainan pada mesin/produk harus segera menghentikan lini dan melapor ke penanggung jawab.
+  INLINE_KOTOBA_COUNT: 30
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>加熱<rt>かねつ</rt></ruby>したものや<ruby>冷却<rt>れいきゃく</rt></ruby>したものを<ruby>長<rt>なが</rt></ruby>く<ruby>室温<rt>しつおん</rt></ruby>で<ruby>放置<rt>ほうち</rt></ruby>しても<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>
+    TRANS: Tidak apa-apa membiarkan makanan yang sudah dipanaskan atau didinginkan di suhu ruang dalam waktu lama
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-v2-p2-187] 冷却した(れいきゃくした) [inflected, df:冷却する] = yang telah didinginkan | [kb-audit-0895] 長く(ながく) [inflected_adj, df:長い] = menjadi lama / panjang | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-audit-0945] 放置しても(ほうちしても) [inflected_verb, df:放置する] = meskipun membiarkan | [kb-1414150] 大丈夫(だいじょうぶ) [standalone_term] = Aman / tidak ada masalah kebersihan atau kerusakan
+  OPT B: HTML=トイレに<ruby>行<rt>い</rt></ruby>った<ruby>後<rt>あと</rt></ruby>、<ruby>洗剤<rt>せんざい</rt></ruby>で<ruby>手洗<rt>てあら</rt></ruby>いします。<ruby>消毒液<rt>しょうどくえき</rt></ruby>しなくても<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>
+    TRANS: Setelah ke toilet, mencuci tangan dengan sabun cuci sudah cukup tanpa perlu cairan disinfektan
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-v2-p2-160] 行った(いった) [inflected, df:行く] = pergi | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan) | [kb-audit-0880] 消毒液し(しょうどくえきし) [expression] = menggunakan disinfektan (typo) | [kb-v2-p3-237] なくて(-) [particle] = tanpa / tidak | [kb-1414150] 大丈夫(だいじょうぶ) [standalone_term] = Aman / tidak ada masalah kebersihan atau kerusakan
+  OPT C: HTML=ムダ<ruby>話<rt>ばなし</rt></ruby>をしない。<ruby>機械<rt>きかい</rt></ruby>や<ruby>製品<rt>せいひん</rt></ruby>の<ruby>異常<rt>いじょう</rt></ruby>が<ruby>見<rt>み</rt></ruby>つかった<ruby>時<rt>とき</rt></ruby>、<ruby>機械<rt>きかい</rt></ruby>/ラインを<ruby>止<rt>と</rt></ruby>めて、すぐに<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>する
+    TRANS: Tidak mengobrol hal sia-sia, dan saat ditemukan ketidaknormalan pada mesin atau produk, segera hentikan mesin/lini lalu laporkan kepada penanggung jawab
+    KOTOBA: [kb-v2-p2-092] ムダ話(むだばなし) [word] = obrolan tidak perlu | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0448] 異常(いじょう) [noun] = ketidaknormalan / kelainan | [kb-v2-p2-164] 見つかった(みつかった) [inflected, df:見つかる] = ditemukan | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-v2-p1-042] ライン(-) [word] = lini produksi | [kb-v2-p1-211] 止めて(とめて) [inflected_verb, df:止める] = menghentikan (dasar: 止める) | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-157] 報告する(ほうこくする) [word] = melaporkan

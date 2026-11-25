@@ -1,0 +1,123 @@
+{
+  "validatedAt": "2026-11-15T19:32:17.078Z",
+  "totalPackages": 10,
+  "totalContexts": 1600,
+  "promptTermsAfter": 6463,
+  "optTermsAfter": 7259,
+  "avgPromptTermsAfter": 16.16,
+  "avgOptTermsAfter": 6.05,
+  "avgSpanCoverageAfterPct": 79.36,
+  "nguyenGoldSpanCoveragePct": 79.99,
+  "packages": [
+    {
+      "pkg": "latsol-otaff-pm51-01.json",
+      "questions": 40,
+      "options": 120,
+      "promptTerms": 626,
+      "avgPromptTerms": 15.65,
+      "optTerms": 568,
+      "avgOptTerms": 4.73,
+      "spanCoveragePct": 79.89,
+      "validateErrors": 0
+    },
+    {
+      "pkg": "latsol-otaff-pm51-02.json",
+      "questions": 40,
+      "options": 120,
+      "promptTerms": 663,
+      "avgPromptTerms": 16.57,
+      "optTerms": 645,
+      "avgOptTerms": 5.38,
+      "spanCoveragePct": 79.92,
+      "validateErrors": 0
+    },
+    {
+      "pkg": "latsol-otaff-pm51-03.json",
+      "questions": 40,
+      "options": 120,
+      "promptTerms": 635,
+      "avgPromptTerms": 15.88,
+      "optTerms": 772,
+      "avgOptTerms": 6.43,
+      "spanCoveragePct": 78.56,
+      "validateErrors": 0
+    },
+    {
+      "pkg": "latsol-otaff-pm51-04.json",
+      "questions": 40,
+      "options": 120,
+      "promptTerms": 639,
+      "avgPromptTerms": 15.97,
+      "optTerms": 865,
+      "avgOptTerms": 7.21,
+      "spanCoveragePct": 78.32,
+      "validateErrors": 0
+    },
+    {
+      "pkg": "latsol-otaff-pm51-05.json",
+      "questions": 40,
+      "options": 120,
+      "promptTerms": 635,
+      "avgPromptTerms": 15.88,
+      "optTerms": 678,
+      "avgOptTerms": 5.65,
+      "spanCoveragePct": 77.26,
+      "validateErrors": 0
+    },
+    {
+      "pkg": "latsol-otaff-pm51-06.json",
+      "questions": 40,
+      "options": 120,
+      "promptTerms": 649,
+      "avgPromptTerms": 16.23,
+      "optTerms": 711,
+      "avgOptTerms": 5.92,
+      "spanCoveragePct": 80.08,
+      "validateErrors": 0
+    },
+    {
+      "pkg": "latsol-otaff-pm51-07.json",
+      "questions": 40,
+      "options": 120,
+      "promptTerms": 642,
+      "avgPromptTerms": 16.05,
+      "optTerms": 733,
+      "avgOptTerms": 6.11,
+      "spanCoveragePct": 78.17,
+      "validateErrors": 0
+    },
+    {
+      "pkg": "latsol-otaff-pm51-08.json",
+      "questions": 40,
+      "options": 120,
+      "promptTerms": 656,
+      "avgPromptTerms": 16.4,
+      "optTerms": 766,
+      "avgOptTerms": 6.38,
+      "spanCoveragePct": 80.13,
+      "validateErrors": 0
+    },
+    {
+      "pkg": "latsol-otaff-pm51-09.json",
+      "questions": 40,
+      "options": 120,
+      "promptTerms": 655,
+      "avgPromptTerms": 16.38,
+      "optTerms": 713,
+      "avgOptTerms": 5.94,
+      "spanCoveragePct": 82.11,
+      "validateErrors": 0
+    },
+    {
+      "pkg": "latsol-otaff-pm51-10.json",
+      "questions": 40,
+      "options": 120,
+      "promptTerms": 663,
+      "avgPromptTerms": 16.57,
+      "optTerms": 808,
+      "avgOptTerms": 6.73,
+      "spanCoveragePct": 79.14,
+      "validateErrors": 0
+    }
+  ]
+}

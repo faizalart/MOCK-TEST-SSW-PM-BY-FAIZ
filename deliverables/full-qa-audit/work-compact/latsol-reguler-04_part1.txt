@@ -1,0 +1,90 @@
+# AUDIT SHEET: latsol-reguler-04 (Latsol Reguler 04) | Batch qa-batch-09 | Part 1 (Q1-4 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=reguler04-q001 | KEY=C (idx=2) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="5S活動について、正しいものはどれですか。" vs questionText="5S活動について、正しいものはどれですか。。"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("せいとん") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5S<ruby>活動<rt>かつどう</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。
+  QUESTION_TEXT: 5S活動について、正しいものはどれですか。。
+  PROMPT_TRANS: Manakah yang benar mengenai kegiatan 5S?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 1, nomor 1. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=しゅんかん
+    TRANS: Shunkan (momen/sesaat)
+    KOTOBA: [kb-latsol-shunkan] しゅんかん(しゅうかん) [word] = kebiasaan / Shukan 5S (習慣)
+  OPT B: HTML=せんり
+    TRANS: Senri
+    KOTOBA: [kb-latsol-senri] せんり(せいり) [word] = pengecoh Seiri 5S (整理)
+  OPT C: HTML=せいとん
+    TRANS: Seiton (kerapian/penataan)
+    KOTOBA: [kb-latsol-2b13228915] せいとん(せいとん) [word] = Seiton (penataan rapi 5S)
+  OPT D: HTML=すいとん
+    TRANS: Suiton
+    KOTOBA: [kb-latsol-suiton] すいとん(すいとん) [word] = pengecoh Seiton 5S (整頓)
+
+=== #Q2 | ID=reguler04-q002 | KEY=C (idx=2) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="表示することが望ましいとされる食品について、正しいものはどれですか。" vs questionText="表示することが望ましいとされる食品について、正しいものはどれですか。。"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("ゼラチン") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>表示<rt>ひょうじ</rt></ruby>することが<ruby>望<rt>のぞ</rt></ruby>ましいとされる<ruby>食品<rt>しょくひん</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。
+  QUESTION_TEXT: 表示することが望ましいとされる食品について、正しいものはどれですか。。
+  PROMPT_TRANS: Manakah yang benar mengenai bahan pangan (alergen) yang dianjurkan untuk dicantumkan pada label?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 1, nomor 2. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-latsol-34e7e11e5b] 望ましい(のぞましい) [word] = diharapkan / diinginkan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=おにぎり
+    TRANS: Onigiri (nasi kepal)
+    KOTOBA: [kb-v2-p3-048] おにぎり(-) [word] = nasi kepal (onigiri)
+  OPT B: HTML=てんぷら
+    TRANS: Tempura
+    KOTOBA: [kb-latsol-18450f5d22] てんぷら(てんぷら) [word] = tempura (makanan gorengan tepung)
+  OPT C: HTML=ゼラチン
+    TRANS: Gelatin
+    KOTOBA: [kb-v2-p3-098] ゼラチン(-) [word] = gelatin
+  OPT D: HTML=たまご
+    TRANS: Telur
+    KOTOBA: [kb-v2-p2-061] たまご(-) [word] = telur
+
+=== #Q3 | ID=reguler04-q003 | KEY=D (idx=3) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="異物混入の問題について、最も多くの原因はどれですか。" vs questionText="異物混入の問題について、最も多くの原因はどれですか。。" || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:D] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi D ("虫 髪の毛") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>の<ruby>問題<rt>もんだい</rt></ruby>について、<ruby>最<rt>もっと</rt></ruby>も<ruby>多<rt>おお</rt></ruby>くの<ruby>原因<rt>げんいん</rt></ruby>はどれですか。
+  QUESTION_TEXT: 異物混入の問題について、最も多くの原因はどれですか。。
+  PROMPT_TRANS: Mengenai masalah kontaminasi benda asing, manakah penyebab yang paling banyak terjadi?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 1, nomor 3. Bobot: 7.5 poin. Kunci jawaban: D.
+  KOTOBA_PROMPT: [kb-otaff51-0451] 異物混入(いぶつこんにゅう) [compound_technical] = kontaminasi / masuknya benda asing | [kb-1536010] 問題(もんだい) [word] = soal / masalah | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=ガラス、<ruby>金属<rt>きんぞく</rt></ruby>
+    TRANS: Kaca, logam
+    KOTOBA: [kb-v2-p1-057] ガラス(-) [word] = kaca | [kb-1243040] 金属(きんぞく) [word] = logam
+  OPT B: HTML=<ruby>金属<rt>きんぞく</rt></ruby>、<ruby>虫<rt>むし</rt></ruby>
+    TRANS: Logam, serangga
+    KOTOBA: [kb-1243040] 金属(きんぞく) [word] = logam | [kb-v2-p4-111] 虫(むし) [word] = serangga / hama
+  OPT C: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby> ガラス
+    TRANS: Rambut, kaca
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p1-057] ガラス(-) [word] = kaca
+  OPT D: HTML=<ruby>虫<rt>むし</rt></ruby> <ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>
+    TRANS: Serangga, rambut
+    KOTOBA: [kb-v2-p4-111] 虫(むし) [word] = serangga / hama | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut
+
+=== #Q4 | ID=reguler04-q004 | KEY=C (idx=2) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="感染型食中毒について、正しいものはどれですか。" vs questionText="感染型食中毒について、正しいものはどれですか。。"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("食べた食品についていた細菌がヒトのおなかで増え、毒素を作って健康障害を起こすもの") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>感染型<rt>かんせんがた</rt></ruby><ruby>食中毒<rt>しょくちゅうどく</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。
+  QUESTION_TEXT: 感染型食中毒について、正しいものはどれですか。。
+  PROMPT_TRANS: Manakah pernyataan yang benar mengenai keracunan makanan tipe infeksi?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 2, nomor 4. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-ext-0278-e6849fe69f] 感染型食中毒(かんせんがたしょくちゅうどく) [word] = keracunan makanan tipe infeksi | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>食<rt>た</rt></ruby>べた<ruby>食品<rt>しょくひん</rt></ruby>についていた<ruby>細菌<rt>さいきん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えた<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>り、<ruby>健康障害<rt>けんこうしょうがい</rt></ruby>を<ruby>起<rt>お</rt></ruby>こすもの
+    TRANS: Bakteri yang menempel pada makanan yang dimakan berkembang biak dan menghasilkan racun (toksin), sehingga menyebabkan gangguan kesehatan
+    KOTOBA: [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p4-224] ついていた(-) [inflected, df:つく] = menempel (lampau) | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-audit-0161] 増えた(ふえた) [inflected_verb, df:増える] = bertambah / berkembang biak (lampau) | [kb-otaff51-0368] 毒素(どくそ) [noun] = toksin / racun | [kb-v2-p3-227] 作り(つくり) [inflected, df:作る] = membuat | [kb-ext-latsol-0031] 健康障害(けんこうしょうがい) [word] = gangguan kesehatan | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan
+  OPT B: HTML=ノロウイルスはもっとも<ruby>多<rt>おお</rt></ruby>くの<ruby>原因<rt>げんいん</rt></ruby>となっているもの
+    TRANS: Norovirus merupakan penyebab yang paling banyak
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-otaff51-1258] もっと(もっと) [adverb] = lebih banyak / lebih lagi | [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab
+  OPT C: HTML=<ruby>食<rt>た</rt></ruby>べた<ruby>食品<rt>しょくひん</rt></ruby>についていた<ruby>細菌<rt>さいきん</rt></ruby>がヒトのおなかで<ruby>増<rt>ふ</rt></ruby>え、<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>って<ruby>健康障害<rt>けんこうしょうがい</rt></ruby>を<ruby>起<rt>お</rt></ruby>こすもの
+    TRANS: Bakteri yang menempel pada makanan yang dimakan berkembang biak di dalam perut manusia dan membentuk racun sehingga menyebabkan gangguan kesehatan
+    KOTOBA: [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p4-224] ついていた(-) [inflected, df:つく] = menempel (lampau) | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-latsol-hito] ヒト(ひと) [word] = manusia | [kb-v2-p2-093] おなか(-) [word] = perut | [kb-v2-p3-262] 増え(ふえ) [inflected, df:増える] = bertambah banyak | [kb-otaff51-0368] 毒素(どくそ) [noun] = toksin / racun | [kb-v2-p1-149] 作って(つくって) [inflected_verb, df:作る] = membuat (dasar: 作る) | [kb-ext-latsol-0031] 健康障害(けんこうしょうがい) [word] = gangguan kesehatan | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan
+  OPT D: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>、ウエルシュ<ruby>菌<rt>きん</rt></ruby>などは<ruby>感染型<rt>かんせんがた</rt></ruby><ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こすもの
+    TRANS: Bakteri seperti Clostridium botulinum dan Clostridium perfringens (Welchii) menyebabkan keracunan makanan tipe infeksi
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-latsol-03858a87de] ウエルシュ菌(うぇるしゅきん) [word] = Bakteri / kuman mikroorganisme penyeba | [kb-ext-0278-e6849fe69f] 感染型食中毒(かんせんがたしょくちゅうどく) [word] = keracunan makanan tipe infeksi | [kb-v2-p2-179] 引き起こす(ひきおこす) [word] = menimbulkan / menyebabkan

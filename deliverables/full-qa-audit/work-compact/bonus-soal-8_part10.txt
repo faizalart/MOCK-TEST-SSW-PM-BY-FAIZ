@@ -1,0 +1,65 @@
+# AUDIT SHEET: bonus-soal-8 (Bonus Soal 8) | Batch qa-batch-05 | Part 10 (Q37-39 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=bonus-soal-8-q037 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 8.pdf p.7 ===
+  FLAGS: [OPT_PROHIBITION_MISMATCH@optTranslation:A] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh || [OPT_PROHIBITION_MISMATCH@optTranslation:B] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh
+  CLUSTER CL-0177 (n=8, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q038 (bonus-soal-1), bonus-soal-4-q037 (bonus-soal-4), bonus-soal-7-q039 (bonus-soal-7), nguyen01-q038 (latsol-nguyen-01), nguyen04-q037 (latsol-nguyen-04), nguyen07-q039 (latsol-nguyen-07), nguyen08-q037 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>下記<rt>かき</rt></ruby>の<ruby>標識<rt>ひょうしき</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, apa arti rambu di bawah ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 7, Soal 37) · Kunci Jawaban Checklist Hijau (✓): A.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-1184690] 下記(かき) [word] = berikut ini | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-audit-0404] どういう(どういう) [word] = bagaimana / seperti apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>入<rt>はい</rt></ruby>ることを<ruby>禁止<rt>きんし</rt></ruby>する。
+    TRANS: Melarang masuk.
+    KOTOBA: [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>走<rt>はし</rt></ruby>ることを<ruby>禁止<rt>きんし</rt></ruby>する。
+    TRANS: Melarang berlari.
+    KOTOBA: [kb-v2-p5-271] 走る(はしる) [word] = berlari | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>切断<rt>せつだん</rt></ruby>する<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memperingatkan bahaya terpotong.
+    KOTOBA: [kb-1385120] 切断(せつだん) [word] = pemotongan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q38 | ID=bonus-soal-8-q038 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 8.pdf p.8 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: はさまれ注意 || [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 危険, 手をふれるな || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: はさまれ注意
+  CLUSTER CL-0189 (n=7, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q039 (bonus-soal-2), bonus-soal-2-q040 (bonus-soal-2), bonus-soal-4-q038 (bonus-soal-4), bonus-soal-8-q039 (bonus-soal-8), bonus-soal-9-q038 (bonus-soal-9), bonus-soal-9-q040 (bonus-soal-9)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、はさまれる<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memperingatkan bahaya terjepit? Pilihlah satu jawaban yang salah (atau sesuai gambar).
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 8, Soal 38) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0773] はさまれる(はさまれる) [verb] = terjepit | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=A
+    TRANS: Pilihan A — Rambu peringatan hati-hati tangan terjepit mesin pres (はさまれ注意 / WATCH YOUR HANDS)
+    MEDIA: media-bonus-soal-8-q038-a
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan B — Rambu bahaya jangan disentuh (危険 手をふれるな / DANGER! DO NOT TOUCH)
+    MEDIA: media-bonus-soal-8-q038-b
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan C — Rambu peringatan hati-hati tangan terjepit di antara dua arah panah (はさまれ注意)
+    MEDIA: media-bonus-soal-8-q038-c
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C
+
+=== #Q39 | ID=bonus-soal-8-q039 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 8.pdf p.8 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: やけど注意 || [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 火傷注意 || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: 危険, 手をふれるな
+  CLUSTER CL-0189 (n=7, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q039 (bonus-soal-2), bonus-soal-2-q040 (bonus-soal-2), bonus-soal-4-q038 (bonus-soal-4), bonus-soal-8-q038 (bonus-soal-8), bonus-soal-9-q038 (bonus-soal-9), bonus-soal-9-q040 (bonus-soal-9)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、やけどをする<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memperingatkan bahaya terkena luka bakar? Pilihlah satu jawaban yang salah (atau sesuai gambar).
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 8, Soal 39) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0028] やけど(やけど) [noun] = luka bakar | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=A
+    TRANS: Pilihan A — Rambu peringatan hati-hati luka bakar dengan gambar tangan dan api dalam lingkaran (やけど注意)
+    MEDIA: media-bonus-soal-8-q039-a
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan B — Rambu peringatan hati-hati luka bakar dengan gambar tangan dan kobaran api dalam kotak (火傷注意)
+    MEDIA: media-bonus-soal-8-q039-b
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan C — Rambu bahaya jangan disentuh (危険 手をふれるな / DANGER! DO NOT TOUCH)
+    MEDIA: media-bonus-soal-8-q039-c
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C

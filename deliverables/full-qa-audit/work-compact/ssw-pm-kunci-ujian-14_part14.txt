@@ -1,0 +1,75 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-14 (Soal Ujian 14) | Batch qa-batch-03 | Part 14 (Q53-56 of 59)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q53 | ID=kunci-ujian-14-q053 | KEY=C (idx=2) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 14.pdf p.13 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>（CCP）のうち<ruby>間違<rt>まちが</rt></ruby>っている<ruby>工程<rt>こうてい</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara berikut ini, pilihlah satu tahapan proses yang salah (bukan merupakan contoh umum Titik Kendali Kritis / CCP).
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 13, nomor 参考問題⑲ (Q53). Bobot: 2.54 poin. Kunci jawaban: C. Pembahasan: Proses pemanasan/sterilisasi (加熱殺菌工程) dan pemeriksaan detektor logam (金属検出器) adalah contoh klasik CCP dalam HACCP, sedangkan 入出庫現場 (keluar-masuk gudang) dikelola dengan manajemen higiene umum.
+  INLINE_KOTOBA_COUNT: 10
+  KOTOBA_PROMPT: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0286] 工程(こうてい) [noun] = tahapan proses | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>
+    TRANS: Detektor logam
+    KOTOBA: [kb-ext-0411-e98791e5b1] 金属検出器(きんぞくけんしゅつき) [compound_technical] = detektor logam
+  OPT B: HTML=<ruby>加熱殺菌工程<rt>かねつさっきんこうてい</rt></ruby>
+    TRANS: Proses sterilisasi pemanasan
+    KOTOBA: [kb-u1416-3ab9313643] 加熱殺菌工程(かねつさっきんこうてい) [word] = proses sterilisasi dengan pemanasan
+  OPT C: HTML=<ruby>入出庫現場<rt>にゅうしゅっこげんば</rt></ruby>
+    TRANS: Area keluar-masuk barang gudang
+    KOTOBA: [kb-u1416-7545345f65] 入出庫現場(にゅうしゅっこげんば) [word] = area keluar-masuk barang
+
+=== #Q54 | ID=kunci-ujian-14-q054 | KEY=B (idx=1) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 14.pdf p.13 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>（HA）の<ruby>工程<rt>こうてい</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang benar mengenai tahapan Analisis Bahaya (Hazard Analysis / HA).
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 13, nomor 参考問題⑳ (Q54). Bobot: 2.54 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 4 (hlm. 56), Prinsip 1 HACCP yaitu 危害要因分析 (HA) adalah membuat daftar (リストアップ) potensi bahaya dari bahan baku dan tiap tahap proses produksi.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-v2-p6-170] HA(-) [technical] = Analisis Bahaya (Hazard Analysis) | [kb-otaff51-0286] 工程(こうてい) [noun] = tahapan proses | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>監視<rt>かんし</rt></ruby>（モニタリング）する<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>設置<rt>せっち</rt></ruby>する
+    TRANS: Menetapkan metode pemantauan (monitoring)
+    KOTOBA: [kb-otaff51-0460] 監視(かんし) [noun] = pemantauan (monitoring) | [kb-otaff51-0083] モニタリング(もにたりんぐ) [compound_technical] = pemantauan berkelanjutan (monitoring) | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-1386050] 設置(せっち) [word] = pemasangan / penempatan alat
+  OPT B: HTML=<ruby>原材料及<rt>げんざいりょうおよ</rt></ruby>び<ruby>製造工程<rt>せいぞうこうてい</rt></ruby>から<ruby>考<rt>かんが</rt></ruby>えられる<ruby>危害<rt>きがい</rt></ruby>をリストアップする。
+    TRANS: Membuat daftar (list up) potensi bahaya yang mungkin timbul dari bahan baku dan proses produksi.
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-audit-0011] 及び(および) [word] = serta / dan juga | [kb-otaff51-0556] 製造工程(せいぞうこうてい) [compound_technical] = tahapan proses produksi | [kb-otaff51-0769] 考え(かんがえ) [inflected_verb, df:考える] = berpikir / mempertimbangkan | [kb-1218440] 危害(きがい) [word] = bahaya | [kb-v2-p6-187] リストアップ(-) [word] = mendaftar / menginventarisasi
+  OPT C: HTML=<ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>を<ruby>設置<rt>せっち</rt></ruby>する。
+    TRANS: Memasang detektor logam.
+    KOTOBA: [kb-ext-0411-e98791e5b1] 金属検出器(きんぞくけんしゅつき) [compound_technical] = detektor logam | [kb-1386050] 設置(せっち) [word] = pemasangan / penempatan alat
+
+=== #Q55 | ID=kunci-ujian-14-q055 | KEY=C (idx=2) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 14.pdf p.13 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang salah mengenai prosedur kerja.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 13, nomor 参考問題㉑ (Q55). Bobot: 2.54 poin. Kunci jawaban: C. Pembahasan: Perangkat pengaman (安全装置) sama sekali tidak boleh dilepas atau dimatikan dengan alasan apa pun.
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>に<ruby>書<rt>か</rt></ruby>かれている<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>を<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>し、<ruby>覚<rt>おぼ</rt></ruby>えます。
+    TRANS: Mengulang dan mengingat prosedur kerja yang tertulis pada dokumen prosedur kerja.
+    KOTOBA: [kb-otaff51-0123] 作業手順書(さぎょうてじゅんしょ) [compound_technical] = dokumen prosedur kerja (SOP) | [kb-v2-p6-505] 書かれている(かかれている) [inflected, df:書く] = tertulis | [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-v2-p2-175] 繰り返し(くりかえし) [word] = berulang kali | [kb-audit-0060] 覚えます(おぼえます) [inflected_verb, df:覚える] = mengingat / menghafal
+  OPT B: HTML=<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からない<ruby>時<rt>とき</rt></ruby>、<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>確認<rt>かくにん</rt></ruby>します。
+    TRANS: Saat tidak memahami prosedur kerja, memastikan/bertanya kepada penanggung jawab.
+    KOTOBA: [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-latsol-wakaranai] 分からない(わからない) [inflected_verb, df:分かる] = tidak tahu / tidak mengerti | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-audit-0940] 確認します(かくにんします) [inflected_verb, df:確認する] = memeriksa (sopan)
+  OPT C: HTML=<ruby>安全装置<rt>あんぜんそうち</rt></ruby>は<ruby>仕事<rt>しごと</rt></ruby>の<ruby>効率<rt>こうりつ</rt></ruby>が<ruby>影響<rt>えいきょう</rt></ruby>するので、はずして<ruby>作業<rt>さぎょう</rt></ruby>します。
+    TRANS: Karena perangkat pengaman memengaruhi efisiensi kerja, lepaskan perangkat pengaman saat bekerja.
+    KOTOBA: [kb-otaff51-0268] 安全装置(あんぜんそうち) [compound_technical] = perangkat pengaman mesin | [kb-otaff51-0110] 仕事(しごと) [noun] = pekerjaan | [kb-1275210] 効率(こうりつ) [word] = Efisiensi produktivitas kerja pabrik | [kb-1173660] 影響(えいきょう) [word] = dampak / pengaruh | [kb-audit-0022] はずして(はずして) [inflected_verb, df:外す] = melepas / mencopot | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+
+=== #Q56 | ID=kunci-ujian-14-q056 | KEY=B (idx=1) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 14.pdf p.13 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-1516925 "方": kotoba="かた" vs ruby="ほう"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: はさまれ・<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれの<ruby>災害防止<rt>さいがいぼうし</rt></ruby>のポイントについて<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang benar mengenai poin pencegahan kecelakaan terjepit atau terlilit mesin (hasamare / makikomare).
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 13, nomor 参考問題㉒ (Q56). Bobot: 2.54 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 70), untuk mencegah kecelakaan terjepit/terlilit saat perawatan/perbaikan mesin, wajib memasang tanda '修理中' / '点検中' dan menyimpan kunci sakelar agar tidak dinyalakan orang lain.
+  INLINE_KOTOBA_COUNT: 26
+  KOTOBA_PROMPT: [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin | [kb-ext-0614-e781bde5ae] 災害防止(さいがいぼうし) [word] = Pencegahan kecelakaan kerja pabrik (K3) | [kb-v2-p5-093] ポイント(-) [word] = poin penting | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>床<rt>ゆか</rt></ruby>の<ruby>濡<rt>ぬ</rt></ruby>れが<ruby>少<rt>すこ</rt></ruby>し<ruby>残<rt>のこ</rt></ruby>っていた<ruby>方<rt>ほう</rt></ruby>が<ruby>良<rt>よ</rt></ruby>い
+    TRANS: Sebaiknya membiarkan lantai sedikit basah.
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-v2-p6-509] 濡れ(ぬれ) [word] = basah / genangan | [kb-v2-p5-219] 少し(すこし) [word] = sedikit | [kb-v2-p4-166] 残って(のこって) [inflected, df:残る] = tersisa / tertinggal | [kb-1516925] 方(かた) [standalone_term] = Cara / metode pelaksanaan instruksi kerja | [kb-v2-p1-248] 良い(よい) [word] = baik
+  OPT B: HTML=「<ruby>修理中<rt>しゅうりちゅう</rt></ruby>」などの<ruby>表示<rt>ひょうじ</rt></ruby>、<ruby>起動<rt>きどう</rt></ruby>スイッチを<ruby>作業者<rt>さぎょうしゃ</rt></ruby>が<ruby>保管<rt>ほかん</rt></ruby>して<ruby>不意<rt>ふい</rt></ruby>の<ruby>起動<rt>きどう</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>する。
+    TRANS: Memasang tanda seperti "Sedang Diperbaiki" dan pekerja menyimpan kunci sakelar pengaktif untuk mencegah mesin menyala secara tidak sengaja.
+    KOTOBA: [kb-1332440] 修理中(しゅうりちゅう) [word] = sedang dalam perbaikan | [kb-otaff51-0544] 表示(ひょうじ) [noun] = pencantuman label / tampilan | [kb-u1416-de46553e9f] 起動スイッチ(きどうすいっち) [word] = sakelar penghidup mesin | [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-1491210] 不意(ふい) [word] = Tiba-tiba / tanpa terduga | [kb-v2-p6-248] 起動(きどう) [word] = menyalakan mesin (start-up) | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan
+  OPT C: HTML=<ruby>移動<rt>いどう</rt></ruby>するときは<ruby>物<rt>もの</rt></ruby>を<ruby>持<rt>も</rt></ruby>つようにします。
+    TRANS: Saat berpindah tempat, usahakan sambil membawa barang.
+    KOTOBA: [kb-v2-p2-214] 移動する(いどうする) [word] = berpindah / berjalan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)

@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-01 (Latsol Nguyen 01) | Batch qa-batch-07 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=nguyen01-q017 | KEY=B (idx=1) | CAT= | SRC=1-1.pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p5-101 (コーヒ): "kopi (typo: コーヒー)"
+  CLUSTER CL-0167 (n=9, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q017 (bonus-soal-1), bonus-soal-2-q004 (bonus-soal-2), bonus-soal-7-q017 (bonus-soal-7), bonus-soal-8-q004 (bonus-soal-8), nguyen02-q004 (latsol-nguyen-02), nguyen07-q017 (latsol-nguyen-07), nguyen08-q004 (latsol-nguyen-08), nguyen10-q018 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("冷凍食品。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>飲料製造業<rt>いんりょうせいぞうぎょう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>することですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Memproduksi apakah industri manufaktur minuman (inryou seizougyou) itu? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 3, nomor 17. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0666] 飲料製造業(いんりょうせいぞうぎょう) [compound_technical] = industri pembuatan minuman | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=コーヒ。
+    TRANS: Kopi.
+    KOTOBA: [kb-v2-p5-101] コーヒ(-) [word] = kopi (typo: コーヒー)
+  OPT B: HTML=<ruby>冷凍食品<rt>れいとうしょくひん</rt></ruby>。
+    TRANS: Makanan beku.
+    KOTOBA: [kb-otaff51-0160] 冷凍食品(れいとうしょくひん) [compound_technical] = makanan beku
+  OPT C: HTML=ジュース。
+    TRANS: Jus.
+    KOTOBA: [kb-v2-p5-100] ジュース(-) [word] = jus minuman
+
+=== #Q18 | ID=nguyen01-q018 | KEY=C (idx=2) | CAT= | SRC=1-1.pdf p.3 ===
+  CLUSTER CL-0017 (n=8, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q018 (ssw-pm-kunci-ujian-1), q017 (ssw-pm-tipe2-nguyen1), bonus-soal-1-q018 (bonus-soal-1), bonus-soal-7-q018 (bonus-soal-7), bonus-soal-10-q024 (bonus-soal-10), nguyen07-q018 (latsol-nguyen-07), nguyen10-q019 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("作業に慣れていないため、危険に気がつきにくい。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>働<rt>はたら</rt></ruby>く<ruby>経験<rt>けいけん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>よりも、<ruby>働<rt>はたら</rt></ruby>く<ruby>経験<rt>けいけん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない<ruby>人<rt>ひと</rt></ruby>のほうが<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah alasan orang yang pengalaman kerjanya sedikit lebih banyak mengalami kecelakaan kerja dibandingkan orang yang pengalaman kerjanya sudah lama? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 3, nomor 18. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-1251270] 経験(けいけん) [word] = pengalaman | [kb-v2-p1-250] 長い(ながい) [word] = panjang / lama | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-322] よりも(-) [particle] = dibandingkan dengan | [kb-v2-p1-251] 少ない(すくない) [word] = sedikit | [kb-v2-p1-293] のほう(-) [expression] = lebih (perbandingan) | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>危険<rt>きけん</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>担当<rt>たんとう</rt></ruby>することが<ruby>多<rt>おお</rt></ruby>い。
+    TRANS: Karena sering bertugas menangani pekerjaan berbahaya.
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1418160] 担当(たんとう) [word] = penanggung jawab / tugas | [kb-v2-p1-252] 多い(おおい) [word] = banyak
+  OPT B: HTML=<ruby>年齢<rt>ねんれい</rt></ruby>が<ruby>若<rt>わか</rt></ruby>く、<ruby>作業時間<rt>さぎょうじかん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い。
+    TRANS: Karena banyak orang yang usianya muda dan jam kerjanya panjang.
+    KOTOBA: [kb-1600240] 年齢(ねんれい) [word] = usia | [kb-v2-p1-182] 若く(わかく) [inflected_adj, df:若い] = muda (dasar: 若い) | [kb-1936050] 作業時間(さぎょうじかん) [compound_technical] = jam kerja | [kb-v2-p1-250] 長い(ながい) [word] = panjang / lama | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-252] 多い(おおい) [word] = banyak
+  OPT C: HTML=<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れていないため、<ruby>危険<rt>きけん</rt></ruby>に<ruby>気<rt>き</rt></ruby>がつきにくい。
+    TRANS: Karena belum terbiasa dengan pekerjaan sehingga sulit menyadari bahaya.
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-131] 慣れていない(なれていない) [inflected_verb, df:慣れる] = belum terbiasa (dasar: 慣れる) | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-latsol-aaf53d7e44] 気がつきにくい(きがつきにくい) [word] = sulit disadari / tidak terlihat
+
+=== #Q19 | ID=nguyen01-q019 | KEY=A (idx=0) | CAT= | SRC=1-1.pdf p.3 ===
+  CLUSTER CL-0018 (n=6, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci1-q019 (ssw-pm-kunci-ujian-1), bonus-soal-1-q019 (bonus-soal-1), bonus-soal-7-q019 (bonus-soal-7), nguyen07-q019 (latsol-nguyen-07), nguyen10-q020 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("ポケットやボタンのある作業服を着る。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>のどのような<ruby>点<rt>てん</rt></ruby>に<ruby>注意<rt>ちゅうい</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>ですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal-hal seperti apa yang perlu diperhatikan mengenai pakaian kerja? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 3, nomor 19. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-audit-0703] のど(のど) [word] = tenggorokan | [kb-1441390] 点(てん) [standalone_term] = Poin / titik kendali dalam tahapan pengolahan | [kb-otaff51-0381] 注意(ちゅうい) [noun] = perhatian / peringatan | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=ポケットやボタンのある<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>る。
+    TRANS: Mengenakan pakaian kerja yang memiliki saku dan kancing (di bagian luar).
+    KOTOBA: [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian)
+  OPT B: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>袖口<rt>そでぐち</rt></ruby>は、<ruby>絞<rt>しぼ</rt></ruby>ったものを<ruby>使<rt>つか</rt></ruby>う。
+    TRANS: Menggunakan pakaian kerja yang ujung lengannya menyempit/berkerut.
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-otaff51-0549] 袖口(そでぐち) [noun] = ujung lengan baju | [kb-v2-p1-183] 絞った(しぼった) [inflected_verb, df:絞る] = yang dikencangkan (dasar: 絞る) | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan
+  OPT C: HTML=ロッカーの<ruby>中<rt>なか</rt></ruby>で、<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業服<rt>さぎょうふく</rt></ruby>ときれいな<ruby>作業服<rt>さぎょうふく</rt></ruby>がくっつかないようにする。
+    TRANS: Di dalam loker, menjaga agar pakaian kerja yang kotor dan pakaian kerja yang bersih tidak saling menempel.
+    KOTOBA: [kb-v2-p1-039] ロッカー(-) [word] = loker | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-audit-0681] れい(れい) [word] = contoh / ilustrasi | [kb-v2-p1-106] くっつかない(-) [inflected_verb, df:くっつく] = tidak menempel (dasar: くっつく) | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+
+=== #Q20 | ID=nguyen01-q020 | KEY=C (idx=2) | CAT= | SRC=1-1.pdf p.3 ===
+  CLUSTER CL-0168 (n=8, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q020 (bonus-soal-1), bonus-soal-7-q020 (bonus-soal-7), bonus-soal-9-q001 (bonus-soal-9), nguyen03-q001 (latsol-nguyen-03), nguyen07-q020 (latsol-nguyen-07), nguyen09-q001 (latsol-nguyen-09), nguyen10-q021 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("健康の知識。。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>飲食料品製造業特定技能<rt>いんしょくりょうひんせいぞうぎょうとくていぎのう</rt></ruby>1<ruby>号<rt>ごう</rt></ruby>の<ruby>在留資格者<rt>ざいりゅうしかくしゃ</rt></ruby>が<ruby>働<rt>はたら</rt></ruby>く<ruby>業種<rt>ぎょうしゅ</rt></ruby>は<ruby>色々<rt>いろいろ</rt></ruby>があります。<ruby>業種<rt>ぎょうしゅ</rt></ruby>で<ruby>必要<rt>ひつよう</rt></ruby>なものは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada berbagai macam bidang industri tempat pemegang izin tinggal Pekerja Berketerampilan Spesifik (SSW) No. 1 Industri Pengolahan Makanan dan Minuman bekerja. Hal apakah yang diperlukan dalam bidang industri tersebut? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 3, nomor 20. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-ext-0115-e9a3b2e9a3] 飲食料品製造業特定技能(いんしょくりょうひんせいぞうぎょうとくていぎのう) [word] = SSW Manufaktur Makanan & Minuman | [kb-1284220] 号(ごう) [standalone_term] = Nomor (seperti Tokutei Ginou No. 1 / 特定技能1号) | [kb-otaff51-0242] 在留資格者(ざいりゅうしかくしゃ) [compound_technical] = pemegang izin tinggal | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-otaff51-0352] 業種(ぎょうしゅ) [noun] = jenis industri / bidang usaha | [kb-1587850] 色々(いろいろ) [word] = bermacam-macam / beragam | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>。
+    TRANS: Pengetahuan tentang sanitasi pangan.
+    KOTOBA: [kb-otaff51-0652] 食品衛生(しょくひんえいせい) [compound_technical] = higiene pangan / keamanan pangan | [kb-otaff51-0467] 知識(ちしき) [noun] = pengetahuan
+  OPT B: HTML=<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>。
+    TRANS: Pengetahuan tentang keselamatan kerja.
+    KOTOBA: [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-otaff51-0467] 知識(ちしき) [noun] = pengetahuan
+  OPT C: HTML=<ruby>健康<rt>けんこう</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>。。
+    TRANS: Pengetahuan tentang kesehatan.
+    KOTOBA: [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-otaff51-0467] 知識(ちしき) [noun] = pengetahuan

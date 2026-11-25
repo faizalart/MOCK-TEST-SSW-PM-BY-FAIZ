@@ -1,0 +1,78 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-16 (Soal Ujian 16) | Batch qa-batch-04 | Part 5 (Q17-20 of 50)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=kunci-ujian-16-q017 | KEY=A (idx=0) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 16.pdf p.6 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-ext-0795-e58f97e585 "受入": kotoba="うけい" vs ruby="うけいれ"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPとはどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pengertian HACCP yang benar? Pilihlah satu.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 6, nomor 門17 (Q17). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 4 (hlm. 54), HACCP adalah singkatan dari Hazard Analysis (危害要因分析) dan Critical Control Point (重要管理点).
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>とミスすることができない<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>のことである
+    TRANS: Merupakan gabungan Analisis Bahaya (HA) dan Titik Kendali Kritis (CCP) yang tidak boleh terjadi kesalahan
+    KOTOBA: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-v2-p4-077] ミス(-) [word] = kesalahan (human error) | [kb-audit-0468] ことができ(ことができ) [expression, df:できる] = dapat / bisa dilakukan | [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP)
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受入<rt>うけいれ</rt></ruby>から<ruby>最終製品<rt>さいしゅうせいひん</rt></ruby>の<ruby>出荷<rt>しゅっか</rt></ruby>までの<ruby>工程<rt>こうてい</rt></ruby>である
+    TRANS: Merupakan proses dari penerimaan bahan baku hingga pengiriman produk akhir
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-ext-0795-e58f97e585] 受入(うけい) [word] = penerimaan bahan baku | [kb-2664270] 最終製品(さいしゅうせいひん) [word] = produk pangan jadi siap konsumsi | [kb-otaff51-0174] 出荷(しゅっか) [noun] = pengiriman barang keluar pabrik | [kb-otaff51-0286] 工程(こうてい) [noun] = tahapan proses
+  OPT C: HTML=<ruby>微生物<rt>びせいぶつ</rt></ruby>による<ruby>汚染<rt>おせん</rt></ruby>や<ruby>異物<rt>いぶつ</rt></ruby>の<ruby>混入<rt>こんにゅう</rt></ruby>の<ruby>危害<rt>きがい</rt></ruby>を<ruby>予測<rt>よそく</rt></ruby>することである
+    TRANS: Merupakan prediksi bahaya kontaminasi mikroorganisme atau benda asing saja
+    KOTOBA: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-otaff51-0377] 汚染(おせん) [noun] = kontaminasi / pencemaran | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-otaff51-0397] 混入(こんにゅう) [noun] = pencampuran / kontaminasi masuk | [kb-1218440] 危害(きがい) [word] = bahaya | [kb-1543200] 予測(よそく) [word] = prediksi / prakiraan risiko
+
+=== #Q18 | ID=kunci-ujian-16-q018 | KEY=B (idx=1) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 16.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="下記の食中毒を引き起こす主な細菌とウイルスはどれか、正しいものを一つ選びなさい。(腸管出血性大腸菌、サルモネラ属、腸炎ビブリオ)" vs questionText="下記の食中毒を引き起こす主な細菌とウイルスはどれか、正しいものを一つ選びなさい。(腸管出血性大腸菌、サルモネラ属菌、腸炎ビブリオ)"
+  CLUSTER CL-0047 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q015 (ssw-pm-kunci-ujian-2)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下記<rt>かき</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>主<rt>おも</rt></ruby>な<ruby>細菌<rt>さいきん</rt></ruby>とウイルスはどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。（<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>、サルモネラ<ruby>属<rt>ぞく</rt></ruby>、<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ）
+  QUESTION_TEXT: 下記の食中毒を引き起こす主な細菌とウイルスはどれか、正しいものを一つ選びなさい。（腸管出血性大腸菌、サルモネラ属菌、腸炎ビブリオ）
+  PROMPT_TRANS: Termasuk jenis manakah bakteri penyebab keracunan makanan di bawah ini? Pilihlah satu yang benar. (Enterohemorrhagic E. coli, genus Salmonella, Vibrio parahaemolyticus)
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 6, nomor 門18 (Q18). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 1 (hlm. 14), 腸管出血性大腸菌, サルモネラ属菌, カンピロバクター属菌, dan 腸炎ビブリオ diklasifikasikan sebagai 感染型 (tipe infeksi).
+  INLINE_KOTOBA_COUNT: 15
+  KOTOBA_PROMPT: [kb-1184690] 下記(かき) [word] = berikut ini | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p2-179] 引き起こす(ひきおこす) [word] = menimbulkan / menyebabkan | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-otaff51-0525] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [compound_technical] = bakteri E. coli enterohemoragik (O157, O111) | [kb-audit-0018] サルモネラ属(さるもねらぞく) [word] = bakteri genus Salmonella | [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT A: HTML=<ruby>毒素型<rt>どくそがた</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>
+    TRANS: Keracunan makanan tipe toksin (racun)
+    KOTOBA: [kb-ext-1377-e6af92e7b4] 毒素型(どくそがた) [word] = tipe toksin (racun) | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan
+  OPT B: HTML=<ruby>感染型<rt>かんせんがた</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>
+    TRANS: Keracunan makanan tipe infeksi
+    KOTOBA: [kb-ext-0277-e6849fe69f] 感染型(かんせんがた) [word] = tipe infeksi | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan
+  OPT C: HTML=ウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>
+    TRANS: Keracunan makanan akibat virus
+    KOTOBA: [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan
+
+=== #Q19 | ID=kunci-ujian-16-q019 | KEY=C (idx=2) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 16.pdf p.7 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="微生物の増殖させないため、どれか、正しいものを一つ選びなさい。" vs questionText="微生物を増殖させないため、どれか、正しいものを一つ選びなさい。"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>増殖<rt>ぞうしょく</rt></ruby>させないため、どれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 微生物を増殖させないため、どれか、正しいものを一つ選びなさい。
+  PROMPT_TRANS: Untuk mencegah mikroorganisme berkembang biak, manakah pernyataan yang benar? Pilihlah satu.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 7, nomor 門19 (Q19). Bobot: 3.0 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 1 & Bab 3 (hlm. 20, 42), bakteri membelah diri setiap waktu generasi tertentu, sehingga pengendalian suhu dan waktu (時間をコントロールする) sangat penting agar bakteri tidak sempat berkembang biak.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p2-182] 増殖させない(ぞうしょくさせない) [inflected, df:増殖する] = tidak membiarkan berkembang biak | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>機械<rt>きかい</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>などを<ruby>洗浄<rt>せんじょう</rt></ruby>する
+    TRANS: Mencuci mesin dan peralatan (ini prinsip 'tidak menempelkan / tsukenai')
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian
+  OPT B: HTML=<ruby>加熱<rt>かねつ</rt></ruby>したものを<ruby>室温<rt>しつおん</rt></ruby>で<ruby>長<rt>なが</rt></ruby>く<ruby>放置<rt>ほうち</rt></ruby>し、<ruby>温度<rt>おんど</rt></ruby>をゆっくりさげる
+    TRANS: Membiarkan makanan yang telah dipanaskan di suhu ruang dalam waktu lama dan menurunkan suhunya perlahan
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-audit-0895] 長く(ながく) [inflected_adj, df:長い] = menjadi lama / panjang | [kb-audit-0941] 放置し(ほうちし) [inflected_verb, df:放置する] = membiarkan (放置する) | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-v2-p2-190] さげる(-) [word] = menurunkan (suhu)
+  OPT C: HTML=<ruby>世代交代時間<rt>せだいこうたいじかん</rt></ruby>があるので、<ruby>時間<rt>じかん</rt></ruby>をコントロールするのが<ruby>必要<rt>ひつよう</rt></ruby>である
+    TRANS: Karena bakteri memiliki waktu pembelahan generasi (sedai koutai jikan), maka diperlukan pengendalian waktu
+    KOTOBA: [kb-ext-1002-e4b896e4bb] 世代交代時間(せだいこうたいじかん) [word] = waktu pembelahan sel bakteri | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p2-191] コントロールする(-) [word] = mengendalikan / mengontrol | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan
+
+=== #Q20 | ID=kunci-ujian-16-q020 | KEY=A (idx=0) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 16.pdf p.7 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>はどれか、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang salah (bukan termasuk kategori pencegahan kecelakaan kerja / K3) mengenai pekerjaan yang aman? Pilihlah satu.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 7, nomor 門20 (Q20). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 5, keselamatan kerja mencakup pencegahan 挟まれ・巻き込まれ, 転倒, 切れ・こすれ, 熱中症, dan 腰痛症. 私物紛失予防 (pencegahan kehilangan barang pribadi) bukan kategori kecelakaan kerja.
+  INLINE_KOTOBA_COUNT: 13
+  KOTOBA_PROMPT: [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>私物紛失予防<rt>しぶつふんしつよぼう</rt></ruby>
+    TRANS: Pencegahan kehilangan barang pribadi
+    KOTOBA: [kb-ext-latsol-0110] 私物(しぶつ) [word] = barang pribadi | [kb-u1416-6fa4e1ed17] 紛失(ふんしつ) [word] = kehilangan | [kb-1543660] 予防(よぼう) [word] = pencegahan
+  OPT B: HTML=<ruby>腰痛症予防<rt>ようつうしょうよぼう</rt></ruby>
+    TRANS: Pencegahan nyeri pinggang
+    KOTOBA: [kb-u1416-47463cae33] 腰痛症予防(ようつうしょうよぼう) [word] = pencegahan sakit pinggang
+  OPT C: HTML=<ruby>挟<rt>はさ</rt></ruby>まれ・<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ・<ruby>転倒<rt>てんとう</rt></ruby>など
+    TRANS: Pencegahan terjepit, terlilit, terjatuh, dan sebagainya
+    KOTOBA: [kb-v2-p6-379] 挟まれ(はさまれ) [inflected, df:挟む] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin | [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama

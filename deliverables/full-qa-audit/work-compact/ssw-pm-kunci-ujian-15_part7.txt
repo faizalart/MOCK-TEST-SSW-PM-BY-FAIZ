@@ -1,0 +1,78 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-15 (Soal Ujian 15) | Batch qa-batch-03 | Part 7 (Q25-28 of 38)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-15-q025 | KEY=C (idx=2) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 15.pdf p.7 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Item/prinsip manakah yang terdapat dalam HACCP? Pilihlah satu yang salah."
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPはどの<ruby>項目<rt>こうもく</rt></ruby>がありますか。<ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Item/prinsip manakah yang terdapat dalam HACCP? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 7, nomor 25 (Q25). Bobot: 3.95 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 4 (hlm. 56–58), 施設基準の設定 bukan bagian dari 7 prinsip HACCP.
+  INLINE_KOTOBA_COUNT: 9
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=モニタリング<ruby>方法<rt>ほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode pemantauan (monitoring)
+    KOTOBA: [kb-v2-p1-005] モニタリング方法(もにたりんぐほうほう) [compound_technical] = metode pemantauan | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT B: HTML=<ruby>検証方法<rt>けんしょうほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode verifikasi
+    KOTOBA: [kb-otaff51-0351] 検証方法(けんしょうほうほう) [compound_technical] = metode verifikasi | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT C: HTML=<ruby>施設基準<rt>しせつきじゅん</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan standar fasilitas
+    KOTOBA: [kb-ext-0709-e696bde8a8] 施設基準(しせつきじゅん) [compound_technical] = standar fasilitas | [kb-1386060] 設定(せってい) [word] = penetapan
+
+=== #Q26 | ID=kunci-ujian-15-q026 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.7 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>の<ruby>注意点<rt>ちゅういてん</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai hal yang perlu diperhatikan selama bekerja, pilihlah pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 7, nomor 26 (Q26). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Prosedur kerja (作業手順) wajib dipatuhi; bekerja tanpa mematuhi prosedur adalah tindakan yang salah.
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0383] 注意点(ちゅういてん) [compound_technical] = poin perhatian | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>らないで<ruby>行<rt>おこな</rt></ruby>います。
+    TRANS: Melakukan pekerjaan tanpa mematuhi prosedur kerja.
+    KOTOBA: [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-audit-0067] 守らないで(まもらないで) [inflected_verb, df:守る] = tanpa mematuhi / tidak menaati | [kb-latsol-99870ef67e] 行います(おこないます) [word] = melakukan / melaksanakan
+  OPT B: HTML=<ruby>危険<rt>きけん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけたらすぐ<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>する。
+    TRANS: Jika menemukan tempat berbahaya, segera laporkan kepada penanggung jawab.
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-audit-0591] 見つけたら(みつけたら) [inflected_verb, df:見つける] = jika menemukan | [kb-v2-p1-282] すぐ(-) [word] = segera | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-157] 報告する(ほうこくする) [word] = melaporkan
+  OPT C: HTML=<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>が<ruby>危険<rt>きけん</rt></ruby>な<ruby>動<rt>うご</rt></ruby>きをしたら<ruby>注意<rt>ちゅうい</rt></ruby>する。
+    TRANS: Jika orang di sekitar melakukan gerakan berbahaya, berikan peringatan.
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-v2-p6-548] 動き(うごき) [word] = gerakan / pergerakan | [kb-audit-0590] したら(したら) [inflected_verb, df:する] = jika melakukan / setelah itu | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada
+
+=== #Q27 | ID=kunci-ujian-15-q027 | KEY=B (idx=1) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 15.pdf p.7 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0135 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-8-q027 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>危険異物<rt>きけんいぶつ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がありますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa sajakah yang termasuk benda asing berbahaya (hard foreign matter / kiken ibutsu)? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 7, nomor 27 (Q27). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 4 (hlm. 56), benda asing keras yang dapat melukai konsumen secara langsung (危険異物 /危害要因物理的) adalah logam, batu (石), dan kaca (ガラス), sedangkan rambut (髪の毛) termasuk benda asing umum (tidak melukai mulut secara fisik).
+  INLINE_KOTOBA_COUNT: 8
+  KOTOBA_PROMPT: [kb-ext-0317-e58db1e999] 危険異物(きけんいぶつ) [compound_technical] = benda asing berbahaya | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>石<rt>いし</rt></ruby>
+    TRANS: Batu
+    KOTOBA: [kb-otaff51-0468] 石(いし) [noun] = batu
+  OPT B: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>
+    TRANS: Rambut
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut
+  OPT C: HTML=ガラス
+    TRANS: Kaca
+    KOTOBA: [kb-v2-p1-057] ガラス(-) [word] = kaca
+
+=== #Q28 | ID=kunci-ujian-15-q028 | KEY=A (idx=0) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 15.pdf p.7 ===
+  CLUSTER CL-0136 (n=2, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-8-q028 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物検査<rt>びせいぶつけんさ</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang salah mengenai pemeriksaan mikrobiologi.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 7, nomor 28 (Q28). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 46), pemeriksaan Campylobacter sama sekali tidak dilarang oleh hukum Jepang.
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-otaff51-0296] 微生物検査(びせいぶつけんさ) [compound_technical] = uji laboratorium mikrobiologi | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=カンピロバクター<ruby>属菌検査<rt>ぞくきんけんさ</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>禁止<rt>きんし</rt></ruby>される。
+    TRANS: Pemeriksaan bakteri genus Campylobacter dilarang oleh hukum Jepang.
+    KOTOBA: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter | [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-1582710] 日本(にほん) [word] = Jepang | [kb-otaff51-0380] 法律(ほうりつ) [noun] = undang-undang / hukum | [kb-1241550] 禁止(きんし) [word] = dilarang
+  OPT B: HTML=<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>定<rt>さだ</rt></ruby>めた<ruby>項目<rt>こうもく</rt></ruby>があればそれに<ruby>沿<rt>そ</rt></ruby>って<ruby>行<rt>おこな</rt></ruby>う。
+    TRANS: Jika ada item pemeriksaan yang ditetapkan oleh undang-undang, lakukan sesuai ketentuan tersebut.
+    KOTOBA: [kb-otaff51-0380] 法律(ほうりつ) [noun] = undang-undang / hukum | [kb-v2-p6-511] 定めた(さだめた) [inflected, df:定める] = yang ditetapkan (lampau) | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-v2-p3-200] 沿って(そって) [inflected, df:沿う] = sesuai / mengikuti | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan
+  OPT C: HTML=<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>検査項目<rt>けんさこうもく</rt></ruby>は<ruby>一般生菌数<rt>いっぱんせいきんすう</rt></ruby>、<ruby>大腸菌<rt>だいちょうきん</rt></ruby>、<ruby>大腸菌群<rt>だいちょうきんぐん</rt></ruby>などがある。
+    TRANS: Item pemeriksaan umum meliputi jumlah bakteri hidup umum (ALT), E. coli, kelompok koliform, dan sebagainya.
+    KOTOBA: [kb-1165880] 一般的(いっぱんてき) [word] = umum / lazim | [kb-ext-0467-e6a49ce69f] 検査項目(けんさこうもく) [compound_technical] = item pemeriksaan | [kb-otaff51-0087] 一般生菌数(いっぱんせいきんすう) [compound_technical] = angka lempeng total bakteri hidup | [kb-otaff51-0255] 大腸菌(だいちょうきん) [compound_technical] = bakteri E. coli | [kb-otaff51-0256] 大腸菌群(だいちょうきんぐん) [compound_technical] = kelompok bakteri koliform

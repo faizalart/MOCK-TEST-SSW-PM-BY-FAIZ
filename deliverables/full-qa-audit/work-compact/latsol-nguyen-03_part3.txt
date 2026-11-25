@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-nguyen-03 (Latsol Nguyen 03) | Batch qa-batch-07 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=nguyen03-q009 | KEY=B (idx=1) | CAT= | SRC=3.pdf p.2 ===
+  CLUSTER CL-0072 (n=5, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q009 (ssw-pm-kunci-ujian-3), kunci-ujian-14-q006 (ssw-pm-kunci-ujian-14), bonus-soal-9-q009 (bonus-soal-9), nguyen09-q009 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("水分") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>する、3つの<ruby>要素<rt>ようそ</rt></ruby>があります。「<ruby>温度<rt>おんど</rt></ruby>」、「<ruby>栄養分<rt>えいようぶん</rt></ruby>」のほかに、もう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada 3 faktor yang menyebabkan mikroorganisme berkembang biak. Selain "suhu" dan "nutrisi", apa satu faktor lainnya?
+  EXPLANATION: Sumber: 3.pdf, halaman 2, nomor 9. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1546800] 要素(ようそ) [word] = unsur / elemen penting | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-1624300] 栄養分(えいようぶん) [word] = kandungan zat gizi | [kb-v2-p1-286] ほかに(-) [expression] = selain itu | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=<ruby>日光<rt>にっこう</rt></ruby>
+    TRANS: Sinar matahari
+    KOTOBA: [kb-1464030] 日光(にっこう) [word] = sinar matahari
+  OPT B: HTML=<ruby>水分<rt>すいぶん</rt></ruby>
+    TRANS: Kadar air (kelembapan)
+    KOTOBA: [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan
+  OPT C: HTML=<ruby>気圧<rt>きあつ</rt></ruby>
+    TRANS: Tekanan udara
+    KOTOBA: [kb-1221880] 気圧(きあつ) [word] = tekanan udara
+
+=== #Q10 | ID=nguyen03-q010 | KEY=C (idx=2) | CAT= | SRC=3.pdf p.2 ===
+  CLUSTER CL-0112 (n=5, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-7-q007 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q007 (ssw-pm-kunci-ujian-14), bonus-soal-9-q010 (bonus-soal-9), nguyen09-q010 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("4℃以下で、汚れがなく、乾燥している環境") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>しにくい<ruby>環境<rt>かんきょう</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Lingkungan manakah yang membuat mikroorganisme sulit berkembang biak? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 3.pdf, halaman 2, nomor 10. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0983] 増殖しにくい(ぞうしょくしにくい) [inflected_adj, df:増殖しにくい] = sulit berkembang biak | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=30℃〜40℃で、<ruby>湿度<rt>しつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>く、<ruby>汚<rt>よご</rt></ruby>れている<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu 30°C–40°C, berkelembapan tinggi, dan kotor
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0409] 湿度(しつど) [noun] = kelembapan udara | [kb-v2-p4-143] 高く(たかく) [inflected, df:高い] = tinggi / mahal | [kb-latsol-f6786ecc0f] 汚れている(よごれている) [word] = kotor / terkena noda | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja
+  OPT B: HTML=<ruby>室温<rt>しつおん</rt></ruby>であり、<ruby>汚<rt>よご</rt></ruby>れている<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu ruang dan kotor
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-latsol-f6786ecc0f] 汚れている(よごれている) [word] = kotor / terkena noda | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja
+  OPT C: HTML=4℃<ruby>以下<rt>いか</rt></ruby>で、<ruby>汚<rt>よご</rt></ruby>れがなく、<ruby>乾燥<rt>かんそう</rt></ruby>している<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu 4°C ke bawah, bersih tanpa kotoran, dan kering
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0103] 乾燥(かんそう) [noun] = pengeringan | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja
+
+=== #Q11 | ID=nguyen03-q011 | KEY=A (idx=0) | CAT= | SRC=3.pdf p.2 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:B] Potential doubled/colliding particle
+  CLUSTER CL-0143 (n=6, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q008 (ssw-pm-kunci-ujian-13), bonus-soal-5-q008 (bonus-soal-5), bonus-soal-9-q011 (bonus-soal-9), nguyen05-q008 (latsol-nguyen-05), nguyen09-q011 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("じゃがいもの芽や緑色の皮の部分を取り除きます。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ソラニンが<ruby>原因<rt>げんいん</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためにどうしますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan untuk mencegah keracunan makanan akibat solanin? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 3.pdf, halaman 2, nomor 11. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0055] ソラニン(そらにん) [noun] = solanin (racun pada tunas/kulit hijau kentang) | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=じゃがいもの<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>きます。
+    TRANS: Membuang bagian tunas dan kulit kentang yang berwarna hijau.
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-otaff51-0530] 芽(め) [noun] = tunas | [kb-otaff51-0501] 緑色の皮(みどりいろのかわ) [noun] = kulit berwarna hijau | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-audit-0342] 取り除きます(とりのぞきます) [inflected_verb, df:取り除く] = menghilangkan / membuang
+  OPT B: HTML=じゃがいもの<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>をはそのままに<ruby>食<rt>た</rt></ruby>べます。
+    TRANS: Memakan bagian tunas dan kulit kentang yang berwarna hijau begitu saja.
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-otaff51-0530] 芽(め) [noun] = tunas | [kb-otaff51-0501] 緑色の皮(みどりいろのかわ) [noun] = kulit berwarna hijau | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p5-272] 食べます(たべます) [inflected, df:食べる] = makan (sopan)
+  OPT C: HTML=ソラニンが<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>が<ruby>起<rt>お</rt></ruby>こりませんからソラニン<ruby>物質<rt>ぶっしつ</rt></ruby>があるものをよく<ruby>食<rt>た</rt></ruby>べます。
+    TRANS: Karena solanin tidak menyebabkan keracunan makanan, sering memakan bahan yang mengandung zat solanin.
+    KOTOBA: [kb-otaff51-0055] ソラニン(そらにん) [noun] = solanin (racun pada tunas/kulit hijau kentang) | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p5-411] 起こりません(おこりません) [inflected, df:起こる] = tidak terjadi (sopan) | [kb-1502560] 物質(ぶっしつ) [word] = zat / bahan | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-v2-p5-272] 食べます(たべます) [inflected, df:食べる] = makan (sopan)
+
+=== #Q12 | ID=nguyen03-q012 | KEY=A (idx=0) | CAT= | SRC=3.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0073 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q012 (ssw-pm-kunci-ujian-3), kunci-ujian-7-q008 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q010 (ssw-pm-kunci-ujian-14), kunci-ujian-15-q018 (ssw-pm-kunci-ujian-15), bonus-soal-9-q012 (bonus-soal-9), nguyen09-q012 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("ポケットやボタンがついている服を着る。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>について<ruby>何<rt>なに</rt></ruby>を<ruby>注意<rt>ちゅうい</rt></ruby>しなければなりませんか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus diperhatikan terkait pakaian kerja? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 3.pdf, halaman 2, nomor 12. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-177] 注意し(ちゅういし) [inflected, df:注意する] = berhati-hati / memperhatikan | [kb-audit-0374] なければなりませんか(なければなりませんか) [word] = apakah harus / wajib dilakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=ポケットやボタンがついている<ruby>服<rt>ふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>る。
+    TRANS: Mengenakan pakaian yang memiliki saku dan kancing luar.
+    KOTOBA: [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-audit-0305] がついている(がついている) [word] = terpasang / terdapat (kancing dll.) | [kb-v2-p2-073] 服(ふく) [word] = pakaian | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian)
+  OPT B: HTML=<ruby>汚<rt>よご</rt></ruby>れない<ruby>作業服<rt>さぎょうふく</rt></ruby>と<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業服<rt>さぎょうふく</rt></ruby>がロッカーでくっつかないようにする。
+    TRANS: Memastikan pakaian kerja yang bersih dan pakaian kerja yang kotor tidak saling bersentuhan di dalam loker.
+    KOTOBA: [kb-audit-0030] 汚れない(よごれない) [inflected_verb, df:汚れる] = tidak menjadi kotor | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-v2-p1-039] ロッカー(-) [word] = loker | [kb-v2-p1-106] くっつかない(-) [inflected_verb, df:くっつく] = tidak menempel (dasar: くっつく) | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+  OPT C: HTML=<ruby>上着<rt>うわぎ</rt></ruby>のすそをズボンに<ruby>入<rt>い</rt></ruby>れる。
+    TRANS: Memasukkan bagian bawah baju atasan ke dalam celana.
+    KOTOBA: [kb-otaff51-0090] 上着(うわぎ) [noun] = baju atasan (jaket kerja) | [kb-u1416-52ad335d9d] すそ(すそ) [word] = ujung bawah baju | [kb-v2-p5-147] ズボン(-) [word] = celana panjang | [kb-v2-p4-198] 入れる(いれる) [word] = memasukkan / menyalakan

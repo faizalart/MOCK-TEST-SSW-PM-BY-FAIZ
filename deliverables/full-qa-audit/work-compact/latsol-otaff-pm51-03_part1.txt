@@ -1,0 +1,75 @@
+# AUDIT SHEET: latsol-otaff-pm51-03 (Latsol OTAFF SSW PM Modul 5.1 - Paket 03) | Batch qa-batch-11 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=otaff-pm51-03-q001 | KEY=A (idx=0) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.7 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 茶
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>飲食料品製造業<rt>いんしょくりょうひんせいぞうぎょう</rt></ruby>」における「<ruby>飲食料品<rt>いんしょくりょうひん</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>と<ruby>具体例<rt>ぐたいれい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang benar mengenai arti 'makanan dan minuman (inshokuryouhin)' beserta contohnya dalam 'Industri Pengolahan Makanan dan Minuman'.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 2 & 7 (Pengantar & Bab 1.1, hal. 2 teks). Bobot: 3 poin. Kunci jawaban: A. 飲食料品 berarti minuman (飲料) dan makanan (食料品), dan 飲食料品製造業 adalah pekerjaan memproduksi minuman dan makanan di pabrik.
+  INLINE_KOTOBA_COUNT: 35
+  KOTOBA_PROMPT: [kb-pilot51-001] 飲食料品製造業(いんしょくりょうひんせいぞうぎょう) [compound_technical] = industri pengolahan makanan dan minuman | [kb-otaff51-1084] 飲食料品(いんしょくりょうひん) [noun] = makanan dan minuman | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-otaff51-0753] 具体例(ぐたいれい) [noun] = contoh konkret | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=「<ruby>飲料<rt>いんりょう</rt></ruby>」と「<ruby>食料品<rt>しょくりょうひん</rt></ruby>」のことであり、ハム・ソーセージ、<ruby>缶詰<rt>かんづめ</rt></ruby>、パン、<ruby>弁当<rt>べんとう</rt></ruby>、ジュース、お茶などの<ruby>製造<rt>せいぞう</rt></ruby>が<ruby>含<rt>ふく</rt></ruby>まれる。
+    TRANS: Berarti 'minuman' dan 'bahan pangan/makanan', mencakup pembuatan ham/sosis, makanan kaleng, roti, bento, jus, dan teh.
+    KOTOBA: [kb-otaff51-0664] 飲料(いんりょう) [noun] = minuman | [kb-otaff51-0660] 食料品(しょくりょうひん) [noun] = bahan pangan / produk makanan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0874] ハム・ソーセージ(はむそーせーじ) [noun] = ham dan sosis | [kb-1214560] 缶詰(かんづめ) [word] = makanan kaleng | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-1513060] 弁当(べんとう) [word] = bekal makanan (bento) | [kb-v2-p5-100] ジュース(-) [word] = jus minuman | [kb-v2-p5-111] お茶(おちゃ) [word] = teh | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1380690] 製造(せいぞう) [word] = produksi / manufaktur | [kb-v2-p3-251] 含まれる(ふくまれる) [inflected, df:含む] = terkandung di dalam
+  OPT B: HTML=レストランやホテルでお<ruby>客<rt>きゃく</rt></ruby>さまに<ruby>料理<rt>りょうり</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶ<ruby>接客サービス<rt>せっきゃくさーびす</rt></ruby>だけのことである。
+    TRANS: Hanya berarti layanan tata boga yang mengantarkan hidangan kepada tamu di restoran atau hotel.
+    KOTOBA: [kb-otaff51-1085] レストラン(れすとらん) [noun] = restoran | [kb-otaff51-1086] ホテル(ほてる) [noun] = hotel | [kb-otaff51-0875] お客さま(おきゃくさま) [noun] = pelanggan / tamu | [kb-1554310] 料理(りょうり) [word] = Masakan / makanan olahan | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-otaff51-1087] 接客サービス(せっきゃくさーびす) [noun] = layanan pelanggan | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+  OPT C: HTML=<ruby>野菜<rt>やさい</rt></ruby>を<ruby>畑<rt>はたけ</rt></ruby>で<ruby>育<rt>そだ</rt></ruby>てる<ruby>農業<rt>のうぎょう</rt></ruby>や、<ruby>海<rt>うみ</rt></ruby>で<ruby>魚<rt>さかな</rt></ruby>を<ruby>獲<rt>と</rt></ruby>る<ruby>漁業<rt>ぎょぎょう</rt></ruby>だけのことである。
+    TRANS: Hanya berarti pertanian yang menanam sayuran di ladang atau perikanan yang menangkap ikan di laut.
+    KOTOBA: [kb-1537370] 野菜(やさい) [word] = sayur-sayuran | [kb-otaff51-0876] 畑(はたけ) [noun] = ladang / kebun | [kb-otaff51-1088] 育てる(そだてる) [verb] = menanam / membudidayakan | [kb-otaff51-0813] 農業(のうぎょう) [noun] = pertanian | [kb-otaff51-0877] 海(うみ) [noun] = laut | [kb-v2-p5-134] 魚(さかな) [word] = ikan | [kb-otaff51-1089] 獲る(とる) [verb] = menangkap (ikan) | [kb-otaff51-1090] 漁業(ぎょぎょう) [noun] = perikanan | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+
+=== #Q2 | ID=otaff-pm51-03-q002 | KEY=C (idx=2) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.8 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>」における「<ruby>衛生<rt>えいせい</rt></ruby>」という<ruby>言葉<rt>ことば</rt></ruby>の<ruby>本来の意味<rt>ほんらいのいみ</rt></ruby>として、テキストに<ruby>書<rt>か</rt></ruby>かれている<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu arti sebenarnya dari kata 'higiene (eisei)' dalam 'Higiene Pangan' sebagaimana tertulis di dalam buku teks.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 8 (Bab 1.2(1), hal. 3 teks). Bobot: 3 poin. Kunci jawaban: C. Dalam buku teks dijelaskan bahwa 「衛生」とはいのち（生命）をまもる（衛る）ことです (Higiene berarti menjaga/melindungi nyawa).
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-2424980] 食品衛生(しょくひんえいせい) [word] = higiene dan sanitasi pangan | [kb-1174790] 衛生(えいせい) [word] = sanitasi dan higienitas | [kb-1264540] 言葉(ことば) [word] = kata-kata / aba-aba | [kb-otaff51-1091] 本来の意味(ほんらいのいみ) [expression] = arti sebenarnya / makna asli | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-v2-p6-505] 書かれている(かかれている) [inflected, df:書く] = tertulis | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>値段<rt>ねだん</rt></ruby>をできるだけ<ruby>安<rt>やす</rt></ruby>くすること。
+    TRANS: Membuat harga makanan menjadi semurah mungkin.
+    KOTOBA: [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-otaff51-0774] 値段(ねだん) [noun] = harga | [kb-pilot51-088] できるだけ(できるだけ) [adverb] = sebisa mungkin / sedapat mungkin | [kb-v2-p3-213] 安く(やすく) [inflected, df:安い] = murah | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>形<rt>かたち</rt></ruby>や<ruby>色<rt>いろ</rt></ruby>をすべて<ruby>同<rt>おな</rt></ruby>じにそろえること。
+    TRANS: Menyeragamkan seluruh bentuk dan warna makanan.
+    KOTOBA: [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-otaff51-0878] 形(かたち) [noun] = bentuk | [kb-v2-p3-159] 色(いろ) [word] = warna | [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-otaff51-1092] そろえる(そろえる) [verb] = menyeragamkan / meratakan | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+  OPT C: HTML=いのち（<ruby>生命<rt>せいめい</rt></ruby>）をまもる（<ruby>衛<rt>まも</rt></ruby>る）こと。
+    TRANS: Melindungi/menjaga nyawa (kehidupan / seimei).
+    KOTOBA: [kb-otaff51-1093] いのち(いのち) [noun] = nyawa / kehidupan | [kb-1379530] 生命(せいめい) [word] = nyawa / keselamatan jiwa | [kb-otaff51-1094] まもる(まもる) [verb] = melindungi / mematuhi | [kb-otaff51-1095] 衛る(まもる) [verb] = melindungi / menjaga (nyawa) | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+
+=== #Q3 | ID=otaff-pm51-03-q003 | KEY=B (idx=1) | CAT=第2章 1. 食品衛生の基本（Bab 2.1: Dasar Higiene Pangan） | SRC=Bab 1-3.pdf p.10 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby>となる<ruby>行動<rt>こうどう</rt></ruby>として、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu tindakan yang salah sebagai perilaku dasar dalam higiene pangan.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 10 (Bab 2.1, hal. 5 teks). Bobot: 3 poin. Kunci jawaban: B. Pernyataan B salah karena setiap bahan baku dan makanan wajib disimpan pada suhu yang telah ditentukan sesuai jenisnya (食品や原材料を、決まった温度で保管する).
+  INLINE_KOTOBA_COUNT: 30
+  KOTOBA_PROMPT: [kb-2424980] 食品衛生(しょくひんえいせい) [word] = higiene dan sanitasi pangan | [kb-1219190] 基本(きほん) [word] = dasar / prinsip dasar | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-1282100] 行動(こうどう) [word] = perilaku / tindakan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-115] 間違っている(まちがっている) [inflected_verb, df:間違う] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>手洗<rt>てあら</rt></ruby>いをし、<ruby>作業服<rt>さぎょうふく</rt></ruby>や<ruby>手袋<rt>てぶくろ</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>する。
+    TRANS: Mencuci tangan serta memakai pakaian kerja dan sarung tangan dengan benar.
+    KOTOBA: [kb-v2-p1-026] 手洗い(てあらい) [word] = cuci tangan | [kb-1297610] 作業服(さぎょうふく) [compound_technical] = seragam kerja | [kb-1328090] 手袋(てぶくろ) [word] = sarung tangan | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-pilot51-022] 着用する(ちゃくようする) [verb] = mengenakan / memakai
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>や<ruby>原材料<rt>げんざいりょう</rt></ruby>は、すべて<ruby>同<rt>おな</rt></ruby>じ<ruby>室温<rt>しつおん</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>にまとめて<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan seluruh makanan dan bahan baku secara bersamaan di tempat bersuhu ruang yang sama.
+    KOTOBA: [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-1320320] 室温(しつおん) [word] = suhu ruang | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p4-220] まとめて(-) [word] = sekaligus / dirangkum | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT C: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>設備<rt>せつび</rt></ruby>・<ruby>機械<rt>きかい</rt></ruby>・<ruby>器具<rt>きぐ</rt></ruby>などを<ruby>使<rt>つか</rt></ruby>い、<ruby>決<rt>き</rt></ruby>まった<ruby>温度<rt>おんど</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menggunakan fasilitas, mesin, dan peralatan yang bersih, serta menyimpan bahan pada suhu yang telah ditentukan.
+    KOTOBA: [kb-v2-p2-225] 清潔な(せいけつな) [word] = bersih / higienis | [kb-1386070] 設備(せつび) [word] = fasilitas dan peralatan mesin | [kb-1220810] 機械(きかい) [word] = mesin | [kb-1218920] 器具(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0717] 使い(つかい) [inflected_verb, df:使う] = menggunakan | [kb-latsol-kimatta] 決まった(きまった) [inflected_verb, df:決まる] = yang telah ditentukan | [kb-1183510] 温度(おんど) [word] = suhu | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+
+=== #Q4 | ID=otaff-pm51-03-q004 | KEY=A (idx=0) | CAT=第2章 1. 食品衛生の基本（Bab 2.1: Dasar Higiene Pangan） | SRC=Bab 1-3.pdf p.10 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>をおこなった<ruby>上<rt>うえ</rt></ruby>で、<ruby>作<rt>つく</rt></ruby>る<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>種類<rt>しゅるい</rt></ruby>や<ruby>設備<rt>せつび</rt></ruby>・<ruby>機械<rt>きかい</rt></ruby>の<ruby>特徴<rt>とくちょう</rt></ruby>に<ruby>応<rt>おう</rt></ruby>じて<ruby>決<rt>き</rt></ruby>める「<ruby>特<rt>とく</rt></ruby>に<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>工程<rt>こうてい</rt></ruby>」を<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Setelah menjalankan manajemen higiene umum, disebut apakah 'tahapan proses yang sangat penting' yang ditetapkan sesuai jenis makanan yang dibuat serta karakteristik fasilitas dan mesinnya? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 10 (Bab 2.1, hal. 5 teks). Bobot: 3 poin. Kunci jawaban: A. Tahapan proses yang sangat penting untuk mengendalikan bahaya sesuai jenis pangan dan peralatan disebut 重要管理点（CCP）.
+  INLINE_KOTOBA_COUNT: 24
+  KOTOBA_PROMPT: [kb-ext-0102-e4b880e888] 一般衛生管理(いっぱんえいせいかんり) [word] = manajemen higiene umum (GMP) | [kb-otaff51-0739] おこなった(おこなった) [inflected_verb, df:おこなう] = telah melakukan | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-1328890] 種類(しゅるい) [word] = jenis / macam | [kb-1386070] 設備(せつび) [word] = fasilitas dan peralatan mesin | [kb-1220810] 機械(きかい) [word] = mesin | [kb-1455170] 特徴(とくちょう) [word] = ciri khas | [kb-otaff51-0868] 応じて(おうじて) [expression] = sesuai dengan | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-1278200] 工程(こうてい) [word] = tahapan proses | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-154] 言います(いいます) [inflected, df:言う] = mengucapkan / menyebut | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>（CCP）
+    TRANS: Titik Kendali Kritis (Critical Control Point / CCP)
+    KOTOBA: [kb-ext-0834-e9878de8a6] 重要管理点(じゅうようかんりてん) [word] = titik kendali kritis (CCP) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP)
+  OPT B: HTML=<ruby>汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>
+    TRANS: Zona Kerja Terkontaminasi
+    KOTOBA: [kb-ext-0151-e6b19ae69f] 汚染作業区域(おせんさぎょうくいき) [word] = zona kerja kotor / terkontaminasi
+  OPT C: HTML=<ruby>始業前点検<rt>しぎょうまえてんけん</rt></ruby>
+    TRANS: Pemeriksaan Sebelum Kerja
+    KOTOBA: [kb-ext-0696-e5a78be6a5] 始業前点検(しぎょうまえてんけん) [word] = inspeksi sebelum mulai kerja

@@ -1,0 +1,74 @@
+# AUDIT SHEET: bonus-soal-8 (Bonus Soal 8) | Batch qa-batch-05 | Part 3 (Q9-12 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=bonus-soal-8-q009 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 8.pdf p.2 ===
+  CLUSTER CL-0008 (n=6, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci1-q009 (ssw-pm-kunci-ujian-1), bonus-soal-1-q009 (bonus-soal-1), bonus-soal-10-q004 (bonus-soal-10), nguyen01-q009 (latsol-nguyen-01), nguyen08-q009 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>主<rt>おも</rt></ruby>な<ruby>原因<rt>げんいん</rt></ruby>になる<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>食肉<rt>しょくにく</rt></ruby>（<ruby>鶏肉<rt>とりにく</rt></ruby>）で、<ruby>感染<rt>かんせん</rt></ruby>すると、<ruby>下痢<rt>げり</rt></ruby>、<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>発熱<rt>はつねつ</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>が<ruby>出<rt>で</rt></ruby>る<ruby>細菌<rt>さいきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bakteri manakah yang penyebab utamanya adalah daging (daging ayam) dan menimbulkan gejala diare, sakit perut, serta demam jika terinfeksi? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 2, Soal 9) · Kunci Jawaban Checklist Hijau (✓): A.
+  KOTOBA_PROMPT: [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-otaff51-0305] 感染(かんせん) [noun] = infeksi / penularan | [kb-v2-p1-146] すると(-) [expression] = jika melakukan | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p1-178] 出る(でる) [word] = muncul / keluar | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Campylobacter
+    KOTOBA: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter
+  OPT B: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus
+    KOTOBA: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT C: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+
+=== #Q10 | ID=bonus-soal-8-q010 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 8.pdf p.2 ===
+  CLUSTER CL-0009 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q010 (ssw-pm-kunci-ujian-1), kunci-ujian-7-q029 (ssw-pm-kunci-ujian-7), bonus-soal-1-q010 (bonus-soal-1), bonus-soal-10-q005 (bonus-soal-10), nguyen01-q010 (latsol-nguyen-01), nguyen08-q010 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品工場<rt>しょくひんこうじょう</rt></ruby>で<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>予防<rt>よぼう</rt></ruby>するために<ruby>必要<rt>ひつよう</rt></ruby>なことは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang diperlukan untuk mencegah keracunan makanan di pabrik pangan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 2, Soal 10) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-ext-0938-e9a39fe593] 食品工場(しょくひんこうじょう) [compound_technical] = pabrik makanan | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-1543660] 予防(よぼう) [word] = pencegahan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>生<rt>なま</rt></ruby>の<ruby>牡蠣<rt>かき</rt></ruby>や<ruby>生肉<rt>なまにく</rt></ruby>は、<ruby>室温<rt>しつおん</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan tiram mentah dan daging mentah pada suhu ruang.
+    KOTOBA: [kb-v2-p1-074] 生(なま) [word] = mentah | [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-1829790] 生肉(なまにく) [word] = daging mentah | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>器具<rt>きぐ</rt></ruby>、<ruby>容器<rt>ようき</rt></ruby>、<ruby>装置<rt>そうち</rt></ruby>などは、<ruby>常<rt>つね</rt></ruby>に<ruby>清潔<rt>せいけつ</rt></ruby>にする。
+    TRANS: Selalu menjaga kebersihan peralatan, wadah, perangkat, dan sebagainya.
+    KOTOBA: [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-1402360] 装置(そうち) [word] = perangkat / peralatan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-284] 常に(つねに) [word] = selalu | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>は、できるだけゆっくり<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Mendinginkan produk pangan yang telah dipanaskan secara perlahan-lahan sebisa mungkin.
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q11 | ID=bonus-soal-8-q011 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 8.pdf p.2 ===
+  CLUSTER CL-0010 (n=6, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q011 (ssw-pm-kunci-ujian-1), bonus-soal-1-q011 (bonus-soal-1), bonus-soal-10-q006 (bonus-soal-10), nguyen01-q011 (latsol-nguyen-01), nguyen08-q011 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>多<rt>おお</rt></ruby>くの<ruby>微生物<rt>びせいぶつ</rt></ruby>は<ruby>何度<rt>なんど</rt></ruby>で<ruby>急<rt>きゅう</rt></ruby>に<ruby>増<rt>ふ</rt></ruby>えますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada suhu berapa derajat kebanyakan mikroorganisme berkembang biak dengan cepat? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 2, Soal 11) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-v2-p1-283] 急に(きゅうに) [word] = tiba-tiba | [kb-v2-p1-122] 増えますか(ふえますか) [inflected_verb, df:増える] = bertambah banyak (dasar: 増える) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=0℃〜10℃
+    TRANS: 0°C~10°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu)
+  OPT B: HTML=30℃〜40℃
+    TRANS: 30°C~40°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu)
+  OPT C: HTML=60℃〜70℃
+    TRANS: 60°C~70°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu)
+
+=== #Q12 | ID=bonus-soal-8-q012 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 8.pdf p.2 ===
+  CLUSTER CL-0011 (n=7, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci1-q012 (ssw-pm-kunci-ujian-1), bonus-soal-1-q012 (bonus-soal-1), bonus-soal-5-q006 (bonus-soal-5), nguyen01-q012 (latsol-nguyen-01), nguyen05-q006 (latsol-nguyen-05), nguyen08-q012 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>多<rt>おお</rt></ruby>くの<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>殺<rt>ころ</rt></ruby>すためには、<ruby>何度<rt>なんど</rt></ruby>で<ruby>何秒<rt>なんびょう</rt></ruby>ぐらい<ruby>加熱<rt>かねつ</rt></ruby>しますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk membunuh sebagian besar mikroorganisme, pemanasan dilakukan pada suhu berapa derajat dan selama berapa detik? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 2, Soal 12) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-ext-0185-e4bd95e7a7] 何秒(なんびょう) [word] = berapa detik | [kb-v2-p1-289] ぐらい(-) [word] = sekitar / kira-kira | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=45℃、90<ruby>秒間<rt>びょうかん</rt></ruby>
+    TRANS: 45°C, selama 90 detik
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0474] 秒間(びょうかん) [noun] = detik (durasi)
+  OPT B: HTML=55℃、70<ruby>秒間<rt>びょうかん</rt></ruby>
+    TRANS: 55°C, selama 70 detik
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0474] 秒間(びょうかん) [noun] = detik (durasi)
+  OPT C: HTML=75℃、60<ruby>秒間<rt>びょうかん</rt></ruby>
+    TRANS: 75°C, selama 60 detik
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0474] 秒間(びょうかん) [noun] = detik (durasi)

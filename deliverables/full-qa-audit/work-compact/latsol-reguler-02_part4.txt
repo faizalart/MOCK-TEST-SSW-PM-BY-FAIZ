@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-reguler-02 (Latsol Reguler 02) | Batch qa-batch-09 | Part 4 (Q13-16 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=reguler02-q013 | KEY=C (idx=2) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="整理、整頓 清掃などによって、職場をいつも汚れがない状態に保ちます それは何の意味ですか。。ただしものをひとつえらびなさい" vs questionText="整理、整頓 清掃などによって、職場をいつも汚れがない状態に保ちます それは何なんの意味ですか。。ただしものをひとつえらびなさい" || [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("清潔") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>整理<rt>せいり</rt></ruby>、<ruby>整頓<rt>せいとん</rt></ruby> <ruby>清掃<rt>せいそう</rt></ruby>などによって、<ruby>職場<rt>しょくば</rt></ruby>をいつも<ruby>汚<rt>よご</rt></ruby>れがない<ruby>状態<rt>じょうたい</rt></ruby>に<ruby>保<rt>たも</rt></ruby>ちます それは<ruby>何<rt>なん</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>ですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: 整理、整頓 清掃などによって、職場をいつも汚れがない状態に保ちます それは何なんの意味ですか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Menjaga tempat kerja agar selalu dalam kondisi bersih tanpa kotoran melalui Seiri, Seiton, dan Seisou. Apakah arti dari hal tersebut? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 3, nomor 13. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0435] 状態(じょうたい) [noun] = kondisi / keadaan | [kb-v2-p4-174] 保ちます(たもちます) [inflected, df:保つ] = menjaga (sopan) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>清掃<rt>せいそう</rt></ruby>
+    TRANS: Seisou (Resik)
+    KOTOBA: [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+  OPT B: HTML=<ruby>整理<rt>せいり</rt></ruby>
+    TRANS: Seiri (Ringkas)
+    KOTOBA: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan)
+  OPT C: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>
+    TRANS: Seiketsu (Rawat)
+    KOTOBA: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu)
+
+=== #Q14 | ID=reguler02-q014 | KEY=B (idx=1) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="窓やドアを閉めたままで、空気を入れ換えないことは何の意味ですか。。ただしものをひとつえらびなさい" vs questionText="窓やドアを閉しめたままで、空気を入れ換えないことは何なんの意味ですか。。ただしものをひとつえらびなさい" || [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("密閉") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>窓<rt>まど</rt></ruby>やドアを<ruby>閉<rt>し</rt></ruby>めたままで、<ruby>空気<rt>くうき</rt></ruby>を<ruby>入<rt>い</rt></ruby>れ<ruby>換<rt>か</rt></ruby>えないことは<ruby>何<rt>なん</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>ですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: 窓やドアを閉しめたままで、空気を入れ換えないことは何なんの意味ですか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Membiarkan jendela dan pintu tetap tertutup serta tidak melakukan pertukaran udara (ventilasi), apakah artinya? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 4, nomor 14. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-v2-p5-142] 窓(まど) [word] = jendela | [kb-v2-p6-216] ドア(-) [word] = pintu | [kb-audit-0169] 閉めた(しめた) [inflected_verb, df:閉める] = menutup (pintu/jendela) (lampau) | [kb-v2-p3-204] まま(-) [word] = apa adanya / tetap | [kb-1245470] 空気(くうき) [word] = udara | [kb-audit-0170] 入れ換えない(いれかえない) [inflected_verb, df:入れ換える] = tidak mengganti / menukar (udara) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>密集<rt>みっしゅう</rt></ruby>
+    TRANS: Misshuu (Kerumunan padat)
+    KOTOBA: [kb-1528280] 密集(みっしゅう) [word] = kepadatan tinggi / berdesakan
+  OPT B: HTML=<ruby>密閉<rt>みっぺい</rt></ruby>
+    TRANS: Mippei (Ruangan tertutup rapat)
+    KOTOBA: [kb-otaff51-0276] 密閉(みっぺい) [noun] = penutupan rapat / kedap
+  OPT C: HTML=<ruby>密接<rt>みっせつ</rt></ruby>
+    TRANS: Missetsu (Kontak dekat)
+    KOTOBA: [kb-1528290] 密接(みっせつ) [word] = berhubungan sangat erat
+
+=== #Q15 | ID=reguler02-q015 | KEY=B (idx=1) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)" || [JP_DOUBLE_PARTICLE@opt:B] Potential doubled/colliding particle
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("汚染区と非汚染区をはっきりと区別します") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>衛生上<rt>えいせいじょう</rt></ruby>の<ruby>注意事項<rt>ちゅういじこう</rt></ruby>についてどれですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah hal yang harus diperhatikan terkait kebersihan/sanitasi? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 4, nomor 15. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-ext-latsol-0044] 衛生上(えいせいじょう) [word] = dari segi sanitasi / higienitas | [kb-otaff51-0382] 注意事項(ちゅういじこう) [compound_technical] = hal-hal yang harus diperhatikan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>間違<rt>まちが</rt></ruby>っている<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>手<rt>て</rt></ruby>をあらいます
+    TRANS: Mencuci tangan dengan cara yang salah
+    KOTOBA: [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-audit-0092] あらいます(あらいます) [inflected_verb, df:洗う] = mencuci (洗います)
+  OPT B: HTML=<ruby>汚染区<rt>おせんく</rt></ruby>と<ruby>非汚染区<rt>ひおせんく</rt></ruby>をはっきりと<ruby>区別<rt>くべつ</rt></ruby>します
+    TRANS: Membedakan dengan jelas antara area terkontaminasi dan area tidak terkontaminasi
+    KOTOBA: [kb-ext-0149-e6b19ae69f] 汚染区(おせんく) [compound_technical] = zona kotor (terkontaminasi) | [kb-ext-1481-e99d9ee6b1] 非汚染区(ひおせんく) [compound_technical] = zona bersih (non-terkontaminasi) | [kb-v2-p1-279] はっきり(-) [word] = dengan jelas | [kb-audit-0957] 区別します(くべつします) [inflected_verb, df:区別する] = membedakan (sopan)
+  OPT C: HTML=<ruby>頭髪<rt>とうはつ</rt></ruby>や<ruby>鼻<rt>はな</rt></ruby>などに<ruby>触<rt>ふ</rt></ruby>れた<ruby>手<rt>て</rt></ruby>で<ruby>作業<rt>さぎょう</rt></ruby>をしなければなりません
+    TRANS: Harus bekerja dengan tangan yang telah menyentuh rambut kepala atau hidung
+    KOTOBA: [kb-otaff51-0644] 頭髪(とうはつ) [noun] = rambut kepala | [kb-otaff51-0687] 鼻(はな) [noun] = hidung | [kb-v2-p5-430] 触れた(ふれた) [inflected, df:触れる] = menyentuh (lampau) | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0376] しなければなりません(しなければなりません) [word] = harus / wajib dilakukan
+
+=== #Q16 | ID=reguler02-q016 | KEY=B (idx=1) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="冷凍庫、冷蔵庫の管理についてどれか。。ただしものをひとつえらびなさい" vs questionText="冷凍庫, 冷蔵庫の管理についてどれか。。ただしものをひとつえらびなさい" || [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  CLUSTER CL-0263 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=reguler06-q011 (latsol-reguler-06)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("冷凍庫、-15℃以下 ー 冷蔵庫が10℃以下") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>冷凍庫<rt>れいとうこ</rt></ruby>、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>についてどれか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: 冷凍庫, 冷蔵庫の管理についてどれか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Manakah yang benar mengenai pengelolaan suhu freezer dan kulkas? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 4, nomor 16. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>、-10℃<ruby>以下<rt>いか</rt></ruby> ー <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>が15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Freezer di bawah -10°C — Kulkas di bawah 15°C
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller)
+  OPT B: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>、-15℃<ruby>以下<rt>いか</rt></ruby> ー <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>が10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Freezer di bawah -15°C — Kulkas di bawah 10°C
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller)
+  OPT C: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>、15℃<ruby>以下<rt>いか</rt></ruby> ー <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>が-10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Freezer di bawah 15°C — Kulkas di bawah -10°C
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller)

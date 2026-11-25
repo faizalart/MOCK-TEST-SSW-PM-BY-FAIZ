@@ -1,0 +1,75 @@
+# AUDIT SHEET: latsol-otaff-pm51-06 (Latsol OTAFF SSW PM Modul 5.1 - Paket 06) | Batch qa-batch-12 | Part 6 (Q21-24 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=otaff-pm51-06-q021 | KEY=C (idx=2) | CAT=第2章 4. HACCPによる衛生管理（Bab 2.4: Manajemen Higiene HACCP） | SRC=Bab 1-3.pdf p.43 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「HACCPの7<ruby>原則<rt>げんそく</rt></ruby>」のうち、「<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>が<ruby>管理基準<rt>かんりきじゅん</rt></ruby>を<ruby>逸脱<rt>いつだつ</rt></ruby>していた<ruby>場合<rt>ばあい</rt></ruby>、<ruby>基準<rt>きじゅん</rt></ruby>どおりにするためにはどうしたら<ruby>良<rt>よ</rt></ruby>いか、それまでに<ruby>作<rt>つく</rt></ruby>ってしまった<ruby>食品<rt>しょくひん</rt></ruby>はどうするかを<ruby>決<rt>き</rt></ruby>める」のはどの<ruby>原則<rt>げんそく</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara '7 Prinsip HACCP', prinsip manakah yang mengatur tentang 'menentukan bagaimana cara mengembalikan proses ke standar dan bagaimana menangani makanan yang terlanjur dibuat apabila terjadi penyimpangan batas standar pada CCP'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 43 & 45 (Bab 2.4(1) & (4), hal. 38 & 40 teks). Bobot: 3 poin. Kunci jawaban: C. Prinsip 5 (改善措置の設定) menetapkan dua tindakan saat terjadi penyimpangan CCP: cara mengembalikan proses ke kondisi standar dan penanganan produk yang terdampak (dibuang atau diolah ulang).
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-v2-p1-018] HACCP(-) [abbreviation] = sistem jaminan keamanan pangan HACCP | [kb-1262070] 原則(げんそく) [word] = prinsip | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-ext-0834-e9878de8a6] 重要管理点(じゅうようかんりてん) [word] = titik kendali kritis (CCP) | [kb-ext-0292-e7aea1e790] 管理基準(かんりきじゅん) [word] = batas kritis / standar kendali | [kb-1167750] 逸脱(いつだつ) [word] = penyimpangan dari batas kritis | [kb-v2-p1-141] していた(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-1355810] 場合(ばあい) [word] = kasus / situasi | [kb-1591210] 基準(きじゅん) [word] = standar acuan / batas kritis | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-v2-p1-266] それ(-) [word] = itu | [kb-v2-p1-149] 作って(つくって) [inflected_verb, df:作る] = membuat (dasar: 作る) | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>原則<rt>げんそく</rt></ruby>1：<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>
+    TRANS: Prinsip 1: Analisis Faktor Bahaya
+    KOTOBA: [kb-1262070] 原則(げんそく) [word] = prinsip | [kb-ext-0315-e58db1e5ae] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis bahaya (hazard)
+  OPT B: HTML=<ruby>原則<rt>げんそく</rt></ruby>7：<ruby>記録<rt>きろく</rt></ruby>
+    TRANS: Prinsip 7: Pencatatan
+    KOTOBA: [kb-1262070] 原則(げんそく) [word] = prinsip | [kb-1223440] 記録(きろく) [word] = pencatatan / rekaman data
+  OPT C: HTML=<ruby>原則<rt>げんそく</rt></ruby>5：<ruby>改善措置<rt>かいぜんそち</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Prinsip 5: Penetapan Tindakan Korektif (Kaizen Sochi no Settei)
+    KOTOBA: [kb-1262070] 原則(げんそく) [word] = prinsip | [kb-ext-0233-e694b9e596] 改善措置(かいぜんそち) [word] = tindakan koreksi (perbaikan) | [kb-1386060] 設定(せってい) [word] = penetapan
+
+=== #Q22 | ID=otaff-pm51-06-q022 | KEY=A (idx=0) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.21 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>施設<rt>しせつ</rt></ruby>、<ruby>設備<rt>せつび</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>などの<ruby>衛生管理<rt>えいせいかんり</rt></ruby>において、「<ruby>交差汚染<rt>こうさおせん</rt></ruby>」を<ruby>防止<rt>ぼうし</rt></ruby>するために<ruby>重要<rt>じゅうよう</rt></ruby>な2つのことは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam manajemen higiene fasilitas, peralatan, dan perkakas, apakah 2 hal penting untuk mencegah 'kontaminasi silang (kousa osen)'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 21 (Bab 2.3(2), hal. 16 teks). Bobot: 3 poin. Kunci jawaban: A. Untuk mencegah kontaminasi silang (交差汚染), dua hal utama adalah memisahkan penggunaan fasilitas/alat dengan benar (正しく使い分けること) dan menjaganya tetap bersih (清潔に保つこと).
+  INLINE_KOTOBA_COUNT: 29
+  KOTOBA_PROMPT: [kb-1310410] 施設(しせつ) [word] = fasilitas pabrik | [kb-1386070] 設備(せつび) [word] = fasilitas dan peralatan mesin | [kb-1218920] 器具(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1666860] 衛生管理(えいせいかんり) [word] = manajemen higiene sanitasi | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-ext-0524-e4baa4e5b7] 交差汚染(こうさおせん) [compound_technical] = kontaminasi silang | [kb-1520380] 防止(ぼうし) [word] = pencegahan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>施設<rt>しせつ</rt></ruby>・<ruby>設備<rt>せつび</rt></ruby>・<ruby>器具<rt>きぐ</rt></ruby>などを「<ruby>正<rt>ただ</rt></ruby>しく<ruby>使<rt>つか</rt></ruby>い<ruby>分<rt>わ</rt></ruby>けること」と、「<ruby>清潔<rt>せいけつ</rt></ruby>に<ruby>保<rt>たも</rt></ruby>つこと」。
+    TRANS: 'Memisahkan penggunaan' fasilitas, peralatan, dan perkakas dengan benar, serta 'menjaganya tetap bersih dan higienis'.
+    KOTOBA: [kb-1310410] 施設(しせつ) [word] = fasilitas pabrik | [kb-1386070] 設備(せつび) [word] = fasilitas dan peralatan mesin | [kb-1218920] 器具(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-otaff51-1335] 使い分ける(つかいわける) [verb] = membedakan pemakaian | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1378200] 清潔(せいけつ) [word] = Seiketsu (bersih) | [kb-v2-p2-170] 保つ(たもつ) [word] = menjaga / mempertahankan
+  OPT B: HTML=すべての<ruby>区域<rt>くいき</rt></ruby>の<ruby>壁<rt>かべ</rt></ruby>をなくして、1つの<ruby>部屋<rt>へや</rt></ruby>にすること。
+    TRANS: Menghilangkan seluruh dinding pembatas zona dan menyatukannya menjadi 1 ruangan.
+    KOTOBA: [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-1244090] 区域(くいき) [word] = zona / area pabrik | [kb-u1416-b5f0f70d8d] 壁(かべ) [word] = dinding | [kb-1499320] 部屋(へや) [word] = ruangan | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+  OPT C: HTML=<ruby>汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>の<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>わずに<ruby>清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>で<ruby>使<rt>つか</rt></ruby>うこと。
+    TRANS: Menggunakan peralatan dari zona terkontaminasi di zona bersih tanpa dicuci.
+    KOTOBA: [kb-ext-0151-e6b19ae69f] 汚染作業区域(おせんさぎょうくいき) [word] = zona kerja kotor / terkontaminasi | [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-v2-p6-387] 洗わずに(あらわずに) [inflected, df:洗う] = tanpa mencuci | [kb-v2-p4-057] 清潔作業区域(せいけつさぎょうくいき) [compound_technical] = zona kerja bersih | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+
+=== #Q23 | ID=otaff-pm51-06-q023 | KEY=B (idx=1) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.34 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>主<rt>おも</rt></ruby>な<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>保管温度<rt>ほかんおんど</rt></ruby>」において、「<ruby>生鮮果実<rt>せいせんかじつ</rt></ruby>・<ruby>野菜<rt>やさい</rt></ruby>」の<ruby>基本的<rt>きほんてき</rt></ruby>な<ruby>保管温度<rt>ほかんおんど</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam 'Suhu Penyimpanan Bahan Baku Utama', berapakah suhu penyimpanan dasar untuk 'buah-buahan dan sayuran segar'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 34 (Bab 2.3(4)①イ Tabel Suhu Penyimpanan & Catatan 2, hal. 29 teks). Bobot: 3 poin. Kunci jawaban: B. Buah-buahan dan sayuran segar (生鮮果実・野菜) disimpan pada suhu sekitar 10°C (10℃前後), dengan memperhatikan suhu spesifik jika berupa sayuran potong dalam kemasan.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-ext-1608-e4bf9de7ae] 保管温度(ほかんおんど) [word] = Suhu penyimpanan gudang bahan makanan | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-ext-1040-e7949fe9ae] 生鮮果実(せいせんかじつ) [word] = buah-buahan segar | [kb-1537370] 野菜(やさい) [word] = sayur-sayuran | [kb-1219260] 基本的(きほんてき) [word] = secara mendasar | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=-15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: -15°C ke bawah
+    KOTOBA: [kb-1155060] 以下(いか) [word] = kurang dari / di bawah
+  OPT B: HTML=10℃<ruby>前後<rt>ぜんご</rt></ruby>（※<ruby>容器<rt>ようき</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ったカット<ruby>野菜<rt>やさい</rt></ruby>には<ruby>保管温度<rt>ほかんおんど</rt></ruby>が<ruby>指定<rt>してい</rt></ruby>されている<ruby>場合<rt>ばあい</rt></ruby>がある）
+    TRANS: Sekitar 10°C (untuk sayuran potong dalam wadah terkadang memiliki suhu penyimpanan spesifik yang ditentukan)
+    KOTOBA: [kb-1392910] 前後(ぜんご) [word] = sekitar / sebelum dan sesudah | [kb-1545370] 容器(ようき) [word] = wadah | [kb-v2-p6-355] 入った(はいった) [inflected, df:入る] = berisi / masuk (lampau) | [kb-v2-p6-228] カット野菜(かっとやさい) [word] = sayuran potong siap pakai | [kb-ext-1608-e4bf9de7ae] 保管温度(ほかんおんど) [word] = Suhu penyimpanan gudang bahan makanan | [kb-1309910] 指定(してい) [word] = penetapan resmi | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-1355810] 場合(ばあい) [word] = kasus / situasi
+  OPT C: HTML=35℃<ruby>前後<rt>ぜんご</rt></ruby>
+    TRANS: Sekitar 35°C
+    KOTOBA: [kb-1392910] 前後(ぜんご) [word] = sekitar / sebelum dan sesudah
+
+=== #Q24 | ID=otaff-pm51-06-q024 | KEY=C (idx=2) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.34 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-v2-p2-023 "乳": kotoba="ちち" vs ruby="にゅう"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>固形油脂<rt>こけいゆし</rt></ruby>（ラード、マーガリン、ショートニング）」、「ゆでだこ」、「<ruby>乳<rt>にゅう</rt></ruby>・<ruby>濃縮乳<rt>のうしゅくにゅう</rt></ruby>・<ruby>脱脂乳<rt>だっしにゅう</rt></ruby>・クリーム」に<ruby>共通<rt>きょうつう</rt></ruby>する<ruby>保管温度<rt>ほかんおんど</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berapakah suhu penyimpanan yang sama-sama berlaku untuk 'lemak padat (lard, margarin, shortening)', 'gurita rebus (yudedako)', serta 'susu, susu pekat, susu skim, dan krim'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 34 (Bab 2.3(4)①イ Tabel Suhu Penyimpanan, hal. 29 teks). Bobot: 3 poin. Kunci jawaban: C. Ketiga kelompok bahan tersebut (固形油脂, ゆでだこ, dan 乳・濃縮乳・脱脂乳・クリーム, bersama 食肉, 食肉製品, dan 殻付き卵) sama-sama disimpan pada suhu 10℃以下.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-ext-0507-e59bbae5bd] 固形油脂(こけいゆし) [word] = lemak padat | [kb-v2-p3-059] ラード(-) [word] = lemak babi (lard) | [kb-v2-p3-060] マーガリン(-) [word] = margarin | [kb-v2-p3-061] ショートニング(-) [word] = mentega putih (shortening) | [kb-otaff51-0029] ゆでだこ(ゆでだこ) [noun] = gurita rebus | [kb-v2-p2-023] 乳(ちち) [word] = susu | [kb-ext-1426-e6bf83e7b8] 濃縮乳(のうしゅくにゅう) [word] = susu evaporasi / kental | [kb-1623760] 脱脂乳(だっしにゅう) [word] = susu skim bebas lemak | [kb-latsol-kuriimu] クリーム(くりーむ) [word] = krim pelembap | [kb-otaff51-0155] 共通(きょうつう) [noun] = umum / berlaku sama | [kb-ext-1608-e4bf9de7ae] 保管温度(ほかんおんど) [word] = Suhu penyimpanan gudang bahan makanan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>室温<rt>しつおん</rt></ruby>（25℃）
+    TRANS: Suhu ruang (25°C)
+    KOTOBA: [kb-1320320] 室温(しつおん) [word] = suhu ruang
+  OPT B: HTML=-18℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: -18°C ke bawah
+    KOTOBA: [kb-1155060] 以下(いか) [word] = kurang dari / di bawah
+  OPT C: HTML=10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 10°C ke bawah
+    KOTOBA: [kb-1155060] 以下(いか) [word] = kurang dari / di bawah

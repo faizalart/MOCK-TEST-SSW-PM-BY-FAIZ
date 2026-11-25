@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-09 (Latsol OTAFF SSW PM Modul 5.1 - Paket 09) | Batch qa-batch-12 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=otaff-pm51-09-q017 | KEY=C (idx=2) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.23 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: たわし、スポンジ、モップ、ぞうきん、「<ruby>水切<rt>みずき</rt></ruby>りワイパー」、デッキブラシなどの<ruby>清掃用具<rt>せいそうようぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ったあとに、<ruby>汚<rt>よご</rt></ruby>れたまま・<ruby>濡<rt>ぬ</rt></ruby>れたままにしておくとどうなりますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang akan terjadi apabila peralatan kebersihan seperti sikat gosok, spons, pel, kain lap, 'wiper penarik air', dan sikat lantai dibiarkan kotor dan basah setelah digunakan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 23 (Bab 2.3(2)②, hal. 18 teks). Bobot: 3 poin. Kunci jawaban: C. たわし、スポンジ、モップ、ぞうきん、水切りワイパー、デッキブラシなどの清掃用具を汚れたまま、濡れたままにしておくと、微生物が増えることがあります.
+  INLINE_KOTOBA_COUNT: 32
+  KOTOBA_PROMPT: [kb-otaff51-0861] たわし(たわし) [noun] = sikat sabut pembersih | [kb-v2-p6-212] スポンジ(-) [word] = spons pembersih | [kb-v2-p6-215] モップ(-) [word] = kain pel | [kb-latsol-d2a7445971] ぞうきん(ぞうきん) [word] = kain lap | [kb-otaff51-0373] 水切りワイパー(みずきりわいぱー) [compound_technical] = wiper penarik air lantai | [kb-otaff51-1585] デッキブラシ(でっきぶらし) [noun] = sikat lantai bergagang panjang | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0400] 清掃用具(せいそうようぐ) [compound_technical] = peralatan kebersihan | [kb-v2-p2-027] 使った(つかった) [inflected, df:使う] = yang digunakan | [kb-otaff51-0698] あと(あと) [noun] = setelahnya / sisa | [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-v2-p3-204] まま(-) [word] = apa adanya / tetap | [kb-v2-p2-112] 濡れた(ぬれた) [inflected, df:濡れる] = basah | [kb-v2-p1-272] どうなりますか(-) [expression] = akan menjadi bagaimana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>清掃用具<rt>せいそうようぐ</rt></ruby>が<ruby>自動的<rt>じどうてき</rt></ruby>に<ruby>殺菌<rt>さっきん</rt></ruby>される。
+    TRANS: Peralatan kebersihan akan tersterilisasi secara otomatis.
+    KOTOBA: [kb-otaff51-0400] 清掃用具(せいそうようぐ) [compound_technical] = peralatan kebersihan | [kb-1318470] 自動的(じどうてき) [word] = secara otomatis | [kb-1299070] 殺菌(さっきん) [word] = sterilisasi / pembasmian kuman
+  OPT B: HTML=<ruby>次<rt>つぎ</rt></ruby>の<ruby>掃除<rt>そうじ</rt></ruby>のときに<ruby>汚<rt>よご</rt></ruby>れがよく<ruby>落<rt>お</rt></ruby>ちるようになる。
+    TRANS: Kotoran menjadi lebih mudah hilang pada saat pembersihan berikutnya.
+    KOTOBA: [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-v2-p1-153] 落ちる(おちる) [word] = jatuh / menurun
+  OPT C: HTML=<ruby>清掃用具<rt>せいそうようぐ</rt></ruby>で<ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えることがあり、<ruby>作業場<rt>さぎょうじょう</rt></ruby>を<ruby>汚染<rt>おせん</rt></ruby>する<ruby>原因<rt>げんいん</rt></ruby>になる。
+    TRANS: Mikroorganisme dapat berkembang biak pada peralatan kebersihan tersebut dan menjadi sumber pencemaran area kerja.
+    KOTOBA: [kb-otaff51-0400] 清掃用具(せいそうようぐ) [compound_technical] = peralatan kebersihan | [kb-1486090] 微生物(びせいぶつ) [word] = mikroorganisme | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-ext-0639-e4bd9ce6a5] 作業場(さぎょうじょう) [compound_technical] = area kerja | [kb-1179040] 汚染(おせん) [word] = kontaminasi / pencemaran | [kb-1261190] 原因(げんいん) [word] = penyebab
+
+=== #Q18 | ID=otaff-pm51-09-q018 | KEY=A (idx=0) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.29 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-1327710 "手指": kotoba="しゅし" vs ruby="てゆび" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-1327710 "手指": kotoba="しゅし" vs ruby="てゆび"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業者<rt>さぎょうしゃ</rt></ruby>が「<ruby>手洗<rt>てあら</rt></ruby>い」をする<ruby>目的<rt>もくてき</rt></ruby>として、テキストに<ruby>書<rt>か</rt></ruby>かれている<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu tujuan pekerja melakukan 'cuci tangan' sebagaimana tertulis di dalam buku teks.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 29 (Bab 2.3(3)③, hal. 24 teks). Bobot: 3 poin. Kunci jawaban: A. 作業者の手指についた微生物などで原材料や食品を汚染させないよう、手洗いをします.
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-v2-p1-026] 手洗い(てあらい) [word] = cuci tangan | [kb-otaff51-0691] 目的(もくてき) [noun] = tujuan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-v2-p6-505] 書かれている(かかれている) [inflected, df:書く] = tertulis | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>手指<rt>てゆび</rt></ruby>についた<ruby>微生物<rt>びせいぶつ</rt></ruby>などで、<ruby>原材料<rt>げんざいりょう</rt></ruby>や<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>汚染<rt>おせん</rt></ruby>させないようにするため。
+    TRANS: Agar mikroorganisme yang menempel pada jari tangan pekerja tidak mencemari bahan baku maupun makanan.
+    KOTOBA: [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-1327710] 手指(しゅし) [word] = jari dan tangan | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-1486090] 微生物(びせいぶつ) [word] = mikroorganisme | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-1179040] 汚染(おせん) [word] = kontaminasi / pencemaran
+  OPT B: HTML=<ruby>手指<rt>てゆび</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を40℃に<ruby>温<rt>あたた</rt></ruby>めるため。
+    TRANS: Untuk menghangatkan suhu jari tangan menjadi 40°C.
+    KOTOBA: [kb-1327710] 手指(しゅし) [word] = jari dan tangan | [kb-1183510] 温度(おんど) [word] = suhu | [kb-otaff51-1586] 温める(あたためる) [verb] = menghangatkan | [kb-v2-p1-312] ため(-) [word] = demi / untuk
+  OPT C: HTML=<ruby>手袋<rt>てぶくろ</rt></ruby>をしなくても<ruby>素手<rt>すで</rt></ruby>で<ruby>盛<rt>も</rt></ruby>り<ruby>付<rt>つ</rt></ruby>けができるようにするため。
+    TRANS: Agar boleh melakukan penataan makanan dengan tangan kosong tanpa sarung tangan.
+    KOTOBA: [kb-1328090] 手袋(てぶくろ) [word] = sarung tangan | [kb-v2-p2-203] しなくても(-) [inflected, df:する] = meskipun tidak melakukan | [kb-1397250] 素手(すで) [word] = tangan telanjang (tanpa sarung) | [kb-v2-p5-122] 盛り付け(もりつけ) [word] = penataan makanan (plating) | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya
+
+=== #Q19 | ID=otaff-pm51-09-q019 | KEY=B (idx=1) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.30 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: イ || [KANJI_WITHOUT_RUBY@opt:A] 手, 中央
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>正<rt>ただ</rt></ruby>しい<ruby>手洗<rt>てあら</rt></ruby>いの<ruby>方法<rt>ほうほう</rt></ruby>」の「イ（せっけんをつけて<ruby>洗<rt>あら</rt></ruby>う）」において、<ruby>特<rt>とく</rt></ruby>に<ruby>注意<rt>ちゅうい</rt></ruby>してよく<ruby>洗<rt>あら</rt></ruby>うべき<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada tahap 'イ (mencuci dengan sabun)' dalam 'Metode Mencuci Tangan yang Benar', bagian manakah yang harus dicuci dengan sangat teliti? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 30 (Bab 2.3(3)③ Langkah イ, hal. 25 teks). Bobot: 3 poin. Kunci jawaban: B. せっけんをつけ、手や指、手首まで洗う。特に、指の間、指の先、爪の中をよく洗う。（30秒間程度）.
+  INLINE_KOTOBA_COUNT: 29
+  KOTOBA_PROMPT: [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-026] 手洗い(てあらい) [word] = cuci tangan | [kb-1517090] 方法(ほうほう) [word] = metode / cara | [kb-otaff51-0706] せっけん(せっけん) [noun] = sabun cuci tangan | [kb-v2-p1-204] つけて(-) [inflected_verb, df:つける] = memasang (dasar: つける) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-1426530] 注意(ちゅうい) [word] = perhatian / kewaspadaan | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=手のひらの中央だけ
+    TRANS: Hanya bagian tengah telapak tangan saja
+    KOTOBA: [kb-pilot51-101] 手のひら(てのひら) [noun] = telapak tangan | [kb-otaff51-1587] 中央(ちゅうおう) [noun] = bagian tengah / pusat
+  OPT B: HTML=<ruby>手<rt>て</rt></ruby>や<ruby>指<rt>ゆび</rt></ruby>、<ruby>手首<rt>てくび</rt></ruby>まで<ruby>洗<rt>あら</rt></ruby>い、<ruby>特<rt>とく</rt></ruby>に「<ruby>指<rt>ゆび</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>」「<ruby>指<rt>ゆび</rt></ruby>の<ruby>先<rt>さき</rt></ruby>」「<ruby>爪<rt>つめ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>」を30<ruby>秒間程度<rt>びょうかんていど</rt></ruby>よく<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci tangan, jari, hingga pergelangan tangan, terutama 'sela-sela jari', 'ujung jari', dan 'bagian dalam kuku' selama sekitar 30 detik.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-1327770] 手首(てくび) [word] = pergelangan tangan | [kb-otaff51-0744] 洗い(あらい) [inflected_verb, df:洗う] = mencuci | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-v2-p2-104] 間(あいだ) [word] = antara / sela-sela | [kb-1387210] 先(さき) [standalone_term] = Ujung / bagian depan alat atau pisau | [kb-v2-p6-254] 爪(つめ) [word] = kuku | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0724] 秒間程度(びょうかんていど) [compound_technical] = sekitar ... detik | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci
+  OPT C: HTML=ひじから<ruby>肩<rt>かた</rt></ruby>までの<ruby>部分<rt>ぶぶん</rt></ruby>だけ
+    TRANS: Hanya bagian dari siku hingga bahu saja
+    KOTOBA: [kb-otaff51-1588] ひじ(ひじ) [noun] = siku tangan | [kb-v2-p6-255] 肩(かた) [word] = bahu | [kb-1499490] 部分(ぶぶん) [word] = bagian
+
+=== #Q20 | ID=otaff-pm51-09-q020 | KEY=C (idx=2) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.32 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>原材料<rt>げんざいりょう</rt></ruby>の「<ruby>受入検査<rt>うけいれけんさ</rt></ruby>」で<ruby>具体的<rt>ぐたいてき</rt></ruby>に<ruby>確認<rt>かくにん</rt></ruby>する<ruby>項目<rt>こうもく</rt></ruby>として、テキストに<ruby>書<rt>か</rt></ruby>かれている<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせはどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah kombinasi yang benar sesuai buku teks mengenai item-item yang diperiksa secara spesifik dalam 'inspeksi penerimaan (ukeire kensa)' bahan baku? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 32 (Bab 2.3(4)①ア, hal. 27 teks). Bobot: 3 poin. Kunci jawaban: C. Dalam 受入検査, diperiksa: 原材料の見た目や臭い、規格（サイズや入り数）、包装状態、期限・保存方法の表示、品温など.
+  INLINE_KOTOBA_COUNT: 35
+  KOTOBA_PROMPT: [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-ext-latsol-0095] 受入検査(うけいれけんさ) [word] = inspeksi penerimaan bahan baku | [kb-1245050] 具体的(ぐたいてき) [word] = secara konkret / terperinci | [kb-1205900] 確認(かくにん) [word] = konfirmasi / pengecekan | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-v2-p6-505] 書かれている(かかれている) [inflected, df:書く] = tertulis | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=トラックのタイヤの<ruby>数<rt>かず</rt></ruby>と、<ruby>運転手<rt>うんてんしゅ</rt></ruby>の<ruby>年齢<rt>ねんれい</rt></ruby>だけ
+    TRANS: Hanya jumlah ban truk dan usia pengemudi saja
+    KOTOBA: [kb-latsol-a5ad0ab3b2] トラック(とらっく) [word] = truk | [kb-otaff51-1589] タイヤ(たいや) [noun] = ban kendaraan | [kb-1580820] 数(かず) [standalone_term] = Jumlah hitungan angka kuantitas | [kb-1172830] 運転(うんてん) [word] = mengoperasikan mesin | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-1600240] 年齢(ねんれい) [word] = usia
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>だけであり、<ruby>期限<rt>きげん</rt></ruby>や<ruby>温度<rt>おんど</rt></ruby>は<ruby>見<rt>み</rt></ruby>ない
+    TRANS: Hanya warna bahan baku saja tanpa melihat tanggal kedaluwarsa atau suhunya
+    KOTOBA: [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p3-159] 色(いろ) [word] = warna | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-1220560] 期限(きげん) [word] = batas waktu / kedaluwarsa | [kb-1183510] 温度(おんど) [word] = suhu | [kb-latsol-2c04f5f92b] 見な(みな) [word] = Melihat / inspeksi visual
+  OPT C: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>見<rt>み</rt></ruby>た<ruby>目<rt>め</rt></ruby>や<ruby>臭<rt>にお</rt></ruby>い、<ruby>規格<rt>きかく</rt></ruby>（サイズや<ruby>入<rt>い</rt></ruby>り<ruby>数<rt>すう</rt></ruby>）、<ruby>包装状態<rt>ほうそうじょうたい</rt></ruby>、<ruby>期限<rt>きげん</rt></ruby>・<ruby>保存方法<rt>ほぞんほうほう</rt></ruby>の<ruby>表示<rt>ひょうじ</rt></ruby>、<ruby>品温<rt>ひんおん</rt></ruby>など
+    TRANS: Tampilan fisik dan bau bahan baku, spesifikasi (ukuran dan jumlah isi), kondisi kemasan, label batas waktu dan cara penyimpanan, serta suhu bahan (hin'on)
+    KOTOBA: [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p3-163] 見た目(みため) [word] = penampilan fisik | [kb-v2-p6-273] 臭い(におい) [word] = bau tak sedap | [kb-otaff51-0562] 規格(きかく) [noun] = spesifikasi standar (ukuran/jumlah isi) | [kb-v2-p3-030] サイズ(-) [word] = ukuran | [kb-otaff51-1590] 入り数(いりすう) [compound_technical] = jumlah isi per kemasan | [kb-otaff51-0206] 包装状態(ほうそうじょうたい) [compound_technical] = kondisi kemasan | [kb-1220560] 期限(きげん) [word] = batas waktu / kedaluwarsa | [kb-2835814] 保存方法(ほぞんほうほう) [word] = metode penyimpanan makanan | [kb-1489610] 表示(ひょうじ) [word] = pelabelan / tampilan | [kb-otaff51-0232] 品温(ひんおん) [compound_technical] = suhu produk / suhu bahan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain

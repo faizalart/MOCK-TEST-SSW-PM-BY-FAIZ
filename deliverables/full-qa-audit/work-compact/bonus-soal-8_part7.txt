@@ -1,0 +1,75 @@
+# AUDIT SHEET: bonus-soal-8 (Bonus Soal 8) | Batch qa-batch-05 | Part 7 (Q25-28 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=bonus-soal-8-q025 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 8.pdf p.4 ===
+  CLUSTER CL-0170 (n=8, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q026 (bonus-soal-1), bonus-soal-9-q005 (bonus-soal-9), nguyen01-q026 (latsol-nguyen-01), nguyen03-q005 (latsol-nguyen-03), nguyen08-q025 (latsol-nguyen-08), nguyen09-q005 (latsol-nguyen-09), nguyen10-q027 (latsol-nguyen-10)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>遺物<rt>いぶつ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一つ選<rt>ひとつえら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar yang termasuk benda asing.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 4, Soal 25) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-1159610] 遺物(いぶつ) [word] = benda asing (varian penulisan) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ヒスタミン
+    TRANS: Histamin
+    KOTOBA: [kb-otaff51-0065] ヒスタミン(ひすたみん) [noun] = histamin
+  OPT B: HTML=<ruby>芽胞<rt>がほう</rt></ruby>
+    TRANS: Spora bakteri
+    KOTOBA: [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas)
+  OPT C: HTML=<ruby>虫<rt>むし</rt></ruby>、<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>
+    TRANS: Serangga, rambut
+    KOTOBA: [kb-v2-p4-111] 虫(むし) [word] = serangga / hama | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut
+
+=== #Q26 | ID=bonus-soal-8-q026 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 8.pdf p.4 ===
+  CLUSTER CL-0150 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q025 (ssw-pm-kunci-ujian-13), bonus-soal-1-q027 (bonus-soal-1), bonus-soal-5-q025 (bonus-soal-5), bonus-soal-6-q031 (bonus-soal-6), nguyen01-q027 (latsol-nguyen-01), nguyen05-q025 (latsol-nguyen-05), nguyen06-q031 (latsol-nguyen-06), nguyen08-q026 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>起<rt>お</rt></ruby>きる<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>一番多<rt>いちばんおお</rt></ruby>いのはなんですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kecelakaan kerja apakah yang paling banyak terjadi di pabrik pengolahan pangan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 4, Soal 26) · Kunci Jawaban Checklist Hijau (✓): A.
+  KOTOBA_PROMPT: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-v2-p5-240] 起きる(おきる) [word] = terjadi | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-audit-0061] 一番多い(いちばんおおい) [word] = paling banyak / terbanyak | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>転倒<rt>てんとう</rt></ruby>
+    TRANS: Terjatuh / terpeleset
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama
+  OPT B: HTML=はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ
+    TRANS: Terjepit atau terlilit mesin
+    KOTOBA: [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin
+  OPT C: HTML=<ruby>切<rt>き</rt></ruby>れ、こすれ
+    TRANS: Terpotong atau tergores
+    KOTOBA: [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek
+
+=== #Q27 | ID=bonus-soal-8-q027 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 8.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-v2-p2-104 "間": kotoba="あいだ" vs ruby="ま"
+  CLUSTER CL-0059 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q028 (ssw-pm-kunci-ujian-2), bonus-soal-2-q028 (bonus-soal-2), nguyen02-q028 (latsol-nguyen-02), nguyen08-q027 (latsol-nguyen-08)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手洗<rt>てあら</rt></ruby>いについて、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai mencuci tangan.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 5, Soal 27) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>手<rt>て</rt></ruby>についた<ruby>汚<rt>よご</rt></ruby>れや<ruby>微生物<rt>びせいぶつ</rt></ruby>をとるために<ruby>行<rt>おこな</rt></ruby>う。
+    TRANS: Dilakukan untuk menghilangkan kotoran dan mikroorganisme yang menempel di tangan.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p2-199] とる(-) [word] = mengambil / menghilangkan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=つめの<ruby>中<rt>なか</rt></ruby>は<ruby>洗<rt>あら</rt></ruby>わなくても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Bagian dalam kuku tidak perlu dicuci.
+    KOTOBA: [kb-v2-p2-079] つめ(-) [word] = kuku | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p2-008] 洗わなくても(あらわなくても) [inflected, df:洗う] = meskipun tidak mencuci | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=<ruby>指<rt>ゆび</rt></ruby>の<ruby>間<rt>ま</rt></ruby>や<ruby>手首<rt>てくび</rt></ruby>までしっかり<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci dengan bersih hingga ke sela-sela jari dan pergelangan tangan.
+    KOTOBA: [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-v2-p2-104] 間(あいだ) [word] = antara / sela-sela | [kb-otaff51-0313] 手首(てくび) [noun] = pergelangan tangan | [kb-v2-p2-284] まで(-) [particle] = sampai | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+
+=== #Q28 | ID=bonus-soal-8-q028 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 8.pdf p.5 ===
+  CLUSTER CL-0060 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q029 (ssw-pm-kunci-ujian-2), bonus-soal-2-q029 (bonus-soal-2), nguyen02-q029 (latsol-nguyen-02), nguyen08-q028 (latsol-nguyen-08)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うときに<ruby>注意<rt>ちゅうい</rt></ruby>する<ruby>点<rt>てん</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai hal-hal yang harus diperhatikan saat menggunakan bahan sterilisasi/disinfektan.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 5, Soal 28) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada | [kb-1441390] 点(てん) [standalone_term] = Poin / titik kendali dalam tahapan pengolahan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>
+    TRANS: Konsentrasi bahan sterilisasi
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>殺菌<rt>さっきん</rt></ruby>する<ruby>時間<rt>じかん</rt></ruby>
+    TRANS: Waktu sterilisasi
+    KOTOBA: [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi
+  OPT C: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>
+    TRANS: Suhu bahan sterilisasi
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung

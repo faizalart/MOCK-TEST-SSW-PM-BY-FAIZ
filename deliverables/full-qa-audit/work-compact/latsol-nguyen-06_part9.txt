@@ -1,0 +1,81 @@
+# AUDIT SHEET: latsol-nguyen-06 (Latsol Nguyen 06) | Batch qa-batch-08 | Part 9 (Q33-36 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q33 | ID=nguyen06-q033 | KEY=A (idx=0) | CAT= | SRC=6.pdf p.12 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0642 "頭傷防止": kotoba="とうしょうぼうし" vs ruby="あたまきずぼうし" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-otaff51-0182 "切傷防止": kotoba="せっしょうぼうし" vs ruby="きりきずぼうし"
+  CLUSTER CL-0244 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-6-q033 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("眼のケガの防止") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>保護<rt>ほご</rt></ruby>メガネは<ruby>何<rt>なに</rt></ruby>ができますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kacamata pelindung (protective goggles) berfungsi untuk apa? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 6.pdf, halaman 12, nomor 33. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0138] 保護メガネ(ほごめがね) [compound_technical] = kacamata pelindung (safety glasses) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-125] できますか(できますか) [inflected_verb, df:できる] = dapat dibuat (dasar: できる) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>眼<rt>め</rt></ruby>のケガの<ruby>防止<rt>ぼうし</rt></ruby>
+    TRANS: Pencegahan cedera mata
+    KOTOBA: [kb-otaff51-0465] 眼(め) [noun] = mata | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan
+  OPT B: HTML=<ruby>頭傷防止<rt>あたまきずぼうし</rt></ruby>
+    TRANS: Pencegahan cedera kepala
+    KOTOBA: [kb-otaff51-0642] 頭傷防止(とうしょうぼうし) [compound_technical] = pencegahan cedera kepala
+  OPT C: HTML=<ruby>指<rt>ゆび</rt></ruby>の<ruby>切傷防止<rt>きりきずぼうし</rt></ruby>
+    TRANS: Pencegahan luka sayat pada jari
+    KOTOBA: [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-otaff51-0182] 切傷防止(せっしょうぼうし) [compound_technical] = pencegahan luka iris/sayat
+
+=== #Q34 | ID=nguyen06-q034 | KEY=B (idx=1) | CAT= | SRC=6.pdf p.12 ===
+  FLAGS: [OPT_PROHIBITION_MISMATCH@optTranslation:A] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh || [OPT_PROHIBITION_MISMATCH@optTranslation:B] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh
+  CLUSTER CL-0245 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-6-q034 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("走ることを禁止する標識") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>以下<rt>いか</rt></ruby>のマークの<ruby>意味<rt>いみ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah arti dari tanda/marka di bawah ini? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 6.pdf, halaman 12, nomor 34. Bobot: 3.75 poin. Kunci jawaban: B. Visual: Rambu dilarang berlari (piktogram orang berlari dicoret lingkaran merah).
+  KOTOBA_PROMPT: [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p5-094] マーク(-) [word] = tanda / simbol | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>入<rt>はい</rt></ruby>ることを<ruby>禁止<rt>きんし</rt></ruby>する<ruby>標識<rt>ひょうしき</rt></ruby>
+    TRANS: Rambu yang melarang masuk
+    KOTOBA: [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan
+  OPT B: HTML=<ruby>走<rt>はし</rt></ruby>ることを<ruby>禁止<rt>きんし</rt></ruby>する<ruby>標識<rt>ひょうしき</rt></ruby>
+    TRANS: Rambu yang melarang berlari
+    KOTOBA: [kb-latsol-020791ecf8] 走ることを禁止する標識(はしることをきんしするひょうしき) [word] = rambu larangan berlari
+  OPT C: HTML=<ruby>挟<rt>はさ</rt></ruby>まれる<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>
+    TRANS: Rambu yang memperingatkan bahaya terjepit
+    KOTOBA: [kb-v2-p5-254] 挟まれる(はさまれる) [inflected, df:挟む] = terjepit | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan
+
+=== #Q35 | ID=nguyen06-q035 | KEY=C (idx=2) | CAT= | SRC=6.pdf p.13 ===
+  CLUSTER CL-0246 (n=2, diffPrompt=false, diffOpt=true, diffTrans=false): twins=bonus-soal-6-q035 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("消火器の場所を知らせる標識") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: これはなんのいみですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah arti dari tanda ini?
+  EXPLANATION: Sumber: 6.pdf, halaman 13, nomor 35. Bobot: 3.75 poin. Kunci jawaban: C. Visual: Rambu 消火器 / FIRE EXTINGUISHER.
+  KOTOBA_PROMPT: [kb-audit-0916] なん(なん) [word] = apa / berapa | [kb-audit-0183] いみ(いみ) [word] = arti / makna (意味)
+  OPT A: HTML=<ruby>消火器<rt>しょうかき</rt></ruby>を<ruby>紹介<rt>しょうかい</rt></ruby>します
+    TRANS: Memperkenalkan alat pemadam api ringan
+    KOTOBA: [kb-otaff51-0392] 消火器(しょうかき) [compound_technical] = alat pemadam api ringan (APAR) | [kb-1351430] 紹介(しょうかい) [word] = pengenalan / penjelasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=<ruby>避難<rt>ひなん</rt></ruby>するための<ruby>非常口<rt>ひじょうぐち</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>
+    TRANS: Rambu yang memberitahukan lokasi pintu darurat untuk evakuasi
+    KOTOBA: [kb-1484660] 避難(ひなん) [word] = evakuasi | [kb-otaff51-0636] 非常口(ひじょうぐち) [compound_technical] = pintu darurat | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan
+  OPT C: HTML=<ruby>消火器<rt>しょうかき</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>
+    TRANS: Rambu yang memberitahukan lokasi alat pemadam api ringan (APAR)
+    KOTOBA: [kb-otaff51-0392] 消火器(しょうかき) [compound_technical] = alat pemadam api ringan (APAR) | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan
+
+=== #Q36 | ID=nguyen06-q036 | KEY=B (idx=1) | CAT= | SRC=6.pdf p.13 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 原因
+  CLUSTER CL-0247 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-6-q036 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("脚立の「開き止め金具」をセットしていなかった") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>落<rt>お</rt></ruby>ちる」<ruby>災害<rt>さいがい</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>はなんですか。ただしいものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah penyebab (原因) dari kecelakaan "terjatuh dari ketinggian" pada gambar berikut? Pilihlah yang benar.
+  EXPLANATION: Sumber: 6.pdf, halaman 13, nomor 36. Bobot: 3.75 poin. Kunci jawaban: B. Visual: Ilustrasi pekerja hampir jatuh dari tangga lipat.
+  KOTOBA_PROMPT: [kb-v2-p1-153] 落ちる(おちる) [word] = jatuh / menurun | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>脚立<rt>きゃたつ</rt></ruby>が<ruby>動<rt>うご</rt></ruby>いてバランスを<ruby>崩<rt>くず</rt></ruby>して、<ruby>落<rt>お</rt></ruby>ちそうになった
+    TRANS: Tangga lipat bergerak sehingga kehilangan keseimbangan dan hampir terjatuh (situasi).
+    KOTOBA: [kb-otaff51-0517] 脚立(きゃたつ) [noun] = tangga lipat (stepladder) | [kb-v2-p5-360] 動いて(うごいて) [inflected, df:動く] = bergerak | [kb-ext-0023-e38390e383] バランス(ばらんす) [word] = keseimbangan | [kb-latsol-8d2bbc8cbf] 崩して(くずして) [word] = merusak postur / meruntuhkan | [kb-v2-p1-108] 落ちそうに(おちそうに) [inflected_verb, df:落ちる] = hampir jatuh (dasar: 落ちる)
+  OPT B: HTML=<ruby>脚立<rt>きゃたつ</rt></ruby>の「<ruby>開<rt>ひら</rt></ruby>き<ruby>止<rt>と</rt></ruby>め<ruby>金具<rt>かなぐ</rt></ruby>」をセットしていなかった
+    TRANS: Tidak memasang/mengunci "logam pengait penahan bukaan" pada tangga lipat (penyebab).
+    KOTOBA: [kb-otaff51-0517] 脚立(きゃたつ) [noun] = tangga lipat (stepladder) | [kb-otaff51-0620] 開き止め金具(ひらきどめかなぐ) [compound_technical] = besi pengunci bukaan tangga lipat | [kb-v2-p2-148] セットして(-) [inflected, df:セットする] = memasang / mengatur | [kb-audit-0463] いなかった(いなかった) [inflected_verb, df:いる] = tidak ada / belum dilakukan (lampau)
+  OPT C: HTML=<ruby>脚立<rt>きゃたつ</rt></ruby>は、<ruby>必<rt>かなら</rt></ruby>ず「<ruby>開<rt>ひら</rt></ruby>き<ruby>止<rt>と</rt></ruby>め<ruby>金具<rt>かなぐ</rt></ruby>」をセットして<ruby>使<rt>つか</rt></ruby>う
+    TRANS: Gunakan selalu tangga lipat setelah memasang "logam pengait penahan bukaan" (tindakan pencegahan).
+    KOTOBA: [kb-otaff51-0517] 脚立(きゃたつ) [noun] = tangga lipat (stepladder) | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-otaff51-0620] 開き止め金具(ひらきどめかなぐ) [compound_technical] = besi pengunci bukaan tangga lipat | [kb-v2-p2-148] セットして(-) [inflected, df:セットする] = memasang / mengatur | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan

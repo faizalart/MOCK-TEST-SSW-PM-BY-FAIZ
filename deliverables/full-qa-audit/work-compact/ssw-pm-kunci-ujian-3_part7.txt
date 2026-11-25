@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-3 (Soal Ujian 3 — CBTP Gino1) | Batch qa-batch-01 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-3-q025 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.4 ===
+  CLUSTER CL-0083 (n=4, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-5-q030 (ssw-pm-kunci-ujian-5), kunci-ujian-7-q018 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q023 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai pengelolaan bahan kimia/obat pembersih.
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 4, Câu 25 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=どこで<ruby>保管<rt>ほかん</rt></ruby>してもいい。
+    TRANS: Boleh disimpan di mana saja.
+    KOTOBA: [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p2-217] 保管しても(ほかんしても) [inflected, df:保管する] = meskipun disimpan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>使用量<rt>しようりょう</rt></ruby>や<ruby>残<rt>のこ</rt></ruby>った<ruby>量<rt>りょう</rt></ruby>を<ruby>入出庫台帳<rt>にゅうしゅっこだいちょう</rt></ruby>に<ruby>書<rt>か</rt></ruby>いて<ruby>記録<rt>きろく</rt></ruby>する。
+    TRANS: Mencatat jumlah penggunaan dan sisa bahan kimia pada buku catatan keluar-masuk barang.
+    KOTOBA: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-1306330] 使用量(しようりょう) [word] = jumlah / takaran pemakaian | [kb-v2-p5-387] 残った(のこった) [inflected, df:残る] = yang tersisa | [kb-v2-p1-085] 量(りょう) [word] = jumlah / takaran | [kb-ext-1410-e585a5e587] 入出庫台帳(にゅうしゅっこだいちょう) [word] = buku catatan keluar-masuk stok | [kb-v2-p1-194] 書いて(かいて) [inflected_verb, df:書く] = menulis (dasar: 書く) | [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>容器<rt>ようき</rt></ruby>は<ruby>必<rt>かなら</rt></ruby>ず「<ruby>薬剤名<rt>やくざいめい</rt></ruby>」、「<ruby>使用方法<rt>しようほうほう</rt></ruby>」などを<ruby>書<rt>か</rt></ruby>きます。
+    TRANS: Wajib menuliskan "nama bahan kimia", "cara penggunaan", dan informasi terkait pada wadah bahan kimia.
+    KOTOBA: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-ext-1708-e896ace589] 薬剤名(やくざいめい) [word] = nama bahan kimia / disinfektan | [kb-1306300] 使用方法(しようほうほう) [word] = petunjuk cara penggunaan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p6-377] 書きます(かきます) [inflected, df:書く] = menulis (sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q26 | ID=kunci-ujian-3-q026 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-1576260 "一日": kotoba="いちにち" vs ruby="ついたち"
+  CLUSTER CL-0084 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q024 (ssw-pm-kunci-ujian-14), bonus-soal-9-q026 (bonus-soal-9), nguyen03-q026 (latsol-nguyen-03), nguyen09-q026 (latsol-nguyen-09)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>交差汚染<rt>こうさおせん</rt></ruby>の<ruby>防止<rt>ぼうし</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah jawaban yang salah mengenai pencegahan kontaminasi silang.
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 4, Câu 26 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0109] 交差汚染(こうさおせん) [compound_technical] = kontaminasi silang (cross-contamination) | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>は<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>区分<rt>くぶん</rt></ruby>して<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan bahan baku yang mengandung alergen secara terpisah dari bahan baku yang tidak mengandung alergen.
+    KOTOBA: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-audit-1043] 区分して(くぶんして) [inflected_verb, df:区分する] = memisahkan zona (~て) | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT B: HTML=<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>製品<rt>せいひん</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>場合<rt>ばあい</rt></ruby>は<ruby>一日<rt>ついたち</rt></ruby>の<ruby>始<rt>はじ</rt></ruby>めに<ruby>製造<rt>せいぞう</rt></ruby>する。
+    TRANS: Jika memproduksi produk yang mengandung bahan baku spesifik (alergen wajib), produksilah pada awal hari kerja.
+    KOTOBA: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-1576260] 一日(いちにち) [word] = satu hari | [kb-v2-p5-390] 始め(はじめ) [word] = awal / permulaan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>製品<rt>せいひん</rt></ruby>とアレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>まない<ruby>製品<rt>せいひん</rt></ruby>を<ruby>同<rt>おな</rt></ruby>じラインで<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>時<rt>とき</rt></ruby>、<ruby>洗浄<rt>せんじょう</rt></ruby>を<ruby>徹底<rt>てってい</rt></ruby>しなければならない。
+    TRANS: Saat memproduksi produk yang mengandung alergen dan produk yang tidak mengandung alergen pada lini yang sama, pembersihan dan pencucian harus dilakukan secara menyeluruh.
+    KOTOBA: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-042] ライン(-) [word] = lini produksi | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-1437670] 徹底(てってい) [word] = penerapan tuntas / menyeluruh | [kb-v2-p1-101] しなければならない(-) [expression] = harus dilakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q27 | ID=kunci-ujian-3-q027 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐための4つの<ruby>重要<rt>じゅうよう</rt></ruby>なポイントはどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah 4 poin penting untuk mencegah keracunan makanan akibat Norovirus?
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 4, Câu 27 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-v2-p5-093] ポイント(-) [word] = poin penting | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>を<ruby>隔離<rt>かくり</rt></ruby>する、<ruby>食材<rt>しょくざい</rt></ruby>を<ruby>無駄<rt>むだ</rt></ruby>にしない、<ruby>消毒<rt>しょうどく</rt></ruby>する、<ruby>情報提供<rt>じょうほうていきょう</rt></ruby>する
+    TRANS: Mengisolasi pekerja, tidak membuang-buang bahan makanan, melakukan disinfeksi, memberikan informasi
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-1206440] 隔離(かくり) [word] = isolasi / karantina produk | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1983500] 食材(しょくざい) [word] = bahan makanan | [kb-1530510] 無駄(むだ) [word] = pemborosan (muda) | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi | [kb-2124810] 情報提供(じょうほうていきょう) [word] = pemberian informasi produk | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>病気<rt>びょうき</rt></ruby>を<ruby>予防<rt>よぼう</rt></ruby>する、<ruby>清掃<rt>せいそう</rt></ruby>をする、<ruby>検査<rt>けんさ</rt></ruby>をする、<ruby>早期発見<rt>そうきはっけん</rt></ruby>する
+    TRANS: Mencegah penyakit, melakukan pembersihan, melakukan pemeriksaan, mendeteksi sejak dini
+    KOTOBA: [kb-otaff51-0453] 病気(びょうき) [noun] = penyakit / sakit | [kb-1543660] 予防(よぼう) [word] = pencegahan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-1941340] 早期発見(そうきはっけん) [word] = deteksi dini penyimpangan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まない、つけない、やっつける、<ruby>拡<rt>ひろ</rt></ruby>げない
+    TRANS: Tidak membawa masuk, tidak menempelkan (mencemari), membasmi (dengan pemanasan/disinfeksi), tidak menyebarkan
+    KOTOBA: [kb-v2-p4-160] 持ち込まない(もちこまない) [inflected, df:持ち込む] = tidak membawa masuk | [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai | [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba) | [kb-v2-p6-360] 拡げない(ひろげない) [inflected, df:拡げる] = tidak menyebarkan
+
+=== #Q28 | ID=kunci-ujian-3-q028 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品衛生管理<rt>しょくひんえいせいかんり</rt></ruby>が<ruby>不十分<rt>ふじゅうぶん</rt></ruby>な<ruby>場合<rt>ばあい</rt></ruby>、<ruby>企業<rt>きぎょう</rt></ruby>はどのような<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>受<rt>う</rt></ruby>けますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dampak apa yang akan dialami perusahaan apabila manajemen higiene pangan tidak memadai?
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 5, Câu 28 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-ext-0933-e9a39fe593] 食品衛生管理(しょくひんえいせいかんり) [word] = manajemen higiene sanitasi pangan | [kb-1492740] 不十分(ふじゅうぶん) [word] = tidak mencukupi | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-1218190] 企業(きぎょう) [word] = Perusahaan industri makanan dan minuman | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-1173660] 影響(えいきょう) [word] = dampak / pengaruh | [kb-v2-p6-407] 受けます(うけます) [inflected, df:受ける] = menerima (dampak) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>企業<rt>きぎょう</rt></ruby>の<ruby>信頼<rt>しんらい</rt></ruby>を<ruby>失<rt>うしな</rt></ruby>う
+    TRANS: Kehilangan kepercayaan terhadap perusahaan
+    KOTOBA: [kb-1218190] 企業(きぎょう) [word] = Perusahaan industri makanan dan minuman | [kb-1359730] 信頼(しんらい) [word] = kepercayaan / keandalan | [kb-v2-p6-378] 失う(うしなう) [word] = kehilangan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>売上<rt>うりあげ</rt></ruby>が<ruby>上<rt>あ</rt></ruby>がる
+    TRANS: Penjualan meningkat
+    KOTOBA: [kb-1588500] 売上(うりあげ) [word] = Penjualan produk makanan jadi | [kb-v2-p4-221] 上がる(あがる) [word] = naik / meningkat | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>生産量<rt>せいさんりょう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える
+    TRANS: Jumlah produksi bertambah
+    KOTOBA: [kb-1996820] 生産量(せいさんりょう) [word] = Kuantitas volume hasil produksi pabrik | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek

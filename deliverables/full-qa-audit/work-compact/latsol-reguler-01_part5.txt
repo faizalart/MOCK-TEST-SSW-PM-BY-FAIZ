@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-reguler-01 (Latsol Reguler 01) | Batch qa-batch-09 | Part 5 (Q17-20 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=reguler01-q017 | KEY=C (idx=2) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="感染型食中毒の主な予防対策どれですか。。まちがっているものをひとつえらびなさい" vs questionText="感染食中毒の主な予防対策どれですか。。まちがっているものをひとつえらびなさい" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう" || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: 水道水で洗う || [PRIOR_KEY_AUDIT_REVIEW_REQUIRED@question] Pertanyaan menanyakan yang SALAH dari langkah pencegahan keracunan tipe infeksi. Opsi C (海水の魚介類加熱します) ditulis kurang lengkap oleh pembuat soal untuk membedakannya dari langkah khas 腸炎ビブリオ yaitu mencuci hasil laut dengan air tawar (真水/水道水で洗う). Kunci PDF (C) dipertahankan.
+  PRIOR_KEY_AUDIT: REVIEW_REQUIRED | Pertanyaan menanyakan yang SALAH dari langkah pencegahan keracunan tipe infeksi. Opsi C (海水の魚介類加熱します) ditulis kurang lengkap oleh pembuat soal untuk membedakannya dari langkah khas 腸炎ビブリオ yaitu mencuci hasil laut dengan air tawar (真水/水道水で洗う). Kunci PDF (C) dipertahankan.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>感染型<rt>かんせんがた</rt></ruby><ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>予防対策<rt>よぼうたいさく</rt></ruby>どれですか。。まちがっているものをひとつえらびなさい
+  QUESTION_TEXT: 感染食中毒の主な予防対策どれですか。。まちがっているものをひとつえらびなさい
+  PROMPT_TRANS: Manakah langkah pencegahan utama keracunan makanan tipe infeksi? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 4, nomor 17. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-ext-0278-e6849fe69f] 感染型食中毒(かんせんがたしょくちゅうどく) [word] = keracunan makanan tipe infeksi | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-latsol-0033] 予防対策(よぼうたいさく) [word] = tindakan pencegahan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=75℃<ruby>以上<rt>いじょう</rt></ruby>、1<ruby>分以上<rt>ぷんいじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します
+    TRANS: Memanaskan pada suhu 75°C atau lebih selama 1 menit atau lebih
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>などを<ruby>洗浄<rt>せんじょう</rt></ruby>します
+    TRANS: Mencuci peralatan masak dan sejenisnya
+    KOTOBA: [kb-otaff51-0576] 調理器具(ちょうりきぐ) [compound_technical] = peralatan masak | [kb-audit-0974] 洗浄します(せんじょうします) [inflected_verb, df:洗浄する] = mencuci bersih (sopan)
+  OPT C: HTML=<ruby>海水<rt>かいすい</rt></ruby>の<ruby>魚介類<rt>ぎょかいるい</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します
+    TRANS: Memanaskan hasil laut dari air laut (pada diktat Vibrio parahaemolyticus dicegah dengan mencuci menggunakan air tawar/水道水で洗う)
+    KOTOBA: [kb-1201490] 海水(かいすい) [word] = air laut | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+
+=== #Q18 | ID=reguler01-q018 | KEY=B (idx=1) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("すぐに責任者にほうこくします") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: もし、<ruby>温度<rt>おんど</rt></ruby>や<ruby>時間<rt>じかん</rt></ruby>に<ruby>異常<rt>いじょう</rt></ruby>があったら どうしたらいいですか。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Jika terdapat ketidaknormalan (masalah) pada suhu atau waktu, apa yang sebaiknya dilakukan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 5, nomor 18. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0756] もし(もし) [adverb] = jika / seandainya | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-otaff51-0448] 異常(いじょう) [noun] = ketidaknormalan / kelainan | [kb-audit-0402] あったら(あったら) [inflected_verb, df:ある] = apabila ada / tersedia | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=すぐに<ruby>同僚<rt>どうりょう</rt></ruby>にほうほうこくします
+    TRANS: Segera melapor kepada rekan kerja
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-1453580] 同僚(どうりょう) [word] = rekan kerja | [kb-v2-p6-467] ほうほう(-) [word] = metode / cara (bacaan 方法) | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=すぐに<ruby>責任者<rt>せきにんしゃ</rt></ruby>にほうこくします
+    TRANS: Segera melapor kepada penanggung jawab
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-audit-1030] ほうこくします(ほうこくします) [inflected_verb, df:報告する] = melapor (sopan)
+  OPT C: HTML=すぐにけいさつにほうこくします
+    TRANS: Segera melapor kepada polisi
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-audit-1030] ほうこくします(ほうこくします) [inflected_verb, df:報告する] = melapor (sopan)
+
+=== #Q19 | ID=reguler01-q019 | KEY=B (idx=1) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("整理") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>必要<rt>ひつよう</rt></ruby>なものは<ruby>保管<rt>ほかん</rt></ruby>して、<ruby>不要<rt>ふよう</rt></ruby>なものは<ruby>捨<rt>す</rt></ruby>てる これはなんの<ruby>意味<rt>いみ</rt></ruby>ですか。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan, apakah arti dari hal ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 5, nomor 19. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-latsol-90a80dc9bf] 不要な(ふような) [word] = tidak diperlukan | [kb-v2-p1-174] 捨てる(すてる) [word] = membuang | [kb-audit-0916] なん(なん) [word] = apa / berapa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>整頓<rt>せいとん</rt></ruby>
+    TRANS: Seiton (Rapi)
+    KOTOBA: [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil)
+  OPT B: HTML=<ruby>整理<rt>せいり</rt></ruby>
+    TRANS: Seiri (Ringkas)
+    KOTOBA: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan)
+  OPT C: HTML=<ruby>清掃<rt>せいそう</rt></ruby>
+    TRANS: Seisou (Resik)
+    KOTOBA: [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+
+=== #Q20 | ID=reguler01-q020 | KEY=D (idx=3) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.5 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi D ("密殺") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: これは<ruby>新型<rt>しんがた</rt></ruby>コロナウイルス<ruby>感染症<rt>かんせんしょう</rt></ruby><ruby>予防<rt>よぼう</rt></ruby>のために。どれはまちがっているものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berikut ini adalah hal untuk pencegahan infeksi virus Corona jenis baru (3 Mitsu). Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 5, nomor 20. Bobot: 7.5 poin. Kunci jawaban: D.
+  KOTOBA_PROMPT: [kb-v2-p6-192] 新型コロナウイルス(しんがたころなういるす) [compound_technical] = virus corona baru (COVID-19) | [kb-latsol-e2178dd5bc] 感染症予防(かんせんしょうよぼう) [word] = pencegahan penyakit menular | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>密集<rt>みっしゅう</rt></ruby>
+    TRANS: Misshuu (Kerumunan padat)
+    KOTOBA: [kb-1528280] 密集(みっしゅう) [word] = kepadatan tinggi / berdesakan
+  OPT B: HTML=<ruby>密閉<rt>みっぺい</rt></ruby>
+    TRANS: Mippei (Ruangan tertutup rapat)
+    KOTOBA: [kb-otaff51-0276] 密閉(みっぺい) [noun] = penutupan rapat / kedap
+  OPT C: HTML=<ruby>密接<rt>みっせつ</rt></ruby>
+    TRANS: Missetsu (Kontak dekat)
+    KOTOBA: [kb-1528290] 密接(みっせつ) [word] = berhubungan sangat erat
+  OPT D: HTML=<ruby>密殺<rt>みっさつ</rt></ruby>
+    TRANS: Missatsu (Pembunuhan rahasia)
+    KOTOBA: [kb-ext-latsol-0037] 密殺(みっさつ) [word] = pembasmian tuntas / sanitasi menyeluru

@@ -1,0 +1,70 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-6 (Soal Ujian 6 — CBTP Gino1) | Batch qa-batch-02 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=kunci-ujian-6-q001 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>機械<rt>きかい</rt></ruby>の<ruby>刃<rt>は</rt></ruby>や<ruby>食材<rt>しょくざい</rt></ruby>に<ruby>直接触<rt>ちょくせつふ</rt></ruby>れる<ruby>部分<rt>ぶぶん</rt></ruby>は、どのようにする<ruby>必要<rt>ひつよう</rt></ruby>がありますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan pada mata pisau mesin atau bagian yang bersentuhan langsung dengan bahan makanan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 1, Câu 1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0175] 刃(は) [noun] = mata pisau | [kb-1983500] 食材(しょくざい) [word] = bahan makanan | [kb-1431110] 直接(ちょくせつ) [word] = secara langsung | [kb-v2-p3-266] 触れる(ふれる) [word] = bersentuhan dengan | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-v2-p1-271] どのように(-) [expression] = dengan cara bagaimana | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=<ruby>触<rt>ふ</rt></ruby>れたままでも<ruby>問題<rt>もんだい</rt></ruby>ありません
+    TRANS: Tidak masalah jika dibiarkan begitu saja setelah bersentuhan
+    KOTOBA: [kb-v2-p5-430] 触れた(ふれた) [inflected, df:触れる] = menyentuh (lampau) | [kb-v2-p3-204] まま(-) [word] = apa adanya / tetap | [kb-1536010] 問題(もんだい) [word] = soal / masalah | [kb-audit-0366] ありません(ありません) [inflected_verb, df:ある] = tidak ada (sopan) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT B: HTML=<ruby>洗浄後<rt>せんじょうご</rt></ruby>に<ruby>消毒<rt>しょうどく</rt></ruby>しなければいけません
+    TRANS: Harus didisinfeksi setelah dicuci bersih
+    KOTOBA: [kb-ext-1092-e6b497e6b5] 洗浄後(せんじょうご) [word] = setelah proses pencucian | [kb-otaff51-0389] 消毒(しょうどく) [noun] = disinfeksi | [kb-audit-0379] しなければいけません(しなければいけません) [word] = harus / wajib melakukan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>洗浄<rt>せんじょう</rt></ruby>だけで<ruby>十分<rt>じゅうぶん</rt></ruby>です
+    TRANS: Hanya dicuci saja sudah cukup
+    KOTOBA: [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-1335080] 十分(じゅうぶん) [word] = cukup / memadai | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah)
+
+=== #Q2 | ID=kunci-ujian-6-q002 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスを<ruby>消毒<rt>しょうどく</rt></ruby>するために<ruby>使<rt>つか</rt></ruby>うべき<ruby>消毒液<rt>しょうどくえき</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Cairan disinfektan apa yang harus digunakan untuk mendisinfeksi Norovirus?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 1, Câu 2 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-otaff51-0390] 消毒液(しょうどくえき) [compound_technical] = larutan disinfektan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=アルコール<ruby>消毒液<rt>しょうどくえき</rt></ruby>
+    TRANS: Cairan disinfektan alkohol
+    KOTOBA: [kb-otaff51-0034] アルコール消毒(あるこーるしょうどく) [compound_technical] = disinfeksi dengan alkohol | [kb-otaff51-1527] 液(えき) [noun] = cairan / larutan
+  OPT B: HTML=<ruby>酸素系漂白剤<rt>さんそけいひょうはくざい</rt></ruby>
+    TRANS: Pemutih berbasis oksigen
+    KOTOBA: [kb-2828633] 酸素系漂白剤(さんそけいひょうはくざい) [word] = pemutih disinfektan berbasis oksigen
+  OPT C: HTML=<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム<ruby>溶液<rt>ようえき</rt></ruby>（200ppm）
+    TRANS: Larutan natrium hipoklorit (200 ppm)
+    KOTOBA: [kb-otaff51-0355] 次亜塩素酸ナトリウム(じあえんそさんなとりうむ) [compound_technical] = natrium hipoklorit (NaClO) | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm)
+
+=== #Q3 | ID=kunci-ujian-6-q003 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>加熱調理後<rt>かねつちょうりご</rt></ruby>、<ruby>食品<rt>しょくひん</rt></ruby>をすぐに<ruby>冷<rt>ひ</rt></ruby>やさなければならない<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa alasan pangan harus segera didinginkan setelah dimasak dengan pemanasan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 1, Câu 3 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-ext-0200-e58aa0e786] 加熱調理後(かねつちょうりご) [word] = setelah pemasakan dengan panas | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p6-396] 冷やさなければ(ひやさなければ) [inflected, df:冷やす] = harus segera didinginkan | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>栄養価<rt>えいようか</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くなるから
+    TRANS: Karena nilai gizi pangan akan meningkat
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1174000] 栄養価(えいようか) [word] = nilai kandungan nutrisi | [kb-v2-p4-143] 高く(たかく) [inflected, df:高い] = tinggi / mahal | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>やウェルシュ<ruby>菌<rt>きん</rt></ruby>が、<ruby>加熱後<rt>かねつご</rt></ruby>に<ruby>温度<rt>おんど</rt></ruby>が<ruby>下<rt>さ</rt></ruby>がる<ruby>間<rt>あいだ</rt></ruby>に<ruby>増<rt>ふ</rt></ruby>えてしまうことがあるから
+    TRANS: Karena bakteri Bacillus cereus dan Clostridium perfringens (Welchii) dapat berkembang biak selama suhu turun secara perlahan setelah pemanasan
+    KOTOBA: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus | [kb-otaff51-0039] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens | [kb-ext-0196-e58aa0e786] 加熱後(かねつご) [word] = setelah proses pemanasan | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p1-155] 下がる(さがる) [word] = turun | [kb-v2-p2-104] 間(あいだ) [word] = antara / sela-sela | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-v2-p1-244] しまう(-) [word] = terlanjur terjadi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>が<ruby>冷<rt>つめ</rt></ruby>たくなって<ruby>食<rt>た</rt></ruby>べやすくなるから
+    TRANS: Karena pangan menjadi dingin dan lebih mudah dimakan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-226] 冷たく(つめたく) [inflected, df:冷たい] = dingin | [kb-v2-p1-309] なって(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-otaff51-1325] 食べやすく(たべやすく) [inflected_adj, df:食べやすい] = mudah dimakan | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q4 | ID=kunci-ujian-6-q004 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: セレウス<ruby>菌<rt>きん</rt></ruby>が<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa gejala keracunan makanan yang disebabkan oleh bakteri Bacillus cereus?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 1, Câu 4 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>頭痛<rt>ずつう</rt></ruby>、めまい、<ruby>倦怠感<rt>けんたいかん</rt></ruby>
+    TRANS: Sakit kepala, pusing, dan rasa lemas
+    KOTOBA: [kb-otaff51-0643] 頭痛(ずつう) [noun] = sakit kepala | [kb-v2-p2-094] めまい(-) [word] = pusing / pening | [kb-1256060] 倦怠感(けんたいかん) [word] = rasa lemas / keletihan fisik
+  OPT B: HTML=<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おう<ruby>吐<rt>と</rt></ruby>、<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>下痢<rt>げり</rt></ruby>
+    TRANS: Mual, muntah, sakit perut, dan diare
+    KOTOBA: [kb-otaff51-0230] 吐き気(はきけ) [noun] = rasa mual | [kb-otaff51-0007] おう吐(おうと) [noun] = muntah | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare
+  OPT C: HTML=<ruby>発熱<rt>はつねつ</rt></ruby>、<ruby>咳<rt>せき</rt></ruby>、<ruby>鼻水<rt>はなみず</rt></ruby>
+    TRANS: Demam, batuk, dan pilek
+    KOTOBA: [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam | [kb-v2-p6-252] 咳(せき) [word] = batuk | [kb-1487060] 鼻水(はなみず) [word] = ingus / lendir hidung

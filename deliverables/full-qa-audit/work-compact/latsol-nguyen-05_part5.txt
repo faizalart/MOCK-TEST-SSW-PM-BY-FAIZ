@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-nguyen-05 (Latsol Nguyen 05) | Batch qa-batch-07 | Part 5 (Q17-20 of 36)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=nguyen05-q017 | KEY=A (idx=0) | CAT= | SRC=5.pdf p.1 ===
+  CLUSTER CL-0212 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-5-q017 (bonus-soal-5)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("働く人達の安全と健康を守らなければなりません") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>労働安全衛生<rt>ろうどうあんぜんえいせい</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang benar mengenai Keselamatan dan Kesehatan Kerja (K3 / Roudou Anzen Eisei).
+  EXPLANATION: Sumber: 5.pdf, halaman 1, nomor 17. Bobot: 4.17 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-ext-1801-e58ab4e583] 労働安全衛生(ろうどうあんぜんえいせい) [word] = keselamatan dan kesehatan kerja (K3) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>働<rt>はたら</rt></ruby>く<ruby>人達<rt>ひとたち</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>と<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>らなければなりません
+    TRANS: Harus melindungi keselamatan dan kesehatan para pekerja.
+    KOTOBA: [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-1368740] 人達(ひとたち) [word] = Orang-orang / para pekerja pabrik | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-v2-p5-357] 守らなければ(まもらなければ) [inflected, df:守る] = harus mematuhi | [kb-audit-0370] なりません(なりません) [inflected_verb, df:なる] = menjadi / harus (dengan なければ)
+  OPT B: HTML=<ruby>働<rt>はたら</rt></ruby>いた<ruby>経験<rt>けいけん</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>のほうが<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>しやすい
+    TRANS: Orang yang memiliki banyak pengalaman kerja lebih rentan mengalami kecelakaan kerja.
+    KOTOBA: [kb-v2-p5-322] 働いた(はたらいた) [inflected, df:働く] = bekerja (lampau) | [kb-1251270] 経験(けいけん) [word] = pengalaman | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-293] のほう(-) [expression] = lebih (perbandingan) | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-v2-p2-180] 発生しやすい(はっせいしやすい) [inflected, df:発生する] = mudah terjadi
+  OPT C: HTML=<ruby>安全<rt>あんぜん</rt></ruby>で<ruby>品質<rt>ひんしつ</rt></ruby>の<ruby>良<rt>よ</rt></ruby>い<ruby>製品<rt>せいひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るために<ruby>決<rt>き</rt></ruby>められています
+    TRANS: Ditetapkan untuk membuat produk yang aman dan berkualitas baik.
+    KOTOBA: [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1490580] 品質(ひんしつ) [word] = kualitas / mutu produk | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p5-248] 決め(きめ) [inflected, df:決める] = menentukan | [kb-audit-0391] られています(られています) [word] = telah ditetapkan / dilakukan (pasif)
+
+=== #Q18 | ID=nguyen05-q018 | KEY=A (idx=0) | CAT= | SRC=5.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  CLUSTER CL-0029 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q031 (ssw-pm-kunci-ujian-1), kunci-ujian-13-q018 (ssw-pm-kunci-ujian-13), bonus-soal-1-q031 (bonus-soal-1), bonus-soal-5-q018 (bonus-soal-5), bonus-soal-9-q031 (bonus-soal-9), bonus-soal-10-q017 (bonus-soal-10), nguyen01-q031 (latsol-nguyen-01), nguyen09-q031 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("ほこりを落とす。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラーを<ruby>使<rt>つか</rt></ruby>っています。<ruby>何<rt>なん</rt></ruby>のために<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラーを<ruby>使<rt>つか</rt></ruby>いますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat memasuki ruang kerja, digunakan rol perekat (adhesive roller). Untuk tujuan apa rol perekat tersebut digunakan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 5.pdf, halaman 5, nomor 31. Bobot: 4.17 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-otaff51-0490] 粘着ローラー(ねんちゃくろーらー) [compound_technical] = rol perekat pembersih debu/rambut | [kb-v2-p1-116] 使っています(つかっています) [inflected_verb, df:使う] = sedang memakai (dasar: 使う) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-117] 使いますか(つかいますか) [inflected_verb, df:使う] = digunakan untuk apa (dasar: 使う) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=ほこりを<ruby>落<rt>お</rt></ruby>とす。
+    TRANS: Menghilangkan debu/rambut yang menempel.
+    KOTOBA: [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-v2-p1-214] 落とす(おとす) [word] = menghilangkan / menjatuhkan
+  OPT B: HTML=マッサージをする。
+    TRANS: Melakukan pijat.
+    KOTOBA: [kb-ext-0029-e3839ee383] マッサージ(-) [word] = pijat
+  OPT C: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Mendinginkan pakaian kerja.
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan
+
+=== #Q19 | ID=nguyen05-q019 | KEY=A (idx=0) | CAT= | SRC=5.pdf p.3 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 使用期限 || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-2083100 "日": kotoba="にち" vs ruby="ひ" || [OPT_PROHIBITION_MISMATCH@optTranslation:C] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh
+  CLUSTER CL-0147 (n=4, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-13-q019 (ssw-pm-kunci-ujian-13), bonus-soal-5-q019 (bonus-soal-5), nguyen03-q021 (latsol-nguyen-03)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("使用期限が過ぎた原材料を使ってもいいです。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>使用期限<rt>しようきげん</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang salah mengenai batas waktu penggunaan (使用期限).
+  EXPLANATION: Sumber: 5.pdf, halaman 3, nomor 21. Bobot: 4.17 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0127] 使用期限(しようきげん) [compound_technical] = batas tanggal konsumsi aman (Shouhikigen) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>使用期限<rt>しようきげん</rt></ruby>が<ruby>過<rt>す</rt></ruby>ぎた<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってもいいです。
+    TRANS: Boleh menggunakan bahan baku yang telah melewati batas waktu penggunaan.
+    KOTOBA: [kb-otaff51-0127] 使用期限(しようきげん) [compound_technical] = batas tanggal konsumsi aman (Shouhikigen) | [kb-v2-p5-287] 過ぎた(すぎた) [inflected, df:過ぎる] = melewati batas (kedaluwarsa) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT B: HTML=<ruby>使用期限<rt>しようきげん</rt></ruby>は<ruby>原料<rt>げんりょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>っても<ruby>良<rt>い</rt></ruby>い<ruby>期間<rt>きかん</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>です。
+    TRANS: Batas waktu penggunaan adalah hari terakhir dari periode di mana bahan baku boleh digunakan.
+    KOTOBA: [kb-otaff51-0127] 使用期限(しようきげん) [compound_technical] = batas tanggal konsumsi aman (Shouhikigen) | [kb-1262490] 原料(げんりょう) [word] = bahan mentah | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-1220550] 期間(きかん) [word] = periode / jangka waktu | [kb-1293810] 最後(さいご) [word] = Terakhir / langkah penutup alur kerja | [kb-2083100] 日(にち) [standalone_term] = Hari / penanggalan kalender
+  OPT C: HTML=<ruby>使用期間<rt>しようきかん</rt></ruby>が<ruby>過<rt>す</rt></ruby>ぎた<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>使用禁止<rt>しようきんし</rt></ruby>を<ruby>決<rt>き</rt></ruby>められます。
+    TRANS: Ditetapkan larangan penggunaan untuk bahan baku yang telah melewati masa penggunaan.
+    KOTOBA: [kb-ext-0686-e4bdbfe794] 使用期間(しようきかん) [word] = masa penggunaan | [kb-v2-p5-287] 過ぎた(すぎた) [inflected, df:過ぎる] = melewati batas (kedaluwarsa) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1306240] 使用禁止(しようきんし) [word] = dilarang digunakan | [kb-v2-p5-248] 決め(きめ) [inflected, df:決める] = menentukan | [kb-audit-0392] られます(られます) [word] = dapat / di- (pasif sopan)
+
+=== #Q20 | ID=nguyen05-q020 | KEY=A (idx=0) | CAT= | SRC=5.pdf p.1 ===
+  CLUSTER CL-0213 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=bonus-soal-5-q020 (bonus-soal-5)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("作業服の袖はゴムなどで絞りのあるものを使用する。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pernyataan yang benar mengenai pakaian kerja?
+  EXPLANATION: Sumber: 5.pdf, halaman 1, nomor 20. Bobot: 4.17 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>袖<rt>そで</rt></ruby>はゴムなどで<ruby>絞<rt>しぼ</rt></ruby>りのあるものを<ruby>使用<rt>しよう</rt></ruby>する。
+    TRANS: Menggunakan pakaian kerja yang bagian ujung lengannya memiliki kerutan seperti karet.
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-otaff51-0548] 袖(そで) [noun] = lengan baju | [kb-ext-0015-e382b4e383] ゴム(ごむ) [word] = karet | [kb-v2-p5-307] 絞りのある(しぼりのある) [expression] = berkerut / berkaret (lengan) | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan
+  OPT B: HTML=ポケットやボタンがついたものでもよい。
+    TRANS: Boleh menggunakan pakaian yang memiliki saku atau kancing luar.
+    KOTOBA: [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-v2-p2-243] よい(-) [word] = baik / boleh
+  OPT C: HTML=きれいな<ruby>服<rt>ふく</rt></ruby>ならなんでもよい。
+    TRANS: Asalkan pakaian bersih, pakaian apa saja boleh.
+    KOTOBA: [kb-v2-p1-259] きれいな(-) [word] = bersih | [kb-v2-p2-073] 服(ふく) [word] = pakaian | [kb-audit-0365] なんでも(なんでも) [word] = apa saja / segala hal | [kb-v2-p2-243] よい(-) [word] = baik / boleh

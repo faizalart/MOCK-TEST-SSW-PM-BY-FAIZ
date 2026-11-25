@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-7 (Soal Ujian 7 — CBTP Gino1) | Batch qa-batch-02 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=kunci-ujian-7-q013 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.3 ===
+  CLUSTER CL-0077 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q019 (ssw-pm-kunci-ujian-3), kunci-ujian-14-q018 (ssw-pm-kunci-ujian-14), nguyen03-q019 (latsol-nguyen-03)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>の<ruby>規定<rt>きてい</rt></ruby>では、<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>基準温度<rt>きじゅんおんど</rt></ruby>はどれですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berdasarkan ketentuan Undang-Undang Higiene Pangan Jepang, berapakah suhu standar untuk freezer?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 3, Câu 13 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0653] 食品衛生法(しょくひんえいせいほう) [compound_technical] = Undang-Undang Higiene Pangan Jepang | [kb-1223060] 規定(きてい) [word] = ketentuan / peraturan | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-otaff51-0245] 基準温度(きじゅんおんど) [compound_technical] = suhu standar | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=４℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 4°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=１０℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 10°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=-15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: -15°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q14 | ID=kunci-ujian-7-q014 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.3 ===
+  CLUSTER CL-0079 (n=3, diffPrompt=false, diffOpt=false, diffTrans=false): twins=kunci-ujian-3-q021 (ssw-pm-kunci-ujian-3), kunci-ujian-14-q019 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>石<rt>いし</rt></ruby>やガラスなどを<ruby>検査<rt>けんさ</rt></ruby>する<ruby>機械<rt>きかい</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mesin manakah yang digunakan untuk memeriksa benda asing seperti batu atau kaca?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 3, Câu 14 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0468] 石(いし) [noun] = batu | [kb-v2-p1-057] ガラス(-) [word] = kaca | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>
+    TRANS: Detektor logam
+    KOTOBA: [kb-ext-0411-e98791e5b1] 金属検出器(きんぞくけんしゅつき) [compound_technical] = detektor logam
+  OPT B: HTML=X<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>
+    TRANS: Detektor benda asing sinar-X (X-ray detector)
+    KOTOBA: [kb-ext-0003-58e7b79ae7] X線異物検出器(せんいぶつけんしゅつき) [word] = detektor benda asing sinar-X
+  OPT C: HTML=<ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>、X<ruby>線異物検出器<rt>せんいものけんしゅつき</rt></ruby>
+    TRANS: Detektor logam dan detektor benda asing sinar-X (X-ray)
+    KOTOBA: [kb-ext-0411-e98791e5b1] 金属検出器(きんぞくけんしゅつき) [compound_technical] = detektor logam | [kb-ext-0003-58e7b79ae7] X線異物検出器(せんいぶつけんしゅつき) [word] = detektor benda asing sinar-X
+
+=== #Q15 | ID=kunci-ujian-7-q015 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.3 ===
+  CLUSTER CL-0080 (n=4, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q022 (ssw-pm-kunci-ujian-3), kunci-ujian-14-q020 (ssw-pm-kunci-ujian-14), nguyen03-q022 (latsol-nguyen-03)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>主<rt>おも</rt></ruby>な<ruby>冷却方法<rt>れいきゃくほうほう</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang termasuk metode pendinginan utama? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 3, Câu 15 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-1778-e586b7e58d] 冷却方法(れいきゃくほうほう) [word] = metode pendinginan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>風<rt>かぜ</rt></ruby>を<ruby>当<rt>あ</rt></ruby>てて<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan menghembuskan udara dingin
+    KOTOBA: [kb-v2-p5-162] 風(かぜ) [word] = angin / udara | [kb-v2-p6-577] 当てて(あてて) [inflected, df:当てる] = mengarahkan / menghembuskan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>冷水<rt>れいすい</rt></ruby>で<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan air dingin
+    KOTOBA: [kb-otaff51-0166] 冷水(れいすい) [noun] = air dingin | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>製氷機<rt>せいひょうき</rt></ruby>に<ruby>入<rt>い</rt></ruby>れて<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan memasukkan ke dalam mesin pembuat es (ice maker)
+    KOTOBA: [kb-1784830] 製氷機(せいひょうき) [word] = mesin pembuat es batu | [kb-v2-p2-012] 入れて(いれて) [inflected, df:入れる] = memasukkan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q16 | ID=kunci-ujian-7-q016 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>に<ruby>含<rt>ふく</rt></ruby>まれるものはどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang termasuk dalam faktor bahaya biologis?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 3, Câu 16 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0441] 生物的危害要因(せいぶつてききがいよういん) [compound_technical] = faktor bahaya biologis | [kb-v2-p3-251] 含まれる(ふくまれる) [inflected, df:含む] = terkandung di dalam | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>細菌<rt>さいきん</rt></ruby>やウイルス、<ruby>寄生虫<rt>きせいちゅう</rt></ruby>、カビ
+    TRANS: Bakteri, virus, parasit, dan jamur (kapang) penyebab keracunan makanan
+    KOTOBA: [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-otaff51-0275] 寄生虫(きせいちゅう) [compound_technical] = parasit | [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT B: HTML=<ruby>人工的<rt>じんこうてき</rt></ruby>な<ruby>危害要因<rt>きがいよういん</rt></ruby>
+    TRANS: Faktor bahaya buatan manusia
+    KOTOBA: [kb-1367590] 人工的(じんこうてき) [word] = Secara buatan / zat kimia sintetis | [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>保存方法<rt>ほぞんほうほう</rt></ruby>
+    TRANS: Cara penyimpanan pangan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0130] 保存方法(ほぞんほうほう) [compound_technical] = cara pengawetan / penyimpanan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung

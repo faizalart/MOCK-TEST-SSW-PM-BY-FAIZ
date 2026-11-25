@@ -1,0 +1,72 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-6 (Soal Ujian 6 — CBTP Gino1) | Batch qa-batch-02 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=kunci-ujian-6-q009 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-2083100 "日": kotoba="にち" vs ruby="ひ" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-2083100 "日": kotoba="にち" vs ruby="ひ" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-2083100 "日": kotoba="にち" vs ruby="ひ"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>消費期限<rt>しょうひきげん</rt></ruby>」とは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dimaksud dengan "Batas waktu konsumsi (tanggal kedaluwarsa konsumsi / Shouhikigen)"?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 2, Câu 9 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0394] 消費期限(しょうひきげん) [compound_technical] = batas tanggal aman konsumsi (use by / kedaluwarsa) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>加工食品<rt>かこうしょくひん</rt></ruby>を<ruby>未開封<rt>みかいふう</rt></ruby>で<ruby>決<rt>き</rt></ruby>められた<ruby>条件<rt>じょうけん</rt></ruby>で<ruby>保存<rt>ほぞん</rt></ruby>した<ruby>場合<rt>ばあい</rt></ruby>に、<ruby>食<rt>た</rt></ruby>べたり<ruby>使<rt>つか</rt></ruby>ったりできる<ruby>期間<rt>きかん</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>
+    TRANS: Hari terakhir periode di mana pangan olahan aman untuk dimakan atau digunakan jika disimpan dalam kondisi belum dibuka sesuai cara penyimpanan yang ditentukan
+    KOTOBA: [kb-otaff51-0189] 加工食品(かこうしょくひん) [compound_technical] = makanan olahan | [kb-otaff51-0343] 未開封(みかいふう) [compound_technical] = belum dibuka kemasannya | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-1356510] 条件(じょうけん) [word] = syarat / kondisi | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-audit-0415] 食べたり(たべたり) [inflected_verb, df:食べる] = makan dan sebagainya | [kb-audit-0416] 使ったり(つかったり) [inflected_verb, df:使う] = menggunakan dan sebagainya | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-1220550] 期間(きかん) [word] = periode / jangka waktu | [kb-1293810] 最後(さいご) [word] = Terakhir / langkah penutup alur kerja | [kb-2083100] 日(にち) [standalone_term] = Hari / penanggalan kalender | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>加工食品<rt>かこうしょくひん</rt></ruby>をどんな<ruby>条件<rt>じょうけん</rt></ruby>でも<ruby>食<rt>た</rt></ruby>べられる<ruby>日<rt>ひ</rt></ruby>
+    TRANS: Hari di mana pangan olahan dapat dimakan dalam kondisi penyimpanan apa pun
+    KOTOBA: [kb-otaff51-0189] 加工食品(かこうしょくひん) [compound_technical] = makanan olahan | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-1356510] 条件(じょうけん) [word] = syarat / kondisi | [kb-v2-p5-389] 食べられる(たべられる) [inflected, df:食べる] = dapat dimakan | [kb-2083100] 日(にち) [standalone_term] = Hari / penanggalan kalender | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT C: HTML=<ruby>加工食品<rt>かこうしょくひん</rt></ruby>を<ruby>開封後<rt>かいふうご</rt></ruby>すぐに<ruby>食<rt>た</rt></ruby>べるべき<ruby>日<rt>ひ</rt></ruby>
+    TRANS: Hari di mana pangan olahan harus segera dimakan setelah dibuka
+    KOTOBA: [kb-otaff51-0189] 加工食品(かこうしょくひん) [compound_technical] = makanan olahan | [kb-ext-0239-e9968be5b0] 開封後(かいふうご) [word] = setelah kemasan dibuka | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-pilot51-013] 食べる(たべる) [verb] = makan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-2083100] 日(にち) [standalone_term] = Hari / penanggalan kalender | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q10 | ID=kunci-ujian-6-q010 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギー<ruby>反応<rt>はんのう</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>ではないものはどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang bukan merupakan gejala reaksi alergi?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 2, Câu 10 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0035] アレルギー反応(あれるぎーはんのう) [compound_technical] = reaksi alergi | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p1-314] ではない(-) [particle] = bukan (penegas negatif) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=かゆみやじんましん
+    TRANS: Gatal-gatal dan biduran (urtikaria)
+    KOTOBA: [kb-v2-p6-469] かゆみ(-) [word] = rasa gatal | [kb-otaff51-0019] じんましん(じんましん) [noun] = biduran / urtikaria | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT B: HTML=<ruby>体<rt>からだ</rt></ruby>が<ruby>急<rt>きゅう</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>くなること
+    TRANS: Tubuh tiba-tiba menjadi lebih kuat
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-283] 急に(きゅうに) [word] = tiba-tiba | [kb-v2-p3-207] 強く(つよく) [inflected, df:強い] = kuat / tahan | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>鼻水<rt>はなみず</rt></ruby>やくしゃみが<ruby>止<rt>と</rt></ruby>まらないこと
+    TRANS: Pilek dan bersin-bersin yang tidak berhenti
+    KOTOBA: [kb-1487060] 鼻水(はなみず) [word] = ingus / lendir hidung | [kb-otaff51-1158] くしゃみ(くしゃみ) [noun] = bersin | [kb-v2-p6-550] 止まらない(とまらない) [inflected, df:止まる] = tidak berhenti | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q11 | ID=kunci-ujian-6-q011 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.2 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:C] 冷凍
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ヒスタミンの<ruby>増加<rt>ぞうか</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために<ruby>必要<rt>ひつよう</rt></ruby>なことは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang perlu dilakukan untuk mencegah peningkatan histamin?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 2, Câu 11 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0065] ヒスタミン(ひすたみん) [noun] = histamin | [kb-1403160] 増加(ぞうか) [word] = peningkatan jumlah | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>魚<rt>さかな</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>わずに<ruby>保存<rt>ほぞん</rt></ruby>する
+    TRANS: Menyimpan ikan tanpa mencucinya
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-v2-p6-387] 洗わずに(あらわずに) [inflected, df:洗う] = tanpa mencuci | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>魚<rt>さかな</rt></ruby>を<ruby>常温<rt>じょうおん</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Menyimpan ikan pada suhu ruang
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-1798230] 常温(じょうおん) [word] = suhu ruang | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>魚<rt>さかな</rt></ruby>をすぐに<ruby>冷蔵<rt>れいぞう</rt></ruby>または冷凍する
+    TRANS: Segera mendinginkan di kulkas atau membekukan ikan
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-otaff51-0167] 冷蔵(れいぞう) [noun] = pendinginan (chilling) | [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p2-238] また(-) [word] = lagi / kembali | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q12 | ID=kunci-ujian-6-q012 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPにおける「<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>（CCP）」について<ruby>正<rt>ただ</rt></ruby>しい<ruby>説明<rt>せつめい</rt></ruby>はどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah penjelasan yang benar mengenai "Titik Kendali Kritis (CCP)" dalam HACCP?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 2, Câu 12 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0573] 説明(せつめい) [noun] = penjelasan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p3-197] おける(-) [particle] = di / pada | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>単<rt>たん</rt></ruby>に<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>だけでなく、<ruby>最<rt>もっと</rt></ruby>も<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>工程<rt>こうてい</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>するための<ruby>基準<rt>きじゅん</rt></ruby>を<ruby>決定<rt>けってい</rt></ruby>する
+    TRANS: Bukan sekadar manajemen higiene pangan biasa, melainkan menetapkan standar untuk mengendalikan proses yang paling penting
+    KOTOBA: [kb-v2-p6-296] 単に(たんに) [word] = hanya sekadar | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p1-335] だけ(-) [particle] = hanya | [kb-audit-0398] なく(なく) [word] = tanpa (bentuk sambung ない) | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-otaff51-0286] 工程(こうてい) [noun] = tahapan proses | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-otaff51-0244] 基準(きじゅん) [noun] = standar / kriteria | [kb-1254380] 決定(けってい) [word] = penetapan / keputusan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>単一<rt>たんいつ</rt></ruby>の<ruby>管理点<rt>かんりてん</rt></ruby>で<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>危害要因<rt>きがいよういん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>くことができる
+    TRANS: Faktor bahaya sudah cukup dihilangkan hanya dengan satu titik kendali saja
+    KOTOBA: [kb-1417100] 単一(たんいつ) [word] = Tunggal / satu jenis bahan baku | [kb-ext-0293-e7aea1e790] 管理点(かんりてん) [word] = titik kendali proses | [kb-latsol-85c4fd8b40] 十分に(じゅうぶんに) [word] = cukup / memadai | [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-otaff51-0031] を取り除く(をとりのぞく) [expression] = menghilangkan / membuang | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=すべての<ruby>管理点<rt>かんりてん</rt></ruby>が<ruby>重要<rt>じゅうよう</rt></ruby>であるため、CCPは1つに<ruby>絞<rt>しぼ</rt></ruby>られる
+    TRANS: Karena semua titik kendali itu penting, maka CCP dipersempit menjadi 1 saja
+    KOTOBA: [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-ext-0293-e7aea1e790] 管理点(かんりてん) [word] = titik kendali proses | [kb-otaff51-0609] 重要(じゅうよう) [adjective] = penting | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-v2-p6-415] 絞られる(しぼられる) [inflected, df:絞る] = dikerucutkan / diperas | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

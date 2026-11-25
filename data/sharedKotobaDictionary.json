@@ -278,10 +278,10 @@
     },
     "schemaVersion": "2.0.0",
     "dataVersion": "20261113-v2",
-    "totalTerms": 7530,
-    "verifiedTerms": 7486,
-    "verifiedCount": 7486,
-    "updatedAt": "2026-11-15T19:30:13.517Z"
+    "totalTerms": 7842,
+    "verifiedTerms": 7798,
+    "verifiedCount": 7798,
+    "updatedAt": "2026-11-16T03:36:44.612Z"
   },
   "terms": {
     "kb-ext-0001-e383bce383": {
@@ -124403,6 +124403,4681 @@
       "arti": "telah hilang / tidak lagi",
       "dictForm": "なくなる",
       "status": "verified"
+    },
+    "kb-qa-0001": {
+      "id": "kb-qa-0001",
+      "kanji": "良いですか",
+      "furigana": "よいですか",
+      "unitType": "expression",
+      "arti": "baik / sebaiknya (dalam どうすれば良いですか)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "良い"
+    },
+    "kb-qa-0002": {
+      "id": "kb-qa-0002",
+      "kanji": "誰",
+      "furigana": "だれ",
+      "unitType": "noun",
+      "arti": "siapa (誰にも: siapa pun)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "誰"
+    },
+    "kb-qa-0003": {
+      "id": "kb-qa-0003",
+      "kanji": "しますか",
+      "furigana": "",
+      "unitType": "inflected_verb",
+      "arti": "melakukan (bentuk tanya)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0004": {
+      "id": "kb-qa-0004",
+      "kanji": "後",
+      "furigana": "あと",
+      "unitType": "noun",
+      "arti": "setelah / sesudah",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "後"
+    },
+    "kb-qa-0005": {
+      "id": "kb-qa-0005",
+      "kanji": "気",
+      "furigana": "き",
+      "unitType": "noun",
+      "arti": "perhatian / pikiran (気になる: khawatir)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "気"
+    },
+    "kb-qa-0006": {
+      "id": "kb-qa-0006",
+      "kanji": "何度",
+      "furigana": "なんど",
+      "unitType": "word",
+      "arti": "berapa kali (何度も: berkali-kali)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "何度"
+    },
+    "kb-qa-0007": {
+      "id": "kb-qa-0007",
+      "kanji": "表示しなければ",
+      "furigana": "ひょうじしなければ",
+      "unitType": "expression",
+      "arti": "jika tidak mencantumkan (dengan ならない)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "表示する"
+    },
+    "kb-qa-0008": {
+      "id": "kb-qa-0008",
+      "kanji": "ならない",
+      "furigana": "",
+      "unitType": "inflected",
+      "arti": "wajib (dalam 〜なければならない)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "なる"
+    },
+    "kb-qa-0009": {
+      "id": "kb-qa-0009",
+      "kanji": "ため",
+      "furigana": "",
+      "unitType": "word",
+      "arti": "karena / oleh sebab (sebab-akibat)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ため"
+    },
+    "kb-qa-0010": {
+      "id": "kb-qa-0010",
+      "kanji": "点",
+      "furigana": "てん",
+      "unitType": "noun",
+      "arti": "poin / aspek / hal",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "点"
+    },
+    "kb-qa-0011": {
+      "id": "kb-qa-0011",
+      "kanji": "とした",
+      "furigana": "",
+      "unitType": "expression",
+      "arti": "yang berpusat pada / dijadikan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "とする"
+    },
+    "kb-qa-0012": {
+      "id": "kb-qa-0012",
+      "kanji": "以下",
+      "furigana": "いか",
+      "unitType": "noun",
+      "arti": "berikut ini",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "以下"
+    },
+    "kb-qa-0013": {
+      "id": "kb-qa-0013",
+      "kanji": "から",
+      "furigana": "",
+      "unitType": "particle",
+      "arti": "setelah (dalam pola 〜てから)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "から"
+    },
+    "kb-qa-0014": {
+      "id": "kb-qa-0014",
+      "kanji": "として",
+      "furigana": "",
+      "unitType": "expression",
+      "arti": "hendak / mencoba untuk (pola 〜ようとして)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "とする"
+    },
+    "kb-qa-0015": {
+      "id": "kb-qa-0015",
+      "kanji": "上",
+      "furigana": "うえ",
+      "unitType": "noun",
+      "arti": "atas / bagian atas",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "上"
+    },
+    "kb-qa-0016": {
+      "id": "kb-qa-0016",
+      "kanji": "環境",
+      "furigana": "かんきょう",
+      "unitType": "word",
+      "arti": "lingkungan / kondisi lingkungan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      }
+    },
+    "kb-qa-0017": {
+      "id": "kb-qa-0017",
+      "kanji": "乾燥",
+      "furigana": "かんそう",
+      "unitType": "noun",
+      "arti": "kering / kondisi kering",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      }
+    },
+    "kb-qa-0018": {
+      "id": "kb-qa-0018",
+      "kanji": "前",
+      "furigana": "まえ",
+      "unitType": "word",
+      "arti": "sebelum / di depan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      }
+    },
+    "kb-qa-0019": {
+      "id": "kb-qa-0019",
+      "kanji": "長く",
+      "furigana": "ながく",
+      "unitType": "inflected_adj",
+      "arti": "lama / dalam waktu lama",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "長い"
+    },
+    "kb-qa-0020": {
+      "id": "kb-qa-0020",
+      "kanji": "上",
+      "furigana": "うえ",
+      "unitType": "noun",
+      "arti": "dalam hal / saat (melakukan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      }
+    },
+    "kb-qa-0021": {
+      "id": "kb-qa-0021",
+      "kanji": "強引な",
+      "furigana": "ごういんな",
+      "unitType": "word",
+      "arti": "memaksa / kasar",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      }
+    },
+    "kb-qa-0022": {
+      "id": "kb-qa-0022",
+      "kanji": "つける",
+      "furigana": "",
+      "unitType": "word",
+      "arti": "membasahi / menempelkan (air)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "つける"
+    },
+    "kb-qa-0023": {
+      "id": "kb-qa-0023",
+      "kanji": "本",
+      "furigana": "ぽん",
+      "unitType": "word",
+      "arti": "buah / batang (kata bantu bilangan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "本"
+    },
+    "kb-qa-0024": {
+      "id": "kb-qa-0024",
+      "kanji": "セット",
+      "furigana": "せっと",
+      "unitType": "word",
+      "arti": "set / paket (porsi)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "セット"
+    },
+    "kb-qa-0025": {
+      "id": "kb-qa-0025",
+      "kanji": "以下",
+      "furigana": "いか",
+      "unitType": "noun",
+      "arti": "berikut ini / di bawah ini",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "以下"
+    },
+    "kb-qa-0026": {
+      "id": "kb-qa-0026",
+      "kanji": "良いですか",
+      "furigana": "よいですか",
+      "unitType": "expression",
+      "arti": "apakah sebaiknya / boleh",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "良いですか"
+    },
+    "kb-qa-0027": {
+      "id": "kb-qa-0027",
+      "kanji": "中",
+      "furigana": "ちゅう",
+      "unitType": "word",
+      "arti": "sedang berlangsung / selama (sufiks)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "中"
+    },
+    "kb-qa-0028": {
+      "id": "kb-qa-0028",
+      "kanji": "とる",
+      "furigana": "",
+      "unitType": "word",
+      "arti": "mengambil / melakukan (tindakan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "とる"
+    },
+    "kb-qa-0029": {
+      "id": "kb-qa-0029",
+      "kanji": "衛生的取扱い",
+      "furigana": "えいせいてきとりあつかい",
+      "unitType": "word",
+      "arti": "penanganan secara higienis",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "衛生的取扱い"
+    },
+    "kb-qa-0030": {
+      "id": "kb-qa-0030",
+      "kanji": "急速",
+      "furigana": "きゅうそく",
+      "unitType": "adjective",
+      "arti": "cepat / pesat",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "急速"
+    },
+    "kb-qa-0031": {
+      "id": "kb-qa-0031",
+      "kanji": "確認しなければ",
+      "furigana": "かくにんする",
+      "unitType": "expression",
+      "arti": "harus memeriksa / memastikan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "確認する"
+    },
+    "kb-qa-0032": {
+      "id": "kb-qa-0032",
+      "kanji": "注意する",
+      "furigana": "ちゅういする",
+      "unitType": "word",
+      "arti": "menegur / memperingatkan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "注意する"
+    },
+    "kb-qa-0033": {
+      "id": "kb-qa-0033",
+      "kanji": "密接",
+      "furigana": "みっせつ",
+      "unitType": "noun",
+      "arti": "kontak dekat / jarak dekat",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "密接"
+    },
+    "kb-qa-0034": {
+      "id": "kb-qa-0034",
+      "kanji": "隔離",
+      "furigana": "かくり",
+      "unitType": "word",
+      "arti": "isolasi / karantina",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "隔離"
+    },
+    "kb-qa-0035": {
+      "id": "kb-qa-0035",
+      "kanji": "情報提供",
+      "furigana": "じょうほうていきょう",
+      "unitType": "word",
+      "arti": "pemberian informasi",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "情報提供"
+    },
+    "kb-qa-0036": {
+      "id": "kb-qa-0036",
+      "kanji": "早期発見",
+      "furigana": "そうきはっけん",
+      "unitType": "word",
+      "arti": "deteksi dini",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "早期発見"
+    },
+    "kb-qa-0037": {
+      "id": "kb-qa-0037",
+      "kanji": "つけない",
+      "furigana": "つけない",
+      "unitType": "inflected",
+      "arti": "tidak menempelkan / mencemari",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "つける"
+    },
+    "kb-qa-0038": {
+      "id": "kb-qa-0038",
+      "kanji": "しますか",
+      "furigana": "しますか",
+      "unitType": "inflected_verb",
+      "arti": "melakukan (tanya sopan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0039": {
+      "id": "kb-qa-0039",
+      "kanji": "によって",
+      "furigana": "によって",
+      "unitType": "particle",
+      "arti": "dengan cara / melalui",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "によって"
+    },
+    "kb-qa-0040": {
+      "id": "kb-qa-0040",
+      "kanji": "確保",
+      "furigana": "かくほ",
+      "unitType": "word",
+      "arti": "memastikan / menjamin",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "確保"
+    },
+    "kb-qa-0041": {
+      "id": "kb-qa-0041",
+      "kanji": "回",
+      "furigana": "かい",
+      "unitType": "word",
+      "arti": "kali (satuan frekuensi)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "回"
+    },
+    "kb-qa-0042": {
+      "id": "kb-qa-0042",
+      "kanji": "前",
+      "furigana": "まえ",
+      "unitType": "word",
+      "arti": "depan / ke depan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "前"
+    },
+    "kb-qa-0043": {
+      "id": "kb-qa-0043",
+      "kanji": "変更",
+      "furigana": "へんこう",
+      "unitType": "word",
+      "arti": "penggantian / perubahan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "変更"
+    },
+    "kb-qa-0044": {
+      "id": "kb-qa-0044",
+      "kanji": "ところ",
+      "furigana": "ところ",
+      "unitType": "word",
+      "arti": "saat / ketika (baru saja dilakukan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ところ"
+    },
+    "kb-qa-0045": {
+      "id": "kb-qa-0045",
+      "kanji": "ため",
+      "furigana": "ため",
+      "unitType": "word",
+      "arti": "karena / sebab",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ため"
+    },
+    "kb-qa-0046": {
+      "id": "kb-qa-0046",
+      "kanji": "窯",
+      "furigana": "かま",
+      "unitType": "word",
+      "arti": "ketel / panci besar / tungku",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "窯"
+    },
+    "kb-qa-0047": {
+      "id": "kb-qa-0047",
+      "kanji": "高い",
+      "furigana": "たかい",
+      "unitType": "word",
+      "arti": "mahal",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "高い"
+    },
+    "kb-qa-0048": {
+      "id": "kb-qa-0048",
+      "kanji": "であれ",
+      "furigana": "であれ",
+      "unitType": "expression",
+      "arti": "meskipun / biarpun",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "であれ"
+    },
+    "kb-qa-0049": {
+      "id": "kb-qa-0049",
+      "kanji": "しますか",
+      "furigana": "しますか",
+      "unitType": "inflected_verb",
+      "arti": "melakukan (bentuk tanya)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0050": {
+      "id": "kb-qa-0050",
+      "kanji": "置く",
+      "furigana": "おく",
+      "unitType": "word",
+      "arti": "membiarkan begitu saja (〜ておく)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "置く"
+    },
+    "kb-qa-0051": {
+      "id": "kb-qa-0051",
+      "kanji": "周辺",
+      "furigana": "しゅうへん",
+      "unitType": "word",
+      "arti": "sekitar / area sekitar",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "周辺"
+    },
+    "kb-qa-0052": {
+      "id": "kb-qa-0052",
+      "kanji": "不備",
+      "furigana": "ふび",
+      "unitType": "word",
+      "arti": "kerusakan / ketidakberesan / kekurangan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "不備"
+    },
+    "kb-qa-0053": {
+      "id": "kb-qa-0053",
+      "kanji": "ありますか",
+      "furigana": "ありますか",
+      "unitType": "inflected_verb",
+      "arti": "ada / apakah ada (bentuk tanya)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ある"
+    },
+    "kb-qa-0054": {
+      "id": "kb-qa-0054",
+      "kanji": "ありますか",
+      "furigana": "ありますか",
+      "unitType": "inflected_verb",
+      "arti": "apakah ada / pernah (bentuk tanya)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ある"
+    },
+    "kb-qa-0055": {
+      "id": "kb-qa-0055",
+      "kanji": "増殖",
+      "furigana": "ぞうしょく",
+      "unitType": "word",
+      "arti": "perkembangbiakan / pertumbuhan (kapang)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "増殖"
+    },
+    "kb-qa-0056": {
+      "id": "kb-qa-0056",
+      "kanji": "自由",
+      "furigana": "じゆう",
+      "unitType": "word",
+      "arti": "kebebasan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "自由"
+    },
+    "kb-qa-0057": {
+      "id": "kb-qa-0057",
+      "kanji": "しますか",
+      "furigana": "しますか",
+      "unitType": "inflected_verb",
+      "arti": "melakukan ...? (bentuk tanya sopan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0058": {
+      "id": "kb-qa-0058",
+      "kanji": "ありますか",
+      "furigana": "ありますか",
+      "unitType": "inflected_verb",
+      "arti": "apakah ada / perlu? (dasar: ある)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ある"
+    },
+    "kb-qa-0059": {
+      "id": "kb-qa-0059",
+      "kanji": "変更",
+      "furigana": "へんこう",
+      "unitType": "word",
+      "arti": "perubahan / pengubahan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "変更"
+    },
+    "kb-qa-0060": {
+      "id": "kb-qa-0060",
+      "kanji": "前",
+      "furigana": "まえ",
+      "unitType": "noun",
+      "arti": "bagian depan / di depan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "前"
+    },
+    "kb-qa-0061": {
+      "id": "kb-qa-0061",
+      "kanji": "前",
+      "furigana": "まえ",
+      "unitType": "noun",
+      "arti": "bagian depan / arah depan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "前"
+    },
+    "kb-qa-0062": {
+      "id": "kb-qa-0062",
+      "kanji": "誰",
+      "furigana": "だれ",
+      "unitType": "standalone_term",
+      "arti": "siapa / siapa pun",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "誰"
+    },
+    "kb-qa-0063": {
+      "id": "kb-qa-0063",
+      "kanji": "方",
+      "furigana": "ほう",
+      "unitType": "noun",
+      "arti": "sebaiknya / lebih baik (~方がよい)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "方"
+    },
+    "kb-qa-0064": {
+      "id": "kb-qa-0064",
+      "kanji": "作業靴",
+      "furigana": "さぎょうぐつ",
+      "unitType": "compound_technical",
+      "arti": "sepatu kerja",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "作業靴"
+    },
+    "kb-qa-0065": {
+      "id": "kb-qa-0065",
+      "kanji": "任意",
+      "furigana": "にんい",
+      "unitType": "word",
+      "arti": "sukarela / bebas dipilih (opsional)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "任意"
+    },
+    "kb-qa-0066": {
+      "id": "kb-qa-0066",
+      "kanji": "結果",
+      "furigana": "けっか",
+      "unitType": "word",
+      "arti": "akibat / konsekuensi / hasil",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "結果"
+    },
+    "kb-qa-0067": {
+      "id": "kb-qa-0067",
+      "kanji": "評価",
+      "furigana": "ひょうか",
+      "unitType": "word",
+      "arti": "penilaian / reputasi",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "評価"
+    },
+    "kb-qa-0068": {
+      "id": "kb-qa-0068",
+      "kanji": "適当",
+      "furigana": "てきとう",
+      "unitType": "word",
+      "arti": "tepat / sesuai",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "適当"
+    },
+    "kb-qa-0069": {
+      "id": "kb-qa-0069",
+      "kanji": "簡単",
+      "furigana": "かんたん",
+      "unitType": "word",
+      "arti": "mudah / sederhana",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "簡単"
+    },
+    "kb-qa-0070": {
+      "id": "kb-qa-0070",
+      "kanji": "清作",
+      "furigana": "せいさく",
+      "unitType": "word",
+      "arti": "pekerjaan bersih",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "清作"
+    },
+    "kb-qa-0071": {
+      "id": "kb-qa-0071",
+      "kanji": "順番",
+      "furigana": "じゅんばん",
+      "unitType": "word",
+      "arti": "urutan / susunan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "順番"
+    },
+    "kb-qa-0072": {
+      "id": "kb-qa-0072",
+      "kanji": "よう",
+      "furigana": "よう",
+      "unitType": "word",
+      "arti": "untuk keperluan ~ (用)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "用"
+    },
+    "kb-qa-0073": {
+      "id": "kb-qa-0073",
+      "kanji": "ふく",
+      "furigana": "ふく",
+      "unitType": "word",
+      "arti": "pakaian (服)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "服"
+    },
+    "kb-qa-0074": {
+      "id": "kb-qa-0074",
+      "kanji": "できますか",
+      "furigana": "できますか",
+      "unitType": "inflected_verb",
+      "arti": "dapatkah / bisakah (dasar: できる)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "できる"
+    },
+    "kb-qa-0075": {
+      "id": "kb-qa-0075",
+      "kanji": "カメラ",
+      "furigana": "かめら",
+      "unitType": "word",
+      "arti": "kamera (pengawas)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "カメラ"
+    },
+    "kb-qa-0076": {
+      "id": "kb-qa-0076",
+      "kanji": "せいかつ",
+      "furigana": "せいかつ",
+      "unitType": "word",
+      "arti": "kehidupan (生活)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "生活"
+    },
+    "kb-qa-0077": {
+      "id": "kb-qa-0077",
+      "kanji": "いじょう",
+      "furigana": "いじょう",
+      "unitType": "word",
+      "arti": "tidak normal / abnormal (異常)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "異常"
+    },
+    "kb-qa-0078": {
+      "id": "kb-qa-0078",
+      "kanji": "保管しても",
+      "furigana": "ほかんしても",
+      "unitType": "inflected",
+      "arti": "jika disimpan pun / (boleh) disimpan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "保管する"
+    },
+    "kb-qa-0079": {
+      "id": "kb-qa-0079",
+      "kanji": "シート",
+      "furigana": "しーと",
+      "unitType": "word",
+      "arti": "lembaran plastik / tirai",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "シート"
+    },
+    "kb-qa-0080": {
+      "id": "kb-qa-0080",
+      "kanji": "ところ",
+      "furigana": "ところ",
+      "unitType": "word",
+      "arti": "saat / ketika (sedang ...)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "所"
+    },
+    "kb-qa-0081": {
+      "id": "kb-qa-0081",
+      "kanji": "しながら",
+      "furigana": "",
+      "unitType": "inflected_verb",
+      "arti": "sambil melakukan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0082": {
+      "id": "kb-qa-0082",
+      "kanji": "自記温度計",
+      "furigana": "じきおんどけい",
+      "unitType": "compound_technical",
+      "arti": "termometer pencatat otomatis",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "自記温度計"
+    },
+    "kb-qa-0083": {
+      "id": "kb-qa-0083",
+      "kanji": "埃",
+      "furigana": "ほこり",
+      "unitType": "noun",
+      "arti": "debu",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "埃"
+    },
+    "kb-qa-0084": {
+      "id": "kb-qa-0084",
+      "kanji": "立たない",
+      "furigana": "たたない",
+      "unitType": "inflected_verb",
+      "arti": "tidak berdiri",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "立つ"
+    },
+    "kb-qa-0085": {
+      "id": "kb-qa-0085",
+      "kanji": "されにくい",
+      "furigana": "されにくい",
+      "unitType": "inflected_verb",
+      "arti": "sulit terkena / sulit mengalami",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0086": {
+      "id": "kb-qa-0086",
+      "kanji": "ズボン",
+      "furigana": "ずぼん",
+      "unitType": "noun",
+      "arti": "celana",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ズボン"
+    },
+    "kb-qa-0087": {
+      "id": "kb-qa-0087",
+      "kanji": "では",
+      "furigana": "",
+      "unitType": "expression",
+      "arti": "nah / kalau begitu",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "では"
+    },
+    "kb-qa-0088": {
+      "id": "kb-qa-0088",
+      "kanji": "とした",
+      "furigana": "とした",
+      "unitType": "expression",
+      "arti": "berusaha melakukan / hendak melakukan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "とする"
+    },
+    "kb-qa-0089": {
+      "id": "kb-qa-0089",
+      "kanji": "NaClO",
+      "furigana": "NaClO",
+      "unitType": "abbreviation",
+      "arti": "natrium hipoklorit",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "NaClO"
+    },
+    "kb-qa-0090": {
+      "id": "kb-qa-0090",
+      "kanji": "ほうっておく",
+      "furigana": "ほうっておく",
+      "unitType": "expression",
+      "arti": "membiarkan saja tanpa ditangani",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ほうっておく"
+    },
+    "kb-qa-0091": {
+      "id": "kb-qa-0091",
+      "kanji": "され",
+      "furigana": "され",
+      "unitType": "inflected_verb",
+      "arti": "mengalami / di- (pasif する)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0092": {
+      "id": "kb-qa-0092",
+      "kanji": "マフラー",
+      "furigana": "まふらー",
+      "unitType": "word",
+      "arti": "syal / muffler",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "マフラー"
+    },
+    "kb-qa-0093": {
+      "id": "kb-qa-0093",
+      "kanji": "無駄話",
+      "furigana": "むだばなし",
+      "unitType": "word",
+      "arti": "obrolan sia-sia / mengobrol",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "無駄話"
+    },
+    "kb-qa-0094": {
+      "id": "kb-qa-0094",
+      "kanji": "いつでも",
+      "furigana": "いつでも",
+      "unitType": "adverb",
+      "arti": "kapan saja",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "いつでも"
+    },
+    "kb-qa-0095": {
+      "id": "kb-qa-0095",
+      "kanji": "通しやすく",
+      "furigana": "とおしやすく",
+      "unitType": "inflected",
+      "arti": "mudah dilalui / dilewati",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "通す"
+    },
+    "kb-qa-0096": {
+      "id": "kb-qa-0096",
+      "kanji": "影響がない",
+      "furigana": "えいきょうがない",
+      "unitType": "expression",
+      "arti": "tidak berpengaruh / tidak berdampak",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "影響がない"
+    },
+    "kb-qa-0097": {
+      "id": "kb-qa-0097",
+      "kanji": "1分間",
+      "furigana": "いっぷんかん",
+      "unitType": "word",
+      "arti": "selama 1 menit",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "1分間"
+    },
+    "kb-qa-0098": {
+      "id": "kb-qa-0098",
+      "kanji": "もっとも",
+      "furigana": "もっとも",
+      "unitType": "adverb",
+      "arti": "paling",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "もっとも"
+    },
+    "kb-qa-0099": {
+      "id": "kb-qa-0099",
+      "kanji": "はいる",
+      "furigana": "はいる",
+      "unitType": "word",
+      "arti": "masuk (入る)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "はいる"
+    },
+    "kb-qa-0100": {
+      "id": "kb-qa-0100",
+      "kanji": "組み合わせた",
+      "furigana": "くみあわせた",
+      "unitType": "inflected_verb",
+      "arti": "yang menggabungkan / mengombinasikan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "組み合わせる"
+    },
+    "kb-qa-0101": {
+      "id": "kb-qa-0101",
+      "kanji": "とめたとき",
+      "furigana": "とめたとき",
+      "unitType": "expression",
+      "arti": "saat dihentikan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "止める"
+    },
+    "kb-qa-0102": {
+      "id": "kb-qa-0102",
+      "kanji": "かならず",
+      "furigana": "かならず",
+      "unitType": "adverb",
+      "arti": "pasti / selalu (必ず)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "必ず"
+    },
+    "kb-qa-0103": {
+      "id": "kb-qa-0103",
+      "kanji": "せんたく",
+      "furigana": "せんたく",
+      "unitType": "word",
+      "arti": "mencuci / pencucian (洗濯)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "洗濯"
+    },
+    "kb-qa-0104": {
+      "id": "kb-qa-0104",
+      "kanji": "３つのみつ",
+      "furigana": "みっつのみつ",
+      "unitType": "expression",
+      "arti": "3 Mitsu (tertutup, padat, kontak erat)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "３つの密"
+    },
+    "kb-qa-0105": {
+      "id": "kb-qa-0105",
+      "kanji": "%",
+      "furigana": "ぱーせんと",
+      "unitType": "technical",
+      "arti": "persen (%)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "%"
+    },
+    "kb-qa-0106": {
+      "id": "kb-qa-0106",
+      "kanji": "ようえき",
+      "furigana": "ようえき",
+      "unitType": "noun",
+      "arti": "larutan (溶液)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "溶液"
+    },
+    "kb-qa-0107": {
+      "id": "kb-qa-0107",
+      "kanji": "２重",
+      "furigana": "にじゅう",
+      "unitType": "word",
+      "arti": "ganda / dua lapis",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "二重"
+    },
+    "kb-qa-0108": {
+      "id": "kb-qa-0108",
+      "kanji": "いかのなかで",
+      "furigana": "いかのなかで",
+      "unitType": "expression",
+      "arti": "di antara hal berikut",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "以下の中で"
+    },
+    "kb-qa-0109": {
+      "id": "kb-qa-0109",
+      "kanji": "なか",
+      "furigana": "なか",
+      "unitType": "word",
+      "arti": "di dalam / bagian dalam (中)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "中"
+    },
+    "kb-qa-0110": {
+      "id": "kb-qa-0110",
+      "kanji": "上",
+      "furigana": "うえ",
+      "unitType": "word",
+      "arti": "dalam hal / saat (〜上で)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "上"
+    },
+    "kb-qa-0111": {
+      "id": "kb-qa-0111",
+      "kanji": "曲げて",
+      "furigana": "まげて",
+      "unitType": "inflected",
+      "arti": "menekuk / membungkukkan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "曲げる"
+    },
+    "kb-qa-0112": {
+      "id": "kb-qa-0112",
+      "kanji": "なければ",
+      "furigana": "なければ",
+      "unitType": "word",
+      "arti": "jika tidak",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "なければ"
+    },
+    "kb-qa-0113": {
+      "id": "kb-qa-0113",
+      "kanji": "収納",
+      "furigana": "しゅうのう",
+      "unitType": "word",
+      "arti": "penyimpanan / menyimpan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "収納"
+    },
+    "kb-qa-0114": {
+      "id": "kb-qa-0114",
+      "kanji": "強制的",
+      "furigana": "きょうせいてき",
+      "unitType": "word",
+      "arti": "secara paksa / memaksakan diri",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "強制的"
+    },
+    "kb-qa-0115": {
+      "id": "kb-qa-0115",
+      "kanji": "取得",
+      "furigana": "しゅとく",
+      "unitType": "word",
+      "arti": "pengambilan (cuti) / memperoleh",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "取得"
+    },
+    "kb-qa-0116": {
+      "id": "kb-qa-0116",
+      "kanji": "ない",
+      "furigana": "",
+      "unitType": "word",
+      "arti": "tidak / bukan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ない"
+    },
+    "kb-qa-0117": {
+      "id": "kb-qa-0117",
+      "kanji": "取る",
+      "furigana": "とる",
+      "unitType": "word",
+      "arti": "mengambil / menempuh (langkah)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "取る"
+    },
+    "kb-qa-0118": {
+      "id": "kb-qa-0118",
+      "kanji": "かける",
+      "furigana": "",
+      "unitType": "word",
+      "arti": "menumpukan / membebankan (berat)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "かける"
+    },
+    "kb-qa-0119": {
+      "id": "kb-qa-0119",
+      "kanji": "安全帯",
+      "furigana": "あんぜんたい",
+      "unitType": "word",
+      "arti": "sabuk pengaman (forklift / kerja)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "安全帯"
+    },
+    "kb-qa-0120": {
+      "id": "kb-qa-0120",
+      "kanji": "速度",
+      "furigana": "そくど",
+      "unitType": "word",
+      "arti": "kecepatan / laju",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "速度"
+    },
+    "kb-qa-0121": {
+      "id": "kb-qa-0121",
+      "kanji": "払う",
+      "furigana": "はらう",
+      "unitType": "word",
+      "arti": "memberikan / mencurahkan (perhatian)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "払う"
+    },
+    "kb-qa-0122": {
+      "id": "kb-qa-0122",
+      "kanji": "日",
+      "furigana": "にち",
+      "unitType": "standalone_term",
+      "arti": "hari (satuan jumlah hari)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "日"
+    },
+    "kb-qa-0123": {
+      "id": "kb-qa-0123",
+      "kanji": "ありますか",
+      "furigana": "",
+      "unitType": "inflected_verb",
+      "arti": "apakah ada",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ある"
+    },
+    "kb-qa-0124": {
+      "id": "kb-qa-0124",
+      "kanji": "硬度",
+      "furigana": "こうど",
+      "unitType": "word",
+      "arti": "tingkat kekerasan (benda)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "硬度"
+    },
+    "kb-qa-0125": {
+      "id": "kb-qa-0125",
+      "kanji": "使用前",
+      "furigana": "しようぜん",
+      "unitType": "word",
+      "arti": "sebelum penggunaan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "使用前"
+    },
+    "kb-qa-0126": {
+      "id": "kb-qa-0126",
+      "kanji": "下",
+      "furigana": "もと",
+      "unitType": "noun",
+      "arti": "di bawah (paparan/kondisi)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "下"
+    },
+    "kb-qa-0127": {
+      "id": "kb-qa-0127",
+      "kanji": "自然乾燥",
+      "furigana": "しぜんかんそう",
+      "unitType": "word",
+      "arti": "pengeringan secara alami",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "自然乾燥"
+    },
+    "kb-qa-0128": {
+      "id": "kb-qa-0128",
+      "kanji": "説明書",
+      "furigana": "せつめいしょ",
+      "unitType": "word",
+      "arti": "petunjuk penggunaan / manual",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "説明書"
+    },
+    "kb-qa-0129": {
+      "id": "kb-qa-0129",
+      "kanji": "使用時",
+      "furigana": "しようじ",
+      "unitType": "word",
+      "arti": "saat penggunaan / pemakaian",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "使用時"
+    },
+    "kb-qa-0130": {
+      "id": "kb-qa-0130",
+      "kanji": "物品",
+      "furigana": "ぶっぴん",
+      "unitType": "word",
+      "arti": "barang / benda",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "物品"
+    },
+    "kb-qa-0131": {
+      "id": "kb-qa-0131",
+      "kanji": "いか",
+      "furigana": "いか",
+      "unitType": "word",
+      "arti": "cumi-cumi (イカ / 烏賊)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "いか"
+    },
+    "kb-qa-0132": {
+      "id": "kb-qa-0132",
+      "kanji": "せいけつ",
+      "furigana": "せいけつ",
+      "unitType": "word",
+      "arti": "bersih / higienis (清潔)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "清潔"
+    },
+    "kb-qa-0133": {
+      "id": "kb-qa-0133",
+      "kanji": "つける",
+      "furigana": "つける",
+      "unitType": "word",
+      "arti": "merendam (浸ける)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "浸ける"
+    },
+    "kb-qa-0134": {
+      "id": "kb-qa-0134",
+      "kanji": "温度帯",
+      "furigana": "おんどたい",
+      "unitType": "word",
+      "arti": "zona / rentang suhu",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "温度帯"
+    },
+    "kb-qa-0135": {
+      "id": "kb-qa-0135",
+      "kanji": "つけない",
+      "furigana": "つけない",
+      "unitType": "inflected",
+      "arti": "tidak menempelkan (bakteri)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "つける"
+    },
+    "kb-qa-0136": {
+      "id": "kb-qa-0136",
+      "kanji": "した",
+      "furigana": "した",
+      "unitType": "word",
+      "arti": "di bawah / bagian bawah (下)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "下"
+    },
+    "kb-qa-0137": {
+      "id": "kb-qa-0137",
+      "kanji": "ところ",
+      "furigana": "ところ",
+      "unitType": "word",
+      "arti": "ketika / pada saat (〜たところ)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ところ"
+    },
+    "kb-qa-0138": {
+      "id": "kb-qa-0138",
+      "kanji": "しそう",
+      "furigana": "しそう",
+      "unitType": "expression",
+      "arti": "hampir / nyaris (しそうになる)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0139": {
+      "id": "kb-qa-0139",
+      "kanji": "ぼうし",
+      "furigana": "ぼうし",
+      "unitType": "word",
+      "arti": "pencegahan (防止)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "防止"
+    },
+    "kb-qa-0140": {
+      "id": "kb-qa-0140",
+      "kanji": "ところ",
+      "furigana": "ところ",
+      "unitType": "word",
+      "arti": "ketika / pada saat (〜ていたところ)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ところ"
+    },
+    "kb-qa-0141": {
+      "id": "kb-qa-0141",
+      "kanji": "あけて",
+      "furigana": "あけて",
+      "unitType": "inflected_verb",
+      "arti": "membuka (開けて)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "開ける"
+    },
+    "kb-qa-0142": {
+      "id": "kb-qa-0142",
+      "kanji": "できた",
+      "furigana": "できた",
+      "unitType": "inflected_verb",
+      "arti": "muncul / timbul (pada gejala)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "できる"
+    },
+    "kb-qa-0143": {
+      "id": "kb-qa-0143",
+      "kanji": "よう",
+      "furigana": "よう",
+      "unitType": "word",
+      "arti": "seperti / bagaikan (〜のような)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "よう"
+    },
+    "kb-qa-0144": {
+      "id": "kb-qa-0144",
+      "kanji": "前",
+      "furigana": "まえ",
+      "unitType": "noun",
+      "arti": "depan (lokasi)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "前"
+    },
+    "kb-qa-0145": {
+      "id": "kb-qa-0145",
+      "kanji": "できている",
+      "furigana": "できている",
+      "unitType": "inflected",
+      "arti": "terbentuk / terjadi",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "できる"
+    },
+    "kb-qa-0146": {
+      "id": "kb-qa-0146",
+      "kanji": "ため",
+      "furigana": "ため",
+      "unitType": "noun",
+      "arti": "karena / disebabkan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ため"
+    },
+    "kb-qa-0147": {
+      "id": "kb-qa-0147",
+      "kanji": "ある",
+      "furigana": "ある",
+      "unitType": "word",
+      "arti": "suatu / tertentu",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ある"
+    },
+    "kb-qa-0148": {
+      "id": "kb-qa-0148",
+      "kanji": "した",
+      "furigana": "した",
+      "unitType": "noun",
+      "arti": "bawah / bagian bawah",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "下"
+    },
+    "kb-qa-0149": {
+      "id": "kb-qa-0149",
+      "kanji": "受け入れた",
+      "furigana": "うけいれた",
+      "unitType": "inflected_verb",
+      "arti": "menerima / yang diterima",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "受け入れる"
+    },
+    "kb-qa-0150": {
+      "id": "kb-qa-0150",
+      "kanji": "ない",
+      "furigana": "ない",
+      "unitType": "auxiliary",
+      "arti": "tidak (negasi kata kerja)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ない"
+    },
+    "kb-qa-0151": {
+      "id": "kb-qa-0151",
+      "kanji": "置く",
+      "furigana": "おく",
+      "unitType": "auxiliary_verb",
+      "arti": "membiarkan (tetap dalam keadaan tersebut)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "置く"
+    },
+    "kb-qa-0152": {
+      "id": "kb-qa-0152",
+      "kanji": "調子",
+      "furigana": "ちょうし",
+      "unitType": "noun",
+      "arti": "kondisi / keadaan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "調子"
+    },
+    "kb-qa-0153": {
+      "id": "kb-qa-0153",
+      "kanji": "数字",
+      "furigana": "すうじ",
+      "unitType": "noun",
+      "arti": "angka / jumlah",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "数字"
+    },
+    "kb-qa-0154": {
+      "id": "kb-qa-0154",
+      "kanji": "良い",
+      "furigana": "いい",
+      "unitType": "adjective",
+      "arti": "baik / boleh",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "良い"
+    },
+    "kb-qa-0155": {
+      "id": "kb-qa-0155",
+      "kanji": "最後",
+      "furigana": "さいご",
+      "unitType": "noun",
+      "arti": "terakhir",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "最後"
+    },
+    "kb-qa-0156": {
+      "id": "kb-qa-0156",
+      "kanji": "こすれ",
+      "furigana": "こすれ",
+      "unitType": "noun",
+      "arti": "tergores / tergesek",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "こすれ"
+    },
+    "kb-qa-0157": {
+      "id": "kb-qa-0157",
+      "kanji": "前",
+      "furigana": "まえ",
+      "unitType": "noun",
+      "arti": "depan / di depan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "前"
+    },
+    "kb-qa-0158": {
+      "id": "kb-qa-0158",
+      "kanji": "面積",
+      "furigana": "めんせき",
+      "unitType": "word",
+      "arti": "luas / luas area",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "面積"
+    },
+    "kb-qa-0159": {
+      "id": "kb-qa-0159",
+      "kanji": "上",
+      "furigana": "うえ",
+      "unitType": "standalone_term",
+      "arti": "dalam hal / dari segi (dalam 〜の上で)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "上"
+    },
+    "kb-qa-0160": {
+      "id": "kb-qa-0160",
+      "kanji": "作業場",
+      "furigana": "さぎょうば",
+      "unitType": "noun",
+      "arti": "area kerja / tempat kerja",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "作業場"
+    },
+    "kb-qa-0161": {
+      "id": "kb-qa-0161",
+      "kanji": "注意する",
+      "furigana": "ちゅういする",
+      "unitType": "word",
+      "arti": "memperingatkan / menegur",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "注意する"
+    },
+    "kb-qa-0162": {
+      "id": "kb-qa-0162",
+      "kanji": "保管しても",
+      "furigana": "ほかんしても",
+      "unitType": "inflected",
+      "arti": "disimpan (dalam 〜ても良い: boleh)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "保管する"
+    },
+    "kb-qa-0163": {
+      "id": "kb-qa-0163",
+      "kanji": "上",
+      "furigana": "うえ",
+      "unitType": "standalone_term",
+      "arti": "dalam hal / saat melaksanakan (dalam 〜上で)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "上"
+    },
+    "kb-qa-0164": {
+      "id": "kb-qa-0164",
+      "kanji": "しますか",
+      "furigana": "しますか",
+      "unitType": "inflected_verb",
+      "arti": "melakukan / dilakukan (bentuk tanya)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0165": {
+      "id": "kb-qa-0165",
+      "kanji": "確保",
+      "furigana": "かくほ",
+      "unitType": "word",
+      "arti": "memastikan / menjamin (keamanan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "確保"
+    },
+    "kb-qa-0166": {
+      "id": "kb-qa-0166",
+      "kanji": "向上",
+      "furigana": "こうじょう",
+      "unitType": "word",
+      "arti": "peningkatan / kemajuan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "向上"
+    },
+    "kb-qa-0167": {
+      "id": "kb-qa-0167",
+      "kanji": "ついて",
+      "furigana": "ついて",
+      "unitType": "expression",
+      "arti": "mengenai / tentang (pola について)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "つく"
+    },
+    "kb-qa-0168": {
+      "id": "kb-qa-0168",
+      "kanji": "ありますか",
+      "furigana": "ありますか",
+      "unitType": "inflected_verb",
+      "arti": "ada / terdapat (bentuk tanya)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ある"
+    },
+    "kb-qa-0169": {
+      "id": "kb-qa-0169",
+      "kanji": "物",
+      "furigana": "もの",
+      "unitType": "noun",
+      "arti": "hal / pilihan / pernyataan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "物"
+    },
+    "kb-qa-0170": {
+      "id": "kb-qa-0170",
+      "kanji": "いれば",
+      "furigana": "いれば",
+      "unitType": "inflected_verb",
+      "arti": "jika dalam keadaan / asalkan (～ていれば)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "いる"
+    },
+    "kb-qa-0171": {
+      "id": "kb-qa-0171",
+      "kanji": "分以上",
+      "furigana": "ぷんいじょう",
+      "unitType": "word",
+      "arti": "menit atau lebih (setelah angka 1)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "分以上"
+    },
+    "kb-qa-0172": {
+      "id": "kb-qa-0172",
+      "kanji": "物",
+      "furigana": "もの",
+      "unitType": "noun",
+      "arti": "benda / pakaian / barang",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "物"
+    },
+    "kb-qa-0173": {
+      "id": "kb-qa-0173",
+      "kanji": "大丈夫",
+      "furigana": "だいじょうぶ",
+      "unitType": "adjective",
+      "arti": "tidak apa-apa / baik-baik saja",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "大丈夫"
+    },
+    "kb-qa-0174": {
+      "id": "kb-qa-0174",
+      "kanji": "方",
+      "furigana": "ほう",
+      "unitType": "noun",
+      "arti": "lebih baik / sisi (pola ～た方が良い)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "方"
+    },
+    "kb-qa-0175": {
+      "id": "kb-qa-0175",
+      "kanji": "前",
+      "furigana": "まえ",
+      "unitType": "noun",
+      "arti": "depan / arah depan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "前"
+    },
+    "kb-qa-0176": {
+      "id": "kb-qa-0176",
+      "kanji": "何",
+      "furigana": "なに",
+      "unitType": "word",
+      "arti": "apa (dalam 何も: apa pun)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "何"
+    },
+    "kb-qa-0177": {
+      "id": "kb-qa-0177",
+      "kanji": "衛生的な",
+      "furigana": "えいせいてきな",
+      "unitType": "adjective",
+      "arti": "higienis",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "衛生的"
+    },
+    "kb-qa-0178": {
+      "id": "kb-qa-0178",
+      "kanji": "上",
+      "furigana": "うえ",
+      "unitType": "noun",
+      "arti": "hal / aspek (〜の上で: dalam hal)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "上"
+    },
+    "kb-qa-0179": {
+      "id": "kb-qa-0179",
+      "kanji": "周辺",
+      "furigana": "しゅうへん",
+      "unitType": "noun",
+      "arti": "area sekitar / lingkungan sekitar",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "周辺"
+    },
+    "kb-qa-0180": {
+      "id": "kb-qa-0180",
+      "kanji": "通して",
+      "furigana": "とおして",
+      "unitType": "expression",
+      "arti": "melalui / melewati",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "通す"
+    },
+    "kb-qa-0181": {
+      "id": "kb-qa-0181",
+      "kanji": "ことができない",
+      "furigana": "ことができない",
+      "unitType": "expression",
+      "arti": "tidak dapat / tidak bisa",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "できる"
+    },
+    "kb-qa-0182": {
+      "id": "kb-qa-0182",
+      "kanji": "つけない",
+      "furigana": "",
+      "unitType": "inflected_verb",
+      "arti": "tidak menempelkan (bakteri)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "つける"
+    },
+    "kb-qa-0183": {
+      "id": "kb-qa-0183",
+      "kanji": "下げない",
+      "furigana": "さげない",
+      "unitType": "inflected_verb",
+      "arti": "tidak menurunkan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "下げる"
+    },
+    "kb-qa-0184": {
+      "id": "kb-qa-0184",
+      "kanji": "について",
+      "furigana": "について",
+      "unitType": "expression",
+      "arti": "tentang / mengenai",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "について"
+    },
+    "kb-qa-0185": {
+      "id": "kb-qa-0185",
+      "kanji": "汚れていない",
+      "furigana": "よごれていない",
+      "unitType": "inflected_verb",
+      "arti": "belum/tidak kotor (bersih)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "汚れる"
+    },
+    "kb-qa-0186": {
+      "id": "kb-qa-0186",
+      "kanji": "気",
+      "furigana": "き",
+      "unitType": "noun",
+      "arti": "kesadaran / pikiran (dalam 気を失う)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "気"
+    },
+    "kb-qa-0187": {
+      "id": "kb-qa-0187",
+      "kanji": "気がつく",
+      "furigana": "きがつく",
+      "unitType": "expression",
+      "arti": "sadar kembali / tersadar (dari pingsan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "気がつく"
+    },
+    "kb-qa-0188": {
+      "id": "kb-qa-0188",
+      "kanji": "上",
+      "furigana": "じょう",
+      "unitType": "noun",
+      "arti": "di atas (permukaan konveyor)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "上"
+    },
+    "kb-qa-0189": {
+      "id": "kb-qa-0189",
+      "kanji": "でした",
+      "furigana": "",
+      "unitType": "inflected_verb",
+      "arti": "adalah (bentuk lampau sopan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "です"
+    },
+    "kb-qa-0190": {
+      "id": "kb-qa-0190",
+      "kanji": "再度",
+      "furigana": "さいど",
+      "unitType": "adverb",
+      "arti": "kembali / sekali lagi",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "再度"
+    },
+    "kb-qa-0191": {
+      "id": "kb-qa-0191",
+      "kanji": "する",
+      "furigana": "する",
+      "unitType": "word",
+      "arti": "melakukan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0192": {
+      "id": "kb-qa-0192",
+      "kanji": "あつかう",
+      "furigana": "あつかう",
+      "unitType": "word",
+      "arti": "menangani / mengolah (扱う)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "扱う"
+    },
+    "kb-qa-0193": {
+      "id": "kb-qa-0193",
+      "kanji": "ぷん",
+      "furigana": "ぷん",
+      "unitType": "suffix",
+      "arti": "menit (satuan waktu)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "分"
+    },
+    "kb-qa-0194": {
+      "id": "kb-qa-0194",
+      "kanji": "おこなうべき",
+      "furigana": "おこなうべき",
+      "unitType": "word",
+      "arti": "yang seharusnya dilakukan (行うべき)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "行うべき"
+    },
+    "kb-qa-0195": {
+      "id": "kb-qa-0195",
+      "kanji": "ふん",
+      "furigana": "ふん",
+      "unitType": "suffix",
+      "arti": "menit (satuan waktu)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "分"
+    },
+    "kb-qa-0196": {
+      "id": "kb-qa-0196",
+      "kanji": "ほかの",
+      "furigana": "ほかの",
+      "unitType": "word",
+      "arti": "yang lain / lainnya (他の)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "他の"
+    },
+    "kb-qa-0197": {
+      "id": "kb-qa-0197",
+      "kanji": "レトルトしょくひん",
+      "furigana": "れとるとしょくひん",
+      "unitType": "word",
+      "arti": "makanan kemasan retort (レトルト食品)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "レトルト食品"
+    },
+    "kb-qa-0198": {
+      "id": "kb-qa-0198",
+      "kanji": "おいて",
+      "furigana": "おいて",
+      "unitType": "inflected_verb",
+      "arti": "meletakkan (置いて)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "置く"
+    },
+    "kb-qa-0199": {
+      "id": "kb-qa-0199",
+      "kanji": "だせるように",
+      "furigana": "だせるように",
+      "unitType": "expression",
+      "arti": "agar dapat diambil / dikeluarkan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "出す"
+    },
+    "kb-qa-0200": {
+      "id": "kb-qa-0200",
+      "kanji": "ひとつ",
+      "furigana": "ひとつ",
+      "unitType": "word",
+      "arti": "satu buah",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "一つ"
+    },
+    "kb-qa-0201": {
+      "id": "kb-qa-0201",
+      "kanji": "かたて",
+      "furigana": "かたて",
+      "unitType": "word",
+      "arti": "satu tangan / sebelah tangan (片手)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "片手"
+    },
+    "kb-qa-0202": {
+      "id": "kb-qa-0202",
+      "kanji": "おこなっていた",
+      "furigana": "おこなっていた",
+      "unitType": "inflected_verb",
+      "arti": "sedang melakukan (行っていた)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "行う"
+    },
+    "kb-qa-0203": {
+      "id": "kb-qa-0203",
+      "kanji": "どのように",
+      "furigana": "どのように",
+      "unitType": "adverb",
+      "arti": "bagaimana / dengan cara apa",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "どのように"
+    },
+    "kb-qa-0204": {
+      "id": "kb-qa-0204",
+      "kanji": "からだ",
+      "furigana": "からだ",
+      "unitType": "word",
+      "arti": "tubuh / badan (体)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "体"
+    },
+    "kb-qa-0205": {
+      "id": "kb-qa-0205",
+      "kanji": "あたま",
+      "furigana": "あたま",
+      "unitType": "word",
+      "arti": "kepala (頭)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "頭"
+    },
+    "kb-qa-0206": {
+      "id": "kb-qa-0206",
+      "kanji": "食べ物",
+      "furigana": "たべもの",
+      "unitType": "noun",
+      "arti": "makanan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "食べ物"
+    },
+    "kb-qa-0207": {
+      "id": "kb-qa-0207",
+      "kanji": "こと",
+      "furigana": "こと",
+      "unitType": "noun",
+      "arti": "hal / peristiwa",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "こと"
+    },
+    "kb-qa-0208": {
+      "id": "kb-qa-0208",
+      "kanji": "1つ",
+      "furigana": "ひとつ",
+      "unitType": "noun",
+      "arti": "satu",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "一つ"
+    },
+    "kb-qa-0209": {
+      "id": "kb-qa-0209",
+      "kanji": "分からなかった",
+      "furigana": "わからなかった",
+      "unitType": "inflected_verb",
+      "arti": "tidak tahu / tidak mengerti (lampau)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "分かる"
+    },
+    "kb-qa-0210": {
+      "id": "kb-qa-0210",
+      "kanji": "どおり",
+      "furigana": "どおり",
+      "unitType": "word",
+      "arti": "sesuai dengan / mengikuti",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "通り"
+    },
+    "kb-qa-0211": {
+      "id": "kb-qa-0211",
+      "kanji": "による",
+      "furigana": "による",
+      "unitType": "expression",
+      "arti": "disebabkan oleh / akibat",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "による"
+    },
+    "kb-qa-0212": {
+      "id": "kb-qa-0212",
+      "kanji": "きれいな",
+      "furigana": "きれいな",
+      "unitType": "adjective",
+      "arti": "bersih / rapi",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "きれい"
+    },
+    "kb-qa-0213": {
+      "id": "kb-qa-0213",
+      "kanji": "考えられる",
+      "furigana": "かんがえられる",
+      "unitType": "inflected_verb",
+      "arti": "dapat diperkirakan / mungkin timbul",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "考える"
+    },
+    "kb-qa-0214": {
+      "id": "kb-qa-0214",
+      "kanji": "どの",
+      "furigana": "どの",
+      "unitType": "word",
+      "arti": "yang mana",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "どの"
+    },
+    "kb-qa-0215": {
+      "id": "kb-qa-0215",
+      "kanji": "ほか",
+      "furigana": "ほか",
+      "unitType": "noun",
+      "arti": "selain itu / lainnya",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ほか"
+    },
+    "kb-qa-0216": {
+      "id": "kb-qa-0216",
+      "kanji": "でない",
+      "furigana": "でない",
+      "unitType": "inflected_verb",
+      "arti": "tidak keluar",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "出る"
+    },
+    "kb-qa-0217": {
+      "id": "kb-qa-0217",
+      "kanji": "なりました",
+      "furigana": "なりました",
+      "unitType": "inflected_verb",
+      "arti": "menjadi / hampir terjadi",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "なる"
+    },
+    "kb-qa-0218": {
+      "id": "kb-qa-0218",
+      "kanji": "見ながら",
+      "furigana": "みながら",
+      "unitType": "inflected_verb",
+      "arti": "sambil melihat",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "見る"
+    },
+    "kb-qa-0219": {
+      "id": "kb-qa-0219",
+      "kanji": "ありますか",
+      "furigana": "",
+      "unitType": "inflected_verb",
+      "arti": "apakah ada / perlu (dalam 必要がありますか)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ある"
+    },
+    "kb-qa-0220": {
+      "id": "kb-qa-0220",
+      "kanji": "ならない",
+      "furigana": "",
+      "unitType": "inflected_verb",
+      "arti": "wajib / harus (dalam 〜なければならない)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "なる"
+    },
+    "kb-qa-0221": {
+      "id": "kb-qa-0221",
+      "kanji": "間",
+      "furigana": "あいだ",
+      "unitType": "noun",
+      "arti": "selama / rentang waktu",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "間"
+    },
+    "kb-qa-0222": {
+      "id": "kb-qa-0222",
+      "kanji": "単一",
+      "furigana": "たんいつ",
+      "unitType": "word",
+      "arti": "tunggal / satu-satunya",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "単一"
+    },
+    "kb-qa-0223": {
+      "id": "kb-qa-0223",
+      "kanji": "管理しますか",
+      "furigana": "かんりしますか",
+      "unitType": "inflected_verb",
+      "arti": "mengelola (bentuk tanya)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "管理する"
+    },
+    "kb-qa-0224": {
+      "id": "kb-qa-0224",
+      "kanji": "ありますか",
+      "furigana": "",
+      "unitType": "inflected_verb",
+      "arti": "apakah ada (dasar: ある)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ある"
+    },
+    "kb-qa-0225": {
+      "id": "kb-qa-0225",
+      "kanji": "解消",
+      "furigana": "かいしょう",
+      "unitType": "word",
+      "arti": "penghilangan / peredaan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "解消"
+    },
+    "kb-qa-0226": {
+      "id": "kb-qa-0226",
+      "kanji": "何",
+      "furigana": "なに",
+      "unitType": "noun",
+      "arti": "apa (何も: apa pun)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "何"
+    },
+    "kb-qa-0227": {
+      "id": "kb-qa-0227",
+      "kanji": "ため",
+      "furigana": "",
+      "unitType": "word",
+      "arti": "karena / sebab",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ため"
+    },
+    "kb-qa-0228": {
+      "id": "kb-qa-0228",
+      "kanji": "C",
+      "furigana": "",
+      "unitType": "technical",
+      "arti": "C (dalam ビタミンC / vitamin C)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "C"
+    },
+    "kb-qa-0229": {
+      "id": "kb-qa-0229",
+      "kanji": "かざり",
+      "furigana": "",
+      "unitType": "noun",
+      "arti": "hiasan / dekorasi (飾り)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "かざり"
+    },
+    "kb-qa-0230": {
+      "id": "kb-qa-0230",
+      "kanji": "した",
+      "furigana": "",
+      "unitType": "noun",
+      "arti": "bagian bawah (下)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "下"
+    },
+    "kb-qa-0231": {
+      "id": "kb-qa-0231",
+      "kanji": "誰",
+      "furigana": "だれ",
+      "unitType": "noun",
+      "arti": "siapa (誰も: siapa pun)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "誰"
+    },
+    "kb-qa-0232": {
+      "id": "kb-qa-0232",
+      "kanji": "停止していた",
+      "furigana": "ていししていた",
+      "unitType": "inflected_verb",
+      "arti": "sedang berhenti (keadaan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "停止する"
+    },
+    "kb-qa-0233": {
+      "id": "kb-qa-0233",
+      "kanji": "がついている",
+      "furigana": "がついている",
+      "unitType": "word",
+      "arti": "menempel / terdapat",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "つく"
+    },
+    "kb-qa-0234": {
+      "id": "kb-qa-0234",
+      "kanji": "きる",
+      "furigana": "きる",
+      "unitType": "word",
+      "arti": "memakai (pakaian)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "着る"
+    },
+    "kb-qa-0235": {
+      "id": "kb-qa-0235",
+      "kanji": "確認しなければ",
+      "furigana": "かくにんしなければ",
+      "unitType": "expression",
+      "arti": "harus memeriksa / memastikan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "確認する"
+    },
+    "kb-qa-0236": {
+      "id": "kb-qa-0236",
+      "kanji": "上",
+      "furigana": "うえ",
+      "unitType": "noun",
+      "arti": "dalam hal / dari segi",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "上"
+    },
+    "kb-qa-0237": {
+      "id": "kb-qa-0237",
+      "kanji": "人工的",
+      "furigana": "じんこうてき",
+      "unitType": "word",
+      "arti": "buatan (manusia) / artifisial",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "人工的"
+    },
+    "kb-qa-0238": {
+      "id": "kb-qa-0238",
+      "kanji": "自動掃除",
+      "furigana": "じどうそうじ",
+      "unitType": "word",
+      "arti": "pembersih otomatis / penyapuan otomatis",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "自動掃除"
+    },
+    "kb-qa-0239": {
+      "id": "kb-qa-0239",
+      "kanji": "習慣",
+      "furigana": "しゅうかん",
+      "unitType": "word",
+      "arti": "kebiasaan / pembiasaan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "習慣"
+    },
+    "kb-qa-0240": {
+      "id": "kb-qa-0240",
+      "kanji": "順番",
+      "furigana": "じゅんばん",
+      "unitType": "word",
+      "arti": "urutan / peringkat",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "順番"
+    },
+    "kb-qa-0241": {
+      "id": "kb-qa-0241",
+      "kanji": "身体",
+      "furigana": "しんたい",
+      "unitType": "word",
+      "arti": "tubuh / badan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "身体"
+    },
+    "kb-qa-0242": {
+      "id": "kb-qa-0242",
+      "kanji": "セット",
+      "furigana": "せっと",
+      "unitType": "word",
+      "arti": "set / paket",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "セット"
+    },
+    "kb-qa-0243": {
+      "id": "kb-qa-0243",
+      "kanji": "ついて",
+      "furigana": "ついて",
+      "unitType": "inflected",
+      "arti": "menopang / bertumpu (tangan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "つく"
+    },
+    "kb-qa-0244": {
+      "id": "kb-qa-0244",
+      "kanji": "何",
+      "furigana": "なに",
+      "unitType": "word",
+      "arti": "apa (dalam 何も = apa pun)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "何"
+    },
+    "kb-qa-0245": {
+      "id": "kb-qa-0245",
+      "kanji": "上",
+      "furigana": "うえ",
+      "unitType": "noun",
+      "arti": "dalam hal / segi (〜の上で)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "上"
+    },
+    "kb-qa-0246": {
+      "id": "kb-qa-0246",
+      "kanji": "周辺",
+      "furigana": "しゅうへん",
+      "unitType": "noun",
+      "arti": "area sekitar / sekeliling",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "周辺"
+    },
+    "kb-qa-0247": {
+      "id": "kb-qa-0247",
+      "kanji": "ならない",
+      "furigana": "ならない",
+      "unitType": "expression",
+      "arti": "harus (dalam 〜なければならない)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "なる"
+    },
+    "kb-qa-0248": {
+      "id": "kb-qa-0248",
+      "kanji": "誰",
+      "furigana": "だれ",
+      "unitType": "word",
+      "arti": "siapa (誰にも = siapa pun)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "誰"
+    },
+    "kb-qa-0249": {
+      "id": "kb-qa-0249",
+      "kanji": "下げ",
+      "furigana": "さげ",
+      "unitType": "word",
+      "arti": "menurunkan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "下げる"
+    },
+    "kb-qa-0250": {
+      "id": "kb-qa-0250",
+      "kanji": "ない",
+      "furigana": "",
+      "unitType": "particle",
+      "arti": "tidak (akhiran negatif)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "ない"
+    },
+    "kb-qa-0251": {
+      "id": "kb-qa-0251",
+      "kanji": "しますか",
+      "furigana": "",
+      "unitType": "inflected_verb",
+      "arti": "melakukan (tanya sopan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0252": {
+      "id": "kb-qa-0252",
+      "kanji": "ならない",
+      "furigana": "ならない",
+      "unitType": "expression",
+      "arti": "harus (dalam 〜なくてはならない)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "なる"
+    },
+    "kb-qa-0253": {
+      "id": "kb-qa-0253",
+      "kanji": "削減",
+      "furigana": "さくげん",
+      "unitType": "noun",
+      "arti": "pengurangan / pemangkasan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "削減"
+    },
+    "kb-qa-0254": {
+      "id": "kb-qa-0254",
+      "kanji": "かき",
+      "furigana": "かき",
+      "unitType": "word",
+      "arti": "berikut ini / di bawah ini (下記)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "下記"
+    },
+    "kb-qa-0255": {
+      "id": "kb-qa-0255",
+      "kanji": "いじょう",
+      "furigana": "いじょう",
+      "unitType": "word",
+      "arti": "keabnormalan / kondisi tidak normal (異常)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "異常"
+    },
+    "kb-qa-0256": {
+      "id": "kb-qa-0256",
+      "kanji": "よう",
+      "furigana": "よう",
+      "unitType": "word",
+      "arti": "untuk keperluan ... (用)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "用"
+    },
+    "kb-qa-0257": {
+      "id": "kb-qa-0257",
+      "kanji": "まいて",
+      "furigana": "まいて",
+      "unitType": "inflected_verb",
+      "arti": "melilitkan / melingkarkan (巻く)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "巻く"
+    },
+    "kb-qa-0258": {
+      "id": "kb-qa-0258",
+      "kanji": "つける",
+      "furigana": "つける",
+      "unitType": "word",
+      "arti": "membasahi / membubuhkan (cairan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "付ける"
+    },
+    "kb-qa-0259": {
+      "id": "kb-qa-0259",
+      "kanji": "きる",
+      "furigana": "きる",
+      "unitType": "word",
+      "arti": "mematikan (sakelar/listrik)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "切る"
+    },
+    "kb-qa-0260": {
+      "id": "kb-qa-0260",
+      "kanji": "ふく",
+      "furigana": "ふく",
+      "unitType": "word",
+      "arti": "mengelap (拭く)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "拭く"
+    },
+    "kb-qa-0261": {
+      "id": "kb-qa-0261",
+      "kanji": "ぼうし",
+      "furigana": "ぼうし",
+      "unitType": "word",
+      "arti": "pencegahan / mencegah (防止)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "防止"
+    },
+    "kb-qa-0262": {
+      "id": "kb-qa-0262",
+      "kanji": "として",
+      "furigana": "",
+      "unitType": "expression",
+      "arti": "hendak / mencoba (pola 〜ようとして)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "とする"
+    },
+    "kb-qa-0263": {
+      "id": "kb-qa-0263",
+      "kanji": "よう",
+      "furigana": "",
+      "unitType": "word",
+      "arti": "seperti / yang berisiko (pola 〜ような)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "よう"
+    },
+    "kb-qa-0264": {
+      "id": "kb-qa-0264",
+      "kanji": "とる",
+      "furigana": "",
+      "unitType": "word",
+      "arti": "mengambil / mengonsumsi",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "とる"
+    },
+    "kb-qa-0265": {
+      "id": "kb-qa-0265",
+      "kanji": "働き",
+      "furigana": "はたらき",
+      "unitType": "inflected_verb",
+      "arti": "bekerja (bentuk gabung 働き始める)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "働く"
+    },
+    "kb-qa-0266": {
+      "id": "kb-qa-0266",
+      "kanji": "出した",
+      "furigana": "だした",
+      "unitType": "inflected_verb",
+      "arti": "mulai melakukan (sufiks 〜出す)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "出す"
+    },
+    "kb-qa-0267": {
+      "id": "kb-qa-0267",
+      "kanji": "される",
+      "furigana": "",
+      "unitType": "inflected_verb",
+      "arti": "dianggap / dinyatakan (dalam 〜とされる)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0268": {
+      "id": "kb-qa-0268",
+      "kanji": "いか",
+      "furigana": "いか",
+      "unitType": "noun",
+      "arti": "cumi-cumi (イカ)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "いか"
+    },
+    "kb-qa-0269": {
+      "id": "kb-qa-0269",
+      "kanji": "しそう",
+      "furigana": "しそう",
+      "unitType": "expression",
+      "arti": "hampir / nyaris (~しそうになる)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "〜そうになる"
+    },
+    "kb-qa-0270": {
+      "id": "kb-qa-0270",
+      "kanji": "できますか",
+      "furigana": "できますか",
+      "unitType": "inflected_verb",
+      "arti": "dapat / bisa (melakukan)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "できる"
+    },
+    "kb-qa-0271": {
+      "id": "kb-qa-0271",
+      "kanji": "した",
+      "furigana": "した",
+      "unitType": "noun",
+      "arti": "bawah / bagian dalam (下)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "下"
+    },
+    "kb-qa-0272": {
+      "id": "kb-qa-0272",
+      "kanji": "つけ",
+      "furigana": "つけ",
+      "unitType": "inflected_verb",
+      "arti": "menyalakan / menghidupkan (lampu)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "つける"
+    },
+    "kb-qa-0273": {
+      "id": "kb-qa-0273",
+      "kanji": "または",
+      "furigana": "",
+      "unitType": "word",
+      "arti": "atau",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "または"
+    },
+    "kb-qa-0274": {
+      "id": "kb-qa-0274",
+      "kanji": "指します",
+      "furigana": "さします",
+      "unitType": "inflected_verb",
+      "arti": "merujuk / memaksudkan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "指す"
+    },
+    "kb-qa-0275": {
+      "id": "kb-qa-0275",
+      "kanji": "じあえんそさん",
+      "furigana": "じあえんそさん",
+      "unitType": "technical",
+      "arti": "asam hipoklorit (次亜塩素酸)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "じあえんそさん"
+    },
+    "kb-qa-0276": {
+      "id": "kb-qa-0276",
+      "kanji": "しょくパン",
+      "furigana": "しょくぱん",
+      "unitType": "noun",
+      "arti": "roti tawar (食パン)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "食パン"
+    },
+    "kb-qa-0277": {
+      "id": "kb-qa-0277",
+      "kanji": "て",
+      "furigana": "て",
+      "unitType": "noun",
+      "arti": "tangan (手)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "手"
+    },
+    "kb-qa-0278": {
+      "id": "kb-qa-0278",
+      "kanji": "はなれた",
+      "furigana": "はなれた",
+      "unitType": "inflected_verb",
+      "arti": "berjauhan / terpisah (離れた)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "離れる"
+    },
+    "kb-qa-0279": {
+      "id": "kb-qa-0279",
+      "kanji": "おりるときに",
+      "furigana": "おりるときに",
+      "unitType": "expression",
+      "arti": "ketika turun (降りるときに)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "降りるときに"
+    },
+    "kb-qa-0280": {
+      "id": "kb-qa-0280",
+      "kanji": "も",
+      "furigana": "も",
+      "unitType": "particle",
+      "arti": "partikel juga / pun",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "も"
+    },
+    "kb-qa-0281": {
+      "id": "kb-qa-0281",
+      "kanji": "しないで",
+      "furigana": "しないで",
+      "unitType": "inflected_verb",
+      "arti": "tanpa melakukan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0282": {
+      "id": "kb-qa-0282",
+      "kanji": "を",
+      "furigana": "を",
+      "unitType": "particle",
+      "arti": "partikel penanda objek",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "を"
+    },
+    "kb-qa-0283": {
+      "id": "kb-qa-0283",
+      "kanji": "転倒しそう",
+      "furigana": "てんとうしそう",
+      "unitType": "expression",
+      "arti": "hampir terjatuh",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "転倒する"
+    },
+    "kb-qa-0284": {
+      "id": "kb-qa-0284",
+      "kanji": "喋りながら",
+      "furigana": "しゃべりながら",
+      "unitType": "inflected_verb",
+      "arti": "sambil mengobrol",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "喋る"
+    },
+    "kb-qa-0285": {
+      "id": "kb-qa-0285",
+      "kanji": "もとめている",
+      "furigana": "もとめている",
+      "unitType": "inflected_verb",
+      "arti": "menginginkan / menuntut (求める)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "求める"
+    },
+    "kb-qa-0286": {
+      "id": "kb-qa-0286",
+      "kanji": "おうしょくブドウきゅうきん",
+      "furigana": "おうしょくぶどうきゅうきん",
+      "unitType": "compound_technical",
+      "arti": "bakteri Staphylococcus aureus (黄色ブドウ球菌)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "黄色ブドウ球菌"
+    },
+    "kb-qa-0287": {
+      "id": "kb-qa-0287",
+      "kanji": "ないよう",
+      "furigana": "ないよう",
+      "unitType": "word",
+      "arti": "isi / materi / rincian (内容)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "内容"
+    },
+    "kb-qa-0288": {
+      "id": "kb-qa-0288",
+      "kanji": "ムダばなし",
+      "furigana": "むだばなし",
+      "unitType": "word",
+      "arti": "obrolan yang tidak perlu (無駄話)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "無駄話"
+    },
+    "kb-qa-0289": {
+      "id": "kb-qa-0289",
+      "kanji": "サルモネラぞく",
+      "furigana": "さるもねらぞく",
+      "unitType": "word",
+      "arti": "bakteri genus Salmonella (サルモネラ属)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "サルモネラ属"
+    },
+    "kb-qa-0290": {
+      "id": "kb-qa-0290",
+      "kanji": "どくそがた",
+      "furigana": "どくそがた",
+      "unitType": "word",
+      "arti": "tipe toksin / racun (毒素型)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "毒素型"
+    },
+    "kb-qa-0291": {
+      "id": "kb-qa-0291",
+      "kanji": "はな",
+      "furigana": "はな",
+      "unitType": "word",
+      "arti": "hidung (鼻)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "鼻"
+    },
+    "kb-qa-0292": {
+      "id": "kb-qa-0292",
+      "kanji": "よごれない",
+      "furigana": "よごれない",
+      "unitType": "inflected_verb",
+      "arti": "tidak menjadi kotor",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "汚れる"
+    },
+    "kb-qa-0293": {
+      "id": "kb-qa-0293",
+      "kanji": "や",
+      "furigana": "や",
+      "unitType": "particle",
+      "arti": "dan / atau (daftar tidak lengkap)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "や"
+    },
+    "kb-qa-0294": {
+      "id": "kb-qa-0294",
+      "kanji": "くすり",
+      "furigana": "くすり",
+      "unitType": "word",
+      "arti": "obat",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "薬"
+    },
+    "kb-qa-0295": {
+      "id": "kb-qa-0295",
+      "kanji": "あつかいかた",
+      "furigana": "あつかいかた",
+      "unitType": "word",
+      "arti": "cara penanganan (扱い方)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "扱い方"
+    },
+    "kb-qa-0296": {
+      "id": "kb-qa-0296",
+      "kanji": "あぶら",
+      "furigana": "あぶら",
+      "unitType": "word",
+      "arti": "minyak",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "油"
+    },
+    "kb-qa-0297": {
+      "id": "kb-qa-0297",
+      "kanji": "こうじょうない",
+      "furigana": "こうじょうない",
+      "unitType": "word",
+      "arti": "di dalam pabrik (工場内)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "工場内"
+    },
+    "kb-qa-0298": {
+      "id": "kb-qa-0298",
+      "kanji": "ほこり",
+      "furigana": "ほこり",
+      "unitType": "word",
+      "arti": "debu",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "埃"
+    },
+    "kb-qa-0299": {
+      "id": "kb-qa-0299",
+      "kanji": "ただしくない",
+      "furigana": "ただしくない",
+      "unitType": "inflected_adj",
+      "arti": "tidak benar",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "正しい"
+    },
+    "kb-qa-0300": {
+      "id": "kb-qa-0300",
+      "kanji": "で",
+      "furigana": "で",
+      "unitType": "particle",
+      "arti": "partikel alat / cara",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "で"
+    },
+    "kb-qa-0301": {
+      "id": "kb-qa-0301",
+      "kanji": "が",
+      "furigana": "が",
+      "unitType": "particle",
+      "arti": "partikel penanda subjek",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "が"
+    },
+    "kb-qa-0302": {
+      "id": "kb-qa-0302",
+      "kanji": "とのあいだで",
+      "furigana": "とのあいだで",
+      "unitType": "expression",
+      "arti": "di antara",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "との間で"
+    },
+    "kb-qa-0303": {
+      "id": "kb-qa-0303",
+      "kanji": "伸ばしたまま",
+      "furigana": "のばしたまま",
+      "unitType": "expression",
+      "arti": "dalam keadaan tetap meluruskan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "伸ばす"
+    },
+    "kb-qa-0304": {
+      "id": "kb-qa-0304",
+      "kanji": "取らず",
+      "furigana": "とらず",
+      "unitType": "inflected_verb",
+      "arti": "tanpa mengambil / beristirahat",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "取る"
+    },
+    "kb-qa-0305": {
+      "id": "kb-qa-0305",
+      "kanji": "カンピロバクター菌",
+      "furigana": "かんぴろばくたーきん",
+      "unitType": "compound_technical",
+      "arti": "bakteri Campylobacter",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "カンピロバクター菌"
+    },
+    "kb-qa-0306": {
+      "id": "kb-qa-0306",
+      "kanji": "おきばしょ",
+      "furigana": "おきばしょ",
+      "unitType": "noun",
+      "arti": "tempat peletakan / penyimpanan (置き場所)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "置き場所"
+    },
+    "kb-qa-0307": {
+      "id": "kb-qa-0307",
+      "kanji": "アレルギーしょくひん",
+      "furigana": "あれるぎーしょくひん",
+      "unitType": "compound_technical",
+      "arti": "makanan alergen (アレルギー食品)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "アレルギー食品"
+    },
+    "kb-qa-0308": {
+      "id": "kb-qa-0308",
+      "kanji": "にゅう",
+      "furigana": "にゅう",
+      "unitType": "noun",
+      "arti": "susu / produk susu (乳)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "乳"
+    },
+    "kb-qa-0309": {
+      "id": "kb-qa-0309",
+      "kanji": "しない",
+      "furigana": "しない",
+      "unitType": "inflected_verb",
+      "arti": "tidak melakukan",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "する"
+    },
+    "kb-qa-0310": {
+      "id": "kb-qa-0310",
+      "kanji": "けんしゅつき",
+      "furigana": "けんしゅつき",
+      "unitType": "noun",
+      "arti": "alat pendeteksi / detektor (検出器)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "検出器"
+    },
+    "kb-qa-0311": {
+      "id": "kb-qa-0311",
+      "kanji": "いぶつけんさき",
+      "furigana": "いぶつけんさき",
+      "unitType": "compound_technical",
+      "arti": "mesin pemeriksa benda asing (異物検査機)",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "異物検査機"
+    },
+    "kb-qa-0312": {
+      "id": "kb-qa-0312",
+      "kanji": "では",
+      "furigana": "では",
+      "unitType": "conjunction",
+      "arti": "lalu / kalau begitu",
+      "status": "verified",
+      "provenance": {
+        "lemmaSource": "full_package_qa_audit",
+        "furiganaSource": "full_package_qa_audit",
+        "meaningSource": "in_house_ssw_curated",
+        "lexicalLicense": "CC-BY-SA-4.0"
+      },
+      "dictForm": "では"
     }
   }
 }

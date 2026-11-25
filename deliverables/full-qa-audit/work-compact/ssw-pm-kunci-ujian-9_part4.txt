@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-9 (Soal Ujian 9 — CBTP Gino1) | Batch qa-batch-02 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=kunci-ujian-9-q013 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>日本<rt>にほん</rt></ruby>では、アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>には<ruby>何<rt>なに</rt></ruby>をしなければなりませんか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di Jepang, apa yang harus dilakukan pada produk pangan yang menggunakan bahan baku yang mengandung zat pemicu alergi (alergen)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 3, Câu 13 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-1582710] 日本(にほん) [word] = Jepang | [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-audit-0965] 使用した(しようした) [inflected_verb, df:使用する] = telah menggunakan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0376] しなければなりません(しなければなりません) [word] = harus / wajib dilakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>が<ruby>何<rt>なに</rt></ruby>であるかを<ruby>隠<rt>かく</rt></ruby>す
+    TRANS: Menyembunyikan bahan baku apa yang digunakan
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-v2-p6-372] 隠す(かくす) [word] = menyembunyikan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>が<ruby>使用<rt>しよう</rt></ruby>されていることを<ruby>表示<rt>ひょうじ</rt></ruby>する
+    TRANS: Mencantumkan pada label bahwa bahan baku tersebut digunakan
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0126] 使用(しよう) [noun] = penggunaan | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=それらの<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>販売<rt>はんばい</rt></ruby>しない
+    TRANS: Tidak menjual produk pangan tersebut
+    KOTOBA: [kb-audit-1079] それら(それら) [word] = hal-hal / benda-benda itu | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1481800] 販売(はんばい) [word] = penjualan | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q14 | ID=kunci-ujian-9-q014 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.3 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:C] Potential doubled/colliding particle
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPでたいしょうとするけんこうきがいとして、ただしくないものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang tidak benar mengenai bahaya kesehatan (faktor bahaya) yang menjadi target dalam HACCP.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 3, Câu 14 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-audit-0824] たいしょう(たいしょう) [word] = sasaran / target | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-audit-1071] けんこうきがい(けんこうきがい) [technical] = bahaya kesehatan (健康危害) | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-audit-0334] ただしく(ただしく) [inflected_adj, df:正しい] = dengan benar (正しく) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=しょくちゅうどくきん
+    TRANS: Bakteri penyebab keracunan makanan
+    KOTOBA: [kb-latsol-616f219e2d] しょくちゅうどくきん(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan
+  OPT B: HTML=きかいのこしょう
+    TRANS: Kerusakan mesin
+    KOTOBA: [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0726] こしょう(こしょう) [word] = kerusakan mesin | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=せんじょうざいやのうやくなどをあやまってつかい、しょくひんにこんにゅうしたり、じこをはっせいする。
+    TRANS: Kesalahan penggunaan bahan pembersih atau pestisida sehingga menyebabkan kontaminasi pada pangan atau menimbulkan kecelakaan.
+    KOTOBA: [kb-latsol-2d34f08d9e] せんじょうざい(せんじょうざい) [word] = deterjen / cairan pembersih | [kb-audit-0892] のうやく(のうやく) [word] = pestisida / obat pertanian | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-audit-0825] あやまって(あやまって) [inflected_verb, df:誤る] = secara keliru / tak sengaja | [kb-audit-0826] つかい(つかい) [inflected_verb, df:使う] = menggunakan | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-0580] こんにゅうしたり(こんにゅうしたり) [inflected_verb, df:混入する] = tercampur benda asing, dll. | [kb-audit-0646] じこ(じこ) [word] = kecelakaan / insiden | [kb-audit-0633] はっせい(はっせい) [word] = timbul / terjadi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q15 | ID=kunci-ujian-9-q015 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.3 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPにそったえいせいかんりじゅうようかんりてん(CCP)をおこなううえで、まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah dalam melaksanakan Titik Kendali Kritis (CCP) pada manajemen higiene berdasarkan HACCP.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 3, Câu 15 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-audit-0827] そった(そった) [inflected_verb, df:沿う] = sesuai dengan / mengikuti | [kb-v2-p6-588] えいせいかんり(-) [technical] = manajemen kebersihan / sanitasi | [kb-latsol-cffe9fb222] じゅうようかんりてん(じゅうようかんりてん) [word] = titik kendali kritis (CCP) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-091] うえ(-) [word] = atas | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=モニターけっかをしる
+    TRANS: Mengetahui hasil pemantauan (monitoring)
+    KOTOBA: [kb-v2-p6-513] モニター(-) [word] = monitor / pemantauan | [kb-v2-p6-331] けっか(-) [word] = hasil (bacaan 結果) | [kb-audit-0871] しる(しる) [word] = mengetahui / mengenal | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=かんりきじゅんのせっていちをしる
+    TRANS: Mengetahui nilai yang ditetapkan pada batas kritis (standar manajemen)
+    KOTOBA: [kb-latsol-aeca04f44f] かんりきじゅん(かんりきじゅん) [word] = batas kritis (Critical Limit) | [kb-audit-1155] せっていち(せっていち) [technical] = nilai pengaturan (設定値) | [kb-audit-0871] しる(しる) [word] = mengetahui / mengenal | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=じゅうようかんりてんをかんしする
+    TRANS: Mengabaikan (tidak memantau) Titik Kendali Kritis (CCP)
+    KOTOBA: [kb-latsol-cffe9fb222] じゅうようかんりてん(じゅうようかんりてん) [word] = titik kendali kritis (CCP) | [kb-audit-0146] かんし(かんし) [word] = pemantauan / pengawasan (監視) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q16 | ID=kunci-ujian-9-q016 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.3 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 繰
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ろうどうあんぜんえいせいをおこなううえで、もっともよいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu tindakan yang paling tepat dalam melaksanakan keselamatan dan kesehatan kerja (K3).
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 3, Câu 16 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-1069] ろうどうあんぜんえいせい(ろうどうあんぜんえいせい) [technical] = keselamatan & kesehatan kerja | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-091] うえ(-) [word] = atas | [kb-otaff51-1258] もっと(もっと) [adverb] = lebih banyak / lebih lagi | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT A: HTML=さぎょうてじゅんを繰りかえしれんしゅうし、なれによるけがにちゅういし、かるはずみなどうさやごういんなどうさをしない。
+    TRANS: Berlatih prosedur kerja secara berulang-ulang, berhati-hati terhadap cedera akibat terlalu terbiasa (lengah), serta tidak melakukan gerakan gegabah atau memaksakan diri.
+    KOTOBA: [kb-audit-0220] さぎょう(さぎょう) [word] = pekerjaan / pengerjaan (作業) | [kb-v2-p6-332] てじゅん(-) [word] = prosedur (bacaan 手順) | [kb-v2-p6-514] 繰りかえし(くりかえし) [word] = berulang kali | [kb-audit-1034] れんしゅうし(れんしゅうし) [inflected_verb, df:練習する] = berlatih (練習する) | [kb-audit-1147] なれ(なれ) [word] = terlalu terbiasa / lengah (慣れ) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-audit-0915] けが(けが) [word] = luka / cedera | [kb-audit-0952] ちゅういし(ちゅういし) [inflected_verb, df:注意する] = memperhatikan / berhati-hati | [kb-audit-0828] かるはずみな(かるはずみな) [adjective] = gegabah / ceroboh | [kb-audit-0780] どうさ(どうさ) [word] = gerakan / tindakan | [kb-audit-0829] ごういんな(ごういんな) [adjective] = memaksa / ceroboh | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT B: HTML=タオルやてぬぐいをくびにまいて、しごとする。
+    TRANS: Melilitkan handuk atau kain lap di leher saat bekerja.
+    KOTOBA: [kb-v2-p2-087] タオル(-) [word] = handuk | [kb-audit-0336] てぬぐい(てぬぐい) [word] = handuk kecil / kain lap (手拭い) | [kb-audit-0830] くび(くび) [word] = leher | [kb-otaff51-1108] まいて(まいて) [inflected_verb, df:まく] = menebarkan / menyiram | [kb-audit-1048] しごとする(しごとする) [inflected_verb, df:仕事する] = bekerja (仕事する) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=かもしれないはそうていなので、いしきしなくてもよい。
+    TRANS: Kemungkinan bahaya ("mungkin saja terjadi") hanyalah asumsi, sehingga tidak perlu disadari.
+    KOTOBA: [kb-v2-p2-034] かもしれない(-) [expression] = mungkin / bisa jadi | [kb-audit-0831] そうてい(そうてい) [word] = dugaan / skenario | [kb-v2-p2-275] なので(-) [particle] = karena (kata benda) | [kb-audit-0832] いしき(いしき) [word] = kesadaran / perhatian | [kb-v2-p2-203] しなくても(-) [inflected, df:する] = meskipun tidak melakukan | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik

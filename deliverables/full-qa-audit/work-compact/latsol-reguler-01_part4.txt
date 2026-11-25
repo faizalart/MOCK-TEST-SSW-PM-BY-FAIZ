@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-01 (Latsol Reguler 01) | Batch qa-batch-09 | Part 4 (Q13-16 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=reguler01-q013 | KEY=C (idx=2) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)" || [PRIOR_KEY_AUDIT_REVIEW_REQUIRED@question] Pertanyaan menanyakan makanan yang mudah ditumbuhi mikroorganisme antara A (鶏肉), B (豚肉), dan C (魚). Secara ilmiah ketiganya memiliki kadar air dan nutrisi tinggi, namun kunci PDF memilih C (魚) merujuk pada penjelasan bahwa ikan memiliki aktivitas air tinggi dan lebih cepat mengalami pembusukan mikroba dibanding daging ternak. Kunci C dipertahankan.
+  PRIOR_KEY_AUDIT: REVIEW_REQUIRED | Pertanyaan menanyakan makanan yang mudah ditumbuhi mikroorganisme antara A (鶏肉), B (豚肉), dan C (魚). Secara ilmiah ketiganya memiliki kadar air dan nutrisi tinggi, namun kunci PDF memilih C (魚) merujuk pada penjelasan bahwa ikan memiliki aktivitas air tinggi dan lebih cepat mengalami pembusukan mikroba dibanding daging ternak. Kunci C dipertahankan.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>しやすい<ruby>食品<rt>しょくひん</rt></ruby>はなんの<ruby>食品<rt>しょくひん</rt></ruby>ですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan apakah yang mudah ditumbuhi (dikembangbiakkan) oleh mikroorganisme? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 4, nomor 13. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0985] 増殖しやすい(ぞうしょくしやすい) [inflected_adj, df:増殖しやすい] = mudah berkembang biak | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-audit-0916] なん(なん) [word] = apa / berapa | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>鶏肉<rt>とりにく</rt></ruby>
+    TRANS: Daging ayam
+    KOTOBA: [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam
+  OPT B: HTML=<ruby>豚肉<rt>ぶたにく</rt></ruby>
+    TRANS: Daging babi
+    KOTOBA: [kb-otaff51-0578] 豚肉(ぶたにく) [noun] = daging babi
+  OPT C: HTML=<ruby>魚<rt>さかな</rt></ruby>
+    TRANS: Ikan
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan
+
+=== #Q14 | ID=reguler01-q014 | KEY=B (idx=1) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="カビを殺すために方法はどうですか。。ただしものをひとつえらびなさい" vs questionText="カビを殺すために方方はどうですか。。ただしものをひとつえらびなさい" || [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)" || [PRIOR_KEY_AUDIT_QUESTION_DEFECTIVE@question] Teks pertanyaan pada PDF sumber (カビを殺すために方方はどうですか) cacat secara redaksional karena menggunakan kata 殺す (membunuh), sedangkan kunci PDF adalah B (冷却します / mendinginkan). Secara ilmiah pendinginan hanya menghambat pertumbuhan kapang (増やさない), bukan membunuhnya. Sesuai aturan QA untuk soal cacat redaksional sumber, kunci B dipertahankan dan ditandai sebagai QUESTION_DEFECTIVE.
+  PRIOR_KEY_AUDIT: QUESTION_DEFECTIVE | Teks pertanyaan pada PDF sumber (カビを殺すために方方はどうですか) cacat secara redaksional karena menggunakan kata 殺す (membunuh), sedangkan kunci PDF adalah B (冷却します / mendinginkan). Secara ilmiah pendinginan hanya menghambat pertumbuhan kapang (増やさない), bukan membunuhnya. Sesuai aturan QA untuk soal cacat redaksional sumber, kunci B dipertahankan dan ditandai sebagai QUESTION_DEFECTIVE.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カビを<ruby>殺<rt>ころ</rt></ruby>すために<ruby>方法<rt>ほうほう</rt></ruby>はどうですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: カビを殺すために方方はどうですか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Bagaimana metode yang digunakan terkait jamur/kapang pada soal ini? Pilihlah satu jawaban sesuai kunci.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 4, nomor 14. Bobot: 7.5 poin. Kunci jawaban: B. Catatan QA: Teks asli menulis カビを殺すために方方はどうですか dengan kunci jawaban B (冷却します — mencegah pertumbuhan kapang dengan suhu rendah).
+  KOTOBA_PROMPT: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>加熱<rt>かねつ</rt></ruby>します
+    TRANS: Memanaskan
+    KOTOBA: [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=<ruby>冷却<rt>れいきゃく</rt></ruby>します
+    TRANS: Mendinginkan
+    KOTOBA: [kb-otaff51-0162] 冷却(れいきゃく) [noun] = pendinginan setelah pemanasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=<ruby>破壊<rt>はかい</rt></ruby>します
+    TRANS: Menghancurkan
+    KOTOBA: [kb-1471250] 破壊(はかい) [word] = kerusakan / perusakan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+
+=== #Q15 | ID=reguler01-q015 | KEY=B (idx=1) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("10℃ 60℃あいだで") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>はなんど°<ruby>間<rt>あいだ</rt></ruby>でぞうしょくしますか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada rentang suhu berapa derajat mikroorganisme berkembang biak? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 4, nomor 15. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0760] なんど(なんど) [word] = berapa derajat | [kb-v2-p2-104] 間(あいだ) [word] = antara / sela-sela | [kb-audit-0093] ぞうしょく(ぞうしょく) [word] = perkembangbiakan bakteri (増殖) | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=30℃ -40℃ あいだで
+    TRANS: Di antara 30°C - 40°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-audit-0149] あいだ(あいだ) [word] = di antara / selama rentang
+  OPT B: HTML=10℃ 60℃あいだで
+    TRANS: Di antara 10°C - 60°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-audit-0149] あいだ(あいだ) [word] = di antara / selama rentang
+  OPT C: HTML=10℃ -40℃ あいだで
+    TRANS: Di antara 10°C - 40°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-audit-0149] あいだ(あいだ) [word] = di antara / selama rentang
+
+=== #Q16 | ID=reguler01-q016 | KEY=B (idx=1) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("食肉、牛肉、井戸水") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby> <ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan manakah yang mudah menjadi penyebab keracunan Enterohemorrhagic Escherichia coli (EHEC)? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 4, nomor 16. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0525] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [compound_technical] = bakteri E. coli enterohemoragik (O157, O111) | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、<ruby>井戸水<rt>いどみず</rt></ruby>
+    TRANS: Daging, daging ayam, air sumur
+    KOTOBA: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-otaff51-0108] 井戸水(いどみず) [noun] = air sumur
+  OPT B: HTML=<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、<ruby>井戸水<rt>いどみず</rt></ruby>
+    TRANS: Daging, daging sapi, air sumur
+    KOTOBA: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi | [kb-otaff51-0108] 井戸水(いどみず) [noun] = air sumur
+  OPT C: HTML=<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、<ruby>鶏卵<rt>けいらん</rt></ruby>
+    TRANS: Daging, daging sapi, telur ayam
+    KOTOBA: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi | [kb-otaff51-0684] 鶏卵(けいらん) [noun] = telur ayam

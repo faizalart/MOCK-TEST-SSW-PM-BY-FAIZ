@@ -1,0 +1,75 @@
+# AUDIT SHEET: ssw-pm-tipe2-nguyen1 (Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1) | Batch qa-batch-04 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=q017 | KEY=C (idx=2) | CAT= | SRC=SSW NGUYEN 1.pdf p.16 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 働, 経験, 長, 人, 働, 経験, 少, 人, 労働災害, 起, 理由, 何, 正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "17" missing in ID "Apa alasan orang yang memiliki sedikit pengalaman kerja lebih rentan mengalami k" || [KANJI_WITHOUT_RUBY@opt:A] 危険, 作業, 担当, 多 || [KANJI_WITHOUT_RUBY@opt:B] 年齢, 若, 作業時間, 長, 人, 多 || [KANJI_WITHOUT_RUBY@opt:C] 作業, 慣, 危険, 気, 付
+  CLUSTER CL-0017 (n=8, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q018 (ssw-pm-kunci-ujian-1), bonus-soal-1-q018 (bonus-soal-1), bonus-soal-7-q018 (bonus-soal-7), bonus-soal-10-q024 (bonus-soal-10), nguyen01-q018 (latsol-nguyen-01), nguyen07-q018 (latsol-nguyen-07), nguyen10-q019 (latsol-nguyen-10)
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 17. 働く経験が長い人よりも、働く経験が少ない人のほうが労働災害が起こりやすい理由は何ですか。正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa alasan orang yang memiliki sedikit pengalaman kerja lebih rentan mengalami kecelakaan kerja dibandingkan orang yang memiliki pengalaman kerja yang lama? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Bukti PDF (Halaman 16): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (作業に慣れていないために、危険になかなか気が付きにくいから).
+  KOTOBA_PROMPT: [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-1251270] 経験(けいけん) [word] = pengalaman | [kb-v2-p1-250] 長い(ながい) [word] = panjang / lama | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-322] よりも(-) [particle] = dibandingkan dengan | [kb-v2-p1-251] 少ない(すくない) [word] = sedikit | [kb-v2-p1-293] のほう(-) [expression] = lebih (perbandingan) | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-v2-p4-171] 起こりやすい(おこりやすい) [inflected, df:起こる] = mudah terjadi | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=危険な作業を担当することが多いから
+    TRANS: Karena sering ditugaskan pada pekerjaan yang berbahaya
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1418160] 担当(たんとう) [word] = penanggung jawab / tugas | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=年齢が若く、作業時間が長い人が多いから
+    TRANS: Karena banyak yang berusia muda dan memiliki jam kerja yang panjang
+    KOTOBA: [kb-1600240] 年齢(ねんれい) [word] = usia | [kb-v2-p1-182] 若く(わかく) [inflected_adj, df:若い] = muda (dasar: 若い) | [kb-1936050] 作業時間(さぎょうじかん) [compound_technical] = jam kerja | [kb-v2-p1-250] 長い(ながい) [word] = panjang / lama | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=作業に慣れていないために、危険になかなか気が付きにくいから
+    TRANS: Karena belum terbiasa dengan pekerjaan sehingga sulit menyadari adanya bahaya
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-131] 慣れていない(なれていない) [inflected_verb, df:慣れる] = belum terbiasa (dasar: 慣れる) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-audit-0165] なかなか(なかなか) [word] = tidak mudah / sulit (dengan negatif) | [kb-v2-p1-104] 気が付きにくい(きがつきにくい) [expression] = sulit disadari | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q18 | ID=q018 | KEY=A (idx=0) | CAT= | SRC=SSW NGUYEN 1.pdf p.17 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 危害要因, 分析, 製造, 食品, 危害要因, 含, 管理, 必要, 判断, 原則, 正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "18" missing in ID "Prinsip apakah "Menganalisis faktor bahaya dan menentukan manajemen seperti apa " || [KANJI_WITHOUT_RUBY@opt:A] 危害要因分析, 分析 || [KANJI_WITHOUT_RUBY@opt:B] 重要管理点, 決定 || [KANJI_WITHOUT_RUBY@opt:C] 管理基準, 設定
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 18. 「危害要因を分析して、製造しようとする食品に危害要因が含まれないようにするために、どのような管理が必要かを判断します」はどんな原則ですか。正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Prinsip apakah "Menganalisis faktor bahaya dan menentukan manajemen seperti apa yang diperlukan agar produk pangan yang akan diproduksi tidak mengandung faktor bahaya"? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Bukti PDF (Halaman 17): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (危害要因分析（ハザード分析）).
+  KOTOBA_PROMPT: [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-audit-0991] 分析して(ぶんせきして) [inflected_verb, df:分析する] = menganalisis (~て) | [kb-audit-1005] 製造しようとする(せいぞうしようとする) [expression] = berusaha memproduksi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0764] 含まれない(ふくまれない) [inflected_verb, df:含む] = tidak termasuk | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-audit-1001] 判断します(はんだんします) [inflected_verb, df:判断する] = memutuskan (sopan) | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=危害要因分析（ハザード分析）
+    TRANS: Analisis bahaya (Hazard Analysis)
+    KOTOBA: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-otaff51-0063] ハザード分析(はざーどぶんせき) [compound_technical] = analisis bahaya (hazard analysis)
+  OPT B: HTML=重要管理点の決定
+    TRANS: Penentuan titik kendali kritis (CCP)
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-1254380] 決定(けってい) [word] = penetapan / keputusan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=管理基準の設定
+    TRANS: Penetapan batas kritis (standar manajemen)
+    KOTOBA: [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-1386060] 設定(せってい) [word] = penetapan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q19 | ID=q019 | KEY=B (idx=1) | CAT= | SRC=SSW NGUYEN 1.pdf p.18 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 穀類加工品, 小麦粉, 何度, 保管, 正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "19" missing in ID "Produk olahan biji-bijian/serealia (tepung terigu, pati) sebaiknya disimpan pada" || [KANJI_WITHOUT_RUBY@opt:A] 以下 || [KANJI_WITHOUT_RUBY@opt:B] 室温 || [KANJI_WITHOUT_RUBY@opt:C] 以下
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 19. 穀類加工品（小麦粉、デンプン）は何度で保管すればいいですか。正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Produk olahan biji-bijian/serealia (tepung terigu, pati) sebaiknya disimpan pada suhu berapa derajat? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Bukti PDF (Halaman 18): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (室温).
+  KOTOBA_PROMPT: [kb-ext-0582-e7a980e9a1] 穀類加工品(こくるいかこうひん) [word] = Produk olahan kelompok biji-bijian | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p3-063] デンプン(-) [word] = pati / tepung kanji | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-v2-p2-216] 保管すれば(ほかんすれば) [inflected, df:保管する] = jika disimpan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=10℃以下
+    TRANS: 10°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=室温
+    TRANS: Suhu ruang
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang
+  OPT C: HTML=30℃以下
+    TRANS: 30°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q20 | ID=q020 | KEY=B (idx=1) | CAT= | SRC=SSW NGUYEN 1.pdf p.19 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 危害要因, 説明, 間違, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "20" missing in ID "Pilihlah satu jawaban yang salah mengenai penjelasan faktor bahaya." || [KANJI_WITHOUT_RUBY@opt:A] 虫, 髪, 毛, 紙片, 異物, 硬質異物, 言, 口, 中, 傷, 物理的危害 || [KANJI_WITHOUT_RUBY@opt:B] 線異物検出器, 見, 物理的危害 || [KANJI_WITHOUT_RUBY@opt:C] 作業服, 着, 後, 粘着, 利用, 異物混入, 対策 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-v2-p4-068 (粘着ローラ): "rol perekat (typo: ローラー)"
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 20. 危害要因の説明について、間違っているものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai penjelasan faktor bahaya.
+  EXPLANATION: Bukti PDF (Halaman 19): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (プラスチックは X線異物検出器では見つけることができないため、物理的危害ではありません。).
+  KOTOBA_PROMPT: [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-otaff51-0573] 説明(せつめい) [noun] = penjelasan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=虫や髪の毛、紙片のようにかたくない異物は、硬質異物と言わず、口の中やのどに傷ができることはないので、物理的危害ではありません。
+    TRANS: Benda asing yang tidak keras seperti serangga, rambut, dan potongan kertas tidak disebut benda asing keras dan tidak melukai bagian dalam mulut atau tenggorokan, sehingga bukan merupakan bahaya fisik.
+    KOTOBA: [kb-v2-p4-111] 虫(むし) [word] = serangga / hama | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-otaff51-0492] 紙片(しへん) [noun] = sobekan kertas | [kb-v2-p1-327] ように(-) [particle] = agar / supaya | [kb-audit-1082] かたくない(かたくない) [inflected_adj, df:硬い] = tidak keras (硬い) | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-otaff51-0470] 硬質異物(こうしついぶつ) [compound_technical] = benda asing keras | [kb-v2-p4-155] 言わず(いわず) [inflected, df:言う] = tanpa mengatakan | [kb-otaff51-0226] 口(くち) [noun] = mulut | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-audit-0703] のど(のど) [word] = tenggorokan | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-1502820] 物理的(ぶつりてき) [word] = secara fisik | [kb-1218440] 危害(きがい) [word] = bahaya | [kb-audit-0366] ありません(ありません) [inflected_verb, df:ある] = tidak ada (sopan) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=プラスチックは X線異物検出器では見つけることができないため、物理的危害ではありません。
+    TRANS: Plastik tidak dapat ditemukan oleh alat pendeteksi benda asing sinar-X (X-ray), sehingga bukan merupakan bahaya fisik.
+    KOTOBA: [kb-v2-p4-072] プラスチック(-) [word] = plastik | [kb-ext-0003-58e7b79ae7] X線異物検出器(せんいぶつけんしゅつき) [word] = detektor benda asing sinar-X | [kb-v2-p2-165] 見つける(みつける) [word] = menemukan | [kb-audit-0468] ことができ(ことができ) [expression, df:できる] = dapat / bisa dilakukan | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1502820] 物理的(ぶつりてき) [word] = secara fisik | [kb-1218440] 危害(きがい) [word] = bahaya | [kb-audit-0366] ありません(ありません) [inflected_verb, df:ある] = tidak ada (sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=作業服を着た後、粘着ローラ、またエアシャワーを利用して、異物混入の対策です。
+    TRANS: Menggunakan rol perekat dan air shower setelah mengenakan pakaian kerja merupakan langkah pencegahan kontaminasi benda asing.
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p4-179] 着た(きた) [inflected, df:着る] = memakai (lampau) | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-v2-p4-068] 粘着ローラ(ねんちゃくろーらー) [compound_technical] = rol perekat (typo: ローラー) | [kb-v2-p2-238] また(-) [word] = lagi / kembali | [kb-v2-p4-069] エアシャワー(-) [technical] = air shower (bilik hembus udara) | [kb-v2-p4-097] 利用(りよう) [word] = pemanfaatan / penggunaan | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-otaff51-0451] 異物混入(いぶつこんにゅう) [compound_technical] = kontaminasi / masuknya benda asing | [kb-otaff51-0278] 対策(たいさく) [noun] = tindakan pencegahan / penanggulangan | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung

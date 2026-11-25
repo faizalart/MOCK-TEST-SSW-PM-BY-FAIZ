@@ -1,0 +1,87 @@
+# AUDIT SHEET: ssw-pm-lab-suhu (保存温度・温度管理 (Temperature Lab)) | Batch qa-batch-06 | Part 3 (Q9-12 of 28)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=lab-temp-009 | KEY=C (idx=2) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-1355850 "場所": kotoba="ばしょ" vs ruby="ばじょ"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>液状油脂<rt>えきじょうゆし</rt></ruby>（サラダ<ruby>油<rt>あぶら</rt></ruby>、<ruby>大豆油<rt>だいずゆ</rt></ruby>などの<ruby>植物油<rt>しょくぶつゆ</rt></ruby>）」の<ruby>保管場所<rt>ほかんばしょ</rt></ruby>・<ruby>温度<rt>おんど</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah lokasi dan suhu penyimpanan yang paling tepat untuk 'minyak/lemak cair (seperti minyak kedelai, minyak salad)'.
+  EXPLANATION: 【正解：C (室温)】
+サラダ油などの液状油脂は「室温」で保存します。冷蔵庫に入れると白く結晶化して固まることがあります。一方、固形油脂（ラードやマーガリン等）は「10℃以下」です。
+  KOTOBA_PROMPT: [kb-otaff51-0396] 液状油脂(えきじょうゆし) [compound_technical] = minyak/lemak cair | [kb-v2-p3-062] サラダ油(さらだあぶら) [word] = minyak goreng sayur | [kb-1785750] 大豆油(だいずゆ) [word] = minyak kedelai | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1788490] 植物油(しょくぶつゆ) [word] = minyak nabati | [kb-otaff51-0133] 保管場所(ほかんばしょ) [compound_technical] = tempat penyimpanan | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=10℃<ruby>以下<rt>いか</rt></ruby>の<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>
+    TRANS: Kulkas/refrigerator 10℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=5℃<ruby>以下<rt>いか</rt></ruby>のチルド<ruby>室<rt>しつ</rt></ruby>
+    TRANS: Ruang chilled 5℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p3-044] チルド室(ちるどしつ) [compound_technical] = ruang pendingin (chilled) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>室温<rt>しつおん</rt></ruby>（<ruby>直射日光<rt>ちょくしゃにっこう</rt></ruby>や<ruby>高温多湿<rt>こうおんたしつ</rt></ruby>を<ruby>避<rt>さ</rt></ruby>けた<ruby>場所<rt>ばじょ</rt></ruby>）
+    TRANS: Suhu ruang (tempat terhindar dari sinar matahari langsung dan kelembapan tinggi)
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-1894110] 直射日光(ちょくしゃにっこう) [word] = sinar matahari langsung | [kb-otaff51-0676] 高温多湿(こうおんたしつ) [compound_technical] = suhu tinggi dan kelembapan tinggi | [kb-v2-p3-270] 避けた(さけた) [inflected, df:避ける] = yang dihindari | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT D: HTML=−18℃<ruby>以下<rt>いか</rt></ruby>の<ruby>冷凍庫<rt>れいとうこ</rt></ruby>
+    TRANS: Freezer −18℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q10 | ID=lab-temp-010 | KEY=D (idx=3) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>油脂類<rt>ゆしるい</rt></ruby>の<ruby>保存温度<rt>ほぞんおんど</rt></ruby>の<ruby>区別<rt>くべつ</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しい<ruby>記述<rt>きじゅつ</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang benar mengenai perbedaan suhu penyimpanan untuk kelompok minyak dan lemak.
+  EXPLANATION: 【正解：D】
+油脂類は形状によって保存温度が異なります。液状油脂は室温保存ですが、固形油脂（ラード、マーガリン、ショートニングなど）は溶融や変質を防ぐため10℃以下で保存します。
+  KOTOBA_PROMPT: [kb-ext-1712-e6b2b9e884] 油脂類(ゆしるい) [word] = Kelompok bahan minyak dan lemak pangan | [kb-ext-1622-e4bf9de5ad] 保存温度(ほぞんおんど) [word] = suhu penyimpanan | [kb-otaff51-0210] 区別(くべつ) [noun] = pembedaan / pemisahan penggunaan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-1223280] 記述(きじゅつ) [word] = uraian / pernyataan tertulis | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>液状油脂<rt>えきじょうゆし</rt></ruby>は「10℃<ruby>以下<rt>いか</rt></ruby>」、<ruby>固形油脂<rt>こけいゆし</rt></ruby>は「<ruby>室温<rt>しつおん</rt></ruby>」で<ruby>保存<rt>ほぞん</rt></ruby>する。
+    TRANS: Minyak cair disimpan pada '10℃ atau lebih rendah', sedangkan lemak padat pada 'suhu ruang'.
+    KOTOBA: [kb-otaff51-0396] 液状油脂(えきじょうゆし) [compound_technical] = minyak/lemak cair | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0238] 固形油脂(こけいゆし) [compound_technical] = lemak padat (lard, margarin, shortening) | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=どちらの<ruby>油脂<rt>ゆし</rt></ruby>もすべて「−18℃<ruby>以下<rt>いか</rt></ruby>」で<ruby>凍結<rt>とうけつ</rt></ruby><ruby>保存<rt>ほぞん</rt></ruby>しなければならない。
+    TRANS: Kedua jenis lemak tersebut harus dibekukan pada suhu '−18℃ atau lebih rendah'.
+    KOTOBA: [kb-v2-p3-129] どちら(-) [word] = yang mana (dari dua) | [kb-1538670] 油脂(ゆし) [word] = minyak dan lemak pangan | [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-101] しなければならない(-) [expression] = harus dilakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=どちらの<ruby>油脂<rt>ゆし</rt></ruby>もすべて「15℃<ruby>以下<rt>いか</rt></ruby>」で<ruby>保存<rt>ほぞん</rt></ruby>する。
+    TRANS: Kedua jenis lemak tersebut semuanya disimpan pada '15℃ atau lebih rendah'.
+    KOTOBA: [kb-v2-p3-129] どちら(-) [word] = yang mana (dari dua) | [kb-1538670] 油脂(ゆし) [word] = minyak dan lemak pangan | [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT D: HTML=<ruby>液状油脂<rt>えきじょうゆし</rt></ruby>は「<ruby>室温<rt>しつおん</rt></ruby>」、<ruby>固形油脂<rt>こけいゆし</rt></ruby>（ラード、マーガリンなど）は「10℃<ruby>以下<rt>いか</rt></ruby>」で<ruby>保存<rt>ほぞん</rt></ruby>する。
+    TRANS: Minyak cair disimpan pada 'suhu ruang', sedangkan lemak padat (lard, margarin, dll.) pada '10℃ atau lebih rendah'.
+    KOTOBA: [kb-otaff51-0396] 液状油脂(えきじょうゆし) [compound_technical] = minyak/lemak cair | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-otaff51-0238] 固形油脂(こけいゆし) [compound_technical] = lemak padat (lard, margarin, shortening) | [kb-v2-p3-059] ラード(-) [word] = lemak babi (lard) | [kb-v2-p3-060] マーガリン(-) [word] = margarin | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q11 | ID=lab-temp-011 | KEY=A (idx=0) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>乳製品<rt>にゅうせいひん</rt></ruby>のうち、「バター、チーズ、<ruby>加糖練乳<rt>かとうれんにゅう</rt></ruby>」の<ruby>保存温度基準<rt>ほぞんおんどきじゅん</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara produk olahan susu, pilihlah standar suhu penyimpanan yang benar untuk 'mentega, keju, dan susu kental manis (rennyu)'.
+  EXPLANATION: 【正解：A (15℃以下)】
+バター、チーズ、練乳は「15℃以下」の冷暗所・冷蔵庫で保存します。牛乳や濃縮乳、生クリーム（10℃以下）と温度区分が分かれています。
+  KOTOBA_PROMPT: [kb-1465260] 乳製品(にゅうせいひん) [word] = produk olahan susu | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-v2-p3-058] バター(-) [word] = mentega | [kb-v2-p3-057] チーズ(-) [word] = keju | [kb-1974520] 加糖練乳(かとうれんにゅう) [word] = susu kental manis | [kb-ext-1623-e4bf9de5ad] 保存温度基準(ほぞんおんどきじゅん) [word] = standar suhu penyimpanan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 15℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 10℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=5℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 5℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT D: HTML=<ruby>室温<rt>しつおん</rt></ruby>（30℃<ruby>以下<rt>いか</rt></ruby>）
+    TRANS: Suhu ruang (30℃ atau lebih rendah)
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q12 | ID=lab-temp-012 | KEY=B (idx=1) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>生鮮果実<rt>せいせんかじつ</rt></ruby>および<ruby>野菜<rt>やさい</rt></ruby>の<ruby>保管管理<rt>ほかんかんり</rt></ruby>に<ruby>関<rt>かん</rt></ruby>する<ruby>記述<rt>きじゅつ</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang paling tepat mengenai pengelolaan penyimpanan buah dan sayuran segar.
+  EXPLANATION: 【正解：B (10℃前後)】
+青果物（野菜・果物）は生きているため、冷やしすぎると表面の変色や陥没などの「低温障害」が発生します。そのため「10℃前後」での保管が適切とされています。
+  KOTOBA_PROMPT: [kb-otaff51-0444] 生鮮果実(せいせんかじつ) [compound_technical] = buah-buahan segar | [kb-v2-p3-128] および(-) [particle] = serta / dan | [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-ext-1609-e4bf9de7ae] 保管管理(ほかんかんり) [word] = manajemen penyimpanan | [kb-v2-p3-195] 関する(かんする) [word] = terkait dengan | [kb-1223280] 記述(きじゅつ) [word] = uraian / pernyataan tertulis | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>細菌<rt>さいきん</rt></ruby>を<ruby>殺菌<rt>さっきん</rt></ruby>するため、<ruby>必<rt>かなら</rt></ruby>ず「−18℃<ruby>以下<rt>いか</rt></ruby>」で<ruby>完全<rt>かんぜん</rt></ruby>に<ruby>凍結<rt>とうけつ</rt></ruby>させる。
+    TRANS: Pasti membekukan total pada '−18℃ atau lebih rendah' untuk membunuh bakteri.
+    KOTOBA: [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-1211510] 完全(かんぜん) [word] = sempurna / menyeluruh | [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan | [kb-audit-0458] させる(させる) [inflected_verb, df:する] = membuat jadi / menyebabkan (kausatif) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>過冷却<rt>かれいきゃく</rt></ruby>による<ruby>低温障害<rt>ていおんしょうがい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため、「10℃<ruby>前後<rt>ぜんご</rt></ruby>」で<ruby>温度管理<rt>おんどかんり</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う。
+    TRANS: Melakukan pengendalian suhu pada 'sekitar 10℃' untuk mencegah chilling injury akibat terlalu dingin.
+    KOTOBA: [kb-1975880] 過冷却(かれいきゃく) [word] = pendinginan lewat jenuh | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-ext-1286-e4bd8ee6b8] 低温障害(ていおんしょうがい) [word] = kerusakan akibat terlalu dingin | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0187] 前後(ぜんご) [noun] = sekitar / kurang lebih | [kb-otaff51-0406] 温度管理(おんどかんり) [compound_technical] = pengendalian suhu | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>腐敗<rt>ふはい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため、<ruby>常<rt>つね</rt></ruby>に「0℃<ruby>以下<rt>いか</rt></ruby>」を<ruby>保<rt>たも</rt></ruby>たなければならない。
+    TRANS: Harus selalu menjaga '0℃ atau lebih rendah' untuk mencegah pembusukan.
+    KOTOBA: [kb-otaff51-0519] 腐敗(ふはい) [noun] = pembusukan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-284] 常に(つねに) [word] = selalu | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p3-272] 保た(たもた) [inflected, df:保つ] = menjaga (negatif/wajib) | [kb-audit-0375] なければ(なければ) [word] = jika tidak (syarat wajib) | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT D: HTML=<ruby>温度管理<rt>おんどかんり</rt></ruby>は<ruby>不要<rt>ふよう</rt></ruby>で、<ruby>直射日光<rt>ちょくしゃにっこう</rt></ruby>の<ruby>当<rt>あ</rt></ruby>たる<ruby>野外<rt>やがい</rt></ruby>の<ruby>室温<rt>しつおん</rt></ruby>に<ruby>放置<rt>ほうち</rt></ruby>してよい。
+    TRANS: Tidak memerlukan kontrol suhu dan boleh dibiarkan di suhu ruang terbuka kena sinar matahari.
+    KOTOBA: [kb-otaff51-0406] 温度管理(おんどかんり) [compound_technical] = pengendalian suhu | [kb-1602900] 不要(ふよう) [word] = tidak diperlukan | [kb-1894110] 直射日光(ちょくしゃにっこう) [word] = sinar matahari langsung | [kb-v2-p3-273] 当たる(あたる) [word] = terkena (sinar matahari) | [kb-1537270] 野外(やがい) [word] = Luar ruangan terbuka | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-audit-0944] 放置してよい(ほうちしてよい) [expression] = boleh membiarkan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

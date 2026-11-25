@@ -1,0 +1,77 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-7 (Soal Ujian 7 — CBTP Gino1) | Batch qa-batch-02 | Part 9 (Q33-36 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q33 | ID=kunci-ujian-7-q033 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.6 ===
+  CLUSTER CL-0035 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q040 (ssw-pm-kunci-ujian-1)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>カバーのないスライサーで<ruby>肉<rt>にく</rt></ruby>を<ruby>切<rt>き</rt></ruby>っている<ruby>時<rt>とき</rt></ruby>、<ruby>回転刃<rt>かいてんは</rt></ruby>で<ruby>右手<rt>みぎて</rt></ruby>を<ruby>切<rt>き</rt></ruby>りそうになりました。<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐには、<ruby>安全<rt>あんぜん</rt></ruby><ruby>カバー<rt>かば</rt></ruby>をつけるほか<br>にどのような<ruby>肉<rt>にく</rt></ruby>の<ruby>持<rt>も</rt></ruby>ち<ruby>方<rt>かた</rt></ruby>がいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 安全カバーのないスライサーで肉を切っている時、回転刃で右手を切りそうになりました。事故を防ぐには、安全カバーをつけるほか
+にどのような肉の持ち方がいいですか。正しいものを一つ選びなさい。
+  PROMPT_TRANS: Saat memotong daging dengan mesin pengiris (slicer) yang tidak memiliki penutup pengaman, tangan kanan hampir terpotong oleh pisau berputar. Untuk mencegah kecelakaan, selain memasang penutup pengaman, bagaimana cara memegang daging yang tepat? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 6, Câu 33 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0262] 安全カバー(あんぜんかばー) [compound_technical] = penutup pengaman (safety cover) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-otaff51-0512] 肉(にく) [noun] = daging | [kb-v2-p1-238] 切っている(きっている) [inflected_verb, df:切る] = sedang memotong (dasar: 切る) | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-ext-0227-e59b9ee8bb] 回転刃(かいてんは) [compound_technical] = pisau putar | [kb-1171120] 右手(みぎて) [word] = tangan kanan | [kb-v2-p1-109] 切りそうに(きりそうに) [inflected_verb, df:切る] = hampir terpotong (dasar: 切る) | [kb-v2-p1-133] なりました(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p1-286] ほかに(-) [expression] = selain itu | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-v2-p1-028] 持ち方(もちかた) [word] = cara memegang | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=<ruby>二人<rt>ふたり</rt></ruby>で<ruby>持<rt>も</rt></ruby>つ
+    TRANS: Memegangnya berdua
+    KOTOBA: [kb-1582670] 二人(ふたり) [word] = dua orang | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>右手<rt>みぎて</rt></ruby>だけで<ruby>持<rt>も</rt></ruby>つ
+    TRANS: Memegang hanya dengan tangan kanan
+    KOTOBA: [kb-1171120] 右手(みぎて) [word] = tangan kanan | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang
+  OPT C: HTML=<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>持<rt>も</rt></ruby>つ
+    TRANS: Memegang dengan menggunakan alat bantu
+    KOTOBA: [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q34 | ID=kunci-ujian-7-q034 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.7 ===
+  CLUSTER CL-0116 (n=4, diffPrompt=true, diffOpt=false, diffTrans=true): twins=nguyen02-q033 (latsol-nguyen-02), nguyen08-q032 (latsol-nguyen-08), hitungan01-q011 (latsol-hitungan-01)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下<rt>した</rt></ruby>はソーセージ１セット（６<ruby>本<rt>ほん</rt></ruby>）の<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby>６Kgからどれだけのソーセージを<ruby>作<rt>つく</rt></ruby>れるか？<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby>：<br>300g、<ruby>塩<rt>しお</rt></ruby>：6g、<ruby>玉<rt>たま</rt></ruby>ねぎ：20g
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di bawah ini adalah contoh takaran pencampuran untuk 1 set (6 buah) sosis. Jika mengikuti takaran ini, berapa buah sosis yang dapat dibuat dari 6 kg daging babi cincang? Daging babi cincang: 300 g, Garam: 6 g, Bawang bombai: 20 g.
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 7, Câu 34 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p2-091] ソーセージ(-) [word] = sosis | [kb-ext-0018-e382bbe383] セット(せっと) [word] = pemasangan / set perlengkapan | [kb-v2-p1-079] 本(ほん) [word] = buku | [kb-ext-1441-e9858de590] 配合例(はいごうれい) [word] = contoh formula campuran | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-267] この(-) [word] = ini | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-audit-0016] 従うと(したがうと) [inflected_verb, df:従う] = jika mengikuti / sesuai dengan | [kb-v2-p2-053] 豚ひき肉(ぶたひきにく) [compound_technical] = daging babi giling | [kb-v2-p6-163] Kg(-) [technical] = kilogram (satuan berat) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-v2-p2-213] 作れる(つくれる) [inflected, df:作る] = dapat dibuat | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-v2-p2-065] 塩(しお) [word] = garam | [kb-v2-p2-055] 玉ねぎ(たまねぎ) [word] = bawang bombai | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=20<ruby>本<rt>ほん</rt></ruby>
+    TRANS: 20 buah
+    KOTOBA: [kb-v2-p1-079] 本(ほん) [word] = buku
+  OPT B: HTML=120<ruby>本<rt>ほん</rt></ruby>
+    TRANS: 120 buah
+    KOTOBA: [kb-v2-p1-079] 本(ほん) [word] = buku
+  OPT C: HTML=180<ruby>本<rt>ほん</rt></ruby>
+    TRANS: 180 buah
+    KOTOBA: [kb-v2-p1-079] 本(ほん) [word] = buku
+
+=== #Q35 | ID=kunci-ujian-7-q035 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.7 ===
+  FLAGS: [JP_NACLO_DIGIT@prompt] Suspicious NaClO OCR spelling
+  CLUSTER CL-0065 (n=4, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q034 (ssw-pm-kunci-ujian-2), bonus-soal-2-q034 (bonus-soal-2), nguyen02-q034 (latsol-nguyen-02)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 10％の<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム(NaClO)の<ruby>溶液<rt>ようえき</rt></ruby>があります。5ml<ruby>溶液<rt>ようえき</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>して、200ppmの<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム(NaClO)を<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、ど<br>れぐらい<ruby>溶液<rt>ようえき</rt></ruby>になるか<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。200ppm＝0.02％。
+  QUESTION_TEXT: 10％の次亜塩素酸ナトリウム(NaClO)の溶液があります。5ml溶液を使用して、200ppmの次亜塩素酸ナトリウム(NaClO)を作る時に、ど
+れぐらい溶液になるか正しいものを一つ選びなさい。200ppm＝0.02％。
+  PROMPT_TRANS: Tersedia larutan natrium hipoklorit (NaClO) 10%. Saat menggunakan 5 ml larutan tersebut untuk membuat larutan natrium hipoklorit (NaClO) 200 ppm, berapa banyak total larutan yang dihasilkan? Pilihlah satu jawaban yang benar (200 ppm = 0,02%).
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 7, Câu 35 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-v2-p6-161] ％(-) [technical] = persen (%) | [kb-otaff51-0355] 次亜塩素酸ナトリウム(じあえんそさんなとりうむ) [compound_technical] = natrium hipoklorit (NaClO) | [kb-v2-p1-019] NaClO(-) [abbreviation] = natrium hipoklorit | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-audit-0966] 使用して(しようして) [inflected_verb, df:使用する] = menggunakan (~て) | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p2-254] どれぐらい(-) [word] = seberapa banyak | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau | [kb-v2-p6-160] ＝(-) [expression] = tanda sama dengan
+  OPT A: HTML=2L
+    TRANS: 2 L
+    KOTOBA: [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan)
+  OPT B: HTML=2.5L
+    TRANS: 2,5 L
+    KOTOBA: [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan)
+  OPT C: HTML=3L
+    TRANS: 3 L
+    KOTOBA: [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan)
+
+=== #Q36 | ID=kunci-ujian-7-q036 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.7 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0217 (をするこ): "melakukan hal tersebut (typo するこ)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>落<rt>お</rt></ruby>ちるという<ruby>事故<rt>じこ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたときにどのようなケガをすることがありますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Cedera seperti apa yang dapat terjadi ketika mengalami kecelakaan terjatuh?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 7, Câu 36 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p1-153] 落ちる(おちる) [word] = jatuh / menurun | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-197] 起きた(おきた) [inflected_verb, df:起きる] = terjadi (dasar: 起きる) | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-audit-0217] をするこ(をすること) [word] = melakukan hal tersebut (typo するこ) | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-audit-0667] いう(いう) [word] = disebut / mengatakan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=<ruby>足<rt>あし</rt></ruby>を<ruby>捻挫<rt>ねんざ</rt></ruby>したり、<ruby>体<rt>からだ</rt></ruby>を<ruby>打<rt>う</rt></ruby>ったり、<ruby>手<rt>て</rt></ruby>をついて<ruby>骨<rt>ほね</rt></ruby>を<ruby>折<rt>お</rt></ruby>ったりする。
+    TRANS: Kaki terkilir, tubuh terbentur, atau patah tulang karena menahan tubuh dengan tangan
+    KOTOBA: [kb-v2-p1-088] 足(あし) [word] = kaki | [kb-audit-0571] 捻挫したり(ねんざしたり) [inflected_verb, df:捻挫する] = terkilir, dan lain-lain | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-audit-0572] 打ったり(うったり) [inflected_verb, df:打つ] = terbentur/memukul, dan lain-lain | [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat | [kb-otaff51-0672] 骨(ほね) [noun] = tulang / duri | [kb-audit-0573] 折ったり(おったり) [inflected_verb, df:折る] = mematahkan (tulang), dll. | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>目<rt>め</rt></ruby>に<ruby>砂<rt>すな</rt></ruby>が<ruby>入<rt>はい</rt></ruby>ったり、<ruby>髪<rt>かみ</rt></ruby>が<ruby>抜<rt>ぬ</rt></ruby>けたりする。
+    TRANS: Mata kemasukan pasir atau rambut rontok
+    KOTOBA: [kb-otaff51-0461] 目(め) [noun] = mata | [kb-v2-p6-264] 砂(すな) [word] = pasir | [kb-audit-0585] 入ったり(はいったり) [inflected_verb, df:入る] = masuk, dan lain-lain | [kb-v2-p5-149] 髪(かみ) [word] = rambut | [kb-audit-0586] 抜けたり(ぬけたり) [inflected_verb, df:抜ける] = lepas / rontok, dan lain-lain | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>靴<rt>くつ</rt></ruby>が<ruby>汚<rt>よご</rt></ruby>れたり、<ruby>服<rt>ふく</rt></ruby>が<ruby>破<rt>やぶ</rt></ruby>れたりする。
+    TRANS: Sepatu menjadi kotor atau pakaian robek
+    KOTOBA: [kb-v2-p1-089] 靴(くつ) [word] = sepatu | [kb-audit-0587] 汚れたり(よごれたり) [inflected_verb, df:汚れる] = menjadi kotor, dan lain-lain | [kb-v2-p2-073] 服(ふく) [word] = pakaian | [kb-audit-0588] 破れたり(やぶれたり) [inflected_verb, df:破れる] = sobek / robek, dan lain-lain | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek

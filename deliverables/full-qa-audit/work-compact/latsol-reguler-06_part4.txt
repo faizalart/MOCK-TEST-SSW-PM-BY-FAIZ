@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-06 (Latsol Reguler 06) | Batch qa-batch-10 | Part 4 (Q13-16 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=reguler06-q013 | KEY=C (idx=2) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="X線異物検出器で検出することができます、なんですか。まちがっているものをえらびなさい。" vs questionText="X線異物検出器することができますなんですか。。まちがっているものをえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("金属") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: X<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>で<ruby>検出<rt>けんしゅつ</rt></ruby>することができます、なんですか。まちがっているものをえらびなさい。
+  QUESTION_TEXT: X線異物検出器することができますなんですか。。まちがっているものをえらびなさい
+  PROMPT_TRANS: Benda asing apakah yang diutamakan untuk dideteksi oleh detektor benda asing sinar-X (selain logam)? Pilihlah satu yang salah (yang merupakan target detektor logam).
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 4, nomor 13. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-ext-0003-58e7b79ae7] X線異物検出器(せんいぶつけんしゅつき) [word] = detektor benda asing sinar-X | [kb-1257940] 検出(けんしゅつ) [word] = deteksi / pendeteksian | [kb-audit-1057] ことができます(ことができます) [expression] = dapat / bisa melakukan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>石<rt>いし</rt></ruby>
+    TRANS: Batu
+    KOTOBA: [kb-otaff51-0468] 石(いし) [noun] = batu
+  OPT B: HTML=ガラス
+    TRANS: Kaca
+    KOTOBA: [kb-v2-p1-057] ガラス(-) [word] = kaca
+  OPT C: HTML=<ruby>金属<rt>きんぞく</rt></ruby>
+    TRANS: Logam
+    KOTOBA: [kb-1243040] 金属(きんぞく) [word] = logam
+
+=== #Q14 | ID=reguler06-q014 | KEY=B (idx=1) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="期限表示についてケアレスミスをしないためになんですか。まちがっているものを一つえらんでください。" vs questionText="期限表示についてケアレスミスをしなしためになんですか まちがっているものを一つえらんでください"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("消費期限や賞味期限の期限表示のミスだけです") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>期限表示<rt>きげんひょうじ</rt></ruby>についてケアレスミスをしないためになんですか。まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらんでください。
+  QUESTION_TEXT: 期限表示についてケアレスミスをしなしためになんですか まちがっているものを一つえらんでください
+  PROMPT_TRANS: Untuk mencegah kesalahan lalai (careless mistake) pada pencantuman tanggal kedaluwarsa, manakah pernyataan yang salah?
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 4, nomor 14. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-ext-latsol-0039] 期限表示(きげんひょうじ) [word] = pencantuman tanggal kedaluwarsa | [kb-latsol-careless-miss] ケアレスミス(けあれすみす) [word] = kesalahan karena kurang teliti | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=ロットナンバーを<ruby>包装<rt>ほうそう</rt></ruby>ラインに<ruby>掲示<rt>けいじ</rt></ruby>する
+    TRANS: Menempelkan/memasang nomor lot pada lini pengemasan
+    KOTOBA: [kb-latsol-lot-number] ロットナンバー(ろっとなんばー) [word] = nomor lot produksi | [kb-otaff51-0203] 包装ライン(ほうそうらいん) [compound_technical] = lini pengemasan | [kb-ext-latsol-0098] 掲示(けいじ) [word] = penempelan pengumuman
+  OPT B: HTML=<ruby>消費期限<rt>しょうひきげん</rt></ruby>や<ruby>賞味期限<rt>しょうみきげん</rt></ruby>の<ruby>期限表示<rt>きげんひょうじ</rt></ruby>のミスだけです
+    TRANS: Hanya kesalahan pencantuman batas konsumsi (shouhikigen) dan batas baik dikonsumsi (shoumikigen) saja
+    KOTOBA: [kb-otaff51-0394] 消費期限(しょうひきげん) [compound_technical] = batas tanggal aman konsumsi (use by / kedaluwarsa) | [kb-otaff51-0581] 賞味期限(しょうみきげん) [compound_technical] = batas tanggal cita rasa terbaik (best before) | [kb-ext-latsol-0039] 期限表示(きげんひょうじ) [word] = pencantuman tanggal kedaluwarsa | [kb-v2-p4-077] ミス(-) [word] = kesalahan (human error) | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan
+  OPT C: HTML=その<ruby>日<rt>ひ</rt></ruby>の<ruby>賞味期限<rt>しょうみきげん</rt></ruby><ruby>記録<rt>きろく</rt></ruby>としてのこしておく
+    TRANS: Menyimpan label batas kedaluwarsa hari tersebut sebagai catatan/rekaman
+    KOTOBA: [kb-audit-0159] その日(そのひ) [word] = hari itu / hari tersebut | [kb-otaff51-0581] 賞味期限(しょうみきげん) [compound_technical] = batas tanggal cita rasa terbaik (best before) | [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman
+
+=== #Q15 | ID=reguler06-q015 | KEY=B (idx=1) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="微生物検査を自主的に行う場合の一般的な検査項目は何ですか。まちがっているものを一つえらびなさい。" vs questionText="微生物検査を自主的に行う場合の一般的な検査項目は何ですか。。まちがっているものを一つえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("サルモネラ属菌") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物検査<rt>びせいぶつけんさ</rt></ruby>を<ruby>自主的<rt>じしゅてき</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>う<ruby>場合<rt>ばあい</rt></ruby>の<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>検査項目<rt>けんさこうもく</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 微生物検査を自主的に行う場合の一般的な検査項目は何ですか。。まちがっているものを一つえらびなさい
+  PROMPT_TRANS: Ketika melakukan pengujian mikrobiologi secara mandiri, apakah item pemeriksaan yang umum dilakukan? Pilihlah satu yang salah (yang merupakan pemeriksaan tambahan untuk produk tertentu).
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 4, nomor 15. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0296] 微生物検査(びせいぶつけんさ) [compound_technical] = uji laboratorium mikrobiologi | [kb-ext-latsol-0046] 自主的(じしゅてき) [word] = secara mandiri / inisiatif sendiri | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-1165880] 一般的(いっぱんてき) [word] = umum / lazim | [kb-ext-0467-e6a49ce69f] 検査項目(けんさこうもく) [compound_technical] = item pemeriksaan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>大腸菌<rt>だいちょうきん</rt></ruby>
+    TRANS: Bakteri E. coli
+    KOTOBA: [kb-otaff51-0255] 大腸菌(だいちょうきん) [compound_technical] = bakteri E. coli
+  OPT B: HTML=サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Salmonella
+    KOTOBA: [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella
+  OPT C: HTML=<ruby>大腸菌群<rt>だいちょうきんぐん</rt></ruby>
+    TRANS: Kelompok bakteri koliform (Coliform group)
+    KOTOBA: [kb-otaff51-0256] 大腸菌群(だいちょうきんぐん) [compound_technical] = kelompok bakteri koliform
+
+=== #Q16 | ID=reguler06-q016 | KEY=B (idx=1) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="保管サンプルの管理はどれですか。ただしいものを一つえらびなさい。" vs questionText="保管サンプルの管理はどれですか ただしいものを一つえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("クレームが発生した場合に備えて、製造した製品の中から、一定の割合") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>保管<rt>ほかん</rt></ruby>サンプルの<ruby>管理<rt>かんり</rt></ruby>はどれですか。ただしいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 保管サンプルの管理はどれですか ただしいものを一つえらびなさい
+  PROMPT_TRANS: Manakah pernyataan yang benar mengenai pengelolaan sampel simpanan (retained sample)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 5, nomor 16. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-ext-0016-e382b5e383] サンプル(さんぷる) [word] = sampel / contoh uji | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>温度<rt>おんど</rt></ruby>かくにんします
+    TRANS: Memeriksa suhu secara berkala
+    KOTOBA: [kb-otaff51-0271] 定期的(ていきてき) [adjective] = secara berkala / rutin | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-audit-1033] かくにんします(かくにんします) [inflected_verb, df:確認する] = memastikan (sopan)
+  OPT B: HTML=クレームが<ruby>発生<rt>はっせい</rt></ruby>した<ruby>場合<rt>ばあい</rt></ruby>に<ruby>備<rt>そな</rt></ruby>えて、<ruby>製造<rt>せいぞう</rt></ruby>した<ruby>製品<rt>せいひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>から、<ruby>一定<rt>いってい</rt></ruby>の<ruby>割合<rt>わりあい</rt></ruby>
+    TRANS: Menyimpan sebagian produk yang diproduksi dengan proporsi tertentu untuk berjaga-jaga apabila terjadi keluhan (komplain)
+    KOTOBA: [kb-otaff51-0049] クレーム(くれーむ) [noun] = klaim / komplain pelanggan | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-audit-0160] 備えて(そなえて) [inflected_verb, df:備える] = mempersiapkan / mengantisipasi | [kb-audit-1003] 製造した(せいぞうした) [inflected_verb, df:製造する] = telah memproduksi | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-ext-latsol-0099] 一定(いってい) [word] = konstan / tertentu | [kb-otaff51-0188] 割合(わりあい) [noun] = proporsi / persentase
+  OPT C: HTML=<ruby>無機物<rt>むきぶつ</rt></ruby><ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Menyimpan zat anorganik
+    KOTOBA: [kb-ext-latsol-0084] 無機物(むきぶつ) [word] = zat anorganik / mineral | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)

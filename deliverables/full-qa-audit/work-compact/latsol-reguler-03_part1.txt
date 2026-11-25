@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-reguler-03 (Latsol Reguler 03) | Batch qa-batch-09 | Part 1 (Q1-4 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=reguler03-q001 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("海水にいる魚介類、さしみ、すしなど") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオは<ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan manakah yang mudah menjadi penyebab keracunan Vibrio parahaemolyticus? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 1, nomor 1. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、<ruby>鶏卵<rt>けいらん</rt></ruby>
+    TRANS: Daging, daging sapi, telur ayam
+    KOTOBA: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi | [kb-otaff51-0684] 鶏卵(けいらん) [noun] = telur ayam
+  OPT B: HTML=<ruby>海水<rt>かいすい</rt></ruby>にいる<ruby>魚介類<rt>ぎょかいるい</rt></ruby>、さしみ、すしなど
+    TRANS: Hasil laut yang hidup di air laut, sashimi, sushi, dll.
+    KOTOBA: [kb-1201490] 海水(かいすい) [word] = air laut | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-otaff51-1302] すし(すし) [noun] = sushi
+  OPT C: HTML=<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、<ruby>井戸水<rt>いどみず</rt></ruby>
+    TRANS: Daging, daging ayam, air sumur
+    KOTOBA: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-otaff51-0108] 井戸水(いどみず) [noun] = air sumur
+
+=== #Q2 | ID=reguler03-q002 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  CLUSTER CL-0262 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=reguler02-q005 (latsol-reguler-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("発熱、腹痛、下痢") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby><ruby>主<rt>おも</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>はどれですか。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah gejala utama dari keracunan bakteri genus Salmonella? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 1, nomor 2. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>発熱<rt>はつねつ</rt></ruby>、<ruby>腹痛<rt>ふくつう</rt></ruby>、げしい<ruby>下痢<rt>げり</rt></ruby>
+    TRANS: Demam, sakit perut, diare hebat
+    KOTOBA: [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare
+  OPT B: HTML=<ruby>発熱<rt>はつねつ</rt></ruby>、<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>下痢<rt>げり</rt></ruby>
+    TRANS: Demam, sakit perut, diare
+    KOTOBA: [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare
+  OPT C: HTML=<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おうと、<ruby>腹痛<rt>ふくつう</rt></ruby>
+    TRANS: Mual, muntah, sakit perut
+    KOTOBA: [kb-otaff51-0230] 吐き気(はきけ) [noun] = rasa mual | [kb-latsol-914f5e914c] おうと(おうと) [word] = muntah | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut
+
+=== #Q3 | ID=reguler03-q003 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("手や指に傷、おにぎり、すし、弁当など") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>黄色<rt>おうしょく</rt></ruby>ブドウは<ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan manakah yang mudah menjadi penyebab keracunan Staphylococcus aureus? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 1, nomor 3. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-latsol-d458063d6e] 黄色(おうしょく) [word] = warna kuning | [kb-ext-0027-e38396e383] ブドウ(ぶどう) [word] = Anggur (bahan baku buah olahan pangan) | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>米<rt>こめ</rt></ruby>や<ruby>小麦<rt>こむぎ</rt></ruby>などを<ruby>使<rt>つか</rt></ruby>って<ruby>調理<rt>ちょうり</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Makanan yang dimasak menggunakan beras, gandum, dll.
+    KOTOBA: [kb-1508750] 米(こめ) [standalone_term] = Beras mentah bahan baku pangan pokok | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan
+  OPT B: HTML=<ruby>手<rt>て</rt></ruby>や<ruby>指<rt>ゆび</rt></ruby>に<ruby>傷<rt>きず</rt></ruby>、おにぎり、すし、<ruby>弁当<rt>べんとう</rt></ruby>など
+    TRANS: Makanan yang diolah oleh tangan/jari yang terluka, onigiri, sushi, bento, dll.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p3-048] おにぎり(-) [word] = nasi kepal (onigiri) | [kb-otaff51-1302] すし(すし) [noun] = sushi | [kb-otaff51-0294] 弁当(べんとう) [noun] = nasi kotak (bento)
+  OPT C: HTML=<ruby>缶詰<rt>かんづめ</rt></ruby>、びんづめ
+    TRANS: Makanan kaleng, makanan botol
+    KOTOBA: [kb-otaff51-0504] 缶詰(かんづめ) [noun] = makanan kaleng | [kb-audit-0106] びんづめ(びんづめ) [word] = makanan kemasan botol kaca (瓶詰)
+
+=== #Q4 | ID=reguler03-q004 | KEY=C (idx=2) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="微生物検査を自主的に行う場合の一般的な検査項目はどれですか。。間違っているものを一つ選んでください" vs questionText="微生物検査を自主的に行う場合の一般的な検査項目はどれですか。。間違ってものを一つ選んでください"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("ノロウイルス") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物検査<rt>びせいぶつけんさ</rt></ruby>を<ruby>自主的<rt>じしゅてき</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>う<ruby>場合<rt>ばあい</rt></ruby>の<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>検査項目<rt>けんさこうもく</rt></ruby>はどれですか。。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: 微生物検査を自主的に行う場合の一般的な検査項目はどれですか。。間違ってものを一つ選んでください
+  PROMPT_TRANS: Manakah item pemeriksaan umum saat melakukan uji mikrobiologi secara mandiri? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 1, nomor 4. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0296] 微生物検査(びせいぶつけんさ) [compound_technical] = uji laboratorium mikrobiologi | [kb-ext-latsol-0046] 自主的(じしゅてき) [word] = secara mandiri / inisiatif sendiri | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-1165880] 一般的(いっぱんてき) [word] = umum / lazim | [kb-ext-0467-e6a49ce69f] 検査項目(けんさこうもく) [compound_technical] = item pemeriksaan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=<ruby>一般生菌数<rt>いっぱんせいきんすう</rt></ruby>
+    TRANS: Jumlah bakteri hidup umum (Standard Plate Count)
+    KOTOBA: [kb-otaff51-0087] 一般生菌数(いっぱんせいきんすう) [compound_technical] = angka lempeng total bakteri hidup
+  OPT B: HTML=<ruby>大腸菌<rt>だいちょうきん</rt></ruby>
+    TRANS: Bakteri E. coli
+    KOTOBA: [kb-otaff51-0255] 大腸菌(だいちょうきん) [compound_technical] = bakteri E. coli
+  OPT C: HTML=ノロウイルス
+    TRANS: Norovirus
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus

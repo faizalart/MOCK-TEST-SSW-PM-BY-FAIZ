@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-09 (Latsol Nguyen 09) | Batch qa-batch-08 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=nguyen09-q013 | KEY=C (idx=2) | CAT= | SRC=9.pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0582 "赤身魚": kotoba="あかみざかな" vs ruby="あかみさかな"
+  CLUSTER CL-0142 (n=8, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-13-q007 (ssw-pm-kunci-ujian-13), bonus-soal-2-q013 (bonus-soal-2), bonus-soal-5-q007 (bonus-soal-5), bonus-soal-9-q013 (bonus-soal-9), nguyen02-q013 (latsol-nguyen-02), nguyen05-q007 (latsol-nguyen-05), nguyen10-q014 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("魚を受け入れたすぐに冷凍したらいいです。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ヒスタミン<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためにどうしたらいいのか<ruby>一<rt>ひと</rt></ruby>つ<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang sebaiknya dilakukan untuk mencegah keracunan makanan akibat histamin? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 9.pdf, halaman 3, nomor 13. Bobot: 3.75 poin. Kunci jawaban: C. Nomor asli PDF: Câu 13 (Halaman 3).
+  KOTOBA_PROMPT: [kb-otaff51-0066] ヒスタミン食中毒(ひすたみんしょくちゅうどく) [compound_technical] = keracunan makanan akibat histamin | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=<ruby>魚<rt>さかな</rt></ruby>を<ruby>獲<rt>と</rt></ruby>った<ruby>後<rt>あと</rt></ruby>ゆっくり<ruby>冷凍<rt>れいとう</rt></ruby>してもいいです。
+    TRANS: Setelah menangkap ikan, boleh dibekukan secara perlahan.
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-v2-p5-281] 獲った(とった) [inflected, df:獲る] = menangkap (ikan) | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing) | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT B: HTML=マグロやサバなどの<ruby>赤身魚<rt>あかみさかな</rt></ruby>はどこでも<ruby>保存<rt>ほぞん</rt></ruby>できる。
+    TRANS: Ikan berdaging merah seperti tuna dan makarel (saba) dapat disimpan di mana saja.
+    KOTOBA: [kb-v2-p3-077] マグロ(-) [word] = ikan tuna | [kb-v2-p5-108] サバ(-) [word] = ikan makarel / kembung | [kb-otaff51-0582] 赤身魚(あかみざかな) [compound_technical] = ikan berdaging merah (tuna, makarel, sarden) | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan
+  OPT C: HTML=<ruby>魚<rt>さかな</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れたすぐに<ruby>冷凍<rt>れいとう</rt></ruby>したらいいです。
+    TRANS: Sebaiknya segera dibekukan begitu ikan diterima.
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-latsol-042ad2c34d] 受け入れた(うけいれた) [word] = penerimaan bahan baku | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-audit-0592] 冷凍したら(れいとうしたら) [inflected_verb, df:冷凍する] = jika membekukan | [kb-v2-p1-249] いい(-) [word] = baik
+
+=== #Q14 | ID=nguyen09-q014 | KEY=B (idx=1) | CAT= | SRC=9.pdf p.3 ===
+  CLUSTER CL-0182 (n=7, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q014 (bonus-soal-2), bonus-soal-8-q014 (bonus-soal-8), bonus-soal-9-q014 (bonus-soal-9), nguyen02-q014 (latsol-nguyen-02), nguyen08-q014 (latsol-nguyen-08), nguyen10-q015 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("冷蔵庫。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>冷却方法<rt>れいきゃくほうほう</rt></ruby>ついて<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai metode pendinginan (reikyaku houhou).
+  EXPLANATION: Sumber: 9.pdf, halaman 3, nomor 14. Bobot: 3.75 poin. Kunci jawaban: B. Nomor asli PDF: Câu 14 (Halaman 3).
+  KOTOBA_PROMPT: [kb-ext-1778-e586b7e58d] 冷却方法(れいきゃくほうほう) [word] = metode pendinginan | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>風冷<rt>ふうれい</rt></ruby>。
+    TRANS: Pendinginan dengan hembusan udara (air cooling).
+    KOTOBA: [kb-otaff51-0647] 風冷(ふうれい) [compound_technical] = pendinginan dengan hembusan angin
+  OPT B: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>。
+    TRANS: Lemari pendingin (kulkas).
+    KOTOBA: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller)
+  OPT C: HTML=<ruby>水冷<rt>すいれい</rt></ruby>。
+    TRANS: Pendinginan dengan air (water cooling).
+    KOTOBA: [kb-otaff51-0370] 水冷(すいれい) [compound_technical] = pendinginan dengan air dingin
+
+=== #Q15 | ID=nguyen09-q015 | KEY=B (idx=1) | CAT= | SRC=9.pdf p.3 ===
+  CLUSTER CL-0149 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q024 (ssw-pm-kunci-ujian-13), bonus-soal-2-q015 (bonus-soal-2), bonus-soal-5-q024 (bonus-soal-5), bonus-soal-8-q015 (bonus-soal-8), bonus-soal-9-q015 (bonus-soal-9), nguyen02-q015 (latsol-nguyen-02), nguyen05-q024 (latsol-nguyen-05), nguyen08-q015 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("改善措置をおこなうまでに、作った食品を捨てるか作り直すかを決めなくてもいい。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>管理基準<rt>かんりきじゅん</rt></ruby>から<ruby>逸脱<rt>いつだつ</rt></ruby>した<ruby>場合<rt>ばあい</rt></ruby>、<ruby>改善措置<rt>かいぜんそち</rt></ruby>のため、なにをしなければなりませんか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apabila terjadi penyimpangan dari batas kritis/standar manajemen, apa yang harus dilakukan untuk tindakan perbaikan (corrective action)? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 9.pdf, halaman 3, nomor 15. Bobot: 3.75 poin. Kunci jawaban: B. Nomor asli PDF: Câu 15 (Halaman 3).
+  KOTOBA_PROMPT: [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-otaff51-0595] 逸脱(いつだつ) [noun] = penyimpangan dari batas standar | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-otaff51-0327] 改善措置(かいぜんそち) [compound_technical] = tindakan korektif / perbaikan | [kb-v2-p2-256] なに(-) [word] = apa | [kb-audit-0376] しなければなりません(しなければなりません) [word] = harus / wajib dilakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>危害要因<rt>きがいよういん</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>らないようにしなければなりません。
+    TRANS: Harus memastikan tidak ada faktor bahaya yang tersisa di dalam makanan.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-v2-p4-206] 残らない(のこらない) [inflected, df:残る] = tidak tersisa / tertinggal | [kb-audit-0376] しなければなりません(しなければなりません) [word] = harus / wajib dilakukan
+  OPT B: HTML=<ruby>改善措置<rt>かいぜんそち</rt></ruby>をおこなうまでに、<ruby>作<rt>つく</rt></ruby>った<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>捨<rt>す</rt></ruby>てるか<ruby>作<rt>つく</rt></ruby>り<ruby>直<rt>なお</rt></ruby>すかを<ruby>決<rt>き</rt></ruby>めなくてもいい。
+    TRANS: Sampai tindakan perbaikan dilakukan, tidak perlu memutuskan apakah makanan yang telah dibuat akan dibuang atau diolah ulang.
+    KOTOBA: [kb-otaff51-0327] 改善措置(かいぜんそち) [compound_technical] = tindakan korektif / perbaikan | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-150] 作った(つくった) [inflected_verb, df:作る] = yang membuat (dasar: 作る) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-174] 捨てる(すてる) [word] = membuang | [kb-v2-p5-249] 作り直す(つくりなおす) [word] = membuat ulang | [kb-v2-p5-247] 決めなくても(きめなくても) [inflected, df:決める] = tidak perlu menentukan | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT C: HTML=<ruby>改善措置<rt>かいぜんそち</rt></ruby>をおこなうときは、<ruby>必<rt>かなら</rt></ruby>ず<ruby>責任者<rt>せきにんしゃ</rt></ruby>の<ruby>指示<rt>しじ</rt></ruby>に<ruby>従<rt>したが</rt></ruby>ってください。
+    TRANS: Saat melakukan tindakan perbaikan, pastikan selalu mengikuti instruksi penanggung jawab.
+    KOTOBA: [kb-otaff51-0327] 改善措置(かいぜんそち) [compound_technical] = tindakan korektif / perbaikan | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p1-193] 従って(したがって) [inflected_verb, df:従う] = sesuai / mengikuti (dasar: 従う)
+
+=== #Q16 | ID=nguyen09-q016 | KEY=C (idx=2) | CAT= | SRC=9.pdf p.3 ===
+  CLUSTER CL-0048 (n=7, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q016 (ssw-pm-kunci-ujian-2), bonus-soal-2-q016 (bonus-soal-2), bonus-soal-8-q016 (bonus-soal-8), bonus-soal-9-q016 (bonus-soal-9), nguyen02-q016 (latsol-nguyen-02), nguyen08-q016 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("世代交代時間があるので、時間もコントロールするのが必要である。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>増殖<rt>ぞうしょく</rt></ruby>させないための<ruby>方法<rt>ほうほう</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang benar mengenai metode untuk mencegah perkembangbiakan mikroorganisme.
+  EXPLANATION: Sumber: 9.pdf, halaman 3, nomor 16. Bobot: 3.75 poin. Kunci jawaban: C. Nomor asli PDF: Câu 16 (Halaman 3).
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p2-182] 増殖させない(ぞうしょくさせない) [inflected, df:増殖する] = tidak membiarkan berkembang biak | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>から<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>常温<rt>じょうおん</rt></ruby>で<ruby>長<rt>なが</rt></ruby>く<ruby>放置<rt>ほうち</rt></ruby>する。
+    TRANS: Membiarkan makanan yang dikeluarkan dari kulkas pada suhu ruang dalam waktu lama.
+    KOTOBA: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-v2-p2-135] 取り出した(とりだした) [inflected, df:取り出す] = mengambil keluar (lampau) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1798230] 常温(じょうおん) [word] = suhu ruang | [kb-audit-0895] 長く(ながく) [inflected_adj, df:長い] = menjadi lama / panjang | [kb-v2-p2-189] 放置する(ほうちする) [word] = membiarkan begitu saja
+  OPT B: HTML=<ruby>加熱<rt>かねつ</rt></ruby>したものを<ruby>室温<rt>しつおん</rt></ruby>で<ruby>温度<rt>おんど</rt></ruby>をゆっくりさげる。
+    TRANS: Menurunkan suhu makanan yang telah dipanaskan secara perlahan pada suhu ruang.
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-v2-p2-190] さげる(-) [word] = menurunkan (suhu)
+  OPT C: HTML=<ruby>世代交代時間<rt>せだいこうたいじかん</rt></ruby>があるので、<ruby>時間<rt>じかん</rt></ruby>もコントロールするのが<ruby>必要<rt>ひつよう</rt></ruby>である。
+    TRANS: Karena adanya waktu generasi (waktu pembelahan sel), pengendalian waktu juga diperlukan.
+    KOTOBA: [kb-ext-1002-e4b896e4bb] 世代交代時間(せだいこうたいじかん) [word] = waktu pembelahan sel bakteri | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p2-191] コントロールする(-) [word] = mengendalikan / mengontrol | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan

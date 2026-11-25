@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-08 (Latsol Nguyen 08) | Batch qa-batch-08 | Part 7 (Q25-28 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=nguyen08-q025 | KEY=C (idx=2) | CAT= | SRC=8.pdf p.4 ===
+  CLUSTER CL-0170 (n=8, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q026 (bonus-soal-1), bonus-soal-8-q025 (bonus-soal-8), bonus-soal-9-q005 (bonus-soal-9), nguyen01-q026 (latsol-nguyen-01), nguyen03-q005 (latsol-nguyen-03), nguyen09-q005 (latsol-nguyen-09), nguyen10-q027 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("虫、髪の毛") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>遺物<rt>いぶつ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang benar yang termasuk benda asing (ibutsu).
+  EXPLANATION: Sumber: 8.pdf, halaman 4, nomor 25. Bobot: 3.85 poin. Kunci jawaban: C. Catatan QA: Cetakan asli menulis kanji 遺物 dengan furigana いぶつ (maksudnya 異物). Nomor asli PDF: Câu 26 (Halaman 4).
+  KOTOBA_PROMPT: [kb-1159610] 遺物(いぶつ) [word] = benda asing (varian penulisan) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah
+  OPT A: HTML=ヒスタミン
+    TRANS: Histamin
+    KOTOBA: [kb-otaff51-0065] ヒスタミン(ひすたみん) [noun] = histamin
+  OPT B: HTML=<ruby>芽胞<rt>がほう</rt></ruby>
+    TRANS: Spora bakteri (gahou)
+    KOTOBA: [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas)
+  OPT C: HTML=<ruby>虫<rt>むし</rt></ruby>、<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>
+    TRANS: Serangga, helai rambut
+    KOTOBA: [kb-v2-p4-111] 虫(むし) [word] = serangga / hama | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut
+
+=== #Q26 | ID=nguyen08-q026 | KEY=A (idx=0) | CAT= | SRC=8.pdf p.4 ===
+  CLUSTER CL-0150 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q025 (ssw-pm-kunci-ujian-13), bonus-soal-1-q027 (bonus-soal-1), bonus-soal-5-q025 (bonus-soal-5), bonus-soal-6-q031 (bonus-soal-6), bonus-soal-8-q026 (bonus-soal-8), nguyen01-q027 (latsol-nguyen-01), nguyen05-q025 (latsol-nguyen-05), nguyen06-q031 (latsol-nguyen-06)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("転倒") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>起<rt>お</rt></ruby>きる<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>一番多<rt>いちばんおお</rt></ruby>いのはなんですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kecelakaan kerja apakah yang paling banyak terjadi di pabrik pengolahan makanan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 8.pdf, halaman 4, nomor 26. Bobot: 3.85 poin. Kunci jawaban: A. Catatan QA: Kunci sistem pada PDF menandai A (転倒). Nomor asli PDF: Câu 27 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-v2-p5-240] 起きる(おきる) [word] = terjadi | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-audit-0061] 一番多い(いちばんおおい) [word] = paling banyak / terbanyak | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>転倒<rt>てんとう</rt></ruby>
+    TRANS: Terjatuh / terpeleset (tentou)
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama
+  OPT B: HTML=はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ
+    TRANS: Terjepit, terlilit mesin
+    KOTOBA: [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin
+  OPT C: HTML=<ruby>切<rt>き</rt></ruby>れ、こすれ
+    TRANS: Tersayat, tergores
+    KOTOBA: [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek
+
+=== #Q27 | ID=nguyen08-q027 | KEY=B (idx=1) | CAT= | SRC=8.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-v2-p2-104 "間": kotoba="あいだ" vs ruby="ま"
+  CLUSTER CL-0059 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q028 (ssw-pm-kunci-ujian-2), bonus-soal-2-q028 (bonus-soal-2), bonus-soal-8-q027 (bonus-soal-8), nguyen02-q028 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("つめの中は洗わなくても良い。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手洗<rt>てあら</rt></ruby>いについて、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai mencuci tangan.
+  EXPLANATION: Sumber: 8.pdf, halaman 5, nomor 27. Bobot: 3.85 poin. Kunci jawaban: B. Nomor asli PDF: Câu 28 (Halaman 5).
+  KOTOBA_PROMPT: [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>手<rt>て</rt></ruby>についた<ruby>汚<rt>よご</rt></ruby>れや<ruby>微生物<rt>びせいぶつ</rt></ruby>をとるために<ruby>行<rt>おこな</rt></ruby>う。
+    TRANS: Dilakukan untuk menghilangkan kotoran dan mikroorganisme yang menempel di tangan.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p2-199] とる(-) [word] = mengambil / menghilangkan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan
+  OPT B: HTML=つめの<ruby>中<rt>なか</rt></ruby>は<ruby>洗<rt>あら</rt></ruby>わなくても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Bagian dalam/bawah kuku tidak perlu dicuci.
+    KOTOBA: [kb-v2-p2-079] つめ(-) [word] = kuku | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p2-008] 洗わなくても(あらわなくても) [inflected, df:洗う] = meskipun tidak mencuci | [kb-v2-p1-248] 良い(よい) [word] = baik
+  OPT C: HTML=<ruby>指<rt>ゆび</rt></ruby>の<ruby>間<rt>ま</rt></ruby>や<ruby>手首<rt>てくび</rt></ruby>までしっかり<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci dengan bersih hingga sela-sela jari dan pergelangan tangan.
+    KOTOBA: [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-v2-p2-104] 間(あいだ) [word] = antara / sela-sela | [kb-otaff51-0313] 手首(てくび) [noun] = pergelangan tangan | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci
+
+=== #Q28 | ID=nguyen08-q028 | KEY=C (idx=2) | CAT= | SRC=8.pdf p.5 ===
+  CLUSTER CL-0060 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q029 (ssw-pm-kunci-ujian-2), bonus-soal-2-q029 (bonus-soal-2), bonus-soal-8-q028 (bonus-soal-8), nguyen02-q029 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("殺菌剤の温度") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うときに<ruby>注意<rt>ちゅうい</rt></ruby>する<ruby>点<rt>てん</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai hal yang perlu diperhatikan saat menggunakan bakterisida/disinfektan.
+  EXPLANATION: Sumber: 8.pdf, halaman 5, nomor 28. Bobot: 3.85 poin. Kunci jawaban: C. Nomor asli PDF: Câu 29 (Halaman 5).
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada | [kb-1441390] 点(てん) [standalone_term] = Poin / titik kendali dalam tahapan pengolahan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>
+    TRANS: Konsentrasi cairan disinfektan
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan
+  OPT B: HTML=<ruby>殺菌<rt>さっきん</rt></ruby>する<ruby>時間<rt>じかん</rt></ruby>
+    TRANS: Waktu sterilisasi/disinfeksi
+    KOTOBA: [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi
+  OPT C: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>
+    TRANS: Suhu cairan disinfektan
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur

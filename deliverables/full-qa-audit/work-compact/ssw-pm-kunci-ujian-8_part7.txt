@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-8 (Soal Ujian 8 — CBTP Gino1) | Batch qa-batch-02 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-8-q025 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p6-428 (含まらない): "tidak termasuk (typo)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPには<ruby>含<rt>ふく</rt></ruby>まらない<ruby>項目<rt>こうもく</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu item yang tidak termasuk dalam prinsip HACCP.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 5, Câu 25 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p6-428] 含まらない(ふくまらない) [inflected, df:含む] = tidak termasuk (typo) | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>改善措置<rt>かいぜんそち</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan tindakan perbaikan (korektif)
+    KOTOBA: [kb-otaff51-0327] 改善措置(かいぜんそち) [compound_technical] = tindakan korektif / perbaikan | [kb-1386060] 設定(せってい) [word] = penetapan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>の<ruby>決定<rt>けってい</rt></ruby>
+    TRANS: Penentuan titik kendali kritis (CCP)
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-1254380] 決定(けってい) [word] = penetapan / keputusan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>加熱殺菌<rt>かねつさっきん</rt></ruby>の<ruby>決定<rt>けってい</rt></ruby>
+    TRANS: Penentuan sterilisasi pemanasan
+    KOTOBA: [kb-otaff51-0194] 加熱殺菌(かねつさっきん) [compound_technical] = sterilisasi dengan pemanasan | [kb-1254380] 決定(けってい) [word] = penetapan / keputusan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q26 | ID=kunci-ujian-8-q026 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>他<rt>ほか</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>が<ruby>危険<rt>きけん</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>をしているのを<ruby>見<rt>み</rt></ruby>たとき、どうすべきですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan ketika melihat orang lain sedang melakukan pekerjaan yang berbahaya?
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 5, Câu 26 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0035] 他の(ほかの) [word] = yang lain / lainnya | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-v2-p6-544] 見た(みた) [inflected, df:見る] = melihat (lampau) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-otaff51-0967] すべき(すべき) [expression] = yang seharusnya dilakukan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>見<rt>み</rt></ruby>て<ruby>見<rt>み</rt></ruby>ぬふりをする
+    TRANS: Pura-pura tidak melihat
+    KOTOBA: [kb-v2-p6-429] 見て見ぬふり(みてみぬふり) [expression] = pura-pura tidak melihat | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>声<rt>こえ</rt></ruby>をかけて<ruby>注意<rt>ちゅうい</rt></ruby>する
+    TRANS: Menegur dan memperingatkannya
+    KOTOBA: [kb-otaff51-0898] 声をかけて(こえをかけて) [expression] = menegur / memberi tahu | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada
+  OPT C: HTML=<ruby>自分<rt>じぶん</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じ<ruby>作業<rt>さぎょう</rt></ruby>をする
+    TRANS: Ikut melakukan pekerjaan yang sama
+    KOTOBA: [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q27 | ID=kunci-ujian-8-q027 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0135 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-15-q027 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>危険異物<rt>きけんいぶつ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>がありますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa saja yang termasuk benda asing berbahaya (keras/tajam)? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 5, Câu 27 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-ext-0317-e58db1e999] 危険異物(きけんいぶつ) [compound_technical] = benda asing berbahaya | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>石<rt>いし</rt></ruby>
+    TRANS: Batu
+    KOTOBA: [kb-otaff51-0468] 石(いし) [noun] = batu
+  OPT B: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>
+    TRANS: Rambut
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut
+  OPT C: HTML=ガラス
+    TRANS: Kaca
+    KOTOBA: [kb-v2-p1-057] ガラス(-) [word] = kaca
+
+=== #Q28 | ID=kunci-ujian-8-q028 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.5 ===
+  CLUSTER CL-0136 (n=2, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-15-q028 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物検査<rt>びせいぶつけんさ</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang salah mengenai pengujian mikroorganisme.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 5, Câu 28 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0296] 微生物検査(びせいぶつけんさ) [compound_technical] = uji laboratorium mikrobiologi | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p5-222] ください(-) [particle] = silakan / tolong | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=カンピロバクター<ruby>属菌検査<rt>ぞくきんけんさ</rt></ruby>は<ruby>日本<rt>にほん</rt></ruby>の<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>禁止<rt>きんし</rt></ruby>される
+    TRANS: Pengujian bakteri genus Campylobacter dilarang oleh undang-undang Jepang
+    KOTOBA: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter | [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-1582710] 日本(にほん) [word] = Jepang | [kb-otaff51-0380] 法律(ほうりつ) [noun] = undang-undang / hukum | [kb-1241550] 禁止(きんし) [word] = dilarang | [kb-v2-p3-230] される(-) [inflected, df:する] = dilakukan (pasif) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>定<rt>さだ</rt></ruby>めた<ruby>項目<rt>こうもく</rt></ruby>があればそれに<ruby>沿<rt>そ</rt></ruby>って<ruby>行<rt>おこな</rt></ruby>う
+    TRANS: Jika ada item pemeriksaan yang ditetapkan oleh undang-undang, maka dilakukan sesuai ketentuan tersebut
+    KOTOBA: [kb-otaff51-0380] 法律(ほうりつ) [noun] = undang-undang / hukum | [kb-v2-p6-511] 定めた(さだめた) [inflected, df:定める] = yang ditetapkan (lampau) | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-v2-p1-266] それ(-) [word] = itu | [kb-v2-p3-200] 沿って(そって) [inflected, df:沿う] = sesuai / mengikuti | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>検査項目<rt>けんさこうもく</rt></ruby>は<ruby>一般生菌数<rt>いっぱんせいきんすう</rt></ruby>、<ruby>大腸菌<rt>だいちょうきん</rt></ruby>、<ruby>大腸菌群<rt>だいちょうきんぐん</rt></ruby>などがある
+    TRANS: Item pemeriksaan yang umum meliputi jumlah bakteri hidup umum (angka lempeng total), E. coli, kelompok koliform, dan sebagainya
+    KOTOBA: [kb-1165880] 一般的(いっぱんてき) [word] = umum / lazim | [kb-ext-0467-e6a49ce69f] 検査項目(けんさこうもく) [compound_technical] = item pemeriksaan | [kb-otaff51-0087] 一般生菌数(いっぱんせいきんすう) [compound_technical] = angka lempeng total bakteri hidup | [kb-otaff51-0255] 大腸菌(だいちょうきん) [compound_technical] = bakteri E. coli | [kb-otaff51-0256] 大腸菌群(だいちょうきんぐん) [compound_technical] = kelompok bakteri koliform | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek

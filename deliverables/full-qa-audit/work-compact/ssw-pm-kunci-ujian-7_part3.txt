@@ -1,0 +1,76 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-7 (Soal Ujian 7 — CBTP Gino1) | Batch qa-batch-02 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=kunci-ujian-7-q009 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0074 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q013 (ssw-pm-kunci-ujian-3), kunci-ujian-14-q011 (ssw-pm-kunci-ujian-14), nguyen03-q013 (latsol-nguyen-03)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業<rt>さぎょう</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しなければなりませんか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dipastikan sebelum mulai bekerja?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 2, Câu 9 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0939] 確認しなければ(かくにんしなければ) [expression] = harus memeriksa (条件) | [kb-audit-0371] なりませんか(なりませんか) [inflected_verb, df:なる] = haruskah (dalam なければなりませんか) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>作業場所<rt>さぎょうばしょ</rt></ruby>と<ruby>作業内容<rt>さぎょうないよう</rt></ruby>
+    TRANS: Lokasi kerja dan isi (rincian) pekerjaan
+    KOTOBA: [kb-ext-0641-e4bd9ce6a5] 作業場所(さぎょうばしょ) [word] = tempat / area kerja produksi | [kb-ext-0650-e4bd9ce6a5] 作業内容(さぎょうないよう) [word] = rincian instruksi tugas kerja | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT B: HTML=<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>働<rt>はたら</rt></ruby>くことの<ruby>名前<rt>なまえ</rt></ruby>
+    TRANS: Nama orang yang bekerja bersama
+    KOTOBA: [kb-1163400] 一緒(いっしょ) [word] = Bersama-sama / serentak | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1531710] 名前(なまえ) [word] = nama | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>消毒液<rt>しょうどくえき</rt></ruby>の<ruby>置<rt>お</rt></ruby>く<ruby>場所<rt>ばしょ</rt></ruby>
+    TRANS: Tempat meletakkan cairan disinfektan
+    KOTOBA: [kb-otaff51-0390] 消毒液(しょうどくえき) [compound_technical] = larutan disinfektan | [kb-v2-p3-275] 置く(おく) [word] = meletakkan | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q10 | ID=kunci-ujian-7-q010 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.2 ===
+  CLUSTER CL-0113 (n=2, diffPrompt=true, diffOpt=false, diffTrans=false): twins=kunci-ujian-14-q012 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: エアシャワーに<ruby>入<rt>はい</rt></ruby>るのは<ruby>何<rt>なん</rt></ruby>のためですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk tujuan apa kita masuk ke dalam air shower?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 2, Câu 10 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-v2-p4-069] エアシャワー(-) [technical] = air shower (bilik hembus udara) | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan)
+  OPT A: HTML=<ruby>消毒<rt>しょうどく</rt></ruby>するため
+    TRANS: Untuk melakukan disinfeksi
+    KOTOBA: [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi | [kb-v2-p1-312] ため(-) [word] = demi / untuk
+  OPT B: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>やほこりを<ruby>落<rt>お</rt></ruby>とすため
+    TRANS: Untuk merontokkan/menghilangkan rambut dan debu
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-v2-p1-214] 落とす(おとす) [word] = menghilangkan / menjatuhkan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>体<rt>からだ</rt></ruby>をきれいにするため
+    TRANS: Untuk membersihkan tubuh
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q11 | ID=kunci-ujian-7-q011 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.2 ===
+  CLUSTER CL-0114 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q013 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5S<ruby>活動<rt>かつどう</rt></ruby>は<ruby>製品<rt>せいひん</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>,<ruby>品質保持<rt>ひんしつほじ</rt></ruby>につながる<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>活動<rt>かつどう</rt></ruby>です。5Sは「<ruby>整理<rt>せいり</rt></ruby>」、「<ruby>整頓<rt>せいとん</rt></ruby>」、「<ruby>清掃<rt>せいそう</rt></ruby>」、「<ruby>習慣<rt>しゅうかん</rt></ruby>」ともう<ruby>一<rt>ひと</rt></ruby>つ<br>は<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: 5S活動は製品の安全,品質保持につながる一般衛生管理の上で重要な活動です。5Sは「整理」、「整頓」、「清掃」、「習慣」ともう一つ
+は何ですか。
+  PROMPT_TRANS: Kegiatan 5S adalah kegiatan penting dalam manajemen higiene umum yang mendukung keamanan dan penjagaan kualitas produk. 5S terdiri dari "Ringkas (Seiri)", "Rapi (Seiton)", "Resik (Seisou)", "Rajin (Shuukan)", dan apakah satu lagi?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 2, Câu 11 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-ext-1526-e59381e8b3] 品質保持(ひんしつほじ) [word] = pemeliharaan mutu pangan | [kb-otaff51-0734] つながる(つながる) [verb] = mengarah pada / menyebabkan | [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan) | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT A: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>
+    TRANS: Rawat / Penjagaan kebersihan (Seiketsu)
+    KOTOBA: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu)
+  OPT B: HTML=しつけ
+    TRANS: Disiplin (Shitsuke)
+    KOTOBA: [kb-otaff51-0016] しつけ(しつけ) [noun] = Shitsuke (Disiplin mematuhi aturan yang ditetapkan)
+  OPT C: HTML=<ruby>仕方<rt>しかた</rt></ruby>
+    TRANS: Cara melakukan (Shikata)
+    KOTOBA: [kb-1594110] 仕方(しかた) [word] = cara / metode pelaksanaan
+
+=== #Q12 | ID=kunci-ujian-7-q012 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.2 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:A] Potential doubled/colliding particle || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0217 (をするこ): "melakukan hal tersebut (typo するこ)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業者<rt>さぎょうしゃ</rt></ruby>が<ruby>移動中<rt>いどうちゅう</rt></ruby>にフォークリフトとぶつかると、どんなことが<ruby>起<rt>お</rt></ruby>こりますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang akan terjadi jika pekerja bertabrakan dengan forklift saat sedang berpindah tempat?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 2, Câu 12 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-2848065] 移動中(いどうちゅう) [word] = saat sedang berpindah lokasi | [kb-otaff51-0071] フォークリフト(ふぉーくりふと) [noun] = forklift | [kb-v2-p5-243] ぶつかる(-) [word] = bertabrakan | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p6-369] 起こります(おこります) [inflected, df:起こる] = terjadi (sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>がけがをすることがある
+    TRANS: Pekerja dapat mengalami cedera (luka)
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-audit-0915] けが(けが) [word] = luka / cedera | [kb-audit-0217] をするこ(をすること) [word] = melakukan hal tersebut (typo するこ) | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT B: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>はすぐに<ruby>回復<rt>かいふく</rt></ruby>する
+    TRANS: Pekerja akan langsung pulih
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-1199720] 回復(かいふく) [word] = pemulihan kondisi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>は<ruby>必<rt>かなら</rt></ruby>ず<ruby>避<rt>さ</rt></ruby>けられる
+    TRANS: Pekerja pasti dapat menghindarinya
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p3-271] 避け(さけ) [inflected, df:避ける] = menghindari | [kb-audit-0393] られる(られる) [word] = dapat / di- (bentuk kamus) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik

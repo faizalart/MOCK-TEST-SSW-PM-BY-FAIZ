@@ -1,0 +1,76 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-3 (Soal Ujian 3 — CBTP Gino1) | Batch qa-batch-01 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=kunci-ujian-3-q029 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0085 (n=2, diffPrompt=false, diffOpt=true, diffTrans=false): twins=kunci-ujian-14-q028 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPとは<ruby>何<rt>なに</rt></ruby>をしますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dilakukan dalam sistem HACCP?
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 5, Câu 29 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>微生物検査<rt>びせいぶつけんさ</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>うことによって、<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因菌<rt>げんいんきん</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>する。
+    TRANS: Mengendalikan bakteri penyebab keracunan makanan dengan melakukan pengujian mikroorganisme.
+    KOTOBA: [kb-otaff51-0296] 微生物検査(びせいぶつけんさ) [compound_technical] = uji laboratorium mikrobiologi | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-316] によって(-) [particle] = tergantung pada / oleh | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-2687540] 原因菌(げんいんきん) [word] = bakteri patogen penyebab | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=X<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って、<ruby>危険<rt>きけん</rt></ruby>な<ruby>異物<rt>いぶつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけ<ruby>出<rt>だ</rt></ruby>す。
+    TRANS: Menemukan benda asing berbahaya dengan menggunakan detektor benda asing sinar-X (X-ray).
+    KOTOBA: [kb-ext-0003-58e7b79ae7] X線異物検出器(せんいぶつけんしゅつき) [word] = detektor benda asing sinar-X | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-v2-p6-352] 見つけ出す(みつけだす) [word] = menemukan / mendeteksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>、<ruby>製造工程中<rt>せいぞうこうていちゅう</rt></ruby>の<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>で<ruby>製造<rt>せいぞう</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>確保<rt>かくほ</rt></ruby>する。
+    TRANS: Memastikan keamanan produksi melalui analisis faktor bahaya dan pengendalian pada Titik Kendali Kritis (CCP) selama proses produksi.
+    KOTOBA: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-ext-1058-e8a3bde980] 製造工程中(せいぞうこうていちゅう) [word] = selama proses pembuatan produk | [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0555] 製造(せいぞう) [noun] = pembuatan / produksi | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1205920] 確保(かくほ) [word] = memastikan ketersediaan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q30 | ID=kunci-ujian-3-q030 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.5 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 関係 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-416 (間違えっている): "keliru (typo: 間違っている)"
+  CLUSTER CL-0086 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-7-q024 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q031 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5S<ruby>活動<rt>かつどう</rt></ruby>と<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>との関係で<ruby>間違<rt>まちが</rt></ruby>えっている<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせはどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pasangan yang salah mengenai hubungan antara kegiatan 5S dan keselamatan kerja? Pilihlah jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 5, Câu 30 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-1215810] 関係(かんけい) [word] = hubungan / keterkaitan | [kb-v2-p5-416] 間違えっている(まちがえている) [inflected, df:間違える] = keliru (typo: 間違っている) | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>整理<rt>せいり</rt></ruby>：<ruby>作業効率<rt>さぎょうこうりつ</rt></ruby>があがり、<ruby>転倒災害<rt>てんとうさいがい</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby>も<ruby>減<rt>へ</rt></ruby>ります
+    TRANS: Ringkas (Seiri): Efisiensi kerja meningkat dan bahaya kecelakaan terjatuh/terpeleset juga berkurang.
+    KOTOBA: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-ext-0632-e4bd9ce6a5] 作業効率(さぎょうこうりつ) [word] = Efisiensi kerja pengolahan makanan | [kb-audit-0403] あがり(あがり) [inflected_verb, df:上がる] = meningkat / naik (上がり) | [kb-otaff51-0588] 転倒災害(てんとうさいがい) [compound_technical] = kecelakaan terpeleset / jatuh di permukaan sama | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p4-175] 減ります(へります) [inflected, df:減る] = berkurang (sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT B: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>：<ruby>製品<rt>せいひん</rt></ruby>の<ruby>品質向上<rt>ひんしつこうじょう</rt></ruby>、<ruby>食中毒予防<rt>しょくちゅうどくよぼう</rt></ruby>、<ruby>異物混入防止<rt>いぶつこんにゅうぼうし</rt></ruby>に<ruby>効果<rt>こうか</rt></ruby>がある。
+    TRANS: Rawat (Seiketsu): Efektif untuk meningkatkan kualitas produk, mencegah keracunan makanan, dan mencegah kontaminasi benda asing.
+    KOTOBA: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-ext-1525-e59381e8b3] 品質向上(ひんしつこうじょう) [word] = peningkatan mutu produk | [kb-ext-0926-e9a39fe4b8] 食中毒予防(しょくちゅうどくよぼう) [word] = pencegahan keracunan makanan | [kb-ext-0078-e795b0e789] 異物混入防止(いぶつこんにゅうぼうし) [word] = pencegahan kontaminasi benda asing | [kb-1275130] 効果(こうか) [word] = efektivitas / hasil guna | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>習慣<rt>しゅうかん</rt></ruby>：ムダな<ruby>時間<rt>じかん</rt></ruby>が<ruby>減<rt>へ</rt></ruby>り、<ruby>製品<rt>せいひん</rt></ruby>の<ruby>品質<rt>ひんしつ</rt></ruby>も<ruby>向上<rt>こうじょう</rt></ruby>されます。
+    TRANS: Rajin (Shukan): Waktu yang terbuang berkurang dan kualitas produk juga meningkat.
+    KOTOBA: [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan) | [kb-v2-p6-298] ムダな(むだな) [word] = sia-sia / terbuang | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p6-473] 減り(へり) [inflected, df:減る] = berkurang | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-1490580] 品質(ひんしつ) [word] = kualitas / mutu produk | [kb-1277250] 向上(こうじょう) [word] = peningkatan mutu dan kesadaran | [kb-audit-0390] されます(されます) [inflected_verb, df:される] = dilakukan (pasif sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+
+=== #Q31 | ID=kunci-ujian-3-q031 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.5 ===
+  CLUSTER CL-0087 (n=3, diffPrompt=true, diffOpt=false, diffTrans=true): twins=nguyen03-q031 (latsol-nguyen-03), nguyen10-q032 (latsol-nguyen-10)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下<rt>した</rt></ruby>は300gのパンの<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>小麦<rt>こむぎ</rt></ruby>6㎏からどれだけのパンを<ruby>作<rt>つく</rt></ruby>ることができますか。<ruby>小麦<rt>こむぎ</rt></ruby>: 200g<ruby>食塩<rt>しょくえん</rt></ruby>: 20g<ruby>水<rt>みず</rt></ruby>: 80g
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di bawah ini adalah contoh komposisi untuk 300 g roti. Berdasarkan komposisi ini, berapa banyak roti yang dapat dibuat dari 6 kg tepung terigu? Tepung terigu: 200 g, Garam: 20 g, Air: 80 g
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 5, Câu 31 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-ext-1441-e9858de590] 配合例(はいごうれい) [word] = contoh formula campuran | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-267] この(-) [word] = ini | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-audit-0016] 従うと(したがうと) [inflected_verb, df:従う] = jika mengikuti / sesuai dengan | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-v2-p1-306] ㎏(きろぐらむ) [word] = kilogram (kg) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-1057] ことができます(ことができます) [expression] = dapat / bisa melakukan | [kb-otaff51-0658] 食塩(しょくえん) [noun] = garam dapur | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=7kg
+    TRANS: 7 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=9kg
+    TRANS: 9 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=11kg
+    TRANS: 11 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+
+=== #Q32 | ID=kunci-ujian-3-q032 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.5 ===
+  CLUSTER CL-0088 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q059 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>転倒<rt>てんとう</rt></ruby>」<ruby>災害防止<rt>さいがいぼうし</rt></ruby>のポイントについて<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai poin pencegahan kecelakaan "terjatuh/terpeleset".
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 5, Câu 32 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-ext-0614-e781bde5ae] 災害防止(さいがいぼうし) [word] = Pencegahan kecelakaan kerja pabrik (K3) | [kb-v2-p5-093] ポイント(-) [word] = poin penting | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>大<rt>おお</rt></ruby>きいもの、<ruby>重<rt>おも</rt></ruby>いものを<ruby>持<rt>も</rt></ruby>つときは<ruby>台車<rt>だいしゃ</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>しましょう。
+    TRANS: Gunakan troli (kereta dorong) saat membawa barang yang besar atau berat.
+    KOTOBA: [kb-v2-p6-287] 大きい(おおきい) [word] = besar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0227] 台車(だいしゃ) [noun] = troli pengangkut barang | [kb-audit-0968] 使用しましょう(しようしましょう) [inflected_verb, df:使用する] = mari gunakan (ajakan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=<ruby>床<rt>ゆか</rt></ruby>は<ruby>常<rt>つね</rt></ruby>に<ruby>濡<rt>ぬ</rt></ruby>れてもいい。
+    TRANS: Lantai boleh dibiarkan selalu basah.
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-v2-p1-284] 常に(つねに) [word] = selalu | [kb-v2-p6-361] 濡れて(ぬれて) [inflected, df:濡れる] = basah | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT C: HTML=<ruby>台車<rt>だいしゃ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>えないときは、<ruby>二人<rt>ふたり</rt></ruby>で<ruby>持<rt>も</rt></ruby>つか1<ruby>回<rt>かい</rt></ruby>で<ruby>運<rt>はこ</rt></ruby>べるようにしましょう。
+    TRANS: Saat tidak bisa menggunakan troli, bawalah berdua atau usahakan diangkut sekaligus dalam 1 kali angkut.
+    KOTOBA: [kb-otaff51-0227] 台車(だいしゃ) [noun] = troli pengangkut barang | [kb-v2-p6-385] 使えない(つかえない) [inflected, df:使う] = tidak dapat digunakan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1582670] 二人(ふたり) [word] = dua orang | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-1199330] 回(かい) [standalone_term] = Kali / putaran siklus pembersihan | [kb-v2-p6-356] 運べる(はこべる) [inflected, df:運ぶ] = dapat diangkut | [kb-v2-p1-327] ように(-) [particle] = agar / supaya | [kb-audit-0383] しましょう(しましょう) [inflected_verb, df:する] = mari lakukan (ajakan sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau

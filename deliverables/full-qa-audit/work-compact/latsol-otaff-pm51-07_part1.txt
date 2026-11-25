@@ -1,0 +1,75 @@
+# AUDIT SHEET: latsol-otaff-pm51-07 (Latsol OTAFF SSW PM Modul 5.1 - Paket 07) | Batch qa-batch-12 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=otaff-pm51-07-q001 | KEY=A (idx=0) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 2022<ruby>年<rt>ねん</rt></ruby>（<ruby>概算<rt>がいさん</rt></ruby>）の「<ruby>食品製造業<rt>しょくひんせいぞうぎょう</rt></ruby>の<ruby>国内生産額<rt>こくないせいさんがく</rt></ruby>」の<ruby>内訳<rt>うちわけ</rt></ruby>において、「パン<ruby>類<rt>るい</rt></ruby>（1.9<ruby>兆円<rt>ちょうえん</rt></ruby>）」と「<ruby>調味料<rt>ちょうみりょう</rt></ruby>（1.7<ruby>兆円<rt>ちょうえん</rt></ruby>）」はそれぞれ<ruby>全体<rt>ぜんたい</rt></ruby>の<ruby>何<rt>なん</rt></ruby>％を<ruby>占<rt>し</rt></ruby>めていますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam rincian 'Nilai Produksi Domestik Industri Pengolahan Makanan' tahun 2022 (estimasi), berapa persenkah proporsi masing-masing dari 'Jenis Roti (1,9 triliun yen)' dan 'Bumbu Penyedap (1,7 triliun yen)' terhadap total keseluruhan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 7 (Bab 1.1 Diagram Lingkaran Produksi Pangan, hal. 2 teks). Bobot: 3 poin. Kunci jawaban: A. Pada diagram lingkaran tahun 2022, パン類 (1,9 triliun yen) dan 調味料 (1,7 triliun yen) masing-masing mencakup 5%.
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-otaff51-0689] 年(ねん) [noun] = tahun | [kb-otaff51-0716] 概算(がいさん) [noun] = perkiraan kasar / estimasi | [kb-otaff51-0656] 食品製造業(しょくひんせいぞうぎょう) [compound_technical] = industri pengolahan makanan | [kb-otaff51-0239] 国内生産額(こくないせいさんがく) [compound_technical] = nilai produksi domestik | [kb-otaff51-0763] 内訳(うちわけ) [noun] = rincian pembagian | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-1556040] 類(るい) [standalone_term] = Kelompok / golongan jenis bahan pangan | [kb-otaff51-0150] 兆円(ちょうえん) [noun] = triliun yen | [kb-1429290] 調味料(ちょうみりょう) [word] = bumbu penyedap | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-1395660] 全体(ぜんたい) [word] = keseluruhan area | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0827] 占めて(しめて) [inflected_verb, df:占める] = menempati proporsi | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=どちらも 5％
+    TRANS: Keduanya 5%
+    KOTOBA: [kb-v2-p3-130] どちらも(-) [word] = keduanya
+  OPT B: HTML=どちらも 15％
+    TRANS: Keduanya 15%
+    KOTOBA: [kb-v2-p3-130] どちらも(-) [word] = keduanya
+  OPT C: HTML=どちらも 25％
+    TRANS: Keduanya 25%
+    KOTOBA: [kb-v2-p3-130] どちらも(-) [word] = keduanya
+
+=== #Q2 | ID=otaff-pm51-07-q002 | KEY=C (idx=2) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.8 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>飲食料品製造業特定技能<rt>いんしょくりょうひんせいぞうぎょうとくていぎのう</rt></ruby>1<ruby>号<rt>ごう</rt></ruby>の<ruby>在留資格者<rt>ざいりゅうしかくしゃ</rt></ruby>が<ruby>働<rt>はたら</rt></ruby>く<ruby>代表的<rt>だいひょうてき</rt></ruby>な<ruby>業種<rt>ぎょうしゅ</rt></ruby>として、テキストに<ruby>書<rt>か</rt></ruby>かれている<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせはどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah kombinasi jenis industri representatif tempat pemegang izin tinggal SSW 1 Pengolahan Makanan bekerja sebagaimana tertulis di dalam buku teks? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 8 (Bab 1.2, hal. 3 teks). Bobot: 3 poin. Kunci jawaban: C. Subsektor tempat pemegang SSW 1 Pengolahan Makanan bekerja meliputi 畜産食料品製造業, 水産食料品製造業, 調味料製造業, パン・菓子製造業, そう菜製造業, 冷凍調理食品製造業, 清涼飲料製造業, dll.
+  INLINE_KOTOBA_COUNT: 29
+  KOTOBA_PROMPT: [kb-pilot51-001] 飲食料品製造業(いんしょくりょうひんせいぞうぎょう) [compound_technical] = industri pengolahan makanan dan minuman | [kb-otaff51-0853] 特定技能1号(とくていぎのういちごう) [compound_technical] = visa Pekerja Berketerampilan Spesifik 1 | [kb-ext-0617-e59ca8e795] 在留資格者(ざいりゅうしかくしゃ) [word] = pemegang izin tinggal (SSW) | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-1412220] 代表的(だいひょうてき) [word] = khas / representatif | [kb-1239450] 業種(ぎょうしゅ) [word] = jenis sektor industri | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-v2-p6-505] 書かれている(かかれている) [inflected, df:書く] = tertulis | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>自動車整備業<rt>じどうしゃせいびぎょう</rt></ruby>、<ruby>造船業<rt>ぞうせんぎょう</rt></ruby>、<ruby>航空機製造業<rt>こうくうきせいぞうぎょう</rt></ruby>
+    TRANS: Industri bengkel mobil, perkapalan, dan pembuatan pesawat terbang
+    KOTOBA: [kb-otaff51-1380] 自動車整備業(じどうしゃせいびぎょう) [compound_technical] = bidang perawatan otomotif | [kb-otaff51-1381] 造船業(ぞうせんぎょう) [compound_technical] = industri perkapalan | [kb-otaff51-1382] 航空機製造業(こうくうきせいぞうぎょう) [compound_technical] = industri pesawat terbang
+  OPT B: HTML=<ruby>ビルクリーニング業<rt>びるくりーにんぐぎょう</rt></ruby>、<ruby>宿泊業<rt>しゅくはくぎょう</rt></ruby>、<ruby>介護業<rt>かいごぎょう</rt></ruby>
+    TRANS: Industri pembersihan gedung, perhotelan, dan keperawatan lansia
+    KOTOBA: [kb-otaff51-1383] ビルクリーニング業(びるくりーにんぐぎょう) [compound_technical] = bidang pembersihan gedung | [kb-otaff51-1384] 宿泊業(しゅくはくぎょう) [compound_technical] = bidang perhotelan/akomodasi | [kb-otaff51-1385] 介護業(かいごぎょう) [compound_technical] = bidang perawatan lansia (kaigo)
+  OPT C: HTML=<ruby>畜産食料品製造業<rt>ちくさんしょくりょうひんせいぞうぎょう</rt></ruby>、<ruby>水産食料品製造業<rt>すいさんしょくりょうひんせいぞうぎょう</rt></ruby>、<ruby>調味料製造業<rt>ちょうみりょうせいぞうぎょう</rt></ruby>、パン・<ruby>菓子製造業<rt>かしせいぞうぎょう</rt></ruby>、そう<ruby>菜製造業<rt>ざいせいぞうぎょう</rt></ruby>、<ruby>冷凍調理食品製造業<rt>れいとうちょうりしょくひんせいぞうぎょう</rt></ruby>、<ruby>清涼飲料製造業<rt>せいりょういんりょうせいぞうぎょう</rt></ruby>など
+    TRANS: Industri pengolahan produk peternakan, perikanan, bumbu, roti & kue, lauk-pauk (souzai), makanan olahan beku, dan minuman ringan
+    KOTOBA: [kb-otaff51-0447] 畜産食料品製造業(ちくさんしょくりょうひんせいぞうぎょう) [compound_technical] = industri pengolahan produk peternakan | [kb-otaff51-0374] 水産食料品製造業(すいさんしょくりょうひんせいぞうぎょう) [compound_technical] = industri pengolahan produk perikanan | [kb-otaff51-1386] 調味料製造業(ちょうみりょうせいぞうぎょう) [compound_technical] = industri bumbu penyedap | [kb-otaff51-1387] パン・菓子製造業(ぱんかしせいぞうぎょう) [compound_technical] = industri roti dan kue | [kb-otaff51-1388] そう菜製造業(そうざいせいぞうぎょう) [compound_technical] = industri makanan siap saji | [kb-otaff51-1389] 冷凍調理食品製造業(れいとうちょうりしょくひんせいぞうぎょう) [compound_technical] = industri makanan beku olahan | [kb-otaff51-0401] 清涼飲料製造業(せいりょういんりょうせいぞうぎょう) [compound_technical] = industri pembuatan minuman ringan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain
+
+=== #Q3 | ID=otaff-pm51-07-q003 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.12 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@prompt] Potential doubled/colliding particle || [KANJI_WITHOUT_RUBY@opt:C] 質
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>によるケガを<ruby>防<rt>ふせ</rt></ruby>ぐため、<ruby>魚<rt>さかな</rt></ruby>や<ruby>貝<rt>かい</rt></ruby>、<ruby>野菜<rt>やさい</rt></ruby>の<ruby>下処理<rt>したしょり</rt></ruby>で<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>くべきものの<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk mencegah cedera akibat faktor bahaya fisik, pilihlah satu kombinasi bagian yang wajib dibuang pada tahap persiapan awal (shita-shori) ikan, kerang, dan sayuran.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 12 (Bab 2.2(1), hal. 7 teks). Bobot: 3 poin. Kunci jawaban: B. Pada tahap persiapan awal (下処理), tanah/kerikil dan akar sayuran, cangkang kerang (貝の殻), serta insang dan tulang ikan (魚のエラ・骨) wajib disingkirkan.
+  INLINE_KOTOBA_COUNT: 27
+  KOTOBA_PROMPT: [kb-ext-1566-e789a9e790] 物理的危害要因(ぶつりてききがいよういん) [word] = bahaya fisik | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p5-134] 魚(さかな) [word] = ikan | [kb-otaff51-1390] 貝(かい) [noun] = kerang | [kb-1537370] 野菜(やさい) [word] = sayur-sayuran | [kb-ext-0169-e4b88be587] 下処理(したしょり) [word] = penanganan awal bahan baku | [kb-v2-p4-184] 取り除く(とりのぞく) [word] = menyingkirkan / membuang | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>魚<rt>さかな</rt></ruby>の<ruby>赤身<rt>あかみ</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>と、<ruby>野菜<rt>やさい</rt></ruby>の<ruby>葉<rt>は</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>
+    TRANS: Bagian daging merah ikan dan bagian daun sayuran
+    KOTOBA: [kb-v2-p5-134] 魚(さかな) [word] = ikan | [kb-otaff51-1391] 赤身(あかみ) [noun] = daging merah (ikan/sapi) | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-1537370] 野菜(やさい) [word] = sayur-sayuran | [kb-otaff51-1392] 葉(は) [noun] = daun (sayuran)
+  OPT B: HTML=<ruby>野菜<rt>やさい</rt></ruby>の<ruby>土<rt>つち</rt></ruby>・<ruby>小石<rt>こいし</rt></ruby>や<ruby>根<rt>ね</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>、<ruby>貝<rt>かい</rt></ruby>の<ruby>殻<rt>から</rt></ruby>、<ruby>魚<rt>さかな</rt></ruby>のエラや<ruby>骨<rt>ほね</rt></ruby>
+    TRANS: Tanah/kerikil dan bagian akar sayuran, cangkang kerang, serta insang dan tulang/duri ikan
+    KOTOBA: [kb-1537370] 野菜(やさい) [word] = sayur-sayuran | [kb-v2-p3-148] 土(つち) [word] = tanah | [kb-otaff51-0280] 小石(こいし) [noun] = kerikil / batu kecil | [kb-otaff51-0815] 根(ね) [noun] = akar (sayuran) | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-otaff51-0579] 貝の殻(かいのから) [noun] = cangkang kerang | [kb-v2-p5-134] 魚(さかな) [word] = ikan | [kb-otaff51-0042] エラ(えら) [noun] = insang ikan | [kb-v2-p4-109] 骨(ほね) [word] = tulang
+  OPT C: HTML=<ruby>野菜<rt>やさい</rt></ruby>のビタミンと、<ruby>魚<rt>さかな</rt></ruby>のタンパク質
+    TRANS: Vitamin pada sayuran dan protein pada ikan
+    KOTOBA: [kb-1537370] 野菜(やさい) [word] = sayur-sayuran | [kb-v2-p6-232] ビタミン(-) [word] = vitamin | [kb-v2-p5-134] 魚(さかな) [word] = ikan | [kb-otaff51-1393] タンパク質(たんぱくしつ) [noun] = protein
+
+=== #Q4 | ID=otaff-pm51-07-q004 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.14 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>に<ruby>準<rt>じゅん</rt></ruby>ずるもの（<ruby>表示<rt>ひょうじ</rt></ruby>を<ruby>推奨<rt>すいしょう</rt></ruby>・20<ruby>品目<rt>ひんもく</rt></ruby>）」に<ruby>含<rt>ふく</rt></ruby>まれる<ruby>魚介類<rt>ぎょかいるい</rt></ruby>5<ruby>品目<rt>ひんもく</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu kombinasi 5 item hasil laut (gyokairui) yang termasuk dalam daftar 'Bahan yang Setara dengan Bahan Baku Spesifik (Anjuran Pelabelan, 20 item)'.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 14 (Bab 2.2(2)① Daftar 20 Item Anjuran, hal. 9 teks). Bobot: 3 poin. Kunci jawaban: A. Lima hasil laut dalam 20 item 特定原材料に準ずるもの adalah あわび, いか, いくら, さけ, dan さば (sedangkan えび dan かに termasuk dalam 9 item wajib 特定原材料).
+  INLINE_KOTOBA_COUNT: 27
+  KOTOBA_PROMPT: [kb-otaff51-0708] 特定原材料に準ずるもの(とくていげんざいりょうにじゅんずるもの) [compound_technical] = bahan pangan alergen anjuran label | [kb-1489610] 表示(ひょうじ) [word] = pelabelan / tampilan | [kb-1371120] 推奨(すいしょう) [word] = rekomendasi / dianjurkan | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-v2-p3-251] 含まれる(ふくまれる) [inflected, df:含む] = terkandung di dalam | [kb-1233120] 魚介類(ぎょかいるい) [word] = ikan dan makanan laut | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=あわび、いか、いくら、さけ、さば
+    TRANS: Abalon (awabi), cumi-cumi (ika), telur salmon (ikura), salmon (sake), dan makarel (saba)
+    KOTOBA: [kb-latsol-4bb0fb5678] あわび(あわび) [word] = abalone (kerang) | [kb-latsol-7fe8fbbf7a] いか(いか) [word] = cumi-cumi | [kb-latsol-cd2f86eedf] いくら(いくら) [word] = telur ikan salmon (ikura) | [kb-latsol-93b1af1a3f] さけ(さけ) [word] = ikan salmon | [kb-latsol-82a4ee8540] さば(さば) [word] = ikan kembung / makarel
+  OPT B: HTML=えび、かに、マグロ、イワシ、アジ
+    TRANS: Udang, kepiting, tuna, sarden, dan makarel kuda (aji)
+    KOTOBA: [kb-latsol-fb20898730] えび(えび) [word] = udang | [kb-latsol-8030f7ad18] かに(かに) [word] = kepiting | [kb-v2-p3-077] マグロ(-) [word] = ikan tuna | [kb-v2-p6-234] イワシ(-) [word] = ikan sarden | [kb-v2-p5-109] アジ(-) [word] = ikan kembung (aji)
+  OPT C: HTML=たこ、うに、かき、ホタテ、サンマ
+    TRANS: Gurita, bulu babi, tiram, kerang kampak, dan ikan sauri
+    KOTOBA: [kb-v2-p3-071] たこ(-) [word] = gurita | [kb-otaff51-0965] うに(うに) [noun] = bulu babi (uni) | [kb-otaff51-0966] かき(かき) [noun] = tiram | [kb-v2-p3-076] ホタテ(-) [word] = kerang kampak (scallop) | [kb-otaff51-1394] サンマ(さんま) [noun] = ikan sauri pasifik (sanma)

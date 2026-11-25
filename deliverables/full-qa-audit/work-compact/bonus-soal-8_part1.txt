@@ -1,0 +1,76 @@
+# AUDIT SHEET: bonus-soal-8 (Bonus Soal 8) | Batch qa-batch-05 | Part 1 (Q1-4 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=bonus-soal-8-q001 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 8.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  CLUSTER CL-0178 (n=8, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q001 (bonus-soal-2), bonus-soal-4-q013 (bonus-soal-4), bonus-soal-7-q013 (bonus-soal-7), nguyen02-q001 (latsol-nguyen-02), nguyen04-q013 (latsol-nguyen-04), nguyen07-q013 (latsol-nguyen-07), nguyen08-q001 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>は3つに<ruby>分<rt>わ</rt></ruby>けます。<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>と<ruby>原材料<rt>げんざいりょう</rt></ruby>、<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>ともう一つ<ruby>物<rt>もの</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manajemen higiene umum dibagi menjadi 3 bagian. Selain manajemen higiene pekerja serta manajemen higiene bahan baku dan produk pangan, manakah satu bagian lainnya?
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 1, Soal 1) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-audit-0164] 分けます(わけます) [inflected_verb, df:分ける] = membagi / memisahkan | [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT A: HTML=<ruby>環境管理<rt>かんきょうかんり</rt></ruby>。
+    TRANS: Manajemen lingkungan.
+    KOTOBA: [kb-ext-0288-e792b0e5a2] 環境管理(かんきょうかんり) [word] = manajemen sanitasi lingkungan
+  OPT B: HTML=<ruby>施設<rt>しせつ</rt></ruby>、<ruby>設備<rt>せつび</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>などの<ruby>衛生管理<rt>えいせいかんり</rt></ruby>。
+    TRANS: Manajemen higiene fasilitas, peralatan, perkakas, dan sebagainya.
+    KOTOBA: [kb-otaff51-0335] 施設(しせつ) [noun] = fasilitas bangunan | [kb-otaff51-0570] 設備(せつび) [noun] = fasilitas / instalasi peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>服作業管理<rt>ふくさぎょうかんり</rt></ruby>。
+    TRANS: Manajemen pakaian kerja.
+    KOTOBA: [kb-ext-latsol-0005] 服作業管理(ふくさぎょうかんり) [word] = manajemen pakaian kerja
+
+=== #Q2 | ID=bonus-soal-8-q002 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 8.pdf p.1 ===
+  CLUSTER CL-0036 (n=6, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q002 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q003 (ssw-pm-kunci-ujian-16), bonus-soal-2-q002 (bonus-soal-2), nguyen02-q002 (latsol-nguyen-02), nguyen08-q002 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>に<ruby>存在<rt>そんざい</rt></ruby>し、<ruby>十分加熱<rt>じゅうぶんかねつ</rt></ruby>しないと<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>しやすい<ruby>原因<rt>げんいん</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Penyebab manakah yang terdapat pada kerang bivalvia seperti tiram dan mudah menyebabkan keracunan makanan jika tidak dipanaskan secara menyeluruh? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 1, Soal 2) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia) | [kb-v2-p2-183] 存在し(そんざいし) [inflected, df:存在する] = ada / terdapat | [kb-ext-0817-e58d81e588] 十分加熱(じゅうぶんかねつ) [word] = pemanasan menyeluruh hingga matang | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p2-180] 発生しやすい(はっせいしやすい) [inflected, df:発生する] = mudah terjadi | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT B: HTML=ノロウイルス
+    TRANS: Norovirus
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus
+  OPT C: HTML=<ruby>大腸菌<rt>だいちょうきん</rt></ruby>
+    TRANS: Escherichia coli (E. coli)
+    KOTOBA: [kb-otaff51-0255] 大腸菌(だいちょうきん) [compound_technical] = bakteri E. coli
+
+=== #Q3 | ID=bonus-soal-8-q003 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 8.pdf p.1 ===
+  CLUSTER CL-0037 (n=6, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q003 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q004 (ssw-pm-kunci-ujian-16), bonus-soal-2-q003 (bonus-soal-2), nguyen02-q003 (latsol-nguyen-02), nguyen08-q003 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>は<ruby>増殖<rt>ぞうしょく</rt></ruby>しにくい<ruby>環境<rt>かんきょう</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Lingkungan manakah yang membuat mikroorganisme sulit berkembang biak? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 1, Soal 3) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0983] 増殖しにくい(ぞうしょくしにくい) [inflected_adj, df:増殖しにくい] = sulit berkembang biak | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=30℃〜40℃、<ruby>水分<rt>すいぶん</rt></ruby>があり、<ruby>汚<rt>よご</rt></ruby>れがある<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu 30°C~40°C, terdapat air (lembap), dan terdapat kotoran
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-v2-p2-259] あり(-) [inflected, df:ある] = ada | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-v2-p1-242] ある(-) [word] = ada | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=4℃<ruby>以下<rt>いか</rt></ruby>、<ruby>乾燥<rt>かんそう</rt></ruby>、<ruby>汚<rt>よご</rt></ruby>れがない<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu 4°C atau lebih rendah, kering, dan tidak ada kotoran
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0103] 乾燥(かんそう) [noun] = pengeringan | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>室温<rt>しつおん</rt></ruby>で、<ruby>汚<rt>よご</rt></ruby>れがある<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu ruang dan terdapat kotoran
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-v2-p1-242] ある(-) [word] = ada | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q4 | ID=bonus-soal-8-q004 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 8.pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p5-101 (コーヒ): "kopi (typo: コーヒー)"
+  CLUSTER CL-0167 (n=9, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q017 (bonus-soal-1), bonus-soal-2-q004 (bonus-soal-2), bonus-soal-7-q017 (bonus-soal-7), nguyen01-q017 (latsol-nguyen-01), nguyen02-q004 (latsol-nguyen-02), nguyen07-q017 (latsol-nguyen-07), nguyen08-q004 (latsol-nguyen-08), nguyen10-q018 (latsol-nguyen-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>飲料製造業<rt>いんりょうせいぞうぎょう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>することですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一つ選<rt>ひとつえら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Memproduksi apakah industri pengolahan minuman? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 8.pdf (Halaman 1, Soal 4) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0666] 飲料製造業(いんりょうせいぞうぎょう) [compound_technical] = industri pembuatan minuman | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=コーヒ。
+    TRANS: Kopi.
+    KOTOBA: [kb-v2-p5-101] コーヒ(-) [word] = kopi (typo: コーヒー)
+  OPT B: HTML=<ruby>冷凍食品<rt>れいとうしょくひん</rt></ruby>。
+    TRANS: Makanan beku.
+    KOTOBA: [kb-otaff51-0160] 冷凍食品(れいとうしょくひん) [compound_technical] = makanan beku
+  OPT C: HTML=ジュース。
+    TRANS: Jus.
+    KOTOBA: [kb-v2-p5-100] ジュース(-) [word] = jus minuman

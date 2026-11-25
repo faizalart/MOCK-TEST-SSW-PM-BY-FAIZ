@@ -1,0 +1,38 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-16 (Soal Ujian 16) | Batch qa-batch-04 | Part 13 (Q49-50 of 50)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q49 | ID=kunci-ujian-16-q049 | KEY=A (idx=0) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 16.pdf p.18 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>掃除<rt>そうじ</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai pembersihan tempat kerja (di sekitar peralatan listrik), pilihlah satu tindakan yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 18, nomor 実技試験 門9 (Q49). Bobot: 3.0 poin. Kunci jawaban: A. Visual: Ilustrasi pekerja sedang mengepel lantai menggunakan mop yang sudah diperas di dekat peralatan/kabel listrik dengan tanda peringatan (注意). Pembahasan: Saat mengepel lantai di dekat stopkontak atau peralatan listrik (電気具周辺), kain pel (モップ) harus diperas dengan baik agar air tidak mengenai instalasi listrik yang dapat memicu sengatan listrik atau korsleting.
+  INLINE_KOTOBA_COUNT: 13
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>電気具周辺<rt>でんきぐしゅうへん</rt></ruby>で<ruby>水<rt>みず</rt></ruby>がかからないようにモップをよく<ruby>絞<rt>しぼ</rt></ruby>っていく
+    TRANS: Di sekitar peralatan listrik, memeras kain pel (mop) dengan kuat agar air tidak terciprat mengenai peralatan listrik
+    KOTOBA: [kb-u1416-24d0e9f673] 電気具周辺(でんきぐしゅうへん) [word] = area sekitar peralatan listrik | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p6-215] モップ(-) [word] = kain pel | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-audit-0050] 絞って(しぼって) [inflected_verb, df:絞る] = memeras (kain pel/air) | [kb-audit-0869] いく(いく) [word] = pergi / terus melakukan
+  OPT B: HTML=<ruby>電気具周辺<rt>でんきぐしゅうへん</rt></ruby>に<ruby>掃除<rt>そうじ</rt></ruby>しない
+    TRANS: Tidak membersihkan area di sekitar peralatan listrik
+    KOTOBA: [kb-u1416-24d0e9f673] 電気具周辺(でんきぐしゅうへん) [word] = area sekitar peralatan listrik | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan
+  OPT C: HTML=<ruby>電気具周辺<rt>でんきぐしゅうへん</rt></ruby>に<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラーで<ruby>掃除<rt>そうじ</rt></ruby>する
+    TRANS: Membersihkan lantai di sekitar peralatan listrik menggunakan roller perekat pakaian
+    KOTOBA: [kb-u1416-24d0e9f673] 電気具周辺(でんきぐしゅうへん) [word] = area sekitar peralatan listrik | [kb-otaff51-0490] 粘着ローラー(ねんちゃくろーらー) [compound_technical] = rol perekat pembersih debu/rambut | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan
+
+=== #Q50 | ID=kunci-ujian-16-q050 | KEY=A (idx=0) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 16.pdf p.19 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>機械<rt>きかい</rt></ruby>の<ruby>状態<rt>じょうたい</rt></ruby>がいつもと<ruby>違<rt>ちが</rt></ruby>っていたら、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apabila kondisi mesin terasa berbeda dari biasanya (tidak normal), pilihlah satu tindakan yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 19, nomor 実技試験 門10 (Q50). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 76), saat mendapati kondisi mesin tidak normal (suara/bau/gerakan aneh), pekerja harus segera memberi tahu penanggung jawab dan rekan di sekitar serta tidak boleh memperbaikinya sendiri.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0435] 状態(じょうたい) [noun] = kondisi / keadaan | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-audit-0604] 違っていたら(ちがっていたら) [inflected_verb, df:違う] = jika berbeda | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>にすぐに<ruby>知<rt>し</rt></ruby>らせます
+    TRANS: Segera memberi tahu penanggung jawab dan orang-orang di sekitar
+    KOTOBA: [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-audit-0051] 知らせます(しらせます) [inflected_verb, df:知らせる] = memberitahukan / melaporkan
+  OPT B: HTML=マニュアルを<ruby>確認<rt>かくにん</rt></ruby>し、<ruby>自分<rt>じぶん</rt></ruby>で<ruby>修理<rt>しゅうり</rt></ruby>する
+    TRANS: Memeriksa buku manual lalu memperbaikinya sendiri
+    KOTOBA: [kb-v2-p5-091] マニュアル(-) [word] = buku panduan (manual) | [kb-audit-0927] 確認し(かくにんし) [inflected_verb, df:確認する] = memeriksa (確認する) | [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-otaff51-0142] 修理(しゅうり) [noun] = perbaikan / reparasi
+  OPT C: HTML=<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>と<ruby>相談<rt>そうだん</rt></ruby>し、<ruby>修理<rt>しゅうり</rt></ruby>する
+    TRANS: Berdiskusi dengan orang di sekitar lalu memperbaikinya sendiri
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-audit-0949] 相談し(そうだんし) [inflected_verb, df:相談する] = berkonsultasi (相談する) | [kb-otaff51-0142] 修理(しゅうり) [noun] = perbaikan / reparasi

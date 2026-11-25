@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-nguyen-10 (Latsol Nguyen 10) | Batch qa-batch-08 | Part 8 (Q29-32 of 41)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=nguyen10-q029 | KEY=A (idx=0) | CAT= | SRC=10 (2).pdf p.6 ===
+  CLUSTER CL-0252 (n=4, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-9-q028 (bonus-soal-9), nguyen03-q028 (latsol-nguyen-03), nguyen09-q028 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("一般衛生管理と重要管理点の管理が正しく実行されていることを監視する。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品<rt>しょくひん</rt></ruby>では、<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>だけでなく、<ruby>危害要因<rt>きがいよういん</rt></ruby>が<ruby>含<rt>ふく</rt></ruby>まれないようにするための<ruby>特別<rt>とくべつ</rt></ruby>な<ruby>仕組<rt>しく</rt></ruby>みが<ruby>必要<rt>ひつよう</rt></ruby>です。<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>、<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>（CCP）と<ruby>管理基準<rt>かんりきじゅん</rt></ruby>を<ruby>決<rt>き</rt></ruby>める、もう<ruby>一<rt>ひと</rt></ruby>つはなんですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam pangan, selain manajemen higiene umum, diperlukan sistem khusus agar faktor bahaya tidak ikut masuk. Selain analisis bahaya serta menentukan Titik Kendali Kritis (CCP) dan batas kritis, apa satu hal lainnya? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 6, nomor 29. Bobot: 3.66 poin. Kunci jawaban: A. Nomor asli PDF: Câu 28 (Halaman 6).
+  KOTOBA_PROMPT: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-otaff51-0764] 含まれない(ふくまれない) [inflected_verb, df:含む] = tidak termasuk | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-1455280] 特別(とくべつ) [word] = khusus / spesifik | [kb-otaff51-0800] 仕組み(しくみ) [noun] = mekanisme / sistem kerja | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>と<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しく<ruby>実行<rt>じっこう</rt></ruby>されていることを<ruby>監視<rt>かんし</rt></ruby>する。
+    TRANS: Memantau bahwa manajemen higiene umum dan pengelolaan Titik Kendali Kritis (CCP) dijalankan dengan benar.
+    KOTOBA: [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-latsol-2ebd3f4a56] 重要管理点の管理(じゅうようかんりてんのかんり) [word] = pengelolaan Titik Kendali Kritis (CCP) | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-1321040] 実行(じっこう) [word] = pelaksanaan | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-otaff51-0460] 監視(かんし) [noun] = pemantauan (monitoring)
+  OPT B: HTML=<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>。
+    TRANS: Manajemen keselamatan kerja.
+    KOTOBA: [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen
+  OPT C: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る。
+    TRANS: Melindungi keselamatan pekerja.
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+
+=== #Q30 | ID=nguyen10-q030 | KEY=C (idx=2) | CAT= | SRC=10 (2).pdf p.6 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 重要管理点 || [PRIOR_KEY_AUDIT_KEY_CORRECTION_REQUIRED@question] Soal ini merupakan duplikat dari 3.pdf Câu 29 pada 10 (2).pdf Hal. 6 Câu 29 (No. 30) yang menanyakan pernyataan yang SALAH (間違っているもの) tentang CCP. Tanda centang hijau pada PDF sumber berada di Opsi A (pernyataan yang benar), sedangkan pernyataan yang salah secara materi HACCP adalah Opsi C (重要管理点が一つだけある).
+  CLUSTER CL-0214 (n=6, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-5-q021 (bonus-soal-5), bonus-soal-9-q029 (bonus-soal-9), nguyen03-q029 (latsol-nguyen-03), nguyen05-q021 (latsol-nguyen-05), nguyen09-q029 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: KEY_CORRECTION_REQUIRED | Soal ini merupakan duplikat dari 3.pdf Câu 29 pada 10 (2).pdf Hal. 6 Câu 29 (No. 30) yang menanyakan pernyataan yang SALAH (間違っているもの) tentang CCP. Tanda centang hijau pada PDF sumber berada di Opsi A (pernyataan yang benar), sedangkan pernyataan yang salah secara materi HACCP adalah Opsi C (重要管理点が一つだけある).
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものはどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pernyataan yang salah mengenai Titik Kendali Kritis (重要管理点 / CCP)?
+  EXPLANATION: Jawaban yang benar adalah C. Pertanyaan meminta pernyataan yang SALAH (間違っているもの) mengenai Titik Kendali Kritis (重要管理点 / CCP). Pernyataan A (standar manajemen pada CCP wajib dipatuhi) dan B (ada pangan yang memiliki dua atau lebih CCP) adalah benar sesuai prinsip HACCP. Pernyataan C ("CCP hanya ada satu saja") adalah salah karena jumlah CCP bergantung pada produk dan proses pembuatannya.
+  KOTOBA_PROMPT: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>では、<ruby>管理基準<rt>かんりきじゅん</rt></ruby>を<ruby>必<rt>かなら</rt></ruby>ず<ruby>守<rt>まも</rt></ruby>らなければいけません。
+    TRANS: Pada titik kendali kritis, standar pengelolaan (batas kritis) wajib dipatuhi.
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p5-357] 守らなければ(まもらなければ) [inflected, df:守る] = harus mematuhi | [kb-audit-0466] いけません(いけません) [expression, df:いく] = tidak boleh / harus (sopan)
+  OPT B: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>が<ruby>一<rt>ひと</rt></ruby>つではなく、<ruby>二<rt>ふた</rt></ruby>つ<ruby>以上<rt>いじょう</rt></ruby>になる<ruby>食品<rt>しょくひん</rt></ruby>もある。
+    TRANS: Ada juga produk pangan yang titik kendali kritisnya bukan hanya satu, melainkan dua atau lebih.
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-227] 二つ(ふたつ) [word] = dua buah | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan
+  OPT C: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>が<ruby>一<rt>ひと</rt></ruby>つだけある。
+    TRANS: Titik kendali kritis hanya ada satu saja.
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu
+
+=== #Q31 | ID=nguyen10-q031 | KEY=C (idx=2) | CAT= | SRC=10 (2).pdf p.6 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 未熟練作業者 || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-2233690 "気": kotoba="け" vs ruby="き"
+  CLUSTER CL-0197 (n=6, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q020 (bonus-soal-4), bonus-soal-7-q021 (bonus-soal-7), nguyen03-q030 (latsol-nguyen-03), nguyen04-q020 (latsol-nguyen-04), nguyen07-q021 (latsol-nguyen-07)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("長い時間で働く人です。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>未熟練作業者<rt>みじゅくれんさぎょうしゃ</rt></ruby>とはなんですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dimaksud dengan pekerja belum berpengalaman (未熟練作業者)? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 6, nomor 31. Bobot: 3.66 poin. Kunci jawaban: C. Nomor asli PDF: Câu 30 (Halaman 6).
+  KOTOBA_PROMPT: [kb-otaff51-0342] 未熟練作業者(みじゅくれんさぎょうしゃ) [compound_technical] = pekerja kurang berpengalaman (masa kerja di bawah 3 tahun) | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>経験<rt>けいけん</rt></ruby>が3<ruby>年未満<rt>ねんみまん</rt></ruby>の<ruby>作業者<rt>さぎょうしゃ</rt></ruby>で、<ruby>経験<rt>けいけん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なくて<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れていない<ruby>人<rt>ひと</rt></ruby>です。
+    TRANS: Pekerja dengan pengalaman kurang dari 3 tahun, yang sedikit pengalamannya dan belum terbiasa dengan pekerjaan.
+    KOTOBA: [kb-1251270] 経験(けいけん) [word] = pengalaman | [kb-latsol-nenmiman] 年未満(ねんみまん) [word] = kurang dari ... tahun | [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-v2-p5-372] 少なくて(すくなくて) [inflected, df:少ない] = sedikit / kurang | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-131] 慣れていない(なれていない) [inflected_verb, df:慣れる] = belum terbiasa (dasar: 慣れる) | [kb-v2-p1-058] 人(ひと) [word] = orang
+  OPT B: HTML=<ruby>危険<rt>きけん</rt></ruby>になかなか<ruby>気<rt>き</rt></ruby>がつかない<ruby>人<rt>ひと</rt></ruby>です。
+    TRANS: Orang yang sulit menyadari bahaya.
+    KOTOBA: [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-audit-0165] なかなか(なかなか) [word] = tidak mudah / sulit (dengan negatif) | [kb-2233690] 気(け) [standalone_term] = Tanda-tanda / indikasi gejala | [kb-v2-p2-195] つかない(-) [inflected, df:つく] = tidak menempel | [kb-v2-p1-058] 人(ひと) [word] = orang
+  OPT C: HTML=<ruby>長<rt>なが</rt></ruby>い<ruby>時間<rt>じかん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>です。
+    TRANS: Orang yang bekerja dalam waktu yang lama.
+    KOTOBA: [kb-v2-p1-250] 長い(ながい) [word] = panjang / lama | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-v2-p1-058] 人(ひと) [word] = orang
+
+=== #Q32 | ID=nguyen10-q032 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.6 ===
+  CLUSTER CL-0087 (n=3, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-3-q031 (ssw-pm-kunci-ujian-3), nguyen03-q031 (latsol-nguyen-03)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: 10 (2).pdf, halaman 6, nomor 32. Bobot: 3.66 poin. Kunci jawaban: B. Perhitungan: (6000 g / 200 g) × 300 g = 30 × 300 g = 9000 g = 9 kg. Nomor asli PDF: Câu 31 (Halaman 6).), hasil yang tepat adalah Opsi B ("9kg").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下<rt>した</rt></ruby>は300gのパンの<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>小麦<rt>こむぎ</rt></ruby>6kgからどれだけのパンを<ruby>作<rt>つく</rt></ruby>ることができますか。<ruby>小麦<rt>こむぎ</rt></ruby>：200g <ruby>食塩<rt>しょくえん</rt></ruby>：20g <ruby>水<rt>みず</rt></ruby>：80g
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di bawah ini adalah contoh komposisi untuk 300 g roti. Jika mengikuti komposisi ini, berapa banyak roti yang dapat dibuat dari 6 kg gandum? Gandum: 200 g, Garam: 20 g, Air: 80 g.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 6, nomor 32. Bobot: 3.66 poin. Kunci jawaban: B. Perhitungan: (6000 g / 200 g) × 300 g = 30 × 300 g = 9000 g = 9 kg. Nomor asli PDF: Câu 31 (Halaman 6).
+  KOTOBA_PROMPT: [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-ext-1441-e9858de590] 配合例(はいごうれい) [word] = contoh formula campuran | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-audit-0016] 従うと(したがうと) [inflected_verb, df:従う] = jika mengikuti / sesuai dengan | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-1057] ことができます(ことができます) [expression] = dapat / bisa melakukan | [kb-otaff51-0658] 食塩(しょくえん) [noun] = garam dapur | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT A: HTML=7kg
+    TRANS: 7 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=9kg
+    TRANS: 9 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=11kg
+    TRANS: 11 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram

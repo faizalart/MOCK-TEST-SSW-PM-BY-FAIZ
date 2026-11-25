@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-6 (Soal Ujian 6 — CBTP Gino1) | Batch qa-batch-02 | Part 6 (Q21-24 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=kunci-ujian-6-q021 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.4 ===
+  CLUSTER CL-0020 (n=7, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci1-q021 (ssw-pm-kunci-ujian-1), bonus-soal-1-q021 (bonus-soal-1), bonus-soal-8-q020 (bonus-soal-8), nguyen01-q021 (latsol-nguyen-01), nguyen08-q020 (latsol-nguyen-08), nguyen10-q022 (latsol-nguyen-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai tindakan selama bekerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 4, Câu 21 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>危険<rt>きけん</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>をしている<ruby>人<rt>ひと</rt></ruby>を<ruby>見<rt>み</rt></ruby>たら、<ruby>声<rt>こえ</rt></ruby>をかける
+    TRANS: Menegur/menyapa ketika melihat orang yang sedang melakukan pekerjaan berbahaya
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-audit-0594] 見たら(みたら) [inflected_verb, df:見る] = jika melihat | [kb-otaff51-1227] 声をかける(こえをかける) [expression] = menegur / memberi aba-aba | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>危険<rt>きけん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけたら、<ruby>責任者<rt>せきにんしゃ</rt></ruby>にすぐに<ruby>報告<rt>ほうこく</rt></ruby>する
+    TRANS: Segera melapor kepada penanggung jawab ketika menemukan tempat yang berbahaya
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-audit-0591] 見つけたら(みつけたら) [inflected_verb, df:見つける] = jika menemukan | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p2-157] 報告する(ほうこくする) [word] = melaporkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れる<ruby>時間<rt>じかん</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>い<ruby>時<rt>とき</rt></ruby>は、<ruby>黙<rt>だま</rt></ruby>って<ruby>離<rt>はな</rt></ruby>れてもいい
+    TRANS: Boleh meninggalkan tempat kerja diam-diam (tanpa izin/lapor) jika hanya sebentar
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-191] 離れる(はなれる) [word] = meninggalkan | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p1-254] 短い(みじかい) [word] = pendek / singkat | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-v2-p1-192] 黙って(だまって) [inflected_verb, df:黙る] = diam-diam (dasar: 黙る) | [kb-v2-p1-298] 離れて(はなれて) [inflected_verb, df:離れる] = meninggalkan (dasar: 離れる) | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+
+=== #Q22 | ID=kunci-ujian-6-q022 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>がほとんど<ruby>増<rt>ふ</rt></ruby>えない<ruby>温度<rt>おんど</rt></ruby>は<ruby>何度以下<rt>なんどいか</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada suhu berapa derajat ke bawah bakteri penyebab keracunan makanan hampir tidak dapat berkembang biak?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 4, Câu 22 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-v2-p3-133] ほとんど(-) [word] = hampir tidak / hampir semua | [kb-otaff51-0793] 増えない(ふえない) [inflected_verb, df:増える] = tidak berkembang biak | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-ext-0183-e4bd95e5ba] 何度以下(なんどいか) [word] = berapa derajat atau kurang | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=-5℃
+    TRANS: -5°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu)
+  OPT B: HTML=4℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 4°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 10°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q23 | ID=kunci-ujian-6-q023 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品<rt>しょくひん</rt></ruby>の<ruby>危害要因<rt>きがいよういん</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>し、<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>危害要因<rt>きがいよういん</rt></ruby>が<ruby>含<rt>ふく</rt></ruby>まれないようにするために<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>管理方法<rt>かんりほうほう</rt></ruby>を<ruby>判断<rt>はんだん</rt></ruby>するのは、<ruby>次<rt>つぎ</rt></ruby>のうちどれで<br>すか。
+  QUESTION_TEXT: 食品の危害要因を分析し、製造する食品に危害要因が含まれないようにするために必要な管理方法を判断するのは、次のうちどれで
+すか。
+  PROMPT_TRANS: Manakah di bawah ini yang menganalisis faktor bahaya pada pangan dan menentukan metode pengendalian yang diperlukan agar pangan yang diproduksi tidak mengandung faktor bahaya?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 4, Câu 23 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-audit-0990] 分析し(ぶんせきし) [inflected_verb, df:分析する] = menganalisis (分析する) | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-otaff51-0764] 含まれない(ふくまれない) [inflected_verb, df:含む] = tidak termasuk | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-ext-0294-e7aea1e790] 管理方法(かんりほうほう) [word] = metode pengendalian | [kb-otaff51-0185] 判断(はんだん) [noun] = penilaian / keputusan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>食品添加物<rt>しょくひんてんかぶつ</rt></ruby>の<ruby>選定<rt>せんてい</rt></ruby>
+    TRANS: Pemilihan bahan tambahan pangan
+    KOTOBA: [kb-1358610] 食品添加物(しょくひんてんかぶつ) [word] = bahan tambahan pangan (BTP) | [kb-1392360] 選定(せんてい) [word] = pemilihan alat / bahan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=ハザード<ruby>分析<rt>ぶんせき</rt></ruby>と<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>（HACCP）
+    TRANS: Analisis Bahaya dan Titik Kendali Kritis (HACCP)
+    KOTOBA: [kb-otaff51-0063] ハザード分析(はざーどぶんせき) [compound_technical] = analisis bahaya (hazard analysis) | [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT C: HTML=<ruby>製造過程<rt>せいぞうかてい</rt></ruby>の<ruby>温度管理<rt>おんどかんり</rt></ruby>
+    TRANS: Pengendalian suhu dalam proses produksi
+    KOTOBA: [kb-2650810] 製造過程(せいぞうかてい) [word] = rangkaian proses pembuatan | [kb-otaff51-0406] 温度管理(おんどかんり) [compound_technical] = pengendalian suhu | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q24 | ID=kunci-ujian-6-q024 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ゴミを<ruby>作業場<rt>さぎょうば</rt></ruby>から<ruby>出<rt>だ</rt></ruby>す<ruby>際<rt>さい</rt></ruby>に<ruby>気<rt>き</rt></ruby>をつけるべきことは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus diperhatikan saat mengeluarkan sampah dari tempat kerja?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 4, Câu 24 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-v2-p1-034] ゴミ(-) [word] = sampah | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p3-267] 出す(だす) [word] = mengeluarkan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-latsol-54832517b9] 気をつける(きをつける) [word] = berhati-hati / waspada | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=ゴミを<ruby>出<rt>だ</rt></ruby>した<ruby>後<rt>あと</rt></ruby>、<ruby>清掃<rt>せいそう</rt></ruby>や<ruby>消毒<rt>しょうどく</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>わないこと
+    TRANS: Tidak melakukan pembersihan atau disinfeksi setelah mengeluarkan sampah
+    KOTOBA: [kb-v2-p1-034] ゴミ(-) [word] = sampah | [kb-otaff51-1462] 出した(だした) [inflected_verb, df:出す] = mengeluarkan | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-otaff51-0389] 消毒(しょうどく) [noun] = disinfeksi | [kb-latsol-50f4c6f57c] 行わない(おこなわない) [word] = tidak melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT B: HTML=ゴミを<ruby>出<rt>だ</rt></ruby>すために<ruby>通路<rt>つうろ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>った<ruby>後<rt>あと</rt></ruby>、<ruby>掃除<rt>そうじ</rt></ruby>・<ruby>洗浄<rt>せんじょう</rt></ruby>・<ruby>消毒<rt>しょうどく</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>うこと
+    TRANS: Melakukan pembersihan, pencucian, dan disinfeksi setelah menggunakan lorong/jalur untuk mengeluarkan sampah
+    KOTOBA: [kb-v2-p1-034] ゴミ(-) [word] = sampah | [kb-v2-p3-267] 出す(だす) [word] = mengeluarkan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0594] 通路(つうろ) [noun] = jalur jalan / lorong | [kb-v2-p2-027] 使った(つかった) [inflected, df:使う] = yang digunakan | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-otaff51-0389] 消毒(しょうどく) [noun] = disinfeksi | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=ゴミを<ruby>出<rt>だ</rt></ruby>すために<ruby>通路<rt>つうろ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>時間<rt>じかん</rt></ruby>を<ruby>長<rt>なが</rt></ruby>くすること
+    TRANS: Memperlama waktu penggunaan lorong/jalur untuk mengeluarkan sampah
+    KOTOBA: [kb-v2-p1-034] ゴミ(-) [word] = sampah | [kb-v2-p3-267] 出す(だす) [word] = mengeluarkan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0594] 通路(つうろ) [noun] = jalur jalan / lorong | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-audit-0895] 長く(ながく) [inflected_adj, df:長い] = menjadi lama / panjang | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

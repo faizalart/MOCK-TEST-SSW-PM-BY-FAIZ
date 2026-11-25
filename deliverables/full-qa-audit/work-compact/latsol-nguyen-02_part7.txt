@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-nguyen-02 (Latsol Nguyen 02) | Batch qa-batch-07 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=nguyen02-q025 | KEY=A (idx=0) | CAT= | SRC=2.pdf p.1 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-v2-p5-291 (含くまない): "tidak mengandung (typo: 含まない)"
+  CLUSTER CL-0023 (n=10, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q024 (ssw-pm-kunci-ujian-1), bonus-soal-1-q024 (bonus-soal-1), bonus-soal-4-q006 (bonus-soal-4), bonus-soal-8-q023 (bonus-soal-8), bonus-soal-10-q011 (bonus-soal-10), nguyen01-q024 (latsol-nguyen-01), nguyen04-q006 (latsol-nguyen-04), nguyen08-q023 (latsol-nguyen-08), nguyen10-q025 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("特定原材料を含む製品は一日の最初に製造する。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギーがほかの<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>混<rt>ま</rt></ruby>ざってしまうことを<ruby>防<rt>ふせ</rt></ruby>ぐために、なにをしますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dilakukan untuk mencegah alergen tercampur ke dalam makanan lain? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 25. Bobot: 3.75 poin. Kunci jawaban: A. Catatan QA: Cetakan asli opsi B memuat kata tambahan 履く。 di akhir kalimat.
+  KOTOBA_PROMPT: [kb-v2-p2-018] アレルギー(-) [technical] = alergi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-audit-0412] 混ざって(まざって) [inflected_verb, df:混ざる] = tercampur ke dalam | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-256] なに(-) [word] = apa | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>製品<rt>せいひん</rt></ruby>は<ruby>一日<rt>いちにち</rt></ruby>の<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>製造<rt>せいぞう</rt></ruby>する。
+    TRANS: Memproduksi produk yang mengandung bahan baku spesifik (alergen) pada urutan paling awal dalam sehari.
+    KOTOBA: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-1576260] 一日(いちにち) [word] = satu hari | [kb-1293990] 最初(さいしょ) [word] = pertama / awal | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat
+  OPT B: HTML=アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>とアレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>くまない<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>別々<rt>べつべつ</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する。<ruby>履<rt>は</rt></ruby>く。
+    TRANS: Menyimpan secara terpisah bahan baku yang mengandung zat alergen dan bahan baku yang tidak mengandung zat alergen.
+    KOTOBA: [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p5-291] 含くまない(ふくまない) [inflected, df:含む] = tidak mengandung (typo: 含まない) | [kb-1603290] 別々(べつべつ) [word] = terpisah masing-masing | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p2-215] 履く(はく) [word] = memakai (sepatu/celana)
+  OPT C: HTML=アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>とアレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>同<rt>おな</rt></ruby>じラインで<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>場合<rt>ばあい</rt></ruby>、<ruby>徹底的<rt>てっていてき</rt></ruby>に<ruby>洗浄<rt>せんじょう</rt></ruby>する。
+    TRANS: Apabila memproduksi bahan baku yang mengandung zat alergen dan bahan baku yang tidak mengandung zat alergen pada lini yang sama, dilakukan pencucian secara menyeluruh.
+    KOTOBA: [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-042] ライン(-) [word] = lini produksi | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-1437680] 徹底的(てっていてき) [word] = menyeluruh / tuntas | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian
+
+=== #Q26 | ID=nguyen02-q026 | KEY=B (idx=1) | CAT= | SRC=2.pdf p.1 ===
+  CLUSTER CL-0184 (n=4, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q026 (bonus-soal-2), bonus-soal-5-q010 (bonus-soal-5), nguyen05-q010 (latsol-nguyen-05)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("サバ、イカ") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>寄生虫生物<rt>きせいちゅうせいぶつ</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah organisme/makanan yang menjadi inang parasit (kiseichuu)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 26. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-ext-0332-e5af84e794] 寄生虫生物(きせいちゅうせいぶつ) [word] = parasit pada bahan pangan | [kb-1531710] 名前(なまえ) [word] = nama | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah
+  OPT A: HTML=おにぎり、サンドイッチ
+    TRANS: Onigiri, roti lapis (sandwich)
+    KOTOBA: [kb-v2-p3-048] おにぎり(-) [word] = nasi kepal (onigiri) | [kb-v2-p3-049] サンドイッチ(-) [word] = roti lapis (sandwich)
+  OPT B: HTML=サバ、イカ
+    TRANS: Ikan makarel (saba), cumi-cumi (ika)
+    KOTOBA: [kb-v2-p5-108] サバ(-) [word] = ikan makarel / kembung | [kb-v2-p5-107] イカ(-) [word] = cumi-cumi
+  OPT C: HTML=<ruby>人<rt>ひと</rt></ruby>の<ruby>皮膚<rt>ひふ</rt></ruby>や<ruby>傷口<rt>きずぐち</rt></ruby>
+    TRANS: Kulit atau luka pada manusia
+    KOTOBA: [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0458] 皮膚(ひふ) [noun] = kulit | [kb-otaff51-0148] 傷口(きずぐち) [noun] = luka terbuka
+
+=== #Q27 | ID=nguyen02-q027 | KEY=A (idx=0) | CAT= | SRC=2.pdf p.1 ===
+  CLUSTER CL-0058 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q027 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q033 (ssw-pm-kunci-ujian-16), bonus-soal-2-q027 (bonus-soal-2)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("殺菌剤は、どこで保管しても良い。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>として、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai cara menangani cairan bakterisida/disinfektan, pilihlah satu yang salah.
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 27. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p2-108] 扱い方(あつかいかた) [word] = cara penanganan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>は、どこで<ruby>保管<rt>ほかん</rt></ruby>しても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Cairan disinfektan boleh disimpan di mana saja.
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p2-217] 保管しても(ほかんしても) [inflected, df:保管する] = meskipun disimpan | [kb-v2-p1-248] 良い(よい) [word] = baik
+  OPT B: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>容器<rt>ようき</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>すときは、<ruby>必<rt>かなら</rt></ruby>ず<ruby>移<rt>うつ</rt></ruby>した<ruby>容器<rt>ようき</rt></ruby>に「<ruby>殺菌剤<rt>さっきんざい</rt></ruby>」と<ruby>表示<rt>ひょうじ</rt></ruby>する。
+    TRANS: Saat memindahkan cairan disinfektan ke wadah lain, wajib mencantumkan label "Disinfektan" pada wadah tersebut.
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-v2-p2-205] 移す(うつす) [word] = memindahkan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p2-206] 移した(うつした) [inflected, df:移す] = yang dipindahkan | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan
+  OPT C: HTML=<ruby>目<rt>め</rt></ruby>に<ruby>入<rt>はい</rt></ruby>らないようにする。
+    TRANS: Menjaga agar tidak masuk ke mata.
+    KOTOBA: [kb-otaff51-0461] 目(め) [noun] = mata | [kb-v2-p2-162] 入らない(はいらない) [inflected, df:入る] = tidak masuk | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+
+=== #Q28 | ID=nguyen02-q028 | KEY=B (idx=1) | CAT= | SRC=2.pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-v2-p2-104 "間": kotoba="あいだ" vs ruby="ま"
+  CLUSTER CL-0059 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q028 (ssw-pm-kunci-ujian-2), bonus-soal-2-q028 (bonus-soal-2), bonus-soal-8-q027 (bonus-soal-8), nguyen08-q027 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("つめの中は洗わなくても良い。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手洗<rt>てあら</rt></ruby>いについて、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai mencuci tangan.
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 28. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>手<rt>て</rt></ruby>についた<ruby>汚<rt>よご</rt></ruby>れや<ruby>微生物<rt>びせいぶつ</rt></ruby>をとるために<ruby>行<rt>おこな</rt></ruby>う。
+    TRANS: Dilakukan untuk menghilangkan kotoran dan mikroorganisme yang menempel di tangan.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p2-199] とる(-) [word] = mengambil / menghilangkan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan
+  OPT B: HTML=つめの<ruby>中<rt>なか</rt></ruby>は<ruby>洗<rt>あら</rt></ruby>わなくても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Bagian dalam/bawah kuku tidak perlu dicuci.
+    KOTOBA: [kb-v2-p2-079] つめ(-) [word] = kuku | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p2-008] 洗わなくても(あらわなくても) [inflected, df:洗う] = meskipun tidak mencuci | [kb-v2-p1-248] 良い(よい) [word] = baik
+  OPT C: HTML=<ruby>指<rt>ゆび</rt></ruby>の<ruby>間<rt>ま</rt></ruby>や<ruby>手首<rt>てくび</rt></ruby>までしっかり<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci dengan bersih hingga sela-sela jari dan pergelangan tangan.
+    KOTOBA: [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-v2-p2-104] 間(あいだ) [word] = antara / sela-sela | [kb-otaff51-0313] 手首(てくび) [noun] = pergelangan tangan | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci

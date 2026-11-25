@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-05 (Latsol OTAFF SSW PM Modul 5.1 - Paket 05) | Batch qa-batch-11 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=otaff-pm51-05-q009 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.17 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: ア
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒予防<rt>しょくちゅうどくよぼう</rt></ruby>の3<ruby>原則<rt>げんそく</rt></ruby>のうち、ア．「つけない」ために<ruby>作業場<rt>さぎょうじょう</rt></ruby>でおこなう<ruby>行動<rt>こうどう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara 3 prinsip pencegahan keracunan makanan, pilihlah satu tindakan yang dilakukan di tempat kerja untuk prinsip ア. 'Tidak mencemari (tsukenai)'.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 17 (Bab 2.2(3)①ア, hal. 12 teks). Bobot: 3 poin. Kunci jawaban: B. Prinsip 「つけない」 (tidak mencemari makanan/bahan baku yang bersih dengan bakteri) dilakukan dengan mencuci tangan sesuai prosedur serta mencuci dan mensterilisasi mesin dan peralatan masak.
+  INLINE_KOTOBA_COUNT: 28
+  KOTOBA_PROMPT: [kb-otaff51-0649] 食中毒予防の3原則(しょくちゅうどくよぼうのさんげんそく) [compound_technical] = 3 prinsip pencegahan keracunan makanan | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-latsol-e6f9a006a5] つけない(つけない) [word] = tidak menempel / memakai | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-0639-e4bd9ce6a5] 作業場(さぎょうじょう) [compound_technical] = area kerja | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-1282100] 行動(こうどう) [word] = perilaku / tindakan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>出来上<rt>できあ</rt></ruby>がった<ruby>食品<rt>しょくひん</rt></ruby>を120℃で4<ruby>分間以上加熱<rt>ぷんかんいじょうかねつ</rt></ruby>する。
+    TRANS: Memanaskan makanan jadi pada suhu 120°C selama 4 menit atau lebih.
+    KOTOBA: [kb-otaff51-1250] 出来上がった(できあがった) [inflected_verb, df:出来上がる] = telah selesai dimasak/dibuat | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-otaff51-0705] 分間以上(ふんかんいじょう) [compound_technical] = selama ... menit atau lebih | [kb-1190470] 加熱(かねつ) [word] = pemanasan
+  OPT B: HTML=<ruby>作業開始前<rt>さぎょうかいしまえ</rt></ruby>や<ruby>必要<rt>ひつよう</rt></ruby>なときに<ruby>決<rt>き</rt></ruby>められたとおりに<ruby>手洗<rt>てあら</rt></ruby>いをし、<ruby>機械<rt>きかい</rt></ruby>や<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>を<ruby>洗浄<rt>せんじょう</rt></ruby>・<ruby>殺菌<rt>さっきん</rt></ruby>する。
+    TRANS: Mencuci tangan sesuai ketentuan sebelum mulai bekerja atau saat diperlukan, serta mencuci dan mensterilisasi mesin dan peralatan masak.
+    KOTOBA: [kb-ext-0625-e4bd9ce6a5] 作業開始前(さぎょうかいしまえ) [compound_technical] = sebelum mulai kerja | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-v2-p1-026] 手洗い(てあらい) [word] = cuci tangan | [kb-1220810] 機械(きかい) [word] = mesin | [kb-1717070] 調理器具(ちょうりきぐ) [word] = peralatan masak dan olah | [kb-1390970] 洗浄(せんじょう) [word] = pencucian / pembersihan | [kb-1299070] 殺菌(さっきん) [word] = sterilisasi / pembasmian kuman
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を-18℃の<ruby>冷凍庫<rt>れいとうこ</rt></ruby>に<ruby>入<rt>い</rt></ruby>れて<ruby>凍<rt>こお</rt></ruby>らせる。
+    TRANS: Memasukkan makanan ke dalam freezer bersuhu -18°C hingga membeku.
+    KOTOBA: [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-1557210] 冷凍庫(れいとうこ) [word] = freezer / ruang beku | [kb-v2-p2-012] 入れて(いれて) [inflected, df:入れる] = memasukkan | [kb-v2-p6-416] 凍らせる(こおらせる) [inflected, df:凍る] = membekukan
+
+=== #Q10 | ID=otaff-pm51-05-q010 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.18 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>多<rt>おお</rt></ruby>くの<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>（<ruby>芽胞<rt>がほう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>らない<ruby>菌<rt>きん</rt></ruby>）を「<ruby>加熱<rt>かねつ</rt></ruby>」で<ruby>殺菌<rt>さっきん</rt></ruby>するときの<ruby>基準<rt>きじゅん</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu standar yang benar saat mensterilisasi sebagian besar bakteri keracunan makanan umum (bakteri yang tidak membentuk spora) melalui 'pemanasan'.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 18 & 38 (Bab 2.2(3)①ウ & Bab 2.3(4)③イ, hal. 13 & 33 teks). Bobot: 3 poin. Kunci jawaban: C. Sebagian besar bakteri keracunan makanan umum dapat dibasmi dengan pemanasan suhu inti 75°C selama 1 menit atau lebih.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-1165880] 一般的(いっぱんてき) [word] = umum / lazim | [kb-2134080] 食中毒菌(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan | [kb-1197750] 芽胞(がほう) [word] = spora bakteri tahan panas | [kb-otaff51-0771] 作らない(つくらない) [inflected_verb, df:作る] = tidak membuat | [kb-v2-p3-150] 菌(きん) [word] = bakteri / kuman | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-1299070] 殺菌(さっきん) [word] = sterilisasi / pembasmian kuman | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1591210] 基準(きじゅん) [word] = standar acuan / batas kritis | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=40℃で1<ruby>分間以上加熱<rt>ぷんかんいじょうかねつ</rt></ruby>する。
+    TRANS: Memanaskan pada suhu 40°C selama 1 menit atau lebih.
+    KOTOBA: [kb-otaff51-0705] 分間以上(ふんかんいじょう) [compound_technical] = selama ... menit atau lebih | [kb-1190470] 加熱(かねつ) [word] = pemanasan
+  OPT B: HTML=55℃で10<ruby>秒間以上加熱<rt>びょうかんいじょうかねつ</rt></ruby>する。
+    TRANS: Memanaskan pada suhu 55°C selama 10 detik atau lebih.
+    KOTOBA: [kb-otaff51-0843] 秒間以上加熱(びょうかんいじょうかねつ) [compound_technical] = pemanasan minimal ... detik
+  OPT C: HTML=<ruby>中心温度<rt>ちゅうしんおんど</rt></ruby>75℃で1<ruby>分間以上加熱<rt>ぷんかんいじょうかねつ</rt></ruby>する。
+    TRANS: Memanaskan pada suhu inti 75°C selama 1 menit atau lebih.
+    KOTOBA: [kb-ext-1228-e4b8ade5bf] 中心温度(ちゅうしんおんど) [word] = suhu inti bagian tengah makanan | [kb-otaff51-0705] 分間以上(ふんかんいじょう) [compound_technical] = selama ... menit atau lebih | [kb-1190470] 加熱(かねつ) [word] = pemanasan
+
+=== #Q11 | ID=otaff-pm51-05-q011 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.18 ===
+  FLAGS: [NUMBER_MISMATCH@optTranslation:B] JP number "1" missing in ID "Menyemprotkan alkohol disinfektan secara tipis satu kali saja."
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスで<ruby>汚染<rt>おせん</rt></ruby>されたおそれがある<ruby>調理機械<rt>ちょうりきかい</rt></ruby>や<ruby>器具<rt>きぐ</rt></ruby>を、<ruby>洗浄<rt>せんじょう</rt></ruby>したあとに<ruby>消毒<rt>しょうどく</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu cara yang benar untuk mendisinfeksi mesin atau peralatan masak yang berisiko tercemar Norovirus setelah dicuci.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 18 (Bab 2.2(3)②, hal. 13 teks). Bobot: 3 poin. Kunci jawaban: A. Karena Norovirus tidak mati dengan alkohol, peralatan masak wajib dicuci lalu direndam atau dilap dengan larutan natrium hipoklorit (次亜塩素酸ナトリウム溶液) konsentrasi 200 ppm.
+  INLINE_KOTOBA_COUNT: 32
+  KOTOBA_PROMPT: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-1179040] 汚染(おせん) [word] = kontaminasi / pencemaran | [kb-otaff51-0733] おそれ(おそれ) [noun] = risiko / kekhawatiran | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan | [kb-1220810] 機械(きかい) [word] = mesin | [kb-1218920] 器具(きぐ) [word] = peralatan / perkakas | [kb-1390970] 洗浄(せんじょう) [word] = pencucian / pembersihan | [kb-otaff51-0698] あと(あと) [noun] = setelahnya / sisa | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi | [kb-1517090] 方法(ほうほう) [word] = metode / cara | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>濃度<rt>のうど</rt></ruby>が200ppmの<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム<ruby>溶液<rt>ようえき</rt></ruby>につけるか、その<ruby>溶液<rt>ようえき</rt></ruby>をつけた<ruby>布巾<rt>ふきん</rt></ruby>などで<ruby>拭<rt>ふ</rt></ruby>く。
+    TRANS: Merendamnya di dalam larutan natrium hipoklorit berkonsentrasi 200 ppm, atau mengelapnya dengan kain lap yang dibasahi larutan tersebut.
+    KOTOBA: [kb-1469970] 濃度(のうど) [word] = konsentrasi / kadar | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-pilot51-058] 次亜塩素酸ナトリウム(じあえんそさんなとりうむ) [compound_technical] = natrium hipoklorit (NaClO) | [kb-1546100] 溶液(ようえき) [word] = larutan | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p2-196] つけた(-) [inflected, df:つける] = memakai / memasang | [kb-otaff51-0288] 布巾(ふきん) [noun] = kain lap | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-latsol-fuku] 拭く(ふく) [word] = mengelap / mengeringkan
+  OPT B: HTML=<ruby>消毒用<rt>しょうどくよう</rt></ruby>アルコールを<ruby>軽<rt>かる</rt></ruby>く1<ruby>回<rt>かい</rt></ruby>だけスプレーする。
+    TRANS: Menyemprotkan alkohol disinfektan secara tipis satu kali saja.
+    KOTOBA: [kb-otaff51-0391] 消毒用アルコール(しょうどくようあるこーる) [compound_technical] = alkohol disinfektan | [kb-v2-p3-307] 軽く(かるく) [inflected, df:軽い] = ringan / sekadarnya | [kb-otaff51-0701] 1回(いっかい) [noun] = satu kali | [kb-otaff51-1251] スプレー(すぷれー) [noun] = semprot / spray
+  OPT C: HTML=<ruby>冷<rt>つめ</rt></ruby>たい<ruby>水道水<rt>すいどうすい</rt></ruby>を3<ruby>秒間<rt>びょうかん</rt></ruby>かけるだけにする。
+    TRANS: Hanya menyiramkan air keran dingin selama 3 detik.
+    KOTOBA: [kb-v2-p3-211] 冷たい(つめたい) [word] = dingin | [kb-1960280] 水道水(すいどうすい) [word] = air leding / air keran bersih | [kb-latsol-byoukan] 秒間(びょうかん) [word] = selama ... detik | [kb-v2-p1-190] かける(-) [word] = memanggil / menegur
+
+=== #Q12 | ID=otaff-pm51-05-q012 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.19 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐための4<ruby>原則<rt>げんそく</rt></ruby>のうち、「<ruby>工場<rt>こうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に、<ruby>作業者<rt>さぎょうしゃ</rt></ruby>がノロウイルスに<ruby>感染<rt>かんせん</rt></ruby>していないことを<ruby>確認<rt>かくにん</rt></ruby>し、しっかり<ruby>手洗<rt>てあら</rt></ruby>いをすること」はどれにあたりますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara 4 prinsip pencegahan keracunan makanan akibat Norovirus, termasuk prinsip manakah tindakan 'memastikan pekerja tidak terinfeksi Norovirus dan mencuci tangan dengan bersih sebelum masuk ke pabrik'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 19 (Bab 2.2(3)②, hal. 14 teks). Bobot: 3 poin. Kunci jawaban: B. Memastikan pekerja tidak terinfeksi dan mencuci tangan sebelum memasuki pabrik adalah langkah untuk mencegah masuknya virus ke pabrik, yaitu prinsip 「持ち込まない」.
+  INLINE_KOTOBA_COUNT: 24
+  KOTOBA_PROMPT: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-1609950] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1262070] 原則(げんそく) [word] = prinsip | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-1578700] 工場(こうじょう) [word] = pabrik | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p1-059] 前(まえ) [word] = sebelum | [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-1212470] 感染(かんせん) [word] = infeksi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1205900] 確認(かくにん) [word] = konfirmasi / pengecekan | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-v2-p1-026] 手洗い(てあらい) [word] = cuci tangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=「やっつける」
+    TRANS: 'Membasmi (Yattsukeru)'
+    KOTOBA: [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba)
+  OPT B: HTML=「<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まない」
+    TRANS: 'Tidak membawa masuk (Mochikomanai)'
+    KOTOBA: [kb-v2-p4-160] 持ち込まない(もちこまない) [inflected, df:持ち込む] = tidak membawa masuk
+  OPT C: HTML=「<ruby>拡<rt>ひろ</rt></ruby>げない」
+    TRANS: 'Tidak menyebarkan (Hirogenai)'
+    KOTOBA: [kb-v2-p6-360] 拡げない(ひろげない) [inflected, df:拡げる] = tidak menyebarkan

@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-05 (Latsol Reguler 05) | Batch qa-batch-09 | Part 5 (Q17-20 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=reguler05-q017 | KEY=C (idx=2) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="カルシウム(カレシウム)、鉄分、マグネシウム、ケイ素に適した洗剤はなんですか?ただしいものを一つえらびなさい。" vs questionText="カレシウム、鉄分、マグネシウム、ケイ素適した洗剤はなんですか ? ただしいものを一つえらびなさい" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0483 (カレシウム): "kalsium (typo: カルシウム)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("酸性洗剤") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カルシウム（カレシウム）、<ruby>鉄分<rt>てつぶん</rt></ruby>、マグネシウム、ケイ<ruby>素<rt>そ</rt></ruby>に<ruby>適<rt>てき</rt></ruby>した<ruby>洗剤<rt>せんざい</rt></ruby>はなんですか？ただしいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: カレシウム、鉄分、マグネシウム、ケイ素適した洗剤はなんですか ? ただしいものを一つえらびなさい
+  PROMPT_TRANS: Deterjen/pembersih apakah yang cocok untuk membersihkan kerak kalsium, zat besi, magnesium, dan silikon (zat anorganik dari air)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 6, nomor 17. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-v2-p6-233] カルシウム(-) [word] = kalsium | [kb-audit-0483] カレシウム(かれしうむ) [word] = kalsium (typo: カルシウム) | [kb-ext-latsol-0085] 鉄分(てつぶん) [word] = kandungan zat besi | [kb-latsol-be38f595a5] マグネシウム(まぐねしうむ) [word] = magnesium | [kb-audit-0482] ケイ素(けいそ) [word] = silikon (unsur kimia) | [kb-audit-0477] 適した(てきした) [inflected_verb, df:適する] = yang cocok / sesuai | [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>無機物<rt>むきぶつ</rt></ruby>
+    TRANS: Zat anorganik
+    KOTOBA: [kb-ext-latsol-0084] 無機物(むきぶつ) [word] = zat anorganik / mineral
+  OPT B: HTML=アルカリ<ruby>性洗剤<rt>せいせんざい</rt></ruby>
+    TRANS: Deterjen basa (alkali)
+    KOTOBA: [kb-v2-p6-246] アルカリ性洗剤(あるかりせいせんざい) [compound_technical] = detergen basa (alkali)
+  OPT C: HTML=<ruby>酸性洗剤<rt>さんせいせんざい</rt></ruby>
+    TRANS: Deterjen asam
+    KOTOBA: [kb-otaff51-0607] 酸性洗剤(さんせいせんざい) [compound_technical] = deterjen bersifat asam
+
+=== #Q18 | ID=reguler05-q018 | KEY=A (idx=0) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="トイレの清潔は何のためにですか?まちがっているものを一つえらびなさい。" vs questionText="トイレの清潔は何のためにですか ? まちがっているものを一つえらびなさい" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("トイレは汚れたままにして") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: トイレの<ruby>清潔<rt>せいけつ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>のためにですか？まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: トイレの清潔は何のためにですか ? まちがっているものを一つえらびなさい
+  PROMPT_TRANS: Untuk apakah kebersihan toilet dijaga? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 6, nomor 18. Bobot: 7.5 poin. Kunci jawaban: A. Visual: Ilustrasi toilet kotor → panah biru → toilet bersih berkilau.
+  KOTOBA_PROMPT: [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=トイレは<ruby>汚<rt>よご</rt></ruby>れたままにして
+    TRANS: Membiarkan toilet tetap dalam keadaan kotor
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-v2-p3-204] まま(-) [word] = apa adanya / tetap | [kb-v2-p1-320] にして(-) [particle] = menjadikan
+  OPT B: HTML=トイレのあとは<ruby>必<rt>かなら</rt></ruby>ず<ruby>決<rt>き</rt></ruby>められた<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>手洗<rt>てあら</rt></ruby>い、<ruby>消毒<rt>しょうどく</rt></ruby>する
+    TRANS: Setelah dari toilet, wajib mencuci tangan dan melakukan disinfeksi dengan cara yang telah ditentukan
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-otaff51-0698] あと(あと) [noun] = setelahnya / sisa | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi
+  OPT C: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まないために
+    TRANS: Agar tidak membawa masuk mikroorganisme ke dalam tempat kerja
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p4-160] 持ち込まない(もちこまない) [inflected, df:持ち込む] = tidak membawa masuk | [kb-v2-p1-328] ために(-) [particle] = untuk / demi
+
+=== #Q19 | ID=reguler05-q019 | KEY=C (idx=2) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.7 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="ゴミ箱の取り扱い設置場所はどうしたらいいですか?まちがっているものを一つえらびなさい。" vs questionText="ゴミ箱の取り扱い設置場所はどうしたらいいですか ? まちがっているものを一つえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("ゴミ箱の袋は床に直接しておく") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ゴミ<ruby>箱<rt>ばこ</rt></ruby>の<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い<ruby>設置場所<rt>せっちばしょ</rt></ruby>はどうしたらいいですか？まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: ゴミ箱の取り扱い設置場所はどうしたらいいですか ? まちがっているものを一つえらびなさい
+  PROMPT_TRANS: Bagaimanakah cara penanganan dan penempatan tempat sampah yang benar? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 7, nomor 19. Bobot: 7.5 poin. Kunci jawaban: C. Visual: Ilustrasi tempat sampah terbuka penuh sampah dan dikerubungi lalat.
+  KOTOBA_PROMPT: [kb-latsol-b94eba33dc] ゴミ箱(ごみばこ) [word] = tempat sampah | [kb-v2-p6-472] 取り扱い(とりあつかい) [word] = penanganan / perlakuan | [kb-ext-latsol-0087] 設置場所(せっちばしょ) [word] = lokasi pemasangan / penempatan | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=ゴミは<ruby>作業場内<rt>さぎょうじょうない</rt></ruby>の<ruby>決<rt>き</rt></ruby>まった<ruby>場所<rt>ばしょ</rt></ruby>にしておく
+    TRANS: Menempatkan sampah di tempat yang telah ditentukan di dalam area kerja
+    KOTOBA: [kb-v2-p1-034] ゴミ(-) [word] = sampah | [kb-ext-0642-e4bd9ce6a5] 作業場内(さぎょうじょうない) [word] = di dalam area kerja | [kb-latsol-kimatta] 決まった(きまった) [inflected_verb, df:決まる] = yang telah ditentukan | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi
+  OPT B: HTML=ゴミ<ruby>箱<rt>ばこ</rt></ruby>はふたのあるものを<ruby>使用<rt>しよう</rt></ruby>しふたはしっかり<ruby>閉<rt>し</rt></ruby>めます
+    TRANS: Menggunakan tempat sampah yang memiliki tutup dan menutupnya dengan rapat
+    KOTOBA: [kb-latsol-b94eba33dc] ゴミ箱(ごみばこ) [word] = tempat sampah | [kb-latsol-5519b22ea4] ふた(ふた) [word] = tutup wadah / panci | [kb-audit-0964] 使用し(しようし) [inflected_verb, df:使用する] = menggunakan (使用する) | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-audit-0188] 閉めます(しめます) [inflected_verb, df:閉める] = menutup (pintu/tutup)
+  OPT C: HTML=ゴミ<ruby>箱<rt>ばこ</rt></ruby>の<ruby>袋<rt>ふくろ</rt></ruby>は<ruby>床<rt>ゆか</rt></ruby>に<ruby>直接<rt>ちょくせつ</rt></ruby>しておく
+    TRANS: Meletakkan kantong sampah langsung di atas lantai
+    KOTOBA: [kb-latsol-b94eba33dc] ゴミ箱(ごみばこ) [word] = tempat sampah | [kb-otaff51-0547] 袋(ふくろ) [noun] = kantong kemasan | [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-1431110] 直接(ちょくせつ) [word] = secara langsung
+
+=== #Q20 | ID=reguler05-q020 | KEY=B (idx=1) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.7 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="工具や部品箱の整理整頓について解説はどれですか。まちがっているものを一つえらびなさい。" vs questionText="工具や部品箱の整理整頓について解説はどれですか。。まちがっているものを一つえらびなさい" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("写真のようになる前に交換します") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>工具<rt>こうぐ</rt></ruby>や<ruby>部品箱<rt>ぶひんばこ</rt></ruby>の<ruby>整理整頓<rt>せいりせいとん</rt></ruby>について<ruby>解説<rt>かいせつ</rt></ruby>はどれですか。まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 工具や部品箱の整理整頓について解説はどれですか。。まちがっているものを一つえらびなさい
+  PROMPT_TRANS: Manakah penjelasan mengenai Seiri-Seiton (pemilahan dan penataan) peralatan kerja dan kotak suku cadang pada gambar? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 7, nomor 20. Bobot: 7.5 poin. Kunci jawaban: B. Visual: 2 foto (lemari perkakas bersiluet dan rak kotak suku cadang berlabel foto).
+  KOTOBA_PROMPT: [kb-1278070] 工具(こうぐ) [word] = perkakas / alat mekanik | [kb-ext-latsol-0088] 部品箱(ぶひんばこ) [word] = kotak suku cadang / perkakas | [kb-2048270] 整理整頓(せいりせいとん) [word] = ringkas dan rapi (2S) | [kb-ext-latsol-0089] 解説(かいせつ) [word] = penjelasan / pembahasan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=その<ruby>写真<rt>しゃしん</rt></ruby>によって、どこに<ruby>何<rt>なに</rt></ruby>があるのかがすぐわかります。
+    TRANS: Dengan foto pada kotak tersebut, dapat langsung diketahui ada barang apa dan di mana letaknya
+    KOTOBA: [kb-1321900] 写真(しゃしん) [word] = foto | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-282] すぐ(-) [word] = segera
+  OPT B: HTML=<ruby>写真<rt>しゃしん</rt></ruby>のようになる<ruby>前<rt>まえ</rt></ruby>に<ruby>交換<rt>こうかん</rt></ruby>します
+    TRANS: Menggantinya sebelum kondisinya menjadi rusak seperti pada foto
+    KOTOBA: [kb-1321900] 写真(しゃしん) [word] = foto | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-1271750] 交換(こうかん) [word] = penggantian | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=イラストがあるので、<ruby>工具<rt>こうぐ</rt></ruby>が<ruby>足<rt>た</rt></ruby>りない<ruby>時<rt>とき</rt></ruby>にはすぐに<ruby>見<rt>み</rt></ruby>つけることができます
+    TRANS: Karena terdapat siluet/ilustrasi bentuk alat, jika ada perkakas yang kurang/hilang dapat segera diketahui
+    KOTOBA: [kb-v2-p6-189] イラスト(-) [word] = gambar ilustrasi | [kb-1278070] 工具(こうぐ) [word] = perkakas / alat mekanik | [kb-latsol-cf32234587] 足りない(たりない) [word] = kurang / tidak cukup | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p2-165] 見つける(みつける) [word] = menemukan | [kb-audit-1057] ことができます(ことができます) [expression] = dapat / bisa melakukan

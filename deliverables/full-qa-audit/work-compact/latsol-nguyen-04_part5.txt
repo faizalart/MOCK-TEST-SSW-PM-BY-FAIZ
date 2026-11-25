@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-nguyen-04 (Latsol Nguyen 04) | Batch qa-batch-07 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=nguyen04-q017 | KEY=A (idx=0) | CAT= | SRC=4.pdf p.4 ===
+  CLUSTER CL-0096 (n=3, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q017 (ssw-pm-kunci-ujian-4), bonus-soal-4-q017 (bonus-soal-4)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("そのまま身に付けて作業をしてもかまわない") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業前<rt>さぎょうまえ</rt></ruby>にネックレスやイヤリングはどうしますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan terhadap kalung dan anting sebelum bekerja? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 4.pdf, halaman 4, nomor 17. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-ext-0644-e4bd9ce6a5] 作業前(さぎょうまえ) [word] = sebelum bekerja | [kb-v2-p5-097] ネックレス(-) [word] = kalung | [kb-v2-p5-098] イヤリング(-) [word] = anting-anting | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=そのまま<ruby>身<rt>み</rt></ruby>に<ruby>付<rt>つ</rt></ruby>けて<ruby>作業<rt>さぎょう</rt></ruby>をしてもかまわない
+    TRANS: Tidak apa-apa tetap memakainya begitu saja saat bekerja
+    KOTOBA: [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p5-316] 身に付けて(みにつけて) [expression] = mengenakan di tubuh | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p5-283] かまわない(-) [expression] = tidak masalah
+  OPT B: HTML=すべて<ruby>外<rt>はず</rt></ruby>してロッカーなどに<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Melepas semuanya dan menyimpannya di tempat seperti loker
+    KOTOBA: [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-v2-p1-209] 外して(はずして) [inflected_verb, df:外す] = melepas (dasar: 外す) | [kb-v2-p1-039] ロッカー(-) [word] = loker | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT C: HTML=<ruby>基本的<rt>きほんてき</rt></ruby>に<ruby>職場<rt>しょくば</rt></ruby>にはつけて<ruby>来<rt>こ</rt></ruby>ないようにする
+    TRANS: Pada dasarnya tidak memakainya saat datang ke tempat kerja
+    KOTOBA: [kb-otaff51-0243] 基本的(きほんてき) [adjective] = mendasar / dasar | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-v2-p1-204] つけて(-) [inflected_verb, df:つける] = memasang (dasar: つける) | [kb-v2-p5-379] 来ない(こない) [inflected, df:来る] = tidak datang / membawa | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+
+=== #Q18 | ID=nguyen04-q018 | KEY=B (idx=1) | CAT= | SRC=4.pdf p.4 ===
+  CLUSTER CL-0097 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q018 (ssw-pm-kunci-ujian-4), bonus-soal-4-q018 (bonus-soal-4)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("よそ見やムダ話はしない") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>の<ruby>注意事項<rt>ちゅういじこう</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang benar mengenai hal yang harus diperhatikan selama bekerja.
+  EXPLANATION: Sumber: 4.pdf, halaman 4, nomor 18. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0382] 注意事項(ちゅういじこう) [compound_technical] = hal-hal yang harus diperhatikan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>危険<rt>きけん</rt></ruby>な<ruby>箇所<rt>かしょ</rt></ruby>が<ruby>見<rt>み</rt></ruby>つかったら、すぐに<ruby>自分<rt>じぶん</rt></ruby>でなおす
+    TRANS: Jika menemukan bagian yang berbahaya, segera perbaiki sendiri
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1590250] 箇所(かしょ) [word] = titik / lokasi tertentu | [kb-audit-0598] 見つかったら(みつかったら) [inflected_verb, df:見つかる] = jika ditemukan | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-audit-0692] なおす(なおす) [word] = memperbaiki
+  OPT B: HTML=よそ<ruby>見<rt>み</rt></ruby>やムダ<ruby>話<rt>ばなし</rt></ruby>はしない
+    TRANS: Tidak melengos (melihat ke arah lain) dan tidak mengobrol yang tidak perlu
+    KOTOBA: [kb-v2-p5-317] よそ見(よそみ) [word] = meleng / melihat ke tempat lain | [kb-v2-p2-092] ムダ話(むだばなし) [word] = obrolan tidak perlu
+  OPT C: HTML=<ruby>職場<rt>しょくば</rt></ruby>はいつでも<ruby>無断<rt>むだん</rt></ruby>で<ruby>離<rt>はな</rt></ruby>れてもよい
+    TRANS: Boleh meninggalkan tempat kerja kapan saja tanpa izin
+    KOTOBA: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0755] いつ(いつ) [adverb] = kapan | [kb-1530600] 無断(むだん) [word] = tanpa izin | [kb-v2-p1-298] 離れて(はなれて) [inflected_verb, df:離れる] = meninggalkan (dasar: 離れる) | [kb-v2-p2-243] よい(-) [word] = baik / boleh
+
+=== #Q19 | ID=nguyen04-q019 | KEY=C (idx=2) | CAT= | SRC=4.pdf p.4 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: 賞味期限
+  CLUSTER CL-0196 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q019 (bonus-soal-4)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("賞味期限") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品<rt>しょくひん</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>場合<rt>ばあい</rt></ruby>に<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>となる<ruby>代表的<rt>だいひょうてき</rt></ruby>な<ruby>工程<rt>こうてい</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah proses representatif yang menjadi Titik Kendali Kritis (CCP) saat memproduksi makanan? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 4.pdf, halaman 4, nomor 19. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-1412220] 代表的(だいひょうてき) [word] = khas / representatif | [kb-otaff51-0286] 工程(こうてい) [noun] = tahapan proses | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>薬剤<rt>やくざい</rt></ruby>による<ruby>殺菌<rt>さっきん</rt></ruby>
+    TRANS: Sterilisasi dengan bahan kimia/agen pensteril
+    KOTOBA: [kb-otaff51-0539] 薬剤による殺菌(やくざいによるさっきん) [compound_technical] = sterilisasi menggunakan bahan kimia
+  OPT B: HTML=<ruby>金属探知機<rt>きんぞくたんちき</rt></ruby>
+    TRANS: Detektor logam
+    KOTOBA: [kb-otaff51-0613] 金属探知機(きんぞくたんちき) [compound_technical] = mesin detektor logam
+  OPT C: HTML=<ruby>賞味期限<rt>しょうみきげん</rt></ruby>
+    TRANS: Tanggal baik sebelum (賞味期限)
+    KOTOBA: [kb-otaff51-0581] 賞味期限(しょうみきげん) [compound_technical] = batas tanggal cita rasa terbaik (best before)
+
+=== #Q20 | ID=nguyen04-q020 | KEY=C (idx=2) | CAT= | SRC=4.pdf p.4 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 未熟練作業者 || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-2233690 "気": kotoba="け" vs ruby="き"
+  CLUSTER CL-0197 (n=6, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q020 (bonus-soal-4), bonus-soal-7-q021 (bonus-soal-7), nguyen03-q030 (latsol-nguyen-03), nguyen07-q021 (latsol-nguyen-07), nguyen10-q031 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("長い時間で働く人です。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>未熟練作業者<rt>みじゅくれんさぎょうしゃ</rt></ruby>とはなんですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dimaksud dengan pekerja belum berpengalaman (未熟練作業者)? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 4.pdf, halaman 4, nomor 20. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0342] 未熟練作業者(みじゅくれんさぎょうしゃ) [compound_technical] = pekerja kurang berpengalaman (masa kerja di bawah 3 tahun) | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>経験<rt>けいけん</rt></ruby>が3<ruby>年未満<rt>ねんみまん</rt></ruby>の<ruby>作業者<rt>さぎょうしゃ</rt></ruby>で、<ruby>経験<rt>けいけん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>なくて<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れていない<ruby>人<rt>ひと</rt></ruby>です。
+    TRANS: Pekerja dengan pengalaman kurang dari 3 tahun, yang sedikit pengalamannya dan belum terbiasa dengan pekerjaan.
+    KOTOBA: [kb-1251270] 経験(けいけん) [word] = pengalaman | [kb-latsol-nenmiman] 年未満(ねんみまん) [word] = kurang dari ... tahun | [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-v2-p5-372] 少なくて(すくなくて) [inflected, df:少ない] = sedikit / kurang | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-131] 慣れていない(なれていない) [inflected_verb, df:慣れる] = belum terbiasa (dasar: 慣れる) | [kb-v2-p1-058] 人(ひと) [word] = orang
+  OPT B: HTML=<ruby>危険<rt>きけん</rt></ruby>になかなか<ruby>気<rt>き</rt></ruby>がつかない<ruby>人<rt>ひと</rt></ruby>です。
+    TRANS: Orang yang sulit menyadari bahaya.
+    KOTOBA: [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-audit-0165] なかなか(なかなか) [word] = tidak mudah / sulit (dengan negatif) | [kb-2233690] 気(け) [standalone_term] = Tanda-tanda / indikasi gejala | [kb-v2-p2-195] つかない(-) [inflected, df:つく] = tidak menempel | [kb-v2-p1-058] 人(ひと) [word] = orang
+  OPT C: HTML=<ruby>長<rt>なが</rt></ruby>い<ruby>時間<rt>じかん</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>です。
+    TRANS: Orang yang bekerja dalam waktu yang lama.
+    KOTOBA: [kb-v2-p1-250] 長い(ながい) [word] = panjang / lama | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-v2-p1-058] 人(ひと) [word] = orang

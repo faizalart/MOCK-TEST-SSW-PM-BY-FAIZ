@@ -1,0 +1,90 @@
+# AUDIT SHEET: latsol-tambahan-02 (Latsol Tambahan 02) | Batch qa-batch-10 | Part 7 (Q25-28 of 30)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=tambahan02-q025 | KEY=A (idx=0) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.10 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="たいさくは 何ですか。まちがっているのを 一つえらんでください" vs questionText="たいさくは 何ですか。 まちがっているのを 一つえらんでください" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("しゅうりとうのさぎょうを行うさいはきかいを動く") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: たいさくは <ruby>何<rt>なん</rt></ruby>ですか。まちがっているのを <ruby>一<rt>ひと</rt></ruby>つえらんでください
+  QUESTION_TEXT: たいさくは 何ですか。 まちがっているのを 一つえらんでください
+  PROMPT_TRANS: Apa tindakan pencegahannya? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 10, nomor 25. Bobot: 5.0 poin. Kunci jawaban: A. Visual: Ilustrasi tangan pekerja terjepit rol belt conveyor saat membersihkan konveyor yang masih berputar.
+  KOTOBA_PROMPT: [kb-latsol-571684ccab] たいさく(たいさく) [word] = tindakan penanggulangan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=しゅうりとうのさぎょうを<ruby>行<rt>おこな</rt></ruby>うさいはきかいを<ruby>動<rt>うご</rt></ruby>く
+    TRANS: Saat melakukan pekerjaan perbaikan dan sebagainya, mesin tetap digerakkan/dijalankan
+    KOTOBA: [kb-v2-p6-315] しゅうり(-) [word] = perbaikan (bacaan 修理) | [kb-audit-0220] さぎょう(さぎょう) [word] = pekerjaan / pengerjaan (作業) | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-audit-1109] さい(さい) [word] = saat / ketika (際) | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-latsol-d335806534] 動く(うごく) [word] = bergerak / beroperasi
+  OPT B: HTML=かくじつにていししたことをかくにんする
+    TRANS: Memastikan bahwa mesin benar-benar telah berhenti
+    KOTOBA: [kb-audit-0138] かくじつ(かくじつ) [word] = secara pasti / meyakinkan (確実) | [kb-audit-0082] ていし(ていし) [word] = berhenti / menghentikan (停止) | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認)
+  OPT C: HTML=せいそう、いぶつのじょきょ、けんさの<ruby>作業<rt>さぎょう</rt></ruby>をおこなうこと
+    TRANS: Melakukan pekerjaan pembersihan, pembuangan benda asing, dan pemeriksaan (setelah mesin berhenti)
+    KOTOBA: [kb-v2-p6-325] せいそう(-) [word] = pembersihan (bacaan 清掃) | [kb-audit-0912] いぶつ(いぶつ) [word] = benda asing | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p4-147] おこなう(-) [word] = melakukan
+  OPT D: HTML=せいそうするさいにベルトコンベアをていしさせること
+    TRANS: Menghentikan ban berjalan (belt conveyor) saat melakukan pembersihan
+    KOTOBA: [kb-v2-p6-325] せいそう(-) [word] = pembersihan (bacaan 清掃) | [kb-audit-0139] さいに(さいに) [word] = pada saat / ketika (際に) | [kb-v2-p1-010] ベルトコンベア(-) [technical] = konveyor sabuk | [kb-audit-0082] ていし(ていし) [word] = berhenti / menghentikan (停止)
+
+=== #Q26 | ID=tambahan02-q026 | KEY=B (idx=1) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.11 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:D] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("スライスするしょくざいをちょくせつてでもっていた") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: このえのげんいんは <ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa penyebab kecelakaan pada gambar ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 11, nomor 26. Bobot: 5.0 poin. Kunci jawaban: B. Visual: Ilustrasi pekerja mengoperasikan mesin slicer dengan tangan langsung memegang bahan hingga jarinya teriris.
+  KOTOBA_PROMPT: [kb-audit-0671] げんいん(げんいん) [word] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=スライサーの<ruby>安全<rt>あんぜん</rt></ruby>カバーがあった
+    TRANS: Ada penutup pengaman (safety cover) pada mesin pengiris (slicer)
+    KOTOBA: [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-otaff51-0262] 安全カバー(あんぜんかばー) [compound_technical] = penutup pengaman (safety cover)
+  OPT B: HTML=スライスするしょくざいをちょくせつてでもっていた
+    TRANS: Memegang bahan makanan yang sedang diiris secara langsung dengan tangan
+    KOTOBA: [kb-v2-p4-085] スライス(-) [word] = mengiris tipis (slice) | [kb-audit-0103] しょくざい(しょくざい) [word] = bahan makanan (食材) | [kb-audit-0140] ちょくせつ(ちょくせつ) [word] = secara langsung (直接) | [kb-audit-0410] てで(てで) [word] = dengan tangan (手で) | [kb-audit-0889] もって(もって) [inflected_verb, df:持つ] = membawa / memegang
+  OPT C: HTML=スライサーのかいてんしているはのしようしないぶぶんにカバーをつける
+    TRANS: Memasang penutup pada bagian pisau berputar yang tidak digunakan pada slicer
+    KOTOBA: [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-audit-0141] かいてん(かいてん) [word] = berputar / rotasi (回転) | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-audit-0080] しようしない(しようしない) [inflected_verb, df:使用する] = tidak menggunakan (使用しない) | [kb-latsol-bubun] ぶぶん(ぶぶん) [word] = bagian (部分) | [kb-ext-0009-e382abe383] カバー(-) [word] = penutup | [kb-v2-p1-203] つける(-) [word] = memakai / memasang
+  OPT D: HTML=スライスするしょくざいをささえるときは せんようのどうぐをつかい
+    TRANS: Menggunakan alat khusus (pendorong) saat menahan bahan makanan yang diiris
+    KOTOBA: [kb-v2-p4-085] スライス(-) [word] = mengiris tipis (slice) | [kb-audit-0103] しょくざい(しょくざい) [word] = bahan makanan (食材) | [kb-latsol-sasaeru] ささえる(ささえる) [word] = menahan / menyangga (支える) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p6-324] せんよう(-) [word] = khusus (bacaan 専用) | [kb-audit-0703] のど(のど) [word] = tenggorokan | [kb-audit-0826] つかい(つかい) [inflected_verb, df:使う] = menggunakan | [kb-v2-p1-275] どう(-) [word] = bagaimana
+
+=== #Q27 | ID=tambahan02-q027 | KEY=D (idx=3) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.11 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi D ("HACCP") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ハザード アナリティクス クリティカル コントロール ポイント とは <ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah singkatan dari Hazard Analysis Critical Control Point?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 11, nomor 27. Bobot: 5.0 poin. Kunci jawaban: D.
+  KOTOBA_PROMPT: [kb-otaff51-0062] ハザード(はざーど) [noun] = bahaya (hazard) | [kb-latsol-analytics] アナリティクス(あなりてぃくす) [word] = analisis (analytics) | [kb-latsol-critical] クリティカル(くりてぃかる) [word] = kritis (critical) | [kb-v2-p3-018] コントロール(-) [technical] = pengendalian / kontrol | [kb-v2-p5-093] ポイント(-) [word] = poin penting | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=HHCCP
+    TRANS: HHCCP
+    KOTOBA: [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP)
+  OPT B: HTML=HA
+    TRANS: HA
+    KOTOBA: [kb-v2-p6-170] HA(-) [technical] = Analisis Bahaya (Hazard Analysis)
+  OPT C: HTML=CCP
+    TRANS: CCP
+    KOTOBA: [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP)
+  OPT D: HTML=HACCP
+    TRANS: HACCP
+    KOTOBA: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point)
+
+=== #Q28 | ID=tambahan02-q028 | KEY=C (idx=2) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.11 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("きがいてきがいよういん") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCP でたいしょうとする けんこうきがいよういんにはつぎの３つがあります。まちがっているのを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Terdapat 3 faktor bahaya kesehatan yang menjadi target dalam HACCP. Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 11, nomor 28. Bobot: 5.0 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-audit-0824] たいしょう(たいしょう) [word] = sasaran / target | [kb-latsol-1a8cef54ae] けんこうきがいよういん(けんこうきがいよういん) [word] = faktor bahaya kesehatan | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=せいぶつてききがいよういん (<ruby>生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>)
+    TRANS: Faktor bahaya biologis
+    KOTOBA: [kb-latsol-6dc2e156b6] せいぶつてききがいよういん(せいぶつてききがいよういん) [word] = faktor bahaya biologis | [kb-otaff51-0441] 生物的危害要因(せいぶつてききがいよういん) [compound_technical] = faktor bahaya biologis
+  OPT B: HTML=かがくてきがいよういん (<ruby>化学的危害要因<rt>かがくてききがいよういん</rt></ruby>)
+    TRANS: Faktor bahaya kimiawi
+    KOTOBA: [kb-latsol-2c0b5bf339] かがくてきがいよういん(かがくてきがいよういん) [word] = faktor bahaya kimia | [kb-otaff51-0208] 化学的危害要因(かがくてききがいよういん) [compound_technical] = faktor bahaya kimia
+  OPT C: HTML=きがいてきがいよういん
+    TRANS: Faktor bahaya 'bahaya' (istilah tidak ada)
+    KOTOBA: [kb-audit-0182] きがいてきがいよういん(きがいてきがいよういん) [word] = istilah pengecoh (pelafalan rancu)
+  OPT D: HTML=ぶつりてきがいよういん (<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>)
+    TRANS: Faktor bahaya fisik
+    KOTOBA: [kb-latsol-01055acd8a] ぶつりてきがいよういん(ぶつりてきがいよういん) [word] = faktor bahaya fisik | [kb-otaff51-0431] 物理的危害要因(ぶつりてききがいよういん) [compound_technical] = faktor bahaya fisik

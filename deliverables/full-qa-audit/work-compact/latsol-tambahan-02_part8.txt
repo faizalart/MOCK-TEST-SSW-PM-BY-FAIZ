@@ -1,0 +1,45 @@
+# AUDIT SHEET: latsol-tambahan-02 (Latsol Tambahan 02) | Batch qa-batch-10 | Part 8 (Q29-30 of 30)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=tambahan02-q029 | KEY=B (idx=1) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.11 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("きそくをまもる") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPの７つのげんそくです。まちがっているのを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berikut adalah 7 prinsip HACCP. Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 11, nomor 29. Bobot: 5.0 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-audit-0187] げんそく(げんそく) [word] = prinsip dasar (原則) | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=きがいよういんぶんせき（HA）
+    TRANS: Analisis faktor bahaya (HA)
+    KOTOBA: [kb-latsol-f9d42b5ff2] きがいよういんぶんせき(きがいよういんぶんせき) [word] = analisis bahaya (HA) | [kb-v2-p6-170] HA(-) [technical] = Analisis Bahaya (Hazard Analysis)
+  OPT B: HTML=きそくをまもる
+    TRANS: Mematuhi peraturan (bukan salah satu dari 7 prinsip HACCP)
+    KOTOBA: [kb-audit-0143] きそく(きそく) [word] = peraturan / aturan (規則) | [kb-otaff51-1094] まもる(まもる) [verb] = melindungi / mematuhi
+  OPT C: HTML=じゅうようかんりてん（ＣＣＰ）のけってい
+    TRANS: Penentuan titik kendali kritis (CCP)
+    KOTOBA: [kb-latsol-cffe9fb222] じゅうようかんりてん(じゅうようかんりてん) [word] = titik kendali kritis (CCP) | [kb-audit-0104] ＣＣＰ(しーしーぴー) [technical] = Titik Kendali Kritis (CCP) | [kb-audit-0144] けってい(けってい) [word] = penetapan / keputusan (決定)
+  OPT D: HTML=けんしょうほうほうのせってい
+    TRANS: Penetapan metode verifikasi
+    KOTOBA: [kb-latsol-05aeb78334] けんしょうほうほう(けんしょうほうほう) [word] = metode verifikasi | [kb-audit-0105] せってい(せってい) [word] = penetapan / pengaturan (設定)
+
+=== #Q30 | ID=tambahan02-q030 | KEY=D (idx=3) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.12 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="作業現場にまかされているじゅうようなことは 何ですか。まちがっているのを一つ選んでください" vs questionText="1作業げんばにまかされているじょうようなことは 何ですか。まちがっているのを一つ選んでください" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [TRANSLATION_CONTAINS_JP@optTranslation:D] Untranslated JP: ほかんするな
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi D ("モニタリングけっかをきろくし、ほかんするな") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業現場<rt>さぎょうげんば</rt></ruby>にまかされているじゅうようなことは <ruby>何<rt>なん</rt></ruby>ですか。まちがっているのを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: 1作業げんばにまかされているじょうようなことは 何ですか。まちがっているのを一つ選んでください
+  PROMPT_TRANS: Apa hal penting yang dipercayakan kepada lokasi kerja (pekerja lapangan) dalam penerapan HACCP? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 12, nomor 30. Bobot: 5.0 poin. Kunci jawaban: D.
+  KOTOBA_PROMPT: [kb-2761730] 作業現場(さぎょうげんば) [word] = area lantai kerja produksi | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-audit-0145] じゅうような(じゅうような) [word] = yang penting (重要な) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=どこが じゅうようかんりてんかを<ruby>知<rt>し</rt></ruby>る
+    TRANS: Mengetahui bagian mana yang merupakan titik kendali kritis (CCP)
+    KOTOBA: [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-latsol-cffe9fb222] じゅうようかんりてん(じゅうようかんりてん) [word] = titik kendali kritis (CCP) | [kb-v2-p2-173] 知る(しる) [word] = mengetahui
+  OPT B: HTML=じゅうようかんりてんをかんしする
+    TRANS: Memantau (monitoring) titik kendali kritis (CCP)
+    KOTOBA: [kb-latsol-cffe9fb222] じゅうようかんりてん(じゅうようかんりてん) [word] = titik kendali kritis (CCP) | [kb-audit-0146] かんし(かんし) [word] = pemantauan / pengawasan (監視)
+  OPT C: HTML=かんりきじゅんのせっていちを<ruby>知<rt>し</rt></ruby>る
+    TRANS: Mengetahui nilai standar pengelolaan (batas kritis) yang ditetapkan
+    KOTOBA: [kb-latsol-aeca04f44f] かんりきじゅん(かんりきじゅん) [word] = batas kritis (Critical Limit) | [kb-audit-1155] せっていち(せっていち) [technical] = nilai pengaturan (設定値) | [kb-v2-p2-173] 知る(しる) [word] = mengetahui
+  OPT D: HTML=モニタリングけっかをきろくし、ほかんするな
+    TRANS: Mencatat hasil monitoring dan jangan menyimpannya (salah karena larangan ほかんするな)
+    KOTOBA: [kb-otaff51-0083] モニタリング(もにたりんぐ) [compound_technical] = pemantauan berkelanjutan (monitoring) | [kb-v2-p6-331] けっか(-) [word] = hasil (bacaan 結果) | [kb-audit-0962] きろくし(きろくし) [inflected_verb, df:記録する] = mencatat (記録する) | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管)

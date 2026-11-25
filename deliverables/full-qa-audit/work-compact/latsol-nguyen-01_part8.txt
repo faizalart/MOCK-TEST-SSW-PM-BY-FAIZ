@@ -1,0 +1,81 @@
+# AUDIT SHEET: latsol-nguyen-01 (Latsol Nguyen 01) | Batch qa-batch-07 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=nguyen01-q029 | KEY=A (idx=0) | CAT= | SRC=1-1.pdf p.5 ===
+  CLUSTER CL-0172 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q029 (bonus-soal-1)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("ぶつかるかもしれない。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>危険予知訓練<rt>きけんよちくんれん</rt></ruby>は<ruby>仕事<rt>しごと</rt></ruby>でいつも<ruby>危険<rt>きけん</rt></ruby>があるかもしれないと<ruby>考<rt>かんが</rt></ruby>えます。フォークリフトが<ruby>出<rt>で</rt></ruby>て<ruby>来<rt>く</rt></ruby>るとき、<ruby>起<rt>お</rt></ruby>こるかもしれないことはなんですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pelatihan prediksi bahaya (Kiken Yochi Training / KYT) selalu memikirkan kemungkinan adanya bahaya dalam pekerjaan. Saat forklift keluar/muncul, hal apakah yang mungkin terjadi? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 5, nomor 29. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0215] 危険予知訓練(きけんよちくんれん) [compound_technical] = latihan prediksi bahaya (KYT) | [kb-otaff51-0110] 仕事(しごと) [noun] = pekerjaan | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p2-034] かもしれない(-) [expression] = mungkin / bisa jadi | [kb-v2-p5-378] 考えます(かんがえます) [inflected, df:考える] = mempertimbangkan (sopan) | [kb-otaff51-0071] フォークリフト(ふぉーくりふと) [noun] = forklift | [kb-latsol-b19e1f65c2] 出て来る(でてくる) [word] = keluar / muncul | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p3-244] 起こる(おこる) [word] = terjadi | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=ぶつかるかもしれない。
+    TRANS: Mungkin akan tertabrak.
+    KOTOBA: [kb-v2-p5-243] ぶつかる(-) [word] = bertabrakan | [kb-v2-p2-034] かもしれない(-) [expression] = mungkin / bisa jadi
+  OPT B: HTML=<ruby>滑<rt>すべ</rt></ruby>るかもしれない。
+    TRANS: Mungkin akan terpeleset.
+    KOTOBA: [kb-otaff51-0412] 滑る(すべる) [verb] = terpeleset / licin | [kb-v2-p2-034] かもしれない(-) [expression] = mungkin / bisa jadi
+  OPT C: HTML=やけどするかもしれない。
+    TRANS: Mungkin akan mengalami luka bakar.
+    KOTOBA: [kb-otaff51-0028] やけど(やけど) [noun] = luka bakar | [kb-v2-p2-034] かもしれない(-) [expression] = mungkin / bisa jadi
+
+=== #Q30 | ID=nguyen01-q030 | KEY=C (idx=2) | CAT= | SRC=1-1.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  CLUSTER CL-0028 (n=6, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q030 (ssw-pm-kunci-ujian-1), bonus-soal-1-q030 (bonus-soal-1), bonus-soal-9-q030 (bonus-soal-9), bonus-soal-10-q016 (bonus-soal-10), nguyen09-q030 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("誰にも相談しないで作業場を離れて、安全な場所へ避難する。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異常事態<rt>いじょうじたい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きた<ruby>時<rt>とき</rt></ruby>に、どうしますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan saat terjadi keadaan darurat/abnormal? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 5, nomor 30. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-v2-p1-197] 起きた(おきた) [inflected_verb, df:起きる] = terjadi (dasar: 起きる) | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>必要<rt>ひつよう</rt></ruby>があれば、<ruby>非常停止<rt>ひじょうていし</rt></ruby>ボタンで<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める。
+    TRANS: Jika perlu, menghentikan mesin dengan tombol berhenti darurat (emergency stop).
+    KOTOBA: [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-otaff51-0635] 非常停止ボタン(ひじょうていしぼたん) [compound_technical] = tombol berhenti darurat | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-210] 止める(とめる) [word] = menghentikan
+  OPT B: HTML=<ruby>周<rt>まわ</rt></ruby>りにいる<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>同僚<rt>どうりょう</rt></ruby>に、<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memberitahukan dengan suara keras kepada penanggung jawab atau rekan kerja di sekitar.
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-1453580] 同僚(どうりょう) [word] = rekan kerja | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-v2-p1-077] 声(こえ) [word] = suara | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu
+  OPT C: HTML=<ruby>誰<rt>だれ</rt></ruby>にも<ruby>相談<rt>そうだん</rt></ruby>しないで<ruby>作業場<rt>さぎょうば</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れて、<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>へ<ruby>避難<rt>ひなん</rt></ruby>する。
+    TRANS: Meninggalkan tempat kerja dan mengungsi ke tempat aman tanpa berkonsultasi/melapor kepada siapa pun.
+    KOTOBA: [kb-1416830] 誰(だれ) [standalone_term] = Siapa / pihak penanggung jawab yang ditunjuk | [kb-audit-0954] 相談しないで(そうだんしないで) [inflected_verb, df:相談する] = tanpa berkonsultasi | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-298] 離れて(はなれて) [inflected_verb, df:離れる] = meninggalkan (dasar: 離れる) | [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-1484660] 避難(ひなん) [word] = evakuasi
+
+=== #Q31 | ID=nguyen01-q031 | KEY=A (idx=0) | CAT= | SRC=1-1.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  CLUSTER CL-0029 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q031 (ssw-pm-kunci-ujian-1), kunci-ujian-13-q018 (ssw-pm-kunci-ujian-13), bonus-soal-1-q031 (bonus-soal-1), bonus-soal-5-q018 (bonus-soal-5), bonus-soal-9-q031 (bonus-soal-9), bonus-soal-10-q017 (bonus-soal-10), nguyen05-q018 (latsol-nguyen-05), nguyen09-q031 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("ほこりを落とす。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラーを<ruby>使<rt>つか</rt></ruby>っています。<ruby>何<rt>なん</rt></ruby>のために<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラーを<ruby>使<rt>つか</rt></ruby>いますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat memasuki ruang kerja, digunakan rol perekat (adhesive roller). Untuk tujuan apa rol perekat tersebut digunakan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 5, nomor 31. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-otaff51-0490] 粘着ローラー(ねんちゃくろーらー) [compound_technical] = rol perekat pembersih debu/rambut | [kb-v2-p1-116] 使っています(つかっています) [inflected_verb, df:使う] = sedang memakai (dasar: 使う) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-117] 使いますか(つかいますか) [inflected_verb, df:使う] = digunakan untuk apa (dasar: 使う) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=ほこりを<ruby>落<rt>お</rt></ruby>とす。
+    TRANS: Menghilangkan debu/rambut yang menempel.
+    KOTOBA: [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-v2-p1-214] 落とす(おとす) [word] = menghilangkan / menjatuhkan
+  OPT B: HTML=マッサージをする。
+    TRANS: Melakukan pijat.
+    KOTOBA: [kb-ext-0029-e3839ee383] マッサージ(-) [word] = pijat
+  OPT C: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Mendinginkan pakaian kerja.
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan
+
+=== #Q32 | ID=nguyen01-q032 | KEY=C (idx=2) | CAT= | SRC=1-1.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-2830705 "身体": kotoba="からだ" vs ruby="しんたい"
+  CLUSTER CL-0173 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q032 (bonus-soal-1), bonus-soal-9-q032 (bonus-soal-9), nguyen09-q032 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("重い物を運ぶときは不安定な姿勢をする") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>重<rt>おも</rt></ruby>い<ruby>釜<rt>かま</rt></ruby>を<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げたとき、<ruby>腰<rt>こし</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>痛<rt>いた</rt></ruby>みを<ruby>感<rt>かん</rt></ruby>じた。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat mengangkat panci besar/ketel berat dengan kedua tangan, terasa sakit yang kuat pada pinggang. Untuk mencegah kecelakaan ini, apa yang sebaiknya dilakukan? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 5, nomor 32. Bobot: 3.75 poin. Kunci jawaban: C. Visual: Ilustrasi pekerja membungkuk mengangkat ketel besar dengan tanda nyeri di pinggang.
+  KOTOBA_PROMPT: [kb-latsol-f81cd156a9] 重い釜(おもいかま) [word] = ketel/panci besar yang berat | [kb-otaff51-0099] 両手(りょうて) [noun] = kedua tangan | [kb-v2-p5-235] 持ち上げた(もちあげた) [inflected, df:持ち上げる] = mengangkat ke atas | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0522] 腰(こし) [noun] = pinggang | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-v2-p5-362] 痛み(いたみ) [word] = rasa sakit / nyeri | [kb-v2-p5-280] 感じた(かんじた) [inflected, df:感じる] = merasakan (lampau) | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げるときは、<ruby>身体<rt>しんたい</rt></ruby>を<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>づけて、<ruby>膝<rt>ひざ</rt></ruby>を<ruby>曲<rt>ま</rt></ruby>げて、<ruby>腰<rt>こし</rt></ruby>を<ruby>下<rt>お</rt></ruby>ろして<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>抱<rt>かか</rt></ruby>えて、<ruby>膝<rt>ひざ</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばしながらゆっくり<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がる。
+    TRANS: Saat mengangkat benda berat, dekatkan tubuh pada benda berat, tekuk lutut, turunkan pinggang lalu dekap benda berat tersebut, dan berdirilah perlahan sambil meluruskan lutut.
+    KOTOBA: [kb-pilot51-078] 重い物(おもいもの) [noun] = benda berat | [kb-v2-p5-236] 持ち上げるとき(もちあげるとき) [expression] = saat mengangkat ke atas | [kb-2830705] 身体(からだ) [word] = tubuh | [kb-v2-p5-256] 近づけて(ちかづけて) [inflected, df:近づける] = mendekatkan | [kb-otaff51-0527] 膝(ひざ) [noun] = lutut | [kb-v2-p5-257] 曲げて(まげて) [inflected, df:曲げる] = menekuk (lutut) | [kb-otaff51-0522] 腰(こし) [noun] = pinggang | [kb-v2-p5-258] 下ろして(おろして) [inflected, df:下ろす] = menurunkan | [kb-audit-0405] 抱えて(かかえて) [inflected_verb, df:抱える] = memegang erat / memeluk beban | [kb-v2-p5-261] 伸ばしながら(のばしながら) [inflected, df:伸ばす] = sambil meluruskan | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-otaff51-0480] 立ち上がる(たちあがる) [verb] = berdiri
+  OPT B: HTML=<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶときは、できるだけ<ruby>台車<rt>だいしゃ</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>する
+    TRANS: Saat mengangkut benda berat, gunakan troli (daisha) sebisa mungkin.
+    KOTOBA: [kb-pilot51-078] 重い物(おもいもの) [noun] = benda berat | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-otaff51-0227] 台車(だいしゃ) [noun] = troli pengangkut barang | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan
+  OPT C: HTML=<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶときは<ruby>不安定<rt>ふあんてい</rt></ruby>な<ruby>姿勢<rt>しせい</rt></ruby>をする
+    TRANS: Saat mengangkut benda berat, lakukan dengan postur tubuh yang tidak stabil.
+    KOTOBA: [kb-pilot51-078] 重い物(おもいもの) [noun] = benda berat | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-latsol-831d07b0f6] 不安定な(ふあんていな) [word] = tidak stabil | [kb-otaff51-0259] 姿勢(しせい) [noun] = postur / sikap tubuh

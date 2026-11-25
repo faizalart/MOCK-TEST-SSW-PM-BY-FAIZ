@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-03 (Latsol Nguyen 03) | Batch qa-batch-07 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=nguyen03-q013 | KEY=A (idx=0) | CAT= | SRC=3.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0074 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q013 (ssw-pm-kunci-ujian-3), kunci-ujian-7-q009 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q011 (ssw-pm-kunci-ujian-14)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("作業場所と作業内容") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業<rt>さぎょう</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しなければなりませんか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus diperiksa sebelum memulai pekerjaan?
+  EXPLANATION: Sumber: 3.pdf, halaman 2, nomor 13. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0939] 確認しなければ(かくにんしなければ) [expression] = harus memeriksa (条件) | [kb-audit-0371] なりませんか(なりませんか) [inflected_verb, df:なる] = haruskah (dalam なければなりませんか)
+  OPT A: HTML=<ruby>作業場所<rt>さぎょうばしょ</rt></ruby>と<ruby>作業内容<rt>さぎょうないよう</rt></ruby>
+    TRANS: Lokasi kerja dan isi/rincian pekerjaan
+    KOTOBA: [kb-ext-0641-e4bd9ce6a5] 作業場所(さぎょうばしょ) [word] = tempat / area kerja produksi | [kb-ext-0650-e4bd9ce6a5] 作業内容(さぎょうないよう) [word] = rincian instruksi tugas kerja
+  OPT B: HTML=<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>
+    TRANS: Nama orang yang bekerja bersama
+    KOTOBA: [kb-1163400] 一緒(いっしょ) [word] = Bersama-sama / serentak | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1531710] 名前(なまえ) [word] = nama
+  OPT C: HTML=<ruby>消毒液<rt>しょうどくえき</rt></ruby>の<ruby>置<rt>お</rt></ruby>く<ruby>場所<rt>ばしょ</rt></ruby>
+    TRANS: Tempat meletakkan cairan disinfektan
+    KOTOBA: [kb-otaff51-0390] 消毒液(しょうどくえき) [compound_technical] = larutan disinfektan | [kb-v2-p3-275] 置く(おく) [word] = meletakkan | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi
+
+=== #Q14 | ID=nguyen03-q014 | KEY=B (idx=1) | CAT= | SRC=3.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  CLUSTER CL-0075 (n=3, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q014 (ssw-pm-kunci-ujian-3), kunci-ujian-14-q014 (ssw-pm-kunci-ujian-14)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("時間があったら作業場に一緒に仕事をする人と話す。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>の<ruby>注意点<rt>ちゅういてん</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai hal yang harus diperhatikan selama bekerja, pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 3.pdf, halaman 2, nomor 14. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0383] 注意点(ちゅういてん) [compound_technical] = poin perhatian | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>危険<rt>きけん</rt></ruby>な<ruby>箇所<rt>かしょ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけたら、すぐ<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>する。
+    TRANS: Jika menemukan bagian/tempat yang berbahaya, segera laporkan kepada penanggung jawab.
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1590250] 箇所(かしょ) [word] = titik / lokasi tertentu | [kb-audit-0591] 見つけたら(みつけたら) [inflected_verb, df:見つける] = jika menemukan | [kb-v2-p1-282] すぐ(-) [word] = segera | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-157] 報告する(ほうこくする) [word] = melaporkan
+  OPT B: HTML=<ruby>時間<rt>じかん</rt></ruby>があったら<ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>仕事<rt>しごと</rt></ruby>をする<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>す。
+    TRANS: Jika ada waktu luang, mengobrol dengan rekan kerja di ruang kerja.
+    KOTOBA: [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-audit-0402] あったら(あったら) [inflected_verb, df:ある] = apabila ada / tersedia | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1163400] 一緒(いっしょ) [word] = Bersama-sama / serentak | [kb-otaff51-0110] 仕事(しごと) [noun] = pekerjaan | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p6-405] 話す(はなす) [word] = berbicara
+  OPT C: HTML=<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>が<ruby>危険<rt>きけん</rt></ruby>な<ruby>動<rt>うご</rt></ruby>きをしたら<ruby>注意<rt>ちゅうい</rt></ruby>する。
+    TRANS: Jika orang di sekitar melakukan gerakan berbahaya, berikan peringatan.
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-v2-p6-548] 動き(うごき) [word] = gerakan / pergerakan | [kb-audit-0590] したら(したら) [inflected_verb, df:する] = jika melakukan / setelah itu | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada
+
+=== #Q15 | ID=nguyen03-q015 | KEY=C (idx=2) | CAT= | SRC=3.pdf p.3 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 特定原材料
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("8つ。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>の<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>は<ruby>品目<rt>ひんもく</rt></ruby>がいくつありますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada berapa jenis bahan baku spesifik (特定原材料) zat alergen? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 3.pdf, halaman 3, nomor 15. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-v2-p4-205] いくつ(-) [word] = berapa banyak / berapa buah | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah
+  OPT A: HTML=5つ。
+    TRANS: 5 jenis.
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung)
+  OPT B: HTML=7つ。
+    TRANS: 7 jenis.
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung)
+  OPT C: HTML=8つ。
+    TRANS: 8 jenis.
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung)
+
+=== #Q16 | ID=nguyen03-q016 | KEY=B (idx=1) | CAT= | SRC=3.pdf p.3 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("4原則。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスを<ruby>予防<rt>よぼう</rt></ruby>するためにいくつ<ruby>原則<rt>げんそく</rt></ruby>がありますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada berapa prinsip untuk mencegah Norovirus?
+  EXPLANATION: Sumber: 3.pdf, halaman 3, nomor 16. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-1543660] 予防(よぼう) [word] = pencegahan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p4-205] いくつ(-) [word] = berapa banyak / berapa buah | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある)
+  OPT A: HTML=3<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 3 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+  OPT B: HTML=4<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 4 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+  OPT C: HTML=7<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 7 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar

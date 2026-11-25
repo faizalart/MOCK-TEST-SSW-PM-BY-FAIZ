@@ -1,0 +1,68 @@
+# AUDIT SHEET: latsol-nguyen-08 (Latsol Nguyen 08) | Batch qa-batch-08 | Part 10 (Q37-39 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=nguyen08-q037 | KEY=A (idx=0) | CAT= | SRC=8.pdf p.7 ===
+  FLAGS: [OPT_PROHIBITION_MISMATCH@optTranslation:A] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh || [OPT_PROHIBITION_MISMATCH@optTranslation:B] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh
+  CLUSTER CL-0177 (n=8, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q038 (bonus-soal-1), bonus-soal-4-q037 (bonus-soal-4), bonus-soal-7-q039 (bonus-soal-7), bonus-soal-8-q037 (bonus-soal-8), nguyen01-q038 (latsol-nguyen-01), nguyen04-q037 (latsol-nguyen-04), nguyen07-q039 (latsol-nguyen-07)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("入ることを禁止する。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>下記<rt>かき</rt></ruby>の<ruby>標識<rt>ひょうしき</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, apakah arti dari rambu di bawah ini? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 8.pdf, halaman 7, nomor 37. Bobot: 3.85 poin. Kunci jawaban: A. Visual: Rambu 立入禁止 / DO NOT ENTER. Nomor asli PDF: Câu 38 (Halaman 7).
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-1184690] 下記(かき) [word] = berikut ini | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-audit-0404] どういう(どういう) [word] = bagaimana / seperti apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>入<rt>はい</rt></ruby>ることを<ruby>禁止<rt>きんし</rt></ruby>する。
+    TRANS: Melarang masuk.
+    KOTOBA: [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang
+  OPT B: HTML=<ruby>走<rt>はし</rt></ruby>ることを<ruby>禁止<rt>きんし</rt></ruby>する。
+    TRANS: Melarang berlari.
+    KOTOBA: [kb-v2-p5-271] 走る(はしる) [word] = berlari | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang
+  OPT C: HTML=<ruby>切断<rt>せつだん</rt></ruby>する<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memberitahukan bahaya terpotong.
+    KOTOBA: [kb-1385120] 切断(せつだん) [word] = pemotongan | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu
+
+=== #Q38 | ID=nguyen08-q038 | KEY=B (idx=1) | CAT= | SRC=8.pdf p.8 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 標識 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [KANJI_WITHOUT_RUBY@opt:C] 標識 || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: はさまれ注意
+  CLUSTER CL-0255 (n=3, diffPrompt=false, diffOpt=false, diffTrans=false): twins=nguyen02-q039 (latsol-nguyen-02), nguyen09-q040 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("[標識B] 危険 手をふれるな（DANGER! DO NOT TOUCH）") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、はさまれる<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan bahaya terjepit? Pilihlah satu yang salah (yang bukan rambu bahaya terjepit).
+  EXPLANATION: Sumber: 8.pdf, halaman 8, nomor 38. Bobot: 3.85 poin. Kunci jawaban: B. Visual: 3 rambu keselamatan pada opsi A, B, dan C. Nomor asli PDF: Câu 39 (Halaman 8).
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-otaff51-0773] はさまれる(はさまれる) [verb] = terjepit | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] はさまれ<ruby>注意<rt>ちゅうい</rt></ruby>（WATCH YOUR HANDS）
+    TRANS: Rambu peringatan "Awas Terjepit / Watch Your Hands".
+    MEDIA: media-nguyen08-q038-option-a
+    KOTOBA: [kb-latsol-c9ad9cd496] はさまれ注意(はさまれちゅうい) [word] = awas terjepit mesin | [kb-v2-p6-170] HA(-) [technical] = Analisis Bahaya (Hazard Analysis)
+  OPT B: HTML=[標識B] <ruby>危険<rt>きけん</rt></ruby> <ruby>手<rt>て</rt></ruby>をふれるな（DANGER! DO NOT TOUCH）
+    TRANS: Rambu "Bahaya: Jangan Sentuh / Danger! Do Not Touch".
+    MEDIA: media-nguyen08-q038-option-b
+    KOTOBA: [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-latsol-ccc4c32239] 手をふれるな(てをふれるな) [word] = jangan menyentuh dengan tangan
+  OPT C: HTML=[標識C] はさまれ<ruby>注意<rt>ちゅうい</rt></ruby>
+    TRANS: Rambu peringatan "Awas Terjepit" (はさまれ注意).
+    MEDIA: media-nguyen08-q038-option-c
+    KOTOBA: [kb-latsol-c9ad9cd496] はさまれ注意(はさまれちゅうい) [word] = awas terjepit mesin
+
+=== #Q39 | ID=nguyen08-q039 | KEY=C (idx=2) | CAT= | SRC=8.pdf p.8 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 標識 || [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: やけど注意 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 火傷注意 || [KANJI_WITHOUT_RUBY@opt:C] 標識 || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0256 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=nguyen02-q040 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("[標識C] 危険 手をふれるな（DANGER! DO NOT TOUCH）") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、やけどをする<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan bahaya luka bakar (yakedo)? Pilihlah satu yang salah (yang bukan rambu bahaya luka bakar).
+  EXPLANATION: Sumber: 8.pdf, halaman 8, nomor 39. Bobot: 3.85 poin. Kunci jawaban: C. Visual: 3 rambu keselamatan pada opsi A, B, dan C. Nomor asli PDF: Câu 40 (Halaman 8).
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-otaff51-0028] やけど(やけど) [noun] = luka bakar | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] やけど<ruby>注意<rt>ちゅうい</rt></ruby>
+    TRANS: Rambu peringatan "Awas Luka Bakar" (やけど注意).
+    MEDIA: media-nguyen08-q039-option-a
+    KOTOBA: [kb-latsol-8d9ace60a2] やけど注意(やけどちゅうい) [word] = perhatian / kewaspadaan
+  OPT B: HTML=[標識B] <ruby>火傷注意<rt>やけどちゅうい</rt></ruby>
+    TRANS: Rambu peringatan "Awas Luka Bakar" (火傷注意).
+    MEDIA: media-nguyen08-q039-option-b
+    KOTOBA: [kb-ext-latsol-0006] 火傷注意(やけどちゅうい) [word] = perhatian bahaya luka bakar
+  OPT C: HTML=[標識C] <ruby>危険<rt>きけん</rt></ruby> <ruby>手<rt>て</rt></ruby>をふれるな（DANGER! DO NOT TOUCH）
+    TRANS: Rambu "Bahaya: Jangan Sentuh / Danger! Do Not Touch".
+    MEDIA: media-nguyen08-q039-option-c
+    KOTOBA: [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-latsol-ccc4c32239] 手をふれるな(てをふれるな) [word] = jangan menyentuh dengan tangan

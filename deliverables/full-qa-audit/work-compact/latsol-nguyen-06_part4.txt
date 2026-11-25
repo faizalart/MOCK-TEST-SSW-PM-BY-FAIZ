@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-06 (Latsol Nguyen 06) | Batch qa-batch-08 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=nguyen06-q013 | KEY=B (idx=1) | CAT= | SRC=6.pdf p.5 ===
+  FLAGS: [PRIOR_KEY_AUDIT_SOURCE_CONFLICT@question] Pada PDF 6.pdf Hal. 5 Nomor 13, huruf label "A." dan seluruh teks kalimat opsi "B" diberi warna merah secara bersamaan. Secara substansi Prinsip 7 HACCP, pembuatan dan penyimpanan catatan (記録文書の作成および保管) adalah wajib dan tidak boleh dihilangkan (省略することが出来る adalah pernyataan yang SALAH / 誤っているもの). Kunci JSON saat ini (B) sudah benar.
+  CLUSTER CL-0227 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-6-q013 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: SOURCE_CONFLICT | Pada PDF 6.pdf Hal. 5 Nomor 13, huruf label "A." dan seluruh teks kalimat opsi "B" diberi warna merah secara bersamaan. Secara substansi Prinsip 7 HACCP, pembuatan dan penyimpanan catatan (記録文書の作成および保管) adalah wajib dan tidak boleh dihilangkan (省略することが出来る adalah pernyataan yang SALAH / 誤っているもの). Kunci JSON saat ini (B) sudah benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCP に<ruby>関<rt>かん</rt></ruby>する<ruby>記述<rt>きじゅつ</rt></ruby>について、<ruby>誤<rt>あやま</rt></ruby>っているものを 1 つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai pernyataan terkait HACCP, pilihlah 1 yang salah.
+  EXPLANATION: Sumber: 6.pdf, halaman 5, nomor 13. Bobot: 3.75 poin. Kunci jawaban: B. Catatan QA: Pada PDF 6.pdf halaman 5, huruf 'A.' dan seluruh kalimat opsi 'B' berwarna merah; secara substansi HACCP Prinsip 7, opsi B adalah pernyataan yang salah mengenai HACCP.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p3-195] 関する(かんする) [word] = terkait dengan | [kb-1223280] 記述(きじゅつ) [word] = uraian / pernyataan tertulis | [kb-latsol-1dee95223c] 誤っている(あやまっている) [word] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>においても<ruby>重要視<rt>じゅうようし</rt></ruby>されており、<ruby>営業者<rt>えいぎょうしゃ</rt></ruby>の<ruby>自主管理手法<rt>じしゅかんりしゅほう</rt></ruby>として<ruby>導入<rt>どうにゅう</rt></ruby>・<ruby>普及<rt>ふきゅう</rt></ruby>がすすんでいる。
+    TRANS: Dianggap penting pula dalam Undang-Undang Sanitasi Pangan, serta penerapan dan penyebarannya sebagai metode manajemen mandiri pelaku usaha terus berkembang.
+    KOTOBA: [kb-otaff51-0653] 食品衛生法(しょくひんえいせいほう) [compound_technical] = Undang-Undang Higiene Pangan Jepang | [kb-ext-latsol-0019] 重要視(じゅうようし) [word] = memandang penting / mengutamakan | [kb-v2-p5-116] 営業者(えいぎょうしゃ) [word] = pelaku usaha / pengelola | [kb-ext-latsol-0020] 自主管理手法(じしゅかんりしゅほう) [word] = metode pengelolaan mandiri | [kb-1453790] 導入(どうにゅう) [word] = penerapan sistem | [kb-1497110] 普及(ふきゅう) [word] = penyebarluasan / penerapan | [kb-audit-0738] すすんでいる(すすんでいる) [inflected_verb, df:進む] = sedang berkembang / maju
+  OPT B: HTML=<ruby>導入<rt>どうにゅう</rt></ruby>することで、<ruby>記録文書<rt>きろくぶんしょ</rt></ruby>の<ruby>作成<rt>さくせい</rt></ruby>および<ruby>保管<rt>ほかん</rt></ruby>を<ruby>省略<rt>しょうりゃく</rt></ruby>することが<ruby>出来<rt>でき</rt></ruby>る。
+    TRANS: Dengan menerapkannya, pembuatan serta penyimpanan dokumen pencatatan dapat dihilangkan/diabaikan.
+    KOTOBA: [kb-1453790] 導入(どうにゅう) [word] = penerapan sistem | [kb-ext-latsol-0021] 記録文書(きろくぶんしょ) [word] = dokumen catatan | [kb-1297760] 作成(さくせい) [word] = penyusunan / pembuatan | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-1351120] 省略(しょうりゃく) [word] = penghilangan / melewatkan tahap | [kb-v2-p5-405] 出来る(できる) [word] = dapat / bisa
+  OPT C: HTML=できるだけ<ruby>凍結温度<rt>とうけつおんど</rt></ruby>を<ruby>低温<rt>ていおん</rt></ruby>にして、<ruby>短時間<rt>たんじかん</rt></ruby>で<ruby>凍結<rt>とうけつ</rt></ruby>する。
+    TRANS: Menjaga suhu pembekuan serendah mungkin dan membekukan dalam waktu singkat.
+    KOTOBA: [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-ext-latsol-0022] 凍結温度(とうけつおんど) [word] = suhu pembekuan | [kb-otaff51-0117] 低温(ていおん) [noun] = suhu rendah | [kb-v2-p1-320] にして(-) [particle] = menjadikan | [kb-1418720] 短時間(たんじかん) [word] = waktu singkat | [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan
+
+=== #Q14 | ID=nguyen06-q014 | KEY=C (idx=2) | CAT= | SRC=6.pdf p.6 ===
+  CLUSTER CL-0158 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q025 (ssw-pm-kunci-ujian-14), bonus-soal-6-q014 (bonus-soal-6), bonus-soal-9-q027 (bonus-soal-9), nguyen03-q027 (latsol-nguyen-03), nguyen09-q027 (latsol-nguyen-09), nguyen10-q028 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("施設基準の設定") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCP には 7 つの<ruby>原則<rt>げんそく</rt></ruby>があります。<ruby>間違<rt>まちが</rt></ruby>っている<ruby>原則<rt>げんそく</rt></ruby>を 1 つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam HACCP terdapat 7 prinsip. Pilihlah 1 prinsip yang salah (bukan termasuk 7 prinsip HACCP).
+  EXPLANATION: Sumber: 6.pdf, halaman 6, nomor 14. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>検証方法<rt>けんしょうほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode verifikasi
+    KOTOBA: [kb-otaff51-0351] 検証方法(けんしょうほうほう) [compound_technical] = metode verifikasi | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT B: HTML=<ruby>管理基準<rt>かんりきじゅん</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan batas kritis / standar kendali
+    KOTOBA: [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT C: HTML=<ruby>施設基準<rt>しせつきじゅん</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan standar fasilitas
+    KOTOBA: [kb-ext-0709-e696bde8a8] 施設基準(しせつきじゅん) [compound_technical] = standar fasilitas | [kb-1386060] 設定(せってい) [word] = penetapan
+
+=== #Q15 | ID=nguyen06-q015 | KEY=A (idx=0) | CAT= | SRC=6.pdf p.6 ===
+  CLUSTER CL-0228 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-6-q015 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("管理基準の設定") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCP は７<ruby>原則<rt>げんそく</rt></ruby>があります。<ruby>原則<rt>げんそく</rt></ruby>３は<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: HACCP memiliki 7 prinsip. Apakah Prinsip ke-3?
+  EXPLANATION: Sumber: 6.pdf, halaman 6, nomor 15. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=<ruby>管理基準<rt>かんりきじゅん</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan batas kritis / standar kendali (Critical Limit)
+    KOTOBA: [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT B: HTML=<ruby>監視<rt>かんし</rt></ruby>（モニタリング）の<ruby>方法<rt>ほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode pemantauan (Monitoring — Prinsip 4)
+    KOTOBA: [kb-otaff51-0460] 監視(かんし) [noun] = pemantauan (monitoring) | [kb-otaff51-0083] モニタリング(もにたりんぐ) [compound_technical] = pemantauan berkelanjutan (monitoring) | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT C: HTML=<ruby>記録<rt>きろく</rt></ruby>
+    TRANS: Pencatatan (Prinsip 7)
+    KOTOBA: [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman
+
+=== #Q16 | ID=nguyen06-q016 | KEY=B (idx=1) | CAT= | SRC=6.pdf p.6 ===
+  CLUSTER CL-0229 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-6-q016 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("食肉") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 10 ℃<ruby>以下<rt>いか</rt></ruby>で<ruby>保存<rt>ほぞん</rt></ruby>する<ruby>原材料<rt>げんざいりょう</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang benar mengenai bahan baku yang disimpan pada suhu 10°C atau lebih rendah.
+  EXPLANATION: Sumber: 6.pdf, halaman 6, nomor 16. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>野菜<rt>やさい</rt></ruby>
+    TRANS: Sayuran
+    KOTOBA: [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran
+  OPT B: HTML=<ruby>食肉<rt>しょくにく</rt></ruby>
+    TRANS: Daging konsumsi
+    KOTOBA: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar
+  OPT C: HTML=<ruby>生鮮魚介類<rt>せいせんぎょかいるい</rt></ruby>
+    TRANS: Hasil laut segar (5°C atau lebih rendah)
+    KOTOBA: [kb-otaff51-0446] 生鮮魚介類(せいせんぎょかいるい) [compound_technical] = ikan dan hasil laut segar

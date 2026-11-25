@@ -1,0 +1,90 @@
+# AUDIT SHEET: latsol-tambahan-02 (Latsol Tambahan 02) | Batch qa-batch-10 | Part 3 (Q9-12 of 30)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=tambahan02-q009 | KEY=C (idx=2) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.4 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0111 (とめってない): "tidak menghentikan (typo 止めていない)" || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("うんてん ほうほう のは わからない きかいの そうさしません") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: きかいそうさにかんするちゅういじこうについて <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらんでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai hal-hal yang harus diperhatikan terkait pengoperasian mesin.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 4, nomor 9. Bobot: 5.0 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-latsol-a3b25c6a98] きかいそうさ(きかいそうさ) [word] = pengoperasian mesin | [kb-latsol-b1025c5a91] ちゅういじこう(ちゅういじこう) [word] = hal-hal yang perlu diperhatikan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=きかいにうようが みつかったときは、きかいをとめってない だれにも いわない
+    TRANS: Saat ditemukan kejanggalan pada mesin, tidak menghentikan mesin dan tidak memberi tahu siapa pun
+    KOTOBA: [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-1114] みつかった(みつかった) [inflected_verb, df:見つかる] = ditemukan (見つかる) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-audit-0111] とめってない(とめってない) [inflected_verb, df:止める] = tidak menghentikan (typo 止めていない) | [kb-audit-0020] だれにも(だれにも) [word] = kepada siapa pun (tidak)
+  OPT B: HTML=うごいている きかい てをいれるのわかまいません
+    TRANS: Tidak masalah memasukkan tangan ke mesin yang sedang bergerak
+    KOTOBA: [kb-audit-0112] うごいている(うごいている) [inflected_verb, df:動く] = sedang bergerak / beroperasi (動いている) | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0113] てをいれる(てをいれる) [word] = memasukkan tangan (手を入れる) | [kb-audit-0368] いません(いません) [inflected_verb, df:いる] = tidak ada / tidak sedang
+  OPT C: HTML=うんてん ほうほう のは わからない きかいの そうさしません
+    TRANS: Tidak mengoperasikan mesin yang tidak diketahui cara pengoperasiannya
+    KOTOBA: [kb-audit-0090] うんてん(うんてん) [word] = pengoperasian / mengemudi (運転) | [kb-v2-p6-467] ほうほう(-) [word] = metode / cara (bacaan 方法) | [kb-audit-0678] わからない(わからない) [inflected_verb, df:分かる] = tidak mengetahui / tidak paham | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0114] そうさしません(そうさしません) [inflected_verb, df:操作する] = tidak mengoperasikan (操作しません)
+  OPT D: HTML=ていでんのばあいはスイッチをきりません
+    TRANS: Saat mati listrik, tidak mematikan sakelar
+    KOTOBA: [kb-audit-0115] ていでん(ていでん) [word] = pemadaman listrik / mati lampu (停電) | [kb-audit-0091] ばあい(ばあい) [word] = keadaan / apabila terjadi (場合) | [kb-v2-p4-071] スイッチ(-) [word] = sakelar / tombol daya
+
+=== #Q10 | ID=tambahan02-q010 | KEY=C (idx=2) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.4 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:D] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("水だけ洗います") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: きかいを あらうについて まちがっているものを <ruby>一<rt>ひと</rt></ruby>つ えらんでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai pencucian mesin.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 4, nomor 10. Bobot: 5.0 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-v2-fix-arau] あらう(-) [] = mencuci (洗う) | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=スイッチを<ruby>切<rt>き</rt></ruby>ってから あらいます
+    TRANS: Mencuci setelah mematikan sakelar
+    KOTOBA: [kb-v2-p4-071] スイッチ(-) [word] = sakelar / tombol daya | [kb-latsol-cb0a701899] 切って(きって) [word] = memotong / mematikan | [kb-audit-0092] あらいます(あらいます) [inflected_verb, df:洗う] = mencuci (洗います)
+  OPT B: HTML=せんじょうざい と さっきんざい を <ruby>使<rt>つか</rt></ruby>います
+    TRANS: Menggunakan bahan pembersih (deterjen) dan bahan sterilisasi
+    KOTOBA: [kb-latsol-2d34f08d9e] せんじょうざい(せんじょうざい) [word] = deterjen / cairan pembersih | [kb-latsol-7f3337ef4c] さっきんざい(さっきんざい) [word] = zat disinfektan / pembunuh bakteri | [kb-v2-p5-298] 使います(つかいます) [inflected, df:使う] = menggunakan (sopan)
+  OPT C: HTML=<ruby>水<rt>みず</rt></ruby>だけ<ruby>洗<rt>あら</rt></ruby>います
+    TRANS: Mencuci hanya dengan air saja
+    KOTOBA: [kb-otaff51-0369] 水(みず) [noun] = air | [kb-audit-1059] 洗います(あらいます) [inflected_verb, df:洗う] = mencuci (洗う)
+  OPT D: HTML=ぜんぶで ちがいます
+    TRANS: Semuanya salah
+    KOTOBA: [kb-latsol-zenbu] ぜんぶ(ぜんぶ) [word] = semuanya (全部) | [kb-latsol-chigaimasu] ちがいます(ちがいます) [inflected_verb, df:違う] = berbeda / salah (違う)
+
+=== #Q11 | ID=tambahan02-q011 | KEY=B (idx=1) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.5 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("かみのけ") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: せいひんに いぶつ こんにゅう で とくに <ruby>多<rt>おお</rt></ruby>いのは<ruby>何<rt>なん</rt></ruby>ですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam kasus kontaminasi benda asing ke dalam produk, benda apa yang terutama paling banyak ditemukan?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 5, nomor 11. Bobot: 5.0 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-audit-0359] せいひん(せいひん) [word] = produk jadi (製品) | [kb-audit-0912] いぶつ(いぶつ) [word] = benda asing | [kb-audit-0722] こんにゅう(こんにゅう) [word] = kontaminasi / tercampur masuk | [kb-audit-0078] とくに(とくに) [word] = terutama / khususnya (特に) | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=きんぞく
+    TRANS: Logam
+    KOTOBA: [kb-audit-0180] きんぞく(きんぞく) [word] = logam (penulisan hiragana dari 金属)
+  OPT B: HTML=かみのけ
+    TRANS: Rambut (serta serangga)
+    KOTOBA: [kb-audit-0181] かみのけ(かみのけ) [word] = rambut / helai rambut (髪の毛)
+  OPT C: HTML=ガラス
+    TRANS: Kaca
+    KOTOBA: [kb-v2-p1-057] ガラス(-) [word] = kaca
+  OPT D: HTML=ビニル
+    TRANS: Plastik/vinil
+    KOTOBA: [kb-latsol-5544ff3fc2] ビニル(びにる) [word] = plastik / vinil
+
+=== #Q12 | ID=tambahan02-q012 | KEY=D (idx=3) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="(はきけ、おうと、ふくつう)このしょうじょうについて 正しいものを 一つえらんでください" vs questionText="はきけ、 おうと、ふくつう)このしょうじょうについて 正しいものを 一つえらんでください" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: 球菌 || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: ウエルシア || [PRIOR_KEY_AUDIT_REVIEW_REQUIRED@question] Pertanyaan menanyakan penyebab gejala （はきけ、おうと、ふくつう）. Pada tabel diktat SSW, tiga gejala tersebut secara persis merupakan gejala utama 黄色ブドウ球菌, namun pada soal sumber penulisan Opsi A–C tidak lengkap/salah ketik (おうしょく ブドウ, セレウス, ウエルシア) dan Kunci Jawaban PDF Hal. 13 menetapkan D (ノロウイルス, yang juga menimbulkan mual, muntah, dan sakit perut). Kunci D dipertahankan.
+  PRIOR_KEY_AUDIT: REVIEW_REQUIRED | Pertanyaan menanyakan penyebab gejala （はきけ、おうと、ふくつう）. Pada tabel diktat SSW, tiga gejala tersebut secara persis merupakan gejala utama 黄色ブドウ球菌, namun pada soal sumber penulisan Opsi A–C tidak lengkap/salah ketik (おうしょく ブドウ, セレウス, ウエルシア) dan Kunci Jawaban PDF Hal. 13 menetapkan D (ノロウイルス, yang juga menimbulkan mual, muntah, dan sakit perut). Kunci D dipertahankan.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: （はきけ、おうと、ふくつう）このしょうじょうについて <ruby>正<rt>ただ</rt></ruby>しいものを <ruby>一<rt>ひと</rt></ruby>つえらんでください
+  QUESTION_TEXT: はきけ、 おうと、ふくつう）このしょうじょうについて 正しいものを 一つえらんでください
+  PROMPT_TRANS: (Mual, muntah, sakit perut) Pilihlah satu penyebab yang benar mengenai gejala ini.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 5, nomor 12. Bobot: 5.0 poin. Kunci jawaban: D. Catatan QA: Kunci PDF Hal. 13 adalah D (ノロウイルス). Secara diktat SSW, gejala 吐き気・おう吐・腹痛 adalah gejala khas 黄色ブドウ球菌 (Opsi A), namun opsi A–C ditulis terpotong tanpa kata 菌/球菌 di sumber.
+  KOTOBA_PROMPT: [kb-audit-0450] はきけ(はきけ) [word] = rasa mual (吐き気) | [kb-latsol-914f5e914c] おうと(おうと) [word] = muntah | [kb-latsol-c3c2c86f95] ふくつう(ふくつう) [word] = sakit perut | [kb-latsol-fcc3137b6f] しょうじょう(しょうじょう) [word] = gejala | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=おうしょく ブドウ
+    TRANS: Staphylococcus aureus (tertulis tidak lengkap tanpa 球菌 di sumber)
+    KOTOBA: [kb-audit-0117] おうしょく(おうしょく) [word] = kuning keemasan (bakteri 黄色ブドウ球菌) | [kb-ext-0027-e38396e383] ブドウ(ぶどう) [word] = Anggur (bahan baku buah olahan pangan)
+  OPT B: HTML=セレウス
+    TRANS: Bacillus cereus
+    KOTOBA: [kb-latsol-b37e0495b1] セレウス(せれうす) [word] = bakteri Bacillus cereus
+  OPT C: HTML=ウエルシア
+    TRANS: Welchia / Clostridium perfringens (tertulis ウエルシア di sumber)
+    KOTOBA: [kb-latsol-1e5e0eff04] ウエルシア(うぇるしあ) [word] = pengecoh nama bakteri (ウエルシュ菌)
+  OPT D: HTML=ノロウイルス
+    TRANS: Norovirus
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus

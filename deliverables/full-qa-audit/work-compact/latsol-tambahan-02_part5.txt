@@ -1,0 +1,90 @@
+# AUDIT SHEET: latsol-tambahan-02 (Latsol Tambahan 02) | Batch qa-batch-10 | Part 5 (Q17-20 of 30)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=tambahan02-q017 | KEY=B (idx=1) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="(や)ぶれたものがあると、どうすればいいですか" vs questionText="ぶれたものがると、どうすればいいですか" || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:D] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("写真のようになる前にこうかんします") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: （や）ぶれたものがあると、どうすればいいですか
+  QUESTION_TEXT: ぶれたものがると、どうすればいいですか
+  PROMPT_TRANS: Jika ada barang/tempelan pengumuman yang robek, apa yang sebaiknya dilakukan?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 6, nomor 17. Bobot: 5.0 poin. Kunci jawaban: B. Visual: Foto kertas pengumuman yang ditempel di dinding dalam kondisi pinggirannya robek dan usang.
+  KOTOBA_PROMPT: [kb-v2-p1-273] どうすれば(-) [expression] = bagaimana sebaiknya | [kb-v2-p1-249] いい(-) [word] = baik | [kb-latsol-yabureta] （や）ぶれた(やぶれた) [inflected_verb, df:破れる] = robek / rusak (破れた)
+  OPT A: HTML=けいじぶつのやぶれもいぶつこんにゅうのけんいんになります
+    TRANS: Robekan pada tempelan pengumuman juga menjadi penyebab kontaminasi benda asing
+    KOTOBA: [kb-latsol-18ef230526] けいじぶつ(けいじぶつ) [word] = papan pengumuman / poster | [kb-audit-0095] やぶれ(やぶれ) [word] = robekan / sobekan (破れ) | [kb-latsol-158fc259c0] いぶつこんにゅう(いぶつこんにゅう) [word] = kontaminasi benda asing | [kb-latsol-kenin] けんいん(げんいん) [word] = penyebab (原因)
+  OPT B: HTML=<ruby>写真<rt>しゃしん</rt></ruby>のようになる<ruby>前<rt>まえ</rt></ruby>にこうかんします
+    TRANS: Menggantinya sebelum menjadi rusak/robek seperti pada foto
+    KOTOBA: [kb-1321900] 写真(しゃしん) [word] = foto | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=けいぶつはていてきに よごれをかくにん
+    TRANS: Memeriksa kotoran pada tempelan secara berkala
+    KOTOBA: [kb-latsol-keibutsu] けいぶつ(けいじぶつ) [word] = poster / barang tempelan (掲示物) | [kb-latsol-teitekini] ていてきに(ていきてきに) [word] = secara berkala (定期的に) | [kb-audit-0229] よごれ(よごれ) [word] = kotoran / noda (汚れ) | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認)
+  OPT D: HTML=けいぶつはていてきに やぶれをかくにん
+    TRANS: Memeriksa robekan pada tempelan secara berkala
+    KOTOBA: [kb-latsol-keibutsu] けいぶつ(けいじぶつ) [word] = poster / barang tempelan (掲示物) | [kb-latsol-teitekini] ていてきに(ていきてきに) [word] = secara berkala (定期的に) | [kb-audit-0095] やぶれ(やぶれ) [word] = robekan / sobekan (破れ) | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認)
+
+=== #Q18 | ID=tambahan02-q018 | KEY=C (idx=2) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.7 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:B] Potential doubled/colliding particle || [NUMBER_MISMATCH@optTranslation:D] JP number "2" missing in ID "Membuat rolling door / pintu shutter masuk menjadi dua lapis (ganda)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("毎日まどを開けている") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: むしはひかりにさそわれ、わずかなすきまから<ruby>入<rt>はい</rt></ruby>ってきます。どうすればいいですか。まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらんでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Serangga tertarik oleh cahaya dan masuk melalui celah sempit. Apa yang sebaiknya dilakukan? Pilihlah satu tindakan yang salah.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 7, nomor 18. Bobot: 5.0 poin. Kunci jawaban: C. Visual: Dua foto bagian bawah pintu shutter pabrik yang bercelah sehingga cahaya luar masuk.
+  KOTOBA_PROMPT: [kb-latsol-sasoware] さそわれ(さそわれ) [inflected_verb, df:誘う] = tertarik / terpikat (誘われる) | [kb-v2-p3-224] 入って(はいって) [inflected, df:入る] = masuk / terkandung | [kb-v2-p1-273] どうすれば(-) [expression] = bagaimana sebaiknya | [kb-v2-p1-249] いい(-) [word] = baik | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=エアーカーテンをつける
+    TRANS: Memasang tirai udara (air curtain)
+    KOTOBA: [kb-v2-p5-090] エアーカーテン(-) [technical] = tirai udara (air curtain) | [kb-v2-p1-203] つける(-) [word] = memakai / memasang
+  OPT B: HTML=まどに<ruby>黒<rt>くろ</rt></ruby>いシートをはる
+    TRANS: Menempelkan lembaran hitam/anti-serangga pada jendela
+    KOTOBA: [kb-v2-p5-218] 黒い(くろい) [word] = hitam | [kb-ext-0017-e382b7e383] シート(しと) [word] = lembaran plastik / tirai | [kb-v2-p6-330] はる(-) [word] = menempelkan (bacaan 貼る)
+  OPT C: HTML=<ruby>毎日<rt>まいにち</rt></ruby>まどを<ruby>開<rt>あ</rt></ruby>けている
+    TRANS: Membuka jendela setiap hari
+    KOTOBA: [kb-otaff51-0367] 毎日(まいにち) [adverb] = setiap hari | [kb-v2-p5-269] 開けて(あけて) [inflected, df:開ける] = membuka
+  OPT D: HTML=いりぐちのシャッターを２じゅうにする
+    TRANS: Membuat rolling door / pintu shutter masuk menjadi dua lapis (ganda)
+    KOTOBA: [kb-audit-0125] いりぐち(いりぐち) [word] = pintu masuk (入口) | [kb-v2-p5-377] シャッター(-) [word] = pintu gulung (shutter) | [kb-latsol-nijuu] ２じゅう(にじゅう) [word] = dua lapis / ganda (二重)
+
+=== #Q19 | ID=tambahan02-q019 | KEY=C (idx=2) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.7 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:D] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("きゃたつに乗って ふあんていなしせいで作業しようしたこと") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: げんいんは どれですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang merupakan penyebab kecelakaan pada gambar ini?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 7, nomor 19. Bobot: 5.0 poin. Kunci jawaban: C. Visual: Ilustrasi pekerja berdiri di puncak tangga lipat mengencangkan baut di plafon lalu terpeleset jatuh.
+  KOTOBA_PROMPT: [kb-audit-0671] げんいん(げんいん) [word] = penyebab | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=ボルトをしめるときに ちからをいれないこと
+    TRANS: Tidak mengeluarkan tenaga saat mengencangkan baut
+    KOTOBA: [kb-v2-p1-048] ボルト(-) [word] = baut | [kb-audit-0126] しめるとき(しめるとき) [word] = saat mengencangkan (baut/mur) (締める時) | [kb-audit-0096] ちから(ちから) [word] = tenaga / kekuatan (力)
+  OPT B: HTML=ふあんていなしせいをさけること
+    TRANS: Menghindari postur tubuh yang tidak stabil
+    KOTOBA: [kb-audit-0097] ふあんてい(ふあんてい) [word] = tidak stabil / goyah (不安定) | [kb-audit-0008] なし(なし) [word] = tanpa / tidak ada | [kb-audit-0686] さける(さける) [word] = menghindari
+  OPT C: HTML=きゃたつに<ruby>乗<rt>の</rt></ruby>って ふあんていなしせいで<ruby>作業<rt>さぎょう</rt></ruby>しようしたこと
+    TRANS: Naik ke atas tangga lipat (kyatatsu) dan berusaha bekerja dengan postur tubuh yang tidak stabil
+    KOTOBA: [kb-audit-0470] きゃたつ(きゃたつ) [word] = tangga lipat (stepladder) | [kb-latsol-ffb1737619] 乗って(のって) [word] = menaiki / berdiri di atas | [kb-audit-0097] ふあんてい(ふあんてい) [word] = tidak stabil / goyah (不安定) | [kb-audit-0008] なし(なし) [word] = tanpa / tidak ada | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0089] しようした(しようした) [inflected_verb, df:使用する] = yang telah digunakan (使用した)
+  OPT D: HTML=きゃたつの てんばんには たたないこと
+    TRANS: Tidak berdiri di bagian puncak (tenban) tangga lipat
+    KOTOBA: [kb-audit-0470] きゃたつ(きゃたつ) [word] = tangga lipat (stepladder) | [kb-latsol-86c8b7d0ad] てんばん(てんばん) [word] = pijakan atas tangga | [kb-audit-0127] たたない(たたない) [inflected_verb, df:立つ] = tidak berdiri (di atas sesuatu) (立たない)
+
+=== #Q20 | ID=tambahan02-q020 | KEY=A (idx=0) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.8 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 対策 || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("とくにかいだんを歩いているときは スマートフォンをしようしないこと") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: たいさくは どれですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang merupakan tindakan pencegahan (対策) yang tepat untuk gambar ini?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 8, nomor 20. Bobot: 5.0 poin. Kunci jawaban: A. Visual: Ilustrasi pekerja menuruni tangga sambil menatap smartphone hingga terpeleset.
+  KOTOBA_PROMPT: [kb-latsol-571684ccab] たいさく(たいさく) [word] = tindakan penanggulangan | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=とくにかいだんを<ruby>歩<rt>ある</rt></ruby>いているときは スマートフォンをしようしないこと
+    TRANS: Terutama saat sedang berjalan di tangga, tidak menggunakan smartphone
+    KOTOBA: [kb-audit-0078] とくに(とくに) [word] = terutama / khususnya (特に) | [kb-v2-p6-606] かいだん(-) [word] = tangga | [kb-v2-p5-239] 歩いて(あるいて) [inflected, df:歩く] = berjalan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p6-171] スマートフォン(-) [word] = ponsel pintar (smartphone) | [kb-audit-0080] しようしない(しようしない) [inflected_verb, df:使用する] = tidak menggunakan (使用しない)
+  OPT B: HTML=スマートフォンはたち<ruby>止<rt>ど</rt></ruby>まってしようしないこと
+    TRANS: Tidak berhenti berjalan saat menggunakan smartphone
+    KOTOBA: [kb-v2-p6-171] スマートフォン(-) [word] = ponsel pintar (smartphone) | [kb-otaff51-0923] 止まって(とまって) [inflected_verb, df:止まる] = berhenti | [kb-audit-0080] しようしない(しようしない) [inflected_verb, df:使用する] = tidak menggunakan (使用しない)
+  OPT C: HTML=スマートフォンを<ruby>歩<rt>ある</rt></ruby>きながらそさしていたため
+    TRANS: Karena mengoperasikan smartphone sambil berjalan (penyebab)
+    KOTOBA: [kb-v2-p6-171] スマートフォン(-) [word] = ponsel pintar (smartphone) | [kb-v2-p6-437] 歩きながら(あるきながら) [inflected, df:歩く] = sambil berjalan | [kb-v2-p1-141] していた(-) [inflected_verb, df:する] = sedang melakukan (dasar: する)
+  OPT D: HTML=あしもととぜんぽうを<ruby>十分<rt>じゅうぶん</rt></ruby>にみていなかったこと
+    TRANS: Tidak melihat pijakan kaki dan arah depan dengan cukup (penyebab)
+    KOTOBA: [kb-audit-0128] あしもと(あしもと) [word] = area pijakan kaki / langkah kaki (足元) | [kb-audit-0129] ぜんぽう(ぜんぽう) [word] = arah depan (前方) | [kb-latsol-85c4fd8b40] 十分に(じゅうぶんに) [word] = cukup / memadai | [kb-audit-0394] ていなかった(ていなかった) [word] = tidak sedang (lampau)

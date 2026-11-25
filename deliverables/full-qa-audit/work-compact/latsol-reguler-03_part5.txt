@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-03 (Latsol Reguler 03) | Batch qa-batch-09 | Part 5 (Q17-20 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=reguler03-q017 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="いつでも職場のルールを守って行動できるようにするそれは何の活動ですか。。ただしものをひとつえらびなさい" vs questionText="いつでも職場のルールを守って行動できるようにするそれは何の活動ですか 。。ただしものをひとつえらびなさい" || [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("習慣") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: いつでも<ruby>職場<rt>しょくば</rt></ruby>のルールを<ruby>守<rt>まも</rt></ruby>って<ruby>行動<rt>こうどう</rt></ruby>できるようにするそれは<ruby>何<rt>なん</rt></ruby>の<ruby>活動<rt>かつどう</rt></ruby>ですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: いつでも職場のルールを守って行動できるようにするそれは何の活動ですか 。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Membiasakan diri agar selalu dapat bertindak mematuhi aturan tempat kerja kapan saja, termasuk aktivitas apakah itu? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 5, nomor 17. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0755] いつ(いつ) [adverb] = kapan | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-v2-p1-175] 守って(まもって) [inflected_verb, df:守る] = mematuhi (dasar: 守る) | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>整理<rt>せいり</rt></ruby>
+    TRANS: Seiri (Ringkas)
+    KOTOBA: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan)
+  OPT B: HTML=<ruby>習慣<rt>しゅうかん</rt></ruby>
+    TRANS: Shuukan / Shitsuke (Rajin / Kebiasaan)
+    KOTOBA: [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan)
+  OPT C: HTML=<ruby>整頓<rt>せいとん</rt></ruby>
+    TRANS: Seiton (Rapi)
+    KOTOBA: [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil)
+
+=== #Q18 | ID=reguler03-q018 | KEY=A (idx=0) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="必要なものは保管して不要なものを捨てる それは何の活動ですか。。正しいものを一つ選んでください" vs questionText="必要なものは保管して不要なものを捨てる それは何の活動ですか。。正しものを一つ選んでください" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("整理") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>必要<rt>ひつよう</rt></ruby>なものは<ruby>保管<rt>ほかん</rt></ruby>して<ruby>不要<rt>ふよう</rt></ruby>なものを<ruby>捨<rt>す</rt></ruby>てる それは<ruby>何<rt>なん</rt></ruby>の<ruby>活動<rt>かつどう</rt></ruby>ですか。。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: 必要なものは保管して不要なものを捨てる それは何の活動ですか。。正しものを一つ選んでください
+  PROMPT_TRANS: Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan, termasuk aktivitas apakah itu? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 5, nomor 18. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-latsol-90a80dc9bf] 不要な(ふような) [word] = tidak diperlukan | [kb-v2-p1-174] 捨てる(すてる) [word] = membuang | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=<ruby>整理<rt>せいり</rt></ruby>
+    TRANS: Seiri (Ringkas)
+    KOTOBA: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan)
+  OPT B: HTML=<ruby>清掃<rt>せいそう</rt></ruby>
+    TRANS: Seisou (Resik)
+    KOTOBA: [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+  OPT C: HTML=しつけ
+    TRANS: Shitsuke (Rajin)
+    KOTOBA: [kb-otaff51-0016] しつけ(しつけ) [noun] = Shitsuke (Disiplin mematuhi aturan yang ditetapkan)
+
+=== #Q19 | ID=reguler03-q019 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="必要なものが取り出しやすいように、置く場所を決めておくそれは何の活動ですか。。正しいものを一つ選んでください" vs questionText="必要なものが取り出しやすいように、置く場所を決めておくそれは何の活動ですか。。正しものを一つ選んでください"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("整頓") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>必要<rt>ひつよう</rt></ruby>なものが<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>しやすいように、<ruby>置<rt>お</rt></ruby>く<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めておくそれは<ruby>何<rt>なん</rt></ruby>の<ruby>活動<rt>かつどう</rt></ruby>ですか。。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: 必要なものが取り出しやすいように、置く場所を決めておくそれは何の活動ですか。。正しものを一つ選んでください
+  PROMPT_TRANS: Menentukan tempat penyimpanan agar barang yang diperlukan mudah diambil, termasuk aktivitas apakah itu? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 5, nomor 19. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-latsol-9cec65d1ef] 取り出しやすい(とりだしやすい) [word] = mudah diambil / dikeluarkan | [kb-v2-p3-275] 置く(おく) [word] = meletakkan | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p1-177] 決めて(きめて) [inflected_verb, df:決める] = menetapkan (dasar: 決める) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>
+    TRANS: Seiketsu (Rawat)
+    KOTOBA: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu)
+  OPT B: HTML=<ruby>整頓<rt>せいとん</rt></ruby>
+    TRANS: Seiton (Rapi)
+    KOTOBA: [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil)
+  OPT C: HTML=<ruby>習慣<rt>しゅうかん</rt></ruby>
+    TRANS: Shuukan (Rajin / Kebiasaan)
+    KOTOBA: [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan)
+
+=== #Q20 | ID=reguler03-q020 | KEY=C (idx=2) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="作業場とその周辺をいつもきれいに掃除するそれは何の活動ですか。。正しいものを選んでください" vs questionText="作業場とその周辺をいつもきれいに掃除するそれは何の活動ですか。。正しものを選んでください"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("清掃") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>とその<ruby>周辺<rt>しゅうへん</rt></ruby>をいつもきれいに<ruby>掃除<rt>そうじ</rt></ruby>するそれは<ruby>何<rt>なん</rt></ruby>の<ruby>活動<rt>かつどう</rt></ruby>ですか。。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: 作業場とその周辺をいつもきれいに掃除するそれは何の活動ですか。。正しものを選んでください
+  PROMPT_TRANS: Selalu membersihkan tempat kerja dan area sekitarnya hingga bersih, termasuk aktivitas apakah itu? Pilihlah jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 6, nomor 20. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1331300] 周辺(しゅうへん) [word] = Area sekitar mesin produksi | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>
+    TRANS: Seiketsu (Rawat)
+    KOTOBA: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu)
+  OPT B: HTML=<ruby>整頓<rt>せいとん</rt></ruby>
+    TRANS: Seiton (Rapi)
+    KOTOBA: [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil)
+  OPT C: HTML=<ruby>清掃<rt>せいそう</rt></ruby>
+    TRANS: Seisou (Resik)
+    KOTOBA: [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)

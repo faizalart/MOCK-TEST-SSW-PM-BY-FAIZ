@@ -1,0 +1,81 @@
+# AUDIT SHEET: bonus-soal-6 (Bonus Soal 6) | Batch qa-batch-05 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=bonus-soal-6-q001 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 6.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 代, 表 || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0339 (代 表 的な): "utama / representatif (typo spasi)"
+  CLUSTER CL-0217 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=nguyen06-q001 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で代 表 <ruby>的<rt>だいひょうてき</rt></ruby>な<ruby>物<rt>もの</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びな<br>さい。
+  QUESTION_TEXT: 物理的危害要因の中で代 表 的な物は何ですか。正しいものを選びな
+さい。
+  PROMPT_TRANS: Apakah contoh utama dari faktor bahaya fisik? Pilihlah jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 1, Soal 1) · Kunci Jawaban Sumber: A.
+  KOTOBA_PROMPT: [kb-otaff51-0431] 物理的危害要因(ぶつりてききがいよういん) [compound_technical] = faktor bahaya fisik | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-audit-0339] 代 表 的な(だいひょうてきな) [word] = utama / representatif (typo spasi) | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>石<rt>いし</rt></ruby>
+    TRANS: Batu
+    KOTOBA: [kb-otaff51-0468] 石(いし) [noun] = batu
+  OPT B: HTML=<ruby>虫<rt>むし</rt></ruby>
+    TRANS: Serangga
+    KOTOBA: [kb-v2-p4-111] 虫(むし) [word] = serangga / hama
+  OPT C: HTML=ヒスタミン
+    TRANS: Histamin
+    KOTOBA: [kb-otaff51-0065] ヒスタミン(ひすたみん) [noun] = histamin
+
+=== #Q2 | ID=bonus-soal-6-q002 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 6.pdf p.1 ===
+  CLUSTER CL-0218 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=nguyen06-q002 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>以下<rt>いか</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>といいますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Disebut apakah foto di bawah ini? Pilihlah jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 1, Soal 2) · Kunci Jawaban Sumber: B.
+  KOTOBA_PROMPT: [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-1321900] 写真(しゃしん) [word] = foto | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-318] といいます(-) [expression] = disebut sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=HACCP による<ruby>安全管理<rt>あんぜんかんり</rt></ruby>
+    TRANS: Manajemen keselamatan berdasarkan HACCP
+    KOTOBA: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0267] 安全管理(あんぜんかんり) [compound_technical] = manajemen keselamatan
+  OPT B: HTML=HACCP による<ruby>衛生管理<rt>えいせいかんり</rt></ruby>
+    TRANS: Manajemen higiene berdasarkan HACCP
+    KOTOBA: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene
+  OPT C: HTML=<ruby>重要管理店<rt>じゅうようかんりてん</rt></ruby>の<ruby>確認<rt>かくにん</rt></ruby>
+    TRANS: Pemeriksaan Titik Kendali Kritis
+    KOTOBA: [kb-ext-0833-e9878de8a6] 重要管理店(じゅうようかんりてん) [word] = titik kendali kritis (varian) | [kb-otaff51-0471] 確認(かくにん) [noun] = pemeriksaan / konfirmasi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q3 | ID=bonus-soal-6-q003 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 6.pdf p.2 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:C] 磨 || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0219 (n=2, diffPrompt=false, diffOpt=true, diffTrans=true): twins=nguyen06-q003 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ５S の<ruby>中<rt>なか</rt></ruby>で<ruby>清掃<rt>せいそう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah yang dimaksud dengan Resik (Pembersihan / Seisou) dalam 5S? Pilihlah jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 2, Soal 3) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-055] S(-) [technical] = huruf S (5S: Seiri/Seiton/dll) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>要<rt>い</rt></ruby>らない<ruby>器具<rt>きぐ</rt></ruby>や<ruby>道具<rt>どうぐ</rt></ruby>をなくして、<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>器具<rt>きぐ</rt></ruby>や<ruby>道具<rt>どうぐ</rt></ruby>だけにすること
+    TRANS: Menyingkirkan peralatan dan perkakas yang tidak diperlukan, serta hanya menyisakan peralatan dan perkakas yang diperlukan
+    KOTOBA: [kb-v2-p5-325] 要らない(いらない) [inflected, df:要る] = tidak diperlukan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-audit-0894] なくして(なくして) [inflected_verb, df:なくす] = menghilangkan / menyingkirkan | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-335] だけ(-) [particle] = hanya | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>器具<rt>きぐ</rt></ruby>や<ruby>道具<rt>どうぐ</rt></ruby>を、<ruby>必要<rt>ひつよう</rt></ruby>なときにすぐに<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>せるようにすること。
+    TRANS: Membuat peralatan dan perkakas dapat segera diambil saat diperlukan.
+    KOTOBA: [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p3-315] 取り出せる(とりだせる) [inflected, df:取り出す] = dapat mengambil keluar | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>設備<rt>せつび</rt></ruby>や<ruby>器具<rt>きぐ</rt></ruby>、<ruby>道具<rt>どうぐ</rt></ruby>を、<ruby>洗<rt>あら</rt></ruby>ったり、磨いたり、<ruby>拭<rt>ふ</rt></ruby>いたりしてきれいな <ruby>状<rt>じょう</rt></ruby><ruby>態<rt>たい</rt></ruby>にすること。
+    TRANS: Mencuci, menggosok, dan mengelap fasilitas, peralatan, serta perkakas agar menjadi bersih.
+    KOTOBA: [kb-otaff51-0570] 設備(せつび) [noun] = fasilitas / instalasi peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-audit-0564] 洗ったり(あらったり) [inflected_verb, df:洗う] = mencuci, dan lain-lain | [kb-audit-0565] 磨いたり(みがいたり) [inflected_verb, df:磨く] = menggosok, dan lain-lain | [kb-audit-0566] 拭いたり(ふいたり) [inflected_verb, df:拭く] = mengelap, dan lain-lain | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-v2-p1-259] きれいな(-) [word] = bersih | [kb-otaff51-0435] 状態(じょうたい) [noun] = kondisi / keadaan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q4 | ID=bonus-soal-6-q004 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 6.pdf p.2 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-292 (含まる): "terkandung (typo: 含まれる)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>以下<rt>いか</rt></ruby>の <ruby>食<rt>しょく</rt></ruby>はアレルギーを<ruby>含<rt>ふく</rt></ruby>まるものはどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びな<br>さい。
+  QUESTION_TEXT: 以下の 食はアレルギーを含まるものはどれですか。正しいものを選びな
+さい。
+  PROMPT_TRANS: Manakah di antara pangan berikut yang mengandung alergen? Pilihlah jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 2, Soal 4) · Kunci Jawaban Sumber: A.
+  KOTOBA_PROMPT: [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p5-398] 食(しょく) [word] = makanan / pangan | [kb-v2-p2-018] アレルギー(-) [technical] = alergi | [kb-v2-p5-292] 含まる(ふくまる) [inflected, df:含む] = terkandung (typo: 含まれる) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=A
+    TRANS: Pilihan A — Mi soba (zaru soba)
+    MEDIA: media-bonus-soal-6-q004-a
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan B — Onigiri (nasi kepal)
+    MEDIA: media-bonus-soal-6-q004-b
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan C — Jagung
+    MEDIA: media-bonus-soal-6-q004-c
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C

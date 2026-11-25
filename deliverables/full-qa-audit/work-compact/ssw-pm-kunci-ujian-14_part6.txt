@@ -1,0 +1,79 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-14 (Soal Ujian 14) | Batch qa-batch-03 | Part 6 (Q21-24 of 59)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=kunci-ujian-14-q021 | KEY=B (idx=1) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 14.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0081 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q023 (ssw-pm-kunci-ujian-3)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>増殖<rt>ぞうしょく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、<ruby>何<rt>なに</rt></ruby>をするべきですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan untuk mencegah perkembangbiakan mikroorganisme? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 5, nomor 問題21 (Q21). Bobot: 2.54 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 42–44), makanan setelah pemanasan harus didinginkan secepat mungkin melewati zona suhu berbahaya (30°C–40°C), bukan didinginkan perlahan.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>、<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>測定<rt>そくてい</rt></ruby>する。
+    TRANS: Mengukur suhu kulkas dan freezer secara berkala.
+    KOTOBA: [kb-otaff51-0271] 定期的(ていきてき) [adjective] = secara berkala / rutin | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-1404570] 測定(そくてい) [word] = pengukuran
+  OPT B: HTML=<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>をゆっくり<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Mendinginkan makanan yang telah dipanaskan secara perlahan-lahan.
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan
+  OPT C: HTML=<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>後<rt>あと</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>をできるだけ<ruby>早<rt>はや</rt></ruby>く<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Mendinginkan makanan setelah dipanaskan secepat mungkin.
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-v2-p4-144] 早く(はやく) [inflected, df:早い] = dengan cepat / segera | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan
+
+=== #Q22 | ID=kunci-ujian-14-q022 | KEY=C (idx=2) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 14.pdf p.6 ===
+  CLUSTER CL-0082 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q024 (ssw-pm-kunci-ujian-3), kunci-ujian-7-q017 (ssw-pm-kunci-ujian-7)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギーの<ruby>発症件数<rt>はっしょうけんすう</rt></ruby>が<ruby>特<rt>とく</rt></ruby>に<ruby>多<rt>おお</rt></ruby>い7<ruby>種類<rt>しゅるい</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah 7 jenis bahan makanan yang memiliki jumlah kasus timbulnya gejala alergi paling banyak (bahan baku spesifik)?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 6, nomor 問題22 (Q22). Bobot: 2.54 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 48, edisi 2019), 7特定原材料 (bahan baku spesifik wajib label, yang kini ditambah くるみ menjadi 8) adalah えび, かに, 小麦, そば, 卵, 乳, 落花生.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-v2-p2-018] アレルギー(-) [technical] = alergi | [kb-ext-1453-e799bae797] 発症件数(はっしょうけんすう) [word] = jumlah kasus kejadian | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-1328890] 種類(しゅるい) [word] = jenis / macam | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=そば、たまご、<ruby>落花生<rt>らっかせい</rt></ruby>、<ruby>小麦<rt>こむぎ</rt></ruby>、<ruby>玉<rt>たま</rt></ruby>ねぎ、えび、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>
+    TRANS: Soba, telur, kacang tanah, gandum, bawang bombai, udang, daging sapi
+    KOTOBA: [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut) | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-v2-p2-055] 玉ねぎ(たまねぎ) [word] = bawang bombai | [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi
+  OPT B: HTML=えび、かに、<ruby>牡蠣<rt>かき</rt></ruby>、にんじん、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、りんご、オレンジ
+    TRANS: Udang, kepiting, tiram, wortel, daging sapi, apel, jeruk
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p2-056] にんじん(-) [word] = wortel | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi | [kb-otaff51-0030] りんご(りんご) [noun] = apel | [kb-v2-p2-057] オレンジ(-) [word] = jeruk
+  OPT C: HTML=えび、かに、<ruby>小麦<rt>こむぎ</rt></ruby>、そば、たまご、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>
+    TRANS: Udang, kepiting, gandum, soba, telur, susu, kacang tanah
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut)
+
+=== #Q23 | ID=kunci-ujian-14-q023 | KEY=A (idx=0) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 14.pdf p.6 ===
+  CLUSTER CL-0083 (n=4, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q025 (ssw-pm-kunci-ujian-3), kunci-ujian-5-q030 (ssw-pm-kunci-ujian-5), kunci-ujian-7-q018 (ssw-pm-kunci-ujian-7)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai pengelolaan bahan kimia/obat pembersih (yakuzai), pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 6, nomor 問題23 (Q23). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 51), bahan kimia (薬剤) wajib disimpan di tempat khusus yang terkunci dan terpisah dari bahan pangan, tidak boleh disimpan sembarangan.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=どこで<ruby>保管<rt>ほかん</rt></ruby>しても<ruby>良<rt>よ</rt></ruby>い
+    TRANS: Boleh disimpan di mana saja
+    KOTOBA: [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p2-217] 保管しても(ほかんしても) [inflected, df:保管する] = meskipun disimpan | [kb-v2-p1-248] 良い(よい) [word] = baik
+  OPT B: HTML=<ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>使用量<rt>しようりょう</rt></ruby>や<ruby>残<rt>のこ</rt></ruby>った<ruby>量<rt>りょう</rt></ruby>を<ruby>入出庫台帳<rt>にゅうしゅっこだいちょう</rt></ruby>に<ruby>書<rt>か</rt></ruby>いて<ruby>記録<rt>きろく</rt></ruby>する。
+    TRANS: Mencatat jumlah pemakaian dan sisa bahan kimia ke dalam buku induk keluar-masuk barang.
+    KOTOBA: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-1306330] 使用量(しようりょう) [word] = jumlah / takaran pemakaian | [kb-v2-p5-387] 残った(のこった) [inflected, df:残る] = yang tersisa | [kb-v2-p1-085] 量(りょう) [word] = jumlah / takaran | [kb-ext-1410-e585a5e587] 入出庫台帳(にゅうしゅっこだいちょう) [word] = buku catatan keluar-masuk stok | [kb-v2-p1-194] 書いて(かいて) [inflected_verb, df:書く] = menulis (dasar: 書く) | [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman
+  OPT C: HTML=<ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>容器<rt>ようき</rt></ruby>には、<ruby>必<rt>かなら</rt></ruby>ず「<ruby>薬剤名<rt>やくざいめい</rt></ruby>」、「<ruby>使用方法<rt>しようほうほう</rt></ruby>」などを<ruby>書<rt>か</rt></ruby>きます。
+    TRANS: Pada wadah bahan kimia wajib dituliskan "nama bahan kimia", "cara penggunaan", dan sebagainya.
+    KOTOBA: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-ext-1708-e896ace589] 薬剤名(やくざいめい) [word] = nama bahan kimia / disinfektan | [kb-1306300] 使用方法(しようほうほう) [word] = petunjuk cara penggunaan | [kb-v2-p6-377] 書きます(かきます) [inflected, df:書く] = menulis (sopan)
+
+=== #Q24 | ID=kunci-ujian-14-q024 | KEY=B (idx=1) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 14.pdf p.6 ===
+  CLUSTER CL-0084 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q026 (ssw-pm-kunci-ujian-3), bonus-soal-9-q026 (bonus-soal-9), nguyen03-q026 (latsol-nguyen-03), nguyen09-q026 (latsol-nguyen-09)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>交差汚染<rt>こうさおせん</rt></ruby>の<ruby>防止<rt>ぼうし</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai pencegahan kontaminasi silang (kousa osen), pilihlah pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 6, nomor 問題24 (Q24). Bobot: 2.54 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 50), produk yang mengandung alergen (特定原材料) sebaiknya diproduksi pada akhir hari (一日の最後に製造する), bukan di awal hari, untuk mencegah kontaminasi ke produk non-alergen.
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-otaff51-0109] 交差汚染(こうさおせん) [compound_technical] = kontaminasi silang (cross-contamination) | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>は<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>区分<rt>くぶん</rt></ruby>して<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan bahan baku yang mengandung alergen secara terpisah dari bahan baku yang tidak mengandung alergen.
+    KOTOBA: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-audit-1043] 区分して(くぶんして) [inflected_verb, df:区分する] = memisahkan zona (~て) | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT B: HTML=<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>製品<rt>せいひん</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>場合<rt>ばあい</rt></ruby>は<ruby>一日<rt>いちにち</rt></ruby>の<ruby>始<rt>はじ</rt></ruby>めに<ruby>製造<rt>せいぞう</rt></ruby>する。
+    TRANS: Apabila memproduksi produk yang mengandung bahan baku spesifik (alergen), produksilah pada awal hari.
+    KOTOBA: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-1576260] 一日(いちにち) [word] = satu hari | [kb-v2-p5-390] 始め(はじめ) [word] = awal / permulaan
+  OPT C: HTML=アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>製品<rt>せいひん</rt></ruby>とアレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>まない<ruby>製品<rt>せいひん</rt></ruby>を<ruby>同<rt>おな</rt></ruby>じライン<ruby>製造<rt>せいぞう</rt></ruby>するとき、<ruby>洗浄<rt>せんじょう</rt></ruby>を<ruby>徹底<rt>てってい</rt></ruby>しなければならない。
+    TRANS: Saat memproduksi produk yang mengandung alergen dan yang tidak mengandung alergen pada lini yang sama, pencucian harus dilakukan secara menyeluruh.
+    KOTOBA: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-042] ライン(-) [word] = lini produksi | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-1437670] 徹底(てってい) [word] = penerapan tuntas / menyeluruh | [kb-v2-p1-101] しなければならない(-) [expression] = harus dilakukan

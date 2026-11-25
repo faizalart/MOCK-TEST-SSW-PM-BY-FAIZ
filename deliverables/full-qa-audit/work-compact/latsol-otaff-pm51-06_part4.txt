@@ -1,0 +1,74 @@
+# AUDIT SHEET: latsol-otaff-pm51-06 (Latsol OTAFF SSW PM Modul 5.1 - Paket 06) | Batch qa-batch-12 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=otaff-pm51-06-q013 | KEY=A (idx=0) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.34 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>主<rt>おも</rt></ruby>な<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>保管温度<rt>ほかんおんど</rt></ruby>」において、「<ruby>米穀類<rt>べいこくるい</rt></ruby>（コメ）」と「バター・チーズ・<ruby>練乳<rt>れんにゅう</rt></ruby>」の<ruby>保管温度<rt>ほかんおんど</rt></ruby>はそれぞれ<ruby>何度<rt>なんど</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam 'Suhu Penyimpanan Bahan Baku Utama', berapakah suhu penyimpanan masing-masing untuk 'beras (beikokurui)' dan 'mentega, keju, serta susu kental manis (rennyuu)'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 34 (Bab 2.3(4)①イ Tabel Suhu Penyimpanan, hal. 29 teks). Bobot: 3 poin. Kunci jawaban: A. Sesuai tabel halaman 29 teks, 米穀類（コメ） disimpan pada ≤15°C, dan バター・チーズ・練乳 juga disimpan pada ≤15°C (sedangkan susu cair/krim pada ≤10°C).
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-ext-1608-e4bf9de7ae] 保管温度(ほかんおんど) [word] = Suhu penyimpanan gudang bahan makanan | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-ext-1590-e7b1b3e7a9] 米穀類(べいこくるい) [word] = Kelompok beras dan biji-bijian pangan | [kb-v2-p3-066] コメ(-) [word] = beras | [kb-otaff51-0956] バター・チーズ(ばたーちーず) [noun] = mentega dan keju | [kb-1559180] 練乳(れんにゅう) [word] = susu kental manis | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=どちらも「15℃<ruby>以下<rt>いか</rt></ruby>」
+    TRANS: Keduanya '15°C ke bawah'
+    KOTOBA: [kb-v2-p3-130] どちらも(-) [word] = keduanya | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah
+  OPT B: HTML=どちらも「-18℃<ruby>以下<rt>いか</rt></ruby>」
+    TRANS: Keduanya '-18°C ke bawah'
+    KOTOBA: [kb-v2-p3-130] どちらも(-) [word] = keduanya | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah
+  OPT C: HTML=どちらも「50℃<ruby>以上<rt>いじょう</rt></ruby>」
+    TRANS: Keduanya '50°C ke atas'
+    KOTOBA: [kb-v2-p3-130] どちらも(-) [word] = keduanya | [kb-1155120] 以上(いじょう) [word] = lebih dari atau sama dengan
+
+=== #Q14 | ID=otaff-pm51-06-q014 | KEY=B (idx=1) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.34 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>主<rt>おも</rt></ruby>な<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>保管温度<rt>ほかんおんど</rt></ruby>」において、「<ruby>冷凍食肉<rt>れいとうしょくにく</rt></ruby>・<ruby>冷凍食肉製品<rt>れいとうしょくにくせいひん</rt></ruby>」と「<ruby>冷凍水産物<rt>れいとうすいさんぶつ</rt></ruby>・<ruby>冷凍食品<rt>れいとうしょくひん</rt></ruby>・<ruby>凍結卵<rt>とうけつらん</rt></ruby>」の<ruby>保管温度<rt>ほかんおんど</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam 'Suhu Penyimpanan Bahan Baku Utama', pilihlah satu kombinasi suhu penyimpanan yang benar untuk 'daging beku / olahan daging beku' dan 'hasil laut beku / makanan beku / telur beku'.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 34 (Bab 2.3(4)①イ Tabel Suhu Penyimpanan, hal. 29 teks). Bobot: 3 poin. Kunci jawaban: B. Pada tabel halaman 29 teks: 冷凍食肉 dan 冷凍食肉製品 disimpan pada ≤-15°C, sedangkan 冷凍水産物, 冷凍食品, dan 凍結卵 disimpan pada ≤-18°C.
+  INLINE_KOTOBA_COUNT: 16
+  KOTOBA_PROMPT: [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-ext-1608-e4bf9de7ae] 保管温度(ほかんおんど) [word] = Suhu penyimpanan gudang bahan makanan | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-ext-1789-e586b7e587] 冷凍食肉(れいとうしょくにく) [word] = Daging ternak beku | [kb-1380760] 製品(せいひん) [word] = produk | [kb-ext-1792-e586b7e587] 冷凍水産物(れいとうすいさんぶつ) [word] = Produk perikanan / makanan laut beku | [kb-1557240] 冷凍食品(れいとうしょくひん) [word] = Produk pangan olahan beku | [kb-2811100] 凍結卵(とうけつらん) [word] = telur beku | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>冷凍食肉<rt>れいとうしょくにく</rt></ruby>：10℃<ruby>以下<rt>いか</rt></ruby> ／ <ruby>冷凍水産物<rt>れいとうすいさんぶつ</rt></ruby>：5℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Daging beku: ≤10°C / Hasil laut beku: ≤5°C
+    KOTOBA: [kb-ext-1789-e586b7e587] 冷凍食肉(れいとうしょくにく) [word] = Daging ternak beku | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah | [kb-ext-1792-e586b7e587] 冷凍水産物(れいとうすいさんぶつ) [word] = Produk perikanan / makanan laut beku
+  OPT B: HTML=<ruby>冷凍食肉<rt>れいとうしょくにく</rt></ruby>・<ruby>冷凍食肉製品<rt>れいとうしょくにくせいひん</rt></ruby>：-15℃<ruby>以下<rt>いか</rt></ruby> ／ <ruby>冷凍水産物<rt>れいとうすいさんぶつ</rt></ruby>・<ruby>冷凍食品<rt>れいとうしょくひん</rt></ruby>・<ruby>凍結卵<rt>とうけつらん</rt></ruby>：-18℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Daging beku & olahan daging beku: ≤-15°C / Hasil laut beku, makanan beku, & telur beku: ≤-18°C
+    KOTOBA: [kb-ext-1789-e586b7e587] 冷凍食肉(れいとうしょくにく) [word] = Daging ternak beku | [kb-1380760] 製品(せいひん) [word] = produk | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah | [kb-ext-1792-e586b7e587] 冷凍水産物(れいとうすいさんぶつ) [word] = Produk perikanan / makanan laut beku | [kb-1557240] 冷凍食品(れいとうしょくひん) [word] = Produk pangan olahan beku | [kb-2811100] 凍結卵(とうけつらん) [word] = telur beku
+  OPT C: HTML=<ruby>冷凍食肉<rt>れいとうしょくにく</rt></ruby>：0℃ ／ <ruby>冷凍水産物<rt>れいとうすいさんぶつ</rt></ruby>：-5℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Daging beku: 0°C / Hasil laut beku: ≤-5°C
+    KOTOBA: [kb-ext-1789-e586b7e587] 冷凍食肉(れいとうしょくにく) [word] = Daging ternak beku | [kb-ext-1792-e586b7e587] 冷凍水産物(れいとうすいさんぶつ) [word] = Produk perikanan / makanan laut beku | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah
+
+=== #Q15 | ID=otaff-pm51-06-q015 | KEY=C (idx=2) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.35 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>加工食品<rt>かこうしょくひん</rt></ruby>の<ruby>袋<rt>ふくろ</rt></ruby>や<ruby>容器<rt>ようき</rt></ruby>に「<ruby>賞味期限<rt>しょうみきげん</rt></ruby>」または「<ruby>消費期限<rt>しょうひきげん</rt></ruby>」を<ruby>表示<rt>ひょうじ</rt></ruby>するのは<ruby>誰<rt>だれ</rt></ruby>ですか。また、「<ruby>使用期限<rt>しようきげん</rt></ruby>」を<ruby>決<rt>き</rt></ruby>めるのは<ruby>誰<rt>だれ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Siapakah yang mencantumkan 'batas cita rasa terbaik (shoumi kigen)' atau 'batas aman konsumsi (shouhi kigen)' pada kemasan makanan olahan, dan siapakah yang menentukan 'batas penggunaan (shiyou kigen)' bahan baku? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 35 (Bab 2.3(4)①ウ, hal. 30 teks). Bobot: 3 poin. Kunci jawaban: C. 賞味期限 dan 消費期限 dicantumkan oleh perusahaan produsen makanan olahan tersebut, sedangkan 使用期限 bahan baku ditetapkan oleh pabrik pengolahan makanan yang menggunakan bahan baku tersebut.
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-2737330] 加工食品(かこうしょくひん) [compound_technical] = pangan olahan | [kb-v2-p5-143] 袋(ふくろ) [word] = kantong / kemasan plastik | [kb-1545370] 容器(ようき) [word] = wadah | [kb-1351980] 賞味期限(しょうみきげん) [word] = batas kualitas terbaik (best before) | [kb-2233960] 消費期限(しょうひきげん) [word] = batas kedaluwarsa konsumsi | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-v2-p1-262] 誰(だれ) [word] = siapa | [kb-2438790] 使用期限(しようきげん) [word] = batas waktu penggunaan | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=すべて<ruby>商品<rt>しょうひん</rt></ruby>を<ruby>買<rt>か</rt></ruby>ったお<ruby>客<rt>きゃく</rt></ruby>さまが<ruby>決<rt>き</rt></ruby>める。
+    TRANS: Semuanya ditentukan oleh pelanggan yang membeli barang tersebut.
+    KOTOBA: [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-1347310] 商品(しょうひん) [word] = produk barang | [kb-otaff51-0782] 買った(かった) [inflected_verb, df:買う] = membeli | [kb-otaff51-0875] お客さま(おきゃくさま) [noun] = pelanggan / tamu | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan
+  OPT B: HTML=すべてトラックの<ruby>運送会社<rt>うんそうがいしゃ</rt></ruby>が<ruby>決<rt>き</rt></ruby>める。
+    TRANS: Semuanya ditentukan oleh perusahaan ekspedisi truk.
+    KOTOBA: [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-latsol-a5ad0ab3b2] トラック(とらっく) [word] = truk | [kb-otaff51-1323] 運送会社(うんそうがいしゃ) [noun] = perusahaan ekspedisi / logistik | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan
+  OPT C: HTML=「<ruby>賞味期限<rt>しょうみきげん</rt></ruby>」「<ruby>消費期限<rt>しょうひきげん</rt></ruby>」はその<ruby>加工食品<rt>かこうしょくひん</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>した<ruby>企業<rt>きぎょう</rt></ruby>が<ruby>表示<rt>ひょうじ</rt></ruby>し、「<ruby>使用期限<rt>しようきげん</rt></ruby>」はその<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>が<ruby>決<rt>き</rt></ruby>める。
+    TRANS: 'Shoumi kigen' dan 'shouhi kigen' dicantumkan oleh perusahaan yang memproduksi makanan olahan tersebut, sedangkan 'shiyou kigen' ditentukan oleh pabrik pengolahan makanan yang menggunakan bahan baku tersebut.
+    KOTOBA: [kb-1351980] 賞味期限(しょうみきげん) [word] = batas kualitas terbaik (best before) | [kb-2233960] 消費期限(しょうひきげん) [word] = batas kedaluwarsa konsumsi | [kb-2737330] 加工食品(かこうしょくひん) [compound_technical] = pangan olahan | [kb-1380690] 製造(せいぞう) [word] = produksi / manufaktur | [kb-1218190] 企業(きぎょう) [word] = Perusahaan industri makanan dan minuman | [kb-1489610] 表示(ひょうじ) [word] = pelabelan / tampilan | [kb-2438790] 使用期限(しようきげん) [word] = batas waktu penggunaan | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-ext-0941-e9a39fe593] 食品製造工場(しょくひんせいぞうこうじょう) [word] = pabrik pengolahan makanan | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan
+
+=== #Q16 | ID=otaff-pm51-06-q016 | KEY=A (idx=0) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.37 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>生<rt>なま</rt></ruby>の<ruby>肉<rt>にく</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うとき、<ruby>肉<rt>にく</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に「<ruby>骨<rt>ほね</rt></ruby>」が<ruby>残<rt>のこ</rt></ruby>っていないかを<ruby>調<rt>しら</rt></ruby>べるために<ruby>使<rt>つか</rt></ruby>うことがある<ruby>機械<rt>きかい</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat menggunakan daging mentah, mesin manakah yang kadang digunakan untuk memeriksa apakah masih ada 'tulang' yang tertinggal di dalam daging? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 37 (Bab 2.3(4)②イ, hal. 32 teks). Bobot: 3 poin. Kunci jawaban: A. Saat menggunakan daging mentah, X線異物検出機 digunakan untuk memeriksa apakah masih ada tulang yang tertinggal di dalam daging.
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-v2-p1-074] 生(なま) [word] = mentah | [kb-1463520] 肉(にく) [standalone_term] = Daging hewan ternak mentah bahan makanan | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p4-109] 骨(ほね) [word] = tulang | [kb-v2-p4-166] 残って(のこって) [inflected, df:残る] = tersisa / tertinggal | [kb-otaff51-0865] 調べる(しらべる) [verb] = memeriksa / menyelidiki | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1220810] 機械(きかい) [word] = mesin | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=X<ruby>線異物検出機<rt>せんいぶつけんしゅつき</rt></ruby>
+    TRANS: Mesin detektor benda asing sinar-X (X-sen Ibutsu Kenshutsuki)
+    KOTOBA: [kb-otaff51-0005] X線異物検出機(えっくすせんいぶつけんしゅつき) [compound_technical] = mesin detektor benda asing sinar-X
+  OPT B: HTML=エアーシャワー
+    TRANS: Air shower
+    KOTOBA: [kb-latsol-fb12a238ab] エアーシャワー(えあーしゃわー) [word] = air shower (bilik hembus udara)
+  OPT C: HTML=スライサー
+    TRANS: Mesin pengiris (slicer)
+    KOTOBA: [kb-latsol-56a307ff91] スライサー(すらいさー) [word] = mesin pengiris

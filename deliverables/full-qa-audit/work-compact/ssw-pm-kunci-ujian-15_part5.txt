@@ -1,0 +1,82 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-15 (Soal Ujian 15) | Batch qa-batch-03 | Part 5 (Q17-20 of 38)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=kunci-ujian-15-q017 | KEY=A (idx=0) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 15.pdf p.5 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Dibandingkan orang yang berpengalaman kerja banyak, kecelakaan kerja lebih mudah"
+  CLUSTER CL-0130 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-8-q017 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>仕事経験<rt>しごとけいけん</rt></ruby>は<ruby>多<rt>おお</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>よりも、<ruby>仕事経験<rt>しごとけいけん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない<ruby>人<rt>ひと</rt></ruby>のほうには<ruby>災害<rt>さいがい</rt></ruby>が<ruby>起<rt>お</rt></ruby>こりやすいです。<ruby>理由<rt>りゆう</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dibandingkan orang yang berpengalaman kerja banyak, kecelakaan kerja lebih mudah terjadi pada orang yang berpengalaman kerja sedikit. Manakah alasannya? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 5, nomor 17 (Q17). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 66), pekerja yang belum berpengalaman belum terbiasa dengan pekerjaan sehingga sulit menyadari titik bahaya (危険に気づきにくい).
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-ext-0679-e4bb95e4ba] 仕事経験(しごとけいけん) [word] = Pengalaman kerja praktis di pabrik | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-322] よりも(-) [particle] = dibandingkan dengan | [kb-v2-p1-251] 少ない(すくない) [word] = sedikit | [kb-v2-p1-293] のほう(-) [expression] = lebih (perbandingan) | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-v2-p4-171] 起こりやすい(おこりやすい) [inflected, df:起こる] = mudah terjadi | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れていないから、<ruby>危険<rt>きけん</rt></ruby>を<ruby>気<rt>き</rt></ruby>づきにくい。
+    TRANS: Karena belum terbiasa dengan pekerjaan sehingga sulit menyadari bahaya.
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-131] 慣れていない(なれていない) [inflected_verb, df:慣れる] = belum terbiasa (dasar: 慣れる) | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-audit-0064] 気づきにくい(きづきにくい) [word] = sulit disadari / sulit terlihat
+  OPT B: HTML=<ruby>同僚<rt>どうりょう</rt></ruby>と<ruby>喋<rt>しゃべ</rt></ruby>りながら、<ruby>作業<rt>さぎょう</rt></ruby>する
+    TRANS: Bekerja sambil mengobrol dengan rekan kerja.
+    KOTOBA: [kb-1453580] 同僚(どうりょう) [word] = rekan kerja | [kb-audit-0065] 喋り(しゃべり) [inflected_verb, df:喋る] = mengobrol / berbicara | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas
+  OPT C: HTML=<ruby>体<rt>からだ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きさに<ruby>合<rt>あ</rt></ruby>った<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>る
+    TRANS: Mengenakan pakaian kerja yang sesuai dengan ukuran tubuh.
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p6-288] 大きさ(おおきさ) [word] = ukuran besarnya | [kb-v2-p6-425] 合った(あった) [inflected, df:合う] = sesuai / pas (ukuran) | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian)
+
+=== #Q18 | ID=kunci-ujian-15-q018 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.5 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Apa yang harus diperhatikan mengenai pakaian kerja? Pilihlah satu yang salah." || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0073 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q012 (ssw-pm-kunci-ujian-3), kunci-ujian-7-q008 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q010 (ssw-pm-kunci-ujian-14), bonus-soal-9-q012 (bonus-soal-9), nguyen03-q012 (latsol-nguyen-03), nguyen09-q012 (latsol-nguyen-09)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>について<ruby>何<rt>なに</rt></ruby>を<ruby>注意<rt>ちゅうい</rt></ruby>しなければなりませんか。<ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus diperhatikan mengenai pakaian kerja? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 5, nomor 18 (Q18). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 26), pakaian kerja tidak boleh memiliki kancing atau saku luar.
+  INLINE_KOTOBA_COUNT: 21
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-177] 注意し(ちゅういし) [inflected, df:注意する] = berhati-hati / memperhatikan | [kb-audit-0374] なければなりませんか(なければなりませんか) [word] = apakah harus / wajib dilakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=ポケットやボタンがついている<ruby>服<rt>ふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>る。
+    TRANS: Mengenakan pakaian yang memiliki saku dan kancing.
+    KOTOBA: [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-audit-0305] がついている(がついている) [word] = terpasang / terdapat (kancing dll.) | [kb-v2-p2-073] 服(ふく) [word] = pakaian | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian)
+  OPT B: HTML=<ruby>汚<rt>よご</rt></ruby>れない<ruby>作業服<rt>さぎょうふく</rt></ruby>と<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業服<rt>さぎょうふく</rt></ruby>がロッカーでくっつかないようにする。
+    TRANS: Menjaga agar pakaian kerja bersih dan pakaian kerja kotor tidak saling menempel di loker.
+    KOTOBA: [kb-audit-0030] 汚れない(よごれない) [inflected_verb, df:汚れる] = tidak menjadi kotor | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-v2-p1-039] ロッカー(-) [word] = loker | [kb-v2-p1-106] くっつかない(-) [inflected_verb, df:くっつく] = tidak menempel (dasar: くっつく) | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+  OPT C: HTML=<ruby>上着<rt>うわぎ</rt></ruby>のすそをズボンに<ruby>入<rt>い</rt></ruby>れる。
+    TRANS: Memasukkan ujung bawah baju atasan ke dalam celana.
+    KOTOBA: [kb-otaff51-0090] 上着(うわぎ) [noun] = baju atasan (jaket kerja) | [kb-u1416-52ad335d9d] すそ(すそ) [word] = ujung bawah baju | [kb-v2-p5-147] ズボン(-) [word] = celana panjang | [kb-v2-p4-198] 入れる(いれる) [word] = memasukkan / menyalakan
+
+=== #Q19 | ID=kunci-ujian-15-q019 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.5 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Apa yang harus dilakukan sebelum masuk ke area pabrik? Pilihlah satu yang salah." || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0328 (後石鹸): "sabun setelahnya (typo spasi: 後、石鹸)"
+  CLUSTER CL-0131 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-8-q019 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>工場<rt>こうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をするべきですか。<ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan sebelum masuk ke area pabrik? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 5, nomor 19 (Q19). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 29), setelah dari toilet tidak cukup hanya mencuci tangan dengan sabun saja, tetapi wajib dilanjutkan dengan pengeringan dan disinfeksi alkohol.
+  INLINE_KOTOBA_COUNT: 24
+  KOTOBA_PROMPT: [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>風邪<rt>かぜ</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>いているとき、<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>し、<ruby>指示<rt>しじ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ
+    TRANS: Saat sedang flu/masuk angin, melapor kepada penanggung jawab dan menunggu instruksi.
+    KOTOBA: [kb-1583720] 風邪(かぜ) [word] = flu / batuk pilek | [kb-v2-p6-426] 引いている(ひいている) [inflected, df:引く] = sedang sakit (flu) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-156] 報告し(ほうこくし) [inflected, df:報告する] = melapor | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p3-328] 待つ(まつ) [word] = menunggu
+  OPT B: HTML=トイレの<ruby>後<rt>あと</rt></ruby><ruby>石鹸<rt>せっけん</rt></ruby>だけで<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>う
+    TRANS: Setelah dari toilet, mencuci tangan hanya dengan sabun saja (tanpa disinfeksi alkohol).
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-audit-0328] 後石鹸(あとせっけん) [word] = sabun setelahnya (typo spasi: 後、石鹸) | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci
+  OPT C: HTML=<ruby>時計<rt>とけい</rt></ruby>、<ruby>宝石類<rt>ほうせきるい</rt></ruby>、<ruby>装飾品<rt>そうしょくひん</rt></ruby>などはロッカーに<ruby>保管<rt>ほかん</rt></ruby>して<ruby>置<rt>お</rt></ruby>く
+    TRANS: Menyimpan jam tangan, perhiasan, dan aksesori di dalam loker.
+    KOTOBA: [kb-1316140] 時計(とけい) [word] = jam | [kb-ext-1636-e5ae9de79f] 宝石類(ほうせきるい) [word] = perhiasan (dilarang di pabrik) | [kb-1799160] 装飾品(そうしょくひん) [word] = aksesori perhiasan | [kb-v2-p1-039] ロッカー(-) [word] = loker | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p3-275] 置く(おく) [word] = meletakkan
+
+=== #Q20 | ID=kunci-ujian-15-q020 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.6 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Apa yang harus diperhatikan saat mengenakan pakaian kerja? Pilihlah satu yang sa" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0132 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-8-q020 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>るとき<ruby>何<rt>なに</rt></ruby>を<ruby>注意<rt>ちゅうい</rt></ruby>するべきですか。<ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus diperhatikan saat mengenakan pakaian kerja? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 6, nomor 20 (Q20). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 67), dilarang melilitkan handuk di leher (タオルを首に巻かない) karena berisiko terlilit mesin yang berputar.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=タオルを<ruby>首<rt>くび</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>く
+    TRANS: Melilitkan handuk di leher
+    KOTOBA: [kb-v2-p2-087] タオル(-) [word] = handuk | [kb-otaff51-0669] 首(くび) [noun] = leher | [kb-u1416-9c54b26f77] 巻く(まく) [word] = melilitkan
+  OPT B: HTML=<ruby>長袖<rt>ながそで</rt></ruby>の<ruby>場合<rt>ばあい</rt></ruby>には<ruby>袖口<rt>そでぐち</rt></ruby>を<ruby>締<rt>し</rt></ruby>める
+    TRANS: Jika berlengan panjang, mengencangkan bagian manset/ujung lengan
+    KOTOBA: [kb-otaff51-0619] 長袖(ながそで) [noun] = lengan panjang | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-otaff51-0549] 袖口(そでぐち) [noun] = ujung lengan baju | [kb-v2-p6-508] 締める(しめる) [word] = mengencangkan / menutup rapat
+  OPT C: HTML=ポケット、ボタンのないものを<ruby>着用<rt>ちゃくよう</rt></ruby>します
+    TRANS: Mengenakan pakaian yang tidak memiliki saku dan kancing
+    KOTOBA: [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-audit-1016] 着用します(ちゃくようします) [inflected_verb, df:着用する] = mengenakan (sopan)

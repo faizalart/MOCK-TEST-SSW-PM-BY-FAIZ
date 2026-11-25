@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-7 (Soal Ujian 7 — CBTP Gino1) | Batch qa-batch-02 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=kunci-ujian-7-q005 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カビが<ruby>生<rt>は</rt></ruby>えた<ruby>食品<rt>しょくひん</rt></ruby>はどうすればいいですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan terhadap pangan yang sudah ditumbuhi jamur (kapang)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 1, Câu 5 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-v2-p6-599] 生えた(はえた) [inflected, df:生える] = tumbuh (jamur/dll) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-273] どうすれば(-) [expression] = bagaimana sebaiknya | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=そのまま<ruby>使<rt>つか</rt></ruby>ってもよい。
+    TRANS: Boleh langsung digunakan begitu saja
+    KOTOBA: [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT B: HTML=<ruby>必<rt>かなら</rt></ruby>ず<ruby>使<rt>つか</rt></ruby>わない。
+    TRANS: Pastikan untuk tidak menggunakannya
+    KOTOBA: [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p2-211] 使わない(つかわない) [inflected, df:使う] = tidak menggunakan
+  OPT C: HTML=<ruby>洗<rt>あら</rt></ruby>ってから<ruby>使<rt>つか</rt></ruby>う。
+    TRANS: Digunakan setelah dicuci
+    KOTOBA: [kb-v2-p1-162] 洗って(あらって) [inflected_verb, df:洗う] = mencuci (dasar: 洗う) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan
+
+=== #Q6 | ID=kunci-ujian-7-q006 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アニサキスがついている<ruby>魚介類<rt>ぎょかいるい</rt></ruby>を<ruby>生<rt>なま</rt></ruby>で<ruby>食<rt>た</rt></ruby>べると、どんな<ruby>症状<rt>しょうじょう</rt></ruby>が<ruby>出<rt>で</rt></ruby>ますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Gejala apa yang akan muncul jika memakan hasil laut yang mengandung parasit Anisakis dalam keadaan mentah?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 1, Câu 6 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0032] アニサキス(あにさきす) [compound_technical] = parasit Anisakis | [kb-audit-0305] がついている(がついている) [word] = terpasang / terdapat (kancing dll.) | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-v2-p1-074] 生(なま) [word] = mentah | [kb-pilot51-013] 食べる(たべる) [verb] = makan | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p6-502] 出ます(でます) [inflected, df:出る] = keluar / muncul (sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>激<rt>はげ</rt></ruby>しい<ruby>腹痛<rt>ふくつう</rt></ruby>
+    TRANS: Sakit perut yang hebat
+    KOTOBA: [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut
+  OPT B: HTML=<ruby>頭痛<rt>ずつう</rt></ruby>
+    TRANS: Sakit kepala
+    KOTOBA: [kb-otaff51-0643] 頭痛(ずつう) [noun] = sakit kepala
+  OPT C: HTML=<ruby>喉<rt>のど</rt></ruby>の<ruby>痛<rt>いた</rt></ruby>み
+    TRANS: Sakit tenggorokan
+    KOTOBA: [kb-v2-p6-253] 喉(のど) [word] = tenggorokan | [kb-v2-p5-362] 痛み(いたみ) [word] = rasa sakit / nyeri | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q7 | ID=kunci-ujian-7-q007 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.2 ===
+  CLUSTER CL-0112 (n=5, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q007 (ssw-pm-kunci-ujian-14), bonus-soal-9-q010 (bonus-soal-9), nguyen03-q010 (latsol-nguyen-03), nguyen09-q010 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>しにくい<ruby>環境<rt>かんきょう</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Lingkungan manakah yang membuat mikroorganisme sulit berkembang biak? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 2, Câu 7 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0983] 増殖しにくい(ぞうしょくしにくい) [inflected_adj, df:増殖しにくい] = sulit berkembang biak | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=30℃～40℃で、<ruby>湿度<rt>しつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>く、<ruby>汚<rt>よご</rt></ruby>れている<ruby>環境<rt>かんきょう</rt></ruby>。
+    TRANS: Lingkungan bersuhu 30°C–40°C, kelembapan tinggi, dan kotor
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0409] 湿度(しつど) [noun] = kelembapan udara | [kb-v2-p4-143] 高く(たかく) [inflected, df:高い] = tinggi / mahal | [kb-latsol-f6786ecc0f] 汚れている(よごれている) [word] = kotor / terkena noda | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=4℃<ruby>以下<rt>いか</rt></ruby>で、<ruby>汚<rt>よご</rt></ruby>れがなく、<ruby>乾燥<rt>かんそう</rt></ruby>している<ruby>環境<rt>かんきょう</rt></ruby>。
+    TRANS: Lingkungan bersuhu 4°C atau lebih rendah, bersih tanpa kotoran, dan kering
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-audit-0398] なく(なく) [word] = tanpa (bentuk sambung ない) | [kb-otaff51-0103] 乾燥(かんそう) [noun] = pengeringan | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>室温<rt>しつおん</rt></ruby>であり、<ruby>汚<rt>よご</rt></ruby>れている<ruby>環境<rt>かんきょう</rt></ruby>。
+    TRANS: Lingkungan bersuhu ruang dan kotor
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-latsol-f6786ecc0f] 汚れている(よごれている) [word] = kotor / terkena noda | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-259] あり(-) [inflected, df:ある] = ada
+
+=== #Q8 | ID=kunci-ujian-7-q008 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0073 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q012 (ssw-pm-kunci-ujian-3), kunci-ujian-14-q010 (ssw-pm-kunci-ujian-14), kunci-ujian-15-q018 (ssw-pm-kunci-ujian-15), bonus-soal-9-q012 (bonus-soal-9), nguyen03-q012 (latsol-nguyen-03), nguyen09-q012 (latsol-nguyen-09)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>について<ruby>何<rt>なに</rt></ruby>を<ruby>注意<rt>ちゅうい</rt></ruby>しなければなりませんか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal apa yang harus diperhatikan mengenai pakaian kerja? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 2, Câu 8 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-177] 注意し(ちゅういし) [inflected, df:注意する] = berhati-hati / memperhatikan | [kb-audit-0374] なければなりませんか(なければなりませんか) [word] = apakah harus / wajib dilakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ポケットやボタンがついている<ruby>服<rt>ふく</rt></ruby>をきる
+    TRANS: Mengenakan pakaian yang memiliki saku dan kancing luar
+    KOTOBA: [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-audit-0305] がついている(がついている) [word] = terpasang / terdapat (kancing dll.) | [kb-v2-p2-073] 服(ふく) [word] = pakaian | [kb-audit-0664] きる(きる) [word] = memakai / memotong / mematikan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>汚<rt>よご</rt></ruby>れない<ruby>作業服<rt>さぎょうふく</rt></ruby>と<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業服<rt>さぎょうふく</rt></ruby>がロッカーでくっつかないようにする
+    TRANS: Memastikan pakaian kerja yang bersih dan pakaian kerja yang kotor tidak saling menempel di dalam loker
+    KOTOBA: [kb-audit-0030] 汚れない(よごれない) [inflected_verb, df:汚れる] = tidak menjadi kotor | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-v2-p1-039] ロッカー(-) [word] = loker | [kb-v2-p1-106] くっつかない(-) [inflected_verb, df:くっつく] = tidak menempel (dasar: くっつく) | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>上着<rt>うわぎ</rt></ruby>のすそをズボンに<ruby>入<rt>い</rt></ruby>れる
+    TRANS: Memasukkan bagian bawah baju atasan ke dalam celana
+    KOTOBA: [kb-otaff51-0090] 上着(うわぎ) [noun] = baju atasan (jaket kerja) | [kb-u1416-52ad335d9d] すそ(すそ) [word] = ujung bawah baju | [kb-v2-p5-147] ズボン(-) [word] = celana panjang | [kb-v2-p4-198] 入れる(いれる) [word] = memasukkan / menyalakan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

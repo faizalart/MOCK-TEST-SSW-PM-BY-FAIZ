@@ -1,0 +1,88 @@
+# AUDIT SHEET: latsol-reguler-04 (Latsol Reguler 04) | Batch qa-batch-09 | Part 5 (Q17-20 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=reguler04-q017 | KEY=B (idx=1) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.6 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("7種類") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>として<ruby>表示<rt>ひょうじ</rt></ruby>する<ruby>義務<rt>ぎむ</rt></ruby>がある<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>何種類<rt>なんしゅるい</rt></ruby>ありますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada berapa jenis bahan pangan yang wajib dicantumkan pada label sebagai bahan baku spesifik (alergen wajib)?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 6, nomor 17. Bobot: 7.5 poin. Kunci jawaban: B. Catatan QA: Soal mengacu pada diktat lama (7 jenis sebelum penambahan くるみ menjadi 8 jenis).
+  KOTOBA_PROMPT: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-otaff51-0505] 義務(ぎむ) [noun] = kewajiban | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-ext-latsol-0048] 何種類(なんしゅるい) [word] = berapa jenis / macam | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある)
+  OPT A: HTML=5<ruby>種類<rt>しゅるい</rt></ruby>
+    TRANS: 5 jenis
+    KOTOBA: [kb-1328890] 種類(しゅるい) [word] = jenis / macam
+  OPT B: HTML=7<ruby>種類<rt>しゅるい</rt></ruby>
+    TRANS: 7 jenis
+    KOTOBA: [kb-1328890] 種類(しゅるい) [word] = jenis / macam
+  OPT C: HTML=14<ruby>種類<rt>しゅるい</rt></ruby>
+    TRANS: 14 jenis
+    KOTOBA: [kb-1328890] 種類(しゅるい) [word] = jenis / macam
+  OPT D: HTML=21<ruby>種類<rt>しゅるい</rt></ruby>
+    TRANS: 21 jenis
+    KOTOBA: [kb-1328890] 種類(しゅるい) [word] = jenis / macam
+
+=== #Q18 | ID=reguler04-q018 | KEY=C (idx=2) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="HACCP原則の「検証方法の設定」をするときは、どうするのが正しいですか。" vs questionText="HACCP原則の「検証方法の設定」をするときは、どうするのが正しいですか。。"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("HACCPの計画が適切に作成され、実施されているかどうかを確認する方法を決める") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCP<ruby>原則<rt>げんそく</rt></ruby>の「<ruby>検証方法<rt>けんしょうほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>」をするときは、どうするのが<ruby>正<rt>ただ</rt></ruby>しいですか。
+  QUESTION_TEXT: HACCP原則の「検証方法の設定」をするときは、どうするのが正しいですか。。
+  PROMPT_TRANS: Saat melakukan prinsip HACCP "Penetapan Metode Verifikasi", manakah tindakan yang benar?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 6, nomor 18. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-otaff51-0351] 検証方法(けんしょうほうほう) [compound_technical] = metode verifikasi | [kb-1386060] 設定(せってい) [word] = penetapan | [kb-audit-1102] するとき(するとき) [expression] = ketika melakukan (する時) | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat
+  OPT A: HTML=<ruby>危害要因<rt>きがいよういん</rt></ruby>がどれくらい<ruby>重要<rt>じゅうよう</rt></ruby>か、どのように<ruby>管理<rt>かんり</rt></ruby>して<ruby>危害<rt>きがい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐかを<ruby>決<rt>き</rt></ruby>める
+    TRANS: Menentukan seberapa penting faktor bahaya dan bagaimana cara mengelolanya untuk mencegah bahaya
+    KOTOBA: [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0609] 重要(じゅうよう) [adjective] = penting | [kb-v2-p1-271] どのように(-) [expression] = dengan cara bagaimana | [kb-audit-1007] 管理して(かんりして) [inflected_verb, df:管理する] = mengelola (~て) | [kb-1218440] 危害(きがい) [word] = bahaya | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan
+  OPT B: HTML=<ruby>製造工程<rt>せいぞうこうてい</rt></ruby>で<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>確保<rt>かくほ</rt></ruby>する
+    TRANS: Memastikan keamanan pangan pada proses produksi
+    KOTOBA: [kb-otaff51-0556] 製造工程(せいぞうこうてい) [compound_technical] = tahapan proses produksi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1205920] 確保(かくほ) [word] = memastikan ketersediaan
+  OPT C: HTML=HACCPの<ruby>計画<rt>けいかく</rt></ruby>が<ruby>適切<rt>てきせつ</rt></ruby>に<ruby>作成<rt>さくせい</rt></ruby>され、<ruby>実施<rt>じっし</rt></ruby>されているかどうかを<ruby>確認<rt>かくにん</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>決<rt>き</rt></ruby>める
+    TRANS: Menentukan metode untuk memastikan apakah rencana HACCP telah disusun dengan tepat dan dilaksanakan dengan benar
+    KOTOBA: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0564] 計画(けいかく) [noun] = rencana / perencanaan | [kb-otaff51-0598] 適切(てきせつ) [adjective] = tepat / sesuai | [kb-1297760] 作成(さくせい) [word] = penyusunan / pembuatan | [kb-1321140] 実施(じっし) [word] = pelaksanaan / implementasi | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-v2-p1-317] かどうか(-) [particle] = apakah ... atau tidak | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan
+  OPT D: HTML=<ruby>適切<rt>てきせつ</rt></ruby>に<ruby>管理<rt>かんり</rt></ruby>されているかどうかをモニタリングする<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>設定<rt>せってい</rt></ruby>する
+    TRANS: Menetapkan metode untuk memantau (monitoring) apakah pengelolaan telah dilakukan dengan tepat
+    KOTOBA: [kb-otaff51-0598] 適切(てきせつ) [adjective] = tepat / sesuai | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-v2-p1-317] かどうか(-) [particle] = apakah ... atau tidak | [kb-otaff51-0083] モニタリング(もにたりんぐ) [compound_technical] = pemantauan berkelanjutan (monitoring) | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-1386060] 設定(せってい) [word] = penetapan
+
+=== #Q19 | ID=reguler04-q019 | KEY=D (idx=3) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.7 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi D ("1, 2, 4") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>次<rt>つぎ</rt></ruby>のを<ruby>見<rt>み</rt></ruby>てみてください！ 1. HAとは<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>のこと。 2. CCPとは<ruby>製造工程<rt>せいぞうこうてい</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で、ミスすることができない<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>のこと。 3. HAとは<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受入<rt>うけい</rt></ruby>れから<ruby>最終製品<rt>さいしゅうせいひん</rt></ruby>の<ruby>出荷<rt>しゅっか</rt></ruby>までの<ruby>工程<rt>こうてい</rt></ruby>のこと。 4. HACCPとは<ruby>製品<rt>せいひん</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>確保<rt>かくほ</rt></ruby>する<ruby>衛生管理手法<rt>えいせいかんりしゅほう</rt></ruby>のこと。 HACCPについて<ruby>正<rt>ただ</rt></ruby>しいものはどれですか？
+  QUESTION_TEXT: 次のを見てみてください! 1. HAとは危害要因分析のこと。 2. CCPとは製造工程の中で、ミスすることができない重要管理点のこと。 3. HAとは原材料の受入れから最終製品の出荷までの工程のこと。 4. HACCPとは製品の安全を確保する衛生管理手法のこと。 HACCPについて正しいものはどれですか?
+  PROMPT_TRANS: Perhatikan pernyataan berikut! 1. HA adalah Analisis Bahaya (Hazard Analysis). 2. CCP adalah Titik Kendali Kritis (Critical Control Point) di dalam proses produksi yang tidak boleh terjadi kesalahan. 3. HA adalah proses mulai dari penerimaan bahan baku hingga pengiriman produk akhir. 4. HACCP adalah metode manajemen higiene untuk memastikan keamanan produk. Manakah kombinasi pernyataan yang benar mengenai HACCP?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 7, nomor 19. Bobot: 7.5 poin. Kunci jawaban: D.
+  KOTOBA_PROMPT: [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-v2-p5-278] 見て(みて) [inflected, df:見る] = melihat | [kb-v2-p6-170] HA(-) [technical] = Analisis Bahaya (Hazard Analysis) | [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-otaff51-0556] 製造工程(せいぞうこうてい) [compound_technical] = tahapan proses produksi | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p4-077] ミス(-) [word] = kesalahan (human error) | [kb-audit-0468] ことができ(ことができ) [expression, df:できる] = dapat / bisa dilakukan | [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-latsol-a29987ec64] 受入れ(うけいれ) [word] = penerimaan bahan baku | [kb-2664270] 最終製品(さいしゅうせいひん) [word] = produk pangan jadi siap konsumsi | [kb-otaff51-0174] 出荷(しゅっか) [noun] = pengiriman barang keluar pabrik | [kb-otaff51-0286] 工程(こうてい) [noun] = tahapan proses | [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1205920] 確保(かくほ) [word] = memastikan ketersediaan | [kb-ext-latsol-0067] 衛生管理手法(えいせいかんりしゅほう) [word] = metode manajemen sanitasi | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=1, 2, 3
+    TRANS: 1, 2, 3
+    KOTOBA: (EMPTY)
+  OPT B: HTML=2, 3, 4
+    TRANS: 2, 3, 4
+    KOTOBA: (EMPTY)
+  OPT C: HTML=1, 3, 4
+    TRANS: 1, 3, 4
+    KOTOBA: (EMPTY)
+  OPT D: HTML=1, 2, 4
+    TRANS: 1, 2, 4
+    KOTOBA: (EMPTY)
+
+=== #Q20 | ID=reguler04-q020 | KEY=C (idx=2) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.7 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="作業場の危険について間違っているものはどれですか。" vs questionText="作業場の危険について間違っているものはどれですか。。"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("自分を向き合う") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものはどれですか。
+  QUESTION_TEXT: 作業場の危険について間違っているものはどれですか。。
+  PROMPT_TRANS: Manakah yang salah mengenai bahaya di tempat kerja?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 7, nomor 20. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>感電<rt>かんでん</rt></ruby>
+    TRANS: Tersengat listrik
+    KOTOBA: [kb-otaff51-0306] 感電(かんでん) [noun] = tersengat listrik
+  OPT B: HTML=<ruby>腰<rt>こし</rt></ruby>を<ruby>痛<rt>いた</rt></ruby>める
+    TRANS: Cidera pinggang / sakit pinggang
+    KOTOBA: [kb-otaff51-0522] 腰(こし) [noun] = pinggang | [kb-audit-0152] 痛める(いためる) [word] = mencederai / membuat sakit
+  OPT C: HTML=<ruby>自分<rt>じぶん</rt></ruby>を<ruby>向<rt>む</rt></ruby>き<ruby>合<rt>あ</rt></ruby>う
+    TRANS: Menghadapi diri sendiri (introspeksi diri)
+    KOTOBA: [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-latsol-6c2b93009e] 向き(むき) [word] = arah / menghadap | [kb-latsol-dd6fac5bb2] 合う(あう) [word] = cocok / sesuai
+  OPT D: HTML=ガス<ruby>中毒<rt>ちゅうどく</rt></ruby>になる
+    TRANS: Mengalami keracunan gas
+    KOTOBA: [kb-v2-p6-222] ガス(-) [word] = gas | [kb-ext-latsol-0068] 中毒(ちゅうどく) [word] = keracunan

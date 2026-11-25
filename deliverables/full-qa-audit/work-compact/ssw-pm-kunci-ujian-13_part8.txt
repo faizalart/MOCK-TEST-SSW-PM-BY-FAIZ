@@ -1,0 +1,78 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-13 (Soal Ujian 13 — Rakuraku Tokutei (2024年10月)) | Batch qa-batch-03 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=kunci-ujian-13-q029 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.8 ===
+  FLAGS: [NUMBER_MISMATCH@optTranslation:B] JP number "2" missing in ID "Menempelkan lembaran hitam pada jendela, membuat pintu putar/shutter berlapis ga"
+  CLUSTER CL-0109 (n=3, diffPrompt=true, diffOpt=true, diffTrans=false): twins=kunci-ujian-5-q033 (ssw-pm-kunci-ujian-5), bonus-soal-10-q038 (bonus-soal-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>外<rt>そと</rt></ruby>から<ruby>虫<rt>むし</rt></ruby>の<ruby>侵入対策<rt>しんにゅうたいさく</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang salah mengenai tindakan pencegahan masuknya serangga dari luar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 8, Nomor 29) · Kunci Jawaban PDF (Teks Merah): C.
+  KOTOBA_PROMPT: [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p4-111] 虫(むし) [word] = serangga / hama | [kb-ext-0956-e4beb5e585] 侵入対策(しんにゅうたいさく) [word] = tindakan cegah masuknya hama | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>隙間<rt>すきま</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけたとき、すぐに<ruby>修理<rt>しゅうり</rt></ruby>して<ruby>隙間<rt>すきま</rt></ruby>をなくす。
+    TRANS: Ketika menemukan celah, segera perbaiki untuk menghilangkan celah tersebut.
+    KOTOBA: [kb-otaff51-0630] 隙間(すきま) [noun] = celah | [kb-v2-p5-419] 見つけた(みつけた) [inflected, df:見つける] = menemukan (lampau) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-otaff51-0142] 修理(しゅうり) [noun] = perbaikan / reparasi | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-otaff51-0732] なくす(なくす) [verb] = menghilangkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>窓<rt>まど</rt></ruby>に<ruby>黒<rt>くろ</rt></ruby>いシートを<ruby>貼<rt>は</rt></ruby>ったり、<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>のシャッターを２ <ruby>重<rt>じゅう</rt></ruby>にしたり、エアーカーテンをつける。
+    TRANS: Menempelkan lembaran hitam pada jendela, membuat pintu putar/shutter berlapis ganda di pintu masuk, atau memasang tirai udara (air curtain).
+    KOTOBA: [kb-v2-p5-142] 窓(まど) [word] = jendela | [kb-v2-p5-218] 黒い(くろい) [word] = hitam | [kb-ext-0017-e382b7e383] シート(しと) [word] = lembaran plastik / tirai | [kb-audit-0574] 貼ったり(はったり) [inflected_verb, df:貼る] = menempelkan, dan lain-lain | [kb-otaff51-0152] 入り口(いりぐち) [noun] = pintu masuk | [kb-v2-p5-377] シャッター(-) [word] = pintu gulung (shutter) | [kb-2108240] 重(じゅう) [standalone_term] = Berat / parah | [kb-audit-0563] したり(したり) [inflected_verb, df:する] = melakukan, dan lain-lain | [kb-v2-p5-090] エアーカーテン(-) [technical] = tirai udara (air curtain) | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=シャッターを<ruby>開<rt>ひら</rt></ruby>け、<ruby>換気<rt>かんき</rt></ruby>する。
+    TRANS: Membuka shutter untuk melakukan ventilasi udara.
+    KOTOBA: [kb-v2-p5-377] シャッター(-) [word] = pintu gulung (shutter) | [kb-v2-p5-420] 開け(あけ) [inflected, df:開ける] = membuka | [kb-1212780] 換気(かんき) [word] = ventilasi / sirkulasi udara | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q30 | ID=kunci-ujian-13-q030 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.8 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0349 (―つ): "satu buah (typo garis: 一つ)"
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>細菌<rt>さいきん</rt></ruby>が<ruby>原因<rt>げんいん</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>発生<rt>はっせい</rt></ruby>させないためには<ruby>食中毒予防<rt>しょくちゅうどくよぼう</rt></ruby>の３<ruby>原則<rt>げんそく</rt></ruby>が<ruby>重要<rt>じゅうよう</rt></ruby>で<br>す。<ruby>間違<rt>まちが</rt></ruby>っているものを―つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 細菌が原因の食中毒を発生させないためには食中毒予防の３原則が重要で
+す。間違っているものを―つ選びなさい。
+  PROMPT_TRANS: Agar tidak menimbulkan keracunan makanan akibat bakteri, 3 prinsip pencegahan keracunan makanan sangatlah penting. Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 8, Nomor 30) · Kunci Jawaban PDF (Teks Merah): A.
+  KOTOBA_PROMPT: [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-0926-e9a39fe4b8] 食中毒予防(しょくちゅうどくよぼう) [word] = pencegahan keracunan makanan | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-otaff51-0609] 重要(じゅうよう) [adjective] = penting | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0349] ―つ(ひとつ) [word] = satu buah (typo garis: 一つ) | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p3-234] させ(-) [inflected, df:する] = membuat jadi (kausatif) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まない。
+    TRANS: Tidak membawa masuk.
+    KOTOBA: [kb-v2-p4-160] 持ち込まない(もちこまない) [inflected, df:持ち込む] = tidak membawa masuk
+  OPT B: HTML=<ruby>増<rt>ふ</rt></ruby>やさない。
+    TRANS: Tidak memperbanyak (mencegah perkembangbiakan).
+    KOTOBA: [kb-v2-p4-164] 増やさない(ふやさない) [inflected, df:増やす] = tidak memperbanyak
+  OPT C: HTML=<ruby>殺<rt>ころ</rt></ruby>す。
+    TRANS: Membunuh (mensterilkan).
+    KOTOBA: [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri)
+
+=== #Q31 | ID=kunci-ujian-13-q031 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.8 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下記<rt>かき</rt></ruby>はパンの<ruby>配合例<rt>はいごうれい</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>るとき、<ruby>小麦粉<rt>こむぎこ</rt></ruby>20kg あれば<ruby>何<rt>なん</rt></ruby>キロ<ruby>総原材料<rt>そうげんざいりょう</rt></ruby>（パン）を<ruby>作<rt>つく</rt></ruby>りますか。<br><ruby>原料名<rt>げんりょうめい</rt></ruby>：<ruby>量<rt>りょう</rt></ruby> (g) — <ruby>小麦粉<rt>こむぎこ</rt></ruby>：250g、さとう：195g、しお：30g、<ruby>水<rt>みず</rt></ruby>：5ml、<ruby>他<rt>ほか</rt></ruby>の<ruby>原材料<rt>げんざいりょう</rt></ruby>：20g
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di bawah ini adalah contoh komposisi bahan roti. Jika membuat dengan komposisi yang sama dan terdapat 20 kg tepung terigu, berapa kilogram total bahan baku (roti) yang dihasilkan? Nama bahan: Jumlah (g) — Tepung terigu: 250 g, Gula: 195 g, Garam: 30 g, Air: 5 ml, Bahan baku lainnya: 20 g
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 8, Nomor 31) · Kunci Jawaban PDF (Teks Merah): B.
+  KOTOBA_PROMPT: [kb-1184690] 下記(かき) [word] = berikut ini | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-ext-1441-e9858de590] 配合例(はいごうれい) [word] = contoh formula campuran | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p6-453] キロ(-) [word] = kilogram (kilo) | [kb-ext-1134-e7b78fe58e] 総原材料(そうげんざいりょう) [word] = total komposisi bahan baku | [kb-latsol-9d22ffe25c] 作ります(つくります) [word] = membuat / memproduksi | [kb-ext-0489-e58e9fe696] 原料名(げんりょうめい) [word] = Nama bahan baku utama dalam produk | [kb-v2-p1-085] 量(りょう) [word] = jumlah / takaran | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-v2-p1-035] さとう(-) [word] = gula | [kb-audit-0704] しお(しお) [word] = garam | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-audit-0035] 他の(ほかの) [word] = yang lain / lainnya | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=30kg
+    TRANS: 30 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=40kg
+    TRANS: 40 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=50kg
+    TRANS: 50 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+
+=== #Q32 | ID=kunci-ujian-13-q032 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.9 ===
+  FLAGS: [JP_NACLO_DIGIT@prompt] Suspicious NaClO OCR spelling
+  CLUSTER CL-0032 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q035 (ssw-pm-kunci-ujian-1), bonus-soal-1-q035 (bonus-soal-1), bonus-soal-7-q036 (bonus-soal-7), bonus-soal-8-q034 (bonus-soal-8), bonus-soal-10-q032 (bonus-soal-10), nguyen01-q035 (latsol-nguyen-01), nguyen07-q036 (latsol-nguyen-07), nguyen08-q034 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>濃度<rt>のうど</rt></ruby>10％の<ruby>次亜塩酸<rt>じあえんさん</rt></ruby>ナトリウム（NaClO）<ruby>溶液<rt>ようえき</rt></ruby>があります。400ppm の<ruby>次亜塩酸<rt>じあえんさん</rt></ruby><br>ナトリウム（NaClO）<ruby>溶液<rt>ようえき</rt></ruby>を１L <ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>ml<ruby>必要<rt>ひつよう</rt></ruby><br>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。。
+  QUESTION_TEXT: 濃度10％の次亜塩酸ナトリウム（NaClO）溶液があります。400ppm の次亜塩酸
+ナトリウム（NaClO）溶液を１L 作る時に、この溶液と水はそれぞれ何ml必要
+ですか。正しいものを一つ選びなさい。。
+  PROMPT_TRANS: Tersedia larutan natrium hipoklorit (NaClO) dengan konsentrasi 10%. Saat membuat 1 L larutan natrium hipoklorit (NaClO) 400 ppm, berapa ml masing-masing larutan ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 9, Nomor cetak 31 / Urutan soal ke-32) · Kunci Jawaban PDF (Teks Merah): A.
+  KOTOBA_PROMPT: [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-v2-p6-161] ％(-) [technical] = persen (%) | [kb-latsol-5f76041d39] 次亜塩酸ナトリウム(じあえんさんなとりうむ) [word] = natrium hipoklorit (klorin) | [kb-v2-p1-019] NaClO(-) [abbreviation] = natrium hipoklorit | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p1-267] この(-) [word] = ini | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>996ml
+    TRANS: Larutan 4 ml, air 996 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT B: HTML=<ruby>溶液<rt>ようえき</rt></ruby>2ml、<ruby>水<rt>みず</rt></ruby>998ml。
+    TRANS: Larutan 2 ml, air 998 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT C: HTML=<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1000ml。
+    TRANS: Larutan 4 ml, air 1000 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air

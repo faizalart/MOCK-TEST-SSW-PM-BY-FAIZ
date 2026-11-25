@@ -1,0 +1,83 @@
+# AUDIT SHEET: latsol-nguyen-06 (Latsol Nguyen 06) | Batch qa-batch-08 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=nguyen06-q005 | KEY=C (idx=2) | CAT= | SRC=6.pdf p.3 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 画像 || [KANJI_WITHOUT_RUBY@opt:B] 画像 || [KANJI_WITHOUT_RUBY@opt:C] 画像
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("[画像C] くるみ") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>表示<rt>ひょうじ</rt></ruby>を<ruby>推奨<rt>すいしょう</rt></ruby>する<ruby>物<rt>もの</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah di antara berikut yang termasuk bahan alergen yang dianjurkan (suishou) pencantumannya? Pilihlah yang salah (bukan anjuran, melainkan wajib).
+  EXPLANATION: Sumber: 6.pdf, halaman 3, nomor 5. Bobot: 3.75 poin. Kunci jawaban: C. Visual: 3 gambar bahan pangan: A (apel), B (persik), C (kenari/kurumi).
+  KOTOBA_PROMPT: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0544] 表示(ひょうじ) [noun] = pencantuman label / tampilan | [kb-otaff51-0325] 推奨(すいしょう) [noun] = anjuran / rekomendasi | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=[画像A] りんご
+    TRANS: Apel
+    MEDIA: media-nguyen06-q005-option-a
+    KOTOBA: [kb-otaff51-0030] りんご(りんご) [noun] = apel
+  OPT B: HTML=[画像B] もも
+    TRANS: Persik (peach)
+    MEDIA: media-nguyen06-q005-option-b
+    KOTOBA: [kb-latsol-abbbebe758] もも(もも) [word] = buah persik (peach)
+  OPT C: HTML=[画像C] くるみ
+    TRANS: Kacang kenari (walnut)
+    MEDIA: media-nguyen06-q005-option-c
+    KOTOBA: [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)
+
+=== #Q6 | ID=nguyen06-q006 | KEY=A (idx=0) | CAT= | SRC=6.pdf p.3 ===
+  CLUSTER CL-0220 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-6-q006 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("じゃがいもの芽") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「ソラニン」はどこにありますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di manakah zat "solanin" berada?
+  EXPLANATION: Sumber: 6.pdf, halaman 3, nomor 6. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0055] ソラニン(そらにん) [noun] = solanin (racun pada tunas/kulit hijau kentang) | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある)
+  OPT A: HTML=じゃがいもの<ruby>芽<rt>め</rt></ruby>
+    TRANS: Tunas kentang
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-otaff51-0530] 芽(め) [noun] = tunas
+  OPT B: HTML=いか
+    TRANS: Cumi-cumi
+    KOTOBA: [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下)
+  OPT C: HTML=じゃがいも
+    TRANS: Kentang (bagian umbi normal)
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang
+
+=== #Q7 | ID=nguyen06-q007 | KEY=C (idx=2) | CAT= | SRC=6.pdf p.3 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 毒
+  CLUSTER CL-0221 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-6-q007 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("体の中で菌が増えて発症する。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ボツリヌス<ruby>菌<rt>きん</rt></ruby>の<ruby>特徴<rt>とくちょう</rt></ruby>はなんですか。<ruby>正<rt>ただ</rt></ruby>しくないものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah ciri khas dari bakteri Clostridium botulinum? Pilihlah satu pernyataan yang tidak benar.
+  EXPLANATION: Sumber: 6.pdf, halaman 3, nomor 7. Bobot: 3.75 poin. Kunci jawaban: C. Catatan QA: Pada PDF asli, teks opsi B berhenti pada kata 毒 (maksudnya 毒素を作る).
+  KOTOBA_PROMPT: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-otaff51-0434] 特徴(とくちょう) [noun] = karakteristik / ciri khas | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0006] 正しくない(ただしくない) [inflected_adj, df:正しい] = tidak benar / tidak tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>熱<rt>ねつ</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>芽胞<rt>がほう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る。
+    TRANS: Membentuk spora (gahou) yang tahan terhadap panas.
+    KOTOBA: [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas) | [kb-v2-p1-151] 作る(つくる) [word] = membuat
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>菌<rt>きん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えて<ruby>毒<rt>どく</rt></ruby>
+    TRANS: Bakteri berkembang biak di dalam makanan dan menghasilkan racun (teks sumber berhenti pada kata 毒).
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-150] 菌(きん) [word] = bakteri / kuman | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-v2-p5-164] 毒(どく) [word] = racun
+  OPT C: HTML=<ruby>体<rt>からだ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>菌<rt>きん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えて<ruby>発症<rt>はっしょう</rt></ruby>する。
+    TRANS: Bakteri berkembang biak di dalam tubuh lalu menimbulkan gejala penyakit (tipe infeksi).
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-150] 菌(きん) [word] = bakteri / kuman | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-2398850] 発症(はっしょう) [word] = timbulnya gejala penyakit
+
+=== #Q8 | ID=nguyen06-q008 | KEY=C (idx=2) | CAT= | SRC=6.pdf p.4 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-212 (謝る): "salah (typo: 誤る)"
+  CLUSTER CL-0222 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-6-q008 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("腹痛や下痢") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスはどこにありますか。<ruby>謝<rt>あやま</rt></ruby>るものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di manakah Norovirus berada? Pilihlah yang salah.
+  EXPLANATION: Sumber: 6.pdf, halaman 4, nomor 8. Bobot: 3.75 poin. Kunci jawaban: C. Catatan QA: Cetakan asli menulis kanji 謝る untuk 誤る.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-v2-p5-212] 謝る(あやまる) [word] = salah (typo: 誤る) | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>二枚貝<rt>にまいがい</rt></ruby>
+    TRANS: Kerang dua cangkang (bivalvia)
+    KOTOBA: [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia)
+  OPT B: HTML=トイレ
+    TRANS: Toilet
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet
+  OPT C: HTML=<ruby>腹痛<rt>ふくつう</rt></ruby>や<ruby>下痢<rt>げり</rt></ruby>
+    TRANS: Sakit perut dan diare (gejala, bukan tempat keberadaan virus)
+    KOTOBA: [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare

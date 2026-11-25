@@ -1,0 +1,81 @@
+# AUDIT SHEET: latsol-nguyen-07 (Latsol Nguyen 07) | Batch qa-batch-08 | Part 8 (Q29-32 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=nguyen07-q029 | KEY=C (idx=2) | CAT= | SRC=7.pdf p.7 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p5-187 (ヤリ): "Hiyari (typo: ヒヤリ)"
+  CLUSTER CL-0202 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q028 (bonus-soal-4), bonus-soal-7-q029 (bonus-soal-7), nguyen04-q028 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("早く仕事に慣れるので、安全衛生マニュアルを見なくてもいいです。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>未熟練作業者<rt>みじゅくれんさぎょうしゃ</rt></ruby>は<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>の<ruby>予防<rt>よぼう</rt></ruby>のために、なにをするべきですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan oleh pekerja belum berpengalaman untuk mencegah kecelakaan kerja? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 7.pdf, halaman 7, nomor 29. Bobot: 3.85 poin. Kunci jawaban: C. Catatan QA: Cetakan asli opsi A menulis ヤリ・ハット untuk ヒヤリ・ハット. Nomor asli PDF: Câu 28 (Halaman 7).
+  KOTOBA_PROMPT: [kb-otaff51-0342] 未熟練作業者(みじゅくれんさぎょうしゃ) [compound_technical] = pekerja kurang berpengalaman (masa kerja di bawah 3 tahun) | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-1543660] 予防(よぼう) [word] = pencegahan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-256] なに(-) [word] = apa | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=ヤリ・ハット<ruby>活動<rt>かつどう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>する。
+    TRANS: Berpartisipasi dalam kegiatan Hiyari-Hatto (nyaris celaka).
+    KOTOBA: [kb-v2-p5-187] ヤリ(-) [technical] = Hiyari (typo: ヒヤリ) | [kb-v2-p5-188] ハット(-) [technical] = Hatto (nyaris celaka) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0223] 参加(さんか) [noun] = partisipasi / mengikuti
+  OPT B: HTML=<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>の<ruby>事例<rt>じれい</rt></ruby>、<ruby>危険予知訓練<rt>きけんよちくんれん</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>する。
+    TRANS: Mempelajari studi kasus kecelakaan kerja dan berpartisipasi dalam pelatihan prediksi bahaya (KYT).
+    KOTOBA: [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-otaff51-0104] 事例(じれい) [noun] = contoh kasus | [kb-otaff51-0215] 危険予知訓練(きけんよちくんれん) [compound_technical] = latihan prediksi bahaya (KYT) | [kb-otaff51-0223] 参加(さんか) [noun] = partisipasi / mengikuti
+  OPT C: HTML=<ruby>早<rt>はや</rt></ruby>く<ruby>仕事<rt>しごと</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れるので、<ruby>安全衛生<rt>あんぜんえいせい</rt></ruby>マニュアルを<ruby>見<rt>み</rt></ruby>なくてもいいです。
+    TRANS: Karena akan cepat terbiasa dengan pekerjaan, tidak perlu melihat manual keselamatan dan kesehatan kerja.
+    KOTOBA: [kb-v2-p4-144] 早く(はやく) [inflected, df:早い] = dengan cepat / segera | [kb-otaff51-0110] 仕事(しごと) [noun] = pekerjaan | [kb-v2-p5-406] 慣れる(なれる) [word] = terbiasa | [kb-latsol-c4677fa34a] 安全衛生マニュアル(あんぜんえいせいまにゅある) [word] = panduan keselamatan & kesehatan (K3) | [kb-v2-p5-277] 見なくても(みなくても) [inflected, df:見る] = tanpa melihat | [kb-v2-p1-249] いい(-) [word] = baik
+
+=== #Q30 | ID=nguyen07-q030 | KEY=A (idx=0) | CAT= | SRC=7.pdf p.7 ===
+  CLUSTER CL-0101 (n=5, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q029 (ssw-pm-kunci-ujian-4), bonus-soal-4-q029 (bonus-soal-4), bonus-soal-7-q030 (bonus-soal-7), nguyen04-q029 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("自分の判断だけで、できるだけのことをやり始める") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>したら、<ruby>間違<rt>まちが</rt></ruby>っている<ruby>対応<rt>たいおう</rt></ruby>はどれでしょうか。<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apabila terjadi kecelakaan kerja, manakah penanganan yang salah? Pilihlah satu.
+  EXPLANATION: Sumber: 7.pdf, halaman 7, nomor 30. Bobot: 3.85 poin. Kunci jawaban: A. Nomor asli PDF: Câu 29 (Halaman 7).
+  KOTOBA_PROMPT: [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-audit-0595] 発生したら(はっせいしたら) [inflected_verb, df:発生する] = jika terjadi | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0277] 対応(たいおう) [noun] = penanganan / respons | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>自分<rt>じぶん</rt></ruby>の<ruby>判断<rt>はんだん</rt></ruby>だけで、できるだけのことをやり<ruby>始<rt>はじ</rt></ruby>める
+    TRANS: Mulai melakukan apa saja sebisa mungkin hanya berdasarkan keputusan sendiri
+    KOTOBA: [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-otaff51-0185] 判断(はんだん) [noun] = penilaian / keputusan | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-audit-0414] やり始める(やりはじめる) [word] = mulai melakukan / mengerjakan
+  OPT B: HTML=<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>時<rt>とき</rt></ruby>は<ruby>非常停止<rt>ひじょうていし</rt></ruby>ボタンで<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める
+    TRANS: Menghentikan mesin dengan tombol berhenti darurat pada saat diperlukan
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-otaff51-0635] 非常停止ボタン(ひじょうていしぼたん) [compound_technical] = tombol berhenti darurat | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-210] 止める(とめる) [word] = menghentikan
+  OPT C: HTML=<ruby>責任者<rt>せきにんしゃ</rt></ruby>の<ruby>指示<rt>しじ</rt></ruby>に<ruby>従<rt>したが</rt></ruby>い、<ruby>同僚<rt>どうりょう</rt></ruby>と<ruby>協力<rt>きょうりょく</rt></ruby>して<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>処置<rt>しょち</rt></ruby>をとる
+    TRANS: Mengikuti instruksi penanggung jawab dan bekerja sama dengan rekan kerja untuk mengambil tindakan yang tepat
+    KOTOBA: [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p5-294] 従い(したがい) [inflected, df:従う] = mematuhi | [kb-1453580] 同僚(どうりょう) [word] = rekan kerja | [kb-1591720] 協力(きょうりょく) [word] = kerja sama | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-1342470] 処置(しょち) [word] = tindakan penanganan | [kb-v2-p2-199] とる(-) [word] = mengambil / menghilangkan
+
+=== #Q31 | ID=nguyen07-q031 | KEY=B (idx=1) | CAT= | SRC=7.pdf p.7 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 冷凍庫, 冷蔵庫
+  CLUSTER CL-0102 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q030 (ssw-pm-kunci-ujian-4), bonus-soal-4-q030 (bonus-soal-4), bonus-soal-7-q031 (bonus-soal-7), nguyen04-q030 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("冷凍庫は－15℃以下、冷蔵庫は10℃以下") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>冷凍庫<rt>れいとうこ</rt></ruby>と<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は<ruby>何度<rt>なんど</rt></ruby>で<ruby>管理<rt>かんり</rt></ruby>すればよいでしょうか。<ruby>次<rt>つぎ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>から<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada suhu berapa derajat sebaiknya freezer (冷凍庫) dan kulkas (冷蔵庫) dikelola? Pilihlah satu yang benar dari pilihan berikut.
+  EXPLANATION: Sumber: 7.pdf, halaman 7, nomor 31. Bobot: 3.85 poin. Kunci jawaban: B. Nomor asli PDF: Câu 30 (Halaman 7).
+  KOTOBA_PROMPT: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>は0℃<ruby>以下<rt>いか</rt></ruby>、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Freezer 0°C ke bawah, kulkas 15°C ke bawah
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller)
+  OPT B: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>は－15℃<ruby>以下<rt>いか</rt></ruby>、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Freezer -15°C ke bawah, kulkas 10°C ke bawah
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller)
+  OPT C: HTML=<ruby>特<rt>とく</rt></ruby>に<ruby>温度管理<rt>おんどかんり</rt></ruby>はしなくてもよい
+    TRANS: Tidak perlu melakukan pengelolaan suhu secara khusus
+    KOTOBA: [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-otaff51-0406] 温度管理(おんどかんり) [compound_technical] = pengendalian suhu | [kb-v2-p2-203] しなくても(-) [inflected, df:する] = meskipun tidak melakukan | [kb-v2-p2-243] よい(-) [word] = baik / boleh
+
+=== #Q32 | ID=nguyen07-q032 | KEY=B (idx=1) | CAT= | SRC=7.pdf p.7 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 押し板
+  CLUSTER CL-0154 (n=5, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-13-q037 (ssw-pm-kunci-ujian-13), bonus-soal-4-q031 (bonus-soal-4), bonus-soal-7-q032 (bonus-soal-7), nguyen04-q031 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("スライサーを使うときは、押し板を使ってパンを押し出す。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業台<rt>さぎょうだい</rt></ruby>で<ruby>食<rt>しょく</rt></ruby>パンを<ruby>手<rt>て</rt></ruby>で<ruby>押<rt>お</rt></ruby>しながらスライスしていたとき、<ruby>指<rt>ゆび</rt></ruby>がスライサーの<ruby>刃<rt>は</rt></ruby>で<ruby>切<rt>き</rt></ruby>れそうになった。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat sedang mengiris roti tawar di meja kerja sambil mendorongnya dengan tangan, jari hampir terpotong oleh mata pisau mesin pengiris (slicer). Apa yang harus dilakukan untuk mencegah kecelakaan ini? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 7.pdf, halaman 7, nomor 32. Bobot: 3.85 poin. Kunci jawaban: B. Visual: Ilustrasi pekerja mendorong roti tawar pada slicer langsung dengan tangan. Nomor asli PDF: Câu 31 (Halaman 7).
+  KOTOBA_PROMPT: [kb-otaff51-0121] 作業台(さぎょうだい) [noun] = meja kerja | [kb-v2-p2-066] 食パン(しょくぱん) [word] = roti tawar | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-131] 押しながら(おしながら) [inflected, df:押す] = sambil menekan/mendorong | [kb-v2-p2-129] スライスしていた(-) [inflected, df:スライスする] = sedang mengiris (lampau) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-otaff51-0175] 刃(は) [noun] = mata pisau | [kb-v2-p2-127] 切れそうに(きれそうに) [inflected, df:切れる] = hampir terpotong | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=スライサーを<ruby>使<rt>つか</rt></ruby>うときは、<ruby>両手<rt>りょうて</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す。
+    TRANS: Saat menggunakan slicer, dorong roti menggunakan kedua tangan.
+    KOTOBA: [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0099] 両手(りょうて) [noun] = kedua tangan | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-v2-p2-130] 押し出す(おしだす) [word] = mendorong keluar
+  OPT B: HTML=スライサーを<ruby>使<rt>つか</rt></ruby>うときは、<ruby>押<rt>お</rt></ruby>し<ruby>板<rt>いた</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す。
+    TRANS: Saat menggunakan slicer, dorong roti menggunakan papan pendorong (押し板).
+    KOTOBA: [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0316] 押し板(おしいた) [compound_technical] = pelat pendorong (pada mesin pengiris roti) | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-v2-p2-130] 押し出す(おしだす) [word] = mendorong keluar
+  OPT C: HTML=スライサーを<ruby>使<rt>つか</rt></ruby>うときは、<ruby>左手<rt>ひだりて</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってパンを<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>す。
+    TRANS: Saat menggunakan slicer, dorong roti menggunakan tangan kiri.
+    KOTOBA: [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1290900] 左手(ひだりて) [word] = tangan kiri | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-v2-p2-130] 押し出す(おしだす) [word] = mendorong keluar

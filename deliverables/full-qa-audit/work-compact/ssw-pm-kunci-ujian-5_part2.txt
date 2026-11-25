@@ -1,0 +1,71 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-5 (Soal Ujian 5 — CBTP Gino1) | Batch qa-batch-01 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=kunci-ujian-5-q005 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby>として、どのような<ruby>行動<rt>こうどう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Tindakan seperti apa yang diperlukan sebagai dasar higiene pangan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 1, Câu 5 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0652] 食品衛生(しょくひんえいせい) [compound_technical] = higiene pangan / keamanan pangan | [kb-1219190] 基本(きほん) [word] = dasar / prinsip dasar | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>設備<rt>せつび</rt></ruby>を<ruby>使<rt>つか</rt></ruby>わない
+    TRANS: Tidak menggunakan fasilitas/peralatan yang bersih
+    KOTOBA: [kb-v2-p2-225] 清潔な(せいけつな) [word] = bersih / higienis | [kb-otaff51-0570] 設備(せつび) [noun] = fasilitas / instalasi peralatan | [kb-v2-p2-211] 使わない(つかわない) [inflected, df:使う] = tidak menggunakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>や<ruby>手袋<rt>てぶくろ</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>する
+    TRANS: Mengenakan pakaian kerja dan sarung tangan dengan benar
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-otaff51-0311] 手袋(てぶくろ) [noun] = sarung tangan | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-pilot51-022] 着用する(ちゃくようする) [verb] = mengenakan / memakai | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>や<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>適当<rt>てきとう</rt></ruby>な<ruby>温度<rt>おんど</rt></ruby>で<ruby>保存<rt>ほぞん</rt></ruby>しない
+    TRANS: Tidak menyimpan pangan dan bahan baku pada suhu yang tepat
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1437450] 適当(てきとう) [word] = sembarangan / secukupnya | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q6 | ID=kunci-ujian-5-q006 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>を75℃で1<ruby>分間加熱<rt>ふんかんかねつ</rt></ruby>すると、どうなりますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang terjadi jika bakteri penyebab keracunan makanan dipanaskan pada suhu 75°C selama 1 menit?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 1, Câu 6 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-ext-1574-e58886e996] 分間加熱(ふんかんかねつ) [standalone_term] = Pemanasan selama sekian menit sesuai SOP HACCP | [kb-v2-p1-146] すると(-) [expression] = jika melakukan | [kb-v2-p1-272] どうなりますか(-) [expression] = akan menjadi bagaimana | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>は<ruby>殺<rt>ころ</rt></ruby>される
+    TRANS: Bakteri penyebab keracunan makanan akan mati
+    KOTOBA: [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-v2-p6-412] 殺される(ころされる) [inflected, df:殺す] = dibunuh / dimusnahkan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>は<ruby>増<rt>ふ</rt></ruby>える
+    TRANS: Bakteri penyebab keracunan makanan akan bertambah banyak
+    KOTOBA: [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>は<ruby>元気<rt>げんき</rt></ruby>になる
+    TRANS: Bakteri penyebab keracunan makanan akan menjadi aktif
+    KOTOBA: [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-1260720] 元気(げんき) [word] = Sehat / bugar berstamina | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q7 | ID=kunci-ujian-5-q007 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>に<ruby>通路<rt>つうろ</rt></ruby>に<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>いてはいけない<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa alasan tidak boleh meletakkan barang di jalur jalan (lorong) selama bekerja?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 2, Câu 7 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0594] 通路(つうろ) [noun] = jalur jalan / lorong | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-latsol-85da72508c] 置いて(おいて) [word] = meletakkan / menaruh | [kb-audit-0467] いけない(いけない) [expression, df:いく] = tidak boleh / terlarang | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>作業<rt>さぎょう</rt></ruby>が<ruby>効率的<rt>こうりつてき</rt></ruby>に<ruby>進<rt>すす</rt></ruby>むため
+    TRANS: Agar pekerjaan berjalan secara efisien
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1275240] 効率的(こうりつてき) [word] = secara efisien | [kb-v2-p6-392] 進む(すすむ) [word] = berjalan lancar / maju | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>通路<rt>つうろ</rt></ruby>が<ruby>安全<rt>あんぜん</rt></ruby>に<ruby>保<rt>たも</rt></ruby>たれるため
+    TRANS: Agar jalur jalan tetap terjaga keamanannya
+    KOTOBA: [kb-otaff51-0594] 通路(つうろ) [noun] = jalur jalan / lorong | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-audit-0666] 保たれる(たもたれる) [inflected_verb, df:保つ] = terjaga / dipertahankan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>物<rt>もの</rt></ruby>を<ruby>簡単<rt>かんたん</rt></ruby>に<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>すため
+    TRANS: Agar barang mudah diambil
+    KOTOBA: [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-1214330] 簡単(かんたん) [word] = Sederhana / mudah dipahami instruksinya | [kb-u1416-4e39efcb4f] 取り出す(とりだす) [word] = mengambil / mengeluarkan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q8 | ID=kunci-ujian-5-q008 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.2 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0258 (でゅうに): "secara cepat / mendadak (typo text)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0352 (⁰C): "0 derajat Celcius (typo: 0℃)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0352 (⁰C): "0 derajat Celcius (typo: 0℃)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0352 (⁰C): "0 derajat Celcius (typo: 0℃)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0353 (6⁰): "enam puluh (typo: 60)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: おおくのびせいぶつはなんどでゅうにふえますか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada suhu berapa sebagian besar mikroorganisme berkembang biak dengan cepat? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 2, Câu 8 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0629] おおく(おおく) [adverb] = banyak | [kb-v2-p6-561] びせいぶつ(-) [technical] = mikroorganisme | [kb-audit-0760] なんど(なんど) [word] = berapa derajat | [kb-audit-0258] でゅうに(きゅうに) [word] = secara cepat / mendadak (typo text) | [kb-v2-p6-344] ふえます(-) [inflected, df:ふえる] = bertambah banyak | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=⁰C‐10⁰C
+    TRANS: 0°C - 10°C
+    KOTOBA: [kb-audit-0352] ⁰C(ぜろどしー) [technical] = 0 derajat Celcius (typo: 0℃) | [kb-v2-p2-037] ‐(-) [expression] = tanda hubung / minus
+  OPT B: HTML=3⁰C‐40⁰C
+    TRANS: 30°C - 40°C
+    KOTOBA: [kb-audit-0352] ⁰C(ぜろどしー) [technical] = 0 derajat Celcius (typo: 0℃) | [kb-v2-p2-037] ‐(-) [expression] = tanda hubung / minus
+  OPT C: HTML=6⁰- 70⁰C
+    TRANS: 60°C - 70°C
+    KOTOBA: [kb-audit-0352] ⁰C(ぜろどしー) [technical] = 0 derajat Celcius (typo: 0℃) | [kb-audit-0353] 6⁰(ろくじゅう) [word] = enam puluh (typo: 60)

@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-06 (Latsol Reguler 06) | Batch qa-batch-10 | Part 5 (Q17-20 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=reguler06-q017 | KEY=C (idx=2) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="製品を輸送するときは、まちがっているものを一つ選んでください。" vs questionText="製品を輸送するときはまちがっているものを一つ選んでえらんでください"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("製品が残りません") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>製品<rt>せいひん</rt></ruby>を<ruby>輸送<rt>ゆそう</rt></ruby>するときは、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: 製品を輸送するときはまちがっているものを一つ選んでえらんでください
+  PROMPT_TRANS: Saat mengangkut/mengirim produk, pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 5, nomor 17. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0591] 輸送(ゆそう) [noun] = pengangkutan / transportasi | [kb-audit-1102] するとき(するとき) [expression] = ketika melakukan (する時) | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>温度<rt>おんど</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します
+    TRANS: Memeriksa suhu secara berkala
+    KOTOBA: [kb-otaff51-0271] 定期的(ていきてき) [adjective] = secara berkala / rutin | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-audit-0940] 確認します(かくにんします) [inflected_verb, df:確認する] = memeriksa (sopan)
+  OPT B: HTML=<ruby>温度管理<rt>おんどかんり</rt></ruby>を<ruby>徹底<rt>てってい</rt></ruby>しなければなりません
+    TRANS: Harus menerapkan pengelolaan suhu secara menyeluruh
+    KOTOBA: [kb-otaff51-0406] 温度管理(おんどかんり) [compound_technical] = pengendalian suhu | [kb-1437670] 徹底(てってい) [word] = penerapan tuntas / menyeluruh | [kb-audit-0376] しなければなりません(しなければなりません) [word] = harus / wajib dilakukan
+  OPT C: HTML=<ruby>製品<rt>せいひん</rt></ruby>が<ruby>残<rt>のこ</rt></ruby>りません
+    TRANS: Produk tidak tersisa
+    KOTOBA: [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-latsol-51eb91257f] 残りません(のこりません) [word] = tidak tersisa
+
+=== #Q18 | ID=reguler06-q018 | KEY=A (idx=0) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="特定原材料として表示する義務がある食品はどれですか。正しいものを一つえらびなさい。" vs questionText="特定原材料として表示する義務がある食品どれですか。。正しいものを一つえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("えび、かに、こむぎ、そば、たまご、にゅう、らっかせい") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>として<ruby>表示<rt>ひょうじ</rt></ruby>する<ruby>義務<rt>ぎむ</rt></ruby>がある<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 特定原材料として表示する義務がある食品どれですか。。正しいものを一つえらびなさい
+  PROMPT_TRANS: Manakah kelompok bahan pangan yang wajib dicantumkan pada label sebagai bahan baku spesifik (7 alergen utama)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 5, nomor 18. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-otaff51-0505] 義務(ぎむ) [noun] = kewajiban | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=えび、かに、こむぎ、そば、たまご、にゅう、らっかせい
+    TRANS: Udang, kepiting, gandum, soba (buckwheat), telur, susu, kacang tanah
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-v2-p3-089] にゅう(-) [word] = susu (bacaan 乳) | [kb-v2-p3-088] らっかせい(-) [word] = kacang tanah
+  OPT B: HTML=かに、えび、くるみ、ごま、さけ、さば、らっかせい
+    TRANS: Kepiting, udang, kenari (walnut), wijen, salmon, makarel (saba), kacang tanah
+    KOTOBA: [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut) | [kb-v2-p3-078] ごま(-) [word] = wijen | [kb-v2-p3-073] さけ(-) [word] = ikan salmon | [kb-v2-p3-074] さば(-) [word] = ikan kembung / makarel | [kb-v2-p3-088] らっかせい(-) [word] = kacang tanah
+  OPT C: HTML=あわび、いか、いくら、まつたけ、もも、そば、りんご、らっかせい
+    TRANS: Abalon, cumi-cumi, telur ikan salmon (ikura), jamur matsutake, persik, soba, apel, kacang tanah
+    KOTOBA: [kb-v2-p3-072] あわび(-) [word] = abalone (kerang) | [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下) | [kb-v2-p3-075] いくら(-) [word] = telur ikan salmon (ikura) | [kb-audit-0759] まつ(まつ) [word] = menunggu | [kb-latsol-abbbebe758] もも(もも) [word] = buah persik (peach) | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-otaff51-0030] りんご(りんご) [noun] = apel | [kb-v2-p3-088] らっかせい(-) [word] = kacang tanah
+
+=== #Q19 | ID=reguler06-q019 | KEY=C (idx=2) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="交差汚染の防止方法はどれですか。まちがっているものをひとつえらびなさい。" vs questionText="交差汚染の方法防止しますどれですか。。まちがっているものをひとつえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("容器の工夫") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>交差汚染<rt>こうさおせん</rt></ruby>の<ruby>防止方法<rt>ぼうしほうほう</rt></ruby>はどれですか。まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: 交差汚染の方法防止しますどれですか。。まちがっているものをひとつえらびなさい
+  PROMPT_TRANS: Manakah yang bukan merupakan metode pencegahan kontaminasi silang (allergen cross-contamination)? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 5, nomor 19. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0109] 交差汚染(こうさおせん) [compound_technical] = kontaminasi silang (cross-contamination) | [kb-ext-1656-e998b2e6ad] 防止方法(ぼうしほうほう) [word] = metode pencegahan bahaya | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>器具<rt>きぐ</rt></ruby>の<ruby>使<rt>つか</rt></ruby>い<ruby>分<rt>わ</rt></ruby>け
+    TRANS: Pemisahan penggunaan peralatan
+    KOTOBA: [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-audit-0151] 使い分け(つかいわけ) [word] = penggunaan terpisah sesuai tujuan
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>区分<rt>くぶん</rt></ruby>と<ruby>保管<rt>ほかん</rt></ruby>
+    TRANS: Pemisahan kategori dan penyimpanan bahan baku
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1244230] 区分(くぶん) [word] = pemisahan / klasifikasi | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan
+  OPT C: HTML=<ruby>容器<rt>ようき</rt></ruby>の<ruby>工夫<rt>くふう</rt></ruby>
+    TRANS: Modifikasi/penyesuaian wadah
+    KOTOBA: [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-ext-latsol-0101] 工夫(くふう) [word] = upaya perbaikan / kiat inovasi
+
+=== #Q20 | ID=reguler06-q020 | KEY=B (idx=1) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="薬剤の管理三つがあります、なんですか。正しいものをえらびなさい。" vs questionText="薬剤の管理三つがあります、なんですか。。正しいものをえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("専用の保管場所、入出庫台帳のきろく、容器の工夫") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby><ruby>三<rt>みっ</rt></ruby>つがあります、なんですか。<ruby>正<rt>ただ</rt></ruby>しいものをえらびなさい。
+  QUESTION_TEXT: 薬剤の管理三つがあります、なんですか。。正しいものをえらびなさい
+  PROMPT_TRANS: Ada tiga poin dalam pengelolaan bahan kimia/obat-obatan (seperti deterjen dan disinfektan), apakah ketiga hal tersebut? Pilihlah yang benar.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 6, nomor 20. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p5-228] 三つ(みっつ) [word] = tiga buah | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>専用<rt>せんよう</rt></ruby>の<ruby>保管場所<rt>ほかんばしょ</rt></ruby>、<ruby>入出庫台帳<rt>にゅうしゅっこだいちょう</rt></ruby>のきろく、<ruby>低温<rt>ていおん</rt></ruby>の<ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Tempat penyimpanan khusus, pencatatan buku keluar-masuk barang, penyimpanan suhu rendah
+    KOTOBA: [kb-1596240] 専用(せんよう) [word] = khusus (satu fungsi) | [kb-otaff51-0133] 保管場所(ほかんばしょ) [compound_technical] = tempat penyimpanan | [kb-ext-1410-e585a5e587] 入出庫台帳(にゅうしゅっこだいちょう) [word] = buku catatan keluar-masuk stok | [kb-audit-0147] きろく(きろく) [word] = mencatat / catatan (記録) | [kb-otaff51-0117] 低温(ていおん) [noun] = suhu rendah | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=<ruby>専用<rt>せんよう</rt></ruby>の<ruby>保管場所<rt>ほかんばしょ</rt></ruby>、<ruby>入出庫台帳<rt>にゅうしゅっこだいちょう</rt></ruby>のきろく、<ruby>容器<rt>ようき</rt></ruby>の<ruby>工夫<rt>くふう</rt></ruby>
+    TRANS: Tempat penyimpanan khusus, pencatatan buku keluar-masuk barang, modifikasi/penyesuaian wadah
+    KOTOBA: [kb-1596240] 専用(せんよう) [word] = khusus (satu fungsi) | [kb-otaff51-0133] 保管場所(ほかんばしょ) [compound_technical] = tempat penyimpanan | [kb-ext-1410-e585a5e587] 入出庫台帳(にゅうしゅっこだいちょう) [word] = buku catatan keluar-masuk stok | [kb-audit-0147] きろく(きろく) [word] = mencatat / catatan (記録) | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-ext-latsol-0101] 工夫(くふう) [word] = upaya perbaikan / kiat inovasi
+  OPT C: HTML=<ruby>入出庫台帳<rt>にゅうしゅっこだいちょう</rt></ruby>のきろく、<ruby>容器<rt>ようき</rt></ruby>の<ruby>工夫<rt>くふう</rt></ruby>、<ruby>保管<rt>ほかん</rt></ruby>サンプルの<ruby>管理<rt>かんり</rt></ruby>
+    TRANS: Pencatatan buku keluar-masuk barang, modifikasi/penyesuaian wadah, pengelolaan sampel simpanan
+    KOTOBA: [kb-ext-1410-e585a5e587] 入出庫台帳(にゅうしゅっこだいちょう) [word] = buku catatan keluar-masuk stok | [kb-audit-0147] きろく(きろく) [word] = mencatat / catatan (記録) | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-ext-latsol-0101] 工夫(くふう) [word] = upaya perbaikan / kiat inovasi | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-ext-0016-e382b5e383] サンプル(さんぷる) [word] = sampel / contoh uji | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen

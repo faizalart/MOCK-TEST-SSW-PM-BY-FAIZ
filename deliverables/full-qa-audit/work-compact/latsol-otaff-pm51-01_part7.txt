@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-01 (Latsol OTAFF SSW PM Modul 5.1 - Paket 01) | Batch qa-batch-11 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=otaff-pm51-01-q025 | KEY=A (idx=0) | CAT=第2章 4. HACCPによる衛生管理（Bab 2.4: Manajemen Higiene HACCP） | SRC=Bab 1-3.pdf p.46 ===
+  FLAGS: [NUMBER_MISMATCH@optTranslation:B] JP number "1" missing in ID "Karena saat bekerja sedang sibuk, catatlah sekaligus setelah seluruh pekerjaan h" || [JP_DOUBLE_PARTICLE@opt:C] Potential doubled/colliding particle
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPや<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>における「<ruby>記録<rt>きろく</rt></ruby>」のルールとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu aturan yang benar mengenai 'pencatatan (rekaman)' dalam HACCP maupun manajemen higiene umum.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 45–46 (Bab 2.4(5), hal. 40–41 teks). Bobot: 3 poin. Kunci jawaban: A. Hasil pengukuran wajib dicatat seketika saat diukur/dikonfirmasi; dilarang mencatat di awal sebelum mengukur, dilarang merapel di akhir, dan dilarang memalsukan atau mengubah catatan atas penilaian sendiri.
+  INLINE_KOTOBA_COUNT: 31
+  KOTOBA_PROMPT: [kb-v2-p1-018] HACCP(-) [abbreviation] = sistem jaminan keamanan pangan HACCP | [kb-ext-0102-e4b880e888] 一般衛生管理(いっぱんえいせいかんり) [word] = manajemen higiene umum (GMP) | [kb-1223440] 記録(きろく) [word] = pencatatan / rekaman data | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>温度<rt>おんど</rt></ruby>や<ruby>濃度<rt>のうど</rt></ruby>や<ruby>時間<rt>じかん</rt></ruby>は、はかったとき・<ruby>確認<rt>かくにん</rt></ruby>したときにすぐ<ruby>記録<rt>きろく</rt></ruby>し、<ruby>自分<rt>じぶん</rt></ruby>だけの<ruby>判断<rt>はんだん</rt></ruby>で<ruby>修正<rt>しゅうせい</rt></ruby>してはいけない。
+    TRANS: Suhu, konsentrasi, dan waktu harus langsung dicatat saat diukur/diperiksa, serta dilarang dikoreksi/diubah atas keputusan sendiri.
+    KOTOBA: [kb-1183510] 温度(おんど) [word] = suhu | [kb-1469970] 濃度(のうど) [word] = konsentrasi / kadar | [kb-1315920] 時間(じかん) [word] = waktu | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1205900] 確認(かくにん) [word] = konfirmasi / pengecekan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p1-282] すぐ(-) [word] = segera | [kb-v2-p2-028] 記録し(きろくし) [inflected, df:記録する] = mencatat | [kb-1318610] 自分(じぶん) [word] = diri sendiri | [kb-1478620] 判断(はんだん) [word] = penilaian / keputusan | [kb-otaff51-0141] 修正(しゅうせい) [noun] = pengubahan / koreksi
+  OPT B: HTML=<ruby>作業中<rt>さぎょうちゅう</rt></ruby>は<ruby>忙<rt>いそが</rt></ruby>しいので、1<ruby>日<rt>にち</rt></ruby>の<ruby>作業<rt>さぎょう</rt></ruby>が<ruby>終<rt>お</rt></ruby>わってからまとめて<ruby>記録<rt>きろく</rt></ruby>する。
+    TRANS: Karena saat bekerja sedang sibuk, catatlah sekaligus setelah seluruh pekerjaan hari itu selesai.
+    KOTOBA: [kb-2652770] 作業中(さぎょうちゅう) [compound_technical] = saat bekerja | [kb-v2-p4-142] 忙しい(いそがしい) [word] = sibuk | [kb-otaff51-0710] 1日(いちにち) [noun] = satu hari | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-otaff51-0845] 終わって(おわって) [inflected_verb, df:終わる] = selesai | [kb-v2-p4-220] まとめて(-) [word] = sekaligus / dirangkum | [kb-1223440] 記録(きろく) [word] = pencatatan / rekaman data
+  OPT C: HTML=「いつもと<ruby>同<rt>おな</rt></ruby>じだから」と<ruby>考<rt>かんが</rt></ruby>えて、<ruby>温度<rt>おんど</rt></ruby>をはかる<ruby>前<rt>まえ</rt></ruby>に<ruby>記録<rt>きろく</rt></ruby>しておく。
+    TRANS: Mencatat terlebih dahulu sebelum mengukur suhu karena menganggap 'hasilnya selalu sama seperti biasa'.
+    KOTOBA: [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-otaff51-0847] 考えて(かんがえて) [inflected_verb, df:考える] = berpikir / mengira | [kb-1183510] 温度(おんど) [word] = suhu | [kb-u1416-4947cad39f] はかる(はかる) [word] = mengukur | [kb-v2-p1-059] 前(まえ) [word] = sebelum | [kb-1223440] 記録(きろく) [word] = pencatatan / rekaman data
+
+=== #Q26 | ID=otaff-pm51-01-q026 | KEY=B (idx=1) | CAT=第3章 労働安全（Bab 3: Keselamatan Kerja） | SRC=Bab 1-3.pdf p.48 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-v2-p1-058 "人": kotoba="ひと" vs ruby="にん/ひとり" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-v2-p1-058 "人": kotoba="ひと" vs ruby="にん"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食料品製造業<rt>しょくりょうひんせいぞうぎょう</rt></ruby>で<ruby>起<rt>お</rt></ruby>こる<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>において、<ruby>未熟練作業者<rt>みじゅくれんさぎょうしゃ</rt></ruby>（<ruby>経験<rt>けいけん</rt></ruby>が3<ruby>年未満<rt>ねんみまん</rt></ruby>の<ruby>作業者<rt>さぎょうしゃ</rt></ruby>）が<ruby>占<rt>し</rt></ruby>める<ruby>割合<rt>わりあい</rt></ruby>はどのくらいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam kecelakaan kerja yang terjadi di industri pengolahan makanan, berapakah proporsi yang dialami oleh pekerja kurang berpengalaman (pekerja dengan masa kerja kurang dari 3 tahun)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 48 (Bab 3.1(1), hal. 43 teks). Bobot: 5 poin. Kunci jawaban: B. Proporsi pekerja kurang berpengalaman (<3 tahun) dalam kecelakaan kerja industri pengolahan makanan mencapai sekitar separuh (約半分).
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-ext-0950-e9a39fe696] 食料品製造業(しょくりょうひんせいぞうぎょう) [word] = Industri manufaktur produk bahan makanan | [kb-v2-p3-244] 起こる(おこる) [word] = terjadi | [kb-1560430] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-ext-1667-e69caae786] 未熟練作業者(みじゅくれんさぎょうしゃ) [word] = pekerja pemula / belum mahir | [kb-1251270] 経験(けいけん) [word] = pengalaman | [kb-latsol-nenmiman] 年未満(ねんみまん) [word] = kurang dari ... tahun | [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-otaff51-0848] 占める(しめる) [verb] = menempati persentase | [kb-ext-latsol-0100] 割合(わりあい) [word] = rasio / perbandingan | [kb-otaff51-1010] どのくらい(どのくらい) [adverb] = seberapa besar / berapa lama | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>約<rt>やく</rt></ruby>10％（10<ruby>人<rt>にん</rt></ruby>に1<ruby>人<rt>ひとり</rt></ruby>）
+    TRANS: Sekitar 10% (1 dari 10 orang)
+    KOTOBA: [kb-1538100] 約(やく) [standalone_term] = Sekitar / kurang lebih perkiraan angka | [kb-v2-p1-058] 人(ひと) [word] = orang
+  OPT B: HTML=<ruby>約半分<rt>やくはんぶん</rt></ruby>（<ruby>約<rt>やく</rt></ruby>50％）
+    TRANS: Sekitar separuh (sekitar 50%)
+    KOTOBA: [kb-otaff51-1011] 約半分(やくはんぶん) [noun] = sekitar setengahnya | [kb-1538100] 約(やく) [standalone_term] = Sekitar / kurang lebih perkiraan angka
+  OPT C: HTML=<ruby>約<rt>やく</rt></ruby>90％（10<ruby>人<rt>にん</rt></ruby>に9<ruby>人<rt>にん</rt></ruby>）
+    TRANS: Sekitar 90% (9 dari 10 orang)
+    KOTOBA: [kb-1538100] 約(やく) [standalone_term] = Sekitar / kurang lebih perkiraan angka | [kb-v2-p1-058] 人(ひと) [word] = orang
+
+=== #Q27 | ID=otaff-pm51-01-q027 | KEY=A (idx=0) | CAT=第3章 労働安全（Bab 3: Keselamatan Kerja） | SRC=Bab 1-3.pdf p.48 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>起<rt>お</rt></ruby>きる<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>の<ruby>多<rt>おお</rt></ruby>い<ruby>順<rt>じゅん</rt></ruby>（1<ruby>番目<rt>ばんめ</rt></ruby>〜3<ruby>番目<rt>ばんめ</rt></ruby>）として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu urutan yang benar (urutan ke-1 hingga ke-3 terbanyak) dari jenis kecelakaan kerja yang terjadi di pabrik pengolahan makanan.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 48 (Bab 3.1(1), hal. 43 teks & grafik). Bobot: 5 poin. Kunci jawaban: A. Tiga kecelakaan kerja terbanyak di pabrik pangan adalah ①転倒 (31,3%), ②はさまれ・巻き込まれ (19,2%), dan ③切れ・こすれ (10,8%), yang ketiganya mencakup sekitar 60% dari seluruh kecelakaan kerja.
+  INLINE_KOTOBA_COUNT: 21
+  KOTOBA_PROMPT: [kb-ext-0941-e9a39fe593] 食品製造工場(しょくひんせいぞうこうじょう) [word] = pabrik pengolahan makanan | [kb-v2-p5-240] 起きる(おきる) [word] = terjadi | [kb-1560430] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-otaff51-1012] 多い順(おおいじゅん) [compound_technical] = urutan terbanyak | [kb-otaff51-0849] 番目(ばんめ) [noun] = urutan ke-... | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=①<ruby>転倒<rt>てんとう</rt></ruby>、②はさまれ・<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ、③<ruby>切<rt>き</rt></ruby>れ・こすれ
+    TRANS: ① Terpeleset/jatuh (tentou), ② Terjepit/terlilit (hasamare/makikomare), ③ Teriris/tergores (kire/kosure)
+    KOTOBA: [kb-1619700] 転倒(てんとう) [word] = terjatuh / terpeleset | [kb-latsol-08d71d5213] はさまれ(はさまれ) [word] = terjepit | [kb-v2-p5-253] 巻き込まれ(まきこまれ) [inflected, df:巻き込む] = tergulung / tersangkut mesin | [kb-otaff51-0688] 切れ・こすれ(きれこすれ) [compound_technical] = terpotong / teriris dan tergores
+  OPT B: HTML=①<ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>、②<ruby>腰痛<rt>ようつう</rt></ruby>、③<ruby>激突<rt>げきとつ</rt></ruby>
+    TRANS: ① Sengatan panas, ② Sakit pinggang, ③ Tabrakan
+    KOTOBA: [kb-ext-1417-e786b1e4b8] 熱中症(ねっちゅうしょう) [compound_technical] = heatstroke / sengatan panas | [kb-1288430] 腰痛(ようつう) [word] = nyeri pinggang | [kb-otaff51-0414] 激突(げきとつ) [noun] = tabrakan keras
+  OPT C: HTML=①<ruby>墜落<rt>ついらく</rt></ruby>・<ruby>転落<rt>てんらく</rt></ruby>、②やけど、③<ruby>感電<rt>かんでん</rt></ruby>
+    TRANS: ① Jatuh dari ketinggian, ② Luka bakar, ③ Tersengat listrik
+    KOTOBA: [kb-otaff51-0252] 墜落(ついらく) [noun] = jatuh dari ketinggian | [kb-1441370] 転落(てんらく) [word] = terjatuh dari ketinggian | [kb-latsol-yakedo] やけど(やけど) [word] = luka bakar (火傷) | [kb-1212540] 感電(かんでん) [word] = tersengat aliran listrik
+
+=== #Q28 | ID=otaff-pm51-01-q028 | KEY=C (idx=2) | CAT=第3章 労働安全（Bab 3: Keselamatan Kerja） | SRC=Bab 1-3.pdf p.56 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>部品<rt>ぶひん</rt></ruby>が<ruby>壊<rt>こわ</rt></ruby>れたり<ruby>製品<rt>せいひん</rt></ruby>がつまったりしたときや、<ruby>機械<rt>きかい</rt></ruby>の<ruby>扉<rt>とびら</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けたときに、<ruby>機械<rt>きかい</rt></ruby>が<ruby>自動的<rt>じどうてき</rt></ruby>に<ruby>止<rt>と</rt></ruby>まる<ruby>安全装置<rt>あんぜんそうち</rt></ruby>の<ruby>仕組<rt>しく</rt></ruby>みを<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Disebut apakah mekanisme perangkat pengaman di mana mesin berhenti secara otomatis ketika komponen rusak, produk macet, atau pintu mesin dibuka? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 56 (Bab 3.2(4)③ウ, hal. 51 teks). Bobot: 5 poin. Kunci jawaban: C. Mekanisme pengaman di mana mesin berhenti otomatis saat terjadi kerusakan komponen, kemacetan produk, atau saat pintu mesin dibuka disebut フェールセーフ (fail safe).
+  INLINE_KOTOBA_COUNT: 22
+  KOTOBA_PROMPT: [kb-otaff51-1013] 部品(ぶひん) [noun] = komponen / suku cadang | [kb-otaff51-0798] 壊れた(こわれた) [inflected_verb, df:壊れる] = rusak | [kb-1380760] 製品(せいひん) [word] = produk | [kb-otaff51-0799] つまった(つまった) [inflected_verb, df:つまる] = tersumbat / macet | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1220810] 機械(きかい) [word] = mesin | [kb-v2-p5-141] 扉(とびら) [word] = pintu | [kb-otaff51-1014] 開けた(あけた) [inflected_verb, df:開ける] = membuka | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-1318470] 自動的(じどうてき) [word] = secara otomatis | [kb-v2-p5-264] 止まる(とまる) [word] = berhenti | [kb-1757210] 安全装置(あんぜんそうち) [word] = perangkat pengaman mesin | [kb-otaff51-0800] 仕組み(しくみ) [noun] = mekanisme / sistem kerja | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-154] 言います(いいます) [inflected, df:言う] = mengucapkan / menyebut | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=ゾーニング（zoning）
+    TRANS: Zoning
+    KOTOBA: [kb-otaff51-0056] ゾーニング(ぞーにんぐ) [compound_technical] = pembagian zona higiene (zoning)
+  OPT B: HTML=モニタリング（monitoring）
+    TRANS: Monitoring
+    KOTOBA: [kb-latsol-1a08299747] モニタリング(もにたりんぐ) [word] = pemantauan (monitoring)
+  OPT C: HTML=フェールセーフ（fail safe）
+    TRANS: Fail-safe
+    KOTOBA: [kb-otaff51-0070] フェールセーフ(ふぇーるせーふ) [compound_technical] = sistem fail-safe penghenti otomatis

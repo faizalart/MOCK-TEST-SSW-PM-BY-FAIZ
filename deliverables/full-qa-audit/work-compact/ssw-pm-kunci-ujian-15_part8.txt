@@ -1,0 +1,78 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-15 (Soal Ujian 15) | Batch qa-batch-03 | Part 8 (Q29-32 of 38)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=kunci-ujian-15-q029 | KEY=B (idx=1) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 15.pdf p.8 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Untuk mencegah perkembangbiakan mikroorganisme, apa yang harus dilakukan? Pilihl" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しくないものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>繁殖<rt>はんしょく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため、<ruby>何<rt>なに</rt></ruby>をするべきですか。<ruby>正<rt>ただ</rt></ruby>しくないものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk mencegah perkembangbiakan mikroorganisme, apa yang harus dilakukan? Pilihlah satu yang tidak benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 8, nomor 29 (Q29). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 42–44), makanan setelah dipanaskan harus segera didinginkan dengan cepat, bukan didinginkan perlahan.
+  INLINE_KOTOBA_COUNT: 16
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-u1416-63ee1868fb] 繁殖(はんしょく) [word] = perkembangbiakan / pembiakan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0006] 正しくない(ただしくない) [inflected_adj, df:正しい] = tidak benar / tidak tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>冷蔵室<rt>れいぞうしつ</rt></ruby>などの<ruby>温度<rt>おんど</rt></ruby>を<ruby>測定<rt>そくてい</rt></ruby>する
+    TRANS: Mengukur suhu ruang pendingin dan lainnya secara berkala
+    KOTOBA: [kb-otaff51-0271] 定期的(ていきてき) [adjective] = secara berkala / rutin | [kb-u1416-123cb48eb6] 冷蔵室(れいぞうしつ) [word] = ruang pendingin / chiller | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-1404570] 測定(そくてい) [word] = pengukuran
+  OPT B: HTML=<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>をゆっくり<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Mendinginkan makanan yang telah dipanaskan secara perlahan-lahan.
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan
+  OPT C: HTML=<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>後早<rt>あとはや</rt></ruby>めに<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Segera mendinginkan makanan setelah dipanaskan.
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-audit-0026] 早めに(はやめに) [word] = lebih awal / segera | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan
+
+=== #Q30 | ID=kunci-ujian-15-q030 | KEY=A (idx=0) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 15.pdf p.8 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Jika ada orang yang terkena sengatan panas (heatstroke / necchuushou), apa yang " || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-2233690 "気": kotoba="け" vs ruby="き"
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>がでたら、どうしますか。<ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Jika ada orang yang terkena sengatan panas (heatstroke / necchuushou), apa yang harus dilakukan? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 8, nomor 30 (Q30). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 75), jika korban heatstroke kehilangan kesadaran atau tidak merespons, wajib segera memanggil ambulans dan membawa ke rumah sakit, bukan sekadar menunggu sampai sadar.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-otaff51-0425] 熱中症(ねっちゅうしょう) [compound_technical] = sengatan panas (heatstroke) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-audit-0607] でたら(でたら) [inflected_verb, df:出る] = jika muncul / keluar | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>気<rt>き</rt></ruby>を<ruby>失<rt>うしな</rt></ruby>った<ruby>人<rt>ひと</rt></ruby>は、<ruby>気<rt>き</rt></ruby>がつくまで<ruby>待<rt>ま</rt></ruby>つ。
+    TRANS: Bagi orang yang kehilangan kesadaran (pingsan), tunggu saja sampai sadar kembali.
+    KOTOBA: [kb-2233690] 気(け) [standalone_term] = Tanda-tanda / indikasi gejala | [kb-audit-0507] 失った(うしなった) [inflected_verb, df:失う] = kehilangan (kesadaran) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-1204] 気がつく(きがつく) [expression] = menyadari / memperhatikan | [kb-v2-p3-328] 待つ(まつ) [word] = menunggu
+  OPT B: HTML=<ruby>涼<rt>すず</rt></ruby>しい<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>避難<rt>ひなん</rt></ruby>させる。
+    TRANS: Mengevakuasi/memindahkannya ke tempat yang sejuk.
+    KOTOBA: [kb-latsol-suzushii] 涼しい(すずしい) [word] = sejuk | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-1484660] 避難(ひなん) [word] = evakuasi
+  OPT C: HTML=<ruby>服<rt>ふく</rt></ruby>などを<ruby>緩<rt>ゆる</rt></ruby>めて<ruby>体<rt>からだ</rt></ruby>を<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Melonggarkan pakaian dan mendinginkan tubuhnya.
+    KOTOBA: [kb-v2-p2-073] 服(ふく) [word] = pakaian | [kb-audit-0068] 緩めて(ゆるめて) [inflected_verb, df:緩める] = melonggarkan (pakaian/baut) | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan
+
+=== #Q31 | ID=kunci-ujian-15-q031 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.8 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Untuk tujuan apa kita masuk ke dalam air shower? Pilihlah satu yang benar."
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>何<rt>なん</rt></ruby>のためにエアシャワーに<ruby>入<rt>はい</rt></ruby>りますか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk tujuan apa kita masuk ke dalam air shower? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 8, nomor 31 (Q31). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 28), air shower berfungsi merontokkan rambut dan debu yang menempel di pakaian kerja.
+  INLINE_KOTOBA_COUNT: 12
+  KOTOBA_PROMPT: [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p4-069] エアシャワー(-) [technical] = air shower (bilik hembus udara) | [kb-v2-p1-124] 入りますか(はいりますか) [inflected_verb, df:入る] = masuk (dasar: 入る) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>やほこりを<ruby>落<rt>お</rt></ruby>とすため
+    TRANS: Untuk merontokkan/menghilangkan rambut dan debu
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-v2-p1-214] 落とす(おとす) [word] = menghilangkan / menjatuhkan
+  OPT B: HTML=<ruby>消毒<rt>しょうどく</rt></ruby>するため
+    TRANS: Untuk melakukan disinfeksi
+    KOTOBA: [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi
+  OPT C: HTML=<ruby>体<rt>からだ</rt></ruby>をきれいにするため
+    TRANS: Untuk membersihkan tubuh
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi
+
+=== #Q32 | ID=kunci-ujian-15-q032 | KEY=C (idx=2) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.8 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Saat mengenakan pakaian kerja dengan benar, apa yang dipakai agar rambut tidak m" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着<rt>き</rt></ruby>るとき、<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>が<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>らないように、<ruby>何<rt>なに</rt></ruby>をつけますか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat mengenakan pakaian kerja dengan benar, apa yang dipakai agar rambut tidak masuk ke dalam makanan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 8, nomor 32 (Q32). Bobot: 3.95 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 26), pekerja wajib mengenakan jaring penutup rambut (ヘアネット／髪の毛ネット) di dalam topi kerja.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-162] 入らない(はいらない) [inflected, df:入る] = tidak masuk | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0917] つけます(つけます) [inflected_verb, df:つける] = memakai / memasang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=ヘアクリーム（<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>をおさえる）
+    TRANS: Krim rambut (untuk merapikan rambut)
+    KOTOBA: [kb-v2-p6-240] ヘアクリーム(-) [word] = krim rambut | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-u1416-e1b911196a] おさえる(おさえる) [word] = menahan / merapikan
+  OPT B: HTML=アルコール（<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>を<ruby>消毒<rt>しょうどく</rt></ruby>する）
+    TRANS: Alkohol (untuk mendisinfeksi rambut)
+    KOTOBA: [kb-v2-p2-001] アルコール(-) [technical] = alkohol | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi
+  OPT C: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>ネット（<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>がでないようにする）
+    TRANS: Jaring rambut / hairnet (agar rambut tidak keluar)
+    KOTOBA: [kb-u1416-e877db73bd] 髪の毛ネット(かみのけねっと) [word] = jaring penutup rambut (hairnet) | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar

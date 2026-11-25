@@ -1,0 +1,75 @@
+# AUDIT SHEET: bonus-soal-10 (Bonus Soal 10) | Batch qa-batch-06 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=bonus-soal-10-q025 | KEY=B (idx=1) | CAT= | SRC=Bonus soal 10.pdf p.6 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0454 (消毒す): "mendisinfeksi (typo: 消毒する)"
+  CLUSTER CL-0019 (n=2, diffPrompt=false, diffOpt=true, diffTrans=false): twins=kunci1-q020 (ssw-pm-kunci-ujian-1)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に、どんなことに<ruby>注意<rt>ちゅうい</rt></ruby>しますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びな<br>さい。
+  QUESTION_TEXT: 作業場に入る前に、どんなことに注意しますか。間違っているものを一つ選びな
+さい。
+  PROMPT_TRANS: Hal apa yang harus diperhatikan sebelum masuk ke area kerja? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 6, Soal 25) · Kunci Jawaban Sumber: B.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0381] 注意(ちゅうい) [noun] = perhatian / peringatan | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>かどうか<ruby>確認<rt>かくにん</rt></ruby>してから<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>る。
+    TRANS: Memastikan kebersihan pakaian kerja sebelum mengenakannya.
+    KOTOBA: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-v2-p1-317] かどうか(-) [particle] = apakah ... atau tidak | [kb-audit-0930] 確認して(かくにんして) [inflected_verb, df:確認する] = memeriksa lalu (~て) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=トイレのあと <ruby>手洗<rt>てあら</rt></ruby>いでは、せっけんだけ<ruby>使<rt>つか</rt></ruby>う。
+    TRANS: Hanya menggunakan sabun saja saat mencuci tangan setelah dari toilet.
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-otaff51-0698] あと(あと) [noun] = setelahnya / sisa | [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-otaff51-0706] せっけん(せっけん) [noun] = sabun cuci tangan | [kb-v2-p1-335] だけ(-) [particle] = hanya | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=<ruby>汚染区<rt>おせんく</rt></ruby>から<ruby>非汚染区<rt>ひおせんく</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>時<rt>とき</rt></ruby>は、<ruby>作業靴<rt>さぎょうくつ</rt></ruby>を<ruby>消毒<rt>しょうどく</rt></ruby>す。
+    TRANS: Melakukan disinfeksi sepatu kerja saat memasuki area tidak terkontaminasi dari area terkontaminasi.
+    KOTOBA: [kb-ext-0149-e6b19ae69f] 汚染区(おせんく) [compound_technical] = zona kotor (terkontaminasi) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-ext-1481-e99d9ee6b1] 非汚染区(ひおせんく) [compound_technical] = zona bersih (non-terkontaminasi) | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-ext-0627-e4bd9ce6a5] 作業靴(さぎょうくつ) [compound_technical] = sepatu kerja | [kb-audit-0454] 消毒す(しょうどくす) [word] = mendisinfeksi (typo: 消毒する) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q26 | ID=bonus-soal-10-q026 | KEY=C (idx=2) | CAT= | SRC=Bonus soal 10.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>日本<rt>にほん</rt></ruby>の<ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>では<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>制定温度<rt>せいていおんど</rt></ruby>は<ruby>何度以下<rt>なんどいか</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby><br>びなさい。
+  QUESTION_TEXT: 日本の食品衛生法では冷凍庫の制定温度は何度以下ですか。正しいものを一つ選
+びなさい。
+  PROMPT_TRANS: Menurut Undang-Undang Higiene Pangan Jepang, berapakah suhu yang ditetapkan untuk freezer (lemari pembeku)? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 7, Soal 26) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-1582710] 日本(にほん) [word] = Jepang | [kb-otaff51-0653] 食品衛生法(しょくひんえいせいほう) [compound_technical] = Undang-Undang Higiene Pangan Jepang | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-ext-1005-e588b6e5ae] 制定温度(せいていおんど) [word] = suhu yang telah ditetapkan | [kb-ext-0183-e4bd95e5ba] 何度以下(なんどいか) [word] = berapa derajat atau kurang | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=-5<ruby>度以下<rt>どいか</rt></ruby>
+    TRANS: -5°C atau lebih rendah
+    KOTOBA: [kb-ext-1331-e5baa6e4bb] 度以下(どいか) [word] = derajat ke bawah
+  OPT B: HTML=-10<ruby>度以下<rt>どいか</rt></ruby>
+    TRANS: -10°C atau lebih rendah
+    KOTOBA: [kb-ext-1331-e5baa6e4bb] 度以下(どいか) [word] = derajat ke bawah
+  OPT C: HTML=-15<ruby>度以下<rt>どいか</rt></ruby>
+    TRANS: -15°C atau lebih rendah
+    KOTOBA: [kb-ext-1331-e5baa6e4bb] 度以下(どいか) [word] = derajat ke bawah
+
+=== #Q27 | ID=bonus-soal-10-q027 | KEY=A (idx=0) | CAT= | SRC=Bonus soal 10.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>ったものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai pakaian kerja.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 7, Soal 27) · Kunci Jawaban Sumber: A.
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0652] 間違った(まちがった) [inflected_verb, df:間違う] = yang keliru / salah | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ポケットやボタンがついたものでもよい。
+    TRANS: Boleh menggunakan pakaian yang memiliki saku atau kancing.
+    KOTOBA: [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT B: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>下<rt>した</rt></ruby>にはＴシャツなどボタンのないものを<ruby>着用<rt>ちゃくよう</rt></ruby>する
+    TRANS: Mengenakan pakaian tanpa kancing seperti kaus (T-shirt) di balik pakaian kerja
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p5-099] Ｔシャツ(てぃーしゃつ) [word] = kaos (T-shirt) | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-pilot51-022] 着用する(ちゃくようする) [verb] = mengenakan / memakai | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>袖<rt>そで</rt></ruby>はゴムなどで<ruby>絞<rt>しぼ</rt></ruby>りのあるものを<ruby>使用<rt>しよう</rt></ruby>する
+    TRANS: Menggunakan pakaian kerja yang bagian ujung lengannya memiliki kerutan seperti karet
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-otaff51-0548] 袖(そで) [noun] = lengan baju | [kb-ext-0015-e382b4e383] ゴム(ごむ) [word] = karet | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p5-307] 絞りのある(しぼりのある) [expression] = berkerut / berkaret (lengan) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q28 | ID=bonus-soal-10-q028 | KEY=B (idx=1) | CAT= | SRC=Bonus soal 10.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>包装工程<rt>ほうそうこうてい</rt></ruby>でプラスティックや<ruby>石<rt>いし</rt></ruby>、ガラスなどの<ruby>異物<rt>いぶつ</rt></ruby>はどんな<ruby>機械<rt>きかい</rt></ruby>で<ruby>検出<rt>けんしゅつ</rt></ruby>できます<br>か。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 包装工程でプラスティックや石、ガラスなどの異物はどんな機械で検出できます
+か。正しいものを一つ選びなさい。
+  PROMPT_TRANS: Pada proses pengemasan, benda asing seperti plastik, batu, atau kaca dapat dideteksi dengan mesin apa? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 7, Soal 28) · Kunci Jawaban Sumber: B.
+  KOTOBA_PROMPT: [kb-otaff51-0204] 包装工程(ほうそうこうてい) [compound_technical] = tahapan pengemasan | [kb-v2-p5-096] プラスティック(-) [word] = plastik | [kb-otaff51-0468] 石(いし) [noun] = batu | [kb-v2-p1-057] ガラス(-) [word] = kaca | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-1257940] 検出(けんしゅつ) [word] = deteksi / pendeteksian | [kb-v2-p1-125] できますか(できますか) [inflected_verb, df:できる] = dapat dibuat (dasar: できる) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>。
+    TRANS: Detektor logam.
+    KOTOBA: [kb-ext-0411-e98791e5b1] 金属検出器(きんぞくけんしゅつき) [compound_technical] = detektor logam
+  OPT B: HTML=Ｘ<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>
+    TRANS: Detektor benda asing sinar-X (X-ray)
+    KOTOBA: [kb-v2-p5-079] Ｘ線異物検出器(えっくすせんいぶつけんしゅつき) [compound_technical] = detektor benda asing sinar-X
+  OPT C: HTML=レントゲン<ruby>検査機<rt>けんさき</rt></ruby>
+    TRANS: Mesin pemeriksaan rontgen
+    KOTOBA: [kb-v2-p5-081] レントゲン検査機(れんとげんけんさき) [compound_technical] = mesin pemeriksa rontgen

@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-12 (Soal Ujian 12 — CBTP Gino1) | Batch qa-batch-03 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=kunci-ujian-12-q029 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0548 (しょくちゅうど): "keracunan makanan (typo: 食中毒)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0548 (しょくちゅうど): "keracunan makanan (typo: 食中毒)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0548 (しょくちゅうど): "keracunan makanan (typo: 食中毒)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: しょくちゅうどくきんとはなんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dimaksud dengan bakteri penyebab keracunan makanan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 5, Câu 29 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-latsol-616f219e2d] しょくちゅうどくきん(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=しょくちゅうどのげんいんになるさいきん
+    TRANS: Bakteri yang menjadi penyebab keracunan makanan
+    KOTOBA: [kb-audit-0548] しょくちゅうど(しょくちゅうどく) [word] = keracunan makanan (typo: 食中毒) | [kb-audit-0671] げんいん(げんいん) [word] = penyebab | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-audit-0278] さいきん(さいきん) [word] = bakteri (細菌) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=しょくちゅうどのげんいんになるぶっしつ
+    TRANS: Zat kimia yang menjadi penyebab keracunan makanan
+    KOTOBA: [kb-audit-0548] しょくちゅうど(しょくちゅうどく) [word] = keracunan makanan (typo: 食中毒) | [kb-audit-0671] げんいん(げんいん) [word] = penyebab | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-audit-0279] ぶっしつ(ぶっしつ) [word] = zat / substansi (物質) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=しょくちゅうどのげんいんになるびょうげん
+    TRANS: Semua patogen yang menjadi penyebab keracunan makanan
+    KOTOBA: [kb-audit-0548] しょくちゅうど(しょくちゅうどく) [word] = keracunan makanan (typo: 食中毒) | [kb-audit-0671] げんいん(げんいん) [word] = penyebab | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-audit-0280] びょうげん(びょうげん) [word] = patogen / penyebab penyakit (病原) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q30 | ID=kunci-ujian-12-q030 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: しょくちゅうどくよぼうの3げんそくのつけないとはなんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dimaksud dengan prinsip "Tidak menempelkan (Tsukenai)" dalam 3 prinsip pencegahan keracunan makanan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 5, Câu 30 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0199] しょくちゅうどく(しょくちゅうどく) [word] = keracunan makanan (食中毒) | [kb-audit-0699] よぼう(よぼう) [word] = pencegahan | [kb-audit-0187] げんそく(げんそく) [word] = prinsip dasar (原則) | [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=えいせいてきなしょくひんをうけいれること
+    TRANS: Menerima bahan pangan yang higienis
+    KOTOBA: [kb-v2-p6-632] えいせいてき(-) [word] = higienis / bersih secara sanitasi | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-0749] うけいれる(うけいれる) [word] = menerima bahan/barang | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=てあらいをてっていしきかいやちょうりきぐをよくせんじょうさっきんすること
+    TRANS: Mencuci tangan secara menyeluruh serta mencuci dan mensterilkan mesin maupun peralatan masak dengan baik
+    KOTOBA: [kb-audit-0668] てあらい(てあらい) [word] = cuci tangan | [kb-audit-0670] てっていし(てっていし) [inflected_verb, df:徹底する] = menerapkan secara ketat | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0213] ちょうり(ちょうり) [word] = memasak / pengolahan makanan (調理) | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-audit-0077] せんじょう(せんじょう) [word] = pencucian / pembersihan (洗浄) | [kb-audit-0212] さっきん(さっきん) [word] = sterilisasi / pembunuhan bakteri (殺菌) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT C: HTML=さぎょうかいしするまえにあんぜんかくにんをおこなう
+    TRANS: Melakukan pemeriksaan keselamatan sebelum memulai pekerjaan
+    KOTOBA: [kb-audit-1073] さぎょうかいし(さぎょうかいし) [word] = mulainya pekerjaan (作業開始) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p6-570] まえ(-) [word] = sebelum / depan | [kb-v2-p6-541] あんぜん(-) [word] = keselamatan / aman | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認) | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q31 | ID=kunci-ujian-12-q031 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.6 ===
+  FLAGS: [JP_NACLO_DIGIT@prompt] Suspicious NaClO OCR spelling
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: .のうど5%NaClOようえきがあります1000ppmのNaClOようえきをつくるときにこのばあいになんばいになりますかただしいものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Tersedia larutan NaClO (natrium hipoklorit) dengan konsentrasi 5%. Ketika ingin membuat larutan NaClO 1000 ppm, berapa kali pengenceran yang diperlukan dalam kasus ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 6, Câu 31 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0210] のうど(のうど) [word] = konsentrasi / kepekatan (濃度) | [kb-audit-0186] %(-) [technical] = persen (satuan persentase %) | [kb-v2-p1-019] NaClO(-) [abbreviation] = natrium hipoklorit | [kb-v2-p1-305] よう(-) [particle] = agar / supaya | [kb-v2-p5-367] えき(-) [word] = cairan (larutan) | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-audit-0421] つくる(つくる) [word] = membuat / memproduksi (作る) | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-0091] ばあい(ばあい) [word] = keadaan / apabila terjadi (場合) | [kb-audit-0674] なんばい(なんばい) [word] = berapa kali lipat | [kb-audit-1163] なりますか(なりますか) [expression] = apakah menjadi (なる) | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT A: HTML=5ばい
+    TRANS: 5 kali
+    KOTOBA: [kb-audit-0673] ばい(ばい) [suffix] = kali lipat
+  OPT B: HTML=50ばい
+    TRANS: 50 kali
+    KOTOBA: [kb-audit-0673] ばい(ばい) [suffix] = kali lipat
+  OPT C: HTML=500ばい
+    TRANS: 500 kali
+    KOTOBA: [kb-audit-0673] ばい(ばい) [suffix] = kali lipat
+
+=== #Q32 | ID=kunci-ujian-12-q032 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.6 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-audit-0494 "コカ・コーラ": kotoba="こか・こーら" vs ruby="こから" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0530 (たうと): "jika mengikuti (typo: したがうと)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: したは8l<ruby>コカ・コーラ<rt>こから</rt></ruby>のはいごうでこのはいごうにたうとシロップ50mlがあればコカ・コーラはなんlつくれますかみず:5Lシロップ:2Lカラメルソース:1L
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di bawah ini adalah komposisi untuk 8 L Coca-Cola (Air: 5 L, Sirup: 2 L, Saus karamel: 1 L). Berdasarkan komposisi ini, jika tersedia 50 ml sirup, berapa banyak Coca-Cola yang dapat dibuat?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 6, Câu 32 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-v2-p6-490] l(-) [technical] = liter (satuan volume) | [kb-audit-0494] コカ・コーラ(こか・こーら) [word] = Coca-Cola | [kb-audit-0680] はいごう(はいごう) [word] = takaran / formula bahan | [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-0530] たうと(したがうと) [expression, df:従う] = jika mengikuti (typo: したがうと) | [kb-v2-p6-231] シロップ(-) [word] = sirup | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-audit-0916] なん(なん) [word] = apa / berapa | [kb-audit-0628] つくれます(つくれます) [inflected_verb, df:作る] = dapat dibuat | [kb-audit-0347] みず(みず) [word] = air (水) | [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan) | [kb-v2-p6-230] カラメルソース(-) [word] = saus karamel | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=100ml
+    TRANS: 100 ml
+    KOTOBA: [kb-v2-p1-021] ml(-) [abbreviation] = mililiter
+  OPT B: HTML=200ml
+    TRANS: 200 ml
+    KOTOBA: [kb-v2-p1-021] ml(-) [abbreviation] = mililiter
+  OPT C: HTML=300ml
+    TRANS: 300 ml
+    KOTOBA: [kb-v2-p1-021] ml(-) [abbreviation] = mililiter

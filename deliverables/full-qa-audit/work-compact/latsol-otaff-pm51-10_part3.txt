@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-10 (Latsol OTAFF SSW PM Modul 5.1 - Paket 10) | Batch qa-batch-12 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=otaff-pm51-10-q009 | KEY=C (idx=2) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.34 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>食肉<rt>しょくにく</rt></ruby>」と「<ruby>食肉製品<rt>しょくにくせいひん</rt></ruby>（ハム・ソーセージ・ベーコン）」の<ruby>冷蔵保管温度<rt>れいぞうほかんおんど</rt></ruby>はそれぞれ<ruby>何度<rt>なんど</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berapakah suhu penyimpanan dingin masing-masing untuk 'daging segar (shokuniku)' dan 'produk olahan daging (ham, sosis, bacon)'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 34 (Bab 2.3(4)①イ Tabel Suhu Penyimpanan, hal. 29 teks). Bobot: 3 poin. Kunci jawaban: C. Sesuai tabel halaman 29 teks: 食肉 dan 食肉製品（ハム・ソーセージ・ベーコン） keduanya disimpan pada suhu ≤10°C, sedangkan 冷凍食肉 dan 冷凍食肉製品 keduanya disimpan pada suhu ≤-15°C.
+  INLINE_KOTOBA_COUNT: 14
+  KOTOBA_PROMPT: [kb-1358580] 食肉(しょくにく) [word] = daging konsumsi | [kb-ext-0929-e9a39fe882] 食肉製品(しょくにくせいひん) [word] = Produk olahan daging (ham, sosis, bacon) | [kb-otaff51-1648] ハム・ソーセージ・ベーコン(はむそーせーじべーこん) [noun] = ham, sosis, dan bakon | [kb-otaff51-1649] 冷蔵保管温度(れいぞうほかんおんど) [compound_technical] = suhu penyimpanan dingin | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=どちらも 20℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Keduanya 20°C ke bawah
+    KOTOBA: [kb-v2-p3-130] どちらも(-) [word] = keduanya | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah
+  OPT B: HTML=<ruby>食肉<rt>しょくにく</rt></ruby>は25℃、<ruby>食肉製品<rt>しょくにくせいひん</rt></ruby>は15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Daging segar 25°C, produk olahan daging 15°C ke bawah
+    KOTOBA: [kb-1358580] 食肉(しょくにく) [word] = daging konsumsi | [kb-ext-0929-e9a39fe882] 食肉製品(しょくにくせいひん) [word] = Produk olahan daging (ham, sosis, bacon) | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah
+  OPT C: HTML=どちらも「10℃<ruby>以下<rt>いか</rt></ruby>」（※<ruby>冷凍<rt>れいとう</rt></ruby>の<ruby>場合<rt>ばあい</rt></ruby>はどちらも「-15℃<ruby>以下<rt>いか</rt></ruby>」）
+    TRANS: Keduanya '10°C ke bawah' (dan jika berupa daging/olahan daging beku keduanya '-15°C ke bawah')
+    KOTOBA: [kb-v2-p3-130] どちらも(-) [word] = keduanya | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah | [kb-1557170] 冷凍(れいとう) [word] = pembekuan | [kb-1355810] 場合(ばあい) [word] = kasus / situasi
+
+=== #Q10 | ID=otaff-pm51-10-q010 | KEY=B (idx=1) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.40 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:C] 台車
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ボトルやキャップ、<ruby>袋<rt>ふくろ</rt></ruby>など、<ruby>充填<rt>じゅうてん</rt></ruby>や<ruby>包装<rt>ほうそう</rt></ruby>に<ruby>使<rt>つか</rt></ruby>う<ruby>容器<rt>ようき</rt></ruby>・<ruby>包装材料<rt>ほうそうざいりょう</rt></ruby>を<ruby>扱<rt>あつか</rt></ruby>うときに、<ruby>特<rt>とく</rt></ruby>に「<ruby>手<rt>て</rt></ruby>で<ruby>触<rt>さわ</rt></ruby>ったりしてはいけない<ruby>部分<rt>ぶぶん</rt></ruby>」はどこですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat menangani wadah atau material kemasan seperti botol, tutup botol, atau kantong kemasan untuk pengisian dan pengemasan, bagian manakah yang secara khusus 'dilarang disentuh dengan tangan'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 40 (Bab 2.3(4)④, hal. 35 teks). Bobot: 3 poin. Kunci jawaban: B. 特にボトルの口の部分やキャップ、袋の内側を手で触ったりしてはいけません.
+  INLINE_KOTOBA_COUNT: 28
+  KOTOBA_PROMPT: [kb-otaff51-0766] ボトル(ぼとる) [noun] = botol | [kb-otaff51-0806] キャップ(きゃっぷ) [noun] = tutup botol | [kb-v2-p5-143] 袋(ふくろ) [word] = kantong / kemasan plastik | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p4-095] 充填(じゅうてん) [word] = pengisian ke kemasan | [kb-1515510] 包装(ほうそう) [word] = pengemasan / kemasan | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-1545370] 容器(ようき) [word] = wadah | [kb-otaff51-0205] 包装材料(ほうそうざいりょう) [compound_technical] = material / bahan kemasan | [kb-v2-p5-417] 扱う(あつかう) [word] = menangani / mengolah | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p1-170] 触った(さわった) [inflected_verb, df:触る] = yang menyentuh (dasar: 触る) | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>段<rt>だん</rt></ruby>ボール<ruby>箱<rt>ばこ</rt></ruby>の<ruby>外側<rt>そとがわ</rt></ruby>の<ruby>底<rt>そこ</rt></ruby>
+    TRANS: Bagian bawah luar dari kotak kardus
+    KOTOBA: [kb-otaff51-0360] 段ボール箱(だんぼーるばこ) [noun] = kotak kardus | [kb-1577440] 外側(そとがわ) [word] = bagian sisi luar | [kb-otaff51-1650] 底(そこ) [noun] = bagian dasar / bawah
+  OPT B: HTML=ボトルの<ruby>口<rt>くち</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>やキャップ、<ruby>袋<rt>ふくろ</rt></ruby>の<ruby>内側<rt>うちがわ</rt></ruby>
+    TRANS: Bagian mulut botol, tutup botol (cap), dan bagian dalam kantong kemasan
+    KOTOBA: [kb-otaff51-0766] ボトル(ぼとる) [noun] = botol | [kb-v2-p2-075] 口(くち) [word] = mulut | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-otaff51-0806] キャップ(きゃっぷ) [noun] = tutup botol | [kb-v2-p5-143] 袋(ふくろ) [word] = kantong / kemasan plastik | [kb-1458770] 内側(うちがわ) [word] = bagian sisi dalam
+  OPT C: HTML=<ruby>運搬用<rt>うんぱんよう</rt></ruby>台車のハンドル
+    TRANS: Pegangan troli pengangkut
+    KOTOBA: [kb-otaff51-1651] 運搬用(うんぱんよう) [noun] = untuk pengangkutan barang | [kb-1412630] 台車(だいしゃ) [word] = troli dorong barang | [kb-otaff51-1652] ハンドル(はんどる) [noun] = pegangan / gagang dorong
+
+=== #Q11 | ID=otaff-pm51-10-q011 | KEY=A (idx=0) | CAT=第2章 4. HACCPによる衛生管理（Bab 2.4: Manajemen Higiene HACCP） | SRC=Bab 1-3.pdf p.45 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>金属探知機<rt>きんぞくたんちき</rt></ruby>が<ruby>正常<rt>せいじょう</rt></ruby>に<ruby>機能<rt>きのう</rt></ruby>していなかった<ruby>場合<rt>ばあい</rt></ruby>におこなう「<ruby>改善措置<rt>かいぜんそち</rt></ruby>」の<ruby>内容<rt>ないよう</rt></ruby>として、テキストに<ruby>書<rt>か</rt></ruby>かれている<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu isi 'tindakan korektif (kaizen sochi)' yang benar sebagaimana tertulis di dalam buku teks apabila mesin detektor logam tidak berfungsi secara normal.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 45 (Bab 2.4(4), hal. 40 teks). Bobot: 3 poin. Kunci jawaban: A. 金属探知機が正常に機能していなかった場合、正常に機能するように機械を調整することと、そのうえで調整した、金属探知機でもう一度検査することも、改善措置です.
+  INLINE_KOTOBA_COUNT: 28
+  KOTOBA_PROMPT: [kb-1243060] 金属探知機(きんぞくたんちき) [word] = alat detektor logam | [kb-1377390] 正常(せいじょう) [word] = normal / sesuai standar | [kb-1221130] 機能(きのう) [word] = fungsi | [kb-v2-p1-102] していなかった(-) [inflected_verb, df:する] = tidak sedang melakukan | [kb-1355810] 場合(ばあい) [word] = kasus / situasi | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-ext-0233-e694b9e596] 改善措置(かいぜんそち) [word] = tindakan koreksi (perbaikan) | [kb-1459400] 内容(ないよう) [word] = isi / rincian | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-v2-p6-505] 書かれている(かかれている) [inflected, df:書く] = tertulis | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>正常<rt>せいじょう</rt></ruby>に<ruby>機能<rt>きのう</rt></ruby>するように<ruby>機械<rt>きかい</rt></ruby>を<ruby>調整<rt>ちょうせい</rt></ruby>することと、そのうえで<ruby>調整<rt>ちょうせい</rt></ruby>した<ruby>金属探知機<rt>きんぞくたんちき</rt></ruby>でもう<ruby>一度検査<rt>いちどけんさ</rt></ruby>すること。
+    TRANS: Menyetel mesin agar berfungsi normal kembali, lalu memeriksa ulang produk menggunakan mesin detektor logam yang telah disetel tersebut.
+    KOTOBA: [kb-1377390] 正常(せいじょう) [word] = normal / sesuai standar | [kb-1221130] 機能(きのう) [word] = fungsi | [kb-1220810] 機械(きかい) [word] = mesin | [kb-1429200] 調整(ちょうせい) [word] = penyesuaian setelan/formulasi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-091] うえ(-) [word] = atas | [kb-1243060] 金属探知機(きんぞくたんちき) [word] = alat detektor logam | [kb-otaff51-0751] もう一度(もういちど) [adverb] = sekali lagi | [kb-1257890] 検査(けんさ) [word] = pemeriksaan / inspeksi
+  OPT B: HTML=<ruby>金属探知機<rt>きんぞくたんちき</rt></ruby>の<ruby>電源<rt>でんげん</rt></ruby>を<ruby>切<rt>き</rt></ruby>って、<ruby>検査<rt>けんさ</rt></ruby>なしで<ruby>出荷<rt>しゅっか</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>けること。
+    TRANS: Mematikan daya detektor logam dan melanjutkan pengiriman tanpa pemeriksaan.
+    KOTOBA: [kb-1243060] 金属探知機(きんぞくたんちき) [word] = alat detektor logam | [kb-1443220] 電源(でんげん) [word] = sumber daya listrik mesin | [kb-latsol-cb0a701899] 切って(きって) [word] = memotong / mematikan | [kb-1257890] 検査(けんさ) [word] = pemeriksaan / inspeksi | [kb-1338350] 出荷(しゅっか) [word] = pengiriman produk jadi | [kb-v2-p5-329] 続ける(つづける) [word] = melanjutkan | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+  OPT C: HTML=コンベアの<ruby>加熱温度<rt>かねつおんど</rt></ruby>を10℃<ruby>下<rt>さ</rt></ruby>げること。
+    TRANS: Menurunkan suhu pemanasan konveyor sebesar 10°C.
+    KOTOBA: [kb-latsol-1c58f70948] コンベア(こんべあ) [word] = ban berjalan (konveyor) | [kb-ext-latsol-0038] 加熱温度(かねつおんど) [word] = suhu pemanasan | [kb-u1416-9840fbe99b] 下げる(さげる) [word] = menurunkan | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+
+=== #Q12 | ID=otaff-pm51-10-q012 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.15 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-ext-1070-e8b5a4e8ba "赤身魚": kotoba="あかみさかな" vs ruby="あかみざかな"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「ヒスタミン<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>」の<ruby>原因<rt>げんいん</rt></ruby>となりやすい<ruby>魚<rt>さかな</rt></ruby>の<ruby>具体例<rt>ぐたいれい</rt></ruby>として、テキストに<ruby>挙<rt>あ</rt></ruby>げられている4<ruby>種類<rt>しゅるい</rt></ruby>の<ruby>赤身魚<rt>あかみざかな</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah 4 jenis ikan berdaging merah (akami-zakana) yang disebutkan di dalam buku teks sebagai contoh konkret ikan yang sering menjadi penyebab 'keracunan makanan histamin'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 15 (Bab 2.2(2)②, hal. 10 teks). Bobot: 3 poin. Kunci jawaban: C. 特にマグロやアジ、イワシ、サバなどの赤身魚には、「ヒスタミン」という物質が含まれている場合があります.
+  INLINE_KOTOBA_COUNT: 27
+  KOTOBA_PROMPT: [kb-otaff51-0066] ヒスタミン食中毒(ひすたみんしょくちゅうどく) [compound_technical] = keracunan makanan akibat histamin | [kb-1261190] 原因(げんいん) [word] = penyebab | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-v2-p5-134] 魚(さかな) [word] = ikan | [kb-otaff51-0753] 具体例(ぐたいれい) [noun] = contoh konkret | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-otaff51-0731] 挙げられている(あげられている) [inflected_verb, df:挙げる] = disebutkan / tercantum | [kb-1328890] 種類(しゅるい) [word] = jenis / macam | [kb-ext-1070-e8b5a4e8ba] 赤身魚(あかみさかな) [word] = ikan berdaging merah | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=タラ、ヒラメ、カレイ、フグ
+    TRANS: Ikan kod, flounder, flatfish, dan ikan buntal
+    KOTOBA: [kb-otaff51-1653] タラ(たら) [noun] = ikan kod (tara) | [kb-otaff51-1654] ヒラメ(ひらめ) [noun] = ikan sebelah (hirame) | [kb-otaff51-1655] カレイ(かれい) [noun] = ikan lidah (karei) | [kb-v2-p6-237] フグ(-) [word] = ikan buntal
+  OPT B: HTML=アユ、コイ、ウナギ、ドジョウ
+    TRANS: Ikan ayu, ikan mas, belut unagi, dan ikan loach
+    KOTOBA: [kb-otaff51-1656] アユ(あゆ) [noun] = ikan ayu | [kb-otaff51-1657] コイ(こい) [noun] = ikan mas / koi | [kb-otaff51-1658] ウナギ(うなぎ) [noun] = belut sidat (unagi) | [kb-otaff51-1659] ドジョウ(どじょう) [noun] = ikan loach (dojou)
+  OPT C: HTML=マグロ、アジ、イワシ、サバ
+    TRANS: Tuna (maguro), makarel kuda (aji), sarden (iwashi), dan makarel (saba)
+    KOTOBA: [kb-v2-p3-077] マグロ(-) [word] = ikan tuna | [kb-v2-p5-109] アジ(-) [word] = ikan kembung (aji) | [kb-v2-p6-234] イワシ(-) [word] = ikan sarden | [kb-v2-p5-108] サバ(-) [word] = ikan makarel / kembung

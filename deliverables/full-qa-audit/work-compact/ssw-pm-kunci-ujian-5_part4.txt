@@ -1,0 +1,70 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-5 (Soal Ujian 5 — CBTP Gino1) | Batch qa-batch-01 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=kunci-ujian-5-q013 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>機械作業中<rt>きかいさぎょうちゅう</rt></ruby>に<ruby>起<rt>お</rt></ruby>こり<ruby>得<rt>う</rt></ruby>る<ruby>重大<rt>じゅうだい</rt></ruby>な<ruby>事故<rt>じこ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kecelakaan fatal apa yang dapat terjadi selama bekerja menggunakan mesin?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 3, Câu 13 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-ext-0337-e6a99fe6a2] 機械作業中(きかいさぎょうちゅう) [word] = saat mesin sedang beroperasi | [kb-v2-p6-395] 起こり得る(おこりうる) [expression] = dapat terjadi | [kb-1336500] 重大(じゅうだい) [word] = sangat serius / fatal | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>作業<rt>さぎょう</rt></ruby>が<ruby>中断<rt>ちゅうだん</rt></ruby>されることがある
+    TRANS: Pekerjaan dapat terhenti sementara
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1424900] 中断(ちゅうだん) [word] = penghentian sementara proses | [kb-v2-p3-230] される(-) [inflected, df:する] = dilakukan (pasif) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>機械<rt>きかい</rt></ruby>が<ruby>動<rt>うご</rt></ruby>かなくなることがある
+    TRANS: Mesin dapat berhenti bergerak
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p6-478] 動かなくなる(うごかなくなる) [expression] = tidak bisa bergerak lagi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>体<rt>からだ</rt></ruby>が<ruby>機械<rt>きかい</rt></ruby>にはさまって<ruby>死<rt>し</rt></ruby>ぬことがある
+    TRANS: Tubuh dapat terjepit di dalam mesin hingga menyebabkan kematian
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-1124] はさまって(はさまって) [inflected_verb, df:はさまる] = terjepit | [kb-v2-p6-413] 死ぬ(しぬ) [word] = meninggal dunia | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q14 | ID=kunci-ujian-5-q014 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>した<ruby>加工食品<rt>かこうしょくひん</rt></ruby>に<ruby>関<rt>かん</rt></ruby>する<ruby>説明<rt>せつめい</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah penjelasan yang benar mengenai pangan olahan yang menggunakan bahan baku yang mengandung zat alergen.
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 3, Câu 14 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-audit-0965] 使用した(しようした) [inflected_verb, df:使用する] = telah menggunakan | [kb-otaff51-0189] 加工食品(かこうしょくひん) [compound_technical] = makanan olahan | [kb-v2-p3-195] 関する(かんする) [word] = terkait dengan | [kb-otaff51-0573] 説明(せつめい) [noun] = penjelasan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>が<ruby>使用<rt>しよう</rt></ruby>されていることを<ruby>表示<rt>ひょうじ</rt></ruby>する<ruby>義務<rt>ぎむ</rt></ruby>があるのは「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>」です
+    TRANS: Bahan baku yang mengandung zat alergen yang wajib dicantumkan pada label adalah "Bahan baku spesifik (alergen wajib)"
+    KOTOBA: [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0126] 使用(しよう) [noun] = penggunaan | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-otaff51-0505] 義務(ぎむ) [noun] = kewajiban | [kb-v2-p1-242] ある(-) [word] = ada | [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>が<ruby>使用<rt>しよう</rt></ruby>されている<ruby>場合<rt>ばあい</rt></ruby>、その<ruby>表示<rt>ひょうじ</rt></ruby>は<ruby>推奨<rt>すいしょう</rt></ruby>されているだけで<ruby>義務<rt>ぎむ</rt></ruby>ではない
+    TRANS: Jika menggunakan bahan baku yang mengandung zat alergen, pencantumannya hanya bersifat anjuran dan bukan kewajiban
+    KOTOBA: [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0126] 使用(しよう) [noun] = penggunaan | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p1-268] その(-) [word] = itu | [kb-otaff51-0544] 表示(ひょうじ) [noun] = pencantuman label / tampilan | [kb-otaff51-0325] 推奨(すいしょう) [noun] = anjuran / rekomendasi | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-otaff51-0505] 義務(ぎむ) [noun] = kewajiban | [kb-v2-p1-314] ではない(-) [particle] = bukan (penegas negatif) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>が<ruby>使用<rt>しよう</rt></ruby>されていない<ruby>場合<rt>ばあい</rt></ruby>、<ruby>表示<rt>ひょうじ</rt></ruby>する<ruby>必要<rt>ひつよう</rt></ruby>はない
+    TRANS: Jika tidak menggunakan bahan baku yang mengandung zat alergen, tidak perlu mencantumkan apa pun
+    KOTOBA: [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0126] 使用(しよう) [noun] = penggunaan | [kb-v2-p2-265] されて(-) [inflected, df:する] = dilakukan dan | [kb-audit-0462] いない(いない) [inflected_verb, df:いる] = tidak ada / belum dilakukan | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q15 | ID=kunci-ujian-5-q015 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ５エスにおける<ruby>整頓<rt>せいとん</rt></ruby>の<ruby>方法<rt>ほうほう</rt></ruby>にはどのようなことが<ruby>含<rt>ふく</rt></ruby>まれますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal apa saja yang termasuk dalam metode Penataan (Rapi / Seiton) pada 5S?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 3, Câu 15 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p6-546] エス(-) [technical] = huruf S (5S) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-1502] 含まれますか(ふくまれますか) [inflected_verb, df:含む] = apakah termasuk | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p3-197] おける(-) [particle] = di / pada | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=<ruby>道具<rt>どうぐ</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>や<ruby>数量<rt>すうりょう</rt></ruby>を<ruby>表示<rt>ひょうじ</rt></ruby>すること
+    TRANS: Mencantumkan nama dan jumlah peralatan
+    KOTOBA: [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-1531710] 名前(なまえ) [word] = nama | [kb-1373320] 数量(すうりょう) [word] = kuantitas / jumlah barang | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うたびに<ruby>順番<rt>じゅんばん</rt></ruby>を<ruby>変<rt>か</rt></ruby>えること
+    TRANS: Mengubah urutan setiap kali peralatan digunakan
+    KOTOBA: [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-audit-0761] たび(たび) [word] = setiap kali | [kb-1342390] 順番(じゅんばん) [word] = Giliran urutan pelaksanaan tugas | [kb-v2-p1-160] 変える(かえる) [word] = mengubah | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>道具<rt>どうぐ</rt></ruby>をまとめて<ruby>一<rt>いち</rt></ruby>か<ruby>所<rt>しょ</rt></ruby>に<ruby>収納<rt>しゅうのう</rt></ruby>すること
+    TRANS: Menyimpan semua peralatan secara bersamaan di satu tempat
+    KOTOBA: [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-v2-p4-220] まとめて(-) [word] = sekaligus / dirangkum | [kb-audit-0323] 一か所(いっかしょ) [word] = satu tempat / satu lokasi | [kb-1330830] 収納(しゅうのう) [word] = penyimpanan di rak (Seiton) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q16 | ID=kunci-ujian-5-q016 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>にやってはいけないことは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal apa yang tidak boleh dilakukan selama bekerja?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 3, Câu 16 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-audit-0890] やって(やって) [inflected_verb, df:やる] = melakukan | [kb-audit-0467] いけない(いけない) [expression, df:いく] = tidak boleh / terlarang | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>工具<rt>こうぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う
+    TRANS: Menggunakan peralatan yang tepat
+    KOTOBA: [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-1278070] 工具(こうぐ) [word] = perkakas / alat mekanik | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=よそ<ruby>見<rt>み</rt></ruby>やムダ<ruby>話<rt>はなし</rt></ruby>をする
+    TRANS: Melengos (tidak fokus melihat pekerjaan) dan mengobrol yang tidak perlu
+    KOTOBA: [kb-v2-p5-317] よそ見(よそみ) [word] = meleng / melihat ke tempat lain | [kb-v2-p2-092] ムダ話(むだばなし) [word] = obrolan tidak perlu | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>効率的<rt>こうりつてき</rt></ruby>に<ruby>進<rt>すす</rt></ruby>める
+    TRANS: Menjalankan pekerjaan secara efisien
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1275240] 効率的(こうりつてき) [word] = secara efisien | [kb-v2-p3-296] 進める(すすめる) [word] = melanjutkan proses | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

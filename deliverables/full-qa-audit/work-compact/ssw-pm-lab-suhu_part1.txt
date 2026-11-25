@@ -1,0 +1,88 @@
+# AUDIT SHEET: ssw-pm-lab-suhu (保存温度・温度管理 (Temperature Lab)) | Batch qa-batch-06 | Part 1 (Q1-4 of 28)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=lab-temp-001 | KEY=C (idx=2) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:D] kb-otaff51-0663 "食酢": kotoba="しょくす" vs ruby="しょくず"
+  INSTR: <ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>保存温度区分<rt>ほぞんおんどくぶん</rt></ruby>において、「<ruby>室温<rt>しつおん</rt></ruby>」で<ruby>保存<rt>ほぞん</rt></ruby>するものとして、<ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam klasifikasi suhu penyimpanan bahan baku, pilihlah satu item yang salah (bukan disimpan pada suhu ruang).
+  EXPLANATION: 【誤り（正解）：C (固形油脂)】
+穀類加工品（小麦粉、デンプン）、液状油脂、調味料は「室温」で保存します。一方、固形油脂（ラード、マーガリン、ショートニング）は室温ではなく「10℃以下」で冷蔵保存する必要があります。
+  KOTOBA_PROMPT: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-ext-1624-e4bf9de5ad] 保存温度区分(ほぞんおんどくぶん) [word] = klasifikasi suhu penyimpanan | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-latsol-1dee95223c] 誤っている(あやまっている) [word] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>穀類加工品<rt>こくるいかこうひん</rt></ruby>（<ruby>小麦粉<rt>こむぎこ</rt></ruby>、デンプン）
+    TRANS: Produk olahan serealia (tepung terigu, pati)
+    KOTOBA: [kb-ext-0582-e7a980e9a1] 穀類加工品(こくるいかこうひん) [word] = Produk olahan kelompok biji-bijian | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p3-063] デンプン(-) [word] = pati / tepung kanji
+  OPT B: HTML=<ruby>液状油脂<rt>えきじょうゆし</rt></ruby>（サラダ<ruby>油<rt>あぶら</rt></ruby>など）
+    TRANS: Minyak/lemak cair (minyak salad, dll.)
+    KOTOBA: [kb-otaff51-0396] 液状油脂(えきじょうゆし) [compound_technical] = minyak/lemak cair | [kb-v2-p3-062] サラダ油(さらだあぶら) [word] = minyak goreng sayur | [kb-v2-p1-336] など(-) [particle] = dan lain-lain
+  OPT C: HTML=<ruby>固形油脂<rt>こけいゆし</rt></ruby>（ラード、マーガリン、ショートニング）
+    TRANS: Minyak/lemak padat (lard, margarin, shortening)
+    KOTOBA: [kb-otaff51-0238] 固形油脂(こけいゆし) [compound_technical] = lemak padat (lard, margarin, shortening) | [kb-v2-p3-059] ラード(-) [word] = lemak babi (lard) | [kb-v2-p3-060] マーガリン(-) [word] = margarin | [kb-v2-p3-061] ショートニング(-) [word] = mentega putih (shortening)
+  OPT D: HTML=<ruby>調味料<rt>ちょうみりょう</rt></ruby>（<ruby>砂糖<rt>さとう</rt></ruby>、<ruby>食塩<rt>しょくえん</rt></ruby>、みそ、しょう<ruby>油<rt>ゆ</rt></ruby>、<ruby>食酢<rt>しょくず</rt></ruby>）
+    TRANS: Bumbu dapur (gula, garam, miso, kecap asin, cuka)
+    KOTOBA: [kb-otaff51-0574] 調味料(ちょうみりょう) [noun] = bumbu penyedap | [kb-otaff51-0469] 砂糖(さとう) [noun] = gula | [kb-otaff51-0658] 食塩(しょくえん) [noun] = garam dapur | [kb-v2-p3-064] みそ(-) [word] = miso (pasta kedelai) | [kb-otaff51-0017] しょう油(しょうゆ) [noun] = kecap asin Jepang (shoyu) | [kb-otaff51-0663] 食酢(しょくす) [noun] = cuka makan
+
+=== #Q2 | ID=lab-temp-002 | KEY=D (idx=3) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>米穀類<rt>べいこくるい</rt></ruby>（コメ）を<ruby>保管<rt>ほかん</rt></ruby>する<ruby>際<rt>さい</rt></ruby>の<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>保存温度<rt>ほぞんおんど</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu suhu penyimpanan yang benar dan tepat untuk menyimpan beras dan produk beras (kome).
+  EXPLANATION: 【正解：D (15℃以下)】
+米穀類（コメ）は虫の発生や品質劣化を防ぐため、「15℃以下」の冷暗所で保存することが定められています。
+  KOTOBA_PROMPT: [kb-otaff51-0489] 米穀類(べいこくるい) [compound_technical] = jenis beras / biji-bijian beras | [kb-v2-p3-066] コメ(-) [word] = beras | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-ext-1622-e4bf9de5ad] 保存温度(ほぞんおんど) [word] = suhu penyimpanan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>室温<rt>しつおん</rt></ruby>（<ruby>直射日光下<rt>ちょくしゃにっこうか</rt></ruby>）
+    TRANS: Suhu ruang (di bawah sinar matahari langsung)
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-ext-1269-e79bb4e5b0] 直射日光下(ちょくしゃにっこうか) [word] = di bawah sinar matahari langsung
+  OPT B: HTML=10℃<ruby>前後<rt>ぜんご</rt></ruby>
+    TRANS: Sekitar 10℃
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0187] 前後(ぜんご) [noun] = sekitar / kurang lebih
+  OPT C: HTML=−18℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: −18℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol)
+  OPT D: HTML=15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 15℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q3 | ID=lab-temp-003 | KEY=A (idx=0) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  INSTR: <ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>保存温度<rt>ほぞんおんど</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pasangan kategori bahan baku dan suhu penyimpanan yang salah (tidak sesuai ketentuan).
+  EXPLANATION: 【誤り（正解）：A (生鮮魚介類 — 10℃以下)】
+生鮮魚介類（刺身用の魚など）は腸炎ビブリオ等の増殖を防ぐため「5℃以下」で保存しなければなりません。10℃以下では不十分です。冷凍食肉は−15℃以下、冷凍水産物は−18℃以下、液卵は8℃以下で正しいです。
+  KOTOBA_PROMPT: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-ext-1622-e4bf9de5ad] 保存温度(ほぞんおんど) [word] = suhu penyimpanan | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-latsol-1dee95223c] 誤っている(あやまっている) [word] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>生鮮魚介類<rt>せいせんぎょかいるい</rt></ruby> — 10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Hasil laut segar (ikan/kerang) — 10℃ atau lebih rendah
+    KOTOBA: [kb-otaff51-0446] 生鮮魚介類(せいせんぎょかいるい) [compound_technical] = ikan dan hasil laut segar | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=<ruby>冷凍食肉<rt>れいとうしょくにく</rt></ruby> — −15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Daging beku — −15℃ atau lebih rendah
+    KOTOBA: [kb-otaff51-0161] 冷凍食肉(れいとうしょくにく) [compound_technical] = daging beku | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol)
+  OPT C: HTML=<ruby>冷凍水産物<rt>れいとうすいさんぶつ</rt></ruby> — −18℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Produk laut beku — −18℃ atau lebih rendah
+    KOTOBA: [kb-otaff51-0158] 冷凍水産物(れいとうすいさんぶつ) [compound_technical] = produk hasil laut beku | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol)
+  OPT D: HTML=<ruby>液卵<rt>えきらん</rt></ruby> — 8℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Telur cair (liquid egg) — 8℃ atau lebih rendah
+    KOTOBA: [kb-otaff51-0395] 液卵(えきらん) [compound_technical] = telur cair (liquid egg) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q4 | ID=lab-temp-004 | KEY=B (idx=1) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 前後
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>保存温度<rt>ほぞんおんど</rt></ruby>の<ruby>基準<rt>きじゅん</rt></ruby>において、「10℃<ruby>以下<rt>いか</rt></ruby>」ではなく、<ruby>冷<rt>ひ</rt></ruby>えすぎによる<ruby>低温障害<rt>ていおんしょうがい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため「10℃<ruby>前後<rt>ぜんご</rt></ruby>」と<ruby>規定<rt>きてい</rt></ruby>されている<ruby>品目<rt>ひんもく</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu komoditas yang benar, yang ketentuannya ditulis 'sekitar 10℃ (10℃前後)' guna mencegah kerusakan akibat terlalu dingin, bukan '10℃ atau lebih rendah'.
+  EXPLANATION: 【正解：B (生鮮果実・野菜)】
+生鮮果実・野菜は過度の冷却によって細胞が傷む「低温障害」を起こすことがあるため、基準では「10℃前後」と表記されます。殻付き卵、食肉製品、乳類は「10℃以下」です。
+  KOTOBA_PROMPT: [kb-ext-1622-e4bf9de5ad] 保存温度(ほぞんおんど) [word] = suhu penyimpanan | [kb-otaff51-0244] 基準(きじゅん) [noun] = standar / kriteria | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p3-218] 冷えすぎ(ひえすぎ) [word] = terlalu dingin | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-ext-1286-e4bd8ee6b8] 低温障害(ていおんしょうがい) [word] = kerusakan akibat terlalu dingin | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-otaff51-0187] 前後(ぜんご) [noun] = sekitar / kurang lebih | [kb-1223060] 規定(きてい) [word] = ketentuan / peraturan | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-audit-0398] なく(なく) [word] = tanpa (bentuk sambung ない) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT A: HTML=<ruby>殻付<rt>からつ</rt></ruby>き<ruby>卵<rt>たまご</rt></ruby>
+    TRANS: Telur bercangkang
+    KOTOBA: [kb-otaff51-0366] 殻付き卵(からつきたまご) [compound_technical] = telur bercangkang
+  OPT B: HTML=<ruby>生鮮果実<rt>せいせんかじつ</rt></ruby>・<ruby>野菜<rt>やさい</rt></ruby>
+    TRANS: Buah dan sayuran segar
+    KOTOBA: [kb-otaff51-0444] 生鮮果実(せいせんかじつ) [compound_technical] = buah-buahan segar | [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran
+  OPT C: HTML=<ruby>食肉製品<rt>しょくにくせいひん</rt></ruby>
+    TRANS: Produk olahan daging
+    KOTOBA: [kb-otaff51-0662] 食肉製品(しょくにくせいひん) [compound_technical] = produk olahan daging (ham, sosis, bacon)
+  OPT D: HTML=<ruby>乳<rt>にゅう</rt></ruby>・<ruby>生<rt>なま</rt></ruby>クリーム
+    TRANS: Susu dan krim segar
+    KOTOBA: [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-v2-p3-121] 生クリーム(なまくりーむ) [word] = krim segar

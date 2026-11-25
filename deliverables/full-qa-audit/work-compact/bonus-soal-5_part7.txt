@@ -1,0 +1,81 @@
+# AUDIT SHEET: bonus-soal-5 (Bonus Soal 5) | Batch qa-batch-05 | Part 7 (Q25-28 of 36)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=bonus-soal-5-q025 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  CLUSTER CL-0150 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q025 (ssw-pm-kunci-ujian-13), bonus-soal-1-q027 (bonus-soal-1), bonus-soal-6-q031 (bonus-soal-6), bonus-soal-8-q026 (bonus-soal-8), nguyen01-q027 (latsol-nguyen-01), nguyen05-q025 (latsol-nguyen-05), nguyen06-q031 (latsol-nguyen-06), nguyen08-q026 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>起<rt>お</rt></ruby>きる<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>一番多<rt>いちばんおお</rt></ruby><br>いのはなんですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさ<br>い。
+  QUESTION_TEXT: 食品製造工場で起きる労働災害が一番多
+いのはなんですか。正しいものを一つ選びなさ
+い。
+  PROMPT_TRANS: Kecelakaan kerja apakah yang paling banyak terjadi di pabrik pengolahan pangan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 25 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): A.
+  KOTOBA_PROMPT: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-v2-p5-240] 起きる(おきる) [word] = terjadi | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-audit-0061] 一番多い(いちばんおおい) [word] = paling banyak / terbanyak | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>転倒<rt>てんとう</rt></ruby>
+    TRANS: Terjatuh / terpeleset
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama
+  OPT B: HTML=はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ
+    TRANS: Terjepit atau terlilit mesin
+    KOTOBA: [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin
+  OPT C: HTML=<ruby>切<rt>き</rt></ruby>れ、こすれ
+    TRANS: Terpotong atau tergores
+    KOTOBA: [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek
+
+=== #Q26 | ID=bonus-soal-5-q026 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0171 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q028 (bonus-soal-1), nguyen01-q028 (latsol-nguyen-01), nguyen05-q026 (latsol-nguyen-05)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>保護具<rt>ほごぐ</rt></ruby>について「ヘルメット」は<ruby>何<rt>なに</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぎ<br>ますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 保護具について「ヘルメット」は何を防ぎ
+ますか。正しいものを一つ選びなさい。
+  PROMPT_TRANS: Mengenai alat pelindung diri (APD), apakah yang dicegah oleh "helm pelindung"? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 26 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-ext-1615-e4bf9de8ad] 保護具(ほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0076] ヘルメット(へるめっと) [noun] = helm keselamatan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p5-288] 防ぎます(ふせぎます) [inflected, df:防ぐ] = mencegah (sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>眼<rt>め</rt></ruby>のケガの<ruby>防止<rt>ぼうし</rt></ruby>。
+    TRANS: Pencegahan cedera mata.
+    KOTOBA: [kb-otaff51-0465] 眼(め) [noun] = mata | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>頭傷防止<rt>とうしょうぼうし</rt></ruby>。
+    TRANS: Pencegahan cedera kepala.
+    KOTOBA: [kb-otaff51-0642] 頭傷防止(とうしょうぼうし) [compound_technical] = pencegahan cedera kepala
+  OPT C: HTML=やけど<ruby>防止<rt>ぼうし</rt></ruby>。
+    TRANS: Pencegahan luka bakar.
+    KOTOBA: [kb-otaff51-0028] やけど(やけど) [noun] = luka bakar | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan
+
+=== #Q27 | ID=bonus-soal-5-q027 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  CLUSTER CL-0161 (n=3, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q040 (ssw-pm-kunci-ujian-14), nguyen05-q027 (latsol-nguyen-05)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品<rt>しょくひん</rt></ruby>を<ruby>凍結<rt>とうけつ</rt></ruby>する<ruby>工程<rt>こうてい</rt></ruby>で<ruby>間違<rt>まちが</rt></ruby>っているものを<br><ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 食品を凍結する工程で間違っているものを
+一つ選びなさい。
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai proses pembekuan pangan.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 27 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): A.
+  KOTOBA_PROMPT: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0286] 工程(こうてい) [noun] = tahapan proses | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=<ruby>凍結<rt>とうけつ</rt></ruby>をする<ruby>際<rt>さい</rt></ruby>は、<ruby>風味<rt>ふうみ</rt></ruby>を<ruby>劣化<rt>れっか</rt></ruby>させないよう<br>ゆっくり<ruby>凍結<rt>とうけつ</rt></ruby>する。
+    TRANS: Saat melakukan pembekuan, bekukan secara perlahan agar tidak menurunkan cita rasa.
+    KOTOBA: [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-1624810] 風味(ふうみ) [word] = aroma dan cita rasa | [kb-otaff51-0197] 劣化(れっか) [noun] = penurunan mutu / kerusakan kualitas | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-305] よう(-) [particle] = agar / supaya | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p3-234] させ(-) [inflected, df:する] = membuat jadi (kausatif)
+  OPT B: HTML=<ruby>急速凍結<rt>きゅうそくとうけつ</rt></ruby>をするためには、<ruby>凍結前<rt>とうけつまえ</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<br><ruby>下<rt>さ</rt></ruby>げておくことが<ruby>重要<rt>じゅうよう</rt></ruby>。
+    TRANS: Untuk melakukan pembekuan cepat, penting untuk menurunkan suhu pangan sebelum dibekukan.
+    KOTOBA: [kb-2811190] 急速凍結(きゅうそくとうけつ) [word] = pembekuan cepat | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-1338-e5878de7b5] 凍結前(とうけつまえ) [word] = Sebelum proses pembekuan bahan pangan | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p5-324] 下げておく(さげておく) [expression] = menurunkan terlebih dahulu | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0609] 重要(じゅうよう) [adjective] = penting | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>凍結<rt>とうけつ</rt></ruby>する<ruby>際<rt>さい</rt></ruby>は、<ruby>短時間<rt>たんじかん</rt></ruby>で<ruby>凍結<rt>とうけつ</rt></ruby>する。
+    TRANS: Saat melakukan pembekuan, bekukan dalam waktu singkat.
+    KOTOBA: [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-1418720] 短時間(たんじかん) [word] = waktu singkat | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q28 | ID=bonus-soal-5-q028 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0151 (n=3, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-13-q028 (ssw-pm-kunci-ujian-13), nguyen05-q028 (latsol-nguyen-05)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異常事態<rt>いじょうじたい</rt></ruby>や<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>した<ruby>際<rt>さい</rt></ruby>にやるべ<br>きことで、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 異常事態や労働災害が発生した際にやるべ
+きことで、間違っているものを一つ選びなさい。
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai hal yang harus dilakukan saat terjadi kondisi tidak normal / darurat atau kecelakaan kerja.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 28 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-v2-p4-219] やる(-) [word] = melakukan / mengerjakan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>異常事態<rt>いじょうじたい</rt></ruby>を<ruby>発見<rt>はっけん</rt></ruby>したら、まず<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>こってい<br>るかをすばやく<ruby>確認<rt>かくにん</rt></ruby>する。
+    TRANS: Ketika menemukan kondisi tidak normal / darurat, pertama-tama segera pastikan apa yang sedang terjadi.
+    KOTOBA: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-audit-0597] 発見したら(はっけんしたら) [inflected_verb, df:発見する] = jika menemukan | [kb-v2-p4-208] まず(-) [word] = pertama-tama / terlebih dahulu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-172] 起こっている(おこっている) [inflected, df:起こる] = sedang terjadi | [kb-audit-0032] すばやく(すばやく) [word] = dengan cepat / sigap | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT B: HTML=<ruby>一人<rt>ひとり</rt></ruby>で<ruby>行動<rt>こうどう</rt></ruby>をする。
+    TRANS: Bertindak sendirian.
+    KOTOBA: [kb-1576150] 一人(ひとり) [word] = satu orang / sendirian | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>周<rt>まわ</rt></ruby>りにいる<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>同僚<rt>どうりょう</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で<ruby>知<rt>し</rt></ruby>ら<br>せる。
+    TRANS: Memberi tahu penanggung jawab atau rekan kerja di sekitar dengan suara keras.
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-1453580] 同僚(どうりょう) [word] = rekan kerja | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-v2-p1-077] 声(こえ) [word] = suara | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi

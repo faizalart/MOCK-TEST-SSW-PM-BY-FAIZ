@@ -1,0 +1,82 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-15 (Soal Ujian 15) | Batch qa-batch-03 | Part 1 (Q1-4 of 38)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=kunci-ujian-15-q001 | KEY=A (idx=0) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 15.pdf p.1 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Ada 3 syarat untuk membuat makanan yang aman. Selain "bahan baku yang aman" dan " || [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Ada 3 syarat untuk membuat makanan yang aman. Selain "bahan baku yang aman" dan " || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0117 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-8-q001 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るための<ruby>条件<rt>じょうけん</rt></ruby>が3つあります。「<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>原材料<rt>げんざいりょう</rt></ruby>」、「<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>製造環境<rt>せいぞうかんきょう</rt></ruby>」、もう1つは<ruby>何<rt>なに</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada 3 syarat untuk membuat makanan yang aman. Selain "bahan baku yang aman" dan "lingkungan produksi yang bersih", apakah satu syarat lainnya? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 1, nomor 1 (Q1). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 1 (hlm. 11), 3 syarat pembuatan pangan aman adalah bahan baku aman, lingkungan produksi bersih, dan penanganan makanan secara higienis (食品の衛生的取り扱い).
+  INLINE_KOTOBA_COUNT: 15
+  KOTOBA_PROMPT: [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-1356510] 条件(じょうけん) [word] = syarat / kondisi | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p2-225] 清潔な(せいけつな) [word] = bersih / higienis | [kb-ext-1055-e8a3bde980] 製造環境(せいぞうかんきょう) [word] = lingkungan produksi | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生的取<rt>えいせいてきと</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い
+    TRANS: Penanganan makanan secara higienis
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-044] 衛生的取り扱い(えいせいてきとりあつかい) [compound_technical] = penanganan higienis
+  OPT B: HTML=お<ruby>店<rt>みせ</rt></ruby>の<ruby>衛生的取<rt>えいせいてきと</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い
+    TRANS: Penanganan toko secara higienis
+    KOTOBA: [kb-audit-1125] お店(おみせ) [word] = toko / kedai (お店) | [kb-v2-p2-044] 衛生的取り扱い(えいせいてきとりあつかい) [compound_technical] = penanganan higienis
+  OPT C: HTML=<ruby>店員<rt>てんいん</rt></ruby>の<ruby>衛生的取<rt>えいせいてきと</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い
+    TRANS: Penanganan pegawai toko secara higienis
+    KOTOBA: [kb-1440670] 店員(てんいん) [word] = Pramuniaga toko makanan | [kb-v2-p2-044] 衛生的取り扱い(えいせいてきとりあつかい) [compound_technical] = penanganan higienis
+
+=== #Q2 | ID=kunci-ujian-15-q002 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.1 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Saat mengalami luka/cedera, apa yang harus dilakukan sebelum bekerja? Pilihlah s" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0118 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-8-q002 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>怪我<rt>けが</rt></ruby>をしたとき、<ruby>作業<rt>さぎょう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>にどうしますか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat mengalami luka/cedera, apa yang harus dilakukan sebelum bekerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 1, nomor 2 (Q2). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 25), pekerja yang mengalami luka pada tangan/jari wajib melapor kepada penanggung jawab dan menunggu instruksi karena luka berisiko mencemari makanan dengan Staphylococcus aureus.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-1200220] 怪我(けが) [word] = cedera / luka kerja | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>し、<ruby>指示<rt>しじ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ
+    TRANS: Melaporkan kepada penanggung jawab dan menunggu instruksi
+    KOTOBA: [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-156] 報告し(ほうこくし) [inflected, df:報告する] = melapor | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p3-328] 待つ(まつ) [word] = menunggu
+  OPT B: HTML=<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わないで、<ruby>帰<rt>かえ</rt></ruby>る
+    TRANS: Pulang tanpa mengatakan apa-apa
+    KOTOBA: [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p6-507] 言わないで(いわないで) [inflected, df:言う] = tanpa mengatakan | [kb-v2-p6-402] 帰る(かえる) [word] = pulang
+  OPT C: HTML=<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>しないで、<ruby>作業<rt>さぎょう</rt></ruby>します。
+    TRANS: Bekerja tanpa melaporkan kepada penanggung jawab
+    KOTOBA: [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-v2-p1-142] しないで(-) [inflected_verb, df:する] = tanpa melakukan (dasar: する) | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+
+=== #Q3 | ID=kunci-ujian-15-q003 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.1 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Apa yang harus diperiksa sebelum mulai bekerja? Pilihlah satu yang benar." || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0119 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-8-q003 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業<rt>さぎょう</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しなくてはなりませんか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus diperiksa sebelum mulai bekerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 1, nomor 3 (Q3). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 30), sebelum bekerja pekerja wajib memeriksa lokasi kerja dan rincian pekerjaan (作業場所と作業内容).
+  INLINE_KOTOBA_COUNT: 13
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0937] 確認しなくては(かくにんしなくては) [expression] = harus memeriksa | [kb-audit-0371] なりませんか(なりませんか) [inflected_verb, df:なる] = haruskah (dalam なければなりませんか) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>休<rt>やす</rt></ruby>んでいる<ruby>人<rt>ひと</rt></ruby>
+    TRANS: Orang yang sedang libur/istirahat
+    KOTOBA: [kb-v2-p6-421] 休んでいる(やすんでいる) [inflected, df:休む] = sedang beristirahat | [kb-v2-p1-058] 人(ひと) [word] = orang
+  OPT B: HTML=<ruby>作業場所<rt>さぎょうばしょ</rt></ruby>と<ruby>内容<rt>ないよう</rt></ruby>
+    TRANS: Lokasi kerja dan isi pekerjaan
+    KOTOBA: [kb-ext-0641-e4bd9ce6a5] 作業場所(さぎょうばしょ) [word] = tempat / area kerja produksi | [kb-1459400] 内容(ないよう) [word] = isi / rincian
+  OPT C: HTML=<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>
+    TRANS: Orang yang bekerja bersama
+    KOTOBA: [kb-1163400] 一緒(いっしょ) [word] = Bersama-sama / serentak | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-v2-p1-058] 人(ひと) [word] = orang
+
+=== #Q4 | ID=kunci-ujian-15-q004 | KEY=C (idx=2) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 15.pdf p.1 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Selama bekerja, tindakan manakah yang penting dilakukan? Pilihlah satu yang bena"
+  CLUSTER CL-0120 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-8-q004 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>、どの<ruby>行動<rt>こうどう</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Selama bekerja, tindakan manakah yang penting dilakukan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 1, nomor 4 (Q4). Bobot: 3.95 poin. Kunci jawaban: C. Pembahasan: Dalam keselamatan kerja pabrik pengolahan makanan, metode 指差呼称 (menunjuk objek sambil menyebutkan statusnya dengan suara jelas) dilakukan untuk memastikan keamanan.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-otaff51-0254] 大切(たいせつ) [adjective] = penting / berharga | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>離<rt>はな</rt></ruby>れた<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>急<rt>いそ</rt></ruby>いで<ruby>行<rt>い</rt></ruby>きたいときは<ruby>走<rt>はし</rt></ruby>って<ruby>行<rt>い</rt></ruby>く。
+    TRANS: Saat ingin cepat pergi ke tempat yang agak jauh, pergi dengan berlari.
+    KOTOBA: [kb-u1416-cf896b5b53] 離れた場所(はなれたばしょ) [word] = tempat yang terpisah/jauh | [kb-v2-p6-303] 急いで(いそいで) [inflected, df:急ぐ] = dengan terburu-buru | [kb-v2-p6-422] 行きたい(いきたい) [inflected, df:行く] = ingin pergi | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p6-482] 走って(はしって) [inflected, df:走る] = berlari | [kb-v2-p1-158] 行く(いく) [word] = pergi
+  OPT B: HTML=<ruby>作業<rt>さぎょう</rt></ruby>になれたから、マニュアルを<ruby>使<rt>つか</rt></ruby>わない。
+    TRANS: Karena sudah terbiasa dengan pekerjaan, tidak menggunakan buku manual.
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0660] なれた(なれた) [inflected_verb, df:慣れる] = sudah terbiasa | [kb-v2-p5-091] マニュアル(-) [word] = buku panduan (manual) | [kb-v2-p2-211] 使わない(つかわない) [inflected, df:使う] = tidak menggunakan
+  OPT C: HTML=<ruby>安全確認<rt>あんぜんかくにん</rt></ruby>をするために<ruby>指差呼称<rt>しさこしょう</rt></ruby>をする。
+    TRANS: Melakukan tunjuk-sebut (shisa koshou) untuk memastikan keselamatan.
+    KOTOBA: [kb-otaff51-0266] 安全確認(あんぜんかくにん) [compound_technical] = pemastian keselamatan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0319] 指差呼称(しさこしょう) [compound_technical] = tunjuk dan sebut (shisa koshou)

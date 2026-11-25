@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-7 (Soal Ujian 7 — CBTP Gino1) | Batch qa-batch-02 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-7-q025 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異常事態<rt>いじょうじたい</rt></ruby>に<ruby>気<rt>き</rt></ruby>がついたとき、まず<ruby>何<rt>なに</rt></ruby>をしますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat menyadari adanya kondisi tidak normal / darurat, apa yang harus dilakukan pertama kali?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 5, Câu 25 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-otaff51-0807] 気がついた(きがついた) [expression] = menyadari / melihat | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p4-208] まず(-) [word] = pertama-tama / terlebih dahulu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>周<rt>まわ</rt></ruby>りにいる<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>作業者<rt>さぎょうしゃ</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memberi tahu penanggung jawab atau pekerja di sekitar dengan suara keras
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-v2-p1-077] 声(こえ) [word] = suara | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>自分<rt>じぶん</rt></ruby>だけで<ruby>機械<rt>きかい</rt></ruby>を<ruby>直<rt>なお</rt></ruby>す。
+    TRANS: Memperbaiki mesin sendirian
+    KOTOBA: [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p6-418] 直す(なおす) [word] = memperbaiki | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>何<rt>なに</rt></ruby>もしないでその<ruby>場<rt>ば</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れる。
+    TRANS: Meninggalkan tempat tersebut tanpa melakukan apa-apa
+    KOTOBA: [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0756] もし(もし) [adverb] = jika / seandainya | [kb-v2-p1-268] その(-) [word] = itu | [kb-1355790] 場(ば) [standalone_term] = Tempat / area berlangsungnya aktivitas kerja | [kb-v2-p1-191] 離れる(はなれる) [word] = meninggalkan | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q26 | ID=kunci-ujian-7-q026 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>最<rt>もっと</rt></ruby>も<ruby>多<rt>おお</rt></ruby>く<ruby>起<rt>お</rt></ruby>きる<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>の<ruby>順番<rt>じゅんばん</rt></ruby>はどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah urutan kecelakaan kerja yang paling banyak terjadi di pabrik pengolahan pangan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 5, Câu 26 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-v2-p5-240] 起きる(おきる) [word] = terjadi | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-1342390] 順番(じゅんばん) [word] = Giliran urutan pelaksanaan tugas | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=①<ruby>転倒<rt>てんとう</rt></ruby>、②<ruby>切<rt>き</rt></ruby>れ、こすれ、③はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ
+    TRANS: ① Terjatuh/terpeleset, ② Teriris/terpotong dan tergores, ③ Terjepit dan terlilit
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek | [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin
+  OPT B: HTML=①<ruby>転倒<rt>てんとう</rt></ruby>、②はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ、③<ruby>切<rt>き</rt></ruby>れ、こすれ
+    TRANS: ① Terjatuh/terpeleset, ② Terjepit dan terlilit, ③ Teriris/terpotong dan tergores
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin | [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek
+  OPT C: HTML=①はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ、②<ruby>転倒<rt>てんとう</rt></ruby>、③<ruby>切<rt>き</rt></ruby>れ、こすれ
+    TRANS: ① Terjepit dan terlilit, ② Terjatuh/terpeleset, ③ Teriris/terpotong dan tergores
+    KOTOBA: [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin | [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek
+
+=== #Q27 | ID=kunci-ujian-7-q027 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.5 ===
+  CLUSTER CL-0006 (n=10, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q007 (ssw-pm-kunci-ujian-1), kunci-ujian-13-q015 (ssw-pm-kunci-ujian-13), bonus-soal-1-q007 (bonus-soal-1), bonus-soal-5-q015 (bonus-soal-5), bonus-soal-8-q007 (bonus-soal-8), bonus-soal-10-q021 (bonus-soal-10), nguyen01-q007 (latsol-nguyen-01), nguyen05-q015 (latsol-nguyen-05), nguyen08-q007 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ５S<ruby>活動<rt>かつどう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>の<ruby>整頓<rt>せいとん</rt></ruby>は、どのような<ruby>活動<rt>かつどう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kegiatan seperti apakah "Rapi (Penataan / Seiton)" di dalam kegiatan 5S? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 5, Câu 27 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p1-016] S活動(えすかつどう) [compound_technical] = aktivitas S (5S) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>職場<rt>しょくば</rt></ruby>や<ruby>工場<rt>こうじょう</rt></ruby>などのゴミを<ruby>捨<rt>す</rt></ruby>てる
+    TRANS: Membuang sampah di tempat kerja atau pabrik.
+    KOTOBA: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-034] ゴミ(-) [word] = sampah | [kb-v2-p1-174] 捨てる(すてる) [word] = membuang | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>決<rt>き</rt></ruby>められたことを<ruby>常<rt>つね</rt></ruby>に<ruby>守<rt>まも</rt></ruby>って<ruby>実行<rt>じっこう</rt></ruby>する
+    TRANS: Selalu mematuhi dan menjalankan hal-hal yang telah ditetapkan.
+    KOTOBA: [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-284] 常に(つねに) [word] = selalu | [kb-v2-p1-175] 守って(まもって) [inflected_verb, df:守る] = mematuhi (dasar: 守る) | [kb-v2-p2-219] 実行する(じっこうする) [word] = melaksanakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>作業道具<rt>さぎょうどうぐ</rt></ruby>や<ruby>材料<rt>ざいりょう</rt></ruby>の<ruby>置<rt>お</rt></ruby>き<ruby>場所<rt>ばじょ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めておく
+    TRANS: Menentukan tempat penyimpanan peralatan kerja dan bahan terlebih dahulu.
+    KOTOBA: [kb-ext-0649-e4bd9ce6a5] 作業道具(さぎょうどうぐ) [compound_technical] = peralatan kerja | [kb-1296670] 材料(ざいりょう) [word] = bahan | [kb-v2-p1-023] 置き場所(おきばしょ) [word] = tempat penyimpanan | [kb-v2-p1-177] 決めて(きめて) [inflected_verb, df:決める] = menetapkan (dasar: 決める) | [kb-v2-p1-243] おく(-) [word] = melakukan terlebih dahulu | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q28 | ID=kunci-ujian-7-q028 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.5 ===
+  CLUSTER CL-0007 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q008 (ssw-pm-kunci-ujian-1), bonus-soal-1-q008 (bonus-soal-1), bonus-soal-8-q008 (bonus-soal-8), bonus-soal-10-q003 (bonus-soal-10), nguyen01-q008 (latsol-nguyen-01), nguyen08-q008 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>原因<rt>げんいん</rt></ruby>になる<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pangan apakah yang menjadi penyebab utama keracunan makanan akibat Norovirus? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 5, Câu 28 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>卵<rt>たまご</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>
+    TRANS: Telur dan daging ayam
+    KOTOBA: [kb-otaff51-0216] 卵(たまご) [noun] = telur | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam
+  OPT B: HTML=<ruby>米<rt>こめ</rt></ruby>、<ruby>麦<rt>むぎ</rt></ruby>、<ruby>豆<rt>まめ</rt></ruby>
+    TRANS: Beras, gandum, dan kacang-kacangan
+    KOTOBA: [kb-1508750] 米(こめ) [standalone_term] = Beras mentah bahan baku pangan pokok | [kb-v2-p1-072] 麦(むぎ) [word] = gandum | [kb-v2-p1-073] 豆(まめ) [word] = kacang-kacangan
+  OPT C: HTML=<ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>
+    TRANS: Kerang bivalvia seperti tiram
+    KOTOBA: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung

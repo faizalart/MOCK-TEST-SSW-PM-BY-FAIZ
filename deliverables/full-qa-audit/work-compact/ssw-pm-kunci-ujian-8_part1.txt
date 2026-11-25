@@ -1,0 +1,77 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-8 (Soal Ujian 8 — CBTP Gino1) | Batch qa-batch-02 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=kunci-ujian-8-q001 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.1 ===
+  CLUSTER CL-0117 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-15-q001 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るための<ruby>条件<rt>じょうけん</rt></ruby>が<ruby>三<rt>みっ</rt></ruby>つあります。「<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>原材料<rt>げんざいりょう</rt></ruby>」、「<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>製造環境<rt>せいぞうかんきょう</rt></ruby>」、もう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びな<br>さい。
+  QUESTION_TEXT: 安全な食品を作るための条件が三つあります。「安全な原材料」、「清潔な製造環境」、もう一つは何ですか。正しいものを一つ選びな
+さい。
+  PROMPT_TRANS: Ada tiga syarat untuk membuat pangan yang aman: "Bahan baku yang aman", "Lingkungan produksi yang bersih", dan apakah satu syarat lainnya? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 1, Câu 1 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1356510] 条件(じょうけん) [word] = syarat / kondisi | [kb-v2-p5-228] 三つ(みっつ) [word] = tiga buah | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p2-225] 清潔な(せいけつな) [word] = bersih / higienis | [kb-ext-1055-e8a3bde980] 製造環境(せいぞうかんきょう) [word] = lingkungan produksi | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生的取<rt>えいせいてきと</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い
+    TRANS: Penanganan pangan secara higienis
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-044] 衛生的取り扱い(えいせいてきとりあつかい) [compound_technical] = penanganan higienis | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=お<ruby>店<rt>みせ</rt></ruby>の<ruby>衛生的取<rt>えいせいてきと</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い
+    TRANS: Penanganan toko yang higienis
+    KOTOBA: [kb-audit-1125] お店(おみせ) [word] = toko / kedai (お店) | [kb-v2-p2-044] 衛生的取り扱い(えいせいてきとりあつかい) [compound_technical] = penanganan higienis | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>店員<rt>てんいん</rt></ruby>の<ruby>衛生的取<rt>えいせいてきと</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い
+    TRANS: Penanganan pegawai toko yang higienis
+    KOTOBA: [kb-1440670] 店員(てんいん) [word] = Pramuniaga toko makanan | [kb-v2-p2-044] 衛生的取り扱い(えいせいてきとりあつかい) [compound_technical] = penanganan higienis | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q2 | ID=kunci-ujian-8-q002 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:B] 帰 || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0118 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-15-q002 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>怪我<rt>けが</rt></ruby>をしたとき、<ruby>作業<rt>さぎょう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>にどうしますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan sebelum bekerja ketika sedang mengalami luka (cedera)? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 1, Câu 2 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-1200220] 怪我(けが) [word] = cedera / luka kerja | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT A: HTML=<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>し、<ruby>指示<rt>しじ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ
+    TRANS: Melapor kepada penanggung jawab dan menunggu instruksi
+    KOTOBA: [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-156] 報告し(ほうこくし) [inflected, df:報告する] = melapor | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p3-328] 待つ(まつ) [word] = menunggu | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>何<rt>なに</rt></ruby>も<ruby>言<rt>い</rt></ruby>わないで、帰る
+    TRANS: Pulang tanpa mengatakan apa-apa
+    KOTOBA: [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p6-507] 言わないで(いわないで) [inflected, df:言う] = tanpa mengatakan | [kb-v2-p6-402] 帰る(かえる) [word] = pulang | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT C: HTML=<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>しないで、<ruby>作業<rt>さぎょう</rt></ruby>する
+    TRANS: Bekerja tanpa melapor kepada penanggung jawab
+    KOTOBA: [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-v2-p1-142] しないで(-) [inflected_verb, df:する] = tanpa melakukan (dasar: する) | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q3 | ID=kunci-ujian-8-q003 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0119 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-15-q003 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業<rt>さぎょう</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しなくてはなりませんか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dipastikan sebelum mulai bekerja? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 1, Câu 3 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0937] 確認しなくては(かくにんしなくては) [expression] = harus memeriksa | [kb-audit-0371] なりませんか(なりませんか) [inflected_verb, df:なる] = haruskah (dalam なければなりませんか) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>休<rt>やす</rt></ruby>んでいる<ruby>人<rt>ひと</rt></ruby>
+    TRANS: Orang yang sedang libur
+    KOTOBA: [kb-v2-p6-421] 休んでいる(やすんでいる) [inflected, df:休む] = sedang beristirahat | [kb-v2-p1-058] 人(ひと) [word] = orang
+  OPT B: HTML=<ruby>作業場所<rt>さぎょうばしょ</rt></ruby>と<ruby>内容<rt>ないよう</rt></ruby>
+    TRANS: Lokasi dan isi (detail) pekerjaan
+    KOTOBA: [kb-ext-0641-e4bd9ce6a5] 作業場所(さぎょうばしょ) [word] = tempat / area kerja produksi | [kb-1459400] 内容(ないよう) [word] = isi / rincian | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT C: HTML=<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>
+    TRANS: Orang yang bekerja bersama
+    KOTOBA: [kb-1163400] 一緒(いっしょ) [word] = Bersama-sama / serentak | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q4 | ID=kunci-ujian-8-q004 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.1 ===
+  CLUSTER CL-0120 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-15-q004 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>、どの<ruby>行動<rt>こうどう</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Tindakan manakah yang penting dilakukan selama bekerja? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 1, Câu 4 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-v2-p3-186] どの(-) [word] = yang mana | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-otaff51-0254] 大切(たいせつ) [adjective] = penting / berharga | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>離<rt>はな</rt></ruby>れた<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>急<rt>いそ</rt></ruby>いで<ruby>行<rt>い</rt></ruby>きたいときは<ruby>走<rt>はし</rt></ruby>って<ruby>行<rt>い</rt></ruby>く
+    TRANS: Berlari ketika ingin cepat-cepat pergi ke tempat yang jauh
+    KOTOBA: [kb-u1416-cf896b5b53] 離れた場所(はなれたばしょ) [word] = tempat yang terpisah/jauh | [kb-v2-p6-303] 急いで(いそいで) [inflected, df:急ぐ] = dengan terburu-buru | [kb-v2-p6-422] 行きたい(いきたい) [inflected, df:行く] = ingin pergi | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p6-482] 走って(はしって) [inflected, df:走る] = berlari | [kb-v2-p1-158] 行く(いく) [word] = pergi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=<ruby>作業<rt>さぎょう</rt></ruby>になれたから、マニュアルを<ruby>使<rt>つか</rt></ruby>わない
+    TRANS: Tidak menggunakan buku panduan (manual) karena sudah terbiasa dengan pekerjaan
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0660] なれた(なれた) [inflected_verb, df:慣れる] = sudah terbiasa | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p5-091] マニュアル(-) [word] = buku panduan (manual) | [kb-v2-p2-211] 使わない(つかわない) [inflected, df:使う] = tidak menggunakan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>安全確認<rt>あんぜんかくにん</rt></ruby>をするために<ruby>指差呼称<rt>しさこしょう</rt></ruby>をする
+    TRANS: Melakukan tunjuk-sebut (shisa koshou) untuk memastikan keselamatan
+    KOTOBA: [kb-otaff51-0266] 安全確認(あんぜんかくにん) [compound_technical] = pemastian keselamatan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0319] 指差呼称(しさこしょう) [compound_technical] = tunjuk dan sebut (shisa koshou) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

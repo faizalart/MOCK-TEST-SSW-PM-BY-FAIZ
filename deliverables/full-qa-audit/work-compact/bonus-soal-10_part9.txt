@@ -1,0 +1,73 @@
+# AUDIT SHEET: bonus-soal-10 (Bonus Soal 10) | Batch qa-batch-06 | Part 9 (Q33-36 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q33 | ID=bonus-soal-10-q033 | KEY=B (idx=1) | CAT= | SRC=Bonus soal 10.pdf p.8 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業員<rt>さぎょういん</rt></ruby>が<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぼうとしたときに、ふらついて<ruby>台車<rt>だいしゃ</rt></ruby>に<ruby>足<rt>あし</rt></ruby>を<ruby>乗<rt>の</rt></ruby>せてしまい、<br><ruby>台車<rt>だいしゃ</rt></ruby>が<ruby>動<rt>うご</rt></ruby>いてしそうになった。<ruby>転倒<rt>てんとう</rt></ruby>しそうになった<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat seorang pekerja hendak mengangkut benda berat, ia kehilangan keseimbangan lalu menginjakkan kaki ke atas troli (gerobak dorong), sehingga troli bergerak dan ia hampir terjatuh. Apakah penyebab ia hampir terjatuh?
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 8, Soal 33) · Kunci Jawaban Sumber: B.
+  KOTOBA_PROMPT: [kb-1936030] 作業員(さぎょういん) [word] = pekerja / operator pabrik | [kb-pilot51-078] 重い物(おもいもの) [noun] = benda berat | [kb-v2-p5-234] 運ぼう(はこぼう) [inflected, df:運ぶ] = hendak membawa | [kb-v2-p1-319] とした(-) [expression] = hendak melakukan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-audit-0028] ふらついて(ふらついて) [inflected_verb, df:ふらつく] = sempoyongan / hilang keseimbangan | [kb-otaff51-0227] 台車(だいしゃ) [noun] = troli pengangkut barang | [kb-v2-p1-088] 足(あし) [word] = kaki | [kb-v2-p5-332] 乗せてしまい(のせてしまい) [inflected, df:乗せる] = tidak sengaja menaruh kaki | [kb-v2-p5-360] 動いて(うごいて) [inflected, df:動く] = bergerak | [kb-latsol-shisou] しそう(しそう) [word] = pemikiran (pengecoh 5S: 思想) | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p2-124] 転倒しそうに(てんとうしそうに) [inflected, df:転倒する] = hampir terpeleset jatuh | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>床<rt>ゆか</rt></ruby>で<ruby>滑<rt>すべ</rt></ruby>りやすかった
+    TRANS: Lantai yang basah sehingga licin
+    KOTOBA: [kb-latsol-56cb3efc8c] 濡れた床(ぬれたゆか) [word] = lantai yang basah | [kb-v2-p2-126] 滑りやすかった(すべりやすかった) [inflected, df:滑る] = mudah licin / terpeleset | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>台車<rt>だいしゃ</rt></ruby>にストッパーが<ruby>付<rt>つ</rt></ruby>いていなかった
+    TRANS: Troli tidak dilengkapi dengan pengunci roda (stopper)
+    KOTOBA: [kb-otaff51-0227] 台車(だいしゃ) [noun] = troli pengangkut barang | [kb-v2-p5-089] ストッパー(-) [technical] = pengunci roda (stopper) | [kb-v2-p5-418] 付いていなかった(ついていなかった) [expression] = tidak terpasang (lampau) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>床<rt>ゆか</rt></ruby>が<ruby>濡<rt>ぬ</rt></ruby>れていた
+    TRANS: Lantai dalam keadaan basah
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-v2-p5-333] 濡れていた(ぬれていた) [inflected, df:濡れる] = basah (lampau) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q34 | ID=bonus-soal-10-q034 | KEY=A (idx=0) | CAT= | SRC=Bonus soal 10.pdf p.9 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: この<ruby>場合<rt>ばあい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>をすればいいですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang sebaiknya dilakukan untuk mengatasi kasus ini?
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 9, Soal 34) · Kunci Jawaban Sumber: A.
+  KOTOBA_PROMPT: [kb-v2-p1-267] この(-) [word] = ini | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>台車<rt>だいしゃ</rt></ruby>にストッパーをつけて、<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶ<ruby>時<rt>とき</rt></ruby>は<ruby>二人<rt>ふたり</rt></ruby>で<ruby>運<rt>はこ</rt></ruby>ぶ。
+    TRANS: Memasang pengunci roda (stopper) pada troli, dan saat mengangkut benda berat dilakukan oleh dua orang.
+    KOTOBA: [kb-otaff51-0227] 台車(だいしゃ) [noun] = troli pengangkut barang | [kb-v2-p5-089] ストッパー(-) [technical] = pengunci roda (stopper) | [kb-v2-p1-204] つけて(-) [inflected_verb, df:つける] = memasang (dasar: つける) | [kb-pilot51-078] 重い物(おもいもの) [noun] = benda berat | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-1582670] 二人(ふたり) [word] = dua orang | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>台車<rt>だいしゃ</rt></ruby>にストッパーをつけて、<ruby>滑<rt>すべ</rt></ruby>りにくい<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>く。
+    TRANS: Memasang pengunci roda (stopper) pada troli dan mengenakan sepatu yang tidak mudah selip.
+    KOTOBA: [kb-otaff51-0227] 台車(だいしゃ) [noun] = troli pengangkut barang | [kb-v2-p5-089] ストッパー(-) [technical] = pengunci roda (stopper) | [kb-v2-p1-204] つけて(-) [inflected_verb, df:つける] = memasang (dasar: つける) | [kb-v2-p1-112] 滑りにくい(すべりにくい) [inflected_adj, df:滑る] = anti-selip (dasar: 滑る) | [kb-v2-p1-089] 靴(くつ) [word] = sepatu | [kb-v2-p2-215] 履く(はく) [word] = memakai (sepatu/celana) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶ<ruby>時<rt>とき</rt></ruby>は<ruby>二人<rt>ふたり</rt></ruby>で<ruby>運<rt>はこ</rt></ruby>ぶ、または<ruby>台車<rt>だいしゃ</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>する。
+    TRANS: Saat mengangkut benda berat dilakukan oleh dua orang, atau menggunakan troli.
+    KOTOBA: [kb-pilot51-078] 重い物(おもいもの) [noun] = benda berat | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-1582670] 二人(ふたり) [word] = dua orang | [kb-otaff51-0227] 台車(だいしゃ) [noun] = troli pengangkut barang | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-238] また(-) [word] = lagi / kembali
+
+=== #Q35 | ID=bonus-soal-10-q035 | KEY=A (idx=0) | CAT= | SRC=Bonus soal 10.pdf p.9 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>弁当<rt>べんとう</rt></ruby>の<ruby>盛<rt>さか</rt></ruby>り<ruby>付<rt>つ</rt></ruby>け<ruby>作業後<rt>さぎょうご</rt></ruby>、<ruby>歩<rt>ある</rt></ruby>いて<ruby>移動<rt>いどう</rt></ruby>しようとしたところ、<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>床<rt>ゆか</rt></ruby>で<ruby>滑<rt>すべ</rt></ruby>って<ruby>転倒<rt>てんとう</rt></ruby><br>しそうになった。<ruby>転倒<rt>てんとう</rt></ruby>しそうになった<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: 弁当の盛り付け作業後、歩いて移動しようとしたところ、濡れた床で滑って転倒
+しそうになった。転倒しそうになった原因は何ですか。
+  PROMPT_TRANS: Setelah pekerjaan menata nasi kotak (bento), saat hendak berjalan berpindah tempat, pekerja terpeleset di lantai yang basah dan hampir terjatuh. Apakah penyebab ia hampir terjatuh?
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 9, Soal 35) · Kunci Jawaban Sumber: A.
+  KOTOBA_PROMPT: [kb-otaff51-0294] 弁当(べんとう) [noun] = nasi kotak (bento) | [kb-otaff51-0459] 盛り付け(もりつけ) [noun] = penataan makanan ke wadah (plating) | [kb-ext-0630-e4bd9ce6a5] 作業後(さぎょうご) [word] = setelah bekerja | [kb-v2-p5-239] 歩いて(あるいて) [inflected, df:歩く] = berjalan | [kb-otaff51-0476] 移動(いどう) [noun] = perpindahan / bergerak | [kb-audit-0382] しよう(しよう) [inflected_verb, df:する] = hendak / mencoba melakukan | [kb-v2-p1-319] とした(-) [expression] = hendak melakukan | [kb-v2-p1-292] ところ(-) [word] = bagian / tempat | [kb-latsol-56cb3efc8c] 濡れた床(ぬれたゆか) [word] = lantai yang basah | [kb-v2-p1-230] 滑って(すべって) [inflected_verb, df:滑る] = terpeleset (dasar: 滑る) | [kb-v2-p2-124] 転倒しそうに(てんとうしそうに) [inflected, df:転倒する] = hampir terpeleset jatuh | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>床<rt>ゆか</rt></ruby>をきちんとふき<ruby>取<rt>と</rt></ruby>っていなかった
+    TRANS: Tidak mengelap lantai yang basah dengan benar
+    KOTOBA: [kb-latsol-56cb3efc8c] 濡れた床(ぬれたゆか) [word] = lantai yang basah | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-audit-0413] ふき取って(ふきとって) [inflected_verb, df:拭き取る] = mengelap hingga bersih | [kb-audit-0463] いなかった(いなかった) [inflected_verb, df:いる] = tidak ada / belum dilakukan (lampau) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=お<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>盛<rt>さか</rt></ruby>り<ruby>付<rt>つ</rt></ruby>けすぎて<ruby>前<rt>まえ</rt></ruby>を<ruby>見<rt>み</rt></ruby>えなかった
+    TRANS: Menata nasi kotak terlalu banyak sehingga tidak dapat melihat ke depan
+    KOTOBA: [kb-otaff51-1169] お弁当(おべんとう) [noun] = bekal makanan (bento) | [kb-v2-p5-123] 盛り付けすぎて(もりつけすぎて) [inflected, df:盛り付ける] = menata terlalu penuh | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p5-276] 見えなかった(みえなかった) [inflected, df:見える] = tidak terlihat | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>経験<rt>けいけん</rt></ruby>がないので<ruby>対応<rt>たいおう</rt></ruby>できなかった
+    TRANS: Tidak dapat mengatasinya karena tidak memiliki pengalaman
+    KOTOBA: [kb-1251270] 経験(けいけん) [word] = pengalaman | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-otaff51-0277] 対応(たいおう) [noun] = penanganan / respons | [kb-audit-0473] できなかった(できなかった) [inflected_verb, df:できる] = tidak bisa (lampau) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q36 | ID=bonus-soal-10-q036 | KEY=A (idx=0) | CAT= | SRC=Bonus soal 10.pdf p.10 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: この<ruby>場合<rt>ばあい</rt></ruby>に<ruby>対<rt>たい</rt></ruby>しては<ruby>何<rt>なに</rt></ruby>をすればいいですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang sebaiknya dilakukan terhadap kasus ini?
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 10, Soal 36) · Kunci Jawaban Sumber: A.
+  KOTOBA_PROMPT: [kb-v2-p1-267] この(-) [word] = ini | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-audit-0475] に対して(にたいして) [expression] = terhadap / mengenai | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>床<rt>ゆか</rt></ruby>をきちんとふき<ruby>取<rt>と</rt></ruby>って<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>つ
+    TRANS: Mengelap lantai yang basah dengan benar dan memegang barang dengan kedua tangan
+    KOTOBA: [kb-latsol-56cb3efc8c] 濡れた床(ぬれたゆか) [word] = lantai yang basah | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-audit-0413] ふき取って(ふきとって) [inflected_verb, df:拭き取る] = mengelap hingga bersih | [kb-otaff51-0099] 両手(りょうて) [noun] = kedua tangan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=ゴム<ruby>手袋<rt>てぶくろ</rt></ruby>、<ruby>前掛<rt>まえか</rt></ruby>け、メガネなどの<ruby>保護具<rt>ほごぐ</rt></ruby>をつける
+    TRANS: Mengenakan alat pelindung diri (APD) seperti sarung tangan karet, celemek, dan kacamata pelindung
+    KOTOBA: [kb-otaff51-0050] ゴム手袋(ごむてぶくろ) [compound_technical] = sarung tangan karet | [kb-audit-0310] 前掛け(まえかけ) [word] = celemek kerja | [kb-ext-0031-e383a1e382] メガネ(めがね) [word] = kacamata pelindung | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-ext-1615-e4bf9de8ad] 保護具(ほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>二人<rt>ふたり</rt></ruby>で<ruby>運<rt>はこ</rt></ruby>ぶ
+    TRANS: Mengangkutnya dengan dua orang
+    KOTOBA: [kb-1582670] 二人(ふたり) [word] = dua orang | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi

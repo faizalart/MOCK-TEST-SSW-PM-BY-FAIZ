@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-03 (Latsol Reguler 03) | Batch qa-batch-09 | Part 3 (Q9-12 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=reguler03-q009 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("経験が少ない人達") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>人<rt>ひと</rt></ruby>たちが<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>起<rt>お</rt></ruby>こりやすいときはどんな<ruby>人<rt>ひと</rt></ruby>ですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Orang seperti apakah yang rentan mengalami kecelakaan kerja? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 3, nomor 9. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-audit-0702] 人たち(ひとたち) [word] = orang-orang | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-v2-p4-171] 起こりやすい(おこりやすい) [inflected, df:起こる] = mudah terjadi | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>経験<rt>けいけん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い<ruby>人達<rt>ひとたち</rt></ruby>
+    TRANS: Orang-orang yang berpengalaman lama
+    KOTOBA: [kb-1251270] 経験(けいけん) [word] = pengalaman | [kb-v2-p1-250] 長い(ながい) [word] = panjang / lama | [kb-1368740] 人達(ひとたち) [word] = Orang-orang / para pekerja pabrik
+  OPT B: HTML=<ruby>経験<rt>けいけん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない<ruby>人達<rt>ひとたち</rt></ruby>
+    TRANS: Orang-orang yang masih sedikit pengalamannya
+    KOTOBA: [kb-1251270] 経験(けいけん) [word] = pengalaman | [kb-v2-p1-251] 少ない(すくない) [word] = sedikit | [kb-1368740] 人達(ひとたち) [word] = Orang-orang / para pekerja pabrik
+  OPT C: HTML=<ruby>長<rt>なが</rt></ruby>く<ruby>働<rt>はたら</rt></ruby>いています
+    TRANS: Sudah bekerja dalam waktu yang lama
+    KOTOBA: [kb-audit-0895] 長く(ながく) [inflected_adj, df:長い] = menjadi lama / panjang | [kb-latsol-21096f9681] 働いて(はたらいて) [word] = bekerja | [kb-audit-0369] います(います) [inflected_verb, df:いる] = ada / sedang melakukan
+
+=== #Q10 | ID=reguler03-q010 | KEY=A (idx=0) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)" || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("はさまれ・巻き込まれ") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: この<ruby>人<rt>ひと</rt></ruby>はどうしてですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengapa orang pada gambar ini mengalami kecelakaan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 3, nomor 10. Bobot: 7.5 poin. Kunci jawaban: A. Visual: Ilustrasi tangan pekerja terjepit/tertarik ke dalam rol mesin yang berputar.
+  KOTOBA_PROMPT: [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=はさまれ・<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ
+    TRANS: Terjepit / Terlilit mesin
+    KOTOBA: [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin
+  OPT B: HTML=<ruby>転倒<rt>てんとう</rt></ruby>
+    TRANS: Terjatuh / Terpeleset
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama
+  OPT C: HTML=こすれ <ruby>擦<rt>す</rt></ruby>り<ruby>傷<rt>きず</rt></ruby>
+    TRANS: Tergores / Luka lecet
+    KOTOBA: [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek | [kb-latsol-6fe0736563] 擦り傷(すりきず) [word] = luka lecet / tergores
+
+=== #Q11 | ID=reguler03-q011 | KEY=A (idx=0) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("床が濡れていたら、きちんと拭き取ります") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>転倒<rt>てんとう</rt></ruby><ruby>防止<rt>ぼうし</rt></ruby>のためにはなんですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan untuk mencegah kecelakaan terjatuh/terpeleset? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 3, nomor 11. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-latsol-719c999557] 転倒防止(てんとうぼうし) [word] = pencegahan jatuh / terpeleset | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>床<rt>ゆか</rt></ruby>が<ruby>濡<rt>ぬ</rt></ruby>れていたら、きちんと<ruby>拭<rt>ふ</rt></ruby>き<ruby>取<rt>と</rt></ruby>ります
+    TRANS: Jika lantai basah, mengelapnya dengan benar hingga kering
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-audit-0599] 濡れていたら(ぬれていたら) [inflected_verb, df:濡れる] = jika dalam kondisi basah | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-latsol-f4617d7879] 拭き取ります(ふきとります) [word] = mengelap hingga bersih
+  OPT B: HTML=<ruby>床<rt>ゆか</rt></ruby>が<ruby>濡<rt>ぬ</rt></ruby>れていたらすぐに<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めます
+    TRANS: Jika lantai basah, segera menghentikan mesin
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-audit-0599] 濡れていたら(ぬれていたら) [inflected_verb, df:濡れる] = jika dalam kondisi basah | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-audit-0162] 止めます(とめます) [inflected_verb, df:止める] = menghentikan / mematikan
+  OPT C: HTML=<ruby>足元<rt>あしもと</rt></ruby><ruby>気<rt>き</rt></ruby>をつけて<ruby>走<rt>はし</rt></ruby>ります
+    TRANS: Berlari sambil berhati-hati melihat langkah kaki
+    KOTOBA: [kb-otaff51-0584] 足元(あしもと) [noun] = pijakan kaki / area bawah kaki | [kb-latsol-32e8e082e2] 気をつけて(きをつけて) [word] = berhati-hati / waspada | [kb-latsol-2203f8dd11] 走ります(はしります) [word] = berlari di area kerja
+
+=== #Q12 | ID=reguler03-q012 | KEY=C (idx=2) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="(切れ・こすれ)の防止はなんですか。。まちがっているものをひとつえらびなさい" vs questionText="(切れ。こすれ) の防止はなんですか。。まちがっているものをひとつえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("包丁はそのままにしておきます") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: （<ruby>切<rt>き</rt></ruby>れ・こすれ）の<ruby>防止<rt>ぼうし</rt></ruby>はなんですか。。まちがっているものをひとつえらびなさい
+  QUESTION_TEXT: (切れ。こすれ) の防止はなんですか。。まちがっているものをひとつえらびなさい
+  PROMPT_TRANS: Manakah langkah untuk mencegah luka terpotong dan tergores? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 4, nomor 12. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0688] 切れ・こすれ(きれこすれ) [compound_technical] = terpotong / teriris dan tergores | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>作業中<rt>さぎょうちゅう</rt></ruby>の<ruby>包丁<rt>ほうちょう</rt></ruby>は<ruby>置<rt>お</rt></ruby>き<ruby>方<rt>かた</rt></ruby>や<ruby>置<rt>お</rt></ruby>き<ruby>場所<rt>ばしょ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します
+    TRANS: Memastikan keamanan cara meletakkan dan tempat meletakkan pisau dapur selama bekerja
+    KOTOBA: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0201] 包丁(ほうちょう) [noun] = pisau dapur | [kb-latsol-6889829008] 置き方(おきかた) [word] = cara meletakkan / penempatan | [kb-v2-p1-023] 置き場所(おきばしょ) [word] = tempat penyimpanan | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-audit-0940] 確認します(かくにんします) [inflected_verb, df:確認する] = memeriksa (sopan)
+  OPT B: HTML=<ruby>使<rt>つか</rt></ruby>い<ruby>終<rt>お</rt></ruby>わった<ruby>包丁<rt>ほうちょう</rt></ruby> 5エス<ruby>整理<rt>せいり</rt></ruby>、<ruby>整頓<rt>せいとん</rt></ruby>、<ruby>清潔<rt>せいけつ</rt></ruby>、<ruby>習慣<rt>しゅうかん</rt></ruby>を<ruby>徹底<rt>てってい</rt></ruby>して、きちんと<ruby>片付<rt>かたづ</rt></ruby>けます
+    TRANS: Membereskan pisau yang selesai digunakan dengan benar serta menerapkan 5S secara menyeluruh
+    KOTOBA: [kb-latsol-tsukaiowatta] 使い終わった(つかいおわった) [inflected_verb, df:使い終わる] = selesai digunakan | [kb-otaff51-0201] 包丁(ほうちょう) [noun] = pisau dapur | [kb-v2-p6-546] エス(-) [technical] = huruf S (5S) | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan) | [kb-1437670] 徹底(てってい) [word] = penerapan tuntas / menyeluruh | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-audit-0163] 片付けます(かたづけます) [inflected_verb, df:片付ける] = membereskan / merapikan
+  OPT C: HTML=<ruby>包丁<rt>ほうちょう</rt></ruby>はそのままにしておきます
+    TRANS: Membiarkan pisau dapur begitu saja
+    KOTOBA: [kb-otaff51-0201] 包丁(ほうちょう) [noun] = pisau dapur | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p1-320] にして(-) [particle] = menjadikan | [kb-audit-0010] おきます(おきます) [inflected_verb, df:置く] = meletakkan / membiarkan (kondisi)

@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-2 (Soal Ujian 2 — CBTP Gino1) | Batch qa-batch-01 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-2-q025 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.4 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>で<ruby>転<rt>ころ</rt></ruby>ばないために、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai pencegahan agar tidak terjatuh di area kerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 4, Câu 25 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p2-125] 転ばない(ころばない) [inflected, df:転ぶ] = tidak jatuh / terpeleset | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>床<rt>ゆか</rt></ruby>にこぼれた<ruby>水<rt>みず</rt></ruby>や<ruby>油<rt>あぶら</rt></ruby>は、すぐにふきとる。
+    TRANS: Segera mengelap air atau minyak yang tumpah di lantai.
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-v2-p2-115] こぼれた(-) [inflected, df:こぼれる] = tumpah | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0379] 油(あぶら) [noun] = minyak | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p2-116] ふきとる(-) [word] = mengelap hingga bersih | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=<ruby>作業靴<rt>さぎょうくつ</rt></ruby>は、<ruby>靴底<rt>くつぞこ</rt></ruby>がすりへったものを<ruby>履<rt>は</rt></ruby>く。
+    TRANS: Mengenakan sepatu kerja yang bagian solnya sudah aus/menipis.
+    KOTOBA: [kb-ext-0627-e4bd9ce6a5] 作業靴(さぎょうくつ) [compound_technical] = sepatu kerja | [kb-otaff51-0638] 靴底(くつぞこ) [noun] = sol sepatu | [kb-v2-p2-117] すりへった(-) [inflected, df:すり減る] = aus / menipis | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p2-215] 履く(はく) [word] = memakai (sepatu/celana) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>階段<rt>かいだん</rt></ruby>をのぼるときは、<ruby>手<rt>て</rt></ruby>すりをつかむ。
+    TRANS: Berpegangan pada pegangan tangga (handrail) saat menaiki tangga.
+    KOTOBA: [kb-otaff51-0629] 階段(かいだん) [noun] = tangga | [kb-v2-p2-142] のぼる(-) [word] = naik (tangga) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p2-081] 手すり(てすり) [word] = pegangan tangga | [kb-v2-p2-143] つかむ(-) [word] = menggenggam / berpegangan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q26 | ID=kunci-ujian-2-q026 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.4 ===
+  CLUSTER CL-0057 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-16-q030 (ssw-pm-kunci-ujian-16)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業着<rt>さぎょうぎ</rt></ruby>や<ruby>工場内<rt>こうじょうない</rt></ruby>この<ruby>靴<rt>くつ</rt></ruby>で<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>てはいけない<ruby>理由<rt>りゆう</rt></ruby>のうち、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara alasan mengapa tidak boleh keluar gedung menggunakan pakaian kerja atau sepatu khusus dalam pabrik, pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 4, Câu 26 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-ext-0547-e5b7a5e5a0] 工場内(こうじょうない) [word] = di dalam area pabrik | [kb-v2-p1-267] この(-) [word] = ini | [kb-v2-p1-089] 靴(くつ) [word] = sepatu | [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-v2-p2-163] 出てはいけない(でてはいけない) [expression] = tidak boleh keluar | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-341] へ(-) [particle] = ke (arah tujuan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>外<rt>そと</rt></ruby>のほこりや<ruby>汚<rt>よご</rt></ruby>れを<ruby>作業着<rt>さぎょうぎ</rt></ruby>や<ruby>靴<rt>くつ</rt></ruby>につけないため。
+    TRANS: Agar debu dan kotoran dari luar tidak menempel pada pakaian kerja dan sepatu.
+    KOTOBA: [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-v2-p1-089] 靴(くつ) [word] = sepatu | [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>外<rt>そと</rt></ruby>の<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>工場内<rt>こうじょうない</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>ませないため。
+    TRANS: Agar mikroorganisme dari luar tidak terbawa masuk ke dalam pabrik.
+    KOTOBA: [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-ext-0547-e5b7a5e5a0] 工場内(こうじょうない) [word] = di dalam area pabrik | [kb-v2-p2-136] 持ち込ませない(もちこませない) [inflected, df:持ち込む] = tidak membiarkan terbawa masuk | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>工場内<rt>こうじょうない</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れや<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>外<rt>そと</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>出<rt>だ</rt></ruby>すため。
+    TRANS: Untuk membawa kotoran dan mikroorganisme dari dalam pabrik ke luar.
+    KOTOBA: [kb-ext-0547-e5b7a5e5a0] 工場内(こうじょうない) [word] = di dalam area pabrik | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-v2-p2-137] 持ち出す(もちだす) [word] = membawa keluar | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q27 | ID=kunci-ujian-2-q027 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.5 ===
+  CLUSTER CL-0058 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-16-q033 (ssw-pm-kunci-ujian-16), bonus-soal-2-q027 (bonus-soal-2), nguyen02-q027 (latsol-nguyen-02)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>として、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai cara menangani bahan sterilisasi/disinfektan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 5, Câu 27 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p2-108] 扱い方(あつかいかた) [word] = cara penanganan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>は、どこで<ruby>保管<rt>ほかん</rt></ruby>しても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Bahan sterilisasi boleh disimpan di mana saja.
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p2-217] 保管しても(ほかんしても) [inflected, df:保管する] = meskipun disimpan | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>容器<rt>ようき</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>すときは、<ruby>必<rt>かなら</rt></ruby>ず<ruby>移<rt>うつ</rt></ruby>した<ruby>容器<rt>ようき</rt></ruby>に「<ruby>殺菌剤<rt>さっきんざい</rt></ruby>」と<ruby>表示<rt>ひょうじ</rt></ruby>する。
+    TRANS: Saat memindahkan bahan sterilisasi ke wadah lain, wajib mencantumkan label "Bahan Sterilisasi" pada wadah tersebut.
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-v2-p2-205] 移す(うつす) [word] = memindahkan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p2-206] 移した(うつした) [inflected, df:移す] = yang dipindahkan | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT C: HTML=<ruby>目<rt>め</rt></ruby>に<ruby>入<rt>はい</rt></ruby>らないようにする
+    TRANS: Berhati-hati agar tidak masuk ke mata.
+    KOTOBA: [kb-otaff51-0461] 目(め) [noun] = mata | [kb-v2-p2-162] 入らない(はいらない) [inflected, df:入る] = tidak masuk | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q28 | ID=kunci-ujian-2-q028 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.5 ===
+  CLUSTER CL-0059 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q028 (bonus-soal-2), bonus-soal-8-q027 (bonus-soal-8), nguyen02-q028 (latsol-nguyen-02), nguyen08-q027 (latsol-nguyen-08)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手洗<rt>てあら</rt></ruby>いについて、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai mencuci tangan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 5, Câu 28 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>手<rt>て</rt></ruby>についた<ruby>汚<rt>よご</rt></ruby>れや<ruby>微生物<rt>びせいぶつ</rt></ruby>をとるために<ruby>行<rt>おこな</rt></ruby>う。
+    TRANS: Dilakukan untuk menghilangkan kotoran dan mikroorganisme yang menempel di tangan.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p2-199] とる(-) [word] = mengambil / menghilangkan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=つめの<ruby>中<rt>なか</rt></ruby>は<ruby>洗<rt>あら</rt></ruby>わなくても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Bagian dalam kuku tidak perlu dicuci.
+    KOTOBA: [kb-v2-p2-079] つめ(-) [word] = kuku | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p2-008] 洗わなくても(あらわなくても) [inflected, df:洗う] = meskipun tidak mencuci | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=<ruby>指<rt>ゆび</rt></ruby>の<ruby>間<rt>あいだ</rt></ruby>や<ruby>手首<rt>てくび</rt></ruby>までしっかり<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci dengan bersih hingga ke sela-sela jari dan pergelangan tangan.
+    KOTOBA: [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-v2-p2-104] 間(あいだ) [word] = antara / sela-sela | [kb-otaff51-0313] 手首(てくび) [noun] = pergelangan tangan | [kb-v2-p2-284] まで(-) [particle] = sampai | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)

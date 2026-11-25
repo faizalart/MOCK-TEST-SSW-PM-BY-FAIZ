@@ -1,0 +1,75 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-8 (Soal Ujian 8 — CBTP Gino1) | Batch qa-batch-02 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=kunci-ujian-8-q009 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.2 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:C] 隠
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>保管<rt>ほかん</rt></ruby>する<ruby>際<rt>さい</rt></ruby>に<ruby>守<rt>まも</rt></ruby>らなければならないことは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dipatuhi saat menyimpan bahan kimia?
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 2, Câu 9 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-v2-p5-357] 守らなければ(まもらなければ) [inflected, df:守る] = harus mematuhi | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Menyimpannya bersama dengan bahan baku
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1163400] 一緒(いっしょ) [word] = Bersama-sama / serentak | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>名称<rt>めいしょう</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かるように<ruby>表示<rt>ひょうじ</rt></ruby>する
+    TRANS: Memberikan label/tanda agar namanya dapat diketahui dengan jelas
+    KOTOBA: [kb-1531620] 名称(めいしょう) [word] = nama resmi / sebutan | [kb-v2-p4-203] 分かる(わかる) [word] = dapat diketahui / dipahami | [kb-v2-p1-327] ように(-) [particle] = agar / supaya | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>誰<rt>だれ</rt></ruby>にも<ruby>見<rt>み</rt></ruby>つからない<ruby>場所<rt>ばしょ</rt></ruby>に隠す
+    TRANS: Menyembunyikannya di tempat yang tidak dapat ditemukan siapa pun
+    KOTOBA: [kb-1416830] 誰(だれ) [standalone_term] = Siapa / pihak penanggung jawab yang ditunjuk | [kb-v2-p6-471] 見つからない(みつからない) [inflected, df:見つける] = tidak ditemukan | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p6-372] 隠す(かくす) [word] = menyembunyikan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+
+=== #Q10 | ID=kunci-ujian-8-q010 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: じゃがいもを<ruby>食<rt>た</rt></ruby>べる<ruby>際<rt>さい</rt></ruby>、ソラニンによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためにするべきことは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat memakan kentang, apa yang harus dilakukan untuk mencegah keracunan makanan akibat solanin?
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 2, Câu 10 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-pilot51-013] 食べる(たべる) [verb] = makan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-otaff51-0055] ソラニン(そらにん) [noun] = solanin (racun pada tunas/kulit hijau kentang) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=じゃがいもを<ruby>冷蔵保存<rt>れいぞうほぞん</rt></ruby>する
+    TRANS: Menyimpan kentang di dalam kulkas
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-2690010] 冷蔵保存(れいぞうほぞん) [word] = penyimpanan suhu dingin | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=じゃがいもの<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>く
+    TRANS: Membuang bagian tunas dan kulit kentang yang berwarna hijau
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-otaff51-0530] 芽(め) [noun] = tunas | [kb-otaff51-0501] 緑色の皮(みどりいろのかわ) [noun] = kulit berwarna hijau | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-otaff51-0031] を取り除く(をとりのぞく) [expression] = menghilangkan / membuang | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT C: HTML=じゃがいもを<ruby>焼<rt>や</rt></ruby>いて<ruby>食<rt>た</rt></ruby>べる
+    TRANS: Memanggang kentang sebelum dimakan
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-v2-p6-423] 焼いて(やいて) [inflected, df:焼く] = memanggang / membakar | [kb-pilot51-013] 食べる(たべる) [verb] = makan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q11 | ID=kunci-ujian-8-q011 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.2 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:B] 生 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-1089 (う生まれさせない): "mencegah timbul (typo)"
+  CLUSTER CL-0125 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-15-q011 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐ<ruby>三<rt>みっ</rt></ruby>つの<ruby>原則<rt>げんそく</rt></ruby>があります。「つけない」、「<ruby>増<rt>ふ</rt></ruby>やさない」のほかにもう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<br><ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 食中毒の原因となる微生物を防ぐ三つの原則があります。「つけない」、「増やさない」のほかにもう一つは何ですか。正しいものを
+一つ選びなさい
+  PROMPT_TRANS: Terdapat tiga prinsip pencegahan mikroorganisme penyebab keracunan makanan. Selain "tidak menempelkan" dan "tidak memperbanyak", apakah satu prinsip lainnya? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 2, Câu 11 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p5-228] 三つ(みっつ) [word] = tiga buah | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai | [kb-v2-p4-164] 増やさない(ふやさない) [inflected, df:増やす] = tidak memperbanyak | [kb-v2-p1-286] ほかに(-) [expression] = selain itu | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>殺<rt>ころ</rt></ruby>す
+    TRANS: Membunuh
+    KOTOBA: [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri)
+  OPT B: HTML=う<br>生まれさせない
+    TRANS: Tidak membiarkan lahir
+    KOTOBA: [kb-audit-1089] う生まれさせない(うまれさせない) [inflected_verb, df:生まれる] = mencegah timbul (typo)
+  OPT C: HTML=<ruby>下<rt>さ</rt></ruby>げない
+    TRANS: Tidak menurunkan
+    KOTOBA: [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-latsol-664dbf6500] 下げ(さげ) [word] = Menurunkan barang atau menurunkan ping
+
+=== #Q12 | ID=kunci-ujian-8-q012 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.2 ===
+  CLUSTER CL-0126 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-15-q012 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>衛生物<rt>えいせいぶつ</rt></ruby>が<ruby>増速<rt>ぞうそく</rt></ruby>する<ruby>三<rt>みっ</rt></ruby>つの<ruby>要因<rt>よういん</rt></ruby>があります。<ruby>温度<rt>おんど</rt></ruby>、<ruby>水分<rt>すいぶん</rt></ruby>のほかのもう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Terdapat tiga faktor yang menyebabkan mikroorganisme berkembang biak. Selain suhu dan air (kelembapan), apakah satu faktor lainnya? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 2, Câu 12 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-1174790] 衛生(えいせい) [word] = sanitasi dan higienitas | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-ext-1144-e5a297e980] 増速(ぞうそく) [word] = peningkatan kecepatan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p5-228] 三つ(みっつ) [word] = tiga buah | [kb-1546670] 要因(よういん) [word] = faktor penyebab | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-287] ほか(-) [word] = lainnya | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>光<rt>ひかり</rt></ruby>
+    TRANS: Cahaya
+    KOTOBA: [kb-1272780] 光(ひかり) [standalone_term] = Cahaya / penyinaran ultraviolet sterilisasi
+  OPT B: HTML=<ruby>気圧<rt>きあつ</rt></ruby>
+    TRANS: Tekanan udara
+    KOTOBA: [kb-1221880] 気圧(きあつ) [word] = tekanan udara
+  OPT C: HTML=<ruby>栄養<rt>えいよう</rt></ruby>
+    TRANS: Nutrisi (zat gizi)
+    KOTOBA: [kb-otaff51-0345] 栄養(えいよう) [noun] = nutrisi / zat gizi

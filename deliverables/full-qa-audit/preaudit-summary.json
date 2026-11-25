@@ -1,0 +1,2088 @@
+{
+  "generatedAt": "2026-11-15T23:09:26.685Z",
+  "totals": {
+    "packages": 60,
+    "questions": 2139,
+    "flaggedQuestions": 1064,
+    "totalFlags": 2077,
+    "mediaErrors": 0,
+    "crossPackageClusters": 270,
+    "divergentJapaneseClusters": 192,
+    "dictTotalTerms": 7530,
+    "dictUsedTerms": 6086,
+    "dictUnusedTerms": 1444,
+    "dictFragmentTerms": 120,
+    "dictUsedMultiIdSameKanji": 530,
+    "tambahanEntries": 1133
+  },
+  "flagCounts": {
+    "KOTOBA_READING_CONFLICT_WITH_RUBY": 501,
+    "RUBY_RT_INVALID_CHARS": 2,
+    "KOTOBA_SUSPICIOUS_ARTI": 288,
+    "KANJI_WITHOUT_RUBY": 492,
+    "JP_NACLO_DIGIT": 29,
+    "NUMBER_MISMATCH": 144,
+    "JP_DOUBLE_PARTICLE": 40,
+    "PROMPT_POLARITY_MISMATCH_NEG": 2,
+    "JP_KORO_TYPO": 2,
+    "JP_YUBISASHIMASU": 3,
+    "DUP_KANA_KANARAZU": 1,
+    "JP_KANARAZU_DUP": 1,
+    "TRANSLATION_CONTAINS_JP": 143,
+    "JP_WHITESPACE_BETWEEN_JP": 188,
+    "PROMPT_POLARITY_MISMATCH_POS": 2,
+    "OPT_PROHIBITION_MISMATCH": 40,
+    "PROMPT_QUESTIONTEXT_DESYNC": 136,
+    "KOTOBA_SURFACE_NOT_IN_TEXT": 1,
+    "PRIOR_KEY_AUDIT_KEY_CORRECTION_REQUIRED": 4,
+    "PRIOR_KEY_AUDIT_QUESTION_DEFECTIVE": 4,
+    "PRIOR_KEY_AUDIT_SOURCE_CONFLICT": 11,
+    "PRIOR_KEY_AUDIT_REVIEW_REQUIRED": 7,
+    "JP_TADASHIMONO": 34,
+    "KOTOBA_FRAGMENT_OR_TYPO": 1,
+    "RUBY_DUP_KANA_AFTER": 1
+  },
+  "mediaErrors": [],
+  "dictFragmentsSample": [
+    {
+      "id": "kb-ext-0001-e383bce383",
+      "kanji": "ーム",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0002-33e7a792e5",
+      "kanji": "3秒待",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0004-e382a2e383",
+      "kanji": "アルコール",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0005-e382a2e383",
+      "kanji": "アレルギー",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0014-e382b3e382",
+      "kanji": "コカ・コーラ",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0019-e381a4e981",
+      "kanji": "つ選",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0020-e38388e382",
+      "kanji": "トセッ",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0024-e38391e383",
+      "kanji": "パン",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0030-e383a0e383",
+      "kanji": "ムダ",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0033-e383ace383",
+      "kanji": "レトルト",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0056-e5ae89e585",
+      "kanji": "安全的危害要因",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0089-e4b880e381",
+      "kanji": "一つ選",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0097-e4b880e5ba",
+      "kanji": "一度行",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0108-e4b880e795",
+      "kanji": "一番多",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0137-e8a19be794",
+      "kanji": "衛生的取",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0139-e8a19be794",
+      "kanji": "衛生物",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0150-e6b19ae69f",
+      "kanji": "汚染作",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0426-e7b9b03a3a",
+      "kanji": "繰",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0487-e58e9fe589",
+      "kanji": "原則守",
+      "arti": ""
+    },
+    {
+      "id": "kb-1269730",
+      "kanji": "後手",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0516-e5be8ce689",
+      "kanji": "後手洗",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0517-e5be8ce79f",
+      "kanji": "後石鹸",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0593-e5b7aee6bc",
+      "kanji": "差漁場",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0613-e781bde5ae",
+      "kanji": "災害的危害要因",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0733-e69982e887",
+      "kanji": "時自分",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0815-e99b86e4b8",
+      "kanji": "集中力",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-0860-e582b7e58f",
+      "kanji": "傷口",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1021-e6b885e6bd",
+      "kanji": "清潔作",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1023-e6b885e4bd",
+      "kanji": "清作",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1062-e8a3bde593",
+      "kanji": "製品",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1120-e585a8e983",
+      "kanji": "全部書",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1256-e8aabfe790",
+      "kanji": "調理",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1262-e995b7e699",
+      "kanji": "長時間座",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1271-e79bb4e68e",
+      "kanji": "直接触",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1330-e5baa63a3a",
+      "kanji": "度",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1343-e6b9afe585",
+      "kanji": "湯入",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1368-e789b9e5a4",
+      "kanji": "特多",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1373-e789b9e5ae",
+      "kanji": "特定原材料料",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1455-e799bae794",
+      "kanji": "発生",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1482-e99d9ee6b1",
+      "kanji": "非汚染区入",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1483-e99d9ee6b1",
+      "kanji": "非汚染作",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1520-e7a792e996",
+      "kanji": "秒間洗",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1555-e69c8de4bd",
+      "kanji": "服作業管理",
+      "arti": ""
+    },
+    {
+      "id": "kb-ext-1758-e6b5813a3a",
+      "kanji": "流",
+      "arti": ""
+    },
+    {
+      "id": "kb-v2-p1-313",
+      "kanji": "い",
+      "arti": "awalan (typo 文)"
+    },
+    {
+      "id": "kb-v2-p3-180",
+      "kanji": "り",
+      "arti": "akhiran kata kerja"
+    },
+    {
+      "id": "kb-v2-p3-181",
+      "kanji": "す",
+      "arti": "akhiran kata kerja"
+    },
+    {
+      "id": "kb-v2-p3-179",
+      "kanji": "く",
+      "arti": "akhiran kata sifat / kerja"
+    },
+    {
+      "id": "kb-v2-p3-182",
+      "kanji": "め",
+      "arti": "akhiran kata (ため/つめ)"
+    },
+    {
+      "id": "kb-v2-p3-176",
+      "kanji": "み",
+      "arti": "hanya (akhiran のみ)"
+    }
+  ],
+  "packagesOverview": [
+    {
+      "batchId": "qa-batch-01",
+      "setId": "ssw-pm-kunci-ujian-1",
+      "questions": 40,
+      "flagged": 20,
+      "flags": 29,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          14
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          6
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          5
+        ],
+        [
+          "RUBY_RT_INVALID_CHARS",
+          1
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ],
+        [
+          "NUMBER_MISMATCH",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-01",
+      "setId": "ssw-pm-kunci-ujian-2",
+      "questions": 40,
+      "flagged": 19,
+      "flags": 25,
+      "topFlags": [
+        [
+          "KANJI_WITHOUT_RUBY",
+          14
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          5
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          5
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-01",
+      "setId": "ssw-pm-kunci-ujian-3",
+      "questions": 40,
+      "flagged": 14,
+      "flags": 28,
+      "topFlags": [
+        [
+          "KANJI_WITHOUT_RUBY",
+          11
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          8
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          5
+        ],
+        [
+          "NUMBER_MISMATCH",
+          3
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-01",
+      "setId": "ssw-pm-kunci-ujian-4",
+      "questions": 40,
+      "flagged": 20,
+      "flags": 34,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          11
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          10
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          9
+        ],
+        [
+          "NUMBER_MISMATCH",
+          3
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-01",
+      "setId": "ssw-pm-kunci-ujian-5",
+      "questions": 40,
+      "flagged": 18,
+      "flags": 26,
+      "topFlags": [
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          12
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          7
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          3
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          2
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ],
+        [
+          "NUMBER_MISMATCH",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-02",
+      "setId": "ssw-pm-kunci-ujian-6",
+      "questions": 40,
+      "flagged": 17,
+      "flags": 29,
+      "topFlags": [
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          14
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          12
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          1
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-02",
+      "setId": "ssw-pm-kunci-ujian-7",
+      "questions": 40,
+      "flagged": 11,
+      "flags": 14,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          7
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          3
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          2
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-02",
+      "setId": "ssw-pm-kunci-ujian-8",
+      "questions": 40,
+      "flagged": 20,
+      "flags": 31,
+      "topFlags": [
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          14
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          9
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          6
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-02",
+      "setId": "ssw-pm-kunci-ujian-9",
+      "questions": 40,
+      "flagged": 16,
+      "flags": 27,
+      "topFlags": [
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          14
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          5
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          4
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          3
+        ],
+        [
+          "PROMPT_POLARITY_MISMATCH_NEG",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-02",
+      "setId": "ssw-pm-kunci-ujian-10",
+      "questions": 40,
+      "flagged": 20,
+      "flags": 35,
+      "topFlags": [
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          17
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          6
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          6
+        ],
+        [
+          "JP_KORO_TYPO",
+          2
+        ],
+        [
+          "JP_YUBISASHIMASU",
+          2
+        ],
+        [
+          "DUP_KANA_KANARAZU",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-03",
+      "setId": "ssw-pm-kunci-ujian-11",
+      "questions": 40,
+      "flagged": 15,
+      "flags": 18,
+      "topFlags": [
+        [
+          "KANJI_WITHOUT_RUBY",
+          12
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          6
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-03",
+      "setId": "ssw-pm-kunci-ujian-12",
+      "questions": 40,
+      "flagged": 16,
+      "flags": 29,
+      "topFlags": [
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          20
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          2
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          2
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          2
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          1
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-03",
+      "setId": "ssw-pm-kunci-ujian-13",
+      "questions": 40,
+      "flagged": 30,
+      "flags": 55,
+      "topFlags": [
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          18
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          15
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          6
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          5
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          5
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          2
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-03",
+      "setId": "ssw-pm-kunci-ujian-14",
+      "questions": 59,
+      "flagged": 16,
+      "flags": 20,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          15
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          2
+        ],
+        [
+          "NUMBER_MISMATCH",
+          2
+        ],
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-03",
+      "setId": "ssw-pm-kunci-ujian-15",
+      "questions": 38,
+      "flagged": 32,
+      "flags": 54,
+      "topFlags": [
+        [
+          "NUMBER_MISMATCH",
+          31
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          17
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          2
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          2
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ],
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-04",
+      "setId": "ssw-pm-kunci-ujian-16",
+      "questions": 50,
+      "flagged": 14,
+      "flags": 15,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          5
+        ],
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          4
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          3
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          3
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-04",
+      "setId": "ssw-pm-tipe2-nguyen1",
+      "questions": 40,
+      "flagged": 40,
+      "flags": 235,
+      "topFlags": [
+        [
+          "KANJI_WITHOUT_RUBY",
+          186
+        ],
+        [
+          "NUMBER_MISMATCH",
+          39
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          8
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-04",
+      "setId": "bonus-soal-1",
+      "questions": 40,
+      "flagged": 19,
+      "flags": 24,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          9
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          4
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          3
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          3
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          2
+        ],
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-04",
+      "setId": "bonus-soal-2",
+      "questions": 40,
+      "flagged": 21,
+      "flags": 34,
+      "topFlags": [
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          16
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          7
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          6
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          3
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          1
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-04",
+      "setId": "bonus-soal-4",
+      "questions": 40,
+      "flagged": 12,
+      "flags": 17,
+      "topFlags": [
+        [
+          "TRANSLATION_CONTAINS_JP",
+          6
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          4
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          4
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          2
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-05",
+      "setId": "bonus-soal-5",
+      "questions": 36,
+      "flagged": 19,
+      "flags": 25,
+      "topFlags": [
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          12
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          8
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          1
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          1
+        ],
+        [
+          "PROMPT_POLARITY_MISMATCH_POS",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-05",
+      "setId": "bonus-soal-6",
+      "questions": 40,
+      "flagged": 32,
+      "flags": 76,
+      "topFlags": [
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          27
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          22
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          13
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          9
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          3
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          2
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-05",
+      "setId": "bonus-soal-7",
+      "questions": 39,
+      "flagged": 16,
+      "flags": 19,
+      "topFlags": [
+        [
+          "KANJI_WITHOUT_RUBY",
+          6
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          5
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          4
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          2
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          2
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-05",
+      "setId": "bonus-soal-8",
+      "questions": 39,
+      "flagged": 15,
+      "flags": 21,
+      "topFlags": [
+        [
+          "TRANSLATION_CONTAINS_JP",
+          6
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          5
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          4
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          2
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          2
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-05",
+      "setId": "bonus-soal-9",
+      "questions": 40,
+      "flagged": 35,
+      "flags": 55,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          33
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          8
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          6
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          4
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          3
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-06",
+      "setId": "bonus-soal-10",
+      "questions": 40,
+      "flagged": 27,
+      "flags": 51,
+      "topFlags": [
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          24
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          14
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          8
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          3
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-06",
+      "setId": "ssw-pm-lab-bakteri",
+      "questions": 32,
+      "flagged": 12,
+      "flags": 20,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          19
+        ],
+        [
+          "NUMBER_MISMATCH",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-06",
+      "setId": "ssw-pm-lab-suhu",
+      "questions": 28,
+      "flagged": 6,
+      "flags": 6,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          4
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          1
+        ],
+        [
+          "NUMBER_MISMATCH",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-06",
+      "setId": "ssw-pm-lab-haccp",
+      "questions": 12,
+      "flagged": 3,
+      "flags": 4,
+      "topFlags": [
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          2
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          1
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-06",
+      "setId": "ssw-pm-lab-alergen",
+      "questions": 20,
+      "flagged": 7,
+      "flags": 10,
+      "topFlags": [
+        [
+          "NUMBER_MISMATCH",
+          4
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          2
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          2
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          1
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-07",
+      "setId": "latsol-nguyen-01",
+      "questions": 40,
+      "flagged": 16,
+      "flags": 23,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          9
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          4
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          3
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          3
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          2
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-07",
+      "setId": "latsol-nguyen-02",
+      "questions": 40,
+      "flagged": 16,
+      "flags": 28,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          6
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          6
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          6
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          3
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          3
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          3
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-07",
+      "setId": "latsol-nguyen-03",
+      "questions": 40,
+      "flagged": 18,
+      "flags": 33,
+      "topFlags": [
+        [
+          "TRANSLATION_CONTAINS_JP",
+          12
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          8
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          6
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          1
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-07",
+      "setId": "latsol-nguyen-04",
+      "questions": 40,
+      "flagged": 17,
+      "flags": 27,
+      "topFlags": [
+        [
+          "TRANSLATION_CONTAINS_JP",
+          13
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          6
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          4
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          1
+        ],
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          1
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-07",
+      "setId": "latsol-nguyen-05",
+      "questions": 36,
+      "flagged": 18,
+      "flags": 24,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          9
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          4
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          2
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          2
+        ],
+        [
+          "NUMBER_MISMATCH",
+          2
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-08",
+      "setId": "latsol-nguyen-06",
+      "questions": 40,
+      "flagged": 24,
+      "flags": 55,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          28
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          12
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          5
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          5
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          2
+        ],
+        [
+          "PRIOR_KEY_AUDIT_SOURCE_CONFLICT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-08",
+      "setId": "latsol-nguyen-07",
+      "questions": 39,
+      "flagged": 17,
+      "flags": 25,
+      "topFlags": [
+        [
+          "TRANSLATION_CONTAINS_JP",
+          10
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          5
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          4
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          2
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          2
+        ],
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-08",
+      "setId": "latsol-nguyen-08",
+      "questions": 39,
+      "flagged": 11,
+      "flags": 22,
+      "topFlags": [
+        [
+          "KANJI_WITHOUT_RUBY",
+          6
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          5
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          3
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          3
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          2
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          2
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-08",
+      "setId": "latsol-nguyen-09",
+      "questions": 40,
+      "flagged": 17,
+      "flags": 28,
+      "topFlags": [
+        [
+          "TRANSLATION_CONTAINS_JP",
+          7
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          6
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          6
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          3
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          2
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          2
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-08",
+      "setId": "latsol-nguyen-10",
+      "questions": 41,
+      "flagged": 18,
+      "flags": 30,
+      "topFlags": [
+        [
+          "KANJI_WITHOUT_RUBY",
+          9
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          8
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          6
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          4
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          2
+        ],
+        [
+          "PRIOR_KEY_AUDIT_KEY_CORRECTION_REQUIRED",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-09",
+      "setId": "latsol-reguler-01",
+      "questions": 20,
+      "flagged": 17,
+      "flags": 46,
+      "topFlags": [
+        [
+          "JP_TADASHIMONO",
+          12
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          12
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          9
+        ],
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          6
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          2
+        ],
+        [
+          "PRIOR_KEY_AUDIT_REVIEW_REQUIRED",
+          2
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-09",
+      "setId": "latsol-reguler-02",
+      "questions": 20,
+      "flagged": 19,
+      "flags": 56,
+      "topFlags": [
+        [
+          "JP_TADASHIMONO",
+          13
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          13
+        ],
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          13
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          10
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          5
+        ],
+        [
+          "JP_YUBISASHIMASU",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-09",
+      "setId": "latsol-reguler-03",
+      "questions": 20,
+      "flagged": 18,
+      "flags": 32,
+      "topFlags": [
+        [
+          "JP_TADASHIMONO",
+          9
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          9
+        ],
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          7
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          4
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          2
+        ],
+        [
+          "PRIOR_KEY_AUDIT_QUESTION_DEFECTIVE",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-09",
+      "setId": "latsol-reguler-04",
+      "questions": 20,
+      "flagged": 15,
+      "flags": 20,
+      "topFlags": [
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          15
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          3
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          1
+        ],
+        [
+          "PRIOR_KEY_AUDIT_REVIEW_REQUIRED",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-09",
+      "setId": "latsol-reguler-05",
+      "questions": 20,
+      "flagged": 19,
+      "flags": 29,
+      "topFlags": [
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          19
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          6
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          3
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-10",
+      "setId": "latsol-reguler-06",
+      "questions": 20,
+      "flagged": 20,
+      "flags": 23,
+      "topFlags": [
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          20
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          2
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-10",
+      "setId": "latsol-tambahan-01",
+      "questions": 25,
+      "flagged": 25,
+      "flags": 52,
+      "topFlags": [
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          25
+        ],
+        [
+          "PRIOR_KEY_AUDIT_SOURCE_CONFLICT",
+          9
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          7
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          6
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          1
+        ],
+        [
+          "PRIOR_KEY_AUDIT_QUESTION_DEFECTIVE",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-10",
+      "setId": "latsol-tambahan-02",
+      "questions": 30,
+      "flagged": 27,
+      "flags": 104,
+      "topFlags": [
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          59
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          15
+        ],
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          9
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          8
+        ],
+        [
+          "KOTOBA_SUSPICIOUS_ARTI",
+          5
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          4
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-10",
+      "setId": "latsol-hitungan-01",
+      "questions": 11,
+      "flagged": 11,
+      "flags": 12,
+      "topFlags": [
+        [
+          "PROMPT_QUESTIONTEXT_DESYNC",
+          11
+        ],
+        [
+          "JP_NACLO_DIGIT",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-10",
+      "setId": "pilot-otaff51-01",
+      "questions": 5,
+      "flagged": 2,
+      "flags": 4,
+      "topFlags": [
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          2
+        ],
+        [
+          "NUMBER_MISMATCH",
+          1
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-11",
+      "setId": "latsol-otaff-pm51-01",
+      "questions": 40,
+      "flagged": 13,
+      "flags": 27,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          12
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          9
+        ],
+        [
+          "NUMBER_MISMATCH",
+          3
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          1
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-11",
+      "setId": "latsol-otaff-pm51-02",
+      "questions": 40,
+      "flagged": 13,
+      "flags": 24,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          12
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          8
+        ],
+        [
+          "NUMBER_MISMATCH",
+          3
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-11",
+      "setId": "latsol-otaff-pm51-03",
+      "questions": 40,
+      "flagged": 16,
+      "flags": 31,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          12
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          8
+        ],
+        [
+          "NUMBER_MISMATCH",
+          5
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          4
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-11",
+      "setId": "latsol-otaff-pm51-04",
+      "questions": 40,
+      "flagged": 15,
+      "flags": 39,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          15
+        ],
+        [
+          "NUMBER_MISMATCH",
+          9
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          9
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          5
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-11",
+      "setId": "latsol-otaff-pm51-05",
+      "questions": 40,
+      "flagged": 16,
+      "flags": 30,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          12
+        ],
+        [
+          "NUMBER_MISMATCH",
+          8
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          7
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          1
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          1
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-12",
+      "setId": "latsol-otaff-pm51-06",
+      "questions": 40,
+      "flagged": 12,
+      "flags": 22,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          10
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          5
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          4
+        ],
+        [
+          "KOTOBA_FRAGMENT_OR_TYPO",
+          1
+        ],
+        [
+          "NUMBER_MISMATCH",
+          1
+        ],
+        [
+          "OPT_PROHIBITION_MISMATCH",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-12",
+      "setId": "latsol-otaff-pm51-07",
+      "questions": 40,
+      "flagged": 17,
+      "flags": 36,
+      "topFlags": [
+        [
+          "KANJI_WITHOUT_RUBY",
+          13
+        ],
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          11
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          5
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          4
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          2
+        ],
+        [
+          "NUMBER_MISMATCH",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-12",
+      "setId": "latsol-otaff-pm51-08",
+      "questions": 40,
+      "flagged": 14,
+      "flags": 27,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          12
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          5
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          5
+        ],
+        [
+          "NUMBER_MISMATCH",
+          4
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-12",
+      "setId": "latsol-otaff-pm51-09",
+      "questions": 40,
+      "flagged": 18,
+      "flags": 45,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          14
+        ],
+        [
+          "NUMBER_MISMATCH",
+          12
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          10
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          4
+        ],
+        [
+          "JP_DOUBLE_PARTICLE",
+          3
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          1
+        ]
+      ]
+    },
+    {
+      "batchId": "qa-batch-12",
+      "setId": "latsol-otaff-pm51-10",
+      "questions": 40,
+      "flagged": 23,
+      "flags": 57,
+      "topFlags": [
+        [
+          "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          25
+        ],
+        [
+          "KANJI_WITHOUT_RUBY",
+          18
+        ],
+        [
+          "NUMBER_MISMATCH",
+          6
+        ],
+        [
+          "TRANSLATION_CONTAINS_JP",
+          6
+        ],
+        [
+          "JP_WHITESPACE_BETWEEN_JP",
+          1
+        ],
+        [
+          "RUBY_DUP_KANA_AFTER",
+          1
+        ]
+      ]
+    }
+  ]
+}

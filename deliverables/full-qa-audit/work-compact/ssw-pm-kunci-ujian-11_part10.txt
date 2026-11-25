@@ -1,0 +1,70 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-11 (Soal Ujian 11 — CBTP Gino1) | Batch qa-batch-03 | Part 10 (Q37-40 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=kunci-ujian-11-q037 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.6 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業着<rt>さぎょうぎ</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>について、<ruby>適切<rt>てきせつ</rt></ruby>でないものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu cara pengelolaan pakaian kerja yang tidak tepat.
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 6, Câu 37 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0598] 適切(てきせつ) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>作業後<rt>さぎょうご</rt></ruby>はすぐに<ruby>作業着<rt>さぎょうぎ</rt></ruby>を<ruby>洗濯<rt>せんたく</rt></ruby>する。
+    TRANS: Segera mencuci pakaian kerja setelah selesai bekerja.
+    KOTOBA: [kb-ext-0630-e4bd9ce6a5] 作業後(さぎょうご) [word] = setelah bekerja | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-1390980] 洗濯(せんたく) [word] = pencucian pakaian seragam kerja | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>作業着<rt>さぎょうぎ</rt></ruby>を<ruby>自宅<rt>じたく</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>帰<rt>かえ</rt></ruby>って<ruby>洗濯<rt>せんたく</rt></ruby>する。
+    TRANS: Membawa pulang pakaian kerja ke rumah untuk dicuci sendiri.
+    KOTOBA: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-1318260] 自宅(じたく) [word] = Rumah tempat tinggal pekerja | [kb-v2-p6-530] 持ち帰って(もちかえって) [inflected, df:持ち帰る] = membawa pulang | [kb-1390980] 洗濯(せんたく) [word] = pencucian pakaian seragam kerja | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>作業着<rt>さぎょうぎ</rt></ruby>は<ruby>専用<rt>せんよう</rt></ruby>の<ruby>保管場所<rt>ほかんばしょ</rt></ruby>に<ruby>置<rt>お</rt></ruby>く。
+    TRANS: Meletakkan pakaian kerja di tempat penyimpanan khusus.
+    KOTOBA: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-1596240] 専用(せんよう) [word] = khusus (satu fungsi) | [kb-otaff51-0133] 保管場所(ほかんばしょ) [compound_technical] = tempat penyimpanan | [kb-v2-p3-275] 置く(おく) [word] = meletakkan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q38 | ID=kunci-ujian-11-q038 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.6 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>増殖<rt>ぞうしょく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐための<ruby>食品保存方法<rt>しょくひんほぞんほうほう</rt></ruby>として、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu cara penyimpanan makanan yang salah untuk mencegah perkembangbiakan mikroorganisme.
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 6, Câu 38 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-ext-0948-e9a39fe593] 食品保存方法(しょくひんほぞんほうほう) [word] = metode penyimpanan pangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>で<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Mendinginkannya di dalam lemari pendingin (kulkas).
+    KOTOBA: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>密閉容器<rt>みっぺいようき</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan makanan di dalam wadah tertutup rapat.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1947310] 密閉容器(みっぺいようき) [word] = wadah bertutup rapat kedap udara | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>室温<rt>しつおん</rt></ruby>で<ruby>放置<rt>ほうち</rt></ruby>する。
+    TRANS: Membiarkannya begitu saja pada suhu ruang.
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-v2-p2-189] 放置する(ほうちする) [word] = membiarkan begitu saja | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q39 | ID=kunci-ujian-11-q039 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.6 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>乾燥食品<rt>かんそうしょくひん</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>として、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu cara penanganan makanan kering yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 6, Câu 39 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-ext-0269-e4b9bee787] 乾燥食品(かんそうしょくひん) [word] = produk pangan kering | [kb-v2-p2-108] 扱い方(あつかいかた) [word] = cara penanganan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>乾燥食品<rt>かんそうしょくひん</rt></ruby>は<ruby>密閉容器<rt>みっぺいようき</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan makanan kering di dalam wadah tertutup rapat.
+    KOTOBA: [kb-ext-0269-e4b9bee787] 乾燥食品(かんそうしょくひん) [word] = produk pangan kering | [kb-1947310] 密閉容器(みっぺいようき) [word] = wadah bertutup rapat kedap udara | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>乾燥食品<rt>かんそうしょくひん</rt></ruby>は<ruby>湿度<rt>しつど</rt></ruby>の<ruby>高<rt>たか</rt></ruby>い<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan makanan kering di tempat dengan kelembapan tinggi.
+    KOTOBA: [kb-ext-0269-e4b9bee787] 乾燥食品(かんそうしょくひん) [word] = produk pangan kering | [kb-otaff51-0409] 湿度(しつど) [noun] = kelembapan udara | [kb-v2-p1-255] 高い(たかい) [word] = tinggi | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>乾燥食品<rt>かんそうしょくひん</rt></ruby>の<ruby>賞味期限<rt>しょうみきげん</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する。
+    TRANS: Memeriksa batas waktu kualitas terbaik (baik digunakan sebelum) pada makanan kering.
+    KOTOBA: [kb-ext-0269-e4b9bee787] 乾燥食品(かんそうしょくひん) [word] = produk pangan kering | [kb-otaff51-0581] 賞味期限(しょうみきげん) [compound_technical] = batas tanggal cita rasa terbaik (best before) | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q40 | ID=kunci-ujian-11-q040 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.6 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>むことが<ruby>許可<rt>きょか</rt></ruby>される<ruby>物品<rt>ぶっぴん</rt></ruby>として、<ruby>適切<rt>てきせつ</rt></ruby>でないものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu barang yang tidak tepat (tidak diizinkan) untuk dibawa masuk ke dalam area kerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 6, Câu 40 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-otaff51-0318] 持ち込む(もちこむ) [verb] = membawa masuk | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1232880] 許可(きょか) [word] = izin resmi | [kb-v2-p3-230] される(-) [inflected, df:する] = dilakukan (pasif) | [kb-1502720] 物品(ぶっぴん) [word] = Barang-barang perlengkapan kerja pabrik | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0598] 適切(てきせつ) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>工具<rt>こうぐ</rt></ruby>
+    TRANS: Perkakas yang diperlukan untuk bekerja
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-1278070] 工具(こうぐ) [word] = perkakas / alat mekanik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>個人用<rt>こじんよう</rt></ruby>の<ruby>化粧品<rt>けしょうひん</rt></ruby>
+    TRANS: Kosmetik pribadi
+    KOTOBA: [kb-1264950] 個人用(こじんよう) [word] = untuk penggunaan pribadi | [kb-1187110] 化粧品(けしょうひん) [word] = kosmetik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>保護眼鏡<rt>ほごめがね</rt></ruby>
+    TRANS: Kacamata pelindung
+    KOTOBA: [kb-ext-1614-e4bf9de8ad] 保護眼鏡(ほごめがね) [word] = kacamata pelindung (K3)

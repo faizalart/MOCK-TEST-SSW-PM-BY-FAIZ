@@ -1,0 +1,91 @@
+{
+  "setId": "ssw-pm-kunci-ujian-16",
+  "setName": "Soal Ujian 16",
+  "title": "Soal Ujian 16",
+  "sourcePdf": "Soal Ujian 16.pdf",
+  "totalPages": 19,
+  "totalQuestions": 1,
+  "pointsPerQuestion": 3,
+  "maxScore": 3,
+  "questions": [
+    {
+      "id": "kunci-ujian-16-q001",
+      "questionNumber": 1,
+      "sourceOriginalNumber": "門1",
+      "sourcePdf": "Soal Ujian 16.pdf",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "ssw-pm-kunci-ujian-16",
+      "setName": "Soal Ujian 16",
+      "category": "食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme）",
+      "points": 3,
+      "questionImage": "",
+      "questionText": "食品安全の大切はどれか、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "sourceMarkedAnswer": "D",
+      "verifiedCorrectAnswer": "D",
+      "answerVerificationStatus": "VERIFIED_CORRECT",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "prompt": "<ruby>食品安全<rt>しょくひんあんぜん</rt></ruby>の<ruby>大切<rt>たいせつ</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: Soal Ujian 16.pdf, halaman 1, nomor 門1 (Q1). Bobot: 3.0 poin. Kunci jawaban: D. Pembahasan: Sesuai buku teks SSW Bab 1 (hlm. 10), seluruh pernyataan A, B, dan C menjelaskan alasan mengapa keamanan pangan sangat penting bagi konsumen, perusahaan, dan pekerja, sehingga jawaban yang tepat adalah D (すべて正しい).",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775009000000,
+      "updatedAt": 1775009000000,
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>消費者<rt>しょうひしゃ</rt></ruby>が<ruby>美味<rt>おい</rt></ruby>しい<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めている",
+          "mediaId": "",
+          "translation": "Konsumen menginginkan makanan yang lezat dan aman"
+        },
+        {
+          "id": "B",
+          "text": "<ruby>病気<rt>びょうき</rt></ruby>になる<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>対<rt>たい</rt></ruby>する<ruby>不信感<rt>ふしんかん</rt></ruby>を<ruby>高<rt>たか</rt></ruby>める",
+          "mediaId": "",
+          "translation": "Makanan yang menimbulkan penyakit akan meningkatkan rasa ketidakpercayaan terhadap produk"
+        },
+        {
+          "id": "C",
+          "text": "<ruby>会社全体<rt>かいしゃぜんたい</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きな<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>与<rt>あた</rt></ruby>え、<ruby>自分<rt>じぶん</rt></ruby>たちの<ruby>職場<rt>しょくば</rt></ruby>にも<ruby>影響<rt>えいきょう</rt></ruby>が<ruby>及<rt>およ</rt></ruby>びます",
+          "mediaId": "",
+          "translation": "Masalah keamanan pangan berdampak besar pada seluruh perusahaan dan juga berdampak pada tempat kerja kita sendiri"
+        },
+        {
+          "id": "D",
+          "text": "すべて<ruby>正<rt>ただ</rt></ruby>しい",
+          "mediaId": "",
+          "translation": "Semua benar"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Manakah yang menunjukkan pentingnya keamanan pangan? Pilihlah satu yang benar.",
+      "kotobaU": [
+        "食品安全（しょくひんあんぜん）",
+        "消費者（しょうひしゃ）",
+        "美味しい（おいしい）",
+        "求める（もとめる）",
+        "不信感（ふしんかん）",
+        "会社全体（かいしゃぜんたい）",
+        "影響（えいきょう）",
+        "及ぶ（およぶ）"
+      ],
+      "kotobaV": [
+        "食品安全（しょくひんあんぜん） : keamanan pangan",
+        "消費者（しょうひしゃ） : konsumen",
+        "美味しい（おいしい） : lezat / enak",
+        "求める（もとめる） : menginginkan / menuntut",
+        "不信感（ふしんかん） : rasa ketidakpercayaan",
+        "会社全体（かいしゃぜんたい） : seluruh perusahaan",
+        "影響（えいきょう） : dampak / pengaruh",
+        "及ぶ（およぶ） : mencapai / berdampak hingga"
+      ],
+      "kotobaFormatted": "食品安全（しょくひんあんぜん） : keamanan pangan\n消費者（しょうひしゃ） : konsumen\n美味しい（おいしい） : lezat / enak\n求める（もとめる） : menginginkan / menuntut\n不信感（ふしんかん） : rasa ketidakpercayaan\n会社全体（かいしゃぜんたい） : seluruh perusahaan\n影響（えいきょう） : dampak / pengaruh\n及ぶ（およぶ） : mencapai / berdampak hingga"
+    }
+  ]
+}

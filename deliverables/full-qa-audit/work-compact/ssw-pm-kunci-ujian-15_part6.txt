@@ -1,0 +1,77 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-15 (Soal Ujian 15) | Batch qa-batch-03 | Part 6 (Q21-24 of 38)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=kunci-ujian-15-q021 | KEY=A (idx=0) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 15.pdf p.6 ===
+  CLUSTER CL-0133 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-8-q021 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: マニュアルの<ruby>使用<rt>しよう</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang salah mengenai penggunaan buku manual/SOP.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 6, nomor 21 (Q21). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Mesin dan peralatan wajib diperiksa (点検) sesuai manual sebelum dan sesudah bekerja.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-v2-p5-091] マニュアル(-) [word] = buku panduan (manual) | [kb-otaff51-0126] 使用(しよう) [noun] = penggunaan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>機械<rt>きかい</rt></ruby>などを<ruby>点検<rt>てんけん</rt></ruby>しなくても<ruby>良<rt>よ</rt></ruby>い
+    TRANS: Tidak perlu memeriksa (menginspeksi) mesin dan peralatan.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0420] 点検(てんけん) [noun] = pemeriksaan / inspeksi | [kb-v2-p2-203] しなくても(-) [inflected, df:する] = meskipun tidak melakukan | [kb-v2-p1-248] 良い(よい) [word] = baik
+  OPT B: HTML=<ruby>危険<rt>きけん</rt></ruby>な<ruby>動<rt>うご</rt></ruby>きや<ruby>慣<rt>な</rt></ruby>れによる<ruby>災害<rt>さいがい</rt></ruby>を<ruby>注意<rt>ちゅうい</rt></ruby>しながら<ruby>作業<rt>さぎょう</rt></ruby>する。
+    TRANS: Bekerja sambil mewaspadai gerakan berbahaya dan kecelakaan akibat rasa terlalu terbiasa.
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-v2-p6-548] 動き(うごき) [word] = gerakan / pergerakan | [kb-v2-p2-107] 慣れ(なれ) [word] = kebiasaan / terbiasa | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-v2-p2-177] 注意し(ちゅういし) [inflected, df:注意する] = berhati-hati / memperhatikan | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas
+  OPT C: HTML=わからない<ruby>作業<rt>さぎょう</rt></ruby>がでるとき、<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>聞<rt>き</rt></ruby>く。
+    TRANS: Saat menghadapi pekerjaan yang tidak dipahami, bertanya kepada penanggung jawab.
+    KOTOBA: [kb-audit-0678] わからない(わからない) [inflected_verb, df:分かる] = tidak mengetahui / tidak paham | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0898] でる(でる) [word] = muncul / keluar | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p6-427] 聞く(きく) [word] = bertanya / mendengar
+
+=== #Q22 | ID=kunci-ujian-15-q022 | KEY=C (idx=2) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 15.pdf p.6 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Untuk mencegah kecelakaan "terjatuh (tentou)" akibat terpeleset atau tersandung," || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0134 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-8-q022 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>滑<rt>すべ</rt></ruby>ったり<ruby>転<rt>ころ</rt></ruby>んだりする「<ruby>転倒<rt>てんとう</rt></ruby>」<ruby>災害<rt>さいがい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、<ruby>何<rt>なに</rt></ruby>をするべきですか。<ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk mencegah kecelakaan "terjatuh (tentou)" akibat terpeleset atau tersandung, apa yang harus dilakukan? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 6, nomor 22 (Q22). Bobot: 3.95 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 71), membawa banyak barang saat berjalan menghalangi pandangan kaki dan menyebabkan kecelakaan terjatuh.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-audit-0569] 滑ったり(すべったり) [inflected_verb, df:滑る] = terpeleset, dan lain-lain | [kb-audit-0570] 転んだり(ころんだり) [inflected_verb, df:転ぶ] = terjatuh, dan lain-lain | [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>床<rt>ゆか</rt></ruby>の<ruby>濡<rt>ぬ</rt></ruby>れをきちんと<ruby>拭<rt>ふ</rt></ruby>き<ruby>取<rt>と</rt></ruby>る
+    TRANS: Mengelap hingga kering lantai yang basah dengan benar
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-v2-p6-509] 濡れ(ぬれ) [word] = basah / genangan | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-v2-p3-329] 拭き取る(ふきとる) [word] = mengelap hingga bersih
+  OPT B: HTML=<ruby>通路<rt>つうろ</rt></ruby>の<ruby>照度<rt>しょうど</rt></ruby>は<ruby>十分確保<rt>じゅうぶんかくほ</rt></ruby>する
+    TRANS: Memastikan tingkat pencahayaan lorong/jalur jalan cukup terang
+    KOTOBA: [kb-otaff51-0594] 通路(つうろ) [noun] = jalur jalan / lorong | [kb-1350970] 照度(しょうど) [word] = tingkat pencahayaan lampu (K3) | [kb-ext-0819-e58d81e588] 十分確保(じゅうぶんかくほ) [word] = memastikan kecukupan
+  OPT C: HTML=<ruby>移動<rt>いどう</rt></ruby>するとき<ruby>多<rt>おお</rt></ruby>くのものを<ruby>持<rt>も</rt></ruby>つ
+    TRANS: Membawa banyak barang sekaligus saat berpindah tempat
+    KOTOBA: [kb-v2-p2-214] 移動する(いどうする) [word] = berpindah / berjalan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-v2-p1-239] 持つ(もつ) [word] = memegang
+
+=== #Q23 | ID=kunci-ujian-15-q023 | KEY=B (idx=1) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 15.pdf p.6 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>交差汚染<rt>こうさおせん</rt></ruby>」の<ruby>防止<rt>ぼうし</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang salah mengenai pencegahan "kontaminasi silang (kousa osen)".
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 6, nomor 23 (Q23). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 50), produk yang mengandung alergen diproduksi pada akhir hari (一日の最後に製造する), bukan di awal hari.
+  INLINE_KOTOBA_COUNT: 22
+  KOTOBA_PROMPT: [kb-otaff51-0109] 交差汚染(こうさおせん) [compound_technical] = kontaminasi silang (cross-contamination) | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>は<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>区分<rt>くぶん</rt></ruby>して<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan bahan baku yang mengandung alergen secara terpisah dari bahan baku yang tidak mengandung alergen.
+    KOTOBA: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-audit-1043] 区分して(くぶんして) [inflected_verb, df:区分する] = memisahkan zona (~て) | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT B: HTML=<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>製品<rt>せいひん</rt></ruby>はできるだけ<ruby>一日<rt>いちにち</rt></ruby>の<ruby>最初<rt>さいしょ</rt></ruby>から<ruby>製造<rt>せいぞう</rt></ruby>する。
+    TRANS: Produk yang mengandung bahan baku spesifik (alergen) sebisa mungkin diproduksi paling awal di pagi hari.
+    KOTOBA: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-1576260] 一日(いちにち) [word] = satu hari | [kb-1293990] 最初(さいしょ) [word] = pertama / awal | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat
+  OPT C: HTML=アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>製品<rt>せいひん</rt></ruby>とアレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>まない<ruby>製品<rt>せいひん</rt></ruby>を<ruby>同<rt>おな</rt></ruby>じラインで<ruby>製造<rt>せいぞう</rt></ruby>するとき、<ruby>洗浄<rt>せんじょう</rt></ruby>を<ruby>徹底<rt>てってい</rt></ruby>する。
+    TRANS: Saat memproduksi produk yang mengandung alergen dan yang tidak mengandung alergen di lini yang sama, lakukan pencucian secara menyeluruh.
+    KOTOBA: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-042] ライン(-) [word] = lini produksi | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-1437670] 徹底(てってい) [word] = penerapan tuntas / menyeluruh
+
+=== #Q24 | ID=kunci-ujian-15-q024 | KEY=B (idx=1) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 15.pdf p.7 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPについて<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang salah mengenai HACCP.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 7, nomor 24 (Q24). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 4 (hlm. 56–60), hanya menganalisis faktor bahaya (HA) saja tidak cukup mencegah bahaya tanpa menetapkan CCP, batas kritis, monitoring, dan tindakan koreksi.
+  INLINE_KOTOBA_COUNT: 16
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=リスク<ruby>要因<rt>よういん</rt></ruby>をリストアップして<ruby>明確<rt>めいかく</rt></ruby>にする。
+    TRANS: Membuat daftar faktor risiko dan memperjelasnya.
+    KOTOBA: [kb-u1416-79a5ec9979] リスク要因(りすくよういん) [word] = faktor risiko | [kb-v2-p6-187] リストアップ(-) [word] = mendaftar / menginventarisasi | [kb-latsol-efb1c63b55] 明確に(めいかくに) [word] = jelas
+  OPT B: HTML=<ruby>危険要因<rt>きけんよういん</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>すれば<ruby>危険<rt>きけん</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐことができる。
+    TRANS: Hanya dengan menganalisis faktor bahaya saja, bahaya sudah pasti dapat dicegah.
+    KOTOBA: [kb-ext-0321-e58db1e999] 危険要因(きけんよういん) [compound_technical] = faktor bahaya | [kb-1503870] 分析(ぶんせき) [word] = analisis | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan
+  OPT C: HTML=<ruby>危険要因<rt>きけんよういん</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>するのに、<ruby>過去記録<rt>かこきろく</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>となる。
+    TRANS: Untuk menganalisis faktor bahaya, diperlukan catatan masa lalu (rekam jejak).
+    KOTOBA: [kb-ext-0321-e58db1e999] 危険要因(きけんよういん) [compound_technical] = faktor bahaya | [kb-1503870] 分析(ぶんせき) [word] = analisis | [kb-u1416-77b6370940] 過去記録(かこきろく) [word] = catatan masa lalu | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p2-266] となる(-) [expression] = menjadi

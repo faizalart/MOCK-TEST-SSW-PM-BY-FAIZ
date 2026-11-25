@@ -1,0 +1,2421 @@
+{
+  "batchId": "qa-batch-10",
+  "setId": "pilot-otaff51-01",
+  "questionCount": 5,
+  "flaggedQuestions": 2,
+  "totalFlags": 4,
+  "flagCounts": {
+    "NUMBER_MISMATCH": 1,
+    "KOTOBA_READING_CONFLICT_WITH_RUBY": 1,
+    "JP_WHITESPACE_BETWEEN_JP": 2
+  },
+  "questions": [
+    {
+      "id": "pilot-otaff51-q001",
+      "setId": "pilot-otaff51-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 1,
+      "sourcePdf": "Bab 1-3.pdf",
+      "sourcePage": 8,
+      "category": "第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan yang Dibutuhkan）",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "instructions": "<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>飲食料品製造業<rt>いんしょくりょうひんせいぞうぎょう</rt></ruby>における「<ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>」と「<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>」の<ruby>基本的<rt>きほんてき</rt></ruby>な<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "飲食料品製造業における「食品衛生」と「労働安全」の基本的な考え方について、間違っているものを一つ選びなさい。",
+      "questionText": "飲食料品製造業における「食品衛生」と「労働安全」の基本的な考え方について、間違っているものを一つ選びなさい。",
+      "promptTranslation": "Mengenai konsep dasar 'higiene pangan' dan 'keselamatan kerja' pada industri pengolahan makanan dan minuman, pilihlah satu pernyataan yang salah.",
+      "explanation": "Sumber: Bab 1-3.pdf (Modul OTAFF SSW PM Edisi 5.1), Bab 1 Subbab 2, halaman PDF 8 (halaman buku 3). Bobot: 30 poin. Kunci jawaban: D. Pembahasan: Sesuai buku teks hlm. 3, pekerja wajib mematuhi aturan pabrik dan dokumen prosedur kerja (作業手順書) meskipun sudah terbiasa bekerja. Mengabaikan SOP dan bekerja berdasarkan penilaian sendiri (自分の経験や判断で作業を進める) bertentangan dengan prinsip keselamatan kerja.",
+      "hasInlineKotoba": true,
+      "inlineKotobaCount": 50,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0668",
+          "kanji": "飲食料品製造業",
+          "furigana": "いんしょくりょうひんせいぞうぎょう",
+          "arti": "industri pengolahan makanan dan minuman",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0652",
+          "kanji": "食品衛生",
+          "furigana": "しょくひんえいせい",
+          "arti": "higiene pangan / keamanan pangan",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0198",
+          "kanji": "労働安全",
+          "furigana": "ろうどうあんぜん",
+          "arti": "keselamatan kerja",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0243",
+          "kanji": "基本的",
+          "furigana": "きほんてき",
+          "arti": "mendasar / dasar",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p3-124",
+          "kanji": "考え方",
+          "furigana": "かんがえかた",
+          "arti": "pola pikir / konsep dasar",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0625",
+          "kanji": "間違っている",
+          "furigana": "まちがっている",
+          "arti": "salah / keliru",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p4-225",
+          "kanji": "ついて",
+          "furigana": "",
+          "arti": "menempel / melekat",
+          "unitType": "inflected",
+          "dictForm": "つく",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>が<ruby>十分<rt>じゅうぶん</rt></ruby>ではない<ruby>食品<rt>しょくひん</rt></ruby>（<ruby>安全<rt>あんぜん</rt></ruby>ではない<ruby>食品<rt>しょくひん</rt></ruby>）を<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>は、<ruby>病気<rt>びょうき</rt></ruby>になったり、ケガをします。その<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>った<ruby>会社<rt>かいしゃ</rt></ruby>は、<ruby>信用<rt>しんよう</rt></ruby>をなくします。",
+          "plain": "食品の衛生管理が十分ではない食品（安全ではない食品）を食べた人は、病気になったり、ケガをします。その食品を作った会社は、信用をなくします。",
+          "translation": "Orang yang memakan makanan yang manajemen higiene pangannya tidak memadai (makanan yang tidak aman) akan jatuh sakit atau terluka. Perusahaan yang membuat makanan tersebut akan kehilangan kepercayaan.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0651",
+              "kanji": "食品",
+              "furigana": "しょくひん",
+              "arti": "makanan / produk pangan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0542",
+              "kanji": "衛生管理",
+              "furigana": "えいせいかんり",
+              "arti": "manajemen higiene",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1335080",
+              "kanji": "十分",
+              "furigana": "じゅうぶん",
+              "arti": "cukup / memadai",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0261",
+              "kanji": "安全",
+              "furigana": "あんぜん",
+              "arti": "keselamatan / aman",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-152",
+              "kanji": "食べた",
+              "furigana": "たべた",
+              "arti": "yang memakan (dasar: 食べる)",
+              "unitType": "inflected_verb",
+              "dictForm": "食べる",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-058",
+              "kanji": "人",
+              "furigana": "ひと",
+              "arti": "orang",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0453",
+              "kanji": "病気",
+              "furigana": "びょうき",
+              "arti": "penyakit / sakit",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0562",
+              "kanji": "なったり",
+              "furigana": "なったり",
+              "arti": "menjadi, dan lain-lain",
+              "unitType": "inflected_verb",
+              "dictForm": "なる",
+              "status": "verified"
+            },
+            {
+              "id": "kb-ext-0013-e382b1e382",
+              "kanji": "ケガ",
+              "furigana": "けが",
+              "arti": "cedera / luka",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-150",
+              "kanji": "作った",
+              "furigana": "つくった",
+              "arti": "yang membuat (dasar: 作る)",
+              "unitType": "inflected_verb",
+              "dictForm": "作る",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0115",
+              "kanji": "会社",
+              "furigana": "かいしゃ",
+              "arti": "perusahaan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0140",
+              "kanji": "信用",
+              "furigana": "しんよう",
+              "arti": "kepercayaan (kredibilitas)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>工場<rt>こうじょう</rt></ruby>や<ruby>作業場<rt>さぎょうじょう</rt></ruby>でケガなどをしないためには、<ruby>作業服<rt>さぎょうふく</rt></ruby>やヘルメットなどの<ruby>安全保護具<rt>あんぜんほごぐ</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>しなければいけない。",
+          "plain": "工場や作業場でケガなどをしないためには、作業服やヘルメットなどの安全保護具を正しく着用しなければいけない。",
+          "translation": "Agar tidak mengalami cedera di pabrik atau tempat kerja, pakaian kerja serta alat pelindung diri (APD) seperti helm wajib dikenakan dengan benar.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0285",
+              "kanji": "工場",
+              "furigana": "こうじょう",
+              "arti": "pabrik",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0122",
+              "kanji": "作業場",
+              "furigana": "さぎょうじょう",
+              "arti": "area kerja / tempat kerja",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-ext-0013-e382b1e382",
+              "kanji": "ケガ",
+              "furigana": "けが",
+              "arti": "cedera / luka",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-328",
+              "kanji": "ために",
+              "furigana": "",
+              "arti": "untuk / demi",
+              "unitType": "particle",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0124",
+              "kanji": "作業服",
+              "furigana": "さぎょうふく",
+              "arti": "pakaian kerja",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0076",
+              "kanji": "ヘルメット",
+              "furigana": "へるめっと",
+              "arti": "helm keselamatan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0263",
+              "kanji": "安全保護具",
+              "furigana": "あんぜんほごぐ",
+              "arti": "alat pelindung diri (APD)",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-222",
+              "kanji": "正しく",
+              "furigana": "ただしく",
+              "arti": "dengan benar",
+              "unitType": "inflected",
+              "dictForm": "正しい",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-1015",
+              "kanji": "着用しなければ",
+              "furigana": "ちゃくようしなければ",
+              "arti": "harus mengenakan",
+              "unitType": "expression",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0467",
+              "kanji": "いけない",
+              "furigana": "いけない",
+              "arti": "tidak boleh / terlarang",
+              "unitType": "expression",
+              "dictForm": "いく",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>機械<rt>きかい</rt></ruby>や<ruby>器具<rt>きぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うときも、<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>決<rt>き</rt></ruby>まっているルールや<ruby>作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby>守<rt>まも</rt></ruby>り、<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>と<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることが「<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>」である。",
+          "plain": "機械や器具を使うときも、工場で決まっているルールや作業手順書を守り、作業者の安全と健康を守ることが「労働安全」である。",
+          "translation": "Saat menggunakan mesin maupun peralatan, mematuhi aturan dan dokumen prosedur kerja (SOP) yang ditetapkan di pabrik serta melindungi keselamatan dan kesehatan pekerja adalah pengertian dari 'keselamatan kerja'.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0353",
+              "kanji": "機械",
+              "furigana": "きかい",
+              "arti": "mesin",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0233",
+              "kanji": "器具",
+              "furigana": "きぐ",
+              "arti": "peralatan / perkakas",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-184",
+              "kanji": "使う",
+              "furigana": "つかう",
+              "arti": "menggunakan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-307",
+              "kanji": "とき",
+              "furigana": "",
+              "arti": "ketika / saat",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0285",
+              "kanji": "工場",
+              "furigana": "こうじょう",
+              "arti": "pabrik",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0728",
+              "kanji": "決まっている",
+              "furigana": "きまっている",
+              "arti": "sudah ditentukan",
+              "unitType": "inflected_verb",
+              "dictForm": "決まる",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p3-022",
+              "kanji": "ルール",
+              "furigana": "",
+              "arti": "aturan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0123",
+              "kanji": "作業手順書",
+              "furigana": "さぎょうてじゅんしょ",
+              "arti": "dokumen prosedur kerja (SOP)",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p4-186",
+              "kanji": "守り",
+              "furigana": "まもり",
+              "arti": "mematuhi",
+              "unitType": "inflected",
+              "dictForm": "守る",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0125",
+              "kanji": "作業者",
+              "furigana": "さぎょうしゃ",
+              "arti": "pekerja",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0261",
+              "kanji": "安全",
+              "furigana": "あんぜん",
+              "arti": "keselamatan / aman",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0145",
+              "kanji": "健康",
+              "furigana": "けんこう",
+              "arti": "kesehatan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-176",
+              "kanji": "守る",
+              "furigana": "まもる",
+              "arti": "melindungi / mematuhi",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0198",
+              "kanji": "労働安全",
+              "furigana": "ろうどうあんぜん",
+              "arti": "keselamatan kerja",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れてきたら、<ruby>工場<rt>こうじょう</rt></ruby>のルールや<ruby>作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>に<ruby>従<rt>したが</rt></ruby>わなくても、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>や<ruby>判断<rt>はんだん</rt></ruby>で<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>進<rt>すす</rt></ruby>めてよい。",
+          "plain": "作業に慣れてきたら、工場のルールや作業手順書に従わなくても、自分の経験や判断で作業を進めてよい。",
+          "translation": "Apabila sudah terbiasa dengan pekerjaan, boleh menjalankan pekerjaan berdasarkan pengalaman dan penilaian sendiri tanpa perlu mengikuti aturan pabrik maupun dokumen prosedur kerja (SOP).",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-1297540",
+              "kanji": "作業",
+              "furigana": "さぎょう",
+              "arti": "pekerjaan / tugas",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0608",
+              "kanji": "慣れてきたら",
+              "furigana": "なれてきたら",
+              "arti": "jika sudah mulai terbiasa",
+              "unitType": "inflected_verb",
+              "dictForm": "慣れる",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0285",
+              "kanji": "工場",
+              "furigana": "こうじょう",
+              "arti": "pabrik",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p3-022",
+              "kanji": "ルール",
+              "furigana": "",
+              "arti": "aturan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0123",
+              "kanji": "作業手順書",
+              "furigana": "さぎょうてじゅんしょ",
+              "arti": "dokumen prosedur kerja (SOP)",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0154",
+              "kanji": "従わなく",
+              "furigana": "したがわなく",
+              "arti": "tidak mematuhi / mengikuti",
+              "unitType": "inflected_verb",
+              "dictForm": "従う",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0510",
+              "kanji": "自分",
+              "furigana": "じぶん",
+              "arti": "diri sendiri",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1251270",
+              "kanji": "経験",
+              "furigana": "けいけん",
+              "arti": "pengalaman",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0185",
+              "kanji": "判断",
+              "furigana": "はんだん",
+              "arti": "penilaian / keputusan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0155",
+              "kanji": "進めて",
+              "furigana": "すすめて",
+              "arti": "melanjutkan / menjalankan (kerja)",
+              "unitType": "inflected_verb",
+              "dictForm": "進める",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-243",
+              "kanji": "よい",
+              "furigana": "",
+              "arti": "baik / boleh",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": null,
+      "flags": []
+    },
+    {
+      "id": "pilot-otaff51-q002",
+      "setId": "pilot-otaff51-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 2,
+      "sourcePdf": "Bab 1-3.pdf",
+      "sourcePage": 14,
+      "category": "第2章 食品衛生・化学的危害要因（Bab 2: Higiene Pangan & Bahaya Kimia）",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>化学的危害要因<rt>かがくてききがいよういん</rt></ruby>であるアレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>について、<ruby>日本<rt>にほん</rt></ruby>の<ruby>法律<rt>ほうりつ</rt></ruby>（2026<ruby>年<rt>ねん</rt></ruby>4<ruby>月<rt>がつ</rt></ruby>1<ruby>日現在<rt>にちげんざい</rt></ruby>）で<ruby>発症数<rt>はっしょうすう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い、または<ruby>症状<rt>しょうじょう</rt></ruby>が<ruby>重<rt>おも</rt></ruby>くなるため<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>がある「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>（9<ruby>品目<rt>ひんもく</rt></ruby>）」の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "化学的危害要因であるアレルギー物質について、日本の法律（2026年4月1日現在）で発症数が多い、または症状が重くなるため表示義務がある「特定原材料（9品目）」の組み合わせとして、正しいものを一つ選びなさい。",
+      "questionText": "化学的危害要因であるアレルギー物質について、日本の法律（2026年4月1日現在）で発症数が多い、または症状が重くなるため表示義務がある「特定原材料（9品目）」の組み合わせとして、正しいものを一つ選びなさい。",
+      "promptTranslation": "Mengenai zat pemicu alergi (alergen) yang merupakan faktor bahaya kimia, pilihlah satu kombinasi yang benar untuk 9 item 'Bahan Baku Spesifik (Tokutei Genzairyou)' yang wajib dicantumkan pada label menurut undang-undang Jepang (per 1 April 2026) karena jumlah kasusnya banyak atau gejalanya berat.",
+      "explanation": "Sumber: Bab 1-3.pdf (Modul OTAFF SSW PM Edisi 5.1), Bab 2 Subbab 2(2)①, halaman PDF 14 (halaman buku 9). Bobot: 30 poin. Kunci jawaban: A. Pembahasan: Per 1 April 2026 (Edisi 5.1), kacang mete (カシューナッツ) resmi ditambahkan ke dalam daftar wajib label 特定原材料 sehingga total menjadi 9 item: えび, かに, くるみ, 小麦, そば, 卵, 乳, 落花生（ピーナッツ）, dan カシューナッツ. Sementara ピスタチオ, アーモンド, 大豆, ごま, 牛肉, 鶏肉, dan 豚肉 termasuk dalam 20 item 特定原材料に準ずるもの (anjuran/rekomendasi).",
+      "hasInlineKotoba": true,
+      "inlineKotobaCount": 35,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0208",
+          "kanji": "化学的危害要因",
+          "furigana": "かがくてききがいよういん",
+          "arti": "faktor bahaya kimia",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0036",
+          "kanji": "アレルギー物質",
+          "furigana": "あれるぎーぶっしつ",
+          "arti": "zat pemicu alergi (alergen)",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1582710",
+          "kanji": "日本",
+          "furigana": "にほん",
+          "arti": "Jepang",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0380",
+          "kanji": "法律",
+          "furigana": "ほうりつ",
+          "arti": "undang-undang / hukum",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0689",
+          "kanji": "年",
+          "furigana": "ねん",
+          "arti": "tahun",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1255430",
+          "kanji": "月",
+          "furigana": "つき",
+          "arti": "Bulan dalam penanggalan kalender",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2083100",
+          "kanji": "日",
+          "furigana": "にち",
+          "arti": "Hari / penanggalan kalender",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-1478",
+          "kanji": "現在",
+          "furigana": "げんざい",
+          "arti": "saat ini / sekarang",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-pilot51-038",
+          "kanji": "発症数",
+          "furigana": "はっしょうすう",
+          "arti": "jumlah kasus timbulnya gejala",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-252",
+          "kanji": "多い",
+          "furigana": "おおい",
+          "arti": "banyak",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0454",
+          "kanji": "症状",
+          "furigana": "しょうじょう",
+          "arti": "gejala",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-pilot51-040",
+          "kanji": "重くなる",
+          "furigana": "おもくなる",
+          "arti": "menjadi parah / berat",
+          "unitType": "verb",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0546",
+          "kanji": "表示義務",
+          "furigana": "ひょうじぎむ",
+          "arti": "kewajiban pencantuman label",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0432",
+          "kanji": "特定原材料",
+          "furigana": "とくていげんざいりょう",
+          "arti": "bahan baku spesifik (alergen wajib label)",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1490700",
+          "kanji": "品目",
+          "furigana": "ひんもく",
+          "arti": "item / jenis bahan pangan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p3-123",
+          "kanji": "組み合わせ",
+          "furigana": "くみあわせ",
+          "arti": "kombinasi / pasangan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p4-225",
+          "kanji": "ついて",
+          "furigana": "",
+          "arti": "menempel / melekat",
+          "unitType": "inflected",
+          "dictForm": "つく",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "えび、かに、くるみ、<ruby>小麦<rt>こむぎ</rt></ruby>、そば、<ruby>卵<rt>たまご</rt></ruby>、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>（ピーナッツ）、カシューナッツ",
+          "plain": "えび、かに、くるみ、小麦、そば、卵、乳、落花生（ピーナッツ）、カシューナッツ",
+          "translation": "Udang, kepiting, kenari (walnut), gandum, soba (buckwheat), telur, susu, kacang tanah (peanut), kacang mete (cashew nut)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0006",
+              "kanji": "えび",
+              "furigana": "えび",
+              "arti": "udang",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0011",
+              "kanji": "かに",
+              "furigana": "かに",
+              "arti": "kepiting",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0014",
+              "kanji": "くるみ",
+              "furigana": "くるみ",
+              "arti": "kacang kenari (walnut)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0281",
+              "kanji": "小麦",
+              "furigana": "こむぎ",
+              "arti": "gandum",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0022",
+              "kanji": "そば",
+              "furigana": "そば",
+              "arti": "soba (buckwheat)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0216",
+              "kanji": "卵",
+              "furigana": "たまご",
+              "arti": "telur",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0102",
+              "kanji": "乳",
+              "furigana": "にゅう",
+              "arti": "susu",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0536",
+              "kanji": "落花生",
+              "furigana": "らっかせい",
+              "arti": "kacang tanah (peanut)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-ext-0026-e38394e383",
+              "kanji": "ピーナッツ",
+              "furigana": "ぴなっつ",
+              "arti": "kacang tanah",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0043",
+              "kanji": "カシューナッツ",
+              "furigana": "かしゅーなっつ",
+              "arti": "kacang mete (cashew nut)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "えび、かに、くるみ、<ruby>小麦<rt>こむぎ</rt></ruby>、そば、<ruby>卵<rt>たまご</rt></ruby>、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>（ピーナッツ）、<ruby>大豆<rt>だいず</rt></ruby>",
+          "plain": "えび、かに、くるみ、小麦、そば、卵、乳、落花生（ピーナッツ）、大豆",
+          "translation": "Udang, kepiting, kenari (walnut), gandum, soba, telur, susu, kacang tanah, kedelai",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0006",
+              "kanji": "えび",
+              "furigana": "えび",
+              "arti": "udang",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0011",
+              "kanji": "かに",
+              "furigana": "かに",
+              "arti": "kepiting",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0014",
+              "kanji": "くるみ",
+              "furigana": "くるみ",
+              "arti": "kacang kenari (walnut)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0281",
+              "kanji": "小麦",
+              "furigana": "こむぎ",
+              "arti": "gandum",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0022",
+              "kanji": "そば",
+              "furigana": "そば",
+              "arti": "soba (buckwheat)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0216",
+              "kanji": "卵",
+              "furigana": "たまご",
+              "arti": "telur",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0102",
+              "kanji": "乳",
+              "furigana": "にゅう",
+              "arti": "susu",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0536",
+              "kanji": "落花生",
+              "furigana": "らっかせい",
+              "arti": "kacang tanah (peanut)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-ext-0026-e38394e383",
+              "kanji": "ピーナッツ",
+              "furigana": "ぴなっつ",
+              "arti": "kacang tanah",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0257",
+              "kanji": "大豆",
+              "furigana": "だいず",
+              "arti": "kacang kedelai",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "えび、かに、<ruby>小麦<rt>こむぎ</rt></ruby>、そば、<ruby>卵<rt>たまご</rt></ruby>、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、<ruby>豚肉<rt>ぶたにく</rt></ruby>",
+          "plain": "えび、かに、小麦、そば、卵、乳、牛肉、鶏肉、豚肉",
+          "translation": "Udang, kepiting, gandum, soba, telur, susu, daging sapi, daging ayam, daging babi",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0006",
+              "kanji": "えび",
+              "furigana": "えび",
+              "arti": "udang",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0011",
+              "kanji": "かに",
+              "furigana": "かに",
+              "arti": "kepiting",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0281",
+              "kanji": "小麦",
+              "furigana": "こむぎ",
+              "arti": "gandum",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0022",
+              "kanji": "そば",
+              "furigana": "そば",
+              "arti": "soba (buckwheat)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0216",
+              "kanji": "卵",
+              "furigana": "たまご",
+              "arti": "telur",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0102",
+              "kanji": "乳",
+              "furigana": "にゅう",
+              "arti": "susu",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0429",
+              "kanji": "牛肉",
+              "furigana": "ぎゅうにく",
+              "arti": "daging sapi",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0685",
+              "kanji": "鶏肉",
+              "furigana": "とりにく",
+              "arti": "daging ayam",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0578",
+              "kanji": "豚肉",
+              "furigana": "ぶたにく",
+              "arti": "daging babi",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "えび、かに、くるみ、<ruby>小麦<rt>こむぎ</rt></ruby>、そば、<ruby>卵<rt>たまご</rt></ruby>、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>（ピーナッツ）、ピスタチオ",
+          "plain": "えび、かに、くるみ、小麦、そば、卵、乳、落花生（ピーナッツ）、ピスタチオ",
+          "translation": "Udang, kepiting, kenari (walnut), gandum, soba, telur, susu, kacang tanah, pistachio",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0006",
+              "kanji": "えび",
+              "furigana": "えび",
+              "arti": "udang",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0011",
+              "kanji": "かに",
+              "furigana": "かに",
+              "arti": "kepiting",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0014",
+              "kanji": "くるみ",
+              "furigana": "くるみ",
+              "arti": "kacang kenari (walnut)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0281",
+              "kanji": "小麦",
+              "furigana": "こむぎ",
+              "arti": "gandum",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0022",
+              "kanji": "そば",
+              "furigana": "そば",
+              "arti": "soba (buckwheat)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0216",
+              "kanji": "卵",
+              "furigana": "たまご",
+              "arti": "telur",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0102",
+              "kanji": "乳",
+              "furigana": "にゅう",
+              "arti": "susu",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0536",
+              "kanji": "落花生",
+              "furigana": "らっかせい",
+              "arti": "kacang tanah (peanut)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-ext-0026-e38394e383",
+              "kanji": "ピーナッツ",
+              "furigana": "ぴなっつ",
+              "arti": "kacang tanah",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0069",
+              "kanji": "ピスタチオ",
+              "furigana": "ぴすたちお",
+              "arti": "kacang pistachio",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": null,
+      "flags": [
+        {
+          "code": "NUMBER_MISMATCH",
+          "context": "promptTranslation",
+          "detail": "JP number \"4\" missing in ID \"Mengenai zat pemicu alergi (alergen) yang merupakan faktor bahaya kimia, pilihla\""
+        },
+        {
+          "code": "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          "context": "kotoba:prompt",
+          "detail": "kb-1255430 \"月\": kotoba=\"つき\" vs ruby=\"がつ\""
+        }
+      ]
+    },
+    {
+      "id": "pilot-otaff51-q003",
+      "setId": "pilot-otaff51-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 3,
+      "sourcePdf": "Bab 1-3.pdf",
+      "sourcePage": 39,
+      "category": "第2章 食品衛生・薬剤による殺菌と濃度計算（Bab 2: Perhitungan Konsentrasi Larutan Sterilisasi）",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>や<ruby>野菜<rt>やさい</rt></ruby>の<ruby>殺菌<rt>さっきん</rt></ruby>をおこなうため、<ruby>濃度<rt>のうど</rt></ruby>5%の<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウムの<ruby>原液<rt>げんえき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って、<ruby>濃度<rt>のうど</rt></ruby>200ppmの<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム<ruby>消毒液<rt>しょうどくえき</rt></ruby>を2L（2000ml）<ruby>作<rt>つく</rt></ruby>ります。<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>原液<rt>げんえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>の<ruby>量<rt>りょう</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "調理器具や野菜の殺菌をおこなうため、濃度5%の次亜塩素酸ナトリウムの原液を使って、濃度200ppmの次亜塩素酸ナトリウム消毒液を2L（2000ml）作ります。必要な原液と水の量の組み合わせとして、正しいものを一つ選びなさい。",
+      "questionText": "調理器具や野菜の殺菌をおこなうため、濃度5%の次亜塩素酸ナトリウムの原液を使って、濃度200ppmの次亜塩素酸ナトリウム消毒液を2L（2000ml）作ります。必要な原液と水の量の組み合わせとして、正しいものを一つ選びなさい。",
+      "promptTranslation": "Untuk melakukan sterilisasi peralatan memasak dan sayuran, dibuat 2 L (2000 ml) larutan disinfektan natrium hipoklorit berkonsentrasi 200 ppm menggunakan larutan pekat (gen'eki) natrium hipoklorit berkonsentrasi 5%. Pilihlah satu kombinasi jumlah larutan pekat dan air yang benar.",
+      "explanation": "Sumber: Bab 1-3.pdf (Modul OTAFF SSW PM Edisi 5.1), Bab 2 Subbab 2(3)② & 3(4)③エ, halaman PDF 18 & 39 (halaman buku 13 & 34). Bobot: 30 poin. Kunci jawaban: B. Verifikasi Hitungan (8 Langkah): (1) Data awal: C1 = 5%, C2 = 200 ppm, V2 = 2 L = 2000 ml. (2) Konversi satuan: 1% = 10.000 ppm, maka C1 = 5 × 10.000 = 50.000 ppm (atau 200 ppm = 0,02%). (3) Rumus pengenceran: C1 × V1 = C2 × V2 -> V1 = (V2 × C2) / C1. (4) Substitusi: V1 = (2000 ml × 0,02%) / 5%. (5) Aritmetika: V1 = 40 / 5 = 8 ml larutan pekat (原液); Volume air (水) = V2 - V1 = 2000 ml - 8 ml = 1992 ml. (6) Pembulatan: Bilangan bulat eksak (8 ml dan 1992 ml). (7) Kecocokan opsi: Sesuai dengan Opsi B (原液8ml、水1992ml).",
+      "hasInlineKotoba": true,
+      "inlineKotobaCount": 21,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0576",
+          "kanji": "調理器具",
+          "furigana": "ちょうりきぐ",
+          "arti": "peralatan masak",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0612",
+          "kanji": "野菜",
+          "furigana": "やさい",
+          "arti": "sayuran",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0361",
+          "kanji": "殺菌",
+          "furigana": "さっきん",
+          "arti": "sterilisasi / pembasmian kuman",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p4-147",
+          "kanji": "おこなう",
+          "furigana": "",
+          "arti": "melakukan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0415",
+          "kanji": "濃度",
+          "furigana": "のうど",
+          "arti": "konsentrasi / kepekatan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0186",
+          "kanji": "%",
+          "furigana": "",
+          "arti": "persen (satuan persentase %)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0355",
+          "kanji": "次亜塩素酸ナトリウム",
+          "furigana": "じあえんそさんなとりうむ",
+          "arti": "natrium hipoklorit (NaClO)",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0222",
+          "kanji": "原液",
+          "furigana": "げんえき",
+          "arti": "larutan pekat (konsentrat)",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-185",
+          "kanji": "使って",
+          "furigana": "つかって",
+          "arti": "menggunakan (dasar: 使う)",
+          "unitType": "inflected_verb",
+          "dictForm": "使う",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0699",
+          "kanji": "ppm",
+          "furigana": "ぴーぴーえむ",
+          "arti": "bagian per juta (ppm)",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0390",
+          "kanji": "消毒液",
+          "furigana": "しょうどくえき",
+          "arti": "larutan disinfektan",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-liter",
+          "kanji": "L",
+          "furigana": "りっとる",
+          "arti": "liter (satuan volume cairan)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-021",
+          "kanji": "ml",
+          "furigana": "",
+          "arti": "mililiter",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-9d22ffe25c",
+          "kanji": "作ります",
+          "furigana": "つくります",
+          "arti": "membuat / memproduksi",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-35dab93b6a",
+          "kanji": "必要な",
+          "furigana": "ひつような",
+          "arti": "perlu / dibutuhkan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0369",
+          "kanji": "水",
+          "furigana": "みず",
+          "arti": "air",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-085",
+          "kanji": "量",
+          "furigana": "りょう",
+          "arti": "jumlah / takaran",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p3-123",
+          "kanji": "組み合わせ",
+          "furigana": "くみあわせ",
+          "arti": "kombinasi / pasangan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>原液<rt>げんえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1996ml",
+          "plain": "原液4ml、水1996ml",
+          "translation": "Larutan pekat 4 ml, air 1996 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0222",
+              "kanji": "原液",
+              "furigana": "げんえき",
+              "arti": "larutan pekat (konsentrat)",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>原液<rt>げんえき</rt></ruby>8ml、<ruby>水<rt>みず</rt></ruby>1992ml",
+          "plain": "原液8ml、水1992ml",
+          "translation": "Larutan pekat 8 ml, air 1992 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0222",
+              "kanji": "原液",
+              "furigana": "げんえき",
+              "arti": "larutan pekat (konsentrat)",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>原液<rt>げんえき</rt></ruby>8ml、<ruby>水<rt>みず</rt></ruby>2000ml",
+          "plain": "原液8ml、水2000ml",
+          "translation": "Larutan pekat 8 ml, air 2000 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0222",
+              "kanji": "原液",
+              "furigana": "げんえき",
+              "arti": "larutan pekat (konsentrat)",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "<ruby>原液<rt>げんえき</rt></ruby>80ml、<ruby>水<rt>みず</rt></ruby>1920ml",
+          "plain": "原液80ml、水1920ml",
+          "translation": "Larutan pekat 80 ml, air 1920 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0222",
+              "kanji": "原液",
+              "furigana": "げんえき",
+              "arti": "larutan pekat (konsentrat)",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": null,
+      "flags": [],
+      "cluster": {
+        "clusterId": "CL-0269",
+        "size": 2,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": true,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": true
+        },
+        "twins": [
+          "otaff-pm51-01-q035 (latsol-otaff-pm51-01)"
+        ]
+      }
+    },
+    {
+      "id": "pilot-otaff51-q004",
+      "setId": "pilot-otaff51-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 4,
+      "sourcePdf": "Bab 1-3.pdf",
+      "sourcePage": 66,
+      "category": "第3章 労働安全・主な労働災害の事例と予防（Bab 3: Keselamatan Kerja & Pencegahan Nyeri Pinggang）",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "instructions": "<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "イラストのように、<ruby>重<rt>おも</rt></ruby>い<ruby>釜<rt>かま</rt></ruby>を<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げたとき、<ruby>腰<rt>こし</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>痛<rt>いた</rt></ruby>みを<ruby>感<rt>かん</rt></ruby>じた。このような「<ruby>腰痛<rt>ようつう</rt></ruby>」<ruby>災害<rt>さいがい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐための<ruby>対策<rt>たいさく</rt></ruby>として、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "イラストのように、重い釜を両手で持ち上げたとき、腰に強い痛みを感じた。このような「腰痛」災害を防ぐための対策として、間違っているものを一つ選びなさい。",
+      "questionText": "イラストのように、重い釜を両手で持ち上げたとき、腰に強い痛みを感じた。このような「腰痛」災害を防ぐための対策として、間違っているものを一つ選びなさい。",
+      "promptTranslation": "Seperti pada ilustrasi, ketika mengangkat ketel berat dengan kedua tangan, terasa nyeri yang kuat pada pinggang. Pilihlah satu tindakan yang salah sebagai langkah pencegahan kecelakaan 'nyeri pinggang (youtsuu)' seperti ini.",
+      "explanation": "Sumber: Bab 1-3.pdf (Modul OTAFF SSW PM Edisi 5.1), Bab 3 Subbab 5(6)「腰痛」災害, halaman PDF 66 (halaman buku 61). Bobot: 30 poin. Kunci jawaban: C. Visual: Ilustrasi pekerja membungkuk mengangkat panci/ketel berat dengan lutut lurus dan mengalami nyeri pinggang (`assets/questions/pilot-otaff51-q004.png`). Pembahasan: Untuk mencegah cedera pinggang (腰痛), pekerja harus mendekatkan tubuh ke beban, menekuk lutut, menurunkan pinggang, mendekap beban, lalu berdiri perlahan sambil meluruskan lutut, atau menggunakan troli (台車). Mengangkat dengan lutut lurus dan postur tidak stabil (不安定な姿勢) justru menjadi penyebab kecelakaan nyeri pinggang.",
+      "hasInlineKotoba": true,
+      "inlineKotobaCount": 42,
+      "kotobaPrompt": [
+        {
+          "id": "kb-v2-p6-189",
+          "kanji": "イラスト",
+          "furigana": "",
+          "arti": "gambar ilustrasi",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-f81cd156a9",
+          "kanji": "重い釜",
+          "furigana": "おもいかま",
+          "arti": "ketel/panci besar yang berat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0099",
+          "kanji": "両手",
+          "furigana": "りょうて",
+          "arti": "kedua tangan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-235",
+          "kanji": "持ち上げた",
+          "furigana": "もちあげた",
+          "arti": "mengangkat ke atas",
+          "unitType": "inflected",
+          "dictForm": "持ち上げる",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-307",
+          "kanji": "とき",
+          "furigana": "",
+          "arti": "ketika / saat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0522",
+          "kanji": "腰",
+          "furigana": "こし",
+          "arti": "pinggang",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p3-206",
+          "kanji": "強い",
+          "furigana": "つよい",
+          "arti": "kuat / tahan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-362",
+          "kanji": "痛み",
+          "furigana": "いたみ",
+          "arti": "rasa sakit / nyeri",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-280",
+          "kanji": "感じた",
+          "furigana": "かんじた",
+          "arti": "merasakan (lampau)",
+          "unitType": "inflected",
+          "dictForm": "感じる",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0523",
+          "kanji": "腰痛",
+          "furigana": "ようつう",
+          "arti": "sakit pinggang (low back pain)",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1295100",
+          "kanji": "災害",
+          "furigana": "さいがい",
+          "arti": "kecelakaan kerja / bencana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-199",
+          "kanji": "防ぐ",
+          "furigana": "ふせぐ",
+          "arti": "mencegah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0278",
+          "kanji": "対策",
+          "furigana": "たいさく",
+          "arti": "tindakan pencegahan / penanggulangan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0625",
+          "kanji": "間違っている",
+          "furigana": "まちがっている",
+          "arti": "salah / keliru",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げるときは、<ruby>体<rt>からだ</rt></ruby>を<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>づけて、<ruby>膝<rt>ひざ</rt></ruby>を<ruby>曲<rt>ま</rt></ruby>げて、<ruby>腰<rt>こし</rt></ruby>を<ruby>下<rt>お</rt></ruby>ろして<ruby>抱<rt>かか</rt></ruby>え、<ruby>膝<rt>ひざ</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばしながらゆっくり<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がる。",
+          "plain": "重い物を持ち上げるときは、体を重い物に近づけて、膝を曲げて、腰を下ろして抱え、膝を伸ばしながらゆっくり立ち上がる。",
+          "translation": "Saat mengangkat benda berat, dekatkan tubuh pada benda berat, tekuk lutut, turunkan pinggang lalu dekap benda tersebut, dan berdirilah perlahan sambil meluruskan lutut.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-pilot51-078",
+              "kanji": "重い物",
+              "furigana": "おもいもの",
+              "arti": "benda berat",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p5-236",
+              "kanji": "持ち上げるとき",
+              "furigana": "もちあげるとき",
+              "arti": "saat mengangkat ke atas",
+              "unitType": "expression",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-061",
+              "kanji": "体",
+              "furigana": "からだ",
+              "arti": "tubuh",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p5-256",
+              "kanji": "近づけて",
+              "furigana": "ちかづけて",
+              "arti": "mendekatkan",
+              "unitType": "inflected",
+              "dictForm": "近づける",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0527",
+              "kanji": "膝",
+              "furigana": "ひざ",
+              "arti": "lutut",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p5-257",
+              "kanji": "曲げて",
+              "furigana": "まげて",
+              "arti": "menekuk (lutut)",
+              "unitType": "inflected",
+              "dictForm": "曲げる",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0522",
+              "kanji": "腰",
+              "furigana": "こし",
+              "arti": "pinggang",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p5-258",
+              "kanji": "下ろして",
+              "furigana": "おろして",
+              "arti": "menurunkan",
+              "unitType": "inflected",
+              "dictForm": "下ろす",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p5-382",
+              "kanji": "抱え",
+              "furigana": "かかえ",
+              "arti": "memeluk / mengangkat",
+              "unitType": "inflected",
+              "dictForm": "抱える",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p5-261",
+              "kanji": "伸ばしながら",
+              "furigana": "のばしながら",
+              "arti": "sambil meluruskan",
+              "unitType": "inflected",
+              "dictForm": "伸ばす",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-281",
+              "kanji": "ゆっくり",
+              "furigana": "",
+              "arti": "perlahan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0480",
+              "kanji": "立ち上がる",
+              "furigana": "たちあがる",
+              "arti": "berdiri",
+              "unitType": "verb",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶときは、できるだけ<ruby>台車<rt>だいしゃ</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>する。",
+          "plain": "重い物を運ぶときは、できるだけ台車を使用する。",
+          "translation": "Saat mengangkut benda berat, gunakan troli dorong (daisha) sebisa mungkin.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-pilot51-078",
+              "kanji": "重い物",
+              "furigana": "おもいもの",
+              "arti": "benda berat",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p5-233",
+              "kanji": "運ぶ",
+              "furigana": "はこぶ",
+              "arti": "mengangkut / membawa",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-307",
+              "kanji": "とき",
+              "furigana": "",
+              "arti": "ketika / saat",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-280",
+              "kanji": "できるだけ",
+              "furigana": "",
+              "arti": "sebisa mungkin",
+              "unitType": "expression",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0227",
+              "kanji": "台車",
+              "furigana": "だいしゃ",
+              "arti": "troli pengangkut barang",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-208",
+              "kanji": "使用する",
+              "furigana": "しようする",
+              "arti": "menggunakan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>重<rt>おも</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げるときは、<ruby>膝<rt>ひざ</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばしたまま<ruby>体<rt>からだ</rt></ruby>から<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>離<rt>はな</rt></ruby>し、<ruby>不安定<rt>ふあんてい</rt></ruby>な<ruby>姿勢<rt>しせい</rt></ruby>で<ruby>素早<rt>すばや</rt></ruby>く<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げる。",
+          "plain": "重い物を持ち上げるときは、膝を伸ばしたまま体から荷物を離し、不安定な姿勢で素早く持ち上げる。",
+          "translation": "Saat mengangkat benda berat, biarkan lutut tetap lurus, jauhkan barang dari tubuh, lalu angkat dengan cepat dalam postur yang tidak stabil.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-pilot51-078",
+              "kanji": "重い物",
+              "furigana": "おもいもの",
+              "arti": "benda berat",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p5-236",
+              "kanji": "持ち上げるとき",
+              "furigana": "もちあげるとき",
+              "arti": "saat mengangkat ke atas",
+              "unitType": "expression",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0527",
+              "kanji": "膝",
+              "furigana": "ひざ",
+              "arti": "lutut",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0156",
+              "kanji": "伸ばした",
+              "furigana": "のばした",
+              "arti": "meluruskan / merentangkan (lampau)",
+              "unitType": "inflected_verb",
+              "dictForm": "伸ばす",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p3-204",
+              "kanji": "まま",
+              "furigana": "",
+              "arti": "apa adanya / tetap",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-061",
+              "kanji": "体",
+              "furigana": "からだ",
+              "arti": "tubuh",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0534",
+              "kanji": "荷物",
+              "furigana": "にもつ",
+              "arti": "barang bawaan / muatan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0508",
+              "kanji": "離し",
+              "furigana": "はなし",
+              "arti": "menjauhkan / memisahkan",
+              "unitType": "inflected_verb",
+              "dictForm": "離す",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-831d07b0f6",
+              "kanji": "不安定な",
+              "furigana": "ふあんていな",
+              "arti": "tidak stabil",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0259",
+              "kanji": "姿勢",
+              "furigana": "しせい",
+              "arti": "postur / sikap tubuh",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p3-219",
+              "kanji": "素早く",
+              "furigana": "すばやく",
+              "arti": "dengan cepat",
+              "unitType": "inflected",
+              "dictForm": "素早い",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0317",
+              "kanji": "持ち上げる",
+              "furigana": "もちあげる",
+              "arti": "mengangkat",
+              "unitType": "verb",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>体<rt>からだ</rt></ruby>に<ruby>近<rt>ちか</rt></ruby>づけて<ruby>抱<rt>かか</rt></ruby>え、<ruby>腰<rt>こし</rt></ruby>を<ruby>下<rt>お</rt></ruby>ろした<ruby>状態<rt>じょうたい</rt></ruby>から<ruby>膝<rt>ひざ</rt></ruby>を<ruby>伸<rt>の</rt></ruby>ばしてゆっくり<ruby>立<rt>た</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>がる。",
+          "plain": "荷物を体に近づけて抱え、腰を下ろした状態から膝を伸ばしてゆっくり立ち上がる。",
+          "translation": "Dekatkan barang muatan ke tubuh lalu dekap, dan dari posisi pinggang direndahkan, luruskan lutut untuk berdiri secara perlahan.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0534",
+              "kanji": "荷物",
+              "furigana": "にもつ",
+              "arti": "barang bawaan / muatan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-061",
+              "kanji": "体",
+              "furigana": "からだ",
+              "arti": "tubuh",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p5-256",
+              "kanji": "近づけて",
+              "furigana": "ちかづけて",
+              "arti": "mendekatkan",
+              "unitType": "inflected",
+              "dictForm": "近づける",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p5-382",
+              "kanji": "抱え",
+              "furigana": "かかえ",
+              "arti": "memeluk / mengangkat",
+              "unitType": "inflected",
+              "dictForm": "抱える",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0522",
+              "kanji": "腰",
+              "furigana": "こし",
+              "arti": "pinggang",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0157",
+              "kanji": "下ろした",
+              "furigana": "おろした",
+              "arti": "menurunkan (pinggang/beban) (lampau)",
+              "unitType": "inflected_verb",
+              "dictForm": "下ろす",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0435",
+              "kanji": "状態",
+              "furigana": "じょうたい",
+              "arti": "kondisi / keadaan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0527",
+              "kanji": "膝",
+              "furigana": "ひざ",
+              "arti": "lutut",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0158",
+              "kanji": "伸ばして",
+              "furigana": "のばして",
+              "arti": "meluruskan / merentangkan",
+              "unitType": "inflected_verb",
+              "dictForm": "伸ばす",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-281",
+              "kanji": "ゆっくり",
+              "furigana": "",
+              "arti": "perlahan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0480",
+              "kanji": "立ち上がる",
+              "furigana": "たちあがる",
+              "arti": "berdiri",
+              "unitType": "verb",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": null,
+      "flags": []
+    },
+    {
+      "id": "pilot-otaff51-q005",
+      "setId": "pilot-otaff51-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 5,
+      "sourcePdf": "Bab 1-3.pdf",
+      "sourcePage": 68,
+      "category": "第3章・補足資料1 作業場で使う安全標識（Bab 3 & Lampiran 1: Rambu Keselamatan Kerja）",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "instructions": "<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>作業場<rt>さぎょうじょう</rt></ruby>で<ruby>使<rt>つか</rt></ruby>う<ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、「<ruby>手<rt>て</rt></ruby>で<ruby>触<rt>ふ</rt></ruby>れることを<ruby>禁止<rt>きんし</rt></ruby>する<ruby>標識<rt>ひょうしき</rt></ruby>」として、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "作業場で使う安全標識について、「手で触れることを禁止する標識」として、間違っているものを一つ選びなさい。",
+      "questionText": "作業場で使う安全標識について、「手で触れることを禁止する標識」として、間違っているものを一つ選びなさい。",
+      "promptTranslation": "Mengenai rambu keselamatan yang digunakan di tempat kerja, pilihlah satu yang salah sebagai 'rambu yang melarang menyentuh dengan tangan'.",
+      "explanation": "Sumber: Bab 1-3.pdf (Modul OTAFF SSW PM Edisi 5.1), Bab 3 Subbab 2(3)③ & Lampiran 1 (補足資料 1. 作業場で使う安全標識の例), halaman PDF 68 (halaman buku 63). Bobot: 30 poin. Kunci jawaban: D. Visual: 4 rambu keselamatan terpisah pada opsi A, B, C, dan D. Pembahasan: Sesuai tabel pada halaman 63, Opsi A (piktogram telapak tangan dicoret), Opsi B (点検中スイッチを入れるな), dan Opsi C (危険 手をふれるな) ketiganya termasuk dalam kategori ④「手で触れることを禁止する標識」 (rambu larangan menyentuh dengan tangan). Sedangkan Opsi D (はさまれ注意 / WATCH YOUR HANDS) termasuk dalam kategori ⑤「はさまれる危険を知らせる標識」 (rambu peringatan bahaya terjepit).",
+      "hasInlineKotoba": true,
+      "inlineKotobaCount": 20,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0122",
+          "kanji": "作業場",
+          "furigana": "さぎょうじょう",
+          "arti": "area kerja / tempat kerja",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-184",
+          "kanji": "使う",
+          "furigana": "つかう",
+          "arti": "menggunakan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0265",
+          "kanji": "安全標識",
+          "furigana": "あんぜんひょうしき",
+          "arti": "rambu keselamatan kerja",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-067",
+          "kanji": "手",
+          "furigana": "て",
+          "arti": "tangan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p3-266",
+          "kanji": "触れる",
+          "furigana": "ふれる",
+          "arti": "bersentuhan dengan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-pilot51-099",
+          "kanji": "禁止する",
+          "furigana": "きんしする",
+          "arti": "melarang",
+          "unitType": "verb",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1488700",
+          "kanji": "標識",
+          "furigana": "ひょうしき",
+          "arti": "rambu / tanda peringatan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0625",
+          "kanji": "間違っている",
+          "furigana": "まちがっている",
+          "arti": "salah / keliru",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p4-225",
+          "kanji": "ついて",
+          "furigana": "",
+          "arti": "menempel / melekat",
+          "unitType": "inflected",
+          "dictForm": "つく",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "[<ruby>標識<rt>ひょうしき</rt></ruby>A] <ruby>手<rt>て</rt></ruby>で<ruby>触<rt>ふ</rt></ruby>れるな（<ruby>手<rt>て</rt></ruby>のひらに<ruby>禁止<rt>きんし</rt></ruby>マーク）",
+          "plain": "[標識A] 手で触れるな（手のひらに禁止マーク）",
+          "translation": "[Rambu A] Jangan menyentuh dengan tangan (piktogram telapak tangan dengan tanda larangan merah).",
+          "mediaId": "media-pilot-otaff51-q005-option-a",
+          "optionImage": "assets/questions/pilot-otaff51-q005-option-a.png",
+          "kotoba": [
+            {
+              "id": "kb-latsol-6142b3eaf2",
+              "kanji": "手で触れるな",
+              "furigana": "てでふれるな",
+              "arti": "jangan disentuh dengan tangan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-pilot51-101",
+              "kanji": "手のひら",
+              "furigana": "てのひら",
+              "arti": "telapak tangan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-pilot51-102",
+              "kanji": "禁止マーク",
+              "furigana": "きんしまーく",
+              "arti": "tanda larangan",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "[<ruby>標識<rt>ひょうしき</rt></ruby>B] <ruby>点検中<rt>てんけんちゅう</rt></ruby> スイッチを<ruby>入<rt>い</rt></ruby>れるな（DURING INSPECTION: DO NOT TURN SWITCH ON）",
+          "plain": "[標識B] 点検中 スイッチを入れるな（DURING INSPECTION: DO NOT TURN SWITCH ON）",
+          "translation": "[Rambu B] Sedang Pemeriksaan: Jangan Nyalakan Sakelar (DURING INSPECTION: DO NOT TURN SWITCH ON).",
+          "mediaId": "media-pilot-otaff51-q005-option-b",
+          "optionImage": "assets/questions/pilot-otaff51-q005-option-b.png",
+          "kotoba": [
+            {
+              "id": "kb-ext-latsol-0004",
+              "kanji": "点検中",
+              "furigana": "てんけんちゅう",
+              "arti": "sedang dalam pemeriksaan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-cae4369e11",
+              "kanji": "スイッチを入れるな",
+              "furigana": "すいっちをいれるな",
+              "arti": "jangan menyalakan sakelar",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "[<ruby>標識<rt>ひょうしき</rt></ruby>C] <ruby>危険<rt>きけん</rt></ruby> <ruby>手<rt>て</rt></ruby>をふれるな（DANGER! DO NOT TOUCH）",
+          "plain": "[標識C] 危険 手をふれるな（DANGER! DO NOT TOUCH）",
+          "translation": "[Rambu C] Bahaya: Jangan Sentuh dengan Tangan (DANGER! DO NOT TOUCH).",
+          "mediaId": "media-pilot-otaff51-q005-option-c",
+          "optionImage": "assets/questions/pilot-otaff51-q005-option-c.png",
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0214",
+              "kanji": "危険",
+              "furigana": "きけん",
+              "arti": "bahaya / berbahaya",
+              "unitType": "adjective",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-ccc4c32239",
+              "kanji": "手をふれるな",
+              "furigana": "てをふれるな",
+              "arti": "jangan menyentuh dengan tangan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "[<ruby>標識<rt>ひょうしき</rt></ruby>D] はさまれ<ruby>注意<rt>ちゅうい</rt></ruby>（WATCH YOUR HANDS）",
+          "plain": "[標識D] はさまれ注意（WATCH YOUR HANDS）",
+          "translation": "[Rambu D] Awas Terjepit (WATCH YOUR HANDS).",
+          "mediaId": "media-pilot-otaff51-q005-option-d",
+          "optionImage": "assets/questions/pilot-otaff51-q005-option-d.png",
+          "kotoba": [
+            {
+              "id": "kb-latsol-c9ad9cd496",
+              "kanji": "はさまれ注意",
+              "furigana": "はさまれちゅうい",
+              "arti": "awas terjepit mesin",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p6-170",
+              "kanji": "HA",
+              "furigana": "",
+              "arti": "Analisis Bahaya (Hazard Analysis)",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": null,
+      "flags": [
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "opt:B",
+          "detail": "Space inside Japanese text"
+        },
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "opt:C",
+          "detail": "Space inside Japanese text"
+        }
+      ],
+      "cluster": {
+        "clusterId": "CL-0254",
+        "size": 2,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": true,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": true
+        },
+        "twins": [
+          "nguyen01-q039 (latsol-nguyen-01)"
+        ]
+      }
+    }
+  ]
+}

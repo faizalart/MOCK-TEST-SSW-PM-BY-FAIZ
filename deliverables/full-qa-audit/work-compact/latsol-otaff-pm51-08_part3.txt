@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-08 (Latsol OTAFF SSW PM Modul 5.1 - Paket 08) | Batch qa-batch-12 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=otaff-pm51-08-q009 | KEY=C (idx=2) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.30 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: ア
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>正<rt>ただ</rt></ruby>しい<ruby>手洗<rt>てあら</rt></ruby>いの<ruby>方法<rt>ほうほう</rt></ruby>」において、せっけんをつける**<ruby>前<rt>まえ</rt></ruby>**（<ruby>最初<rt>さいしょ</rt></ruby>の<ruby>工程<rt>こうてい</rt></ruby>ア）におこなうことは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam 'Metode Mencuci Tangan yang Benar', apakah yang dilakukan **sebelum** memakai sabun (tahap paling awal ア)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 30 (Bab 2.3(3)③ Langkah ア, hal. 25 teks). Bobot: 3 poin. Kunci jawaban: C. Langkah pertama mencuci tangan (ア) sebelum memakai sabun adalah membilas kotoran pada tangan dengan air mengalir (流水で、汚れをよく落とす).
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-026] 手洗い(てあらい) [word] = cuci tangan | [kb-1517090] 方法(ほうほう) [word] = metode / cara | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-otaff51-0706] せっけん(せっけん) [noun] = sabun cuci tangan | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p1-059] 前(まえ) [word] = sebelum | [kb-1293990] 最初(さいしょ) [word] = pertama / awal | [kb-1278200] 工程(こうてい) [word] = tahapan proses | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>消毒用<rt>しょうどくよう</rt></ruby>アルコールを<ruby>手<rt>て</rt></ruby>に<ruby>噴<rt>ふ</rt></ruby>きつける。
+    TRANS: Menyemprotkan alkohol disinfektan ke tangan.
+    KOTOBA: [kb-otaff51-0391] 消毒用アルコール(しょうどくようあるこーる) [compound_technical] = alkohol disinfektan | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-otaff51-0234] 噴きつける(ふきつける) [verb] = menyemprotkan
+  OPT B: HTML=ペーパータオルで<ruby>乾<rt>かわ</rt></ruby>いた<ruby>手<rt>て</rt></ruby>をこする。
+    TRANS: Menggosok tangan yang kering dengan handuk kertas.
+    KOTOBA: [kb-otaff51-0077] ペーパータオル(ぺーぱーたおる) [noun] = handuk kertas sekali pakai | [kb-v2-p1-165] 乾いた(かわいた) [inflected_verb, df:乾く] = telah kering (dasar: 乾く) | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-latsol-kosuru] こする(こする) [word] = menggosok (tangan)
+  OPT C: HTML=<ruby>流水<rt>りゅうすい</rt></ruby>で、<ruby>手<rt>て</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れをよく<ruby>落<rt>お</rt></ruby>とす。
+    TRANS: Membilas kotoran pada tangan terlebih dahulu dengan air mengalir.
+    KOTOBA: [kb-otaff51-0387] 流水(りゅうすい) [noun] = air mengalir | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-v2-p1-214] 落とす(おとす) [word] = menghilangkan / menjatuhkan
+
+=== #Q10 | ID=otaff-pm51-08-q010 | KEY=A (idx=0) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.31 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0689 "年": kotoba="ねん" vs ruby="とし" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業<rt>さぎょう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>に、<ruby>作業者<rt>さぎょうしゃ</rt></ruby>が「<ruby>作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>」を<ruby>見<rt>み</rt></ruby>て<ruby>確認<rt>かくにん</rt></ruby>することと、<ruby>使<rt>つか</rt></ruby>う<ruby>機械<rt>きかい</rt></ruby>・<ruby>器具<rt>きぐ</rt></ruby>について<ruby>確認<rt>かくにん</rt></ruby>することは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebelum memulai pekerjaan, apakah yang diperiksa oleh pekerja dengan melihat 'dokumen prosedur kerja (SOP)' serta terhadap mesin dan peralatan yang akan digunakan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 31 (Bab 2.3(3)⑤, hal. 26 teks). Bobot: 3 poin. Kunci jawaban: A. Sebelum mulai bekerja, pekerja wajib melihat 作業手順書 untuk memastikan lokasi dan detail pekerjaan, serta memeriksa tidak adanya kotoran atau ketidaklengkapan (汚れや不備がないか) pada mesin/peralatan.
+  INLINE_KOTOBA_COUNT: 30
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p5-246] 始める(はじめる) [word] = memulai | [kb-v2-p1-059] 前(まえ) [word] = sebelum | [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-ext-0637-e4bd9ce6a5] 作業手順書(さぎょうてじゅんしょ) [word] = buku / lembar SOP kerja | [kb-v2-p5-278] 見て(みて) [inflected, df:見る] = melihat | [kb-1205900] 確認(かくにん) [word] = konfirmasi / pengecekan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-1220810] 機械(きかい) [word] = mesin | [kb-1218920] 器具(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=どこでどんな<ruby>作業<rt>さぎょう</rt></ruby>をするのかを<ruby>確認<rt>かくにん</rt></ruby>し、<ruby>使<rt>つか</rt></ruby>う<ruby>機械<rt>きかい</rt></ruby>・<ruby>装置<rt>そうち</rt></ruby>・<ruby>器具<rt>きぐ</rt></ruby>などに<ruby>汚<rt>よご</rt></ruby>れや<ruby>不備<rt>ふび</rt></ruby>がないかを<ruby>確認<rt>かくにん</rt></ruby>する。
+    TRANS: Memeriksa di mana dan pekerjaan apa yang akan dilakukan, serta memeriksa apakah terdapat kotoran atau kerusakan/ketidaklengkapan pada mesin, instalasi, dan peralatan yang akan digunakan.
+    KOTOBA: [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1205900] 確認(かくにん) [word] = konfirmasi / pengecekan | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-1220810] 機械(きかい) [word] = mesin | [kb-1402360] 装置(そうち) [word] = perangkat / peralatan | [kb-1218920] 器具(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-1494610] 不備(ふび) [word] = ketidaklengkapan fasilitas/APD
+  OPT B: HTML=<ruby>機械<rt>きかい</rt></ruby>の<ruby>値段<rt>ねだん</rt></ruby>と<ruby>買<rt>か</rt></ruby>った<ruby>年<rt>とし</rt></ruby>だけを<ruby>確認<rt>かくにん</rt></ruby>する。
+    TRANS: Hanya memeriksa harga mesin dan tahun pembeliannya.
+    KOTOBA: [kb-1220810] 機械(きかい) [word] = mesin | [kb-otaff51-0774] 値段(ねだん) [noun] = harga | [kb-otaff51-0782] 買った(かった) [inflected_verb, df:買う] = membeli | [kb-otaff51-0689] 年(ねん) [noun] = tahun | [kb-1205900] 確認(かくにん) [word] = konfirmasi / pengecekan
+  OPT C: HTML=<ruby>何<rt>なに</rt></ruby>も<ruby>確認<rt>かくにん</rt></ruby>しないで、すぐに<ruby>電源<rt>でんげん</rt></ruby>スイッチを<ruby>入<rt>い</rt></ruby>れる。
+    TRANS: Langsung menyalakan sakelar daya tanpa memeriksa apa pun.
+    KOTOBA: [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-1205900] 確認(かくにん) [word] = konfirmasi / pengecekan | [kb-v2-p1-142] しないで(-) [inflected_verb, df:する] = tanpa melakukan (dasar: する) | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-1443220] 電源(でんげん) [word] = sumber daya listrik mesin | [kb-latsol-c2b85af33e] スイッチ(すいっち) [word] = sakelar / tombol daya | [kb-v2-p4-198] 入れる(いれる) [word] = memasukkan / menyalakan
+
+=== #Q11 | ID=otaff-pm51-08-q011 | KEY=B (idx=1) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.32 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>安全<rt>あんぜん</rt></ruby>で<ruby>品質<rt>ひんしつ</rt></ruby>の<ruby>良<rt>よ</rt></ruby>い<ruby>食品<rt>しょくひん</rt></ruby>」を<ruby>作<rt>つく</rt></ruby>るために<ruby>大切<rt>たいせつ</rt></ruby>な2つのことは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah 2 hal penting untuk membuat 'makanan yang aman dan bermutu baik'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 32 (Bab 2.3(4), hal. 27 teks). Bobot: 3 poin. Kunci jawaban: B. 安全で品質の良い食品を作るためには、安全で品質の良い原材料を使うことと、正しく製造方法を管理することが大切です.
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-1153930] 安全(あんぜん) [word] = keamanan / keselamatan | [kb-1490580] 品質(ひんしつ) [word] = kualitas / mutu produk | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-1414340] 大切(たいせつ) [word] = penting | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=「<ruby>安<rt>やす</rt></ruby>い<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うこと」と「<ruby>検査<rt>けんさ</rt></ruby>をなくすこと」
+    TRANS: 'Menggunakan bahan baku murah' dan 'menghapus pemeriksaan'
+    KOTOBA: [kb-otaff51-1486] 安い(やすい) [adjective] = murah | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1257890] 検査(けんさ) [word] = pemeriksaan / inspeksi | [kb-otaff51-0732] なくす(なくす) [verb] = menghilangkan
+  OPT B: HTML=「<ruby>安全<rt>あんぜん</rt></ruby>で<ruby>品質<rt>ひんしつ</rt></ruby>の<ruby>良<rt>よ</rt></ruby>い<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うこと」と「<ruby>正<rt>ただ</rt></ruby>しく<ruby>製造方法<rt>せいぞうほうほう</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>すること」
+    TRANS: 'Menggunakan bahan baku yang aman dan bermutu baik' serta 'mengelola metode produksi dengan benar'
+    KOTOBA: [kb-1153930] 安全(あんぜん) [word] = keamanan / keselamatan | [kb-1490580] 品質(ひんしつ) [word] = kualitas / mutu produk | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-ext-1060-e8a3bde980] 製造方法(せいぞうほうほう) [word] = metode pembuatan makanan | [kb-1214200] 管理(かんり) [word] = pengelolaan / kontrol
+  OPT C: HTML=「<ruby>消費期限<rt>しょうひきげん</rt></ruby>を<ruby>延<rt>の</rt></ruby>ばすこと」と「<ruby>室温<rt>しつおん</rt></ruby>で<ruby>輸送<rt>ゆそう</rt></ruby>すること」
+    TRANS: 'Memperpanjang batas kedaluwarsa' dan 'mengangkut pada suhu ruang'
+    KOTOBA: [kb-2233960] 消費期限(しょうひきげん) [word] = batas kedaluwarsa konsumsi | [kb-otaff51-1487] 延ばす(のばす) [verb] = memperpanjang (masa/waktu) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1320320] 室温(しつおん) [word] = suhu ruang | [kb-1538850] 輸送(ゆそう) [word] = transportasi / pengangkutan
+
+=== #Q12 | ID=otaff-pm51-08-q012 | KEY=C (idx=2) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.34 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>卵<rt>たまご</rt></ruby>」の<ruby>種類<rt>しゅるい</rt></ruby>と<ruby>保管温度<rt>ほかんおんど</rt></ruby>について、「<ruby>殻付<rt>からつ</rt></ruby>き<ruby>卵<rt>たまご</rt></ruby>」「<ruby>液卵<rt>えきらん</rt></ruby>」「<ruby>凍結卵<rt>とうけつらん</rt></ruby>」の<ruby>正<rt>ただ</rt></ruby>しい<ruby>保管温度<rt>ほかんおんど</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせはどれですか。<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai jenis 'telur' dan suhu penyimpanannya, manakah kombinasi suhu penyimpanan yang benar untuk 'telur bercangkang (karatsuki tamago)', 'telur cair (ekiran)', dan 'telur beku (touketsuran)'? Pilihlah satu.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 34 (Bab 2.3(4)①イ Tabel Suhu Penyimpanan, hal. 29 teks). Bobot: 3 poin. Kunci jawaban: C. Sesuai tabel halaman 29 teks: 殻付き卵 disimpan pada ≤10°C, 液卵 disimpan pada ≤8°C, dan 凍結卵 disimpan pada ≤-18°C.
+  INLINE_KOTOBA_COUNT: 14
+  KOTOBA_PROMPT: [kb-v2-p1-070] 卵(たまご) [word] = telur | [kb-1328890] 種類(しゅるい) [word] = jenis / macam | [kb-ext-1608-e4bf9de7ae] 保管温度(ほかんおんど) [word] = Suhu penyimpanan gudang bahan makanan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-v2-p3-116] 殻付き卵(からつきたまご) [compound_technical] = telur bercangkang | [kb-2811070] 液卵(えきらん) [word] = telur cair | [kb-2811100] 凍結卵(とうけつらん) [word] = telur beku | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>殻付<rt>からつ</rt></ruby>き<ruby>卵<rt>たまご</rt></ruby>：<ruby>室温<rt>しつおん</rt></ruby> ／ <ruby>液卵<rt>えきらん</rt></ruby>：15℃<ruby>以下<rt>いか</rt></ruby> ／ <ruby>凍結卵<rt>とうけつらん</rt></ruby>：0℃
+    TRANS: Telur bercangkang: suhu ruang / Telur cair: ≤15°C / Telur beku: 0°C
+    KOTOBA: [kb-v2-p3-116] 殻付き卵(からつきたまご) [compound_technical] = telur bercangkang | [kb-1320320] 室温(しつおん) [word] = suhu ruang | [kb-2811070] 液卵(えきらん) [word] = telur cair | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah | [kb-2811100] 凍結卵(とうけつらん) [word] = telur beku
+  OPT B: HTML=<ruby>殻付<rt>からつ</rt></ruby>き<ruby>卵<rt>たまご</rt></ruby>：5℃<ruby>以下<rt>いか</rt></ruby> ／ <ruby>液卵<rt>えきらん</rt></ruby>：-15℃<ruby>以下<rt>いか</rt></ruby> ／ <ruby>凍結卵<rt>とうけつらん</rt></ruby>：10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Telur bercangkang: ≤5°C / Telur cair: ≤-15°C / Telur beku: ≤10°C
+    KOTOBA: [kb-v2-p3-116] 殻付き卵(からつきたまご) [compound_technical] = telur bercangkang | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah | [kb-2811070] 液卵(えきらん) [word] = telur cair | [kb-2811100] 凍結卵(とうけつらん) [word] = telur beku
+  OPT C: HTML=<ruby>殻付<rt>からつ</rt></ruby>き<ruby>卵<rt>たまご</rt></ruby>：10℃<ruby>以下<rt>いか</rt></ruby> ／ <ruby>液卵<rt>えきらん</rt></ruby>：8℃<ruby>以下<rt>いか</rt></ruby> ／ <ruby>凍結卵<rt>とうけつらん</rt></ruby>：-18℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Telur bercangkang: ≤10°C / Telur cair: ≤8°C / Telur beku: ≤-18°C
+    KOTOBA: [kb-v2-p3-116] 殻付き卵(からつきたまご) [compound_technical] = telur bercangkang | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah | [kb-2811070] 液卵(えきらん) [word] = telur cair | [kb-2811100] 凍結卵(とうけつらん) [word] = telur beku

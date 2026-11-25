@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-reguler-06 (Latsol Reguler 06) | Batch qa-batch-10 | Part 2 (Q5-8 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=reguler06-q005 | KEY=A (idx=0) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="働く人の衛生管理、自分でしっかり衛生管理をします。まちがっているものを一つえらびなさい。" vs questionText="働く人の衛生管理、自分でしっかり衛生管理をします。まちがっているものを一つえらびなさい" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-1067 (清潔ない): "tidak bersih (typo: 清潔でない)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("いつも清潔ない") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>、<ruby>自分<rt>じぶん</rt></ruby>でしっかり<ruby>衛生管理<rt>えいせいかんり</rt></ruby>をします。まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 働く人の衛生管理、自分でしっかり衛生管理をします。まちがっているものを一つえらびなさい
+  PROMPT_TRANS: Mengenai manajemen kebersihan diri bagi pekerja yang harus dilakukan dengan baik oleh diri sendiri, pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 2, nomor 5. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan) | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=いつも<ruby>清潔<rt>せいけつ</rt></ruby>ない
+    TRANS: Tidak selalu menjaga kebersihan
+    KOTOBA: [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-audit-1067] 清潔ない(せいけつない) [expression] = tidak bersih (typo: 清潔でない)
+  OPT B: HTML=ていきてきに<ruby>頭髪<rt>とうはつ</rt></ruby>をあらいます
+    TRANS: Mencuci rambut kepala secara berkala
+    KOTOBA: [kb-audit-0094] ていきてき(ていきてき) [word] = secara berkala / rutin (定期的) | [kb-otaff51-0644] 頭髪(とうはつ) [noun] = rambut kepala | [kb-audit-0092] あらいます(あらいます) [inflected_verb, df:洗う] = mencuci (洗います)
+  OPT C: HTML=<ruby>爪<rt>つめ</rt></ruby>などを<ruby>伸<rt>の</rt></ruby>ばさないようにします
+    TRANS: Menjaga agar kuku dan sebagainya tidak dibiarkan panjang
+    KOTOBA: [kb-otaff51-0427] 爪(つめ) [noun] = kuku | [kb-latsol-nobasanai] 伸ばさない(のばさない) [inflected_verb, df:伸ばす] = tidak memanjangkan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+
+=== #Q6 | ID=reguler06-q006 | KEY=A (idx=0) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="症状があって体調が悪いときは、どうすればいいですか。正しいものをえらびなさい。" vs questionText="症状があって体調が悪いときは、どうせればいいですか。正しいものをえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("必ず自分の職場の責任者にほうこくする") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>症状<rt>しょうじょう</rt></ruby>があって<ruby>体調<rt>たいちょう</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いときは、どうすればいいですか。<ruby>正<rt>ただ</rt></ruby>しいものをえらびなさい。
+  QUESTION_TEXT: 症状があって体調が悪いときは、どうせればいいですか。正しいものをえらびなさい
+  PROMPT_TRANS: Ketika mengalami gejala penyakit dan kondisi tubuh sedang buruk, apakah yang harus dilakukan? Pilihlah yang benar.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 2, nomor 6. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-ext-latsol-0090] 体調(たいちょう) [word] = kondisi kesehatan fisik | [kb-v2-p1-246] 悪い(わるい) [word] = buruk / tidak baik | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p1-273] どうすれば(-) [expression] = bagaimana sebaiknya | [kb-v2-p1-249] いい(-) [word] = baik | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>必<rt>かなら</rt></ruby>ず<ruby>自分<rt>じぶん</rt></ruby>の<ruby>職場<rt>しょくば</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>にほうこくする
+    TRANS: Wajib melapor kepada penanggung jawab di tempat kerja sendiri
+    KOTOBA: [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-audit-0873] ほうこく(ほうこく) [word] = laporan / melaporkan
+  OPT B: HTML=<ruby>必<rt>かなら</rt></ruby>ず<ruby>自分<rt>じぶん</rt></ruby>の<ruby>職場<rt>しょくば</rt></ruby>の<ruby>警察<rt>けいさつ</rt></ruby>にほうこくする
+    TRANS: Wajib melapor kepada polisi di tempat kerja sendiri
+    KOTOBA: [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-ext-latsol-0091] 警察(けいさつ) [word] = kepolisian | [kb-audit-0873] ほうこく(ほうこく) [word] = laporan / melaporkan
+  OPT C: HTML=アパトに<ruby>戻<rt>もど</rt></ruby>る
+    TRANS: Kembali ke apartemen
+    KOTOBA: [kb-latsol-apato] アパト(あぱと) [word] = apartemen / tempat tinggal (アパート) | [kb-v2-p6-436] 戻る(もどる) [word] = kembali
+
+=== #Q7 | ID=reguler06-q007 | KEY=A (idx=0) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="整理によると労働安全と関係についてはなんですか。ただしいものを一つえらびなさい。" vs questionText="整理によると労働安全と関係についてはなんですか。ただしいものを一つえらびなさい"
+  CLUSTER CL-0265 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=reguler05-q011 (latsol-reguler-05)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("作業効率があがって、転倒などの危険が減る") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>整理<rt>せいり</rt></ruby>によると<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>と<ruby>関係<rt>かんけい</rt></ruby>についてはなんですか。ただしいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 整理によると労働安全と関係についてはなんですか。ただしいものを一つえらびなさい
+  PROMPT_TRANS: Apakah hubungan antara Seiri (Ringkas/Pemilahan) dengan keselamatan kerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 2, nomor 7. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-1215810] 関係(かんけい) [word] = hubungan / keterkaitan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>作業効率<rt>さぎょうこうりつ</rt></ruby>があがって、<ruby>転倒<rt>てんとう</rt></ruby>などの<ruby>危険<rt>きけん</rt></ruby>が<ruby>減<rt>へ</rt></ruby>る
+    TRANS: Efisiensi kerja meningkat dan bahaya seperti terjatuh/terpeleset berkurang
+    KOTOBA: [kb-ext-0632-e4bd9ce6a5] 作業効率(さぎょうこうりつ) [word] = Efisiensi kerja pengolahan makanan | [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-latsol-d78d407d5e] 減る(へる) [word] = berkurang / menyusut
+  OPT B: HTML=いつでも<ruby>職場<rt>しょくば</rt></ruby>のルールを<ruby>守<rt>まも</rt></ruby>ること
+    TRANS: Selalu mematuhi peraturan di tempat kerja
+    KOTOBA: [kb-otaff51-0755] いつ(いつ) [adverb] = kapan | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+  OPT C: HTML=<ruby>作業<rt>さぎょう</rt></ruby>するとき<ruby>守<rt>まも</rt></ruby>ること
+    TRANS: Hal yang dipatuhi saat bekerja
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-1102] するとき(するとき) [expression] = ketika melakukan (する時) | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+
+=== #Q8 | ID=reguler06-q008 | KEY=C (idx=2) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="異物混入でとくに多いのはなんですか。正しいものを一つえらびなさい。" vs questionText="異物混入でとくに多いのはなんですか 正しいものを一つえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("毛髪と虫") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>でとくに<ruby>多<rt>おお</rt></ruby>いのはなんですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 異物混入でとくに多いのはなんですか 正しいものを一つえらびなさい
+  PROMPT_TRANS: Benda asing apakah yang terutama paling banyak ditemukan dalam kasus kontaminasi benda asing? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 2, nomor 8. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0451] 異物混入(いぶつこんにゅう) [compound_technical] = kontaminasi / masuknya benda asing | [kb-audit-0078] とくに(とくに) [word] = terutama / khususnya (特に) | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=ガラス
+    TRANS: Kaca
+    KOTOBA: [kb-v2-p1-057] ガラス(-) [word] = kaca
+  OPT B: HTML=<ruby>金属<rt>きんぞく</rt></ruby>
+    TRANS: Logam
+    KOTOBA: [kb-1243040] 金属(きんぞく) [word] = logam
+  OPT C: HTML=<ruby>毛髪<rt>もうはつ</rt></ruby>と<ruby>虫<rt>むし</rt></ruby>
+    TRANS: Rambut dan serangga
+    KOTOBA: [kb-ext-latsol-0041] 毛髪(もうはつ) [word] = rambut kepala / bulu | [kb-v2-p4-111] 虫(むし) [word] = serangga / hama

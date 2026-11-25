@@ -1,0 +1,61 @@
+# AUDIT SHEET: latsol-hitungan-01 (Latsol Hitungan 01) | Batch qa-batch-10 | Part 3 (Q9-11 of 11)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=hitungan01-q009 | KEY=B (idx=1) | CAT= | SRC=HITUNGAN PM.docx p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="下は450gのそばの配合です。同じ配合で作る時に、小麦粉6kgあれば、そばは何kgできますか。正しいものを一つ選びなさい。小麦粉: 300g" vs questionText="下は450gのそばのはいごう配合です。おな同じはいごう配合で つく作るとき時に、こむぎこ小麦粉6kgあれば、そばはなん何kg できますか。正"
+  CLUSTER CL-0108 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-5-q031 (ssw-pm-kunci-ujian-5), bonus-soal-5-q031 (bonus-soal-5), nguyen05-q031 (latsol-nguyen-05)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 3, nomor 9. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: (6000 g / 300 g) × 450 g = 20 × 450 g = 9000 g = 9 kg (Opsi B).), hasil yang tepat adalah Opsi B ("9kg").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下<rt>した</rt></ruby>は450gのそばの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、<ruby>小麦粉<rt>こむぎこ</rt></ruby>6kgあれば、そばは<ruby>何<rt>なん</rt></ruby>kgできますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。<ruby>小麦粉<rt>こむぎこ</rt></ruby>: 300g <ruby>食塩<rt>しょくえん</rt></ruby>: 15g <ruby>水<rt>みず</rt></ruby>: 135g
+  QUESTION_TEXT: 下は450gのそばのはいごう配合です。おな同じはいごう配合で つく作るとき時に、こむぎこ小麦粉6kgあれば、そばはなん何kg できますか。正しいものを一つ選びなさい。こむぎこ 小麦粉: 300g しょくえん食塩:15g みず水: 135g
+  PROMPT_TRANS: Di bawah ini adalah komposisi untuk 450 g soba. Saat membuat dengan komposisi yang sama, jika tersedia 6 kg tepung terigu, berapa kg soba yang dapat dibuat? Pilihlah satu jawaban yang benar. Tepung terigu: 300 g, garam dapur: 15 g, air: 135 g.
+  EXPLANATION: Sumber: HITUNGAN PM.docx, halaman 3, nomor 9. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: (6000 g / 300 g) × 450 g = 20 × 450 g = 9000 g = 9 kg (Opsi B).
+  KOTOBA_PROMPT: [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-125] できますか(できますか) [inflected_verb, df:できる] = dapat dibuat (dasar: できる) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-otaff51-0658] 食塩(しょくえん) [noun] = garam dapur | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT A: HTML=8kg
+    TRANS: 8 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=9kg
+    TRANS: 9 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=10kg
+    TRANS: 10 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+
+=== #Q10 | ID=hitungan01-q010 | KEY=A (idx=0) | CAT= | SRC=HITUNGAN PM.docx p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="450gのうどんの配合です。同じ配合で作るときに、小麦粉は9kgあれば、うどん何kgが必要(できます)か。小麦粉: 300g 食塩: 15g" vs questionText="450g のうどんは、配合(はいごう)です。同おなじ配合はいごうで作 つくるときに、小麦粉(こむぎ)は9kgあれば、うどん何なん kg が必"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 3, nomor 10. Bobot: 13.64 poin. Kunci jawaban: A. Verifikasi Hitungan: (9000 g / 300 g) × 450 g = 30 × 450 g = 13.500 g = 13,5 kg (Opsi A).), hasil yang tepat adalah Opsi A ("13,5kg").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 450gのうどんの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>るときに、<ruby>小麦粉<rt>こむぎこ</rt></ruby>は9kgあれば、うどん<ruby>何<rt>なん</rt></ruby>kgが<ruby>必要<rt>ひつよう</rt></ruby>（できます）か。<ruby>小麦粉<rt>こむぎこ</rt></ruby>: 300g <ruby>食塩<rt>しょくえん</rt></ruby>: 15g <ruby>水<rt>みず</rt></ruby>: 135g <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 450g のうどんは、配合(はいごう)です。同おなじ配合はいごうで作 つくるときに、小麦粉(こむぎ)は9kgあれば、うどん何なん kg が必 要ですか。小麦粉: 300g しょくえん 食塩: 15g みず水、135g 正ただしいものを一つ選びなさい。
+  PROMPT_TRANS: Berikut adalah komposisi untuk 450 g udon. Saat membuat dengan komposisi yang sama, jika tersedia 9 kg tepung terigu, berapa kg udon yang dapat dihasilkan? Tepung terigu: 300 g, garam dapur: 15 g, air: 135 g. Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: HITUNGAN PM.docx, halaman 3, nomor 10. Bobot: 13.64 poin. Kunci jawaban: A. Verifikasi Hitungan: (9000 g / 300 g) × 450 g = 30 × 450 g = 13.500 g = 13,5 kg (Opsi A).
+  KOTOBA_PROMPT: [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-audit-0387] できます(できます) [inflected_verb, df:できる] = dapat / bisa dilakukan (sopan) | [kb-otaff51-0658] 食塩(しょくえん) [noun] = garam dapur | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=13,5kg
+    TRANS: 13,5 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=13kg
+    TRANS: 13 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=135kg
+    TRANS: 135 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+
+=== #Q11 | ID=hitungan01-q011 | KEY=B (idx=1) | CAT= | SRC=HITUNGAN PM.docx p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="表はソーセージ1セット6本の配合例です。この配合に従うと豚ひき肉6kgからどれだけのソーセージを作れるか?(表:豚ひき肉 300g、塩 6g" vs questionText="表(ひょう)はソーセージ1セット6本の配合例(はいごうれい)です。この配合(はいごう)に従う(したがう)と豚(ぶた)ひき肉(にく)6kgから"
+  CLUSTER CL-0116 (n=4, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-7-q034 (ssw-pm-kunci-ujian-7), nguyen02-q033 (latsol-nguyen-02), nguyen08-q032 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 3, nomor 11. Bobot: 13.64 poin. Kunci jawaban: B. Visual Tabel & Hitungan: Tabel memuat 豚ひき肉 300g, 塩 6g, 玉ねぎ 20g untuk 1 set (6 batang). Jumlah set = 6000 g / 300 g = 20 set; Jumlah sosis = 20 × 6 = 120 batang (Opsi B).), hasil yang tepat adalah Opsi B ("120本").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>表<rt>ひょう</rt></ruby>はソーセージ1セット6<ruby>本<rt>ほん</rt></ruby>の<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby>6kgからどれだけのソーセージを<ruby>作<rt>つく</rt></ruby>れるか？（<ruby>表<rt>ひょう</rt></ruby>：<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby> 300g、<ruby>塩<rt>しお</rt></ruby> 6g、<ruby>玉<rt>たま</rt></ruby>ねぎ 20g）
+  QUESTION_TEXT: 表（ひょう）はソーセージ１セット6本の配合例（はいごうれい）です。この配合（はいごう）に従う（したがう）と豚（ぶた）ひき肉（にく）６ｋｇからどれだけのソーセージを作るれるか？ [表: 原料名 | 量(g) — 豚ひき肉: 300g, 塩: 6g, 玉ねぎ: 20g]
+  PROMPT_TRANS: Tabel berikut adalah contoh komposisi untuk 1 set sosis berisi 6 batang (Daging babi cincang: 300 g, Garam: 6 g, Bawang bombai: 20 g). Jika mengikuti komposisi ini, berapa batang sosis yang dapat dibuat dari 6 kg daging babi cincang?
+  EXPLANATION: Sumber: HITUNGAN PM.docx, halaman 3, nomor 11. Bobot: 13.64 poin. Kunci jawaban: B. Visual Tabel & Hitungan: Tabel memuat 豚ひき肉 300g, 塩 6g, 玉ねぎ 20g untuk 1 set (6 batang). Jumlah set = 6000 g / 300 g = 20 set; Jumlah sosis = 20 × 6 = 120 batang (Opsi B).
+  KOTOBA_PROMPT: [kb-v2-p2-248] 表(ひょう) [word] = tabel | [kb-v2-p2-091] ソーセージ(-) [word] = sosis | [kb-ext-0018-e382bbe383] セット(せっと) [word] = pemasangan / set perlengkapan | [kb-v2-p1-079] 本(ほん) [word] = buku | [kb-ext-1441-e9858de590] 配合例(はいごうれい) [word] = contoh formula campuran | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-audit-0016] 従うと(したがうと) [inflected_verb, df:従う] = jika mengikuti / sesuai dengan | [kb-v2-p2-053] 豚ひき肉(ぶたひきにく) [compound_technical] = daging babi giling | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-v2-p2-213] 作れる(つくれる) [inflected, df:作る] = dapat dibuat | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-v2-p2-065] 塩(しお) [word] = garam | [kb-v2-p2-055] 玉ねぎ(たまねぎ) [word] = bawang bombai
+  OPT A: HTML=20<ruby>本<rt>ほん</rt></ruby>
+    TRANS: 20 batang
+    KOTOBA: [kb-v2-p1-079] 本(ほん) [word] = buku
+  OPT B: HTML=120<ruby>本<rt>ほん</rt></ruby>
+    TRANS: 120 batang
+    KOTOBA: [kb-v2-p1-079] 本(ほん) [word] = buku
+  OPT C: HTML=180<ruby>本<rt>ほん</rt></ruby>
+    TRANS: 180 batang
+    KOTOBA: [kb-v2-p1-079] 本(ほん) [word] = buku

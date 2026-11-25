@@ -1,0 +1,77 @@
+# AUDIT SHEET: latsol-reguler-03 (Latsol Reguler 03) | Batch qa-batch-09 | Part 2 (Q5-8 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=reguler03-q005 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="表示することが望ましい食品は何種類がありますか。。正しいものを選んでください" vs questionText="表示することが望まし食品は何種類がありますか。。正しものを選んでください"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("21種類") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>表示<rt>ひょうじ</rt></ruby>することが<ruby>望<rt>のぞ</rt></ruby>ましい<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>何種類<rt>なんしゅるい</rt></ruby>がありますか。。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: 表示することが望まし食品は何種類がありますか。。正しものを選んでください
+  PROMPT_TRANS: Ada berapa jenis makanan yang dianjurkan untuk dicantumkan pada label alergen (alergen rekomendasi pada saat soal dibuat)? Pilihlah jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 2, nomor 5. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-latsol-34e7e11e5b] 望ましい(のぞましい) [word] = diharapkan / diinginkan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-ext-latsol-0048] 何種類(なんしゅるい) [word] = berapa jenis / macam | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=20<ruby>種類<rt>しゅるい</rt></ruby>
+    TRANS: 20 jenis
+    KOTOBA: [kb-1328890] 種類(しゅるい) [word] = jenis / macam
+  OPT B: HTML=21<ruby>種類<rt>しゅるい</rt></ruby>
+    TRANS: 21 jenis
+    KOTOBA: [kb-1328890] 種類(しゅるい) [word] = jenis / macam
+  OPT C: HTML=7<ruby>種類<rt>しゅるい</rt></ruby>
+    TRANS: 7 jenis
+    KOTOBA: [kb-1328890] 種類(しゅるい) [word] = jenis / macam
+
+=== #Q6 | ID=reguler03-q006 | KEY=B (idx=1) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.2 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("交差汚染") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>ケガのげんいんはどれですか。。まちがっているものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang termasuk faktor bahaya fisik penyebab cedera? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 2, nomor 6. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0431] 物理的危害要因(ぶつりてききがいよういん) [compound_technical] = faktor bahaya fisik | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-audit-0671] げんいん(げんいん) [word] = penyebab | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>硬質<rt>こうしつ</rt></ruby>プラスチック
+    TRANS: Plastik keras
+    KOTOBA: [kb-1280590] 硬質(こうしつ) [word] = bertekstur keras | [kb-v2-p4-072] プラスチック(-) [word] = plastik
+  OPT B: HTML=<ruby>交差汚染<rt>こうさおせん</rt></ruby>
+    TRANS: Kontaminasi silang
+    KOTOBA: [kb-otaff51-0109] 交差汚染(こうさおせん) [compound_technical] = kontaminasi silang (cross-contamination)
+  OPT C: HTML=<ruby>金属<rt>きんぞく</rt></ruby>、<ruby>石<rt>いし</rt></ruby>、ガラス
+    TRANS: Logam, batu, kaca
+    KOTOBA: [kb-1243040] 金属(きんぞく) [word] = logam | [kb-otaff51-0468] 石(いし) [noun] = batu | [kb-v2-p1-057] ガラス(-) [word] = kaca
+
+=== #Q7 | ID=reguler03-q007 | KEY=C (idx=2) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("作業をするときは、決められた安全な服装 作業着を着用します") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>のための<ruby>正<rt>ただ</rt></ruby>しい<ruby>服装<rt>ふくそう</rt></ruby>はなんですか。。ただしいものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pakaian kerja yang benar demi keselamatan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 2, nomor 7. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0340] 服装(ふくそう) [noun] = pakaian / cara berpakaian | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>刃物<rt>はもの</rt></ruby>やドライバーなどを、ポケットに<ruby>入<rt>い</rt></ruby>れて<ruby>作業<rt>さぎょう</rt></ruby>しています
+    TRANS: Bekerja dengan memasukkan benda tajam atau obeng ke dalam saku
+    KOTOBA: [kb-otaff51-0177] 刃物(はもの) [noun] = benda tajam / alat potong | [kb-latsol-driver] ドライバー(どらいばー) [word] = obeng (perkakas) | [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-v2-p2-012] 入れて(いれて) [inflected, df:入れる] = memasukkan | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0369] います(います) [inflected_verb, df:いる] = ada / sedang melakukan
+  OPT B: HTML=タオルなどを<ruby>首<rt>くび</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>いています
+    TRANS: Melilitkan handuk dan sejenisnya di leher
+    KOTOBA: [kb-v2-p2-087] タオル(-) [word] = handuk | [kb-otaff51-0669] 首(くび) [noun] = leher | [kb-v2-p2-144] 巻いて(まいて) [inflected, df:巻く] = melilitkan / menggulung | [kb-audit-0369] います(います) [inflected_verb, df:いる] = ada / sedang melakukan
+  OPT C: HTML=<ruby>作業<rt>さぎょう</rt></ruby>をするときは、<ruby>決<rt>き</rt></ruby>められた<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>服装<rt>ふくそう</rt></ruby> <ruby>作業着<rt>さぎょうぎ</rt></ruby>を<ruby>着用<rt>ちゃくよう</rt></ruby>します
+    TRANS: Saat bekerja, mengenakan pakaian kerja aman yang telah ditentukan
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-1102] するとき(するとき) [expression] = ketika melakukan (する時) | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-otaff51-0340] 服装(ふくそう) [noun] = pakaian / cara berpakaian | [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-audit-1016] 着用します(ちゃくようします) [inflected_verb, df:着用する] = mengenakan (sopan)
+
+=== #Q8 | ID=reguler03-q008 | KEY=A (idx=0) | CAT= | SRC=Latihan 3 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PRIOR_KEY_AUDIT_QUESTION_DEFECTIVE@question] Pertanyaan meminta pernyataan yang SALAH (まちがっているもの) tentang arti prosedur kerja (作業手順), namun ketiga opsi A, B, dan C semuanya merupakan potongan kalimat yang benar dari paragraf diktat SSW Bab 4. Pembuat soal LPK memotong kalimat diktat menjadi 3 opsi tanpa membuat pernyataan pengecoh yang salah. Kunci PDF (A) dipertahankan tanpa perubahan spekulatif.
+  PRIOR_KEY_AUDIT: QUESTION_DEFECTIVE | Pertanyaan meminta pernyataan yang SALAH (まちがっているもの) tentang arti prosedur kerja (作業手順), namun ketiga opsi A, B, dan C semuanya merupakan potongan kalimat yang benar dari paragraf diktat SSW Bab 4. Pembuat soal LPK memotong kalimat diktat menjadi 3 opsi tanpa membuat pernyataan pengecoh yang salah. Kunci PDF (A) dipertahankan tanpa perubahan spekulatif.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか。。まちがっているものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah arti dari prosedur kerja (sagyou tejun)? Pilihlah satu pernyataan yang salah sesuai kunci.
+  EXPLANATION: Sumber: Latihan 3 Soal SSW PM + KJ.pdf, halaman 2, nomor 8. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-audit-0404] どういう(どういう) [word] = bagaimana / seperti apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>で<ruby>決<rt>き</rt></ruby>められていることを<ruby>守<rt>まも</rt></ruby>って
+    TRANS: Mematuhi hal-hal yang ditetapkan di tempat kerja
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-otaff51-0718] 決められている(きめられている) [inflected_verb, df:決める] = telah ditetapkan | [kb-v2-p1-175] 守って(まもって) [inflected_verb, df:守る] = mematuhi (dasar: 守る)
+  OPT B: HTML=よい<ruby>製品<rt>せいひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るためだけでなく、<ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>たちが<ruby>危険<rt>きけん</rt></ruby>を<ruby>避<rt>さ</rt></ruby>ける
+    TRANS: Tidak hanya untuk membuat produk yang baik, tetapi juga agar para pekerja terhindar dari bahaya
+    KOTOBA: [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-audit-0702] 人たち(ひとたち) [word] = orang-orang | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-222] 避ける(さける) [word] = menghindari
+  OPT C: HTML=<ruby>決<rt>き</rt></ruby>められた<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>って
+    TRANS: Mematuhi prosedur kerja yang telah ditetapkan
+    KOTOBA: [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-v2-p1-175] 守って(まもって) [inflected_verb, df:守る] = mematuhi (dasar: 守る)

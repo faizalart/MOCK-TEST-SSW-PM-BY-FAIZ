@@ -1,0 +1,72 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-4 (Soal Ujian 4 — CBTP Gino1) | Batch qa-batch-01 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=kunci-ujian-4-q013 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 4.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品安全<rt>しょくひんあんぜん</rt></ruby>はなぜ<ruby>大切<rt>たいせつ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengapa keamanan pangan itu penting? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 4.pdf (Halaman 3, Câu 13 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-ext-0931-e9a39fe593] 食品安全(しょくひんあんぜん) [word] = keamanan pangan (Food Safety) | [kb-v2-p6-075] なぜ(-) [word] = mengapa | [kb-otaff51-0254] 大切(たいせつ) [adjective] = penting / berharga | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=お<ruby>金<rt>かね</rt></ruby>もうけのため
+    TRANS: Untuk mencari keuntungan uang semata
+    KOTOBA: [kb-audit-0503] お金もうけ(おかねもうけ) [word] = mencari uang / mencari untung | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>消費者<rt>しょうひしゃ</rt></ruby>が<ruby>安全<rt>あんぜん</rt></ruby>で<ruby>安心<rt>あんしん</rt></ruby>できる<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めるため
+    TRANS: Karena konsumen menginginkan pangan yang aman dan memberikan rasa tenang
+    KOTOBA: [kb-1350300] 消費者(しょうひしゃ) [word] = konsumen | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1153890] 安心(あんしん) [word] = rasa aman / ketenangan | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p6-410] 求める(もとめる) [word] = menuntut / mencari | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>生産効率<rt>せいさんこうりつ</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げるため
+    TRANS: Untuk meningkatkan efisiensi produksi
+    KOTOBA: [kb-ext-1037-e7949fe794] 生産効率(せいさんこうりつ) [word] = Efisiensi laju produksi pabrik makanan | [kb-otaff51-0941] 上げる(あげる) [verb] = menaikkan / mengangkat | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q14 | ID=kunci-ujian-4-q014 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 4.pdf p.3 ===
+  CLUSTER CL-0095 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-4-q014 (bonus-soal-4), bonus-soal-7-q014 (bonus-soal-7), nguyen04-q014 (latsol-nguyen-04), nguyen07-q014 (latsol-nguyen-07)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カビについて<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang benar mengenai kapang (jamur/mold).
+  EXPLANATION: Sumber: Kunci Soal Ujian 4.pdf (Halaman 3, Câu 14 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=カビには<ruby>毒<rt>どく</rt></ruby>がないのでほおっておく
+    TRANS: Membiarkannya saja karena kapang tidak memiliki racun
+    KOTOBA: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-latsol-eef36d7975] 毒がない(どくがない) [word] = tidak beracun / aman | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-audit-0906] ほおっておく(ほうっておく) [expression] = membiarkan saja tanpa ditangani | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=<ruby>豆<rt>まめ</rt></ruby>、<ruby>穀類<rt>こくるい</rt></ruby>、<ruby>野菜<rt>やさい</rt></ruby>、<ruby>果物<rt>くだもの</rt></ruby>などは<ruby>カビ<rt>かび</rt></ruby>に<ruby>汚染<rt>おせん</rt></ruby>やすいので<ruby>保存<rt>ほぞん</rt></ruby>には<ruby>気<rt>き</rt></ruby>を<ruby>付<rt>つ</rt></ruby>ける
+    TRANS: Kacang-kacangan, biji-bijian (serealia), sayuran, dan buah-buahan mudah terkontaminasi kapang sehingga cara penyimpanannya harus diperhatikan
+    KOTOBA: [kb-v2-p1-073] 豆(まめ) [word] = kacang-kacangan | [kb-1287310] 穀類(こくるい) [word] = serealia / biji-bijian | [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-otaff51-0344] 果物(くだもの) [noun] = buah-buahan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-otaff51-0377] 汚染(おせん) [noun] = kontaminasi / pencemaran | [kb-otaff51-0829] やすい(やすい) [adjective] = mudah untuk ... | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p5-365] 気を付ける(きをつける) [expression] = berhati-hati / waspada | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=カビの<ruby>増殖<rt>ぞうしょく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、<ruby>食品<rt>しょくひん</rt></ruby>はできるだけ<ruby>高温<rt>こうおん</rt></ruby>で<ruby>保存<rt>ほぞん</rt></ruby>する
+    TRANS: Menyimpan pangan pada suhu setinggi mungkin untuk mencegah perkembangbiakan kapang
+    KOTOBA: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-otaff51-0675] 高温(こうおん) [noun] = suhu tinggi | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q15 | ID=kunci-ujian-4-q015 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 4.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>加工食品<rt>かこうしょくひん</rt></ruby>の<ruby>容器<rt>ようき</rt></ruby>や<ruby>袋<rt>ふくろ</rt></ruby>に<ruby>表示<rt>ひょうじ</rt></ruby>されている「<ruby>賞味期限<rt>しょうみきげん</rt></ruby>」と「<ruby>消費期限<rt>しょうひきげん</rt></ruby>」は<ruby>誰<rt>だれ</rt></ruby>が<ruby>決<rt>き</rt></ruby>めますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Siapakah yang menentukan "batas waktu kualitas terbaik (baik digunakan sebelum)" dan "batas waktu konsumsi (tanggal kedaluwarsa konsumsi)" yang tertera pada wadah atau kemasan pangan olahan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 4.pdf (Halaman 3, Câu 15 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0189] 加工食品(かこうしょくひん) [compound_technical] = makanan olahan | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-otaff51-0547] 袋(ふくろ) [noun] = kantong kemasan | [kb-otaff51-0544] 表示(ひょうじ) [noun] = pencantuman label / tampilan | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-otaff51-0581] 賞味期限(しょうみきげん) [compound_technical] = batas tanggal cita rasa terbaik (best before) | [kb-otaff51-0394] 消費期限(しょうひきげん) [compound_technical] = batas tanggal aman konsumsi (use by / kedaluwarsa) | [kb-1416830] 誰(だれ) [standalone_term] = Siapa / pihak penanggung jawab yang ditunjuk | [kb-audit-0785] 決めます(きめます) [inflected_verb, df:決める] = menentukan / memutuskan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>消費者<rt>しょうひしゃ</rt></ruby>が<ruby>決<rt>き</rt></ruby>める
+    TRANS: Ditentukan oleh konsumen
+    KOTOBA: [kb-1350300] 消費者(しょうひしゃ) [word] = konsumen | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>が<ruby>決<rt>き</rt></ruby>める
+    TRANS: Ditentukan oleh pabrik pengolahan pangan
+    KOTOBA: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>供給会社<rt>きょうきゅうがいしゃ</rt></ruby>が<ruby>決<rt>き</rt></ruby>める
+    TRANS: Ditentukan oleh perusahaan pemasok bahan baku
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-ext-0380-e4be9be7b5] 供給会社(きょうきゅうがいしゃ) [word] = perusahaan pemasok bahan baku | [kb-v2-p3-282] 決める(きめる) [word] = menentukan / menetapkan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q16 | ID=kunci-ujian-4-q016 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 4.pdf p.3 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p6-199 (マフラ－): "syal (typo garis panjang)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業<rt>さぎょう</rt></ruby>をする<ruby>時<rt>とき</rt></ruby>にマフラ－を<ruby>巻<rt>ま</rt></ruby>いていてもいいでしょうか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah boleh mengenakan syal (muffler) di leher saat bekerja? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 4.pdf (Halaman 3, Câu 16 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p6-199] マフラ－(-) [word] = syal (typo garis panjang) | [kb-audit-1092] 巻いていて(まいていて) [inflected_verb, df:巻く] = sedang melilitkan (巻く) | [kb-v2-p1-249] いい(-) [word] = baik | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p5-220] でしょう(-) [particle] = kira-kira / bukan? | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>個人<rt>こじん</rt></ruby>の<ruby>自由<rt>じゆう</rt></ruby>なのでかまわない
+    TRANS: Tidak masalah karena itu kebebasan pribadi
+    KOTOBA: [kb-1264770] 個人(こじん) [word] = Pribadi / perorangan karyawan | [kb-1318720] 自由(じゆう) [word] = Bebas tanpa hambatan | [kb-v2-p2-275] なので(-) [particle] = karena (kata benda) | [kb-v2-p5-283] かまわない(-) [expression] = tidak masalah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>十分気<rt>じゅうぶんき</rt></ruby>を<ruby>付<rt>つ</rt></ruby>ければ、<ruby>巻<rt>ま</rt></ruby>いていてもよい
+    TRANS: Boleh mengenakannya asalkan berhati-hati dengan baik
+    KOTOBA: [kb-ext-0820-e58d81e588] 十分気(じゅうぶんき) [word] = berhati-hati secara penuh | [kb-v2-p6-475] 付ければ(つければ) [inflected, df:付ける] = jika memasang / berhati-hati | [kb-audit-1092] 巻いていて(まいていて) [inflected_verb, df:巻く] = sedang melilitkan (巻く) | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT C: HTML=<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれるおそれのあるものは、<ruby>着用<rt>ちゃくよう</rt></ruby>しない
+    TRANS: Tidak mengenakan benda yang berisiko terlilit ke dalam mesin
+    KOTOBA: [kb-u1416-75db11d73b] 巻き込まれる(まきこまれる) [word] = terlilit / tertarik masuk ke mesin | [kb-otaff51-0733] おそれ(おそれ) [noun] = risiko / kekhawatiran | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-1013] 着用しない(ちゃくようしない) [inflected_verb, df:着用する] = tidak mengenakan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
