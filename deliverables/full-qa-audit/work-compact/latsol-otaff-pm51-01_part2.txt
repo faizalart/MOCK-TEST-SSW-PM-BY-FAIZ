@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-01 (Latsol OTAFF SSW PM Modul 5.1 - Paket 01) | Batch qa-batch-11 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=otaff-pm51-01-q005 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.12 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>危害要因<rt>きがいよういん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で、<ruby>硬<rt>かた</rt></ruby>くて<ruby>歯<rt>は</rt></ruby>が<ruby>欠<rt>か</rt></ruby>ける、<ruby>尖<rt>とが</rt></ruby>っていて<ruby>口<rt>くち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>傷<rt>きず</rt></ruby>ができるなど、<ruby>人<rt>ひと</rt></ruby>にケガをさせるおそれがあるものを<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara faktor bahaya, disebut apakah faktor bahaya yang berisiko melukai manusia, seperti benda keras yang membuat gigi patah atau benda tajam yang melukai bagian dalam mulut? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 12 (Bab 2.2(1), hal. 7 teks). Bobot: 3 poin. Kunci jawaban: A. Faktor bahaya yang menyebabkan cedera fisik seperti gigi patah atau luka di mulut akibat benda keras/tajam disebut 物理的危害要因.
+  INLINE_KOTOBA_COUNT: 21
+  KOTOBA_PROMPT: [kb-ext-0314-e58db1e5ae] 危害要因(きがいよういん) [word] = faktor bahaya pangan (hazard) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p4-141] 硬くて(かたくて) [inflected, df:硬い] = keras dan | [kb-v2-p4-104] 歯(は) [word] = gigi | [kb-v2-p4-152] 欠ける(かける) [word] = patah / gompal (gigi) | [kb-v2-p4-153] 尖っていて(とがっていて) [inflected, df:尖る] = runcing / tajam | [kb-v2-p2-075] 口(くち) [word] = mulut | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-otaff51-0733] おそれ(おそれ) [noun] = risiko / kekhawatiran | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-154] 言います(いいます) [inflected, df:言う] = mengucapkan / menyebut | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>
+    TRANS: Faktor bahaya fisik (Butsuriteki Kigai Youin)
+    KOTOBA: [kb-ext-1566-e789a9e790] 物理的危害要因(ぶつりてききがいよういん) [word] = bahaya fisik
+  OPT B: HTML=<ruby>化学的危害要因<rt>かがくてききがいよういん</rt></ruby>
+    TRANS: Faktor bahaya kimia (Kagakuteki Kigai Youin)
+    KOTOBA: [kb-ext-0173-e58c96e5ad] 化学的危害要因(かがくてききがいよういん) [word] = bahaya kimiawi
+  OPT C: HTML=<ruby>生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>
+    TRANS: Faktor bahaya biologis (Seibutsuteki Kigai Youin)
+    KOTOBA: [kb-ext-1048-e7949fe789] 生物的危害要因(せいぶつてききがいよういん) [word] = bahaya biologis (kuman/virus)
+
+=== #Q6 | ID=otaff-pm51-01-q006 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.13 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>虫<rt>むし</rt></ruby>や<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>、<ruby>紙片<rt>しへん</rt></ruby>のような<ruby>硬<rt>かた</rt></ruby>くない<ruby>異物<rt>いぶつ</rt></ruby>についての<ruby>説明<rt>せつめい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu penjelasan yang benar mengenai benda asing yang tidak keras seperti serangga, helai rambut, atau sobekan kertas.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 13 (Bab 2.2(1), hal. 8 teks). Bobot: 3 poin. Kunci jawaban: C. Serangga, rambut, dan potongan kertas bukan faktor bahaya fisik karena tidak melukai mulut, namun tetap harus dicegah karena menimbulkan kesan kotor/tidak higienis yang berujung pada komplain dan retur.
+  INLINE_KOTOBA_COUNT: 30
+  KOTOBA_PROMPT: [kb-v2-p4-111] 虫(むし) [word] = serangga / hama | [kb-v2-p1-022] 髪の毛(かみのけ) [word] = rambut | [kb-1646580] 紙片(しへん) [word] = serpihan kertas | [kb-otaff51-0999] 硬くない(かたくない) [inflected_adj, df:硬い] = tidak keras / lunak | [kb-1158020] 異物(いぶつ) [word] = benda asing | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-1386460] 説明(せつめい) [word] = penjelasan / uraian | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>口<rt>くち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>傷<rt>きず</rt></ruby>ができるため、<ruby>硬質異物<rt>こうしついぶつ</rt></ruby>に<ruby>分類<rt>ぶんるい</rt></ruby>される。
+    TRANS: Diklasifikasikan sebagai benda asing keras karena melukai bagian dalam mulut.
+    KOTOBA: [kb-v2-p2-075] 口(くち) [word] = mulut | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-otaff51-0470] 硬質異物(こうしついぶつ) [compound_technical] = benda asing keras | [kb-1504460] 分類(ぶんるい) [word] = klasifikasi / pengelompokan
+  OPT B: HTML=<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>ではないため、<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>っても<ruby>問題<rt>もんだい</rt></ruby>ない。
+    TRANS: Karena bukan faktor bahaya fisik, tidak masalah meskipun masuk ke dalam makanan.
+    KOTOBA: [kb-ext-1566-e789a9e790] 物理的危害要因(ぶつりてききがいよういん) [word] = bahaya fisik | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p3-224] 入って(はいって) [inflected, df:入る] = masuk / terkandung | [kb-1536010] 問題(もんだい) [word] = soal / masalah
+  OPT C: HTML=<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>ではないが、<ruby>不衛生<rt>ふえいせい</rt></ruby>と<ruby>思<rt>おも</rt></ruby>われ<ruby>苦情<rt>くじょう</rt></ruby>（クレーム）や<ruby>返品<rt>へんぴん</rt></ruby>につながるため<ruby>入<rt>はい</rt></ruby>らないようにする。
+    TRANS: Bukan faktor bahaya fisik, tetapi harus dicegah agar tidak masuk karena dianggap tidak higienis dan memicu keluhan (klaim) serta retur.
+    KOTOBA: [kb-ext-1566-e789a9e790] 物理的危害要因(ぶつりてききがいよういん) [word] = bahaya fisik | [kb-1491300] 不衛生(ふえいせい) [word] = tidak higienis / sanitasi buruk | [kb-otaff51-1000] 思われ(おもわれ) [inflected_verb, df:思う] = dianggap / dikira | [kb-otaff51-0533] 苦情(くじょう) [noun] = keluhan pelanggan (komplain) | [kb-otaff51-0049] クレーム(くれーむ) [noun] = klaim / komplain pelanggan | [kb-otaff51-0593] 返品(へんぴん) [noun] = pengembalian barang (retur) | [kb-otaff51-0734] つながる(つながる) [verb] = mengarah pada / menyebabkan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p2-162] 入らない(はいらない) [inflected, df:入る] = tidak masuk | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+
+=== #Q7 | ID=otaff-pm51-01-q007 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.14 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "4" missing in ID "Mulai 1 April 2026, bahan pangan manakah yang baru ditambahkan ke dalam daftar 9" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-1255430 "月": kotoba="つき" vs ruby="がつ"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 2026<ruby>年<rt>ねん</rt></ruby>4<ruby>月<rt>がつ</rt></ruby>1<ruby>日<rt>にち</rt></ruby>より、<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>がある「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>（9<ruby>品目<rt>ひんもく</rt></ruby>）」に<ruby>新<rt>あたら</rt></ruby>しく<ruby>追加<rt>ついか</rt></ruby>された<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mulai 1 April 2026, bahan pangan manakah yang baru ditambahkan ke dalam daftar 9 item 'Bahan Baku Spesifik' (Tokutei Genzairyou) yang wajib dicantumkan pada label alergen? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 14 (Bab 2.2(2), hal. 9 teks, Catatan Revisi 5.1). Bobot: 3 poin. Kunci jawaban: B. Sejak 1 April 2026, カシューナッツ (kacang mete) ditambahkan ke dalam 特定原材料 (wajib label, menjadi 9 item), sedangkan ピスタチオ (pistachio) ditambahkan ke dalam 特定原材料に準ずるもの (anjuran label, menjadi 20 item).
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0689] 年(ねん) [noun] = tahun | [kb-1255430] 月(つき) [standalone_term] = Bulan dalam penanggalan kalender | [kb-otaff51-0710] 1日(いちにち) [noun] = satu hari | [kb-ext-1508-e8a1a8e7a4] 表示義務(ひょうじぎむ) [word] = kewajiban pelabelan alergen | [kb-ext-1372-e789b9e5ae] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku alergen wajib label | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-otaff51-0735] 新しく(あたらしく) [inflected_adj, df:新しい] = secara baru | [kb-1432460] 追加(ついか) [word] = penambahan | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=ピスタチオ
+    TRANS: Kacang pistachio
+    KOTOBA: [kb-pilot51-115] ピスタチオ(ぴすたちお) [noun_allergen] = kacang pistachio
+  OPT B: HTML=カシューナッツ
+    TRANS: Kacang mete (cashew nut)
+    KOTOBA: [kb-pilot51-114] カシューナッツ(かしゅーなっつ) [noun_allergen] = kacang mete
+  OPT C: HTML=マカダミアナッツ
+    TRANS: Kacang makadamia
+    KOTOBA: [kb-v2-p3-082] マカダミアナッツ(-) [word] = kacang makadamia
+
+=== #Q8 | ID=otaff-pm51-01-q008 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.15 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-ext-1070-e8b5a4e8ba "赤身魚": kotoba="あかみさかな" vs ruby="あかみざかな"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: マグロ、アジ、イワシ、サバなどの<ruby>赤身魚<rt>あかみざかな</rt></ruby>を<ruby>悪<rt>わる</rt></ruby>い<ruby>条件<rt>じょうけん</rt></ruby>で<ruby>保存<rt>ほぞん</rt></ruby>したときに<ruby>増<rt>ふ</rt></ruby>え、アレルギー<ruby>反応<rt>はんのう</rt></ruby>に<ruby>似<rt>に</rt></ruby>た<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>起<rt>お</rt></ruby>こす<ruby>化学物質<rt>かがくぶっしつ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Zat kimia apakah yang meningkat ketika ikan berdaging merah seperti tuna, makarel, sarden, atau kembung disimpan dalam kondisi buruk, dan menyebabkan keracunan makanan dengan gejala mirip reaksi alergi? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 15 (Bab 2.2(2)②, hal. 10 teks). Bobot: 3 poin. Kunci jawaban: A. Ikan berdaging merah (赤身魚) yang tidak segera didinginkan/dibekukan akan mengalami peningkatan zat ヒスタミン (histamin) yang menyebabkan keracunan makanan histamin dengan gejala mirip alergi.
+  INLINE_KOTOBA_COUNT: 24
+  KOTOBA_PROMPT: [kb-v2-p3-077] マグロ(-) [word] = ikan tuna | [kb-v2-p5-109] アジ(-) [word] = ikan kembung (aji) | [kb-v2-p6-234] イワシ(-) [word] = ikan sarden | [kb-v2-p5-108] サバ(-) [word] = ikan makarel / kembung | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-ext-1070-e8b5a4e8ba] 赤身魚(あかみさかな) [word] = ikan berdaging merah | [kb-v2-p1-246] 悪い(わるい) [word] = buruk / tidak baik | [kb-1356510] 条件(じょうけん) [word] = syarat / kondisi | [kb-1513940] 保存(ほぞん) [word] = penyimpanan / pengawetan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p3-262] 増え(ふえ) [inflected, df:増える] = bertambah banyak | [kb-otaff51-0035] アレルギー反応(あれるぎーはんのう) [compound_technical] = reaksi alergi | [kb-otaff51-1001] 似た(にた) [inflected_verb, df:似る] = mirip / menyerupai | [kb-1609950] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan | [kb-1930980] 化学物質(かがくぶっしつ) [compound_technical] = zat kimia | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=ヒスタミン
+    TRANS: Histamin
+    KOTOBA: [kb-latsol-2b68f5ee9d] ヒスタミン(ひすたみん) [word] = histamin (racun alergi ikan)
+  OPT B: HTML=ソラニン
+    TRANS: Solanin
+    KOTOBA: [kb-latsol-54090265ff] ソラニン(そらにん) [word] = solanin (racun tunas kentang)
+  OPT C: HTML=アニサキス
+    TRANS: Anisakis
+    KOTOBA: [kb-otaff51-0032] アニサキス(あにさきす) [compound_technical] = parasit Anisakis

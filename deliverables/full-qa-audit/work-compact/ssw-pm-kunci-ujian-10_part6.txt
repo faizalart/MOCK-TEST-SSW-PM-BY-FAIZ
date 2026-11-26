@@ -1,0 +1,72 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-10 (Soal Ujian 10 — CBTP Gino1) | Batch qa-batch-02 | Part 6 (Q21-24 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=kunci-ujian-10-q021 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>出荷<rt>しゅっか</rt></ruby>まで<ruby>食品<rt>しょくひん</rt></ruby>はどこで<ruby>保管<rt>ほかん</rt></ruby>されますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di manakah produk pangan disimpan hingga waktu pengiriman (ekspedisi)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 4, Câu 21 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0174] 出荷(しゅっか) [noun] = pengiriman barang keluar pabrik | [kb-v2-p2-284] まで(-) [particle] = sampai | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-audit-0390] されます(されます) [inflected_verb, df:される] = dilakukan (pasif sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>製品倉庫<rt>せいひんそうこ</rt></ruby>
+    TRANS: Gudang produk
+    KOTOBA: [kb-otaff51-0553] 製品倉庫(せいひんそうこ) [compound_technical] = gudang produk jadi
+  OPT B: HTML=<ruby>配送先<rt>はいそうさき</rt></ruby>
+    TRANS: Tempat tujuan pengiriman
+    KOTOBA: [kb-2852995] 配送先(はいそうさき) [word] = alamat tujuan pengiriman
+  OPT C: HTML=<ruby>製造現場<rt>せいぞうげんば</rt></ruby>
+    TRANS: Area produksi
+    KOTOBA: [kb-ext-1056-e8a3bde980] 製造現場(せいぞうげんば) [word] = lantai produksi manufaktur
+
+=== #Q22 | ID=kunci-ujian-10-q022 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>解凍方法<rt>かいとうほうほう</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つで、<ruby>水道水<rt>すいどうすい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>解凍<rt>かいとう</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa nama salah satu metode pencairan (thawing) yang menggunakan air keran mengalir?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 4, Câu 22 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-ext-0224-e8a7a3e587] 解凍方法(かいとうほうほう) [word] = metode pencairan (thawing) | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-1960280] 水道水(すいどうすい) [word] = air leding / air keran bersih | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-otaff51-0563] 解凍(かいとう) [noun] = pencairan bahan beku (thawing) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-154] 言います(いいます) [inflected, df:言う] = mengucapkan / menyebut | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>自然解凍<rt>しぜんかいとう</rt></ruby>
+    TRANS: Pencairan alami (suhu ruang)
+    KOTOBA: [kb-otaff51-0529] 自然解凍(しぜんかいとう) [compound_technical] = pencairan alami pada suhu ruang
+  OPT B: HTML=<ruby>冷蔵庫解凍<rt>れいぞうこかいとう</rt></ruby>
+    TRANS: Pencairan di lemari pendingin (kulkas)
+    KOTOBA: [kb-otaff51-0169] 冷蔵庫解凍(れいぞうこかいとう) [compound_technical] = pencairan di dalam lemari pendingin
+  OPT C: HTML=<ruby>流水解凍<rt>りゅうすいかいとう</rt></ruby>
+    TRANS: Pencairan dengan air mengalir
+    KOTOBA: [kb-otaff51-0388] 流水解凍(りゅうすいかいとう) [compound_technical] = pencairan dengan air mengalir
+
+=== #Q23 | ID=kunci-ujian-10-q023 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「５Ｓエス」とは、<ruby>何<rt>なに</rt></ruby>を<ruby>意味<rt>いみ</rt></ruby>する<ruby>言葉<rt>ことば</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa arti dari istilah "5S"?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 5, Câu 23 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p6-546] エス(-) [technical] = huruf S (5S) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1264540] 言葉(ことば) [word] = kata-kata / aba-aba | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p5-186] Ｓ(-) [technical] = huruf S (5S) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=５つの<ruby>活動<rt>かつどう</rt></ruby>が「Ｓ」で<ruby>始<rt>はじ</rt></ruby>まることを<ruby>意味<rt>いみ</rt></ruby>する<ruby>言葉<rt>ことば</rt></ruby>。
+    TRANS: Istilah yang berarti 5 kegiatan yang diawali dengan huruf "S".
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-v2-p6-374] 始まる(はじまる) [word] = dimulai | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1264540] 言葉(ことば) [word] = kata-kata / aba-aba | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p5-186] Ｓ(-) [technical] = huruf S (5S) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=５つの<ruby>活動<rt>かつどう</rt></ruby>が「Ｓ」<ruby>以外<rt>いがい</rt></ruby>の<ruby>文字<rt>もじ</rt></ruby>で<ruby>始<rt>はじ</rt></ruby>まることを<ruby>意味<rt>いみ</rt></ruby>する<ruby>言葉<rt>ことば</rt></ruby>。
+    TRANS: Istilah yang berarti 5 kegiatan yang diawali dengan huruf selain "S".
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-1155090] 以外(いがい) [word] = selain / di luar | [kb-1505390] 文字(もじ) [word] = huruf / teks keterangan | [kb-v2-p6-374] 始まる(はじまる) [word] = dimulai | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1264540] 言葉(ことば) [word] = kata-kata / aba-aba | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p5-186] Ｓ(-) [technical] = huruf S (5S) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=５つの<ruby>活動<rt>かつどう</rt></ruby>がすべて<ruby>同<rt>おな</rt></ruby>じ<ruby>文字<rt>もじ</rt></ruby>で<ruby>始<rt>はじ</rt></ruby>まることを<ruby>意味<rt>いみ</rt></ruby>する<ruby>言葉<rt>ことば</rt></ruby>。
+    TRANS: Istilah yang berarti 5 kegiatan yang semuanya diawali dengan huruf yang sama apa saja.
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-1505390] 文字(もじ) [word] = huruf / teks keterangan | [kb-v2-p6-374] 始まる(はじまる) [word] = dimulai | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1264540] 言葉(ことば) [word] = kata-kata / aba-aba | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q24 | ID=kunci-ujian-10-q024 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0363 (おきばじょ): "tempat peletakan (typo: 置き場所)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: せいとんのただしいいみはどれですか。ひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah arti yang benar dari "Rapi / Penataan (Seiton)"? Pilihlah satu jawaban.
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 5, Câu 24 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-latsol-2b13228915] せいとん(せいとん) [word] = Seiton (penataan rapi 5S) | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-audit-0183] いみ(いみ) [word] = arti / makna (意味) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=ひつようなものがすぐとりだせるように、おきばじょをきめておく。
+    TRANS: Menentukan tempat penyimpanan agar barang yang diperlukan dapat segera diambil.
+    KOTOBA: [kb-audit-0085] ひつようなもの(ひつようなもの) [word] = barang yang diperlukan (必要な物) | [kb-v2-p1-282] すぐ(-) [word] = segera | [kb-v2-p6-619] とりだせる(-) [inflected, df:取り出す] = dapat diambil keluar | [kb-v2-p1-327] ように(-) [particle] = agar / supaya | [kb-audit-0363] おきばじょ(おきばしょ) [word] = tempat peletakan (typo: 置き場所) | [kb-audit-0792] きめて(きめて) [inflected_verb, df:決める] = menentukan / menetapkan | [kb-v2-p1-243] おく(-) [word] = melakukan terlebih dahulu | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=さぎょうじょうとそのしゅうへんをいつもきれいにそうじする。
+    TRANS: Selalu membersihkan area kerja dan sekitarnya hingga bersih.
+    KOTOBA: [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-v2-p1-268] その(-) [word] = itu | [kb-audit-0656] しゅうへん(しゅうへん) [word] = sekitar / lingkungan sekitar | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-audit-0023] そうじする(そうじする) [word] = membersihkan (掃除する) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=ひつようなものをほかんし、ふようなものはすてる。
+    TRANS: Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan.
+    KOTOBA: [kb-audit-0085] ひつようなもの(ひつようなもの) [word] = barang yang diperlukan (必要な物) | [kb-audit-1037] ほかんし(ほかんし) [inflected_verb, df:保管する] = menyimpan (保管する) | [kb-audit-0086] ふようなもの(ふようなもの) [word] = barang yang tidak diperlukan (不要な物) | [kb-audit-0793] すてる(すてる) [word] = membuang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik

@@ -1,0 +1,91 @@
+# AUDIT SHEET: latsol-tambahan-02 (Latsol Tambahan 02) | Batch qa-batch-10 | Part 1 (Q1-4 of 30)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=tambahan02-q001 | KEY=A (idx=0) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="作業靴のあつかいについて、まちがっているのは一つえらんでください" vs questionText="作業靴のあつかいについて、まちがっているのは 一つえらんで ください" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-ext-0627-e4bd9ce6a5 "作業靴": kotoba="さぎょうくつ" vs ruby="さぎょうぐつ" || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: せいけつ || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-ext-0627-e4bd9ce6a5 "作業靴": kotoba="さぎょうくつ" vs ruby="さぎょうぐつ" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-ext-0627-e4bd9ce6a5 "作業靴": kotoba="さぎょうくつ" vs ruby="さぎょうぐつ" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-ext-0627-e4bd9ce6a5 "作業靴": kotoba="さぎょうくつ" vs ruby="さぎょうぐつ" || [JP_WHITESPACE_BETWEEN_JP@opt:D] Space inside Japanese text || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:D] kb-ext-0627-e4bd9ce6a5 "作業靴": kotoba="さぎょうくつ" vs ruby="さぎょうぐつ"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("作業靴はつねに せいかつに して おきます") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業靴<rt>さぎょうぐつ</rt></ruby>のあつかいについて、まちがっているのは<ruby>一<rt>ひと</rt></ruby>つえらんでください
+  QUESTION_TEXT: 作業靴のあつかいについて、まちがっているのは 一つえらんで ください
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai penanganan sepatu kerja.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 2, nomor 1. Bobot: 5.0 poin. Kunci jawaban: A. Visual: Ilustrasi pekerja berseragam melewati bak disinfeksi sepatu kerja.
+  KOTOBA_PROMPT: [kb-ext-0627-e4bd9ce6a5] 作業靴(さぎょうくつ) [compound_technical] = sepatu kerja | [kb-audit-0826] つかい(つかい) [inflected_verb, df:使う] = menggunakan | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>はつねに せいかつに して おきます
+    TRANS: Sepatu kerja selalu dijaga tetap 'seikatsu/kehidupan' (salah kata dari せいけつ/bersih)
+    KOTOBA: [kb-ext-0627-e4bd9ce6a5] 作業靴(さぎょうくつ) [compound_technical] = sepatu kerja | [kb-audit-0014] つねに(つねに) [word] = selalu / senantiasa | [kb-audit-0083] せいかつ(せいかつ) [word] = kehidupan (soal jebakan untuk せいけつ) | [kb-audit-0010] おきます(おきます) [inflected_verb, df:置く] = meletakkan / membiarkan (kondisi)
+  OPT B: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るまえにつうきんぐつから<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>にはきかえます
+    TRANS: Sebelum masuk ke tempat kerja, mengganti sepatu komuter (sepatu dari rumah) ke sepatu kerja
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p6-570] まえ(-) [word] = sebelum / depan | [kb-latsol-ce1648f893] つうきんぐつ(つうきんぐつ) [word] = sepatu luar untuk berangkat kerja | [kb-ext-0627-e4bd9ce6a5] 作業靴(さぎょうくつ) [compound_technical] = sepatu kerja | [kb-latsol-hakikaemasu] はきかえます(はきかえます) [inflected_verb, df:履き替える] = mengganti alas kaki (履き替える)
+  OPT C: HTML=<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>はおんせんくからひおんせんくに<ruby>入<rt>はい</rt></ruby>るときにかならず、<ruby>決<rt>き</rt></ruby>められたしょどくえきをつかったせんじょうそうちでしょどくします
+    TRANS: Saat sepatu kerja masuk dari zona kontaminasi ke zona non-kontaminasi, wajib didisinfeksi dengan alat pencuci yang menggunakan cairan disinfektan yang ditentukan
+    KOTOBA: [kb-ext-0627-e4bd9ce6a5] 作業靴(さぎょうくつ) [compound_technical] = sepatu kerja | [kb-latsol-onsenku] おんせんく(おんせんく) [word] = area kotor/terkontaminasi (汚染区) | [kb-latsol-hionsenku] ひおんせんく(ひおんせんく) [word] = area bersih/non-kontaminasi (非汚染区) | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p1-278] かならず(-) [word] = pasti / selalu | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-latsol-4c28ce8b85] しょどくえき(しょどくえき) [word] = cairan disinfektan / antiseptik | [kb-audit-0084] つかった(つかった) [inflected_verb, df:使う] = yang digunakan (使った) | [kb-latsol-bd48c1a1cc] せんじょうそうち(せんじょうそうち) [word] = mesin pencuci otomatis | [kb-latsol-shodoku] しょどく(しょどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT D: HTML=<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>はつねに せいけつに して おきます
+    TRANS: Sepatu kerja selalu dijaga tetap bersih (seiketsu)
+    KOTOBA: [kb-ext-0627-e4bd9ce6a5] 作業靴(さぎょうくつ) [compound_technical] = sepatu kerja | [kb-audit-0014] つねに(つねに) [word] = selalu / senantiasa | [kb-latsol-ba01a8a7ea] せいけつ(せいけつ) [word] = Seiketsu (menjaga kebersihan 5S) | [kb-audit-0010] おきます(おきます) [inflected_verb, df:置く] = meletakkan / membiarkan (kondisi)
+
+=== #Q2 | ID=tambahan02-q002 | KEY=A (idx=0) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="ひつようなものは ほかんする またふようなものを すてるって 正しいもの一つ えらんでください" vs questionText="ひつようなものは ほかんする またふようなものを すてるって 正しいもの 一つ えらんでください" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("せいり (整理)") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ひつようなものは ほかんする またふようなものを すてるって <ruby>正<rt>ただ</rt></ruby>しいもの<ruby>一<rt>ひと</rt></ruby>つ えらんでください
+  QUESTION_TEXT: ひつようなものは ほかんする またふようなものを すてるって 正しいもの 一つ えらんでください
+  PROMPT_TRANS: Menyimpan barang yang diperlukan serta membuang barang yang tidak diperlukan; pilihlah satu istilah 5S yang benar.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 2, nomor 2. Bobot: 5.0 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-audit-0085] ひつようなもの(ひつようなもの) [word] = barang yang diperlukan (必要な物) | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管) | [kb-audit-0086] ふようなもの(ふようなもの) [word] = barang yang tidak diperlukan (不要な物) | [kb-audit-0793] すてる(すてる) [word] = membuang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=せいり (<ruby>整理<rt>せいり</rt></ruby>)
+    TRANS: Seiri (Ringkas / Pemilahan)
+    KOTOBA: [kb-latsol-82c9c74e4f] せいり(せいり) [word] = Seiri (pemilahan barang 5S) | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan)
+  OPT B: HTML=せいとん (<ruby>整頓<rt>せいとん</rt></ruby>)
+    TRANS: Seiton (Rapi / Penataan)
+    KOTOBA: [kb-latsol-2b13228915] せいとん(せいとん) [word] = Seiton (penataan rapi 5S) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil)
+  OPT C: HTML=せいそう (<ruby>清掃<rt>せいそう</rt></ruby>)
+    TRANS: Seisou (Resik / Pembersihan)
+    KOTOBA: [kb-v2-p6-325] せいそう(-) [word] = pembersihan (bacaan 清掃) | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+  OPT D: HTML=せいけつ (<ruby>清潔<rt>せいけつ</rt></ruby>)
+    TRANS: Seiketsu (Rawat / Penjagaan kebersihan)
+    KOTOBA: [kb-latsol-ba01a8a7ea] せいけつ(せいけつ) [word] = Seiketsu (menjaga kebersihan 5S) | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu)
+
+=== #Q3 | ID=tambahan02-q003 | KEY=C (idx=2) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.2 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0266 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=tambahan02-q005 (latsol-tambahan-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("もうはつがはみでているのは ダメ") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: （<ruby>次<rt>つぎ</rt></ruby>の<ruby>絵<rt>え</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください）
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: (Lihatlah gambar berikut, lalu pilihlah penjelasan yang tepat.)
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 2, nomor 3. Bobot: 5.0 poin. Kunci jawaban: C. Visual: Ilustrasi kepala pekerja memakai hairnet/topi putih namun ada helai rambut yang keluar di dahi/pelipis ditunjuk panah merah.
+  KOTOBA_PROMPT: [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-ext-latsol-0117] 絵(え) [word] = gambar / ilustrasi | [kb-v2-p5-278] 見て(みて) [inflected, df:見る] = melihat | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>を よくブラッシングしておきます
+    TRANS: Menyisir rambut dengan baik terlebih dahulu
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-otaff51-0073] ブラッシング(ぶらっしんぐ) [noun] = penyikatan rambut | [kb-audit-0010] おきます(おきます) [inflected_verb, df:置く] = meletakkan / membiarkan (kondisi)
+  OPT B: HTML=<ruby>最後<rt>さいご</rt></ruby>にふくそうが<ruby>正<rt>ただ</rt></ruby>しいかどうかかくにんします
+    TRANS: Terakhir, memeriksa apakah pakaian kerja sudah benar atau belum
+    KOTOBA: [kb-1293810] 最後(さいご) [word] = Terakhir / langkah penutup alur kerja | [kb-audit-0076] ふくそう(ふくそう) [word] = pakaian kerja / penampilan (服装) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-317] かどうか(-) [particle] = apakah ... atau tidak | [kb-audit-1033] かくにんします(かくにんします) [inflected_verb, df:確認する] = memastikan (sopan)
+  OPT C: HTML=もうはつがはみでているのは ダメ
+    TRANS: Rambut yang keluar/menyembul dari penutup kepala tidak diperbolehkan
+    KOTOBA: [kb-audit-0087] もうはつ(もうはつ) [word] = rambut kepala (毛髪) | [kb-latsol-hamideteiru] はみでている(はみでている) [inflected_verb, df:はみ出る] = keluar / menonjol (rambut) | [kb-latsol-dame] ダメ(だめ) [word] = tidak boleh / dilarang
+  OPT D: HTML=ヘアーネットをかぶります
+    TRANS: Mengenakan jaring rambut (hairnet)
+    KOTOBA: [kb-otaff51-0075] ヘアーネット(へあーねっと) [noun] = jaring rambut (hairnet) | [kb-latsol-kaburimasu] かぶります(かぶります) [inflected_verb, df:かぶる] = memakai di kepala (被る)
+
+=== #Q4 | ID=tambahan02-q004 | KEY=B (idx=1) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.3 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("しょうどくを すりこみ しょどくする") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手洗<rt>てあら</rt></ruby>いについて、<ruby>手<rt>て</rt></ruby>を つかいすて ペーパー や エアータオルで ふき<ruby>取<rt>と</rt></ruby>ったら なにを しなければなりませんか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai cuci tangan, setelah mengelap/mengeringkan tangan dengan tisu sekali pakai atau pengering udara (air towel), apa yang harus dilakukan?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 3, nomor 4. Bobot: 5.0 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-latsol-f6cfac75b1] つかいすて(つかいすて) [word] = sekali pakai (disposable) | [kb-latsol-40f9f7b926] ペーパー(ぺーぱー) [word] = kertas / tisu pengering tangan | [kb-latsol-dae60ecfa4] エアータオル(えあーたおる) [word] = pengering tangan udara (air towel) | [kb-audit-0074] ふき取ったら(ふきとったら) [inflected_verb, df:拭き取る] = setelah mengelap hingga kering | [kb-v2-p2-256] なに(-) [word] = apa | [kb-audit-0376] しなければなりません(しなければなりません) [word] = harus / wajib dilakukan | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=せんざいを すりこみ しょどくする
+    TRANS: Menggosokkan deterjen lalu mendisinfeksi
+    KOTOBA: [kb-audit-0107] せんざい(せんざい) [word] = deterjen / bahan pembersih (洗剤) | [kb-latsol-surikomi] すりこみ(すりこみ) [word] = menggosokkan ke tangan (擦り込み) | [kb-latsol-shodoku] しょどく(しょどく) [word] = disinfeksi / sterilisasi (消毒)
+  OPT B: HTML=しょうどくを すりこみ しょどくする
+    TRANS: Menggosokkan cairan disinfektan (alkohol) untuk mendisinfeksi tangan
+    KOTOBA: [kb-latsol-shoudoku] しょうどく(しょうどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-latsol-surikomi] すりこみ(すりこみ) [word] = menggosokkan ke tangan (擦り込み) | [kb-latsol-shodoku] しょどく(しょどく) [word] = disinfeksi / sterilisasi (消毒)
+  OPT C: HTML=<ruby>水<rt>みず</rt></ruby>で <ruby>洗<rt>あら</rt></ruby>い ながす
+    TRANS: Membilas dengan air mengalir
+    KOTOBA: [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0744] 洗い(あらい) [inflected_verb, df:洗う] = mencuci
+  OPT D: HTML=<ruby>水<rt>みず</rt></ruby>でよごれを<ruby>十分<rt>じゅうぶん</rt></ruby>におとす
+    TRANS: Menghilangkan kotoran dengan air secukupnya
+    KOTOBA: [kb-otaff51-0369] 水(みず) [noun] = air | [kb-audit-0229] よごれ(よごれ) [word] = kotoran / noda (汚れ) | [kb-latsol-85c4fd8b40] 十分に(じゅうぶんに) [word] = cukup / memadai | [kb-audit-0425] おとす(おとす) [word] = menjatuhkan / menghilangkan (落とす)

@@ -1,0 +1,85 @@
+# AUDIT SHEET: latsol-nguyen-03 (Latsol Nguyen 03) | Batch qa-batch-07 | Part 10 (Q37-40 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=nguyen03-q037 | KEY=A (idx=0) | CAT= | SRC=3.pdf p.7 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 転ぶ危険 || [KANJI_WITHOUT_RUBY@opt:A] 標識 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [KANJI_WITHOUT_RUBY@opt:C] 標識
+  CLUSTER CL-0258 (n=3, diffPrompt=false, diffOpt=false, diffTrans=false): twins=nguyen09-q038 (latsol-nguyen-09), nguyen10-q038 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("[標識A] 開口部注意（DANGER; OPENING）") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>転<rt>ころ</rt></ruby>ぶ<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan bahaya terjatuh/terpeleset (転ぶ危険)? Pilihlah satu yang salah (yang bukan rambu bahaya terpeleset/tersandung).
+  EXPLANATION: Sumber: 3.pdf, halaman 7, nomor 37. Bobot: 3.75 poin. Kunci jawaban: A. Visual: 3 rambu keselamatan pada opsi A, B, dan C.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p5-289] 転ぶ(ころぶ) [word] = terjatuh / terpeleset | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] <ruby>開口部注意<rt>かいこうぶちゅうい</rt></ruby>（DANGER; OPENING）
+    TRANS: Rambu "Awas Lubang Terbuka / Danger; Opening".
+    MEDIA: media-nguyen03-q037-option-a
+    KOTOBA: [kb-otaff51-0621] 開口部注意(かいこうぶちゅうい) [compound_technical] = awas lubang bukaan lantai
+  OPT B: HTML=[標識B] <ruby>足元<rt>あしもと</rt></ruby>が<ruby>滑<rt>すべ</rt></ruby>りやすいです ご<ruby>注意<rt>ちゅうい</rt></ruby>ください / <ruby>足元注意<rt>あしもとちゅうい</rt></ruby>
+    TRANS: Rambu "Lantai Licin Harap Hati-hati / Perhatikan Langkah Kaki".
+    MEDIA: media-nguyen03-q037-option-b
+    KOTOBA: [kb-latsol-e9855bc85f] 足元が滑りやすいです(あしもとがすべりやすいです) [word] = pijakan kaki licin / mudah terpeleset | [kb-latsol-81296b0ebc] ご注意(ごちゅうい) [word] = perhatian / kewaspadaan | [kb-otaff51-0585] 足元注意(あしもとちゅうい) [compound_technical] = awas langkah / lantai licin
+  OPT C: HTML=[標識C] <ruby>足元注意<rt>あしもとちゅうい</rt></ruby>（WATCH YOUR STEP）
+    TRANS: Rambu "Perhatikan Langkah Kaki / Watch Your Step".
+    MEDIA: media-nguyen03-q037-option-c
+    KOTOBA: [kb-otaff51-0585] 足元注意(あしもとちゅうい) [compound_technical] = awas langkah / lantai licin
+
+=== #Q38 | ID=nguyen03-q038 | KEY=B (idx=1) | CAT= | SRC=3.pdf p.8 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("機械に巻き込まれる危険を知らせる。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>下記<rt>かき</rt></ruby>の<ruby>標識<rt>ひょうしき</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, apa arti dari rambu di bawah ini? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 3.pdf, halaman 8, nomor 38. Bobot: 3.75 poin. Kunci jawaban: B. Visual: Rambu 運転中 手を入れるな (muncul di bawah hal. 7 dan utuh di atas hal. 8).
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-1184690] 下記(かき) [word] = berikut ini | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-audit-0404] どういう(どういう) [word] = bagaimana / seperti apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>感電<rt>かんでん</rt></ruby>する<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memberitahukan bahaya tersengat listrik.
+    KOTOBA: [kb-otaff51-0306] 感電(かんでん) [noun] = tersengat listrik | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu
+  OPT B: HTML=<ruby>機械<rt>きかい</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれる<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memberitahukan bahaya terlilit/tertarik ke dalam mesin.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-u1416-75db11d73b] 巻き込まれる(まきこまれる) [word] = terlilit / tertarik masuk ke mesin | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu
+  OPT C: HTML=はさまれる<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memberitahukan bahaya terjepit.
+    KOTOBA: [kb-otaff51-0773] はさまれる(はさまれる) [verb] = terjepit | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu
+
+=== #Q39 | ID=nguyen03-q039 | KEY=A (idx=0) | CAT= | SRC=3.pdf p.8 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 標識 || [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: 切断注意 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [KANJI_WITHOUT_RUBY@opt:C] 標識, 歯車, 巻, 込
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("[標識A] 切断注意") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>機械<rt>きかい</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれる<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan bahaya terlilit/tertarik ke dalam mesin? Pilihlah satu yang salah (yang bukan rambu bahaya terlilit mesin).
+  EXPLANATION: Sumber: 3.pdf, halaman 8, nomor 39. Bobot: 3.75 poin. Kunci jawaban: A. Visual: 3 rambu keselamatan pada opsi A, B, dan C (tampil di hal. 8 dan diulang di hal. 9).
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-u1416-75db11d73b] 巻き込まれる(まきこまれる) [word] = terlilit / tertarik masuk ke mesin | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] <ruby>切断注意<rt>せつだんちゅうい</rt></ruby>
+    TRANS: Rambu "Awas Terpotong (切断注意)".
+    MEDIA: media-nguyen03-q039-option-a
+    KOTOBA: [kb-otaff51-0183] 切断注意(せつだんちゅうい) [compound_technical] = awas bahaya terpotong
+  OPT B: HTML=[標識B] <ruby>回転物<rt>かいてんぶつ</rt></ruby>に<ruby>手<rt>て</rt></ruby>を<ruby>出<rt>だ</rt></ruby>すな（KEEP AWAY FROM ROTARY OBJECT）
+    TRANS: Rambu "Jangan Dekatkan Tangan ke Benda Berputar".
+    MEDIA: media-nguyen03-q039-option-b
+    KOTOBA: [kb-latsol-1e562fd34b] 回転物に手を出すな(かいてんぶつにてをだすな) [word] = jangan menjulurkan tangan ke benda yan
+  OPT C: HTML=[標識C] ギア<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ<ruby>注意<rt>ちゅうい</rt></ruby>（歯車に巻き込まれるピクトグラム）
+    TRANS: Rambu peringatan bahaya terlilit roda gigi mesin.
+    MEDIA: media-nguyen03-q039-option-c
+    KOTOBA: [kb-latsol-gear-makikomare] ギア巻き込まれ注意(ぎあまきこまれちゅうい) [compound_technical] = awas terlilit roda gigi mesin | [kb-latsol-haguruma] 歯車(はぐるま) [word] = roda gigi mesin (gear) | [kb-u1416-75db11d73b] 巻き込まれる(まきこまれる) [word] = terlilit / tertarik masuk ke mesin | [kb-latsol-pictogram] ピクトグラム(ぴくとぐらむ) [word] = piktogram / simbol gambar
+
+=== #Q40 | ID=nguyen03-q040 | KEY=B (idx=1) | CAT= | SRC=3.pdf p.9 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="濃度10%のNaClO溶液があります。100 ppmのNaClO溶液から2Lを作るのに、溶液と水はどれぐらいの量が必要ですか。正しいものを一" vs questionText="濃度10%のNaClO溶液があります。100ppmのNaClO溶液から2Lを作るのに、溶液と水はどれぐらいの量が必要ですか。正しいものを一つ" || [JP_NACLO_DIGIT@prompt] Suspicious NaClO OCR spelling
+  CLUSTER CL-0091 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q040 (ssw-pm-kunci-ujian-3), kunci-ujian-15-q033 (ssw-pm-kunci-ujian-15)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: 3.pdf, halaman 9, nomor 40. Bobot: 3.75 poin. Kunci jawaban: B. Perhitungan: (2000 ml × 0,01%) / 10% = 2 ml larutan induk + 1998 ml air = 2000 ml.), hasil yang tepat adalah Opsi B ("溶液2ml、水1998ml").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>濃度<rt>のうど</rt></ruby>10%のNaClO<ruby>溶液<rt>ようえき</rt></ruby>があります。100 ppmのNaClO<ruby>溶液<rt>ようえき</rt></ruby>から2Lを<ruby>作<rt>つく</rt></ruby>るのに、<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はどれぐらいの<ruby>量<rt>りょう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。(100ppm=0.01%)
+  QUESTION_TEXT: 濃度10%のNaClO溶液があります。100ppmのNaClO溶液から2Lを作るのに、溶液と水はどれぐらいの量が必要ですか。正しいものを一つ選びなさい。(100ppm=0.01%)
+  PROMPT_TRANS: Tersedia larutan NaClO (natrium hipoklorit) dengan konsentrasi 10%. Untuk membuat 2 L larutan NaClO berkonsentrasi 100 ppm, berapa banyak jumlah larutan pekat dan air yang diperlukan? Pilihlah satu yang benar. (100 ppm = 0,01%)
+  EXPLANATION: Sumber: 3.pdf, halaman 9, nomor 40. Bobot: 3.75 poin. Kunci jawaban: B. Perhitungan: (2000 ml × 0,01%) / 10% = 2 ml larutan induk + 1998 ml air = 2000 ml.
+  KOTOBA_PROMPT: [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-audit-0186] %(-) [technical] = persen (satuan persentase %) | [kb-v2-p1-019] NaClO(-) [abbreviation] = natrium hipoklorit | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p2-254] どれぐらい(-) [word] = seberapa banyak | [kb-v2-p1-085] 量(りょう) [word] = jumlah / takaran | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1996ml
+    TRANS: Larutan 4 ml, air 1996 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT B: HTML=<ruby>溶液<rt>ようえき</rt></ruby>2ml、<ruby>水<rt>みず</rt></ruby>1998ml
+    TRANS: Larutan 2 ml, air 1998 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT C: HTML=<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>2000ml
+    TRANS: Larutan 4 ml, air 2000 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air

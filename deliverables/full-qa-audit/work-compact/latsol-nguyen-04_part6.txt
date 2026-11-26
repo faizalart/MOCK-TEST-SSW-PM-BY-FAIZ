@@ -1,0 +1,81 @@
+# AUDIT SHEET: latsol-nguyen-04 (Latsol Nguyen 04) | Batch qa-batch-07 | Part 6 (Q21-24 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=nguyen04-q021 | KEY=B (idx=1) | CAT= | SRC=4.pdf p.4 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 異物混入
+  CLUSTER CL-0098 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-4-q021 (ssw-pm-kunci-ujian-4), bonus-soal-4-q021 (bonus-soal-4), bonus-soal-7-q022 (bonus-soal-7), nguyen07-q022 (latsol-nguyen-07)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("髪の毛と虫") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>で<ruby>特<rt>とく</rt></ruby>に<ruby>多<rt>おお</rt></ruby>いものは<ruby>何<rt>なん</rt></ruby>でしょうか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Benda apakah yang paling banyak ditemukan dalam kasus kontaminasi benda asing (異物混入)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 4.pdf, halaman 4, nomor 21. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0451] 異物混入(いぶつこんにゅう) [compound_technical] = kontaminasi / masuknya benda asing | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>金属<rt>きんぞく</rt></ruby>やガラス
+    TRANS: Logam dan kaca
+    KOTOBA: [kb-1243040] 金属(きんぞく) [word] = logam | [kb-v2-p1-057] ガラス(-) [word] = kaca
+  OPT B: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>と<ruby>虫<rt>むし</rt></ruby>
+    TRANS: Helai rambut dan serangga
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p4-111] 虫(むし) [word] = serangga / hama
+  OPT C: HTML=プラスティック
+    TRANS: Plastik
+    KOTOBA: [kb-v2-p5-096] プラスティック(-) [word] = plastik
+
+=== #Q22 | ID=nguyen04-q022 | KEY=C (idx=2) | CAT= | SRC=4.pdf p.4 ===
+  CLUSTER CL-0198 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q022 (bonus-soal-4), bonus-soal-7-q023 (bonus-soal-7), nguyen07-q023 (latsol-nguyen-07)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("整理・整頓・清掃・清潔・習慣") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5S<ruby>活動<rt>かつどう</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang benar mengenai kegiatan 5S.
+  EXPLANATION: Sumber: 4.pdf, halaman 4, nomor 22. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>整理<rt>せいり</rt></ruby>・<ruby>整頓<rt>せいとん</rt></ruby>・<ruby>安全<rt>あんぜん</rt></ruby>・<ruby>準備<rt>じゅんび</rt></ruby>・<ruby>清潔<rt>せいけつ</rt></ruby>
+    TRANS: Seiri, Seiton, Anzen, Junbi, Seiketsu
+    KOTOBA: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1341670] 準備(じゅんび) [word] = persiapan | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu)
+  OPT B: HTML=<ruby>安心<rt>あんしん</rt></ruby>・<ruby>安全<rt>あんぜん</rt></ruby>・<ruby>清掃<rt>せいそう</rt></ruby>・<ruby>洗浄<rt>せんじょう</rt></ruby>・<ruby>確認<rt>かくにん</rt></ruby>
+    TRANS: Anshin, Anzen, Seisou, Senjou, Kakunin
+    KOTOBA: [kb-1153890] 安心(あんしん) [word] = rasa aman / ketenangan | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-otaff51-0471] 確認(かくにん) [noun] = pemeriksaan / konfirmasi
+  OPT C: HTML=<ruby>整理<rt>せいり</rt></ruby>・<ruby>整頓<rt>せいとん</rt></ruby>・<ruby>清掃<rt>せいそう</rt></ruby>・<ruby>清潔<rt>せいけつ</rt></ruby>・<ruby>習慣<rt>しゅうかん</rt></ruby>
+    TRANS: Seiri (Ringkas), Seiton (Rapi), Seisou (Resik), Seiketsu (Rawat), Shuukan (Rajin)
+    KOTOBA: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan)
+
+=== #Q23 | ID=nguyen04-q023 | KEY=A (idx=0) | CAT= | SRC=4.pdf p.5 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 整頓 || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-ext-1126-e68e83e999 "掃除": kotoba="そうじ" vs ruby="せいじょう"
+  CLUSTER CL-0099 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q023 (ssw-pm-kunci-ujian-4), bonus-soal-4-q023 (bonus-soal-4), bonus-soal-7-q024 (bonus-soal-7), nguyen07-q024 (latsol-nguyen-07)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("必要なものがすぐ取り出せるように、置き場所を決めておく") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>整頓<rt>せいとん</rt></ruby>の<ruby>正<rt>ただ</rt></ruby>しい<ruby>意味<rt>いみ</rt></ruby>はどれですか。<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah arti yang benar dari "Seiton (整頓 / Rapi)"? Pilihlah satu.
+  EXPLANATION: Sumber: 4.pdf, halaman 5, nomor 23. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>必要<rt>ひつよう</rt></ruby>なものがすぐ<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>せるように、<ruby>置<rt>お</rt></ruby>き<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めておく
+    TRANS: Menentukan tempat penyimpanan agar barang yang diperlukan dapat segera diambil
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-282] すぐ(-) [word] = segera | [kb-v2-p3-315] 取り出せる(とりだせる) [inflected, df:取り出す] = dapat mengambil keluar | [kb-v2-p1-023] 置き場所(おきばしょ) [word] = tempat penyimpanan | [kb-v2-p1-177] 決めて(きめて) [inflected_verb, df:決める] = menetapkan (dasar: 決める)
+  OPT B: HTML=<ruby>作業場<rt>さぎょうば</rt></ruby>とその<ruby>周辺<rt>しゅうへん</rt></ruby>をいつもきれいに<ruby>掃除<rt>せいじょう</rt></ruby>する
+    TRANS: Selalu membersihkan tempat kerja dan area sekitarnya dengan bersih
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1331300] 周辺(しゅうへん) [word] = Area sekitar mesin produksi | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan
+  OPT C: HTML=<ruby>必要<rt>ひつよう</rt></ruby>なものを<ruby>保管<rt>ほかん</rt></ruby>し、<ruby>不要<rt>ふよう</rt></ruby>なものは<ruby>捨<rt>す</rt></ruby>てる
+    TRANS: Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p2-030] 保管し(ほかんし) [inflected, df:保管する] = menyimpan | [kb-latsol-90a80dc9bf] 不要な(ふような) [word] = tidak diperlukan | [kb-v2-p1-174] 捨てる(すてる) [word] = membuang
+
+=== #Q24 | ID=nguyen04-q024 | KEY=B (idx=1) | CAT= | SRC=4.pdf p.5 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 落ちる災害, 墜落, 転落 || [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 脚立
+  CLUSTER CL-0199 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q024 (bonus-soal-4), bonus-soal-7-q025 (bonus-soal-7), nguyen07-q025 (latsol-nguyen-07)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("階段をおりているとき、はしごや脚立を使って高いところで作業している") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>落<rt>お</rt></ruby>ちる<ruby>災害<rt>さいがい</rt></ruby>が<ruby>起<rt>お</rt></ruby>こる<ruby>理由<rt>りゆう</rt></ruby>はなんですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa alasan terjadinya kecelakaan jatuh dari ketinggian (落ちる災害 / 墜落・転落) di pabrik pengolahan makanan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 4.pdf, halaman 5, nomor 24. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-v2-p1-153] 落ちる(おちる) [word] = jatuh / menurun | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-v2-p3-244] 起こる(おこる) [word] = terjadi | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=オーブンの<ruby>機械<rt>きかい</rt></ruby>、<ruby>熱<rt>あつ</rt></ruby>い<ruby>湯<rt>ゆ</rt></ruby>などを<ruby>使<rt>つか</rt></ruby>っている
+    TRANS: Menggunakan mesin oven, air panas, dan sejenisnya
+    KOTOBA: [kb-v2-p4-084] オーブン(-) [word] = oven pemanggang | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p2-227] 熱い(あつい) [word] = panas | [kb-v2-p4-114] 湯(ゆ) [word] = air panas | [kb-latsol-c0f98c749e] 使っている(つかっている) [word] = menggunakan / memakai
+  OPT B: HTML=<ruby>階段<rt>かいだん</rt></ruby>をおりているとき、はしごや<ruby>脚立<rt>きゃたつ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>高<rt>たか</rt></ruby>いところで<ruby>作業<rt>さぎょう</rt></ruby>している
+    TRANS: Saat menuruni tangga, atau bekerja di tempat tinggi menggunakan tangga sandar atau tangga lipat (脚立)
+    KOTOBA: [kb-otaff51-0629] 階段(かいだん) [noun] = tangga | [kb-audit-0690] おりて(おりて) [inflected_verb, df:降りる] = turun (bentuk -te) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-audit-0663] はしご(はしご) [word] = tangga lipat / tangga | [kb-otaff51-0517] 脚立(きゃたつ) [noun] = tangga lipat (stepladder) | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-255] 高い(たかい) [word] = tinggi | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する)
+  OPT C: HTML=<ruby>重<rt>おも</rt></ruby>いものを<ruby>持<rt>も</rt></ruby>ちあげたり、<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>して<ruby>重<rt>おも</rt></ruby>いものを<ruby>運<rt>はこ</rt></ruby>ぶ
+    TRANS: Mengangkat barang berat atau mengangkut barang berat secara berulang-ulang
+    KOTOBA: [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-audit-0581] 持ちあげたり(もちあげたり) [inflected_verb, df:持ち上げる] = mengangkat, dan lain-lain | [kb-latsol-b09dc99a8c] 繰り返して(くりかえして) [word] = berulang kali | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa

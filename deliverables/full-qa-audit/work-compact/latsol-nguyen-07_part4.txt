@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-07 (Latsol Nguyen 07) | Batch qa-batch-08 | Part 4 (Q13-16 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=nguyen07-q013 | KEY=B (idx=1) | CAT= | SRC=7.pdf p.4 ===
+  CLUSTER CL-0178 (n=8, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q001 (bonus-soal-2), bonus-soal-4-q013 (bonus-soal-4), bonus-soal-7-q013 (bonus-soal-7), bonus-soal-8-q001 (bonus-soal-8), nguyen02-q001 (latsol-nguyen-02), nguyen04-q013 (latsol-nguyen-04), nguyen08-q001 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("施設、設備、器具などの衛生管理。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>は3つに<ruby>分<rt>わ</rt></ruby>けます。<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>と<ruby>原材料<rt>げんざいりょう</rt></ruby>、<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>ともう<ruby>一<rt>ひと</rt></ruby>つ<ruby>物<rt>もの</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manajemen higiene umum dibagi menjadi 3. Selain manajemen higiene pekerja serta manajemen higiene bahan baku dan produk pangan, manakah satu bagian lainnya?
+  EXPLANATION: Sumber: 7.pdf, halaman 4, nomor 13. Bobot: 3.85 poin. Kunci jawaban: B. Nomor asli PDF: Câu 13 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-audit-0164] 分けます(わけます) [inflected_verb, df:分ける] = membagi / memisahkan | [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=<ruby>環境管理<rt>かんきょうかんり</rt></ruby>。
+    TRANS: Manajemen lingkungan.
+    KOTOBA: [kb-ext-0288-e792b0e5a2] 環境管理(かんきょうかんり) [word] = manajemen sanitasi lingkungan
+  OPT B: HTML=<ruby>施設<rt>しせつ</rt></ruby>、<ruby>設備<rt>せつび</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>などの<ruby>衛生管理<rt>えいせいかんり</rt></ruby>。
+    TRANS: Manajemen kebersihan fasilitas, peralatan, perkakas, dan sebagainya.
+    KOTOBA: [kb-otaff51-0335] 施設(しせつ) [noun] = fasilitas bangunan | [kb-otaff51-0570] 設備(せつび) [noun] = fasilitas / instalasi peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene
+  OPT C: HTML=<ruby>服作業管理<rt>ふくさぎょうかんり</rt></ruby>。
+    TRANS: Manajemen pakaian kerja.
+    KOTOBA: [kb-ext-latsol-0005] 服作業管理(ふくさぎょうかんり) [word] = manajemen pakaian kerja
+
+=== #Q14 | ID=nguyen07-q014 | KEY=B (idx=1) | CAT= | SRC=7.pdf p.4 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: カビ
+  CLUSTER CL-0095 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q014 (ssw-pm-kunci-ujian-4), bonus-soal-4-q014 (bonus-soal-4), bonus-soal-7-q014 (bonus-soal-7), nguyen04-q014 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("豆、穀類、野菜、果物などはカビに汚染されやすいので保存には気を付ける") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カビについて<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang benar mengenai kapang/jamur (カビ).
+  EXPLANATION: Sumber: 7.pdf, halaman 4, nomor 14. Bobot: 3.85 poin. Kunci jawaban: B. Nomor asli PDF: Câu 14 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=カビには<ruby>毒<rt>どく</rt></ruby>がないのでほおっておいて
+    TRANS: Karena kapang tidak memiliki racun, biarkan saja
+    KOTOBA: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-latsol-eef36d7975] 毒がない(どくがない) [word] = tidak beracun / aman | [kb-v2-p5-284] ほおっておいて(-) [expression] = dibiarkan begitu saja
+  OPT B: HTML=<ruby>豆<rt>まめ</rt></ruby>、<ruby>穀類<rt>こくるい</rt></ruby>、<ruby>野菜<rt>やさい</rt></ruby>、<ruby>果物<rt>くだもの</rt></ruby>などはカビに<ruby>汚染<rt>おせん</rt></ruby>されやすいので<ruby>保存<rt>ほぞん</rt></ruby>には<ruby>気<rt>き</rt></ruby>を<ruby>付<rt>つ</rt></ruby>ける
+    TRANS: Karena kacang-kacangan, biji-bijian, sayuran, dan buah-buahan mudah terkontaminasi kapang, berhati-hatilah dalam penyimpanannya
+    KOTOBA: [kb-v2-p1-073] 豆(まめ) [word] = kacang-kacangan | [kb-1287310] 穀類(こくるい) [word] = serealia / biji-bijian | [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-otaff51-0344] 果物(くだもの) [noun] = buah-buahan | [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-otaff51-0377] 汚染(おせん) [noun] = kontaminasi / pencemaran | [kb-otaff51-0829] やすい(やすい) [adjective] = mudah untuk ... | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p5-365] 気を付ける(きをつける) [expression] = berhati-hati / waspada
+  OPT C: HTML=カビの<ruby>増殖<rt>ぞうしょく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、<ruby>食品<rt>しょくひん</rt></ruby>はできるだけ<ruby>高温<rt>こうおん</rt></ruby>で<ruby>保存<rt>ほぞん</rt></ruby>する
+    TRANS: Untuk mencegah berkembang biaknya kapang, simpan makanan pada suhu setinggi mungkin
+    KOTOBA: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-otaff51-0675] 高温(こうおん) [noun] = suhu tinggi | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan
+
+=== #Q15 | ID=nguyen07-q015 | KEY=C (idx=2) | CAT= | SRC=7.pdf p.4 ===
+  CLUSTER CL-0195 (n=5, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-4-q015 (bonus-soal-4), bonus-soal-7-q015 (bonus-soal-7), bonus-soal-10-q029 (bonus-soal-10), nguyen04-q015 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("職場の責任者に報告をして、指示に従う") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手<rt>て</rt></ruby>などケガをしている<ruby>場合<rt>ばあい</rt></ruby>は、どうすればよいでしょうか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apabila mengalami luka pada tangan atau bagian lainnya, apa yang sebaiknya dilakukan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 7.pdf, halaman 4, nomor 15. Bobot: 3.85 poin. Kunci jawaban: C. Nomor asli PDF: Câu 15 (Halaman 4).
+  KOTOBA_PROMPT: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p1-273] どうすれば(-) [expression] = bagaimana sebaiknya | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>自分<rt>じぶん</rt></ruby>で<ruby>処置<rt>しょち</rt></ruby>をすればよい
+    TRANS: Cukup mengobatinya sendiri saja
+    KOTOBA: [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-1342470] 処置(しょち) [word] = tindakan penanganan | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-v2-p2-243] よい(-) [word] = baik / boleh
+  OPT B: HTML=すぐに<ruby>治<rt>なお</rt></ruby>ってしまうのでなにもしない
+    TRANS: Tidak melakukan apa-apa karena akan cepat sembuh
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p5-285] 治ってしまう(なおってしまう) [expression] = sembuh dengan sendirinya | [kb-v2-p2-256] なに(-) [word] = apa | [kb-otaff51-0756] もし(もし) [adverb] = jika / seandainya
+  OPT C: HTML=<ruby>職場<rt>しょくば</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>をして、<ruby>指示<rt>しじ</rt></ruby>に<ruby>従<rt>したが</rt></ruby>う
+    TRANS: Melaporkan kepada penanggung jawab di tempat kerja dan mengikuti instruksinya
+    KOTOBA: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p2-009] 従う(したがう) [word] = mematuhi / mengikuti
+
+=== #Q16 | ID=nguyen07-q016 | KEY=B (idx=1) | CAT= | SRC=7.pdf p.5 ===
+  CLUSTER CL-0015 (n=6, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci1-q016 (ssw-pm-kunci-ujian-1), bonus-soal-1-q016 (bonus-soal-1), bonus-soal-7-q016 (bonus-soal-7), nguyen01-q016 (latsol-nguyen-01), nguyen10-q017 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("くるみ") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>容器包装<rt>ようきほうそう</rt></ruby>された<ruby>加工食品<rt>かこうしょくひん</rt></ruby>で<ruby>表示<rt>ひょうじ</rt></ruby>しなければならないアレルギー<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah makanan pemicu alergi yang wajib dicantumkan pada makanan olahan yang dikemas dalam wadah? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 7.pdf, halaman 5, nomor 16. Bobot: 3.85 poin. Kunci jawaban: B. Nomor asli PDF: Câu 16 (Halaman 5).
+  KOTOBA_PROMPT: [kb-ext-1731-e5aeb9e599] 容器包装(ようきほうそう) [compound_technical] = wadah dan kemasan | [kb-otaff51-0189] 加工食品(かこうしょくひん) [compound_technical] = makanan olahan | [kb-audit-0961] 表示しなければ(ひょうじしなければ) [expression] = harus menampilkan (条件) | [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>砂糖<rt>さとう</rt></ruby>
+    TRANS: Gula
+    KOTOBA: [kb-otaff51-0469] 砂糖(さとう) [noun] = gula
+  OPT B: HTML=くるみ
+    TRANS: Kenari (walnut)
+    KOTOBA: [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)
+  OPT C: HTML=とうもろこし
+    TRANS: Jagung
+    KOTOBA: [kb-v2-p1-037] とうもろこし(-) [word] = jagung

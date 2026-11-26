@@ -1,0 +1,79 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-15 (Soal Ujian 15) | Batch qa-batch-03 | Part 9 (Q33-36 of 38)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q33 | ID=kunci-ujian-15-q033 | KEY=B (idx=1) | CAT=計算・配合・濃度（Perhitungan, Komposisi & Nilai Gizi） | SRC=Soal Ujian 15.pdf p.9 ===
+  FLAGS: [JP_NACLO_DIGIT@prompt] Suspicious NaClO OCR spelling
+  CLUSTER CL-0091 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q040 (ssw-pm-kunci-ujian-3), nguyen03-q040 (latsol-nguyen-03)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>濃度<rt>のうど</rt></ruby>10％のNaClO<ruby>溶液<rt>ようえき</rt></ruby>があります。200ppmのNaClO<ruby>溶液<rt>ようえき</rt></ruby>から1Lを<ruby>作<rt>つく</rt></ruby>るのに、<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はどれぐらいの<ruby>量<rt>りょう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Tersedia larutan NaClO (natrium hipoklorit) dengan konsentrasi 10%. Untuk membuat 1 L larutan NaClO 200 ppm, berapa banyak larutan induk dan air yang diperlukan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 9, nomor 33 (Q33). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: Perhitungan pengenceran: 200 ppm = 0,02%. Volume larutan NaClO 10% yang dibutuhkan untuk 1 L (1.000 ml) = (1.000 ml × 0,02%) / 10% = 2 ml. Volume air = 1.000 ml - 2 ml = 998 ml (B).
+  INLINE_KOTOBA_COUNT: 14
+  KOTOBA_PROMPT: [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-v2-p6-161] ％(-) [technical] = persen (%) | [kb-v2-p1-019] NaClO(-) [abbreviation] = natrium hipoklorit | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p2-254] どれぐらい(-) [word] = seberapa banyak | [kb-v2-p1-085] 量(りょう) [word] = jumlah / takaran | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>996ml
+    TRANS: Larutan 4 ml, air 996 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT B: HTML=<ruby>溶液<rt>ようえき</rt></ruby>2ml、<ruby>水<rt>みず</rt></ruby>998ml
+    TRANS: Larutan 2 ml, air 998 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT C: HTML=<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1000ml
+    TRANS: Larutan 4 ml, air 1000 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+
+=== #Q34 | ID=kunci-ujian-15-q034 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.9 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Terdapat foto poster/pengumuman tempel yang terkena air dan menjadi basah sehing"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>浸水<rt>しんすい</rt></ruby>され、<ruby>濡<rt>ぬ</rt></ruby>れていて<ruby>見<rt>み</rt></ruby>にくくなった<ruby>掲示物<rt>けいじぶつ</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>があります。<ruby>掲示物<rt>けいじぶつ</rt></ruby>が<ruby>濡<rt>ぬ</rt></ruby>れていて<ruby>見<rt>み</rt></ruby>にくくなることを<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしますか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Terdapat foto poster/pengumuman tempel yang terkena air dan menjadi basah sehingga sulit dibaca. Untuk mencegah agar pengumuman tempel tidak basah dan sulit dibaca, apa yang harus dilakukan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 9, nomor 34 (Q34). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: Poster/dokumen di area basah dilaminasi atau dimasukkan ke plastik pelindung transparan (透明パウチ) agar tahan air dan tidak hancur mencemari produk.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-v2-p2-111] 浸水され(しんすいされ) [inflected, df:浸水する] = terendam air | [kb-audit-1091] 濡れていて(ぬれていて) [inflected_verb, df:濡れる] = dalam keadaan basah (濡れる) | [kb-v2-p6-567] 見にくく(みにくく) [inflected, df:見にくい] = sulit terlihat | [kb-ext-0431-e68eb2e7a4] 掲示物(けいじぶつ) [word] = papan pengumuman / poster | [kb-1321900] 写真(しゃしん) [word] = foto | [kb-v2-p2-114] 見にくくなる(みにくくなる) [expression] = menjadi sulit dilihat | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>高<rt>たか</rt></ruby>いところに<ruby>貼<rt>は</rt></ruby>る。
+    TRANS: Menempelkannya di tempat yang tinggi.
+    KOTOBA: [kb-v2-p1-255] 高い(たかい) [word] = tinggi | [kb-v2-p2-150] 貼る(はる) [word] = menempelkan
+  OPT B: HTML=<ruby>透明<rt>とうめい</rt></ruby>パウチに<ruby>入<rt>い</rt></ruby>れて<ruby>貼<rt>は</rt></ruby>る。
+    TRANS: Memasukkannya ke dalam kantong laminasi transparan (toumei pauchi) lalu menempelkannya.
+    KOTOBA: [kb-v2-p2-045] 透明パウチ(とうめいぱうち) [compound_technical] = kantong laminasi transparan | [kb-v2-p2-012] 入れて(いれて) [inflected, df:入れる] = memasukkan | [kb-v2-p2-150] 貼る(はる) [word] = menempelkan
+  OPT C: HTML=<ruby>紙<rt>かみ</rt></ruby>のものが<ruby>濡<rt>ぬ</rt></ruby>れることを<ruby>防<rt>ふせ</rt></ruby>ぐため<ruby>直接壁<rt>ちょくせつかべ</rt></ruby>などに<ruby>書<rt>か</rt></ruby>く。
+    TRANS: Menulis langsung di dinding untuk mencegah kertas menjadi basah.
+    KOTOBA: [kb-v2-p3-154] 紙(かみ) [word] = kertas | [kb-u1416-8de787a55b] 濡れる(ぬれる) [word] = basah | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-ext-1272-e79bb4e68e] 直接壁(ちょくせつかべ) [word] = langsung pada dinding | [kb-v2-p2-151] 書く(かく) [word] = menulis
+
+=== #Q35 | ID=kunci-ujian-15-q035 | KEY=C (idx=2) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 15.pdf p.9 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "(Terdapat ilustrasi pekerja sedang membersihkan mesin dengan kain lap. Karena me"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: （<ruby>作業員<rt>さぎょういん</rt></ruby>が<ruby>雑巾<rt>ぞうきん</rt></ruby>で<ruby>機械<rt>きかい</rt></ruby>を<ruby>清掃<rt>せいそう</rt></ruby>している<ruby>写真<rt>しゃしん</rt></ruby>があります。<ruby>機械<rt>きかい</rt></ruby>がまだ<ruby>動<rt>うご</rt></ruby>いているから、<ruby>手<rt>て</rt></ruby>が<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれそうとしました。）このような<ruby>災害<rt>さいがい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため、どうしますか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: (Terdapat ilustrasi pekerja sedang membersihkan mesin dengan kain lap. Karena mesin masih bergerak, tangannya hampir terlilit masuk.) Untuk mencegah kecelakaan seperti ini, apa yang harus dilakukan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 9, nomor 35 (Q35). Bobot: 3.95 poin. Kunci jawaban: C. Visual: Ilustrasi pekerja berseragam biru sedang mengelap konveyor yang masih berputar dengan kain lap hingga tangannya terjepit rol konveyor. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 70), saat membersihkan atau memeriksa mesin (konveyor), mesin wajib dihentikan terlebih dahulu (機械を止めてから清掃する).
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-1936030] 作業員(さぎょういん) [word] = pekerja / operator pabrik | [kb-1299370] 雑巾(ぞうきん) [word] = kain lap pembersih lantai | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-audit-1020] 清掃して(せいそうして) [inflected_verb, df:清掃する] = membersihkan (~て) | [kb-1321900] 写真(しゃしん) [word] = foto | [kb-v2-p6-592] まだ(-) [word] = masih | [kb-v2-p1-229] 動いている(うごいている) [inflected_verb, df:動く] = sedang bergerak (dasar: 動く) | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-audit-0069] 巻き込まれそう(まきこまれそう) [word] = hampir terlilit / terjepit mesin | [kb-audit-1166] しました(しました) [inflected_verb, df:する] = telah melakukan (する) | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>雑巾<rt>ぞうきん</rt></ruby>を<ruby>使<rt>つか</rt></ruby>わないで<ruby>清掃<rt>せいそう</rt></ruby>する。
+    TRANS: Membersihkan tanpa menggunakan kain lap.
+    KOTOBA: [kb-1299370] 雑巾(ぞうきん) [word] = kain lap pembersih lantai | [kb-v2-p2-211] 使わない(つかわない) [inflected, df:使う] = tidak menggunakan | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+  OPT B: HTML=<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>の<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>清掃<rt>せいそう</rt></ruby>する。
+    TRANS: Membersihkan sambil melihat pekerjaan orang di sekitar.
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-latsol-2c04f5f92b] 見な(みな) [word] = Melihat / inspeksi visual | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+  OPT C: HTML=<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めてから<ruby>清掃<rt>せいそう</rt></ruby>する。
+    TRANS: Menghentikan mesin terlebih dahulu sebelum membersihkannya.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-211] 止めて(とめて) [inflected_verb, df:止める] = menghentikan (dasar: 止める) | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+
+=== #Q36 | ID=kunci-ujian-15-q036 | KEY=A (idx=0) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 15.pdf p.10 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "(Terdapat ilustrasi pekerja yang hendak mengambil bahan makanan dari ruang pendi"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: （<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>から<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>取<rt>と</rt></ruby>ろうとしている<ruby>作業員<rt>さぎょういん</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>があります。<ruby>床<rt>ゆか</rt></ruby>に<ruby>霜<rt>しも</rt></ruby>があるので、すべって<ruby>転<rt>ころ</rt></ruby>んでしまいました。）このような<ruby>災害<rt>さいがい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため、どうしますか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: (Terdapat ilustrasi pekerja yang hendak mengambil bahan makanan dari ruang pendingin/freezer. Karena terdapat bunga es di lantai, ia terpeleset dan terjatuh.) Untuk mencegah kecelakaan seperti ini, apa yang harus dilakukan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 10, nomor 36 (Q36). Bobot: 3.95 poin. Kunci jawaban: A. Visual: Ilustrasi pekerja membawa tumpukan kardus di dalam ruang pembeku (freezer) lalu terpeleset jatuh karena lantai tertutup bunga es (霜) yang licin. Pembahasan: Sesuai buku teks SSW Bab 5 (hlm. 71), untuk mencegah terpeleset di lantai licin/beres, pekerja wajib mengenakan sepatu kerja yang tahan selip (滑りにくい靴／転びにくい靴を履く) dan berjalan dengan langkah kecil.
+  INLINE_KOTOBA_COUNT: 27
+  KOTOBA_PROMPT: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-audit-0195] 取ろう(とろう) [inflected_verb, df:取る] = hendak mengambil | [kb-1936030] 作業員(さぎょういん) [word] = pekerja / operator pabrik | [kb-1321900] 写真(しゃしん) [word] = foto | [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-1402930] 霜(しも) [standalone_term] = bunga es di freezer (harus dicairkan/defrost) | [kb-audit-0291] すべって(すべって) [inflected_verb, df:滑る] = terpeleset / tergelincir (滑って) | [kb-v2-p1-237] 転んで(ころんで) [inflected_verb, df:転ぶ] = terjatuh (dasar: 転ぶ) | [kb-audit-0717] しまいました(しまいました) [inflected_verb, df:しまう] = sudah terlanjur terjadi | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>転<rt>ころ</rt></ruby>びにくい<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>く。
+    TRANS: Memakai sepatu yang tidak mudah terpeleset (anti-selip).
+    KOTOBA: [kb-audit-0070] 転びにくい(ころびにくい) [word] = sulit terjatuh / tidak mudah licin | [kb-v2-p1-089] 靴(くつ) [word] = sepatu | [kb-v2-p2-215] 履く(はく) [word] = memakai (sepatu/celana)
+  OPT B: HTML=<ruby>霜<rt>しも</rt></ruby>の<ruby>濡<rt>ぬ</rt></ruby>れを<ruby>避<rt>さ</rt></ruby>けるため、<ruby>大股<rt>おおまた</rt></ruby>で<ruby>歩<rt>ある</rt></ruby>く。
+    TRANS: Berjalan dengan langkah lebar-lebar untuk menghindari basahan bunga es.
+    KOTOBA: [kb-1402930] 霜(しも) [standalone_term] = bunga es di freezer (harus dicairkan/defrost) | [kb-v2-p6-509] 濡れ(ぬれ) [word] = basah / genangan | [kb-v2-p1-222] 避ける(さける) [word] = menghindari | [kb-1633650] 大股(おおまた) [word] = langkah lebar | [kb-v2-p1-235] 歩く(あるく) [word] = berjalan
+  OPT C: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げて、<ruby>床<rt>ゆか</rt></ruby>の<ruby>濡<rt>ぬ</rt></ruby>れを<ruby>拭<rt>ふ</rt></ruby>いて<ruby>取<rt>と</rt></ruby>る。
+    TRANS: Menurunkan suhu kulkas lalu mengelap lantai yang basah.
+    KOTOBA: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-1191] 下げて(さげて) [inflected_verb, df:下げる] = menurunkan | [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-v2-p6-509] 濡れ(ぬれ) [word] = basah / genangan | [kb-v2-p5-393] 拭いて(ふいて) [inflected, df:拭く] = mengelap | [kb-v2-p1-233] 取る(とる) [word] = menghilangkan / mengambil

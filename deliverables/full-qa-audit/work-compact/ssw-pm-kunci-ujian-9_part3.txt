@@ -1,0 +1,75 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-9 (Soal Ujian 9 — CBTP Gino1) | Batch qa-batch-02 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=kunci-ujian-9-q009 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.2 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0301 (なずんじょう): "wajib dicuci terlebih dulu (typo text)" || [KANJI_WITHOUT_RUBY@opt:C] 洗浄
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうごにおこなうあとかたづけで、まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang salah mengenai kegiatan beberes (merapikan) setelah selesai bekerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 2, Câu 9 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-1158] さぎょうご(さぎょうご) [word] = setelah bekerja (作業後) | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-audit-0615] あとかたづけ(あとかたづけ) [word] = membereskan setelah selesai | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=さぎょうじょうのせいそうもきめられたとおりにおこない、いつもせいけつにします。
+    TRANS: Melakukan pembersihan area kerja sesuai ketentuan agar selalu terjaga kebersihannya.
+    KOTOBA: [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-v2-p6-325] せいそう(-) [word] = pembersihan (bacaan 清掃) | [kb-audit-0109] きめられた(きめられた) [inflected_verb, df:決める] = yang telah ditentukan (決められた) | [kb-v2-p2-031] とおり(-) [word] = sesuai / seperti | [kb-otaff51-0894] おこない(おこない) [inflected_verb, df:おこなう] = melakukan | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-latsol-ba01a8a7ea] せいけつ(せいけつ) [word] = Seiketsu (menjaga kebersihan 5S) | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=よごれたきかい、きぐはなずんじょうしてから、かたづけます。
+    TRANS: Mesin dan peralatan yang kotor selalu dicuci terlebih dahulu sebelum dibereskan.
+    KOTOBA: [kb-audit-0432] よごれた(よごれた) [inflected_verb, df:汚れる] = yang kotor / ternoda (汚れた) | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-audit-0301] なずんじょう(かならずせんじょう) [word] = wajib dicuci terlebih dulu (typo text) | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-audit-0616] かたづけます(かたづけます) [inflected_verb, df:片づける] = membereskan / merapikan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=よごれたさぎょうくつを洗浄してから、そのままかたづけます。
+    TRANS: Sepatu kerja yang kotor dicuci lalu langsung disimpan begitu saja.
+    KOTOBA: [kb-audit-0432] よごれた(よごれた) [inflected_verb, df:汚れる] = yang kotor / ternoda (汚れた) | [kb-audit-0220] さぎょう(さぎょう) [word] = pekerjaan / pengerjaan (作業) | [kb-audit-0198] くつ(くつ) [word] = sepatu / alas kaki (靴) | [kb-audit-0972] 洗浄して(せんじょうして) [inflected_verb, df:洗浄する] = mencuci bersih (~て) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-audit-0616] かたづけます(かたづけます) [inflected_verb, df:片づける] = membereskan / merapikan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q10 | ID=kunci-ujian-9-q010 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>清潔<rt>せいけつ</rt></ruby>」の<ruby>状態<rt>じょうたい</rt></ruby>を<ruby>保<rt>たも</rt></ruby>つためには<ruby>何<rt>なに</rt></ruby>をするべきですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan untuk menjaga kondisi "Rawat (Seiketsu / Penjagaan kebersihan)"?
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 2, Câu 10 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-otaff51-0435] 状態(じょうたい) [noun] = kondisi / keadaan | [kb-v2-p2-170] 保つ(たもつ) [word] = menjaga / mempertahankan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>に<ruby>問題<rt>もんだい</rt></ruby>がないことを<ruby>確認<rt>かくにん</rt></ruby>する
+    TRANS: Memastikan tidak ada masalah pada higiene pangan
+    KOTOBA: [kb-otaff51-0652] 食品衛生(しょくひんえいせい) [compound_technical] = higiene pangan / keamanan pangan | [kb-1536010] 問題(もんだい) [word] = soal / masalah | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>整理<rt>せいり</rt></ruby>すること
+    TRANS: Memilah peralatan
+    KOTOBA: [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>汚<rt>よご</rt></ruby>れを<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>くこと
+    TRANS: Menghilangkan kotoran
+    KOTOBA: [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0031] を取り除く(をとりのぞく) [expression] = menghilangkan / membuang | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+
+=== #Q11 | ID=kunci-ujian-9-q011 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.2 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-1099 (きんぞくけんき): "detektor logam (typo)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: きんぞくいがいのいぶついし、ガラスなどをみつけることができるきかいとして、ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai mesin yang dapat mendeteksi benda asing selain logam, seperti batu atau kaca.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 2, Câu 11 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0180] きんぞく(きんぞく) [word] = logam (penulisan hiragana dari 金属) | [kb-audit-1070] いがい(いがい) [word] = selain / kecuali (以外) | [kb-audit-0912] いぶつ(いぶつ) [word] = benda asing | [kb-audit-1072] いし(いし) [word] = batu (石) | [kb-v2-p1-057] ガラス(-) [word] = kaca | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-audit-1115] みつける(みつける) [inflected_verb, df:見つける] = menemukan (見つける) | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=きんぞくけんき
+    TRANS: Mesin detektor logam
+    KOTOBA: [kb-audit-1099] きんぞくけんき(きんぞくけんき) [technical] = detektor logam (typo)
+  OPT B: HTML=Xせんけんさき
+    TRANS: Mesin inspeksi sinar-X (X-ray)
+    KOTOBA: [kb-audit-0559] Xせん(えっくすせん) [word] = sinar-X (X-ray) | [kb-audit-0560] けんさき(けんさき) [word] = mesin pemeriksa / detektor
+  OPT C: HTML=ひづけけんさき
+    TRANS: Mesin pemeriksa tanggal
+    KOTOBA: [kb-audit-1150] ひづけ(ひづけ) [word] = tanggal (日付) | [kb-audit-0560] けんさき(けんさき) [word] = mesin pemeriksa / detektor
+
+=== #Q12 | ID=kunci-ujian-9-q012 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.2 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0552 (もっも): "paling (typo: もっとも)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0553 (はんてきに): "secara umum (typo: 一般的に)"
+  CLUSTER CL-0107 (n=2, diffPrompt=false, diffOpt=true, diffTrans=false): twins=kunci-ujian-5-q017 (ssw-pm-kunci-ujian-5)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: せいひんをほかんかんりについて、もっもよいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang paling tepat mengenai manajemen penyimpanan produk.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 2, Câu 12 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0359] せいひん(せいひん) [word] = produk jadi (製品) | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管) | [kb-audit-0623] かんり(かんり) [word] = pengelolaan / manajemen | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0552] もっも(もっとも) [adverb] = paling (typo: もっとも) | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=はんてきにれいとうこは－15℃いか、れいぞうこは10℃いかがきじゅんとなる。
+    TRANS: Secara umum, standar suhu freezer adalah -15°C atau lebih rendah, dan lemari pendingin (kulkas) adalah 10°C atau lebih rendah.
+    KOTOBA: [kb-audit-0553] はんてきに(いっぱんてきに) [adverb] = secara umum (typo: 一般的に) | [kb-audit-0246] れいとうこ(れいとうこ) [word] = lemari pembeku / freezer (冷凍庫) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下) | [kb-audit-0247] れいぞうこ(れいぞうこ) [word] = kulkas / lemari pendingin (冷蔵庫) | [kb-audit-0248] きじゅん(きじゅん) [word] = standar / patokan (基準) | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=ほかんよう<ruby>サンプル<rt>さんぷる</rt></ruby>をてきとうでちゅうしゅつしてほかんする
+    TRANS: Mengambil sampel penyimpanan secara asal-asalan lalu menyimpannya
+    KOTOBA: [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管) | [kb-v2-p1-305] よう(-) [particle] = agar / supaya | [kb-ext-0016-e382b5e383] サンプル(さんぷる) [word] = sampel / contoh uji | [kb-audit-1090] てきとう(てきとう) [word] = sembarangan / asal-asalan | [kb-audit-0705] ちゅうしゅつ(ちゅうしゅつ) [word] = pengambilan sampel / ekstraksi | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=せいひんのびせいぶつけんさこうもくはそれぞれのこうじょうをきまる。
+    TRANS: Item pengujian mikroorganisme pada produk ditetapkan secara bebas oleh masing-masing pabrik
+    KOTOBA: [kb-audit-0359] せいひん(せいひん) [word] = produk jadi (製品) | [kb-v2-p6-561] びせいぶつ(-) [technical] = mikroorganisme | [kb-audit-0419] けんさこうもく(けんさこうもく) [word] = item pemeriksaan (検査項目) | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-audit-0795] こうじょう(こうじょう) [word] = pabrik | [kb-v2-p6-305] きまる(-) [word] = ditentukan (bacaan 決まる) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

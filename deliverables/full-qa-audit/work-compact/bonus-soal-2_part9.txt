@@ -1,0 +1,82 @@
+# AUDIT SHEET: bonus-soal-2 (Bonus Soal 2) | Batch qa-batch-04 | Part 9 (Q33-36 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q33 | ID=bonus-soal-2-q033 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 2.pdf p.1 ===
+  CLUSTER CL-0064 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q033 (ssw-pm-kunci-ujian-2), bonus-soal-8-q032 (bonus-soal-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>表<rt>ひょう</rt></ruby>はソーセージ1セット(6<ruby>本<rt>ほん</rt></ruby>)の<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby>6㎏からどれだけ<br>のソーセージを<ruby>作<rt>つく</rt></ruby>れるか？
+  QUESTION_TEXT: 表はソーセージ1セット(6本)の配合例です。この配合に従うと豚ひき肉6㎏からどれだけ
+のソーセージを作れるか？
+  PROMPT_TRANS: Tabel berikut adalah contoh komposisi untuk 1 set sosis (6 buah). Berdasarkan komposisi ini, berapa buah sosis yang dapat dibuat dari 6 kg daging babi giling?
+  EXPLANATION: Sumber: Bonus Soal 2.pdf (Soal 33 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-v2-p2-248] 表(ひょう) [word] = tabel | [kb-v2-p2-091] ソーセージ(-) [word] = sosis | [kb-ext-0018-e382bbe383] セット(せっと) [word] = pemasangan / set perlengkapan | [kb-v2-p1-079] 本(ほん) [word] = buku | [kb-ext-1441-e9858de590] 配合例(はいごうれい) [word] = contoh formula campuran | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-267] この(-) [word] = ini | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-audit-0016] 従うと(したがうと) [inflected_verb, df:従う] = jika mengikuti / sesuai dengan | [kb-v2-p2-053] 豚ひき肉(ぶたひきにく) [compound_technical] = daging babi giling | [kb-v2-p1-306] ㎏(きろぐらむ) [word] = kilogram (kg) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-v2-p2-213] 作れる(つくれる) [inflected, df:作る] = dapat dibuat | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=20<ruby>本<rt>ほん</rt></ruby>
+    TRANS: 20 buah
+    KOTOBA: [kb-v2-p1-079] 本(ほん) [word] = buku
+  OPT B: HTML=1 20<ruby>本<rt>ほん</rt></ruby>
+    TRANS: 120 buah
+    KOTOBA: [kb-v2-p1-079] 本(ほん) [word] = buku
+  OPT C: HTML=1 80<ruby>本<rt>ほん</rt></ruby>
+    TRANS: 180 buah
+    KOTOBA: [kb-v2-p1-079] 本(ほん) [word] = buku
+
+=== #Q34 | ID=bonus-soal-2-q034 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 2.pdf p.1 ===
+  FLAGS: [JP_NACLO_DIGIT@prompt] Suspicious NaClO OCR spelling || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-183 (pp): "ppm (typo: ppm)"
+  CLUSTER CL-0065 (n=4, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q034 (ssw-pm-kunci-ujian-2), kunci-ujian-7-q035 (ssw-pm-kunci-ujian-7), nguyen02-q034 (latsol-nguyen-02)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 1 0％の<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム(NaClO)の<ruby>溶液<rt>ようえき</rt></ruby>があります。5ml<ruby>溶液<rt>ようえき</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>して、200ppmの<br><ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム(NaClO)を<ruby>作<rt>つく</rt></ruby>るために、どれぐらい<ruby>水<rt>みず</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby><br>びなさい。（200pp=0.02%)
+  QUESTION_TEXT: 1 0％の次亜塩素酸ナトリウム(NaClO)の溶液があります。5ml溶液を使用して、200ppmの
+次亜塩素酸ナトリウム(NaClO)を作るために、どれぐらい水が必要ですか。正しいものを一つ選
+びなさい。（200pp=0.02%)
+  PROMPT_TRANS: Tersedia larutan natrium hipoklorit (NaClO) 10%. Untuk membuat larutan natrium hipoklorit (NaClO) 200 ppm dengan menggunakan 5 ml larutan tersebut, berapa banyak air yang dibutuhkan? Pilihlah satu jawaban yang benar. (200 ppm = 0,02%)
+  EXPLANATION: Sumber: Bonus Soal 2.pdf (Soal 34 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-v2-p6-161] ％(-) [technical] = persen (%) | [kb-otaff51-0355] 次亜塩素酸ナトリウム(じあえんそさんなとりうむ) [compound_technical] = natrium hipoklorit (NaClO) | [kb-v2-p1-019] NaClO(-) [abbreviation] = natrium hipoklorit | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-audit-0966] 使用して(しようして) [inflected_verb, df:使用する] = menggunakan (~て) | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-254] どれぐらい(-) [word] = seberapa banyak | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-audit-0186] %(-) [technical] = persen (satuan persentase %) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p5-183] pp(-) [technical] = ppm (typo: ppm)
+  OPT A: HTML=2L
+    TRANS: 2 L
+    KOTOBA: [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan)
+  OPT B: HTML=2.5L
+    TRANS: 2,5 L
+    KOTOBA: [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan)
+  OPT C: HTML=3L
+    TRANS: 3 L
+    KOTOBA: [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan)
+
+=== #Q35 | ID=bonus-soal-2-q035 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 2.pdf p.1 ===
+  CLUSTER CL-0185 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=nguyen02-q035 (latsol-nguyen-02)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: トレーを<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>って、<ruby>歩<rt>ある</rt></ruby>いて<ruby>移動<rt>いどう</rt></ruby>しようとしたところ、<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>床<rt>ゆか</rt></ruby>で<ruby>滑<rt>すべ</rt></ruby>って<ruby>転倒<rt>てんとう</rt></ruby>しそうに<br>なった。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: トレーを両手で持って、歩いて移動しようとしたところ、濡れた床で滑って転倒しそうに
+なった。この事故を防ぐために、どうしたらいいですか。正しいものを一つ選びなさい。
+  PROMPT_TRANS: Saat memegang nampan dengan kedua tangan dan hendak berjalan berpindah tempat, pekerja terpeleset di lantai yang basah dan hampir terjatuh. Apa yang sebaiknya dilakukan untuk mencegah kecelakaan ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 2.pdf (Soal 35 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): A.
+  KOTOBA_PROMPT: [kb-ext-0022-e38388e383] トレー(とれ) [word] = baki / nampan makanan | [kb-otaff51-0099] 両手(りょうて) [noun] = kedua tangan | [kb-v2-p2-139] 持って(もって) [inflected, df:持つ] = membawa / memegang | [kb-v2-p5-239] 歩いて(あるいて) [inflected, df:歩く] = berjalan | [kb-otaff51-0476] 移動(いどう) [noun] = perpindahan / bergerak | [kb-audit-0382] しよう(しよう) [inflected_verb, df:する] = hendak / mencoba melakukan | [kb-v2-p1-319] とした(-) [expression] = hendak melakukan | [kb-v2-p1-292] ところ(-) [word] = bagian / tempat | [kb-latsol-56cb3efc8c] 濡れた床(ぬれたゆか) [word] = lantai yang basah | [kb-v2-p1-230] 滑って(すべって) [inflected_verb, df:滑る] = terpeleset (dasar: 滑る) | [kb-v2-p2-124] 転倒しそうに(てんとうしそうに) [inflected, df:転倒する] = hampir terpeleset jatuh | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-267] この(-) [word] = ini | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=<ruby>床<rt>ゆか</rt></ruby>の<ruby>水<rt>みず</rt></ruby>をきちんとふき<ruby>取<rt>と</rt></ruby>る。
+    TRANS: Mengelap air di lantai dengan benar hingga kering.
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-v2-p1-215] ふき取る(ふきとる) [word] = mengelap hingga kering | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>片手<rt>かたて</rt></ruby>で<ruby>持<rt>も</rt></ruby>つ。
+    TRANS: Memegang dengan satu tangan.
+    KOTOBA: [kb-otaff51-0428] 片手(かたて) [noun] = satu tangan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>つ。
+    TRANS: Memegang dengan kedua tangan.
+    KOTOBA: [kb-otaff51-0099] 両手(りょうて) [noun] = kedua tangan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q36 | ID=bonus-soal-2-q036 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 2.pdf p.1 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-335 (向って): "menuju ke (typo: 向かって)"
+  CLUSTER CL-0186 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=nguyen02-q036 (latsol-nguyen-02)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: パン<ruby>箱<rt>ばこ</rt></ruby>を<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>ち、トラックに<ruby>向<rt>むか</rt></ruby>って<ruby>駐車場<rt>ちゅうしゃじょう</rt></ruby>を<ruby>歩<rt>ある</rt></ruby>いていたとき、<ruby>通路<rt>つうろ</rt></ruby>に<ruby>置<rt>お</rt></ruby>かれていた<br><ruby>空箱<rt>からばこ</rt></ruby>につまずき<ruby>転倒<rt>てんとう</rt></ruby>しそうになった。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためにどうしたらいいですか。<ruby>間違<rt>まちが</rt></ruby>ってい<br>るものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: パン箱を両手で持ち、トラックに向って駐車場を歩いていたとき、通路に置かれていた
+空箱につまずき転倒しそうになった。この事故を防ぐためにどうしたらいいですか。間違ってい
+るものを一つ選びなさい。
+  PROMPT_TRANS: Saat memegang kotak roti dengan kedua tangan dan berjalan di area parkir menuju truk, pekerja tersandung kotak kosong yang diletakkan di jalur jalan dan hampir terjatuh. Apa yang sebaiknya dilakukan untuk mencegah kecelakaan ini? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 2.pdf (Soal 36 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-latsol-0393d31d67] パン箱(ぱんばこ) [word] = kotak wadah roti | [kb-otaff51-0099] 両手(りょうて) [noun] = kedua tangan | [kb-v2-p5-238] 持ち(もち) [inflected, df:持つ] = memegang / membawa | [kb-v2-p2-084] トラック(-) [word] = truk | [kb-v2-p5-335] 向って(むかって) [inflected, df:向かう] = menuju ke (typo: 向かって) | [kb-1426920] 駐車場(ちゅうしゃじょう) [word] = Area tempat parkir kendaraan pabrik | [kb-audit-0647] 歩いていた(あるいていた) [inflected_verb, df:歩く] = sedang berjalan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0594] 通路(つうろ) [noun] = jalur jalan / lorong | [kb-v2-p5-368] 置かれていた(おかれていた) [inflected, df:置く] = diletakkan (pasif lampau) | [kb-otaff51-0479] 空箱(からばこ) [noun] = kotak kosong | [kb-audit-0306] つまずき(つまずき) [inflected_verb, df:躓く] = tersandung | [kb-v2-p2-124] 転倒しそうに(てんとうしそうに) [inflected, df:転倒する] = hampir terpeleset jatuh | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-267] この(-) [word] = ini | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT A: HTML=<ruby>通路<rt>つうろ</rt></ruby>に<ruby>物<rt>もの</rt></ruby>を<ruby>置<rt>お</rt></ruby>いたままにしない。
+    TRANS: Tidak membiarkan barang diletakkan di jalur jalan.
+    KOTOBA: [kb-otaff51-0594] 通路(つうろ) [noun] = jalur jalan / lorong | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-v2-p3-274] 置いた(おいた) [inflected, df:置く] = meletakkan (lampau) | [kb-v2-p3-204] まま(-) [word] = apa adanya / tetap | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>作業開始前<rt>さぎょうかいしまえ</rt></ruby>には<ruby>通路<rt>つうろ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しなくてもいい。
+    TRANS: Tidak perlu memeriksa keselamatan jalur jalan sebelum memulai pekerjaan.
+    KOTOBA: [kb-ext-0625-e4bd9ce6a5] 作業開始前(さぎょうかいしまえ) [compound_technical] = sebelum mulai kerja | [kb-otaff51-0594] 通路(つうろ) [noun] = jalur jalan / lorong | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-audit-0938] 確認しなくても(かくにんしなくても) [expression] = tidak perlu memeriksa | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>箱<rt>はこ</rt></ruby>を<ruby>重<rt>かさ</rt></ruby>ねて<ruby>運<rt>はこ</rt></ruby>ぶときは、<ruby>前<rt>まえ</rt></ruby>が<ruby>見<rt>み</rt></ruby>える<ruby>数<rt>かず</rt></ruby>の<ruby>箱<rt>はこ</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。
+    TRANS: Saat mengangkut tumpukan kotak, bawalah kotak dalam jumlah yang masih memungkinkan pandangan ke depan terlihat.
+    KOTOBA: [kb-otaff51-0487] 箱(はこ) [noun] = kotak / peti | [kb-v2-p5-314] 重ねて(かさねて) [inflected, df:重ねる] = menumpuk | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p3-269] 見える(みえる) [word] = terlihat | [kb-1580820] 数(かず) [standalone_term] = Jumlah hitungan angka kuantitas | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung

@@ -1,0 +1,80 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-14 (Soal Ujian 14) | Batch qa-batch-03 | Part 4 (Q13-16 of 59)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=kunci-ujian-14-q013 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 14.pdf p.4 ===
+  CLUSTER CL-0114 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-7-q011 (ssw-pm-kunci-ujian-7)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「5S<ruby>活動<rt>かつどう</rt></ruby>」は<ruby>製品<rt>せいひん</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>、<ruby>品質保持<rt>ひんしつほじ</rt></ruby>につながる<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>活動<rt>かつどう</rt></ruby>です。「5S」は「<ruby>整理<rt>せいり</rt></ruby>」、「<ruby>整頓<rt>せいとん</rt></ruby>」、「<ruby>清潔<rt>せいけつ</rt></ruby>」、「<ruby>習慣<rt>しゅうかん</rt></ruby>」ともう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: "Kegiatan 5S" adalah kegiatan penting dalam manajemen higiene umum yang mendukung keamanan dan pemeliharaan mutu produk. "5S" terdiri dari "Seiri (Ringkas)", "Seiton (Rapi)", "Seiketsu (Rawat)", "Shuukan/Shitsuke (Rajin/Kebiasaan)", dan apakah satu lagi?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 4, nomor 問題13 (Q13). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 35–36), 5S terdiri dari 整理 (Seiri), 整頓 (Seiton), 清掃 (Seisou), 清潔 (Seiketsu), dan 習慣／しつけ (Shuukan/Shitsuke). Karena 習慣 sudah disebutkan di soal, elemen ke-5 yang belum disebut adalah 清掃 (A).
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-ext-1526-e59381e8b3] 品質保持(ひんしつほじ) [word] = pemeliharaan mutu pangan | [kb-otaff51-0734] つながる(つながる) [verb] = mengarah pada / menyebabkan | [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan) | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=<ruby>清掃<rt>せいそう</rt></ruby>
+    TRANS: Seisou (Resik / Pembersihan)
+    KOTOBA: [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+  OPT B: HTML=しつけ
+    TRANS: Shitsuke (Disiplin)
+    KOTOBA: [kb-otaff51-0016] しつけ(しつけ) [noun] = Shitsuke (Disiplin mematuhi aturan yang ditetapkan)
+  OPT C: HTML=<ruby>仕方<rt>しかた</rt></ruby>
+    TRANS: Shikata (Cara)
+    KOTOBA: [kb-1594110] 仕方(しかた) [word] = cara / metode pelaksanaan
+
+=== #Q14 | ID=kunci-ujian-14-q014 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 14.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  CLUSTER CL-0075 (n=3, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q014 (ssw-pm-kunci-ujian-3), nguyen03-q014 (latsol-nguyen-03)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>の<ruby>注意点<rt>ちゅういてん</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai hal yang perlu diperhatikan selama bekerja, pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 4, nomor 問題14 (Q14). Bobot: 2.54 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 31), selama bekerja di area produksi dilarang mengobrol yang tidak perlu (無駄話をしない) karena dapat menyebabkan kontaminasi air liur dan kelalaian.
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0383] 注意点(ちゅういてん) [compound_technical] = poin perhatian | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>危険<rt>きけん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけたらすぐ<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>する。
+    TRANS: Jika menemukan tempat yang berbahaya, segera laporkan kepada penanggung jawab.
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-audit-0591] 見つけたら(みつけたら) [inflected_verb, df:見つける] = jika menemukan | [kb-v2-p1-282] すぐ(-) [word] = segera | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-157] 報告する(ほうこくする) [word] = melaporkan
+  OPT B: HTML=<ruby>時間<rt>じかん</rt></ruby>があったら<ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>仕事<rt>しごと</rt></ruby>をする<ruby>人<rt>ひと</rt></ruby>と<ruby>話<rt>はな</rt></ruby>す。
+    TRANS: Jika ada waktu luang, mengobrol dengan rekan kerja di tempat kerja.
+    KOTOBA: [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-audit-0402] あったら(あったら) [inflected_verb, df:ある] = apabila ada / tersedia | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1163400] 一緒(いっしょ) [word] = Bersama-sama / serentak | [kb-otaff51-0110] 仕事(しごと) [noun] = pekerjaan | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p6-405] 話す(はなす) [word] = berbicara
+  OPT C: HTML=<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>が<ruby>危険<rt>きけん</rt></ruby>な<ruby>動<rt>うご</rt></ruby>きをしたら<ruby>注意<rt>ちゅうい</rt></ruby>する。
+    TRANS: Jika orang di sekitar melakukan gerakan yang berbahaya, berikan peringatan.
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-v2-p6-548] 動き(うごき) [word] = gerakan / pergerakan | [kb-audit-0590] したら(したら) [inflected_verb, df:する] = jika melakukan / setelah itu | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada
+
+=== #Q15 | ID=kunci-ujian-14-q015 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 14.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0157 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=q014 (ssw-pm-tipe2-nguyen1)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、<ruby>何<rt>なに</rt></ruby>をしなければなりませんか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk mencegah masuknya benda asing (kontaminasi fisik), apa yang harus dilakukan?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 4, nomor 問題15 (Q15). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 37), pencegahan kontaminasi benda asing meliputi pemeriksaan/pengamatan cermat pada bahan baku yang diterima.
+  INLINE_KOTOBA_COUNT: 28
+  KOTOBA_PROMPT: [kb-otaff51-0451] 異物混入(いぶつこんにゅう) [compound_technical] = kontaminasi / masuknya benda asing | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0376] しなければなりません(しなければなりません) [word] = harus / wajib dilakukan
+  OPT A: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>に<ruby>異物<rt>いぶつ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていないか、よく<ruby>観察<rt>かんさつ</rt></ruby>する。
+    TRANS: Mengamati dengan cermat apakah ada benda asing yang masuk ke dalam bahan baku.
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-v2-p3-224] 入って(はいって) [inflected, df:入る] = masuk / terkandung | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-v2-p4-096] 観察(かんさつ) [word] = pengamatan / observasi
+  OPT B: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>るとき、<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>ネットをかぶらないで、<ruby>帽子<rt>ぼうし</rt></ruby>を<ruby>直接<rt>ちょくせつ</rt></ruby>かぶる。
+    TRANS: Saat mengenakan pakaian kerja, langsung memakai topi tanpa memakai jaring rambut (hairnet).
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-u1416-e877db73bd] 髪の毛ネット(かみのけねっと) [word] = jaring penutup rambut (hairnet) | [kb-v2-p4-151] かぶらないで(-) [inflected, df:かぶる] = tanpa memakai (topi/penutup) | [kb-otaff51-0290] 帽子(ぼうし) [noun] = topi kerja | [kb-1431110] 直接(ちょくせつ) [word] = secara langsung | [kb-v2-p1-202] かぶる(-) [word] = memakai (helm/topi)
+  OPT C: HTML=<ruby>自分<rt>じぶん</rt></ruby>が<ruby>担当<rt>たんとう</rt></ruby>する<ruby>作業場<rt>さぎょうじょう</rt></ruby>で<ruby>小<rt>ちい</rt></ruby>さい<ruby>異物<rt>いぶつ</rt></ruby>が<ruby>製品<rt>せいひん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>っていることがわかったら、だれにも<ruby>言<rt>い</rt></ruby>わず、<ruby>自分<rt>じぶん</rt></ruby>で<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>す。
+    TRANS: Jika mengetahui ada benda asing kecil masuk ke dalam produk di area kerja yang menjadi tanggung jawab sendiri, mengambilnya sendiri tanpa memberi tahu siapa pun.
+    KOTOBA: [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-1418160] 担当(たんとう) [word] = penanggung jawab / tugas | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p3-214] 小さい(ちいさい) [word] = kecil | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p6-354] 入っている(はいっている) [inflected, df:入る] = terdapat di dalam | [kb-audit-0605] わかったら(わかったら) [inflected_verb, df:分かる] = jika diketahui / dimengerti | [kb-audit-0020] だれにも(だれにも) [word] = kepada siapa pun (tidak) | [kb-v2-p4-155] 言わず(いわず) [inflected, df:言う] = tanpa mengatakan | [kb-u1416-4e39efcb4f] 取り出す(とりだす) [word] = mengambil / mengeluarkan
+
+=== #Q16 | ID=kunci-ujian-14-q016 | KEY=C (idx=2) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 14.pdf p.4 ===
+  CLUSTER CL-0078 (n=3, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-3-q020 (ssw-pm-kunci-ujian-3), nguyen03-q020 (latsol-nguyen-03)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>鉄<rt>てつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけることができる<ruby>機械<rt>きかい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu mesin yang tepat yang dapat mendeteksi/menemukan besi.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 4, nomor 問題16 (Q16). Bobot: 2.54 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 45), besi/logam dideteksi menggunakan detektor logam (金属検出器／金属検査機).
+  INLINE_KOTOBA_COUNT: 10
+  KOTOBA_PROMPT: [kb-v2-p6-260] 鉄(てつ) [word] = besi | [kb-v2-p2-165] 見つける(みつける) [word] = menemukan | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>温度計<rt>おんどけい</rt></ruby>
+    TRANS: Termometer
+    KOTOBA: [kb-otaff51-0407] 温度計(おんどけい) [noun] = termometer / alat ukur suhu
+  OPT B: HTML=<ruby>日付検査機<rt>ひづけけんさき</rt></ruby>
+    TRANS: Mesin pemeriksa tanggal
+    KOTOBA: [kb-ext-1402-e697a5e4bb] 日付検査機(ひづけけんさき) [word] = mesin pemeriksa tanggal kedaluwarsa
+  OPT C: HTML=<ruby>金属検査機<rt>きんぞくけんさき</rt></ruby>
+    TRANS: Mesin detektor logam (kinzoku kensaki)
+    KOTOBA: [kb-ext-0410-e98791e5b1] 金属検査機(きんぞくけんさき) [word] = mesin pemeriksa logam

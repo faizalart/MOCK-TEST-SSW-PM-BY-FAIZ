@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-reguler-05 (Latsol Reguler 05) | Batch qa-batch-09 | Part 3 (Q9-12 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=reguler05-q009 | KEY=A (idx=0) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="ただしい服装の着方はどれですか。ただしいものをひとつえらびなさい。" vs questionText="ただし服装着方はどれですか。。ただしものをひとつえらびなさい" || [KANJI_WITHOUT_RUBY@opt:A] 帽子, 作業着, 鏡, 確認 || [KANJI_WITHOUT_RUBY@opt:B] 帽子, 作業着, 鏡, 確認 || [KANJI_WITHOUT_RUBY@opt:C] 帽子
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("3（ブラッシング → ヘアーネット → 帽子 → 作業着 → マスク・鏡で確認）") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ただしい<ruby>服装<rt>ふくそう</rt></ruby>の<ruby>着方<rt>きかた</rt></ruby>はどれですか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: ただし服装着方はどれですか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Manakah urutan cara mengenakan pakaian kerja yang benar? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 3, nomor 9. Bobot: 7.5 poin. Kunci jawaban: A. Visual: 3 baris diagram urutan pemakaian seragam kerja (1, 2, 3).
+  KOTOBA_PROMPT: [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0340] 服装(ふくそう) [noun] = pakaian / cara berpakaian | [kb-ext-latsol-0073] 着方(きかた) [word] = cara memakai pakaian kerja | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=3（ブラッシング → ヘアーネット → 帽子 → 作業着 → マスク・鏡で確認）
+    TRANS: Urutan nomor 3
+    KOTOBA: [kb-otaff51-0073] ブラッシング(ぶらっしんぐ) [noun] = penyikatan rambut | [kb-otaff51-0075] ヘアーネット(へあーねっと) [noun] = jaring rambut (hairnet) | [kb-otaff51-0290] 帽子(ぼうし) [noun] = topi kerja | [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-v2-p2-021] マスク(-) [word] = masker | [kb-otaff51-0618] 鏡(かがみ) [noun] = cermin | [kb-otaff51-0471] 確認(かくにん) [noun] = pemeriksaan / konfirmasi
+  OPT B: HTML=1（ブラッシング → 帽子 → ヘアーネット → 作業着 → マスク・鏡で確認）
+    TRANS: Urutan nomor 1
+    KOTOBA: [kb-otaff51-0073] ブラッシング(ぶらっしんぐ) [noun] = penyikatan rambut | [kb-otaff51-0290] 帽子(ぼうし) [noun] = topi kerja | [kb-otaff51-0075] ヘアーネット(へあーねっと) [noun] = jaring rambut (hairnet) | [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-v2-p2-021] マスク(-) [word] = masker | [kb-otaff51-0618] 鏡(かがみ) [noun] = cermin | [kb-otaff51-0471] 確認(かくにん) [noun] = pemeriksaan / konfirmasi
+  OPT C: HTML=2（ブラッシング → マスク → ブラッシング → ヘアーネット → 帽子）
+    TRANS: Urutan nomor 2
+    KOTOBA: [kb-otaff51-0073] ブラッシング(ぶらっしんぐ) [noun] = penyikatan rambut | [kb-v2-p2-021] マスク(-) [word] = masker | [kb-otaff51-0075] ヘアーネット(へあーねっと) [noun] = jaring rambut (hairnet) | [kb-otaff51-0290] 帽子(ぼうし) [noun] = topi kerja
+
+=== #Q10 | ID=reguler05-q010 | KEY=C (idx=2) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="弁当を持ちながら移動しようとしたとき、濡れた床で転倒しそうになった。転倒の原因について、正しいものはどれですか?" vs questionText="弁当を持ちながら移動しようとしたとき、濡れた床で転倒しそうになった。転倒の原因について、正しいものはどれですか ?"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("濡れた床をきちんと拭き取らなかった") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>弁当<rt>べんとう</rt></ruby>を<ruby>持<rt>も</rt></ruby>ちながら<ruby>移動<rt>いどう</rt></ruby>しようとしたとき、<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>床<rt>ゆか</rt></ruby>で<ruby>転倒<rt>てんとう</rt></ruby>しそうになった。<ruby>転倒<rt>てんとう</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか？
+  QUESTION_TEXT: 弁当を持ちながら移動しようとしたとき、濡れた床で転倒しそうになった。転倒の原因について、正しいものはどれですか ?
+  PROMPT_TRANS: Saat hendak berpindah tempat sambil membawa kotak makan (bento), pekerja hampir terpeleset/jatuh di lantai yang basah. Manakah pernyataan yang benar mengenai penyebab terjatuh tersebut?
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 4, nomor 10. Bobot: 7.5 poin. Kunci jawaban: C. Visual: Ilustrasi pekerja perempuan terpeleset di lantai basah sambil membawa bento.
+  KOTOBA_PROMPT: [kb-otaff51-0294] 弁当(べんとう) [noun] = nasi kotak (bento) | [kb-v2-p5-238] 持ち(もち) [inflected, df:持つ] = memegang / membawa | [kb-otaff51-0476] 移動(いどう) [noun] = perpindahan / bergerak | [kb-audit-0382] しよう(しよう) [inflected_verb, df:する] = hendak / mencoba melakukan | [kb-v2-p1-319] とした(-) [expression] = hendak melakukan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-latsol-56cb3efc8c] 濡れた床(ぬれたゆか) [word] = lantai yang basah | [kb-v2-p2-124] 転倒しそうに(てんとうしそうに) [inflected, df:転倒する] = hampir terpeleset jatuh | [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>滑<rt>すべ</rt></ruby>りにくい<ruby>靴<rt>くつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>いた
+    TRANS: Memakai sepatu yang tidak licin (anti-selip)
+    KOTOBA: [kb-v2-p1-112] 滑りにくい(すべりにくい) [inflected_adj, df:滑る] = anti-selip (dasar: 滑る) | [kb-v2-p1-089] 靴(くつ) [word] = sepatu | [kb-latsol-44e2fade12] 履いた(はいた) [word] = memakai alas kaki / sepatu
+  OPT B: HTML=<ruby>頭<rt>あたま</rt></ruby>がぐるぐる<ruby>回<rt>まわ</rt></ruby>った
+    TRANS: Kepala terasa pusing berputar-putar
+    KOTOBA: [kb-otaff51-0640] 頭(あたま) [noun] = kepala | [kb-latsol-6c355494e4] 回った(まわった) [word] = berputar / berkeliling
+  OPT C: HTML=<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>床<rt>ゆか</rt></ruby>をきちんと<ruby>拭<rt>ふ</rt></ruby>き<ruby>取<rt>と</rt></ruby>らなかった
+    TRANS: Tidak mengelap lantai yang basah dengan benar
+    KOTOBA: [kb-latsol-56cb3efc8c] 濡れた床(ぬれたゆか) [word] = lantai yang basah | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-audit-0196] 拭き取らなかった(ふきとらなかった) [inflected_verb, df:拭き取る] = tidak mengelap hingga kering
+
+=== #Q11 | ID=reguler05-q011 | KEY=B (idx=1) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="整理によると労働安全と関係についてはなんですか。ただしいものを一つえらびなさい。" vs questionText="整理によると労働安全と関係についてはなんですか。。ただしいものを一つえらびなさい"
+  CLUSTER CL-0265 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=reguler06-q007 (latsol-reguler-06)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("作業効率があがって、転倒などの危険が減る") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>整理<rt>せいり</rt></ruby>によると<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>と<ruby>関係<rt>かんけい</rt></ruby>についてはなんですか。ただしいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 整理によると労働安全と関係についてはなんですか。。ただしいものを一つえらびなさい
+  PROMPT_TRANS: Apakah hubungan antara Seiri (Ringkas/Pemilahan) dengan keselamatan kerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 4, nomor 11. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-1215810] 関係(かんけい) [word] = hubungan / keterkaitan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=いつでも<ruby>職場<rt>しょくば</rt></ruby>のルールを<ruby>守<rt>まも</rt></ruby>ること
+    TRANS: Selalu mematuhi peraturan di tempat kerja
+    KOTOBA: [kb-otaff51-0755] いつ(いつ) [adverb] = kapan | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+  OPT B: HTML=<ruby>作業効率<rt>さぎょうこうりつ</rt></ruby>があがって、<ruby>転倒<rt>てんとう</rt></ruby>などの<ruby>危険<rt>きけん</rt></ruby>が<ruby>減<rt>へ</rt></ruby>る
+    TRANS: Efisiensi kerja meningkat dan bahaya seperti terjatuh/terpeleset berkurang
+    KOTOBA: [kb-ext-0632-e4bd9ce6a5] 作業効率(さぎょうこうりつ) [word] = Efisiensi kerja pengolahan makanan | [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-latsol-d78d407d5e] 減る(へる) [word] = berkurang / menyusut
+  OPT C: HTML=<ruby>作業<rt>さぎょう</rt></ruby>するとき<ruby>守<rt>まも</rt></ruby>ること
+    TRANS: Hal yang dipatuhi saat bekerja
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-1102] するとき(するとき) [expression] = ketika melakukan (する時) | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+
+=== #Q12 | ID=reguler05-q012 | KEY=B (idx=1) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="整頓によると労働安全と関係についてはなんですか?ただしいものをひとつえらびなさい。" vs questionText="整頓によると労働安全と関係についてはなんですか ? ただしものをひとつえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("器具の落下などが原因のケガを防ぐことができる") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>整頓<rt>せいとん</rt></ruby>によると<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>と<ruby>関係<rt>かんけい</rt></ruby>についてはなんですか？ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: 整頓によると労働安全と関係についてはなんですか ? ただしものをひとつえらびなさい
+  PROMPT_TRANS: Apakah hubungan antara Seiton (Rapi/Penataan) dengan keselamatan kerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 4, nomor 12. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-1215810] 関係(かんけい) [word] = hubungan / keterkaitan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>転倒<rt>てんとう</rt></ruby>さいがいを<ruby>起<rt>お</rt></ruby>こること
+    TRANS: Menyebabkan terjadinya kecelakaan terjatuh
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-audit-0418] さいがい(さいがい) [word] = bencana / kecelakaan kerja (災害) | [kb-v2-p3-244] 起こる(おこる) [word] = terjadi
+  OPT B: HTML=<ruby>器具<rt>きぐ</rt></ruby>の<ruby>落下<rt>らっか</rt></ruby>などが<ruby>原因<rt>げんいん</rt></ruby>のケガを<ruby>防<rt>ふせ</rt></ruby>ぐことができる
+    TRANS: Dapat mencegah cedera yang disebabkan oleh jatuhnya peralatan dan sejenisnya
+    KOTOBA: [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-ext-latsol-0074] 落下(らっか) [word] = jatuh / kejatuhan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan
+  OPT C: HTML=<ruby>酸欠<rt>さんけつ</rt></ruby>が<ruby>起<rt>お</rt></ruby>こることができる
+    TRANS: Dapat menyebabkan kekurangan oksigen
+    KOTOBA: [kb-otaff51-0608] 酸欠(さんけつ) [compound_technical] = kekurangan oksigen | [kb-v2-p3-244] 起こる(おこる) [word] = terjadi | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan

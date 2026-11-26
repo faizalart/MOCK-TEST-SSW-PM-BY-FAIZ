@@ -1,0 +1,71 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-9 (Soal Ujian 9 — CBTP Gino1) | Batch qa-batch-02 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=kunci-ujian-9-q017 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPによる<ruby>衛生管理<rt>えいせいかんり</rt></ruby>で<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせるものは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang digabungkan dalam manajemen higiene berdasarkan HACCP?
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 3, Câu 17 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-u1416-2b4a8a40ff] 組み合わせる(くみあわせる) [word] = menggabungkan / mengombinasikan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>と<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>（CCP）
+    TRANS: Manajemen higiene umum dan Titik Kendali Kritis (CCP)
+    KOTOBA: [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT B: HTML=<ruby>衛生管理<rt>えいせいかんり</rt></ruby>と<ruby>製造工程<rt>せいぞうこうてい</rt></ruby>
+    TRANS: Manajemen higiene dan proses produksi
+    KOTOBA: [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-otaff51-0556] 製造工程(せいぞうこうてい) [compound_technical] = tahapan proses produksi | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>検査<rt>けんさ</rt></ruby>とパッケージング
+    TRANS: Pemeriksaan pangan dan pengemasan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-v2-p6-175] パッケージング(-) [word] = pengemasan (packaging) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+
+=== #Q18 | ID=kunci-ujian-9-q018 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: かきのしょくちゅうどくをひきおこすおもなさいきんとウイルスはどれか、ただしいものをひとつえらびなさい。ちょうかん、しゅっけつせい、だいちょうきん、サル<br>モ、ネラぞく、ちょうえんビブリオ。
+  QUESTION_TEXT: かきのしょくちゅうどくをひきおこすおもなさいきんとウイルスはどれか、ただしいものをひとつえらびなさい。ちょうかん、しゅっけつせい、だいちょうきん、サル
+モ、ネラぞく、ちょうえんビブリオ。
+  PROMPT_TRANS: Termasuk jenis apakah bakteri dan virus utama penyebab keracunan makanan berikut ini? Pilihlah satu jawaban yang benar: E. coli enterohemoragik, bakteri Salmonella, dan Vibrio parahaemolyticus.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 3, Câu 18 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0966] かき(かき) [noun] = tiram | [kb-audit-0199] しょくちゅうどく(しょくちゅうどく) [word] = keracunan makanan (食中毒) | [kb-audit-0200] ひきおこす(ひきおこす) [word] = menyebabkan / menimbulkan (引き起こす) | [kb-audit-1111] おもな(おもな) [adj] = utama / pokok (主な) | [kb-audit-0278] さいきん(さいきん) [word] = bakteri (細菌) | [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-audit-0201] ちょうかん(ちょうかん) [word] = saluran usus (腸管) | [kb-audit-0202] しゅっけつせい(しゅっけつせい) [word] = hemoragik / menyebabkan perdarahan (出血性) | [kb-audit-0203] だいちょうきん(だいちょうきん) [word] = bakteri E. coli (大腸菌) | [kb-audit-0204] サルモ、ネラぞく(さるもねらぞく) [word] = bakteri genus Salmonella (サルモネラ属) | [kb-audit-0205] ちょうえんビブリオ(ちょうえんびぶりお) [word] = bakteri Vibrio parahaemolyticus (腸炎ビブリオ) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=どくそがたのしょくちゅうどく
+    TRANS: Keracunan makanan tipe toksin (racun)
+    KOTOBA: [kb-audit-0277] どくそ(どくそ) [word] = racun / toksin (毒素) | [kb-audit-0429] たの(たの) [word] = yang lain / lainnya (他の) | [kb-audit-0199] しょくちゅうどく(しょくちゅうどく) [word] = keracunan makanan (食中毒) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=かんせんがたのしょくちゅうどく
+    TRANS: Keracunan makanan tipe infeksi
+    KOTOBA: [kb-audit-0438] かんせんがた(かんせんがた) [word] = tipe infeksi (感染型) | [kb-audit-0199] しょくちゅうどく(しょくちゅうどく) [word] = keracunan makanan (食中毒) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=ウイルスによるしょくちゅうどく
+    TRANS: Keracunan makanan akibat virus
+    KOTOBA: [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-audit-0199] しょくちゅうどく(しょくちゅうどく) [word] = keracunan makanan (食中毒)
+
+=== #Q19 | ID=kunci-ujian-9-q019 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: びせいぶつのぞうしょくさせないため、どれか、ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah cara yang tepat untuk mencegah perkembangbiakan mikroorganisme? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 4, Câu 19 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p6-561] びせいぶつ(-) [technical] = mikroorganisme | [kb-audit-0093] ぞうしょく(ぞうしょく) [word] = perkembangbiakan bakteri (増殖) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p3-234] させ(-) [inflected, df:する] = membuat jadi (kausatif) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=きかい、きぐなどをせんじょうする。
+    TRANS: Mencuci mesin dan peralatan.
+    KOTOBA: [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-audit-0077] せんじょう(せんじょう) [word] = pencucian / pembersihan (洗浄) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=かねつしたものをしつおんでながくほうちし、おんどをゆっくりさげる。
+    TRANS: Membiarkan makanan yang telah dipanaskan di suhu ruang dalam waktu lama dan menurunkan suhunya secara perlahan.
+    KOTOBA: [kb-audit-0222] かねつ(かねつ) [word] = pemanasan (加熱) | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0693] しつおん(しつおん) [word] = suhu ruangan | [kb-audit-1081] ながく(ながく) [inflected_adj, df:長い] = lama / panjang (長い) | [kb-audit-1035] ほうちし(ほうちし) [inflected_verb, df:放置する] = membiarkan (放置する) | [kb-audit-0118] おんど(おんど) [word] = suhu / temperatur (温度) | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-v2-p2-190] さげる(-) [word] = menurunkan (suhu) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=せだいこうたいじかんがあるので、じかんをコントロールするのがひつようである。
+    TRANS: Karena adanya waktu pergantian generasi (pembelahan sel), maka perlu mengendalikan waktu.
+    KOTOBA: [kb-audit-0437] せだいこうたい(せだいこうたい) [word] = pergantian shift / generasi (世代交代) | [kb-audit-0214] じかん(じかん) [word] = waktu / durasi (時間) | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-v2-p2-191] コントロールする(-) [word] = mengendalikan / mengontrol | [kb-audit-0638] ひつよう(ひつよう) [word] = kebutuhan / perlu | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q20 | ID=kunci-ujian-9-q020 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.4 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: あんぜんなさぎょうはどれか、まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang salah mengenai kerja yang aman? Pilihlah satu jawaban.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 4, Câu 20 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p6-541] あんぜん(-) [word] = keselamatan / aman | [kb-audit-0220] さぎょう(さぎょう) [word] = pekerjaan / pengerjaan (作業) | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=しぶつふんしつよぼう
+    TRANS: Pencegahan kehilangan barang pribadi
+    KOTOBA: [kb-audit-0440] しぶつ(しぶつ) [word] = barang pribadi (私物) | [kb-audit-0441] ふんしつよぼう(ふんしつよぼう) [word] = pencegahan kehilangan (紛失予防)
+  OPT B: HTML=ようつうしょうよぼう
+    TRANS: Pencegahan nyeri punggung bawah (sakit pinggang)
+    KOTOBA: [kb-audit-0442] ようつうしょうよぼう(ようつうしょうよぼう) [word] = pencegahan sakit pinggang (腰痛症予防)
+  OPT C: HTML=はさまれ・まきこまれ・てんとうなど
+    TRANS: Pencegahan terjepit, terlilit, terjatuh, dan sebagainya
+    KOTOBA: [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-audit-0707] まきこまれ(まきこまれ) [word, df:巻き込む] = terlilit / terjepit mesin | [kb-audit-0290] てんとう(てんとう) [word] = terjatuh / terpeleset (転倒) | [kb-v2-p1-336] など(-) [particle] = dan lain-lain

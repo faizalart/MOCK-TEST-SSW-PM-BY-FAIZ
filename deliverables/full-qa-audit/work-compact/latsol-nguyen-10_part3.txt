@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-nguyen-10 (Latsol Nguyen 10) | Batch qa-batch-08 | Part 3 (Q9-12 of 41)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=nguyen10-q009 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0180 (n=3, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q008 (bonus-soal-2), nguyen02-q008 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("食品を作る管理です。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造<rt>しょくひんせいぞう</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>とは<ruby>何<rt>なに</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>することですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengelola apakah manajemen kebersihan dalam produksi pangan itu? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 2, nomor 9. Bobot: 3.66 poin. Kunci jawaban: B. Nomor asli PDF: Câu 8 (Halaman 2).
+  KOTOBA_PROMPT: [kb-otaff51-0654] 食品製造(しょくひんせいぞう) [compound_technical] = produksi / pengolahan makanan | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>です
+    TRANS: Manajemen keselamatan kerja
+    KOTOBA: [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る<ruby>管理<rt>かんり</rt></ruby>です。
+    TRANS: Manajemen pembuatan makanan.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen
+  OPT C: HTML=<ruby>消費者<rt>しょうひしゃ</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>です。
+    TRANS: Manajemen konsumen.
+    KOTOBA: [kb-1350300] 消費者(しょうひしゃ) [word] = konsumen | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen
+
+=== #Q10 | ID=nguyen10-q010 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.2 ===
+  CLUSTER CL-0042 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q009 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q011 (ssw-pm-kunci-ujian-16), bonus-soal-2-q009 (bonus-soal-2), nguyen02-q009 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("X線異物検査機") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>金属以外<rt>きんぞくいがい</rt></ruby>の<ruby>異物<rt>いぶつ</rt></ruby>(<ruby>石<rt>いし</rt></ruby>、ガラスなど)を<ruby>見<rt>み</rt></ruby>つけることができる<ruby>機械<rt>きかい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai mesin yang dapat menemukan benda asing selain logam (batu, kaca, dll.), pilihlah satu yang benar.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 2, nomor 10. Bobot: 3.66 poin. Kunci jawaban: B. Nomor asli PDF: Câu 9 (Halaman 2).
+  KOTOBA_PROMPT: [kb-ext-0409-e98791e5b1] 金属以外(きんぞくいがい) [word] = benda selain logam | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-otaff51-0468] 石(いし) [noun] = batu | [kb-v2-p1-057] ガラス(-) [word] = kaca | [kb-v2-p2-165] 見つける(みつける) [word] = menemukan | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>金属検査機<rt>きんぞくけんさき</rt></ruby>
+    TRANS: Mesin pemeriksa logam (metal detector)
+    KOTOBA: [kb-ext-0410-e98791e5b1] 金属検査機(きんぞくけんさき) [word] = mesin pemeriksa logam
+  OPT B: HTML=X<ruby>線異物検査機<rt>せんいぶつけんさき</rt></ruby>
+    TRANS: Mesin pemeriksa benda asing sinar-X (X-ray)
+    KOTOBA: [kb-v2-p5-080] X線異物検査機(えっくすせんいぶつけんさき) [compound_technical] = mesin pemeriksa benda asing sinar-X
+  OPT C: HTML=<ruby>日付検査<rt>ひづけけんさ</rt></ruby>
+    TRANS: Pemeriksaan tanggal
+    KOTOBA: [kb-ext-1401-e697a5e4bb] 日付検査(ひづけけんさ) [word] = pemeriksaan tanggal kedaluwarsa
+
+=== #Q11 | ID=nguyen10-q011 | KEY=A (idx=0) | CAT= | SRC=10 (2).pdf p.3 ===
+  CLUSTER CL-0043 (n=6, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q010 (ssw-pm-kunci-ujian-2), kunci-ujian-13-q020 (ssw-pm-kunci-ujian-13), kunci-ujian-16-q012 (ssw-pm-kunci-ujian-16), bonus-soal-2-q010 (bonus-soal-2), nguyen02-q010 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("一般的に冷凍庫は－15℃以下、冷蔵庫は10℃以下が基準となる。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>製品<rt>せいひん</rt></ruby>を<ruby>保管管理<rt>ほかんかんり</rt></ruby>について、<ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang paling benar mengenai manajemen penyimpanan produk.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 3, nomor 11. Bobot: 3.66 poin. Kunci jawaban: A. Nomor asli PDF: Câu 10 (Halaman 3).
+  KOTOBA_PROMPT: [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-ext-1609-e4bf9de7ae] 保管管理(ほかんかんり) [word] = manajemen penyimpanan | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>一般的<rt>いっぱんてき</rt></ruby>に<ruby>冷凍庫<rt>れいとうこ</rt></ruby>は－15℃<ruby>以下<rt>いか</rt></ruby>、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は10℃<ruby>以下<rt>いか</rt></ruby>が<ruby>基準<rt>きじゅん</rt></ruby>となる。
+    TRANS: Secara umum, standar untuk freezer adalah -15°C ke bawah, dan untuk kulkas adalah 10°C ke bawah.
+    KOTOBA: [kb-1165880] 一般的(いっぱんてき) [word] = umum / lazim | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0244] 基準(きじゅん) [noun] = standar / kriteria | [kb-v2-p2-266] となる(-) [expression] = menjadi
+  OPT B: HTML=<ruby>保管用<rt>ほかんよう</rt></ruby>サンプルを<ruby>適当<rt>てきとう</rt></ruby>に<ruby>抽出<rt>ちゅうしゅつ</rt></ruby>して<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Mengambil sampel penyimpanan secara asal-asalan lalu menyimpannya.
+    KOTOBA: [kb-v2-p2-046] 保管用サンプル(ほかんようさんぷる) [compound_technical] = sampel untuk penyimpanan | [kb-v2-p2-233] 適当に(てきとうに) [word] = sembarangan / secukupnya | [kb-latsol-82b46d7cb3] 抽出して(ちゅうしゅつして) [word] = pengambilan sampel | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT C: HTML=<ruby>製品<rt>せいひん</rt></ruby>の<ruby>微生物検査項目<rt>びせいぶつけんさこうもく</rt></ruby>はそれぞれの<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>決<rt>き</rt></ruby>まる。
+    TRANS: Item pemeriksaan mikroorganisme pada produk ditentukan sendiri-sendiri oleh masing-masing pabrik.
+    KOTOBA: [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-ext-1494-e5beaee794] 微生物検査項目(びせいぶつけんさこうもく) [word] = item uji mikrobiologi | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-v2-p2-171] 決まる(きまる) [word] = ditentukan
+
+=== #Q12 | ID=nguyen10-q012 | KEY=C (idx=2) | CAT= | SRC=10 (2).pdf p.3 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p5-102 (ピナッツ): "kacang tanah (typo: ピーナッツ)"
+  CLUSTER CL-0164 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q001 (bonus-soal-1), bonus-soal-2-q011 (bonus-soal-2), bonus-soal-5-q001 (bonus-soal-5), bonus-soal-7-q001 (bonus-soal-7), nguyen01-q001 (latsol-nguyen-01), nguyen02-q011 (latsol-nguyen-02), nguyen05-q001 (latsol-nguyen-05), nguyen07-q001 (latsol-nguyen-07)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("えび、かに、こむぎ、そば、たまご、乳、落花生、くるみ") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギー<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>として<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>がある8つの<ruby>食品<rt>しょくひん</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものはどれでしょう。<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang benar mengenai 8 bahan makanan yang wajib dicantumkan pada label sebagai bahan baku spesifik (tokutei genzairyou) pemicu alergi makanan? Pilihlah satu.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 3, nomor 12. Bobot: 3.66 poin. Kunci jawaban: C. Nomor asli PDF: Câu 11 (Halaman 3).
+  KOTOBA_PROMPT: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-otaff51-0546] 表示義務(ひょうじぎむ) [compound_technical] = kewajiban pencantuman label | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=そば、たまご、ピナッツ、こむぎ、たまねぎ、えび、ぎゅうにく、くるみ
+    TRANS: Soba (gandum kuda), telur, kacang tanah, gandum, bawang bombai, udang, daging sapi, kenari (walnut)
+    KOTOBA: [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-v2-p5-102] ピナッツ(-) [word] = kacang tanah (typo: ピーナッツ) | [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-v2-p5-103] たまねぎ(-) [word] = bawang bombai | [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-v2-p5-104] ぎゅうにく(-) [word] = daging sapi | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)
+  OPT B: HTML=えび、かに、<ruby>牡蠣<rt>かき</rt></ruby>、にんじん、ぎゅうにく、りんご、オレンジ、そば
+    TRANS: Udang, kepiting, tiram, wortel, daging sapi, apel, jeruk, soba
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p2-056] にんじん(-) [word] = wortel | [kb-v2-p5-104] ぎゅうにく(-) [word] = daging sapi | [kb-otaff51-0030] りんご(りんご) [noun] = apel | [kb-v2-p2-057] オレンジ(-) [word] = jeruk | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat)
+  OPT C: HTML=えび、かに、こむぎ、そば、たまご、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>、くるみ
+    TRANS: Udang, kepiting, gandum, soba, telur, susu, kacang tanah, kenari (walnut)
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut) | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)

@@ -1,0 +1,70 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-5 (Soal Ujian 5 — CBTP Gino1) | Batch qa-batch-01 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=kunci-ujian-5-q001 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>義務付<rt>ぎむづ</rt></ruby>けられている<ruby>微生物検査<rt>びせいぶつけんさ</rt></ruby>の<ruby>項目<rt>こうもく</rt></ruby>について、どれが<ruby>正<rt>ただ</rt></ruby>しいか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pernyataan yang benar mengenai item pengujian mikroorganisme yang diwajibkan oleh undang-undang?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 1, Câu 1 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0380] 法律(ほうりつ) [noun] = undang-undang / hukum | [kb-audit-0314] 義務付けられている(ぎむづけられている) [inflected_verb, df:義務付ける] = diwajibkan oleh peraturan | [kb-otaff51-0296] 微生物検査(びせいぶつけんさ) [compound_technical] = uji laboratorium mikrobiologi | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>決<rt>き</rt></ruby>められた<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>定<rt>さだ</rt></ruby>められた<ruby>項目<rt>こうもく</rt></ruby>を<ruby>検査<rt>けんさ</rt></ruby>する
+    TRANS: Memeriksa item yang telah ditetapkan dengan metode yang telah ditentukan
+    KOTOBA: [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p6-389] 定められた(さだめられた) [inflected, df:定める] = yang telah ditetapkan | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>検査<rt>けんさ</rt></ruby>は<ruby>自由<rt>じゆう</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>うことができ、<ruby>項目<rt>こうもく</rt></ruby>は<ruby>任意<rt>にんい</rt></ruby>で<ruby>選<rt>えら</rt></ruby>んでよい
+    TRANS: Pemeriksaan dapat dilakukan secara bebas dan itemnya boleh dipilih sesuka hati
+    KOTOBA: [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-1318720] 自由(じゆう) [word] = Bebas tanpa hambatan | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-audit-0468] ことができ(ことができ) [expression, df:できる] = dapat / bisa dilakukan | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-1467160] 任意(にんい) [word] = sukarela / anjuran | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>微生物検査<rt>びせいぶつけんさ</rt></ruby>は<ruby>行<rt>おこな</rt></ruby>わなくてもよい
+    TRANS: Pengujian mikroorganisme tidak perlu dilakukan
+    KOTOBA: [kb-otaff51-0296] 微生物検査(びせいぶつけんさ) [compound_technical] = uji laboratorium mikrobiologi | [kb-audit-0662] 行わなくて(おこなわなくて) [inflected_verb, df:行う] = tanpa melakukan / tidak perlu | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+
+=== #Q2 | ID=kunci-ujian-5-q002 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>輸送中<rt>ゆそうちゅう</rt></ruby>に<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>品質<rt>ひんしつ</rt></ruby>が<ruby>劣化<rt>れっか</rt></ruby>しないようにするために<ruby>重要<rt>じゅうよう</rt></ruby>なことは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa hal yang penting dilakukan agar kualitas pangan tidak menurun selama pengangkutan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 1, Câu 2 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-ext-1715-e8bcb8e980] 輸送中(ゆそうちゅう) [word] = selama proses pengangkutan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1490580] 品質(ひんしつ) [word] = kualitas / mutu produk | [kb-otaff51-0197] 劣化(れっか) [noun] = penurunan mutu / kerusakan kualitas | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>輸送中<rt>ゆそうちゅう</rt></ruby>に<ruby>高温<rt>こうおん</rt></ruby>に<ruby>保<rt>たも</rt></ruby>つ
+    TRANS: Menjaga pangan pada suhu tinggi selama pengangkutan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-ext-1715-e8bcb8e980] 輸送中(ゆそうちゅう) [word] = selama proses pengangkutan | [kb-otaff51-0675] 高温(こうおん) [noun] = suhu tinggi | [kb-v2-p2-170] 保つ(たもつ) [word] = menjaga / mempertahankan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>ごとに<ruby>決<rt>き</rt></ruby>められた<ruby>温度<rt>おんど</rt></ruby>で<ruby>輸送<rt>ゆそう</rt></ruby>する
+    TRANS: Mengangkut pangan pada suhu yang telah ditentukan untuk setiap jenis pangan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0591] 輸送(ゆそう) [noun] = pengangkutan / transportasi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p3-188] ごと(-) [particle] = setiap | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>常<rt>つね</rt></ruby>に<ruby>冷凍状態<rt>れいとうじょうたい</rt></ruby>で<ruby>輸送<rt>ゆそう</rt></ruby>する
+    TRANS: Selalu mengangkut pangan dalam kondisi beku
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-284] 常に(つねに) [word] = selalu | [kb-ext-1788-e586b7e587] 冷凍状態(れいとうじょうたい) [word] = kondisi beku stabil | [kb-otaff51-0591] 輸送(ゆそう) [noun] = pengangkutan / transportasi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q3 | ID=kunci-ujian-5-q003 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>衛生管理<rt>えいせいかんり</rt></ruby>が<ruby>不十分<rt>ふじゅうぶん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>った<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>として、どのようなことが<ruby>起<rt>お</rt></ruby>こりますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa dampak yang akan terjadi pada perusahaan yang memproduksi pangan dengan manajemen higiene yang tidak memadai?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 1, Câu 3 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-1492740] 不十分(ふじゅうぶん) [word] = tidak mencukupi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-150] 作った(つくった) [inflected_verb, df:作る] = yang membuat (dasar: 作る) | [kb-otaff51-0115] 会社(かいしゃ) [noun] = perusahaan | [kb-1254690] 結果(けっか) [word] = hasil pemeriksaan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p6-369] 起こります(おこります) [inflected, df:起こる] = terjadi (sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>会社<rt>かいしゃ</rt></ruby>は<ruby>成功<rt>せいこう</rt></ruby>し、<ruby>評価<rt>ひょうか</rt></ruby>が<ruby>高<rt>たか</rt></ruby>まる
+    TRANS: Perusahaan akan sukses dan penilaiannya meningkat
+    KOTOBA: [kb-otaff51-0115] 会社(かいしゃ) [noun] = perusahaan | [kb-audit-1027] 成功し(せいこうし) [inflected_verb, df:成功する] = berhasil / sukses | [kb-1490010] 評価(ひょうか) [word] = evaluasi kesesuaian sistem | [kb-v2-p6-390] 高まる(たかまる) [word] = meningkat / bertambah tinggi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>信用<rt>しんよう</rt></ruby>がなくなり、<ruby>消費者<rt>しょうひしゃ</rt></ruby>からの<ruby>信頼<rt>しんらい</rt></ruby>を<ruby>失<rt>うしな</rt></ruby>う
+    TRANS: Kredibilitas perusahaan hilang dan kehilangan kepercayaan dari konsumen
+    KOTOBA: [kb-otaff51-0115] 会社(かいしゃ) [noun] = perusahaan | [kb-otaff51-0140] 信用(しんよう) [noun] = kepercayaan (kredibilitas) | [kb-audit-0399] なくなり(なくなり) [inflected_verb, df:なくなる] = menjadi hilang / habis | [kb-1350300] 消費者(しょうひしゃ) [word] = konsumen | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-1359730] 信頼(しんらい) [word] = kepercayaan / keandalan | [kb-v2-p6-378] 失う(うしなう) [word] = kehilangan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>会社<rt>かいしゃ</rt></ruby>は<ruby>製品<rt>せいひん</rt></ruby>を<ruby>安<rt>やす</rt></ruby>く<ruby>販売<rt>はんばい</rt></ruby>できる
+    TRANS: Perusahaan dapat menjual produk dengan harga murah
+    KOTOBA: [kb-otaff51-0115] 会社(かいしゃ) [noun] = perusahaan | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p3-213] 安く(やすく) [inflected, df:安い] = murah | [kb-1481800] 販売(はんばい) [word] = penjualan | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q4 | ID=kunci-ujian-5-q004 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>」の<ruby>目的<rt>もくてき</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa tujuan dari "Keselamatan Kerja"?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 1, Câu 4 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-v2-p4-222] 目的は(もくてきは) [expression] = tujuannya adalah | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>作業<rt>さぎょう</rt></ruby>の<ruby>効率<rt>こうりつ</rt></ruby>を<ruby>上<rt>あ</rt></ruby>げること
+    TRANS: Meningkatkan efisiensi pekerjaan
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1275210] 効率(こうりつ) [word] = Efisiensi produktivitas kerja pabrik | [kb-otaff51-0941] 上げる(あげる) [verb] = menaikkan / mengangkat | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>と<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ること
+    TRANS: Melindungi keselamatan dan kesehatan pekerja
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>仕事<rt>しごと</rt></ruby>を<ruby>早<rt>はや</rt></ruby>く<ruby>終<rt>お</rt></ruby>わらせること
+    TRANS: Menyelesaikan pekerjaan dengan cepat
+    KOTOBA: [kb-otaff51-0110] 仕事(しごと) [noun] = pekerjaan | [kb-v2-p4-144] 早く(はやく) [inflected, df:早い] = dengan cepat / segera | [kb-v2-p6-391] 終わらせる(おわらせる) [inflected, df:終わる] = menyelesaikan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

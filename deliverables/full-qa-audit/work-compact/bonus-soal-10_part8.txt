@@ -1,0 +1,84 @@
+# AUDIT SHEET: bonus-soal-10 (Bonus Soal 10) | Batch qa-batch-06 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=bonus-soal-10-q029 | KEY=C (idx=2) | CAT= | SRC=Bonus soal 10.pdf p.7 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0195 (n=5, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-4-q015 (bonus-soal-4), bonus-soal-7-q015 (bonus-soal-7), nguyen04-q015 (latsol-nguyen-04), nguyen07-q015 (latsol-nguyen-07)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手<rt>て</rt></ruby>などケガをしている<ruby>場合<rt>ばあい</rt></ruby>は、どうすればよいでしょうか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>び<br>なさい。
+  QUESTION_TEXT: 手などケガをしている場合は、どうすればよいでしょうか。正しいものを一つ選び
+なさい。
+  PROMPT_TRANS: Apa yang sebaiknya dilakukan apabila mengalami luka pada tangan atau bagian lainnya? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 7, Soal 29) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p1-273] どうすれば(-) [expression] = bagaimana sebaiknya | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p5-220] でしょう(-) [particle] = kira-kira / bukan? | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>自分<rt>じぶん</rt></ruby>で<ruby>処置<rt>しょち</rt></ruby>をすればよい
+    TRANS: Cukup mengobatinya sendiri
+    KOTOBA: [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-1342470] 処置(しょち) [word] = tindakan penanganan | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=すぐに<ruby>治<rt>なお</rt></ruby>ってしまうのでなにもしない
+    TRANS: Tidak melakukan apa-apa karena akan segera sembuh
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p5-285] 治ってしまう(なおってしまう) [expression] = sembuh dengan sendirinya | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-v2-p2-256] なに(-) [word] = apa | [kb-otaff51-0756] もし(もし) [adverb] = jika / seandainya | [kb-v2-p2-260] ない(-) [word] = tidak ada
+  OPT C: HTML=<ruby>職場<rt>しょくば</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>をして、<ruby>指示<rt>しじ</rt></ruby>に <ruby>従<rt>したが</rt></ruby>う
+    TRANS: Melaporkan kepada penanggung jawab tempat kerja dan mengikuti instruksinya
+    KOTOBA: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p2-009] 従う(したがう) [word] = mematuhi / mengikuti | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q30 | ID=bonus-soal-10-q030 | KEY=C (idx=2) | CAT= | SRC=Bonus soal 10.pdf p.7 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0093 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q005 (ssw-pm-kunci-ujian-4), bonus-soal-5-q013 (bonus-soal-5), nguyen05-q013 (latsol-nguyen-05)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>の<ruby>出<rt>で</rt></ruby>た<ruby>人<rt>ひと</rt></ruby>には<ruby>何<rt>なに</rt></ruby>をすればよいでしょうか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>び<br>なさい。
+  QUESTION_TEXT: 熱中症の症状の出た人には何をすればよいでしょうか。間違っているものを選び
+なさい。
+  PROMPT_TRANS: Apa yang sebaiknya dilakukan terhadap orang yang menunjukkan gejala sengatan panas (heatstroke)? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 7, Soal 30) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-otaff51-0425] 熱中症(ねっちゅうしょう) [compound_technical] = sengatan panas (heatstroke) | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p4-216] 出た(でた) [inflected, df:出る] = yang keluar / muncul | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p5-220] でしょう(-) [particle] = kira-kira / bukan? | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>衣服<rt>いふく</rt></ruby>をゆるめてからだを<ruby>冷<rt>ひ</rt></ruby>やす
+    TRANS: Melonggarkan pakaian dan mendinginkan tubuhnya
+    KOTOBA: [kb-otaff51-0543] 衣服(いふく) [noun] = pakaian | [kb-v2-p5-303] ゆるめて(-) [inflected, df:ゆるめる] = melonggarkan (pakaian) | [kb-v2-p2-080] からだ(-) [word] = tubuh / badan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>水<rt>みず</rt></ruby>に<ruby>食塩<rt>しょくえん</rt></ruby>と<ruby>ブドウ<rt>ぶどう</rt></ruby><ruby>糖<rt>とう</rt></ruby>を<ruby>溶<rt>と</rt></ruby>かした<ruby>飲物<rt>のみもの</rt></ruby>を<ruby>与<rt>あた</rt></ruby>える
+    TRANS: Memberikan minuman berupa air yang dilarutkan garam dan glukosa
+    KOTOBA: [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0658] 食塩(しょくえん) [noun] = garam dapur | [kb-v2-p5-129] ブドウ糖(ぶどうとう) [compound_technical] = glukosa (gula anggur) | [kb-v2-p5-304] 溶かした(とかした) [inflected, df:溶かす] = melarutkan (lampau) | [kb-1600430] 飲物(のみもの) [word] = Minuman produk olahan cair | [kb-v2-p5-305] 与える(あたえる) [word] = memberikan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=そのまま<ruby>寝<rt>ね</rt></ruby>かして<ruby>置<rt>お</rt></ruby>く
+    TRANS: Membiarkannya berbaring begitu saja tanpa penanganan
+    KOTOBA: [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p5-306] 寝かして(ねかして) [inflected, df:寝かす] = membaringkan | [kb-v2-p3-275] 置く(おく) [word] = meletakkan
+
+=== #Q31 | ID=bonus-soal-10-q031 | KEY=B (idx=1) | CAT= | SRC=Bonus soal 10.pdf p.8 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 選
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下<rt>した</rt></ruby>は 450ｇのそばの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、<ruby>小麦粉<rt>こむぎこ</rt></ruby>6 ㎏あれば、そばは<ruby>何<rt>なん</rt></ruby><br>㎏できますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ選びなさい。<br>（<ruby>原料<rt>げんりょう</rt></ruby>： <ruby>量<rt>りょう</rt></ruby>）<ruby>小麦粉<rt>こむぎこ</rt></ruby>（こむぎこ）：300g、<ruby>食塩<rt>しょくえん</rt></ruby>（しょくえん）：15g、<ruby>水<rt>みず</rt></ruby>（み<br>ず）：135g
+  QUESTION_TEXT: 下は 450ｇのそばの配合です。同じ配合で作る時に、小麦粉6 ㎏あれば、そばは何
+㎏できますか。正しいものを一つ選びなさい。
+（原料： 量）小麦粉（こむぎこ）：300g、食塩（しょくえん）：15g、水（み
+ず）：135g
+  PROMPT_TRANS: Di bawah ini adalah komposisi untuk 450 g mi soba. Jika membuat dengan komposisi yang sama dan tersedia 6 kg tepung terigu, berapa kg mi soba yang dapat dibuat? Pilihlah satu jawaban yang benar. (Bahan: Jumlah) Tepung terigu: 300 g, Garam: 15 g, Air: 135 g
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 8, Soal 31) · Kunci Jawaban Sumber: B.
+  KOTOBA_PROMPT: [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p1-306] ㎏(きろぐらむ) [word] = kilogram (kg) | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-125] できますか(できますか) [inflected_verb, df:できる] = dapat dibuat (dasar: できる) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-1262490] 原料(げんりょう) [word] = bahan mentah | [kb-v2-p1-085] 量(りょう) [word] = jumlah / takaran | [kb-audit-0282] こむぎこ(こむぎこ) [word] = tepung terigu (小麦粉) | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-otaff51-0658] 食塩(しょくえん) [noun] = garam dapur | [kb-v2-p5-429] しょくえん(-) [word] = garam dapur (bacaan 食塩) | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-audit-0347] みず(みず) [word] = air (水) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=8 ㎏
+    TRANS: 8 kg
+    KOTOBA: [kb-v2-p1-306] ㎏(きろぐらむ) [word] = kilogram (kg)
+  OPT B: HTML=9 ㎏
+    TRANS: 9 kg
+    KOTOBA: [kb-v2-p1-306] ㎏(きろぐらむ) [word] = kilogram (kg)
+  OPT C: HTML=10 ㎏
+    TRANS: 10 kg
+    KOTOBA: [kb-v2-p1-306] ㎏(きろぐらむ) [word] = kilogram (kg)
+
+=== #Q32 | ID=bonus-soal-10-q032 | KEY=A (idx=0) | CAT= | SRC=Bonus soal 10.pdf p.8 ===
+  FLAGS: [JP_NACLO_DIGIT@prompt] Suspicious NaClO OCR spelling
+  CLUSTER CL-0032 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q035 (ssw-pm-kunci-ujian-1), kunci-ujian-13-q032 (ssw-pm-kunci-ujian-13), bonus-soal-1-q035 (bonus-soal-1), bonus-soal-7-q036 (bonus-soal-7), bonus-soal-8-q034 (bonus-soal-8), nguyen01-q035 (latsol-nguyen-01), nguyen07-q036 (latsol-nguyen-07), nguyen08-q034 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>濃度<rt>のうど</rt></ruby>10％の<ruby>次亜塩酸<rt>じあえんさん</rt></ruby>ナトリウム（NaClO）<ruby>溶液<rt>ようえき</rt></ruby>があります。400ppm の<ruby>次亜塩酸<rt>じあえんさん</rt></ruby>ナ<br>トリウム（NaClO）<ruby>溶液<rt>ようえき</rt></ruby>を１L <ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>ml<ruby>必要<rt>ひつよう</rt></ruby>です<br>か。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。。
+  QUESTION_TEXT: 濃度10％の次亜塩酸ナトリウム（NaClO）溶液があります。400ppm の次亜塩酸ナ
+トリウム（NaClO）溶液を１L 作る時に、この溶液と水はそれぞれ何ml必要です
+か。正しいものを一つ選びなさい。。
+  PROMPT_TRANS: Tersedia larutan natrium hipoklorit (NaClO) dengan konsentrasi 10%. Saat membuat 1 L larutan natrium hipoklorit (NaClO) 400 ppm, berapa ml masing-masing larutan ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus soal 10.pdf (Halaman 8, Soal 32) · Kunci Jawaban Sumber: A.
+  KOTOBA_PROMPT: [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-v2-p6-161] ％(-) [technical] = persen (%) | [kb-latsol-5f76041d39] 次亜塩酸ナトリウム(じあえんさんなとりうむ) [word] = natrium hipoklorit (klorin) | [kb-v2-p1-019] NaClO(-) [abbreviation] = natrium hipoklorit | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p1-267] この(-) [word] = ini | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>996ml
+    TRANS: Larutan 4 ml, air 996 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT B: HTML=<ruby>溶液<rt>ようえき</rt></ruby>2ml、<ruby>水<rt>みず</rt></ruby>998ml。
+    TRANS: Larutan 2 ml, air 998 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT C: HTML=<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1000ml。
+    TRANS: Larutan 4 ml, air 1000 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air

@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-5 (Soal Ujian 5 — CBTP Gino1) | Batch qa-batch-01 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-5-q025 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0238 (たらく): "bekerja (typo text: はたらく)"
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: しょくひんこうじょうでたらくひとによるいとてきなしょくひんおせんをふせぐためにまちがったほうほうはどれですか。ひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah cara yang salah dalam mencegah kontaminasi pangan yang disengaja oleh pekerja di pabrik pangan (food defense)? Pilihlah satu jawaban.
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 5, Câu 25 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-0795] こうじょう(こうじょう) [word] = pabrik | [kb-audit-0238] たらく(はたらく) [word] = bekerja (typo text: はたらく) | [kb-audit-0325] ひと(ひと) [word] = orang / manusia (人) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-audit-0239] いとてき(いとてき) [word] = disengaja (意図的) | [kb-audit-0240] おせん(おせん) [word] = kontaminasi / pencemaran (汚染) | [kb-audit-0241] ふせぐ(ふせぐ) [word] = mencegah (防ぐ) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-audit-0242] まちがった(まちがった) [inflected_verb, df:間違う] = salah / keliru (間違った) | [kb-v2-p6-467] ほうほう(-) [word] = metode / cara (bacaan 方法) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=はたらくひととせきにんしゃが、よいかんけいをつくる。
+    TRANS: Membangun hubungan yang baik antara pekerja dan penanggung jawab
+    KOTOBA: [kb-audit-0237] はたらく(はたらく) [word] = bekerja (働く) | [kb-audit-0325] ひと(ひと) [word] = orang / manusia (人) | [kb-audit-0872] せきにんしゃ(せきにんしゃ) [word] = penanggung jawab | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-audit-0624] かんけい(かんけい) [word] = hubungan / relasi | [kb-audit-0421] つくる(つくる) [word] = membuat / memproduksi (作る) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=さぎょうじょうなどに<ruby>カメラ<rt>かめら</rt></ruby>をせっちして、えいぞうをきろくしておく。
+    TRANS: Memasang kamera di tempat kerja dan area lainnya serta merekam video
+    KOTOBA: [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-ext-0011-e382abe383] カメラ(かめら) [word] = kamera inspeksi visual | [kb-audit-1154] せっち(せっち) [word] = pemasangan (設置) | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-v2-p6-538] えいぞう(-) [word] = video / rekaman gambar | [kb-audit-0963] きろくして(きろくして) [inflected_verb, df:記録する] = mencatat (~て) | [kb-v2-p1-243] おく(-) [word] = melakukan terlebih dahulu | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=さぎょうじょうにだれでもいつでもじゆうにでいりできるようにする。
+    TRANS: Membiarkan siapa saja dapat keluar masuk tempat kerja dengan bebas kapan saja
+    KOTOBA: [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-v2-p6-539] だれでも(-) [word] = siapa saja | [kb-otaff51-0755] いつ(いつ) [adverb] = kapan | [kb-v2-p6-312] じゆうに(-) [word] = dengan bebas (bacaan 自由に) | [kb-v2-p6-313] でいり(-) [word] = keluar masuk (bacaan 出入り) | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+
+=== #Q26 | ID=kunci-ujian-5-q026 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-1164 (３つのそ): "3 So (typo: ３つの密)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: しんがたコロナウイルスかんせんしょうのよぼうほうほうについて、ふだんのせいかつできをつけることは「３つのそ」にならないようにする。<br>みっぺいみっせつともうひとつはなんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai cara pencegahan infeksi virus Corona baru (COVID-19), hal yang harus diperhatikan dalam kehidupan sehari-hari adalah menghindari "3 Mitsu". Selain ruang tertutup (Mippei) dan kontak dekat (Missetsu), apakah satu hal lainnya?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 5, Câu 26 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0261] しんがた(しんがた) [word] = jenis baru / tipe baru (新型) | [kb-v2-p6-496] コロナウイルス(-) [technical] = virus corona | [kb-audit-0262] かんせんしょう(かんせんしょう) [word] = penyakit menular (感染症) | [kb-audit-0263] よぼうほうほう(よぼうほうほう) [word] = metode pencegahan (予防方法) | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-v2-p6-562] ふだん(-) [word] = sehari-hari / biasanya | [kb-audit-0083] せいかつ(せいかつ) [word] = kehidupan (soal jebakan untuk せいけつ) | [kb-audit-0445] きをつける(きをつける) [word] = berhati-hati / waspada (気をつける) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-1164] ３つのそ(みっつのそ) [expression] = 3 So (typo: ３つの密) | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p6-250] みっぺい(-) [word] = ruang tertutup (3C) | [kb-v2-p6-251] みっせつ(-) [word] = kontak erat (3C) | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT A: HTML=みっしゅう
+    TRANS: Kerumunan / tempat padat (Misshuu)
+    KOTOBA: [kb-audit-1117] みっしゅう(みっしゅう) [word] = kerumunan padat (密集)
+  OPT B: HTML=ひみつ
+    TRANS: Rahasia (Himitsu)
+    KOTOBA: [kb-audit-1118] ひみつ(ひみつ) [word] = rahasia (秘密)
+  OPT C: HTML=みつど
+    TRANS: Kepadatan (Mitsudo)
+    KOTOBA: [kb-audit-1119] みつど(みつど) [word] = kepadatan / densitas (密度)
+
+=== #Q27 | ID=kunci-ujian-5-q027 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.5 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: しょくひんをとうけつするこうていでまちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang salah mengenai proses pembekuan pangan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 5, Câu 27 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-v2-p6-563] とうけつ(-) [word] = pembekuan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-audit-0709] こうてい(こうてい) [word] = proses / tahapan kerja | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=とうけつをするさいは、ふうみをれっかさせないようゆっくりとうけつする。
+    TRANS: Saat melakukan pembekuan, bekukan secara perlahan-lahan agar cita rasanya tidak menurun
+    KOTOBA: [kb-v2-p6-563] とうけつ(-) [word] = pembekuan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-audit-1109] さい(さい) [word] = saat / ketika (際) | [kb-audit-1120] ふうみ(ふうみ) [word] = cita rasa / aroma (風味) | [kb-audit-0626] れっか(れっか) [word] = penurunan kualitas / kerusakan | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-305] よう(-) [particle] = agar / supaya | [kb-otaff51-1057] ゆっくりと(ゆっくりと) [adverb] = secara perlahan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p3-234] させ(-) [inflected, df:する] = membuat jadi (kausatif)
+  OPT B: HTML=きゅうそくとうけつをするためには、とうけつまえのおんどをさげておくことがじゅうよう。
+    TRANS: Untuk melakukan pembekuan cepat (quick freezing), penting untuk menurunkan suhu pangan terlebih dahulu sebelum dibekukan
+    KOTOBA: [kb-audit-0764] きゅうそく(きゅうそく) [word] = cepat / pembekuan cepat | [kb-v2-p6-563] とうけつ(-) [word] = pembekuan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p6-570] まえ(-) [word] = sebelum / depan | [kb-audit-0118] おんど(おんど) [word] = suhu / temperatur (温度) | [kb-audit-0710] さげて(さげて) [inflected_verb, df:下げる] = menurunkan | [kb-v2-p1-243] おく(-) [word] = melakukan terlebih dahulu | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0120] じゅうよう(じゅうよう) [word] = penting (重要) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=とうけつするさいは、たんじかんでとうけつする。
+    TRANS: Saat melakukan pembekuan, bekukan dalam waktu singkat
+    KOTOBA: [kb-v2-p6-563] とうけつ(-) [word] = pembekuan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-audit-1109] さい(さい) [word] = saat / ketika (際) | [kb-audit-0765] たんじかん(たんじかん) [word] = waktu singkat | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q28 | ID=kunci-ujian-5-q028 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.5 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:A] Potential doubled/colliding particle
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: いじょうじたいやろうどうさいがいがはっせいしたさいにやるべきことで、まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang salah mengenai hal yang harus dilakukan saat terjadi kondisi tidak normal / darurat atau kecelakaan kerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 5, Câu 28 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0250] いじょう(いじょう) [word] = di atas / lebih dari atau sama (以上) | [kb-audit-0711] じたい(じたい) [word] = situasi / keadaan | [kb-audit-1068] ろうどうさいがい(ろうどうさいがい) [technical] = kecelakaan kerja (労働災害) | [kb-audit-0633] はっせい(はっせい) [word] = timbul / terjadi | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-audit-0139] さいに(さいに) [word] = pada saat / ketika (際に) | [kb-v2-p4-219] やる(-) [word] = melakukan / mengerjakan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=いじょうじたいをはっけんしたら、まずなにがおこっているかをすばやくかくにんする。
+    TRANS: Saat menemukan kondisi tidak normal, pertama-tama segera pastikan dengan cepat apa yang sedang terjadi
+    KOTOBA: [kb-audit-0250] いじょう(いじょう) [word] = di atas / lebih dari atau sama (以上) | [kb-audit-0711] じたい(じたい) [word] = situasi / keadaan | [kb-audit-0610] はっけんしたら(はっけんしたら) [inflected_verb, df:発見する] = jika menemukan | [kb-v2-p4-208] まず(-) [word] = pertama-tama / terlebih dahulu | [kb-v2-p2-256] なに(-) [word] = apa | [kb-audit-0766] おこって(おこって) [inflected_verb, df:起こる] = sedang terjadi | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-audit-0032] すばやく(すばやく) [word] = dengan cepat / sigap | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT B: HTML=ひとりでこうどうをする
+    TRANS: Bertindak sendirian
+    KOTOBA: [kb-audit-0324] ひとり(ひとり) [word] = satu orang / sendirian (一人) | [kb-audit-0712] こうどう(こうどう) [word] = tindakan / perilaku | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=まわりにいるせきにんしゃやどうりょうにおおきなこえでしらせる。
+    TRANS: Memberi tahu penanggung jawab atau rekan kerja di sekitar dengan suara keras
+    KOTOBA: [kb-audit-0713] まわり(まわり) [word] = sekitar / sekeliling | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-audit-0872] せきにんしゃ(せきにんしゃ) [word] = penanggung jawab | [kb-audit-0714] どうりょう(どうりょう) [word] = rekan kerja | [kb-audit-0630] おおきな(おおきな) [adjective] = yang besar | [kb-v2-p1-078] こえ(-) [word] = suara | [kb-audit-0274] しらせる(しらせる) [word] = memberitahukan / memberi tanda (知らせる) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi

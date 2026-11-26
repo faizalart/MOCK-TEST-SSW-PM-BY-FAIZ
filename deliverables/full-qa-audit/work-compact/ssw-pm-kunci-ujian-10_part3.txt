@@ -1,0 +1,72 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-10 (Soal Ujian 10 — CBTP Gino1) | Batch qa-batch-02 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=kunci-ujian-10-q009 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業<rt>さぎょう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>に<ruby>確認<rt>かくにん</rt></ruby>すべきことは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus diperiksa sebelum memulai pekerjaan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 2, Câu 9 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p5-246] 始める(はじめる) [word] = memulai | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-otaff51-0471] 確認(かくにん) [noun] = pemeriksaan / konfirmasi | [kb-otaff51-0967] すべき(すべき) [expression] = yang seharusnya dilakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>下痢<rt>げり</rt></ruby>、<ruby>発熱<rt>はつねつ</rt></ruby>、<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、<ruby>手指<rt>てゆび</rt></ruby>の<ruby>傷<rt>きず</rt></ruby>がないこと
+    TRANS: Tidak adanya diare, demam, mual, maupun luka pada tangan dan jari
+    KOTOBA: [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam | [kb-otaff51-0230] 吐き気(はきけ) [noun] = rasa mual | [kb-otaff51-0309] 手指(てゆび) [noun] = jari-jari tangan | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=お<ruby>腹<rt>なか</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いこと
+    TRANS: Adanya sakit perut
+    KOTOBA: [kb-v2-p5-156] お腹(おなか) [word] = perut | [kb-v2-p6-485] 痛い(いたい) [word] = sakit / nyeri | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>目<rt>め</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>いこと
+    TRANS: Adanya sakit mata
+    KOTOBA: [kb-otaff51-0461] 目(め) [noun] = mata | [kb-v2-p6-485] 痛い(いたい) [word] = sakit / nyeri | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q10 | ID=kunci-ujian-10-q010 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.2 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p6-193 (カンピロバフター菌): "bakteri Campylobacter (typo)"
+  CLUSTER CL-0137 (n=5, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-4-q010 (bonus-soal-4), bonus-soal-7-q010 (bonus-soal-7), nguyen04-q010 (latsol-nguyen-04), nguyen07-q010 (latsol-nguyen-07)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カンピロバフター<ruby>菌<rt>きん</rt></ruby>は、<ruby>次<rt>つぎ</rt></ruby>のどの<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>多<rt>おお</rt></ruby>いでしょうか。<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bakteri Campylobacter banyak terdapat pada makanan yang mana di bawah ini? Pilihlah satu jawaban.
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 2, Câu 10 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p6-193] カンピロバフター菌(かんぴろばふたーきん) [compound_technical] = bakteri Campylobacter (typo) | [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-audit-0703] のど(のど) [word] = tenggorokan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p5-220] でしょう(-) [particle] = kira-kira / bukan? | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>海水<rt>かいすい</rt></ruby>の<ruby>魚貝類刺身<rt>ぎょかいるいさしみ</rt></ruby>や<ruby>寿司<rt>すし</rt></ruby>
+    TRANS: Sashimi atau sushi dari ikan dan kerang laut
+    KOTOBA: [kb-1201490] 海水(かいすい) [word] = air laut | [kb-ext-0379-e9ad9ae8b2] 魚貝類刺身(ぎょかいるいさしみ) [word] = sashimi ikan dan kerang mentah | [kb-1595650] 寿司(すし) [word] = sushi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT B: HTML=<ruby>野菜<rt>やさい</rt></ruby>
+    TRANS: Sayuran
+    KOTOBA: [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran
+  OPT C: HTML=<ruby>食肉鶏肉<rt>しょくにくとりにく</rt></ruby>
+    TRANS: Daging (daging ayam)
+    KOTOBA: [kb-ext-0928-e9a39fe882] 食肉鶏肉(しょくにくとりにく) [word] = daging ayam segar
+
+=== #Q11 | ID=kunci-ujian-10-q011 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となるウイルスで<ruby>代表的<rt>だいひょうてき</rt></ruby>なものはどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah virus yang menjadi penyebab utama (representatif) keracunan makanan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 2, Câu 11 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-1412220] 代表的(だいひょうてき) [word] = khas / representatif | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=インフルエンザウイルス
+    TRANS: Virus influenza
+    KOTOBA: [kb-audit-0487] インフルエンザウイルス(いんふるえんざういるす) [word] = virus influenza
+  OPT B: HTML=ノロウイルス
+    TRANS: Norovirus
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus
+  OPT C: HTML=ヘルペスウイルス
+    TRANS: Virus herpes
+    KOTOBA: [kb-audit-0488] ヘルペスウイルス(へるぺすういるす) [word] = virus herpes
+
+=== #Q12 | ID=kunci-ujian-10-q012 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: じゃがいもの<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>を<ruby>取<rt>と</rt></ruby>ることによって<ruby>防<rt>ふせ</rt></ruby>げるものは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dapat dicegah dengan membuang tunas dan kulit kentang yang berwarna hijau?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 2, Câu 12 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-otaff51-0530] 芽(め) [noun] = tunas | [kb-otaff51-0501] 緑色の皮(みどりいろのかわ) [noun] = kulit berwarna hijau | [kb-v2-p1-233] 取る(とる) [word] = menghilangkan / mengambil | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-316] によって(-) [particle] = tergantung pada / oleh | [kb-otaff51-1696] 防げる(ふせげる) [inflected_verb, df:防ぐ] = dapat dicegah | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>
+    TRANS: Keracunan makanan
+    KOTOBA: [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan
+  OPT B: HTML=<ruby>栄養不足<rt>えいようぶそく</rt></ruby>
+    TRANS: Kekurangan gizi
+    KOTOBA: [kb-1174050] 栄養不足(えいようぶそく) [word] = Kekurangan gizi / defisiensi nutrisi
+  OPT C: HTML=<ruby>体重増加<rt>たいじゅうぞうか</rt></ruby>
+    TRANS: Kenaikan berat badan
+    KOTOBA: [kb-ext-1165-e4bd93e987] 体重増加(たいじゅうぞうか) [word] = Kenaikan berat badan

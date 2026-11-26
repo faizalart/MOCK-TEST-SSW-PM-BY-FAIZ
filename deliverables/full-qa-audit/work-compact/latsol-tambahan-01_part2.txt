@@ -1,0 +1,81 @@
+# AUDIT SHEET: latsol-tambahan-01 (Latsol Tambahan 01) | Batch qa-batch-10 | Part 2 (Q5-8 of 25)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=tambahan01-q005 | KEY=B (idx=1) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="次の写真を見て下さい。正しいものをひとつ選びなさい" vs questionText="次(つぎ)の写真(しゃしん)を見て下さい。 正しいものをひとつ選びなさい" || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: 誇り, 埃, ほこり || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-v2-p1-098 (誇り): "debu (typo 埃)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("毛髪が食品に混ざらないように") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>次<rt>つぎ</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>見<rt>み</rt></ruby>て<ruby>下<rt>くだ</rt></ruby>さい。<ruby>正<rt>ただ</rt></ruby>しいものをひとつ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 次(つぎ)の写真(しゃしん)を見て下さい。 正しいものをひとつ選びなさい
+  PROMPT_TRANS: Lihatlah gambar berikut. Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 3, nomor 5. Bobot: 6.0 poin. Kunci jawaban: B. Visual: 6 panel prosedur mengenakan seragam kerja (ブラッシング, ヘアーネット, 帽子, 作業着, 確認 OK, dan peringatan 毛髪がはみ出ているのはダメ!!).
+  KOTOBA_PROMPT: [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-1321900] 写真(しゃしん) [word] = foto | [kb-v2-p5-278] 見て(みて) [inflected, df:見る] = melihat | [kb-audit-0176] 下さい(ください) [word] = silakan / tolong (bentuk sopan ください) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>髪<rt>かみ</rt></ruby>を<ruby>守<rt>まも</rt></ruby>るために
+    TRANS: Untuk melindungi rambut
+    KOTOBA: [kb-v2-p5-149] 髪(かみ) [word] = rambut | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-v2-p1-328] ために(-) [particle] = untuk / demi
+  OPT B: HTML=<ruby>毛髪<rt>もうはつ</rt></ruby>が<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>混<rt>ま</rt></ruby>ざらないように
+    TRANS: Agar rambut tidak tercampur ke dalam makanan
+    KOTOBA: [kb-ext-latsol-0041] 毛髪(もうはつ) [word] = rambut kepala / bulu | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-latsol-mazaranai] 混ざらない(まざらない) [inflected_verb, df:混ざる] = tidak tercampur
+  OPT C: HTML=<ruby>毛髪<rt>もうはつ</rt></ruby>を<ruby>誇<rt>ほこ</rt></ruby>りから<ruby>守<rt>まも</rt></ruby>るために
+    TRANS: Untuk melindungi rambut dari debu (catatan: kanji 誇り pada sumber adalah salah ketik dari 埃/ほこり)
+    KOTOBA: [kb-ext-latsol-0041] 毛髪(もうはつ) [word] = rambut kepala / bulu | [kb-v2-p1-098] 誇り(ほこり) [word] = debu (typo 埃) | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-v2-p1-328] ために(-) [particle] = untuk / demi
+
+=== #Q6 | ID=tambahan01-q006 | KEY=A (idx=0) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="毒素型食中毒の代表例で正しいものを一つ選びなさい" vs questionText="毒素型食中毒 (どくそがたしょくちゅうどく)の代表例 (だいひょうれい)で正しいものを一つ選びなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("セレウス菌") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>毒素型食中毒<rt>どくそがたしょくちゅうどく</rt></ruby>の<ruby>代表例<rt>だいひょうれい</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 毒素型食中毒 (どくそがたしょくちゅうどく)の代表例 (だいひょうれい)で正しいものを一つ選びなさい
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai contoh utama keracunan makanan tipe toksin (racun).
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 3, nomor 6. Bobot: 6.0 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-ext-latsol-0103] 毒素型食中毒(どくそがたしょくちゅうどく) [word] = keracunan makanan tipe toksin | [kb-1412240] 代表例(だいひょうれい) [word] = contoh khas / representatif | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bakteri Bacillus cereus
+    KOTOBA: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus
+  OPT B: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Bakteri Vibrio parahaemolyticus (tipe infeksi)
+    KOTOBA: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT C: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Campylobacter (tipe infeksi)
+    KOTOBA: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter
+  OPT D: HTML=<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>
+    TRANS: Bakteri E. coli enterohemoragik (tipe infeksi)
+    KOTOBA: [kb-otaff51-0525] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [compound_technical] = bakteri E. coli enterohemoragik (O157, O111)
+
+=== #Q7 | ID=tambahan01-q007 | KEY=B (idx=1) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="温度について、多くの微生物が増殖しにくくなる、正しいものをひとつ選びなさい" vs questionText="温度(おんど)について、 多くの微生物 (びせいぶつ)が増殖 (ぞうしょく) しにくくなる、 正しいものをひとつ選びなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("60℃以上") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>温度<rt>おんど</rt></ruby>について、<ruby>多<rt>おお</rt></ruby>くの<ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>しにくくなる、<ruby>正<rt>ただ</rt></ruby>しいものをひとつ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 温度(おんど)について、 多くの微生物 (びせいぶつ)が増殖 (ぞうしょく) しにくくなる、 正しいものをひとつ選びなさい
+  PROMPT_TRANS: Mengenai suhu, pilihlah satu jawaban yang benar di mana sebagian besar mikroorganisme menjadi sulit berkembang biak.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 3, nomor 7. Bobot: 6.0 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0984] 増殖しにくくなる(ぞうしょくしにくくなる) [expression] = menjadi sulit berkembang biak | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=10°C-60°C
+    TRANS: 10°C–60°C (zona bahaya suhu berkembang biak cepat)
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu)
+  OPT B: HTML=60℃<ruby>以上<rt>いじょう</rt></ruby>
+    TRANS: 60°C ke atas
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal
+  OPT C: HTML=30°C-40°C
+    TRANS: 30°C–40°C (suhu optimal bakteri berkembang biak)
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu)
+
+=== #Q8 | ID=tambahan01-q008 | KEY=C (idx=2) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="HACCPで対象とする健康危害要因には次の3つからがあります。間違ってるものをひとつ選びなさい" vs questionText="HACCP で対象(たいしょう)とする健康(けんこう) 危害要因 (きがいよういん)には次の 3つからがあります。 間違ってるものをひとつ選" || [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 科学的, 化学的
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("安心危害要因") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPで<ruby>対象<rt>たいしょう</rt></ruby>とする<ruby>健康<rt>けんこう</rt></ruby><ruby>危害要因<rt>きがいよういん</rt></ruby>には<ruby>次<rt>つぎ</rt></ruby>の3つからがあります。<ruby>間違<rt>まちが</rt></ruby>ってるものをひとつ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: HACCP で対象(たいしょう)とする健康(けんこう) 危害要因 (きがいよういん)には次の 3つからがあります。 間違ってるものをひとつ選びなさい
+  PROMPT_TRANS: Terdapat 3 faktor bahaya kesehatan yang menjadi target dalam HACCP. Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 3, nomor 8. Bobot: 6.0 poin. Kunci jawaban: C. Catatan QA: Pada opsi B tertulis Kanji 科学的 (ilmiah), yang merupakan typo homofon dari 化学的 (kimiawi).
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p2-221] 対象とする(たいしょうとする) [expression] = menjadikan sasaran | [kb-ext-0459-e581a5e5ba] 健康危害要因(けんこうきがいよういん) [word] = faktor bahaya kesehatan | [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-latsol-7257eb5745] 間違ってる(まちがってる) [word] = salah / keliru | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>生物的<rt>せいぶつてき</rt></ruby><ruby>危害要因<rt>きがいよういん</rt></ruby>
+    TRANS: Faktor bahaya biologis
+    KOTOBA: [kb-otaff51-0441] 生物的危害要因(せいぶつてききがいよういん) [compound_technical] = faktor bahaya biologis
+  OPT B: HTML=<ruby>科学的<rt>かがくてき</rt></ruby><ruby>危害要因<rt>きがいよういん</rt></ruby>
+    TRANS: Faktor bahaya kimiawi (catatan: sumber menulis 科学的, seharusnya 化学的)
+    KOTOBA: [kb-ext-0205-e7a791e5ad] 科学的危害要因(かがくてききがいよういん) [word] = faktor bahaya kimiawi (varian)
+  OPT C: HTML=<ruby>安心<rt>あんしん</rt></ruby><ruby>危害要因<rt>きがいよういん</rt></ruby>
+    TRANS: Faktor bahaya ketenangan/keamanan
+    KOTOBA: [kb-latsol-ff32f3c6dc] 安心危害要因(あんしんきがいよういん) [word] = faktor bahaya keamanan pangan

@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-12 (Soal Ujian 12 — CBTP Gino1) | Batch qa-batch-03 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=kunci-ujian-12-q005 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.1 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 準清潔作業区域 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0522 (などをつう): "dan lain-lain (typo)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0225 (とりあつう): "menangani (typo 取り扱う)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0225 (とりあつう): "menangani (typo 取り扱う)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: じゅんせいけつさぎょうくいきでどんなさぎょうをしますか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pekerjaan seperti apa yang dilakukan di area kerja semi-bersih (準清潔作業区域 / jun-seiketsu sagyou kuiki)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 1, Câu 5 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0218] じゅんせいけつ(じゅんせいけつ) [word] = semi-bersih (準清潔) | [kb-audit-0219] さぎょうくいき(さぎょうくいき) [word] = area kerja / zona kerja (作業区域) | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-audit-0220] さぎょう(さぎょう) [word] = pekerjaan / pengerjaan (作業) | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=げんざいりょうのうけいれなどさぎょうじょうのそとからもちこまれたげんざいりょうなどをつう
+    TRANS: Menangani bahan baku yang dibawa dari luar area kerja, seperti penerimaan bahan baku
+    KOTOBA: [kb-v2-p5-201] げんざいりょう(-) [word] = bahan baku (bacaan 原材料) | [kb-audit-0747] うけいれ(うけいれ) [word] = penerimaan bahan baku | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-audit-0645] そと(そと) [word] = luar / bagian luar | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-audit-0750] もちこまれた(もちこまれた) [inflected_verb, df:持ち込む] = dibawa masuk | [kb-audit-0522] などをつう(などをつう) [expression] = dan lain-lain (typo) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=かねつややくざいによるさっきんがおわったしょくひんをとりあつう
+    TRANS: Menangani makanan yang telah selesai melalui proses pemanasan atau sterilisasi dengan bahan kimia
+    KOTOBA: [kb-audit-0222] かねつ(かねつ) [word] = pemanasan (加熱) | [kb-audit-0211] やくざい(やくざい) [word] = bahan kimia / disinfektan (薬剤) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-audit-0212] さっきん(さっきん) [word] = sterilisasi / pembunuhan bakteri (殺菌) | [kb-audit-0223] おわった(おわった) [inflected_verb, df:終わる] = telah selesai (終わった) | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-0225] とりあつう(とりあつかう) [inflected_verb, df:取り扱う] = menangani (typo 取り扱う) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=さっきんするまえのげんざいりょうをとりあつう
+    TRANS: Menangani bahan baku sebelum disterilisasi (pengolahan awal)
+    KOTOBA: [kb-audit-0212] さっきん(さっきん) [word] = sterilisasi / pembunuhan bakteri (殺菌) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p6-570] まえ(-) [word] = sebelum / depan | [kb-v2-p5-201] げんざいりょう(-) [word] = bahan baku (bacaan 原材料) | [kb-audit-0225] とりあつう(とりあつかう) [inflected_verb, df:取り扱う] = menangani (typo 取り扱う) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q6 | ID=kunci-ujian-12-q006 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>の<ruby>加熱殺菌方法<rt>かねつさっきんほうほう</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah metode sterilisasi pemanasan untuk bakteri penyebab keracunan makanan pada umumnya.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 1, Câu 6 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-1165880] 一般的(いっぱんてき) [word] = umum / lazim | [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-ext-0198-e58aa0e786] 加熱殺菌方法(かねつさっきんほうほう) [word] = metode sterilisasi pemanasan | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ちゅうしんおんど75°Cでちゅうしんおんど1ぶいじょうかねつする
+    TRANS: Memanaskan dengan suhu bagian tengah (suhu inti) 75°C selama 1 menit atau lebih
+    KOTOBA: [kb-audit-0244] ちゅうしんおんど(ちゅうしんおんど) [word] = suhu inti / bagian tengah (中心温度) | [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-v2-p6-624] ぶいじょう(-) [expression] = lebih dari (menit, typo: 分以上) | [kb-audit-0222] かねつ(かねつ) [word] = pemanasan (加熱) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=ちゅうしんおんど85°C 90°Cで90びょうかんいじょうかねつする
+    TRANS: Memanaskan dengan suhu bagian tengah (suhu inti) 85°C–90°C selama 90 detik atau lebih
+    KOTOBA: [kb-audit-0244] ちゅうしんおんど(ちゅうしんおんど) [word] = suhu inti / bagian tengah (中心温度) | [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-audit-0245] びょうかん(びょうかん) [word] = selama ... detik (秒間) | [kb-audit-0250] いじょう(いじょう) [word] = di atas / lebih dari atau sama (以上) | [kb-audit-0222] かねつ(かねつ) [word] = pemanasan (加熱) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=ちゅうしんおんど20°Cで4ふんかんいじょうかねつする
+    TRANS: Memanaskan dengan suhu bagian tengah (suhu inti) 20°C selama 4 menit atau lebih
+    KOTOBA: [kb-audit-0244] ちゅうしんおんど(ちゅうしんおんど) [word] = suhu inti / bagian tengah (中心温度) | [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-audit-0694] ふんかん(ふんかん) [suffix] = selama ... menit | [kb-audit-0250] いじょう(いじょう) [word] = di atas / lebih dari atau sama (以上) | [kb-audit-0222] かねつ(かねつ) [word] = pemanasan (加熱) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q7 | ID=kunci-ujian-12-q007 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:B] 激 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0537 (はげ激しい): "sangat parah / hebat (typo: 激しい)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アニサキス<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>はどれか<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah gejala keracunan makanan akibat parasit Anisakis.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 1, Câu 7 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0033] アニサキス食中毒(あにさきすしょくちゅうどく) [compound_technical] = keracunan makanan akibat parasit Anisakis | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>激<rt>はげ</rt></ruby>しい<ruby>腹痛<rt>ふくつう</rt></ruby>
+    TRANS: Sakit perut yang hebat
+    KOTOBA: [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut
+  OPT B: HTML=はげ<br>激しいげり
+    TRANS: Diare yang hebat
+    KOTOBA: [kb-audit-0537] はげ激しい(はげしい) [adjective, df:激しい] = sangat parah / hebat (typo: 激しい) | [kb-audit-0538] げり(げり) [word] = diare / mencret
+  OPT C: HTML=ふくつうげり
+    TRANS: Sakit perut dan diare
+    KOTOBA: [kb-latsol-c3c2c86f95] ふくつう(ふくつう) [word] = sakit perut | [kb-audit-0538] げり(げり) [word] = diare / mencret
+
+=== #Q8 | ID=kunci-ujian-12-q008 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.2 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうふくはいっぱんてきのちゃくようについてただしいじゅんばんをえらびなさい<br>アヘアーネット<br>イブラッシング<br>ウぼうし<br>エかくにん<br>オさぎょうふく
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah urutan yang benar mengenai cara pemakaian pakaian kerja secara umum: (A) Jaring rambut (hairnet), (B) Penyikatan rambut (brushing), (C) Topi, (D) Pemeriksaan, (E) Pakaian kerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 2, Câu 8 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p6-321] さぎょうふく(-) [word] = baju kerja (bacaan 作業服) | [kb-audit-0231] いっぱんてき(いっぱんてき) [word] = umum / secara umum (一般的) | [kb-audit-0232] ちゃくよう(ちゃくよう) [word] = pemakaian / mengenakan (着用) | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-audit-0233] じゅんばん(じゅんばん) [word] = urutan / giliran (順番) | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-otaff51-0075] ヘアーネット(へあーねっと) [noun] = jaring rambut (hairnet) | [kb-otaff51-0073] ブラッシング(ぶらっしんぐ) [noun] = penyikatan rambut | [kb-audit-0234] ぼうし(ぼうし) [word] = topi / penutup kepala (帽子) | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p6-279] ア(-) [technical] = pilihan A (katakana) | [kb-v2-p6-280] イ(-) [technical] = pilihan I (katakana) | [kb-v2-p6-281] ウ(-) [technical] = pilihan U (katakana) | [kb-v2-p6-282] エ(-) [technical] = pilihan E (katakana) | [kb-v2-p6-283] オ(-) [technical] = pilihan O (katakana)
+  OPT A: HTML=イ、ア、ウ、オ、エ
+    TRANS: B, A, C, E, D
+    KOTOBA: [kb-v2-p6-280] イ(-) [technical] = pilihan I (katakana) | [kb-v2-p6-279] ア(-) [technical] = pilihan A (katakana) | [kb-v2-p6-281] ウ(-) [technical] = pilihan U (katakana) | [kb-v2-p6-283] オ(-) [technical] = pilihan O (katakana) | [kb-v2-p6-282] エ(-) [technical] = pilihan E (katakana)
+  OPT B: HTML=エオウアイ
+    TRANS: D, E, C, A, B
+    KOTOBA: [kb-v2-p6-278] エオウアイ(-) [expression] = urutan pilihan (A-E)
+  OPT C: HTML=ウ、ア、イ、オ、エ
+    TRANS: C, A, B, E, D
+    KOTOBA: [kb-v2-p6-281] ウ(-) [technical] = pilihan U (katakana) | [kb-v2-p6-279] ア(-) [technical] = pilihan A (katakana) | [kb-v2-p6-280] イ(-) [technical] = pilihan I (katakana) | [kb-v2-p6-283] オ(-) [technical] = pilihan O (katakana) | [kb-v2-p6-282] エ(-) [technical] = pilihan E (katakana)

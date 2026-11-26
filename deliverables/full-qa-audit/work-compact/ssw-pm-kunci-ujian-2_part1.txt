@@ -1,0 +1,76 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-2 (Soal Ujian 2 — CBTP Gino1) | Batch qa-batch-01 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=kunci-ujian-2-q001 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>するための3<ruby>条件<rt>じょうけん</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai 3 syarat untuk menyediakan pangan yang aman.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 1, Câu 1 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-184] 提供する(ていきょうする) [word] = menyediakan / menyajikan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1356510] 条件(じょうけん) [word] = syarat / kondisi | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>安価<rt>あんか</rt></ruby>な<ruby>原材料<rt>げんざいりょう</rt></ruby>
+    TRANS: Bahan baku yang murah
+    KOTOBA: [kb-v2-p2-224] 安価な(あんかな) [word] = murah / berbiaya rendah | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku
+  OPT B: HTML=きれいな<ruby>製造環境<rt>せいぞうかんきょう</rt></ruby>
+    TRANS: Lingkungan produksi yang bersih
+    KOTOBA: [kb-v2-p1-259] きれいな(-) [word] = bersih | [kb-ext-1055-e8a3bde980] 製造環境(せいぞうかんきょう) [word] = lingkungan produksi
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生的取<rt>えいせいてきと</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い
+    TRANS: Penanganan pangan secara higienis
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-044] 衛生的取り扱い(えいせいてきとりあつかい) [compound_technical] = penanganan higienis | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q2 | ID=kunci-ujian-2-q002 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  CLUSTER CL-0036 (n=6, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-16-q003 (ssw-pm-kunci-ujian-16), bonus-soal-2-q002 (bonus-soal-2), bonus-soal-8-q002 (bonus-soal-8), nguyen02-q002 (latsol-nguyen-02), nguyen08-q002 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>に<ruby>存在<rt>そんざい</rt></ruby>し、<ruby>十分加熱<rt>じゅうぶんかねつ</rt></ruby>しないと<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>しやすい<ruby>原因<rt>げんいん</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Penyebab manakah yang terdapat pada kerang bivalvia seperti tiram dan mudah menyebabkan keracunan makanan jika tidak dipanaskan secara menyeluruh? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 1, Câu 2 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia) | [kb-v2-p2-183] 存在し(そんざいし) [inflected, df:存在する] = ada / terdapat | [kb-ext-0817-e58d81e588] 十分加熱(じゅうぶんかねつ) [word] = pemanasan menyeluruh hingga matang | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p2-180] 発生しやすい(はっせいしやすい) [inflected, df:発生する] = mudah terjadi | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT B: HTML=ノロウイルス
+    TRANS: Norovirus
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus
+  OPT C: HTML=<ruby>大腸菌<rt>だいちょうきん</rt></ruby>
+    TRANS: Escherichia coli (E. coli)
+    KOTOBA: [kb-otaff51-0255] 大腸菌(だいちょうきん) [compound_technical] = bakteri E. coli
+
+=== #Q3 | ID=kunci-ujian-2-q003 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  CLUSTER CL-0037 (n=6, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-16-q004 (ssw-pm-kunci-ujian-16), bonus-soal-2-q003 (bonus-soal-2), bonus-soal-8-q003 (bonus-soal-8), nguyen02-q003 (latsol-nguyen-02), nguyen08-q003 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>は<ruby>増殖<rt>ぞうしょく</rt></ruby>しにくい<ruby>環境<rt>かんきょう</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Lingkungan manakah yang membuat mikroorganisme sulit berkembang biak? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 1, Câu 3 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0983] 増殖しにくい(ぞうしょくしにくい) [inflected_adj, df:増殖しにくい] = sulit berkembang biak | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=30ºC－40℃、<ruby>水分<rt>すいぶん</rt></ruby>があり、<ruby>汚<rt>よご</rt></ruby>れがある<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu 30°C - 40°C, lembap/berair, dan terdapat kotoran
+    KOTOBA: [kb-audit-0185] ºC(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-v2-p2-259] あり(-) [inflected, df:ある] = ada | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-v2-p1-242] ある(-) [word] = ada | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=4ºC <ruby>以下<rt>いか</rt></ruby>、<ruby>乾燥<rt>かんそう</rt></ruby>、<ruby>汚<rt>よご</rt></ruby>れがない<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu 4°C atau lebih rendah, kering, dan bersih tanpa kotoran
+    KOTOBA: [kb-audit-0185] ºC(ど) [technical] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0103] 乾燥(かんそう) [noun] = pengeringan | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>室温<rt>しつおん</rt></ruby>で、<ruby>汚<rt>よご</rt></ruby>れがある<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu ruang dan terdapat kotoran
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-v2-p1-242] ある(-) [word] = ada | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q4 | ID=kunci-ujian-2-q004 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>本日出勤<rt>ほんじつしゅっきん</rt></ruby>する<ruby>予定<rt>よてい</rt></ruby>がありますが、おなかを<ruby>壊<rt>こわ</rt></ruby>し、おう<ruby>吐<rt>と</rt></ruby>もしました。この<ruby>場合<rt>ばあい</rt></ruby>の<ruby>対応<rt>たいおう</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hari ini Anda dijadwalkan masuk kerja, tetapi mengalami sakit perut (diare) dan muntah. Pilihlah satu tindakan penanganan yang benar dalam kondisi ini.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 1, Câu 4 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-ext-1660-e69cace697] 本日出勤(ほんじつしゅっきん) [word] = masuk kerja hari ini | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1543240] 予定(よてい) [word] = rencana / jadwal | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-v2-p2-093] おなか(-) [word] = perut | [kb-v2-p2-152] 壊し(こわし) [inflected, df:壊す] = sakit perut (diare) | [kb-otaff51-0007] おう吐(おうと) [noun] = muntah | [kb-audit-1166] しました(しました) [inflected_verb, df:する] = telah melakukan (する) | [kb-v2-p1-267] この(-) [word] = ini | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-otaff51-0277] 対応(たいおう) [noun] = penanganan / respons | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>我慢<rt>がまん</rt></ruby>して<ruby>出勤<rt>しゅっきん</rt></ruby>する
+    TRANS: Menahannya dan tetap masuk kerja
+    KOTOBA: [kb-v2-p2-153] 我慢して(がまんして) [inflected, df:我慢する] = menahan (sakit) | [kb-v2-p2-154] 出勤する(しゅっきんする) [word] = berangkat kerja
+  OPT B: HTML=<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>し、<ruby>指示<rt>しじ</rt></ruby>に<ruby>従<rt>したが</rt></ruby>います
+    TRANS: Melapor kepada penanggung jawab dan mengikuti instruksinya
+    KOTOBA: [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-156] 報告し(ほうこくし) [inflected, df:報告する] = melapor | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p2-158] 従います(したがいます) [inflected, df:従う] = mematuhi / mengikuti | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>自己判断<rt>じこはんだん</rt></ruby>で<ruby>休<rt>やす</rt></ruby>みます
+    TRANS: Memutuskan sendiri untuk mengambil libur
+    KOTOBA: [kb-2834030] 自己判断(じこはんだん) [word] = keputusan sendiri | [kb-v2-p2-155] 休みます(やすみます) [inflected, df:休む] = beristirahat / absen | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi

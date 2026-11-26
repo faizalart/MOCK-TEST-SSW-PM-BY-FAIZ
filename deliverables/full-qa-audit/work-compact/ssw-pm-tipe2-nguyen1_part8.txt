@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-tipe2-nguyen1 (Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1) | Batch qa-batch-04 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=q029 | KEY=B (idx=1) | CAT= | SRC=SSW NGUYEN 1.pdf p.28 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 問, 衛生管理, 実施, 時, 記録, 間違, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [KANJI_WITHOUT_RUBY@opt:A] 温度, 濃度, 時間, 測, 確認, 記録 || [KANJI_WITHOUT_RUBY@opt:B] 後, 記録 || [KANJI_WITHOUT_RUBY@opt:C] 事実, 記録, 絶対
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 問 29. HACCP のよる衛生管理を実施するとき、どんな時に、どうのように記録するか。間違っているものを選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Soal 29. Saat melaksanakan manajemen higiene berdasarkan HACCP, kapan dan bagaimana cara mencatatnya? Pilihlah jawaban yang salah.
+  EXPLANATION: Bukti PDF (Halaman 28): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (後でまとめて記録しなければなりません).
+  KOTOBA_PROMPT: [kb-v2-p4-056] 問(とい) [word] = soal / pertanyaan | [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p4-213] よる(-) [particle] = oleh / berdasarkan | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-1321140] 実施(じっし) [word] = pelaksanaan / implementasi | [kb-audit-1102] するとき(するとき) [expression] = ketika melakukan (する時) | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-327] ように(-) [particle] = agar / supaya | [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=温度や濃度や時間は、測ったとき、確認したときすぐに記録しなければなりません
+    TRANS: Suhu, konsentrasi, dan waktu harus segera dicatat pada saat diukur dan diperiksa
+    KOTOBA: [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p4-187] 測った(はかった) [inflected, df:測る] = mengukur (lampau) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-audit-0936] 確認したとき(かくにんしたとき) [expression] = ketika memeriksa | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p2-028] 記録し(きろくし) [inflected, df:記録する] = mencatat | [kb-audit-0373] なければなりません(なければなりません) [word] = harus / wajib dilakukan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=後でまとめて記録しなければなりません
+    TRANS: Harus dicatat sekaligus nanti (dikumpulkan di akhir)
+    KOTOBA: [kb-audit-0024] 後で(あとで) [word] = nanti / kemudian | [kb-v2-p4-220] まとめて(-) [word] = sekaligus / dirangkum | [kb-v2-p2-028] 記録し(きろくし) [inflected, df:記録する] = mencatat | [kb-audit-0373] なければなりません(なければなりません) [word] = harus / wajib dilakukan
+  OPT C: HTML=事実でないことを記録することは、絶対にしてはいけません
+    TRANS: Sama sekali tidak boleh mencatat hal yang tidak sesuai dengan fakta
+    KOTOBA: [kb-otaff51-0105] 事実(じじつ) [noun] = fakta sebenarnya | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0498] 絶対(ぜったい) [adverb] = mutlak / sama sekali (tidak boleh) | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-audit-0466] いけません(いけません) [expression, df:いく] = tidak boleh / harus (sopan) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q30 | ID=q030 | KEY=A (idx=0) | CAT= | SRC=SSW NGUYEN 1.pdf p.29 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 清掃, 不十分, 時, 作業場, 衛生管理, 問題, 一番正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "30" missing in ID "Ketika pembersihan AC tidak memadai, masalah apa yang timbul dalam manajemen hig" || [KANJI_WITHOUT_RUBY@opt:A] 中, 作業, 広 || [KANJI_WITHOUT_RUBY@opt:B] 電気料金, 高, 工場, 上 || [KANJI_WITHOUT_RUBY@opt:C] 冷房, 力, 弱, 温度, 下
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 30. エアコンの清掃が不十分な時に、作業場の衛生管理でどのような問題がありますか。一番正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ketika pembersihan AC tidak memadai, masalah apa yang timbul dalam manajemen higiene tempat kerja? Pilihlah satu jawaban yang paling tepat.
+  EXPLANATION: Bukti PDF (Halaman 29): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (エアコンの中のカビやほこりが作業に広がる).
+  KOTOBA_PROMPT: [kb-v2-p4-073] エアコン(-) [word] = pendingin ruangan (AC) | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-1492740] 不十分(ふじゅうぶん) [word] = tidak mencukupi | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-1536010] 問題(もんだい) [word] = soal / masalah | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-1165970] 一番(いちばん) [word] = paling / nomor satu | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=エアコンの中のカビやほこりが作業に広がる
+    TRANS: Jamur dan debu di dalam AC menyebar ke area kerja
+    KOTOBA: [kb-v2-p4-073] エアコン(-) [word] = pendingin ruangan (AC) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p4-163] 広がる(ひろがる) [word] = menyebar luas | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=電気料金が高くなって、工場のコストが上がる
+    TRANS: Tagihan listrik menjadi mahal sehingga biaya pabrik meningkat
+    KOTOBA: [kb-v2-p4-064] 電気料金(でんきりょうきん) [compound_technical] = tarif biaya listrik | [kb-v2-p4-143] 高く(たかく) [inflected, df:高い] = tinggi / mahal | [kb-v2-p1-309] なって(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-v2-p4-078] コスト(-) [word] = biaya | [kb-v2-p4-221] 上がる(あがる) [word] = naik / meningkat | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=冷房する力が弱くなって、温度が下がりにくくなる
+    TRANS: Daya pendinginan melemah sehingga suhu sulit turun
+    KOTOBA: [kb-v2-p4-087] 冷房(れいぼう) [word] = pendinginan ruangan (AC) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1554820] 力(ちから) [standalone_term] = Kekuatan fisik saat mengangkat beban kerja | [kb-v2-p3-209] 弱く(よわく) [inflected, df:弱い] = lemah / rentan | [kb-v2-p1-309] なって(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p4-169] 下がりにくく(さがりにくく) [inflected, df:下がる] = sulit turun (suhu) | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q31 | ID=q031 | KEY=A (idx=0) | CAT= | SRC=SSW NGUYEN 1.pdf p.30 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 肉, 硬, 野菜, 強, 力, 切, 安全保護具, 着用 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "31" missing in ID "Saat ingin memotong daging atau sayuran keras (seperti labu) dengan tenaga yang " || [KANJI_WITHOUT_RUBY@opt:A] 手袋 || [KANJI_WITHOUT_RUBY@opt:B] 手袋 || [KANJI_WITHOUT_RUBY@opt:C] 手袋
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 31. 肉や硬い野菜（かぼちゃ）などを強い力で切りたいですが、どんな安全保護具を着用しますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat ingin memotong daging atau sayuran keras (seperti labu) dengan tenaga yang kuat, alat pelindung diri (APD) apa yang dikenakan?
+  EXPLANATION: Bukti PDF (Halaman 30): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (くさり手袋).
+  KOTOBA_PROMPT: [kb-otaff51-0512] 肉(にく) [noun] = daging | [kb-v2-p4-140] 硬い(かたい) [word] = keras | [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-v2-p4-079] かぼちゃ(-) [word] = labu kuning | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-1554820] 力(ちから) [standalone_term] = Kekuatan fisik saat mengangkat beban kerja | [kb-v2-p4-188] 切りたい(きりたい) [inflected, df:切る] = ingin memotong | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-otaff51-0263] 安全保護具(あんぜんほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-audit-1017] 着用しますか(ちゃくようしますか) [inflected_verb, df:着用する] = apakah mengenakan? | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=くさり手袋
+    TRANS: Sarung tangan rantai baja (chainmail glove)
+    KOTOBA: [kb-otaff51-0013] くさり手袋(くさりてぶくろ) [compound_technical] = sarung tangan rantai baja tahan karat
+  OPT B: HTML=ミトン手袋
+    TRANS: Sarung tangan miton (tahan panas)
+    KOTOBA: [kb-otaff51-0081] ミトン手袋(みとんてぶくろ) [compound_technical] = sarung tangan tebal tahan panas (mitten)
+  OPT C: HTML=メクセル手袋
+    TRANS: Sarung tangan Mexel
+    KOTOBA: [kb-otaff51-0082] メクセル手袋(めくせるてぶくろ) [compound_technical] = sarung tangan serat tahan potong (Mexel)
+
+=== #Q32 | ID=q032 | KEY=A (idx=0) | CAT= | SRC=SSW NGUYEN 1.pdf p.30 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 日本, 表示, 食品, 正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "32" missing in ID "Manakah pangan alergen yang wajib dicantumkan pada label di Jepang? Pilihlah sat"
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 32. 日本で表示しなければならないアレルギー食品はどれですか。正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pangan alergen yang wajib dicantumkan pada label di Jepang? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Bukti PDF (Halaman 30): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (かに、えび).
+  KOTOBA_PROMPT: [kb-1582710] 日本(にほん) [word] = Jepang | [kb-audit-0961] 表示しなければ(ひょうじしなければ) [expression] = harus menampilkan (条件) | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=かに、えび
+    TRANS: Kepiting, udang
+    KOTOBA: [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0006] えび(えび) [noun] = udang
+  OPT B: HTML=ジャガイモ、もも
+    TRANS: Kentang, persik
+    KOTOBA: [kb-v2-p4-082] ジャガイモ(-) [word] = kentang | [kb-latsol-abbbebe758] もも(もも) [word] = buah persik (peach)
+  OPT C: HTML=オレンジ、バナナ
+    TRANS: Jeruk, pisang
+    KOTOBA: [kb-v2-p2-057] オレンジ(-) [word] = jeruk | [kb-v2-p3-100] バナナ(-) [word] = pisang

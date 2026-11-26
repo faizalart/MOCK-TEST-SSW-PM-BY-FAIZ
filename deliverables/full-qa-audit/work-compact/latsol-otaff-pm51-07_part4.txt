@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-07 (Latsol OTAFF SSW PM Modul 5.1 - Paket 07) | Batch qa-batch-12 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=otaff-pm51-07-q013 | KEY=A (idx=0) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.24 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業者<rt>さぎょうしゃ</rt></ruby>は、<ruby>毎日<rt>まいにち</rt></ruby>の「<ruby>健康<rt>けんこう</rt></ruby>チェック」のほかに、<ruby>職場<rt>しょくば</rt></ruby>で<ruby>決<rt>き</rt></ruby>まっているどのような<ruby>検査<rt>けんさ</rt></ruby>を<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>受<rt>う</rt></ruby>けなければなりませんか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Selain 'pemeriksaan kesehatan harian', pemeriksaan berkala apakah yang wajib diikuti oleh pekerja sesuai ketentuan tempat kerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 24 (Bab 2.3(3)①, hal. 19 teks). Bobot: 3 poin. Kunci jawaban: A. Pekerja wajib mengikuti 定期的な健康診断 (medical check-up berkala) dan 検便 (pemeriksaan tinja untuk mendeteksi karier bakteri/Norovirus).
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-1524720] 毎日(まいにち) [word] = setiap hari | [kb-u1416-7edebc1509] 健康チェック(けんこうちぇっく) [word] = pemeriksaan kondisi kesehatan | [kb-v2-p1-286] ほかに(-) [expression] = selain itu | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0728] 決まっている(きまっている) [inflected_verb, df:決まる] = sudah ditentukan | [kb-1257890] 検査(けんさ) [word] = pemeriksaan / inspeksi | [kb-1777250] 定期的(ていきてき) [word] = secara berkala | [kb-otaff51-1411] 受けなければなりません(うけなければなりません) [expression] = wajib menjalani / mengikuti | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>定期的<rt>ていきてき</rt></ruby>な「<ruby>健康診断<rt>けんこうしんだん</rt></ruby>」や「<ruby>検便<rt>けんべん</rt></ruby>」
+    TRANS: 'Pemeriksaan kesehatan berkala (kenkou shindan)' dan 'pemeriksaan sampel tinja (kenben)'
+    KOTOBA: [kb-1777250] 定期的(ていきてき) [word] = secara berkala | [kb-otaff51-0147] 健康診断(けんこうしんだん) [compound_technical] = pemeriksaan kesehatan berkala (medical check-up) | [kb-otaff51-0348] 検便(けんべん) [compound_technical] = pemeriksaan sampel tinja
+  OPT B: HTML=<ruby>自動車運転免許<rt>じどうしゃうんてんめんきょ</rt></ruby>の<ruby>試験<rt>しけん</rt></ruby>
+    TRANS: Ujian surat izin mengemudi mobil
+    KOTOBA: [kb-otaff51-1412] 自動車運転免許(じどうしゃうんてんめんきょ) [compound_technical] = surat izin mengemudi (SIM) | [kb-otaff51-1413] 試験(しけん) [noun] = ujian
+  OPT C: HTML=<ruby>建物<rt>たてもの</rt></ruby>の<ruby>耐震検査<rt>たいしんけんさ</rt></ruby>
+    TRANS: Uji ketahanan gempa bangunan
+    KOTOBA: [kb-otaff51-1414] 建物(たてもの) [noun] = bangunan / gedung | [kb-otaff51-1415] 耐震検査(たいしんけんさ) [compound_technical] = uji ketahanan gempa
+
+=== #Q14 | ID=otaff-pm51-07-q014 | KEY=C (idx=2) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.25 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: ア, オ || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: ア, イ, ウ, エ || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: ア, イ, ウ, エ || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: ア, イ, ウ, エ
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着用<rt>ちゃくよう</rt></ruby>する<ruby>順序<rt>じゅんじょ</rt></ruby>（ア〜オ）の<ruby>全体<rt>ぜんたい</rt></ruby>の<ruby>流<rt>なが</rt></ruby>れとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu alur urutan lengkap yang benar saat mengenakan pakaian kerja (langkah ア sampai オ).
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 25 (Bab 2.3(3)②ア, hal. 20 teks). Bobot: 3 poin. Kunci jawaban: C. Urutan standar mengenakan pakaian kerja adalah: ア ブラッシング → イ ヘアーネット → ウ 帽子 → エ 作業服 → オ 確認.
+  INLINE_KOTOBA_COUNT: 14
+  KOTOBA_PROMPT: [kb-1297610] 作業服(さぎょうふく) [compound_technical] = seragam kerja | [kb-pilot51-022] 着用する(ちゃくようする) [verb] = mengenakan / memakai | [kb-1342340] 順序(じゅんじょ) [word] = urutan langkah | [kb-1395660] 全体(ぜんたい) [word] = keseluruhan area | [kb-v2-p2-106] 流れ(ながれ) [word] = alur / urutan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=ア <ruby>作業服<rt>さぎょうふく</rt></ruby> → イ <ruby>帽子<rt>ぼうし</rt></ruby> → ウ ヘアーネット → エ ブラッシング → オ <ruby>確認<rt>かくにん</rt></ruby>
+    TRANS: ア Pakaian kerja → イ Topi → ウ Hairnet → エ Menyikat rambut → オ Pemeriksaan
+    KOTOBA: [kb-1297610] 作業服(さぎょうふく) [compound_technical] = seragam kerja | [kb-1519170] 帽子(ぼうし) [word] = topi kerja sanitasi | [kb-latsol-e4700adbcf] ヘアーネット(へあーねっと) [word] = jaring penutup rambut | [kb-latsol-720415bcf9] ブラッシング(ぶらっしんぐ) [word] = menyikat / menyisir rambut | [kb-1205900] 確認(かくにん) [word] = konfirmasi / pengecekan
+  OPT B: HTML=ア <ruby>帽子<rt>ぼうし</rt></ruby> → イ ブラッシング → ウ <ruby>作業服<rt>さぎょうふく</rt></ruby> → エ ヘアーネット → オ <ruby>確認<rt>かくにん</rt></ruby>
+    TRANS: ア Topi → イ Menyikat rambut → ウ Pakaian kerja → エ Hairnet → オ Pemeriksaan
+    KOTOBA: [kb-1519170] 帽子(ぼうし) [word] = topi kerja sanitasi | [kb-latsol-720415bcf9] ブラッシング(ぶらっしんぐ) [word] = menyikat / menyisir rambut | [kb-1297610] 作業服(さぎょうふく) [compound_technical] = seragam kerja | [kb-latsol-e4700adbcf] ヘアーネット(へあーねっと) [word] = jaring penutup rambut | [kb-1205900] 確認(かくにん) [word] = konfirmasi / pengecekan
+  OPT C: HTML=ア ブラッシング → イ ヘアーネット → ウ <ruby>帽子<rt>ぼうし</rt></ruby> → エ <ruby>作業服<rt>さぎょうふく</rt></ruby> → オ <ruby>確認<rt>かくにん</rt></ruby>
+    TRANS: ア Menyikat rambut (brushing) → イ Hairnet → ウ Topi → エ Pakaian kerja → オ Pemeriksaan (konfirmasi di cermin)
+    KOTOBA: [kb-latsol-720415bcf9] ブラッシング(ぶらっしんぐ) [word] = menyikat / menyisir rambut | [kb-latsol-e4700adbcf] ヘアーネット(へあーねっと) [word] = jaring penutup rambut | [kb-1519170] 帽子(ぼうし) [word] = topi kerja sanitasi | [kb-1297610] 作業服(さぎょうふく) [compound_technical] = seragam kerja | [kb-1205900] 確認(かくにん) [word] = konfirmasi / pengecekan
+
+=== #Q15 | ID=otaff-pm51-07-q015 | KEY=B (idx=1) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.31 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>に「<ruby>鉛筆<rt>えんぴつ</rt></ruby>」や「シャープペン」、「ホチキスの<ruby>針<rt>はり</rt></ruby>・クリップ」を<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>んではいけない<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah alasan dilarang membawa masuk 'pensil', 'pensil mekanik', serta 'isi staples dan klip kertas' ke dalam area kerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 32 (Bab 2.3(3)⑤, hal. 27 teks). Bobot: 3 poin. Kunci jawaban: B. Isi staples, klip kertas, dan patahan isi pensil/pensil mekanik (折れた芯) dapat jatuh ke produk dan menjadi penyebab 異物混入.
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-ext-0639-e4bd9ce6a5] 作業場(さぎょうじょう) [compound_technical] = area kerja | [kb-otaff51-0970] 鉛筆(えんぴつ) [noun] = pensil | [kb-otaff51-0759] シャープペン(しゃーぷぺん) [noun] = pensil mekanik | [kb-otaff51-0078] ホチキスの針(ほちきすのはり) [noun] = isi staples | [kb-otaff51-0971] クリップ(くりっぷ) [noun] = klip penjepit kertas | [kb-v2-p4-161] 持ち込んで(もちこんで) [inflected, df:持ち込む] = membawa masuk lalu | [kb-1550140] 理由(りゆう) [word] = alasan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>紙<rt>かみ</rt></ruby>に<ruby>文字<rt>もじ</rt></ruby>がきれいに<ruby>書<rt>か</rt></ruby>けないから。
+    TRANS: Karena tidak dapat menulis huruf dengan rapi di atas kertas.
+    KOTOBA: [kb-v2-p3-154] 紙(かみ) [word] = kertas | [kb-1505390] 文字(もじ) [word] = huruf / teks keterangan | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-otaff51-1416] 書けない(かけない) [inflected_verb, df:書く] = tidak bisa menulis
+  OPT B: HTML=ホチキスの<ruby>針<rt>はり</rt></ruby>やクリップ、<ruby>鉛筆<rt>えんぴつ</rt></ruby>やシャープペンの<ruby>折<rt>お</rt></ruby>れた<ruby>芯<rt>しん</rt></ruby>が、<ruby>食品<rt>しょくひん</rt></ruby>への「<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>」の<ruby>原因<rt>げんいん</rt></ruby>になるから。
+    TRANS: Karena isi staples, klip kertas, atau patahan isi pensil/pensil mekanik dapat menjadi penyebab 'kontaminasi benda asing' ke dalam makanan.
+    KOTOBA: [kb-otaff51-0078] ホチキスの針(ほちきすのはり) [noun] = isi staples | [kb-otaff51-0971] クリップ(くりっぷ) [noun] = klip penjepit kertas | [kb-otaff51-0970] 鉛筆(えんぴつ) [noun] = pensil | [kb-otaff51-0759] シャープペン(しゃーぷぺん) [noun] = pensil mekanik | [kb-otaff51-1417] 折れた(おれた) [inflected_verb, df:折れる] = patah | [kb-otaff51-1418] 芯(しん) [noun] = isi pensil mekanik / inti | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-2830195] 異物混入(いぶつこんにゅう) [word] = kontaminasi benda asing | [kb-1261190] 原因(げんいん) [word] = penyebab
+  OPT C: HTML=<ruby>化学反応<rt>かがくはんのう</rt></ruby>を<ruby>起<rt>お</rt></ruby>こして<ruby>塩素<rt>えんそ</rt></ruby>ガスが<ruby>出<rt>で</rt></ruby>るから。
+    TRANS: Karena memicu reaksi kimia yang mengeluarkan gas klorin.
+    KOTOBA: [kb-otaff51-1419] 化学反応(かがくはんのう) [compound_technical] = reaksi kimia | [kb-otaff51-1420] 起こして(おこして) [inflected_verb, df:起こす] = menimbulkan / memicu | [kb-otaff51-0249] 塩素ガス(えんそがす) [compound_technical] = gas klorin beracun | [kb-v2-p1-178] 出る(でる) [word] = muncul / keluar
+
+=== #Q16 | ID=otaff-pm51-07-q016 | KEY=A (idx=0) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.32 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-2233690 "気": kotoba="け" vs ruby="き"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>臭<rt>にお</rt></ruby>い」や「<ruby>香水<rt>こうすい</rt></ruby>」についてのテキストの<ruby>説明<rt>せつめい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu penjelasan yang benar sesuai buku teks mengenai 'bau (nioi)' dan 'parfum (kousui)'.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 32 (Bab 2.3(3)⑤, hal. 27 teks). Bobot: 3 poin. Kunci jawaban: A. Bau bukan merupakan 危害要因 (hazard), namun bau menyengat seperti parfum dapat berpindah ke makanan (merusak kualitas) dan menyamarkan bau busuk dari bahan baku yang rusak.
+  INLINE_KOTOBA_COUNT: 35
+  KOTOBA_PROMPT: [kb-v2-p6-273] 臭い(におい) [word] = bau tak sedap | [kb-1283060] 香水(こうすい) [word] = parfum / wewangian | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-1386460] 説明(せつめい) [word] = penjelasan / uraian | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>臭<rt>にお</rt></ruby>いは<ruby>危害要因<rt>きがいよういん</rt></ruby>ではないが、<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>臭<rt>にお</rt></ruby>いがつくと<ruby>品質<rt>ひんしつ</rt></ruby>に<ruby>悪<rt>わる</rt></ruby>い<ruby>影響<rt>えいきょう</rt></ruby>がでたり、<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>変質<rt>へんしつ</rt></ruby>（<ruby>悪<rt>わる</rt></ruby>くなっていること）に<ruby>気<rt>き</rt></ruby>がつかなくなったりするため、<ruby>香水<rt>こうすい</rt></ruby>などは<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まない。
+    TRANS: Bau bukan faktor bahaya, tetapi jika bau menempel pada makanan akan berdampak buruk pada mutu dan membuat pekerja tidak menyadari perubahan bau bahan baku yang rusak, sehingga parfum dilarang dibawa masuk.
+    KOTOBA: [kb-v2-p6-273] 臭い(におい) [word] = bau tak sedap | [kb-ext-0314-e58db1e5ae] 危害要因(きがいよういん) [word] = faktor bahaya pangan (hazard) | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p3-276] つく(-) [word] = melekat / tercantum | [kb-1490580] 品質(ひんしつ) [word] = kualitas / mutu produk | [kb-v2-p1-246] 悪い(わるい) [word] = buruk / tidak baik | [kb-1173660] 影響(えいきょう) [word] = dampak / pengaruh | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-1421] 変質(へんしつ) [noun] = kerusakan mutu / perubahan kualitas | [kb-v2-p6-292] 悪く(わるく) [inflected, df:悪い] = buruk / tidak enak | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2233690] 気(け) [standalone_term] = Tanda-tanda / indikasi gejala | [kb-1283060] 香水(こうすい) [word] = parfum / wewangian | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p4-160] 持ち込まない(もちこまない) [inflected, df:持ち込む] = tidak membawa masuk
+  OPT B: HTML=<ruby>香水<rt>こうすい</rt></ruby>は<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>（<ruby>硬質異物<rt>こうしついぶつ</rt></ruby>）なので<ruby>金属探知機<rt>きんぞくたんちき</rt></ruby>で<ruby>検査<rt>けんさ</rt></ruby>する。
+    TRANS: Parfum termasuk faktor bahaya fisik (benda asing keras) sehingga diperiksa dengan detektor logam.
+    KOTOBA: [kb-1283060] 香水(こうすい) [word] = parfum / wewangian | [kb-ext-1566-e789a9e790] 物理的危害要因(ぶつりてききがいよういん) [word] = bahaya fisik | [kb-otaff51-0470] 硬質異物(こうしついぶつ) [compound_technical] = benda asing keras | [kb-v2-p2-275] なので(-) [particle] = karena (kata benda) | [kb-1243060] 金属探知機(きんぞくたんちき) [word] = alat detektor logam | [kb-1257890] 検査(けんさ) [word] = pemeriksaan / inspeksi
+  OPT C: HTML=<ruby>腐敗<rt>ふはい</rt></ruby>した<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>臭<rt>にお</rt></ruby>いを<ruby>消<rt>け</rt></ruby>すために、<ruby>作業者全員<rt>さぎょうしゃぜんいん</rt></ruby>が<ruby>強<rt>つよ</rt></ruby>い<ruby>香水<rt>こうすい</rt></ruby>をつける。
+    TRANS: Seluruh pekerja wajib memakai parfum menyengat untuk menutupi bau bahan baku yang busuk.
+    KOTOBA: [kb-1497870] 腐敗(ふはい) [word] = pembusukan makanan | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p6-273] 臭い(におい) [word] = bau tak sedap | [kb-otaff51-0837] 消す(けす) [verb] = menghilangkan / menghapus | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-otaff51-0946] 全員(ぜんいん) [noun] = semua orang / seluruh staf | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-1283060] 香水(こうすい) [word] = parfum / wewangian | [kb-v2-p1-203] つける(-) [word] = memakai / memasang

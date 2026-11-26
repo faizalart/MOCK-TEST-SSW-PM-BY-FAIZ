@@ -1,0 +1,75 @@
+# AUDIT SHEET: latsol-otaff-pm51-06 (Latsol OTAFF SSW PM Modul 5.1 - Paket 06) | Batch qa-batch-12 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=otaff-pm51-06-q001 | KEY=B (idx=1) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 2022<ruby>年<rt>ねん</rt></ruby>（<ruby>概算<rt>がいさん</rt></ruby>）の「<ruby>食品製造業<rt>しょくひんせいぞうぎょう</rt></ruby>の<ruby>国内生産額<rt>こくないせいさんがく</rt></ruby>」の<ruby>内訳<rt>うちわけ</rt></ruby>において、「そう<ruby>菜<rt>ざい</rt></ruby>・すし・<ruby>弁当<rt>べんとう</rt></ruby>」「<ruby>食肉<rt>しょくにく</rt></ruby>」「<ruby>精穀<rt>せいこく</rt></ruby>・<ruby>製粉<rt>せいふん</rt></ruby>」はそれぞれ2.8<ruby>兆円<rt>ちょうえん</rt></ruby>で、<ruby>全体<rt>ぜんたい</rt></ruby>の<ruby>何<rt>なん</rt></ruby>％ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam rincian 'Nilai Produksi Domestik Industri Pengolahan Makanan' tahun 2022 (estimasi), kategori 'Lauk-pauk (souzai), sushi, dan bento', 'Daging segar', serta 'Penggilingan padi dan tepung' masing-masing bernilai 2,8 triliun yen; berapa persenkah proporsi masing-masing terhadap total keseluruhan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 7 (Bab 1.1 Diagram Lingkaran Produksi Pangan, hal. 2 teks). Bobot: 3 poin. Kunci jawaban: B. Pada diagram lingkaran tahun 2022, そう菜・すし・弁当 (2,8 triliun yen), 食肉 (2,8 triliun yen), dan 精穀・製粉 (2,8 triliun yen) masing-masing mencakup 7% dari nilai produksi domestik.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-otaff51-0689] 年(ねん) [noun] = tahun | [kb-otaff51-0716] 概算(がいさん) [noun] = perkiraan kasar / estimasi | [kb-otaff51-0656] 食品製造業(しょくひんせいぞうぎょう) [compound_technical] = industri pengolahan makanan | [kb-otaff51-0239] 国内生産額(こくないせいさんがく) [compound_technical] = nilai produksi domestik | [kb-otaff51-0763] 内訳(うちわけ) [noun] = rincian pembagian | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-otaff51-0021] そう菜(そうざい) [noun] = lauk-pauk siap saji (souzai) | [kb-otaff51-1302] すし(すし) [noun] = sushi | [kb-1513060] 弁当(べんとう) [word] = bekal makanan (bento) | [kb-1358580] 食肉(しょくにく) [word] = daging konsumsi | [kb-otaff51-0491] 精穀(せいこく) [compound_technical] = penggilingan biji-bijian/beras | [kb-otaff51-0554] 製粉(せいふん) [compound_technical] = penggilingan tepung | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-otaff51-0150] 兆円(ちょうえん) [noun] = triliun yen | [kb-1395660] 全体(ぜんたい) [word] = keseluruhan area | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=それぞれ 1％
+    TRANS: Masing-masing 1%
+    KOTOBA: [kb-v2-p1-276] それぞれ(-) [word] = masing-masing
+  OPT B: HTML=それぞれ 7％
+    TRANS: Masing-masing 7%
+    KOTOBA: [kb-v2-p1-276] それぞれ(-) [word] = masing-masing
+  OPT C: HTML=それぞれ 15％
+    TRANS: Masing-masing 15%
+    KOTOBA: [kb-v2-p1-276] それぞれ(-) [word] = masing-masing
+
+=== #Q2 | ID=otaff-pm51-06-q002 | KEY=A (idx=0) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.8 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>食品製造<rt>しょくひんせいぞう</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>」とはどのようなことですか。テキストの<ruby>説明<rt>せつめい</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah yang dimaksud dengan 'Manajemen Higiene dalam Produksi Makanan'? Pilihlah satu penjelasan yang benar sesuai buku teks.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 8 (Bab 1.2(1), hal. 3 teks). Bobot: 3 poin. Kunci jawaban: A. 食べた人が病気になったりケガをしないように食品を作る（管理する）ことが、食品製造の「衛生管理」です.
+  INLINE_KOTOBA_COUNT: 27
+  KOTOBA_PROMPT: [kb-ext-0939-e9a39fe593] 食品製造(しょくひんせいぞう) [word] = Pembuatan dan pengolahan produk pangan | [kb-1666860] 衛生管理(えいせいかんり) [word] = manajemen higiene sanitasi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-1386460] 説明(せつめい) [word] = penjelasan / uraian | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>が<ruby>病気<rt>びょうき</rt></ruby>になったりケガをしないように<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る（<ruby>管理<rt>かんり</rt></ruby>する）こと。
+    TRANS: Membuat (mengelola) makanan agar orang yang memakannya tidak jatuh sakit atau terluka.
+    KOTOBA: [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1490230] 病気(びょうき) [word] = penyakit / sakit | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-1214200] 管理(かんり) [word] = pengelolaan / kontrol | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+  OPT B: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>照明<rt>しょうめい</rt></ruby>を<ruby>暗<rt>くら</rt></ruby>くして<ruby>電気代<rt>でんきだい</rt></ruby>を<ruby>減<rt>へ</rt></ruby>らすこと。
+    TRANS: Meremangkan lampu ruang kerja untuk menghemat biaya listrik.
+    KOTOBA: [kb-ext-0639-e4bd9ce6a5] 作業場(さぎょうじょう) [compound_technical] = area kerja | [kb-1350990] 照明(しょうめい) [word] = penerangan lampu pabrik | [kb-otaff51-1303] 暗く(くらく) [inflected_adj, df:暗い] = gelap / redup | [kb-1443100] 電気代(でんきだい) [word] = biaya listrik | [kb-v2-p6-556] 減らす(へらす) [word] = mengurangi | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+  OPT C: HTML=<ruby>古<rt>ふる</rt></ruby>くなった<ruby>原材料<rt>げんざいりょう</rt></ruby>に<ruby>香料<rt>こうりょう</rt></ruby>を<ruby>混<rt>ま</rt></ruby>ぜて<ruby>販売<rt>はんばい</rt></ruby>すること。
+    TRANS: Mencampurkan perisa aroma ke bahan baku yang sudah tua lalu menjualnya.
+    KOTOBA: [kb-otaff51-1304] 古くなった(ふるくなった) [expression] = menjadi usang / basi | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-1305] 香料(こうりょう) [noun] = pengharum / perisa makanan | [kb-v2-p4-192] 混ぜて(まぜて) [inflected, df:混ぜる] = mencampur | [kb-1481800] 販売(はんばい) [word] = penjualan | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+
+=== #Q3 | ID=otaff-pm51-06-q003 | KEY=C (idx=2) | CAT=第2章 1. 食品衛生の基本（Bab 2.1: Dasar Higiene Pangan） | SRC=Bab 1-3.pdf p.10 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>」のアルファベット3<ruby>文字<rt>もじ</rt></ruby>の<ruby>略称<rt>りゃくしょう</rt></ruby>（シーシーピー）はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah singkatan 3 huruf alfabet untuk 'Titik Kendali Kritis (Juuyou Kanriten)'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 10 (Bab 2.1, hal. 5 teks). Bobot: 3 poin. Kunci jawaban: C. 重要管理点 disingkat menjadi CCP (Critical Control Point).
+  INLINE_KOTOBA_COUNT: 13
+  KOTOBA_PROMPT: [kb-ext-0834-e9878de8a6] 重要管理点(じゅうようかんりてん) [word] = titik kendali kritis (CCP) | [kb-otaff51-0953] アルファベット(あるふぁべっと) [noun] = huruf alfabet | [kb-1505390] 文字(もじ) [word] = huruf / teks keterangan | [kb-otaff51-1306] 略称(りゃくしょう) [noun] = singkatan resmi | [kb-otaff51-1307] シーシーピー(しーしーぴー) [noun] = CCP (pengucapan huruf C-C-P) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=KYT
+    TRANS: KYT
+    KOTOBA: [kb-v2-p5-184] KYT(-) [technical] = KYT (Latihan Prediksi Bahaya)
+  OPT B: HTML=5S
+    TRANS: 5S
+    KOTOBA: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke)
+  OPT C: HTML=CCP
+    TRANS: CCP (Critical Control Point)
+    KOTOBA: [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP)
+
+=== #Q4 | ID=otaff-pm51-06-q004 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.13 ===
+  FLAGS: [KOTOBA_FRAGMENT_OR_TYPO@kotoba:prompt] kb-v2-p5-119: "的" -> "bersifat (akhiran -tek)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下処理<rt>したしょり</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<ruby>材料<rt>ざいりょう</rt></ruby>や、<ruby>調理<rt>ちょうり</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>一時的<rt>いちじてき</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>するとき、<ruby>異物<rt>いぶつ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>らないようにするためにおこなうことはどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat menyimpan sementara bahan yang telah selesai disiapkan (shita-shori) atau makanan yang telah selesai dimasak, apakah yang wajib dilakukan agar benda asing tidak masuk? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 13 (Bab 2.2(1), hal. 8 teks). Bobot: 3 poin. Kunci jawaban: B. Bahan yang telah selesai tahap persiapan awal atau makanan yang telah selesai dimasak wajib diberi tutup (蓋をします) saat disimpan agar benda asing tidak jatuh ke dalamnya.
+  INLINE_KOTOBA_COUNT: 32
+  KOTOBA_PROMPT: [kb-ext-0169-e4b88be587] 下処理(したしょり) [word] = penanganan awal bahan baku | [kb-v2-p4-157] 終わった(おわった) [inflected, df:終わる] = telah selesai | [kb-1296670] 材料(ざいりょう) [word] = bahan | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-ext-latsol-0120] 一時(いちじ) [word] = sementara / sejenak | [kb-v2-p5-119] 的(てき) [particle] = bersifat (akhiran -tek) | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1158020] 異物(いぶつ) [word] = benda asing | [kb-v2-p2-162] 入らない(はいらない) [inflected, df:入る] = tidak masuk | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>容器<rt>ようき</rt></ruby>の<ruby>口<rt>くち</rt></ruby>を<ruby>開<rt>あ</rt></ruby>けたまま<ruby>扇風機<rt>せんぷうき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>置<rt>お</rt></ruby>く。
+    TRANS: Meletakkannya di depan kipas angin dengan mulut wadah terbuka.
+    KOTOBA: [kb-1545370] 容器(ようき) [word] = wadah | [kb-v2-p2-075] 口(くち) [word] = mulut | [kb-v2-p3-314] 開けたまま(あけたまま) [expression] = dibiarkan tetap terbuka | [kb-otaff51-1308] 扇風機(せんぷうき) [noun] = kipas angin | [kb-v2-p1-059] 前(まえ) [word] = sebelum | [kb-v2-p3-275] 置く(おく) [word] = meletakkan
+  OPT B: HTML=<ruby>容器<rt>ようき</rt></ruby>に「<ruby>蓋<rt>ふた</rt></ruby>」をする（またはラップなどで<ruby>覆<rt>おお</rt></ruby>う）。
+    TRANS: Menutup wadah dengan 'tutup (futa)'.
+    KOTOBA: [kb-1545370] 容器(ようき) [word] = wadah | [kb-u1416-2d9af7b8a1] 蓋(ふた) [word] = tutup wadah | [kb-otaff51-1309] ラップ(らっぷ) [noun] = plastik pembungkus (cling wrap) | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-1310] 覆う(おおう) [verb] = menutup / melapisi
+  OPT C: HTML=<ruby>汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>の<ruby>通路<rt>つうろ</rt></ruby>に<ruby>並<rt>なら</rt></ruby>べておく。
+    TRANS: Menatanya di lorong zona kerja terkontaminasi.
+    KOTOBA: [kb-ext-0151-e6b19ae69f] 汚染作業区域(おせんさぎょうくいき) [word] = zona kerja kotor / terkontaminasi | [kb-1433600] 通路(つうろ) [word] = lorong / jalur jalan | [kb-otaff51-0737] 並べて(ならべて) [inflected_verb, df:並べる] = menyusun / menata berjajar

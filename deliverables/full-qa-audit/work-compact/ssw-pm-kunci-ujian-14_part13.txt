@@ -1,0 +1,76 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-14 (Soal Ujian 14) | Batch qa-batch-03 | Part 13 (Q49-52 of 59)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q49 | ID=kunci-ujian-14-q049 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 14.pdf p.12 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0217 (をするこ): "melakukan hal tersebut (typo するこ)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0217 (をするこ): "melakukan hal tersebut (typo するこ)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうば</rt></ruby>で<ruby>何<rt>なに</rt></ruby>をしなければならないですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan di tempat kerja?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 12, nomor 参考問題⑮ (Q49). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Di tempat kerja wajib mematuhi prosedur kerja (作業手順を守ること) dan dilarang melengos (よそ見) maupun mengobrol (無駄話).
+  INLINE_KOTOBA_COUNT: 8
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-101] しなければならない(-) [expression] = harus dilakukan
+  OPT A: HTML=<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ること
+    TRANS: Mematuhi prosedur kerja
+    KOTOBA: [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+  OPT B: HTML=よそ<ruby>見<rt>み</rt></ruby>をすること
+    TRANS: Melengos / tidak fokus melihat pekerjaan
+    KOTOBA: [kb-v2-p5-317] よそ見(よそみ) [word] = meleng / melihat ke tempat lain | [kb-audit-0217] をするこ(をすること) [word] = melakukan hal tersebut (typo するこ)
+  OPT C: HTML=<ruby>無駄<rt>むだ</rt></ruby>な<ruby>話<rt>はなし</rt></ruby>をすること
+    TRANS: Mengobrol hal yang tidak perlu
+    KOTOBA: [kb-u1416-22ca840469] 無駄な話(むだなはなし) [word] = obrolan sia-sia / mengobrol | [kb-audit-0217] をするこ(をすること) [word] = melakukan hal tersebut (typo するこ)
+
+=== #Q50 | ID=kunci-ujian-14-q050 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 14.pdf p.12 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業<rt>さぎょう</rt></ruby>している<ruby>時<rt>とき</rt></ruby>に<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah hal yang benar saat sedang bekerja.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 12, nomor 参考問題⑯ (Q50). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 26), pakaian yang dikenakan di balik seragam kerja juga harus berupa kaos tanpa kancing (ボタンのない物) agar kancing tidak lepas mencemari makanan.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>下<rt>した</rt></ruby>にTシャツなどボタンのない<ruby>物<rt>もの</rt></ruby>を<ruby>着用<rt>ちゃくよう</rt></ruby>する。
+    TRANS: Mengenakan pakaian dalam tanpa kancing seperti kaos (T-shirt) di balik pakaian kerja.
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p6-218] Tシャツ(てぃーしゃつ) [word] = kaos (T-shirt) | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-pilot51-022] 着用する(ちゃくようする) [verb] = mengenakan / memakai
+  OPT B: HTML=<ruby>時計<rt>とけい</rt></ruby>やマニキュア、<ruby>指輪<rt>ゆびわ</rt></ruby>などつけてもいい。
+    TRANS: Boleh memakai jam tangan, cat kuku, ataupun cincin.
+    KOTOBA: [kb-1316140] 時計(とけい) [word] = jam | [kb-otaff51-0080] マニキュア(まにきゅあ) [noun] = cat kuku | [kb-otaff51-0321] 指輪(ゆびわ) [noun] = cincin | [kb-v2-p1-204] つけて(-) [inflected_verb, df:つける] = memasang (dasar: つける) | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT C: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>はポケット、ボタンがあるものを<ruby>着用<rt>ちゃくよう</rt></ruby>する。
+    TRANS: Mengenakan pakaian kerja yang memiliki saku dan kancing.
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-pilot51-022] 着用する(ちゃくようする) [verb] = mengenakan / memakai
+
+=== #Q51 | ID=kunci-ujian-14-q051 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 14.pdf p.12 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>間違<rt>まちが</rt></ruby>っていることを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 12, nomor 参考問題⑰ (Q51). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Perhiasan (装飾品) tidak boleh dibawa masuk ke ruang kerja atau dimasukkan ke saku, melainkan wajib disimpan di dalam loker ruang ganti.
+  INLINE_KOTOBA_COUNT: 15
+  KOTOBA_PROMPT: [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>装飾品<rt>そうしょくひん</rt></ruby>などは<ruby>外<rt>はず</rt></ruby>して、ポケットに<ruby>入<rt>い</rt></ruby>れる
+    TRANS: Melepas perhiasan/aksesori lalu memasukkannya ke dalam saku.
+    KOTOBA: [kb-1799160] 装飾品(そうしょくひん) [word] = aksesori perhiasan | [kb-v2-p1-209] 外して(はずして) [inflected_verb, df:外す] = melepas (dasar: 外す) | [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-v2-p4-198] 入れる(いれる) [word] = memasukkan / menyalakan
+  OPT B: HTML=<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業服<rt>さぎょうふく</rt></ruby>ときれいな<ruby>作業服<rt>さぎょうふく</rt></ruby>をくっつかないようにする。
+    TRANS: Menjaga agar pakaian kerja yang kotor dan pakaian kerja yang bersih tidak saling menempel.
+    KOTOBA: [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-audit-0681] れい(れい) [word] = contoh / ilustrasi | [kb-v2-p1-106] くっつかない(-) [inflected_verb, df:くっつく] = tidak menempel (dasar: くっつく) | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+  OPT C: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>はいつも<ruby>清潔<rt>せいけつ</rt></ruby>なものを<ruby>着<rt>き</rt></ruby>る
+    TRANS: Selalu mengenakan pakaian kerja yang bersih.
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-v2-p2-225] 清潔な(せいけつな) [word] = bersih / higienis | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian)
+
+=== #Q52 | ID=kunci-ujian-14-q052 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 14.pdf p.13 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>体調<rt>たいちょう</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い<ruby>時<rt>とき</rt></ruby><ruby>何<rt>なに</rt></ruby>をすればいいですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang sebaiknya dilakukan saat kondisi kesehatan tubuh sedang buruk (tidak enak badan)?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 13, nomor 参考問題⑱ (Q52). Bobot: 2.54 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 25), apabila kondisi kesehatan buruk (diare, demam, mual), pekerja wajib segera melapor kepada penanggung jawab pabrik (責任者に報告する).
+  INLINE_KOTOBA_COUNT: 15
+  KOTOBA_PROMPT: [kb-ext-latsol-0090] 体調(たいちょう) [word] = kondisi kesehatan fisik | [kb-v2-p1-246] 悪い(わるい) [word] = buruk / tidak baik | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT A: HTML=<ruby>薬<rt>くすり</rt></ruby>を<ruby>飲<rt>の</rt></ruby>めば<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です。
+    TRANS: Tidak apa-apa asalkan minum obat.
+    KOTOBA: [kb-v2-p2-069] 薬(くすり) [word] = obat | [kb-audit-0059] 飲めば(のめば) [inflected_verb, df:飲む] = jika minum | [kb-1414150] 大丈夫(だいじょうぶ) [standalone_term] = Aman / tidak ada masalah kebersihan atau kerusakan
+  OPT B: HTML=<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>します。
+    TRANS: Melaporkan kepada penanggung jawab pabrik.
+    KOTOBA: [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=<ruby>普通<rt>ふつう</rt></ruby>に<ruby>働<rt>はたら</rt></ruby>いてもいいです。
+    TRANS: Boleh tetap bekerja seperti biasa.
+    KOTOBA: [kb-audit-0036] 普通(ふつう) [word] = biasa / normal | [kb-latsol-21096f9681] 働いて(はたらいて) [word] = bekerja | [kb-v2-p1-249] いい(-) [word] = baik

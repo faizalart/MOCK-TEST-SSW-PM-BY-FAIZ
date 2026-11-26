@@ -1,0 +1,90 @@
+# AUDIT SHEET: latsol-nguyen-10 (Latsol Nguyen 10) | Batch qa-batch-08 | Part 10 (Q37-40 of 41)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=nguyen10-q037 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.8 ===
+  CLUSTER CL-0253 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-9-q037 (bonus-soal-9), nguyen03-q036 (latsol-nguyen-03), nguyen09-q037 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("左手に切れ防止用の保護手袋をしていなかったため。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>冷凍<rt>れいとう</rt></ruby>した<ruby>魚<rt>さかな</rt></ruby>を<ruby>包丁<rt>ほうちょう</rt></ruby>で<ruby>切<rt>き</rt></ruby>る<ruby>作業<rt>さぎょう</rt></ruby>をおこなっていたところ、<ruby>右手<rt>みぎて</rt></ruby>で<ruby>持<rt>も</rt></ruby>っていた<ruby>包丁<rt>ほうちょう</rt></ruby>が<ruby>滑<rt>すべ</rt></ruby>って<ruby>左手<rt>ひだりて</rt></ruby>にあたって<ruby>手<rt>て</rt></ruby>を<ruby>切<rt>き</rt></ruby>りそうになった。この<ruby>事故<rt>じこ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat sedang memotong ikan beku dengan pisau dapur, pisau yang dipegang di tangan kanan tergelincir dan mengenai tangan kiri sehingga hampir melukai tangan. Apa penyebab kecelakaan ini? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 8, nomor 37. Bobot: 3.66 poin. Kunci jawaban: B. Visual: Ilustrasi pisau meleset mengenai tangan kiri saat memotong ikan beku. Nomor asli PDF: Câu 36 (Halaman 8).
+  KOTOBA_PROMPT: [kb-latsol-839674727f] 冷凍した魚(れいとうしたさかな) [word] = ikan beku | [kb-otaff51-0201] 包丁(ほうちょう) [noun] = pisau dapur | [kb-v2-p5-410] 切る(きる) [word] = memotong | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p5-356] おこなっていた(-) [inflected, df:おこなう] = sedang melakukan (lampau) | [kb-1171120] 右手(みぎて) [word] = tangan kanan | [kb-latsol-785c68b18f] 持っていた(もっていた) [word] = memegang / membawa | [kb-v2-p1-230] 滑って(すべって) [inflected_verb, df:滑る] = terpeleset (dasar: 滑る) | [kb-1290900] 左手(ひだりて) [word] = tangan kiri | [kb-audit-0166] あたって(あたって) [inflected_verb, df:当たる] = mengenai / menyentuh / terbentur | [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-v2-p1-109] 切りそうに(きりそうに) [inflected_verb, df:切る] = hampir terpotong (dasar: 切る) | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>魚<rt>さかな</rt></ruby>をしっかり<ruby>持<rt>も</rt></ruby>っていないため。
+    TRANS: Karena tidak memegang ikan dengan kuat.
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-v2-p2-139] 持って(もって) [inflected, df:持つ] = membawa / memegang
+  OPT B: HTML=<ruby>左手<rt>ひだりて</rt></ruby>に<ruby>切<rt>き</rt></ruby>れ<ruby>防止用<rt>ぼうしよう</rt></ruby>の<ruby>保護手袋<rt>ほごてぶくろ</rt></ruby>をしていなかったため。
+    TRANS: Karena tidak mengenakan sarung tangan pelindung anti-sayat pada tangan kiri.
+    KOTOBA: [kb-1290900] 左手(ひだりて) [word] = tangan kiri | [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-ext-1657-e998b2e6ad] 防止用(ぼうしよう) [word] = untuk tujuan pencegahan | [kb-otaff51-0139] 保護手袋(ほごてぶくろ) [compound_technical] = sarung tangan pelindung | [kb-v2-p1-102] していなかった(-) [inflected_verb, df:する] = tidak sedang melakukan
+  OPT C: HTML=<ruby>魚<rt>さかな</rt></ruby>の<ruby>押<rt>お</rt></ruby>さえ<ruby>方<rt>かた</rt></ruby>、<ruby>切<rt>き</rt></ruby>り<ruby>方<rt>かた</rt></ruby>をしっかりしたため。
+    TRANS: Karena cara menahan dan memotong ikan sudah dilakukan dengan benar.
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-v2-p5-358] 押さえ方(おさえかた) [word] = cara menahan / menekan | [kb-v2-p5-359] 切り方(きりかた) [word] = cara memotong | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat
+
+=== #Q38 | ID=nguyen10-q038 | KEY=A (idx=0) | CAT= | SRC=10 (2).pdf p.8 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 転ぶ危険 || [KANJI_WITHOUT_RUBY@opt:A] 標識 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [KANJI_WITHOUT_RUBY@opt:C] 標識
+  CLUSTER CL-0258 (n=3, diffPrompt=false, diffOpt=false, diffTrans=false): twins=nguyen03-q037 (latsol-nguyen-03), nguyen09-q038 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("[標識A] 開口部注意（DANGER; OPENING）") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>転<rt>ころ</rt></ruby>ぶ<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan bahaya terjatuh/terpeleset (転ぶ危険)? Pilihlah satu yang salah (yang bukan rambu bahaya terpeleset/tersandung).
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 8, nomor 38. Bobot: 3.66 poin. Kunci jawaban: A. Visual: 3 rambu keselamatan pada opsi A, B, dan C. Nomor asli PDF: Câu 37 (Halaman 8).
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p5-289] 転ぶ(ころぶ) [word] = terjatuh / terpeleset | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] <ruby>開口部注意<rt>かいこうぶちゅうい</rt></ruby>（DANGER; OPENING）
+    TRANS: Rambu "Awas Lubang Terbuka / Danger; Opening".
+    MEDIA: media-nguyen10-q038-option-a
+    KOTOBA: [kb-otaff51-0621] 開口部注意(かいこうぶちゅうい) [compound_technical] = awas lubang bukaan lantai
+  OPT B: HTML=[標識B] <ruby>足元<rt>あしもと</rt></ruby>が<ruby>滑<rt>すべ</rt></ruby>りやすいです ご<ruby>注意<rt>ちゅうい</rt></ruby>ください / <ruby>足元注意<rt>あしもとちゅうい</rt></ruby>
+    TRANS: Rambu "Lantai Licin Harap Hati-hati / Perhatikan Langkah Kaki".
+    MEDIA: media-nguyen10-q038-option-b
+    KOTOBA: [kb-latsol-e9855bc85f] 足元が滑りやすいです(あしもとがすべりやすいです) [word] = pijakan kaki licin / mudah terpeleset | [kb-latsol-81296b0ebc] ご注意(ごちゅうい) [word] = perhatian / kewaspadaan | [kb-otaff51-0585] 足元注意(あしもとちゅうい) [compound_technical] = awas langkah / lantai licin
+  OPT C: HTML=[標識C] <ruby>足元注意<rt>あしもとちゅうい</rt></ruby>（WATCH YOUR STEP）
+    TRANS: Rambu "Perhatikan Langkah Kaki / Watch Your Step".
+    MEDIA: media-nguyen10-q038-option-c
+    KOTOBA: [kb-otaff51-0585] 足元注意(あしもとちゅうい) [compound_technical] = awas langkah / lantai licin
+
+=== #Q39 | ID=nguyen10-q039 | KEY=C (idx=2) | CAT= | SRC=10 (2).pdf p.9 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 標識 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [KANJI_WITHOUT_RUBY@opt:C] 標識 || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0259 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=nguyen04-q038 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("[標識C] 危険 感電注意（DANGER! ELECTRIC SHOCK!）") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>頭<rt>あたま</rt></ruby>をぶつける<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan bahaya kepala terbentur? Pilihlah satu yang salah (yang bukan rambu bahaya kepala terbentur).
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 9, nomor 39. Bobot: 3.66 poin. Kunci jawaban: C. Visual: 3 rambu keselamatan pada opsi A, B, dan C. Nomor asli PDF: Câu 38 (Halaman 9).
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-otaff51-0640] 頭(あたま) [noun] = kepala | [kb-v2-p5-318] ぶつける(-) [word] = membenturkan | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] <ruby>頭上注意<rt>ずじょうちゅうい</rt></ruby>（WATCH YOUR HEAD）
+    TRANS: Rambu "Awas Kepala Terbentur / Watch Your Head".
+    MEDIA: media-nguyen10-q039-option-a
+    KOTOBA: [kb-otaff51-0641] 頭上注意(ずじょうちゅうい) [compound_technical] = awas bahaya di atas kepala
+  OPT B: HTML=[標識B] <ruby>頭上注意<rt>ずじょうちゅうい</rt></ruby>
+    TRANS: Rambu "Awas Atas / Kepala Terbentur".
+    MEDIA: media-nguyen10-q039-option-b
+    KOTOBA: [kb-otaff51-0641] 頭上注意(ずじょうちゅうい) [compound_technical] = awas bahaya di atas kepala
+  OPT C: HTML=[標識C] <ruby>危険<rt>きけん</rt></ruby> <ruby>感電注意<rt>かんでんちゅうい</rt></ruby>（DANGER! ELECTRIC SHOCK!）
+    TRANS: Rambu "Bahaya Sengatan Listrik / Danger! Electric Shock!".
+    MEDIA: media-nguyen10-q039-option-c
+    KOTOBA: [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-otaff51-0307] 感電注意(かんでんちゅうい) [compound_technical] = awas bahaya sengatan listrik
+
+=== #Q40 | ID=nguyen10-q040 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.9 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 標識 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [KANJI_WITHOUT_RUBY@opt:C] 標識
+  CLUSTER CL-0260 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=nguyen04-q039 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("[標識B] 高温注意（HOT SURFACE）") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>消火器<rt>しょうかき</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan lokasi alat pemadam api ringan (APAR)? Pilihlah satu yang salah (yang bukan rambu lokasi APAR).
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 9, nomor 40. Bobot: 3.66 poin. Kunci jawaban: B. Visual: 3 rambu keselamatan pada opsi A, B, dan C. Nomor asli PDF: Câu 39 (Halaman 9).
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-otaff51-0392] 消火器(しょうかき) [compound_technical] = alat pemadam api ringan (APAR) | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] <ruby>消火器<rt>しょうかき</rt></ruby>（FIRE EXTINGUISHER）
+    TRANS: Rambu "Alat Pemadam Api / Fire Extinguisher".
+    MEDIA: media-nguyen10-q040-option-a
+    KOTOBA: [kb-otaff51-0392] 消火器(しょうかき) [compound_technical] = alat pemadam api ringan (APAR)
+  OPT B: HTML=[標識B] <ruby>高温注意<rt>こうおんちゅうい</rt></ruby>（HOT SURFACE）
+    TRANS: Rambu "Awas Suhu Tinggi / Hot Surface".
+    MEDIA: media-nguyen10-q040-option-b
+    KOTOBA: [kb-otaff51-0677] 高温注意(こうおんちゅうい) [compound_technical] = awas permukaan bersuhu tinggi
+  OPT C: HTML=[標識C] <ruby>消火器<rt>しょうかき</rt></ruby>
+    TRANS: Rambu "Alat Pemadam Api".
+    MEDIA: media-nguyen10-q040-option-c
+    KOTOBA: [kb-otaff51-0392] 消火器(しょうかき) [compound_technical] = alat pemadam api ringan (APAR)

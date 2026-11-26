@@ -1,0 +1,75 @@
+# AUDIT SHEET: latsol-otaff-pm51-04 (Latsol OTAFF SSW PM Modul 5.1 - Paket 04) | Batch qa-batch-11 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=otaff-pm51-04-q001 | KEY=B (idx=1) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 2022<ruby>年<rt>ねん</rt></ruby>（<ruby>概算<rt>がいさん</rt></ruby>）の「<ruby>食品製造業<rt>しょくひんせいぞうぎょう</rt></ruby>の<ruby>国内生産額<rt>こくないせいさんがく</rt></ruby>」の<ruby>円<rt>えん</rt></ruby>グラフにおいて、「<ruby>畜産食料品<rt>ちくさんしょくりょうひん</rt></ruby>（3.6<ruby>兆円<rt>ちょうえん</rt></ruby>）」「<ruby>水産食料品<rt>すいさんしょくりょうひん</rt></ruby>（3.4<ruby>兆円<rt>ちょうえん</rt></ruby>）」「<ruby>菓子類<rt>かしるい</rt></ruby>（3.4<ruby>兆円<rt>ちょうえん</rt></ruby>）」はそれぞれ<ruby>全体<rt>ぜんたい</rt></ruby>の<ruby>何<rt>なん</rt></ruby>％を<ruby>占<rt>し</rt></ruby>めていますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada diagram lingkaran 'Nilai Produksi Domestik Industri Pengolahan Makanan' tahun 2022 (estimasi), berapa persenkah proporsi masing-masing dari 'Produk Pangan Peternakan (3,6 triliun yen)', 'Produk Pangan Perikanan (3,4 triliun yen)', dan 'Jenis Kue/Camilan (3,4 triliun yen)' terhadap total keseluruhan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 7 (Bab 1.1 Diagram Lingkaran Produksi Pangan, hal. 2 teks). Bobot: 3 poin. Kunci jawaban: B. Pada diagram lingkaran tahun 2022 (total 38,4 triliun yen), 畜産食料品 (3,6 triliun yen), 水産食料品 (3,4 triliun yen), dan 菓子類 (3,4 triliun yen) masing-masing menempati proporsi 9%.
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-otaff51-0689] 年(ねん) [noun] = tahun | [kb-otaff51-0716] 概算(がいさん) [noun] = perkiraan kasar / estimasi | [kb-otaff51-0656] 食品製造業(しょくひんせいぞうぎょう) [compound_technical] = industri pengolahan makanan | [kb-otaff51-0239] 国内生産額(こくないせいさんがく) [compound_technical] = nilai produksi domestik | [kb-otaff51-0908] 円(えん) [noun] = yen (mata uang Jepang) | [kb-otaff51-0723] グラフ(ぐらふ) [noun] = grafik / diagram | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-otaff51-0909] 畜産食料品(ちくさんしょくりょうひん) [compound_technical] = produk pangan peternakan | [kb-otaff51-0150] 兆円(ちょうえん) [noun] = triliun yen | [kb-otaff51-0910] 水産食料品(すいさんしょくりょうひん) [compound_technical] = produk pangan perikanan | [kb-otaff51-0535] 菓子類(かしるい) [noun] = jenis kue dan camilan | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-1395660] 全体(ぜんたい) [word] = keseluruhan area | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0827] 占めて(しめて) [inflected_verb, df:占める] = menempati proporsi | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=それぞれ 2％
+    TRANS: Masing-masing 2%
+    KOTOBA: [kb-v2-p1-276] それぞれ(-) [word] = masing-masing
+  OPT B: HTML=それぞれ 9％
+    TRANS: Masing-masing 9%
+    KOTOBA: [kb-v2-p1-276] それぞれ(-) [word] = masing-masing
+  OPT C: HTML=それぞれ 26％
+    TRANS: Masing-masing 26%
+    KOTOBA: [kb-v2-p1-276] それぞれ(-) [word] = masing-masing
+
+=== #Q2 | ID=otaff-pm51-04-q002 | KEY=A (idx=0) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.8 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>工場<rt>こうじょう</rt></ruby>や<ruby>作業場<rt>さぎょうじょう</rt></ruby>で<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>と<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る「<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>」のために、<ruby>作業者<rt>さぎょうしゃ</rt></ruby>が<ruby>必<rt>かなら</rt></ruby>ずしなければならないことはどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Demi 'Keselamatan Kerja (Roudou Anzen)' yang melindungi keselamatan dan kesehatan pekerja di pabrik atau tempat kerja, manakah hal yang wajib dilakukan oleh pekerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 8 (Bab 1.2(2), hal. 3 teks). Bobot: 3 poin. Kunci jawaban: A. Demi keselamatan kerja (労働安全), pekerja wajib mengenakan APD dengan benar dan mematuhi aturan pabrik serta 作業手順書 (SOP), termasuk saat mengoperasikan mesin dan peralatan.
+  INLINE_KOTOBA_COUNT: 39
+  KOTOBA_PROMPT: [kb-1578700] 工場(こうじょう) [word] = pabrik | [kb-ext-0639-e4bd9ce6a5] 作業場(さぎょうじょう) [compound_technical] = area kerja | [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-1153930] 安全(あんぜん) [word] = keamanan / keselamatan | [kb-1256170] 健康(けんこう) [word] = kesehatan | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-ext-1800-e58ab4e583] 労働安全(ろうどうあんぜん) [word] = keselamatan kerja | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-235] 必ず(かならず) [word] = pasti / wajib | [kb-v2-p1-101] しなければならない(-) [expression] = harus dilakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>やヘルメットなどの<ruby>安全保護具<rt>あんぜんほごぐ</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>し、<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>決<rt>き</rt></ruby>まっているルールや<ruby>作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby>守<rt>まも</rt></ruby>って<ruby>作業<rt>さぎょう</rt></ruby>する。
+    TRANS: Mengenakan pakaian kerja dan alat pelindung diri seperti helm dengan benar, serta bekerja dengan mematuhi aturan dan dokumen prosedur kerja (SOP) yang berlaku di pabrik.
+    KOTOBA: [kb-1297610] 作業服(さぎょうふく) [compound_technical] = seragam kerja | [kb-latsol-f5668d1b7c] ヘルメット(へるめっと) [word] = helm | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-pilot51-020] 安全保護具(あんぜんほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-1423270] 着用(ちゃくよう) [word] = pemakaian (seragam/perlengkapan) | [kb-1578700] 工場(こうじょう) [word] = pabrik | [kb-otaff51-0728] 決まっている(きまっている) [inflected_verb, df:決まる] = sudah ditentukan | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-ext-0637-e4bd9ce6a5] 作業手順書(さぎょうてじゅんしょ) [word] = buku / lembar SOP kerja | [kb-v2-p1-175] 守って(まもって) [inflected_verb, df:守る] = mematuhi (dasar: 守る) | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas
+  OPT B: HTML=<ruby>機械<rt>きかい</rt></ruby>や<ruby>器具<rt>きぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うときは、<ruby>作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby>見<rt>み</rt></ruby>ないで<ruby>自分<rt>じぶん</rt></ruby>のやりやすい<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>操作<rt>そうさ</rt></ruby>する。
+    TRANS: Saat menggunakan mesin atau peralatan, mengoperasikannya dengan cara sendiri yang dirasa mudah tanpa melihat dokumen prosedur kerja.
+    KOTOBA: [kb-1220810] 機械(きかい) [word] = mesin | [kb-1218920] 器具(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-ext-0637-e4bd9ce6a5] 作業手順書(さぎょうてじゅんしょ) [word] = buku / lembar SOP kerja | [kb-otaff51-0828] 見ないで(みないで) [inflected_verb, df:見る] = tanpa melihat | [kb-1318610] 自分(じぶん) [word] = diri sendiri | [kb-otaff51-0829] やすい(やすい) [adjective] = mudah untuk ... | [kb-1517090] 方法(ほうほう) [word] = metode / cara | [kb-1400050] 操作(そうさ) [word] = pengoperasian mesin
+  OPT C: HTML=<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れたら、<ruby>安全保護具<rt>あんぜんほごぐ</rt></ruby>を<ruby>外<rt>はず</rt></ruby>して<ruby>素早<rt>すばや</rt></ruby>く<ruby>作業<rt>さぎょう</rt></ruby>する。
+    TRANS: Setelah terbiasa dengan pekerjaan, melepas alat pelindung diri agar bisa bekerja lebih cepat.
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-otaff51-0911] 慣れたら(なれたら) [inflected_verb, df:慣れる] = jika sudah terbiasa | [kb-pilot51-020] 安全保護具(あんぜんほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-v2-p1-209] 外して(はずして) [inflected_verb, df:外す] = melepas (dasar: 外す) | [kb-v2-p3-219] 素早く(すばやく) [inflected, df:素早い] = dengan cepat
+
+=== #Q3 | ID=otaff-pm51-04-q003 | KEY=C (idx=2) | CAT=第2章 1. 食品衛生の基本（Bab 2.1: Dasar Higiene Pangan） | SRC=Bab 1-3.pdf p.11 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「HACCP（ハサップ）」という<ruby>言葉<rt>ことば</rt></ruby>を<ruby>日本語<rt>にほんご</rt></ruby>に<ruby>翻訳<rt>ほんやく</rt></ruby>したときの<ruby>正<rt>ただ</rt></ruby>しい<ruby>名称<rt>めいしょう</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah nama yang benar ketika istilah 'HACCP (Hazard Analysis and Critical Control Point)' diterjemahkan ke dalam bahasa Jepang? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 11 (Bab 2.1, hal. 6 teks). Bobot: 3 poin. Kunci jawaban: C. HACCP adalah singkatan dari Hazard Analysis and Critical Control Point, yang dalam bahasa Jepang diterjemahkan menjadi 危害要因分析 重要管理点.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-v2-p1-018] HACCP(-) [abbreviation] = sistem jaminan keamanan pangan HACCP | [kb-v2-p3-174] ハサップ(-) [technical] = HACCP | [kb-1264540] 言葉(ことば) [word] = kata-kata / aba-aba | [kb-otaff51-0854] 日本語(にほんご) [noun] = bahasa Jepang | [kb-otaff51-1151] 翻訳した(ほんやくした) [inflected_verb, df:翻訳する] = menerjemahkan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-1531620] 名称(めいしょう) [word] = nama resmi / sebutan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby> <ruby>区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>
+    TRANS: Manajemen Higiene Umum dan Manajemen Higiene Pembagian Zona
+    KOTOBA: [kb-ext-0102-e4b880e888] 一般衛生管理(いっぱんえいせいかんり) [word] = manajemen higiene umum (GMP) | [kb-ext-0416-e58cbae588] 区分衛生管理(くぶんえいせいかんり) [word] = manajemen higiene pemisahan zona
+  OPT B: HTML=<ruby>労働災害防止<rt>ろうどうさいがいぼうし</rt></ruby> <ruby>危険予知訓練<rt>きけんよちくんれん</rt></ruby>
+    TRANS: Pencegahan Kecelakaan Kerja dan Latihan Prediksi Bahaya
+    KOTOBA: [kb-otaff51-0912] 労働災害防止(ろうどうさいがいぼうし) [compound_technical] = pencegahan kecelakaan kerja | [kb-2831348] 危険予知訓練(きけんよちくんれん) [word] = pelatihan prediksi bahaya (KYT)
+  OPT C: HTML=<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby> <ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>
+    TRANS: Analisis Faktor Bahaya dan Titik Kendali Kritis (Kigai Youin Bunseki Juuyou Kanriten)
+    KOTOBA: [kb-ext-0315-e58db1e5ae] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis bahaya (hazard) | [kb-ext-0834-e9878de8a6] 重要管理点(じゅうようかんりてん) [word] = titik kendali kritis (CCP)
+
+=== #Q4 | ID=otaff-pm51-04-q004 | KEY=B (idx=1) | CAT=第2章 1. 食品衛生の基本（Bab 2.1: Dasar Higiene Pangan） | SRC=Bab 1-3.pdf p.11 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>」と「HACCPによる<ruby>衛生管理<rt>えいせいかんり</rt></ruby>」に<ruby>共通<rt>きょうつう</rt></ruby>する<ruby>目的<rt>もくてき</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah tujuan bersama yang dimiliki baik oleh 'Manajemen Higiene Umum' maupun 'Manajemen Higiene Berbasis HACCP'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 11 (Bab 2.1, hal. 6 teks). Bobot: 3 poin. Kunci jawaban: B. Baik manajemen higiene umum maupun manajemen higiene berbasis HACCP sama-sama bertujuan mencegah masuknya faktor bahaya (危害要因が含まれないようにするため) ke dalam pangan.
+  INLINE_KOTOBA_COUNT: 30
+  KOTOBA_PROMPT: [kb-ext-0102-e4b880e888] 一般衛生管理(いっぱんえいせいかんり) [word] = manajemen higiene umum (GMP) | [kb-v2-p1-018] HACCP(-) [abbreviation] = sistem jaminan keamanan pangan HACCP | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-1666860] 衛生管理(えいせいかんり) [word] = manajemen higiene sanitasi | [kb-otaff51-0155] 共通(きょうつう) [noun] = umum / berlaku sama | [kb-v2-p4-222] 目的は(もくてきは) [expression] = tujuannya adalah | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>包装<rt>ほうそう</rt></ruby>デザインを<ruby>毎月変<rt>まいつきか</rt></ruby>えること。
+    TRANS: Mengubah desain kemasan makanan setiap bulan.
+    KOTOBA: [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-1515510] 包装(ほうそう) [word] = pengemasan / kemasan | [kb-v2-p3-023] デザイン(-) [word] = desain / rancangan | [kb-otaff51-1152] 毎月(まいつき) [noun] = setiap bulan | [kb-v2-p1-160] 変える(かえる) [word] = mengubah | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>危害要因<rt>きがいよういん</rt></ruby>（ハザード）が<ruby>含<rt>ふく</rt></ruby>まれないようにし、<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>が<ruby>病気<rt>びょうき</rt></ruby>になったりケガをしないように<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ること。
+    TRANS: Mencegah masuknya faktor bahaya (hazard) ke dalam makanan dan memproduksi makanan agar orang yang memakannya tidak jatuh sakit atau terluka.
+    KOTOBA: [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-ext-0314-e58db1e5ae] 危害要因(きがいよういん) [word] = faktor bahaya pangan (hazard) | [kb-otaff51-0062] ハザード(はざーど) [noun] = bahaya (hazard) | [kb-otaff51-0764] 含まれない(ふくまれない) [inflected_verb, df:含む] = tidak termasuk | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1490230] 病気(びょうき) [word] = penyakit / sakit | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+  OPT C: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>休憩時間<rt>きゅうけいじかん</rt></ruby>をなくして<ruby>生産量<rt>せいさんりょう</rt></ruby>を2<ruby>倍<rt>ばい</rt></ruby>にすること。
+    TRANS: Menghapus waktu istirahat pekerja untuk melipatgandakan jumlah produksi menjadi 2 kali lipat.
+    KOTOBA: [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-1227720] 休憩(きゅうけい) [word] = istirahat | [kb-1315920] 時間(じかん) [word] = waktu | [kb-1996820] 生産量(せいさんりょう) [word] = Kuantitas volume hasil produksi pabrik | [kb-otaff51-0778] 倍(ばい) [noun] = kali lipat | [kb-v2-p1-291] こと(-) [word] = hal / perkara

@@ -1,0 +1,77 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-16 (Soal Ujian 16) | Batch qa-batch-04 | Part 8 (Q29-32 of 50)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=kunci-ujian-16-q029 | KEY=B (idx=1) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 16.pdf p.10 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:B] Potential doubled/colliding particle
+  INSTR: まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>で<ruby>転<rt>ころ</rt></ruby>ばないために、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Agar tidak terpeleset/terjatuh di tempat kerja, pilihlah satu tindakan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 10, nomor 門29 (Q29). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Sepatu yang alur sol bawahnya (裏の溝) sudah menipis menjadi sangat licin dan mudah menyebabkan kecelakaan terpeleset.
+  INLINE_KOTOBA_COUNT: 22
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p2-125] 転ばない(ころばない) [inflected, df:転ぶ] = tidak jatuh / terpeleset | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=ゆかにこぼれた<ruby>水<rt>みず</rt></ruby>や<ruby>油<rt>あぶら</rt></ruby>は、すぐにふきとる。
+    TRANS: Segera mengelap air atau minyak yang tumpah di lantai.
+    KOTOBA: [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-v2-p2-115] こぼれた(-) [inflected, df:こぼれる] = tumpah | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0379] 油(あぶら) [noun] = minyak | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p2-116] ふきとる(-) [word] = mengelap hingga bersih
+  OPT B: HTML=くつは、うらのみぞが<ruby>少<rt>すく</rt></ruby>なくなったものをはく。
+    TRANS: Memakai sepatu yang alur sol bawahnya sudah aus/menipis.
+    KOTOBA: [kb-audit-0198] くつ(くつ) [word] = sepatu / alas kaki (靴) | [kb-audit-0844] うら(うら) [word] = bagian bawah / sol | [kb-audit-1170] みぞ(みぞ) [word] = alur sol sepatu (溝) | [kb-otaff51-0959] 少なく(すくなく) [inflected_adj, df:少ない] = sedikit / minim | [kb-audit-1084] はく(はく) [inflected_verb, df:履く] = memakai alas kaki (履く)
+  OPT C: HTML=<ruby>階段<rt>かいだん</rt></ruby>をのぼるときは、<ruby>手<rt>て</rt></ruby>すりをつかむ。
+    TRANS: Berpegangan pada pegangan tangga (handrail) saat menaiki tangga.
+    KOTOBA: [kb-otaff51-0629] 階段(かいだん) [noun] = tangga | [kb-v2-p2-142] のぼる(-) [word] = naik (tangga) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p2-081] 手すり(てすり) [word] = pegangan tangga | [kb-v2-p2-143] つかむ(-) [word] = menggenggam / berpegangan
+
+=== #Q30 | ID=kunci-ujian-16-q030 | KEY=C (idx=2) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.11 ===
+  CLUSTER CL-0057 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q026 (ssw-pm-kunci-ujian-2)
+  INSTR: まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>作業着<rt>さぎょうぎ</rt></ruby>や<ruby>工場内<rt>こうじょうない</rt></ruby>の<ruby>靴<rt>くつ</rt></ruby>で<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>てはいけない<ruby>理由<rt>りゆう</rt></ruby>のうち、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara alasan mengapa tidak boleh keluar pabrik dengan mengenakan pakaian kerja dan sepatu khusus dalam pabrik, pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 11, nomor 門30 (Q30). Bobot: 3.0 poin. Kunci jawaban: C. Pembahasan: Larangan keluar dengan seragam dan sepatu dalam pabrik bertujuan agar kotoran dan mikroorganisme dari luar tidak terbawa masuk ke ruang produksi (bukan untuk membawa kotoran keluar).
+  INLINE_KOTOBA_COUNT: 16
+  KOTOBA_PROMPT: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-ext-0547-e5b7a5e5a0] 工場内(こうじょうない) [word] = di dalam area pabrik | [kb-v2-p1-089] 靴(くつ) [word] = sepatu | [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-v2-p2-163] 出てはいけない(でてはいけない) [expression] = tidak boleh keluar | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>外<rt>そと</rt></ruby>のほこりや<ruby>汚<rt>よご</rt></ruby>れを<ruby>作業着<rt>さぎょうぎ</rt></ruby>や<ruby>靴<rt>くつ</rt></ruby>につけないため。
+    TRANS: Agar debu dan kotoran dari luar tidak menempel pada pakaian kerja dan sepatu.
+    KOTOBA: [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-v2-p1-089] 靴(くつ) [word] = sepatu | [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai
+  OPT B: HTML=<ruby>外<rt>そと</rt></ruby>の<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>工場内<rt>こうじょうない</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>ませないため。
+    TRANS: Agar mikroorganisme dari luar tidak terbawa masuk ke dalam pabrik.
+    KOTOBA: [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-ext-0547-e5b7a5e5a0] 工場内(こうじょうない) [word] = di dalam area pabrik | [kb-v2-p2-136] 持ち込ませない(もちこませない) [inflected, df:持ち込む] = tidak membiarkan terbawa masuk
+  OPT C: HTML=<ruby>工場内<rt>こうじょうない</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れや<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>外<rt>そと</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>出<rt>だ</rt></ruby>すため。
+    TRANS: Untuk membawa keluar kotoran dan mikroorganisme dari dalam pabrik ke luar.
+    KOTOBA: [kb-ext-0547-e5b7a5e5a0] 工場内(こうじょうない) [word] = di dalam area pabrik | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-v2-p2-137] 持ち出す(もちだす) [word] = membawa keluar
+
+=== #Q31 | ID=kunci-ujian-16-q031 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.11 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>工場内<rt>こうじょうない</rt></ruby>で<ruby>身<rt>み</rt></ruby>に<ruby>着<rt>つ</rt></ruby>けてよいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu benda yang boleh dikenakan di dalam ruang produksi pabrik.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 11, nomor 門31 (Q31). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Cincin, anting, dan karet gelang dilarang karena mudah lepas dan mencemari makanan; kacamata (めがね) untuk penglihatan diperbolehkan dengan ketentuan pengaman pabrik.
+  INLINE_KOTOBA_COUNT: 10
+  KOTOBA_PROMPT: [kb-ext-0547-e5b7a5e5a0] 工場内(こうじょうない) [word] = di dalam area pabrik | [kb-v2-p6-104] 身(み) [word] = tubuh / diri | [kb-otaff51-1358] 着けて(つけて) [inflected_verb, df:着ける] = mengenakan / memakai | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>指輪<rt>ゆびわ</rt></ruby>やイヤリング
+    TRANS: Cincin atau anting-anting
+    KOTOBA: [kb-otaff51-0321] 指輪(ゆびわ) [noun] = cincin | [kb-v2-p5-098] イヤリング(-) [word] = anting-anting
+  OPT B: HTML=めがね
+    TRANS: Kacamata
+    KOTOBA: [kb-u1416-07e0469513] めがね(めがね) [word] = kacamata
+  OPT C: HTML=<ruby>輪<rt>わ</rt></ruby>ゴム
+    TRANS: Karet gelang (di pergelangan tangan)
+    KOTOBA: [kb-u1416-1804ab0162] 輪ゴム(わごむ) [word] = karet gelang
+
+=== #Q32 | ID=kunci-ujian-16-q032 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.11 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  INSTR: まちがったものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>作業<rt>さぎょう</rt></ruby>で<ruby>使用<rt>しよう</rt></ruby>した<ruby>器具<rt>きぐ</rt></ruby>の<ruby>片付<rt>かたづ</rt></ruby>けについて、まちがったものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai pemberesan peralatan yang telah digunakan dalam pekerjaan, pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 11, nomor 門32 (Q32). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Membiarkan peralatan tergeletak di tempat kerja tanpa dikembalikan ke tempatnya melanggar prinsip Seiton (整頓) dan sanitasi.
+  INLINE_KOTOBA_COUNT: 21
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0965] 使用した(しようした) [inflected_verb, df:使用する] = telah menggunakan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-v2-p2-167] 片付け(かたづけ) [word] = membereskan | [kb-audit-0242] まちがった(まちがった) [inflected_verb, df:間違う] = salah / keliru (間違った) | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>使<rt>つか</rt></ruby>った<ruby>器具<rt>きぐ</rt></ruby>は<ruby>元<rt>もと</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>す。
+    TRANS: Mengembalikan peralatan yang telah dipakai ke tempat semula.
+    KOTOBA: [kb-v2-p2-027] 使った(つかった) [inflected, df:使う] = yang digunakan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-u1416-f25f649c56] 元の場所(もとのばしょ) [word] = tempat semula | [kb-v2-p3-248] 戻す(もどす) [word] = mengembalikan
+  OPT B: HTML=<ruby>誰<rt>だれ</rt></ruby>かが<ruby>使<rt>つか</rt></ruby>うと<ruby>思<rt>おも</rt></ruby>ったので、そのまま<ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>置<rt>お</rt></ruby>く。
+    TRANS: Karena mengira akan ada orang lain yang memakainya, membiarkannya begitu saja di tempat kerja.
+    KOTOBA: [kb-audit-0019] 誰か(だれか) [word] = seseorang | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-audit-0042] 思った(おもった) [inflected_verb, df:思う] = mengira / berpikir (lampau) | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p3-275] 置く(おく) [word] = meletakkan
+  OPT C: HTML=<ruby>次<rt>つぎ</rt></ruby>に<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>がいたらその<ruby>人<rt>ひと</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>す。
+    TRANS: Jika ada orang yang akan langsung menggunakannya berikutnya, menyerahkannya kepada orang tersebut.
+    KOTOBA: [kb-audit-0012] 次に(つぎに) [word] = selanjutnya / berikutnya | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-audit-0602] いたら(いたら) [inflected_verb, df:いる] = jika ada (orang) / jika sedang | [kb-u1416-2b2da72322] 渡す(わたす) [word] = menyerahkan

@@ -1,0 +1,75 @@
+# AUDIT SHEET: bonus-soal-2 (Bonus Soal 2) | Batch qa-batch-04 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=bonus-soal-2-q017 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 2.pdf p.1 ===
+  CLUSTER CL-0049 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q017 (ssw-pm-kunci-ujian-2), kunci-ujian-5-q010 (ssw-pm-kunci-ujian-5), kunci-ujian-16-q021 (ssw-pm-kunci-ujian-16), bonus-soal-8-q017 (bonus-soal-8), bonus-soal-9-q017 (bonus-soal-9), nguyen02-q017 (latsol-nguyen-02), nguyen08-q017 (latsol-nguyen-08), nguyen09-q017 (latsol-nguyen-09)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業着<rt>さぎょうぎ</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai pakaian kerja.
+  EXPLANATION: Sumber: Bonus Soal 2.pdf (Soal 17 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>作業着<rt>さぎょうぎ</rt></ruby>は、いつも<ruby>清潔<rt>せいけつ</rt></ruby>なものを<ruby>着<rt>き</rt></ruby>なければならない。
+    TRANS: Pakaian kerja yang dikenakan harus selalu bersih.
+    KOTOBA: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-v2-p2-225] 清潔な(せいけつな) [word] = bersih / higienis | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p2-192] 着なければならない(きなければならない) [expression] = harus memakai | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>服<rt>ふく</rt></ruby>なら、なにを<ruby>着<rt>き</rt></ruby>ても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Asalkan pakaiannya bersih, boleh mengenakan pakaian apa saja.
+    KOTOBA: [kb-v2-p2-225] 清潔な(せいけつな) [word] = bersih / higienis | [kb-v2-p2-073] 服(ふく) [word] = pakaian | [kb-v2-p2-036] なら(-) [particle] = jika / kalau | [kb-v2-p2-256] なに(-) [word] = apa | [kb-v2-p2-193] 着ても良い(きてもよい) [expression] = boleh memakai | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>作業着<rt>さぎょうぎ</rt></ruby>は、<ruby>決<rt>き</rt></ruby>められた<ruby>着<rt>き</rt></ruby>かたをしなければならない。
+    TRANS: Pakaian kerja harus dikenakan sesuai dengan cara yang telah ditetapkan.
+    KOTOBA: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-v2-p2-109] 着かた(きかた) [word] = cara memakai pakaian | [kb-v2-p1-101] しなければならない(-) [expression] = harus dilakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q18 | ID=bonus-soal-2-q018 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 2.pdf p.1 ===
+  CLUSTER CL-0183 (n=9, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-4-q005 (bonus-soal-4), bonus-soal-8-q018 (bonus-soal-8), bonus-soal-9-q018 (bonus-soal-9), nguyen02-q018 (latsol-nguyen-02), nguyen04-q005 (latsol-nguyen-04), nguyen08-q018 (latsol-nguyen-08), nguyen09-q018 (latsol-nguyen-09), nguyen10-q005 (latsol-nguyen-10)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>細菌<rt>さいきん</rt></ruby>が<ruby>原因<rt>げんいん</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>発生<rt>はっせい</rt></ruby>させないために<ruby>食中毒予防<rt>しょくちゅうどくよぼう</rt></ruby>がいくつありますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada berapa prinsip pencegahan keracunan makanan agar tidak menimbulkan keracunan makanan akibat bakteri?
+  EXPLANATION: Sumber: Bonus Soal 2.pdf (Soal 18 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-0926-e9a39fe4b8] 食中毒予防(しょくちゅうどくよぼう) [word] = pencegahan keracunan makanan | [kb-v2-p4-205] いくつ(-) [word] = berapa banyak / berapa buah | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p3-234] させ(-) [inflected, df:する] = membuat jadi (kausatif)
+  OPT A: HTML=4<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 4 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+  OPT B: HTML=3<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 3 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+  OPT C: HTML=7<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 7 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+
+=== #Q19 | ID=bonus-soal-2-q019 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 2.pdf p.1 ===
+  CLUSTER CL-0051 (n=8, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q019 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q023 (ssw-pm-kunci-ujian-16), bonus-soal-8-q019 (bonus-soal-8), bonus-soal-9-q019 (bonus-soal-9), nguyen02-q019 (latsol-nguyen-02), nguyen08-q019 (latsol-nguyen-08), nguyen09-q019 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手袋<rt>てぶくろ</rt></ruby>をつける<ruby>理由<rt>りゆう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai alasan memakai sarung tangan.
+  EXPLANATION: Sumber: Bonus Soal 2.pdf (Soal 19 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): A.
+  KOTOBA_PROMPT: [kb-otaff51-0311] 手袋(てぶくろ) [noun] = sarung tangan | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>手<rt>て</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>にいる<ruby>微生物<rt>びせいぶつ</rt></ruby>が、<ruby>食品<rt>しょくひん</rt></ruby>につかないようにするため。
+    TRANS: Agar mikroorganisme yang ada di permukaan tangan tidak menempel pada pangan.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-1489880] 表面(ひょうめん) [word] = permukaan | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-195] つかない(-) [inflected, df:つく] = tidak menempel | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>手<rt>て</rt></ruby>が<ruby>汚<rt>よご</rt></ruby>れないようにするため。
+    TRANS: Agar tangan tidak menjadi kotor.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-audit-0040] 汚れないように(よごれないように) [inflected_verb, df:汚れる] = agar tidak menjadi kotor | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>手<rt>て</rt></ruby>が<ruby>冷<rt>つめ</rt></ruby>たくならないようにするため。
+    TRANS: Agar tangan tidak menjadi dingin.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-226] 冷たく(つめたく) [inflected, df:冷たい] = dingin | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q20 | ID=bonus-soal-2-q020 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 2.pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  CLUSTER CL-0052 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q020 (ssw-pm-kunci-ujian-2), bonus-soal-9-q020 (bonus-soal-9), nguyen02-q020 (latsol-nguyen-02), nguyen09-q020 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>持<rt>も</rt></ruby>って<ruby>入<rt>はい</rt></ruby>ってよいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu benda yang boleh dibawa masuk ke dalam area kerja.
+  EXPLANATION: Sumber: Bonus Soal 2.pdf (Soal 20 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p2-138] 持って入って(もってはいって) [expression] = membawa masuk | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=お<ruby>金<rt>かね</rt></ruby>やたばこ
+    TRANS: Uang dan rokok
+    KOTOBA: [kb-v2-p2-071] お金(おかね) [word] = uang | [kb-v2-p2-070] たばこ(-) [word] = rokok | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT B: HTML=<ruby>飴<rt>あめ</rt></ruby>や<ruby>薬<rt>くすり</rt></ruby>
+    TRANS: Permen dan obat-obatan
+    KOTOBA: [kb-1153520] 飴(あめ) [standalone_term] = Permen manis olahan gula | [kb-v2-p2-069] 薬(くすり) [word] = obat | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT C: HTML=ロッカー<ruby>鍵<rt>かぎ</rt></ruby>
+    TRANS: Kunci loker
+    KOTOBA: [kb-v2-p2-089] ロッカー鍵(ろっかーかぎ) [compound_technical] = kunci loker

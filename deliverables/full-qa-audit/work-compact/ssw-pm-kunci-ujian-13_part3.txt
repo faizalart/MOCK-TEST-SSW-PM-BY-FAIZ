@@ -1,0 +1,78 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-13 (Soal Ujian 13 — Rakuraku Tokutei (2024年10月)) | Batch qa-batch-03 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=kunci-ujian-13-q009 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.3 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 何 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0217 (をするこ): "melakukan hal tersebut (typo するこ)"
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ヒヤリ．ハットとは何ですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dimaksud dengan Hiyari-Hatto (nyaris celaka)? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 3, Nomor 9) · Kunci Jawaban PDF (Teks Merah): C.
+  KOTOBA_PROMPT: [kb-v2-p6-284] ヒヤリ(-) [technical] = Hiyari (nyaris celaka) | [kb-v2-p5-188] ハット(-) [technical] = Hatto (nyaris celaka) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>小<rt>ちい</rt></ruby>さなことでも、<ruby>大<rt>たい</rt></ruby>したことがないと<ruby>思<rt>おも</rt></ruby>わずに<ruby>報告<rt>ほうこく</rt></ruby>して<ruby>改善<rt>かいぜん</rt></ruby>が<ruby>進<rt>すす</rt></ruby>むことです。
+    TRANS: Melaporkan hal sekecil apa pun tanpa menganggapnya sepele sehingga perbaikan dapat berjalan.
+    KOTOBA: [kb-v2-p1-257] 小さな(ちいさな) [word] = kecil | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0478] 大した(たいした) [adjective] = berarti / serius / besar | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p6-451] 思わずに(おもわずに) [inflected, df:思う] = tanpa berpikir / tanpa sadar | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-1200960] 改善(かいぜん) [word] = perbaikan berkelanjutan (Kaizen) | [kb-v2-p6-392] 進む(すすむ) [word] = berjalan lancar / maju | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT B: HTML=<ruby>作業<rt>さぎょう</rt></ruby>をしていて、もう<ruby>少<rt>すこ</rt></ruby>し<ruby>ケガ<rt>けが</rt></ruby>をすることです。
+    TRANS: Kondisi hampir terluka saat sedang melakukan pekerjaan.
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0642] していて(していて) [inflected_verb, df:する] = sedang melakukan | [kb-v2-p4-135] もう少し(もうすこし) [expression] = sedikit lagi | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-audit-0217] をするこ(をすること) [word] = melakukan hal tersebut (typo するこ) | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT C: HTML=ヒヤリハットが<ruby>少<rt>すく</rt></ruby>なければ<ruby>大<rt>おお</rt></ruby>きな<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>起<rt>お</rt></ruby>こりやすいです。
+    TRANS: Jika kejadian Hiyari-Hatto sedikit, kecelakaan kerja yang besar menjadi lebih mudah terjadi.
+    KOTOBA: [kb-audit-0490] ヒヤリハット(ひやりはっと) [word] = insiden nyaris celaka (near-miss) | [kb-v2-p6-533] 少なければ(すくなければ) [inflected, df:少ない] = jika sedikit | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-v2-p4-171] 起こりやすい(おこりやすい) [inflected, df:起こる] = mudah terjadi | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q10 | ID=kunci-ujian-13-q010 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.3 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0349 (―つ): "satu buah (typo garis: 一つ)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>寄生虫生物<rt>きせいちゅうせいぶつ</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを―つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa nama organisme parasit? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 3, Nomor 10) · Kunci Jawaban PDF (Teks Merah): B.
+  KOTOBA_PROMPT: [kb-ext-0332-e5af84e794] 寄生虫生物(きせいちゅうせいぶつ) [word] = parasit pada bahan pangan | [kb-1531710] 名前(なまえ) [word] = nama | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0349] ―つ(ひとつ) [word] = satu buah (typo garis: 一つ) | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bakteri Bacillus cereus
+    KOTOBA: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus
+  OPT B: HTML=アニサキス
+    TRANS: Anisakis
+    KOTOBA: [kb-otaff51-0032] アニサキス(あにさきす) [compound_technical] = parasit Anisakis
+  OPT C: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+
+=== #Q11 | ID=kunci-ujian-13-q011 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.3 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-v2-p5-178 (清作): "pembersihan (typo: 清掃)"
+  CLUSTER CL-0005 (n=10, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q006 (ssw-pm-kunci-ujian-1), kunci-ujian-5-q011 (ssw-pm-kunci-ujian-5), bonus-soal-1-q006 (bonus-soal-1), bonus-soal-5-q011 (bonus-soal-5), bonus-soal-7-q006 (bonus-soal-7), bonus-soal-10-q020 (bonus-soal-10), nguyen01-q006 (latsol-nguyen-01), nguyen05-q011 (latsol-nguyen-05), nguyen07-q006 (latsol-nguyen-07)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「5S <ruby>活動<rt>かつどう</rt></ruby>」とは、<ruby>一般衛生管理者<rt>いっぱんえいせいかんりしゃ</rt></ruby>のための５つの<ruby>主要<rt>しゅよう</rt></ruby>な<ruby>活動<rt>かつどう</rt></ruby>のことです。<br>「<ruby>整理<rt>せいり</rt></ruby>」「<ruby>整頓<rt>せいとん</rt></ruby>」「<ruby>清潔<rt>せいけつ</rt></ruby>」「<ruby>清掃<rt>せいそう</rt></ruby>」のほかの<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>び<br>なさい。
+  QUESTION_TEXT: 「5S 活動」とは、一般衛生管理者のための５つの主要な活動のことです。
+「整理」「整頓」「清潔」「清掃」のほかの一つは何ですか。正しいものを一つ選び
+なさい。
+  PROMPT_TRANS: "Kegiatan 5S" adalah lima kegiatan utama untuk manajemen higiene umum. Selain "Ringkas (Pemilahan)", "Rapi (Penataan)", "Rawat (Penjagaan kebersihan)", dan "Resik (Pembersihan)", apakah satu kegiatan lainnya? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 3, Nomor 11) · Kunci Jawaban PDF (Teks Merah): A.
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-ext-0103-e4b880e888] 一般衛生管理者(いっぱんえいせいかんりしゃ) [compound_technical] = penanggung jawab higiene umum | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1326320] 主要(しゅよう) [word] = utama | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-287] ほか(-) [word] = lainnya | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>習慣<rt>しゅうかん</rt></ruby>づけ
+    TRANS: Rajin (Pembiasaan)
+    KOTOBA: [kb-v2-p4-063] 習慣づけ(しゅうかんづけ) [compound_technical] = pembiasaan (Shitsuke 5S)
+  OPT B: HTML=<ruby>集中<rt>しゅうちゅう</rt></ruby>
+    TRANS: Konsentrasi (Shuchu)
+    KOTOBA: [kb-1333750] 集中(しゅうちゅう) [word] = konsentrasi
+  OPT C: HTML=<ruby>清作<rt>せいさく</rt></ruby>
+    TRANS: Pekerjaan bersih
+    KOTOBA: [kb-v2-p5-178] 清作(せいさく) [word] = pembersihan (typo: 清掃)
+
+=== #Q12 | ID=kunci-ujian-13-q012 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.4 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0529 (発生っせい): "terjadi / timbul (typo: 発生)"
+  CLUSTER CL-0144 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-5-q012 (bonus-soal-5), nguyen05-q012 (latsol-nguyen-05)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>保管<rt>ほかん</rt></ruby>サンプルについて<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai sampel simpanan (sampel retensi).
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 4, Nomor 12) · Kunci Jawaban PDF (Teks Merah): A.
+  KOTOBA_PROMPT: [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-ext-0016-e382b5e383] サンプル(さんぷる) [word] = sampel / contoh uji | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=クレームなどが<ruby>発生<rt>は</rt></ruby>っせいした<ruby>場合<rt>ばあい</rt></ruby>に<ruby>備<rt>そな</rt></ruby>えるためにサンプルを<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan sampel untuk berjaga-jaga apabila terjadi keluhan (klaim) dan sebagainya.
+    KOTOBA: [kb-otaff51-0049] クレーム(くれーむ) [noun] = klaim / komplain pelanggan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-audit-0529] 発生っせい(はっせい) [word, df:発生] = terjadi / timbul (typo: 発生) | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p5-321] 備える(そなえる) [word] = bersiap menghadapi | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-0016-e382b5e383] サンプル(さんぷる) [word] = sampel / contoh uji | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>数<rt>かず</rt></ruby>が<ruby>決<rt>き</rt></ruby>められている。
+    TRANS: Jumlah produk pangan yang disimpan ditentukan oleh undang-undang.
+    KOTOBA: [kb-otaff51-0380] 法律(ほうりつ) [noun] = undang-undang / hukum | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1580820] 数(かず) [standalone_term] = Jumlah hitungan angka kuantitas | [kb-otaff51-0718] 決められている(きめられている) [inflected_verb, df:決める] = telah ditetapkan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>冷凍庫<rt>れいとうこ</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan produk pangan yang telah dipanaskan di dalam freezer.
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi

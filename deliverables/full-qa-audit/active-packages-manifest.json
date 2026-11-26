@@ -1,0 +1,2098 @@
+{
+  "generatedAt": "2026-11-15T23:07:01.567Z",
+  "branch": "audit/full-package-qa",
+  "totals": {
+    "activePackages": 60,
+    "activePackageFiles": 39,
+    "totalQuestions": 2139,
+    "totalOptions": 6583,
+    "totalMediaRefs": 543,
+    "batches": 12,
+    "maxPackagesPerBatch": 5
+  },
+  "sourceOfTruthAndSync": {
+    "frontendRegistry": "app.js (BUILTIN_PACKAGES_META) + utils.js (DEFAULT_PACKAGES)",
+    "serviceWorkerCache": "sw.js (CACHE_NAME + ASSETS array)",
+    "indexedDbVersionConstant": "app.js (LATSOL_DATASET_VERSION) + ensureAllBuiltinSetsLoaded()",
+    "packageDataFiles": "data/*.json (39 active JSON files)",
+    "kotobaMasterFiles": [
+      "data/sharedKotobaDictionary.json",
+      "data/kotobaMapping.json",
+      "data/kotoba-dan-kategori-tambahan.json"
+    ],
+    "inlineKotobaNote": "14 packages (552 Qs) contain inline kotobaFormatted/kotobaU/kotobaV fields in their package JSON; runtime app.js reads the 3 master Kotoba files, so inline fields must also stay synced if present."
+  },
+  "batches": [
+    {
+      "batchId": "qa-batch-01",
+      "packageIds": [
+        "ssw-pm-kunci-ujian-1",
+        "ssw-pm-kunci-ujian-2",
+        "ssw-pm-kunci-ujian-3",
+        "ssw-pm-kunci-ujian-4",
+        "ssw-pm-kunci-ujian-5"
+      ],
+      "packageCount": 5,
+      "questionCount": 200,
+      "optionCount": 600,
+      "status": "AUDITED"
+    },
+    {
+      "batchId": "qa-batch-02",
+      "packageIds": [
+        "ssw-pm-kunci-ujian-6",
+        "ssw-pm-kunci-ujian-7",
+        "ssw-pm-kunci-ujian-8",
+        "ssw-pm-kunci-ujian-9",
+        "ssw-pm-kunci-ujian-10"
+      ],
+      "packageCount": 5,
+      "questionCount": 200,
+      "optionCount": 600,
+      "status": "AUDITED"
+    },
+    {
+      "batchId": "qa-batch-03",
+      "packageIds": [
+        "ssw-pm-kunci-ujian-11",
+        "ssw-pm-kunci-ujian-12",
+        "ssw-pm-kunci-ujian-13",
+        "ssw-pm-kunci-ujian-14",
+        "ssw-pm-kunci-ujian-15"
+      ],
+      "packageCount": 5,
+      "questionCount": 217,
+      "optionCount": 651,
+      "status": "AUDITED"
+    },
+    {
+      "batchId": "qa-batch-04",
+      "packageIds": [
+        "ssw-pm-kunci-ujian-16",
+        "ssw-pm-tipe2-nguyen1",
+        "bonus-soal-1",
+        "bonus-soal-2",
+        "bonus-soal-4"
+      ],
+      "packageCount": 5,
+      "questionCount": 210,
+      "optionCount": 631,
+      "status": "PENDING"
+    },
+    {
+      "batchId": "qa-batch-05",
+      "packageIds": [
+        "bonus-soal-5",
+        "bonus-soal-6",
+        "bonus-soal-7",
+        "bonus-soal-8",
+        "bonus-soal-9"
+      ],
+      "packageCount": 5,
+      "questionCount": 194,
+      "optionCount": 582,
+      "status": "PENDING"
+    },
+    {
+      "batchId": "qa-batch-06",
+      "packageIds": [
+        "bonus-soal-10",
+        "ssw-pm-lab-bakteri",
+        "ssw-pm-lab-suhu",
+        "ssw-pm-lab-haccp",
+        "ssw-pm-lab-alergen"
+      ],
+      "packageCount": 5,
+      "questionCount": 132,
+      "optionCount": 488,
+      "status": "PENDING"
+    },
+    {
+      "batchId": "qa-batch-07",
+      "packageIds": [
+        "latsol-nguyen-01",
+        "latsol-nguyen-02",
+        "latsol-nguyen-03",
+        "latsol-nguyen-04",
+        "latsol-nguyen-05"
+      ],
+      "packageCount": 5,
+      "questionCount": 196,
+      "optionCount": 588,
+      "status": "PENDING"
+    },
+    {
+      "batchId": "qa-batch-08",
+      "packageIds": [
+        "latsol-nguyen-06",
+        "latsol-nguyen-07",
+        "latsol-nguyen-08",
+        "latsol-nguyen-09",
+        "latsol-nguyen-10"
+      ],
+      "packageCount": 5,
+      "questionCount": 199,
+      "optionCount": 597,
+      "status": "PENDING"
+    },
+    {
+      "batchId": "qa-batch-09",
+      "packageIds": [
+        "latsol-reguler-01",
+        "latsol-reguler-02",
+        "latsol-reguler-03",
+        "latsol-reguler-04",
+        "latsol-reguler-05"
+      ],
+      "packageCount": 5,
+      "questionCount": 100,
+      "optionCount": 326,
+      "status": "PENDING"
+    },
+    {
+      "batchId": "qa-batch-10",
+      "packageIds": [
+        "latsol-reguler-06",
+        "latsol-tambahan-01",
+        "latsol-tambahan-02",
+        "latsol-hitungan-01",
+        "pilot-otaff51-01"
+      ],
+      "packageCount": 5,
+      "questionCount": 91,
+      "optionCount": 320,
+      "status": "PENDING"
+    },
+    {
+      "batchId": "qa-batch-11",
+      "packageIds": [
+        "latsol-otaff-pm51-01",
+        "latsol-otaff-pm51-02",
+        "latsol-otaff-pm51-03",
+        "latsol-otaff-pm51-04",
+        "latsol-otaff-pm51-05"
+      ],
+      "packageCount": 5,
+      "questionCount": 200,
+      "optionCount": 600,
+      "status": "PENDING"
+    },
+    {
+      "batchId": "qa-batch-12",
+      "packageIds": [
+        "latsol-otaff-pm51-06",
+        "latsol-otaff-pm51-07",
+        "latsol-otaff-pm51-08",
+        "latsol-otaff-pm51-09",
+        "latsol-otaff-pm51-10"
+      ],
+      "packageCount": 5,
+      "questionCount": 200,
+      "optionCount": 600,
+      "status": "PENDING"
+    }
+  ],
+  "packages": [
+    {
+      "order": 1,
+      "batchId": "qa-batch-01",
+      "setId": "ssw-pm-kunci-ujian-1",
+      "name": "Soal Ujian 1 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 6,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-kunci-ujian-1.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-kunci-ujian-1.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 2,
+      "batchId": "qa-batch-01",
+      "setId": "ssw-pm-kunci-ujian-2",
+      "name": "Soal Ujian 2 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 5,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-kunci-ujian-2.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-kunci-ujian-2.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 3,
+      "batchId": "qa-batch-01",
+      "setId": "ssw-pm-kunci-ujian-3",
+      "name": "Soal Ujian 3 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 4,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 4,
+      "batchId": "qa-batch-01",
+      "setId": "ssw-pm-kunci-ujian-4",
+      "name": "Soal Ujian 4 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 6,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 5,
+      "batchId": "qa-batch-01",
+      "setId": "ssw-pm-kunci-ujian-5",
+      "name": "Soal Ujian 5 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 4,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 6,
+      "batchId": "qa-batch-02",
+      "setId": "ssw-pm-kunci-ujian-6",
+      "name": "Soal Ujian 6 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 7,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 7,
+      "batchId": "qa-batch-02",
+      "setId": "ssw-pm-kunci-ujian-7",
+      "name": "Soal Ujian 7 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 5,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 8,
+      "batchId": "qa-batch-02",
+      "setId": "ssw-pm-kunci-ujian-8",
+      "name": "Soal Ujian 8 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 6,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 9,
+      "batchId": "qa-batch-02",
+      "setId": "ssw-pm-kunci-ujian-9",
+      "name": "Soal Ujian 9 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 3,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 10,
+      "batchId": "qa-batch-02",
+      "setId": "ssw-pm-kunci-ujian-10",
+      "name": "Soal Ujian 10 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 5,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 11,
+      "batchId": "qa-batch-03",
+      "setId": "ssw-pm-kunci-ujian-11",
+      "name": "Soal Ujian 11 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 0,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 12,
+      "batchId": "qa-batch-03",
+      "setId": "ssw-pm-kunci-ujian-12",
+      "name": "Soal Ujian 12 — CBTP Gino1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 6,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 13,
+      "batchId": "qa-batch-03",
+      "setId": "ssw-pm-kunci-ujian-13",
+      "name": "Soal Ujian 13 — Rakuraku Tokutei (2024年10月)",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 25,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-all-kunci-ujian-3-to-13.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 14,
+      "batchId": "qa-batch-03",
+      "setId": "ssw-pm-kunci-ujian-14",
+      "name": "Soal Ujian 14",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 59,
+      "actualOptionCount": 177,
+      "mediaRefCount": 2,
+      "inlineKotobaQuestionCount": 59,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-kunci-ujian-14.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/ssw-pm-kunci-ujian-14.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-kunci-ujian-14.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 15,
+      "batchId": "qa-batch-03",
+      "setId": "ssw-pm-kunci-ujian-15",
+      "name": "Soal Ujian 15",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 38,
+      "actualOptionCount": 114,
+      "mediaRefCount": 3,
+      "inlineKotobaQuestionCount": 38,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-kunci-ujian-15.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/ssw-pm-kunci-ujian-15.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-kunci-ujian-15.json"
+      ],
+      "auditStatus": "AUDITED"
+    },
+    {
+      "order": 16,
+      "batchId": "qa-batch-04",
+      "setId": "ssw-pm-kunci-ujian-16",
+      "name": "Soal Ujian 16",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 50,
+      "actualOptionCount": 151,
+      "mediaRefCount": 6,
+      "inlineKotobaQuestionCount": 50,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-kunci-ujian-16.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/ssw-pm-kunci-ujian-16.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-kunci-ujian-16.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 17,
+      "batchId": "qa-batch-04",
+      "setId": "ssw-pm-tipe2-nguyen1",
+      "name": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 46,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-tipe2-nguyen1.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-tipe2-nguyen1.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 18,
+      "batchId": "qa-batch-04",
+      "setId": "bonus-soal-1",
+      "name": "Bonus Soal 1",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 10,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-bonus-soal-1-to-10-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 19,
+      "batchId": "qa-batch-04",
+      "setId": "bonus-soal-2",
+      "name": "Bonus Soal 2",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 13,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-bonus-soal-1-to-10-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 20,
+      "batchId": "qa-batch-04",
+      "setId": "bonus-soal-4",
+      "name": "Bonus Soal 4",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 14,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-bonus-soal-1-to-10-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 21,
+      "batchId": "qa-batch-05",
+      "setId": "bonus-soal-5",
+      "name": "Bonus Soal 5",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 36,
+      "actualOptionCount": 108,
+      "mediaRefCount": 3,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-bonus-soal-1-to-10-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 22,
+      "batchId": "qa-batch-05",
+      "setId": "bonus-soal-6",
+      "name": "Bonus Soal 6",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 22,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-bonus-soal-1-to-10-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 23,
+      "batchId": "qa-batch-05",
+      "setId": "bonus-soal-7",
+      "name": "Bonus Soal 7",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 39,
+      "actualOptionCount": 117,
+      "mediaRefCount": 5,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-bonus-soal-1-to-10-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 24,
+      "batchId": "qa-batch-05",
+      "setId": "bonus-soal-8",
+      "name": "Bonus Soal 8",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 39,
+      "actualOptionCount": 117,
+      "mediaRefCount": 12,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-bonus-soal-1-to-10-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 25,
+      "batchId": "qa-batch-05",
+      "setId": "bonus-soal-9",
+      "name": "Bonus Soal 9",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 15,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-bonus-soal-1-to-10-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 26,
+      "batchId": "qa-batch-06",
+      "setId": "bonus-soal-10",
+      "name": "Bonus Soal 10",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 3,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-bonus-soal-1-to-10-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 27,
+      "batchId": "qa-batch-06",
+      "setId": "ssw-pm-lab-bakteri",
+      "name": "細菌・微生物・食中毒 (Bacteria Lab)",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 32,
+      "actualOptionCount": 128,
+      "mediaRefCount": 0,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-special-lab-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-special-lab-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 28,
+      "batchId": "qa-batch-06",
+      "setId": "ssw-pm-lab-suhu",
+      "name": "保存温度・温度管理 (Temperature Lab)",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 28,
+      "actualOptionCount": 112,
+      "mediaRefCount": 0,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-special-lab-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-special-lab-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 29,
+      "batchId": "qa-batch-06",
+      "setId": "ssw-pm-lab-haccp",
+      "name": "HACCP・衛生管理 (HACCP Principles)",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 12,
+      "actualOptionCount": 48,
+      "mediaRefCount": 0,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-special-lab-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-special-lab-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 30,
+      "batchId": "qa-batch-06",
+      "setId": "ssw-pm-lab-alergen",
+      "name": "アレルゲン・特定原材料 (Allergen Lab)",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 20,
+      "actualOptionCount": 80,
+      "mediaRefCount": 0,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/ssw-pm-special-lab-bundle.json",
+      "storageFormat": "bundle-flat-questions",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/ssw-pm-special-lab-bundle.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 31,
+      "batchId": "qa-batch-07",
+      "setId": "latsol-nguyen-01",
+      "name": "Latsol Nguyen 01",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 10,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-nguyen-01.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-nguyen-01.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 32,
+      "batchId": "qa-batch-07",
+      "setId": "latsol-nguyen-02",
+      "name": "Latsol Nguyen 02",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 13,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-nguyen-02.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-nguyen-02.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 33,
+      "batchId": "qa-batch-07",
+      "setId": "latsol-nguyen-03",
+      "name": "Latsol Nguyen 03",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 13,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-nguyen-03.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-nguyen-03.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 34,
+      "batchId": "qa-batch-07",
+      "setId": "latsol-nguyen-04",
+      "name": "Latsol Nguyen 04",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 14,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-nguyen-04.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-nguyen-04.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 35,
+      "batchId": "qa-batch-07",
+      "setId": "latsol-nguyen-05",
+      "name": "Latsol Nguyen 05",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 36,
+      "actualOptionCount": 108,
+      "mediaRefCount": 3,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-nguyen-05.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-nguyen-05.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 36,
+      "batchId": "qa-batch-08",
+      "setId": "latsol-nguyen-06",
+      "name": "Latsol Nguyen 06",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 22,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-nguyen-06.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-nguyen-06.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 37,
+      "batchId": "qa-batch-08",
+      "setId": "latsol-nguyen-07",
+      "name": "Latsol Nguyen 07",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 39,
+      "actualOptionCount": 117,
+      "mediaRefCount": 5,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-nguyen-07.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-nguyen-07.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 38,
+      "batchId": "qa-batch-08",
+      "setId": "latsol-nguyen-08",
+      "name": "Latsol Nguyen 08",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 39,
+      "actualOptionCount": 117,
+      "mediaRefCount": 12,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-nguyen-08.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-nguyen-08.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 39,
+      "batchId": "qa-batch-08",
+      "setId": "latsol-nguyen-09",
+      "name": "Latsol Nguyen 09",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 15,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-nguyen-09.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-nguyen-09.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 40,
+      "batchId": "qa-batch-08",
+      "setId": "latsol-nguyen-10",
+      "name": "Latsol Nguyen 10",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 41,
+      "actualOptionCount": 123,
+      "mediaRefCount": 16,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-nguyen-10.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-nguyen-10.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 41,
+      "batchId": "qa-batch-09",
+      "setId": "latsol-reguler-01",
+      "name": "Latsol Reguler 01",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 20,
+      "actualOptionCount": 65,
+      "mediaRefCount": 0,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-reguler-01.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-reguler-01.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 42,
+      "batchId": "qa-batch-09",
+      "setId": "latsol-reguler-02",
+      "name": "Latsol Reguler 02",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 20,
+      "actualOptionCount": 60,
+      "mediaRefCount": 0,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-reguler-02.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-reguler-02.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 43,
+      "batchId": "qa-batch-09",
+      "setId": "latsol-reguler-03",
+      "name": "Latsol Reguler 03",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 20,
+      "actualOptionCount": 60,
+      "mediaRefCount": 1,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-reguler-03.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-reguler-03.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 44,
+      "batchId": "qa-batch-09",
+      "setId": "latsol-reguler-04",
+      "name": "Latsol Reguler 04",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 20,
+      "actualOptionCount": 80,
+      "mediaRefCount": 2,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-reguler-04.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-reguler-04.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 45,
+      "batchId": "qa-batch-09",
+      "setId": "latsol-reguler-05",
+      "name": "Latsol Reguler 05",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 20,
+      "actualOptionCount": 61,
+      "mediaRefCount": 9,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-reguler-05.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-reguler-05.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 46,
+      "batchId": "qa-batch-10",
+      "setId": "latsol-reguler-06",
+      "name": "Latsol Reguler 06",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 20,
+      "actualOptionCount": 61,
+      "mediaRefCount": 0,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-reguler-06.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-reguler-06.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 47,
+      "batchId": "qa-batch-10",
+      "setId": "latsol-tambahan-01",
+      "name": "Latsol Tambahan 01",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 25,
+      "actualOptionCount": 86,
+      "mediaRefCount": 1,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-tambahan-01.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-tambahan-01.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 48,
+      "batchId": "qa-batch-10",
+      "setId": "latsol-tambahan-02",
+      "name": "Latsol Tambahan 02",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 30,
+      "actualOptionCount": 120,
+      "mediaRefCount": 15,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-tambahan-02.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-tambahan-02.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 49,
+      "batchId": "qa-batch-10",
+      "setId": "latsol-hitungan-01",
+      "name": "Latsol Hitungan 01",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 11,
+      "actualOptionCount": 33,
+      "mediaRefCount": 1,
+      "inlineKotobaQuestionCount": 0,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-hitungan-01.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json"
+      ],
+      "translationLocations": [
+        "data/latsol-hitungan-01.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 50,
+      "batchId": "qa-batch-10",
+      "setId": "pilot-otaff51-01",
+      "name": "Pilot OTAFF 5.1 (Bab 1-3)",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 5,
+      "actualOptionCount": 20,
+      "mediaRefCount": 6,
+      "inlineKotobaQuestionCount": 5,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/pilot-otaff51-01.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/pilot-otaff51-01.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/pilot-otaff51-01.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 51,
+      "batchId": "qa-batch-11",
+      "setId": "latsol-otaff-pm51-01",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 01",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 16,
+      "inlineKotobaQuestionCount": 40,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-otaff-pm51-01.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/latsol-otaff-pm51-01.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/latsol-otaff-pm51-01.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 52,
+      "batchId": "qa-batch-11",
+      "setId": "latsol-otaff-pm51-02",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 02",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 16,
+      "inlineKotobaQuestionCount": 40,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-otaff-pm51-02.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/latsol-otaff-pm51-02.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/latsol-otaff-pm51-02.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 53,
+      "batchId": "qa-batch-11",
+      "setId": "latsol-otaff-pm51-03",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 03",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 16,
+      "inlineKotobaQuestionCount": 40,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-otaff-pm51-03.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/latsol-otaff-pm51-03.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/latsol-otaff-pm51-03.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 54,
+      "batchId": "qa-batch-11",
+      "setId": "latsol-otaff-pm51-04",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 04",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 13,
+      "inlineKotobaQuestionCount": 40,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-otaff-pm51-04.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/latsol-otaff-pm51-04.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/latsol-otaff-pm51-04.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 55,
+      "batchId": "qa-batch-11",
+      "setId": "latsol-otaff-pm51-05",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 05",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 13,
+      "inlineKotobaQuestionCount": 40,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-otaff-pm51-05.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/latsol-otaff-pm51-05.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/latsol-otaff-pm51-05.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 56,
+      "batchId": "qa-batch-12",
+      "setId": "latsol-otaff-pm51-06",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 06",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 13,
+      "inlineKotobaQuestionCount": 40,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-otaff-pm51-06.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/latsol-otaff-pm51-06.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/latsol-otaff-pm51-06.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 57,
+      "batchId": "qa-batch-12",
+      "setId": "latsol-otaff-pm51-07",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 07",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 16,
+      "inlineKotobaQuestionCount": 40,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-otaff-pm51-07.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/latsol-otaff-pm51-07.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/latsol-otaff-pm51-07.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 58,
+      "batchId": "qa-batch-12",
+      "setId": "latsol-otaff-pm51-08",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 08",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 12,
+      "inlineKotobaQuestionCount": 40,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-otaff-pm51-08.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/latsol-otaff-pm51-08.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/latsol-otaff-pm51-08.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 59,
+      "batchId": "qa-batch-12",
+      "setId": "latsol-otaff-pm51-09",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 09",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 19,
+      "inlineKotobaQuestionCount": 40,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-otaff-pm51-09.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/latsol-otaff-pm51-09.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/latsol-otaff-pm51-09.json"
+      ],
+      "auditStatus": "PENDING"
+    },
+    {
+      "order": 60,
+      "batchId": "qa-batch-12",
+      "setId": "latsol-otaff-pm51-10",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 10",
+      "category": null,
+      "durationMinutes": null,
+      "expectedCountInMeta": null,
+      "actualQuestionCount": 40,
+      "actualOptionCount": 120,
+      "mediaRefCount": 15,
+      "inlineKotobaQuestionCount": 40,
+      "keyAuditTrackedQuestions": 0,
+      "sourceFile": "data/latsol-otaff-pm51-10.json",
+      "storageFormat": "single-package",
+      "kotobaLocations": [
+        "data/sharedKotobaDictionary.json",
+        "data/kotobaMapping.json",
+        "data/kotoba-dan-kategori-tambahan.json",
+        "data/latsol-otaff-pm51-10.json (inline kotobaFormatted/kotobaU/kotobaV)"
+      ],
+      "translationLocations": [
+        "data/latsol-otaff-pm51-10.json"
+      ],
+      "auditStatus": "PENDING"
+    }
+  ],
+  "activeFiles": [
+    {
+      "file": "data/latsol-hitungan-01.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-hitungan-01"
+      ]
+    },
+    {
+      "file": "data/latsol-nguyen-01.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-nguyen-01"
+      ]
+    },
+    {
+      "file": "data/latsol-nguyen-02.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-nguyen-02"
+      ]
+    },
+    {
+      "file": "data/latsol-nguyen-03.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-nguyen-03"
+      ]
+    },
+    {
+      "file": "data/latsol-nguyen-04.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-nguyen-04"
+      ]
+    },
+    {
+      "file": "data/latsol-nguyen-05.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-nguyen-05"
+      ]
+    },
+    {
+      "file": "data/latsol-nguyen-06.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-nguyen-06"
+      ]
+    },
+    {
+      "file": "data/latsol-nguyen-07.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-nguyen-07"
+      ]
+    },
+    {
+      "file": "data/latsol-nguyen-08.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-nguyen-08"
+      ]
+    },
+    {
+      "file": "data/latsol-nguyen-09.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-nguyen-09"
+      ]
+    },
+    {
+      "file": "data/latsol-nguyen-10.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-nguyen-10"
+      ]
+    },
+    {
+      "file": "data/latsol-otaff-pm51-01.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-otaff-pm51-01"
+      ]
+    },
+    {
+      "file": "data/latsol-otaff-pm51-02.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-otaff-pm51-02"
+      ]
+    },
+    {
+      "file": "data/latsol-otaff-pm51-03.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-otaff-pm51-03"
+      ]
+    },
+    {
+      "file": "data/latsol-otaff-pm51-04.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-otaff-pm51-04"
+      ]
+    },
+    {
+      "file": "data/latsol-otaff-pm51-05.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-otaff-pm51-05"
+      ]
+    },
+    {
+      "file": "data/latsol-otaff-pm51-06.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-otaff-pm51-06"
+      ]
+    },
+    {
+      "file": "data/latsol-otaff-pm51-07.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-otaff-pm51-07"
+      ]
+    },
+    {
+      "file": "data/latsol-otaff-pm51-08.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-otaff-pm51-08"
+      ]
+    },
+    {
+      "file": "data/latsol-otaff-pm51-09.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-otaff-pm51-09"
+      ]
+    },
+    {
+      "file": "data/latsol-otaff-pm51-10.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-otaff-pm51-10"
+      ]
+    },
+    {
+      "file": "data/latsol-reguler-01.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-reguler-01"
+      ]
+    },
+    {
+      "file": "data/latsol-reguler-02.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-reguler-02"
+      ]
+    },
+    {
+      "file": "data/latsol-reguler-03.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-reguler-03"
+      ]
+    },
+    {
+      "file": "data/latsol-reguler-04.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-reguler-04"
+      ]
+    },
+    {
+      "file": "data/latsol-reguler-05.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-reguler-05"
+      ]
+    },
+    {
+      "file": "data/latsol-reguler-06.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-reguler-06"
+      ]
+    },
+    {
+      "file": "data/latsol-tambahan-01.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-tambahan-01"
+      ]
+    },
+    {
+      "file": "data/latsol-tambahan-02.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "latsol-tambahan-02"
+      ]
+    },
+    {
+      "file": "data/pilot-otaff51-01.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "pilot-otaff51-01"
+      ]
+    },
+    {
+      "file": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "format": "bundle-flat-questions",
+      "packageCount": 11,
+      "setIds": [
+        "ssw-pm-kunci-ujian-3",
+        "ssw-pm-kunci-ujian-4",
+        "ssw-pm-kunci-ujian-5",
+        "ssw-pm-kunci-ujian-6",
+        "ssw-pm-kunci-ujian-7",
+        "ssw-pm-kunci-ujian-8",
+        "ssw-pm-kunci-ujian-9",
+        "ssw-pm-kunci-ujian-10",
+        "ssw-pm-kunci-ujian-11",
+        "ssw-pm-kunci-ujian-12",
+        "ssw-pm-kunci-ujian-13"
+      ]
+    },
+    {
+      "file": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "format": "bundle-flat-questions",
+      "packageCount": 9,
+      "setIds": [
+        "bonus-soal-1",
+        "bonus-soal-2",
+        "bonus-soal-4",
+        "bonus-soal-5",
+        "bonus-soal-6",
+        "bonus-soal-7",
+        "bonus-soal-8",
+        "bonus-soal-9",
+        "bonus-soal-10"
+      ]
+    },
+    {
+      "file": "data/ssw-pm-kunci-ujian-1.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "ssw-pm-kunci-ujian-1"
+      ]
+    },
+    {
+      "file": "data/ssw-pm-kunci-ujian-14.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "ssw-pm-kunci-ujian-14"
+      ]
+    },
+    {
+      "file": "data/ssw-pm-kunci-ujian-15.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "ssw-pm-kunci-ujian-15"
+      ]
+    },
+    {
+      "file": "data/ssw-pm-kunci-ujian-16.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "ssw-pm-kunci-ujian-16"
+      ]
+    },
+    {
+      "file": "data/ssw-pm-kunci-ujian-2.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "ssw-pm-kunci-ujian-2"
+      ]
+    },
+    {
+      "file": "data/ssw-pm-special-lab-bundle.json",
+      "format": "bundle-flat-questions",
+      "packageCount": 4,
+      "setIds": [
+        "ssw-pm-lab-bakteri",
+        "ssw-pm-lab-suhu",
+        "ssw-pm-lab-haccp",
+        "ssw-pm-lab-alergen"
+      ]
+    },
+    {
+      "file": "data/ssw-pm-tipe2-nguyen1.json",
+      "format": "single-package",
+      "packageCount": 1,
+      "setIds": [
+        "ssw-pm-tipe2-nguyen1"
+      ]
+    }
+  ],
+  "excludedNonActiveArtifacts": [
+    {
+      "path": "data/questions.json",
+      "classification": "ARCHIVE_FALLBACK_MIRROR",
+      "note": "Mirror of kunci-ujian-1 + tipe2-nguyen1 (80 Qs). Check sync if Ujian 1 / Tipe 2 edited."
+    },
+    {
+      "path": "seed-data.js",
+      "classification": "OFFLINE_SEED_FALLBACK",
+      "note": "Embedded offline fallback for kunci-ujian-1 + tipe2-nguyen1."
+    },
+    {
+      "path": "ssw-pm-special-lab-bundle.json.bak",
+      "classification": "BACKUP_FILE",
+      "note": "Inactive backup in repo root. Exclude from audit edits."
+    },
+    {
+      "path": "_incoming/soal-ujian-14-16.zip",
+      "classification": "RAW_ARCHIVE_ZIP",
+      "note": "Historical import archive. Exclude."
+    },
+    {
+      "path": "deliverables/incoming/*",
+      "classification": "RAW_ARCHIVE_ZIP",
+      "note": "Historical import ZIPs. Exclude."
+    },
+    {
+      "path": "deliverables/backups/*",
+      "classification": "BACKUP_DIR",
+      "note": "Prior audit backups. Never edit."
+    },
+    {
+      "path": "deliverables/staging/*",
+      "classification": "HISTORICAL_STAGING_DELTAS",
+      "note": "OTAFF 10-paket pipeline scripts & delta JSONs."
+    },
+    {
+      "path": "deliverables/pilot-otaff51-01/*",
+      "classification": "PILOT_STAGING_DIR",
+      "note": "Pilot staging artifacts. Exclude from active runtime."
+    },
+    {
+      "path": "deliverables/kotoba-audit-40/*",
+      "classification": "PRIOR_AUDIT_ARTIFACTS",
+      "note": "Prior 40/50-package Kotoba audit reports & scripts."
+    },
+    {
+      "path": "sources-pdf/*",
+      "classification": "REFERENCE_SOURCE_PDFS",
+      "note": "25 exam PDFs + MODUL/Bab 1-3.pdf reference textbooks."
+    }
+  ]
+}

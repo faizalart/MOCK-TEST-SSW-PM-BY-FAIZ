@@ -1,0 +1,71 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-9 (Soal Ujian 9 — CBTP Gino1) | Batch qa-batch-02 | Part 6 (Q21-24 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=kunci-ujian-9-q021 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.4 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうぎについて、まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang salah mengenai pakaian kerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 4, Câu 21 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0648] さぎょうぎ(さぎょうぎ) [word] = pakaian kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=さぎょうぎはいつもせいけつなものをつきなければならない。
+    TRANS: Pakaian kerja yang dikenakan harus selalu bersih.
+    KOTOBA: [kb-audit-0648] さぎょうぎ(さぎょうぎ) [word] = pakaian kerja | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-latsol-ba01a8a7ea] せいけつ(せいけつ) [word] = Seiketsu (menjaga kebersihan 5S) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-1398] つき(つき) [inflected_verb, df:つく] = menempel (pada makanan) | [kb-audit-0375] なければ(なければ) [word] = jika tidak (syarat wajib) | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=せいけつなふくなら、なにをきてもいい。
+    TRANS: Asalkan pakaiannya bersih, boleh mengenakan pakaian apa saja.
+    KOTOBA: [kb-latsol-ba01a8a7ea] せいけつ(せいけつ) [word] = Seiketsu (menjaga kebersihan 5S) | [kb-audit-1085] ふく(ふく) [word] = pakaian; mengelap (服／拭く) | [kb-v2-p2-036] なら(-) [particle] = jika / kalau | [kb-v2-p2-256] なに(-) [word] = apa | [kb-audit-0833] きて(きて) [inflected_verb, df:着る] = memakai (pakaian) | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT C: HTML=さぎょうぎはきめられたきかたをしなければならない。
+    TRANS: Pakaian kerja harus dikenakan sesuai dengan cara yang telah ditentukan.
+    KOTOBA: [kb-audit-0648] さぎょうぎ(さぎょうぎ) [word] = pakaian kerja | [kb-audit-0109] きめられた(きめられた) [inflected_verb, df:決める] = yang telah ditentukan (決められた) | [kb-audit-0448] きかた(きかた) [word] = cara berpakaian (着方) | [kb-v2-p1-101] しなければならない(-) [expression] = harus dilakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q22 | ID=kunci-ujian-9-q022 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.4 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: マスクをつけるりゆうとして、まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu alasan yang salah mengenai tujuan memakai masker.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 4, Câu 22 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p2-021] マスク(-) [word] = masker | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p6-565] りゆう(-) [word] = alasan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=くちのなかのびせいぶつが、しょくひんにはいらないようにするため。
+    TRANS: Agar mikroorganisme di dalam mulut tidak masuk ke dalam makanan.
+    KOTOBA: [kb-audit-0834] くち(くち) [word] = mulut | [kb-v2-p6-561] びせいぶつ(-) [technical] = mikroorganisme | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-1080] はいらない(はいらない) [inflected_verb, df:入る] = tidak masuk (入る) | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=はなのなかのびせいぶつが、しょくひんにはいらないようにするため。
+    TRANS: Agar mikroorganisme di dalam hidung tidak masuk ke dalam makanan.
+    KOTOBA: [kb-v2-p6-561] びせいぶつ(-) [technical] = mikroorganisme | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-1080] はいらない(はいらない) [inflected_verb, df:入る] = tidak masuk (入る) | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=かおによごれがつかないようにするため。
+    TRANS: Agar kotoran tidak menempel pada wajah.
+    KOTOBA: [kb-audit-1127] かお(かお) [word] = wajah / muka (顔) | [kb-audit-0229] よごれ(よごれ) [word] = kotoran / noda (汚れ) | [kb-v2-p2-195] つかない(-) [inflected, df:つく] = tidak menempel | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q23 | ID=kunci-ujian-9-q023 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: てぶくろをつけるりゆうとして、ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu alasan yang benar mengenai tujuan memakai sarung tangan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 4, Câu 23 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p6-601] てぶくろ(-) [word] = sarung tangan | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p6-565] りゆう(-) [word] = alasan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=てのひょうめんにいるびせいぶつが、しょくひんにつかないようにするため。
+    TRANS: Agar mikroorganisme yang ada di permukaan tangan tidak menempel pada makanan.
+    KOTOBA: [kb-audit-0411] ての(ての) [word] = tangan (kepemilikan: 手の) | [kb-audit-0835] ひょうめん(ひょうめん) [word] = permukaan | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-v2-p6-561] びせいぶつ(-) [technical] = mikroorganisme | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-v2-p2-195] つかない(-) [inflected, df:つく] = tidak menempel | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=てがよごれないようにするため。
+    TRANS: Agar tangan tidak menjadi kotor.
+    KOTOBA: [kb-audit-0409] てが(てが) [word] = tangan (subjek: 手が) | [kb-audit-0229] よごれ(よごれ) [word] = kotoran / noda (汚れ) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya
+  OPT C: HTML=てがつめたくならないようにするため。
+    TRANS: Agar tangan tidak menjadi dingin.
+    KOTOBA: [kb-audit-0409] てが(てが) [word] = tangan (subjek: 手が) | [kb-audit-0836] つめたく(つめたく) [inflected_adj, df:冷たい] = menjadi dingin | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya
+
+=== #Q24 | ID=kunci-ujian-9-q024 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.4 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0554 (あめやすり): "permen atau obat/kikir (typo)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうじょうにもってはいってもいいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu benda yang boleh dibawa masuk ke dalam area kerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 4, Câu 24 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-audit-0837] もってはいって(もってはいって) [expression] = membawa masuk | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=おかねやタバコ
+    TRANS: Uang atau rokok
+    KOTOBA: [kb-audit-0443] おかね(おかね) [word] = uang (お金) | [kb-v2-p6-219] タバコ(-) [word] = rokok | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT B: HTML=あめやすり
+    TRANS: Permen atau obat
+    KOTOBA: [kb-audit-0554] あめやすり(あめやくすり) [word] = permen atau obat/kikir (typo)
+  OPT C: HTML=かぎ<br>ロッカーの
+    TRANS: Kunci loker
+    KOTOBA: [kb-audit-1168] かぎ(かぎ) [word] = kunci (鍵) | [kb-v2-p1-039] ロッカー(-) [word] = loker | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung

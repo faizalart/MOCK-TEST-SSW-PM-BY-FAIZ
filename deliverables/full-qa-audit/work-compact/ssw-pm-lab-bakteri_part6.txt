@@ -1,0 +1,88 @@
+# AUDIT SHEET: ssw-pm-lab-bakteri (細菌・微生物・食中毒 (Bacteria Lab)) | Batch qa-batch-06 | Part 6 (Q21-24 of 32)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=lab-bac-021 | KEY=B (idx=1) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-v2-p3-149 "熱": kotoba="ねつ" vs ruby="あつ"
+  INSTR: <ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>加熱<rt>かねつ</rt></ruby><ruby>調理<rt>ちょうり</rt></ruby>に<ruby>対<rt>たい</rt></ruby>して「<ruby>熱<rt>あつ</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>芽胞<rt>がほう</rt></ruby>（がほう）」を<ruby>形成<rt>けいせい</rt></ruby>する<ruby>細菌<rt>さいきん</rt></ruby>として、<ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang salah mengenai bakteri yang membentuk spora tahan panas terhadap proses pemanasan makanan.
+  EXPLANATION: 【誤り（正解）：B (黄色ブドウ球菌)】
+セレウス菌、ウェルシュ菌、ボツリヌス菌はすべて「熱に強い芽胞」を作ります。これに対し、黄色ブドウ球菌は芽胞を作りません（黄色ブドウ球菌で熱に強いのは菌が作った「毒素」です）。
+  KOTOBA_PROMPT: [kb-otaff51-0196] 加熱調理(かねつちょうり) [compound_technical] = pemasakan dengan pemanasan | [kb-audit-0475] に対して(にたいして) [expression] = terhadap / mengenai | [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas) | [kb-v2-p3-090] がほう(-) [word] = spora bakteri (bacaan 芽胞) | [kb-1250360] 形成(けいせい) [word] = pembentukan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-latsol-1dee95223c] 誤っている(あやまっている) [word] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bacillus cereus
+    KOTOBA: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus
+  OPT B: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT C: HTML=ウェルシュ<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium perfringens
+    KOTOBA: [kb-otaff51-0039] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens
+  OPT D: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+
+=== #Q22 | ID=lab-bac-022 | KEY=A (idx=0) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  INSTR: <ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>菌<rt>きん</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>し、<ruby>食品中<rt>しょくひんちゅう</rt></ruby>で<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>産生<rt>さんせい</rt></ruby>する（<ruby>食品内毒素型<rt>しょくひんないどくそがた</rt></ruby>）」<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>として、<ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu bakteri yang salah (bukan tipe yang memproduksi toksin di dalam makanan) di antara bakteri keracunan makanan berikut.
+  EXPLANATION: 【誤り（正解）：A (ウェルシュ菌)】
+ウェルシュ菌は食品中で菌が増殖した後、食品を食べた人の腸管内で芽胞を作る際に毒素を産生します（生体内毒素型／中間型）。黄色ブドウ球菌、ボツリヌス菌、セレウス菌（おう吐型）は食品の中で毒素を産生します。
+  KOTOBA_PROMPT: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-150] 菌(きん) [word] = bakteri / kuman | [kb-audit-0980] 増殖し(ぞうしょくし) [inflected_verb, df:増殖する] = berkembang biak (増殖する) | [kb-ext-0943-e9a39fe593] 食品中(しょくひんちゅう) [word] = Di dalam produk bahan makanan | [kb-otaff51-0368] 毒素(どくそ) [noun] = toksin / racun | [kb-2168310] 産生(さんせい) [word] = produksi racun / toksin | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-ext-0946-e9a39fe593] 食品内毒素型(しょくひんないどくそがた) [word] = tipe toksin dalam makanan | [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-latsol-1dee95223c] 誤っている(あやまっている) [word] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ウェルシュ<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium perfringens
+    KOTOBA: [kb-otaff51-0039] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens
+  OPT B: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT C: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+  OPT D: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>（<ruby>おう吐型<rt>おうとがた</rt></ruby>）
+    TRANS: Bacillus cereus (tipe muntah)
+    KOTOBA: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus | [kb-ext-0008-e3818ae381] おう吐型(おうとがた) [word] = tipe muntah
+
+=== #Q23 | ID=lab-bac-023 | KEY=D (idx=3) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品<rt>しょくひん</rt></ruby>とともに<ruby>生<rt>い</rt></ruby>きた<ruby>菌<rt>きん</rt></ruby>を<ruby>摂取<rt>せっしゅ</rt></ruby>し、「<ruby>人<rt>ひと</rt></ruby>の<ruby>体<rt>からだ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>菌<rt>きん</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>して<ruby>発症<rt>はっしょう</rt></ruby>する（<ruby>感染型<rt>かんせんがた</rt></ruby>）」<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu kombinasi bakteri yang paling tepat untuk jenis infeksi (bakteri bertambah banyak di dalam tubuh manusia lalu menimbulkan sakit).
+  EXPLANATION: 【正解：D (カンピロバクター、サルモネラ、腸管出血性大腸菌)】
+生きた菌が体内の腸管粘膜等で増殖して発症するタイプを「感染型」と呼びます。カンピロバクター、サルモネラ、腸管出血性大腸菌、腸炎ビブリオなどが該当します。黄色ブドウ球菌やボツリヌス菌は食品中でできた毒素を摂取する「毒素型」です。
+  KOTOBA_PROMPT: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p3-260] 生きた(いきた) [inflected, df:生きる] = hidup (bakteri hidup) | [kb-v2-p3-150] 菌(きん) [word] = bakteri / kuman | [kb-audit-0987] 摂取し(せっしゅし) [inflected_verb, df:摂取する] = mengonsumsi / menelan | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-audit-0981] 増殖して(ぞうしょくして) [inflected_verb, df:増殖する] = berkembang biak (~て) | [kb-2398850] 発症(はっしょう) [word] = timbulnya gejala penyakit | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-ext-0277-e6849fe69f] 感染型(かんせんがた) [word] = tipe infeksi | [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>、ボツリヌス<ruby>菌<rt>きん</rt></ruby>、セレウス<ruby>菌<rt>きん</rt></ruby>（<ruby>おう吐型<rt>おうとがた</rt></ruby>）
+    TRANS: S. aureus, C. botulinum, B. cereus (tipe muntah)
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus | [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus | [kb-ext-0008-e3818ae381] おう吐型(おうとがた) [word] = tipe muntah
+  OPT B: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>、<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>、ウェルシュ<ruby>菌<rt>きん</rt></ruby>
+    TRANS: C. botulinum, S. aureus, C. perfringens
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus | [kb-otaff51-0039] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens
+  OPT C: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>、カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>、ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: S. aureus, Campylobacter, C. botulinum
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus | [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter | [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+  OPT D: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>、サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>、<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>
+    TRANS: Campylobacter, Salmonella, Enterohemorrhagic E. coli
+    KOTOBA: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter | [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella | [kb-otaff51-0525] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [compound_technical] = bakteri E. coli enterohemoragik (O157, O111)
+
+=== #Q24 | ID=lab-bac-024 | KEY=C (idx=2) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:D] kb-otaff51-0309 "手指": kotoba="てゆび" vs ruby="しゅし"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>典型的<rt>てんけいてき</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu gejala khas yang paling tepat untuk keracunan makanan akibat Vibrio parahaemolyticus.
+  EXPLANATION: 【正解：C (激しい腹痛と激しい下痢)】
+腸炎ビブリオは夏場の生魚等から感染し、激しい上腹部痛と水のような激しい下痢を引き起こします。血便を伴うこともありますが、主症状は腹痛と激しい下痢です。呼吸困難はボツリヌス菌の症状です。
+  KOTOBA_PROMPT: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-1438090] 典型的(てんけいてき) [word] = khas / tipikal | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>神経麻痺<rt>しんけいまひ</rt></ruby>による<ruby>視力<rt>しりょく</rt></ruby><ruby>低下<rt>ていか</rt></ruby>と<ruby>呼吸困難<rt>こきゅうこんなん</rt></ruby>
+    TRANS: Penurunan penglihatan dan sesak napas akibat kelumpuhan saraf
+    KOTOBA: [kb-2872382] 神経麻痺(しんけいまひ) [word] = kelumpuhan saraf | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-1312150] 視力(しりょく) [word] = daya penglihatan | [kb-1434250] 低下(ていか) [word] = penurunan | [kb-otaff51-0231] 呼吸困難(こきゅうこんなん) [compound_technical] = kesulitan bernapas / sesak napas | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT B: HTML=<ruby>高熱<rt>こうねつ</rt></ruby>のみで<ruby>腹痛<rt>ふくつう</rt></ruby>や<ruby>下痢<rt>げり</rt></ruby>は<ruby>生<rt>しょう</rt></ruby>じない
+    TRANS: Hanya demam tinggi tanpa sakit perut maupun diare
+    KOTOBA: [kb-1283880] 高熱(こうねつ) [word] = demam tinggi / suhu tinggi | [kb-v2-p3-177] のみ(-) [particle] = hanya / saja | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-v2-p3-225] 生じない(しょうじない) [inflected, df:生じる] = tidak timbul | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=<ruby>激<rt>はげ</rt></ruby>しい<ruby>腹痛<rt>ふくつう</rt></ruby>と<ruby>激<rt>はげ</rt></ruby>しい<ruby>下痢<rt>げり</rt></ruby>（<ruby>水様便<rt>すいようべん</rt></ruby>）
+    TRANS: Sakit perut hebat dan diare hebat (tinja cair berair)
+    KOTOBA: [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-ext-0993-e6b0b4e6a7] 水様便(すいようべん) [word] = diare berair | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT D: HTML=<ruby>手指<rt>しゅし</rt></ruby>の<ruby>化膿<rt>かのう</rt></ruby>と<ruby>皮膚<rt>ひふ</rt></ruby>の<ruby>発疹<rt>ほっしん</rt></ruby>のみ
+    TRANS: Hanya luka bernanah di jari dan ruam kulit
+    KOTOBA: [kb-otaff51-0309] 手指(てゆび) [noun] = jari-jari tangan | [kb-1187260] 化膿(かのう) [word] = bernanah (infeksi luka) | [kb-otaff51-0458] 皮膚(ひふ) [noun] = kulit | [kb-1477600] 発疹(ほっしん) [word] = ruam kulit | [kb-v2-p3-177] のみ(-) [particle] = hanya / saja | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan

@@ -1,0 +1,82 @@
+# AUDIT SHEET: latsol-nguyen-06 (Latsol Nguyen 06) | Batch qa-batch-08 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=nguyen06-q029 | KEY=A (idx=0) | CAT= | SRC=6.pdf p.10 ===
+  CLUSTER CL-0242 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-6-q029 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("85℃から 90℃で 90 秒以上") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスを<ruby>加熱<rt>かねつ</rt></ruby>でやっつけるためには、<ruby>原材料<rt>げんざいりょう</rt></ruby>や<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中心温度<rt>ちゅうしんおんど</rt></ruby>は<ruby>何度何分<rt>なんどなんぷん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk membasmi Norovirus dengan pemanasan, berapakah suhu bagian tengah bahan baku atau makanan dan berapa lama waktunya? Pilihlah yang benar.
+  EXPLANATION: Sumber: 6.pdf, halaman 10, nomor 29. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0100] 中心温度(ちゅうしんおんど) [compound_technical] = suhu bagian tengah (suhu inti) | [kb-ext-0184-e4bd95e5ba] 何度何分(なんどなんぷん) [word] = berapa derajat dan berapa menit | [kb-v2-p5-363] 正し(ただし) [word] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=85℃から 90℃で 90 <ruby>秒以上<rt>びょういじょう</rt></ruby>
+    TRANS: 85°C hingga 90°C selama 90 detik atau lebih
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih
+  OPT B: HTML=<ruby>中心温度<rt>ちゅうしんおんど</rt></ruby> 120℃ ４<ruby>分以上<rt>ふんいじょう</rt></ruby>
+    TRANS: Suhu bagian tengah 120°C selama 4 menit atau lebih
+    KOTOBA: [kb-otaff51-0100] 中心温度(ちゅうしんおんど) [compound_technical] = suhu bagian tengah (suhu inti) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih
+  OPT C: HTML=<ruby>中心温度<rt>ちゅうしんおんど</rt></ruby> 75℃ １<ruby>分以上<rt>ふんいじょう</rt></ruby>
+    TRANS: Suhu bagian tengah 75°C selama 1 menit atau lebih
+    KOTOBA: [kb-otaff51-0100] 中心温度(ちゅうしんおんど) [compound_technical] = suhu bagian tengah (suhu inti) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih
+
+=== #Q30 | ID=nguyen06-q030 | KEY=B (idx=1) | CAT= | SRC=6.pdf p.11 ===
+  CLUSTER CL-0243 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-6-q030 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: 6.pdf, halaman 11, nomor 30. Bobot: 3.75 poin. Kunci jawaban: B.), hasil yang tepat adalah Opsi B ("100ppm で 10分間").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>と<ruby>処理時間<rt>しょりじかん</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang benar mengenai konsentrasi bahan kimia (natrium hipoklorit untuk sterilisasi sayuran/bahan baku) dan waktu perendamannya.
+  EXPLANATION: Sumber: 6.pdf, halaman 11, nomor 30. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-otaff51-0172] 処理時間(しょりじかん) [compound_technical] = waktu penanganan / perendaman | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=200ppm で 5<ruby>分間以内<rt>ふんかんいない</rt></ruby>
+    TRANS: 200 ppm dalam waktu kurang dari 5 menit
+    KOTOBA: [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-ext-1573-e58886e996] 分間以内(ふんかんいない) [standalone_term] = Dalam waktu beberapa menit (batas waktu pendinginan cepat)
+  OPT B: HTML=100ppm で 10<ruby>分間<rt>ふんかん</rt></ruby>
+    TRANS: 100 ppm selama 10 menit
+    KOTOBA: [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-otaff51-0179] 分間(ふんかん) [noun] = menit (durasi)
+  OPT C: HTML=100ppm で 8<ruby>分<rt>ふん</rt></ruby>
+    TRANS: 100 ppm selama 8 menit
+    KOTOBA: [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-1502840] 分(ふん) [standalone_term] = menit (satuan durasi waktu)
+
+=== #Q31 | ID=nguyen06-q031 | KEY=A (idx=0) | CAT= | SRC=6.pdf p.11 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0655 "食品製造工場": kotoba="しょくひんせいぞうこうじょう" vs ruby="しょくひんせいぞうこうば"
+  CLUSTER CL-0150 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q025 (ssw-pm-kunci-ujian-13), bonus-soal-1-q027 (bonus-soal-1), bonus-soal-5-q025 (bonus-soal-5), bonus-soal-6-q031 (bonus-soal-6), bonus-soal-8-q026 (bonus-soal-8), nguyen01-q027 (latsol-nguyen-01), nguyen05-q025 (latsol-nguyen-05), nguyen08-q026 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("転倒") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうば</rt></ruby>で<ruby>起<rt>お</rt></ruby>きる<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>は<ruby>一番多<rt>いちばんおお</rt></ruby>いのは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kecelakaan kerja apakah yang paling sering terjadi di pabrik pengolahan makanan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 6.pdf, halaman 11, nomor 31. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-v2-p5-240] 起きる(おきる) [word] = terjadi | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-audit-0061] 一番多い(いちばんおおい) [word] = paling banyak / terbanyak | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>転倒<rt>てんとう</rt></ruby>
+    TRANS: Terjatuh / terpeleset
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama
+  OPT B: HTML=はさまれ
+    TRANS: Terjepit
+    KOTOBA: [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit
+  OPT C: HTML=<ruby>切<rt>き</rt></ruby>れ、こすれ
+    TRANS: Terpotong, tergores
+    KOTOBA: [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek
+
+=== #Q32 | ID=nguyen06-q032 | KEY=C (idx=2) | CAT= | SRC=6.pdf p.11 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 画像, 色, 手袋 || [KANJI_WITHOUT_RUBY@opt:B] 画像 || [KANJI_WITHOUT_RUBY@opt:C] 画像, 黄色, 軍手, 耐切創手袋 || [PRIOR_KEY_AUDIT_REVIEW_REQUIRED@question] Pertanyaan menanyakan gambar sarung tangan yang BUKAN pelindung luka bakar (誤るもの). Pada 6.pdf Hal. 11 Nomor 32, huruf C (sarung tangan kerja rajut kuning) diwarnai merah sebagai kunci jawaban, sedangkan B adalah sarung tangan tahan panas (oven mitt). Namun Opsi A (sarung tangan karet merah muda tipis) secara teknis juga bukan sarung tangan tahan panas oven. Kunci sumber C dipertahankan.
+  PRIOR_KEY_AUDIT: REVIEW_REQUIRED | Pertanyaan menanyakan gambar sarung tangan yang BUKAN pelindung luka bakar (誤るもの). Pada 6.pdf Hal. 11 Nomor 32, huruf C (sarung tangan kerja rajut kuning) diwarnai merah sebagai kunci jawaban, sedangkan B adalah sarung tangan tahan panas (oven mitt). Namun Opsi A (sarung tangan karet merah muda tipis) secara teknis juga bukan sarung tangan tahan panas oven. Kunci sumber C dipertahankan.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: やけど<ruby>防止<rt>ぼうし</rt></ruby>する<ruby>保護具<rt>ほごぐ</rt></ruby>はどれですか。<ruby>誤<rt>あやま</rt></ruby>るものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah alat pelindung diri untuk mencegah luka bakar? Pilihlah satu yang salah (bukan pelindung luka bakar).
+  EXPLANATION: Sumber: 6.pdf, halaman 11, nomor 32. Bobot: 3.75 poin. Kunci jawaban: C. Visual: 3 foto sarung tangan. Catatan QA: Huruf C diwarnai merah sebagai kunci untuk 誤るもの, meskipun secara teknis A (sarung tangan karet tipis) juga bukan APD khusus tahan panas oven.
+  KOTOBA_PROMPT: [kb-otaff51-0028] やけど(やけど) [noun] = luka bakar | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan | [kb-ext-1615-e4bf9de8ad] 保護具(ほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p5-211] 誤る(あやまる) [word] = keliru / salah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=[画像A] ゴム<ruby>手袋<rt>てぶくろ</rt></ruby>（ピンク色の手袋）
+    TRANS: Sarung tangan karet merah muda
+    MEDIA: media-nguyen06-q032-option-a
+    KOTOBA: [kb-otaff51-0050] ゴム手袋(ごむてぶくろ) [compound_technical] = sarung tangan karet | [kb-latsol-pink-iro] ピンク色(ぴんくいろ) [word] = warna merah muda (pink) | [kb-otaff51-0311] 手袋(てぶくろ) [noun] = sarung tangan
+  OPT B: HTML=[画像B] <ruby>耐熱手袋<rt>たいねつてぶくろ</rt></ruby>（オーブンミトン）
+    TRANS: Sarung tangan tahan panas (oven mitt)
+    MEDIA: media-nguyen06-q032-option-b
+    KOTOBA: [kb-ext-latsol-0028] 耐熱手袋(たいねつてぶくろ) [word] = sarung tangan tahan panas | [kb-latsol-oven-mitten] オーブンミトン(おーぶんみとん) [word] = sarung tangan oven tahan panas
+  OPT C: HTML=[画像C] <ruby>作業手袋<rt>さぎょうてぶくろ</rt></ruby>（黄色の軍手・耐切創手袋）
+    TRANS: Sarung tangan kerja rajut kuning
+    MEDIA: media-nguyen06-q032-option-c
+    KOTOBA: [kb-ext-latsol-0029] 作業手袋(さぎょうてぶくろ) [word] = sarung tangan kerja | [kb-latsol-d458063d6e] 黄色(おうしょく) [word] = warna kuning | [kb-latsol-4514622613] 軍手(ぐんて) [word] = sarung tangan kerja rajut katun | [kb-otaff51-0507] 耐切創手袋(たいせっそうてぶくろ) [compound_technical] = sarung tangan tahan sayatan/potong

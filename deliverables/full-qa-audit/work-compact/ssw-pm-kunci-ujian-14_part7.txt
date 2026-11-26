@@ -1,0 +1,79 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-14 (Soal Ujian 14) | Batch qa-batch-03 | Part 7 (Q25-28 of 59)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-14-q025 | KEY=C (idx=2) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 14.pdf p.6 ===
+  CLUSTER CL-0158 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-6-q014 (bonus-soal-6), bonus-soal-9-q027 (bonus-soal-9), nguyen03-q027 (latsol-nguyen-03), nguyen06-q014 (latsol-nguyen-06), nguyen09-q027 (latsol-nguyen-09), nguyen10-q028 (latsol-nguyen-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPには7つの<ruby>原則<rt>げんそく</rt></ruby>があります。<ruby>間違<rt>まちが</rt></ruby>っている<ruby>原則<rt>げんそく</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: HACCP memiliki 7 prinsip. Pilihlah satu yang bukan merupakan prinsip HACCP (yang salah).
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 6, nomor 問題25 (Q25). Bobot: 2.54 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 4 (hlm. 56–58), 7 prinsip HACCP meliputi HA, CCP, CL, Monitoring, Tindakan Perbaikan, Verifikasi, dan Pencatatan. 施設基準の設定 (penetapan standar fasilitas) bukan bagian dari 7 prinsip HACCP.
+  INLINE_KOTOBA_COUNT: 10
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=モニタリング<ruby>方法<rt>ほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode pemantauan (monitoring)
+    KOTOBA: [kb-v2-p1-005] モニタリング方法(もにたりんぐほうほう) [compound_technical] = metode pemantauan | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT B: HTML=<ruby>検証方法<rt>けんしょうほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode verifikasi
+    KOTOBA: [kb-otaff51-0351] 検証方法(けんしょうほうほう) [compound_technical] = metode verifikasi | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT C: HTML=<ruby>施設基準<rt>しせつきじゅん</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan standar fasilitas
+    KOTOBA: [kb-ext-0709-e696bde8a8] 施設基準(しせつきじゅん) [compound_technical] = standar fasilitas | [kb-1386060] 設定(せってい) [word] = penetapan
+
+=== #Q26 | ID=kunci-ujian-14-q026 | KEY=A (idx=0) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 14.pdf p.7 ===
+  CLUSTER CL-0044 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q012 (ssw-pm-kunci-ujian-2)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPで<ruby>対象<rt>たいしょう</rt></ruby>とする<ruby>健康危害<rt>けんこうきがい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang benar sebagai bahaya kesehatan (kenkou kigai) yang menjadi sasaran dalam sistem HACCP? Pilihlah satu.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 7, nomor 問題26 (Q26). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 4 (hlm. 56), faktor bahaya kesehatan dalam HACCP meliputi bahaya biologis (食中毒菌), kimia (薬剤・アレルゲン), dan fisik (金属・石・ガラス).
+  INLINE_KOTOBA_COUNT: 11
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p2-221] 対象とする(たいしょうとする) [expression] = menjadikan sasaran | [kb-ext-0458-e581a5e5ba] 健康危害(けんこうきがい) [word] = bahaya kesehatan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>
+    TRANS: Bakteri penyebab keracunan makanan
+    KOTOBA: [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan
+  OPT B: HTML=<ruby>作業着<rt>さぎょうぎ</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れ
+    TRANS: Kotoran pada pakaian kerja
+    KOTOBA: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran
+  OPT C: HTML=<ruby>機械<rt>きかい</rt></ruby>の<ruby>故障<rt>こしょう</rt></ruby>
+    TRANS: Kerusakan mesin
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0328] 故障(こしょう) [noun] = kerusakan mesin
+
+=== #Q27 | ID=kunci-ujian-14-q027 | KEY=B (idx=1) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 14.pdf p.7 ===
+  CLUSTER CL-0045 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q013 (ssw-pm-kunci-ujian-2)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPに<ruby>沿<rt>そ</rt></ruby>った<ruby>衛生管理<rt>えいせいかんり</rt></ruby><ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>（CCP）を<ruby>行<rt>おこな</rt></ruby>う<ruby>上<rt>うえ</rt></ruby>で、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam menjalankan Titik Kendali Kritis (CCP) pada manajemen higiene berbasis HACCP, pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 7, nomor 問題27 (Q27). Bobot: 2.54 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 4 (hlm. 54, 59), HACCP tidak hanya mengandalkan uji petik produk akhir (抜き取り検査), melainkan memantau seluruh proses secara berkelanjutan di titik CCP.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p2-220] 沿った(そった) [inflected, df:沿う] = sesuai dengan | [kb-ext-0135-e8a19be794] 衛生管理重要管理点(えいせいかんりじゅうようかんりてん) [word] = titik kendali kritis sanitasi (CCP) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>管理基準<rt>かんりきじゅん</rt></ruby>の<ruby>設定値<rt>せっていち</rt></ruby>を<ruby>知<rt>し</rt></ruby>る。
+    TRANS: Mengetahui nilai ketetapan batas kritis (kanri kijun).
+    KOTOBA: [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-ext-1080-e8a8ade5ae] 設定値(せっていち) [word] = nilai yang ditetapkan | [kb-v2-p2-173] 知る(しる) [word] = mengetahui
+  OPT B: HTML=<ruby>抜<rt>ぬ</rt></ruby>き<ruby>取<rt>と</rt></ruby>り<ruby>検査結果<rt>けんさけっか</rt></ruby>を<ruby>信<rt>しん</rt></ruby>じる。
+    TRANS: Mempercayai hasil pemeriksaan uji petik (sampling) saja.
+    KOTOBA: [kb-v2-p2-048] 抜き取り検査(ぬきとりけんさ) [compound_technical] = inspeksi sampling (acak) | [kb-1254690] 結果(けっか) [word] = hasil pemeriksaan | [kb-v2-p2-172] 信じる(しんじる) [word] = memercayai
+  OPT C: HTML=モニタリング<ruby>結果<rt>けっか</rt></ruby>を<ruby>記録<rt>きろく</rt></ruby>し、<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Mencatat dan menyimpan hasil pemantauan (monitoring).
+    KOTOBA: [kb-u1416-b5efcd5b25] モニタリング結果(もにたりんぐけっか) [word] = hasil pemantauan (monitoring) | [kb-v2-p2-028] 記録し(きろくし) [inflected, df:記録する] = mencatat | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+
+=== #Q28 | ID=kunci-ujian-14-q028 | KEY=C (idx=2) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 14.pdf p.7 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0085 (n=2, diffPrompt=false, diffOpt=true, diffTrans=false): twins=kunci-ujian-3-q029 (ssw-pm-kunci-ujian-3)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPとは<ruby>何<rt>なに</rt></ruby>をしますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dilakukan dalam sistem HACCP?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 7, nomor 問題28 (Q28). Bobot: 2.54 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 4 (hlm. 54), HACCP adalah metode manajemen higiene yang menganalisis bahaya (危害要因分析 / HA) dan mengendalikannya secara terus-menerus pada titik kendali kritis (重要管理点 / CCP).
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する)
+  OPT A: HTML=<ruby>微生物検査<rt>びせいぶつけんさ</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>うことによって、<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因菌<rt>げんいんきん</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>する
+    TRANS: Mengendalikan bakteri penyebab keracunan makanan melalui pelaksanaan uji mikrobiologi.
+    KOTOBA: [kb-otaff51-0296] 微生物検査(びせいぶつけんさ) [compound_technical] = uji laboratorium mikrobiologi | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-2687540] 原因菌(げんいんきん) [word] = bakteri patogen penyebab | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen
+  OPT B: HTML=X<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って、<ruby>危険<rt>きけん</rt></ruby>な<ruby>異物<rt>いぶつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけ<ruby>出<rt>だ</rt></ruby>す。
+    TRANS: Menemukan benda asing berbahaya dengan menggunakan detektor benda asing sinar-X.
+    KOTOBA: [kb-ext-0003-58e7b79ae7] X線異物検出器(せんいぶつけんしゅつき) [word] = detektor benda asing sinar-X | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-v2-p6-352] 見つけ出す(みつけだす) [word] = menemukan / mendeteksi
+  OPT C: HTML=<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>をし、<ruby>製造工程中<rt>せいぞうこうていちゅう</rt></ruby>の<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>で<ruby>製品<rt>せいひん</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>確保<rt>かくほ</rt></ruby>する。
+    TRANS: Melakukan analisis faktor bahaya (HA) dan memastikan keamanan produk pada titik kendali kritis (CCP) selama proses produksi.
+    KOTOBA: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-ext-1058-e8a3bde980] 製造工程中(せいぞうこうていちゅう) [word] = selama proses pembuatan produk | [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1205920] 確保(かくほ) [word] = memastikan ketersediaan

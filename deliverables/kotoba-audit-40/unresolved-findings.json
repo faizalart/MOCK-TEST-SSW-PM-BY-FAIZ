@@ -1,0 +1,241 @@
+{
+  "generatedAt": "2026-11-15T19:30:23.117Z",
+  "strictValidatorErrorsAcross50Targets": 0,
+  "v2CompletenessErrorsAcross50Targets": 12,
+  "v2CompletenessResidualNote": "All 12 residual v2Completeness flags are \"[画像A/B/C]\" bracketed option-image tags on latsol-nguyen-06 (q004, q005, q032, q038), which validate-batch.mjs intentionally strips alongside [イラストA], [標識A], [図A], [写真A].",
+  "emptyPromptContextsCount": 0,
+  "emptyOptionContextsCount": 18,
+  "emptyOptionContexts": [
+    {
+      "setId": "ssw-pm-kunci-ujian-2",
+      "cohort": "cohort_1_spec009_canonical",
+      "qId": "kunci-ujian-2-q033",
+      "optionId": "A",
+      "text": "20",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-2",
+      "cohort": "cohort_1_spec009_canonical",
+      "qId": "kunci-ujian-2-q033",
+      "optionId": "B",
+      "text": "120",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-2",
+      "cohort": "cohort_1_spec009_canonical",
+      "qId": "kunci-ujian-2-q033",
+      "optionId": "C",
+      "text": "180",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-12",
+      "cohort": "cohort_1_spec009_canonical",
+      "qId": "kunci-ujian-12-q040",
+      "optionId": "A",
+      "text": "1",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-12",
+      "cohort": "cohort_1_spec009_canonical",
+      "qId": "kunci-ujian-12-q040",
+      "optionId": "B",
+      "text": "2",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-12",
+      "cohort": "cohort_1_spec009_canonical",
+      "qId": "kunci-ujian-12-q040",
+      "optionId": "C",
+      "text": "3",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "latsol-nguyen-05",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "nguyen05-q036",
+      "optionId": "C",
+      "text": "[Terpotong pada batas kanvas PDF 14400 pt]",
+      "reason": "PDF canvas truncation placeholder in source question option (no Japanese text present; baseline had leaked prompt terms removed to uphold SURFACE_NOT_IN_CONTEXT)"
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler04-q007",
+      "optionId": "A",
+      "text": "High-frequency Active Climate Control Program",
+      "reason": "English-only acronym expansion option containing no Japanese text or units (baseline had leaked HACCP term removed to uphold SURFACE_NOT_IN_CONTEXT)"
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler04-q007",
+      "optionId": "B",
+      "text": "Health Analysis and Condition Control Principle",
+      "reason": "English-only acronym expansion option containing no Japanese text or units (baseline had leaked HACCP term removed to uphold SURFACE_NOT_IN_CONTEXT)"
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler04-q007",
+      "optionId": "C",
+      "text": "Health And Care Certification Protocol",
+      "reason": "English-only acronym expansion option containing no Japanese text or units (baseline had leaked HACCP term removed to uphold SURFACE_NOT_IN_CONTEXT)"
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler04-q019",
+      "optionId": "A",
+      "text": "1, 2, 3",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler04-q019",
+      "optionId": "B",
+      "text": "2, 3, 4",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler04-q019",
+      "optionId": "C",
+      "text": "1, 3, 4",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler04-q019",
+      "optionId": "D",
+      "text": "1, 2, 4",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "latsol-reguler-05",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler05-q006",
+      "optionId": "A",
+      "text": "1, 2, 3",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "latsol-reguler-05",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler05-q006",
+      "optionId": "B",
+      "text": "1, 3, 4",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "latsol-reguler-05",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler05-q006",
+      "optionId": "C",
+      "text": "1, 2, 4",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    },
+    {
+      "setId": "latsol-reguler-05",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "qId": "reguler05-q006",
+      "optionId": "D",
+      "text": "2, 3, 4",
+      "reason": "Pure numeric option containing no Japanese lexical tokens or units"
+    }
+  ],
+  "preservedSourceTextQuirks": [
+    {
+      "quirkText": "Terpotong pada batas kanvas PDF",
+      "occurrences": [
+        {
+          "setId": "latsol-nguyen-05",
+          "qId": "nguyen05-q036"
+        }
+      ],
+      "handling": "Preserved untouched per immutability constraint; mapped faithfully with exact surface matching and clarifying Indonesian note where applicable."
+    },
+    {
+      "quirkText": "おんせんく",
+      "occurrences": [
+        {
+          "setId": "latsol-tambahan-02",
+          "qId": "tambahan02-q001"
+        }
+      ],
+      "handling": "Preserved untouched per immutability constraint; mapped faithfully with exact surface matching and clarifying Indonesian note where applicable."
+    },
+    {
+      "quirkText": "かたずけます",
+      "occurrences": [
+        {
+          "setId": "latsol-tambahan-02",
+          "qId": "tambahan02-q008"
+        }
+      ],
+      "handling": "Preserved untouched per immutability constraint; mapped faithfully with exact surface matching and clarifying Indonesian note where applicable."
+    },
+    {
+      "quirkText": "とめってない",
+      "occurrences": [
+        {
+          "setId": "latsol-tambahan-02",
+          "qId": "tambahan02-q009"
+        }
+      ],
+      "handling": "Preserved untouched per immutability constraint; mapped faithfully with exact surface matching and clarifying Indonesian note where applicable."
+    },
+    {
+      "quirkText": "きがいてきがいよういん",
+      "occurrences": [
+        {
+          "setId": "latsol-tambahan-02",
+          "qId": "tambahan02-q028"
+        }
+      ],
+      "handling": "Preserved untouched per immutability constraint; mapped faithfully with exact surface matching and clarifying Indonesian note where applicable."
+    }
+  ],
+  "preexistingRepoTestObservations": [
+    {
+      "test": "tests/test-19-paket-integration.mjs",
+      "lines": [
+        291,
+        480
+      ],
+      "status": "FAILED_ON_PREEXISTING_ASSUMPTIONS",
+      "detail": "Line 291 requires every option (including non-Japanese numeric \"1, 2, 3\", English acronyms in reguler04-q007, and \"[Terpotong ...]\" in nguyen05-q036::C) to be non-empty, which previously only passed via leaked prompt terms; Line 480 asserts exact count === 13 on nguyen01-q032 which increased from 13 to 16 complete terms."
+    },
+    {
+      "test": "tests/test-practice-selective-kotoba.mjs",
+      "lines": [
+        1121
+      ],
+      "status": "FAILED_ON_PREEXISTING_SW_DUPLICATE",
+      "detail": "All Kotoba criteria (1..14.3, 3,230 dictionary lookups) pass; Criterion 14.4 fails on pre-existing duplicate \"./app.js?v=ssw41\" at sw.js:17-18 introduced prior to fix/kotoba-audit-40 in commit 09f24e3."
+    },
+    {
+      "test": "tests/test-practice-mode-translations.mjs",
+      "lines": [
+        263
+      ],
+      "status": "FAILED_ON_PREEXISTING_UI_ORDER",
+      "detail": "Feature 007 legacy assertion expects Globe button before Furigana button, superseded by Feature 009 UI order on parent branch."
+    },
+    {
+      "test": "tests/test-feature-009-practice-ergonomics.mjs",
+      "lines": [
+        642
+      ],
+      "status": "FAILED_TIMEOUT_ON_CUSTOM_TIMED_FLOW",
+      "detail": "US4, US5, and US3-A Feature 008 Kotoba checks passed; timed out at Timed Custom navigation step unrelated to Kotoba data."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-10 (Soal Ujian 10 — CBTP Gino1) | Batch qa-batch-02 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-10-q025 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0796 (うじょう): "meningkat (typo: こうじょう)"
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: せいとんすると、どんないいことがありますか。まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa manfaat dari melakukan "Rapi / Penataan (Seiton)"? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 5, Câu 25 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-latsol-2b13228915] せいとん(せいとん) [word] = Seiton (penataan rapi 5S) | [kb-v2-p1-146] すると(-) [expression] = jika melakukan | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ムダなじかんがへる
+    TRANS: Mengurangi waktu yang terbuang sia-sia
+    KOTOBA: [kb-v2-p6-298] ムダな(むだな) [word] = sia-sia / terbuang | [kb-audit-0214] じかん(じかん) [word] = waktu / durasi (時間) | [kb-audit-0899] へる(へる) [word] = berkurang | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=せいひんのひんしつがうじょうする
+    TRANS: Meningkatkan kualitas produk
+    KOTOBA: [kb-audit-0359] せいひん(せいひん) [word] = produk jadi (製品) | [kb-audit-0794] ひんしつ(ひんしつ) [word] = kualitas / mutu | [kb-audit-0796] うじょう(こうじょう) [word] = meningkat (typo: こうじょう) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=しょくちゅうどくのよぼうができる
+    TRANS: Dapat mencegah keracunan makanan secara langsung
+    KOTOBA: [kb-audit-0199] しょくちゅうどく(しょくちゅうどく) [word] = keracunan makanan (食中毒) | [kb-audit-0699] よぼう(よぼう) [word] = pencegahan | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q26 | ID=kunci-ujian-10-q026 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異物<rt>いぶつ</rt></ruby>が<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>っているとどのように<ruby>見<rt>み</rt></ruby>なされますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bagaimana penilaian terhadap produk pangan jika terdapat kontaminasi benda asing di dalamnya?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 5, Câu 26 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p6-354] 入っている(はいっている) [inflected, df:入る] = terdapat di dalam | [kb-v2-p1-271] どのように(-) [expression] = dengan cara bagaimana | [kb-v2-p6-576] 見なされます(みなされます) [inflected, df:見なす] = dianggap sebagai | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>安全<rt>あんぜん</rt></ruby>で<ruby>衛生的<rt>えいせいてき</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Produk pangan yang aman dan higienis
+    KOTOBA: [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1609370] 衛生的(えいせいてき) [word] = higienis | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na
+  OPT B: HTML=<ruby>不潔<rt>ふけつ</rt></ruby>で<ruby>不衛生<rt>ふえいせい</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Produk pangan yang kotor dan tidak higienis
+    KOTOBA: [kb-1492160] 不潔(ふけつ) [word] = kotor / tidak higienis | [kb-otaff51-0096] 不衛生(ふえいせい) [adjective] = tidak higienis | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na
+  OPT C: HTML=<ruby>美味<rt>おい</rt></ruby>しい<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Produk pangan yang lezat
+    KOTOBA: [kb-u1416-eab19238e8] 美味しい(おいしい) [word] = lezat / enak | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan
+
+=== #Q27 | ID=kunci-ujian-10-q027 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-1105 (衛生管理り): "manajemen kebersihan (typo)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-1060 (一般的な衛生管理り): "manajemen higiene umum (typo)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「ＨＡＣＣＰによる<ruby>衛生管理<rt>えいせいかんり</rt></ruby>り」とは<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dimaksud dengan "Manajemen higiene berdasarkan HACCP"?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 5, Câu 27 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p6-166] ＨＡＣＣＰ(-) [technical] = HACCP (sistem keamanan pangan) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-audit-1105] 衛生管理り(えいせいかんり) [technical] = manajemen kebersihan (typo) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>衛生管理<rt>えいせいかんり</rt></ruby>りと<ruby>危害分析<rt>きがいぶんせき</rt></ruby>を<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせて<ruby>行<rt>おこな</rt></ruby>う<ruby>管理方法<rt>かんりほうほう</rt></ruby>。
+    TRANS: Metode manajemen yang menggabungkan manajemen higiene umum dan analisis bahaya.
+    KOTOBA: [kb-audit-1060] 一般的な衛生管理り(いっぱんてきなえいせいかんり) [technical] = manajemen higiene umum (typo) | [kb-ext-0313-e58db1e5ae] 危害分析(きがいぶんせき) [word] = analisis bahaya (HA) | [kb-otaff51-0790] 組み合わせて(くみあわせて) [inflected_verb, df:組み合わせる] = menggabungkan | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-ext-0294-e7aea1e790] 管理方法(かんりほうほう) [word] = metode pengendalian | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>全<rt>すべ</rt></ruby>ての<ruby>危害<rt>きがい</rt></ruby>を<ruby>除去<rt>じょきょ</rt></ruby>するための<ruby>方法<rt>ほうほう</rt></ruby>。
+    TRANS: Metode untuk menghilangkan seluruh bahaya tanpa terkecuali.
+    KOTOBA: [kb-v2-p6-299] 全て(すべて) [word] = semua / seluruhnya | [kb-1218440] 危害(きがい) [word] = bahaya | [kb-otaff51-0628] 除去(じょきょ) [noun] = penghilangan / pembuangan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>安全<rt>あんぜん</rt></ruby>に<ruby>保存<rt>ほぞん</rt></ruby>するためだけの<ruby>管理方法<rt>かんりほうほう</rt></ruby>。
+    TRANS: Metode manajemen yang hanya bertujuan untuk menyimpan makanan dengan aman.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-335] だけ(-) [particle] = hanya | [kb-ext-0294-e7aea1e790] 管理方法(かんりほうほう) [word] = metode pengendalian | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q28 | ID=kunci-ujian-10-q028 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.6 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-1105 (衛生管理り): "manajemen kebersihan (typo)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-1106 (一般衛生管理り): "manajemen higiene umum (typo)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「ＨＡＣＣＰによる<ruby>衛生管理<rt>えいせいかんり</rt></ruby>り」と「<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>り」の<ruby>目的<rt>もくてき</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa tujuan dari "Manajemen higiene berdasarkan HACCP" dan "Manajemen higiene umum"?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 6, Câu 28 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-v2-p6-166] ＨＡＣＣＰ(-) [technical] = HACCP (sistem keamanan pangan) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-audit-1105] 衛生管理り(えいせいかんり) [technical] = manajemen kebersihan (typo) | [kb-audit-1106] 一般衛生管理り(いっぱんえいせいかんり) [technical] = manajemen higiene umum (typo) | [kb-v2-p4-222] 目的は(もくてきは) [expression] = tujuannya adalah | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>味<rt>あじ</rt></ruby>を<ruby>良<rt>よ</rt></ruby>くするために<ruby>管理<rt>かんり</rt></ruby>すること。
+    TRANS: Mengelola agar rasa makanan menjadi lebih enak.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p3-160] 味(あじ) [word] = rasa | [kb-v2-p6-291] 良く(よく) [inflected, df:良い] = dengan baik | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>危害要因<rt>きがいよういん</rt></ruby>が<ruby>含<rt>ふく</rt></ruby>まれないように<ruby>管理<rt>かんり</rt></ruby>すること。
+    TRANS: Mengelola agar makanan tidak mengandung faktor bahaya.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-otaff51-0764] 含まれない(ふくまれない) [inflected_verb, df:含む] = tidak termasuk | [kb-v2-p1-327] ように(-) [particle] = agar / supaya | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>保存期間<rt>ほぞんきかん</rt></ruby>を<ruby>長<rt>なが</rt></ruby>くするために<ruby>管理<rt>かんり</rt></ruby>すること。
+    TRANS: Mengelola agar masa simpan makanan menjadi lebih lama.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-2388730] 保存期間(ほぞんきかん) [word] = jangka waktu penyimpanan | [kb-audit-0895] 長く(ながく) [inflected_adj, df:長い] = menjadi lama / panjang | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

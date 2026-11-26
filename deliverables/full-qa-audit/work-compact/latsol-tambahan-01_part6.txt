@@ -1,0 +1,90 @@
+# AUDIT SHEET: latsol-tambahan-01 (Latsol Tambahan 01) | Batch qa-batch-10 | Part 6 (Q21-24 of 25)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=tambahan01-q021 | KEY=A (idx=0) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="作業後に行うことについて、間違っているものを一つ選びなさい" vs questionText="作業後 (さぎょうご)に行うことについて、 間違っているものを一つ選びなさい" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:D] kb-ext-0627-e4bd9ce6a5 "作業靴": kotoba="さぎょうくつ" vs ruby="さぎょうぐつ" || [PRIOR_KEY_AUDIT_SOURCE_CONFLICT@question] Kunci PDF Hal. 8 tertulis C akibat duplikasi baris 1 tabel kunci. Pertanyaan menanyakan pernyataan yang SALAH (間違っているもの) tentang kegiatan setelah bekerja; membuang pakaian kerja yang kotor (Opsi A: 汚れた作業着は、必ず捨てます) adalah salah karena seharusnya dicuci (洗濯します). Kunci JSON saat ini (A) sudah benar.
+  PRIOR_KEY_AUDIT: SOURCE_CONFLICT | Kunci PDF Hal. 8 tertulis C akibat duplikasi baris 1 tabel kunci. Pertanyaan menanyakan pernyataan yang SALAH (間違っているもの) tentang kegiatan setelah bekerja; membuang pakaian kerja yang kotor (Opsi A: 汚れた作業着は、必ず捨てます) adalah salah karena seharusnya dicuci (洗濯します). Kunci JSON saat ini (A) sudah benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業後<rt>さぎょうご</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>うことについて、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 作業後 (さぎょうご)に行うことについて、 間違っているものを一つ選びなさい
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai hal yang dilakukan setelah selesai bekerja.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 6, nomor 21. Bobot: 6.0 poin. Kunci jawaban: A. Koreksi QA: Kunci PDF Hal. 8 tertulis C akibat duplikasi baris 1 tabel kunci. Pernyataan yang salah adalah A (pakaian kerja kotor dicuci, bukan dibuang).
+  KOTOBA_PROMPT: [kb-ext-0630-e4bd9ce6a5] 作業後(さぎょうご) [word] = setelah bekerja | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業着<rt>さぎょうぎ</rt></ruby>は、<ruby>必<rt>かなら</rt></ruby>ず<ruby>捨<rt>す</rt></ruby>てます
+    TRANS: Pakaian kerja yang kotor pasti dibuang
+    KOTOBA: [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p6-388] 捨て(すて) [inflected, df:捨てる] = membuang
+  OPT B: HTML=<ruby>汚<rt>よご</rt></ruby>れた<ruby>機械<rt>きかい</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>などは<ruby>必<rt>かなら</rt></ruby>ず<ruby>洗浄<rt>せんじょう</rt></ruby>して<ruby>片付<rt>かたづ</rt></ruby>けます
+    TRANS: Mesin dan peralatan yang kotor wajib dicuci dan dibereskan
+    KOTOBA: [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-audit-0972] 洗浄して(せんじょうして) [inflected_verb, df:洗浄する] = mencuci bersih (~て) | [kb-audit-0163] 片付けます(かたづけます) [inflected_verb, df:片付ける] = membereskan / merapikan
+  OPT C: HTML=<ruby>使用器具<rt>しようきぐ</rt></ruby>などは<ruby>決<rt>き</rt></ruby>められた<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>します
+    TRANS: Peralatan yang telah digunakan dikembalikan ke tempat yang telah ditentukan
+    KOTOBA: [kb-ext-latsol-0114] 使用器具(しようきぐ) [word] = peralatan yang digunakan | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-latsol-6ebdab417f] 戻します(もどします) [word] = mengembalikan ke tempat semula
+  OPT D: HTML=<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>は<ruby>洗浄<rt>せんじょう</rt></ruby>して<ruby>乾燥<rt>かんそう</rt></ruby>させます
+    TRANS: Sepatu kerja yang kotor dicuci lalu dikeringkan
+    KOTOBA: [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-ext-0627-e4bd9ce6a5] 作業靴(さぎょうくつ) [compound_technical] = sepatu kerja | [kb-audit-0972] 洗浄して(せんじょうして) [inflected_verb, df:洗浄する] = mencuci bersih (~て) | [kb-otaff51-0103] 乾燥(かんそう) [noun] = pengeringan
+
+=== #Q22 | ID=tambahan01-q022 | KEY=D (idx=3) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="食品衛生法の規定では、冷凍庫と冷蔵庫は何度で保管しますか?" vs questionText="品(しょくひん) 衛生法(えいせいほう)の規定(きて)では、 冷凍庫 (れいとうこ)と冷蔵庫 (れいぞうこ)は 何度で保管 (ほかん)します" || [PRIOR_KEY_AUDIT_SOURCE_CONFLICT@question] Kunci PDF Hal. 8 tertulis B akibat duplikasi baris 1 tabel kunci. Sesuai UU Sanitasi Pangan Jepang dan diktat SSW Bab 2, standar suhu penyimpanan adalah Freezer -15°C ke bawah dan Kulkas 10°C ke bawah (Opsi D). Kunci JSON saat ini (D) sudah benar.
+  PRIOR_KEY_AUDIT: SOURCE_CONFLICT | Kunci PDF Hal. 8 tertulis B akibat duplikasi baris 1 tabel kunci. Sesuai UU Sanitasi Pangan Jepang dan diktat SSW Bab 2, standar suhu penyimpanan adalah Freezer -15°C ke bawah dan Kulkas 10°C ke bawah (Opsi D). Kunci JSON saat ini (D) sudah benar.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>の<ruby>規定<rt>きてい</rt></ruby>では、<ruby>冷凍庫<rt>れいとうこ</rt></ruby>と<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は<ruby>何度<rt>なんど</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>しますか?
+  QUESTION_TEXT: 品(しょくひん) 衛生法(えいせいほう)の規定(きて)では、 冷凍庫 (れいとうこ)と冷蔵庫 (れいぞうこ)は 何度で保管 (ほかん)しますか?
+  PROMPT_TRANS: Berdasarkan ketentuan Undang-Undang Sanitasi Pangan Jepang, pada suhu berapa freezer (lemari pembeku) dan kulkas (lemari pendingin) disimpan/dijaga?
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 6, nomor 22. Bobot: 6.0 poin. Kunci jawaban: D. Koreksi QA: Kunci PDF Hal. 8 tertulis B akibat duplikasi baris 1 tabel kunci. Jawaban yang benar adalah D (Freezer -15°C以下, Kulkas 10°C以下).
+  KOTOBA_PROMPT: [kb-otaff51-0653] 食品衛生法(しょくひんえいせいほう) [compound_technical] = Undang-Undang Higiene Pangan Jepang | [kb-1223060] 規定(きてい) [word] = ketentuan / peraturan | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する)
+  OPT A: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>は 10℃、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は 60℃で<ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Freezer pada 10°C, kulkas pada 60°C
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>は 20℃、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は 40℃で<ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Freezer pada 20°C, kulkas pada 40°C
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>は 10℃、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は-15℃で<ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Freezer pada 10°C, kulkas pada -15°C
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT D: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>は-15℃、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は 10℃で<ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Freezer pada -15°C (atau di bawahnya), kulkas pada 10°C (atau di bawahnya)
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+
+=== #Q23 | ID=tambahan01-q023 | KEY=D (idx=3) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.7 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="加熱工程について、ほとんどの微生物は何度と何分で死滅にしますか?" vs questionText="加熱工程 ( かねつこうてい)について、ほとんどの微生物(びせいぶつ) は何度と何分で死滅 (しめつ) にしますか?" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-1502840 "分": kotoba="ふん" vs ruby="ぷん" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-1502840 "分": kotoba="ふん" vs ruby="ぷん" || [NUMBER_MISMATCH@optTranslation:D] JP number "4" missing in ID "Mati pada suhu 75°C selama 1 menit" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:D] kb-1502840 "分": kotoba="ふん" vs ruby="ぷん" || [PRIOR_KEY_AUDIT_SOURCE_CONFLICT@question] Kunci PDF Hal. 8 tertulis A akibat duplikasi baris 1 tabel kunci. Sebagian besar mikroorganisme penyebab keracunan makanan mati pada pemanasan suhu inti 75°C selama 1 menit (Opsi D). Kunci JSON saat ini (D) sudah benar.
+  PRIOR_KEY_AUDIT: SOURCE_CONFLICT | Kunci PDF Hal. 8 tertulis A akibat duplikasi baris 1 tabel kunci. Sebagian besar mikroorganisme penyebab keracunan makanan mati pada pemanasan suhu inti 75°C selama 1 menit (Opsi D). Kunci JSON saat ini (D) sudah benar.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>加熱工程<rt>かねつこうてい</rt></ruby>について、ほとんどの<ruby>微生物<rt>びせいぶつ</rt></ruby>は<ruby>何度<rt>なんど</rt></ruby>と<ruby>何分<rt>なんぷん</rt></ruby>で<ruby>死滅<rt>しめつ</rt></ruby>にしますか?
+  QUESTION_TEXT: 加熱工程 ( かねつこうてい)について、ほとんどの微生物(びせいぶつ) は何度と何分で死滅 (しめつ) にしますか?
+  PROMPT_TRANS: Mengenai proses pemanasan, pada suhu berapa dan berapa menit sebagian besar mikroorganisme akan mati?
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 7, nomor 23. Bobot: 6.0 poin. Kunci jawaban: D. Koreksi QA: Kunci PDF Hal. 8 tertulis A akibat duplikasi baris 1 tabel kunci. Jawaban yang benar sesuai standar pemanasan inti adalah D (75°C, 1 menit).
+  KOTOBA_PROMPT: [kb-otaff51-0192] 加熱工程(かねつこうてい) [compound_technical] = tahapan pemanasan | [kb-v2-p3-133] ほとんど(-) [word] = hampir tidak / hampir semua | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-ext-latsol-0116] 何分(なんぷん) [word] = berapa menit | [kb-1646680] 死滅(しめつ) [word] = pemusnahan / mati (mikroba) | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=1. 10℃、10<ruby>分<rt>ぷん</rt></ruby>で<ruby>死滅<rt>しめつ</rt></ruby>します
+    TRANS: Mati pada suhu 10°C selama 10 menit
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-1502840] 分(ふん) [standalone_term] = menit (satuan durasi waktu) | [kb-1646680] 死滅(しめつ) [word] = pemusnahan / mati (mikroba) | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=2. 20℃ 5<ruby>分<rt>ふん</rt></ruby>で<ruby>死滅<rt>しめつ</rt></ruby>します
+    TRANS: Mati pada suhu 20°C selama 5 menit
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-1502840] 分(ふん) [standalone_term] = menit (satuan durasi waktu) | [kb-1646680] 死滅(しめつ) [word] = pemusnahan / mati (mikroba) | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=3. 40℃、3<ruby>分<rt>ぷん</rt></ruby>で<ruby>死滅<rt>しめつ</rt></ruby>します
+    TRANS: Mati pada suhu 40°C selama 3 menit
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-1502840] 分(ふん) [standalone_term] = menit (satuan durasi waktu) | [kb-1646680] 死滅(しめつ) [word] = pemusnahan / mati (mikroba) | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT D: HTML=4. 75℃、1<ruby>分<rt>ぷん</rt></ruby>で<ruby>死滅<rt>しめつ</rt></ruby>します
+    TRANS: Mati pada suhu 75°C selama 1 menit
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-1502840] 分(ふん) [standalone_term] = menit (satuan durasi waktu) | [kb-1646680] 死滅(しめつ) [word] = pemusnahan / mati (mikroba) | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+
+=== #Q24 | ID=tambahan01-q024 | KEY=C (idx=2) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.7 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="食品衛生法の規定では、食肉と魚介類は何度で保管しますか?" vs questionText="食品(しょくひん) 衛生法(えいせいほう)の規定(きてい)では、 食肉と魚介類は何度で保管しますか?" || [PRIOR_KEY_AUDIT_REVIEW_REQUIRED@question] Kunci PDF Hal. 8 tertulis B (40℃以下) akibat duplikasi copy-paste baris 1 tabel kunci. Pertanyaan menanyakan suhu penyimpanan 食肉と魚介類 menurut 食品衛生法の規定, sementara di opsi terdapat C (10℃以下) dan D (4℃以下). Dalam diktat SSW Bab 2 disebutkan bahwa menurut UU Sanitasi Pangan standar kulkas adalah 10℃以下 (Opsi C), sedangkan untuk daging dan ikan disarankan 4℃以下 (Opsi D). Kunci JSON saat ini (C) dipertahankan dan ditandai sebagai REVIEW_REQUIRED.
+  PRIOR_KEY_AUDIT: REVIEW_REQUIRED | Kunci PDF Hal. 8 tertulis B (40℃以下) akibat duplikasi copy-paste baris 1 tabel kunci. Pertanyaan menanyakan suhu penyimpanan 食肉と魚介類 menurut 食品衛生法の規定, sementara di opsi terdapat C (10℃以下) dan D (4℃以下). Dalam diktat SSW Bab 2 disebutkan bahwa menurut UU Sanitasi Pangan standar kulkas adalah 10℃以下 (Opsi C), sedangkan untuk daging dan ikan disarankan 4℃以下 (Opsi D). Kunci JSON saat ini (C) dipertahankan dan ditandai sebagai REVIEW_REQUIRED.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>の<ruby>規定<rt>きてい</rt></ruby>では、<ruby>食肉<rt>しょくにく</rt></ruby>と<ruby>魚介類<rt>ぎょかいるい</rt></ruby>は<ruby>何度<rt>なんど</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>しますか?
+  QUESTION_TEXT: 食品(しょくひん) 衛生法(えいせいほう)の規定(きてい)では、 食肉と魚介類は何度で保管しますか?
+  PROMPT_TRANS: Berdasarkan ketentuan Undang-Undang Sanitasi Pangan, daging dan hasil laut (ikan/kerang) disimpan pada suhu berapa?
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 7, nomor 24. Bobot: 6.0 poin. Kunci jawaban: C. Koreksi QA: Kunci PDF Hal. 8 tertulis B (40°C以下) akibat duplikasi baris 1 tabel kunci. Berdasarkan UU Sanitasi Pangan di diktat SSW (Bab 2), standar penyimpanan dingin adalah 10°C以下 (Opsi C), dengan rekomendasi khusus daging/ikan segar 4°C以下 (Opsi D).
+  KOTOBA_PROMPT: [kb-otaff51-0653] 食品衛生法(しょくひんえいせいほう) [compound_technical] = Undang-Undang Higiene Pangan Jepang | [kb-1223060] 規定(きてい) [word] = ketentuan / peraturan | [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する)
+  OPT A: HTML=40℃<ruby>以上<rt>いじょう</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Disimpan pada suhu 40°C ke atas
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=40℃<ruby>以下<rt>いか</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Disimpan pada suhu 40°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=10℃<ruby>以下<rt>いか</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Disimpan pada suhu 10°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT D: HTML=4℃<ruby>以下<rt>いか</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Disimpan pada suhu 4°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)

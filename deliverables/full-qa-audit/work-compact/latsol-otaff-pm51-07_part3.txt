@@ -1,0 +1,74 @@
+# AUDIT SHEET: latsol-otaff-pm51-07 (Latsol OTAFF SSW PM Modul 5.1 - Paket 07) | Batch qa-batch-12 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=otaff-pm51-07-q009 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.19 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>人<rt>ひと</rt></ruby>や<ruby>動物<rt>どうぶつ</rt></ruby>の<ruby>体<rt>からだ</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>や<ruby>体内<rt>たいない</rt></ruby>で、<ruby>人<rt>ひと</rt></ruby>や<ruby>動物<rt>どうぶつ</rt></ruby>から<ruby>栄養<rt>えいよう</rt></ruby>を<ruby>取<rt>と</rt></ruby>って<ruby>生<rt>い</rt></ruby>きているアニサキスなどの<ruby>生<rt>い</rt></ruby>き<ruby>物<rt>もの</rt></ruby>を<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Disebut apakah makhluk hidup seperti Anisakis yang hidup di permukaan atau di dalam tubuh manusia maupun hewan dengan mengambil nutrisi dari inangnya? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 19 (Bab 2.2(3)④, hal. 14 teks). Bobot: 3 poin. Kunci jawaban: B. 人や動物の体の表面や体内で、人や動物から栄養を取って生きているのが寄生虫です (contohnya Anisakis).
+  INLINE_KOTOBA_COUNT: 21
+  KOTOBA_PROMPT: [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0968] 動物(どうぶつ) [noun] = hewan | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-1489880] 表面(ひょうめん) [word] = permukaan | [kb-1409640] 体内(たいない) [word] = di dalam tubuh | [kb-1173990] 栄養(えいよう) [word] = nutrisi / zat gizi | [kb-latsol-80771c5c86] 取って(とって) [word] = mengambil / menyingkirkan | [kb-otaff51-1404] 生きている(いきている) [expression] = masih hidup | [kb-otaff51-0032] アニサキス(あにさきす) [compound_technical] = parasit Anisakis | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0913] 生き物(いきもの) [noun] = makhluk hidup | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-154] 言います(いいます) [inflected, df:言う] = mengucapkan / menyebut | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>芽胞菌<rt>がほうきん</rt></ruby>
+    TRANS: Bakteri berspora
+    KOTOBA: [kb-u1416-9371420b87] 芽胞菌(がほうきん) [word] = bakteri pembentuk spora
+  OPT B: HTML=<ruby>寄生虫<rt>きせいちゅう</rt></ruby>
+    TRANS: Parasit (Kiseichuu)
+    KOTOBA: [kb-1219770] 寄生虫(きせいちゅう) [word] = parasit pangan (Anisakis dll)
+  OPT C: HTML=カビの<ruby>胞子<rt>ほうし</rt></ruby>
+    TRANS: Spora kapang
+    KOTOBA: [kb-ext-0010-e382abe383] カビ(かび) [word] = jamur / kapang | [kb-1517730] 胞子(ほうし) [word] = spora bakteri tahan panas
+
+=== #Q10 | ID=otaff-pm51-07-q010 | KEY=A (idx=0) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.20 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「5S」とは、アルファベットの「S」で<ruby>始<rt>はじ</rt></ruby>まる5つの<ruby>言葉<rt>ことば</rt></ruby>のことです。この5つの<ruby>正<rt>ただ</rt></ruby>しい<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせはどれですか。<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Istilah '5S' merujuk pada 5 kata yang diawali huruf 'S'. Manakah kombinasi 5 kata yang benar? Pilihlah satu.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 20 (Bab 2.3(1), hal. 15 teks). Bobot: 3 poin. Kunci jawaban: A. Lima S dalam 5S adalah 整理 (Seiri), 整頓 (Seiton), 清掃 (Seisou), 清潔 (Seiketsu), dan 習慣付け (Shuukanzuke) atau しつけ (Shitsuke).
+  INLINE_KOTOBA_COUNT: 26
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-otaff51-0953] アルファベット(あるふぁべっと) [noun] = huruf alfabet | [kb-v2-p6-374] 始まる(はじまる) [word] = dimulai | [kb-1264540] 言葉(ことば) [word] = kata-kata / aba-aba | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>整理<rt>せいり</rt></ruby>（Seiri）・<ruby>整頓<rt>せいとん</rt></ruby>（Seiton）・<ruby>清掃<rt>せいそう</rt></ruby>（Seisou）・<ruby>清潔<rt>せいけつ</rt></ruby>（Seiketsu）・<ruby>習慣付<rt>しゅうかんづ</rt></ruby>け（Shuukanzuke）またはしつけ（Shitsuke）
+    TRANS: Seiri (Ringkas), Seiton (Rapi), Seisou (Resik), Seiketsu (Rawat/Bersih), dan Shuukanzuke atau Shitsuke (Rajin/Disiplin)
+    KOTOBA: [kb-1376250] 整理(せいり) [word] = Seiri (ringkas) | [kb-1376230] 整頓(せいとん) [word] = Seiton (rapi) | [kb-1378320] 清掃(せいそう) [word] = Seiso (resik / bersih-bersih) | [kb-1378200] 清潔(せいけつ) [word] = Seiketsu (bersih) | [kb-otaff51-0506] 習慣付け(しゅうかんづけ) [noun] = Shuukanzuke (Rajin/pembiasaan mematuhi aturan) | [kb-latsol-ad84dc5330] しつけ(しつけ) [word] = Shitsuke
+  OPT B: HTML=<ruby>生産<rt>せいさん</rt></ruby>（Seisan）・<ruby>製造<rt>せいぞう</rt></ruby>（Seizou）・<ruby>選別<rt>せんべつ</rt></ruby>（Senbetsu）・<ruby>洗浄<rt>せんじょう</rt></ruby>（Senjou）・<ruby>殺菌<rt>さっきん</rt></ruby>（Sakkin）
+    TRANS: Seisan (Produksi), Seizou (Pembuatan), Senbetsu (Sortir), Senjou (Pencucian), dan Sakkin (Sterilisasi)
+    KOTOBA: [kb-otaff51-0715] 生産(せいさん) [noun] = produksi | [kb-1380690] 製造(せいぞう) [word] = produksi / manufaktur | [kb-otaff51-0602] 選別(せんべつ) [noun] = penyortiran / seleksi | [kb-1390970] 洗浄(せんじょう) [word] = pencucian / pembersihan | [kb-1299070] 殺菌(さっきん) [word] = sterilisasi / pembasmian kuman
+  OPT C: HTML=<ruby>安全<rt>あんぜん</rt></ruby>（Safety）・<ruby>速度<rt>そくど</rt></ruby>（Speed）・<ruby>笑顔<rt>えがお</rt></ruby>（Smile）・<ruby>節約<rt>せつやく</rt></ruby>（Save）・<ruby>販売<rt>はんばい</rt></ruby>（Sale）
+    TRANS: Safety, Speed, Smile, Save, dan Sale
+    KOTOBA: [kb-1153930] 安全(あんぜん) [word] = keamanan / keselamatan | [kb-1405050] 速度(そくど) [word] = kecepatan putaran / laju | [kb-otaff51-1405] 笑顔(えがお) [noun] = senyuman | [kb-otaff51-1406] 節約(せつやく) [noun] = penghematan | [kb-1481800] 販売(はんばい) [word] = penjualan
+
+=== #Q11 | ID=otaff-pm51-07-q011 | KEY=C (idx=2) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.22 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>や<ruby>準清潔作業区域<rt>じゅんせいけつさぎょうくいき</rt></ruby>の「<ruby>原材料<rt>げんざいりょう</rt></ruby>」を<ruby>運<rt>はこ</rt></ruby>ぶときの<ruby>区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>のルールとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu aturan manajemen higiene pembagian zona (zoning) yang benar saat mengangkut 'bahan baku' dari zona kerja terkontaminasi atau zona kerja semi-bersih.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 22 (Bab 2.3(2)①, hal. 17 teks). Bobot: 3 poin. Kunci jawaban: C. Bahan baku dari zona terkontaminasi maupun zona semi-bersih dilarang melewati zona kerja bersih (汚染作業区域や準清潔作業区域の原材料が、清潔作業区域の中を通らないようにしなければいけません).
+  INLINE_KOTOBA_COUNT: 28
+  KOTOBA_PROMPT: [kb-ext-0151-e6b19ae69f] 汚染作業区域(おせんさぎょうくいき) [word] = zona kerja kotor / terkontaminasi | [kb-ext-0845-e6ba96e6b8] 準清潔作業区域(じゅんせいけつさぎょうくいき) [word] = zona kerja semi-bersih | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-ext-0416-e58cbae588] 区分衛生管理(くぶんえいせいかんり) [word] = manajemen higiene pemisahan zona | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>近道<rt>ちかみち</rt></ruby>になる<ruby>場合<rt>ばあい</rt></ruby>は、<ruby>土<rt>つち</rt></ruby>のついた<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>の<ruby>真<rt>ま</rt></ruby>ん<ruby>中<rt>なか</rt></ruby>を<ruby>通<rt>とお</rt></ruby>して<ruby>運<rt>はこ</rt></ruby>ぶ。
+    TRANS: Jika menjadi jalan pintas, angkut bahan baku bertanah melewati tengah-tengah zona kerja bersih.
+    KOTOBA: [kb-otaff51-0897] 近道(ちかみち) [noun] = jalan pintas | [kb-1355810] 場合(ばあい) [word] = kasus / situasi | [kb-v2-p3-148] 土(つち) [word] = tanah | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p4-057] 清潔作業区域(せいけつさぎょうくいき) [compound_technical] = zona kerja bersih | [kb-otaff51-1407] 真ん中(まんなか) [noun] = bagian tengah | [kb-v2-p1-206] 通して(とおして) [inflected_verb, df:通す] = melewatkan (dasar: 通す) | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa
+  OPT B: HTML=<ruby>段<rt>だん</rt></ruby>ボール<ruby>箱<rt>ばこ</rt></ruby>のまま<ruby>清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>の<ruby>包装<rt>ほうそう</rt></ruby>テーブルの<ruby>上<rt>うえ</rt></ruby>に<ruby>置<rt>お</rt></ruby>く。
+    TRANS: Meletakkannya masih di dalam kotak kardus di atas meja pengemasan pada zona kerja bersih.
+    KOTOBA: [kb-otaff51-0360] 段ボール箱(だんぼーるばこ) [noun] = kotak kardus | [kb-v2-p3-204] まま(-) [word] = apa adanya / tetap | [kb-v2-p4-057] 清潔作業区域(せいけつさぎょうくいき) [compound_technical] = zona kerja bersih | [kb-1515510] 包装(ほうそう) [word] = pengemasan / kemasan | [kb-otaff51-1408] テーブル(てーぶる) [noun] = meja | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-v2-p3-275] 置く(おく) [word] = meletakkan
+  OPT C: HTML=<ruby>汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>や<ruby>準清潔作業区域<rt>じゅんせいけつさぎょうくいき</rt></ruby>の<ruby>原材料<rt>げんざいりょう</rt></ruby>が、<ruby>清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を<ruby>通<rt>とお</rt></ruby>らないようにする。
+    TRANS: Menjaga agar bahan baku dari zona terkontaminasi maupun zona semi-bersih tidak melewati bagian dalam zona kerja bersih.
+    KOTOBA: [kb-ext-0151-e6b19ae69f] 汚染作業区域(おせんさぎょうくいき) [word] = zona kerja kotor / terkontaminasi | [kb-ext-0845-e6ba96e6b8] 準清潔作業区域(じゅんせいけつさぎょうくいき) [word] = zona kerja semi-bersih | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p4-057] 清潔作業区域(せいけつさぎょうくいき) [compound_technical] = zona kerja bersih | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-1409] 通らない(とおらない) [inflected_verb, df:通る] = tidak melewati | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+
+=== #Q12 | ID=otaff-pm51-07-q012 | KEY=B (idx=1) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.23 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>包丁<rt>ほうちょう</rt></ruby>やまな<ruby>板<rt>いた</rt></ruby>など、<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>使<rt>つか</rt></ruby>った<ruby>器具<rt>きぐ</rt></ruby>に「<ruby>汚<rt>よご</rt></ruby>れ」や「<ruby>水分<rt>すいぶん</rt></ruby>」が<ruby>残<rt>のこ</rt></ruby>っているとどうなりますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang akan terjadi apabila 'kotoran' atau 'air' masih tertinggal pada peralatan seperti pisau dapur atau talenan yang telah selesai digunakan bekerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 22–23 (Bab 2.3(2)②, hal. 17–18 teks). Bobot: 3 poin. Kunci jawaban: B. Sisa kotoran dan sisa air pada peralatan masak seperti pisau dan talenan akan memicu perkembangbiakan mikroorganisme, sehingga wajib dicuci dan dikeringkan sebelum disimpan.
+  INLINE_KOTOBA_COUNT: 24
+  KOTOBA_PROMPT: [kb-1515530] 包丁(ほうちょう) [word] = pisau dapur / potong | [kb-v2-p6-447] まな板(まないた) [word] = talenan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p2-027] 使った(つかった) [inflected, df:使う] = yang digunakan | [kb-1218920] 器具(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-1372010] 水分(すいぶん) [word] = air / cairan | [kb-v2-p4-166] 残って(のこって) [inflected, df:残る] = tersisa / tertinggal | [kb-v2-p1-272] どうなりますか(-) [expression] = akan menjadi bagaimana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>包丁<rt>ほうちょう</rt></ruby>の<ruby>切<rt>き</rt></ruby>れ<ruby>味<rt>あじ</rt></ruby>がよくなり、まな<ruby>板<rt>いた</rt></ruby>が<ruby>長持<rt>ながも</rt></ruby>ちする。
+    TRANS: Ketajaman pisau menjadi lebih baik dan talenan menjadi lebih awet.
+    KOTOBA: [kb-1515530] 包丁(ほうちょう) [word] = pisau dapur / potong | [kb-otaff51-1410] 切れ味(きれあじ) [noun] = ketajaman pisau | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-v2-p6-447] まな板(まないた) [word] = talenan | [kb-otaff51-0969] 長持ち(ながもち) [noun] = awet / tahan lama
+  OPT B: HTML=<ruby>残<rt>のこ</rt></ruby>った<ruby>汚<rt>よご</rt></ruby>れや<ruby>水分<rt>すいぶん</rt></ruby>が<ruby>原因<rt>げんいん</rt></ruby>となって、そこで<ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える。
+    TRANS: Kotoran dan air yang tersisa menjadi penyebab berkembang biaknya mikroorganisme pada peralatan tersebut.
+    KOTOBA: [kb-v2-p5-387] 残った(のこった) [inflected, df:残る] = yang tersisa | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-1372010] 水分(すいぶん) [word] = air / cairan | [kb-1261190] 原因(げんいん) [word] = penyebab | [kb-1486090] 微生物(びせいぶつ) [word] = mikroorganisme | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak
+  OPT C: HTML=<ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>水<rt>みず</rt></ruby>でおぼれて<ruby>全部死滅<rt>ぜんぶしめつ</rt></ruby>する。
+    TRANS: Mikroorganisme tenggelam di dalam air dan mati seluruhnya.
+    KOTOBA: [kb-1486090] 微生物(びせいぶつ) [word] = mikroorganisme | [kb-v2-p1-083] 水(みず) [word] = air | [kb-v2-p1-041] 全部(ぜんぶ) [word] = semua | [kb-1646680] 死滅(しめつ) [word] = pemusnahan / mati (mikroba)

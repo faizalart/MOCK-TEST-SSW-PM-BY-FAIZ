@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-reguler-06 (Latsol Reguler 06) | Batch qa-batch-10 | Part 3 (Q9-12 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=reguler06-q009 | KEY=A (idx=0) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="新型コロナウイルス感染症 (COVID-19) 食品工場で予防はどれですか。まちがっているものを一つえらびなさい。" vs questionText="新型コロナウイルス感染症 (COVID-19) 食品工場で予防どれですか。。まちがっているものを一つえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("ドアノブ、たくさんの人が触る場所をしょうどくしません") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>新型<rt>しんがた</rt></ruby>コロナウイルス<ruby>感染症<rt>かんせんしょう</rt></ruby> (COVID-19) <ruby>食品工場<rt>しょくひんこうじょう</rt></ruby>で<ruby>予防<rt>よぼう</rt></ruby>はどれですか。まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 新型コロナウイルス感染症 (COVID-19) 食品工場で予防どれですか。。まちがっているものを一つえらびなさい
+  PROMPT_TRANS: Manakah langkah pencegahan infeksi virus Corona baru (COVID-19) di pabrik makanan? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 3, nomor 9. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-v2-p6-192] 新型コロナウイルス(しんがたころなういるす) [compound_technical] = virus corona baru (COVID-19) | [kb-1614180] 感染症(かんせんしょう) [word] = penyakit menular | [kb-ext-0938-e9a39fe593] 食品工場(しょくひんこうじょう) [compound_technical] = pabrik makanan | [kb-1543660] 予防(よぼう) [word] = pencegahan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=ドアノブ、たくさんの<ruby>人<rt>ひと</rt></ruby>が<ruby>触<rt>さわ</rt></ruby>る<ruby>場所<rt>ばしょ</rt></ruby>をしょうどくしません
+    TRANS: Tidak melakukan disinfeksi pada gagang pintu dan tempat-tempat yang disentuh banyak orang
+    KOTOBA: [kb-latsol-doorknob] ドアノブ(どあのぶ) [word] = gagang pintu | [kb-v2-p4-137] たくさん(-) [word] = banyak | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p6-488] 触る(さわる) [word] = menyentuh | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-latsol-shoudoku] しょうどく(しょうどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-audit-0380] しません(しません) [inflected_verb, df:する] = tidak melakukan (sopan)
+  OPT B: HTML=<ruby>食堂<rt>しょくどう</rt></ruby>、<ruby>事務室<rt>じむしつ</rt></ruby>は、ていきてきに<ruby>空気<rt>くうき</rt></ruby>を<ruby>入<rt>い</rt></ruby>れ<ruby>換<rt>か</rt></ruby>えます
+    TRANS: Melakukan pertukaran udara (ventilasi) secara berkala di kantin dan ruang kantor
+    KOTOBA: [kb-ext-latsol-0092] 食堂(しょくどう) [word] = kantin / ruang makan | [kb-ext-latsol-0093] 事務室(じむしつ) [word] = ruang kantor administrasi | [kb-audit-0094] ていきてき(ていきてき) [word] = secara berkala / rutin (定期的) | [kb-1245470] 空気(くうき) [word] = udara | [kb-audit-0150] 入れ換えます(いれかえます) [inflected_verb, df:入れ換える] = mengganti / menukar (udara)
+  OPT C: HTML=<ruby>更衣室<rt>こういしつ</rt></ruby>ていきてきに<ruby>空気<rt>くうき</rt></ruby>を<ruby>入<rt>い</rt></ruby>れ<ruby>換<rt>か</rt></ruby>えます
+    TRANS: Melakukan pertukaran udara (ventilasi) secara berkala di ruang ganti pakaian
+    KOTOBA: [kb-otaff51-0337] 更衣室(こういしつ) [noun] = ruang ganti pakaian | [kb-audit-0094] ていきてき(ていきてき) [word] = secara berkala / rutin (定期的) | [kb-1245470] 空気(くうき) [word] = udara | [kb-audit-0150] 入れ換えます(いれかえます) [inflected_verb, df:入れ換える] = mengganti / menukar (udara)
+
+=== #Q10 | ID=reguler06-q010 | KEY=B (idx=1) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="原材料の受入のけっかは、その後の製造工程でどのように対応するかを判断するためのじゅうようなデータになります。なんですか。正しいものを一つえら" vs questionText="原材料の受入のけっかは、その後の製造工程でどのように対応するかを判断するためのじゅうようなデータになりますなんですか。正しいものを一つえらび" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-ext-0795-e58f97e585 "受入": kotoba="うけい" vs ruby="うけいれ"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("受入検査") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受入<rt>うけいれ</rt></ruby>のけっかは、その<ruby>後<rt>ご</rt></ruby>の<ruby>製造工程<rt>せいぞうこうてい</rt></ruby>でどのように<ruby>対応<rt>たいおう</rt></ruby>するかを<ruby>判断<rt>はんだん</rt></ruby>するためのじゅうようなデータになります。なんですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 原材料の受入のけっかは、その後の製造工程でどのように対応するかを判断するためのじゅうようなデータになりますなんですか。正しいものを一つえらびなさい
+  PROMPT_TRANS: Hasil pemeriksaan saat penerimaan bahan baku menjadi data penting untuk memutuskan bagaimana penanganan pada proses produksi selanjutnya. Disebut apakah kegiatan tersebut? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 3, nomor 10. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-ext-0795-e58f97e585] 受入(うけい) [word] = penerimaan bahan baku | [kb-v2-p6-331] けっか(-) [word] = hasil (bacaan 結果) | [kb-latsol-076b25ad6c] その後(そのご) [word] = setelah itu / kemudian | [kb-otaff51-0556] 製造工程(せいぞうこうてい) [compound_technical] = tahapan proses produksi | [kb-v2-p1-271] どのように(-) [expression] = dengan cara bagaimana | [kb-otaff51-0277] 対応(たいおう) [noun] = penanganan / respons | [kb-otaff51-0185] 判断(はんだん) [noun] = penilaian / keputusan | [kb-audit-0145] じゅうような(じゅうような) [word] = yang penting (重要な) | [kb-v2-p3-027] データ(-) [word] = data | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>
+    TRANS: Pengelolaan bahan baku
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen
+  OPT B: HTML=<ruby>受入検査<rt>うけいれけんさ</rt></ruby>
+    TRANS: Pemeriksaan penerimaan (incoming inspection)
+    KOTOBA: [kb-otaff51-0225] 受入検査(うけいれけんさ) [compound_technical] = inspeksi penerimaan bahan baku
+  OPT C: HTML=<ruby>健康<rt>けんこう</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>
+    TRANS: Pengelolaan kesehatan
+    KOTOBA: [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen
+
+=== #Q11 | ID=reguler06-q011 | KEY=A (idx=0) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="冷凍庫、冷蔵庫の管理についてどれか。ただしいものをひとつえらびなさい。" vs questionText="冷凍庫, 冷蔵庫の管理についてどれか。。ただしものをひとつえらびなさい"
+  CLUSTER CL-0263 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=reguler02-q016 (latsol-reguler-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("冷凍庫、-15℃以下 ー 冷蔵庫が 10℃以下") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>冷凍庫<rt>れいとうこ</rt></ruby>、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>についてどれか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: 冷凍庫, 冷蔵庫の管理についてどれか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Manakah standar suhu yang benar mengenai pengelolaan freezer (lemari pembeku) dan kulkas (lemari pendingin)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 3, nomor 11. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>、-15℃<ruby>以下<rt>いか</rt></ruby> ー <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>が 10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Freezer: -15°C atau di bawahnya — Kulkas: 10°C atau di bawahnya
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller)
+  OPT B: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>、10℃<ruby>以下<rt>いか</rt></ruby> ー <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>が 10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Freezer: 10°C atau di bawahnya — Kulkas: 10°C atau di bawahnya
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller)
+  OPT C: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>、15℃<ruby>以下<rt>いか</rt></ruby> ー <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>が -10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Freezer: 15°C atau di bawahnya — Kulkas: -10°C atau di bawahnya
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller)
+
+=== #Q12 | ID=reguler06-q012 | KEY=B (idx=1) | CAT= | SRC=Latihan 6 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="凍結工程すると、食感や風味などが変化、ひんしつが劣化します。防ぐためにはなんですか。まちがっているものをえらびなさい。" vs questionText="凍結工程すると、食感や風味などが変化、ひんしつが劣化します、防ぐためにはなんですか。。まちがっているものをえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("食品がゆっくり凍結させます") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>凍結工程<rt>とうけつこうてい</rt></ruby>すると、<ruby>食感<rt>しょっかん</rt></ruby>や<ruby>風味<rt>ふうみ</rt></ruby>などが<ruby>変化<rt>へんか</rt></ruby>、ひんしつが<ruby>劣化<rt>れっか</rt></ruby>します。<ruby>防<rt>ふせ</rt></ruby>ぐためにはなんですか。まちがっているものをえらびなさい。
+  QUESTION_TEXT: 凍結工程すると、食感や風味などが変化、ひんしつが劣化します、防ぐためにはなんですか。。まちがっているものをえらびなさい
+  PROMPT_TRANS: Pada proses pembekuan, tekstur dan cita rasa makanan dapat berubah serta kualitasnya menurun. Untuk mencegah hal tersebut, manakah pernyataan yang salah?
+  EXPLANATION: Sumber: Latihan 6 Soal SSW PM + KJ.pdf, halaman 4, nomor 12. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-ext-latsol-0040] 凍結工程(とうけつこうてい) [word] = proses pembekuan | [kb-v2-p1-146] すると(-) [expression] = jika melakukan | [kb-ext-latsol-0096] 食感(しょっかん) [word] = tekstur makanan | [kb-1624810] 風味(ふうみ) [word] = aroma dan cita rasa | [kb-ext-latsol-0097] 変化(へんか) [word] = perubahan | [kb-audit-0794] ひんしつ(ひんしつ) [word] = kualitas / mutu | [kb-otaff51-0197] 劣化(れっか) [noun] = penurunan mutu / kerusakan kualitas | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan) | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=できるだけ<ruby>低温<rt>ていおん</rt></ruby>にほぞんします
+    TRANS: Menyimpan pada suhu serendah mungkin
+    KOTOBA: [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-otaff51-0117] 低温(ていおん) [noun] = suhu rendah | [kb-v2-p6-582] ほぞん(-) [word] = penyimpanan / pengawetan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>がゆっくり<ruby>凍結<rt>とうけつ</rt></ruby>させます
+    TRANS: Membekukan makanan secara perlahan-lahan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan
+  OPT C: HTML=<ruby>短時間<rt>たんじかん</rt></ruby>で<ruby>急速<rt>きゅうそく</rt></ruby>に<ruby>凍結<rt>とうけつ</rt></ruby>させます
+    TRANS: Membekukan dengan cepat dalam waktu singkat
+    KOTOBA: [kb-1418720] 短時間(たんじかん) [word] = waktu singkat | [kb-otaff51-0302] 急速(きゅうそく) [adjective] = cepat / ekspres (pembekuan cepat) | [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan

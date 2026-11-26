@@ -1,0 +1,83 @@
+# AUDIT SHEET: latsol-reguler-01 (Latsol Reguler 01) | Batch qa-batch-09 | Part 1 (Q1-4 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=reguler01-q001 | KEY=C (idx=2) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.1 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("食べやすいように") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: なぜ<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>らなければなりません。。まちがっているものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengapa kita harus membuat makanan yang aman? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 1, nomor 1. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-v2-p6-075] なぜ(-) [word] = mengapa | [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-latsol-166607375e] 作らなければ(つくらなければ) [word] = harus membuat / menyusun | [kb-audit-0370] なりません(なりません) [inflected_verb, df:なる] = menjadi / harus (dengan なければ) | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>消費者<rt>しょうひしゃ</rt></ruby>が<ruby>安心<rt>あんしん</rt></ruby>するように
+    TRANS: Agar konsumen merasa tenang/aman
+    KOTOBA: [kb-1350300] 消費者(しょうひしゃ) [word] = konsumen | [kb-1153890] 安心(あんしん) [word] = rasa aman / ketenangan
+  OPT B: HTML=<ruby>消費者<rt>しょうひしゃ</rt></ruby>に<ruby>健康障害<rt>けんこうしょうがい</rt></ruby>がおこらないように
+    TRANS: Agar tidak terjadi gangguan kesehatan pada konsumen
+    KOTOBA: [kb-1350300] 消費者(しょうひしゃ) [word] = konsumen | [kb-ext-latsol-0031] 健康障害(けんこうしょうがい) [word] = gangguan kesehatan
+  OPT C: HTML=<ruby>食<rt>た</rt></ruby>べやすいように
+    TRANS: Agar mudah dimakan
+    KOTOBA: [kb-latsol-faff8147e3] 食べやすい(たべやすい) [word] = mudah dimakan
+
+=== #Q2 | ID=reguler01-q002 | KEY=C (idx=2) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="感染型食中毒原因どれですか。。ただしものをひとつえらびなさい" vs questionText="感染食中毒 原因どれですか。。ただしものをひとつえらびなさい" || [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("サルモネラ属菌、カンピロバクター属菌、腸炎ビブリオ") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>感染型<rt>かんせんがた</rt></ruby><ruby>食中毒<rt>しょくちゅうどく</rt></ruby><ruby>原因<rt>げんいん</rt></ruby>どれですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: 感染食中毒 原因どれですか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Manakah yang merupakan penyebab keracunan makanan tipe infeksi? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 1, nomor 2. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-ext-0278-e6849fe69f] 感染型食中毒(かんせんがたしょくちゅうどく) [word] = keracunan makanan tipe infeksi | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>、ボツリヌス<ruby>菌<rt>きん</rt></ruby>、サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Staphylococcus aureus, Clostridium botulinum, bakteri genus Salmonella
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus | [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella
+  OPT B: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>、ウエルシュ<ruby>菌<rt>きん</rt></ruby>、セレウス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum, Clostridium perfringens, Bacillus cereus
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-latsol-03858a87de] ウエルシュ菌(うぇるしゅきん) [word] = Bakteri / kuman mikroorganisme penyeba | [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus
+  OPT C: HTML=サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>、カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>、<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Bakteri genus Salmonella, bakteri genus Campylobacter, Vibrio parahaemolyticus
+    KOTOBA: [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella | [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter | [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+
+=== #Q3 | ID=reguler01-q003 | KEY=B (idx=1) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="安全な食品を作るための全体像 まちがっているものをひとつえらびなさい" vs questionText="安全な食品を作つくるための全体像 まちがっているものをひとつえらびなさい" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("製造中の服装の衛生的な取り扱い") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るための<ruby>全体像<rt>ぜんたいぞう</rt></ruby> まちがっているものをひとつえらびなさい
+  QUESTION_TEXT: 安全な食品を作つくるための全体像 まちがっているものをひとつえらびなさい
+  PROMPT_TRANS: Gambaran umum untuk membuat makanan yang aman: pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 1, nomor 3. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-ext-latsol-0032] 全体像(ぜんたいぞう) [word] = gambaran menyeluruh | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れ
+    TRANS: Penerimaan bahan baku yang aman
+    KOTOBA: [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-024] 受け入れ(うけいれ) [word] = penerimaan bahan
+  OPT B: HTML=<ruby>製造中<rt>せいぞうちゅう</rt></ruby>の<ruby>服装<rt>ふくそう</rt></ruby>の<ruby>衛生的<rt>えいせいてき</rt></ruby>な<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い
+    TRANS: Penanganan higienis terhadap pakaian selama proses produksi
+    KOTOBA: [kb-ext-1059-e8a3bde980] 製造中(せいぞうちゅう) [word] = saat proses produksi berlangsung | [kb-otaff51-0340] 服装(ふくそう) [noun] = pakaian / cara berpakaian | [kb-1609370] 衛生的(えいせいてき) [word] = higienis | [kb-v2-p6-472] 取り扱い(とりあつかい) [word] = penanganan / perlakuan
+  OPT C: HTML=きれいな<ruby>製造環境<rt>せいぞうかんきょう</rt></ruby>
+    TRANS: Lingkungan produksi yang bersih
+    KOTOBA: [kb-v2-p1-259] きれいな(-) [word] = bersih | [kb-ext-1055-e8a3bde980] 製造環境(せいぞうかんきょう) [word] = lingkungan produksi
+  OPT D: HTML=<ruby>製造中<rt>せいぞうちゅう</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生的<rt>えいせいてき</rt></ruby>な<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い
+    TRANS: Penanganan makanan secara higienis selama proses produksi
+    KOTOBA: [kb-ext-1059-e8a3bde980] 製造中(せいぞうちゅう) [word] = saat proses produksi berlangsung | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1609370] 衛生的(えいせいてき) [word] = higienis | [kb-v2-p6-472] 取り扱い(とりあつかい) [word] = penanganan / perlakuan
+
+=== #Q4 | ID=reguler01-q004 | KEY=B (idx=1) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="感染型食中毒の主な予防対策どれですか。。ただしものをひとつえらびなさい。" vs questionText="感染食中毒の主な予防対策どれですか。。ただしものをひとつえらびなさい。" || [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("75℃以上、60秒以上加熱します") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>感染型<rt>かんせんがた</rt></ruby><ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>予防対策<rt>よぼうたいさく</rt></ruby>どれですか。。ただしものをひとつえらびなさい。
+  QUESTION_TEXT: 感染食中毒の主な予防対策どれですか。。ただしものをひとつえらびなさい。
+  PROMPT_TRANS: Manakah langkah pencegahan utama untuk keracunan makanan tipe infeksi? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 1, nomor 4. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-ext-0278-e6849fe69f] 感染型食中毒(かんせんがたしょくちゅうどく) [word] = keracunan makanan tipe infeksi | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-latsol-0033] 予防対策(よぼうたいさく) [word] = tindakan pencegahan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=70℃<ruby>以上<rt>いじょう</rt></ruby>、1<ruby>分以上<rt>ぷんいじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します
+    TRANS: Memanaskan pada suhu 70°C atau lebih selama 1 menit atau lebih
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=75℃<ruby>以上<rt>いじょう</rt></ruby>、60<ruby>秒以上<rt>びょういじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します
+    TRANS: Memanaskan pada suhu 75°C atau lebih selama 60 detik atau lebih
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=80℃<ruby>以上<rt>いじょう</rt></ruby>、30<ruby>秒以上<rt>びょういじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します
+    TRANS: Memanaskan pada suhu 80°C atau lebih selama 30 detik atau lebih
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT D: HTML=75℃<ruby>以上<rt>いじょう</rt></ruby>、1<ruby>時間<rt>じかん</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します
+    TRANS: Memanaskan pada suhu 75°C atau lebih selama 1 jam
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)

@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-10 (Latsol Nguyen 10) | Batch qa-batch-08 | Part 6 (Q21-24 of 41)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=nguyen10-q021 | KEY=C (idx=2) | CAT= | SRC=10 (2).pdf p.4 ===
+  CLUSTER CL-0168 (n=8, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q020 (bonus-soal-1), bonus-soal-7-q020 (bonus-soal-7), bonus-soal-9-q001 (bonus-soal-9), nguyen01-q020 (latsol-nguyen-01), nguyen03-q001 (latsol-nguyen-03), nguyen07-q020 (latsol-nguyen-07), nguyen09-q001 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("健康の知識。。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>飲食料品製造業特定技能<rt>いんしょくりょうひんせいぞうぎょうとくていぎのう</rt></ruby>1<ruby>号<rt>ごう</rt></ruby>の<ruby>在留資格者<rt>ざいりゅうしかくしゃ</rt></ruby>が<ruby>働<rt>はたら</rt></ruby>く<ruby>業種<rt>ぎょうしゅ</rt></ruby>は<ruby>色々<rt>いろいろ</rt></ruby>があります。<ruby>業種<rt>ぎょうしゅ</rt></ruby>で<ruby>必要<rt>ひつよう</rt></ruby>なものは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada berbagai macam bidang industri tempat pemegang izin tinggal Pekerja Berketerampilan Spesifik (SSW) No. 1 Industri Pengolahan Makanan dan Minuman bekerja. Hal apakah yang diperlukan dalam bidang industri tersebut? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 4, nomor 21. Bobot: 3.66 poin. Kunci jawaban: C. Nomor asli PDF: Câu 20 (Halaman 4).
+  KOTOBA_PROMPT: [kb-ext-0115-e9a3b2e9a3] 飲食料品製造業特定技能(いんしょくりょうひんせいぞうぎょうとくていぎのう) [word] = SSW Manufaktur Makanan & Minuman | [kb-1284220] 号(ごう) [standalone_term] = Nomor (seperti Tokutei Ginou No. 1 / 特定技能1号) | [kb-otaff51-0242] 在留資格者(ざいりゅうしかくしゃ) [compound_technical] = pemegang izin tinggal | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-otaff51-0352] 業種(ぎょうしゅ) [noun] = jenis industri / bidang usaha | [kb-1587850] 色々(いろいろ) [word] = bermacam-macam / beragam | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>。
+    TRANS: Pengetahuan tentang sanitasi pangan.
+    KOTOBA: [kb-otaff51-0652] 食品衛生(しょくひんえいせい) [compound_technical] = higiene pangan / keamanan pangan | [kb-otaff51-0467] 知識(ちしき) [noun] = pengetahuan
+  OPT B: HTML=<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>。
+    TRANS: Pengetahuan tentang keselamatan kerja.
+    KOTOBA: [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-otaff51-0467] 知識(ちしき) [noun] = pengetahuan
+  OPT C: HTML=<ruby>健康<rt>けんこう</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>。。
+    TRANS: Pengetahuan tentang kesehatan.
+    KOTOBA: [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-otaff51-0467] 知識(ちしき) [noun] = pengetahuan
+
+=== #Q22 | ID=nguyen10-q022 | KEY=C (idx=2) | CAT= | SRC=10 (2).pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  CLUSTER CL-0020 (n=7, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci1-q021 (ssw-pm-kunci-ujian-1), kunci-ujian-6-q021 (ssw-pm-kunci-ujian-6), bonus-soal-1-q021 (bonus-soal-1), bonus-soal-8-q020 (bonus-soal-8), nguyen01-q021 (latsol-nguyen-01), nguyen08-q020 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("作業場を離れる時間が短いときは、黙って離れてもいい。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai tindakan selama bekerja.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 5, nomor 22. Bobot: 3.66 poin. Kunci jawaban: C. Nomor asli PDF: Câu 21 (Halaman 5).
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>危険<rt>きけん</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>をしている<ruby>人<rt>ひと</rt></ruby>を<ruby>見<rt>み</rt></ruby>たら、<ruby>声<rt>こえ</rt></ruby>をかける。
+    TRANS: Menyapa/memperingatkan jika melihat orang yang sedang melakukan pekerjaan berbahaya.
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-audit-0594] 見たら(みたら) [inflected_verb, df:見る] = jika melihat | [kb-otaff51-1227] 声をかける(こえをかける) [expression] = menegur / memberi aba-aba
+  OPT B: HTML=<ruby>危険<rt>きけん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけたら、<ruby>責任者<rt>せきにんしゃ</rt></ruby>にすぐに<ruby>報告<rt>ほうこく</rt></ruby>する。
+    TRANS: Segera melapor kepada penanggung jawab jika menemukan tempat berbahaya.
+    KOTOBA: [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-audit-0591] 見つけたら(みつけたら) [inflected_verb, df:見つける] = jika menemukan | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p2-157] 報告する(ほうこくする) [word] = melaporkan
+  OPT C: HTML=<ruby>作業場<rt>さぎょうば</rt></ruby>を<ruby>離<rt>はな</rt></ruby>れる<ruby>時間<rt>じかん</rt></ruby>が<ruby>短<rt>みじか</rt></ruby>いときは、<ruby>黙<rt>だま</rt></ruby>って<ruby>離<rt>はな</rt></ruby>れてもいい。
+    TRANS: Boleh meninggalkan area kerja secara diam-diam (tanpa izin) apabila waktu meninggalkan area kerja hanya sebentar.
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-191] 離れる(はなれる) [word] = meninggalkan | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p1-254] 短い(みじかい) [word] = pendek / singkat | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p1-192] 黙って(だまって) [inflected_verb, df:黙る] = diam-diam (dasar: 黙る) | [kb-v2-p1-298] 離れて(はなれて) [inflected_verb, df:離れる] = meninggalkan (dasar: 離れる) | [kb-v2-p1-249] いい(-) [word] = baik
+
+=== #Q23 | ID=nguyen10-q023 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.5 ===
+  CLUSTER CL-0169 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q022 (bonus-soal-1), bonus-soal-8-q021 (bonus-soal-8), nguyen01-q022 (latsol-nguyen-01), nguyen08-q021 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("作業者の安全と健康を守ることです。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang benar mengenai keselamatan kerja (roudou anzen).
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 5, nomor 23. Bobot: 3.66 poin. Kunci jawaban: B. Nomor asli PDF: Câu 22 (Halaman 5).
+  KOTOBA_PROMPT: [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>製品<rt>せいひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることです。
+    TRANS: Melindungi kesehatan orang yang memakan produk.
+    KOTOBA: [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+  OPT B: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>と<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることです。
+    TRANS: Melindungi keselamatan dan kesehatan para pekerja.
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+  OPT C: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることです。
+    TRANS: Melindungi keselamatan pekerja saja.
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+
+=== #Q24 | ID=nguyen10-q024 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.5 ===
+  CLUSTER CL-0022 (n=7, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci1-q023 (ssw-pm-kunci-ujian-1), bonus-soal-1-q023 (bonus-soal-1), bonus-soal-8-q022 (bonus-soal-8), bonus-soal-10-q010 (bonus-soal-10), nguyen01-q023 (latsol-nguyen-01), nguyen08-q022 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("危害要因分析をするだけで、必ず危害が起きない。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai Analisis Bahaya (Hazard Analysis).
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 5, nomor 24. Bobot: 3.66 poin. Kunci jawaban: B. Nomor asli PDF: Câu 23 (Halaman 5).
+  KOTOBA_PROMPT: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>危害<rt>きがい</rt></ruby>の<ruby>要因<rt>よういん</rt></ruby>を、<ruby>全部書<rt>ぜんぶか</rt></ruby>いて、はっきりわかるようにする。
+    TRANS: Menuliskan seluruh faktor bahaya agar dapat dipahami dengan jelas.
+    KOTOBA: [kb-1218440] 危害(きがい) [word] = bahaya | [kb-1546670] 要因(よういん) [word] = faktor penyebab | [kb-v2-p1-041] 全部(ぜんぶ) [word] = semua | [kb-v2-p1-194] 書いて(かいて) [inflected_verb, df:書く] = menulis (dasar: 書く) | [kb-v2-p1-279] はっきり(-) [word] = dengan jelas | [kb-v2-p1-195] わかる(-) [word] = mengerti / jelas | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+  OPT B: HTML=<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>をするだけで、<ruby>必<rt>かなら</rt></ruby>ず<ruby>危害<rt>きがい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きない。
+    TRANS: Hanya dengan melakukan analisis faktor bahaya saja, bahaya pasti tidak akan terjadi.
+    KOTOBA: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-1218440] 危害(きがい) [word] = bahaya | [kb-v2-p1-196] 起きない(おきない) [inflected_verb, df:起きる] = tidak terjadi (dasar: 起きる)
+  OPT C: HTML=<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>をするときは、<ruby>今<rt>いま</rt></ruby>までの<ruby>検査記録<rt>けんさきろく</rt></ruby>や<ruby>関連<rt>かんれん</rt></ruby>のある<ruby>本<rt>ほん</rt></ruby>なども<ruby>見<rt>み</rt></ruby>ている。
+    TRANS: Saat melakukan analisis faktor bahaya, catatan pemeriksaan selama ini dan buku-buku terkait juga turut dilihat.
+    KOTOBA: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-audit-1102] するとき(するとき) [expression] = ketika melakukan (する時) | [kb-v2-p1-285] 今まで(いままで) [expression] = hingga sekarang | [kb-ext-0465-e6a49ce69f] 検査記録(けんさきろく) [compound_technical] = catatan pemeriksaan | [kb-1216060] 関連(かんれん) [word] = terkait / hubungan | [kb-v2-p1-079] 本(ほん) [word] = buku | [kb-v2-p1-168] 見ている(みている) [inflected_verb, df:見る] = sedang melihat (dasar: 見る)

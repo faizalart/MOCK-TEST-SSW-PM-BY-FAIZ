@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-03 (Latsol Nguyen 03) | Batch qa-batch-07 | Part 6 (Q21-24 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=nguyen03-q021 | KEY=A (idx=0) | CAT= | SRC=3.pdf p.3 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 使用期限 || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-2083100 "日": kotoba="にち" vs ruby="ひ" || [OPT_PROHIBITION_MISMATCH@optTranslation:C] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh
+  CLUSTER CL-0147 (n=4, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-13-q019 (ssw-pm-kunci-ujian-13), bonus-soal-5-q019 (bonus-soal-5), nguyen05-q019 (latsol-nguyen-05)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("使用期限が過ぎた原材料を使ってもいいです。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>使用期限<rt>しようきげん</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang salah mengenai batas waktu penggunaan (使用期限).
+  EXPLANATION: Sumber: 3.pdf, halaman 3, nomor 21. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0127] 使用期限(しようきげん) [compound_technical] = batas tanggal konsumsi aman (Shouhikigen) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>使用期限<rt>しようきげん</rt></ruby>が<ruby>過<rt>す</rt></ruby>ぎた<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってもいいです。
+    TRANS: Boleh menggunakan bahan baku yang telah melewati batas waktu penggunaan.
+    KOTOBA: [kb-otaff51-0127] 使用期限(しようきげん) [compound_technical] = batas tanggal konsumsi aman (Shouhikigen) | [kb-v2-p5-287] 過ぎた(すぎた) [inflected, df:過ぎる] = melewati batas (kedaluwarsa) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT B: HTML=<ruby>使用期限<rt>しようきげん</rt></ruby>は<ruby>原料<rt>げんりょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>っても<ruby>良<rt>い</rt></ruby>い<ruby>期間<rt>きかん</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>です。
+    TRANS: Batas waktu penggunaan adalah hari terakhir dari periode di mana bahan baku boleh digunakan.
+    KOTOBA: [kb-otaff51-0127] 使用期限(しようきげん) [compound_technical] = batas tanggal konsumsi aman (Shouhikigen) | [kb-1262490] 原料(げんりょう) [word] = bahan mentah | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-1220550] 期間(きかん) [word] = periode / jangka waktu | [kb-1293810] 最後(さいご) [word] = Terakhir / langkah penutup alur kerja | [kb-2083100] 日(にち) [standalone_term] = Hari / penanggalan kalender
+  OPT C: HTML=<ruby>使用期間<rt>しようきかん</rt></ruby>が<ruby>過<rt>す</rt></ruby>ぎた<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>使用禁止<rt>しようきんし</rt></ruby>を<ruby>決<rt>き</rt></ruby>められます。
+    TRANS: Ditetapkan larangan penggunaan untuk bahan baku yang telah melewati masa penggunaan.
+    KOTOBA: [kb-ext-0686-e4bdbfe794] 使用期間(しようきかん) [word] = masa penggunaan | [kb-v2-p5-287] 過ぎた(すぎた) [inflected, df:過ぎる] = melewati batas (kedaluwarsa) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1306240] 使用禁止(しようきんし) [word] = dilarang digunakan | [kb-v2-p5-248] 決め(きめ) [inflected, df:決める] = menentukan | [kb-audit-0392] られます(られます) [word] = dapat / di- (pasif sopan)
+
+=== #Q22 | ID=nguyen03-q022 | KEY=C (idx=2) | CAT= | SRC=3.pdf p.4 ===
+  CLUSTER CL-0080 (n=4, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q022 (ssw-pm-kunci-ujian-3), kunci-ujian-7-q015 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q020 (ssw-pm-kunci-ujian-14)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("製氷機に入れて冷やす方法") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>主<rt>おも</rt></ruby>な<ruby>冷却方法<rt>れいきゃくほうほう</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang termasuk metode pendinginan utama? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 3.pdf, halaman 4, nomor 22. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-1778-e586b7e58d] 冷却方法(れいきゃくほうほう) [word] = metode pendinginan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>風<rt>かぜ</rt></ruby>をあてて<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan menghembuskan angin
+    KOTOBA: [kb-v2-p5-162] 風(かぜ) [word] = angin / udara | [kb-otaff51-0760] あてて(あてて) [inflected_verb, df:あてる] = mengalirkan / mengenakan ke | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode
+  OPT B: HTML=<ruby>冷水<rt>れいすい</rt></ruby>で<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan air dingin
+    KOTOBA: [kb-otaff51-0166] 冷水(れいすい) [noun] = air dingin | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode
+  OPT C: HTML=<ruby>製氷機<rt>せいひょうき</rt></ruby>に<ruby>入<rt>い</rt></ruby>れて<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan memasukkan ke dalam mesin pembuat es
+    KOTOBA: [kb-1784830] 製氷機(せいひょうき) [word] = mesin pembuat es batu | [kb-v2-p2-012] 入れて(いれて) [inflected, df:入れる] = memasukkan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode
+
+=== #Q23 | ID=nguyen03-q023 | KEY=B (idx=1) | CAT= | SRC=3.pdf p.4 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 賞味期限 || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-2083100 "日": kotoba="にち" vs ruby="ひ" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-2083100 "日": kotoba="にち" vs ruby="ひ" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-2083100 "日": kotoba="にち" vs ruby="ひ"
+  CLUSTER CL-0234 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-6-q021 (bonus-soal-6), nguyen06-q021 (latsol-nguyen-06)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("美味しく食べられる期間の最後の日です。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>賞味期限<rt>しょうみきげん</rt></ruby>の<ruby>意味<rt>いみ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa arti dari tanggal baik sebelum (賞味期限)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 3.pdf, halaman 4, nomor 23. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0581] 賞味期限(しょうみきげん) [compound_technical] = batas tanggal cita rasa terbaik (best before) | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってもよい<ruby>期間<rt>きかん</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>です。
+    TRANS: Hari terakhir dari periode di mana bahan baku boleh digunakan.
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-1220550] 期間(きかん) [word] = periode / jangka waktu | [kb-1293810] 最後(さいご) [word] = Terakhir / langkah penutup alur kerja | [kb-2083100] 日(にち) [standalone_term] = Hari / penanggalan kalender
+  OPT B: HTML=<ruby>美味<rt>おい</rt></ruby>しく<ruby>食<rt>た</rt></ruby>べられる<ruby>期間<rt>きかん</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>です。
+    TRANS: Hari terakhir dari periode di mana makanan dapat dimakan dengan lezat.
+    KOTOBA: [kb-audit-0172] 美味しく食べられる(おいしくたべられる) [word] = dapat dimakan dengan lezat | [kb-1220550] 期間(きかん) [word] = periode / jangka waktu | [kb-1293810] 最後(さいご) [word] = Terakhir / langkah penutup alur kerja | [kb-2083100] 日(にち) [standalone_term] = Hari / penanggalan kalender
+  OPT C: HTML=<ruby>食<rt>た</rt></ruby>べたり<ruby>使<rt>つか</rt></ruby>ったりできる<ruby>期間<rt>きかん</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>です。
+    TRANS: Hari terakhir dari periode di mana makanan aman untuk dimakan atau digunakan.
+    KOTOBA: [kb-audit-0415] 食べたり(たべたり) [inflected_verb, df:食べる] = makan dan sebagainya | [kb-audit-0416] 使ったり(つかったり) [inflected_verb, df:使う] = menggunakan dan sebagainya | [kb-1220550] 期間(きかん) [word] = periode / jangka waktu | [kb-1293810] 最後(さいご) [word] = Terakhir / langkah penutup alur kerja | [kb-2083100] 日(にち) [standalone_term] = Hari / penanggalan kalender
+
+=== #Q24 | ID=nguyen03-q024 | KEY=A (idx=0) | CAT= | SRC=3.pdf p.4 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("3つあります。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>解凍<rt>かいとう</rt></ruby>の<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>方法<rt>ほうほう</rt></ruby>はいくつありますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada berapa metode pencairan (thawing) bahan baku beku? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 3.pdf, halaman 4, nomor 24. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0563] 解凍(かいとう) [noun] = pencairan bahan beku (thawing) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p4-205] いくつ(-) [word] = berapa banyak / berapa buah | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah
+  OPT A: HTML=3つあります。
+    TRANS: Ada 3.
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung)
+  OPT B: HTML=2つあります。
+    TRANS: Ada 2.
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung)
+  OPT C: HTML=7つあります。
+    TRANS: Ada 7.
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung)

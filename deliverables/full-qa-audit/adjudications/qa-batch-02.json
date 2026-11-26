@@ -1,0 +1,314 @@
+{
+  "batchId": "qa-batch-02",
+  "notes": [
+    "Adjudication for qa-batch-02 (Soal Ujian 6 to 10).",
+    "CustomOps explicitly adopted for kunci-ujian-10-q001 per user instruction: 転倒することを指します and 転倒したときに必ず頭を打つことを指します with clean synced Kotoba.",
+    "Promoted verified OCR and grammar fixes cross-referenced with source PDFs and twins.",
+    "Retained SOURCE_CONFLICT on 6-q006, 6-q030, 6-q032, 9-q015."
+  ],
+  "promoteKeys": [
+    {
+      "questionId": "kunci-ujian-6-q017",
+      "scope": "opt:B",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-6-q035",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-6-q035",
+      "scope": "opt:B",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-6-q036",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-6-q037",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-6-q037",
+      "scope": "questionText",
+      "field": "question_text_sync"
+    },
+    {
+      "questionId": "kunci-ujian-7-q001",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-7-q001",
+      "scope": "optTranslation:C",
+      "field": "translation"
+    },
+    {
+      "questionId": "kunci-ujian-7-q008",
+      "scope": "opt:B",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-7-q009",
+      "scope": "opt:B",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-7-q009",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-7-q031",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-7-q039",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-7-q040",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-8-q005",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q008",
+      "scope": "opt:B",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q011",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q011",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q012",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q014",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q015",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q019",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q021",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q030",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q034",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q034",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q034",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q035",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q036",
+      "scope": "opt:B",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q036",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q037",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q038",
+      "scope": "opt:B",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q039",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q039",
+      "scope": "opt:B",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-9-q040",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-10-q008",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-10-q010",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-10-q010",
+      "scope": "opt:C",
+      "field": "jp_html"
+    }
+  ],
+  "suppressKeys": [],
+  "customOps": [
+    {
+      "questionId": "kunci-ujian-10-q001",
+      "scope": "opt:A",
+      "field": "jp_html",
+      "original": "<ruby>走<rt>はし</rt></ruby>ったり、<ruby>物<rt>もの</rt></ruby>につまずいたりして<ruby>転<rt>てん</rt></ruby>れることを<ruby>指<rt>ゆび</rt></ruby>さします。",
+      "proposed": "<ruby>走<rt>はし</rt></ruby>ったり、<ruby>物<rt>もの</rt></ruby>につまずいたりして<ruby>転倒<rt>てんとう</rt></ruby>することを<ruby>指<rt>さ</rt></ruby>します。",
+      "reason": "User explicit request: 転れることを指さします -> 転倒することを指します with correct furigana.",
+      "confidence": "HIGH",
+      "status": "AUTO_FIX_CANDIDATE"
+    },
+    {
+      "questionId": "kunci-ujian-10-q001",
+      "scope": "opt:C",
+      "field": "jp_html",
+      "original": "<ruby>転<rt>てん</rt></ruby>れたときに<ruby>必<rt>ひつ</rt></ruby>かならず<ruby>頭<rt>あたま</rt></ruby>を<ruby>打<rt>う</rt></ruby>つことを<ruby>指<rt>ゆび</rt></ruby>さします。",
+      "proposed": "<ruby>転倒<rt>てんとう</rt></ruby>したときに<ruby>必<rt>かなら</rt></ruby>ず<ruby>頭<rt>あたま</rt></ruby>を<ruby>打<rt>う</rt></ruby>つことを<ruby>指<rt>さ</rt></ruby>します。",
+      "reason": "Fix 転れたときに必かならず -> 転倒したときに必ず and 指さします -> 指します.",
+      "confidence": "HIGH",
+      "status": "AUTO_FIX_CANDIDATE"
+    },
+    {
+      "questionId": "kunci-ujian-10-q001",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_missing",
+      "kotobaSpec": {
+        "action": "ADD",
+        "kanji": "転倒",
+        "furigana": "てんとう",
+        "dictForm": "転倒",
+        "unitType": "noun",
+        "arti": "terjatuh / terjungkal"
+      },
+      "original": "(missing 転倒)",
+      "proposed": "ADD 転倒(てんとう) = terjatuh / terjungkal",
+      "reason": "Add canon term 転倒",
+      "confidence": "HIGH",
+      "status": "AUTO_FIX_CANDIDATE"
+    },
+    {
+      "questionId": "kunci-ujian-10-q001",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_missing",
+      "kotobaSpec": {
+        "action": "ADD",
+        "kanji": "指します",
+        "furigana": "さします",
+        "dictForm": "指す",
+        "unitType": "inflected_verb",
+        "arti": "merujuk pada / mengacu pada"
+      },
+      "original": "(missing 指します)",
+      "proposed": "ADD 指します(さします) = merujuk pada / mengacu pada",
+      "reason": "Add canon term 指します",
+      "confidence": "HIGH",
+      "status": "AUTO_FIX_CANDIDATE"
+    },
+    {
+      "questionId": "kunci-ujian-10-q001",
+      "scope": "kotoba:opt:C",
+      "field": "kotoba_missing",
+      "kotobaSpec": {
+        "action": "ADD",
+        "kanji": "転倒",
+        "furigana": "てんとう",
+        "dictForm": "転倒",
+        "unitType": "noun",
+        "arti": "terjatuh / terjungkal"
+      },
+      "original": "(missing 転倒)",
+      "proposed": "ADD 転倒(てんとう) = terjatuh / terjungkal",
+      "reason": "Add canon term 転倒",
+      "confidence": "HIGH",
+      "status": "AUTO_FIX_CANDIDATE"
+    },
+    {
+      "questionId": "kunci-ujian-10-q001",
+      "scope": "kotoba:opt:C",
+      "field": "kotoba_missing",
+      "kotobaSpec": {
+        "action": "ADD",
+        "kanji": "必ず",
+        "furigana": "かならず",
+        "dictForm": "必ず",
+        "unitType": "adverb",
+        "arti": "pasti / selalu"
+      },
+      "original": "(missing 必ず)",
+      "proposed": "ADD 必ず(かならず) = pasti / selalu",
+      "reason": "Add canon term 必ず",
+      "confidence": "HIGH",
+      "status": "AUTO_FIX_CANDIDATE"
+    },
+    {
+      "questionId": "kunci-ujian-10-q001",
+      "scope": "kotoba:opt:C",
+      "field": "kotoba_missing",
+      "kotobaSpec": {
+        "action": "ADD",
+        "kanji": "指します",
+        "furigana": "さします",
+        "dictForm": "指す",
+        "unitType": "inflected_verb",
+        "arti": "merujuk pada / mengacu pada"
+      },
+      "original": "(missing 指します)",
+      "proposed": "ADD 指します(さします) = merujuk pada / mengacu pada",
+      "reason": "Add canon term 指します",
+      "confidence": "HIGH",
+      "status": "AUTO_FIX_CANDIDATE"
+    }
+  ]
+}

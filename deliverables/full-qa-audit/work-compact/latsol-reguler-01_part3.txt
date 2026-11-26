@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-01 (Latsol Reguler 01) | Batch qa-batch-09 | Part 3 (Q9-12 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=reguler01-q009 | KEY=A (idx=0) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("米や小麦などを使って調理した食品") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: セレウス<ruby>菌<rt>きん</rt></ruby>では<ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan manakah yang mudah menjadi penyebab keracunan bakteri Bacillus cereus? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 3, nomor 9. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>米<rt>こめ</rt></ruby>や<ruby>小麦<rt>こむぎ</rt></ruby>などを<ruby>使<rt>つか</rt></ruby>って<ruby>調理<rt>ちょうり</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Makanan yang dimasak menggunakan beras, gandum, dll.
+    KOTOBA: [kb-1508750] 米(こめ) [standalone_term] = Beras mentah bahan baku pangan pokok | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan
+  OPT B: HTML=<ruby>缶詰<rt>かんづめ</rt></ruby>、びんづめ
+    TRANS: Makanan kaleng, makanan botol
+    KOTOBA: [kb-otaff51-0504] 缶詰(かんづめ) [noun] = makanan kaleng | [kb-audit-0106] びんづめ(びんづめ) [word] = makanan kemasan botol kaca (瓶詰)
+  OPT C: HTML=<ruby>手<rt>て</rt></ruby>や<ruby>指<rt>ゆび</rt></ruby>に<ruby>傷<rt>きず</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>が<ruby>調理<rt>ちょうり</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Makanan yang dimasak oleh orang yang memiliki luka di tangan atau jari
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan
+
+=== #Q10 | ID=reguler01-q010 | KEY=B (idx=1) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  CLUSTER CL-0261 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=reguler06-q003 (latsol-reguler-06)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("吐き気、おうと、腹痛") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>黄色<rt>おうしょく</rt></ruby>ブドウでは<ruby>主<rt>おも</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>はどれか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah gejala utama dari keracunan Staphylococcus aureus? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 3, nomor 10. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-latsol-d458063d6e] 黄色(おうしょく) [word] = warna kuning | [kb-ext-0027-e38396e383] ブドウ(ぶどう) [word] = Anggur (bahan baku buah olahan pangan) | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おうと、<ruby>呼吸困難<rt>こきゅうこんなん</rt></ruby>
+    TRANS: Mual, muntah, kesulitan bernapas
+    KOTOBA: [kb-otaff51-0230] 吐き気(はきけ) [noun] = rasa mual | [kb-latsol-914f5e914c] おうと(おうと) [word] = muntah | [kb-otaff51-0231] 呼吸困難(こきゅうこんなん) [compound_technical] = kesulitan bernapas / sesak napas
+  OPT B: HTML=<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おうと、<ruby>腹痛<rt>ふくつう</rt></ruby>
+    TRANS: Mual, muntah, sakit perut
+    KOTOBA: [kb-otaff51-0230] 吐き気(はきけ) [noun] = rasa mual | [kb-latsol-914f5e914c] おうと(おうと) [word] = muntah | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut
+  OPT C: HTML=<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おうと、<ruby>下痢<rt>げり</rt></ruby>
+    TRANS: Mual, muntah, diare
+    KOTOBA: [kb-otaff51-0230] 吐き気(はきけ) [noun] = rasa mual | [kb-latsol-914f5e914c] おうと(おうと) [word] = muntah | [kb-otaff51-0092] 下痢(げり) [noun] = diare
+
+=== #Q11 | ID=reguler01-q011 | KEY=B (idx=1) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("ころさない") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒<rt>しょくちゅうどく</rt></ruby><ruby>予防<rt>よぼう</rt></ruby>の3<ruby>原則<rt>げんそく</rt></ruby>では まちがっているものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam 3 prinsip pencegahan keracunan makanan, pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 3, nomor 11. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0649] 食中毒予防の3原則(しょくちゅうどくよぼうのさんげんそく) [compound_technical] = 3 prinsip pencegahan keracunan makanan | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=つけない
+    TRANS: Tidak menempelkan/mencemari
+    KOTOBA: [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai
+  OPT B: HTML=ころさない
+    TRANS: Tidak membunuh
+    KOTOBA: [kb-latsol-korosanai] ころさない(ころさない) [inflected_verb, df:殺す] = tidak membunuh (bakteri)
+  OPT C: HTML=<ruby>増<rt>ふ</rt></ruby>やさない
+    TRANS: Tidak memperbanyak/mengembangbiakkan
+    KOTOBA: [kb-v2-p4-164] 増やさない(ふやさない) [inflected, df:増やす] = tidak memperbanyak
+
+=== #Q12 | ID=reguler01-q012 | KEY=A (idx=0) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.3 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("水") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>するみっつの<ruby>要素<rt>ようそ</rt></ruby>があります。。まちがっているものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada tiga faktor yang menyebabkan mikroorganisme berkembang biak. Pilihlah satu yang salah.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 3, nomor 12. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-1546800] 要素(ようそ) [word] = unsur / elemen penting | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>水<rt>みず</rt></ruby>
+    TRANS: Air (mizu)
+    KOTOBA: [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT B: HTML=<ruby>水分<rt>すいぶん</rt></ruby>
+    TRANS: Kadar air/kelembapan (suibun)
+    KOTOBA: [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan
+  OPT C: HTML=<ruby>栄養<rt>えいよう</rt></ruby>
+    TRANS: Nutrisi
+    KOTOBA: [kb-otaff51-0345] 栄養(えいよう) [noun] = nutrisi / zat gizi

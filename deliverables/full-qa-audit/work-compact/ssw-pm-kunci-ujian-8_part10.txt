@@ -1,0 +1,77 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-8 (Soal Ujian 8 — CBTP Gino1) | Batch qa-batch-02 | Part 10 (Q37-40 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=kunci-ujian-8-q037 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 450gのうどんをつくるためのはいごうのれいがあります。450gのうどんをつくるのに、300gのこむぎこがひつようとなります。10㎏こむぎこ<br>があれば、うどんはどれぐらいせいぞうできますか。
+  QUESTION_TEXT: 450gのうどんをつくるためのはいごうのれいがあります。450gのうどんをつくるのに、300gのこむぎこがひつようとなります。10㎏こむぎこ
+があれば、うどんはどれぐらいせいぞうできますか。
+  PROMPT_TRANS: Terdapat contoh takaran pencampuran untuk membuat 450 g mi udon. Untuk membuat 450 g mi udon, diperlukan 300 g tepung terigu. Jika tersedia 10 kg tepung terigu, berapa banyak mi udon yang dapat diproduksi?
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 7, Câu 37 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-audit-0421] つくる(つくる) [word] = membuat / memproduksi (作る) | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-audit-0680] はいごう(はいごう) [word] = takaran / formula bahan | [kb-audit-0681] れい(れい) [word] = contoh / ilustrasi | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-audit-0282] こむぎこ(こむぎこ) [word] = tepung terigu (小麦粉) | [kb-audit-0638] ひつよう(ひつよう) [word] = kebutuhan / perlu | [kb-audit-0372] なります(なります) [inflected_verb, df:なる] = menjadi (sopan) | [kb-v2-p1-306] ㎏(きろぐらむ) [word] = kilogram (kg) | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-v2-p2-254] どれぐらい(-) [word] = seberapa banyak | [kb-audit-0708] せいぞう(せいぞう) [word] = pembuatan / produksi | [kb-v2-p1-125] できますか(できますか) [inflected_verb, df:できる] = dapat dibuat (dasar: できる) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=14kg
+    TRANS: 14 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=15kg
+    TRANS: 15 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=16kg
+    TRANS: 16 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+
+=== #Q38 | ID=kunci-ujian-8-q038 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.8 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 上 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0775 (わたそう): "hendak menyeberang (typo: わたろう)" || [JP_DOUBLE_PARTICLE@opt:C] Potential doubled/colliding particle
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: うごいているローラーコンベヤーのはんたいがわにいきたいので、コンベヤー上にのってわたそうとしたとき、すべってころんでしまいまし<br>た。このようなさいがいをふせぐため、どうしますか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: うごいているローラーコンベヤーのはんたいがわにいきたいので、コンベヤー上にのってわたそうとしたとき、すべってころんでしまいまし
+た。このようなさいがいをふせぐため、どうしますか。ただしいものをひとつえらびなさい。
+  PROMPT_TRANS: Karena ingin pergi ke sisi seberang konveyor rol (roller conveyor) yang sedang bergerak, seorang pekerja mencoba menyeberang dengan naik ke atas konveyor, lalu terpeleset dan terjatuh. Apa yang harus dilakukan untuk mencegah kecelakaan seperti ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 8, Câu 38 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0112] うごいている(うごいている) [inflected_verb, df:動く] = sedang bergerak / beroperasi (動いている) | [kb-u1416-d440af8ff2] ローラーコンベヤー(ろーらーこんべやー) [word] = konveyor rol (roller conveyor) | [kb-audit-0439] はんたいがわ(はんたいがわ) [word] = sisi seberang / berlawanan (反対側) | [kb-audit-0773] いきたい(いきたい) [inflected_verb, df:行く] = ingin pergi | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-v2-p6-181] コンベヤー(-) [technical] = ban berjalan (konveyor) | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-audit-0774] のって(のって) [inflected_verb, df:乗る] = naik ke atas | [kb-audit-0775] わたそう(わたそう) [inflected_verb, df:渡る] = hendak menyeberang (typo: わたろう) | [kb-v2-p1-319] とした(-) [expression] = hendak melakukan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-audit-0291] すべって(すべって) [inflected_verb, df:滑る] = terpeleset / tergelincir (滑って) | [kb-audit-0716] ころんで(ころんで) [inflected_verb, df:転ぶ] = terjatuh / terpeleset | [kb-audit-0717] しまいました(しまいました) [inflected_verb, df:しまう] = sudah terlanjur terjadi | [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-0418] さいがい(さいがい) [word] = bencana / kecelakaan kerja (災害) | [kb-audit-0241] ふせぐ(ふせぐ) [word] = mencegah (防ぐ) | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-305] よう(-) [particle] = agar / supaya | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=コンベヤーをのりやすくするため、カバーをつける。
+    TRANS: Memasang penutup agar konveyor lebih mudah dinaiki
+    KOTOBA: [kb-v2-p6-181] コンベヤー(-) [technical] = ban berjalan (konveyor) | [kb-audit-0682] のりやすく(のりやすく) [inflected_adj, df:乗りやすい] = menjadi mudah dinaiki | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-ext-0009-e382abe383] カバー(-) [word] = penutup | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=コンベヤーをとめてからのる。
+    TRANS: Menghentikan konveyor terlebih dahulu sebelum menaiknya
+    KOTOBA: [kb-v2-p6-181] コンベヤー(-) [technical] = ban berjalan (konveyor) | [kb-audit-0651] とめて(とめて) [inflected_verb, df:止める] = menghentikan | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-audit-1135] のる(のる) [inflected_verb, df:乗る] = naik / menaiki (乗る) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=コンベヤーををのらないようにするため、わきからとおる。
+    TRANS: Lewat melalui jalur samping (memutar) agar tidak menaiki konveyor
+    KOTOBA: [kb-v2-p6-181] コンベヤー(-) [technical] = ban berjalan (konveyor) | [kb-audit-1078] のらない(のらない) [inflected_verb, df:乗る] = tidak naik (乗る) | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-v2-p1-095] わき(-) [word] = samping | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-audit-0776] とおる(とおる) [word] = melewati / melintas | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q39 | ID=kunci-ujian-8-q039 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.8 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 勢 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0545 (くるの): "kendaraan / mobil (typo: くるまの)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0779 (きゅな): "mendadak (typo: きゅうな)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: にもつを、ふたりでるのにだいからべつのトラックへいどうする<br>さぎょうちゅう、勢いよくふりむいたしゅんかん、くるのトラックのドアにあたをうちそうになった。このじこのげんいんはなんですか
+  QUESTION_TEXT: にもつを、ふたりでるのにだいからべつのトラックへいどうする
+さぎょうちゅう、勢いよくふりむいたしゅんかん、くるのトラックのドアにあたをうちそうになった。このじこのげんいんはなんですか
+  PROMPT_TRANS: Saat bekerja berdua memindahkan barang dari bak muatan (platform) ke truk lain, ketika berbalik badan dengan cepat, kepala hampir terbentur pintu truk di dekatnya. Apa penyebab kecelakaan ini?
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 8, Câu 39 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0009] もつ(もつ) [word] = memegang / membawa | [kb-audit-0130] ふたり(ふたり) [word] = dua orang (二人) | [kb-audit-0898] でる(でる) [word] = muncul / keluar | [kb-v2-p6-597] だい(-) [word] = meja / alas / unit | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-audit-0777] べつ(べつ) [word] = berbeda / terpisah | [kb-v2-p2-084] トラック(-) [word] = truk | [kb-audit-0649] いどう(いどう) [word] = berpindah / pemindahan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-audit-1139] さぎょうちゅう(さぎょうちゅう) [word] = saat bekerja / selama kerja | [kb-v2-p6-297] 勢いよく(いきおいよく) [expression] = dengan kencang / mendadak | [kb-v2-p6-568] ふりむいた(-) [inflected, df:振り向く] = menoleh (lampau) | [kb-latsol-shunkan] しゅんかん(しゅうかん) [word] = kebiasaan / Shukan 5S (習慣) | [kb-audit-0545] くるの(くるまの) [word] = kendaraan / mobil (typo: くるまの) | [kb-v2-p6-216] ドア(-) [word] = pintu | [kb-audit-0209] あた(あた) [word] = kepala (penulisan typo pada text あたま) | [kb-audit-1065] うちそう(うちそう) [inflected_verb, df:打つ] = hampir terbentur (打つ) | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-0646] じこ(じこ) [word] = kecelakaan / insiden | [kb-audit-0671] げんいん(げんいん) [word] = penyebab | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-341] へ(-) [particle] = ke (arah tujuan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=ほごぼう<br>をかぶらないこと。
+    TRANS: Tidak memakai helm pelindung.
+    KOTOBA: [kb-v2-p6-564] ほごぼう(-) [technical] = helm pelindung | [kb-v2-p6-537] かぶらない(-) [inflected, df:かぶる] = tidak memakai (di kepala) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=うしろのひとがちゅういしないこと。
+    TRANS: Orang di belakang tidak berhati-hati.
+    KOTOBA: [kb-audit-0778] うしろ(うしろ) [word] = belakang / arah belakang | [kb-audit-0325] ひと(ひと) [word] = orang / manusia (人) | [kb-audit-0952] ちゅういし(ちゅういし) [inflected_verb, df:注意する] = memperhatikan / berhati-hati | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=まわりをよくみず、きゅなどうさをしたこと。
+    TRANS: Melakukan gerakan mendadak tanpa melihat kondisi sekitar dengan baik.
+    KOTOBA: [kb-audit-0713] まわり(まわり) [word] = sekitar / sekeliling | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-audit-0347] みず(みず) [word] = air (水) | [kb-audit-0779] きゅな(きゅうな) [adjective, df:急な] = mendadak (typo: きゅうな) | [kb-audit-0780] どうさ(どうさ) [word] = gerakan / tindakan | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q40 | ID=kunci-ujian-8-q040 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.9 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-1063 (てんとうそう): "hampir terjatuh (typo: 転倒しそう)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうじょうないをいどうするとき、ゆかにさんらんしたコードにあしをひっかけてんとうそうになった。このじこをふせぐために、どうしたらよい<br>か。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: さぎょうじょうないをいどうするとき、ゆかにさんらんしたコードにあしをひっかけてんとうそうになった。このじこをふせぐために、どうしたらよい
+か。ただしいものをひとつえらびなさい。
+  PROMPT_TRANS: Saat berpindah tempat di dalam area kerja, kaki tersangkut kabel yang berserakan di lantai dan hampir terjatuh (terjungkal). Bagaimana cara yang tepat untuk mencegah kecelakaan ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 9, Câu 40 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-audit-0649] いどう(いどう) [word] = berpindah / pemindahan | [kb-audit-1102] するとき(するとき) [expression] = ketika melakukan (する時) | [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-audit-0781] さんらんした(さんらんした) [inflected_verb, df:散乱する] = berserakan | [kb-v2-p2-085] コード(-) [word] = kabel | [kb-audit-0782] あし(あし) [word] = kaki | [kb-audit-1149] ひっかけ(ひっかけ) [inflected_verb, df:引っ掛ける] = tersangkut / tersandung | [kb-audit-1063] てんとうそう(てんとうそう) [expression] = hampir terjatuh (typo: 転倒しそう) | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-0646] じこ(じこ) [word] = kecelakaan / insiden | [kb-audit-0241] ふせぐ(ふせぐ) [word] = mencegah (防ぐ) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=コードやホースなどはゆかにおかないで、さぎょうだいにおく。
+    TRANS: Tidak meletakkan kabel atau selang di lantai, melainkan meletakkannya di atas meja kerja.
+    KOTOBA: [kb-v2-p2-085] コード(-) [word] = kabel | [kb-v2-p6-204] ホース(-) [word] = selang air | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-audit-1126] おかないで(おかないで) [inflected_verb, df:置く] = jangan meletakkan (置く) | [kb-audit-0515] さぎょうだい(さぎょうだい) [word] = meja kerja | [kb-v2-p1-243] おく(-) [word] = melakukan terlebih dahulu | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=コードやホースなどはゆかにおきっぱなしにしないで、きめられたばしょにまいてほかんする。
+    TRANS: Tidak membiarkan kabel atau selang tergeletak begitu saja di lantai, melainkan menggulung dan menyimpannya di tempat yang telah ditentukan.
+    KOTOBA: [kb-v2-p2-085] コード(-) [word] = kabel | [kb-v2-p6-204] ホース(-) [word] = selang air | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-audit-0783] おきっぱなし(おきっぱなし) [word] = dibiarkan tergeletak begitu saja | [kb-v2-p1-142] しないで(-) [inflected_verb, df:する] = tanpa melakukan (dasar: する) | [kb-audit-0109] きめられた(きめられた) [inflected_verb, df:決める] = yang telah ditentukan (決められた) | [kb-audit-0361] ばしょ(ばしょ) [word] = tempat / lokasi (場所) | [kb-otaff51-1108] まいて(まいて) [inflected_verb, df:まく] = menebarkan / menyiram | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=さぎょうじょうないをいどうしない
+    TRANS: Tidak berpindah tempat di dalam area kerja.
+    KOTOBA: [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-audit-0649] いどう(いどう) [word] = berpindah / pemindahan | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

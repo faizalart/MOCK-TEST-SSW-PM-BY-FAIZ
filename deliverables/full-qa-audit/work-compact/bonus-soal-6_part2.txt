@@ -1,0 +1,81 @@
+# AUDIT SHEET: bonus-soal-6 (Bonus Soal 6) | Batch qa-batch-05 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=bonus-soal-6-q005 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 6.pdf p.3 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: りんご || [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: もも || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: くるみ
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>表示<rt>ひょうじ</rt></ruby>を<ruby>推奨<rt>すいしょう</rt></ruby>する<ruby>物<rt>もの</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby><br>びなさい。
+  QUESTION_TEXT: 特定原材料の中で表示を推奨する物はどれですか。間違っているものを選
+びなさい。
+  PROMPT_TRANS: Manakah di antara bahan baku spesifik (alergen wajib/tertentu) yang dianjurkan untuk dicantumkan pada label? Pilihlah jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 3, Soal 5) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0544] 表示(ひょうじ) [noun] = pencantuman label / tampilan | [kb-otaff51-0325] 推奨(すいしょう) [noun] = anjuran / rekomendasi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=A
+    TRANS: Pilihan A — Apel (りんご)
+    MEDIA: media-bonus-soal-6-q005-a
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan B — Buah persik / momo (もも)
+    MEDIA: media-bonus-soal-6-q005-b
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan C — Kacang kenari / walnut (くるみ — bahan baku spesifik wajib)
+    MEDIA: media-bonus-soal-6-q005-c
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C
+
+=== #Q6 | ID=bonus-soal-6-q006 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 6.pdf p.3 ===
+  CLUSTER CL-0220 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=nguyen06-q006 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「ソラニン」はどこにありますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di manakah terdapat zat "solanin"?
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 3, Soal 6) · Kunci Jawaban Sumber: A.
+  KOTOBA_PROMPT: [kb-otaff51-0055] ソラニン(そらにん) [noun] = solanin (racun pada tunas/kulit hijau kentang) | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT A: HTML=じゃがいもの<ruby>芽<rt>め</rt></ruby>
+    TRANS: Tunas kentang
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-otaff51-0530] 芽(め) [noun] = tunas | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=いか
+    TRANS: Cumi-cumi
+    KOTOBA: [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下)
+  OPT C: HTML=じゃがいも
+    TRANS: Kentang
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang
+
+=== #Q7 | ID=bonus-soal-6-q007 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 6.pdf p.3 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0221 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=nguyen06-q007 (latsol-nguyen-06)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ボツリヌス<ruby>菌<rt>きん</rt></ruby>の <ruby>特徴<rt>とくちょう</rt></ruby>はなんですか。 <ruby>正<rt>ただし</rt></ruby>しくないものをひとつえらび<br>なさい。
+  QUESTION_TEXT: ボツリヌス菌の 特徴はなんですか。 正しくないものをひとつえらび
+なさい。
+  PROMPT_TRANS: Apakah ciri-ciri bakteri Clostridium botulinum? Pilihlah satu jawaban yang tidak benar.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 3, Soal 7) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-otaff51-0434] 特徴(とくちょう) [noun] = karakteristik / ciri khas | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0006] 正しくない(ただしくない) [inflected_adj, df:正しい] = tidak benar / tidak tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>熱<rt>ねつ</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>芽胞<rt>がほう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る。
+    TRANS: Membentuk spora yang tahan terhadap panas.
+    KOTOBA: [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>菌<rt>きん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えて<ruby>毒<rt>どく</rt></ruby>
+    TRANS: Bakteri berkembang biak di dalam pangan dan menghasilkan racun (toksin).
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-150] 菌(きん) [word] = bakteri / kuman | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-v2-p5-164] 毒(どく) [word] = racun | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>体<rt>からだ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>菌<rt>きん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えて <ruby>発症<rt>はっしょう</rt></ruby>する。
+    TRANS: Bakteri berkembang biak di dalam tubuh dan menimbulkan gejala penyakit.
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-150] 菌(きん) [word] = bakteri / kuman | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-2398850] 発症(はっしょう) [word] = timbulnya gejala penyakit | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q8 | ID=bonus-soal-6-q008 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 6.pdf p.4 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-212 (謝る): "salah (typo: 誤る)" || [KANJI_WITHOUT_RUBY@opt:C] 下痢
+  CLUSTER CL-0222 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=nguyen06-q008 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスはどこにありますか。 <ruby>謝<rt>あやま</rt></ruby>るものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di manakah Norovirus berada? Pilihlah jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 4, Soal 8) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-v2-p5-212] 謝る(あやまる) [word] = salah (typo: 誤る) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>二枚貝<rt>にまいがい</rt></ruby>
+    TRANS: Kerang dua cangkang (bivalvia)
+    KOTOBA: [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia)
+  OPT B: HTML=トイレ
+    TRANS: Toilet
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet
+  OPT C: HTML=<ruby>腹痛<rt>ふくつう</rt></ruby>や下痢げり
+    TRANS: Sakit perut dan diare
+    KOTOBA: [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-audit-0538] げり(げり) [word] = diare / mencret | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)

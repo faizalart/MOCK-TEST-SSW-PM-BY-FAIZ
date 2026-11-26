@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-08 (Latsol Nguyen 08) | Batch qa-batch-08 | Part 6 (Q21-24 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=nguyen08-q021 | KEY=B (idx=1) | CAT= | SRC=8.pdf p.4 ===
+  CLUSTER CL-0169 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q022 (bonus-soal-1), bonus-soal-8-q021 (bonus-soal-8), nguyen01-q022 (latsol-nguyen-01), nguyen10-q023 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("作業者の安全と健康を守ることです。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang benar mengenai keselamatan kerja (roudou anzen).
+  EXPLANATION: Sumber: 8.pdf, halaman 4, nomor 21. Bobot: 3.85 poin. Kunci jawaban: B. Nomor asli PDF: Câu 22 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>製品<rt>せいひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることです。
+    TRANS: Melindungi kesehatan orang yang memakan produk.
+    KOTOBA: [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+  OPT B: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>と<ruby>健康<rt>けんこう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることです。
+    TRANS: Melindungi keselamatan dan kesehatan para pekerja.
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+  OPT C: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ることです。
+    TRANS: Melindungi keselamatan pekerja saja.
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+
+=== #Q22 | ID=nguyen08-q022 | KEY=B (idx=1) | CAT= | SRC=8.pdf p.4 ===
+  CLUSTER CL-0022 (n=7, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci1-q023 (ssw-pm-kunci-ujian-1), bonus-soal-1-q023 (bonus-soal-1), bonus-soal-8-q022 (bonus-soal-8), bonus-soal-10-q010 (bonus-soal-10), nguyen01-q023 (latsol-nguyen-01), nguyen10-q024 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("危害要因分析をするだけで、必ず危害が起きない。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai Analisis Bahaya (Hazard Analysis).
+  EXPLANATION: Sumber: 8.pdf, halaman 4, nomor 22. Bobot: 3.85 poin. Kunci jawaban: B. Nomor asli PDF: Câu 23 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>危害<rt>きがい</rt></ruby>の<ruby>要因<rt>よういん</rt></ruby>を、<ruby>全部書<rt>ぜんぶか</rt></ruby>いて、はっきりわかるようにする。
+    TRANS: Menuliskan seluruh faktor bahaya agar dapat dipahami dengan jelas.
+    KOTOBA: [kb-1218440] 危害(きがい) [word] = bahaya | [kb-1546670] 要因(よういん) [word] = faktor penyebab | [kb-v2-p1-041] 全部(ぜんぶ) [word] = semua | [kb-v2-p1-194] 書いて(かいて) [inflected_verb, df:書く] = menulis (dasar: 書く) | [kb-v2-p1-279] はっきり(-) [word] = dengan jelas | [kb-v2-p1-195] わかる(-) [word] = mengerti / jelas | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+  OPT B: HTML=<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>をするだけで、<ruby>必<rt>かなら</rt></ruby>ず<ruby>危害<rt>きがい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きない。
+    TRANS: Hanya dengan melakukan analisis faktor bahaya saja, bahaya pasti tidak akan terjadi.
+    KOTOBA: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-1218440] 危害(きがい) [word] = bahaya | [kb-v2-p1-196] 起きない(おきない) [inflected_verb, df:起きる] = tidak terjadi (dasar: 起きる)
+  OPT C: HTML=<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>をするときは、<ruby>今<rt>いま</rt></ruby>までの<ruby>検査記録<rt>けんさきろく</rt></ruby>や<ruby>関連<rt>かんれん</rt></ruby>のある<ruby>本<rt>ほん</rt></ruby>なども<ruby>見<rt>み</rt></ruby>ている。
+    TRANS: Saat melakukan analisis faktor bahaya, catatan pemeriksaan selama ini dan buku-buku terkait juga turut dilihat.
+    KOTOBA: [kb-otaff51-0213] 危害要因分析(きがいよういんぶんせき) [compound_technical] = analisis faktor bahaya (hazard analysis) | [kb-audit-1102] するとき(するとき) [expression] = ketika melakukan (する時) | [kb-v2-p1-285] 今まで(いままで) [expression] = hingga sekarang | [kb-ext-0465-e6a49ce69f] 検査記録(けんさきろく) [compound_technical] = catatan pemeriksaan | [kb-1216060] 関連(かんれん) [word] = terkait / hubungan | [kb-v2-p1-079] 本(ほん) [word] = buku | [kb-v2-p1-168] 見ている(みている) [inflected_verb, df:見る] = sedang melihat (dasar: 見る)
+
+=== #Q23 | ID=nguyen08-q023 | KEY=A (idx=0) | CAT= | SRC=8.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0023 (n=10, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q024 (ssw-pm-kunci-ujian-1), bonus-soal-1-q024 (bonus-soal-1), bonus-soal-4-q006 (bonus-soal-4), bonus-soal-8-q023 (bonus-soal-8), bonus-soal-10-q011 (bonus-soal-10), nguyen01-q024 (latsol-nguyen-01), nguyen02-q025 (latsol-nguyen-02), nguyen04-q006 (latsol-nguyen-04), nguyen10-q025 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("特定原材料を含む製品は、一日の作業の最初に製造する。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギー<ruby>食品<rt>しょくひん</rt></ruby>がほかの<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>混<rt>ま</rt></ruby>ざってしまうことを「<ruby>交差汚染<rt>こうさおせん</rt></ruby>」といいます。「<ruby>交差汚染<rt>こうさおせん</rt></ruby>」を<ruby>防<rt>ふせ</rt></ruby>ぐために、<ruby>何<rt>なに</rt></ruby>をしますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Tercampurnya makanan pemicu alergi ke dalam makanan lain disebut "kontaminasi silang" (kousa osen). Apa yang dilakukan untuk mencegah "kontaminasi silang"? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 8.pdf, halaman 4, nomor 23. Bobot: 3.85 poin. Kunci jawaban: A. Nomor asli PDF: Câu 24 (Halaman 4).
+  KOTOBA_PROMPT: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-audit-0412] 混ざって(まざって) [inflected_verb, df:混ざる] = tercampur ke dalam | [kb-otaff51-0109] 交差汚染(こうさおせん) [compound_technical] = kontaminasi silang (cross-contamination) | [kb-v2-p1-318] といいます(-) [expression] = disebut sebagai | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>製品<rt>せいひん</rt></ruby>は、<ruby>一日<rt>いちにち</rt></ruby>の<ruby>作業<rt>さぎょう</rt></ruby>の<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>製造<rt>せいぞう</rt></ruby>する。
+    TRANS: Memproduksi produk yang mengandung bahan baku spesifik (alergen) pada urutan paling awal dalam pekerjaan sehari.
+    KOTOBA: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-1576260] 一日(いちにち) [word] = satu hari | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1293990] 最初(さいしょ) [word] = pertama / awal | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat
+  OPT B: HTML=アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>と、<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>を、<ruby>別々<rt>べつべつ</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan secara terpisah bahan baku yang mengandung alergen dan bahan baku yang tidak mengandung alergen.
+    KOTOBA: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-1603290] 別々(べつべつ) [word] = terpisah masing-masing | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT C: HTML=アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>同<rt>おな</rt></ruby>じラインで<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>場合<rt>ばあい</rt></ruby>、<ruby>徹底的<rt>てっていてき</rt></ruby>に<ruby>洗浄<rt>せんじょう</rt></ruby>する。
+    TRANS: Apabila memproduksi bahan baku yang mengandung alergen dan yang tidak mengandung alergen pada lini yang sama, dilakukan pencucian secara menyeluruh.
+    KOTOBA: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-042] ライン(-) [word] = lini produksi | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-1437680] 徹底的(てっていてき) [word] = menyeluruh / tuntas | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian
+
+=== #Q24 | ID=nguyen08-q024 | KEY=B (idx=1) | CAT= | SRC=8.pdf p.4 ===
+  CLUSTER CL-0024 (n=8, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q025 (ssw-pm-kunci-ujian-1), kunci-ujian-13-q006 (ssw-pm-kunci-ujian-13), bonus-soal-1-q025 (bonus-soal-1), bonus-soal-8-q024 (bonus-soal-8), bonus-soal-10-q012 (bonus-soal-10), nguyen01-q025 (latsol-nguyen-01), nguyen10-q026 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("施設基準の設定") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPの「7つ<ruby>原則<rt>げんそく</rt></ruby>」には、どんな<ruby>項目<rt>こうもく</rt></ruby>がありますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Item apa saja yang terdapat dalam "7 Prinsip" HACCP? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 8.pdf, halaman 4, nomor 24. Bobot: 3.85 poin. Kunci jawaban: B. Nomor asli PDF: Câu 25 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>検証方法<rt>けんしょうほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode verifikasi
+    KOTOBA: [kb-otaff51-0351] 検証方法(けんしょうほうほう) [compound_technical] = metode verifikasi | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT B: HTML=<ruby>施設基準<rt>しせつきじゅん</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan standar fasilitas
+    KOTOBA: [kb-ext-0709-e696bde8a8] 施設基準(しせつきじゅん) [compound_technical] = standar fasilitas | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT C: HTML=モニタリング<ruby>方法<rt>ほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode pemantauan (monitoring)
+    KOTOBA: [kb-v2-p1-005] モニタリング方法(もにたりんぐほうほう) [compound_technical] = metode pemantauan | [kb-1386060] 設定(せってい) [word] = penetapan

@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-8 (Soal Ujian 8 — CBTP Gino1) | Batch qa-batch-02 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=kunci-ujian-8-q013 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0127 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-15-q013 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPとは<ruby>何<rt>なに</rt></ruby>をしますか(HACCPの<ruby>定義<rt>ていぎ</rt></ruby>はなんですか)。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dilakukan dalam HACCP (apa definisi HACCP)? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 3, Câu 13 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-1435530] 定義(ていぎ) [word] = definisi batasan istilah | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>危険要因<rt>きけんよういん</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>し、<ruby>重要点<rt>じゅうようてん</rt></ruby>で<ruby>管理<rt>かんり</rt></ruby>する
+    TRANS: Menganalisis faktor bahaya dan mengendalikannya pada titik-titik penting (kritis)
+    KOTOBA: [kb-ext-0321-e58db1e999] 危険要因(きけんよういん) [compound_technical] = faktor bahaya | [kb-audit-0990] 分析し(ぶんせきし) [inflected_verb, df:分析する] = menganalisis (分析する) | [kb-ext-0836-e9878de8a6] 重要点(じゅうようてん) [compound_technical] = titik penting (CCP) | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れから<ruby>最終製品<rt>さいしゅうせいひん</rt></ruby>の<ruby>出荷<rt>しゅっか</rt></ruby>までの<ruby>工程<rt>こうてい</rt></ruby>である
+    TRANS: Proses mulai dari penerimaan bahan baku hingga pengiriman produk akhir
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-024] 受け入れ(うけいれ) [word] = penerimaan bahan | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-2664270] 最終製品(さいしゅうせいひん) [word] = produk pangan jadi siap konsumsi | [kb-otaff51-0174] 出荷(しゅっか) [noun] = pengiriman barang keluar pabrik | [kb-v2-p2-284] まで(-) [particle] = sampai | [kb-otaff51-0286] 工程(こうてい) [noun] = tahapan proses | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>微生物<rt>びせいぶつ</rt></ruby>による<ruby>汚染<rt>おせん</rt></ruby>や<ruby>異物<rt>いぶつ</rt></ruby>の<ruby>混入<rt>こんにゅう</rt></ruby>の<ruby>危害<rt>きがい</rt></ruby>を<ruby>予測<rt>よそく</rt></ruby>することである
+    TRANS: Memprediksi bahaya kontaminasi mikroorganisme maupun kontaminasi benda asing
+    KOTOBA: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0377] 汚染(おせん) [noun] = kontaminasi / pencemaran | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-otaff51-0397] 混入(こんにゅう) [noun] = pencampuran / kontaminasi masuk | [kb-1218440] 危害(きがい) [word] = bahaya | [kb-1543200] 予測(よそく) [word] = prediksi / prakiraan risiko | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q14 | ID=kunci-ujian-8-q014 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.3 ===
+  CLUSTER CL-0128 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-15-q014 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>日本<rt>にほん</rt></ruby>の<ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>では、<ruby>冷凍室<rt>れいとうしつ</rt></ruby>の<ruby>基準温度<rt>きじゅんおんど</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam Undang-Undang Higiene Pangan Jepang, berapakah suhu standar untuk ruang pembeku (freezer)? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 3, Câu 14 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-1582710] 日本(にほん) [word] = Jepang | [kb-otaff51-0653] 食品衛生法(しょくひんえいせいほう) [compound_technical] = Undang-Undang Higiene Pangan Jepang | [kb-1948710] 冷凍室(れいとうしつ) [word] = ruang pembeku (freezer) | [kb-otaff51-0245] 基準温度(きじゅんおんど) [compound_technical] = suhu standar | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=-10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: -10°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=-15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: -15°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 15°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q15 | ID=kunci-ujian-8-q015 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.3 ===
+  CLUSTER CL-0129 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-15-q015 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>必<rt>かなら</rt></ruby>ず<ruby>包装<rt>ほうそう</rt></ruby>に<ruby>表示<rt>ひょうじ</rt></ruby>しなくてはならないアレルギー<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pangan pemicu alergi manakah yang wajib dicantumkan pada kemasan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 3, Câu 15 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-otaff51-0202] 包装(ほうそう) [noun] = pengemasan | [kb-audit-0960] 表示しなくては(ひょうじしなくては) [expression] = harus menampilkan/melabeli | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=そば
+    TRANS: Soba (gandum kuda / buckwheat)
+    KOTOBA: [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat)
+  OPT B: HTML=いか
+    TRANS: Cumi-cumi
+    KOTOBA: [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下)
+  OPT C: HTML=<ruby>砂糖<rt>さとう</rt></ruby>
+    TRANS: Gula
+    KOTOBA: [kb-otaff51-0469] 砂糖(さとう) [noun] = gula
+
+=== #Q16 | ID=kunci-ujian-8-q016 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業<rt>さぎょう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に<ruby>確認<rt>かくにん</rt></ruby>しなければならないことは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dipastikan sebelum memulai pekerjaan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 3, Câu 16 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-audit-0939] 確認しなければ(かくにんしなければ) [expression] = harus memeriksa (条件) | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>まずに<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める
+    TRANS: Memulai pekerjaan tanpa membaca dokumen prosedur kerja (SOP)
+    KOTOBA: [kb-otaff51-0123] 作業手順書(さぎょうてじゅんしょ) [compound_technical] = dokumen prosedur kerja (SOP) | [kb-v2-p3-321] 読まず(よまず) [inflected, df:読む] = tanpa membaca | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p5-246] 始める(はじめる) [word] = memulai | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>使用<rt>しよう</rt></ruby>する<ruby>機械<rt>きかい</rt></ruby>や<ruby>器具<rt>きぐ</rt></ruby>が<ruby>正常<rt>せいじょう</rt></ruby>かどうか<ruby>確認<rt>かくにん</rt></ruby>する
+    TRANS: Memastikan apakah mesin dan peralatan yang akan digunakan berfungsi normal
+    KOTOBA: [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0357] 正常(せいじょう) [adjective] = normal | [kb-v2-p1-317] かどうか(-) [particle] = apakah ... atau tidak | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>でタバコを<ruby>吸<rt>す</rt></ruby>う<ruby>準備<rt>じゅんび</rt></ruby>をする
+    TRANS: Menyiapkan diri untuk merokok di tempat kerja
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p6-219] タバコ(-) [word] = rokok | [kb-v2-p6-403] 吸う(すう) [word] = merokok / menghirup | [kb-1341670] 準備(じゅんび) [word] = persiapan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

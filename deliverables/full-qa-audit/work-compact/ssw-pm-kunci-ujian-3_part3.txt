@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-3 (Soal Ujian 3 — CBTP Gino1) | Batch qa-batch-01 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=kunci-ujian-3-q009 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.2 ===
+  CLUSTER CL-0072 (n=5, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q006 (ssw-pm-kunci-ujian-14), bonus-soal-9-q009 (bonus-soal-9), nguyen03-q009 (latsol-nguyen-03), nguyen09-q009 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>する、３つの<ruby>要素<rt>ようそ</rt></ruby>があります。「<ruby>温度<rt>おんど</rt></ruby>」、「<ruby>栄養分<rt>えいようぶん</rt></ruby>」のほかに、もう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Terdapat 3 faktor yang membuat mikroorganisme berkembang biak. Selain "suhu" dan "nutrisi (zat gizi)", apakah satu faktor lainnya?
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 2, Câu 9 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1546800] 要素(ようそ) [word] = unsur / elemen penting | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-1624300] 栄養分(えいようぶん) [word] = kandungan zat gizi | [kb-v2-p1-286] ほかに(-) [expression] = selain itu | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>日光<rt>にっこう</rt></ruby>
+    TRANS: Sinar matahari
+    KOTOBA: [kb-1464030] 日光(にっこう) [word] = sinar matahari
+  OPT B: HTML=<ruby>水分<rt>すいぶん</rt></ruby>
+    TRANS: Air (kelembapan)
+    KOTOBA: [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan
+  OPT C: HTML=<ruby>気圧<rt>きあつ</rt></ruby>
+    TRANS: Tekanan udara
+    KOTOBA: [kb-1221880] 気圧(きあつ) [word] = tekanan udara
+
+=== #Q10 | ID=kunci-ujian-3-q010 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>細菌<rt>さいきん</rt></ruby>はどのような<ruby>環境<rt>かんきょう</rt></ruby>で<ruby>芽胞<rt>がほう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>りますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam lingkungan seperti apakah bakteri membentuk spora (endospora)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 2, Câu 10 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas) | [kb-latsol-9d22ffe25c] 作ります(つくります) [word] = membuat / memproduksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>高温<rt>こうおん</rt></ruby>で<ruby>湿度<rt>しつど</rt></ruby>が<ruby>高<rt>たか</rt></ruby>い<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu tinggi dan berkelembapan tinggi
+    KOTOBA: [kb-otaff51-0675] 高温(こうおん) [noun] = suhu tinggi | [kb-otaff51-0409] 湿度(しつど) [noun] = kelembapan udara | [kb-v2-p1-255] 高い(たかい) [word] = tinggi | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>熱<rt>ねつ</rt></ruby>や<ruby>乾燥<rt>かんそう</rt></ruby>などで<ruby>細菌<rt>さいきん</rt></ruby>が<ruby>育<rt>そだ</rt></ruby>ちにくい<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan yang membuat bakteri sulit tumbuh, seperti panas atau kering
+    KOTOBA: [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-otaff51-0103] 乾燥(かんそう) [noun] = pengeringan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-v2-p6-404] 育ちにくい(そだちにくい) [inflected, df:育つ] = sulit berkembang biak | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>水分<rt>すいぶん</rt></ruby>が<ruby>豊富<rt>ほうふ</rt></ruby>な<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan yang kaya akan air
+    KOTOBA: [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-1518180] 豊富(ほうふ) [word] = melimpah (nutrisi/kandungan) | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na
+
+=== #Q11 | ID=kunci-ujian-3-q011 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>急速<rt>きゅうそく</rt></ruby>に<ruby>増殖<rt>ぞうしょく</rt></ruby>する<ruby>温度<rt>おんど</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berapakah suhu di mana mikroorganisme berkembang biak dengan sangat cepat?
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 2, Câu 11 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-otaff51-0302] 急速(きゅうそく) [adjective] = cepat / ekspres (pembekuan cepat) | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=4℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 4°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=60℃<ruby>以上<rt>いじょう</rt></ruby>
+    TRANS: 60°C atau lebih tinggi
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal
+  OPT C: HTML=30ºC 40℃
+    TRANS: 30°C - 40°C
+    KOTOBA: [kb-audit-0185] ºC(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu)
+
+=== #Q12 | ID=kunci-ujian-3-q012 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0073 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-7-q008 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q010 (ssw-pm-kunci-ujian-14), kunci-ujian-15-q018 (ssw-pm-kunci-ujian-15), bonus-soal-9-q012 (bonus-soal-9), nguyen03-q012 (latsol-nguyen-03), nguyen09-q012 (latsol-nguyen-09)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>について<ruby>何<rt>なに</rt></ruby>を<ruby>注意<rt>ちゅうい</rt></ruby>しなければなりませんか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal apa yang harus diperhatikan mengenai pakaian kerja? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 2, Câu 12 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-177] 注意し(ちゅういし) [inflected, df:注意する] = berhati-hati / memperhatikan | [kb-audit-0374] なければなりませんか(なければなりませんか) [word] = apakah harus / wajib dilakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ポケットやボタンがついている<ruby>服<rt>ふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>る
+    TRANS: Mengenakan pakaian yang memiliki saku dan kancing
+    KOTOBA: [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-audit-0305] がついている(がついている) [word] = terpasang / terdapat (kancing dll.) | [kb-v2-p2-073] 服(ふく) [word] = pakaian | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>汚<rt>よご</rt></ruby>れない<ruby>作業服<rt>さぎょうふく</rt></ruby>と<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業服<rt>さぎょうふく</rt></ruby>がロッカーでくっつかないようにする
+    TRANS: Memastikan pakaian kerja yang bersih dan pakaian kerja yang kotor tidak saling menempel di dalam loker
+    KOTOBA: [kb-audit-0030] 汚れない(よごれない) [inflected_verb, df:汚れる] = tidak menjadi kotor | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-v2-p1-039] ロッカー(-) [word] = loker | [kb-v2-p1-106] くっつかない(-) [inflected_verb, df:くっつく] = tidak menempel (dasar: くっつく) | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>上着<rt>うわぎ</rt></ruby>のすそをボタンに<ruby>入<rt>い</rt></ruby>れる
+    TRANS: Memasukkan bagian bawah baju atasan ke dalam celana
+    KOTOBA: [kb-otaff51-0090] 上着(うわぎ) [noun] = baju atasan (jaket kerja) | [kb-u1416-52ad335d9d] すそ(すそ) [word] = ujung bawah baju | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-v2-p4-198] 入れる(いれる) [word] = memasukkan / menyalakan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

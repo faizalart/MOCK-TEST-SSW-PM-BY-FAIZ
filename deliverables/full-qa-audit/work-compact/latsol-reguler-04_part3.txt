@@ -1,0 +1,90 @@
+# AUDIT SHEET: latsol-reguler-04 (Latsol Reguler 04) | Batch qa-batch-09 | Part 3 (Q9-12 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=reguler04-q009 | KEY=A (idx=0) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="粘着ローラとエアーシャワーについて正しいものはどれですか。" vs questionText="粘着ローラとエアーシャワーについて正しいものはどれですか。。" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p4-068 (粘着ローラ): "rol perekat (typo: ローラー)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("作業服から髪の毛などを落とすために使用する") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>粘着<rt>ねんちゃく</rt></ruby>ローラとエアーシャワーについて<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。
+  QUESTION_TEXT: 粘着ローラとエアーシャワーについて正しいものはどれですか。。
+  PROMPT_TRANS: Manakah pernyataan yang benar mengenai rol perekat (lint roller) dan air shower?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 3, nomor 9. Bobot: 7.5 poin. Kunci jawaban: A. Visual: Ilustrasi <粘着ローラー> dan <エアーシャワー>.
+  KOTOBA_PROMPT: [kb-v2-p4-068] 粘着ローラ(ねんちゃくろーらー) [compound_technical] = rol perekat (typo: ローラー) | [kb-otaff51-0040] エアーシャワー(えあーしゃわー) [compound_technical] = air shower (bilik hembusan udara bersih) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>から<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>などを<ruby>落<rt>お</rt></ruby>とすために<ruby>使用<rt>しよう</rt></ruby>する
+    TRANS: Digunakan untuk menghilangkan/merontokkan rambut dan kotoran lainnya dari pakaian kerja
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p1-214] 落とす(おとす) [word] = menghilangkan / menjatuhkan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan
+  OPT B: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>のしわを<ruby>伸<rt>の</rt></ruby>ばすために<ruby>使用<rt>しよう</rt></ruby>する
+    TRANS: Digunakan untuk menghilangkan kerutan pada pakaian kerja
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p5-383] 伸ばす(のばす) [word] = meluruskan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan
+  OPT C: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れをなくすために<ruby>使用<rt>しよう</rt></ruby>する
+    TRANS: Digunakan untuk membersihkan noda kotoran pada pakaian kerja
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-otaff51-0732] なくす(なくす) [verb] = menghilangkan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan
+  OPT D: HTML=<ruby>正<rt>ただ</rt></ruby>しいものはない
+    TRANS: Tidak ada jawaban yang benar
+    KOTOBA: [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat
+
+=== #Q10 | ID=reguler04-q010 | KEY=D (idx=3) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="次の画像を見てください!間違っているものはどれですか。" vs questionText="次の画像を見てください! 間違っているものはどれですか。。"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi D ("制服が正しいかどうか確認する") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>次<rt>つぎ</rt></ruby>の<ruby>画像<rt>がぞう</rt></ruby>を<ruby>見<rt>み</rt></ruby>てください！<ruby>間違<rt>まちが</rt></ruby>っているものはどれですか。
+  QUESTION_TEXT: 次の画像を見てください! 間違っているものはどれですか。。
+  PROMPT_TRANS: Lihatlah gambar berikut! Manakah pernyataan yang salah (tidak ditampilkan pada potongan gambar tersebut)?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 4, nomor 10. Bobot: 7.5 poin. Kunci jawaban: D. Visual: 3 panel menyisir rambut, memakai hairnet, dan memakai topi kerja.
+  KOTOBA_PROMPT: [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-ext-latsol-0060] 画像(がぞう) [word] = gambar / citra | [kb-v2-p5-278] 見て(みて) [inflected, df:見る] = melihat | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=ヘアーネットをかぶる
+    TRANS: Memakai hairnet (jaring rambut)
+    KOTOBA: [kb-otaff51-0075] ヘアーネット(へあーねっと) [noun] = jaring rambut (hairnet) | [kb-v2-p1-202] かぶる(-) [word] = memakai (helm/topi)
+  OPT B: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>をよくブラッシングする
+    TRANS: Menyisir rambut dengan baik
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-otaff51-0073] ブラッシング(ぶらっしんぐ) [noun] = penyikatan rambut
+  OPT C: HTML=<ruby>帽子<rt>ぼうし</rt></ruby>をきちんとかぶる
+    TRANS: Memakai topi/tudung kerja dengan benar
+    KOTOBA: [kb-otaff51-0290] 帽子(ぼうし) [noun] = topi kerja | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-v2-p1-202] かぶる(-) [word] = memakai (helm/topi)
+  OPT D: HTML=<ruby>制服<rt>せいふく</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しいかどうか<ruby>確認<rt>かくにん</rt></ruby>する
+    TRANS: Memeriksa apakah seragam sudah dipakai dengan benar
+    KOTOBA: [kb-ext-latsol-0061] 制服(せいふく) [word] = seragam kerja | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-317] かどうか(-) [particle] = apakah ... atau tidak | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan
+
+=== #Q11 | ID=reguler04-q011 | KEY=D (idx=3) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="作業中の製品の扱い上の注意事項について、どうするのが正しいですか。" vs questionText="作業中の製品の扱い上の注意事項について、どうするのが正しいですか。。"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi D ("製品に異常が見つかったら、決められた場所に置いておく") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>の<ruby>製品<rt>せいひん</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>上<rt>じょう</rt></ruby>の<ruby>注意事項<rt>ちゅういじこう</rt></ruby>について、どうするのが<ruby>正<rt>ただ</rt></ruby>しいですか。
+  QUESTION_TEXT: 作業中の製品の扱い上の注意事項について、どうするのが正しいですか。。
+  PROMPT_TRANS: Mengenai hal-hal yang perlu diperhatikan dalam penanganan produk selama bekerja, tindakan manakah yang benar?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 4, nomor 11. Bobot: 7.5 poin. Kunci jawaban: D.
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-latsol-e64da81689] 扱い上(あつかいじょう) [word] = dalam penanganan / pemakaian | [kb-otaff51-0382] 注意事項(ちゅういじこう) [compound_technical] = hal-hal yang harus diperhatikan | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>製品<rt>せいひん</rt></ruby>に<ruby>水<rt>みず</rt></ruby>がかからないようにする
+    TRANS: Menjaga agar produk tidak terkena cipratan air
+    KOTOBA: [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar
+  OPT B: HTML=<ruby>加熱<rt>かねつ</rt></ruby>したものを<ruby>長<rt>なが</rt></ruby>く<ruby>室温<rt>しつおん</rt></ruby>で<ruby>放置<rt>ほうち</rt></ruby>する
+    TRANS: Membiarkan produk yang telah dipanaskan terlalu lama pada suhu ruang
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-audit-0895] 長く(ながく) [inflected_adj, df:長い] = menjadi lama / panjang | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-v2-p2-189] 放置する(ほうちする) [word] = membiarkan begitu saja
+  OPT C: HTML=<ruby>冷却<rt>れいきゃく</rt></ruby>したものを<ruby>長<rt>なが</rt></ruby>く<ruby>体温<rt>たいおん</rt></ruby>で<ruby>放置<rt>ほうち</rt></ruby>する
+    TRANS: Membiarkan produk yang telah didinginkan terlalu lama pada suhu tubuh
+    KOTOBA: [kb-v2-p2-187] 冷却した(れいきゃくした) [inflected, df:冷却する] = yang telah didinginkan | [kb-audit-0895] 長く(ながく) [inflected_adj, df:長い] = menjadi lama / panjang | [kb-ext-latsol-0062] 体温(たいおん) [word] = suhu tubuh | [kb-v2-p2-189] 放置する(ほうちする) [word] = membiarkan begitu saja
+  OPT D: HTML=<ruby>製品<rt>せいひん</rt></ruby>に<ruby>異常<rt>いじょう</rt></ruby>が<ruby>見<rt>み</rt></ruby>つかったら、<ruby>決<rt>き</rt></ruby>められた<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>置<rt>お</rt></ruby>いておく
+    TRANS: Jika ditemukan ketidaknormalan pada produk, letakkan di tempat yang telah ditentukan
+    KOTOBA: [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0448] 異常(いじょう) [noun] = ketidaknormalan / kelainan | [kb-audit-0598] 見つかったら(みつかったら) [inflected_verb, df:見つかる] = jika ditemukan | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-latsol-85da72508c] 置いて(おいて) [word] = meletakkan / menaruh
+
+=== #Q12 | ID=reguler04-q012 | KEY=C (idx=2) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="微生物が増殖する 10℃〜60℃の温度にある時間を短くするためには、どうするのが正しいですか。" vs questionText="微生物が増殖する 10℃~60℃の温度にある時間を短くするためには、どうするのが正しいですか。。"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("冷凍庫で保管する") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>する 10℃〜60℃の<ruby>温度<rt>おんど</rt></ruby>にある<ruby>時間<rt>じかん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>くするためには、どうするのが<ruby>正<rt>ただ</rt></ruby>しいですか。
+  QUESTION_TEXT: 微生物が増殖する 10℃~60℃の温度にある時間を短くするためには、どうするのが正しいですか。。
+  PROMPT_TRANS: Untuk mempersingkat waktu makanan berada pada suhu 10°C–60°C di mana mikroorganisme berkembang biak, tindakan manakah yang benar?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 4, nomor 12. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-v2-p2-232] 短く(みじかく) [inflected, df:短い] = pendek | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat
+  OPT A: HTML=<ruby>弱火<rt>よわび</rt></ruby>で<ruby>調理<rt>ちょうり</rt></ruby>する
+    TRANS: Memasak dengan api kecil
+    KOTOBA: [kb-ext-latsol-0063] 弱火(よわび) [word] = api kecil | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan
+  OPT B: HTML=すぐに<ruby>水<rt>みず</rt></ruby>であらう
+    TRANS: Segera mencucinya dengan air
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-fix-arau] あらう(-) [] = mencuci (洗う)
+  OPT C: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Menyimpannya di dalam freezer (lemari pembeku)
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT D: HTML=<ruby>室温<rt>しつおん</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Menyimpannya pada suhu ruang
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan

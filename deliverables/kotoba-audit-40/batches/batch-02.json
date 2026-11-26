@@ -1,0 +1,98 @@
+{
+  "batchId": "batch-02",
+  "completedAt": "2026-11-15T19:25:40.664Z",
+  "packages": [
+    "latsol-reguler-01",
+    "pilot-otaff51-01",
+    "latsol-reguler-06",
+    "latsol-reguler-04",
+    "latsol-reguler-03"
+  ],
+  "beforeTotalErrors": 5,
+  "afterTotalErrors": 0,
+  "beforeByPackage": [
+    {
+      "setId": "latsol-reguler-01",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 20,
+      "errors": 2,
+      "spanPct": 79.26
+    },
+    {
+      "setId": "pilot-otaff51-01",
+      "cohort": "cohort_4_pilot_otaff51",
+      "questions": 5,
+      "errors": 2,
+      "spanPct": 76.71
+    },
+    {
+      "setId": "latsol-reguler-06",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 20,
+      "errors": 1,
+      "spanPct": 78.35
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 20,
+      "errors": 0,
+      "spanPct": 69.12
+    },
+    {
+      "setId": "latsol-reguler-03",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 20,
+      "errors": 0,
+      "spanPct": 74.21
+    }
+  ],
+  "afterByPackage": [
+    {
+      "setId": "latsol-reguler-01",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 20,
+      "errors": 0,
+      "spanPct": 80.71,
+      "spec009Check": null
+    },
+    {
+      "setId": "pilot-otaff51-01",
+      "cohort": "cohort_4_pilot_otaff51",
+      "questions": 5,
+      "errors": 0,
+      "spanPct": 78.22,
+      "spec009Check": null
+    },
+    {
+      "setId": "latsol-reguler-06",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 20,
+      "errors": 0,
+      "spanPct": 79.96,
+      "spec009Check": null
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 20,
+      "errors": 0,
+      "spanPct": 70.87,
+      "spec009Check": null
+    },
+    {
+      "setId": "latsol-reguler-03",
+      "cohort": "cohort_2_unaudited_19_paket",
+      "questions": 20,
+      "errors": 0,
+      "spanPct": 75.31,
+      "spec009Check": null
+    }
+  ],
+  "touchedPackageFiles": [
+    "data/pilot-otaff51-01.json"
+  ],
+  "curatedTermsTotalInMaster": 1171,
+  "protected10Verified": true,
+  "immutabilityVerified": true
+}

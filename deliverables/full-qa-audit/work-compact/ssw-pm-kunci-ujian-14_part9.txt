@@ -1,0 +1,77 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-14 (Soal Ujian 14) | Batch qa-batch-03 | Part 9 (Q33-36 of 59)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q33 | ID=kunci-ujian-14-q033 | KEY=B (idx=1) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 14.pdf p.9 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-1502840 "分": kotoba="ふん" vs ruby="わ"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: このイラストは<ruby>食品機械<rt>しょくひんきかい</rt></ruby>を<ruby>操作<rt>そうさ</rt></ruby>している<ruby>様子<rt>ようす</rt></ruby>です。<ruby>食品機械<rt>しょくひんきかい</rt></ruby>が<ruby>止<rt>と</rt></ruby>まった<ruby>場合<rt>ばあい</rt></ruby>の<ruby>操作手順<rt>そうさてじゅん</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ilustrasi ini menunjukkan kondisi sedang mengoperasikan mesin pengolahan makanan. Mengenai prosedur pengoperasian apabila mesin makanan berhenti, pilihlah satu tindakan yang benar.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 9, nomor 実技 問題1 (Q33). Bobot: 2.54 poin. Kunci jawaban: B. Visual: Ilustrasi pekerja mengoperasikan mesin pencetak adonan roti (moulder / モルダーでパン生地を成型している) dengan penutup pengaman terbuka dan tangan terjepit rol. Pembahasan: Sesuai prinsip keselamatan kerja SSW Bab 5, apabila mesin berhenti atau prosedur penanganan tidak diketahui, pekerja wajib menghentikan mesin dan bertanya/melapor kepada penanggung jawab (職場の責任者に聞いた).
+  INLINE_KOTOBA_COUNT: 30
+  KOTOBA_PROMPT: [kb-v2-p6-189] イラスト(-) [word] = gambar ilustrasi | [kb-u1416-6023a936a0] 食品機械(しょくひんきかい) [word] = mesin pengolahan makanan | [kb-1400050] 操作(そうさ) [word] = pengoperasian mesin | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-1545820] 様子(ようす) [word] = keadaan / situasi | [kb-v2-p5-265] 止まった(とまった) [inflected, df:止まる] = berhenti (lampau) | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-u1416-dbfd221670] 操作手順(そうさてじゅん) [word] = prosedur pengoperasian | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>安全装置<rt>あんぜんそうち</rt></ruby>が<ruby>働<rt>はたら</rt></ruby>いたようだったので、<ruby>安全装置<rt>あんぜんそうち</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>外<rt>はず</rt></ruby>して<ruby>動<rt>うご</rt></ruby>かした。
+    TRANS: Karena tampaknya perangkat pengaman bekerja, saya melepas perangkat pengaman lalu menjalankan mesin.
+    KOTOBA: [kb-otaff51-0268] 安全装置(あんぜんそうち) [compound_technical] = perangkat pengaman mesin | [kb-v2-p5-322] 働いた(はたらいた) [inflected, df:働く] = bekerja (lampau) | [kb-audit-0429] たの(たの) [word] = yang lain / lainnya (他の) | [kb-audit-0054] 取り外して(とりはずして) [inflected_verb, df:取り外す] = melepas / mencopot | [kb-v2-p6-363] 動かした(うごかした) [inflected, df:動かす] = menggerakkan (lampau)
+  OPT B: HTML=<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からなかったので、<ruby>職場<rt>しょくば</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>聞<rt>き</rt></ruby>いた。
+    TRANS: Karena tidak mengetahui prosedur kerjanya, saya bertanya kepada penanggung jawab di tempat kerja.
+    KOTOBA: [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-1502840] 分(ふん) [standalone_term] = menit (satuan durasi waktu) | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-audit-0055] 聞いた(きいた) [inflected_verb, df:聞く] = bertanya / mendengar (lampau)
+  OPT C: HTML=できるだけ<ruby>早<rt>はや</rt></ruby>く<ruby>動<rt>うご</rt></ruby>かすべきだと<ruby>思<rt>おも</rt></ruby>い、<ruby>手順書<rt>てじゅんしょ</rt></ruby>どおりに<ruby>行<rt>おこな</rt></ruby>わず<ruby>自分<rt>じぶん</rt></ruby>で<ruby>直<rt>なお</rt></ruby>した。
+    TRANS: Karena berpikir harus segera dijalankan kembali secepat mungkin, saya memperbaikinya sendiri tanpa mengikuti buku prosedur.
+    KOTOBA: [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-v2-p4-144] 早く(はやく) [inflected, df:早い] = dengan cepat / segera | [kb-audit-0056] 動かすべきだ(うごかすべきだ) [word] = seharusnya segera menjalankan | [kb-audit-0033] 思い(おもい) [inflected_verb, df:思う] = mengira / berpikir | [kb-u1416-a5e676e6eb] 手順書(てじゅんしょ) [word] = dokumen prosedur (SOP) | [kb-v2-p3-238] 行わず(おこなわず) [inflected, df:行う] = tanpa melakukan | [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-audit-0057] 直した(なおした) [inflected_verb, df:直す] = memperbaiki (lampau)
+
+=== #Q34 | ID=kunci-ujian-14-q034 | KEY=B (idx=1) | CAT=計算・配合・濃度（Perhitungan, Komposisi & Nilai Gizi） | SRC=Soal Ujian 14.pdf p.9 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="右の表は300gのパンの配合例です。この配合に従うと小麦粉4kgからどれだけのパンを作ることができますか。" vs questionText="右の表は300gのパンの配合例です。この配合に従うと小麦粉4kgからどれだけのパンを作ることができますか。(表:原料名・量(g)|小麦粉 2"
+  CLUSTER CL-0160 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-16-q041 (ssw-pm-kunci-ujian-16)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>右<rt>みぎ</rt></ruby>の<ruby>表<rt>ひょう</rt></ruby>は300gのパンの<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>小麦粉<rt>こむぎこ</rt></ruby>4kgからどれだけのパンを<ruby>作<rt>つく</rt></ruby>ることができますか。
+  QUESTION_TEXT: 右の表は300gのパンの配合例です。この配合に従うと小麦粉4kgからどれだけのパンを作ることができますか。（表：原料名・量(g)｜小麦粉 200、食塩 20、水 80）
+  PROMPT_TRANS: Tabel di samping adalah contoh komposisi bahan untuk 300 g roti. Jika mengikuti komposisi ini, berapa banyak roti yang dapat dibuat dari 4 kg tepung terigu?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 9, nomor 実技 問題2 (Q34). Bobot: 2.54 poin. Kunci jawaban: B. Visual: Tabel komposisi bahan roti 300 g: 小麦粉 (tepung terigu) 200 g, 食塩 (garam) 20 g, 水 (air) 80 g. Pembahasan: Perhitungan proporsi: Untuk 300 g roti dibutuhkan 200 g tepung terigu. Jika tersedia 4 kg (4.000 g) tepung terigu, maka jumlah kelipatannya = 4.000 g / 200 g = 20 kali. Total roti = 20 × 300 g = 6.000 g = 6 kg (B).
+  INLINE_KOTOBA_COUNT: 12
+  KOTOBA_PROMPT: [kb-audit-0034] 右(みぎ) [word] = kanan (arah/sisi kanan) | [kb-v2-p2-248] 表(ひょう) [word] = tabel | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-ext-1441-e9858de590] 配合例(はいごうれい) [word] = contoh formula campuran | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-audit-0016] 従うと(したがうと) [inflected_verb, df:従う] = jika mengikuti / sesuai dengan | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-1057] ことができます(ことができます) [expression] = dapat / bisa melakukan
+  OPT A: HTML=5kg
+    TRANS: 5 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=6kg
+    TRANS: 6 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=7kg
+    TRANS: 7 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+
+=== #Q35 | ID=kunci-ujian-14-q035 | KEY=A (idx=0) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 14.pdf p.10 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒防止<rt>しょくちゅうどくぼうし</rt></ruby>の<ruby>原則<rt>げんそく</rt></ruby>はいくつありますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada berapa prinsip pencegahan keracunan makanan?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 10, nomor 参考問題① (Q35). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Prinsip pencegahan keracunan makanan ada 3 (つけない、増やさない、やっつける).
+  INLINE_KOTOBA_COUNT: 5
+  KOTOBA_PROMPT: [kb-ext-0924-e9a39fe4b8] 食中毒防止(しょくちゅうどくぼうし) [word] = pencegahan keracunan makanan | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-v2-p4-205] いくつ(-) [word] = berapa banyak / berapa buah | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある)
+  OPT A: HTML=3つ
+    TRANS: 3 prinsip
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung)
+  OPT B: HTML=2つ
+    TRANS: 2 prinsip
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung)
+  OPT C: HTML=1つ
+    TRANS: 1 prinsip
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung)
+
+=== #Q36 | ID=kunci-ujian-14-q036 | KEY=A (idx=0) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 14.pdf p.10 ===
+  INSTR: <ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>特徴<rt>とくちょう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しい<ruby>物<rt>もの</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah ciri khas keracunan makanan yang disebabkan oleh virus? Pilihlah yang paling tepat.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 10, nomor 参考問題② (Q36). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Virus (seperti Norovirus) sangat menular bahkan dalam jumlah sedikit sehingga mudah memicu penularan massal (集団感染). Spora tahan panas adalah ciri bakteri pembentuk spora, dan tangan terluka adalah ciri Staphylococcus aureus.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0434] 特徴(とくちょう) [noun] = karakteristik / ciri khas | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>集団感染<rt>しゅうだんかんせん</rt></ruby>が<ruby>起<rt>お</rt></ruby>こりやすい
+    TRANS: Mudah terjadi infeksi/penularan massal
+    KOTOBA: [kb-u1416-e210fbf075] 集団感染(しゅうだんかんせん) [word] = infeksi/penularan massal | [kb-v2-p4-171] 起こりやすい(おこりやすい) [inflected, df:起こる] = mudah terjadi
+  OPT B: HTML=<ruby>熱<rt>ねつ</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>芽胞<rt>がほう</rt></ruby>
+    TRANS: Membentuk spora (gahou) yang tahan panas
+    KOTOBA: [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas)
+  OPT C: HTML=<ruby>傷<rt>きず</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>の<ruby>手<rt>て</rt></ruby>で<ruby>調理<rt>ちょうり</rt></ruby>されたもの
+    TRANS: Berasal dari makanan yang diolah oleh tangan orang yang terluka
+    KOTOBA: [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan

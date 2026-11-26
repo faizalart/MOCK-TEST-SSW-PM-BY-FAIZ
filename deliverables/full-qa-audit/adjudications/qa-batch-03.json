@@ -1,0 +1,393 @@
+{
+  "batchId": "qa-batch-03",
+  "notes": [
+    "Promoted meaning-preserving grammar/particle fixes (e.g. 場所に乾燥→場所で乾燥, からの逸脱した→から逸脱した, しかつける→だけつける, 衛生な→衛生的な, そうとしました→そうになりました, を乗る→に乗る, 汚れない→汚れていない) consistent with qa-batch-01/02 policy: natural Japanese without altering option meaning or key.",
+    "Promoted Indonesian translation fixes that remove words absent from JP (hanya/semua/saja) and spoiler parentheticals ((Seiton), (Seisou), (tanpa disinfeksi alkohol)).",
+    "Promoted context-correct Kotoba glosses (について=mengenai, 何=なに before を, 方=ほう in た方が良い, 作業靴=さぎょうぐつ, 作業場=さぎょうば, X線 reading, 1分=いっぷん) and missing tokens (による, どおり, どの, ほか, ところ, でした).",
+    "Kept REVIEW/SOURCE_CONFLICT: 11-q013 (duplicate options A/B, key C), 11-q016 (KEY=A unsafe vs twin 11-q020 KEY=C), 11-q024 (人為危険因子), 12-q001 opt:B (missing verb, ambiguous さっきん vs しんせき), 13-q011 清作 JP, 13-q017 opt:A, 13-q020 (polarity/key conflict), 13-q021 エクセル vs メクセル, 13-q034 (KEY=B vs twins KEY=A)."
+  ],
+  "promoteKeys": [
+    {
+      "questionId": "kunci-ujian-11-q033",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-11-q033",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_remove"
+    },
+    {
+      "questionId": "kunci-ujian-11-q033",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-12-q008",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-12-q008",
+      "scope": "questionText",
+      "field": "question_text_sync"
+    },
+    {
+      "questionId": "kunci-ujian-12-q015",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-12-q015",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-12-q021",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-12-q021",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_remove"
+    },
+    {
+      "questionId": "kunci-ujian-12-q021",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-12-q021",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-12-q027",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-12-q037",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-13-q006",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-13-q007",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-13-q007",
+      "scope": "kotoba:opt:C",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-13-q011",
+      "scope": "kotoba:opt:C",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q010",
+      "scope": "opt:B",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-14-q010",
+      "scope": "kotoba:opt:B",
+      "field": "kotoba_remove"
+    },
+    {
+      "questionId": "kunci-ujian-14-q010",
+      "scope": "kotoba:opt:B",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-14-q055",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-15-q005",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-15-q005",
+      "scope": "questionText",
+      "field": "question_text_sync"
+    },
+    {
+      "questionId": "kunci-ujian-15-q005",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-15-q017",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-15-q017",
+      "scope": "questionText",
+      "field": "question_text_sync"
+    },
+    {
+      "questionId": "kunci-ujian-15-q018",
+      "scope": "opt:B",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-15-q018",
+      "scope": "kotoba:opt:B",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-15-q019",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-15-q019",
+      "scope": "kotoba:opt:C",
+      "field": "kotoba_remove"
+    },
+    {
+      "questionId": "kunci-ujian-15-q035",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-15-q035",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_remove"
+    },
+    {
+      "questionId": "kunci-ujian-15-q035",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-15-q037",
+      "scope": "prompt",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-15-q038",
+      "scope": "opt:A",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-15-q038",
+      "scope": "opt:C",
+      "field": "jp_html"
+    },
+    {
+      "questionId": "kunci-ujian-11-q006",
+      "scope": "opt:B",
+      "field": "translation"
+    },
+    {
+      "questionId": "kunci-ujian-12-q026",
+      "scope": "opt:C",
+      "field": "translation"
+    },
+    {
+      "questionId": "kunci-ujian-12-q029",
+      "scope": "opt:C",
+      "field": "translation"
+    },
+    {
+      "questionId": "kunci-ujian-15-q007",
+      "scope": "opt:B",
+      "field": "translation"
+    },
+    {
+      "questionId": "kunci-ujian-15-q007",
+      "scope": "opt:C",
+      "field": "translation"
+    },
+    {
+      "questionId": "kunci-ujian-15-q013",
+      "scope": "opt:C",
+      "field": "translation"
+    },
+    {
+      "questionId": "kunci-ujian-15-q019",
+      "scope": "opt:B",
+      "field": "translation"
+    },
+    {
+      "questionId": "kunci-ujian-14-q035",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q036",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q038",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q041",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q041",
+      "scope": "kotoba:opt:B",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q042",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q043",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q043",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q043",
+      "scope": "kotoba:opt:C",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q046",
+      "scope": "kotoba:opt:C",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q047",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q049",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q050",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q052",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q052",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q055",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q056",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q056",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q058",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q058",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q059",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-14-q059",
+      "scope": "kotoba:opt:C",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-15-q002",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-15-q003",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-15-q011",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-15-q019",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_entry"
+    },
+    {
+      "questionId": "kunci-ujian-11-q022",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-14-q033",
+      "scope": "kotoba:opt:C",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-14-q036",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-14-q037",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-15-q004",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-15-q012",
+      "scope": "kotoba:prompt",
+      "field": "kotoba_missing"
+    },
+    {
+      "questionId": "kunci-ujian-15-q034",
+      "scope": "kotoba:opt:A",
+      "field": "kotoba_missing"
+    }
+  ],
+  "suppressKeys": [],
+  "customOps": []
+}

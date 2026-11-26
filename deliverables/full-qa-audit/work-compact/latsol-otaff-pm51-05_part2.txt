@@ -1,0 +1,75 @@
+# AUDIT SHEET: latsol-otaff-pm51-05 (Latsol OTAFF SSW PM Modul 5.1 - Paket 05) | Batch qa-batch-11 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=otaff-pm51-05-q005 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.12 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>入<rt>はい</rt></ruby>っていて<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>くことができないで<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってしまったものや、<ruby>製造<rt>せいぞう</rt></ruby>している<ruby>間<rt>あいだ</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってはいけないものが<ruby>入<rt>はい</rt></ruby>ってしまったものを<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Disebut apakah benda yang terdapat di dalam bahan baku dan tidak terbuang sehingga masuk ke makanan, atau benda yang tidak boleh masuk namun masuk selama proses produksi? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 12 (Bab 2.2(1), hal. 7 teks). Bobot: 3 poin. Kunci jawaban: A. Benda yang seharusnya tidak ada di dalam makanan namun terbawa dari bahan baku atau masuk selama proses produksi disebut 異物 (benda asing).
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-224] 入って(はいって) [inflected, df:入る] = masuk / terkandung | [kb-v2-p4-184] 取り除く(とりのぞく) [word] = menyingkirkan / membuang | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-1380690] 製造(せいぞう) [word] = produksi / manufaktur | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-v2-p2-104] 間(あいだ) [word] = antara / sela-sela | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-154] 言います(いいます) [inflected, df:言う] = mengucapkan / menyebut | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>異物<rt>いぶつ</rt></ruby>
+    TRANS: Benda asing (Ibutsu)
+    KOTOBA: [kb-1158020] 異物(いぶつ) [word] = benda asing
+  OPT B: HTML=<ruby>添加物<rt>てんかぶつ</rt></ruby>
+    TRANS: Bahan tambahan pangan (Tenkabutsu)
+    KOTOBA: [kb-otaff51-1246] 添加物(てんかぶつ) [noun] = bahan tambahan pangan
+  OPT C: HTML=<ruby>栄養素<rt>えいようそ</rt></ruby>
+    TRANS: Zat gizi (Eiyouso)
+    KOTOBA: [kb-1173990] 栄養(えいよう) [word] = nutrisi / zat gizi | [kb-ext-latsol-0086] 素(そ) [word] = unsur / bahan dasar
+
+=== #Q6 | ID=otaff-pm51-05-q006 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.14 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "4" missing in ID "Mulai 1 April 2026, bahan manakah yang baru ditambahkan ke dalam daftar 'Bahan y" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-1255430 "月": kotoba="つき" vs ruby="がつ"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 2026<ruby>年<rt>ねん</rt></ruby>4<ruby>月<rt>がつ</rt></ruby>1<ruby>日<rt>にち</rt></ruby>より、「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>に<ruby>準<rt>じゅん</rt></ruby>ずるもの（<ruby>表示<rt>ひょうじ</rt></ruby>を<ruby>推奨<rt>すいしょう</rt></ruby>・20<ruby>品目<rt>ひんもく</rt></ruby>）」に<ruby>新<rt>あたら</rt></ruby>しく<ruby>追加<rt>ついか</rt></ruby>されたものはどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mulai 1 April 2026, bahan manakah yang baru ditambahkan ke dalam daftar 'Bahan yang Setara dengan Bahan Baku Spesifik (Anjuran Pelabelan, 20 item)'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 14 (Bab 2.2(2)① Catatan Revisi 5.1, hal. 9 teks). Bobot: 3 poin. Kunci jawaban: B. Pada revisi 1 April 2026, カシューナッツ ditambahkan ke 特定原材料 (wajib, 9 item), dan ピスタチオ ditambahkan ke 特定原材料に準ずるもの (anjuran, 20 item).
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0689] 年(ねん) [noun] = tahun | [kb-1255430] 月(つき) [standalone_term] = Bulan dalam penanggalan kalender | [kb-otaff51-0710] 1日(いちにち) [noun] = satu hari | [kb-otaff51-0708] 特定原材料に準ずるもの(とくていげんざいりょうにじゅんずるもの) [compound_technical] = bahan pangan alergen anjuran label | [kb-1489610] 表示(ひょうじ) [word] = pelabelan / tampilan | [kb-1371120] 推奨(すいしょう) [word] = rekomendasi / dianjurkan | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-otaff51-0735] 新しく(あたらしく) [inflected_adj, df:新しい] = secara baru | [kb-1432460] 追加(ついか) [word] = penambahan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=くるみ
+    TRANS: Kacang kenari (walnut)
+    KOTOBA: [kb-latsol-7a3cad8dcb] くるみ(くるみ) [word] = kacang kenari (walnut)
+  OPT B: HTML=ピスタチオ
+    TRANS: Kacang pistachio
+    KOTOBA: [kb-pilot51-115] ピスタチオ(ぴすたちお) [noun_allergen] = kacang pistachio
+  OPT C: HTML=えび
+    TRANS: Udang
+    KOTOBA: [kb-latsol-fb20898730] えび(えび) [word] = udang
+
+=== #Q7 | ID=otaff-pm51-05-q007 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.13 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギー<ruby>反応<rt>はんのう</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>になる「アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>」の<ruby>別<rt>べつ</rt></ruby>の<ruby>呼<rt>よ</rt></ruby>び<ruby>方<rt>かた</rt></ruby>（カタカナ）は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah sebutan lain (dalam Katakana) untuk 'zat alergi (arerugii busshitsu)' yang menjadi penyebab reaksi alergi? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 13 (Bab 2.2(2)①, hal. 8 teks). Bobot: 3 poin. Kunci jawaban: C. 「アレルギー物質」とは、アレルギー反応の原因になる物質で、アレルゲンとも言います.
+  INLINE_KOTOBA_COUNT: 14
+  KOTOBA_PROMPT: [kb-otaff51-0035] アレルギー反応(あれるぎーはんのう) [compound_technical] = reaksi alergi | [kb-1261190] 原因(げんいん) [word] = penyebab | [kb-u1416-61d9247d44] アレルギー物質(あれるぎーぶっしつ) [word] = zat alergen | [kb-v2-p1-294] 別(べつ) [word] = lain / terpisah | [kb-otaff51-1247] 呼び方(よびかた) [noun] = cara menyebut / istilah lain | [kb-otaff51-0933] カタカナ(かたかな) [noun] = huruf katakana | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=ドリップ
+    TRANS: Drip
+    KOTOBA: [kb-otaff51-0059] ドリップ(どりっぷ) [compound_technical] = cairan daging/ikan saat pencairan (drip)
+  OPT B: HTML=ハサップ
+    TRANS: HACCP
+    KOTOBA: [kb-v2-p3-174] ハサップ(-) [technical] = HACCP
+  OPT C: HTML=アレルゲン
+    TRANS: Alergen (Arerugen)
+    KOTOBA: [kb-otaff51-0037] アレルゲン(あれるげん) [noun] = alergen
+
+=== #Q8 | ID=otaff-pm51-05-q008 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.15 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ソラニンを<ruby>含<rt>ふく</rt></ruby>んだじゃがいもを<ruby>食<rt>た</rt></ruby>べたときに<ruby>起<rt>お</rt></ruby>こる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu gejala utama keracunan makanan yang muncul ketika memakan kentang yang mengandung solanin.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 15 (Bab 2.2(2)③, hal. 10 teks). Bobot: 3 poin. Kunci jawaban: A. Memakan makanan yang mengandung solanin menyebabkan gejala keracunan makanan berupa 吐き気、おう吐、下痢、腹痛、頭痛 (mual, muntah, diare, sakit perut, dan sakit kepala).
+  INLINE_KOTOBA_COUNT: 26
+  KOTOBA_PROMPT: [kb-latsol-54090265ff] ソラニン(そらにん) [word] = solanin (racun tunas kentang) | [kb-otaff51-1248] 含んだ(ふくんだ) [inflected_verb, df:含む] = mengandung | [kb-latsol-c80d196ddf] じゃがいも(じゃがいも) [word] = kentang | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p3-244] 起こる(おこる) [word] = terjadi | [kb-1609950] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-1351030] 症状(しょうじょう) [word] = gejala | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おう<ruby>吐<rt>と</rt></ruby>、<ruby>下痢<rt>げり</rt></ruby>、<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>頭痛<rt>ずつう</rt></ruby>
+    TRANS: Mual, muntah, diare, sakit perut, dan sakit kepala
+    KOTOBA: [kb-v2-p3-221] 吐き気(はきけ) [word] = mual | [kb-1565520] おう吐(おうと) [word] = muntah | [kb-1186540] 下痢(げり) [word] = diare | [kb-1501230] 腹痛(ふくつう) [word] = sakit perut | [kb-1450890] 頭痛(ずつう) [word] = sakit kepala / pusing
+  OPT B: HTML=<ruby>難聴<rt>なんちょう</rt></ruby>、<ruby>腰痛<rt>ようつう</rt></ruby>、<ruby>捻挫<rt>ねんざ</rt></ruby>
+    TRANS: Gangguan pendengaran, sakit pinggang, dan keseleo
+    KOTOBA: [kb-otaff51-0631] 難聴(なんちょう) [compound_technical] = gangguan pendengaran / ketulian | [kb-1288430] 腰痛(ようつう) [word] = nyeri pinggang | [kb-1469540] 捻挫(ねんざ) [word] = keseleo / terkilir sendi
+  OPT C: HTML=ケガによる<ruby>骨折<rt>こっせつ</rt></ruby>や<ruby>圧傷<rt>あっしょう</rt></ruby>
+    TRANS: Patah tulang dan cedera remuk akibat kecelakaan
+    KOTOBA: [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-1249] 骨折(こっせつ) [noun] = patah tulang | [kb-otaff51-0240] 圧傷(あっしょう) [compound_technical] = cedera remuk / tertimpa pada kaki

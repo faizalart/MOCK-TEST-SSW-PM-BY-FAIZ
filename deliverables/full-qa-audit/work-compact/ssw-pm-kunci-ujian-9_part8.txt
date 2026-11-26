@@ -1,0 +1,72 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-9 (Soal Ujian 9 — CBTP Gino1) | Batch qa-batch-02 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=kunci-ujian-9-q029 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0521 (やぶら): "dan minyak (typo: やあぶら)" || [JP_DOUBLE_PARTICLE@opt:B] Potential doubled/colliding particle
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうじょうでころばないために、まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu tindakan yang salah untuk mencegah terjatuh (terpeleset) di area kerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 5, Câu 29 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-audit-0843] ころばない(ころばない) [inflected_verb, df:転ぶ] = agar tidak jatuh / terpeleset | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ゆかにこぼれたみずやぶらは、すぐにふきとる。
+    TRANS: Segera mengelap air atau minyak yang tumpah di lantai.
+    KOTOBA: [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-v2-p2-115] こぼれた(-) [inflected, df:こぼれる] = tumpah | [kb-audit-0347] みず(みず) [word] = air (水) | [kb-audit-0521] やぶら(やぶら) [word] = dan minyak (typo: やあぶら) | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p2-116] ふきとる(-) [word] = mengelap hingga bersih | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=くつは、うらのみぞがちいさくなくなったものをはく。
+    TRANS: Memakai sepatu yang alur telapak bawahnya sudah menipis/hilang.
+    KOTOBA: [kb-audit-0198] くつ(くつ) [word] = sepatu / alas kaki (靴) | [kb-audit-0844] うら(うら) [word] = bagian bawah / sol | [kb-audit-1170] みぞ(みぞ) [word] = alur sol sepatu (溝) | [kb-audit-0845] ちいさく(ちいさく) [inflected_adj, df:小さい] = menjadi kecil | [kb-audit-1171] なくなった(なくなった) [inflected_verb, df:なくなる] = telah hilang / tidak lagi | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-1084] はく(はく) [inflected_verb, df:履く] = memakai alas kaki (履く) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=かいだんをのぼるときは、てすりをつかむ。
+    TRANS: Memegang pegangan tangga (handrail) saat menaiki tangga.
+    KOTOBA: [kb-v2-p6-606] かいだん(-) [word] = tangga | [kb-v2-p2-142] のぼる(-) [word] = naik (tangga) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-audit-0281] てすり(てすり) [word] = pegangan tangga / handrail (手すり) | [kb-v2-p2-143] つかむ(-) [word] = menggenggam / berpegangan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q30 | ID=kunci-ujian-9-q030 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p6-608 (ほこ): "debu (typo: ほこり)" || [KANJI_WITHOUT_RUBY@opt:C] 持, 出
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうぎやこうじょうないこのくつでそとへでてはいけないりゆうのうち、まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara alasan mengapa tidak boleh keluar pabrik dengan mengenakan pakaian kerja dan sepatu khusus dalam pabrik, pilihlah satu yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 5, Câu 30 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0648] さぎょうぎ(さぎょうぎ) [word] = pakaian kerja | [kb-audit-0795] こうじょう(こうじょう) [word] = pabrik | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-0198] くつ(くつ) [word] = sepatu / alas kaki (靴) | [kb-audit-0645] そと(そと) [word] = luar / bagian luar | [kb-audit-1151] でてはいけない(でてはいけない) [expression] = tidak boleh keluar (出る) | [kb-v2-p6-565] りゆう(-) [word] = alasan | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-341] へ(-) [particle] = ke (arah tujuan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=そとのほこやよごれをさぎょうぎやくつにつけないため。
+    TRANS: Agar debu dan kotoran dari luar tidak menempel pada pakaian kerja dan sepatu.
+    KOTOBA: [kb-audit-0645] そと(そと) [word] = luar / bagian luar | [kb-v2-p6-608] ほこ(-) [word] = debu (typo: ほこり) | [kb-audit-0229] よごれ(よごれ) [word] = kotoran / noda (汚れ) | [kb-audit-0648] さぎょうぎ(さぎょうぎ) [word] = pakaian kerja | [kb-audit-0198] くつ(くつ) [word] = sepatu / alas kaki (靴) | [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=そとのびせいぶつをこうじょうないにもちこませないため。
+    TRANS: Agar mikroorganisme dari luar tidak terbawa masuk ke dalam pabrik.
+    KOTOBA: [kb-audit-0645] そと(そと) [word] = luar / bagian luar | [kb-v2-p6-561] びせいぶつ(-) [technical] = mikroorganisme | [kb-audit-0795] こうじょう(こうじょう) [word] = pabrik | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-audit-0751] もちこませない(もちこませない) [inflected_verb, df:持ち込む] = tidak membiarkan terbawa masuk | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=こうじょうないのよごれやびせいぶつをそとに持ち出すため。
+    TRANS: Untuk membawa kotoran dan mikroorganisme dari dalam pabrik ke luar.
+    KOTOBA: [kb-audit-0795] こうじょう(こうじょう) [word] = pabrik | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-audit-0229] よごれ(よごれ) [word] = kotoran / noda (汚れ) | [kb-v2-p6-561] びせいぶつ(-) [technical] = mikroorganisme | [kb-audit-0645] そと(そと) [word] = luar / bagian luar | [kb-v2-p2-137] 持ち出す(もちだす) [word] = membawa keluar | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q31 | ID=kunci-ujian-9-q031 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.6 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: かきは300gのパンのはいごうれいです。このはいごうにしたがうとこむぎこ5kgからどれだけのパンをつくることができますか。こむぎこ: 200<br>しょくえん: 20みず: 80
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di bawah ini adalah contoh komposisi untuk 300 g roti. Berdasarkan komposisi ini, berapa banyak roti yang dapat dibuat dari 5 kg tepung terigu? Tepung terigu: 200 g, Garam: 20 g, Air: 80 g.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 6, Câu 31 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0966] かき(かき) [noun] = tiram | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-audit-0680] はいごう(はいごう) [word] = takaran / formula bahan | [kb-audit-0681] れい(れい) [word] = contoh / ilustrasi | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-1055] したがうと(したがうと) [expression] = jika mengikuti (従う) | [kb-audit-0282] こむぎこ(こむぎこ) [word] = tepung terigu (小麦粉) | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-audit-0421] つくる(つくる) [word] = membuat / memproduksi (作る) | [kb-audit-1057] ことができます(ことができます) [expression] = dapat / bisa melakukan | [kb-v2-p5-429] しょくえん(-) [word] = garam dapur (bacaan 食塩) | [kb-audit-0347] みず(みず) [word] = air (水) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=7kg
+    TRANS: 7 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=6kg
+    TRANS: 6 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=7.5kg
+    TRANS: 7,5 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+
+=== #Q32 | ID=kunci-ujian-9-q032 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.6 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: かきは5このぎょうざのはいごうれいです。このはいごうにしたがうとぶたひきにく1.2㎏からどれだけのぎょうざをつくることができますか。ぶたひきにく:<br>200gキャベツ: 200gみりん: 6g
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di bawah ini adalah contoh komposisi untuk 5 buah gyoza. Berdasarkan komposisi ini, berapa buah gyoza yang dapat dibuat dari 1,2 kg daging babi cincang? Daging babi cincang: 200 g, Kubis: 200 g, Mirin: 6 g.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 6, Câu 32 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0966] かき(かき) [noun] = tiram | [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-0727] ぎょうざ(ぎょうざ) [word] = gyoza / pangsit | [kb-audit-0680] はいごう(はいごう) [word] = takaran / formula bahan | [kb-audit-0681] れい(れい) [word] = contoh / ilustrasi | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-audit-1055] したがうと(したがうと) [expression] = jika mengikuti (従う) | [kb-audit-0728] ぶたひきにく(ぶたひきにく) [word] = daging babi giling | [kb-v2-p1-306] ㎏(きろぐらむ) [word] = kilogram (kg) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-audit-0421] つくる(つくる) [word] = membuat / memproduksi (作る) | [kb-audit-1057] ことができます(ことができます) [expression] = dapat / bisa melakukan | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-v2-p6-227] キャベツ(-) [word] = kubis / kol | [kb-u1416-cfd27aa9e4] みりん(みりん) [word] = mirin (bumbu masak manis) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=25こ
+    TRANS: 25 buah
+    KOTOBA: [kb-audit-0355] 25こ(にじゅうごこ) [word] = dua puluh lima buah (25個)
+  OPT B: HTML=27こ
+    TRANS: 27 buah
+    KOTOBA: [kb-audit-0356] 27こ(にじゅうななこ) [word] = dua puluh tujuh buah (27個)
+  OPT C: HTML=30こ
+    TRANS: 30 buah
+    KOTOBA: [kb-audit-0357] 30こ(さんじゅっこ) [word] = tiga puluh buah (30個)

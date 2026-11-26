@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-3 (Soal Ujian 3 — CBTP Gino1) | Batch qa-batch-01 | Part 6 (Q21-24 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=kunci-ujian-3-q021 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.4 ===
+  CLUSTER CL-0079 (n=3, diffPrompt=false, diffOpt=false, diffTrans=false): twins=kunci-ujian-7-q014 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q019 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>石<rt>いし</rt></ruby>やガラスなどを<ruby>検査<rt>けんさ</rt></ruby>する<ruby>機械<rt>きかい</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mesin manakah yang digunakan untuk memeriksa benda asing seperti batu atau kaca?
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 4, Câu 21 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0468] 石(いし) [noun] = batu | [kb-v2-p1-057] ガラス(-) [word] = kaca | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>
+    TRANS: Detektor logam
+    KOTOBA: [kb-ext-0411-e98791e5b1] 金属検出器(きんぞくけんしゅつき) [compound_technical] = detektor logam
+  OPT B: HTML=Ｘ<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>
+    TRANS: Detektor benda asing sinar-X (X-ray)
+    KOTOBA: [kb-v2-p5-079] Ｘ線異物検出器(えっくすせんいぶつけんしゅつき) [compound_technical] = detektor benda asing sinar-X
+  OPT C: HTML=<ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>、X<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>
+    TRANS: Detektor logam dan detektor benda asing sinar-X (X-ray)
+    KOTOBA: [kb-ext-0411-e98791e5b1] 金属検出器(きんぞくけんしゅつき) [compound_technical] = detektor logam | [kb-ext-0003-58e7b79ae7] X線異物検出器(せんいぶつけんしゅつき) [word] = detektor benda asing sinar-X
+
+=== #Q22 | ID=kunci-ujian-3-q022 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.4 ===
+  CLUSTER CL-0080 (n=4, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-7-q015 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q020 (ssw-pm-kunci-ujian-14), nguyen03-q022 (latsol-nguyen-03)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>主<rt>おも</rt></ruby>な<ruby>冷却方法<rt>れいきゃくほうほう</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang termasuk metode pendinginan utama? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 4, Câu 22 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-1778-e586b7e58d] 冷却方法(れいきゃくほうほう) [word] = metode pendinginan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>風<rt>かぜ</rt></ruby>をあてて<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan mengembuskan angin dingin
+    KOTOBA: [kb-v2-p5-162] 風(かぜ) [word] = angin / udara | [kb-otaff51-0760] あてて(あてて) [inflected_verb, df:あてる] = mengalirkan / mengenakan ke | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>冷水<rt>れいすい</rt></ruby>で<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan air dingin
+    KOTOBA: [kb-otaff51-0166] 冷水(れいすい) [noun] = air dingin | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>製氷機<rt>せいひょうき</rt></ruby>に<ruby>入<rt>い</rt></ruby>れて<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan memasukkan ke dalam mesin pembuat es (ice maker)
+    KOTOBA: [kb-1784830] 製氷機(せいひょうき) [word] = mesin pembuat es batu | [kb-v2-p2-012] 入れて(いれて) [inflected, df:入れる] = memasukkan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q23 | ID=kunci-ujian-3-q023 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.4 ===
+  CLUSTER CL-0081 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q021 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>増殖<rt>ぞうしょく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、なにをするべきですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan untuk mencegah perkembangbiakan mikroorganisme? Pilihlah jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 4, Câu 23 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-256] なに(-) [word] = apa | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>、<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>測定<rt>そくてい</rt></ruby>する。
+    TRANS: Mengukur suhu kulkas dan freezer secara berkala.
+    KOTOBA: [kb-otaff51-0271] 定期的(ていきてき) [adjective] = secara berkala / rutin | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-1404570] 測定(そくてい) [word] = pengukuran | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>をゆっくり<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Mendinginkan pangan yang telah dipanaskan secara perlahan-lahan.
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>後<rt>あと</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>をできるだけ<ruby>速<rt>はや</rt></ruby>く<ruby>冷<rt>ひ</rt></ruby>やす。
+    TRANS: Mendinginkan pangan setelah pemanasan secepat mungkin.
+    KOTOBA: [kb-v2-p2-185] 加熱した(かねつした) [inflected, df:加熱する] = yang telah dipanaskan | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-280] できるだけ(-) [expression] = sebisa mungkin | [kb-v2-p5-327] 速く(はやく) [inflected, df:速い] = cepat | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q24 | ID=kunci-ujian-3-q024 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 3.pdf p.4 ===
+  CLUSTER CL-0082 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-7-q017 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q022 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギーの<ruby>発症件数<rt>はっしょうけんすう</rt></ruby>が<ruby>特<rt>とく</rt></ruby>に<ruby>多<rt>おお</rt></ruby>い8<ruby>種類<rt>しゅるい</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah 8 jenis bahan pangan yang memiliki jumlah kasus alergi paling banyak (bahan baku spesifik)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 3.pdf (Halaman 4, Câu 24 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p2-018] アレルギー(-) [technical] = alergi | [kb-ext-1453-e799bae797] 発症件数(はっしょうけんすう) [word] = jumlah kasus kejadian | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-1328890] 種類(しゅるい) [word] = jenis / macam | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=そば、たまご、<ruby>落花生<rt>らっかせい</rt></ruby>、<ruby>小麦<rt>こむぎ</rt></ruby>、<ruby>玉<rt>たま</rt></ruby>ねぎ、えび、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>,くるみ
+    TRANS: Soba, telur, kacang tanah, gandum, bawang bombai, udang, daging sapi, kenari (walnut)
+    KOTOBA: [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut) | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-v2-p2-055] 玉ねぎ(たまねぎ) [word] = bawang bombai | [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)
+  OPT B: HTML=えび、かに、<ruby>牡蠣<rt>かき</rt></ruby>、にんじん、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、りんご、オレンジ、くるみ
+    TRANS: Udang, kepiting, tiram, wortel, daging sapi, apel, jeruk, kenari (walnut)
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p2-056] にんじん(-) [word] = wortel | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi | [kb-otaff51-0030] りんご(りんご) [noun] = apel | [kb-v2-p2-057] オレンジ(-) [word] = jeruk | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)
+  OPT C: HTML=えび、かに、<ruby>小麦<rt>こむぎ</rt></ruby>、そば、たまご、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>、くるみ
+    TRANS: Udang, kepiting, gandum, soba, telur, susu, kacang tanah, kenari (walnut)
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut) | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)

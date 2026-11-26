@@ -1,0 +1,2958 @@
+{
+  "batchId": "qa-batch-10",
+  "setId": "latsol-hitungan-01",
+  "questionCount": 11,
+  "flaggedQuestions": 11,
+  "totalFlags": 12,
+  "flagCounts": {
+    "PROMPT_QUESTIONTEXT_DESYNC": 11,
+    "JP_NACLO_DIGIT": 1
+  },
+  "questions": [
+    {
+      "id": "hitungan01-q001",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 1,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 1,
+      "category": "",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>5%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、100ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を2Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "濃度5%NaCl溶液があります、100ppmのNaCl溶液を2Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "questionText": "濃度(のうど)5%NACL 溶液(ようえき)があります、100ppmのNACL 溶液(ようえき)を2Lを作(つく)るときに、この溶液(ようえき)と水 (みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 5%. Saat membuat 2 L larutan NaCl 100 ppm, berapa ml masing-masing larutan pekat ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 1, nomor 1. Bobot: 13.64 poin. Kunci jawaban: A. Verifikasi Hitungan: 100 ppm = 0,01%; 2 L = 2000 ml. Larutan = (2000 × 0,01%) / 5% = 4 ml; Air = 2000 - 4 = 1996 ml (Opsi A).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0415",
+          "kanji": "濃度",
+          "furigana": "のうど",
+          "arti": "konsentrasi / kepekatan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0186",
+          "kanji": "%",
+          "furigana": "",
+          "arti": "persen (satuan persentase %)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0175",
+          "kanji": "NaCl",
+          "furigana": "nacl",
+          "arti": "Natrium klorida / garam dapur (NaCl)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0411",
+          "kanji": "溶液",
+          "furigana": "ようえき",
+          "arti": "larutan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0699",
+          "kanji": "ppm",
+          "furigana": "ぴーぴーえむ",
+          "arti": "bagian per juta (ppm)",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-liter",
+          "kanji": "L",
+          "furigana": "りっとる",
+          "arti": "liter (satuan volume cairan)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-303",
+          "kanji": "ときに",
+          "furigana": "",
+          "arti": "pada saat / ketika",
+          "unitType": "particle",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0369",
+          "kanji": "水",
+          "furigana": "みず",
+          "arti": "air",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-276",
+          "kanji": "それぞれ",
+          "furigana": "",
+          "arti": "masing-masing",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2846738",
+          "kanji": "何",
+          "furigana": "なん",
+          "arti": "Berapa / apa",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-021",
+          "kanji": "ml",
+          "furigana": "",
+          "arti": "mililiter",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1996ml",
+          "plain": "溶液4ml、水1996ml",
+          "translation": "Larutan 4 ml, air 1996 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>5ml、<ruby>水<rt>みず</rt></ruby>196ml",
+          "plain": "溶液5ml、水196ml",
+          "translation": "Larutan 5 ml, air 196 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>6ml、<ruby>水<rt>みず</rt></ruby>206ml",
+          "plain": "溶液6ml、水206ml",
+          "translation": "Larutan 6 ml, air 206 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 1, nomor 1. Bobot: 13.64 poin. Kunci jawaban: A. Verifikasi Hitungan: 100 ppm = 0,01%; 2 L = 2000 ml. Larutan = (2000 × 0,01%) / 5% = 4 ml; Air = 2000 - 4 = 1996 ml (Opsi A).), hasil yang tepat adalah Opsi A (\"溶液4ml、水1996ml\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"濃度5%NaCl溶液があります、100ppmのNaCl溶液を2Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさい\" vs questionText=\"濃度(のうど)5%NACL 溶液(ようえき)があります、100ppmのNACL 溶液(ようえき)を2Lを作(つく)るときに、この溶液(ようえ\""
+        }
+      ],
+      "cluster": {
+        "clusterId": "CL-0267",
+        "size": 2,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": true,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": true
+        },
+        "twins": [
+          "hitungan01-q005 (latsol-hitungan-01)"
+        ]
+      }
+    },
+    {
+      "id": "hitungan01-q002",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 2,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 1,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>2%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、200ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を1Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "濃度2%NaCl溶液があります、200ppmのNaCl溶液を1Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "questionText": "濃度(のうど)2%NACL 溶液(ようえき)があります、200ppmのNACL 溶液(ようえき)を 1L を作(つく)るときに、この溶液(ようえき)と水 (みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 2%. Saat membuat 1 L larutan NaCl 200 ppm, berapa ml masing-masing larutan pekat ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 1, nomor 2. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 200 ppm = 0,02%; 1 L = 1000 ml. Larutan = (1000 × 0,02%) / 2% = 10 ml; Air = 1000 - 10 = 990 ml (Opsi B).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0415",
+          "kanji": "濃度",
+          "furigana": "のうど",
+          "arti": "konsentrasi / kepekatan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0186",
+          "kanji": "%",
+          "furigana": "",
+          "arti": "persen (satuan persentase %)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0175",
+          "kanji": "NaCl",
+          "furigana": "nacl",
+          "arti": "Natrium klorida / garam dapur (NaCl)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0411",
+          "kanji": "溶液",
+          "furigana": "ようえき",
+          "arti": "larutan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0699",
+          "kanji": "ppm",
+          "furigana": "ぴーぴーえむ",
+          "arti": "bagian per juta (ppm)",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-liter",
+          "kanji": "L",
+          "furigana": "りっとる",
+          "arti": "liter (satuan volume cairan)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-303",
+          "kanji": "ときに",
+          "furigana": "",
+          "arti": "pada saat / ketika",
+          "unitType": "particle",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0369",
+          "kanji": "水",
+          "furigana": "みず",
+          "arti": "air",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-276",
+          "kanji": "それぞれ",
+          "furigana": "",
+          "arti": "masing-masing",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2846738",
+          "kanji": "何",
+          "furigana": "なん",
+          "arti": "Berapa / apa",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-021",
+          "kanji": "ml",
+          "furigana": "",
+          "arti": "mililiter",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 5ml、<ruby>水<rt>みず</rt></ruby>995ml",
+          "plain": "溶液 5ml、水995ml",
+          "translation": "Larutan 5 ml, air 995 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 10ml、<ruby>水<rt>みず</rt></ruby>990ml",
+          "plain": "溶液 10ml、水990ml",
+          "translation": "Larutan 10 ml, air 990 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 15ml、<ruby>水<rt>みず</rt></ruby>985ml",
+          "plain": "溶液 15ml、水985ml",
+          "translation": "Larutan 15 ml, air 985 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 1, nomor 2. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 200 ppm = 0,02%; 1 L = 1000 ml. Larutan = (1000 × 0,02%) / 2% = 10 ml; Air = 1000 - 10 = 990 ml (Opsi B).), hasil yang tepat adalah Opsi B (\"溶液 10ml、水990ml\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"濃度2%NaCl溶液があります、200ppmのNaCl溶液を1Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさい\" vs questionText=\"濃度(のうど)2%NACL 溶液(ようえき)があります、200ppmのNACL 溶液(ようえき)を 1L を作(つく)るときに、この溶液(よ\""
+        }
+      ],
+      "cluster": {
+        "clusterId": "CL-0268",
+        "size": 3,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": true,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": true
+        },
+        "twins": [
+          "hitungan01-q003 (latsol-hitungan-01)",
+          "hitungan01-q006 (latsol-hitungan-01)"
+        ]
+      }
+    },
+    {
+      "id": "hitungan01-q003",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 3,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 1,
+      "category": "",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>0,2%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、300ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を1Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "濃度0,2%NaCl溶液があります、300ppmのNaCl溶液を1Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "questionText": "濃度(のうど)0,2%NACL溶液(ようえき)があります、300ppmのNACL 溶液(ようえき) を 1L を作(つく)るときに、この溶液(ようえき)と水 (みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 0,2%. Saat membuat 1 L larutan NaCl 300 ppm, berapa ml masing-masing larutan ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 1, nomor 3. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: 300 ppm = 0,03%; 1 L = 1000 ml. Larutan = (1000 × 0,03%) / 0,2% = 150 ml; Air = 1000 - 150 = 850 ml (Opsi C).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0415",
+          "kanji": "濃度",
+          "furigana": "のうど",
+          "arti": "konsentrasi / kepekatan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0186",
+          "kanji": "%",
+          "furigana": "",
+          "arti": "persen (satuan persentase %)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0175",
+          "kanji": "NaCl",
+          "furigana": "nacl",
+          "arti": "Natrium klorida / garam dapur (NaCl)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0411",
+          "kanji": "溶液",
+          "furigana": "ようえき",
+          "arti": "larutan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0699",
+          "kanji": "ppm",
+          "furigana": "ぴーぴーえむ",
+          "arti": "bagian per juta (ppm)",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-liter",
+          "kanji": "L",
+          "furigana": "りっとる",
+          "arti": "liter (satuan volume cairan)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-303",
+          "kanji": "ときに",
+          "furigana": "",
+          "arti": "pada saat / ketika",
+          "unitType": "particle",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0369",
+          "kanji": "水",
+          "furigana": "みず",
+          "arti": "air",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-276",
+          "kanji": "それぞれ",
+          "furigana": "",
+          "arti": "masing-masing",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2846738",
+          "kanji": "何",
+          "furigana": "なん",
+          "arti": "Berapa / apa",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-021",
+          "kanji": "ml",
+          "furigana": "",
+          "arti": "mililiter",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 1,5ml、<ruby>水<rt>みず</rt></ruby>998,5ml",
+          "plain": "溶液 1,5ml、水998,5ml",
+          "translation": "Larutan 1,5 ml, air 998,5 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 105ml、<ruby>水<rt>みず</rt></ruby>985ml",
+          "plain": "溶液 105ml、水985ml",
+          "translation": "Larutan 105 ml, air 985 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 150ml、<ruby>水<rt>みず</rt></ruby>850ml",
+          "plain": "溶液 150ml、水850ml",
+          "translation": "Larutan 150 ml, air 850 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 1, nomor 3. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: 300 ppm = 0,03%; 1 L = 1000 ml. Larutan = (1000 × 0,03%) / 0,2% = 150 ml; Air = 1000 - 150 = 850 ml (Opsi C).), hasil yang tepat adalah Opsi C (\"溶液 150ml、水850ml\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"濃度0,2%NaCl溶液があります、300ppmのNaCl溶液を1Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びな\" vs questionText=\"濃度(のうど)0,2%NACL溶液(ようえき)があります、300ppmのNACL 溶液(ようえき) を 1L を作(つく)るときに、この溶液\""
+        }
+      ],
+      "cluster": {
+        "clusterId": "CL-0268",
+        "size": 3,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": true,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": true
+        },
+        "twins": [
+          "hitungan01-q002 (latsol-hitungan-01)",
+          "hitungan01-q006 (latsol-hitungan-01)"
+        ]
+      }
+    },
+    {
+      "id": "hitungan01-q004",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 4,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 1,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>25%の<ruby>次亜塩酸<rt>じあえんさん</rt></ruby>ナトリウム(NaClO)<ruby>溶液<rt>ようえき</rt></ruby>があります。400ppmの<ruby>次亜塩酸<rt>じあえんさん</rt></ruby>ナトリウム(NaClO)<ruby>溶液<rt>ようえき</rt></ruby>を1L<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>ml<ruby>必要<rt>ひつよう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "濃度25%の次亜塩酸ナトリウム(NaClO)溶液があります。400ppmの次亜塩酸ナトリウム(NaClO)溶液を1L作る時に、この溶液と水はそれぞれ何ml必要ですか。正しいものを一つ選びなさい。",
+      "questionText": "濃度(のうど)25%のじあえんさん次亜塩酸ナトリウム(NaCIO) よう えき溶液があります。400ppmのじあえんさん 次亜塩酸ナトリウム (NaCIO) ようえき溶液を1Lつく作るとき時に、 このようえき溶液とみず水はそれぞれなん何ml ひつよう 必要 ですか。 ただ正しいものをひと一つえら選びなさい。",
+      "promptTranslation": "Terdapat larutan natrium hipoklorit (NaClO) dengan konsentrasi 25%. Saat membuat 1 L larutan natrium hipoklorit (NaClO) 400 ppm, berapa ml masing-masing larutan ini dan air yang diperlukan? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 1, nomor 4. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 400 ppm = 0,04%; 1 L = 1000 ml. Larutan = (1000 × 0,04%) / 25% = 1,6 ml; Air = 1000 - 1,6 = 998,4 ml (Opsi B).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0415",
+          "kanji": "濃度",
+          "furigana": "のうど",
+          "arti": "konsentrasi / kepekatan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0186",
+          "kanji": "%",
+          "furigana": "",
+          "arti": "persen (satuan persentase %)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-5f76041d39",
+          "kanji": "次亜塩酸ナトリウム",
+          "furigana": "じあえんさんなとりうむ",
+          "arti": "natrium hipoklorit (klorin)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-019",
+          "kanji": "NaClO",
+          "furigana": "",
+          "arti": "natrium hipoklorit",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0411",
+          "kanji": "溶液",
+          "furigana": "ようえき",
+          "arti": "larutan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0699",
+          "kanji": "ppm",
+          "furigana": "ぴーぴーえむ",
+          "arti": "bagian per juta (ppm)",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-liter",
+          "kanji": "L",
+          "furigana": "りっとる",
+          "arti": "liter (satuan volume cairan)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0015",
+          "kanji": "時に",
+          "furigana": "ときに",
+          "arti": "ketika / pada saat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0369",
+          "kanji": "水",
+          "furigana": "みず",
+          "arti": "air",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-276",
+          "kanji": "それぞれ",
+          "furigana": "",
+          "arti": "masing-masing",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2846738",
+          "kanji": "何",
+          "furigana": "なん",
+          "arti": "Berapa / apa",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-021",
+          "kanji": "ml",
+          "furigana": "",
+          "arti": "mililiter",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0299",
+          "kanji": "必要",
+          "furigana": "ひつよう",
+          "arti": "perlu / dibutuhkan",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>1ml、<ruby>水<rt>みず</rt></ruby>999ml",
+          "plain": "溶液1ml、水999ml",
+          "translation": "Larutan 1 ml, air 999 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>1.6ml、<ruby>水<rt>みず</rt></ruby>998.4ml",
+          "plain": "溶液1.6ml、水998.4ml",
+          "translation": "Larutan 1,6 ml, air 998,4 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>6.25ml、<ruby>水<rt>みず</rt></ruby>993.75ml",
+          "plain": "溶液6.25ml、水993.75ml",
+          "translation": "Larutan 6,25 ml, air 993,75 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 1, nomor 4. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 400 ppm = 0,04%; 1 L = 1000 ml. Larutan = (1000 × 0,04%) / 25% = 1,6 ml; Air = 1000 - 1,6 = 998,4 ml (Opsi B).), hasil yang tepat adalah Opsi B (\"溶液1.6ml、水998.4ml\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"濃度25%の次亜塩酸ナトリウム(NaClO)溶液があります。400ppmの次亜塩酸ナトリウム(NaClO)溶液を1L作る時に、この溶液と水は\" vs questionText=\"濃度(のうど)25%のじあえんさん次亜塩酸ナトリウム(NaCIO) よう えき溶液があります。400ppmのじあえんさん 次亜塩酸ナトリウム\""
+        },
+        {
+          "code": "JP_NACLO_DIGIT",
+          "context": "prompt",
+          "detail": "Suspicious NaClO OCR spelling"
+        }
+      ],
+      "cluster": {
+        "clusterId": "CL-0216",
+        "size": 3,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": true,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": true
+        },
+        "twins": [
+          "bonus-soal-5-q032 (bonus-soal-5)",
+          "nguyen05-q032 (latsol-nguyen-05)"
+        ]
+      }
+    },
+    {
+      "id": "hitungan01-q005",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 5,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 2,
+      "category": "",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>15%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、200ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を2Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "濃度15%NaCl溶液があります、200ppmのNaCl溶液を2Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "questionText": "濃度(のうど) 15% NACL 溶液(ようえき)があります、200ppmの NACL 溶液(ようえき)を2Lを作(つく)るときに、この溶液(ようえき) と水(みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 15%. Saat membuat 2 L larutan NaCl 200 ppm, berapa ml masing-masing larutan ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 2, nomor 5. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: 200 ppm = 0,02%; 2 L = 2000 ml. Larutan = (2000 × 0,02%) / 15% = 2,666... ml (dipotong 1 desimal menjadi 2,6 ml); Air = 2000 - 2,6 = 1997,4 ml (Opsi C).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0415",
+          "kanji": "濃度",
+          "furigana": "のうど",
+          "arti": "konsentrasi / kepekatan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0186",
+          "kanji": "%",
+          "furigana": "",
+          "arti": "persen (satuan persentase %)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0175",
+          "kanji": "NaCl",
+          "furigana": "nacl",
+          "arti": "Natrium klorida / garam dapur (NaCl)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0411",
+          "kanji": "溶液",
+          "furigana": "ようえき",
+          "arti": "larutan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0699",
+          "kanji": "ppm",
+          "furigana": "ぴーぴーえむ",
+          "arti": "bagian per juta (ppm)",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-liter",
+          "kanji": "L",
+          "furigana": "りっとる",
+          "arti": "liter (satuan volume cairan)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-303",
+          "kanji": "ときに",
+          "furigana": "",
+          "arti": "pada saat / ketika",
+          "unitType": "particle",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0369",
+          "kanji": "水",
+          "furigana": "みず",
+          "arti": "air",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-276",
+          "kanji": "それぞれ",
+          "furigana": "",
+          "arti": "masing-masing",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2846738",
+          "kanji": "何",
+          "furigana": "なん",
+          "arti": "Berapa / apa",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-021",
+          "kanji": "ml",
+          "furigana": "",
+          "arti": "mililiter",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 2ml、<ruby>水<rt>みず</rt></ruby>1990ml",
+          "plain": "溶液 2ml、水1990ml",
+          "translation": "Larutan 2 ml, air 1990 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 2,3ml、<ruby>水<rt>みず</rt></ruby>196,7ml",
+          "plain": "溶液 2,3ml、水196,7ml",
+          "translation": "Larutan 2,3 ml, air 196,7 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 2,6ml、<ruby>水<rt>みず</rt></ruby>1997,4ml",
+          "plain": "溶液 2,6ml、水1997,4ml",
+          "translation": "Larutan 2,6 ml, air 1997,4 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 2, nomor 5. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: 200 ppm = 0,02%; 2 L = 2000 ml. Larutan = (2000 × 0,02%) / 15% = 2,666... ml (dipotong 1 desimal menjadi 2,6 ml); Air = 2000 - 2,6 = 1997,4 ml (Opsi C).), hasil yang tepat adalah Opsi C (\"溶液 2,6ml、水1997,4ml\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"濃度15%NaCl溶液があります、200ppmのNaCl溶液を2Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさ\" vs questionText=\"濃度(のうど) 15% NACL 溶液(ようえき)があります、200ppmの NACL 溶液(ようえき)を2Lを作(つく)るときに、この溶液\""
+        }
+      ],
+      "cluster": {
+        "clusterId": "CL-0267",
+        "size": 2,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": true,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": true
+        },
+        "twins": [
+          "hitungan01-q001 (latsol-hitungan-01)"
+        ]
+      }
+    },
+    {
+      "id": "hitungan01-q006",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 6,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 2,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>10%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、150ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を1Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "濃度10%NaCl溶液があります、150ppmのNaCl溶液を1Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "questionText": "濃度(のうど) 10%NACL 溶液(ようえき)があります、150ppmの NACL 溶液(ようえき)を1Lを作(つく)るときに、この溶液(ようえき) と水(みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 10%. Saat membuat 1 L larutan NaCl 150 ppm, berapa ml masing-masing larutan ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 2, nomor 6. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 150 ppm = 0,015%; 1 L = 1000 ml. Larutan = (1000 × 0,015%) / 10% = 1,5 ml; Air = 1000 - 1,5 = 998,5 ml (Opsi B).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0415",
+          "kanji": "濃度",
+          "furigana": "のうど",
+          "arti": "konsentrasi / kepekatan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0186",
+          "kanji": "%",
+          "furigana": "",
+          "arti": "persen (satuan persentase %)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0175",
+          "kanji": "NaCl",
+          "furigana": "nacl",
+          "arti": "Natrium klorida / garam dapur (NaCl)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0411",
+          "kanji": "溶液",
+          "furigana": "ようえき",
+          "arti": "larutan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0699",
+          "kanji": "ppm",
+          "furigana": "ぴーぴーえむ",
+          "arti": "bagian per juta (ppm)",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-liter",
+          "kanji": "L",
+          "furigana": "りっとる",
+          "arti": "liter (satuan volume cairan)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-303",
+          "kanji": "ときに",
+          "furigana": "",
+          "arti": "pada saat / ketika",
+          "unitType": "particle",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0369",
+          "kanji": "水",
+          "furigana": "みず",
+          "arti": "air",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-276",
+          "kanji": "それぞれ",
+          "furigana": "",
+          "arti": "masing-masing",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2846738",
+          "kanji": "何",
+          "furigana": "なん",
+          "arti": "Berapa / apa",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-021",
+          "kanji": "ml",
+          "furigana": "",
+          "arti": "mililiter",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 4ml、<ruby>水<rt>みず</rt></ruby>995,8ml",
+          "plain": "溶液 4ml、水995,8ml",
+          "translation": "Larutan 4 ml, air 995,8 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 1,5ml、<ruby>水<rt>みず</rt></ruby>998,5ml",
+          "plain": "溶液 1,5ml、水998,5ml",
+          "translation": "Larutan 1,5 ml, air 998,5 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 1,2ml、<ruby>水<rt>みず</rt></ruby>203ml",
+          "plain": "溶液 1,2ml、水203ml",
+          "translation": "Larutan 1,2 ml, air 203 ml",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0411",
+              "kanji": "溶液",
+              "furigana": "ようえき",
+              "arti": "larutan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-021",
+              "kanji": "ml",
+              "furigana": "",
+              "arti": "mililiter",
+              "unitType": "abbreviation",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 2, nomor 6. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 150 ppm = 0,015%; 1 L = 1000 ml. Larutan = (1000 × 0,015%) / 10% = 1,5 ml; Air = 1000 - 1,5 = 998,5 ml (Opsi B).), hasil yang tepat adalah Opsi B (\"溶液 1,5ml、水998,5ml\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"濃度10%NaCl溶液があります、150ppmのNaCl溶液を1Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさ\" vs questionText=\"濃度(のうど) 10%NACL 溶液(ようえき)があります、150ppmの NACL 溶液(ようえき)を1Lを作(つく)るときに、この溶液(\""
+        }
+      ],
+      "cluster": {
+        "clusterId": "CL-0268",
+        "size": 3,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": true,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": true
+        },
+        "twins": [
+          "hitungan01-q002 (latsol-hitungan-01)",
+          "hitungan01-q003 (latsol-hitungan-01)"
+        ]
+      }
+    },
+    {
+      "id": "hitungan01-q007",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 7,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 2,
+      "category": "",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "500grのうどん<ruby>作<rt>つく</rt></ruby>るためには300gr<ruby>小麦粉<rt>こむぎこ</rt></ruby>、10gr<ruby>塩<rt>しお</rt></ruby>、190ml<ruby>水<rt>みず</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う。20kgのうどんを<ruby>作<rt>つく</rt></ruby>るため、<ruby>小麦粉<rt>こむぎこ</rt></ruby>が<ruby>何<rt>なん</rt></ruby>kgですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "500grのうどん作るためには300gr小麦粉、10gr塩、190ml水を使う。20kgのうどんを作るため、小麦粉が何kgですか、正しいものを一つ選びなさい。",
+      "questionText": "500gr のうどん作(つく)るためには 300gr 小麦粉(こむぎこ)、10gr 塩(しお)、190ml水(みず)を使(つか)う。20kgのうどんを作(つく) るため、小麦粉(こむぎこ)が何kgですか、正しいものを一つ選びな さい。",
+      "promptTranslation": "Untuk membuat 500 g udon, digunakan 300 g tepung terigu, 10 g garam, dan 190 ml air. Untuk membuat 20 kg udon, berapa kg tepung terigu yang dibutuhkan? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 2, nomor 7. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: (20.000 g / 500 g) × 300 g = 40 × 300 g = 12.000 g = 12 kg (Opsi C).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-audit-0433",
+          "kanji": "うどん",
+          "furigana": "うどん",
+          "arti": "mie udon",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-328",
+          "kanji": "ために",
+          "furigana": "",
+          "arti": "untuk / demi",
+          "unitType": "particle",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0282",
+          "kanji": "小麦粉",
+          "furigana": "こむぎこ",
+          "arti": "tepung terigu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p2-065",
+          "kanji": "塩",
+          "furigana": "しお",
+          "arti": "garam",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-021",
+          "kanji": "ml",
+          "furigana": "",
+          "arti": "mililiter",
+          "unitType": "abbreviation",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0369",
+          "kanji": "水",
+          "furigana": "みず",
+          "arti": "air",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-184",
+          "kanji": "使う",
+          "furigana": "つかう",
+          "arti": "menggunakan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-181",
+          "kanji": "kg",
+          "furigana": "",
+          "arti": "kilogram",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2846738",
+          "kanji": "何",
+          "furigana": "なん",
+          "arti": "Berapa / apa",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "10 kg",
+          "plain": "10 kg",
+          "translation": "10 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "11 kg",
+          "plain": "11 kg",
+          "translation": "11 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "12 kg",
+          "plain": "12 kg",
+          "translation": "12 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 2, nomor 7. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: (20.000 g / 500 g) × 300 g = 40 × 300 g = 12.000 g = 12 kg (Opsi C).), hasil yang tepat adalah Opsi C (\"12 kg\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"500grのうどん作るためには300gr小麦粉、10gr塩、190ml水を使う。20kgのうどんを作るため、小麦粉が何kgですか、正しいもの\" vs questionText=\"500gr のうどん作(つく)るためには 300gr 小麦粉(こむぎこ)、10gr 塩(しお)、190ml水(みず)を使(つか)う。20kg\""
+        }
+      ]
+    },
+    {
+      "id": "hitungan01-q008",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 8,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 3,
+      "category": "",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>下<rt>した</rt></ruby>は500gのラーメンの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>るときに、<ruby>小麦粉<rt>こむぎこ</rt></ruby>の20kgあれば、ラーメンは<ruby>何<rt>なん</rt></ruby>kgできますか。<ruby>小麦粉<rt>こむぎこ</rt></ruby>: 400g、<ruby>塩<rt>しお</rt></ruby> 20g、<ruby>油<rt>あぶら</rt></ruby> 50g",
+      "promptPlain": "下は500gのラーメンの配合です。同じ配合で作るときに、小麦粉の20kgあれば、ラーメンは何kgできますか。小麦粉: 400g、塩 20g、油 50g",
+      "questionText": "下(した)は500gのラーメンの配合(はいごう)です。同(おな)じ配 合(はいごう)で作(つく)るときに、小麦粉(こうむぎこ)の20kgあれ ば、ラーメンは何kgできますか。小麦粉(こむぎこ): 400g,塩 20g, 油50g",
+      "promptTranslation": "Di bawah ini adalah komposisi untuk 500 g ramen. Saat membuat dengan komposisi yang sama, jika tersedia 20 kg tepung terigu, berapa kg ramen yang dapat dibuat? Tepung terigu: 400 g, garam: 20 g, minyak: 50 g.",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 3, nomor 8. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: (20.000 g / 400 g) × 500 g = 50 × 500 g = 25.000 g = 25 kg (Opsi C). Catatan: pada opsi A tertulis 1.15kg akibat terbawanya nomor urut 1.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0702",
+          "kanji": "下",
+          "furigana": "した",
+          "arti": "bagian bawah",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p6-162",
+          "kanji": "g",
+          "furigana": "",
+          "arti": "gram (satuan berat)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0435",
+          "kanji": "ラーメン",
+          "furigana": "らーめん",
+          "arti": "mie ramen",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1473070",
+          "kanji": "配合",
+          "furigana": "はいごう",
+          "arti": "komposisi / resep",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-256",
+          "kanji": "同じ",
+          "furigana": "おなじ",
+          "arti": "sama",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-303",
+          "kanji": "ときに",
+          "furigana": "",
+          "arti": "pada saat / ketika",
+          "unitType": "particle",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0282",
+          "kanji": "小麦粉",
+          "furigana": "こむぎこ",
+          "arti": "tepung terigu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-181",
+          "kanji": "kg",
+          "furigana": "",
+          "arti": "kilogram",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-300",
+          "kanji": "あれば",
+          "furigana": "",
+          "arti": "jika ada (dasar: ある)",
+          "unitType": "inflected_verb",
+          "dictForm": "ある",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2846738",
+          "kanji": "何",
+          "furigana": "なん",
+          "arti": "Berapa / apa",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-125",
+          "kanji": "できますか",
+          "furigana": "できますか",
+          "arti": "dapat dibuat (dasar: できる)",
+          "unitType": "inflected_verb",
+          "dictForm": "できる",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p2-065",
+          "kanji": "塩",
+          "furigana": "しお",
+          "arti": "garam",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0379",
+          "kanji": "油",
+          "furigana": "あぶら",
+          "arti": "minyak",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "1.15kg",
+          "plain": "1.15kg",
+          "translation": "15 kg (tertulis typo 1.15kg di sumber)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "20kg",
+          "plain": "20kg",
+          "translation": "20 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "25kg",
+          "plain": "25kg",
+          "translation": "25 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 3, nomor 8. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: (20.000 g / 400 g) × 500 g = 50 × 500 g = 25.000 g = 25 kg (Opsi C). Catatan: pada opsi A tertulis 1.15kg akibat terbawanya nomor urut 1.), hasil yang tepat adalah Opsi C (\"25kg\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"下は500gのラーメンの配合です。同じ配合で作るときに、小麦粉の20kgあれば、ラーメンは何kgできますか。小麦粉: 400g、塩 20g、\" vs questionText=\"下(した)は500gのラーメンの配合(はいごう)です。同(おな)じ配 合(はいごう)で作(つく)るときに、小麦粉(こうむぎこ)の20kgあれ\""
+        }
+      ]
+    },
+    {
+      "id": "hitungan01-q009",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 9,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 3,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>下<rt>した</rt></ruby>は450gのそばの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、<ruby>小麦粉<rt>こむぎこ</rt></ruby>6kgあれば、そばは<ruby>何<rt>なん</rt></ruby>kgできますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。<ruby>小麦粉<rt>こむぎこ</rt></ruby>: 300g <ruby>食塩<rt>しょくえん</rt></ruby>: 15g <ruby>水<rt>みず</rt></ruby>: 135g",
+      "promptPlain": "下は450gのそばの配合です。同じ配合で作る時に、小麦粉6kgあれば、そばは何kgできますか。正しいものを一つ選びなさい。小麦粉: 300g 食塩: 15g 水: 135g",
+      "questionText": "下は450gのそばのはいごう配合です。おな同じはいごう配合で つく作るとき時に、こむぎこ小麦粉6kgあれば、そばはなん何kg できますか。正しいものを一つ選びなさい。こむぎこ 小麦粉: 300g しょくえん食塩:15g みず水: 135g",
+      "promptTranslation": "Di bawah ini adalah komposisi untuk 450 g soba. Saat membuat dengan komposisi yang sama, jika tersedia 6 kg tepung terigu, berapa kg soba yang dapat dibuat? Pilihlah satu jawaban yang benar. Tepung terigu: 300 g, garam dapur: 15 g, air: 135 g.",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 3, nomor 9. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: (6000 g / 300 g) × 450 g = 20 × 450 g = 9000 g = 9 kg (Opsi B).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0702",
+          "kanji": "下",
+          "furigana": "した",
+          "arti": "bagian bawah",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p6-162",
+          "kanji": "g",
+          "furigana": "",
+          "arti": "gram (satuan berat)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0022",
+          "kanji": "そば",
+          "furigana": "そば",
+          "arti": "soba (buckwheat)",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1473070",
+          "kanji": "配合",
+          "furigana": "はいごう",
+          "arti": "komposisi / resep",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-256",
+          "kanji": "同じ",
+          "furigana": "おなじ",
+          "arti": "sama",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0015",
+          "kanji": "時に",
+          "furigana": "ときに",
+          "arti": "ketika / pada saat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0282",
+          "kanji": "小麦粉",
+          "furigana": "こむぎこ",
+          "arti": "tepung terigu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-181",
+          "kanji": "kg",
+          "furigana": "",
+          "arti": "kilogram",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-300",
+          "kanji": "あれば",
+          "furigana": "",
+          "arti": "jika ada (dasar: ある)",
+          "unitType": "inflected_verb",
+          "dictForm": "ある",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2846738",
+          "kanji": "何",
+          "furigana": "なん",
+          "arti": "Berapa / apa",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-125",
+          "kanji": "できますか",
+          "furigana": "できますか",
+          "arti": "dapat dibuat (dasar: できる)",
+          "unitType": "inflected_verb",
+          "dictForm": "できる",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0658",
+          "kanji": "食塩",
+          "furigana": "しょくえん",
+          "arti": "garam dapur",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0369",
+          "kanji": "水",
+          "furigana": "みず",
+          "arti": "air",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "8kg",
+          "plain": "8kg",
+          "translation": "8 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "9kg",
+          "plain": "9kg",
+          "translation": "9 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "10kg",
+          "plain": "10kg",
+          "translation": "10 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 3, nomor 9. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: (6000 g / 300 g) × 450 g = 20 × 450 g = 9000 g = 9 kg (Opsi B).), hasil yang tepat adalah Opsi B (\"9kg\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"下は450gのそばの配合です。同じ配合で作る時に、小麦粉6kgあれば、そばは何kgできますか。正しいものを一つ選びなさい。小麦粉: 300g\" vs questionText=\"下は450gのそばのはいごう配合です。おな同じはいごう配合で つく作るとき時に、こむぎこ小麦粉6kgあれば、そばはなん何kg できますか。正\""
+        }
+      ],
+      "cluster": {
+        "clusterId": "CL-0108",
+        "size": 4,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": true,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": true
+        },
+        "twins": [
+          "kunci-ujian-5-q031 (ssw-pm-kunci-ujian-5)",
+          "bonus-soal-5-q031 (bonus-soal-5)",
+          "nguyen05-q031 (latsol-nguyen-05)"
+        ]
+      }
+    },
+    {
+      "id": "hitungan01-q010",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 10,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 3,
+      "category": "",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "450gのうどんの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>るときに、<ruby>小麦粉<rt>こむぎこ</rt></ruby>は9kgあれば、うどん<ruby>何<rt>なん</rt></ruby>kgが<ruby>必要<rt>ひつよう</rt></ruby>（できます）か。<ruby>小麦粉<rt>こむぎこ</rt></ruby>: 300g <ruby>食塩<rt>しょくえん</rt></ruby>: 15g <ruby>水<rt>みず</rt></ruby>: 135g <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "promptPlain": "450gのうどんの配合です。同じ配合で作るときに、小麦粉は9kgあれば、うどん何kgが必要（できます）か。小麦粉: 300g 食塩: 15g 水: 135g 正しいものを一つ選びなさい。",
+      "questionText": "450g のうどんは、配合(はいごう)です。同おなじ配合はいごうで作 つくるときに、小麦粉(こむぎ)は9kgあれば、うどん何なん kg が必 要ですか。小麦粉: 300g しょくえん 食塩: 15g みず水、135g 正ただしいものを一つ選びなさい。",
+      "promptTranslation": "Berikut adalah komposisi untuk 450 g udon. Saat membuat dengan komposisi yang sama, jika tersedia 9 kg tepung terigu, berapa kg udon yang dapat dihasilkan? Tepung terigu: 300 g, garam dapur: 15 g, air: 135 g. Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 3, nomor 10. Bobot: 13.64 poin. Kunci jawaban: A. Verifikasi Hitungan: (9000 g / 300 g) × 450 g = 30 × 450 g = 13.500 g = 13,5 kg (Opsi A).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-v2-p6-162",
+          "kanji": "g",
+          "furigana": "",
+          "arti": "gram (satuan berat)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0433",
+          "kanji": "うどん",
+          "furigana": "うどん",
+          "arti": "mie udon",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1473070",
+          "kanji": "配合",
+          "furigana": "はいごう",
+          "arti": "komposisi / resep",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-256",
+          "kanji": "同じ",
+          "furigana": "おなじ",
+          "arti": "sama",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-303",
+          "kanji": "ときに",
+          "furigana": "",
+          "arti": "pada saat / ketika",
+          "unitType": "particle",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0282",
+          "kanji": "小麦粉",
+          "furigana": "こむぎこ",
+          "arti": "tepung terigu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-181",
+          "kanji": "kg",
+          "furigana": "",
+          "arti": "kilogram",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-300",
+          "kanji": "あれば",
+          "furigana": "",
+          "arti": "jika ada (dasar: ある)",
+          "unitType": "inflected_verb",
+          "dictForm": "ある",
+          "status": "verified"
+        },
+        {
+          "id": "kb-2846738",
+          "kanji": "何",
+          "furigana": "なん",
+          "arti": "Berapa / apa",
+          "unitType": "standalone_term",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0299",
+          "kanji": "必要",
+          "furigana": "ひつよう",
+          "arti": "perlu / dibutuhkan",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0387",
+          "kanji": "できます",
+          "furigana": "できます",
+          "arti": "dapat / bisa dilakukan (sopan)",
+          "unitType": "inflected_verb",
+          "dictForm": "できる",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0658",
+          "kanji": "食塩",
+          "furigana": "しょくえん",
+          "arti": "garam dapur",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0369",
+          "kanji": "水",
+          "furigana": "みず",
+          "arti": "air",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0085",
+          "kanji": "一つ",
+          "furigana": "ひとつ",
+          "arti": "satu",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0600",
+          "kanji": "選びなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "13,5kg",
+          "plain": "13,5kg",
+          "translation": "13,5 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "13kg",
+          "plain": "13kg",
+          "translation": "13 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "135kg",
+          "plain": "135kg",
+          "translation": "135 kg",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p5-181",
+              "kanji": "kg",
+              "furigana": "",
+              "arti": "kilogram",
+              "unitType": "technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 3, nomor 10. Bobot: 13.64 poin. Kunci jawaban: A. Verifikasi Hitungan: (9000 g / 300 g) × 450 g = 30 × 450 g = 13.500 g = 13,5 kg (Opsi A).), hasil yang tepat adalah Opsi A (\"13,5kg\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"450gのうどんの配合です。同じ配合で作るときに、小麦粉は9kgあれば、うどん何kgが必要(できます)か。小麦粉: 300g 食塩: 15g\" vs questionText=\"450g のうどんは、配合(はいごう)です。同おなじ配合はいごうで作 つくるときに、小麦粉(こむぎ)は9kgあれば、うどん何なん kg が必\""
+        }
+      ]
+    },
+    {
+      "id": "hitungan01-q011",
+      "setId": "latsol-hitungan-01",
+      "batchId": "qa-batch-10",
+      "questionNumber": 11,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 3,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>表<rt>ひょう</rt></ruby>はソーセージ1セット6<ruby>本<rt>ほん</rt></ruby>の<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby>6kgからどれだけのソーセージを<ruby>作<rt>つく</rt></ruby>れるか？（<ruby>表<rt>ひょう</rt></ruby>：<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby> 300g、<ruby>塩<rt>しお</rt></ruby> 6g、<ruby>玉<rt>たま</rt></ruby>ねぎ 20g）",
+      "promptPlain": "表はソーセージ1セット6本の配合例です。この配合に従うと豚ひき肉6kgからどれだけのソーセージを作れるか？（表：豚ひき肉 300g、塩 6g、玉ねぎ 20g）",
+      "questionText": "表（ひょう）はソーセージ１セット6本の配合例（はいごうれい）です。この配合（はいごう）に従う（したがう）と豚（ぶた）ひき肉（にく）６ｋｇからどれだけのソーセージを作るれるか？ [表: 原料名 | 量(g) — 豚ひき肉: 300g, 塩: 6g, 玉ねぎ: 20g]",
+      "promptTranslation": "Tabel berikut adalah contoh komposisi untuk 1 set sosis berisi 6 batang (Daging babi cincang: 300 g, Garam: 6 g, Bawang bombai: 20 g). Jika mengikuti komposisi ini, berapa batang sosis yang dapat dibuat dari 6 kg daging babi cincang?",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 3, nomor 11. Bobot: 13.64 poin. Kunci jawaban: B. Visual Tabel & Hitungan: Tabel memuat 豚ひき肉 300g, 塩 6g, 玉ねぎ 20g untuk 1 set (6 batang). Jumlah set = 6000 g / 300 g = 20 set; Jumlah sosis = 20 × 6 = 120 batang (Opsi B).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-v2-p2-248",
+          "kanji": "表",
+          "furigana": "ひょう",
+          "arti": "tabel",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p2-091",
+          "kanji": "ソーセージ",
+          "furigana": "",
+          "arti": "sosis",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-ext-0018-e382bbe383",
+          "kanji": "セット",
+          "furigana": "せっと",
+          "arti": "pemasangan / set perlengkapan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-079",
+          "kanji": "本",
+          "furigana": "ほん",
+          "arti": "buku",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-ext-1441-e9858de590",
+          "kanji": "配合例",
+          "furigana": "はいごうれい",
+          "arti": "contoh formula campuran",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1473070",
+          "kanji": "配合",
+          "furigana": "はいごう",
+          "arti": "komposisi / resep",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0016",
+          "kanji": "従うと",
+          "furigana": "したがうと",
+          "arti": "jika mengikuti / sesuai dengan",
+          "unitType": "inflected_verb",
+          "dictForm": "従う",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p2-053",
+          "kanji": "豚ひき肉",
+          "furigana": "ぶたひきにく",
+          "arti": "daging babi giling",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-181",
+          "kanji": "kg",
+          "furigana": "",
+          "arti": "kilogram",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p2-255",
+          "kanji": "どれだけ",
+          "furigana": "",
+          "arti": "seberapa banyak",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p2-213",
+          "kanji": "作れる",
+          "furigana": "つくれる",
+          "arti": "dapat dibuat",
+          "unitType": "inflected",
+          "dictForm": "作る",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p6-162",
+          "kanji": "g",
+          "furigana": "",
+          "arti": "gram (satuan berat)",
+          "unitType": "technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p2-065",
+          "kanji": "塩",
+          "furigana": "しお",
+          "arti": "garam",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p2-055",
+          "kanji": "玉ねぎ",
+          "furigana": "たまねぎ",
+          "arti": "bawang bombai",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "20<ruby>本<rt>ほん</rt></ruby>",
+          "plain": "20本",
+          "translation": "20 batang",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p1-079",
+              "kanji": "本",
+              "furigana": "ほん",
+              "arti": "buku",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "120<ruby>本<rt>ほん</rt></ruby>",
+          "plain": "120本",
+          "translation": "120 batang",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p1-079",
+              "kanji": "本",
+              "furigana": "ほん",
+              "arti": "buku",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "180<ruby>本<rt>ほん</rt></ruby>",
+          "plain": "180本",
+          "translation": "180 batang",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p1-079",
+              "kanji": "本",
+              "furigana": "ほん",
+              "arti": "buku",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 3, nomor 11. Bobot: 13.64 poin. Kunci jawaban: B. Visual Tabel & Hitungan: Tabel memuat 豚ひき肉 300g, 塩 6g, 玉ねぎ 20g untuk 1 set (6 batang). Jumlah set = 6000 g / 300 g = 20 set; Jumlah sosis = 20 × 6 = 120 batang (Opsi B).), hasil yang tepat adalah Opsi B (\"120本\")."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"表はソーセージ1セット6本の配合例です。この配合に従うと豚ひき肉6kgからどれだけのソーセージを作れるか?(表:豚ひき肉 300g、塩 6g\" vs questionText=\"表(ひょう)はソーセージ1セット6本の配合例(はいごうれい)です。この配合(はいごう)に従う(したがう)と豚(ぶた)ひき肉(にく)6kgから\""
+        }
+      ],
+      "cluster": {
+        "clusterId": "CL-0116",
+        "size": 4,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": false,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": false
+        },
+        "twins": [
+          "kunci-ujian-7-q034 (ssw-pm-kunci-ujian-7)",
+          "nguyen02-q033 (latsol-nguyen-02)",
+          "nguyen08-q032 (latsol-nguyen-08)"
+        ]
+      }
+    }
+  ]
+}

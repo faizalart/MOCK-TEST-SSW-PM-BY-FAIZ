@@ -1,0 +1,71 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-6 (Soal Ujian 6 — CBTP Gino1) | Batch qa-batch-02 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=kunci-ujian-6-q005 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.1 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-v2-p6-498 (無す): "menghilangkan (typo: 無くす)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カビの<ruby>胞子<rt>ほうし</rt></ruby>について<ruby>誤<rt>あやま</rt></ruby>っているのはどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pernyataan yang salah mengenai spora jamur (kapang)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 1, Câu 5 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-otaff51-0514] 胞子(ほうし) [noun] = spora kapang/jamur | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-latsol-1dee95223c] 誤っている(あやまっている) [word] = salah / keliru | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=カビの<ruby>胞子<rt>ほうし</rt></ruby>はどこにでも<ruby>存在<rt>そんざい</rt></ruby>している
+    TRANS: Spora jamur ada di mana-mana
+    KOTOBA: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-otaff51-0514] 胞子(ほうし) [noun] = spora kapang/jamur | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-1406150] 存在(そんざい) [word] = keberadaan | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT B: HTML=カビの<ruby>胞子<rt>ほうし</rt></ruby>は<ruby>完全<rt>かんぜん</rt></ruby>に<ruby>無<rt>む</rt></ruby>すことができない
+    TRANS: Spora jamur tidak dapat dihilangkan sepenuhnya
+    KOTOBA: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-otaff51-0514] 胞子(ほうし) [noun] = spora kapang/jamur | [kb-1211510] 完全(かんぜん) [word] = sempurna / menyeluruh | [kb-v2-p6-498] 無す(なくす) [word] = menghilangkan (typo: 無くす) | [kb-audit-0468] ことができ(ことができ) [expression, df:できる] = dapat / bisa dilakukan | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=カビの<ruby>胞子<rt>ほうし</rt></ruby>は<ruby>特定<rt>とくてい</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>にしか<ruby>存在<rt>そんざい</rt></ruby>しない
+    TRANS: Spora jamur hanya ada di tempat-tempat tertentu saja
+    KOTOBA: [kb-otaff51-0045] カビ(かび) [noun] = kapang / jamur | [kb-otaff51-0514] 胞子(ほうし) [noun] = spora kapang/jamur | [kb-1455210] 特定(とくてい) [word] = spesifik / penetapan khusus | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-audit-0465] しか(しか) [particle] = hanya (+ bentuk negatif) | [kb-1406150] 存在(そんざい) [word] = keberadaan | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q6 | ID=kunci-ujian-6-q006 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>が<ruby>食品中<rt>しょくひんちゅう</rt></ruby>で<ruby>増<rt>ふ</rt></ruby>えないために<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>条件<rt>じょうけん</rt></ruby>はどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa tiga kondisi yang diperlukan bakteri penyebab keracunan makanan untuk berkembang biak (dan harus dikendalikan agar tidak bertambah banyak di dalam pangan)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 1, Câu 6 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-ext-0943-e9a39fe593] 食品中(しょくひんちゅう) [word] = Di dalam produk bahan makanan | [kb-otaff51-0793] 増えない(ふえない) [inflected_verb, df:増える] = tidak berkembang biak | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-1356510] 条件(じょうけん) [word] = syarat / kondisi | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>温度<rt>おんど</rt></ruby>、<ruby>水分<rt>すいぶん</rt></ruby>、<ruby>栄養<rt>えいよう</rt></ruby>
+    TRANS: Suhu, air (kelembapan), dan nutrisi
+    KOTOBA: [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-otaff51-0345] 栄養(えいよう) [noun] = nutrisi / zat gizi
+  OPT B: HTML=<ruby>高温<rt>こうおん</rt></ruby>、<ruby>高湿<rt>こうしつ</rt></ruby>、<ruby>栄養<rt>えいよう</rt></ruby>
+    TRANS: Suhu tinggi, kelembapan tinggi, dan nutrisi
+    KOTOBA: [kb-otaff51-0675] 高温(こうおん) [noun] = suhu tinggi | [kb-ext-0569-e9ab98e6b9] 高湿(こうしつ) [word] = kelembapan tinggi | [kb-otaff51-0345] 栄養(えいよう) [noun] = nutrisi / zat gizi
+  OPT C: HTML=<ruby>低温<rt>ていおん</rt></ruby>、<ruby>乾燥<rt>かんそう</rt></ruby>、<ruby>栄養<rt>えいよう</rt></ruby>
+    TRANS: Suhu rendah, kekeringan, dan nutrisi
+    KOTOBA: [kb-otaff51-0117] 低温(ていおん) [noun] = suhu rendah | [kb-otaff51-0103] 乾燥(かんそう) [noun] = pengeringan | [kb-otaff51-0345] 栄養(えいよう) [noun] = nutrisi / zat gizi
+
+=== #Q7 | ID=kunci-ujian-6-q007 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>際<rt>さい</rt></ruby>、してはいけないことはどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal manakah yang tidak boleh dilakukan saat memasuki tempat kerja?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 2, Câu 7 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-audit-0467] いけない(いけない) [expression, df:いく] = tidak boleh / terlarang | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>指輪<rt>ゆびわ</rt></ruby>やアクセサリーをつけて<ruby>入<rt>はい</rt></ruby>る
+    TRANS: Masuk dengan mengenakan cincin atau aksesori
+    KOTOBA: [kb-otaff51-0321] 指輪(ゆびわ) [noun] = cincin | [kb-v2-p6-180] アクセサリー(-) [word] = perhiasan / aksesori | [kb-v2-p1-204] つけて(-) [inflected_verb, df:つける] = memasang (dasar: つける) | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>爪<rt>つめ</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>切<rt>き</rt></ruby>る
+    TRANS: Memotong kuku hingga pendek
+    KOTOBA: [kb-otaff51-0427] 爪(つめ) [noun] = kuku | [kb-v2-p2-232] 短く(みじかく) [inflected, df:短い] = pendek | [kb-v2-p5-410] 切る(きる) [word] = memotong | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>必要<rt>ひつよう</rt></ruby>でないものを<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まない
+    TRANS: Tidak membawa masuk barang yang tidak diperlukan untuk pekerjaan
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p4-160] 持ち込まない(もちこまない) [inflected, df:持ち込む] = tidak membawa masuk | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q8 | ID=kunci-ujian-6-q008 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しく<ruby>守<rt>まも</rt></ruby>るべきことはどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal manakah yang harus dipatuhi dengan benar di tempat kerja?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 2, Câu 8 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>する
+    TRANS: Mengenakan pakaian kerja dengan benar
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-pilot51-022] 着用する(ちゃくようする) [verb] = mengenakan / memakai | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>暑<rt>あつ</rt></ruby>いときには<ruby>帽子<rt>ぼうし</rt></ruby>を<ruby>脱<rt>ぬ</rt></ruby>ぐ
+    TRANS: Melepas topi saat udara panas
+    KOTOBA: [kb-v2-p5-216] 暑い(あつい) [word] = panas (cuaca/ruangan) | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-otaff51-0290] 帽子(ぼうし) [noun] = topi kerja | [kb-v2-p6-499] 脱ぐ(ぬぐ) [word] = melepas (topi/pakaian) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>袖<rt>そで</rt></ruby>をまくって<ruby>作業<rt>さぎょう</rt></ruby>する
+    TRANS: Bekerja dengan menggulung lengan baju
+    KOTOBA: [kb-otaff51-0548] 袖(そで) [noun] = lengan baju | [kb-audit-0891] まくって(まくって) [inflected_verb, df:まくる] = menggulung (lengan baju) | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

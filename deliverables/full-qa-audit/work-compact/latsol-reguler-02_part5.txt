@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-02 (Latsol Reguler 02) | Batch qa-batch-09 | Part 5 (Q17-20 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=reguler02-q017 | KEY=C (idx=2) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="食肉と魚介類の保管温度の規定はどれですか。。ただしものをひとつえらびなさい" vs questionText="食肉と魚介類の保管温度の規定はどれですか 。。ただしものをひとつえらびなさい" || [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("4°C以下です") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食肉<rt>しょくにく</rt></ruby>と<ruby>魚介類<rt>ぎょかいるい</rt></ruby>の<ruby>保管温度<rt>ほかんおんど</rt></ruby>の<ruby>規定<rt>きてい</rt></ruby>はどれですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: 食肉と魚介類の保管温度の規定はどれですか 。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Manakah ketentuan suhu penyimpanan untuk daging dan hasil laut? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 4, nomor 17. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-otaff51-0137] 保管温度(ほかんおんど) [compound_technical] = suhu penyimpanan | [kb-1223060] 規定(きてい) [word] = ketentuan / peraturan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=-4°C<ruby>以下<rt>いか</rt></ruby>です
+    TRANS: Di bawah -4°C
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=4°C<ruby>以上<rt>いじょう</rt></ruby>です
+    TRANS: Di atas 4°C
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal
+  OPT C: HTML=4°C<ruby>以下<rt>いか</rt></ruby>です
+    TRANS: Di bawah 4°C
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q18 | ID=reguler02-q018 | KEY=A (idx=0) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="特定原材料として表示する義務がある食品 どれですか。。正しいものを一つ選んでください" vs questionText="特定原材料として表示する義務がある食品 どれですか。。正しものを一つ選んでください" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("エビ、カニ、こむぎ、そば、たまご、にゅう、らっかせい") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>として<ruby>表示<rt>ひょうじ</rt></ruby>する<ruby>義務<rt>ぎむ</rt></ruby>がある<ruby>食品<rt>しょくひん</rt></ruby> どれですか。。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: 特定原材料として表示する義務がある食品 どれですか。。正しものを一つ選んでください
+  PROMPT_TRANS: Manakah makanan yang wajib dicantumkan sebagai bahan baku spesifik (alergen wajib)? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 5, nomor 18. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-otaff51-0505] 義務(ぎむ) [noun] = kewajiban | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=エビ、カニ、こむぎ、そば、たまご、にゅう、らっかせい
+    TRANS: Udang, kepiting, gandum, soba (buckwheat), telur, susu, kacang tanah
+    KOTOBA: [kb-ext-0006-e382a8e383] エビ(えび) [word] = udang | [kb-v2-p6-239] カニ(-) [word] = kepiting | [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-v2-p3-089] にゅう(-) [word] = susu (bacaan 乳) | [kb-v2-p3-088] らっかせい(-) [word] = kacang tanah
+  OPT B: HTML=とりにく、カニ、こむぎ、そば、たまご、にゅう、らっかせい
+    TRANS: Daging ayam, kepiting, gandum, soba, telur, susu, kacang tanah
+    KOTOBA: [kb-latsol-755c21f10a] とりにく(とりにく) [word] = daging ayam | [kb-v2-p6-239] カニ(-) [word] = kepiting | [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-v2-p3-089] にゅう(-) [word] = susu (bacaan 乳) | [kb-v2-p3-088] らっかせい(-) [word] = kacang tanah
+  OPT C: HTML=とりにく、あわび、こむぎ、そば、たまご、にゅう、らっかせい
+    TRANS: Daging ayam, abalon, gandum, soba, telur, susu, kacang tanah
+    KOTOBA: [kb-latsol-755c21f10a] とりにく(とりにく) [word] = daging ayam | [kb-v2-p3-072] あわび(-) [word] = abalone (kerang) | [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-v2-p3-089] にゅう(-) [word] = susu (bacaan 乳) | [kb-v2-p3-088] らっかせい(-) [word] = kacang tanah
+
+=== #Q19 | ID=reguler02-q019 | KEY=B (idx=1) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="原材料 区分と保管について どれか。。間違っているものを一つ選んでください" vs questionText="原材料 区分と保管について どれか。。間違ってものを一つ選んでください" || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("原材料はしっかり洗浄します") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>原材料<rt>げんざいりょう</rt></ruby> <ruby>区分<rt>くぶん</rt></ruby>と<ruby>保管<rt>ほかん</rt></ruby>について どれか。。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: 原材料 区分と保管について どれか。。間違ってものを一つ選んでください
+  PROMPT_TRANS: Mengenai pemisahan dan penyimpanan bahan baku (alergen), pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 5, nomor 19. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1244230] 区分(くぶん) [word] = pemisahan / klasifikasi | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>区分<rt>くぶん</rt></ruby>して<ruby>保管<rt>ほかん</rt></ruby>します
+    TRANS: Menyimpan secara terpisah dari bahan baku yang tidak mengandung alergen
+    KOTOBA: [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-audit-1043] 区分して(くぶんして) [inflected_verb, df:区分する] = memisahkan zona (~て) | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>はしっかり<ruby>洗浄<rt>せんじょう</rt></ruby>します
+    TRANS: Mencuci bahan baku dengan bersih
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-audit-0974] 洗浄します(せんじょうします) [inflected_verb, df:洗浄する] = mencuci bersih (sopan)
+  OPT C: HTML=ほかの<ruby>原材料<rt>げんざいりょう</rt></ruby>などの<ruby>上<rt>うえ</rt></ruby>に<ruby>重<rt>かさ</rt></ruby>ねてはいけません
+    TRANS: Tidak boleh menumpuknya di atas bahan baku lain
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-v2-p5-314] 重ねて(かさねて) [inflected, df:重ねる] = menumpuk | [kb-audit-0466] いけません(いけません) [expression, df:いく] = tidak boleh / harus (sopan)
+
+=== #Q20 | ID=reguler02-q020 | KEY=C (idx=2) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="HACCP には何つの原則がありますか。。正しいものを選んでください" vs questionText="HACCP には何つの原則がありますか。。正しものを選んでください" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="いく"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("7つの原則") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCP には<ruby>何<rt>いく</rt></ruby>つの<ruby>原則<rt>げんそく</rt></ruby>がありますか。。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: HACCP には何つの原則がありますか。。正しものを選んでください
+  PROMPT_TRANS: Ada berapa prinsip dalam sistem HACCP? Pilihlah jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 5, nomor 20. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=3つの<ruby>原則<rt>げんそく</rt></ruby>
+    TRANS: 3 prinsip
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+  OPT B: HTML=4つの<ruby>原則<rt>げんそく</rt></ruby>
+    TRANS: 4 prinsip
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+  OPT C: HTML=7つの<ruby>原則<rt>げんそく</rt></ruby>
+    TRANS: 7 prinsip
+    KOTOBA: [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar

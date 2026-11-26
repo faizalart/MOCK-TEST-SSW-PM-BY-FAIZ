@@ -1,0 +1,77 @@
+# AUDIT SHEET: latsol-nguyen-03 (Latsol Nguyen 03) | Batch qa-batch-07 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=nguyen03-q017 | KEY=A (idx=0) | CAT= | SRC=3.pdf p.3 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("清潔ではない作業区域。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>で<ruby>交差汚染<rt>こうさおせん</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するために<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で3つの<ruby>区域<rt>くいき</rt></ruby>を<ruby>区分<rt>くぶん</rt></ruby>されています。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk mencegah kontaminasi silang melalui manajemen higiene zonasi, bagian dalam pabrik dibagi menjadi 3 zona. Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 3.pdf, halaman 3, nomor 17. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0209] 区分衛生管理(くぶんえいせいかんり) [compound_technical] = manajemen higiene pembagian zona (zoning) | [kb-otaff51-0109] 交差汚染(こうさおせん) [compound_technical] = kontaminasi silang (cross-contamination) | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1244090] 区域(くいき) [word] = zona / area pabrik | [kb-1244230] 区分(くぶん) [word] = pemisahan / klasifikasi | [kb-audit-0369] います(います) [inflected_verb, df:いる] = ada / sedang melakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>ではない<ruby>作業区域<rt>さぎょうくいき</rt></ruby>。
+    TRANS: Zona kerja tidak bersih.
+    KOTOBA: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-latsol-sagyoukuiki] 作業区域(さぎょうくいき) [word] = zona / area kerja
+  OPT B: HTML=<ruby>準清潔作業区域<rt>じゅんせいけつさぎょうくいき</rt></ruby>。
+    TRANS: Zona kerja semi-bersih.
+    KOTOBA: [kb-otaff51-0410] 準清潔作業区域(じゅんせいけつさぎょうくいき) [compound_technical] = zona kerja semi-bersih
+  OPT C: HTML=<ruby>汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>。
+    TRANS: Zona kerja kotor/terkontaminasi.
+    KOTOBA: [kb-otaff51-0378] 汚染作業区域(おせんさぎょうくいき) [compound_technical] = zona kerja kotor (Osen Sagyou Kuiki)
+
+=== #Q18 | ID=nguyen03-q018 | KEY=C (idx=2) | CAT= | SRC=3.pdf p.3 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("冷蔵庫や冷凍庫はドアを開けたままにしなければならない。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>について<ruby>注意<rt>ちゅうい</rt></ruby>しなければならないことは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa hal yang harus diperhatikan terkait kulkas (lemari pendingin)? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 3.pdf, halaman 3, nomor 18. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-v2-p2-177] 注意し(ちゅういし) [inflected, df:注意する] = berhati-hati / memperhatikan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>隙間<rt>すきま</rt></ruby>なく<ruby>詰<rt>つ</rt></ruby>め<ruby>込<rt>こ</rt></ruby>んではいけません。
+    TRANS: Tidak boleh memasukkan barang penuh sesak tanpa celah ke dalam kulkas.
+    KOTOBA: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0630] 隙間(すきま) [noun] = celah | [kb-otaff51-1423] 詰め込んでは(つめこんでは) [inflected_verb, df:詰め込む] = memasukkan penuh sesak | [kb-audit-0466] いけません(いけません) [expression, df:いく] = tidak boleh / harus (sopan)
+  OPT B: HTML=<ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>では<ruby>冷凍庫<rt>れいとうこ</rt></ruby>が－15℃<ruby>以下<rt>いか</rt></ruby>、<ruby>冷凍庫<rt>れいとうこ</rt></ruby>が10℃<ruby>以下<rt>いか</rt></ruby>と<ruby>決<rt>き</rt></ruby>められています。
+    TRANS: Dalam Undang-Undang Higiene Pangan ditentukan bahwa freezer bersuhu -15°C ke bawah dan kulkas 10°C ke bawah.
+    KOTOBA: [kb-otaff51-0653] 食品衛生法(しょくひんえいせいほう) [compound_technical] = Undang-Undang Higiene Pangan Jepang | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p5-248] 決め(きめ) [inflected, df:決める] = menentukan | [kb-audit-0391] られています(られています) [word] = telah ditetapkan / dilakukan (pasif)
+  OPT C: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>や<ruby>冷凍庫<rt>れいとうこ</rt></ruby>はドアを<ruby>開<rt>あ</rt></ruby>けたままにしなければならない。
+    TRANS: Pintu kulkas dan freezer harus dibiarkan tetap terbuka.
+    KOTOBA: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-v2-p6-216] ドア(-) [word] = pintu | [kb-v2-p3-314] 開けたまま(あけたまま) [expression] = dibiarkan tetap terbuka | [kb-v2-p1-101] しなければならない(-) [expression] = harus dilakukan
+
+=== #Q19 | ID=nguyen03-q019 | KEY=B (idx=1) | CAT= | SRC=3.pdf p.3 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 冷蔵庫
+  CLUSTER CL-0077 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q019 (ssw-pm-kunci-ujian-3), kunci-ujian-7-q013 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q018 (ssw-pm-kunci-ujian-14)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("10℃以下") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>の<ruby>規定<rt>きてい</rt></ruby>では、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>の<ruby>基準温度<rt>きじゅんおんど</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berdasarkan ketentuan Undang-Undang Higiene Pangan, berapakah suhu standar untuk kulkas (冷蔵庫)?
+  EXPLANATION: Sumber: 3.pdf, halaman 3, nomor 19. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0653] 食品衛生法(しょくひんえいせいほう) [compound_technical] = Undang-Undang Higiene Pangan Jepang | [kb-1223060] 規定(きてい) [word] = ketentuan / peraturan | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0245] 基準温度(きじゅんおんど) [compound_technical] = suhu standar | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=4℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 4°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 10°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=－15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: -15°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q20 | ID=nguyen03-q020 | KEY=C (idx=2) | CAT= | SRC=3.pdf p.3 ===
+  CLUSTER CL-0078 (n=3, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-3-q020 (ssw-pm-kunci-ujian-3), kunci-ujian-14-q016 (ssw-pm-kunci-ujian-14)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("金属検査機") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>鉄<rt>てつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけることができる<ruby>機械<rt>きかい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu mesin yang benar yang dapat mendeteksi besi/logam.
+  EXPLANATION: Sumber: 3.pdf, halaman 3, nomor 20. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-v2-p6-260] 鉄(てつ) [word] = besi | [kb-v2-p2-165] 見つける(みつける) [word] = menemukan | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>温度計<rt>おんどけい</rt></ruby>
+    TRANS: Termometer
+    KOTOBA: [kb-otaff51-0407] 温度計(おんどけい) [noun] = termometer / alat ukur suhu
+  OPT B: HTML=<ruby>日付検査機<rt>ひづけけんさき</rt></ruby>
+    TRANS: Mesin pemeriksa tanggal
+    KOTOBA: [kb-ext-1402-e697a5e4bb] 日付検査機(ひづけけんさき) [word] = mesin pemeriksa tanggal kedaluwarsa
+  OPT C: HTML=<ruby>金属検査機<rt>きんぞくけんさき</rt></ruby>
+    TRANS: Mesin pemeriksa logam (detektor logam)
+    KOTOBA: [kb-ext-0410-e98791e5b1] 金属検査機(きんぞくけんさき) [word] = mesin pemeriksa logam

@@ -1,0 +1,536 @@
+{
+  "setId": "latsol-hitungan-01",
+  "setName": "Latsol Hitungan 01",
+  "title": "Latsol Hitungan 01",
+  "sourcePdf": "HITUNGAN PM.docx",
+  "totalPages": 4,
+  "totalQuestions": 11,
+  "pointsPerQuestion": 13.64,
+  "maxScore": 150,
+  "questions": [
+    {
+      "id": "hitungan01-q001",
+      "questionNumber": 1,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "",
+      "questionText": "濃度(のうど)5%NACL 溶液(ようえき)があります、100ppmのNACL 溶液(ようえき)を2Lを作(つく)るときに、この溶液(ようえき)と水 (みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>5%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、100ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を2Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 1, nomor 1. Bobot: 13.64 poin. Kunci jawaban: A. Verifikasi Hitungan: 100 ppm = 0,01%; 2 L = 2000 ml. Larutan = (2000 × 0,01%) / 5% = 4 ml; Air = 2000 - 4 = 1996 ml (Opsi A).",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657445,
+      "updatedAt": 1775007657445,
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1996ml",
+          "mediaId": "",
+          "translation": "Larutan 4 ml, air 1996 ml"
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>5ml、<ruby>水<rt>みず</rt></ruby>196ml",
+          "mediaId": "",
+          "translation": "Larutan 5 ml, air 196 ml"
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>6ml、<ruby>水<rt>みず</rt></ruby>206ml",
+          "mediaId": "",
+          "translation": "Larutan 6 ml, air 206 ml"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 5%. Saat membuat 2 L larutan NaCl 100 ppm, berapa ml masing-masing larutan pekat ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar."
+    },
+    {
+      "id": "hitungan01-q002",
+      "questionNumber": 2,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "",
+      "questionText": "濃度(のうど)2%NACL 溶液(ようえき)があります、200ppmのNACL 溶液(ようえき)を 1L を作(つく)るときに、この溶液(ようえき)と水 (みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>2%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、200ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を1Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 1, nomor 2. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 200 ppm = 0,02%; 1 L = 1000 ml. Larutan = (1000 × 0,02%) / 2% = 10 ml; Air = 1000 - 10 = 990 ml (Opsi B).",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657446,
+      "updatedAt": 1775007657446,
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 5ml、<ruby>水<rt>みず</rt></ruby>995ml",
+          "mediaId": "",
+          "translation": "Larutan 5 ml, air 995 ml"
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 10ml、<ruby>水<rt>みず</rt></ruby>990ml",
+          "mediaId": "",
+          "translation": "Larutan 10 ml, air 990 ml"
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 15ml、<ruby>水<rt>みず</rt></ruby>985ml",
+          "mediaId": "",
+          "translation": "Larutan 15 ml, air 985 ml"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 2%. Saat membuat 1 L larutan NaCl 200 ppm, berapa ml masing-masing larutan pekat ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar."
+    },
+    {
+      "id": "hitungan01-q003",
+      "questionNumber": 3,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "",
+      "questionText": "濃度(のうど)0,2%NACL溶液(ようえき)があります、300ppmのNACL 溶液(ようえき) を 1L を作(つく)るときに、この溶液(ようえき)と水 (みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>0,2%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、300ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を1Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 1, nomor 3. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: 300 ppm = 0,03%; 1 L = 1000 ml. Larutan = (1000 × 0,03%) / 0,2% = 150 ml; Air = 1000 - 150 = 850 ml (Opsi C).",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657447,
+      "updatedAt": 1775007657447,
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 1,5ml、<ruby>水<rt>みず</rt></ruby>998,5ml",
+          "mediaId": "",
+          "translation": "Larutan 1,5 ml, air 998,5 ml"
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 105ml、<ruby>水<rt>みず</rt></ruby>985ml",
+          "mediaId": "",
+          "translation": "Larutan 105 ml, air 985 ml"
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 150ml、<ruby>水<rt>みず</rt></ruby>850ml",
+          "mediaId": "",
+          "translation": "Larutan 150 ml, air 850 ml"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 0,2%. Saat membuat 1 L larutan NaCl 300 ppm, berapa ml masing-masing larutan ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar."
+    },
+    {
+      "id": "hitungan01-q004",
+      "questionNumber": 4,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 1,
+      "pdfPage": 1,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "",
+      "questionText": "濃度(のうど)25%のじあえんさん次亜塩酸ナトリウム(NaCIO) よう えき溶液があります。400ppmのじあえんさん 次亜塩酸ナトリウム (NaCIO) ようえき溶液を1Lつく作るとき時に、 このようえき溶液とみず水はそれぞれなん何ml ひつよう 必要 ですか。 ただ正しいものをひと一つえら選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>25%の<ruby>次亜塩酸<rt>じあえんさん</rt></ruby>ナトリウム(NaClO)<ruby>溶液<rt>ようえき</rt></ruby>があります。400ppmの<ruby>次亜塩酸<rt>じあえんさん</rt></ruby>ナトリウム(NaClO)<ruby>溶液<rt>ようえき</rt></ruby>を1L<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>ml<ruby>必要<rt>ひつよう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 1, nomor 4. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 400 ppm = 0,04%; 1 L = 1000 ml. Larutan = (1000 × 0,04%) / 25% = 1,6 ml; Air = 1000 - 1,6 = 998,4 ml (Opsi B).",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657448,
+      "updatedAt": 1775007657448,
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>1ml、<ruby>水<rt>みず</rt></ruby>999ml",
+          "mediaId": "",
+          "translation": "Larutan 1 ml, air 999 ml"
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>1.6ml、<ruby>水<rt>みず</rt></ruby>998.4ml",
+          "mediaId": "",
+          "translation": "Larutan 1,6 ml, air 998,4 ml"
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby>6.25ml、<ruby>水<rt>みず</rt></ruby>993.75ml",
+          "mediaId": "",
+          "translation": "Larutan 6,25 ml, air 993,75 ml"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Terdapat larutan natrium hipoklorit (NaClO) dengan konsentrasi 25%. Saat membuat 1 L larutan natrium hipoklorit (NaClO) 400 ppm, berapa ml masing-masing larutan ini dan air yang diperlukan? Pilihlah satu jawaban yang benar."
+    },
+    {
+      "id": "hitungan01-q005",
+      "questionNumber": 5,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 2,
+      "pdfPage": 2,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "",
+      "questionText": "濃度(のうど) 15% NACL 溶液(ようえき)があります、200ppmの NACL 溶液(ようえき)を2Lを作(つく)るときに、この溶液(ようえき) と水(みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>15%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、200ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を2Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 2, nomor 5. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: 200 ppm = 0,02%; 2 L = 2000 ml. Larutan = (2000 × 0,02%) / 15% = 2,666... ml (dipotong 1 desimal menjadi 2,6 ml); Air = 2000 - 2,6 = 1997,4 ml (Opsi C).",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657449,
+      "updatedAt": 1775007657449,
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 2ml、<ruby>水<rt>みず</rt></ruby>1990ml",
+          "mediaId": "",
+          "translation": "Larutan 2 ml, air 1990 ml"
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 2,3ml、<ruby>水<rt>みず</rt></ruby>196,7ml",
+          "mediaId": "",
+          "translation": "Larutan 2,3 ml, air 196,7 ml"
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 2,6ml、<ruby>水<rt>みず</rt></ruby>1997,4ml",
+          "mediaId": "",
+          "translation": "Larutan 2,6 ml, air 1997,4 ml"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 15%. Saat membuat 2 L larutan NaCl 200 ppm, berapa ml masing-masing larutan ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar."
+    },
+    {
+      "id": "hitungan01-q006",
+      "questionNumber": 6,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 2,
+      "pdfPage": 2,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "",
+      "questionText": "濃度(のうど) 10%NACL 溶液(ようえき)があります、150ppmの NACL 溶液(ようえき)を1Lを作(つく)るときに、この溶液(ようえき) と水(みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "<ruby>濃度<rt>のうど</rt></ruby>10%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、150ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を1Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 2, nomor 6. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 150 ppm = 0,015%; 1 L = 1000 ml. Larutan = (1000 × 0,015%) / 10% = 1,5 ml; Air = 1000 - 1,5 = 998,5 ml (Opsi B).",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657450,
+      "updatedAt": 1775007657450,
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 4ml、<ruby>水<rt>みず</rt></ruby>995,8ml",
+          "mediaId": "",
+          "translation": "Larutan 4 ml, air 995,8 ml"
+        },
+        {
+          "id": "B",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 1,5ml、<ruby>水<rt>みず</rt></ruby>998,5ml",
+          "mediaId": "",
+          "translation": "Larutan 1,5 ml, air 998,5 ml"
+        },
+        {
+          "id": "C",
+          "text": "<ruby>溶液<rt>ようえき</rt></ruby> 1,2ml、<ruby>水<rt>みず</rt></ruby>203ml",
+          "mediaId": "",
+          "translation": "Larutan 1,2 ml, air 203 ml"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 10%. Saat membuat 1 L larutan NaCl 150 ppm, berapa ml masing-masing larutan ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar."
+    },
+    {
+      "id": "hitungan01-q007",
+      "questionNumber": 7,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 2,
+      "pdfPage": 2,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "",
+      "questionText": "500gr のうどん作(つく)るためには 300gr 小麦粉(こむぎこ)、10gr 塩(しお)、190ml水(みず)を使(つか)う。20kgのうどんを作(つく) るため、小麦粉(こむぎこ)が何kgですか、正しいものを一つ選びな さい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "500grのうどん<ruby>作<rt>つく</rt></ruby>るためには300gr<ruby>小麦粉<rt>こむぎこ</rt></ruby>、10gr<ruby>塩<rt>しお</rt></ruby>、190ml<ruby>水<rt>みず</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う。20kgのうどんを<ruby>作<rt>つく</rt></ruby>るため、<ruby>小麦粉<rt>こむぎこ</rt></ruby>が<ruby>何<rt>なん</rt></ruby>kgですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 2, nomor 7. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: (20.000 g / 500 g) × 300 g = 40 × 300 g = 12.000 g = 12 kg (Opsi C).",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657451,
+      "updatedAt": 1775007657451,
+      "options": [
+        {
+          "id": "A",
+          "text": "10 kg",
+          "mediaId": "",
+          "translation": "10 kg"
+        },
+        {
+          "id": "B",
+          "text": "11 kg",
+          "mediaId": "",
+          "translation": "11 kg"
+        },
+        {
+          "id": "C",
+          "text": "12 kg",
+          "mediaId": "",
+          "translation": "12 kg"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Untuk membuat 500 g udon, digunakan 300 g tepung terigu, 10 g garam, dan 190 ml air. Untuk membuat 20 kg udon, berapa kg tepung terigu yang dibutuhkan? Pilihlah satu jawaban yang benar."
+    },
+    {
+      "id": "hitungan01-q008",
+      "questionNumber": 8,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 3,
+      "pdfPage": 3,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "",
+      "questionText": "下(した)は500gのラーメンの配合(はいごう)です。同(おな)じ配 合(はいごう)で作(つく)るときに、小麦粉(こうむぎこ)の20kgあれ ば、ラーメンは何kgできますか。小麦粉(こむぎこ): 400g,塩 20g, 油50g",
+      "questionTextStatus": "verified",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "prompt": "<ruby>下<rt>した</rt></ruby>は500gのラーメンの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>るときに、<ruby>小麦粉<rt>こむぎこ</rt></ruby>の20kgあれば、ラーメンは<ruby>何<rt>なん</rt></ruby>kgできますか。<ruby>小麦粉<rt>こむぎこ</rt></ruby>: 400g、<ruby>塩<rt>しお</rt></ruby> 20g、<ruby>油<rt>あぶら</rt></ruby> 50g",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 3, nomor 8. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: (20.000 g / 400 g) × 500 g = 50 × 500 g = 25.000 g = 25 kg (Opsi C). Catatan: pada opsi A tertulis 1.15kg akibat terbawanya nomor urut 1.",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657452,
+      "updatedAt": 1775007657452,
+      "options": [
+        {
+          "id": "A",
+          "text": "1.15kg",
+          "mediaId": "",
+          "translation": "15 kg (tertulis typo 1.15kg di sumber)"
+        },
+        {
+          "id": "B",
+          "text": "20kg",
+          "mediaId": "",
+          "translation": "20 kg"
+        },
+        {
+          "id": "C",
+          "text": "25kg",
+          "mediaId": "",
+          "translation": "25 kg"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Di bawah ini adalah komposisi untuk 500 g ramen. Saat membuat dengan komposisi yang sama, jika tersedia 20 kg tepung terigu, berapa kg ramen yang dapat dibuat? Tepung terigu: 400 g, garam: 20 g, minyak: 50 g."
+    },
+    {
+      "id": "hitungan01-q009",
+      "questionNumber": 9,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 3,
+      "pdfPage": 3,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "",
+      "questionText": "下は450gのそばの配合です。同じ配合で作る時に、小麦粉6㎏あればそばは何㎏できますか。正しいものを一つ選びなさい。\n小麦粉：300g\n食塩：15g\n水：135g",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "<ruby>下<rt>した</rt></ruby>は450gのそばの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、<ruby>小麦粉<rt>こむぎこ</rt></ruby>6㎏あればそばは<ruby>何<rt>なん</rt></ruby>㎏できますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。<br><ruby>小麦粉<rt>こむぎこ</rt></ruby>：300g<br><ruby>食塩<rt>しょくえん</rt></ruby>：15g<br><ruby>水<rt>みず</rt></ruby>：135g",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 3, nomor 9. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: (6000 g / 300 g) × 450 g = 20 × 450 g = 9000 g = 9 kg (Opsi B).",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657453,
+      "updatedAt": 1775007657453,
+      "options": [
+        {
+          "id": "A",
+          "text": "8kg",
+          "mediaId": "",
+          "translation": "8 kg"
+        },
+        {
+          "id": "B",
+          "text": "9kg",
+          "mediaId": "",
+          "translation": "9 kg"
+        },
+        {
+          "id": "C",
+          "text": "10kg",
+          "mediaId": "",
+          "translation": "10 kg"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Di bawah ini adalah takaran pencampuran untuk 450 g mi soba. Jika membuat dengan takaran yang sama dan tersedia 6 kg tepung terigu, berapa kg mi soba yang dapat dibuat? Pilihlah satu jawaban yang benar. Tepung terigu: 300 g, Garam: 15 g, Air: 135 g."
+    },
+    {
+      "id": "hitungan01-q010",
+      "questionNumber": 10,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 3,
+      "pdfPage": 3,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "",
+      "questionText": "450g のうどんは、配合(はいごう)です。同おなじ配合はいごうで作 つくるときに、小麦粉(こむぎ)は9kgあれば、うどん何なん kg が必 要ですか。小麦粉: 300g しょくえん 食塩: 15g みず水、135g 正ただしいものを一つ選びなさい。",
+      "questionTextStatus": "verified",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "prompt": "450gのうどんの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>るときに、<ruby>小麦粉<rt>こむぎこ</rt></ruby>は9kgあれば、うどん<ruby>何<rt>なん</rt></ruby>kgが<ruby>必要<rt>ひつよう</rt></ruby>（できます）か。<ruby>小麦粉<rt>こむぎこ</rt></ruby>: 300g <ruby>食塩<rt>しょくえん</rt></ruby>: 15g <ruby>水<rt>みず</rt></ruby>: 135g <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 3, nomor 10. Bobot: 13.64 poin. Kunci jawaban: A. Verifikasi Hitungan: (9000 g / 300 g) × 450 g = 30 × 450 g = 13.500 g = 13,5 kg (Opsi A).",
+      "imageMediaId": "",
+      "imageSize": "large",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657454,
+      "updatedAt": 1775007657454,
+      "options": [
+        {
+          "id": "A",
+          "text": "13,5kg",
+          "mediaId": "",
+          "translation": "13,5 kg"
+        },
+        {
+          "id": "B",
+          "text": "13kg",
+          "mediaId": "",
+          "translation": "13 kg"
+        },
+        {
+          "id": "C",
+          "text": "135kg",
+          "mediaId": "",
+          "translation": "135 kg"
+        }
+      ],
+      "media": [],
+      "promptTranslation": "Berikut adalah komposisi untuk 450 g udon. Saat membuat dengan komposisi yang sama, jika tersedia 9 kg tepung terigu, berapa kg udon yang dapat dihasilkan? Tepung terigu: 300 g, garam dapur: 15 g, air: 135 g. Pilihlah satu jawaban yang benar."
+    },
+    {
+      "id": "hitungan01-q011",
+      "questionNumber": 11,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "sourcePage": 3,
+      "pdfPage": 3,
+      "setId": "latsol-hitungan-01",
+      "setName": "Latsol Hitungan 01",
+      "points": 13.64,
+      "questionImage": "assets/questions/hitungan01-q011.png",
+      "questionText": "下はソーセージ１セット（６本）の配合例です。この配合に従うと豚ひき肉６Kgからどれだけのソーセージを作れるか？豚ひき肉：300g、塩：6g、玉ねぎ：20g",
+      "questionTextStatus": "verified",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "prompt": "<ruby>下<rt>した</rt></ruby>はソーセージ１セット（６<ruby>本<rt>ぽん</rt></ruby>）の<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby>６Kgからどれだけのソーセージを<ruby>作<rt>つく</rt></ruby>れるか？<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby>：300g、<ruby>塩<rt>しお</rt></ruby>：6g、<ruby>玉<rt>たま</rt></ruby>ねぎ：20g",
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "explanation": "Sumber: HITUNGAN PM.docx, halaman 3, nomor 11. Bobot: 13.64 poin. Kunci jawaban: B. Visual Tabel & Hitungan: Tabel memuat 豚ひき肉 300g, 塩 6g, 玉ねぎ 20g untuk 1 set (6 batang). Jumlah set = 6000 g / 300 g = 20 set; Jumlah sosis = 20 × 6 = 120 batang (Opsi B).",
+      "imageMediaId": "media-hitungan01-q011",
+      "imageSize": "medium",
+      "imageRatio": "auto",
+      "imagePosition": "center",
+      "active": true,
+      "createdAt": 1775007657455,
+      "updatedAt": 1775007657455,
+      "options": [
+        {
+          "id": "A",
+          "text": "20<ruby>本<rt>ぽん</rt></ruby>",
+          "mediaId": "",
+          "translation": "20 buah"
+        },
+        {
+          "id": "B",
+          "text": "120<ruby>本<rt>ぽん</rt></ruby>",
+          "mediaId": "",
+          "translation": "120 buah"
+        },
+        {
+          "id": "C",
+          "text": "180<ruby>本<rt>ぽん</rt></ruby>",
+          "mediaId": "",
+          "translation": "180 buah"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-hitungan01-q011",
+          "name": "hitungan01-q011.png",
+          "type": "image/png",
+          "path": "assets/questions/hitungan01-q011.png"
+        }
+      ],
+      "promptTranslation": "Di bawah ini adalah contoh takaran pencampuran untuk 1 set (6 buah) sosis. Jika mengikuti takaran ini, berapa buah sosis yang dapat dibuat dari 6 kg daging babi cincang? Daging babi cincang: 300 g, Garam: 6 g, Bawang bombai: 20 g."
+    }
+  ]
+}

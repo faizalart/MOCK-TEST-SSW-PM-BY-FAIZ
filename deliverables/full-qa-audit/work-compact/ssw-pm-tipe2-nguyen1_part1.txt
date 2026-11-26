@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-tipe2-nguyen1 (Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1) | Batch qa-batch-04 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=q001 | KEY=A (idx=0) | CAT= | SRC=SSW NGUYEN 1.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 物理的危害要因, 説明, 正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Pilihlah satu jawaban yang benar mengenai penjelasan faktor bahaya fisik." || [KANJI_WITHOUT_RUBY@opt:A] 硬, 歯, 欠, 尖, 口, 中, 傷, 人, 恐 || [KANJI_WITHOUT_RUBY@opt:B] 食中毒, 原因, 物質 || [KANJI_WITHOUT_RUBY@opt:C] 反応, 原因
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 1. 物理的危害要因の説明について、正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai penjelasan faktor bahaya fisik.
+  EXPLANATION: Bukti PDF (Halaman 1): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (硬くて歯が欠ける、尖っていて口の中に傷ができるなど、人にケガをさせる恐れがあるもの).
+  KOTOBA_PROMPT: [kb-otaff51-0431] 物理的危害要因(ぶつりてききがいよういん) [compound_technical] = faktor bahaya fisik | [kb-otaff51-0573] 説明(せつめい) [noun] = penjelasan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=硬くて歯が欠ける、尖っていて口の中に傷ができるなど、人にケガをさせる恐れがあるもの
+    TRANS: Benda yang berisiko melukai manusia, seperti benda keras yang membuat gigi patah atau benda tajam yang melukai bagian dalam mulut
+    KOTOBA: [kb-v2-p4-141] 硬くて(かたくて) [inflected, df:硬い] = keras dan | [kb-v2-p4-104] 歯(は) [word] = gigi | [kb-v2-p4-152] 欠ける(かける) [word] = patah / gompal (gigi) | [kb-v2-p4-153] 尖っていて(とがっていて) [inflected, df:尖る] = runcing / tajam | [kb-otaff51-0226] 口(くち) [noun] = mulut | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-audit-0458] させる(させる) [inflected_verb, df:する] = membuat jadi / menyebabkan (kausatif) | [kb-v2-p4-099] 恐れ(おそれ) [word] = risiko / kemungkinan bahaya | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=食中毒になる原因の物質
+    TRANS: Zat yang menjadi penyebab keracunan makanan
+    KOTOBA: [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-1502560] 物質(ぶっしつ) [word] = zat / bahan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=アレルギー反応になる原因
+    TRANS: Penyebab terjadinya reaksi alergi
+    KOTOBA: [kb-otaff51-0035] アレルギー反応(あれるぎーはんのう) [compound_technical] = reaksi alergi | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q2 | ID=q002 | KEY=B (idx=1) | CAT= | SRC=SSW NGUYEN 1.pdf p.2 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 食品衛生, 説明, 正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "2" missing in ID "Pilihlah satu jawaban yang benar mengenai penjelasan higiene pangan." || [KANJI_WITHOUT_RUBY@opt:A] 工場, 作業場, 災害, 起 || [KANJI_WITHOUT_RUBY@opt:B] 食品, 衛生管理, 守, 危害要因, 含 || [KANJI_WITHOUT_RUBY@opt:C] 食品, 作
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 2. 食品衛生の説明について、正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai penjelasan higiene pangan.
+  EXPLANATION: Bukti PDF (Halaman 2): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (食品の衛生管理のルールを守って、危害要因を含まないようにする).
+  KOTOBA_PROMPT: [kb-otaff51-0652] 食品衛生(しょくひんえいせい) [compound_technical] = higiene pangan / keamanan pangan | [kb-otaff51-0573] 説明(せつめい) [noun] = penjelasan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=工場や作業場で災害を起こさないようにすることです
+    TRANS: Mencegah terjadinya bencana/kecelakaan di pabrik atau tempat kerja
+    KOTOBA: [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-v2-p4-170] 起こさない(おこさない) [inflected, df:起こす] = tidak menimbulkan | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=食品の衛生管理のルールを守って、危害要因を含まないようにする
+    TRANS: Mematuhi aturan manajemen higiene pangan agar tidak mengandung faktor bahaya
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-v2-p1-175] 守って(まもって) [inflected_verb, df:守る] = mematuhi (dasar: 守る) | [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=おいしい食品を作れるようにすることです。
+    TRANS: Membuat produk pangan yang lezat.
+    KOTOBA: [kb-v2-p4-139] おいしい(-) [word] = enak / lezat | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-213] 作れる(つくれる) [inflected, df:作る] = dapat dibuat | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q3 | ID=q003 | KEY=B (idx=1) | CAT= | SRC=SSW NGUYEN 1.pdf p.3 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 衛生管理, 正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "3" missing in ID "Pilihlah satu jawaban yang benar mengenai manajemen higiene berdasarkan HACCP." || [KANJI_WITHOUT_RUBY@opt:A] 一般衛生管理, 使, 衛生管理 || [KANJI_WITHOUT_RUBY@opt:B] 管理基準, 設定, 原則, 一 || [KANJI_WITHOUT_RUBY@opt:C] 重要管理点, 一, 選
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 3. HACCP による衛生管理について、正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai manajemen higiene berdasarkan HACCP.
+  EXPLANATION: Bukti PDF (Halaman 3): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (管理基準の設定は HACCP原則の一つです).
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=一般衛生管理を使わないで、HACCPによる衛生管理をおこなう
+    TRANS: Melakukan manajemen higiene berdasarkan HACCP tanpa menggunakan manajemen higiene umum
+    KOTOBA: [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-v2-p2-211] 使わない(つかわない) [inflected, df:使う] = tidak menggunakan | [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=管理基準の設定は HACCP原則の一つです
+    TRANS: Penetapan batas kritis (standar manajemen) adalah salah satu prinsip HACCP
+    KOTOBA: [kb-otaff51-0484] 管理基準(かんりきじゅん) [compound_technical] = batas kritis / standar pengendalian (critical limit) | [kb-1386060] 設定(せってい) [word] = penetapan | [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=重要管理点は一つだけ選びます
+    TRANS: Titik kendali kritis (CCP) hanya dipilih satu saja
+    KOTOBA: [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p1-335] だけ(-) [particle] = hanya | [kb-v2-p4-173] 選びます(えらびます) [inflected, df:選ぶ] = memilih (sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q4 | ID=q004 | KEY=C (idx=2) | CAT= | SRC=SSW NGUYEN 1.pdf p.4 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 指差呼称, 説明, 間違, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "4" missing in ID "Pilihlah satu jawaban yang salah mengenai penjelasan tunjuk dan sebut (shisa kos" || [KANJI_WITHOUT_RUBY@opt:A] 作業, 機械, 入, 前, 安全, 確認 || [KANJI_WITHOUT_RUBY@opt:B] 信号, 標識, 器具, 作業対象, 指, 指, 名称, 状態, 声, 出, 言 || [KANJI_WITHOUT_RUBY@opt:C] 他, 人, 危険, 作業, 見, 声, 注意
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 4. 指差呼称の説明について、間違っているものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai penjelasan tunjuk dan sebut (shisa koshou).
+  EXPLANATION: Bukti PDF (Halaman 4): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (他の人が危険な作業をしているのを見たら、声をかけて注意する。).
+  KOTOBA_PROMPT: [kb-otaff51-0319] 指差呼称(しさこしょう) [compound_technical] = tunjuk dan sebut (shisa koshou) | [kb-otaff51-0573] 説明(せつめい) [noun] = penjelasan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=作業や機械のスイッチを入れる前には、安全を確認する
+    TRANS: Memastikan keselamatan sebelum memulai pekerjaan atau menyalakan sakelar mesin
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p4-071] スイッチ(-) [word] = sakelar / tombol daya | [kb-v2-p4-198] 入れる(いれる) [word] = memasukkan / menyalakan | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=信号、標識、器具、作業対象などを指で指しながら、その名称や状態を声に出して言います。
+    TRANS: Menunjuk sinyal, rambu, peralatan, atau objek kerja dengan jari sambil menyebutkan nama dan kondisinya dengan suara jelas.
+    KOTOBA: [kb-v2-p4-089] 信号(しんごう) [word] = sinyal / rambu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0942] 作業対象(さぎょうたいしょう) [compound_technical] = objek / sasaran kerja | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-otaff51-1273] 指しながら(さしながら) [inflected_verb, df:指す] = sambil menunjuk | [kb-v2-p1-268] その(-) [word] = itu | [kb-1531620] 名称(めいしょう) [word] = nama resmi / sebutan | [kb-otaff51-0435] 状態(じょうたい) [noun] = kondisi / keadaan | [kb-v2-p1-077] 声(こえ) [word] = suara | [kb-v2-p4-204] 出して(だして) [inflected, df:出す] = mengeluarkan | [kb-v2-p4-154] 言います(いいます) [inflected, df:言う] = mengucapkan / menyebut | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=他の人が危険な作業をしているのを見たら、声をかけて注意する。
+    TRANS: Jika melihat orang lain melakukan pekerjaan berbahaya, menegurnya dengan suara.
+    KOTOBA: [kb-audit-0035] 他の(ほかの) [word] = yang lain / lainnya | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-audit-0594] 見たら(みたら) [inflected_verb, df:見る] = jika melihat | [kb-otaff51-0898] 声をかけて(こえをかけて) [expression] = menegur / memberi tahu | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung

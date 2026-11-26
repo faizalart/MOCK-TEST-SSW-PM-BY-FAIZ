@@ -1,0 +1,90 @@
+# AUDIT SHEET: latsol-tambahan-01 (Latsol Tambahan 01) | Batch qa-batch-10 | Part 5 (Q17-20 of 25)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=tambahan01-q017 | KEY=B (idx=1) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="細菌による食中毒防止の3原則について、間違っているものを一つ選びなさい" vs questionText="細菌による食中毒防止 (しょくちゅうどくのぼうし)の3原則 (げんそく)について、 間違っているものを一つ選びなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("やっつけない") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>細菌<rt>さいきん</rt></ruby>による<ruby>食中毒防止<rt>しょくちゅうどくぼうし</rt></ruby>の3<ruby>原則<rt>げんそく</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 細菌による食中毒防止 (しょくちゅうどくのぼうし)の3原則 (げんそく)について、 間違っているものを一つ選びなさい
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai 3 prinsip pencegahan keracunan makanan akibat bakteri.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 5, nomor 17. Bobot: 6.0 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-ext-0924-e9a39fe4b8] 食中毒防止(しょくちゅうどくぼうし) [word] = pencegahan keracunan makanan | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=つけない
+    TRANS: Tidak menempelkan / mencemari
+    KOTOBA: [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai
+  OPT B: HTML=やっつけない
+    TRANS: Tidak membasmi / membunuh
+    KOTOBA: [kb-latsol-a01ac656f6] やっつけない(やっつけない) [word] = tidak membasmi (bakteri)
+  OPT C: HTML=ふやさない
+    TRANS: Tidak memperbanyak / mengembangbiakkan
+    KOTOBA: [kb-latsol-99bced80e0] ふやさない(ふやさない) [word] = tidak memperbanyak (bakteri)
+  OPT D: HTML=やっつける
+    TRANS: Membasmi / membunuh
+    KOTOBA: [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba)
+
+=== #Q18 | ID=tambahan01-q018 | KEY=C (idx=2) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="作業場に入る前に行うことについて、間違っているものを選びなさい" vs questionText="作業場(さぎょうじょう)に入る前に行うことについて、 間違っているものを選びなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("私物の着用") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>うことについて、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 作業場(さぎょうじょう)に入る前に行うことについて、 間違っているものを選びなさい
+  PROMPT_TRANS: Pilihlah jawaban yang salah mengenai hal yang dilakukan sebelum masuk ke tempat kerja.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 5, nomor 18. Bobot: 6.0 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>健康管理<rt>けんこうかんり</rt></ruby>
+    TRANS: Manajemen kesehatan
+    KOTOBA: [kb-audit-0926] 健康管理(けんこうかんり) [word] = manajemen kesehatan
+  OPT B: HTML=<ruby>衛生管理<rt>えいせいかんり</rt></ruby>
+    TRANS: Manajemen kebersihan/sanitasi
+    KOTOBA: [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene
+  OPT C: HTML=<ruby>私物<rt>しぶつ</rt></ruby>の<ruby>着用<rt>ちゃくよう</rt></ruby>
+    TRANS: Mengenakan barang pribadi
+    KOTOBA: [kb-ext-latsol-0110] 私物(しぶつ) [word] = barang pribadi | [kb-otaff51-0466] 着用(ちゃくよう) [noun] = pemakaian / mengenakan
+  OPT D: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>着用<rt>ちゃくよう</rt></ruby>
+    TRANS: Mengenakan pakaian kerja
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-otaff51-0466] 着用(ちゃくよう) [noun] = pemakaian / mengenakan
+
+=== #Q19 | ID=tambahan01-q019 | KEY=A (idx=0) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="機械操作に関する注意事項について、間違っているものを一つ選びなさい" vs questionText="機械操作(きかいそうさ) に関する注意事項について、 間違っているものを一つ選びなさい" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-1502840 "分": kotoba="ふん" vs ruby="わ" || [PRIOR_KEY_AUDIT_SOURCE_CONFLICT@question] Kunci PDF Hal. 8 tertulis C akibat duplikasi baris 1 tabel kunci. Pertanyaan menanyakan pernyataan yang SALAH (間違っているもの) terkait pengoperasian mesin; mengoperasikan mesin meskipun tidak mengerti cara menjalankannya (Opsi A) adalah salah. Kunci JSON saat ini (A) sudah benar.
+  PRIOR_KEY_AUDIT: SOURCE_CONFLICT | Kunci PDF Hal. 8 tertulis C akibat duplikasi baris 1 tabel kunci. Pertanyaan menanyakan pernyataan yang SALAH (間違っているもの) terkait pengoperasian mesin; mengoperasikan mesin meskipun tidak mengerti cara menjalankannya (Opsi A) adalah salah. Kunci JSON saat ini (A) sudah benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>機械操作<rt>きかいそうさ</rt></ruby>に<ruby>関<rt>かん</rt></ruby>する<ruby>注意事項<rt>ちゅういじこう</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 機械操作(きかいそうさ) に関する注意事項について、 間違っているものを一つ選びなさい
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai hal-hal yang perlu diperhatikan terkait pengoperasian mesin.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 6, nomor 19. Bobot: 6.0 poin. Kunci jawaban: A. Koreksi QA: Kunci PDF Hal. 8 tertulis C akibat duplikasi baris 1 tabel kunci. Pernyataan yang salah adalah A.
+  KOTOBA_PROMPT: [kb-ext-latsol-0111] 機械操作(きかいそうさ) [word] = pengoperasian mesin | [kb-v2-p3-195] 関する(かんする) [word] = terkait dengan | [kb-otaff51-0382] 注意事項(ちゅういじこう) [compound_technical] = hal-hal yang harus diperhatikan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>機械<rt>きかい</rt></ruby>の<ruby>運転方法<rt>うんてんほうほう</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からなくても、<ruby>操作<rt>そうさ</rt></ruby>はいけます
+    TRANS: Meskipun tidak mengerti cara menjalankan mesin, boleh mengoperasikannya
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-ext-latsol-0042] 運転方法(うんてんほうほう) [word] = metode pengoperasian mesin | [kb-1502840] 分(ふん) [standalone_term] = menit (satuan durasi waktu) | [kb-v2-p3-237] なくて(-) [particle] = tanpa / tidak | [kb-1400050] 操作(そうさ) [word] = pengoperasian mesin
+  OPT B: HTML=<ruby>機械<rt>きかい</rt></ruby>の<ruby>下<rt>した</rt></ruby>は<ruby>決<rt>けっ</rt></ruby>してくぐらないようにします
+    TRANS: Sama sekali tidak boleh menerobos lewat bawah mesin
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p5-380] 決して(けっして) [word] = jangan pernah / sekali-kali | [kb-audit-0896] くぐらない(くぐらない) [inflected_verb, df:くぐる] = tidak melintas di bawah | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=<ruby>動<rt>うご</rt></ruby>いてる<ruby>機械<rt>きかい</rt></ruby>には<ruby>絶対<rt>ぜったい</rt></ruby>に<ruby>手<rt>て</rt></ruby>を<ruby>入<rt>い</rt></ruby>れてはいけません
+    TRANS: Sama sekali tidak boleh memasukkan tangan ke mesin yang sedang bergerak
+    KOTOBA: [kb-audit-0177] 動いてる(うごいてる) [inflected_verb, df:動く] = sedang bergerak / beroperasi (動いている) | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0498] 絶対(ぜったい) [adverb] = mutlak / sama sekali (tidak boleh) | [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-v2-p2-012] 入れて(いれて) [inflected, df:入れる] = memasukkan | [kb-audit-0466] いけません(いけません) [expression, df:いく] = tidak boleh / harus (sopan)
+  OPT D: HTML=<ruby>停電<rt>ていでん</rt></ruby>の<ruby>場合<rt>ばあい</rt></ruby>はスイッチを<ruby>切<rt>き</rt></ruby>ります
+    TRANS: Saat terjadi pemadaman listrik, matikan sakelar
+    KOTOBA: [kb-ext-latsol-0112] 停電(ていでん) [word] = pemadaman listrik | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p4-071] スイッチ(-) [word] = sakelar / tombol daya | [kb-latsol-9271ad0c3b] 切ります(きります) [word] = memotong / mematikan sakelar
+
+=== #Q20 | ID=tambahan01-q020 | KEY=D (idx=3) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.6 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="衛生上の注意事項について、間違っているものを一つ選びなさい" vs questionText="衛生上 (えいせいじょう) の注意事項について、 間違っているものを一つ選びなさい" || [JP_DOUBLE_PARTICLE@opt:D] Potential doubled/colliding particle || [PRIOR_KEY_AUDIT_SOURCE_CONFLICT@question] Kunci PDF Hal. 8 tertulis C akibat duplikasi baris 1 tabel kunci. Pertanyaan menanyakan pernyataan yang SALAH (間違っているもの); tidak mengenali perbedaan antara zona kontaminasi dan zona non-kontaminasi (Opsi D) adalah salah. Kunci JSON saat ini (D) sudah benar.
+  PRIOR_KEY_AUDIT: SOURCE_CONFLICT | Kunci PDF Hal. 8 tertulis C akibat duplikasi baris 1 tabel kunci. Pertanyaan menanyakan pernyataan yang SALAH (間違っているもの); tidak mengenali perbedaan antara zona kontaminasi dan zona non-kontaminasi (Opsi D) adalah salah. Kunci JSON saat ini (D) sudah benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>衛生上<rt>えいせいじょう</rt></ruby>の<ruby>注意事項<rt>ちゅういじこう</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 衛生上 (えいせいじょう) の注意事項について、 間違っているものを一つ選びなさい
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai hal-hal yang harus diperhatikan dalam sanitasi/higienitas.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 6, nomor 20. Bobot: 6.0 poin. Kunci jawaban: D. Koreksi QA: Kunci PDF Hal. 8 tertulis C akibat duplikasi baris 1 tabel kunci. Pernyataan yang salah adalah D.
+  KOTOBA_PROMPT: [kb-ext-latsol-0044] 衛生上(えいせいじょう) [word] = dari segi sanitasi / higienitas | [kb-otaff51-0382] 注意事項(ちゅういじこう) [compound_technical] = hal-hal yang harus diperhatikan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=トイレに<ruby>行<rt>い</rt></ruby>った<ruby>後<rt>あと</rt></ruby>は、<ruby>必<rt>かなら</rt></ruby>ず<ruby>洗剤<rt>せんざい</rt></ruby>で<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>います
+    TRANS: Setelah pergi ke toilet, wajib mencuci tangan dengan sabun/deterjen
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-v2-p2-160] 行った(いった) [inflected, df:行く] = pergi | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-audit-1059] 洗います(あらいます) [inflected_verb, df:洗う] = mencuci (洗う)
+  OPT B: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>や<ruby>鼻<rt>はな</rt></ruby>などに<ruby>触<rt>ふ</rt></ruby>れた<ruby>手<rt>て</rt></ruby>で<ruby>作業<rt>さぎょう</rt></ruby>をしてはいけません
+    TRANS: Tidak boleh bekerja dengan tangan yang habis menyentuh rambut atau hidung
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-otaff51-0687] 鼻(はな) [noun] = hidung | [kb-v2-p5-430] 触れた(ふれた) [inflected, df:触れる] = menyentuh (lampau) | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0466] いけません(いけません) [expression, df:いく] = tidak boleh / harus (sopan)
+  OPT C: HTML=<ruby>作業服<rt>さぎょうふく</rt></ruby>などで<ruby>手<rt>て</rt></ruby>を<ruby>拭<rt>ふ</rt></ruby>いてはいけません
+    TRANS: Tidak boleh mengelap tangan pada pakaian kerja
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-v2-p5-393] 拭いて(ふいて) [inflected, df:拭く] = mengelap | [kb-audit-0466] いけません(いけません) [expression, df:いく] = tidak boleh / harus (sopan)
+  OPT D: HTML=<ruby>汚染区<rt>おせんく</rt></ruby>と<ruby>非汚染区<rt>ひおせんく</rt></ruby>の<ruby>区別<rt>くべつ</rt></ruby>をはっきりと<ruby>認識<rt>にんしき</rt></ruby>しないようにします
+    TRANS: Berusaha tidak mengenali perbedaan antara zona kontaminasi dan zona non-kontaminasi dengan jelas
+    KOTOBA: [kb-ext-0149-e6b19ae69f] 汚染区(おせんく) [compound_technical] = zona kotor (terkontaminasi) | [kb-ext-1481-e99d9ee6b1] 非汚染区(ひおせんく) [compound_technical] = zona bersih (non-terkontaminasi) | [kb-otaff51-0210] 区別(くべつ) [noun] = pembedaan / pemisahan penggunaan | [kb-v2-p1-279] はっきり(-) [word] = dengan jelas | [kb-ext-latsol-0113] 認識(にんしき) [word] = kesadaran / pemahaman | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)

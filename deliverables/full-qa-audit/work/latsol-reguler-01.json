@@ -1,0 +1,4334 @@
+{
+  "batchId": "qa-batch-09",
+  "setId": "latsol-reguler-01",
+  "questionCount": 20,
+  "flaggedQuestions": 17,
+  "totalFlags": 46,
+  "flagCounts": {
+    "PROMPT_QUESTIONTEXT_DESYNC": 6,
+    "JP_TADASHIMONO": 12,
+    "KOTOBA_SUSPICIOUS_ARTI": 12,
+    "JP_WHITESPACE_BETWEEN_JP": 9,
+    "KOTOBA_READING_CONFLICT_WITH_RUBY": 2,
+    "PRIOR_KEY_AUDIT_KEY_CORRECTION_REQUIRED": 1,
+    "PRIOR_KEY_AUDIT_REVIEW_REQUIRED": 2,
+    "PRIOR_KEY_AUDIT_QUESTION_DEFECTIVE": 1,
+    "TRANSLATION_CONTAINS_JP": 1
+  },
+  "questions": [
+    {
+      "id": "reguler01-q001",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 1,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 1,
+      "category": "",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "instructions": "<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "なぜ<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>らなければなりません。。まちがっているものをひとつえらびなさい",
+      "promptPlain": "なぜ安全な食品を作らなければなりません。。まちがっているものをひとつえらびなさい",
+      "questionText": "なぜ安全な食品を作らなければなりません。。まちがっているものをひとつえらびなさい",
+      "promptTranslation": "Mengapa kita harus membuat makanan yang aman? Pilihlah satu pernyataan yang salah.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 1, nomor 1. Bobot: 7.5 poin. Kunci jawaban: C.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-v2-p6-075",
+          "kanji": "なぜ",
+          "furigana": "",
+          "arti": "mengapa",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-260",
+          "kanji": "安全な",
+          "furigana": "あんぜんな",
+          "arti": "aman",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0651",
+          "kanji": "食品",
+          "furigana": "しょくひん",
+          "arti": "makanan / produk pangan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-166607375e",
+          "kanji": "作らなければ",
+          "furigana": "つくらなければ",
+          "arti": "harus membuat / menyusun",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0370",
+          "kanji": "なりません",
+          "furigana": "なりません",
+          "arti": "menjadi / harus (dengan なければ)",
+          "unitType": "inflected_verb",
+          "dictForm": "なる",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0001",
+          "kanji": "まちがっている",
+          "furigana": "まちがっている",
+          "arti": "keliru / tidak benar",
+          "unitType": "inflected_verb",
+          "dictForm": "間違う",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>消費者<rt>しょうひしゃ</rt></ruby>が<ruby>安心<rt>あんしん</rt></ruby>するように",
+          "plain": "消費者が安心するように",
+          "translation": "Agar konsumen merasa tenang/aman",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-1350300",
+              "kanji": "消費者",
+              "furigana": "しょうひしゃ",
+              "arti": "konsumen",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1153890",
+              "kanji": "安心",
+              "furigana": "あんしん",
+              "arti": "rasa aman / ketenangan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>消費者<rt>しょうひしゃ</rt></ruby>に<ruby>健康障害<rt>けんこうしょうがい</rt></ruby>がおこらないように",
+          "plain": "消費者に健康障害がおこらないように",
+          "translation": "Agar tidak terjadi gangguan kesehatan pada konsumen",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-1350300",
+              "kanji": "消費者",
+              "furigana": "しょうひしゃ",
+              "arti": "konsumen",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-ext-latsol-0031",
+              "kanji": "健康障害",
+              "furigana": "けんこうしょうがい",
+              "arti": "gangguan kesehatan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>食<rt>た</rt></ruby>べやすいように",
+          "plain": "食べやすいように",
+          "translation": "Agar mudah dimakan",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-faff8147e3",
+              "kanji": "食べやすい",
+              "furigana": "たべやすい",
+              "arti": "mudah dimakan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C (\"食べやすいように\") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar."
+      },
+      "flags": []
+    },
+    {
+      "id": "reguler01-q002",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 2,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 1,
+      "category": "",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>感染型<rt>かんせんがた</rt></ruby><ruby>食中毒<rt>しょくちゅうどく</rt></ruby><ruby>原因<rt>げんいん</rt></ruby>どれですか。。ただしものをひとつえらびなさい",
+      "promptPlain": "感染型食中毒原因どれですか。。ただしものをひとつえらびなさい",
+      "questionText": "感染食中毒 原因どれですか。。ただしものをひとつえらびなさい",
+      "promptTranslation": "Manakah yang merupakan penyebab keracunan makanan tipe infeksi? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 1, nomor 2. Bobot: 7.5 poin. Kunci jawaban: C.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-ext-0278-e6849fe69f",
+          "kanji": "感染型食中毒",
+          "furigana": "かんせんがたしょくちゅうどく",
+          "arti": "keracunan makanan tipe infeksi",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0220",
+          "kanji": "原因",
+          "furigana": "げんいん",
+          "arti": "penyebab",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-264",
+          "kanji": "どれ",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>、ボツリヌス<ruby>菌<rt>きん</rt></ruby>、サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>",
+          "plain": "黄色ブドウ球菌、ボツリヌス菌、サルモネラ属菌",
+          "translation": "Staphylococcus aureus, Clostridium botulinum, bakteri genus Salmonella",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0686",
+              "kanji": "黄色ブドウ球菌",
+              "furigana": "おうしょくぶどうきゅうきん",
+              "arti": "bakteri Staphylococcus aureus",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0079",
+              "kanji": "ボツリヌス菌",
+              "furigana": "ぼつりぬすきん",
+              "arti": "bakteri Clostridium botulinum",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0052",
+              "kanji": "サルモネラ属菌",
+              "furigana": "さるもねらぞくきん",
+              "arti": "bakteri genus Salmonella",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "ボツリヌス<ruby>菌<rt>きん</rt></ruby>、ウエルシュ<ruby>菌<rt>きん</rt></ruby>、セレウス<ruby>菌<rt>きん</rt></ruby>",
+          "plain": "ボツリヌス菌、ウエルシュ菌、セレウス菌",
+          "translation": "Clostridium botulinum, Clostridium perfringens, Bacillus cereus",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0079",
+              "kanji": "ボツリヌス菌",
+              "furigana": "ぼつりぬすきん",
+              "arti": "bakteri Clostridium botulinum",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-03858a87de",
+              "kanji": "ウエルシュ菌",
+              "furigana": "うぇるしゅきん",
+              "arti": "Bakteri / kuman mikroorganisme penyeba",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0054",
+              "kanji": "セレウス菌",
+              "furigana": "せれうすきん",
+              "arti": "bakteri Bacillus cereus",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>、カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>、<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ",
+          "plain": "サルモネラ属菌、カンピロバクター属菌、腸炎ビブリオ",
+          "translation": "Bakteri genus Salmonella, bakteri genus Campylobacter, Vibrio parahaemolyticus",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0052",
+              "kanji": "サルモネラ属菌",
+              "furigana": "さるもねらぞくきん",
+              "arti": "bakteri genus Salmonella",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0046",
+              "kanji": "カンピロバクター属菌",
+              "furigana": "かんぴろばくたーぞくきん",
+              "arti": "bakteri genus Campylobacter",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0524",
+              "kanji": "腸炎ビブリオ",
+              "furigana": "ちょうえんびぶりお",
+              "arti": "bakteri Vibrio parahaemolyticus",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C (\"サルモネラ属菌、カンピロバクター属菌、腸炎ビブリオ\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"感染型食中毒原因どれですか。。ただしものをひとつえらびなさい\" vs questionText=\"感染食中毒 原因どれですか。。ただしものをひとつえらびなさい\""
+        },
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q003",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 3,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 1,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るための<ruby>全体像<rt>ぜんたいぞう</rt></ruby> まちがっているものをひとつえらびなさい",
+      "promptPlain": "安全な食品を作るための全体像 まちがっているものをひとつえらびなさい",
+      "questionText": "安全な食品を作つくるための全体像 まちがっているものをひとつえらびなさい",
+      "promptTranslation": "Gambaran umum untuk membuat makanan yang aman: pilihlah satu pernyataan yang salah.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 1, nomor 3. Bobot: 7.5 poin. Kunci jawaban: B.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-v2-p1-260",
+          "kanji": "安全な",
+          "furigana": "あんぜんな",
+          "arti": "aman",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0651",
+          "kanji": "食品",
+          "furigana": "しょくひん",
+          "arti": "makanan / produk pangan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-151",
+          "kanji": "作る",
+          "furigana": "つくる",
+          "arti": "membuat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-ext-latsol-0032",
+          "kanji": "全体像",
+          "furigana": "ぜんたいぞう",
+          "arti": "gambaran menyeluruh",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0001",
+          "kanji": "まちがっている",
+          "furigana": "まちがっている",
+          "arti": "keliru / tidak benar",
+          "unitType": "inflected_verb",
+          "dictForm": "間違う",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れ",
+          "plain": "安全な原材料の受け入れ",
+          "translation": "Penerimaan bahan baku yang aman",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p1-260",
+              "kanji": "安全な",
+              "furigana": "あんぜんな",
+              "arti": "aman",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0221",
+              "kanji": "原材料",
+              "furigana": "げんざいりょう",
+              "arti": "bahan baku",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-024",
+              "kanji": "受け入れ",
+              "furigana": "うけいれ",
+              "arti": "penerimaan bahan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>製造中<rt>せいぞうちゅう</rt></ruby>の<ruby>服装<rt>ふくそう</rt></ruby>の<ruby>衛生的<rt>えいせいてき</rt></ruby>な<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い",
+          "plain": "製造中の服装の衛生的な取り扱い",
+          "translation": "Penanganan higienis terhadap pakaian selama proses produksi",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-ext-1059-e8a3bde980",
+              "kanji": "製造中",
+              "furigana": "せいぞうちゅう",
+              "arti": "saat proses produksi berlangsung",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0340",
+              "kanji": "服装",
+              "furigana": "ふくそう",
+              "arti": "pakaian / cara berpakaian",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1609370",
+              "kanji": "衛生的",
+              "furigana": "えいせいてき",
+              "arti": "higienis",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p6-472",
+              "kanji": "取り扱い",
+              "furigana": "とりあつかい",
+              "arti": "penanganan / perlakuan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "きれいな<ruby>製造環境<rt>せいぞうかんきょう</rt></ruby>",
+          "plain": "きれいな製造環境",
+          "translation": "Lingkungan produksi yang bersih",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p1-259",
+              "kanji": "きれいな",
+              "furigana": "",
+              "arti": "bersih",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-ext-1055-e8a3bde980",
+              "kanji": "製造環境",
+              "furigana": "せいぞうかんきょう",
+              "arti": "lingkungan produksi",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "<ruby>製造中<rt>せいぞうちゅう</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生的<rt>えいせいてき</rt></ruby>な<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>い",
+          "plain": "製造中の食品の衛生的な取り扱い",
+          "translation": "Penanganan makanan secara higienis selama proses produksi",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-ext-1059-e8a3bde980",
+              "kanji": "製造中",
+              "furigana": "せいぞうちゅう",
+              "arti": "saat proses produksi berlangsung",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0651",
+              "kanji": "食品",
+              "furigana": "しょくひん",
+              "arti": "makanan / produk pangan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1609370",
+              "kanji": "衛生的",
+              "furigana": "えいせいてき",
+              "arti": "higienis",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p6-472",
+              "kanji": "取り扱い",
+              "furigana": "とりあつかい",
+              "arti": "penanganan / perlakuan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B (\"製造中の服装の衛生的な取り扱い\") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"安全な食品を作るための全体像 まちがっているものをひとつえらびなさい\" vs questionText=\"安全な食品を作つくるための全体像 まちがっているものをひとつえらびなさい\""
+        },
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "prompt",
+          "detail": "Space inside Japanese text"
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q004",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 4,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 1,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>感染型<rt>かんせんがた</rt></ruby><ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>予防対策<rt>よぼうたいさく</rt></ruby>どれですか。。ただしものをひとつえらびなさい。",
+      "promptPlain": "感染型食中毒の主な予防対策どれですか。。ただしものをひとつえらびなさい。",
+      "questionText": "感染食中毒の主な予防対策どれですか。。ただしものをひとつえらびなさい。",
+      "promptTranslation": "Manakah langkah pencegahan utama untuk keracunan makanan tipe infeksi? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 1, nomor 4. Bobot: 7.5 poin. Kunci jawaban: B.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-ext-0278-e6849fe69f",
+          "kanji": "感染型食中毒",
+          "furigana": "かんせんがたしょくちゅうどく",
+          "arti": "keracunan makanan tipe infeksi",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-295",
+          "kanji": "主な",
+          "furigana": "おもな",
+          "arti": "utama",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-ext-latsol-0033",
+          "kanji": "予防対策",
+          "furigana": "よぼうたいさく",
+          "arti": "tindakan pencegahan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-264",
+          "kanji": "どれ",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "70℃<ruby>以上<rt>いじょう</rt></ruby>、1<ruby>分以上<rt>ぷんいじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します",
+          "plain": "70℃以上、1分以上加熱します",
+          "translation": "Memanaskan pada suhu 70°C atau lebih selama 1 menit atau lebih",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-celsius",
+              "kanji": "℃",
+              "furigana": "ど",
+              "arti": "derajat Celcius (satuan suhu)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0111",
+              "kanji": "以上",
+              "furigana": "いじょう",
+              "arti": "atau lebih / minimal",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-funijou",
+              "kanji": "分以上",
+              "furigana": "ふんいじょう",
+              "arti": "menit atau lebih",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1190470",
+              "kanji": "加熱",
+              "furigana": "かねつ",
+              "arti": "pemanasan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "75℃<ruby>以上<rt>いじょう</rt></ruby>、60<ruby>秒以上<rt>びょういじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します",
+          "plain": "75℃以上、60秒以上加熱します",
+          "translation": "Memanaskan pada suhu 75°C atau lebih selama 60 detik atau lebih",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-celsius",
+              "kanji": "℃",
+              "furigana": "ど",
+              "arti": "derajat Celcius (satuan suhu)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0111",
+              "kanji": "以上",
+              "furigana": "いじょう",
+              "arti": "atau lebih / minimal",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-byouijou",
+              "kanji": "秒以上",
+              "furigana": "びょういじょう",
+              "arti": "detik atau lebih",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1190470",
+              "kanji": "加熱",
+              "furigana": "かねつ",
+              "arti": "pemanasan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "80℃<ruby>以上<rt>いじょう</rt></ruby>、30<ruby>秒以上<rt>びょういじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します",
+          "plain": "80℃以上、30秒以上加熱します",
+          "translation": "Memanaskan pada suhu 80°C atau lebih selama 30 detik atau lebih",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-celsius",
+              "kanji": "℃",
+              "furigana": "ど",
+              "arti": "derajat Celcius (satuan suhu)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0111",
+              "kanji": "以上",
+              "furigana": "いじょう",
+              "arti": "atau lebih / minimal",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-byouijou",
+              "kanji": "秒以上",
+              "furigana": "びょういじょう",
+              "arti": "detik atau lebih",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1190470",
+              "kanji": "加熱",
+              "furigana": "かねつ",
+              "arti": "pemanasan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "75℃<ruby>以上<rt>いじょう</rt></ruby>、1<ruby>時間<rt>じかん</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します",
+          "plain": "75℃以上、1時間加熱します",
+          "translation": "Memanaskan pada suhu 75°C atau lebih selama 1 jam",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-celsius",
+              "kanji": "℃",
+              "furigana": "ど",
+              "arti": "derajat Celcius (satuan suhu)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0111",
+              "kanji": "以上",
+              "furigana": "いじょう",
+              "arti": "atau lebih / minimal",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0336",
+              "kanji": "時間",
+              "furigana": "じかん",
+              "arti": "waktu / durasi",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1190470",
+              "kanji": "加熱",
+              "furigana": "かねつ",
+              "arti": "pemanasan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B (\"75℃以上、60秒以上加熱します\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"感染型食中毒の主な予防対策どれですか。。ただしものをひとつえらびなさい。\" vs questionText=\"感染食中毒の主な予防対策どれですか。。ただしものをひとつえらびなさい。\""
+        },
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        },
+        {
+          "code": "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          "context": "kotoba:opt:A",
+          "detail": "kb-latsol-funijou \"分以上\": kotoba=\"ふんいじょう\" vs ruby=\"ぷんいじょう\""
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q005",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 5,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 2,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>保護具<rt>ほごぐ</rt></ruby><ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>どれですか。。ただしものをひとつえらびなさい",
+      "promptPlain": "保護具使い方どれですか。。ただしものをひとつえらびなさい",
+      "questionText": "保護具 使い方どれですか。。ただしものをひとつえらびなさい",
+      "promptTranslation": "Manakah cara penggunaan alat pelindung diri (APD) yang benar? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 2, nomor 5. Bobot: 7.5 poin. Kunci jawaban: B.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-ext-1615-e4bf9de8ad",
+          "kanji": "保護具",
+          "furigana": "ほごぐ",
+          "arti": "alat pelindung diri (APD)",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-47e6df04bf",
+          "kanji": "使い方",
+          "furigana": "つかいかた",
+          "arti": "cara penggunaan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-264",
+          "kanji": "どれ",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>古<rt>ふる</rt></ruby>いものと<ruby>傷<rt>きず</rt></ruby>あるものを<ruby>使用<rt>しよう</rt></ruby>する",
+          "plain": "古いものと傷あるものを使用する",
+          "translation": "Menggunakan alat yang sudah tua dan rusak/cacat",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-396a0112bf",
+              "kanji": "古い",
+              "furigana": "ふるい",
+              "arti": "lama / usang",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-080",
+              "kanji": "傷",
+              "furigana": "きず",
+              "arti": "luka / goresan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-208",
+              "kanji": "使用する",
+              "furigana": "しようする",
+              "arti": "menggunakan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>防護眼鏡<rt>ぼうごめがね</rt></ruby>や<ruby>手袋<rt>てぶくろ</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>する",
+          "plain": "防護眼鏡や手袋を使用する",
+          "translation": "Menggunakan kacamata pelindung dan sarung tangan",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-ext-latsol-0035",
+              "kanji": "防護眼鏡",
+              "furigana": "ぼうごめがね",
+              "arti": "kacamata pelindung (safety goggles)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0311",
+              "kanji": "手袋",
+              "furigana": "てぶくろ",
+              "arti": "sarung tangan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-208",
+              "kanji": "使用する",
+              "furigana": "しようする",
+              "arti": "menggunakan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "じゃまですから<ruby>安全靴<rt>あんぜんぐつ</rt></ruby>つかわない",
+          "plain": "じゃまですから安全靴つかわない",
+          "translation": "Tidak memakai sepatu keselamatan karena mengganggu",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0269",
+              "kanji": "安全靴",
+              "furigana": "あんぜんぐつ",
+              "arti": "sepatu keselamatan (safety shoes)",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0886",
+              "kanji": "つかわない",
+              "furigana": "つかわない",
+              "arti": "tidak menggunakan",
+              "unitType": "inflected_verb",
+              "dictForm": "使う",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B (\"防護眼鏡や手袋を使用する\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"保護具使い方どれですか。。ただしものをひとつえらびなさい\" vs questionText=\"保護具 使い方どれですか。。ただしものをひとつえらびなさい\""
+        },
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q006",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 6,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 2,
+      "category": "",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>では<ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。ただしものをひとつえらびなさい",
+      "promptPlain": "サルモネラ属菌では原因になりやすい食品はどれですか。ただしものをひとつえらびなさい",
+      "questionText": "サルモネラ属菌では原因になりやすい食品はどれですか。ただしものをひとつえらびなさい",
+      "promptTranslation": "Makanan manakah yang mudah menjadi penyebab keracunan bakteri genus Salmonella? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 2, nomor 6. Bobot: 7.5 poin. Kunci jawaban: C.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0052",
+          "kanji": "サルモネラ属菌",
+          "furigana": "さるもねらぞくきん",
+          "arti": "bakteri genus Salmonella",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0220",
+          "kanji": "原因",
+          "furigana": "げんいん",
+          "arti": "penyebab",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0775",
+          "kanji": "なりやすい",
+          "furigana": "なりやすい",
+          "arti": "mudah menjadi",
+          "unitType": "inflected_verb",
+          "dictForm": "なる",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0651",
+          "kanji": "食品",
+          "furigana": "しょくひん",
+          "arti": "makanan / produk pangan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-264",
+          "kanji": "どれ",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>野菜<rt>やさい</rt></ruby>、<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、<ruby>井戸水<rt>いどみず</rt></ruby>など",
+          "plain": "野菜、食肉、牛肉、井戸水など",
+          "translation": "Sayuran, daging, daging sapi, air sumur, dll.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0612",
+              "kanji": "野菜",
+              "furigana": "やさい",
+              "arti": "sayuran",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0661",
+              "kanji": "食肉",
+              "furigana": "しょくにく",
+              "arti": "daging segar",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0429",
+              "kanji": "牛肉",
+              "furigana": "ぎゅうにく",
+              "arti": "daging sapi",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0108",
+              "kanji": "井戸水",
+              "furigana": "いどみず",
+              "arti": "air sumur",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>海水<rt>かいすい</rt></ruby>にいる<ruby>魚介類<rt>ぎょかいるい</rt></ruby> <ruby>刺<rt>さ</rt></ruby>し<ruby>身<rt>み</rt></ruby>、すしなど",
+          "plain": "海水にいる魚介類 刺し身、すしなど",
+          "translation": "Hasil laut yang hidup di air laut, sashimi, sushi, dll.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-1201490",
+              "kanji": "海水",
+              "furigana": "かいすい",
+              "arti": "air laut",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0682",
+              "kanji": "魚介類",
+              "furigana": "ぎょかいるい",
+              "arti": "hasil laut (ikan dan kerang-kerangan)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0497",
+              "kanji": "刺し身",
+              "furigana": "さしみ",
+              "arti": "sashimi (ikan mentah irisan)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-1302",
+              "kanji": "すし",
+              "furigana": "すし",
+              "arti": "sushi",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>野菜<rt>やさい</rt></ruby>、<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、<ruby>鶏卵<rt>けいらん</rt></ruby>など",
+          "plain": "野菜、食肉、鶏肉、鶏卵など",
+          "translation": "Sayuran, daging, daging ayam, telur ayam, dll.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0612",
+              "kanji": "野菜",
+              "furigana": "やさい",
+              "arti": "sayuran",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0661",
+              "kanji": "食肉",
+              "furigana": "しょくにく",
+              "arti": "daging segar",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0685",
+              "kanji": "鶏肉",
+              "furigana": "とりにく",
+              "arti": "daging ayam",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0684",
+              "kanji": "鶏卵",
+              "furigana": "けいらん",
+              "arti": "telur ayam",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C (\"野菜、食肉、鶏肉、鶏卵など\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        },
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "opt:B",
+          "detail": "Space inside Japanese text"
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q007",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 7,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 2,
+      "category": "",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ<ruby>主<rt>おも</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>はどれですか。ただしものをひとつえらびなさい",
+      "promptPlain": "腸炎ビブリオ主な症状はどれですか。ただしものをひとつえらびなさい",
+      "questionText": "腸炎ビブリオ主な症状はどれですか。ただしものをひとつえらびなさい",
+      "promptTranslation": "Manakah gejala utama dari keracunan Vibrio parahaemolyticus? Pilihlah satu jawaban yang benar.",
+      "explanation": "Jawaban yang benar adalah A (腹痛はげしい下痢 / sakit perut dan diare hebat). Berdasarkan buku teks resmi OTAFF SSW Pengolahan Makanan Bab 1 Hal. 6 tabel bakteri keracunan makanan tipe infeksi, gejala utama Vibrio parahaemolyticus (腸炎ビブリオ) adalah sakit perut dan diare hebat (腹痛、激しい下痢). Opsi D (腹痛下痢 tanpa 激しい) adalah gejala Clostridium perfringens (ウエルシュ菌), sedangkan Opsi B (血便 はげしい下痢 腹痛) adalah gejala EHEC (腸管出血性大腸菌).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0524",
+          "kanji": "腸炎ビブリオ",
+          "furigana": "ちょうえんびぶりお",
+          "arti": "bakteri Vibrio parahaemolyticus",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-295",
+          "kanji": "主な",
+          "furigana": "おもな",
+          "arti": "utama",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0454",
+          "kanji": "症状",
+          "furigana": "しょうじょう",
+          "arti": "gejala",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-264",
+          "kanji": "どれ",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>腹痛<rt>ふくつう</rt></ruby>はげしい<ruby>下痢<rt>げり</rt></ruby>",
+          "plain": "腹痛はげしい下痢",
+          "translation": "Sakit perut, diare hebat",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0526",
+              "kanji": "腹痛",
+              "furigana": "ふくつう",
+              "arti": "sakit perut",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0148",
+              "kanji": "はげしい",
+              "furigana": "はげしい",
+              "arti": "hebat / parah / deras",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0092",
+              "kanji": "下痢",
+              "furigana": "げり",
+              "arti": "diare",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>血便<rt>けつべん</rt></ruby> はげしい<ruby>下痢<rt>げり</rt></ruby> <ruby>腹痛<rt>ふくつう</rt></ruby>",
+          "plain": "血便 はげしい下痢 腹痛",
+          "translation": "Tinja berdarah, diare hebat, sakit perut",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0540",
+              "kanji": "血便",
+              "furigana": "けつべん",
+              "arti": "tinja berdarah",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0148",
+              "kanji": "はげしい",
+              "furigana": "はげしい",
+              "arti": "hebat / parah / deras",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0092",
+              "kanji": "下痢",
+              "furigana": "げり",
+              "arti": "diare",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0526",
+              "kanji": "腹痛",
+              "furigana": "ふくつう",
+              "arti": "sakit perut",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>下痢<rt>げり</rt></ruby> はげしい<ruby>下痢<rt>げり</rt></ruby> <ruby>発熱<rt>はつねつ</rt></ruby>",
+          "plain": "下痢 はげしい下痢 発熱",
+          "translation": "Diare, diare hebat, demam",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0092",
+              "kanji": "下痢",
+              "furigana": "げり",
+              "arti": "diare",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0148",
+              "kanji": "はげしい",
+              "furigana": "はげしい",
+              "arti": "hebat / parah / deras",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0455",
+              "kanji": "発熱",
+              "furigana": "はつねつ",
+              "arti": "demam",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "<ruby>腹痛<rt>ふくつう</rt></ruby><ruby>下痢<rt>げり</rt></ruby>",
+          "plain": "腹痛下痢",
+          "translation": "Sakit perut, diare",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0526",
+              "kanji": "腹痛",
+              "furigana": "ふくつう",
+              "arti": "sakit perut",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0092",
+              "kanji": "下痢",
+              "furigana": "げり",
+              "arti": "diare",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "KEY_CORRECTION_REQUIRED",
+        "reasoning": "Pada Kunci Jawaban PDF Latihan 1 Hal. 6 tertulis D (腹痛下痢), namun pada tabel diktat resmi SSW PM Bab 1, 腹痛・下痢 adalah gejala ウエルシュ菌 (reguler05-q002), sedangkan gejala utama 腸炎ビブリオ secara eksplisit tertulis 腹痛、激しい下痢 (Opsi A)."
+      },
+      "flags": [
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        },
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "opt:B",
+          "detail": "Space inside Japanese text"
+        },
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "opt:C",
+          "detail": "Space inside Japanese text"
+        },
+        {
+          "code": "PRIOR_KEY_AUDIT_KEY_CORRECTION_REQUIRED",
+          "context": "question",
+          "detail": "Pada Kunci Jawaban PDF Latihan 1 Hal. 6 tertulis D (腹痛下痢), namun pada tabel diktat resmi SSW PM Bab 1, 腹痛・下痢 adalah gejala ウエルシュ菌 (reguler05-q002), sedangkan gejala utama 腸炎ビブリオ secara eksplisit tertulis 腹痛、激しい下痢 (Opsi A)."
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q008",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 8,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 2,
+      "category": "",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby> <ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものをひとつえらびなさい",
+      "promptPlain": "カンピロバクター属菌 原因になりやすい食品はどれですか。正しいものをひとつえらびなさい",
+      "questionText": "カンピロバクター属菌 原因になりやすい食品はどれですか。正しいものをひとつえらびなさい",
+      "promptTranslation": "Makanan manakah yang mudah menjadi penyebab keracunan bakteri genus Campylobacter? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 2, nomor 8. Bobot: 7.5 poin. Kunci jawaban: A.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0046",
+          "kanji": "カンピロバクター属菌",
+          "furigana": "かんぴろばくたーぞくきん",
+          "arti": "bakteri genus Campylobacter",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0220",
+          "kanji": "原因",
+          "furigana": "げんいん",
+          "arti": "penyebab",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0775",
+          "kanji": "なりやすい",
+          "furigana": "なりやすい",
+          "arti": "mudah menjadi",
+          "unitType": "inflected_verb",
+          "dictForm": "なる",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0651",
+          "kanji": "食品",
+          "furigana": "しょくひん",
+          "arti": "makanan / produk pangan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-264",
+          "kanji": "どれ",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>",
+          "plain": "食肉、鶏肉",
+          "translation": "Daging, daging ayam",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0661",
+              "kanji": "食肉",
+              "furigana": "しょくにく",
+              "arti": "daging segar",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0685",
+              "kanji": "鶏肉",
+              "furigana": "とりにく",
+              "arti": "daging ayam",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>",
+          "plain": "食肉、牛肉",
+          "translation": "Daging, daging sapi",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0661",
+              "kanji": "食肉",
+              "furigana": "しょくにく",
+              "arti": "daging segar",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0429",
+              "kanji": "牛肉",
+              "furigana": "ぎゅうにく",
+              "arti": "daging sapi",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>野菜<rt>やさい</rt></ruby>、<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>",
+          "plain": "野菜、食肉、鶏肉",
+          "translation": "Sayuran, daging, daging ayam",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0612",
+              "kanji": "野菜",
+              "furigana": "やさい",
+              "arti": "sayuran",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0661",
+              "kanji": "食肉",
+              "furigana": "しょくにく",
+              "arti": "daging segar",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0685",
+              "kanji": "鶏肉",
+              "furigana": "とりにく",
+              "arti": "daging ayam",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "<ruby>野菜<rt>やさい</rt></ruby>、<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、いどみず",
+          "plain": "野菜、食肉、鶏肉、いどみず",
+          "translation": "Sayuran, daging, daging ayam, air sumur",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0612",
+              "kanji": "野菜",
+              "furigana": "やさい",
+              "arti": "sayuran",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0661",
+              "kanji": "食肉",
+              "furigana": "しょくにく",
+              "arti": "daging segar",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0685",
+              "kanji": "鶏肉",
+              "furigana": "とりにく",
+              "arti": "daging ayam",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0348",
+              "kanji": "いどみず",
+              "furigana": "いどみず",
+              "arti": "air sumur (井戸水)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A (\"食肉、鶏肉\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "prompt",
+          "detail": "Space inside Japanese text"
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q009",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 9,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 3,
+      "category": "",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "セレウス<ruby>菌<rt>きん</rt></ruby>では<ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。。ただしものをひとつえらびなさい",
+      "promptPlain": "セレウス菌では原因になりやすい食品はどれですか。。ただしものをひとつえらびなさい",
+      "questionText": "セレウス菌では原因になりやすい食品はどれですか。。ただしものをひとつえらびなさい",
+      "promptTranslation": "Makanan manakah yang mudah menjadi penyebab keracunan bakteri Bacillus cereus? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 3, nomor 9. Bobot: 7.5 poin. Kunci jawaban: A.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0054",
+          "kanji": "セレウス菌",
+          "furigana": "せれうすきん",
+          "arti": "bakteri Bacillus cereus",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0220",
+          "kanji": "原因",
+          "furigana": "げんいん",
+          "arti": "penyebab",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0775",
+          "kanji": "なりやすい",
+          "furigana": "なりやすい",
+          "arti": "mudah menjadi",
+          "unitType": "inflected_verb",
+          "dictForm": "なる",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0651",
+          "kanji": "食品",
+          "furigana": "しょくひん",
+          "arti": "makanan / produk pangan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-264",
+          "kanji": "どれ",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>米<rt>こめ</rt></ruby>や<ruby>小麦<rt>こむぎ</rt></ruby>などを<ruby>使<rt>つか</rt></ruby>って<ruby>調理<rt>ちょうり</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>",
+          "plain": "米や小麦などを使って調理した食品",
+          "translation": "Makanan yang dimasak menggunakan beras, gandum, dll.",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-1508750",
+              "kanji": "米",
+              "furigana": "こめ",
+              "arti": "Beras mentah bahan baku pangan pokok",
+              "unitType": "standalone_term",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0281",
+              "kanji": "小麦",
+              "furigana": "こむぎ",
+              "arti": "gandum",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-185",
+              "kanji": "使って",
+              "furigana": "つかって",
+              "arti": "menggunakan (dasar: 使う)",
+              "unitType": "inflected_verb",
+              "dictForm": "使う",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1429310",
+              "kanji": "調理",
+              "furigana": "ちょうり",
+              "arti": "pengolahan / pemasakan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0651",
+              "kanji": "食品",
+              "furigana": "しょくひん",
+              "arti": "makanan / produk pangan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>缶詰<rt>かんづめ</rt></ruby>、びんづめ",
+          "plain": "缶詰、びんづめ",
+          "translation": "Makanan kaleng, makanan botol",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0504",
+              "kanji": "缶詰",
+              "furigana": "かんづめ",
+              "arti": "makanan kaleng",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0106",
+              "kanji": "びんづめ",
+              "furigana": "びんづめ",
+              "arti": "makanan kemasan botol kaca (瓶詰)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>手<rt>て</rt></ruby>や<ruby>指<rt>ゆび</rt></ruby>に<ruby>傷<rt>きず</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>が<ruby>調理<rt>ちょうり</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>",
+          "plain": "手や指に傷のある人が調理した食品",
+          "translation": "Makanan yang dimasak oleh orang yang memiliki luka di tangan atau jari",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p1-067",
+              "kanji": "手",
+              "furigana": "て",
+              "arti": "tangan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-078",
+              "kanji": "指",
+              "furigana": "ゆび",
+              "arti": "jari",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-080",
+              "kanji": "傷",
+              "furigana": "きず",
+              "arti": "luka / goresan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p1-058",
+              "kanji": "人",
+              "furigana": "ひと",
+              "arti": "orang",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1429310",
+              "kanji": "調理",
+              "furigana": "ちょうり",
+              "arti": "pengolahan / pemasakan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0651",
+              "kanji": "食品",
+              "furigana": "しょくひん",
+              "arti": "makanan / produk pangan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A (\"米や小麦などを使って調理した食品\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q010",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 10,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 3,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>黄色<rt>おうしょく</rt></ruby>ブドウでは<ruby>主<rt>おも</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>はどれか。。ただしものをひとつえらびなさい",
+      "promptPlain": "黄色ブドウでは主な症状はどれか。。ただしものをひとつえらびなさい",
+      "questionText": "黄色ブドウでは主な症状はどれか。。ただしものをひとつえらびなさい",
+      "promptTranslation": "Manakah gejala utama dari keracunan Staphylococcus aureus? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 3, nomor 10. Bobot: 7.5 poin. Kunci jawaban: B.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-latsol-d458063d6e",
+          "kanji": "黄色",
+          "furigana": "おうしょく",
+          "arti": "warna kuning",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-ext-0027-e38396e383",
+          "kanji": "ブドウ",
+          "furigana": "ぶどう",
+          "arti": "Anggur (bahan baku buah olahan pangan)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-295",
+          "kanji": "主な",
+          "furigana": "おもな",
+          "arti": "utama",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0454",
+          "kanji": "症状",
+          "furigana": "しょうじょう",
+          "arti": "gejala",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p2-253",
+          "kanji": "どれか",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おうと、<ruby>呼吸困難<rt>こきゅうこんなん</rt></ruby>",
+          "plain": "吐き気、おうと、呼吸困難",
+          "translation": "Mual, muntah, kesulitan bernapas",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0230",
+              "kanji": "吐き気",
+              "furigana": "はきけ",
+              "arti": "rasa mual",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-914f5e914c",
+              "kanji": "おうと",
+              "furigana": "おうと",
+              "arti": "muntah",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0231",
+              "kanji": "呼吸困難",
+              "furigana": "こきゅうこんなん",
+              "arti": "kesulitan bernapas / sesak napas",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おうと、<ruby>腹痛<rt>ふくつう</rt></ruby>",
+          "plain": "吐き気、おうと、腹痛",
+          "translation": "Mual, muntah, sakit perut",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0230",
+              "kanji": "吐き気",
+              "furigana": "はきけ",
+              "arti": "rasa mual",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-914f5e914c",
+              "kanji": "おうと",
+              "furigana": "おうと",
+              "arti": "muntah",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0526",
+              "kanji": "腹痛",
+              "furigana": "ふくつう",
+              "arti": "sakit perut",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おうと、<ruby>下痢<rt>げり</rt></ruby>",
+          "plain": "吐き気、おうと、下痢",
+          "translation": "Mual, muntah, diare",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0230",
+              "kanji": "吐き気",
+              "furigana": "はきけ",
+              "arti": "rasa mual",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-914f5e914c",
+              "kanji": "おうと",
+              "furigana": "おうと",
+              "arti": "muntah",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0092",
+              "kanji": "下痢",
+              "furigana": "げり",
+              "arti": "diare",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B (\"吐き気、おうと、腹痛\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        }
+      ],
+      "cluster": {
+        "clusterId": "CL-0261",
+        "size": 2,
+        "divergences": {
+          "promptTextDiff": true,
+          "optionTextDiff": true,
+          "promptTranslationDiff": true,
+          "correctOptionTextDiff": true
+        },
+        "twins": [
+          "reguler06-q003 (latsol-reguler-06)"
+        ]
+      }
+    },
+    {
+      "id": "reguler01-q011",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 11,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 3,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>食中毒<rt>しょくちゅうどく</rt></ruby><ruby>予防<rt>よぼう</rt></ruby>の3<ruby>原則<rt>げんそく</rt></ruby>では まちがっているものをひとつえらびなさい",
+      "promptPlain": "食中毒予防の3原則では まちがっているものをひとつえらびなさい",
+      "questionText": "食中毒予防の3原則では まちがっているものをひとつえらびなさい",
+      "promptTranslation": "Dalam 3 prinsip pencegahan keracunan makanan, pilihlah satu yang salah.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 3, nomor 11. Bobot: 7.5 poin. Kunci jawaban: B.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0649",
+          "kanji": "食中毒予防の3原則",
+          "furigana": "しょくちゅうどくよぼうのさんげんそく",
+          "arti": "3 prinsip pencegahan keracunan makanan",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0001",
+          "kanji": "まちがっている",
+          "furigana": "まちがっている",
+          "arti": "keliru / tidak benar",
+          "unitType": "inflected_verb",
+          "dictForm": "間違う",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "つけない",
+          "plain": "つけない",
+          "translation": "Tidak menempelkan/mencemari",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p2-194",
+              "kanji": "つけない",
+              "furigana": "",
+              "arti": "tidak menempel / memakai",
+              "unitType": "inflected",
+              "dictForm": "つける",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "ころさない",
+          "plain": "ころさない",
+          "translation": "Tidak membunuh",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-korosanai",
+              "kanji": "ころさない",
+              "furigana": "ころさない",
+              "arti": "tidak membunuh (bakteri)",
+              "unitType": "inflected_verb",
+              "dictForm": "殺す",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>増<rt>ふ</rt></ruby>やさない",
+          "plain": "増やさない",
+          "translation": "Tidak memperbanyak/mengembangbiakkan",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p4-164",
+              "kanji": "増やさない",
+              "furigana": "ふやさない",
+              "arti": "tidak memperbanyak",
+              "unitType": "inflected",
+              "dictForm": "増やす",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B (\"ころさない\") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar."
+      },
+      "flags": [
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "prompt",
+          "detail": "Space inside Japanese text"
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q012",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 12,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 3,
+      "category": "",
+      "correctAnswer": "A",
+      "correctIndex": 0,
+      "instructions": "<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>するみっつの<ruby>要素<rt>ようそ</rt></ruby>があります。。まちがっているものをひとつえらびなさい",
+      "promptPlain": "微生物が増殖するみっつの要素があります。。まちがっているものをひとつえらびなさい",
+      "questionText": "微生物が増殖するみっつの要素があります。。まちがっているものをひとつえらびなさい",
+      "promptTranslation": "Ada tiga faktor yang menyebabkan mikroorganisme berkembang biak. Pilihlah satu yang salah.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 3, nomor 12. Bobot: 7.5 poin. Kunci jawaban: A.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0295",
+          "kanji": "微生物",
+          "furigana": "びせいぶつ",
+          "arti": "mikroorganisme / mikroba",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1403250",
+          "kanji": "増殖",
+          "furigana": "ぞうしょく",
+          "arti": "perkembangbiakan bakteri",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1546800",
+          "kanji": "要素",
+          "furigana": "ようそ",
+          "arti": "unsur / elemen penting",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0001",
+          "kanji": "まちがっている",
+          "furigana": "まちがっている",
+          "arti": "keliru / tidak benar",
+          "unitType": "inflected_verb",
+          "dictForm": "間違う",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>水<rt>みず</rt></ruby>",
+          "plain": "水",
+          "translation": "Air (mizu)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0369",
+              "kanji": "水",
+              "furigana": "みず",
+              "arti": "air",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>水分<rt>すいぶん</rt></ruby>",
+          "plain": "水分",
+          "translation": "Kadar air/kelembapan (suibun)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0371",
+              "kanji": "水分",
+              "furigana": "すいぶん",
+              "arti": "kadar air / cairan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>栄養<rt>えいよう</rt></ruby>",
+          "plain": "栄養",
+          "translation": "Nutrisi",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0345",
+              "kanji": "栄養",
+              "furigana": "えいよう",
+              "arti": "nutrisi / zat gizi",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A (\"水\") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar."
+      },
+      "flags": []
+    },
+    {
+      "id": "reguler01-q013",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 13,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 4,
+      "category": "",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>しやすい<ruby>食品<rt>しょくひん</rt></ruby>はなんの<ruby>食品<rt>しょくひん</rt></ruby>ですか。。ただしものをひとつえらびなさい",
+      "promptPlain": "微生物が増殖しやすい食品はなんの食品ですか。。ただしものをひとつえらびなさい",
+      "questionText": "微生物が増殖しやすい食品はなんの食品ですか。。ただしものをひとつえらびなさい",
+      "promptTranslation": "Makanan apakah yang mudah ditumbuhi (dikembangbiakkan) oleh mikroorganisme? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 4, nomor 13. Bobot: 7.5 poin. Kunci jawaban: C.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0295",
+          "kanji": "微生物",
+          "furigana": "びせいぶつ",
+          "arti": "mikroorganisme / mikroba",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0985",
+          "kanji": "増殖しやすい",
+          "furigana": "ぞうしょくしやすい",
+          "arti": "mudah berkembang biak",
+          "unitType": "inflected_adj",
+          "dictForm": "増殖しやすい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0651",
+          "kanji": "食品",
+          "furigana": "しょくひん",
+          "arti": "makanan / produk pangan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0916",
+          "kanji": "なん",
+          "furigana": "なん",
+          "arti": "apa / berapa",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>鶏肉<rt>とりにく</rt></ruby>",
+          "plain": "鶏肉",
+          "translation": "Daging ayam",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0685",
+              "kanji": "鶏肉",
+              "furigana": "とりにく",
+              "arti": "daging ayam",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>豚肉<rt>ぶたにく</rt></ruby>",
+          "plain": "豚肉",
+          "translation": "Daging babi",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0578",
+              "kanji": "豚肉",
+              "furigana": "ぶたにく",
+              "arti": "daging babi",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>魚<rt>さかな</rt></ruby>",
+          "plain": "魚",
+          "translation": "Ikan",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0680",
+              "kanji": "魚",
+              "furigana": "さかな",
+              "arti": "ikan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "REVIEW_REQUIRED",
+        "reasoning": "Pertanyaan menanyakan makanan yang mudah ditumbuhi mikroorganisme antara A (鶏肉), B (豚肉), dan C (魚). Secara ilmiah ketiganya memiliki kadar air dan nutrisi tinggi, namun kunci PDF memilih C (魚) merujuk pada penjelasan bahwa ikan memiliki aktivitas air tinggi dan lebih cepat mengalami pembusukan mikroba dibanding daging ternak. Kunci C dipertahankan."
+      },
+      "flags": [
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        },
+        {
+          "code": "PRIOR_KEY_AUDIT_REVIEW_REQUIRED",
+          "context": "question",
+          "detail": "Pertanyaan menanyakan makanan yang mudah ditumbuhi mikroorganisme antara A (鶏肉), B (豚肉), dan C (魚). Secara ilmiah ketiganya memiliki kadar air dan nutrisi tinggi, namun kunci PDF memilih C (魚) merujuk pada penjelasan bahwa ikan memiliki aktivitas air tinggi dan lebih cepat mengalami pembusukan mikroba dibanding daging ternak. Kunci C dipertahankan."
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q014",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 14,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 4,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "カビを<ruby>殺<rt>ころ</rt></ruby>すために<ruby>方法<rt>ほうほう</rt></ruby>はどうですか。。ただしものをひとつえらびなさい",
+      "promptPlain": "カビを殺すために方法はどうですか。。ただしものをひとつえらびなさい",
+      "questionText": "カビを殺すために方方はどうですか。。ただしものをひとつえらびなさい",
+      "promptTranslation": "Bagaimana metode yang digunakan terkait jamur/kapang pada soal ini? Pilihlah satu jawaban sesuai kunci.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 4, nomor 14. Bobot: 7.5 poin. Kunci jawaban: B. Catatan QA: Teks asli menulis カビを殺すために方方はどうですか dengan kunci jawaban B (冷却します — mencegah pertumbuhan kapang dengan suhu rendah).",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0045",
+          "kanji": "カビ",
+          "furigana": "かび",
+          "arti": "kapang / jamur",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-180",
+          "kanji": "殺す",
+          "furigana": "ころす",
+          "arti": "membunuh (bakteri)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-328",
+          "kanji": "ために",
+          "furigana": "",
+          "arti": "untuk / demi",
+          "unitType": "particle",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0334",
+          "kanji": "方法",
+          "furigana": "ほうほう",
+          "arti": "cara / metode",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-275",
+          "kanji": "どう",
+          "furigana": "",
+          "arti": "bagaimana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>加熱<rt>かねつ</rt></ruby>します",
+          "plain": "加熱します",
+          "translation": "Memanaskan",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-1190470",
+              "kanji": "加熱",
+              "furigana": "かねつ",
+              "arti": "pemanasan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>冷却<rt>れいきゃく</rt></ruby>します",
+          "plain": "冷却します",
+          "translation": "Mendinginkan",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0162",
+              "kanji": "冷却",
+              "furigana": "れいきゃく",
+              "arti": "pendinginan setelah pemanasan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>破壊<rt>はかい</rt></ruby>します",
+          "plain": "破壊します",
+          "translation": "Menghancurkan",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-1471250",
+              "kanji": "破壊",
+              "furigana": "はかい",
+              "arti": "kerusakan / perusakan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "QUESTION_DEFECTIVE",
+        "reasoning": "Teks pertanyaan pada PDF sumber (カビを殺すために方方はどうですか) cacat secara redaksional karena menggunakan kata 殺す (membunuh), sedangkan kunci PDF adalah B (冷却します / mendinginkan). Secara ilmiah pendinginan hanya menghambat pertumbuhan kapang (増やさない), bukan membunuhnya. Sesuai aturan QA untuk soal cacat redaksional sumber, kunci B dipertahankan dan ditandai sebagai QUESTION_DEFECTIVE."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"カビを殺すために方法はどうですか。。ただしものをひとつえらびなさい\" vs questionText=\"カビを殺すために方方はどうですか。。ただしものをひとつえらびなさい\""
+        },
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        },
+        {
+          "code": "PRIOR_KEY_AUDIT_QUESTION_DEFECTIVE",
+          "context": "question",
+          "detail": "Teks pertanyaan pada PDF sumber (カビを殺すために方方はどうですか) cacat secara redaksional karena menggunakan kata 殺す (membunuh), sedangkan kunci PDF adalah B (冷却します / mendinginkan). Secara ilmiah pendinginan hanya menghambat pertumbuhan kapang (増やさない), bukan membunuhnya. Sesuai aturan QA untuk soal cacat redaksional sumber, kunci B dipertahankan dan ditandai sebagai QUESTION_DEFECTIVE."
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q015",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 15,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 4,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>微生物<rt>びせいぶつ</rt></ruby>はなんど°<ruby>間<rt>あいだ</rt></ruby>でぞうしょくしますか。。ただしものをひとつえらびなさい",
+      "promptPlain": "微生物はなんど°間でぞうしょくしますか。。ただしものをひとつえらびなさい",
+      "questionText": "微生物はなんど°間でぞうしょくしますか。。ただしものをひとつえらびなさい",
+      "promptTranslation": "Pada rentang suhu berapa derajat mikroorganisme berkembang biak? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 4, nomor 15. Bobot: 7.5 poin. Kunci jawaban: B.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0295",
+          "kanji": "微生物",
+          "furigana": "びせいぶつ",
+          "arti": "mikroorganisme / mikroba",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0760",
+          "kanji": "なんど",
+          "furigana": "なんど",
+          "arti": "berapa derajat",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p2-104",
+          "kanji": "間",
+          "furigana": "あいだ",
+          "arti": "antara / sela-sela",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0093",
+          "kanji": "ぞうしょく",
+          "furigana": "ぞうしょく",
+          "arti": "perkembangbiakan bakteri (増殖)",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-138",
+          "kanji": "しますか",
+          "furigana": "",
+          "arti": "harus bagaimana (dasar: する)",
+          "unitType": "inflected_verb",
+          "dictForm": "する",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "30℃ -40℃ あいだで",
+          "plain": "30℃ -40℃ あいだで",
+          "translation": "Di antara 30°C - 40°C",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-celsius",
+              "kanji": "℃",
+              "furigana": "ど",
+              "arti": "derajat Celcius (satuan suhu)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0149",
+              "kanji": "あいだ",
+              "furigana": "あいだ",
+              "arti": "di antara / selama rentang",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "10℃ 60℃あいだで",
+          "plain": "10℃ 60℃あいだで",
+          "translation": "Di antara 10°C - 60°C",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-celsius",
+              "kanji": "℃",
+              "furigana": "ど",
+              "arti": "derajat Celcius (satuan suhu)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0149",
+              "kanji": "あいだ",
+              "furigana": "あいだ",
+              "arti": "di antara / selama rentang",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "10℃ -40℃ あいだで",
+          "plain": "10℃ -40℃ あいだで",
+          "translation": "Di antara 10°C - 40°C",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-celsius",
+              "kanji": "℃",
+              "furigana": "ど",
+              "arti": "derajat Celcius (satuan suhu)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0149",
+              "kanji": "あいだ",
+              "furigana": "あいだ",
+              "arti": "di antara / selama rentang",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B (\"10℃ 60℃あいだで\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q016",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 16,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 4,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby> <ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものをひとつえらびなさい",
+      "promptPlain": "腸管出血性大腸菌 原因になりやすい食品はどれですか。正しいものをひとつえらびなさい",
+      "questionText": "腸管出血性大腸菌 原因になりやすい食品はどれですか。正しいものをひとつえらびなさい",
+      "promptTranslation": "Makanan manakah yang mudah menjadi penyebab keracunan Enterohemorrhagic Escherichia coli (EHEC)? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 4, nomor 16. Bobot: 7.5 poin. Kunci jawaban: B.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0525",
+          "kanji": "腸管出血性大腸菌",
+          "furigana": "ちょうかんしゅっけつせいだいちょうきん",
+          "arti": "bakteri E. coli enterohemoragik (O157, O111)",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0220",
+          "kanji": "原因",
+          "furigana": "げんいん",
+          "arti": "penyebab",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0775",
+          "kanji": "なりやすい",
+          "furigana": "なりやすい",
+          "arti": "mudah menjadi",
+          "unitType": "inflected_verb",
+          "dictForm": "なる",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0651",
+          "kanji": "食品",
+          "furigana": "しょくひん",
+          "arti": "makanan / produk pangan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-264",
+          "kanji": "どれ",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0356",
+          "kanji": "正しい",
+          "furigana": "ただしい",
+          "arti": "benar / tepat",
+          "unitType": "adjective",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、<ruby>井戸水<rt>いどみず</rt></ruby>",
+          "plain": "食肉、鶏肉、井戸水",
+          "translation": "Daging, daging ayam, air sumur",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0661",
+              "kanji": "食肉",
+              "furigana": "しょくにく",
+              "arti": "daging segar",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0685",
+              "kanji": "鶏肉",
+              "furigana": "とりにく",
+              "arti": "daging ayam",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0108",
+              "kanji": "井戸水",
+              "furigana": "いどみず",
+              "arti": "air sumur",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、<ruby>井戸水<rt>いどみず</rt></ruby>",
+          "plain": "食肉、牛肉、井戸水",
+          "translation": "Daging, daging sapi, air sumur",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0661",
+              "kanji": "食肉",
+              "furigana": "しょくにく",
+              "arti": "daging segar",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0429",
+              "kanji": "牛肉",
+              "furigana": "ぎゅうにく",
+              "arti": "daging sapi",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0108",
+              "kanji": "井戸水",
+              "furigana": "いどみず",
+              "arti": "air sumur",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、<ruby>鶏卵<rt>けいらん</rt></ruby>",
+          "plain": "食肉、牛肉、鶏卵",
+          "translation": "Daging, daging sapi, telur ayam",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0661",
+              "kanji": "食肉",
+              "furigana": "しょくにく",
+              "arti": "daging segar",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0429",
+              "kanji": "牛肉",
+              "furigana": "ぎゅうにく",
+              "arti": "daging sapi",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0684",
+              "kanji": "鶏卵",
+              "furigana": "けいらん",
+              "arti": "telur ayam",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B (\"食肉、牛肉、井戸水\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "prompt",
+          "detail": "Space inside Japanese text"
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q017",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 17,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 4,
+      "category": "",
+      "correctAnswer": "C",
+      "correctIndex": 2,
+      "instructions": "<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>感染型<rt>かんせんがた</rt></ruby><ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>予防対策<rt>よぼうたいさく</rt></ruby>どれですか。。まちがっているものをひとつえらびなさい",
+      "promptPlain": "感染型食中毒の主な予防対策どれですか。。まちがっているものをひとつえらびなさい",
+      "questionText": "感染食中毒の主な予防対策どれですか。。まちがっているものをひとつえらびなさい",
+      "promptTranslation": "Manakah langkah pencegahan utama keracunan makanan tipe infeksi? Pilihlah satu yang salah.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 4, nomor 17. Bobot: 7.5 poin. Kunci jawaban: C.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-ext-0278-e6849fe69f",
+          "kanji": "感染型食中毒",
+          "furigana": "かんせんがたしょくちゅうどく",
+          "arti": "keracunan makanan tipe infeksi",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-295",
+          "kanji": "主な",
+          "furigana": "おもな",
+          "arti": "utama",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-ext-latsol-0033",
+          "kanji": "予防対策",
+          "furigana": "よぼうたいさく",
+          "arti": "tindakan pencegahan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-264",
+          "kanji": "どれ",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0001",
+          "kanji": "まちがっている",
+          "furigana": "まちがっている",
+          "arti": "keliru / tidak benar",
+          "unitType": "inflected_verb",
+          "dictForm": "間違う",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "75℃<ruby>以上<rt>いじょう</rt></ruby>、1<ruby>分以上<rt>ぷんいじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します",
+          "plain": "75℃以上、1分以上加熱します",
+          "translation": "Memanaskan pada suhu 75°C atau lebih selama 1 menit atau lebih",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-latsol-celsius",
+              "kanji": "℃",
+              "furigana": "ど",
+              "arti": "derajat Celcius (satuan suhu)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0111",
+              "kanji": "以上",
+              "furigana": "いじょう",
+              "arti": "atau lebih / minimal",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-latsol-funijou",
+              "kanji": "分以上",
+              "furigana": "ふんいじょう",
+              "arti": "menit atau lebih",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1190470",
+              "kanji": "加熱",
+              "furigana": "かねつ",
+              "arti": "pemanasan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>などを<ruby>洗浄<rt>せんじょう</rt></ruby>します",
+          "plain": "調理器具などを洗浄します",
+          "translation": "Mencuci peralatan masak dan sejenisnya",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0576",
+              "kanji": "調理器具",
+              "furigana": "ちょうりきぐ",
+              "arti": "peralatan masak",
+              "unitType": "compound_technical",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-0974",
+              "kanji": "洗浄します",
+              "furigana": "せんじょうします",
+              "arti": "mencuci bersih (sopan)",
+              "unitType": "inflected_verb",
+              "dictForm": "洗浄する",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>海水<rt>かいすい</rt></ruby>の<ruby>魚介類<rt>ぎょかいるい</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します",
+          "plain": "海水の魚介類加熱します",
+          "translation": "Memanaskan hasil laut dari air laut (pada diktat Vibrio parahaemolyticus dicegah dengan mencuci menggunakan air tawar/水道水で洗う)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-1201490",
+              "kanji": "海水",
+              "furigana": "かいすい",
+              "arti": "air laut",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0682",
+              "kanji": "魚介類",
+              "furigana": "ぎょかいるい",
+              "arti": "hasil laut (ikan dan kerang-kerangan)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1190470",
+              "kanji": "加熱",
+              "furigana": "かねつ",
+              "arti": "pemanasan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "REVIEW_REQUIRED",
+        "reasoning": "Pertanyaan menanyakan yang SALAH dari langkah pencegahan keracunan tipe infeksi. Opsi C (海水の魚介類加熱します) ditulis kurang lengkap oleh pembuat soal untuk membedakannya dari langkah khas 腸炎ビブリオ yaitu mencuci hasil laut dengan air tawar (真水/水道水で洗う). Kunci PDF (C) dipertahankan."
+      },
+      "flags": [
+        {
+          "code": "PROMPT_QUESTIONTEXT_DESYNC",
+          "context": "question",
+          "detail": "prompt=\"感染型食中毒の主な予防対策どれですか。。まちがっているものをひとつえらびなさい\" vs questionText=\"感染食中毒の主な予防対策どれですか。。まちがっているものをひとつえらびなさい\""
+        },
+        {
+          "code": "KOTOBA_READING_CONFLICT_WITH_RUBY",
+          "context": "kotoba:opt:A",
+          "detail": "kb-latsol-funijou \"分以上\": kotoba=\"ふんいじょう\" vs ruby=\"ぷんいじょう\""
+        },
+        {
+          "code": "TRANSLATION_CONTAINS_JP",
+          "context": "optTranslation:C",
+          "detail": "Untranslated JP: 水道水で洗う"
+        },
+        {
+          "code": "PRIOR_KEY_AUDIT_REVIEW_REQUIRED",
+          "context": "question",
+          "detail": "Pertanyaan menanyakan yang SALAH dari langkah pencegahan keracunan tipe infeksi. Opsi C (海水の魚介類加熱します) ditulis kurang lengkap oleh pembuat soal untuk membedakannya dari langkah khas 腸炎ビブリオ yaitu mencuci hasil laut dengan air tawar (真水/水道水で洗う). Kunci PDF (C) dipertahankan."
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q018",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 18,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 5,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "もし、<ruby>温度<rt>おんど</rt></ruby>や<ruby>時間<rt>じかん</rt></ruby>に<ruby>異常<rt>いじょう</rt></ruby>があったら どうしたらいいですか。ただしものをひとつえらびなさい",
+      "promptPlain": "もし、温度や時間に異常があったら どうしたらいいですか。ただしものをひとつえらびなさい",
+      "questionText": "もし、温度や時間に異常があったら どうしたらいいですか。ただしものをひとつえらびなさい",
+      "promptTranslation": "Jika terdapat ketidaknormalan (masalah) pada suhu atau waktu, apa yang sebaiknya dilakukan? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 5, nomor 18. Bobot: 7.5 poin. Kunci jawaban: B.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-otaff51-0756",
+          "kanji": "もし",
+          "furigana": "もし",
+          "arti": "jika / seandainya",
+          "unitType": "adverb",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0404",
+          "kanji": "温度",
+          "furigana": "おんど",
+          "arti": "suhu / temperatur",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0336",
+          "kanji": "時間",
+          "furigana": "じかん",
+          "arti": "waktu / durasi",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0448",
+          "kanji": "異常",
+          "furigana": "いじょう",
+          "arti": "ketidaknormalan / kelainan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0402",
+          "kanji": "あったら",
+          "furigana": "あったら",
+          "arti": "apabila ada / tersedia",
+          "unitType": "inflected_verb",
+          "dictForm": "ある",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-274",
+          "kanji": "どうしたら",
+          "furigana": "",
+          "arti": "apa yang harus dilakukan",
+          "unitType": "expression",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-249",
+          "kanji": "いい",
+          "furigana": "",
+          "arti": "baik",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "すぐに<ruby>同僚<rt>どうりょう</rt></ruby>にほうほうこくします",
+          "plain": "すぐに同僚にほうほうこくします",
+          "translation": "Segera melapor kepada rekan kerja",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p2-237",
+              "kanji": "すぐに",
+              "furigana": "",
+              "arti": "segera",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-1453580",
+              "kanji": "同僚",
+              "furigana": "どうりょう",
+              "arti": "rekan kerja",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p6-467",
+              "kanji": "ほうほう",
+              "furigana": "",
+              "arti": "metode / cara (bacaan 方法)",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-v2-p2-262",
+              "kanji": "します",
+              "furigana": "",
+              "arti": "melakukan (sopan)",
+              "unitType": "inflected",
+              "dictForm": "する",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "すぐに<ruby>責任者<rt>せきにんしゃ</rt></ruby>にほうこくします",
+          "plain": "すぐに責任者にほうこくします",
+          "translation": "Segera melapor kepada penanggung jawab",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p2-237",
+              "kanji": "すぐに",
+              "furigana": "",
+              "arti": "segera",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-otaff51-0580",
+              "kanji": "責任者",
+              "furigana": "せきにんしゃ",
+              "arti": "penanggung jawab / atasan",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-1030",
+              "kanji": "ほうこくします",
+              "furigana": "ほうこくします",
+              "arti": "melapor (sopan)",
+              "unitType": "inflected_verb",
+              "dictForm": "報告する",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "すぐにけいさつにほうこくします",
+          "plain": "すぐにけいさつにほうこくします",
+          "translation": "Segera melapor kepada polisi",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-v2-p2-237",
+              "kanji": "すぐに",
+              "furigana": "",
+              "arti": "segera",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            },
+            {
+              "id": "kb-audit-1030",
+              "kanji": "ほうこくします",
+              "furigana": "ほうこくします",
+              "arti": "melapor (sopan)",
+              "unitType": "inflected_verb",
+              "dictForm": "報告する",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B (\"すぐに責任者にほうこくします\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "prompt",
+          "detail": "Space inside Japanese text"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q019",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 19,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 5,
+      "category": "",
+      "correctAnswer": "B",
+      "correctIndex": 1,
+      "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "<ruby>必要<rt>ひつよう</rt></ruby>なものは<ruby>保管<rt>ほかん</rt></ruby>して、<ruby>不要<rt>ふよう</rt></ruby>なものは<ruby>捨<rt>す</rt></ruby>てる これはなんの<ruby>意味<rt>いみ</rt></ruby>ですか。ただしものをひとつえらびなさい",
+      "promptPlain": "必要なものは保管して、不要なものは捨てる これはなんの意味ですか。ただしものをひとつえらびなさい",
+      "questionText": "必要なものは保管して、不要なものは捨てる これはなんの意味ですか。ただしものをひとつえらびなさい",
+      "promptTranslation": "Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan, apakah arti dari hal ini? Pilihlah satu jawaban yang benar.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 5, nomor 19. Bobot: 7.5 poin. Kunci jawaban: B.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-latsol-35dab93b6a",
+          "kanji": "必要な",
+          "furigana": "ひつような",
+          "arti": "perlu / dibutuhkan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-otaff51-0132",
+          "kanji": "保管",
+          "furigana": "ほかん",
+          "arti": "penyimpanan",
+          "unitType": "noun",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-90a80dc9bf",
+          "kanji": "不要な",
+          "furigana": "ふような",
+          "arti": "tidak diperlukan",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-174",
+          "kanji": "捨てる",
+          "furigana": "すてる",
+          "arti": "membuang",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0916",
+          "kanji": "なん",
+          "furigana": "なん",
+          "arti": "apa / berapa",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-1156800",
+          "kanji": "意味",
+          "furigana": "いみ",
+          "arti": "Arti / makna ketentuan kerja standar",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0688",
+          "kanji": "ただし",
+          "furigana": "ただし",
+          "arti": "yang benar (typo: ただしい)",
+          "unitType": "adjective",
+          "dictForm": "正しい",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>整頓<rt>せいとん</rt></ruby>",
+          "plain": "整頓",
+          "translation": "Seiton (Rapi)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0332",
+              "kanji": "整頓",
+              "furigana": "せいとん",
+              "arti": "Seiton (Rapi: penataan alat mudah diambil)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>整理<rt>せいり</rt></ruby>",
+          "plain": "整理",
+          "translation": "Seiri (Ringkas)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0331",
+              "kanji": "整理",
+              "furigana": "せいり",
+              "arti": "Seiri (Ringkas: membuang barang yang tidak diperlukan)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>清掃<rt>せいそう</rt></ruby>",
+          "plain": "清掃",
+          "translation": "Seisou (Resik)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0399",
+              "kanji": "清掃",
+              "furigana": "せいそう",
+              "arti": "Seisou (Resik: membersihkan peralatan dan area kerja)",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B (\"整理\") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat."
+      },
+      "flags": [
+        {
+          "code": "JP_TADASHIMONO",
+          "context": "prompt",
+          "detail": "Check ただしもの typo -> 正しいもの"
+        },
+        {
+          "code": "JP_WHITESPACE_BETWEEN_JP",
+          "context": "prompt",
+          "detail": "Space inside Japanese text"
+        },
+        {
+          "code": "KOTOBA_SUSPICIOUS_ARTI",
+          "context": "kotoba:prompt",
+          "detail": "kb-audit-0688 (ただし): \"yang benar (typo: ただしい)\""
+        }
+      ]
+    },
+    {
+      "id": "reguler01-q020",
+      "setId": "latsol-reguler-01",
+      "batchId": "qa-batch-09",
+      "questionNumber": 20,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "sourcePage": 5,
+      "category": "",
+      "correctAnswer": "D",
+      "correctIndex": 3,
+      "instructions": "<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+      "prompt": "これは<ruby>新型<rt>しんがた</rt></ruby>コロナウイルス<ruby>感染症<rt>かんせんしょう</rt></ruby><ruby>予防<rt>よぼう</rt></ruby>のために。どれはまちがっているものをひとつえらびなさい",
+      "promptPlain": "これは新型コロナウイルス感染症予防のために。どれはまちがっているものをひとつえらびなさい",
+      "questionText": "これは新型コロナウイルス感染症予防のために。どれはまちがっているものをひとつえらびなさい",
+      "promptTranslation": "Berikut ini adalah hal untuk pencegahan infeksi virus Corona jenis baru (3 Mitsu). Pilihlah satu yang salah.",
+      "explanation": "Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 5, nomor 20. Bobot: 7.5 poin. Kunci jawaban: D.",
+      "hasInlineKotoba": false,
+      "inlineKotobaCount": 0,
+      "kotobaPrompt": [
+        {
+          "id": "kb-v2-p6-192",
+          "kanji": "新型コロナウイルス",
+          "furigana": "しんがたころなういるす",
+          "arti": "virus corona baru (COVID-19)",
+          "unitType": "compound_technical",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-latsol-e2178dd5bc",
+          "kanji": "感染症予防",
+          "furigana": "かんせんしょうよぼう",
+          "arti": "pencegahan penyakit menular",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-328",
+          "kanji": "ために",
+          "furigana": "",
+          "arti": "untuk / demi",
+          "unitType": "particle",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p1-264",
+          "kanji": "どれ",
+          "furigana": "",
+          "arti": "yang mana",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0001",
+          "kanji": "まちがっている",
+          "furigana": "まちがっている",
+          "arti": "keliru / tidak benar",
+          "unitType": "inflected_verb",
+          "dictForm": "間違う",
+          "status": "verified"
+        },
+        {
+          "id": "kb-v2-p5-204",
+          "kanji": "ひとつ",
+          "furigana": "",
+          "arti": "satu buah",
+          "unitType": "word",
+          "dictForm": "",
+          "status": "verified"
+        },
+        {
+          "id": "kb-audit-0002",
+          "kanji": "えらびなさい",
+          "furigana": "えらびなさい",
+          "arti": "pilihlah (perintah)",
+          "unitType": "inflected_verb",
+          "dictForm": "選ぶ",
+          "status": "verified"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "text": "<ruby>密集<rt>みっしゅう</rt></ruby>",
+          "plain": "密集",
+          "translation": "Misshuu (Kerumunan padat)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-1528280",
+              "kanji": "密集",
+              "furigana": "みっしゅう",
+              "arti": "kepadatan tinggi / berdesakan",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "text": "<ruby>密閉<rt>みっぺい</rt></ruby>",
+          "plain": "密閉",
+          "translation": "Mippei (Ruangan tertutup rapat)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-otaff51-0276",
+              "kanji": "密閉",
+              "furigana": "みっぺい",
+              "arti": "penutupan rapat / kedap",
+              "unitType": "noun",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "text": "<ruby>密接<rt>みっせつ</rt></ruby>",
+          "plain": "密接",
+          "translation": "Missetsu (Kontak dekat)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-1528290",
+              "kanji": "密接",
+              "furigana": "みっせつ",
+              "arti": "berhubungan sangat erat",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        },
+        {
+          "id": "D",
+          "text": "<ruby>密殺<rt>みっさつ</rt></ruby>",
+          "plain": "密殺",
+          "translation": "Missatsu (Pembunuhan rahasia)",
+          "mediaId": null,
+          "optionImage": null,
+          "kotoba": [
+            {
+              "id": "kb-ext-latsol-0037",
+              "kanji": "密殺",
+              "furigana": "みっさつ",
+              "arti": "pembasmian tuntas / sanitasi menyeluru",
+              "unitType": "word",
+              "dictForm": "",
+              "status": "verified"
+            }
+          ]
+        }
+      ],
+      "priorKeyAudit": {
+        "status": "VERIFIED_CORRECT",
+        "reasoning": "Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi D (\"密殺\") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar."
+      },
+      "flags": []
+    }
+  ]
+}

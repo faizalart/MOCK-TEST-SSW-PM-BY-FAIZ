@@ -1,0 +1,74 @@
+# AUDIT SHEET: latsol-otaff-pm51-09 (Latsol OTAFF SSW PM Modul 5.1 - Paket 09) | Batch qa-batch-12 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=otaff-pm51-09-q013 | KEY=B (idx=1) | CAT=第2章 4. HACCPによる衛生管理（Bab 2.4: Manajemen Higiene HACCP） | SRC=Bab 1-3.pdf p.44 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>（CCP）」における「<ruby>管理基準<rt>かんりきじゅん</rt></ruby>」についてのルールとして、テキストに<ruby>書<rt>か</rt></ruby>かれている<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu aturan yang benar mengenai 'standar pengendalian (kanri kijun)' pada 'Titik Kendali Kritis (CCP)' sebagaimana tertulis di dalam buku teks.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 44 (Bab 2.4(2), hal. 39 teks). Bobot: 3 poin. Kunci jawaban: B. 重要管理点では、管理基準を必ず守らなければいけません.
+  INLINE_KOTOBA_COUNT: 26
+  KOTOBA_PROMPT: [kb-ext-0834-e9878de8a6] 重要管理点(じゅうようかんりてん) [word] = titik kendali kritis (CCP) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-ext-0292-e7aea1e790] 管理基準(かんりきじゅん) [word] = batas kritis / standar kendali | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-v2-p6-505] 書かれている(かかれている) [inflected, df:書く] = tertulis | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>管理基準<rt>かんりきじゅん</rt></ruby>は<ruby>目標<rt>もくひょう</rt></ruby>なので、<ruby>半分<rt>はんぶん</rt></ruby>くらい<ruby>守<rt>まも</rt></ruby>れていればよい。
+    TRANS: Karena standar pengendalian hanya target, cukup dipatuhi sekitar separuhnya saja.
+    KOTOBA: [kb-ext-0292-e7aea1e790] 管理基準(かんりきじゅん) [word] = batas kritis / standar kendali | [kb-otaff51-1577] 目標(もくひょう) [noun] = target / sasaran | [kb-v2-p2-275] なので(-) [particle] = karena (kata benda) | [kb-otaff51-1578] 半分くらい(はんぶんくらい) [expression] = kira-kira setengahnya | [kb-otaff51-1579] 守れて(まもれて) [inflected_verb, df:守る] = dapat dipatuhi | [kb-v2-p2-243] よい(-) [word] = baik / boleh
+  OPT B: HTML=<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>では、<ruby>管理基準<rt>かんりきじゅん</rt></ruby>を「<ruby>必<rt>かなら</rt></ruby>ず<ruby>守<rt>まも</rt></ruby>らなければいけない」。
+    TRANS: Pada Titik Kendali Kritis (CCP), standar pengendalian 'wajib selalu dipatuhi'.
+    KOTOBA: [kb-ext-0834-e9878de8a6] 重要管理点(じゅうようかんりてん) [word] = titik kendali kritis (CCP) | [kb-ext-0292-e7aea1e790] 管理基準(かんりきじゅん) [word] = batas kritis / standar kendali | [kb-v2-p2-235] 必ず(かならず) [word] = pasti / wajib | [kb-v2-p5-357] 守らなければ(まもらなければ) [inflected, df:守る] = harus mematuhi
+  OPT C: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>気分<rt>きぶん</rt></ruby>によって、<ruby>毎日管理基準<rt>まいにちかんりきじゅん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>自由<rt>じゆう</rt></ruby>に<ruby>変<rt>か</rt></ruby>えてよい。
+    TRANS: Suhu standar pengendalian boleh diubah dengan bebas setiap hari sesuai suasana hati pekerja.
+    KOTOBA: [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-1222590] 気分(きぶん) [word] = kondisi badan / perasaan | [kb-v2-p1-316] によって(-) [particle] = tergantung pada / oleh | [kb-1524720] 毎日(まいにち) [word] = setiap hari | [kb-ext-0292-e7aea1e790] 管理基準(かんりきじゅん) [word] = batas kritis / standar kendali | [kb-1183510] 温度(おんど) [word] = suhu | [kb-1318720] 自由(じゆう) [word] = Bebas tanpa hambatan | [kb-otaff51-1580] 変えて(かえて) [inflected_verb, df:変える] = mengubah | [kb-v2-p2-243] よい(-) [word] = baik / boleh
+
+=== #Q14 | ID=otaff-pm51-09-q014 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.13 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品<rt>しょくひん</rt></ruby>への「<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>」が<ruby>起<rt>お</rt></ruby>きると、<ruby>危害要因<rt>きがいよういん</rt></ruby>になるだけでなく、<ruby>会社<rt>かいしゃ</rt></ruby>にとってどのような<ruby>大<rt>おお</rt></ruby>きな<ruby>問題<rt>もんだい</rt></ruby>になりますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apabila terjadi 'kontaminasi benda asing (ibutsu konnyuu)' ke dalam makanan, selain menjadi faktor bahaya, masalah besar apakah yang akan menimpa perusahaan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 13 (Bab 2.2(1), hal. 8 teks). Bobot: 3 poin. Kunci jawaban: C. 異物は、危害要因になるだけではありません。会社の信用も落としてしまいます.
+  INLINE_KOTOBA_COUNT: 24
+  KOTOBA_PROMPT: [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-2830195] 異物混入(いぶつこんにゅう) [word] = kontaminasi benda asing | [kb-v2-p5-240] 起きる(おきる) [word] = terjadi | [kb-ext-0314-e58db1e5ae] 危害要因(きがいよういん) [word] = faktor bahaya pangan (hazard) | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-1198550] 会社(かいしゃ) [word] = perusahaan | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-1536010] 問題(もんだい) [word] = soal / masalah | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>休日<rt>きゅうじつ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える。
+    TRANS: Hari libur perusahaan menjadi bertambah.
+    KOTOBA: [kb-1198550] 会社(かいしゃ) [word] = perusahaan | [kb-otaff51-0973] 休日(きゅうじつ) [noun] = hari libur | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak
+  OPT B: HTML=<ruby>新<rt>あたら</rt></ruby>しい<ruby>機械<rt>きかい</rt></ruby>を<ruby>無料<rt>むりょう</rt></ruby>でもらえる。
+    TRANS: Mendapatkan mesin baru secara gratis.
+    KOTOBA: [kb-otaff51-0768] 新しい(あたらしい) [adjective] = baru | [kb-1220810] 機械(きかい) [word] = mesin | [kb-otaff51-1581] 無料(むりょう) [noun] = gratis / tanpa biaya | [kb-otaff51-1582] もらえる(もらえる) [inflected_verb, df:もらう] = bisa mendapatkan
+  OPT C: HTML=<ruby>苦情<rt>くじょう</rt></ruby>（クレーム）や<ruby>返品<rt>へんぴん</rt></ruby>につながり、<ruby>会社<rt>かいしゃ</rt></ruby>の「<ruby>信用<rt>しんよう</rt></ruby>」も<ruby>落<rt>お</rt></ruby>としてしまう。
+    TRANS: Menyebabkan keluhan pelanggan (klaim) dan pengembalian barang (retur), serta menjatuhkan 'kepercayaan (kredibilitas)' perusahaan.
+    KOTOBA: [kb-otaff51-0533] 苦情(くじょう) [noun] = keluhan pelanggan (komplain) | [kb-otaff51-0049] クレーム(くれーむ) [noun] = klaim / komplain pelanggan | [kb-otaff51-0593] 返品(へんぴん) [noun] = pengembalian barang (retur) | [kb-otaff51-1583] つながり(つながり) [inflected_verb, df:つながる] = berhubungan / berakibat ke | [kb-1198550] 会社(かいしゃ) [word] = perusahaan | [kb-1359620] 信用(しんよう) [word] = kepercayaan / reputasi | [kb-otaff51-1584] 落として(おとして) [inflected_verb, df:落とす] = menurunkan / menjatuhkan
+
+=== #Q15 | ID=otaff-pm51-09-q015 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.16 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>代表的<rt>だいひょうてき</rt></ruby>な<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>のうち、「<ruby>土<rt>つち</rt></ruby>のついた<ruby>原材料<rt>げんざいりょう</rt></ruby>や<ruby>水<rt>みず</rt></ruby>」にいて、カレーやシチューなど<ruby>加熱調理<rt>かねつちょうり</rt></ruby>された<ruby>食品<rt>しょくひん</rt></ruby>で<ruby>増<rt>ふ</rt></ruby>え、<ruby>体<rt>からだ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>って<ruby>腹痛<rt>ふくつう</rt></ruby>・<ruby>下痢<rt>げり</rt></ruby>を<ruby>起<rt>お</rt></ruby>こす<ruby>芽胞菌<rt>がほうきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara bakteri keracunan makanan representatif, bakteri pembentuk spora manakah yang terdapat pada 'bahan baku bertanah atau air', berkembang biak pada makanan matang seperti kari atau semur, dan membentuk toksin di dalam tubuh sehingga memicu sakit perut dan diare? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 16 (Bab 2.2(3)① Tabel Bakteri, hal. 11 teks). Bobot: 3 poin. Kunci jawaban: A. ウェルシュ菌 berasal dari bahan baku bertanah/air serta masakan seperti kari dan stew, membentuk spora tahan panas, dan menghasilkan toksin di dalam saluran cerna tubuh yang menyebabkan sakit perut dan diare.
+  INLINE_KOTOBA_COUNT: 29
+  KOTOBA_PROMPT: [kb-1412220] 代表的(だいひょうてき) [word] = khas / representatif | [kb-2134080] 食中毒菌(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-v2-p3-148] 土(つち) [word] = tanah | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-083] 水(みず) [word] = air | [kb-v2-p3-052] カレー(-) [word] = kari | [kb-v2-p3-053] シチュー(-) [word] = semur / stew | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-ext-latsol-0018] 加熱調理(かねつちょうり) [word] = proses pemasakan dengan pemanasan | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p3-262] 増え(ふえ) [inflected, df:増える] = bertambah banyak | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-1455590] 毒素(どくそ) [word] = toksin / racun bakteri | [kb-v2-p1-149] 作って(つくって) [inflected_verb, df:作る] = membuat (dasar: 作る) | [kb-1501230] 腹痛(ふくつう) [word] = sakit perut | [kb-1186540] 下痢(げり) [word] = diare | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan | [kb-u1416-9371420b87] 芽胞菌(がほうきん) [word] = bakteri pembentuk spora | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=ウェルシュ<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium perfringens (Uerushu-kin)
+    KOTOBA: [kb-v2-p3-009] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens
+  OPT B: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus
+    KOTOBA: [kb-v2-p1-007] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT C: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-v2-p2-039] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+
+=== #Q16 | ID=otaff-pm51-09-q016 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.16 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>代表的<rt>だいひょうてき</rt></ruby>な<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>のうち、<ruby>海<rt>うみ</rt></ruby>の<ruby>魚介類<rt>ぎょかいるい</rt></ruby>についていることが<ruby>多<rt>おお</rt></ruby>く、<ruby>体<rt>からだ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>増<rt>ふ</rt></ruby>えて<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>り、「<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>激<rt>はげ</rt></ruby>しい<ruby>下痢<rt>げり</rt></ruby>」を<ruby>起<rt>お</rt></ruby>こす<ruby>細菌<rt>さいきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara bakteri keracunan makanan representatif, bakteri manakah yang banyak menempel pada hasil laut (ikan dan kerang), berkembang biak dan membentuk toksin di dalam tubuh, serta menyebabkan 'sakit perut dan diare hebat'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 16 (Bab 2.2(3)① Tabel Bakteri, hal. 11 teks). Bobot: 3 poin. Kunci jawaban: B. 腸炎ビブリオ mencemari hasil laut (魚介類) dan menyebabkan sakit perut serta diare hebat (腹痛、激しい下痢).
+  INLINE_KOTOBA_COUNT: 26
+  KOTOBA_PROMPT: [kb-1412220] 代表的(だいひょうてき) [word] = khas / representatif | [kb-2134080] 食中毒菌(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-otaff51-0877] 海(うみ) [noun] = laut | [kb-1233120] 魚介類(ぎょかいるい) [word] = ikan dan makanan laut | [kb-otaff51-0729] ついている(ついている) [inflected_verb, df:つく] = menempel / terpasang | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-1455590] 毒素(どくそ) [word] = toksin / racun bakteri | [kb-v2-p3-227] 作り(つくり) [inflected, df:作る] = membuat | [kb-1501230] 腹痛(ふくつう) [word] = sakit perut | [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-1186540] 下痢(げり) [word] = diare | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan | [kb-1295590] 細菌(さいきん) [word] = bakteri | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum
+    KOTOBA: [kb-v2-p1-008] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+  OPT B: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus (Chouen Biburio)
+    KOTOBA: [kb-v2-p1-007] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT C: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bacillus cereus
+    KOTOBA: [kb-v2-p2-054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus

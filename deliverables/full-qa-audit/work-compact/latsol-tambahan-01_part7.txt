@@ -1,0 +1,21 @@
+# AUDIT SHEET: latsol-tambahan-01 (Latsol Tambahan 01) | Batch qa-batch-10 | Part 7 (Q25-25 of 25)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=tambahan01-q025 | KEY=A (idx=0) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.7 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="500gのラーメンをつくるためには、300gの小麦粉を使います。5 kgのラーメンを作りたいなら、小麦粉はどれくらいですか?" vs questionText="500gのラーメンをつくるためには、300gの小麦粉(こむぎこ)を使います。5 kg のラーメンを作りたいなら、小麦粉(こむぎこ)はどれふら" || [PRIOR_KEY_AUDIT_SOURCE_CONFLICT@question] Kunci PDF Hal. 8 tertulis B (6 kg) akibat duplikasi baris 1 tabel kunci. Secara matematis: untuk membuat 5 kg (5000 g) ramen dari resep 500 g ramen (300 g tepung terigu), dibutuhkan (5000 / 500) × 300 g = 3000 g = 3 kg tepung terigu (Opsi A). Kunci JSON saat ini (A) sudah benar.
+  PRIOR_KEY_AUDIT: SOURCE_CONFLICT | Kunci PDF Hal. 8 tertulis B (6 kg) akibat duplikasi baris 1 tabel kunci. Secara matematis: untuk membuat 5 kg (5000 g) ramen dari resep 500 g ramen (300 g tepung terigu), dibutuhkan (5000 / 500) × 300 g = 3000 g = 3 kg tepung terigu (Opsi A). Kunci JSON saat ini (A) sudah benar.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 500gのラーメンをつくるためには、300gの<ruby>小麦粉<rt>こむぎこ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>います。5 kgのラーメンを<ruby>作<rt>つく</rt></ruby>りたいなら、<ruby>小麦粉<rt>こむぎこ</rt></ruby>はどれくらいですか？
+  QUESTION_TEXT: 500ｇのラーメンをつくるためには、300ｇの小麦粉（こむぎこ）を使います。5 kg のラーメンを作りたいなら、小麦粉（こむぎこ）はどれふらいですか？
+  PROMPT_TRANS: Untuk membuat 500 g ramen, digunakan 300 g tepung terigu. Jika ingin membuat 5 kg ramen, kira-kira berapa banyak tepung terigu yang dibutuhkan?
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 7, nomor 25. Bobot: 6.0 poin. Kunci jawaban: A. Koreksi Hitungan & Kunci QA: Kunci PDF Hal. 8 tertulis B (6 kg) akibat duplikasi baris 1 tabel kunci. Perhitungan matematis: (5000 g / 500 g) × 300 g = 3000 g = 3 kg (Opsi A).
+  KOTOBA_PROMPT: [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-audit-0435] ラーメン(らーめん) [word] = mie ramen | [kb-audit-0421] つくる(つくる) [word] = membuat / memproduksi (作る) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p5-298] 使います(つかいます) [inflected, df:使う] = menggunakan (sopan) | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-audit-1145] 作りたい(つくりたい) [inflected_verb, df:作る] = ingin membuat (作る) | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=3 kg
+    TRANS: 3 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=6 kg
+    TRANS: 6 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=9 kg
+    TRANS: 9 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram

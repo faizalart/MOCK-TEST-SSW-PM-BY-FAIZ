@@ -1,0 +1,72 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-12 (Soal Ujian 12 — CBTP Gino1) | Batch qa-batch-03 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-12-q025 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0535 (だせように): "agar dapat diambil/dikeluarkan (typo)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: せいそうについてただしいことをえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang benar mengenai "Resik / Pembersihan (Seisou)".
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 5, Câu 25 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p6-325] せいそう(-) [word] = pembersihan (bacaan 清掃) | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=よごれをとりのぞくこと
+    TRANS: Menghilangkan kotoran
+    KOTOBA: [kb-audit-0229] よごれ(よごれ) [word] = kotoran / noda (汚れ) | [kb-audit-0230] とりのぞく(とりのぞく) [word] = menghilangkan / membersihkan (取り除く) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=いつも<ruby>綺麗<rt>きれい</rt></ruby>な<ruby>状態<rt>じょうたい</rt></ruby>を<ruby>保<rt>たも</rt></ruby>つ
+    TRANS: Selalu menjaga kondisi tetap bersih
+    KOTOBA: [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-1591900] 綺麗(きれい) [word] = bersih, higienis, dan rapi | [kb-otaff51-0435] 状態(じょうたい) [noun] = kondisi / keadaan | [kb-v2-p2-170] 保つ(たもつ) [word] = menjaga / mempertahankan | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=ものはきめられたばしょにおいてひつようなときにすぐだせようにする
+    TRANS: Meletakkan barang di tempat yang telah ditentukan agar dapat segera diambil saat diperlukan
+    KOTOBA: [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0109] きめられた(きめられた) [inflected_verb, df:決める] = yang telah ditentukan (決められた) | [kb-audit-0361] ばしょ(ばしょ) [word] = tempat / lokasi (場所) | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-audit-0637] ひつような(ひつような) [adjective] = yang diperlukan / penting | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p1-282] すぐ(-) [word] = segera | [kb-audit-0535] だせように(だせるように) [expression, df:出す] = agar dapat diambil/dikeluarkan (typo) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q26 | ID=kunci-ujian-12-q026 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: いっぱんえいせいかんりではどんなことをじゅうようですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal apa saja yang penting dalam manajemen higiene umum?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 5, Câu 26 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0753] いっぱん(いっぱん) [word] = umum / biasa | [kb-v2-p6-588] えいせいかんり(-) [technical] = manajemen kebersihan / sanitasi | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0120] じゅうよう(じゅうよう) [word] = penting (重要) | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=げんざいりょうのうけいれさきをかくにん
+    TRANS: Memeriksa asal penerimaan bahan baku
+    KOTOBA: [kb-v2-p5-201] げんざいりょう(-) [word] = bahan baku (bacaan 原材料) | [kb-audit-0748] うけいれさき(うけいれさき) [word] = pihak pemasok / penerima | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=けんこうかんり
+    TRANS: Manajemen kesehatan
+    KOTOBA: [kb-audit-0698] けんこう(けんこう) [word] = kesehatan | [kb-audit-0623] かんり(かんり) [word] = pengelolaan / manajemen
+  OPT C: HTML=しせつせつびきぐなどのえいせいかんり
+    TRANS: Manajemen higiene fasilitas, peralatan, dan perkakas (semua hal di atas)
+    KOTOBA: [kb-audit-0696] しせつ(しせつ) [word] = fasilitas | [kb-audit-0697] せつび(せつび) [word] = peralatan / instalasi mesin | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p6-588] えいせいかんり(-) [technical] = manajemen kebersihan / sanitasi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q27 | ID=kunci-ujian-12-q027 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: あんぜんカバーとはなんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dimaksud dengan penutup pengaman (safety cover)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 5, Câu 27 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-v2-p6-541] あんぜん(-) [word] = keselamatan / aman | [kb-ext-0009-e382abe383] カバー(-) [word] = penutup | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=でんげんがきっているというひょうしき
+    TRANS: Tanda yang menunjukkan bahwa sumber listrik sedang dimatikan
+    KOTOBA: [kb-audit-0284] でんげん(でんげん) [word] = sumber daya listrik (電源) | [kb-audit-0285] きっている(きっている) [inflected_verb, df:切る] = dalam keadaan mati / terputus (切っている) | [kb-audit-0273] ひょうしき(ひょうしき) [word] = rambu / papan tanda (標識) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-audit-0667] いう(いう) [word] = disebut / mengatakan
+  OPT B: HTML=コンベアのチェーンとギアのかいてんぶぶんにまちがってさわらないようにするカバー
+    TRANS: Penutup untuk mencegah pekerja menyentuh bagian rantai dan roda gigi (gear) konveyor yang berputar secara tidak sengaja
+    KOTOBA: [kb-v2-p6-182] コンベア(-) [technical] = ban berjalan (konveyor) | [kb-v2-p6-202] チェーン(-) [word] = rantai penggerak | [kb-v2-p6-203] ギア(-) [word] = roda gigi (gear) | [kb-audit-0287] かいてんぶぶん(かいてんぶぶん) [word] = bagian yang berputar (回転部分) | [kb-v2-p6-318] まちがって(-) [inflected, df:まちがう] = keliru / salah (bacaan 間違って) | [kb-audit-0286] さわらない(さわらない) [inflected_verb, df:触る] = tidak menyentuh (触らない) | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-ext-0009-e382abe383] カバー(-) [word] = penutup | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=フールプルーフ
+    TRANS: Sistem foolproof (mekanisme pencegah kesalahan manusia)
+    KOTOBA: [kb-otaff51-0072] フールプルーフ(ふーるぷるーふ) [compound_technical] = sistem foolproof pencegah salah operasi
+
+=== #Q28 | ID=kunci-ujian-12-q028 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0536 (がいよういん): "faktor bahaya (typo: きがいよういん)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: きんぞくへん・ガラスへんはどんなきがいよういんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Termasuk jenis faktor bahaya apakah serpihan logam dan pecahan kaca?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 5, Câu 28 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0288] きんぞくへん(きんぞくへん) [word] = serpihan logam (金属片) | [kb-audit-0289] ガラスへん(がらすへん) [word] = pecahan kaca (ガラス片) | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-audit-0264] きがいよういん(きがいよういん) [word] = faktor bahaya / hazard (危害要因) | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=ぶつりてききがいよういん
+    TRANS: Faktor bahaya fisik
+    KOTOBA: [kb-audit-0265] ぶつりてき(ぶつりてき) [word] = bersifat fisik (物理的) | [kb-audit-0264] きがいよういん(きがいよういん) [word] = faktor bahaya / hazard (危害要因)
+  OPT B: HTML=せいぶつてきがいよういん
+    TRANS: Faktor bahaya biologis
+    KOTOBA: [kb-audit-0267] せいぶつてき(せいぶつてき) [word] = bersifat biologis (生物的) | [kb-audit-0536] がいよういん(きがいよういん) [word, df:危害要因] = faktor bahaya (typo: きがいよういん)
+  OPT C: HTML=かがくてきがいよういん
+    TRANS: Faktor bahaya kimia
+    KOTOBA: [kb-latsol-2c0b5bf339] かがくてきがいよういん(かがくてきがいよういん) [word] = faktor bahaya kimia

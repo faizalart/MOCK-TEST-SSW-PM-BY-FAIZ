@@ -1,0 +1,78 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-13 (Soal Ujian 13 — Rakuraku Tokutei (2024年10月)) | Batch qa-batch-03 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-13-q025 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.7 ===
+  CLUSTER CL-0150 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q027 (bonus-soal-1), bonus-soal-5-q025 (bonus-soal-5), bonus-soal-6-q031 (bonus-soal-6), bonus-soal-8-q026 (bonus-soal-8), nguyen01-q027 (latsol-nguyen-01), nguyen05-q025 (latsol-nguyen-05), nguyen06-q031 (latsol-nguyen-06), nguyen08-q026 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>起<rt>お</rt></ruby>きる<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby><ruby>多<rt>おお</rt></ruby>いのはなんですか。<ruby>正<rt>ただ</rt></ruby>し<br>いものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 食品製造工場で起きる労働災害が一番多いのはなんですか。正し
+いものを一つ選びなさい。
+  PROMPT_TRANS: Kecelakaan kerja apakah yang paling banyak terjadi di pabrik pengolahan pangan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 7, Nomor 25) · Kunci Jawaban PDF (Teks Merah): A.
+  KOTOBA_PROMPT: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-v2-p5-240] 起きる(おきる) [word] = terjadi | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-audit-0061] 一番多い(いちばんおおい) [word] = paling banyak / terbanyak | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>転倒<rt>てんとう</rt></ruby>
+    TRANS: Terjatuh / terpeleset
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama
+  OPT B: HTML=はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ
+    TRANS: Terjepit atau terlilit mesin
+    KOTOBA: [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin
+  OPT C: HTML=<ruby>切<rt>き</rt></ruby>れ、こすれ
+    TRANS: Terpotong atau tergores
+    KOTOBA: [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek
+
+=== #Q26 | ID=kunci-ujian-13-q026 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.7 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0349 (―つ): "satu buah (typo garis: 一つ)" || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>で<ruby>交差汚染<rt>こうさおせん</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するために<ruby>工場<rt>こうじょう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で３つの<ruby>区域<rt>くいき</rt></ruby>を<ruby>区分<rt>くぶん</rt></ruby>され<br>ています。<ruby>間違<rt>まちが</rt></ruby>っているものを―つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 区分衛生管理で交差汚染を防止するために工場の中で３つの区域を区分され
+ています。間違っているものを―つ選びなさい。
+  PROMPT_TRANS: Untuk mencegah kontaminasi silang melalui manajemen higiene berdasarkan pembagian zona, bagian dalam pabrik dibagi menjadi 3 area. Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 7, Nomor 26) · Kunci Jawaban PDF (Teks Merah): A.
+  KOTOBA_PROMPT: [kb-otaff51-0209] 区分衛生管理(くぶんえいせいかんり) [compound_technical] = manajemen higiene pembagian zona (zoning) | [kb-otaff51-0109] 交差汚染(こうさおせん) [compound_technical] = kontaminasi silang (cross-contamination) | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1244090] 区域(くいき) [word] = zona / area pabrik | [kb-1244230] 区分(くぶん) [word] = pemisahan / klasifikasi | [kb-v2-p2-265] されて(-) [inflected, df:する] = dilakukan dan | [kb-audit-0369] います(います) [inflected_verb, df:いる] = ada / sedang melakukan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0349] ―つ(ひとつ) [word] = satu buah (typo garis: 一つ) | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>清潔<rt>せいけつ</rt></ruby><ruby>作業区域<rt>さぎょうくいき</rt></ruby>は <ruby>加熱<rt>かねつ</rt></ruby>や <ruby>薬剤<rt>やくざい</rt></ruby>による <ruby>殺菌<rt>さっきん</rt></ruby>する <ruby>前<rt>まえ</rt></ruby>の <ruby>食品<rt>しょくひん</rt></ruby>を <ruby>扱<rt>あつか</rt></ruby>う<ruby>区域<rt>くいき</rt></ruby>です。
+    TRANS: Area kerja bersih adalah area yang menangani produk pangan sebelum disterilisasi dengan pemanasan atau bahan kimia.
+    KOTOBA: [kb-otaff51-0403] 清潔作業区域(せいけつさぎょうくいき) [compound_technical] = zona kerja bersih (area setelah sterilisasi/pengemasan) | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p5-417] 扱う(あつかう) [word] = menangani / mengolah | [kb-1244090] 区域(くいき) [word] = zona / area pabrik | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>準清潔作業区域<rt>じゅんせいけつさぎょうくいき</rt></ruby>は<ruby>殺菌<rt>さっきん</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>の<ruby>原材料<rt>げんざいりょう</rt></ruby>を <ruby>扱<rt>あつか</rt></ruby>う<ruby>区域<rt>くいき</rt></ruby>です。
+    TRANS: Area kerja semi-bersih adalah area yang menangani bahan baku sebelum disterilisasi.
+    KOTOBA: [kb-otaff51-0410] 準清潔作業区域(じゅんせいけつさぎょうくいき) [compound_technical] = zona kerja semi-bersih | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p5-417] 扱う(あつかう) [word] = menangani / mengolah | [kb-1244090] 区域(くいき) [word] = zona / area pabrik | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>は<ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>外<rt>そと</rt></ruby>から<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まれた<ruby>原材料<rt>げんざいりょう</rt></ruby>を <ruby>扱<rt>あつか</rt></ruby>う<ruby>区域<rt>くいき</rt></ruby>です。
+    TRANS: Area kerja terkontaminasi adalah area yang menangani bahan baku yang dibawa masuk dari luar tempat kerja.
+    KOTOBA: [kb-otaff51-0378] 汚染作業区域(おせんさぎょうくいき) [compound_technical] = zona kerja kotor (Osen Sagyou Kuiki) | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-audit-0171] 持ち込まれた(もちこまれた) [inflected_verb, df:持ち込む] = dibawa masuk (pasif lampau) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p5-417] 扱う(あつかう) [word] = menangani / mengolah | [kb-1244090] 区域(くいき) [word] = zona / area pabrik | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q27 | ID=kunci-ujian-13-q027 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.7 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0349 (―つ): "satu buah (typo garis: 一つ)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>高<rt>たか</rt></ruby>さが 2 メートル<ruby>以上<rt>いじょう</rt></ruby>のところで<ruby>作業<rt>さぎょう</rt></ruby>することを「<ruby>高所作業<rt>こうしょさぎょう</rt></ruby>」といいます。<br><ruby>高所作業<rt>こうしょさぎょう</rt></ruby>の<ruby>時<rt>とき</rt></ruby>にどんな<ruby>保護具<rt>ほごぐ</rt></ruby>を<ruby>着用<rt>ちゃくよう</rt></ruby>しますか。<ruby>正<rt>ただ</rt></ruby>しいものを―つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bekerja di tempat dengan ketinggian 2 meter atau lebih disebut "pekerjaan di ketinggian". Alat pelindung diri (APD) apa yang dikenakan saat bekerja di ketinggian? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 7, Nomor 27) · Kunci Jawaban PDF (Teks Merah): C.
+  KOTOBA_PROMPT: [kb-v2-p6-535] 高さ(たかさ) [word] = ketinggian | [kb-v2-p6-201] メートル(-) [word] = meter (satuan panjang) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-v2-p1-292] ところ(-) [word] = bagian / tempat | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0216] することを(することを) [word] = melakukan hal tersebut | [kb-otaff51-0674] 高所作業(こうしょさぎょう) [compound_technical] = pekerjaan di ketinggian (2 meter atau lebih) | [kb-v2-p1-318] といいます(-) [expression] = disebut sebagai | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-ext-1615-e4bf9de8ad] 保護具(ほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-audit-1017] 着用しますか(ちゃくようしますか) [inflected_verb, df:着用する] = apakah mengenakan? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0349] ―つ(ひとつ) [word] = satu buah (typo garis: 一つ) | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ミトン
+    TRANS: Sarung tangan miton
+    KOTOBA: [kb-v2-p4-080] ミトン(-) [word] = sarung tangan tebal (mitten)
+  OPT B: HTML=エプロン
+    TRANS: Celemek (apron)
+    KOTOBA: [kb-otaff51-0041] エプロン(えぷろん) [noun] = celemek (apron)
+  OPT C: HTML=ヘルメット
+    TRANS: Helm pelindung
+    KOTOBA: [kb-otaff51-0076] ヘルメット(へるめっと) [noun] = helm keselamatan
+
+=== #Q28 | ID=kunci-ujian-13-q028 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.7 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0151 (n=3, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-5-q028 (bonus-soal-5), nguyen05-q028 (latsol-nguyen-05)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>異常事態<rt>いじょうじたい</rt></ruby>や<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>した<ruby>際<rt>さい</rt></ruby>にやるべきことで、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>び<br>なさい。
+  QUESTION_TEXT: 異常事態や労働災害が発生した際にやるべきことで、間違っているものを一つ選び
+なさい。
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai hal yang harus dilakukan saat terjadi kondisi tidak normal / darurat atau kecelakaan kerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 7, Nomor 28) · Kunci Jawaban PDF (Teks Merah): B.
+  KOTOBA_PROMPT: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-v2-p4-219] やる(-) [word] = melakukan / mengerjakan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>異常事態<rt>いじょうじたい</rt></ruby>を<ruby>発見<rt>はっけん</rt></ruby>したら、まず<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>こっているかをすばやく<ruby>確認<rt>かくにん</rt></ruby>する。
+    TRANS: Ketika menemukan kondisi tidak normal / darurat, pertama-tama segera pastikan apa yang sedang terjadi.
+    KOTOBA: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-audit-0597] 発見したら(はっけんしたら) [inflected_verb, df:発見する] = jika menemukan | [kb-v2-p4-208] まず(-) [word] = pertama-tama / terlebih dahulu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-172] 起こっている(おこっている) [inflected, df:起こる] = sedang terjadi | [kb-audit-0032] すばやく(すばやく) [word] = dengan cepat / sigap | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT B: HTML=<ruby>一人<rt>ひとり</rt></ruby>で<ruby>行動<rt>こうどう</rt></ruby>をする。
+    TRANS: Bertindak sendirian.
+    KOTOBA: [kb-1576150] 一人(ひとり) [word] = satu orang / sendirian | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>周<rt>まわ</rt></ruby>りにいる<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>同僚<rt>どうりょう</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memberi tahu penanggung jawab atau rekan kerja di sekitar dengan suara keras.
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-1453580] 同僚(どうりょう) [word] = rekan kerja | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-v2-p1-077] 声(こえ) [word] = suara | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi

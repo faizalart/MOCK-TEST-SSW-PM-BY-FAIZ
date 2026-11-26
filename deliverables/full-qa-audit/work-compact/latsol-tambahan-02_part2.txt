@@ -1,0 +1,90 @@
+# AUDIT SHEET: latsol-tambahan-02 (Latsol Tambahan 02) | Batch qa-batch-10 | Part 2 (Q5-8 of 30)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=tambahan02-q005 | KEY=A (idx=0) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.3 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0266 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=tambahan02-q003 (latsol-tambahan-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("髪の毛を よくブラッシングしておきます") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: （<ruby>次<rt>つぎ</rt></ruby>の<ruby>絵<rt>え</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください）
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: (Lihatlah gambar berikut, lalu pilihlah penjelasan yang tepat.)
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 3, nomor 5. Bobot: 5.0 poin. Kunci jawaban: A. Visual: Ilustrasi pekerja menyisir rambut di depan cermin sebelum memakai hairnet.
+  KOTOBA_PROMPT: [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-ext-latsol-0117] 絵(え) [word] = gambar / ilustrasi | [kb-v2-p5-278] 見て(みて) [inflected, df:見る] = melihat | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>を よくブラッシングしておきます
+    TRANS: Menyisir rambut dengan baik terlebih dahulu
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-otaff51-0073] ブラッシング(ぶらっしんぐ) [noun] = penyikatan rambut | [kb-audit-0010] おきます(おきます) [inflected_verb, df:置く] = meletakkan / membiarkan (kondisi)
+  OPT B: HTML=<ruby>最後<rt>さいご</rt></ruby>にふくそうが<ruby>正<rt>ただ</rt></ruby>しいかどうかかくにんします
+    TRANS: Terakhir, memeriksa apakah pakaian kerja sudah benar atau belum
+    KOTOBA: [kb-1293810] 最後(さいご) [word] = Terakhir / langkah penutup alur kerja | [kb-audit-0076] ふくそう(ふくそう) [word] = pakaian kerja / penampilan (服装) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-317] かどうか(-) [particle] = apakah ... atau tidak | [kb-audit-1033] かくにんします(かくにんします) [inflected_verb, df:確認する] = memastikan (sopan)
+  OPT C: HTML=もうはつがはみでているのは ダメ
+    TRANS: Rambut yang keluar/menyembul dari penutup kepala tidak diperbolehkan
+    KOTOBA: [kb-audit-0087] もうはつ(もうはつ) [word] = rambut kepala (毛髪) | [kb-latsol-hamideteiru] はみでている(はみでている) [inflected_verb, df:はみ出る] = keluar / menonjol (rambut) | [kb-latsol-dame] ダメ(だめ) [word] = tidak boleh / dilarang
+  OPT D: HTML=ヘアーネットをかぶります
+    TRANS: Mengenakan jaring rambut (hairnet)
+    KOTOBA: [kb-otaff51-0075] ヘアーネット(へあーねっと) [noun] = jaring rambut (hairnet) | [kb-latsol-kaburimasu] かぶります(かぶります) [inflected_verb, df:かぶる] = memakai di kepala (被る)
+
+=== #Q6 | ID=tambahan02-q006 | KEY=C (idx=2) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.3 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 習慣 || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("せいけつ、せいとん、せいり、せいそうを まもること です") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: しゅうかんのいみは<ruby>何<rt>なん</rt></ruby>ですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa arti dari Shuukan (習慣 / Shitsuke dalam 5S)?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 3, nomor 6. Bobot: 5.0 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-latsol-42d5f4821c] しゅうかん(しゅうかん) [word] = kebiasaan / Shukan 5S (習慣) | [kb-audit-0183] いみ(いみ) [word] = arti / makna (意味) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=ひつようなものは ほかんする またふようなものを すてるって
+    TRANS: Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan
+    KOTOBA: [kb-audit-0085] ひつようなもの(ひつようなもの) [word] = barang yang diperlukan (必要な物) | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管) | [kb-audit-0086] ふようなもの(ふようなもの) [word] = barang yang tidak diperlukan (不要な物) | [kb-audit-0793] すてる(すてる) [word] = membuang
+  OPT B: HTML=せいり、せいとん、せいけつを まもること です
+    TRANS: Mematuhi Seiri, Seiton, dan Seiketsu (kurang Seisou)
+    KOTOBA: [kb-latsol-82c9c74e4f] せいり(せいり) [word] = Seiri (pemilahan barang 5S) | [kb-latsol-2b13228915] せいとん(せいとん) [word] = Seiton (penataan rapi 5S) | [kb-latsol-ba01a8a7ea] せいけつ(せいけつ) [word] = Seiketsu (menjaga kebersihan 5S) | [kb-audit-0088] まもること(まもること) [word] = mematuhi / menaati (守ること)
+  OPT C: HTML=せいけつ、せいとん、せいり、せいそうを まもること です
+    TRANS: Mematuhi/membiasakan Seiketsu, Seiton, Seiri, dan Seisou
+    KOTOBA: [kb-latsol-ba01a8a7ea] せいけつ(せいけつ) [word] = Seiketsu (menjaga kebersihan 5S) | [kb-latsol-2b13228915] せいとん(せいとん) [word] = Seiton (penataan rapi 5S) | [kb-latsol-82c9c74e4f] せいり(せいり) [word] = Seiri (pemilahan barang 5S) | [kb-v2-p6-325] せいそう(-) [word] = pembersihan (bacaan 清掃) | [kb-audit-0088] まもること(まもること) [word] = mematuhi / menaati (守ること)
+  OPT D: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>とそのへんをいつもきれいねそうじする
+    TRANS: Selalu membersihkan tempat kerja dan sekitarnya dengan bersih
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-audit-0023] そうじする(そうじする) [word] = membersihkan (掃除する)
+
+=== #Q7 | ID=tambahan02-q007 | KEY=B (idx=1) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.4 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("せいとん (整頓)") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: この<ruby>絵<rt>え</rt></ruby>のいみは<ruby>何<rt>なん</rt></ruby>ですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa arti dari gambar ini?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 4, nomor 7. Bobot: 5.0 poin. Kunci jawaban: B. Visual: Ilustrasi pekerja menata perkakas pada papan gantung berpola siluet alat (Seiton/整頓).
+  KOTOBA_PROMPT: [kb-ext-latsol-0117] 絵(え) [word] = gambar / ilustrasi | [kb-audit-0183] いみ(いみ) [word] = arti / makna (意味) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=せいり (<ruby>整理<rt>せいり</rt></ruby>)
+    TRANS: Seiri (Ringkas)
+    KOTOBA: [kb-latsol-82c9c74e4f] せいり(せいり) [word] = Seiri (pemilahan barang 5S) | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan)
+  OPT B: HTML=せいとん (<ruby>整頓<rt>せいとん</rt></ruby>)
+    TRANS: Seiton (Rapi)
+    KOTOBA: [kb-latsol-2b13228915] せいとん(せいとん) [word] = Seiton (penataan rapi 5S) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil)
+  OPT C: HTML=せいそう (<ruby>清掃<rt>せいそう</rt></ruby>)
+    TRANS: Seisou (Resik)
+    KOTOBA: [kb-v2-p6-325] せいそう(-) [word] = pembersihan (bacaan 清掃) | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+  OPT D: HTML=せいけつ (<ruby>清潔<rt>せいけつ</rt></ruby>)
+    TRANS: Seiketsu (Rawat)
+    KOTOBA: [kb-latsol-ba01a8a7ea] せいけつ(せいけつ) [word] = Seiketsu (menjaga kebersihan 5S) | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu)
+
+=== #Q8 | ID=tambahan02-q008 | KEY=C (idx=2) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.4 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("しようしたきぐはそのままに いいです") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業後<rt>さぎょうご</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>うことについて まちがっているものを <ruby>一<rt>ひと</rt></ruby>つえらんでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai hal yang dilakukan setelah selesai bekerja.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 4, nomor 8. Bobot: 5.0 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-ext-0630-e4bd9ce6a5] 作業後(さぎょうご) [word] = setelah bekerja | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>汚<rt>よご</rt></ruby>れたきかい、きぐなどはかならずせんじょうしてかたずけます
+    TRANS: Mesin dan peralatan yang kotor wajib dicuci dan dibereskan
+    KOTOBA: [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-v2-p1-278] かならず(-) [word] = pasti / selalu | [kb-audit-0077] せんじょう(せんじょう) [word] = pencucian / pembersihan (洗浄) | [kb-latsol-katazukemasu] かたずけます(かたづけます) [inflected_verb, df:片付ける] = membereskan / merapikan (片付ける)
+  OPT B: HTML=しようきぐなどもきめられた<ruby>場所<rt>ばしょ</rt></ruby>にもどします
+    TRANS: Peralatan yang digunakan juga dikembalikan ke tempat yang telah ditentukan
+    KOTOBA: [kb-audit-0108] しようきぐ(しようきぐ) [word] = peralatan yang digunakan (使用器具) | [kb-audit-0109] きめられた(きめられた) [inflected_verb, df:決める] = yang telah ditentukan (決められた) | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-audit-0110] もどします(もどします) [inflected_verb, df:戻す] = mengembalikan ke tempat semula (戻します)
+  OPT C: HTML=しようしたきぐはそのままに いいです
+    TRANS: Peralatan yang telah digunakan boleh dibiarkan begitu saja
+    KOTOBA: [kb-audit-0089] しようした(しようした) [inflected_verb, df:使用する] = yang telah digunakan (使用した) | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT D: HTML=よごれた<ruby>作業<rt>さぎょう</rt></ruby>きはかならずせんたくします
+    TRANS: Pakaian kerja yang kotor wajib dicuci
+    KOTOBA: [kb-audit-0432] よごれた(よごれた) [inflected_verb, df:汚れる] = yang kotor / ternoda (汚れた) | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-278] かならず(-) [word] = pasti / selalu | [kb-latsol-sentakushimasu] せんたくします(せんたくします) [inflected_verb, df:洗濯する] = mencuci pakaian (洗濯する)

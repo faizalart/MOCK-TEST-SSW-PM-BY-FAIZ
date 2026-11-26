@@ -1,0 +1,81 @@
+# AUDIT SHEET: latsol-tambahan-01 (Latsol Tambahan 01) | Batch qa-batch-10 | Part 3 (Q9-12 of 25)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=tambahan01-q009 | KEY=C (idx=2) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="感染型食中毒について正しいものを一つ選びなさい" vs questionText="感染型 ( かんせんがた) 食中毒 (しょくちゅうどく) について 正しいものを一つ選びなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("食べた食品についていた細菌が人のおなかで増え、毒素を作って健康障害を起こすもの") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>感染型<rt>かんせんがた</rt></ruby><ruby>食中毒<rt>しょくちゅうどく</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 感染型 ( かんせんがた) 食中毒 (しょくちゅうどく) について 正しいものを一つ選びなさい
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai keracunan makanan tipe infeksi.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 4, nomor 9. Bobot: 6.0 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-ext-0278-e6849fe69f] 感染型食中毒(かんせんがたしょくちゅうどく) [word] = keracunan makanan tipe infeksi | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>食<rt>た</rt></ruby>べた<ruby>食品<rt>しょくひん</rt></ruby>についていた<ruby>細菌<rt>さいきん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えて<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>り、<ruby>健康障害<rt>けんこうしょうがい</rt></ruby>を<ruby>起<rt>お</rt></ruby>こすもの
+    TRANS: Bakteri yang menempel pada makanan berkembang biak dan membentuk racun di makanan, lalu menimbulkan gangguan kesehatan
+    KOTOBA: [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p4-224] ついていた(-) [inflected, df:つく] = menempel (lampau) | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-otaff51-0368] 毒素(どくそ) [noun] = toksin / racun | [kb-v2-p3-227] 作り(つくり) [inflected, df:作る] = membuat | [kb-ext-latsol-0031] 健康障害(けんこうしょうがい) [word] = gangguan kesehatan | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>細菌<rt>さいきん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えて、その<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べて、<ruby>健康障害<rt>けんこうしょうがい</rt></ruby>を<ruby>起<rt>お</rt></ruby>こすもの
+    TRANS: Bakteri bertambah di dalam makanan, lalu memakan makanan tersebut dan menimbulkan gangguan kesehatan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-otaff51-1238] 食べて(たべて) [inflected_verb, df:食べる] = makan | [kb-ext-latsol-0031] 健康障害(けんこうしょうがい) [word] = gangguan kesehatan | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan
+  OPT C: HTML=<ruby>食<rt>た</rt></ruby>べた<ruby>食品<rt>しょくひん</rt></ruby>についていた<ruby>細菌<rt>さいきん</rt></ruby>が<ruby>人<rt>ひと</rt></ruby>のおなかで<ruby>増<rt>ふ</rt></ruby>え、<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>って<ruby>健康障害<rt>けんこうしょうがい</rt></ruby>を<ruby>起<rt>お</rt></ruby>こすもの
+    TRANS: Bakteri yang menempel pada makanan yang dimakan berkembang biak di dalam perut manusia, membentuk racun/merusak jaringan dan menimbulkan gangguan kesehatan
+    KOTOBA: [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p4-224] ついていた(-) [inflected, df:つく] = menempel (lampau) | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p2-093] おなか(-) [word] = perut | [kb-v2-p3-262] 増え(ふえ) [inflected, df:増える] = bertambah banyak | [kb-otaff51-0368] 毒素(どくそ) [noun] = toksin / racun | [kb-v2-p1-149] 作って(つくって) [inflected_verb, df:作る] = membuat (dasar: 作る) | [kb-ext-latsol-0031] 健康障害(けんこうしょうがい) [word] = gangguan kesehatan | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan
+  OPT D: HTML=<ruby>正<rt>ただ</rt></ruby>しいものはない
+    TRANS: Tidak ada yang benar
+    KOTOBA: [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat
+
+=== #Q10 | ID=tambahan01-q010 | KEY=C (idx=2) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="作業場に持って入って良いものをひとつ選びなさい" vs questionText="作業場(さぎょうじょう)に持って入って 良いものをひとつ選びなさい" || [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 湖水
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("ヘアーネット") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>持<rt>も</rt></ruby>って<ruby>入<rt>はい</rt></ruby>って<ruby>良<rt>よ</rt></ruby>いものをひとつ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 作業場(さぎょうじょう)に持って入って 良いものをひとつ選びなさい
+  PROMPT_TRANS: Pilihlah satu benda yang boleh dibawa masuk ke tempat kerja (area produksi).
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 4, nomor 10. Bobot: 6.0 poin. Kunci jawaban: C. Catatan QA: Pada opsi B tertulis 湖水 (air danau), salah ketik dari 香水 (parfum).
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p2-138] 持って入って(もってはいって) [expression] = membawa masuk | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>時計<rt>とけい</rt></ruby>
+    TRANS: Jam tangan
+    KOTOBA: [kb-1316140] 時計(とけい) [word] = jam
+  OPT B: HTML=<ruby>湖水<rt>こすい</rt></ruby>（<ruby>香水<rt>こうすい</rt></ruby>）
+    TRANS: Parfum (tertulis salah ketik kanji 湖水 pada sumber)
+    KOTOBA: [kb-ext-latsol-0106] 湖水(こすい) [word] = air danau | [kb-otaff51-0670] 香水(こうすい) [noun] = parfum
+  OPT C: HTML=ヘアーネット
+    TRANS: Jaring rambut (hairnet)
+    KOTOBA: [kb-otaff51-0075] ヘアーネット(へあーねっと) [noun] = jaring rambut (hairnet)
+
+=== #Q11 | ID=tambahan01-q011 | KEY=B (idx=1) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="食中毒について正しいものを一つ選びなさい" vs questionText="食中毒(しょくちゅうどく)について正しいもを一つ選びなさい" || [PRIOR_KEY_AUDIT_SOURCE_CONFLICT@question] Tabel Kunci Jawaban pada PDF 25 Soal Hal. 8 mengalami kesalahan copy-paste di mana seluruh baris 1 (No. 1–10: C B A B B A B C C C) terduplikasi ke baris 2 (No. 11–20) dan baris 3 (No. 21–25), sehingga No. 11 tertulis C. Definisi食中毒 (keracunan makanan) yang benar menurut diktat adalah gangguan kesehatan akibat mengonsumsi makanan/minuman yang mengandung mikroorganisme berbahaya atau zat kimia (Opsi B). Kunci JSON saat ini (B) sudah benar.
+  PRIOR_KEY_AUDIT: SOURCE_CONFLICT | Tabel Kunci Jawaban pada PDF 25 Soal Hal. 8 mengalami kesalahan copy-paste di mana seluruh baris 1 (No. 1–10: C B A B B A B C C C) terduplikasi ke baris 2 (No. 11–20) dan baris 3 (No. 21–25), sehingga No. 11 tertulis C. Definisi食中毒 (keracunan makanan) yang benar menurut diktat adalah gangguan kesehatan akibat mengonsumsi makanan/minuman yang mengandung mikroorganisme berbahaya atau zat kimia (Opsi B). Kunci JSON saat ini (B) sudah benar.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒<rt>しょくちゅうどく</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 食中毒(しょくちゅうどく)について正しいもを一つ選びなさい
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai keracunan makanan.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 4, nomor 11. Bobot: 6.0 poin. Kunci jawaban: B. Koreksi QA: Kunci PDF Hal. 8 tertulis C akibat duplikasi copy-paste baris 1 (C B A B B A B C C C) ke baris 2. Jawaban yang benar sesuai diktat SSW adalah B.
+  KOTOBA_PROMPT: [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>食<rt>た</rt></ruby>べ<ruby>過<rt>す</rt></ruby>ぎや<ruby>飲<rt>の</rt></ruby>み<ruby>過<rt>す</rt></ruby>ぎで<ruby>健康障害<rt>けんこうしょうがい</rt></ruby>を<ruby>起<rt>お</rt></ruby>こすこと
+    TRANS: Mengalami gangguan kesehatan akibat makan atau minum berlebihan
+    KOTOBA: [kb-latsol-84adcb891f] 食べ過ぎ(たべすぎ) [word] = makan berlebihan | [kb-latsol-59985748bf] 飲み過ぎ(のみすぎ) [word] = minum berlebihan | [kb-ext-latsol-0031] 健康障害(けんこうしょうがい) [word] = gangguan kesehatan | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan
+  OPT B: HTML=<ruby>有害<rt>ゆうがい</rt></ruby>な<ruby>微生物<rt>びせいぶつ</rt></ruby>や<ruby>化学物質<rt>かがくぶっしつ</rt></ruby>など<ruby>含<rt>ふく</rt></ruby>む<ruby>飲食物<rt>いんしょくぶつ</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたために<ruby>健康障害<rt>けんこうしょうがい</rt></ruby>を<ruby>起<rt>お</rt></ruby>こすこと
+    TRANS: Mengalami gangguan kesehatan akibat mengonsumsi makanan/minuman yang mengandung mikroorganisme berbahaya atau zat kimia
+    KOTOBA: [kb-ext-latsol-0107] 有害(ゆうがい) [word] = berbahaya / mengandung racun | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-otaff51-0207] 化学物質(かがくぶっしつ) [compound_technical] = zat kimia | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-ext-latsol-0108] 飲食物(いんしょくぶつ) [word] = makanan dan minuman | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-latsol-0031] 健康障害(けんこうしょうがい) [word] = gangguan kesehatan | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan
+  OPT C: HTML=<ruby>異物<rt>いぶつ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>った<ruby>飲食物<rt>いんしょくぶつ</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたために<ruby>健康障害<rt>けんこうしょうがい</rt></ruby>を<ruby>起<rt>お</rt></ruby>こすこと
+    TRANS: Mengalami gangguan kesehatan akibat memakan makanan/minuman yang kemasukan benda asing
+    KOTOBA: [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-v2-p6-355] 入った(はいった) [inflected, df:入る] = berisi / masuk (lampau) | [kb-ext-latsol-0108] 飲食物(いんしょくぶつ) [word] = makanan dan minuman | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-latsol-0031] 健康障害(けんこうしょうがい) [word] = gangguan kesehatan | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan
+
+=== #Q12 | ID=tambahan01-q012 | KEY=B (idx=1) | CAT= | SRC=25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.4 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="食中毒を起こす微生物が増殖について、3つの要素があります。間違ってるものをひとつ選びなさい" vs questionText="食中毒を起(お) こす微生物(びせいぶつ)が増殖 (ぞうしょく)について、 3つの要素(ようそ)があります。 間違ってるものをひとつ選びなさ" || [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: 水分 || [PRIOR_KEY_AUDIT_QUESTION_DEFECTIVE@question] Pertanyaan meminta memilih satu yang SALAH (間違ってるもの) dari 3 unsur perkembangbiakan mikroorganisme, padahal ketiga opsi (A: 水, B: 栄養分, C: 温度) semuanya merupakan ketiga unsur tersebut. Soal sumber cacat karena tidak menyediakan opsi pengecoh di luar 3 unsur. Kunci PDF (B) dipertahankan tanpa perubahan spekulatif.
+  PRIOR_KEY_AUDIT: QUESTION_DEFECTIVE | Pertanyaan meminta memilih satu yang SALAH (間違ってるもの) dari 3 unsur perkembangbiakan mikroorganisme, padahal ketiga opsi (A: 水, B: 栄養分, C: 温度) semuanya merupakan ketiga unsur tersebut. Soal sumber cacat karena tidak menyediakan opsi pengecoh di luar 3 unsur. Kunci PDF (B) dipertahankan tanpa perubahan spekulatif.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>起<rt>お</rt></ruby>こす<ruby>微生物<rt>びせいぶつ</rt></ruby>が<ruby>増殖<rt>ぞうしょく</rt></ruby>について、3つの<ruby>要素<rt>ようそ</rt></ruby>があります。<ruby>間違<rt>まちが</rt></ruby>ってるものをひとつ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: 食中毒を起(お) こす微生物(びせいぶつ)が増殖 (ぞうしょく)について、 3つの要素(ようそ)があります。 間違ってるものをひとつ選びなさい
+  PROMPT_TRANS: Mengenai perkembangbiakan mikroorganisme penyebab keracunan makanan, terdapat 3 unsur utama. Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 4, nomor 12. Bobot: 6.0 poin. Kunci jawaban: B. Anomali Soal Sumber: Ketiga opsi (水, 栄養分, 温度) semuanya merupakan 3 syarat utama perkembangbiakan mikroorganisme. Kunci PDF Hal. 8 tertulis B.
+  KOTOBA_PROMPT: [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1546800] 要素(ようそ) [word] = unsur / elemen penting | [kb-latsol-7257eb5745] 間違ってる(まちがってる) [word] = salah / keliru | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>水<rt>みず</rt></ruby>
+    TRANS: Air (kelembapan/水分)
+    KOTOBA: [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT B: HTML=<ruby>栄養分<rt>えいようぶん</rt></ruby>
+    TRANS: Nutrisi / zat gizi
+    KOTOBA: [kb-1624300] 栄養分(えいようぶん) [word] = kandungan zat gizi
+  OPT C: HTML=<ruby>温度<rt>おんど</rt></ruby>
+    TRANS: Suhu
+    KOTOBA: [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur

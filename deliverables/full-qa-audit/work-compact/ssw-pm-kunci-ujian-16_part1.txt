@@ -1,0 +1,79 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-16 (Soal Ujian 16) | Batch qa-batch-04 | Part 1 (Q1-4 of 50)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=kunci-ujian-16-q001 | KEY=D (idx=3) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 16.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品安全<rt>しょくひんあんぜん</rt></ruby>の<ruby>大切<rt>たいせつ</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang menunjukkan pentingnya keamanan pangan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 1, nomor 門1 (Q1). Bobot: 3.0 poin. Kunci jawaban: D. Pembahasan: Sesuai buku teks SSW Bab 1 (hlm. 10), seluruh pernyataan A, B, dan C menjelaskan alasan mengapa keamanan pangan sangat penting bagi konsumen, perusahaan, dan pekerja, sehingga jawaban yang tepat adalah D (すべて正しい).
+  INLINE_KOTOBA_COUNT: 24
+  KOTOBA_PROMPT: [kb-ext-0931-e9a39fe593] 食品安全(しょくひんあんぜん) [word] = keamanan pangan (Food Safety) | [kb-otaff51-0254] 大切(たいせつ) [adjective] = penting / berharga | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>消費者<rt>しょうひしゃ</rt></ruby>が<ruby>美味<rt>おい</rt></ruby>しい<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めている
+    TRANS: Konsumen menginginkan makanan yang lezat dan aman
+    KOTOBA: [kb-1350300] 消費者(しょうひしゃ) [word] = konsumen | [kb-u1416-eab19238e8] 美味しい(おいしい) [word] = lezat / enak | [kb-otaff51-1178] 食べ(たべ) [inflected_verb, df:食べる] = makan | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-audit-0038] 求めて(もとめて) [inflected_verb, df:求める] = menginginkan / menuntut
+  OPT B: HTML=<ruby>病気<rt>びょうき</rt></ruby>になる<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>対<rt>たい</rt></ruby>する<ruby>不信感<rt>ふしんかん</rt></ruby>を<ruby>高<rt>たか</rt></ruby>める
+    TRANS: Makanan yang menimbulkan penyakit akan meningkatkan rasa ketidakpercayaan terhadap produk
+    KOTOBA: [kb-otaff51-0453] 病気(びょうき) [noun] = penyakit / sakit | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p3-342] 対する(たいする) [word] = terhadap | [kb-u1416-34b1f911b6] 不信感(ふしんかん) [word] = rasa ketidakpercayaan | [kb-v2-p3-313] 高める(たかめる) [word] = meningkatkan
+  OPT C: HTML=<ruby>会社全体<rt>かいしゃぜんたい</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きな<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>与<rt>あた</rt></ruby>え、<ruby>自分<rt>じぶん</rt></ruby>たちの<ruby>職場<rt>しょくば</rt></ruby>にも<ruby>影響<rt>えいきょう</rt></ruby>が<ruby>及<rt>およ</rt></ruby>びます
+    TRANS: Masalah keamanan pangan berdampak besar pada seluruh perusahaan dan juga berdampak pada tempat kerja kita sendiri
+    KOTOBA: [kb-u1416-4794b8a81e] 会社全体(かいしゃぜんたい) [word] = seluruh perusahaan | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-1173660] 影響(えいきょう) [word] = dampak / pengaruh | [kb-latsol-7215958a09] 与え(あたえ) [word] = Memberikan pengaruh terhadap kualitas | [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-audit-0011] 及び(および) [word] = serta / dan juga
+  OPT D: HTML=すべて<ruby>正<rt>ただ</rt></ruby>しい
+    TRANS: Semua benar
+    KOTOBA: [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat
+
+=== #Q2 | ID=kunci-ujian-16-q002 | KEY=A (idx=0) | CAT=HACCPによる衛生管理（Manajemen Higiene Berbasis HACCP） | SRC=Soal Ujian 16.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>する<ruby>為<rt>ため</rt></ruby>の<ruby>全体像<rt>ぜんたいぞう</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah gambaran menyeluruh upaya untuk menyediakan makanan yang aman? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 1, nomor 門2 (Q2). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 1 & Bab 4 (hlm. 11, 55), keamanan pangan diwujudkan dengan menggabungkan 一般衛生管理 (manajemen higiene umum) sebagai fondasi dan HACCP.
+  INLINE_KOTOBA_COUNT: 12
+  KOTOBA_PROMPT: [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-184] 提供する(ていきょうする) [word] = menyediakan / menyajikan | [kb-audit-0017] 為(ため) [word] = untuk / demi | [kb-ext-latsol-0032] 全体像(ぜんたいぞう) [word] = gambaran menyeluruh | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=HACCP、<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>衛生管理<rt>えいせいかんり</rt></ruby>を<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせる
+    TRANS: Menggabungkan HACCP dan manajemen higiene umum
+    KOTOBA: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-u1416-5d3c68bd5e] 一般的な衛生管理(いっぱんてきなえいせいかんり) [word] = manajemen higiene umum | [kb-u1416-2b4a8a40ff] 組み合わせる(くみあわせる) [word] = menggabungkan / mengombinasikan
+  OPT B: HTML=<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>衛生管理<rt>えいせいかんり</rt></ruby>
+    TRANS: Manajemen higiene umum saja
+    KOTOBA: [kb-u1416-5d3c68bd5e] 一般的な衛生管理(いっぱんてきなえいせいかんり) [word] = manajemen higiene umum
+  OPT C: HTML=HACCP
+    TRANS: HACCP saja
+    KOTOBA: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point)
+
+=== #Q3 | ID=kunci-ujian-16-q003 | KEY=B (idx=1) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 16.pdf p.1 ===
+  CLUSTER CL-0036 (n=6, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q002 (ssw-pm-kunci-ujian-2), bonus-soal-2-q002 (bonus-soal-2), bonus-soal-8-q002 (bonus-soal-8), nguyen02-q002 (latsol-nguyen-02), nguyen08-q002 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>に<ruby>存在<rt>そんざい</rt></ruby>し、<ruby>発生<rt>はっせい</rt></ruby>しやすい<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah keracunan makanan yang mudah terjadi dan terdapat pada kerang bivalvia seperti tiram? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 1, nomor 門3 (Q3). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 1 (hlm. 13), Norovirus terdapat pada kerang bivalvia seperti tiram (牡蠣).
+  INLINE_KOTOBA_COUNT: 12
+  KOTOBA_PROMPT: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia) | [kb-v2-p2-183] 存在し(そんざいし) [inflected, df:存在する] = ada / terdapat | [kb-v2-p2-180] 発生しやすい(はっせいしやすい) [inflected, df:発生する] = mudah terjadi | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT B: HTML=ノロウイルス
+    TRANS: Norovirus
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus
+  OPT C: HTML=<ruby>大腸菌<rt>だいちょうきん</rt></ruby>
+    TRANS: Bakteri E. coli
+    KOTOBA: [kb-otaff51-0255] 大腸菌(だいちょうきん) [compound_technical] = bakteri E. coli
+
+=== #Q4 | ID=kunci-ujian-16-q004 | KEY=B (idx=1) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 16.pdf p.2 ===
+  CLUSTER CL-0037 (n=6, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q003 (ssw-pm-kunci-ujian-2), bonus-soal-2-q003 (bonus-soal-2), bonus-soal-8-q003 (bonus-soal-8), nguyen02-q003 (latsol-nguyen-02), nguyen08-q003 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>は<ruby>増殖<rt>ぞうしょく</rt></ruby>しにくい<ruby>環境<rt>かんきょう</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Lingkungan manakah yang membuat mikroorganisme sulit berkembang biak? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 2, nomor 門4 (Q4). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 1 (hlm. 19–20), mikroorganisme sulit berkembang biak pada suhu 4°C ke bawah, kering, dan bersih.
+  INLINE_KOTOBA_COUNT: 14
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0983] 増殖しにくい(ぞうしょくしにくい) [inflected_adj, df:増殖しにくい] = sulit berkembang biak | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=30℃～40℃、<ruby>水分<rt>すいぶん</rt></ruby>あり、<ruby>汚<rt>よご</rt></ruby>れある<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu 30°C–40°C, lembap/berair, dan kotor
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja
+  OPT B: HTML=4℃<ruby>以下<rt>いか</rt></ruby>、<ruby>乾燥<rt>かんそう</rt></ruby>、<ruby>汚<rt>よご</rt></ruby>れなし<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu 4°C ke bawah, kering, dan bersih tanpa kotoran
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0103] 乾燥(かんそう) [noun] = pengeringan | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-audit-0008] なし(なし) [word] = tanpa / tidak ada | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja
+  OPT C: HTML=<ruby>室温<rt>しつおん</rt></ruby>で、<ruby>汚<rt>よご</rt></ruby>れある<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu ruang dan kotor
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja

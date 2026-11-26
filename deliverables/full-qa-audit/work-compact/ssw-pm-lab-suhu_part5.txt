@@ -1,0 +1,86 @@
+# AUDIT SHEET: ssw-pm-lab-suhu (保存温度・温度管理 (Temperature Lab)) | Batch qa-batch-06 | Part 5 (Q17-20 of 28)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=lab-temp-017 | KEY=C (idx=2) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  INSTR: <ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>卵<rt>たまご</rt></ruby>および<ruby>卵<rt>たまご</rt></ruby><ruby>加工品<rt>かこうひん</rt></ruby>の<ruby>保存温度<rt>ほぞんおんど</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pasangan yang salah mengenai suhu penyimpanan telur dan produk olahan telur.
+  EXPLANATION: 【誤り（正解）：C (殻付き卵 — 8℃以下)】
+殻付き卵の基準温度は「10℃以下」です。8℃以下が適用されるのは殻を割った「液卵」です。凍結卵は「−18℃以下」です。
+  KOTOBA_PROMPT: [kb-v2-p3-118] 卵および卵(たまごおよびたまご) [expression] = telur dan produk telur | [kb-1190200] 加工品(かこうひん) [word] = Produk olahan pangan siap jual | [kb-ext-1622-e4bf9de5ad] 保存温度(ほぞんおんど) [word] = suhu penyimpanan | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-latsol-1dee95223c] 誤っている(あやまっている) [word] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>殻付<rt>からつ</rt></ruby>き<ruby>卵<rt>たまご</rt></ruby> — 10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Telur bercangkang — 10℃ atau lebih rendah
+    KOTOBA: [kb-otaff51-0366] 殻付き卵(からつきたまご) [compound_technical] = telur bercangkang | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=<ruby>液卵<rt>えきらん</rt></ruby> — 8℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Telur cair — 8℃ atau lebih rendah
+    KOTOBA: [kb-otaff51-0395] 液卵(えきらん) [compound_technical] = telur cair (liquid egg) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=<ruby>殻付<rt>からつ</rt></ruby>き<ruby>卵<rt>たまご</rt></ruby> — 8℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Telur bercangkang — 8℃ atau lebih rendah
+    KOTOBA: [kb-otaff51-0366] 殻付き卵(からつきたまご) [compound_technical] = telur bercangkang | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT D: HTML=<ruby>凍結卵<rt>とうけつらん</rt></ruby> — −18℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Telur beku — −18℃ atau lebih rendah
+    KOTOBA: [kb-otaff51-0170] 凍結卵(とうけつらん) [compound_technical] = telur beku | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol)
+
+=== #Q18 | ID=lab-temp-018 | KEY=D (idx=3) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>工場<rt>こうじょう</rt></ruby>に<ruby>搬入<rt>はんにゅう</rt></ruby>された<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>温度管理<rt>おんどかんり</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しい<ruby>記述<rt>きじゅつ</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang benar mengenai manajemen suhu bahan baku yang diterima di pabrik pangan.
+  EXPLANATION: 【正解：D】
+冷凍食肉・冷凍食肉製品は−15℃以下、一般の冷凍食品・冷凍水産物は−18℃以下で厳格に管理します。一度解凍したものを再凍結することは品質低下や菌増殖の原因となるため原則禁止です。
+  KOTOBA_PROMPT: [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-1481320] 搬入(はんにゅう) [word] = pemasukan barang ke pabrik | [kb-v2-p1-144] された(-) [inflected_verb, df:する] = yang dilakukan (dasar: する) | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0406] 温度管理(おんどかんり) [compound_technical] = pengendalian suhu | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-1223280] 記述(きじゅつ) [word] = uraian / pernyataan tertulis | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=すべての<ruby>冷凍品<rt>れいとうひん</rt></ruby>は−5℃<ruby>以上<rt>いじょう</rt></ruby>であれば<ruby>問題<rt>もんだい</rt></ruby>なく<ruby>保管<rt>ほかん</rt></ruby>できる。
+    TRANS: Semua bahan beku dapat disimpan tanpa masalah asalkan suhunya −5℃ ke atas.
+    KOTOBA: [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-ext-1793-e586b7e587] 冷凍品(れいとうひん) [word] = Produk pangan beku | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-1536010] 問題(もんだい) [word] = soal / masalah | [kb-audit-0398] なく(なく) [word] = tanpa (bentuk sambung ない) | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>冷凍食品<rt>れいとうしょくひん</rt></ruby>は<ruby>解凍<rt>かいとう</rt></ruby>して<ruby>室温<rt>しつおん</rt></ruby>に<ruby>置<rt>お</rt></ruby>いた<ruby>後<rt>あと</rt></ruby>、<ruby>再凍結<rt>さいとうけつ</rt></ruby>すれば<ruby>何度<rt>なんど</rt></ruby>でも<ruby>使用<rt>しよう</rt></ruby>できる。
+    TRANS: Makanan beku boleh dicairkan di suhu ruang lalu dibekukan ulang berkali-kali.
+    KOTOBA: [kb-otaff51-0160] 冷凍食品(れいとうしょくひん) [compound_technical] = makanan beku | [kb-otaff51-0563] 解凍(かいとう) [noun] = pencairan bahan beku (thawing) | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-v2-p3-274] 置いた(おいた) [inflected, df:置く] = meletakkan (lampau) | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-ext-0599-e5868de587] 再凍結(さいとうけつ) [word] = pembekuan ulang | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-otaff51-0126] 使用(しよう) [noun] = penggunaan | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT C: HTML=<ruby>生鮮魚介類<rt>せいせんぎょかいるい</rt></ruby>は15℃<ruby>以下<rt>いか</rt></ruby>で<ruby>常温<rt>じょうおん</rt></ruby><ruby>放置<rt>ほうち</rt></ruby>してよい。
+    TRANS: Hasil laut segar boleh dibiarkan pada suhu biasa asalkan 15℃ ke bawah.
+    KOTOBA: [kb-otaff51-0446] 生鮮魚介類(せいせんぎょかいるい) [compound_technical] = ikan dan hasil laut segar | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-1798230] 常温(じょうおん) [word] = suhu ruang | [kb-audit-0944] 放置してよい(ほうちしてよい) [expression] = boleh membiarkan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT D: HTML=<ruby>冷凍食肉製品<rt>れいとうしょくにくせいひん</rt></ruby>は−15℃<ruby>以下<rt>いか</rt></ruby>、<ruby>一般<rt>いっぱん</rt></ruby>の<ruby>冷凍食品<rt>れいとうしょくひん</rt></ruby>は−18℃<ruby>以下<rt>いか</rt></ruby>で<ruby>管理<rt>かんり</rt></ruby>する。
+    TRANS: Produk olahan daging beku dikelola pada −15℃ ke bawah, makanan beku umum pada −18℃ ke bawah.
+    KOTOBA: [kb-ext-1790-e586b7e587] 冷凍食肉製品(れいとうしょくにくせいひん) [word] = produk daging olahan beku | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-1165790] 一般(いっぱん) [word] = Umum / standar umum | [kb-otaff51-0160] 冷凍食品(れいとうしょくひん) [compound_technical] = makanan beku | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q19 | ID=lab-temp-019 | KEY=A (idx=0) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>乳<rt>にゅう</rt></ruby>、<ruby>濃縮乳<rt>のうしゅくにゅう</rt></ruby>、<ruby>脱脂乳<rt>だっしにゅう</rt></ruby>、クリーム」の<ruby>保存温度基準<rt>ほぞんおんどきじゅん</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah standar suhu penyimpanan yang benar untuk 'susu, susu pekat (concentrated milk), susu skim, dan krim segar'.
+  EXPLANATION: 【正解：A (10℃以下)】
+生乳、濃縮乳、脱脂乳、生クリームなどの液体状の乳類は「10℃以下」で保存します。バター、チーズ、練乳は「15℃以下」です。
+  KOTOBA_PROMPT: [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-otaff51-0416] 濃縮乳(のうしゅくにゅう) [compound_technical] = susu pekat | [kb-otaff51-0518] 脱脂乳(だっしにゅう) [compound_technical] = susu skim (tanpa lemak) | [kb-v2-p1-047] クリーム(-) [word] = krim | [kb-ext-1623-e4bf9de5ad] 保存温度基準(ほぞんおんどきじゅん) [word] = standar suhu penyimpanan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 10℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 15℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=<ruby>室温<rt>しつおん</rt></ruby>
+    TRANS: Suhu ruang
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang
+  OPT D: HTML=−15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: −15℃ atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol)
+
+=== #Q20 | ID=lab-temp-020 | KEY=B (idx=1) | CAT= | SRC=SSW_Temperature_Lab_Fixed_v2.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>乳製品<rt>にゅうせいひん</rt></ruby>の<ruby>保存温度区分<rt>ほぞんおんどくぶん</rt></ruby>の<ruby>対比<rt>たいひ</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu perbandingan yang benar mengenai klasifikasi suhu penyimpanan produk olahan susu.
+  EXPLANATION: 【正解：B】
+水分活性や加工特性の違いから、牛乳・クリーム等の液状乳は「10℃以下」、バター・チーズ・練乳は「15℃以下」に区分されています。
+  KOTOBA_PROMPT: [kb-1465260] 乳製品(にゅうせいひん) [word] = produk olahan susu | [kb-ext-1624-e4bf9de5ad] 保存温度区分(ほぞんおんどくぶん) [word] = klasifikasi suhu penyimpanan | [kb-1410260] 対比(たいひ) [word] = Perbandingan parameter standar | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=「<ruby>乳<rt>にゅう</rt></ruby>・<ruby>濃縮乳<rt>のうしゅくにゅう</rt></ruby>・クリーム」は15℃<ruby>以下<rt>いか</rt></ruby>、「バター・チーズ・<ruby>練乳<rt>れんにゅう</rt></ruby>」は10℃<ruby>以下<rt>いか</rt></ruby>である。
+    TRANS: 'Susu, susu pekat, krim' pada 15℃ atau lebih rendah; 'mentega, keju, susu kental manis' pada 10℃ atau lebih rendah.
+    KOTOBA: [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-otaff51-0416] 濃縮乳(のうしゅくにゅう) [compound_technical] = susu pekat | [kb-v2-p1-047] クリーム(-) [word] = krim | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0956] バター・チーズ(ばたーちーず) [noun] = mentega dan keju | [kb-otaff51-0502] 練乳(れんにゅう) [noun] = susu kental manis | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=「<ruby>乳<rt>にゅう</rt></ruby>・<ruby>濃縮乳<rt>のうしゅくにゅう</rt></ruby>・クリーム」は10℃<ruby>以下<rt>いか</rt></ruby>、「バター・チーズ・<ruby>練乳<rt>れんにゅう</rt></ruby>」は15℃<ruby>以下<rt>いか</rt></ruby>である。
+    TRANS: 'Susu, susu pekat, krim' pada 10℃ atau lebih rendah; 'mentega, keju, susu kental manis' pada 15℃ atau lebih rendah.
+    KOTOBA: [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-otaff51-0416] 濃縮乳(のうしゅくにゅう) [compound_technical] = susu pekat | [kb-v2-p1-047] クリーム(-) [word] = krim | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0956] バター・チーズ(ばたーちーず) [noun] = mentega dan keju | [kb-otaff51-0502] 練乳(れんにゅう) [noun] = susu kental manis | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=すべての<ruby>乳製品<rt>にゅうせいひん</rt></ruby>は<ruby>例外<rt>れいがい</rt></ruby>なく「<ruby>室温<rt>しつおん</rt></ruby>」で<ruby>保存<rt>ほぞん</rt></ruby>する。
+    TRANS: Semua produk olahan susu tanpa terkecuali disimpan pada 'suhu ruang'.
+    KOTOBA: [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-1465260] 乳製品(にゅうせいひん) [word] = produk olahan susu | [kb-1556410] 例外(れいがい) [word] = Pengecualian dari aturan umum | [kb-audit-0398] なく(なく) [word] = tanpa (bentuk sambung ない) | [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT D: HTML=すべての<ruby>乳製品<rt>にゅうせいひん</rt></ruby>は「−18℃<ruby>以下<rt>いか</rt></ruby>」で<ruby>凍結<rt>とうけつ</rt></ruby><ruby>保管<rt>ほかん</rt></ruby>しなければならない。
+    TRANS: Semua produk olahan susu harus dibekukan pada '−18℃ atau lebih rendah'.
+    KOTOBA: [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-1465260] 乳製品(にゅうせいひん) [word] = produk olahan susu | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan | [kb-v2-p2-030] 保管し(ほかんし) [inflected, df:保管する] = menyimpan | [kb-audit-0375] なければ(なければ) [word] = jika tidak (syarat wajib) | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi

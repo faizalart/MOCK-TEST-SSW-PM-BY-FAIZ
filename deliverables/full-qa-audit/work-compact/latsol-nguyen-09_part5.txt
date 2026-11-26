@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-09 (Latsol Nguyen 09) | Batch qa-batch-08 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=nguyen09-q017 | KEY=B (idx=1) | CAT= | SRC=9.pdf p.3 ===
+  CLUSTER CL-0049 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q017 (ssw-pm-kunci-ujian-2), kunci-ujian-5-q010 (ssw-pm-kunci-ujian-5), kunci-ujian-16-q021 (ssw-pm-kunci-ujian-16), bonus-soal-2-q017 (bonus-soal-2), bonus-soal-8-q017 (bonus-soal-8), bonus-soal-9-q017 (bonus-soal-9), nguyen02-q017 (latsol-nguyen-02), nguyen08-q017 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("清潔な服なら、なにを着ても良い。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業着<rt>さぎょうぎ</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai pakaian kerja.
+  EXPLANATION: Sumber: 9.pdf, halaman 3, nomor 17. Bobot: 3.75 poin. Kunci jawaban: B. Nomor asli PDF: Câu 17 (Halaman 3).
+  KOTOBA_PROMPT: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>作業着<rt>さぎょうぎ</rt></ruby>は、いつも<ruby>清潔<rt>せいけつ</rt></ruby>なものを<ruby>着<rt>き</rt></ruby>なければならない。
+    TRANS: Pakaian kerja yang dikenakan harus selalu bersih.
+    KOTOBA: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-v2-p2-225] 清潔な(せいけつな) [word] = bersih / higienis | [kb-v2-p2-192] 着なければならない(きなければならない) [expression] = harus memakai
+  OPT B: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>服<rt>ふく</rt></ruby>なら、なにを<ruby>着<rt>き</rt></ruby>ても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Asalkan pakaiannya bersih, boleh memakai pakaian apa saja.
+    KOTOBA: [kb-v2-p2-225] 清潔な(せいけつな) [word] = bersih / higienis | [kb-v2-p2-073] 服(ふく) [word] = pakaian | [kb-v2-p2-256] なに(-) [word] = apa | [kb-v2-p2-193] 着ても良い(きてもよい) [expression] = boleh memakai
+  OPT C: HTML=<ruby>作業着<rt>さぎょうぎ</rt></ruby>は、<ruby>決<rt>き</rt></ruby>められた<ruby>着<rt>き</rt></ruby>かたをしなければならない。
+    TRANS: Pakaian kerja harus dikenakan sesuai cara pemakaian yang telah ditetapkan.
+    KOTOBA: [kb-2112130] 作業着(さぎょうぎ) [word] = seragam kerja | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-v2-p2-109] 着かた(きかた) [word] = cara memakai pakaian | [kb-v2-p1-101] しなければならない(-) [expression] = harus dilakukan
+
+=== #Q18 | ID=nguyen09-q018 | KEY=B (idx=1) | CAT= | SRC=9.pdf p.3 ===
+  CLUSTER CL-0183 (n=9, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-2-q018 (bonus-soal-2), bonus-soal-4-q005 (bonus-soal-4), bonus-soal-8-q018 (bonus-soal-8), bonus-soal-9-q018 (bonus-soal-9), nguyen02-q018 (latsol-nguyen-02), nguyen04-q005 (latsol-nguyen-04), nguyen08-q018 (latsol-nguyen-08), nguyen10-q005 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("3原則。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>細菌<rt>さいきん</rt></ruby>が<ruby>原因<rt>げんいん</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>発生<rt>はっせい</rt></ruby>させないために<ruby>食中毒予防<rt>しょくちゅうどくよぼう</rt></ruby>がいくつありますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada berapa prinsip pencegahan keracunan makanan agar tidak terjadi keracunan makanan yang disebabkan oleh bakteri?
+  EXPLANATION: Sumber: 9.pdf, halaman 3, nomor 18. Bobot: 3.75 poin. Kunci jawaban: B. Nomor asli PDF: Câu 18 (Halaman 3).
+  KOTOBA_PROMPT: [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-0926-e9a39fe4b8] 食中毒予防(しょくちゅうどくよぼう) [word] = pencegahan keracunan makanan | [kb-v2-p4-205] いくつ(-) [word] = berapa banyak / berapa buah | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある)
+  OPT A: HTML=4<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 4 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+  OPT B: HTML=3<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 3 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+  OPT C: HTML=7<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 7 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+
+=== #Q19 | ID=nguyen09-q019 | KEY=A (idx=0) | CAT= | SRC=9.pdf p.4 ===
+  CLUSTER CL-0051 (n=8, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q019 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q023 (ssw-pm-kunci-ujian-16), bonus-soal-2-q019 (bonus-soal-2), bonus-soal-8-q019 (bonus-soal-8), bonus-soal-9-q019 (bonus-soal-9), nguyen02-q019 (latsol-nguyen-02), nguyen08-q019 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("手の表面にいる微生物が、食品につかないようにするため。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手袋<rt>てぶくろ</rt></ruby>をつける<ruby>理由<rt>りゆう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai alasan mengenakan sarung tangan, pilihlah satu yang benar.
+  EXPLANATION: Sumber: 9.pdf, halaman 4, nomor 19. Bobot: 3.75 poin. Kunci jawaban: A. Nomor asli PDF: Câu 19 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0311] 手袋(てぶくろ) [noun] = sarung tangan | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>手<rt>て</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>にいる<ruby>微生物<rt>びせいぶつ</rt></ruby>が、<ruby>食品<rt>しょくひん</rt></ruby>につかないようにするため。
+    TRANS: Agar mikroorganisme yang ada di permukaan tangan tidak menempel pada makanan.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-1489880] 表面(ひょうめん) [word] = permukaan | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-195] つかない(-) [inflected, df:つく] = tidak menempel | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya
+  OPT B: HTML=<ruby>手<rt>て</rt></ruby>が<ruby>汚<rt>よご</rt></ruby>れないようにするため。
+    TRANS: Agar tangan tidak menjadi kotor.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-audit-0040] 汚れないように(よごれないように) [inflected_verb, df:汚れる] = agar tidak menjadi kotor
+  OPT C: HTML=<ruby>手<rt>て</rt></ruby>が<ruby>冷<rt>つめ</rt></ruby>たくならないようにするため。
+    TRANS: Agar tangan tidak menjadi dingin.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-226] 冷たく(つめたく) [inflected, df:冷たい] = dingin | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya
+
+=== #Q20 | ID=nguyen09-q020 | KEY=C (idx=2) | CAT= | SRC=9.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  CLUSTER CL-0052 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q020 (ssw-pm-kunci-ujian-2), bonus-soal-2-q020 (bonus-soal-2), bonus-soal-9-q020 (bonus-soal-9), nguyen02-q020 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("ロッカー鍵") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>持<rt>も</rt></ruby>って<ruby>入<rt>はい</rt></ruby>ってよいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu benda yang boleh dibawa masuk ke ruang kerja.
+  EXPLANATION: Sumber: 9.pdf, halaman 4, nomor 20. Bobot: 3.75 poin. Kunci jawaban: C. Nomor asli PDF: Câu 20 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p2-138] 持って入って(もってはいって) [expression] = membawa masuk | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=お<ruby>金<rt>かね</rt></ruby>やたばこ
+    TRANS: Uang atau rokok
+    KOTOBA: [kb-v2-p2-071] お金(おかね) [word] = uang | [kb-v2-p2-070] たばこ(-) [word] = rokok
+  OPT B: HTML=<ruby>飴<rt>あめ</rt></ruby>や<ruby>薬<rt>くすり</rt></ruby>
+    TRANS: Permen atau obat
+    KOTOBA: [kb-1153520] 飴(あめ) [standalone_term] = Permen manis olahan gula | [kb-v2-p2-069] 薬(くすり) [word] = obat
+  OPT C: HTML=ロッカー<ruby>鍵<rt>かぎ</rt></ruby>
+    TRANS: Kunci loker
+    KOTOBA: [kb-v2-p2-089] ロッカー鍵(ろっかーかぎ) [compound_technical] = kunci loker

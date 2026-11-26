@@ -1,0 +1,75 @@
+# AUDIT SHEET: latsol-otaff-pm51-05 (Latsol OTAFF SSW PM Modul 5.1 - Paket 05) | Batch qa-batch-11 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=otaff-pm51-05-q001 | KEY=C (idx=2) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 2012<ruby>年<rt>ねん</rt></ruby>から2022<ruby>年<rt>ねん</rt></ruby>までの「<ruby>食品製造業<rt>しょくひんせいぞうぎょう</rt></ruby>の<ruby>国内生産額<rt>こくないせいさんがく</rt></ruby>の<ruby>動<rt>うご</rt></ruby>き」のグラフにおいて、2022<ruby>年<rt>ねん</rt></ruby>の<ruby>国内生産額<rt>こくないせいさんがく</rt></ruby>は<ruby>何兆円<rt>なんちょうえん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada grafik 'Pergerakan Nilai Produksi Domestik Industri Pengolahan Makanan' dari tahun 2012 hingga 2022, berapa triliun yen nilai produksi domestik pada tahun 2022? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 7 (Bab 1.1 Grafik Nilai Produksi Domestik, hal. 2 teks). Bobot: 3 poin. Kunci jawaban: C. Pada grafik tahun 2012–2022, nilai produksi domestik tahun 2012 adalah 34,2 triliun yen, tahun 2020 adalah 36,3 triliun yen, dan tahun 2022 mencapai 38,4 triliun yen.
+  INLINE_KOTOBA_COUNT: 12
+  KOTOBA_PROMPT: [kb-otaff51-0689] 年(ねん) [noun] = tahun | [kb-otaff51-0656] 食品製造業(しょくひんせいぞうぎょう) [compound_technical] = industri pengolahan makanan | [kb-otaff51-0239] 国内生産額(こくないせいさんがく) [compound_technical] = nilai produksi domestik | [kb-v2-p6-548] 動き(うごき) [word] = gerakan / pergerakan | [kb-otaff51-0723] グラフ(ぐらふ) [noun] = grafik / diagram | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-otaff51-1233] 何兆円(なんちょうえん) [expression] = berapa triliun yen | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=34.2<ruby>兆円<rt>ちょうえん</rt></ruby>
+    TRANS: 34,2 triliun yen
+    KOTOBA: [kb-otaff51-0150] 兆円(ちょうえん) [noun] = triliun yen
+  OPT B: HTML=36.3<ruby>兆円<rt>ちょうえん</rt></ruby>
+    TRANS: 36,3 triliun yen
+    KOTOBA: [kb-otaff51-0150] 兆円(ちょうえん) [noun] = triliun yen
+  OPT C: HTML=38.4<ruby>兆円<rt>ちょうえん</rt></ruby>
+    TRANS: 38,4 triliun yen
+    KOTOBA: [kb-otaff51-0150] 兆円(ちょうえん) [noun] = triliun yen
+
+=== #Q2 | ID=otaff-pm51-05-q002 | KEY=A (idx=0) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.2 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>職場<rt>しょくば</rt></ruby>によって、<ruby>作業<rt>さぎょう</rt></ruby>のやり<ruby>方<rt>かた</rt></ruby>や<ruby>用語<rt>ようご</rt></ruby>などがこの『<ruby>学習用<rt>がくしゅうよう</rt></ruby>テキスト』と<ruby>違<rt>ちが</rt></ruby>う<ruby>場合<rt>ばあい</rt></ruby>、<ruby>作業者<rt>さぎょうしゃ</rt></ruby>はどうしなければなりませんか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apabila cara kerja atau istilah di tempat kerja berbeda dengan yang tertulis di dalam 'Buku Teks Pembelajaran' ini, apa yang harus dilakukan oleh pekerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 2 & 8 (＜はじめに＞ & Bab 1.2, hal. 3 teks). Bobot: 3 poin. Kunci jawaban: A. Jika cara kerja atau istilah di tempat kerja berbeda dengan buku teks, pekerja wajib mengikuti aturan dan cara kerja di tempat kerjanya (職場のやり方に従ってください), karena prinsip dasarnya tetap sama.
+  INLINE_KOTOBA_COUNT: 30
+  KOTOBA_PROMPT: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-v2-p1-316] によって(-) [particle] = tergantung pada / oleh | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-029] やり方(やりかた) [word] = cara melakukan | [kb-otaff51-1234] 用語(ようご) [noun] = istilah | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0260] 学習用(がくしゅうよう) [compound_technical] = untuk pembelajaran | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-u1416-98dd58dfde] 違う(ちがう) [word] = berbeda | [kb-1355810] 場合(ばあい) [word] = kasus / situasi | [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>基本的<rt>きほんてき</rt></ruby>な<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>は<ruby>同<rt>おな</rt></ruby>じであるため、その<ruby>職場<rt>しょくば</rt></ruby>で<ruby>決<rt>き</rt></ruby>まっているやり<ruby>方<rt>かた</rt></ruby>に<ruby>従<rt>したが</rt></ruby>う。
+    TRANS: Karena pola pikir dasarnya sama, ikutilah cara yang berlaku di tempat kerja tersebut.
+    KOTOBA: [kb-1219260] 基本的(きほんてき) [word] = secara mendasar | [kb-v2-p3-124] 考え方(かんがえかた) [word] = pola pikir / konsep dasar | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0728] 決まっている(きまっている) [inflected_verb, df:決まる] = sudah ditentukan | [kb-v2-p1-029] やり方(やりかた) [word] = cara melakukan | [kb-v2-p2-009] 従う(したがう) [word] = mematuhi / mengikuti
+  OPT B: HTML=<ruby>職場<rt>しょくば</rt></ruby>のルールを<ruby>無視<rt>むし</rt></ruby>して、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>覚<rt>おぼ</rt></ruby>えたやり<ruby>方<rt>かた</rt></ruby>だけで<ruby>作業<rt>さぎょう</rt></ruby>する。
+    TRANS: Mengabaikan aturan tempat kerja dan bekerja hanya dengan cara yang dihafal sendiri.
+    KOTOBA: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-1530020] 無視(むし) [word] = mengabaikan instruksi/alarm | [kb-1318610] 自分(じぶん) [word] = diri sendiri | [kb-otaff51-1235] 覚えた(おぼえた) [inflected_verb, df:覚える] = mengingat / menghafal | [kb-v2-p1-029] やり方(やりかた) [word] = cara melakukan | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas
+  OPT C: HTML=<ruby>作業<rt>さぎょう</rt></ruby>をやめて、<ruby>何<rt>なに</rt></ruby>もしないで<ruby>帰<rt>かえ</rt></ruby>る。
+    TRANS: Menghentikan pekerjaan dan pulang tanpa melakukan apa pun.
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0756] もし(もし) [adverb] = jika / seandainya | [kb-v2-p6-402] 帰る(かえる) [word] = pulang
+
+=== #Q3 | ID=otaff-pm51-05-q003 | KEY=B (idx=1) | CAT=第2章 1. 食品衛生の基本（Bab 2.1: Dasar Higiene Pangan） | SRC=Bab 1-3.pdf p.10 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>」とはどのようなことですか。テキストの<ruby>定義<rt>ていぎ</rt></ruby>として<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah yang dimaksud dengan 'Higiene Pangan (Shokuhin Eisei)'? Pilihlah satu definisi yang benar sesuai buku teks.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 8 & 10 (Bab 1.2(1) & Bab 2.1, hal. 3 & 5 teks). Bobot: 3 poin. Kunci jawaban: B. 「食品衛生」とは、食品を食べて、人が病気にならないこと、ケガをしないことです.
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-2424980] 食品衛生(しょくひんえいせい) [word] = higiene dan sanitasi pangan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-1435530] 定義(ていぎ) [word] = definisi batasan istilah | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>をできるだけ<ruby>多<rt>おお</rt></ruby>く<ruby>生産<rt>せいさん</rt></ruby>して、<ruby>世界中<rt>せかいじゅう</rt></ruby>に<ruby>輸出<rt>ゆしゅつ</rt></ruby>すること。
+    TRANS: Memproduksi makanan sebanyak mungkin dan mengekspornya ke seluruh dunia.
+    KOTOBA: [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-pilot51-088] できるだけ(できるだけ) [adverb] = sebisa mungkin / sedapat mungkin | [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-otaff51-1236] 生産して(せいさんして) [inflected_verb, df:生産する] = memproduksi | [kb-otaff51-0932] 世界中(せかいじゅう) [noun] = seluruh dunia | [kb-otaff51-1237] 輸出する(ゆしゅつする) [verb] = mengekspor | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べて、<ruby>人<rt>ひと</rt></ruby>が<ruby>病気<rt>びょうき</rt></ruby>にならないこと、ケガをしないこと。
+    TRANS: Kondisi di mana orang tidak jatuh sakit dan tidak terluka saat memakan makanan.
+    KOTOBA: [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-otaff51-1238] 食べて(たべて) [inflected_verb, df:食べる] = makan | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1490230] 病気(びょうき) [word] = penyakit / sakit | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>賞味期限<rt>しょうみきげん</rt></ruby>をすべて5<ruby>年間<rt>ねんかん</rt></ruby>にすること。
+    TRANS: Menetapkan batas cita rasa terbaik seluruh makanan menjadi 5 tahun.
+    KOTOBA: [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-1351980] 賞味期限(しょうみきげん) [word] = batas kualitas terbaik (best before) | [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-otaff51-1239] 年間(ねんかん) [noun] = tahun (durasi) | [kb-v2-p1-291] こと(-) [word] = hal / perkara
+
+=== #Q4 | ID=otaff-pm51-05-q004 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.12 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造<rt>しょくひんせいぞう</rt></ruby>で<ruby>気<rt>き</rt></ruby>をつけなければならない3つの「<ruby>危害要因<rt>きがいよういん</rt></ruby>（ハザード）」の<ruby>分類<rt>ぶんるい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu klasifikasi yang benar dari 3 'Faktor Bahaya (Hazard)' yang harus diwaspadai dalam produksi makanan.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 12 (Bab 2.2, hal. 7 teks). Bobot: 3 poin. Kunci jawaban: C. Tiga jenis faktor bahaya (危害要因) dalam keamanan pangan adalah 物理的危害要因, 化学的危害要因, dan 生物的危害要因.
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-ext-0939-e9a39fe593] 食品製造(しょくひんせいぞう) [word] = Pembuatan dan pengolahan produk pangan | [kb-otaff51-0926] 気をつけ(きをつけ) [expression] = berhati-hati / waspada | [kb-ext-0314-e58db1e5ae] 危害要因(きがいよういん) [word] = faktor bahaya pangan (hazard) | [kb-otaff51-0062] ハザード(はざーど) [noun] = bahaya (hazard) | [kb-1504460] 分類(ぶんるい) [word] = klasifikasi / pengelompokan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=「<ruby>温度的危害要因<rt>おんどてききがいよういん</rt></ruby>」「<ruby>時間的危害要因<rt>じかんてききがいよういん</rt></ruby>」「<ruby>空間的危害要因<rt>くうかんてききがいよういん</rt></ruby>」
+    TRANS: 'Faktor bahaya suhu', 'Faktor bahaya waktu', dan 'Faktor bahaya ruang'
+    KOTOBA: [kb-otaff51-1240] 温度的危害要因(おんどてききがいよういん) [compound_technical] = istilah pengecoh: bahaya suhu | [kb-otaff51-1241] 時間的危害要因(じかんてききがいよういん) [compound_technical] = istilah pengecoh: bahaya waktu | [kb-otaff51-1242] 空間的危害要因(くうかんてききがいよういん) [compound_technical] = istilah pengecoh: bahaya ruang
+  OPT B: HTML=「<ruby>個人的危害要因<rt>こじんてききがいよういん</rt></ruby>」「<ruby>会社的危害要因<rt>かいしゃてききがいよういん</rt></ruby>」「<ruby>社会的危害要因<rt>しゃかいてききがいよういん</rt></ruby>」
+    TRANS: 'Faktor bahaya individu', 'Faktor bahaya perusahaan', dan 'Faktor bahaya sosial'
+    KOTOBA: [kb-otaff51-1243] 個人的危害要因(こじんてききがいよういん) [compound_technical] = istilah pengecoh: bahaya pribadi | [kb-otaff51-1244] 会社的危害要因(かいしゃてききがいよういん) [compound_technical] = istilah pengecoh: bahaya perusahaan | [kb-otaff51-1245] 社会的危害要因(しゃかいてききがいよういん) [compound_technical] = istilah pengecoh: bahaya sosial
+  OPT C: HTML=「<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>」「<ruby>化学的危害要因<rt>かがくてききがいよういん</rt></ruby>」「<ruby>生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>」
+    TRANS: 'Faktor bahaya fisik', 'Faktor bahaya kimia', dan 'Faktor bahaya biologis'
+    KOTOBA: [kb-ext-1566-e789a9e790] 物理的危害要因(ぶつりてききがいよういん) [word] = bahaya fisik | [kb-ext-0173-e58c96e5ad] 化学的危害要因(かがくてききがいよういん) [word] = bahaya kimiawi | [kb-ext-1048-e7949fe789] 生物的危害要因(せいぶつてききがいよういん) [word] = bahaya biologis (kuman/virus)

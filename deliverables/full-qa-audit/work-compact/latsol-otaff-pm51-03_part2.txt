@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-03 (Latsol OTAFF SSW PM Modul 5.1 - Paket 03) | Batch qa-batch-11 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=otaff-pm51-03-q005 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.12 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>原材料<rt>げんざいりょう</rt></ruby>に<ruby>最初<rt>さいしょ</rt></ruby>からついていたり<ruby>入<rt>はい</rt></ruby>っていたりする<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>（<ruby>土<rt>つち</rt></ruby>、<ruby>小石<rt>こいし</rt></ruby>、<ruby>貝<rt>かい</rt></ruby>の<ruby>殻<rt>から</rt></ruby>、<ruby>魚<rt>さかな</rt></ruby>のエラ・<ruby>骨<rt>ほね</rt></ruby>など）を<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>れないための<ruby>方法<rt>ほうほう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu cara yang benar agar faktor bahaya fisik yang sejak awal menempel atau terdapat pada bahan baku (tanah, kerikil, cangkang kerang, insang/tulang ikan, dll.) tidak masuk ke dalam makanan.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 12–13 (Bab 2.2(1), hal. 7–8 teks). Bobot: 3 poin. Kunci jawaban: C. Benda asing dari bahan baku dihilangkan melalui pencucian, penyortiran, dan persiapan awal (下処理), lalu bahan yang sudah disiapkan wajib ditutup (蓋をします) saat disimpan.
+  INLINE_KOTOBA_COUNT: 46
+  KOTOBA_PROMPT: [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-1293990] 最初(さいしょ) [word] = pertama / awal | [kb-v2-p4-224] ついていた(-) [inflected, df:つく] = menempel (lampau) | [kb-otaff51-0879] 入っていた(はいっていた) [inflected_verb, df:入る] = berada di dalam | [kb-ext-1566-e789a9e790] 物理的危害要因(ぶつりてききがいよういん) [word] = bahaya fisik | [kb-v2-p3-148] 土(つち) [word] = tanah | [kb-otaff51-0280] 小石(こいし) [noun] = kerikil / batu kecil | [kb-otaff51-0579] 貝の殻(かいのから) [noun] = cangkang kerang | [kb-v2-p5-134] 魚(さかな) [word] = ikan | [kb-otaff51-0042] エラ(えら) [noun] = insang ikan | [kb-v2-p4-109] 骨(ほね) [word] = tulang | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-otaff51-0814] 入れない(いれない) [inflected_verb, df:入れる] = tidak memasukkan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1517090] 方法(ほうほう) [word] = metode / cara | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>下処理<rt>したしょり</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<ruby>材料<rt>ざいりょう</rt></ruby>は、<ruby>蓋<rt>ふた</rt></ruby>をしないで<ruby>床<rt>ゆか</rt></ruby>に<ruby>直接置<rt>ちょくせつお</rt></ruby>いて<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan bahan yang sudah selesai disiapkan langsung di atas lantai tanpa ditutup.
+    KOTOBA: [kb-ext-0169-e4b88be587] 下処理(したしょり) [word] = penanganan awal bahan baku | [kb-v2-p4-157] 終わった(おわった) [inflected, df:終わる] = telah selesai | [kb-1296670] 材料(ざいりょう) [word] = bahan | [kb-u1416-2d9af7b8a1] 蓋(ふた) [word] = tutup wadah | [kb-v2-p1-142] しないで(-) [inflected_verb, df:する] = tanpa melakukan (dasar: する) | [kb-v2-p1-086] 床(ゆか) [word] = lantai | [kb-1431110] 直接(ちょくせつ) [word] = secara langsung | [kb-latsol-85da72508c] 置いて(おいて) [word] = meletakkan / menaruh | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT B: HTML=<ruby>小石<rt>こいし</rt></ruby>や<ruby>魚<rt>さかな</rt></ruby>の<ruby>骨<rt>ほね</rt></ruby>は、<ruby>強<rt>つよ</rt></ruby>い<ruby>火<rt>ひ</rt></ruby>で<ruby>加熱<rt>かねつ</rt></ruby>すれば<ruby>溶<rt>と</rt></ruby>けてなくなるのでそのまま<ruby>調理<rt>ちょうり</rt></ruby>する。
+    TRANS: Langsung memasaknya karena kerikil dan tulang ikan akan larut dan hilang jika dipanaskan dengan api besar.
+    KOTOBA: [kb-otaff51-0280] 小石(こいし) [noun] = kerikil / batu kecil | [kb-v2-p5-134] 魚(さかな) [word] = ikan | [kb-v2-p4-109] 骨(ほね) [word] = tulang | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-v2-p3-166] 火(ひ) [word] = api / panas | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-otaff51-0880] 溶けて(とけて) [inflected_verb, df:溶ける] = meleleh / mencair | [kb-otaff51-0711] なくなる(なくなる) [verb] = hilang / habis / tidak ada | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan
+  OPT C: HTML=<ruby>野菜<rt>やさい</rt></ruby>を<ruby>洗浄<rt>せんじょう</rt></ruby>・<ruby>選別<rt>せんべつ</rt></ruby>して<ruby>根<rt>ね</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>を<ruby>切<rt>き</rt></ruby>り<ruby>取<rt>と</rt></ruby>り、<ruby>貝<rt>かい</rt></ruby>の<ruby>殻<rt>から</rt></ruby>や<ruby>魚<rt>さかな</rt></ruby>のエラ・<ruby>骨<rt>ほね</rt></ruby>を<ruby>下処理<rt>したしょり</rt></ruby>で<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>き、<ruby>保管<rt>ほかん</rt></ruby>するときは<ruby>蓋<rt>ふた</rt></ruby>をする。
+    TRANS: Mencuci dan menyortir sayuran serta memotong bagian akarnya, membuang cangkang kerang serta insang/tulang ikan pada tahap persiapan awal, dan menutup wadah saat disimpan.
+    KOTOBA: [kb-1537370] 野菜(やさい) [word] = sayur-sayuran | [kb-1390970] 洗浄(せんじょう) [word] = pencucian / pembersihan | [kb-otaff51-0602] 選別(せんべつ) [noun] = penyortiran / seleksi | [kb-otaff51-0815] 根(ね) [noun] = akar (sayuran) | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-otaff51-1096] 切り取り(きりとり) [inflected_verb, df:切り取る] = memotong dan membuang | [kb-otaff51-0579] 貝の殻(かいのから) [noun] = cangkang kerang | [kb-v2-p5-134] 魚(さかな) [word] = ikan | [kb-otaff51-0042] エラ(えら) [noun] = insang ikan | [kb-v2-p4-109] 骨(ほね) [word] = tulang | [kb-ext-0169-e4b88be587] 下処理(したしょり) [word] = penanganan awal bahan baku | [kb-otaff51-0881] 取り除き(とりのぞき) [inflected_verb, df:取り除く] = menyingkirkan | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-u1416-2d9af7b8a1] 蓋(ふた) [word] = tutup wadah
+
+=== #Q6 | ID=otaff-pm51-03-q006 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.12 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 何
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>卵焼<rt>たまごや</rt></ruby>きなどの<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るとき、<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>いたはずなのに<ruby>料理<rt>りょうり</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ってしまった「<ruby>卵<rt>たまご</rt></ruby>の<ruby>殻<rt>から</rt></ruby>」は何に<ruby>分類<rt>ぶんるい</rt></ruby>されますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat membuat hidangan seperti tamagoyaki (telur dadar gulung), 'cangkang telur' yang seharusnya sudah dibuang tetapi tidak sengaja masuk ke dalam masakan diklasifikasikan sebagai apa? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 12 (Bab 2.2(1), hal. 7 teks). Bobot: 3 poin. Kunci jawaban: A. Cangkang telur (卵の殻) yang seharusnya sudah disingkirkan tetapi masuk ke dalam masakan seperti tamagoyaki termasuk 異物 (benda asing / faktor bahaya fisik).
+  INLINE_KOTOBA_COUNT: 21
+  KOTOBA_PROMPT: [kb-otaff51-1097] 卵焼き(たまごやき) [noun] = telur dadar gulung (tamagoyaki) | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1554310] 料理(りょうり) [word] = Masakan / makanan olahan | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0816] 取り除いた(とりのぞいた) [inflected_verb, df:取り除く] = telah menyingkirkan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-224] 入って(はいって) [inflected, df:入る] = masuk / terkandung | [kb-otaff51-0217] 卵の殻(たまごのから) [noun] = cangkang telur | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-1504460] 分類(ぶんるい) [word] = klasifikasi / pengelompokan | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>異物<rt>いぶつ</rt></ruby>（<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>）
+    TRANS: Benda asing / ibutsu (faktor bahaya fisik)
+    KOTOBA: [kb-1158020] 異物(いぶつ) [word] = benda asing | [kb-ext-1566-e789a9e790] 物理的危害要因(ぶつりてききがいよういん) [word] = bahaya fisik
+  OPT B: HTML=<ruby>化学的危害要因<rt>かがくてききがいよういん</rt></ruby>（<ruby>殺菌剤<rt>さっきんざい</rt></ruby>）
+    TRANS: Faktor bahaya kimia (disinfektan)
+    KOTOBA: [kb-ext-0173-e58c96e5ad] 化学的危害要因(かがくてききがいよういん) [word] = bahaya kimiawi | [kb-1755080] 殺菌剤(さっきんざい) [word] = zat disinfektan / pembunuh bakteri
+  OPT C: HTML=<ruby>生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>（ウイルス）
+    TRANS: Faktor bahaya biologis (virus)
+    KOTOBA: [kb-ext-1048-e7949fe789] 生物的危害要因(せいぶつてききがいよういん) [word] = bahaya biologis (kuman/virus) | [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus
+
+=== #Q7 | ID=otaff-pm51-03-q007 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.13 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@prompt] Potential doubled/colliding particle
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>化学的危害要因<rt>かがくてききがいよういん</rt></ruby>」に<ruby>含<rt>ふく</rt></ruby>まれるものの<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu kombinasi yang benar dari zat-zat yang termasuk dalam 'Faktor Bahaya Kimia (Kagakuteki Kigai Youin)'.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 13–14 (Bab 2.2(2), hal. 8–9 teks). Bobot: 3 poin. Kunci jawaban: B. Faktor bahaya kimia meliputi zat alergen (アレルゲン), histamin pada ikan merah, solanin pada tunas/kulit hijau kentang, serta residu deterjen/disinfektan.
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-ext-0173-e58c96e5ad] 化学的危害要因(かがくてききがいよういん) [word] = bahaya kimiawi | [kb-v2-p3-251] 含まれる(ふくまれる) [inflected, df:含む] = terkandung di dalam | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>金属片<rt>きんぞくへん</rt></ruby>、ガラス<ruby>片<rt>へん</rt></ruby>、プラスチック<ruby>片<rt>へん</rt></ruby>、<ruby>石<rt>いし</rt></ruby>
+    TRANS: Serpihan logam, pecahan kaca, serpihan plastik, dan batu
+    KOTOBA: [kb-otaff51-0614] 金属片(きんぞくへん) [compound_technical] = serpihan logam | [kb-otaff51-0048] ガラス片(がらすへん) [compound_technical] = pecahan kaca | [kb-otaff51-0074] プラスチック片(ぷらすちっくへん) [compound_technical] = serpihan plastik | [kb-v2-p1-075] 石(いし) [word] = batu
+  OPT B: HTML=アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>、ヒスタミン、じゃがいもの<ruby>芽<rt>め</rt></ruby>のソラニン、<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>・<ruby>殺菌剤<rt>さっきんざい</rt></ruby>などの<ruby>薬剤<rt>やくざい</rt></ruby>
+    TRANS: Zat alergen, histamin, solanin pada tunas kentang, serta bahan kimia seperti deterjen dan disinfektan
+    KOTOBA: [kb-u1416-61d9247d44] アレルギー物質(あれるぎーぶっしつ) [word] = zat alergen | [kb-latsol-2b68f5ee9d] ヒスタミン(ひすたみん) [word] = histamin (racun alergi ikan) | [kb-latsol-c80d196ddf] じゃがいも(じゃがいも) [word] = kentang | [kb-v2-p5-161] 芽(め) [word] = tunas (kentang) | [kb-latsol-54090265ff] ソラニン(そらにん) [word] = solanin (racun tunas kentang) | [kb-2149190] 洗浄剤(せんじょうざい) [compound_technical] = deterjen / cairan pembersih | [kb-1755080] 殺菌剤(さっきんざい) [word] = zat disinfektan / pembunuh bakteri | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1538220] 薬剤(やくざい) [word] = bahan kimia / obat
+  OPT C: HTML=ノロウイルス、サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>、カビ、アニサキス
+    TRANS: Norovirus, bakteri Salmonella, kapang, dan Anisakis
+    KOTOBA: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-v2-p2-042] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri Salmonella | [kb-ext-0010-e382abe383] カビ(かび) [word] = jamur / kapang | [kb-otaff51-0032] アニサキス(あにさきす) [compound_technical] = parasit Anisakis
+
+=== #Q8 | ID=otaff-pm51-03-q008 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.14 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>の<ruby>表示制度<rt>ひょうじせいど</rt></ruby>において、「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>に<ruby>準<rt>じゅん</rt></ruby>ずるもの（20<ruby>品目<rt>ひんもく</rt></ruby>）」はどのような<ruby>扱<rt>あつか</rt></ruby>いになっていますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam sistem pelabelan alergen di Jepang, bagaimanakah ketentuan untuk 'Bahan yang Setara dengan Bahan Baku Spesifik (20 item)'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 13–14 (Bab 2.2(2)①, hal. 8–9 teks). Bobot: 3 poin. Kunci jawaban: C. 特定原材料 (9 item) wajib dicantumkan (表示義務), sedangkan 特定原材料に準ずるもの (20 item, termasuk pistachio mulai April 2026) dianjurkan untuk dicantumkan (表示が推奨されている).
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-u1416-61d9247d44] アレルギー物質(あれるぎーぶっしつ) [word] = zat alergen | [kb-otaff51-1098] 表示制度(ひょうじせいど) [compound_technical] = sistem pelabelan | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-otaff51-0708] 特定原材料に準ずるもの(とくていげんざいりょうにじゅんずるもの) [compound_technical] = bahan pangan alergen anjuran label | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-otaff51-1099] 扱い(あつかい) [noun] = perlakuan / ketentuan | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>表示<rt>ひょうじ</rt></ruby>することが<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>禁止<rt>きんし</rt></ruby>されている。
+    TRANS: Dilarang oleh undang-undang untuk dicantumkan pada label.
+    KOTOBA: [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-1517480] 法律(ほうりつ) [word] = hukum / peraturan | [kb-1241550] 禁止(きんし) [word] = dilarang | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する)
+  OPT B: HTML=<ruby>外国産<rt>がいこくさん</rt></ruby>の<ruby>原材料<rt>げんざいりょう</rt></ruby>のときだけ<ruby>表示<rt>ひょうじ</rt></ruby>すればよい。
+    TRANS: Hanya perlu dicantumkan apabila bahan bakunya berasal dari luar negeri.
+    KOTOBA: [kb-otaff51-1100] 外国産(がいこくさん) [noun] = produk impor / luar negeri | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1489610] 表示(ひょうじ) [word] = pelabelan / tampilan | [kb-v2-p2-011] すれば(-) [inflected, df:する] = jika melakukan | [kb-v2-p2-243] よい(-) [word] = baik / boleh
+  OPT C: HTML=<ruby>表示<rt>ひょうじ</rt></ruby>が「<ruby>推奨<rt>すいしょう</rt></ruby>」（<ruby>表示<rt>ひょうじ</rt></ruby>をしたほうがいい）されている。
+    TRANS: Pencantuman labelnya 'dianjurkan / direkomendasikan' (sebaiknya dicantumkan).
+    KOTOBA: [kb-1489610] 表示(ひょうじ) [word] = pelabelan / tampilan | [kb-1371120] 推奨(すいしょう) [word] = rekomendasi / dianjurkan | [kb-v2-p6-612] ほうがいい(-) [expression] = sebaiknya / lebih baik | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する)

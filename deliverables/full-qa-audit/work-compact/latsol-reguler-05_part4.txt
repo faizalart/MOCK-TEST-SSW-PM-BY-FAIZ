@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-05 (Latsol Reguler 05) | Batch qa-batch-09 | Part 4 (Q13-16 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=reguler05-q013 | KEY=C (idx=2) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="清掃によると労働安全と関係についてはなんですか?ただしいものをひとつえらびなさい。" vs questionText="清掃によると労働安全と関係についてはなんですか ? ただしものをひとつえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("機械などの機能が維持されて、転倒などの危険が減る") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>清掃<rt>せいそう</rt></ruby>によると<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>と<ruby>関係<rt>かんけい</rt></ruby>についてはなんですか？ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: 清掃によると労働安全と関係についてはなんですか ? ただしものをひとつえらびなさい
+  PROMPT_TRANS: Apakah hubungan antara Seisou (Resik/Pembersihan) dengan keselamatan kerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 5, nomor 13. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-1215810] 関係(かんけい) [word] = hubungan / keterkaitan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=いつも<ruby>体<rt>からだ</rt></ruby>を<ruby>浴<rt>あ</rt></ruby>びる
+    TRANS: Selalu mandi membersihkan tubuh
+    KOTOBA: [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-latsol-abiru] 浴びる(あびる) [word] = menyiram / mandi udara
+  OPT B: HTML=<ruby>職場<rt>しょくば</rt></ruby>のルールを<ruby>守<rt>まも</rt></ruby>る
+    TRANS: Mematuhi peraturan tempat kerja
+    KOTOBA: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi
+  OPT C: HTML=<ruby>機械<rt>きかい</rt></ruby>などの<ruby>機能<rt>きのう</rt></ruby>が<ruby>維持<rt>いじ</rt></ruby>されて、<ruby>転倒<rt>てんとう</rt></ruby>などの<ruby>危険<rt>きけん</rt></ruby>が<ruby>減<rt>へ</rt></ruby>る
+    TRANS: Fungsi mesin dan peralatan terjaga, serta bahaya seperti terjatuh/terpeleset berkurang
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0354] 機能(きのう) [noun] = fungsi / bekerja | [kb-ext-latsol-0077] 維持(いじ) [word] = mempertahankan / pemeliharaan | [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-latsol-d78d407d5e] 減る(へる) [word] = berkurang / menyusut
+
+=== #Q14 | ID=reguler05-q014 | KEY=B (idx=1) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="清潔によると労働安全と関係についてはなんですか?ただしいものをひとつえらびなさい。" vs questionText="清潔によると労働安全と関係についてはなんですか ? ただしものをひとつえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("働く人が感染症などの病気になるを防ぐ") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>清潔<rt>せいけつ</rt></ruby>によると<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>と<ruby>関係<rt>かんけい</rt></ruby>についてはなんですか？ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: 清潔によると労働安全と関係についてはなんですか ? ただしものをひとつえらびなさい
+  PROMPT_TRANS: Apakah hubungan antara Seiketsu (Rawat/Penjagaan Kebersihan) dengan keselamatan kerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 5, nomor 14. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-1215810] 関係(かんけい) [word] = hubungan / keterkaitan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>とその<ruby>周辺<rt>しゅうへん</rt></ruby>をいつもきれいに<ruby>掃除<rt>そうじ</rt></ruby>しない
+    TRANS: Tidak selalu membersihkan tempat kerja dan area sekitarnya
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1331300] 周辺(しゅうへん) [word] = Area sekitar mesin produksi | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan
+  OPT B: HTML=<ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>が<ruby>感染症<rt>かんせんしょう</rt></ruby>などの<ruby>病気<rt>びょうき</rt></ruby>になるを<ruby>防<rt>ふせ</rt></ruby>ぐ
+    TRANS: Mencegah pekerja terkena penyakit seperti penyakit infeksi menular
+    KOTOBA: [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1614180] 感染症(かんせんしょう) [word] = penyakit menular | [kb-otaff51-0453] 病気(びょうき) [noun] = penyakit / sakit | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah
+  OPT C: HTML=<ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>が<ruby>経験<rt>けいけん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ないから
+    TRANS: Karena pekerja kurang berpengalaman
+    KOTOBA: [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1251270] 経験(けいけん) [word] = pengalaman | [kb-v2-p1-251] 少ない(すくない) [word] = sedikit
+
+=== #Q15 | ID=reguler05-q015 | KEY=C (idx=2) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="習慣によると労働安全と関係についてはなんですか?ただしいものを一つえらびなさい。" vs questionText="習慣によると労働安全と関係についてはなんですか ? ただしいものを一つえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("繰り返すことで、安全で衛生的な行動が自然にできるようになります") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>習慣<rt>しゅうかん</rt></ruby>によると<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>と<ruby>関係<rt>かんけい</rt></ruby>についてはなんですか？ただしいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 習慣によると労働安全と関係についてはなんですか ? ただしいものを一つえらびなさい
+  PROMPT_TRANS: Apakah hubungan antara Shuukan/Shitsuke (Rajin/Pembiasaan) dengan keselamatan kerja? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 5, nomor 15. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan) | [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-1215810] 関係(かんけい) [word] = hubungan / keterkaitan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>働<rt>はたら</rt></ruby>く<ruby>人<rt>ひと</rt></ruby>が<ruby>感染症<rt>かんせんしょう</rt></ruby>などの<ruby>病気<rt>びょうき</rt></ruby>になるを<ruby>防<rt>ふせ</rt></ruby>ぐ
+    TRANS: Mencegah pekerja terkena penyakit seperti penyakit menular
+    KOTOBA: [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1614180] 感染症(かんせんしょう) [word] = penyakit menular | [kb-otaff51-0453] 病気(びょうき) [noun] = penyakit / sakit | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah
+  OPT B: HTML=<ruby>機械<rt>きかい</rt></ruby>などのすぐに<ruby>洗浄<rt>せんじょう</rt></ruby>します
+    TRANS: Segera mencuci mesin dan peralatan
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-audit-0974] 洗浄します(せんじょうします) [inflected_verb, df:洗浄する] = mencuci bersih (sopan)
+  OPT C: HTML=<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>すことで、<ruby>安全<rt>あんぜん</rt></ruby>で<ruby>衛生的<rt>えいせいてき</rt></ruby>な<ruby>行動<rt>こうどう</rt></ruby>が<ruby>自然<rt>しぜん</rt></ruby>にできるようになります
+    TRANS: Dengan melakukannya secara berulang-ulang, tindakan yang aman dan higienis dapat dilakukan secara alami/otomatis
+    KOTOBA: [kb-latsol-6a2450495c] 繰り返す(くりかえす) [word] = mengulang / berulang kali | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1609370] 衛生的(えいせいてき) [word] = higienis | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-ext-latsol-0078] 自然(しぜん) [word] = alami / alamiah
+
+=== #Q16 | ID=reguler05-q016 | KEY=B (idx=1) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="製品由来蛋白質、油脂、脂肪、炭水化物などの適した洗剤はなんですか?ただしいものを一つえらびなさい。" vs questionText="製品由来蛋白質、油脂、脂肪、炭水化物などの適した洗剤はなんですか ? ただしいものを一つえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("アルカリ性洗剤") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>製品由来<rt>せいひんゆらい</rt></ruby><ruby>蛋白質<rt>たんぱくしつ</rt></ruby>、<ruby>油脂<rt>ゆし</rt></ruby>、<ruby>脂肪<rt>しぼう</rt></ruby>、<ruby>炭水化物<rt>たんすいかぶつ</rt></ruby>などの<ruby>適<rt>てき</rt></ruby>した<ruby>洗剤<rt>せんざい</rt></ruby>はなんですか？ただしいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: 製品由来蛋白質、油脂、脂肪、炭水化物などの適した洗剤はなんですか ? ただしいものを一つえらびなさい
+  PROMPT_TRANS: Deterjen/pembersih apakah yang cocok untuk membersihkan kotoran yang berasal dari produk seperti protein, minyak, lemak, dan karbohidrat? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 5, nomor 16. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-ext-latsol-0079] 製品由来(せいひんゆらい) [word] = berasal dari produk | [kb-ext-latsol-0080] 蛋白質(たんぱくしつ) [word] = protein | [kb-1538670] 油脂(ゆし) [word] = minyak dan lemak pangan | [kb-ext-latsol-0081] 脂肪(しぼう) [word] = lemak | [kb-ext-latsol-0082] 炭水化物(たんすいかぶつ) [word] = karbohidrat | [kb-audit-0477] 適した(てきした) [inflected_verb, df:適する] = yang cocok / sesuai | [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>酸性洗剤<rt>さんせいせんざい</rt></ruby>
+    TRANS: Deterjen asam
+    KOTOBA: [kb-otaff51-0607] 酸性洗剤(さんせいせんざい) [compound_technical] = deterjen bersifat asam
+  OPT B: HTML=アルカリ<ruby>性洗剤<rt>せいせんざい</rt></ruby>
+    TRANS: Deterjen basa (alkali)
+    KOTOBA: [kb-v2-p6-246] アルカリ性洗剤(あるかりせいせんざい) [compound_technical] = detergen basa (alkali)
+  OPT C: HTML=<ruby>無機物<rt>むきぶつ</rt></ruby>
+    TRANS: Zat anorganik
+    KOTOBA: [kb-ext-latsol-0084] 無機物(むきぶつ) [word] = zat anorganik / mineral

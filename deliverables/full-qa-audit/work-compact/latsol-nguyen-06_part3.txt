@@ -1,0 +1,82 @@
+# AUDIT SHEET: latsol-nguyen-06 (Latsol Nguyen 06) | Batch qa-batch-08 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=nguyen06-q009 | KEY=C (idx=2) | CAT= | SRC=6.pdf p.4 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-212 (謝る): "salah (typo: 誤る)" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0378 "汚染作業区域": kotoba="おせんさぎょうくいき" vs ruby="おせんさくぎょうくいき" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0637 "非汚染作業区域": kotoba="ひおせんさぎょうくいき" vs ruby="ひおせんさくぎょうくいき" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さくぎょうば"
+  CLUSTER CL-0223 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-6-q009 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("作業場に入る後") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: いつ<ruby>手洗<rt>てあら</rt></ruby>いしなければなりませんか。<ruby>謝<rt>あやま</rt></ruby>るものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kapan kita harus mencuci tangan? Pilihlah yang salah.
+  EXPLANATION: Sumber: 6.pdf, halaman 4, nomor 9. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0755] いつ(いつ) [adverb] = kapan | [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-audit-0376] しなければなりません(しなければなりません) [word] = harus / wajib dilakukan | [kb-v2-p5-212] 謝る(あやまる) [word] = salah (typo: 誤る) | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>作業場<rt>さぎょうば</rt></ruby>で<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める<ruby>直前<rt>ちょくぜん</rt></ruby>
+    TRANS: Sesaat sebelum memulai pekerjaan di tempat kerja.
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p5-246] 始める(はじめる) [word] = memulai | [kb-1431330] 直前(ちょくぜん) [word] = tepat sebelum memulai
+  OPT B: HTML=<ruby>汚染作業区域<rt>おせんさくぎょうくいき</rt></ruby>から<ruby>非汚染作業区域<rt>ひおせんさくぎょうくいき</rt></ruby>に<ruby>移動<rt>いどう</rt></ruby>するとき
+    TRANS: Saat berpindah dari area kerja terkontaminasi ke area kerja tidak terkontaminasi.
+    KOTOBA: [kb-otaff51-0378] 汚染作業区域(おせんさぎょうくいき) [compound_technical] = zona kerja kotor (Osen Sagyou Kuiki) | [kb-otaff51-0637] 非汚染作業区域(ひおせんさぎょうくいき) [compound_technical] = zona kerja tidak terkontaminasi (zona bersih & semi-bersih) | [kb-v2-p2-214] 移動する(いどうする) [word] = berpindah / berjalan | [kb-v2-p1-307] とき(-) [word] = ketika / saat
+  OPT C: HTML=<ruby>作業場<rt>さくぎょうば</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>後<rt>あと</rt></ruby>
+    TRANS: Setelah masuk ke dalam tempat kerja.
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja
+
+=== #Q10 | ID=nguyen06-q010 | KEY=B (idx=1) | CAT= | SRC=6.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-otaff51-0403 "清潔作業区域": kotoba="せいけつさぎょうくいき" vs ruby="せいけつさくぎょうくいき" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-otaff51-0120 "作業中": kotoba="さぎょうちゅう" vs ruby="さくぎょうなか" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-ext-0644-e4bd9ce6a5 "作業前": kotoba="さぎょうまえ" vs ruby="さくぎょうまえ" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-otaff51-0221 "原材料": kotoba="げんざいりょう" vs ruby="はらざいりょう" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さくぎょうば"
+  CLUSTER CL-0224 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-6-q010 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("加熱や薬剤による殺菌が終った食品を取り扱います。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>清潔作業区域<rt>せいけつさくぎょうくいき</rt></ruby>」では<ruby>何<rt>なに</rt></ruby>ができますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dilakukan di "Area Kerja Bersih (Seiketsu Sagyou Kuiki)"? Pilihlah yang benar.
+  EXPLANATION: Sumber: 6.pdf, halaman 4, nomor 10. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0403] 清潔作業区域(せいけつさぎょうくいき) [compound_technical] = zona kerja bersih (area setelah sterilisasi/pengemasan) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-125] できますか(できますか) [inflected_verb, df:できる] = dapat dibuat (dasar: できる) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>下処理<rt>したしょり</rt></ruby>や<ruby>加熱調理<rt>かねつちょうり</rt></ruby>などの<ruby>作業中<rt>さくぎょうなか</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>が、<ruby>作業前<rt>さくぎょうまえ</rt></ruby>の<ruby>原材料<rt>はらざいりょう</rt></ruby>と<ruby>触<rt>ふ</rt></ruby>れないようにしなければいけません。
+    TRANS: Makanan yang sedang dalam proses pengerjaan seperti persiapan awal atau pemasakan dengan pemanasan harus dijaga agar tidak bersentuhan dengan bahan baku sebelum diproses.
+    KOTOBA: [kb-otaff51-0091] 下処理(したしょり) [compound_technical] = penanganan awal / persiapan bahan | [kb-otaff51-0196] 加熱調理(かねつちょうり) [compound_technical] = pemasakan dengan pemanasan | [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-ext-0644-e4bd9ce6a5] 作業前(さぎょうまえ) [word] = sebelum bekerja | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p5-366] 触れない(ふれない) [inflected, df:触れる] = tidak menyentuh | [kb-audit-0379] しなければいけません(しなければいけません) [word] = harus / wajib melakukan
+  OPT B: HTML=<ruby>加熱<rt>かねつ</rt></ruby>や<ruby>薬剤<rt>やくざい</rt></ruby>による<ruby>殺菌<rt>さっきん</rt></ruby>が<ruby>終<rt>おわ</rt></ruby>った<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつかい</rt></ruby>います。
+    TRANS: Menangani makanan yang telah selesai disterilisasi melalui pemanasan atau bahan kimia.
+    KOTOBA: [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-otaff51-0539] 薬剤による殺菌(やくざいによるさっきん) [compound_technical] = sterilisasi menggunakan bahan kimia | [kb-audit-0505] 終った(おわった) [inflected_verb, df:終わる] = telah selesai (ejaan: 終わった) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p6-472] 取り扱い(とりあつかい) [word] = penanganan / perlakuan
+  OPT C: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受入<rt>うけい</rt></ruby>れなど、<ruby>作業場<rt>さくぎょうば</rt></ruby>の<ruby>外<rt>そと</rt></ruby>から<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まれた.<ruby>原材料<rt>はらざいりょう</rt></ruby>などを<ruby>扱<rt>あつかい</rt></ruby>う<ruby>区域<rt>くいき</rt></ruby>です。
+    TRANS: Area untuk menangani bahan baku yang dibawa masuk dari luar tempat kerja seperti penerimaan bahan baku.
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-latsol-a29987ec64] 受入れ(うけいれ) [word] = penerimaan bahan baku | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-audit-0171] 持ち込まれた(もちこまれた) [inflected_verb, df:持ち込む] = dibawa masuk (pasif lampau) | [kb-v2-p5-417] 扱う(あつかう) [word] = menangani / mengolah | [kb-1244090] 区域(くいき) [word] = zona / area pabrik
+
+=== #Q11 | ID=nguyen06-q011 | KEY=C (idx=2) | CAT= | SRC=6.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-212 (謝る): "salah (typo: 誤る)"
+  CLUSTER CL-0225 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-6-q011 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("冷凍で冷やす方法") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>加熱調理<rt>かねつちょうり</rt></ruby>を<ruby>終<rt>お</rt></ruby>わった<ruby>食品<rt>しょくひん</rt></ruby>は、すぐに<ruby>冷<rt>ひ</rt></ruby>やすことが<ruby>重要<rt>じゅうよう</rt></ruby>です。どの<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>いますか。<ruby>謝<rt>あやま</rt></ruby>るものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan yang telah selesai dimasak dengan pemanasan penting untuk segera didinginkan. Metode manakah yang digunakan? Pilihlah yang salah.
+  EXPLANATION: Sumber: 6.pdf, halaman 5, nomor 11. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0196] 加熱調理(かねつちょうり) [compound_technical] = pemasakan dengan pemanasan | [kb-v2-p4-157] 終わった(おわった) [inflected, df:終わる] = telah selesai | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0609] 重要(じゅうよう) [adjective] = penting | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-117] 使いますか(つかいますか) [inflected_verb, df:使う] = digunakan untuk apa (dasar: 使う) | [kb-v2-p5-212] 謝る(あやまる) [word] = salah (typo: 誤る) | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>風<rt>かぜ</rt></ruby>をあてて<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan menghembuskan angin (air cooling).
+    KOTOBA: [kb-v2-p5-162] 風(かぜ) [word] = angin / udara | [kb-otaff51-0760] あてて(あてて) [inflected_verb, df:あてる] = mengalirkan / mengenakan ke | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode
+  OPT B: HTML=<ruby>冷水<rt>れいすい</rt></ruby>で<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan air dingin (water cooling).
+    KOTOBA: [kb-otaff51-0166] 冷水(れいすい) [noun] = air dingin | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode
+  OPT C: HTML=<ruby>冷凍<rt>れいとう</rt></ruby>で<ruby>冷<rt>ひ</rt></ruby>やす<ruby>方法<rt>ほうほう</rt></ruby>
+    TRANS: Metode mendinginkan dengan pembekuan.
+    KOTOBA: [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing) | [kb-v2-p1-179] 冷やす(ひやす) [word] = mendinginkan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode
+
+=== #Q12 | ID=nguyen06-q012 | KEY=A (idx=0) | CAT= | SRC=6.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0226 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-6-q012 (bonus-soal-6)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("金属") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>以下<rt>いか</rt></ruby>の<ruby>機会<rt>きかい</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ができますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mesin di bawah ini dapat mendeteksi apa? Pilihlah yang benar.
+  EXPLANATION: Sumber: 6.pdf, halaman 5, nomor 12. Bobot: 3.75 poin. Kunci jawaban: A. Visual: Foto mesin detektor logam (金属検出機). Cetakan asli menulis 機会 untuk 機械.
+  KOTOBA_PROMPT: [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-1220800] 機会(きかい) [word] = Peluang / kesempatan pelatihan kerja | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-125] できますか(できますか) [inflected_verb, df:できる] = dapat dibuat (dasar: できる) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>金属<rt>きんぞく</rt></ruby>
+    TRANS: Logam
+    KOTOBA: [kb-1243040] 金属(きんぞく) [word] = logam
+  OPT B: HTML=ウイルス
+    TRANS: Virus
+    KOTOBA: [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus
+  OPT C: HTML=プラスチック
+    TRANS: Plastik
+    KOTOBA: [kb-v2-p4-072] プラスチック(-) [word] = plastik

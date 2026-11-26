@@ -1,0 +1,75 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-6 (Soal Ujian 6 — CBTP Gino1) | Batch qa-batch-02 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-6-q025 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.5 ===
+  CLUSTER CL-0062 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q031 (ssw-pm-kunci-ujian-2), kunci-ujian-14-q039 (ssw-pm-kunci-ujian-14), bonus-soal-2-q031 (bonus-soal-2), bonus-soal-8-q030 (bonus-soal-8), nguyen02-q031 (latsol-nguyen-02), nguyen08-q030 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>魚介類<rt>ぎょかいるい</rt></ruby>は<ruby>何度以下<rt>なんどいか</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>すればいいですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Daging dan hasil laut (ikan dan kerang-kerangan) sebaiknya disimpan pada suhu berapa derajat ke bawah?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 5, Câu 25 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-ext-0183-e4bd95e5ba] 何度以下(なんどいか) [word] = berapa derajat atau kurang | [kb-v2-p2-216] 保管すれば(ほかんすれば) [inflected, df:保管する] = jika disimpan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=4℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 4°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=7℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 7°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 15°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q26 | ID=kunci-ujian-6-q026 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>次<rt>つぎ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で、<ruby>口<rt>くち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>やのどに<ruby>傷<rt>きず</rt></ruby>ができる<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>ではないものはどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah di antara berikut ini yang bukan merupakan faktor bahaya fisik yang dapat melukai bagian dalam mulut atau tenggorokan (benda asing keras/tajam)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 5, Câu 26 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0226] 口(くち) [noun] = mulut | [kb-audit-0703] のど(のど) [word] = tenggorokan | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-otaff51-0431] 物理的危害要因(ぶつりてききがいよういん) [compound_technical] = faktor bahaya fisik | [kb-v2-p1-314] ではない(-) [particle] = bukan (penegas negatif) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>虫<rt>むし</rt></ruby>や<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>、<ruby>紙片<rt>しへん</rt></ruby>
+    TRANS: Serangga, rambut, dan potongan kertas
+    KOTOBA: [kb-v2-p4-111] 虫(むし) [word] = serangga / hama | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-otaff51-0492] 紙片(しへん) [noun] = sobekan kertas | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT B: HTML=<ruby>金属<rt>きんぞく</rt></ruby>の<ruby>破片<rt>はへん</rt></ruby>
+    TRANS: Pecahan logam
+    KOTOBA: [kb-1243040] 金属(きんぞく) [word] = logam | [kb-1471420] 破片(はへん) [word] = pecahan serpihan (kaca/logam) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=ガラスの<ruby>破片<rt>はへん</rt></ruby>
+    TRANS: Pecahan kaca
+    KOTOBA: [kb-v2-p1-057] ガラス(-) [word] = kaca | [kb-1471420] 破片(はへん) [word] = pecahan serpihan (kaca/logam) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q27 | ID=kunci-ujian-6-q027 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.5 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:B] Potential doubled/colliding particle
+  CLUSTER CL-0111 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-10-q015 (bonus-soal-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>動<rt>うご</rt></ruby>いている<ruby>機械<rt>きかい</rt></ruby>に<ruby>挟<rt>はさ</rt></ruby>まれたり、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれたりする<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためには、どうすればよいですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさ<br>い。
+  QUESTION_TEXT: 動いている機械に挟まれたり、巻き込まれたりする事故を防ぐためには、どうすればよいですか。間違っているものを一つ選びなさ
+い。
+  PROMPT_TRANS: Apa yang harus dilakukan untuk mencegah kecelakaan terjepit atau terlilit pada mesin yang sedang bergerak? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 5, Câu 27 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-v2-p1-229] 動いている(うごいている) [inflected_verb, df:動く] = sedang bergerak (dasar: 動く) | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-audit-0583] 挟まれたり(はさまれたり) [inflected_verb, df:挟む] = terjepit, dan lain-lain | [kb-audit-0584] 巻き込まれたり(まきこまれたり) [inflected_verb, df:巻き込む] = terlilit / tergulung mesin, dll. | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-273] どうすれば(-) [expression] = bagaimana sebaiknya | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>機械<rt>きかい</rt></ruby>の<ruby>清掃<rt>せいそう</rt></ruby>、<ruby>清掃修理<rt>せいそうしゅうり</rt></ruby>は、<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めてから<ruby>行<rt>おこな</rt></ruby>う
+    TRANS: Melakukan pembersihan dan perbaikan mesin setelah menghentikan mesin
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-ext-1026-e6b885e68e] 清掃修理(せいそうしゅうり) [word] = pembersihan dan perbaikan mesin | [kb-v2-p1-211] 止めて(とめて) [inflected_verb, df:止める] = menghentikan (dasar: 止める) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>邪魔<rt>じゃま</rt></ruby>な<ruby>時<rt>とき</rt></ruby>は、<ruby>機械<rt>きかい</rt></ruby>の<ruby>囲<rt>かこ</rt></ruby>いや<ruby>安全装置<rt>あんぜんそうち</rt></ruby>をはずす
+    TRANS: Melepaskan pelindung/pagar mesin atau perangkat keselamatan ketika mengganggu pekerjaan
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-1323500] 邪魔(じゃま) [word] = menghalangi / mengganggu | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p5-308] 囲い(かこい) [word] = pagar / penutup pengaman | [kb-otaff51-0268] 安全装置(あんぜんそうち) [compound_technical] = perangkat pengaman mesin | [kb-audit-0167] はずす(はずす) [word] = melepas / menanggalkan (外す) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めた<ruby>時<rt>とき</rt></ruby>は、「<ruby>修理中<rt>しゅうりちゅう</rt></ruby>」などの<ruby>表示<rt>ひょうじ</rt></ruby>で<ruby>周囲<rt>しゅうい</rt></ruby>に<ruby>知<rt>し</rt></ruby>らせる
+    TRANS: Memberi tahu orang di sekitar dengan memasang tanda seperti "Sedang Diperbaiki" saat menghentikan mesin
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p5-413] 止めた(とめた) [inflected, df:止める] = menghentikan (lampau) | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-1332440] 修理中(しゅうりちゅう) [word] = sedang dalam perbaikan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0544] 表示(ひょうじ) [noun] = pencantuman label / tampilan | [kb-1331030] 周囲(しゅうい) [word] = sekeliling / sekitar | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q28 | ID=kunci-ujian-6-q028 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>う<ruby>必要<rt>ひつよう</rt></ruby>がない<ruby>場合<rt>ばあい</rt></ruby>はどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah kondisi di mana kita tidak perlu mencuci tangan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 5, Câu 28 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>直接触<rt>ちょくせつふ</rt></ruby>れる<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める<ruby>前<rt>まえ</rt></ruby>
+    TRANS: Sebelum memulai pekerjaan yang bersentuhan langsung dengan pangan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1431110] 直接(ちょくせつ) [word] = secara langsung | [kb-v2-p3-266] 触れる(ふれる) [word] = bersentuhan dengan | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p5-246] 始める(はじめる) [word] = memulai | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>生<rt>なま</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>触<rt>ふ</rt></ruby>れた<ruby>後<rt>あと</rt></ruby>、<ruby>他<rt>ほか</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>や<ruby>器具<rt>きぐ</rt></ruby>に<ruby>触<rt>ふ</rt></ruby>れる<ruby>前<rt>まえ</rt></ruby>
+    TRANS: Setelah menyentuh bahan pangan mentah dan sebelum menyentuh pangan lain atau peralatan
+    KOTOBA: [kb-v2-p1-074] 生(なま) [word] = mentah | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p5-430] 触れた(ふれた) [inflected, df:触れる] = menyentuh (lampau) | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-audit-0035] 他の(ほかの) [word] = yang lain / lainnya | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-v2-p3-266] 触れる(ふれる) [word] = bersentuhan dengan | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap)
+  OPT C: HTML=<ruby>作業中<rt>さぎょうちゅう</rt></ruby>に<ruby>何<rt>なに</rt></ruby>も<ruby>触<rt>さわ</rt></ruby>らない<ruby>場合<rt>ばあい</rt></ruby>
+    TRANS: Saat tidak menyentuh apa pun selama bekerja
+    KOTOBA: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p6-370] 触らない(さわらない) [inflected, df:触る] = tidak menyentuh | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun

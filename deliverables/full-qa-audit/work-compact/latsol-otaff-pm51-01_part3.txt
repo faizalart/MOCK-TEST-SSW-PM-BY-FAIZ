@@ -1,0 +1,74 @@
+# AUDIT SHEET: latsol-otaff-pm51-01 (Latsol OTAFF SSW PM Modul 5.1 - Paket 01) | Batch qa-batch-11 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=otaff-pm51-01-q009 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.15 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: じゃがいもの<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>に<ruby>含<rt>ふく</rt></ruby>まれる「ソラニン」による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐための<ruby>方法<rt>ほうほう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu cara yang benar untuk mencegah keracunan makanan akibat 'solanin' yang terkandung pada tunas dan kulit kentang yang berwarna hijau.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 15 (Bab 2.2(2)③, hal. 10 teks). Bobot: 3 poin. Kunci jawaban: C. Keracunan makanan akibat solanin dicegah dengan membuang bagian tunas (芽) dan kulit yang berwarna hijau (緑色の皮) pada kentang.
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-latsol-c80d196ddf] じゃがいも(じゃがいも) [word] = kentang | [kb-v2-p5-161] 芽(め) [word] = tunas (kentang) | [kb-otaff51-0501] 緑色の皮(みどりいろのかわ) [noun] = kulit berwarna hijau | [kb-v2-p3-251] 含まれる(ふくまれる) [inflected, df:含む] = terkandung di dalam | [kb-latsol-54090265ff] ソラニン(そらにん) [word] = solanin (racun tunas kentang) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-1609950] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1517090] 方法(ほうほう) [word] = metode / cara | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=じゃがいもを<ruby>調理<rt>ちょうり</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>食塩水<rt>しょくえんすい</rt></ruby>に5<ruby>分間<rt>ふんかん</rt></ruby>つける。
+    TRANS: Merendam kentang di dalam air garam selama 5 menit sebelum dimasak.
+    KOTOBA: [kb-latsol-c80d196ddf] じゃがいも(じゃがいも) [word] = kentang | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan | [kb-v2-p1-059] 前(まえ) [word] = sebelum | [kb-1839760] 食塩水(しょくえんすい) [word] = larutan air garam | [kb-latsol-funkan] 分間(ふんかん) [word] = selama ... menit | [kb-v2-p1-203] つける(-) [word] = memakai / memasang
+  OPT B: HTML=じゃがいもの<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>をそのまま100℃で<ruby>加熱<rt>かねつ</rt></ruby>する。
+    TRANS: Memanaskan tunas dan kulit hijau kentang begitu saja pada suhu 100°C.
+    KOTOBA: [kb-latsol-c80d196ddf] じゃがいも(じゃがいも) [word] = kentang | [kb-v2-p5-161] 芽(め) [word] = tunas (kentang) | [kb-otaff51-0501] 緑色の皮(みどりいろのかわ) [noun] = kulit berwarna hijau | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-1190470] 加熱(かねつ) [word] = pemanasan
+  OPT C: HTML=じゃがいもの<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>を<ruby>確実<rt>かくじつ</rt></ruby>に<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>く。
+    TRANS: Membuang/menghilangkan bagian tunas dan kulit kentang yang berwarna hijau secara menyeluruh.
+    KOTOBA: [kb-latsol-c80d196ddf] じゃがいも(じゃがいも) [word] = kentang | [kb-v2-p5-161] 芽(め) [word] = tunas (kentang) | [kb-otaff51-0501] 緑色の皮(みどりいろのかわ) [noun] = kulit berwarna hijau | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-latsol-91b4e2ec41] 確実に(かくじつに) [word] = pasti / akurat | [kb-v2-p4-184] 取り除く(とりのぞく) [word] = menyingkirkan / membuang
+
+=== #Q10 | ID=otaff-pm51-01-q010 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.16 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>人<rt>ひと</rt></ruby>の<ruby>皮膚<rt>ひふ</rt></ruby>や<ruby>傷口<rt>きずぐち</rt></ruby>にいて、おにぎりやサンドイッチなどの<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>増<rt>ふ</rt></ruby>え、<ruby>熱<rt>ねつ</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah bakteri keracunan makanan yang terdapat pada kulit atau luka terbuka manusia, berkembang biak di dalam makanan seperti onigiri atau sandwich, dan menghasilkan toksin yang tahan panas? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 16 (Bab 2.2(3)① Tabel Bakteri, hal. 11 teks). Bobot: 3 poin. Kunci jawaban: B. 黄色ブドウ球菌 hidup di kulit dan luka manusia, mencemari makanan seperti onigiri/sandwich, dan memproduksi toksin tahan panas di dalam makanan.
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1483920] 皮膚(ひふ) [word] = kulit | [kb-1345860] 傷口(きずぐち) [word] = luka terbuka / goresan | [kb-latsol-bac3d64292] おにぎり(おにぎり) [word] = nasi kepal (onigiri) | [kb-v2-p3-049] サンドイッチ(-) [word] = roti lapis (sandwich) | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-262] 増え(ふえ) [inflected, df:増える] = bertambah banyak | [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-1455590] 毒素(どくそ) [word] = toksin / racun bakteri | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-2134080] 食中毒菌(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus
+    KOTOBA: [kb-v2-p1-007] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT B: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus (Oushoku Budou Kyuukin)
+    KOTOBA: [kb-v2-p2-039] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT C: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Campylobacter
+    KOTOBA: [kb-latsol-6865ce3bd3] カンピロバクター(かんぴろばくたー) [word] = bakteri Campylobacter | [kb-otaff51-0690] 属菌(ぞくきん) [compound_technical] = bakteri genus tertentu
+
+=== #Q11 | ID=otaff-pm51-01-q011 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.16 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>瓶詰<rt>びんづ</rt></ruby>め<ruby>食品<rt>しょくひん</rt></ruby>やレトルト<ruby>食品<rt>しょくひん</rt></ruby>などが<ruby>原因<rt>げんいん</rt></ruby>となりやすく、<ruby>熱<rt>ねつ</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>芽胞<rt>がほう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>り、<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>・おう<ruby>吐<rt>と</rt></ruby>や「<ruby>呼吸困難<rt>こきゅうこんなん</rt></ruby>」の<ruby>症状<rt>しょうじょう</rt></ruby>を<ruby>起<rt>お</rt></ruby>こす<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bakteri keracunan makanan manakah yang sering berasal dari makanan kemasan botol atau makanan retort, membentuk spora tahan panas, dan menimbulkan gejala mual, muntah, serta 'kesulitan bernapas'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 16 (Bab 2.2(3)① Tabel Bakteri, hal. 11 teks). Bobot: 3 poin. Kunci jawaban: A. ボツリヌス菌 membentuk spora tahan panas pada makanan botol/retort dan menghasilkan toksin saraf yang menyebabkan kesulitan bernapas (呼吸困難).
+  INLINE_KOTOBA_COUNT: 24
+  KOTOBA_PROMPT: [kb-otaff51-0438] 瓶詰め食品(びんづめしょくひん) [compound_technical] = makanan dalam kemasan botol kaca | [kb-otaff51-0084] レトルト食品(れとるとしょくひん) [compound_technical] = makanan kemasan retort (sterilisasibertekanan) | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1261190] 原因(げんいん) [word] = penyebab | [kb-otaff51-0758] なりやすく(なりやすく) [inflected_verb, df:なる] = menjadi mudah untuk ... | [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-1197750] 芽胞(がほう) [word] = spora bakteri tahan panas | [kb-v2-p3-227] 作り(つくり) [inflected, df:作る] = membuat | [kb-v2-p3-221] 吐き気(はきけ) [word] = mual | [kb-1565520] おう吐(おうと) [word] = muntah | [kb-1844970] 呼吸困難(こきゅうこんなん) [word] = sesak napas / sulit bernapas | [kb-1351030] 症状(しょうじょう) [word] = gejala | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan | [kb-2134080] 食中毒菌(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum (Botsurinusu-kin)
+    KOTOBA: [kb-v2-p1-008] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+  OPT B: HTML=サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Salmonella
+    KOTOBA: [kb-v2-p2-042] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri Salmonella
+  OPT C: HTML=<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>（O157）
+    TRANS: E. coli enterohemoragik (O157)
+    KOTOBA: [kb-2126920] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [word] = bakteri E. coli enterohemoragik | [kb-otaff51-0791] O157(おーいちごーなな) [compound_technical] = bakteri E. coli O157
+
+=== #Q12 | ID=otaff-pm51-01-q012 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.17 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>細菌<rt>さいきん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えるために<ruby>必要<rt>ひつよう</rt></ruby>な3つの<ruby>要素<rt>ようそ</rt></ruby>と、<ruby>細菌<rt>さいきん</rt></ruby>の<ruby>増<rt>ふ</rt></ruby>え<ruby>方<rt>かた</rt></ruby>が<ruby>特<rt>とく</rt></ruby>に<ruby>速<rt>はや</rt></ruby>くなる<ruby>温度<rt>おんど</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu kombinasi yang benar mengenai 3 unsur yang diperlukan bakteri untuk berkembang biak dan rentang suhu di mana perkembangbiakan bakteri menjadi sangat cepat.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 17 (Bab 2.2(3)①イ, hal. 12 teks). Bobot: 3 poin. Kunci jawaban: B. Bakteri membutuhkan suhu (温度), air (水分), dan nutrisi (栄養) untuk berkembang biak, dan berkembang biak paling cepat pada suhu 30°C–40°C.
+  INLINE_KOTOBA_COUNT: 21
+  KOTOBA_PROMPT: [kb-1295590] 細菌(さいきん) [word] = bakteri | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-1546800] 要素(ようそ) [word] = unsur / elemen penting | [kb-otaff51-0792] 増え方(ふえかた) [noun] = cara berkembang biak | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-v2-p5-327] 速く(はやく) [inflected, df:速い] = cepat | [kb-1183510] 温度(おんど) [word] = suhu | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>温度<rt>おんど</rt></ruby>・<ruby>光<rt>ひかり</rt></ruby>・<ruby>空気<rt>くうき</rt></ruby> ／ 10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Suhu, cahaya, dan udara / 10°C ke bawah
+    KOTOBA: [kb-1183510] 温度(おんど) [word] = suhu | [kb-v2-p6-265] 光(ひかり) [word] = cahaya | [kb-1245470] 空気(くうき) [word] = udara | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah
+  OPT B: HTML=<ruby>温度<rt>おんど</rt></ruby>・<ruby>水分<rt>すいぶん</rt></ruby>・<ruby>栄養<rt>えいよう</rt></ruby> ／ 30℃から40℃
+    TRANS: Suhu, kadar air, dan nutrisi / 30°C hingga 40°C
+    KOTOBA: [kb-1183510] 温度(おんど) [word] = suhu | [kb-1372010] 水分(すいぶん) [word] = air / cairan | [kb-1173990] 栄養(えいよう) [word] = nutrisi / zat gizi
+  OPT C: HTML=<ruby>温度<rt>おんど</rt></ruby>・<ruby>水分<rt>すいぶん</rt></ruby>・<ruby>塩分<rt>えんぶん</rt></ruby> ／ -15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Suhu, kadar air, dan garam / -15°C ke bawah
+    KOTOBA: [kb-1183510] 温度(おんど) [word] = suhu | [kb-1372010] 水分(すいぶん) [word] = air / cairan | [kb-1178870] 塩分(えんぶん) [word] = kadar garam | [kb-1155060] 以下(いか) [word] = kurang dari / di bawah

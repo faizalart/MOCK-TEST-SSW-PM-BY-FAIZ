@@ -1,0 +1,78 @@
+# AUDIT SHEET: latsol-reguler-02 (Latsol Reguler 02) | Batch qa-batch-09 | Part 1 (Q1-4 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=reguler02-q001 | KEY=B (idx=1) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("85°C - 90°C ~ 90秒以上") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスを<ruby>殺<rt>ころ</rt></ruby>すために。<ruby>加熱温度<rt>かねつおんど</rt></ruby>と<ruby>時間<rt>じかん</rt></ruby> <ruby>何<rt>なん</rt></ruby>C°ですか。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk membunuh Norovirus, berapakah suhu pemanasan dan waktunya? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 1, nomor 1. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0195] 加熱温度(かねつおんど) [compound_technical] = suhu pemanasan | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=5°C ~ 90<ruby>秒以上<rt>びょういじょう</rt></ruby>
+    TRANS: 5°C selama 90 detik atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih
+  OPT B: HTML=85°C - 90°C ~ 90<ruby>秒以上<rt>びょういじょう</rt></ruby>
+    TRANS: 85°C - 90°C selama 90 detik atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih
+  OPT C: HTML=80°C - 85°C ~ 90<ruby>秒以上<rt>びょういじょう</rt></ruby>
+    TRANS: 80°C - 85°C selama 90 detik atau lebih
+    KOTOBA: [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih
+
+=== #Q2 | ID=reguler02-q002 | KEY=B (idx=1) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("30℃ - 40℃間で") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ほとんど<ruby>微生物<rt>びせいぶつ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>C°<ruby>急速<rt>きゅうそく</rt></ruby>に<ruby>増殖<rt>ぞうしょく</rt></ruby>しますか。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada suhu berapa derajat Celcius sebagian besar mikroorganisme berkembang biak dengan cepat? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 1, nomor 2. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-v2-p3-133] ほとんど(-) [word] = hampir tidak / hampir semua | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0302] 急速(きゅうそく) [adjective] = cepat / ekspres (pembekuan cepat) | [kb-audit-0986] 増殖しますか(ぞうしょくしますか) [inflected_verb, df:増殖する] = apakah berkembang biak? | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=35℃<ruby>以下<rt>いか</rt></ruby> - 40℃<ruby>以下<rt>いか</rt></ruby>で
+    TRANS: Pada suhu di bawah 35°C - di bawah 40°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=30℃ - 40℃<ruby>間<rt>あいだ</rt></ruby>で
+    TRANS: Di antara suhu 30°C - 40°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-v2-p2-104] 間(あいだ) [word] = antara / sela-sela
+  OPT C: HTML=30℃ - 40℃<ruby>以下<rt>いか</rt></ruby>で
+    TRANS: Pada suhu 30°C - di bawah 40°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q3 | ID=reguler02-q003 | KEY=B (idx=1) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("包装工程") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>、X<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>、<ruby>期限表示<rt>きげんひょうじ</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>は<ruby>何<rt>なん</rt></ruby>の<ruby>工程<rt>こうてい</rt></ruby>ですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pengelolaan detektor logam, detektor benda asing sinar-X, dan pencantuman batas kedaluwarsa termasuk dalam proses apa? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 1, nomor 3. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-ext-0411-e98791e5b1] 金属検出器(きんぞくけんしゅつき) [compound_technical] = detektor logam | [kb-ext-0003-58e7b79ae7] X線異物検出器(せんいぶつけんしゅつき) [word] = detektor benda asing sinar-X | [kb-ext-latsol-0039] 期限表示(きげんひょうじ) [word] = pencantuman tanggal kedaluwarsa | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0286] 工程(こうてい) [noun] = tahapan proses | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>凍結工程<rt>とうけつこうてい</rt></ruby>
+    TRANS: Proses pembekuan
+    KOTOBA: [kb-ext-latsol-0040] 凍結工程(とうけつこうてい) [word] = proses pembekuan
+  OPT B: HTML=<ruby>包装工程<rt>ほうそうこうてい</rt></ruby>
+    TRANS: Proses pengemasan
+    KOTOBA: [kb-otaff51-0204] 包装工程(ほうそうこうてい) [compound_technical] = tahapan pengemasan
+  OPT C: HTML=<ruby>製造工程<rt>せいぞうこうてい</rt></ruby>
+    TRANS: Proses produksi
+    KOTOBA: [kb-otaff51-0556] 製造工程(せいぞうこうてい) [compound_technical] = tahapan proses produksi
+
+=== #Q4 | ID=reguler02-q004 | KEY=B (idx=1) | CAT= | SRC=Latihan 2 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("海水にいる魚介類 刺し身、すしなど") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ <ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan manakah yang mudah menjadi penyebab keracunan Vibrio parahaemolyticus? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 2 Soal SSW PM + KJ.pdf, halaman 1, nomor 4. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>野菜<rt>やさい</rt></ruby>、<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、いどみずなど
+    TRANS: Sayuran, daging, daging ayam, air sumur, dll.
+    KOTOBA: [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-audit-0348] いどみず(いどみず) [word] = air sumur (井戸水)
+  OPT B: HTML=<ruby>海水<rt>かいすい</rt></ruby>にいる<ruby>魚介類<rt>ぎょかいるい</rt></ruby> <ruby>刺<rt>さ</rt></ruby>し<ruby>身<rt>み</rt></ruby>、すしなど
+    TRANS: Hasil laut yang hidup di air laut, sashimi, sushi, dll.
+    KOTOBA: [kb-1201490] 海水(かいすい) [word] = air laut | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-audit-0497] 刺し身(さしみ) [word] = sashimi (ikan mentah irisan) | [kb-otaff51-1302] すし(すし) [noun] = sushi
+  OPT C: HTML=<ruby>鶏肉<rt>とりにく</rt></ruby>、<ruby>鶏卵<rt>けいらん</rt></ruby>、<ruby>刺<rt>さ</rt></ruby>し<ruby>身<rt>み</rt></ruby>、すしなど
+    TRANS: Daging ayam, telur ayam, sashimi, sushi, dll.
+    KOTOBA: [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-otaff51-0684] 鶏卵(けいらん) [noun] = telur ayam | [kb-audit-0497] 刺し身(さしみ) [word] = sashimi (ikan mentah irisan) | [kb-otaff51-1302] すし(すし) [noun] = sushi

@@ -1,0 +1,76 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-14 (Soal Ujian 14) | Batch qa-batch-03 | Part 10 (Q37-40 of 59)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=kunci-ujian-14-q037 | KEY=C (idx=2) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 14.pdf p.10 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>場合<rt>ばあい</rt></ruby>、その<ruby>多<rt>おお</rt></ruby>くの<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam kasus keracunan makanan akibat virus, apakah penyebab sebagian besar kasus tersebut?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 10, nomor 参考問題③ (Q37). Bobot: 2.54 poin. Kunci jawaban: C. Pembahasan: Sebagian besar keracunan makanan akibat virus disebabkan oleh Norovirus (ノロウイルス), sedangkan 腸炎ビブリオ dan サルモネラ属菌 adalah bakteri.
+  INLINE_KOTOBA_COUNT: 9
+  KOTOBA_PROMPT: [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus
+    KOTOBA: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT B: HTML=サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Salmonella
+    KOTOBA: [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella
+  OPT C: HTML=ノロウイルス
+    TRANS: Norovirus
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus
+
+=== #Q38 | ID=kunci-ujian-14-q038 | KEY=B (idx=1) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 14.pdf p.10 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>包装工程<rt>ほうそうこうてい</rt></ruby>での<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>管理事項<rt>かんりじこう</rt></ruby>は、①<ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>や②X<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>、③は<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal pengelolaan penting pada proses pengemasan adalah: (1) pengelolaan detektor logam, (2) pengelolaan detektor benda asing sinar-X, dan apakah yang ke-(3)?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 10, nomor 参考問題④ (Q38). Bobot: 2.54 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 44–45), pada proses pengemasan (包装工程) pemeriksaan utama meliputi detektor benda asing (logam/X-ray) serta pemeriksaan label kemasan termasuk tanggal kedaluwarsa (期限表示管理).
+  INLINE_KOTOBA_COUNT: 10
+  KOTOBA_PROMPT: [kb-otaff51-0204] 包装工程(ほうそうこうてい) [compound_technical] = tahapan pengemasan | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-ext-latsol-0066] 管理事項(かんりじこう) [word] = hal-hal yang harus dikelola | [kb-ext-0411-e98791e5b1] 金属検出器(きんぞくけんしゅつき) [compound_technical] = detektor logam | [kb-ext-0003-58e7b79ae7] X線異物検出器(せんいぶつけんしゅつき) [word] = detektor benda asing sinar-X | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=<ruby>温度管理<rt>おんどかんり</rt></ruby>
+    TRANS: Pengelolaan suhu
+    KOTOBA: [kb-otaff51-0406] 温度管理(おんどかんり) [compound_technical] = pengendalian suhu
+  OPT B: HTML=<ruby>期限表示管理<rt>きげんひょうじかんり</rt></ruby>
+    TRANS: Pengelolaan pencantuman batas kedaluwarsa
+    KOTOBA: [kb-latsol-17fbb68d64] 期限表示管理(きげんひょうじかんり) [word] = manajemen label kedaluwarsa
+  OPT C: HTML=<ruby>時間管理<rt>じかんかんり</rt></ruby>
+    TRANS: Pengelolaan waktu
+    KOTOBA: [kb-u1416-de3a9b0eb8] 時間管理(じかんかんり) [word] = pengelolaan waktu
+
+=== #Q39 | ID=kunci-ujian-14-q039 | KEY=A (idx=0) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 14.pdf p.10 ===
+  CLUSTER CL-0062 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q031 (ssw-pm-kunci-ujian-2), kunci-ujian-6-q025 (ssw-pm-kunci-ujian-6), bonus-soal-2-q031 (bonus-soal-2), bonus-soal-8-q030 (bonus-soal-8), nguyen02-q031 (latsol-nguyen-02), nguyen08-q030 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>魚介類<rt>ぎょかいるい</rt></ruby>は<ruby>何度以下<rt>なんどいか</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>すればいいですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Daging dan hasil laut (ikan/kerang) sebaiknya disimpan pada suhu berapa derajat ke bawah?
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 10, nomor 参考問題⑤ (Q39). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Sesuai standar suhu penyimpanan bahan baku SSW PM, daging dan hasil laut segar disimpan pada suhu dingin 4°C ke bawah (4℃以下).
+  INLINE_KOTOBA_COUNT: 7
+  KOTOBA_PROMPT: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-ext-0183-e4bd95e5ba] 何度以下(なんどいか) [word] = berapa derajat atau kurang | [kb-v2-p2-216] 保管すれば(ほかんすれば) [inflected, df:保管する] = jika disimpan | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT A: HTML=4℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 4°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=7℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 7°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 15°C ke bawah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q40 | ID=kunci-ujian-14-q040 | KEY=A (idx=0) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 14.pdf p.10 ===
+  CLUSTER CL-0161 (n=3, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-5-q027 (bonus-soal-5), nguyen05-q027 (latsol-nguyen-05)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品<rt>しょくひん</rt></ruby>を<ruby>凍結<rt>とうけつ</rt></ruby>する<ruby>工程<rt>こうてい</rt></ruby>で<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam proses pembekuan makanan (touketsu), pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 10, nomor 参考問題⑥ (Q40). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 44), pembekuan makanan harus dilakukan secara cepat (急速凍結 / 短時間) agar kristal es tidak merusak jaringan dan cita rasa makanan, bukan dibekukan secara perlahan.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan | [kb-otaff51-0286] 工程(こうてい) [noun] = tahapan proses | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>凍結<rt>とうけつ</rt></ruby>をする<ruby>際<rt>さい</rt></ruby>は、<ruby>風味<rt>ふうみ</rt></ruby>を<ruby>劣化<rt>れっか</rt></ruby>させないようゆっくり<ruby>凍結<rt>とうけつ</rt></ruby>する
+    TRANS: Saat melakukan pembekuan, bekukan secara perlahan-lahan agar cita rasanya tidak menurun.
+    KOTOBA: [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-1624810] 風味(ふうみ) [word] = aroma dan cita rasa | [kb-otaff51-0197] 劣化(れっか) [noun] = penurunan mutu / kerusakan kualitas | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan
+  OPT B: HTML=<ruby>急速凍結<rt>きゅうそくとうけつ</rt></ruby>をするためには、<ruby>凍結前<rt>とうけつまえ</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>下<rt>さ</rt></ruby>げておくことが<ruby>重要<rt>じゅうよう</rt></ruby>
+    TRANS: Untuk melakukan pembekuan cepat (quick freezing), penting untuk menurunkan suhu makanan terlebih dahulu sebelum dibekukan.
+    KOTOBA: [kb-2811190] 急速凍結(きゅうそくとうけつ) [word] = pembekuan cepat | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-1338-e5878de7b5] 凍結前(とうけつまえ) [word] = Sebelum proses pembekuan bahan pangan | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p5-324] 下げておく(さげておく) [expression] = menurunkan terlebih dahulu | [kb-otaff51-0609] 重要(じゅうよう) [adjective] = penting
+  OPT C: HTML=<ruby>凍結<rt>とうけつ</rt></ruby>をする<ruby>際<rt>さい</rt></ruby>は、<ruby>短時間<rt>たんじかん</rt></ruby>で<ruby>凍結<rt>とうけつ</rt></ruby>する。
+    TRANS: Saat melakukan pembekuan, bekukan dalam waktu singkat.
+    KOTOBA: [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-1418720] 短時間(たんじかん) [word] = waktu singkat

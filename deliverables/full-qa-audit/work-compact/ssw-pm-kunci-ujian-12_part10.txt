@@ -1,0 +1,71 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-12 (Soal Ujian 12 — CBTP Gino1) | Batch qa-batch-03 | Part 10 (Q37-40 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=kunci-ujian-12-q037 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.7 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0298 (でっちゅうしょ): "sengatan panas / heatstroke (typo: 熱中症)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0299 (ょうじょ): "gejala (typo: 症状)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0908 (からを): "tubuh / badan (typo: からだを)"
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうじょうでっちゅうしょのようなょうじょができたときどのようにたいおうしますかまちがったものをえらんでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bagaimana cara penanganan yang tepat ketika muncul gejala seperti sengatan panas (heatstroke) di area kerja? Pilihlah jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 7, Câu 37 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-audit-0298] でっちゅうしょ(ねっちゅうしょう) [word] = sengatan panas / heatstroke (typo: 熱中症) | [kb-audit-0299] ょうじょ(しょうじょう) [word] = gejala (typo: 症状) | [kb-audit-0386] できた(できた) [inflected_verb, df:できる] = telah berhasil / selesai dibuat | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p3-186] どの(-) [word] = yang mana | [kb-v2-p1-327] ように(-) [particle] = agar / supaya | [kb-audit-0701] たいおう(たいおう) [word] = penanganan / tindakan | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-audit-0242] まちがった(まちがった) [inflected_verb, df:間違う] = salah / keliru (間違った) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te) | [kb-v2-p5-222] ください(-) [particle] = silakan / tolong | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-305] よう(-) [particle] = agar / supaya | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=せきにんしゃにらせます
+    TRANS: Memberi tahu penanggung jawab
+    KOTOBA: [kb-audit-0872] せきにんしゃ(せきにんしゃ) [word] = penanggung jawab | [kb-audit-0275] にらせます(しらせます) [inflected_verb, df:知らせる] = melaporkan (penulisan typo: 知らせます)
+  OPT B: HTML=さぎょうふくをゆるめからをひやします
+    TRANS: Melonggarkan pakaian kerja dan mendinginkan tubuh
+    KOTOBA: [kb-v2-p6-321] さぎょうふく(-) [word] = baju kerja (bacaan 作業服) | [kb-v2-p6-584] ゆるめ(-) [inflected, df:緩める] = melonggarkan | [kb-audit-0908] からを(からだを) [word] = tubuh / badan (typo: からだを) | [kb-audit-0755] ひやします(ひやします) [inflected_verb, df:冷やす] = mendinginkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=そのひとがじりきでたてられるまでまちます
+    TRANS: Menunggu sampai orang tersebut dapat berdiri sendiri dengan tenaganya sendiri
+    KOTOBA: [kb-v2-p1-268] その(-) [word] = itu | [kb-audit-0325] ひと(ひと) [word] = orang / manusia (人) | [kb-audit-0756] じりき(じりき) [word] = kekuatan sendiri | [kb-audit-0757] たてられる(たてられる) [inflected_verb, df:立つ] = dapat berdiri sendiri | [kb-v2-p2-284] まで(-) [particle] = sampai | [kb-audit-0758] まちます(まちます) [inflected_verb, df:待つ] = menunggu | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q38 | ID=kunci-ujian-12-q038 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: このひょうしきはなんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Rambu apakah ini?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 7, Câu 38 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-0273] ひょうしき(ひょうしき) [word] = rambu / papan tanda (標識) | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=ひなんするためのひじょうぐちのばしょをしらせるひょうしき
+    TRANS: Rambu yang memberitahukan lokasi pintu darurat untuk evakuasi
+    KOTOBA: [kb-audit-0422] ひなん(ひなん) [word] = evakuasi / mengungsi (避難) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-audit-0272] ひじょうぐち(ひじょうぐち) [word] = pintu keluar darurat (非常口) | [kb-audit-0361] ばしょ(ばしょ) [word] = tempat / lokasi (場所) | [kb-audit-0274] しらせる(しらせる) [word] = memberitahukan / memberi tanda (知らせる) | [kb-audit-0273] ひょうしき(ひょうしき) [word] = rambu / papan tanda (標識) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=はしることをきんしするひょうしき
+    TRANS: Rambu yang melarang berlari
+    KOTOBA: [kb-audit-0675] はしる(はしる) [word] = berlari | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0676] きんし(きんし) [word] = larangan / dilarang | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-audit-0273] ひょうしき(ひょうしき) [word] = rambu / papan tanda (標識) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=あたをぶつけるきけんをしらせるひょうしき
+    TRANS: Rambu yang memperingatkan bahaya kepala terbentur
+    KOTOBA: [kb-audit-0209] あた(あた) [word] = kepala (penulisan typo pada text あたま) | [kb-v2-p5-318] ぶつける(-) [word] = membenturkan | [kb-audit-0677] きけん(きけん) [word] = bahaya | [kb-audit-0274] しらせる(しらせる) [word] = memberitahukan / memberi tanda (知らせる) | [kb-audit-0273] ひょうしき(ひょうしき) [word] = rambu / papan tanda (標識) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q39 | ID=kunci-ujian-12-q039 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.8 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: このひょうしきはなんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Rambu apakah ini?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 8, Câu 39 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p1-267] この(-) [word] = ini | [kb-audit-0273] ひょうしき(ひょうしき) [word] = rambu / papan tanda (標識) | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=ひなんするためのひじょうぐちのばしょをしらせるひょうしき
+    TRANS: Rambu yang memberitahukan lokasi pintu darurat untuk evakuasi
+    KOTOBA: [kb-audit-0422] ひなん(ひなん) [word] = evakuasi / mengungsi (避難) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-audit-0272] ひじょうぐち(ひじょうぐち) [word] = pintu keluar darurat (非常口) | [kb-audit-0361] ばしょ(ばしょ) [word] = tempat / lokasi (場所) | [kb-audit-0274] しらせる(しらせる) [word] = memberitahukan / memberi tanda (知らせる) | [kb-audit-0273] ひょうしき(ひょうしき) [word] = rambu / papan tanda (標識) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>目<rt>め</rt></ruby>を<ruby>保護<rt>ほご</rt></ruby>する<ruby>必要<rt>ひつよう</rt></ruby>があることを<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>
+    TRANS: Rambu yang memberitahukan perlunya melindungi mata
+    KOTOBA: [kb-otaff51-0461] 目(め) [noun] = mata | [kb-1513530] 保護(ほご) [word] = perlindungan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=ころぶきけんをしらせるひょうしき
+    TRANS: Rambu yang memperingatkan bahaya terjatuh (terpeleset)
+    KOTOBA: [kb-v2-p6-634] ころぶ(-) [word] = terjatuh / terpeleset | [kb-audit-0677] きけん(きけん) [word] = bahaya | [kb-audit-0274] しらせる(しらせる) [word] = memberitahukan / memberi tanda (知らせる) | [kb-audit-0273] ひょうしき(ひょうしき) [word] = rambu / papan tanda (標識) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q40 | ID=kunci-ujian-12-q040 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.8 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: あたをぶつけるきけんをしらせるひょうしきはどちらですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah rambu yang memperingatkan bahaya kepala terbentur?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 8, Câu 40 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0209] あた(あた) [word] = kepala (penulisan typo pada text あたま) | [kb-v2-p5-318] ぶつける(-) [word] = membenturkan | [kb-audit-0677] きけん(きけん) [word] = bahaya | [kb-audit-0274] しらせる(しらせる) [word] = memberitahukan / memberi tanda (知らせる) | [kb-audit-0273] ひょうしき(ひょうしき) [word] = rambu / papan tanda (標識) | [kb-v2-p3-129] どちら(-) [word] = yang mana (dari dua) | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=1
+    TRANS: Pilihan 1 (lihat gambar 1)
+    KOTOBA: (EMPTY)
+  OPT B: HTML=2
+    TRANS: Pilihan 2 (lihat gambar 2)
+    KOTOBA: (EMPTY)
+  OPT C: HTML=3
+    TRANS: Pilihan 3 (lihat gambar 3)
+    KOTOBA: (EMPTY)

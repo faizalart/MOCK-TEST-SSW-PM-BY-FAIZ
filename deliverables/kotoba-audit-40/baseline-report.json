@@ -1,0 +1,2621 @@
+{
+  "_meta": {
+    "generatedAt": "2026-11-15T15:53:44.940Z",
+    "branch": "fix/kotoba-audit-40",
+    "selectionStatus": "CONFIRMED_ALL_50_NON_OTAFF_BY_USER",
+    "backupDirectory": "deliverables/kotoba-audit-40/backups/baseline-20261115/data",
+    "immutableSnapshotPath": "deliverables/kotoba-audit-40/baseline-immutable-snapshot.json"
+  },
+  "dictionaryAndMappingBaseline": {
+    "dictionaryPath": "data/sharedKotobaDictionary.json",
+    "dictionarySha256": "c3e279a0d839e8f0016094a5ee168ad23e900390e9c9659d93cfbc82f6acd14f",
+    "dictionaryVersion": {
+      "schemaVersion": "2.0.0",
+      "dataVersion": "20261113-v2"
+    },
+    "dictionaryTotalTerms": 6359,
+    "dictionaryVerifiedTerms": 6315,
+    "dictionaryUnresolvedTerms": 44,
+    "mappingPath": "data/kotobaMapping.json",
+    "mappingSha256": "c26d9e919f1162a75c431ae436936fdf340c87e8bf0f27f1baca9d0050fe8219",
+    "mappingVersion": {
+      "schemaVersion": "2.0.0",
+      "dataVersion": "20261113-v2"
+    },
+    "mappingQuestionsCount": 2139,
+    "mappingCompositeKeysCount": 6583,
+    "supplementaryPath": "data/kotoba-dan-kategori-tambahan.json",
+    "supplementarySha256": "83846c5124e18e69e527c8f7070685ea9bb38a42b25199be1773010c6353a449",
+    "supplementaryEntriesCount": 1133,
+    "legacyArchiveQuestionsJson": {
+      "path": "data/questions.json",
+      "sha256": "b5861e1b6693ac3c43da1c3aa99301b49c6552f9d0f610d79ab3056b120400ea",
+      "note": "80-question seed archive overlapping ssw-pm-kunci-ujian-1 and ssw-pm-tipe2-nguyen1"
+    }
+  },
+  "summaryByCohort": {
+    "protected10": {
+      "packageCount": 10,
+      "questions": 400,
+      "options": 1200,
+      "contexts": 1600,
+      "v2CompletenessErrors": 0,
+      "avgSpanCoveragePct": 79.36
+    },
+    "confirmedTargets50": {
+      "packageCount": 50,
+      "questions": 1739,
+      "options": 5383,
+      "contexts": 7122,
+      "v2CompletenessErrors": 3145,
+      "avgSpanCoveragePct": 82.01
+    },
+    "excluded0": {
+      "packageCount": 0,
+      "questions": 0,
+      "options": 0,
+      "contexts": 0,
+      "v2CompletenessErrors": 0,
+      "avgSpanCoveragePct": 0
+    },
+    "cohort1Spec009_27": {
+      "packageCount": 27,
+      "questions": 1006,
+      "options": 3110,
+      "contexts": 4116,
+      "v2CompletenessErrors": 133,
+      "avgSpanCoveragePct": 100
+    },
+    "cohort2_19Paket": {
+      "packageCount": 19,
+      "questions": 581,
+      "options": 1811,
+      "contexts": 2392,
+      "v2CompletenessErrors": 1010,
+      "avgSpanCoveragePct": 65.61
+    },
+    "cohort3_Ujian14_16": {
+      "packageCount": 3,
+      "questions": 147,
+      "options": 442,
+      "contexts": 589,
+      "v2CompletenessErrors": 1930,
+      "avgSpanCoveragePct": 30.17
+    },
+    "cohort4_Pilot": {
+      "packageCount": 1,
+      "questions": 5,
+      "options": 20,
+      "contexts": 25,
+      "v2CompletenessErrors": 72,
+      "avgSpanCoveragePct": 63.64
+    }
+  },
+  "packages": [
+    {
+      "setId": "ssw-pm-kunci-ujian-1",
+      "name": "Soal Ujian 1 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-kunci-ujian-1.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Kunci Soal Ujian 1.pdf",
+      "appOrderIndex": 0,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.375Z",
+      "fileSha256": "250e4fb81494432343125ecb7ec46d8b0918e7ad36874c47c4d1be983d517292",
+      "internalCreatedAtMin": "2025-11-01T12:26:40.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T02:38:44.353Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 111,
+        "uniqueReferencedTerms": 531,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 6,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 6
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-2",
+      "name": "Soal Ujian 2 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-kunci-ujian-2.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Kunci Soal Ujian 2.pdf",
+      "appOrderIndex": 1,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.406Z",
+      "fileSha256": "b472cdc3be7446b67c4bfd2d54735ff02060bcb2a3f65eee4e7f44d5e69f484d",
+      "internalCreatedAtMin": "2025-11-13T02:13:20.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T02:50:51.703Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 495,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 2,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 2
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-3",
+      "name": "Soal Ujian 3 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 3.pdf",
+      "appOrderIndex": 2,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:43.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 116,
+        "uniqueReferencedTerms": 505,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 4,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 4
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-4",
+      "name": "Soal Ujian 4 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 4.pdf",
+      "appOrderIndex": 3,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:44.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 537,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 1,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 1
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-5",
+      "name": "Soal Ujian 5 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 5.pdf",
+      "appOrderIndex": 4,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:45.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 549,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 3,
+        "v2CompletenessErrorsByCode": {
+          "SUBSTRING_KANJI_COLLISION": 1,
+          "MISSING_LEXICAL_TERM": 2
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-6",
+      "name": "Soal Ujian 6 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 6.pdf",
+      "appOrderIndex": 5,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:46.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 119,
+        "uniqueReferencedTerms": 534,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-7",
+      "name": "Soal Ujian 7 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 7.pdf",
+      "appOrderIndex": 6,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:47.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 546,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 7,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 7
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-8",
+      "name": "Soal Ujian 8 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 8.pdf",
+      "appOrderIndex": 7,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:48.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 482,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 2,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 2
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-9",
+      "name": "Soal Ujian 9 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 9.pdf",
+      "appOrderIndex": 8,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:49.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 322,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-10",
+      "name": "Soal Ujian 10 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 10.pdf",
+      "appOrderIndex": 9,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:50.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 484,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-11",
+      "name": "Soal Ujian 11 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 11.pdf",
+      "appOrderIndex": 10,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:51.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 477,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 8,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 7,
+          "SUBSTRING_KANJI_COLLISION": 1
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-12",
+      "name": "Soal Ujian 12 — CBTP Gino1",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 12.pdf",
+      "appOrderIndex": 11,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:52.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 343,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 4,
+        "v2CompletenessErrorsByCode": {
+          "SUBSTRING_KANJI_COLLISION": 2,
+          "MISSING_LEXICAL_TERM": 2
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-13",
+      "name": "Soal Ujian 13 — Rakuraku Tokutei (2024年10月)",
+      "sourcePath": "data/ssw-pm-all-kunci-ujian-3-to-13.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Kunci Soal Ujian 13.pdf",
+      "appOrderIndex": 12,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-11T10:22:11.340Z",
+      "fileSha256": "8f852c658b358c7190cbea1d88c3ec03aabecc606316d5570d728202b3bd7110",
+      "internalCreatedAtMin": "2025-11-01T12:26:53.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:41:46.686Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 567,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 3,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 2,
+          "SUBSTRING_KANJI_COLLISION": 1
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-14",
+      "name": "Soal Ujian 14",
+      "sourcePath": "data/ssw-pm-kunci-ujian-14.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Soal Ujian 14.pdf",
+      "appOrderIndex": 13,
+      "cohort": "cohort_3_unaudited_ujian_14_16",
+      "fileMtime": "2026-11-14T04:41:30.000Z",
+      "fileSha256": "fb3de2a17d264e0d2c6be50448725dddf01dabe7c8973b43e39264bca2872bd8",
+      "internalCreatedAtMin": "2026-04-01T02:03:20.000Z",
+      "questionCount": 59,
+      "optionCount": 177,
+      "totalContexts": 236,
+      "pointsPerQuestion": 2.54,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 59,
+        "promptContextsNonEmpty": 51,
+        "optionContextsMapped": 177,
+        "optionContextsNonEmpty": 156,
+        "uniqueReferencedTerms": 333,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 59,
+        "extraTambahanEntries": 59,
+        "spec009SpanCoveragePct": 36.22,
+        "spec009UnresolvedSpans": 515,
+        "spec009FileValidatorErrors": 13,
+        "v2CompletenessErrorTotal": 684,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 647,
+          "SURFACE_NOT_IN_CONTEXT": 20,
+          "MEANING_TOO_LONG": 12,
+          "SUBSTRING_KANJI_COLLISION": 4,
+          "INVALID_KANJI_FURIGANA": 1
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-15",
+      "name": "Soal Ujian 15",
+      "sourcePath": "data/ssw-pm-kunci-ujian-15.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Soal Ujian 15.pdf",
+      "appOrderIndex": 14,
+      "cohort": "cohort_3_unaudited_ujian_14_16",
+      "fileMtime": "2026-11-14T04:41:30.000Z",
+      "fileSha256": "9f338bb9b92aecf4bd130f5cd414deb61bed4a7ec684b27754f8489a474baffa",
+      "internalCreatedAtMin": "2026-04-01T02:03:20.000Z",
+      "questionCount": 38,
+      "optionCount": 114,
+      "totalContexts": 152,
+      "pointsPerQuestion": 3.95,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 38,
+        "promptContextsNonEmpty": 34,
+        "optionContextsMapped": 114,
+        "optionContextsNonEmpty": 78,
+        "uniqueReferencedTerms": 175,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 38,
+        "extraTambahanEntries": 38,
+        "spec009SpanCoveragePct": 27.95,
+        "spec009UnresolvedSpans": 342,
+        "spec009FileValidatorErrors": 2,
+        "v2CompletenessErrorTotal": 527,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 506,
+          "SURFACE_NOT_IN_CONTEXT": 16,
+          "MEANING_TOO_LONG": 4,
+          "SUBSTRING_KANJI_COLLISION": 1
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-16",
+      "name": "Soal Ujian 16",
+      "sourcePath": "data/ssw-pm-kunci-ujian-16.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Soal Ujian 16.pdf",
+      "appOrderIndex": 15,
+      "cohort": "cohort_3_unaudited_ujian_14_16",
+      "fileMtime": "2026-11-14T04:41:30.000Z",
+      "fileSha256": "7a7031806a1baf76105d35520a3fdaf67dd24faccbd07779bc16ff72a34c3b15",
+      "internalCreatedAtMin": "2026-04-01T02:03:20.000Z",
+      "questionCount": 50,
+      "optionCount": 151,
+      "totalContexts": 201,
+      "pointsPerQuestion": 3,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 50,
+        "promptContextsNonEmpty": 42,
+        "optionContextsMapped": 151,
+        "optionContextsNonEmpty": 103,
+        "uniqueReferencedTerms": 200,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 50,
+        "extraTambahanEntries": 50,
+        "spec009SpanCoveragePct": 26.34,
+        "spec009UnresolvedSpans": 449,
+        "spec009FileValidatorErrors": 3,
+        "v2CompletenessErrorTotal": 719,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 27,
+          "MISSING_LEXICAL_TERM": 688,
+          "SUBSTRING_KANJI_COLLISION": 1,
+          "MEANING_TOO_LONG": 3
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-tipe2-nguyen1",
+      "name": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+      "sourcePath": "data/ssw-pm-tipe2-nguyen1.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "SSW NGUYEN 1.pdf",
+      "appOrderIndex": 16,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T05:46:36.453Z",
+      "fileSha256": "f6ba05e7830352859cff29fb24b60529c304c9ee62960e2cca989b094b9c98c3",
+      "internalCreatedAtMin": "2025-10-20T12:00:00.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:22:57.931Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 576,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 4,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 4
+        }
+      }
+    },
+    {
+      "setId": "bonus-soal-1",
+      "name": "Bonus Soal 1",
+      "sourcePath": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Bonus Soal 1.pdf",
+      "appOrderIndex": 17,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T05:46:36.634Z",
+      "fileSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "internalCreatedAtMin": "2026-03-11T03:33:30.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:28:20.312Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 480,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 11,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 1,
+          "MISSING_LEXICAL_TERM": 7,
+          "SUBSTRING_KANJI_COLLISION": 3
+        }
+      }
+    },
+    {
+      "setId": "bonus-soal-2",
+      "name": "Bonus Soal 2",
+      "sourcePath": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Bonus Soal 2.pdf",
+      "appOrderIndex": 18,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T05:46:36.634Z",
+      "fileSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "internalCreatedAtMin": "2025-11-02T16:13:22.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:28:20.312Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 458,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 4,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 4
+        }
+      }
+    },
+    {
+      "setId": "bonus-soal-4",
+      "name": "Bonus Soal 4",
+      "sourcePath": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Bonus Soal 4.pdf",
+      "appOrderIndex": 19,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T05:46:36.634Z",
+      "fileSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "internalCreatedAtMin": "2026-03-11T03:34:00.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:28:20.312Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 479,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 5,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 5
+        }
+      }
+    },
+    {
+      "setId": "bonus-soal-5",
+      "name": "Bonus Soal 5",
+      "sourcePath": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Bonus Soal 5.pdf",
+      "appOrderIndex": 20,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T05:46:36.634Z",
+      "fileSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "internalCreatedAtMin": "2025-11-02T16:13:25.001Z",
+      "questionCount": 36,
+      "optionCount": 108,
+      "totalContexts": 144,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:28:20.312Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 36,
+        "promptContextsNonEmpty": 36,
+        "optionContextsMapped": 108,
+        "optionContextsNonEmpty": 105,
+        "uniqueReferencedTerms": 544,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 9,
+        "v2CompletenessErrorsByCode": {
+          "SUBSTRING_KANJI_COLLISION": 3,
+          "MISSING_LEXICAL_TERM": 6
+        }
+      }
+    },
+    {
+      "setId": "bonus-soal-6",
+      "name": "Bonus Soal 6",
+      "sourcePath": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Bonus Soal 6.pdf",
+      "appOrderIndex": 21,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T05:46:36.634Z",
+      "fileSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "internalCreatedAtMin": "2026-03-11T03:34:20.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:28:20.312Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 430,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 8,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 6,
+          "SUBSTRING_KANJI_COLLISION": 2
+        }
+      }
+    },
+    {
+      "setId": "bonus-soal-7",
+      "name": "Bonus Soal 7",
+      "sourcePath": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Bonus Soal 7.pdf",
+      "appOrderIndex": 22,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T05:46:36.634Z",
+      "fileSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "internalCreatedAtMin": "2026-03-11T03:34:30.001Z",
+      "questionCount": 39,
+      "optionCount": 117,
+      "totalContexts": 156,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:28:20.312Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 39,
+        "promptContextsNonEmpty": 39,
+        "optionContextsMapped": 117,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 467,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 7,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 7
+        }
+      }
+    },
+    {
+      "setId": "bonus-soal-8",
+      "name": "Bonus Soal 8",
+      "sourcePath": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Bonus Soal 8.pdf",
+      "appOrderIndex": 23,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T05:46:36.634Z",
+      "fileSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "internalCreatedAtMin": "2026-03-11T03:34:40.001Z",
+      "questionCount": 39,
+      "optionCount": 117,
+      "totalContexts": 156,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:28:20.312Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 39,
+        "promptContextsNonEmpty": 39,
+        "optionContextsMapped": 117,
+        "optionContextsNonEmpty": 108,
+        "uniqueReferencedTerms": 446,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 11,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 8,
+          "SUBSTRING_KANJI_COLLISION": 3
+        }
+      }
+    },
+    {
+      "setId": "bonus-soal-9",
+      "name": "Bonus Soal 9",
+      "sourcePath": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Bonus Soal 9.pdf",
+      "appOrderIndex": 24,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T05:46:36.634Z",
+      "fileSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "internalCreatedAtMin": "2026-03-11T03:34:50.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:28:20.312Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 456,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 2,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 1,
+          "SURFACE_NOT_IN_CONTEXT": 1
+        }
+      }
+    },
+    {
+      "setId": "bonus-soal-10",
+      "name": "Bonus Soal 10",
+      "sourcePath": "data/ssw-pm-bonus-soal-1-to-10-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "Bonus Soal 10.pdf",
+      "appOrderIndex": 25,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T05:46:36.634Z",
+      "fileSha256": "3a909dddf7d8a0427d8bbe5d4b71f41955e1e8535dbd3c0e2640c0c94d24f328",
+      "internalCreatedAtMin": "2026-03-11T03:35:00.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:28:20.312Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 114,
+        "uniqueReferencedTerms": 557,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 9,
+        "v2CompletenessErrorsByCode": {
+          "SUBSTRING_KANJI_COLLISION": 5,
+          "MISSING_LEXICAL_TERM": 4
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-lab-bakteri",
+      "name": "細菌・微生物・食中毒 (Bacteria Lab)",
+      "sourcePath": "data/ssw-pm-special-lab-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "SSW_Bacteria_Lab.html",
+      "appOrderIndex": 26,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T21:10:11.496Z",
+      "fileSha256": "9a1de8cc67d92da19b4b810537670b587d977aa3f8a21dc88efaa4f49a89748e",
+      "internalCreatedAtMin": "2025-11-07T07:20:00.001Z",
+      "questionCount": 32,
+      "optionCount": 128,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:20:23.554Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 32,
+        "promptContextsNonEmpty": 32,
+        "optionContextsMapped": 128,
+        "optionContextsNonEmpty": 128,
+        "uniqueReferencedTerms": 309,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 13,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 12,
+          "SUBSTRING_KANJI_COLLISION": 1
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-lab-suhu",
+      "name": "保存温度・温度管理 (Temperature Lab)",
+      "sourcePath": "data/ssw-pm-special-lab-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "SSW_Temperature_Lab_Fixed_v2.html",
+      "appOrderIndex": 27,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T21:10:11.496Z",
+      "fileSha256": "9a1de8cc67d92da19b4b810537670b587d977aa3f8a21dc88efaa4f49a89748e",
+      "internalCreatedAtMin": "2025-11-07T10:06:40.001Z",
+      "questionCount": 28,
+      "optionCount": 112,
+      "totalContexts": 140,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:20:23.554Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 28,
+        "promptContextsNonEmpty": 28,
+        "optionContextsMapped": 112,
+        "optionContextsNonEmpty": 112,
+        "uniqueReferencedTerms": 214,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "ssw-pm-lab-haccp",
+      "name": "HACCP・衛生管理 (HACCP Principles)",
+      "sourcePath": "data/ssw-pm-special-lab-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "HACCP_SSW_quiz.html",
+      "appOrderIndex": 28,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T21:10:11.496Z",
+      "fileSha256": "9a1de8cc67d92da19b4b810537670b587d977aa3f8a21dc88efaa4f49a89748e",
+      "internalCreatedAtMin": "2025-11-07T12:53:20.001Z",
+      "questionCount": 12,
+      "optionCount": 48,
+      "totalContexts": 60,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:20:23.554Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 12,
+        "promptContextsNonEmpty": 12,
+        "optionContextsMapped": 48,
+        "optionContextsNonEmpty": 48,
+        "uniqueReferencedTerms": 354,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 2,
+        "v2CompletenessErrorsByCode": {
+          "SUBSTRING_KANJI_COLLISION": 1,
+          "MISSING_LEXICAL_TERM": 1
+        }
+      }
+    },
+    {
+      "setId": "ssw-pm-lab-alergen",
+      "name": "アレルゲン・特定原材料 (Allergen Lab)",
+      "sourcePath": "data/ssw-pm-special-lab-bundle.json",
+      "isMultiPackageBundle": true,
+      "sourcePdf": "latihan_alergen_jepang_v2.html",
+      "appOrderIndex": 29,
+      "cohort": "cohort_1_spec009_canonical",
+      "fileMtime": "2026-11-08T21:10:11.496Z",
+      "fileSha256": "9a1de8cc67d92da19b4b810537670b587d977aa3f8a21dc88efaa4f49a89748e",
+      "internalCreatedAtMin": "2025-11-07T15:40:00.001Z",
+      "questionCount": 20,
+      "optionCount": 80,
+      "totalContexts": 100,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": true,
+        "spec009PackageRollout": {
+          "status": "migrated",
+          "spanCoveragePct": 100,
+          "validatedAt": "2026-11-13T03:20:23.554Z"
+        },
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 20,
+        "promptContextsNonEmpty": 20,
+        "optionContextsMapped": 80,
+        "optionContextsNonEmpty": 80,
+        "uniqueReferencedTerms": 473,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 0,
+        "spec009SpanCoveragePct": 100,
+        "spec009UnresolvedSpans": 0,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 8,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 7,
+          "SUBSTRING_KANJI_COLLISION": 1
+        }
+      }
+    },
+    {
+      "setId": "latsol-nguyen-01",
+      "name": "Latsol Nguyen 01",
+      "sourcePath": "data/latsol-nguyen-01.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "1-1.pdf",
+      "appOrderIndex": 30,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T04:53:11.675Z",
+      "fileSha256": "c320d56969bc5068e6600f37c689d730b0ec9810ce492f12d4bb4bad23eded1e",
+      "internalCreatedAtMin": "2026-04-01T01:40:55.645Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 425,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 76.13,
+        "spec009UnresolvedSpans": 452,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 26,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 21,
+          "SURFACE_NOT_IN_CONTEXT": 5
+        }
+      }
+    },
+    {
+      "setId": "latsol-nguyen-02",
+      "name": "Latsol Nguyen 02",
+      "sourcePath": "data/latsol-nguyen-02.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "2.pdf",
+      "appOrderIndex": 31,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T04:53:11.691Z",
+      "fileSha256": "53f5a4861eadf3a5ee5b5ab4a627eb37fcbee0af5346884fca4b449896041767",
+      "internalCreatedAtMin": "2026-04-01T01:40:55.745Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 387,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 73.8,
+        "spec009UnresolvedSpans": 405,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 36,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 31,
+          "SURFACE_NOT_IN_CONTEXT": 5
+        }
+      }
+    },
+    {
+      "setId": "latsol-nguyen-03",
+      "name": "Latsol Nguyen 03",
+      "sourcePath": "data/latsol-nguyen-03.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "3.pdf",
+      "appOrderIndex": 32,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T08:50:02.590Z",
+      "fileSha256": "0fbef4d719bfd569d73e5f8d8ea3715477e0728c0d21d4f2ff9d9727859ac3c7",
+      "internalCreatedAtMin": "2026-04-01T01:40:55.845Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 367,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 70.47,
+        "spec009UnresolvedSpans": 479,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 39,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 32,
+          "SURFACE_NOT_IN_CONTEXT": 7
+        }
+      }
+    },
+    {
+      "setId": "latsol-nguyen-04",
+      "name": "Latsol Nguyen 04",
+      "sourcePath": "data/latsol-nguyen-04.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "4.pdf",
+      "appOrderIndex": 33,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T04:53:11.706Z",
+      "fileSha256": "59dca253ec9b431f4c93b2e50ab4092fcff1cb783169f2a4b2d073310f70130d",
+      "internalCreatedAtMin": "2026-04-01T01:40:55.945Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 403,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 71.27,
+        "spec009UnresolvedSpans": 473,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 49,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 39,
+          "SURFACE_NOT_IN_CONTEXT": 10
+        }
+      }
+    },
+    {
+      "setId": "latsol-nguyen-05",
+      "name": "Latsol Nguyen 05",
+      "sourcePath": "data/latsol-nguyen-05.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "5.pdf",
+      "appOrderIndex": 34,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T03:45:11.678Z",
+      "fileSha256": "2661f907838decc0c74c912ad22372b8c6c327420ab25bc899057956d24ac9cd",
+      "internalCreatedAtMin": "2026-04-01T01:40:56.045Z",
+      "questionCount": 36,
+      "optionCount": 108,
+      "totalContexts": 144,
+      "pointsPerQuestion": 4.17,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 36,
+        "promptContextsNonEmpty": 36,
+        "optionContextsMapped": 108,
+        "optionContextsNonEmpty": 108,
+        "uniqueReferencedTerms": 446,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 36,
+        "spec009SpanCoveragePct": 71.12,
+        "spec009UnresolvedSpans": 493,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 41,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 34,
+          "SURFACE_NOT_IN_CONTEXT": 7
+        }
+      }
+    },
+    {
+      "setId": "latsol-nguyen-06",
+      "name": "Latsol Nguyen 06",
+      "sourcePath": "data/latsol-nguyen-06.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "6.pdf",
+      "appOrderIndex": 35,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T04:53:11.713Z",
+      "fileSha256": "615a178afcf97e58bed64d8561945687ca4865e2b1f6ae469a1fe48c8c3ee04f",
+      "internalCreatedAtMin": "2026-04-01T01:40:56.145Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 366,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 71.24,
+        "spec009UnresolvedSpans": 428,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 48,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 14,
+          "MISSING_LEXICAL_TERM": 34
+        }
+      }
+    },
+    {
+      "setId": "latsol-nguyen-07",
+      "name": "Latsol Nguyen 07",
+      "sourcePath": "data/latsol-nguyen-07.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "7.pdf",
+      "appOrderIndex": 36,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T03:45:11.678Z",
+      "fileSha256": "be93326065b3abe5a6068a8b2894a2894029d8f3c6efbf3058a69931cf45e42f",
+      "internalCreatedAtMin": "2026-04-01T01:40:56.245Z",
+      "questionCount": 39,
+      "optionCount": 117,
+      "totalContexts": 156,
+      "pointsPerQuestion": 3.85,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 39,
+        "promptContextsNonEmpty": 39,
+        "optionContextsMapped": 117,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 397,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 39,
+        "spec009SpanCoveragePct": 75.53,
+        "spec009UnresolvedSpans": 442,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 43,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 36,
+          "SURFACE_NOT_IN_CONTEXT": 7
+        }
+      }
+    },
+    {
+      "setId": "latsol-nguyen-08",
+      "name": "Latsol Nguyen 08",
+      "sourcePath": "data/latsol-nguyen-08.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "8.pdf",
+      "appOrderIndex": 37,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T04:53:11.719Z",
+      "fileSha256": "b67db4d29bb3e3b61a40c5dd920f2fb50c6977c7ec74729dee6df29e99966f52",
+      "internalCreatedAtMin": "2026-04-01T01:40:56.345Z",
+      "questionCount": 39,
+      "optionCount": 117,
+      "totalContexts": 156,
+      "pointsPerQuestion": 3.85,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 39,
+        "promptContextsNonEmpty": 39,
+        "optionContextsMapped": 117,
+        "optionContextsNonEmpty": 117,
+        "uniqueReferencedTerms": 384,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 39,
+        "spec009SpanCoveragePct": 75.28,
+        "spec009UnresolvedSpans": 410,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 25,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 19,
+          "SURFACE_NOT_IN_CONTEXT": 6
+        }
+      }
+    },
+    {
+      "setId": "latsol-nguyen-09",
+      "name": "Latsol Nguyen 09",
+      "sourcePath": "data/latsol-nguyen-09.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "9.pdf",
+      "appOrderIndex": 38,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T08:50:02.597Z",
+      "fileSha256": "c7bfb0452f18da069feb666764c5c23f0b241b77903ef6d6c1798d0d0ad5d47a",
+      "internalCreatedAtMin": "2026-04-01T01:40:56.445Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 390,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 70.15,
+        "spec009UnresolvedSpans": 493,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 38,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 32,
+          "SURFACE_NOT_IN_CONTEXT": 6
+        }
+      }
+    },
+    {
+      "setId": "latsol-nguyen-10",
+      "name": "Latsol Nguyen 10",
+      "sourcePath": "data/latsol-nguyen-10.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "10 (2).pdf",
+      "appOrderIndex": 39,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T08:50:02.605Z",
+      "fileSha256": "e218346b0199bfdbf177bc10afaff6caeb64dc6f3575dc78d1a4ba248f9d9b75",
+      "internalCreatedAtMin": "2026-04-01T01:40:56.545Z",
+      "questionCount": 41,
+      "optionCount": 123,
+      "totalContexts": 164,
+      "pointsPerQuestion": 3.66,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 41,
+        "promptContextsNonEmpty": 41,
+        "optionContextsMapped": 123,
+        "optionContextsNonEmpty": 123,
+        "uniqueReferencedTerms": 386,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 41,
+        "spec009SpanCoveragePct": 71.48,
+        "spec009UnresolvedSpans": 482,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 33,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 28,
+          "SURFACE_NOT_IN_CONTEXT": 5
+        }
+      }
+    },
+    {
+      "setId": "latsol-reguler-01",
+      "name": "Latsol Reguler 01",
+      "sourcePath": "data/latsol-reguler-01.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Latihan 1 Soal SSW PM + KJ.pdf",
+      "appOrderIndex": 40,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T08:50:02.612Z",
+      "fileSha256": "81b01f4e2b2b1510cfe81447ab3ab6003daae10a5b055a7cc0cceb034c3c8651",
+      "internalCreatedAtMin": "2026-04-01T01:40:56.645Z",
+      "questionCount": 20,
+      "optionCount": 65,
+      "totalContexts": 85,
+      "pointsPerQuestion": 7.5,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 20,
+        "promptContextsNonEmpty": 20,
+        "optionContextsMapped": 65,
+        "optionContextsNonEmpty": 65,
+        "uniqueReferencedTerms": 129,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 20,
+        "spec009SpanCoveragePct": 55.06,
+        "spec009UnresolvedSpans": 145,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 73,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 54,
+          "MISSING_LEXICAL_TERM": 19
+        }
+      }
+    },
+    {
+      "setId": "latsol-reguler-02",
+      "name": "Latsol Reguler 02",
+      "sourcePath": "data/latsol-reguler-02.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Latihan 2 Soal SSW PM + KJ.pdf",
+      "appOrderIndex": 41,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T03:45:11.678Z",
+      "fileSha256": "2071f5da2ae47cfa0b611babffc359d0a3d63f192b8d5c7f66d8d2b7764bdddd",
+      "internalCreatedAtMin": "2026-04-01T01:40:56.745Z",
+      "questionCount": 20,
+      "optionCount": 60,
+      "totalContexts": 80,
+      "pointsPerQuestion": 7.5,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 20,
+        "promptContextsNonEmpty": 20,
+        "optionContextsMapped": 60,
+        "optionContextsNonEmpty": 60,
+        "uniqueReferencedTerms": 160,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 20,
+        "spec009SpanCoveragePct": 56.05,
+        "spec009UnresolvedSpans": 186,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 54,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 36,
+          "MISSING_LEXICAL_TERM": 18
+        }
+      }
+    },
+    {
+      "setId": "latsol-reguler-03",
+      "name": "Latsol Reguler 03",
+      "sourcePath": "data/latsol-reguler-03.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Latihan 3 Soal SSW PM + KJ.pdf",
+      "appOrderIndex": 42,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T03:45:11.678Z",
+      "fileSha256": "dab45165aef4737d5a6047515862fd9147f233dffd1495ebcbc83328f9d84c3d",
+      "internalCreatedAtMin": "2026-04-01T01:40:56.845Z",
+      "questionCount": 20,
+      "optionCount": 60,
+      "totalContexts": 80,
+      "pointsPerQuestion": 7.5,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 20,
+        "promptContextsNonEmpty": 20,
+        "optionContextsMapped": 60,
+        "optionContextsNonEmpty": 60,
+        "uniqueReferencedTerms": 182,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 20,
+        "spec009SpanCoveragePct": 54.86,
+        "spec009UnresolvedSpans": 179,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 55,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 39,
+          "MISSING_LEXICAL_TERM": 16
+        }
+      }
+    },
+    {
+      "setId": "latsol-reguler-04",
+      "name": "Latsol Reguler 04",
+      "sourcePath": "data/latsol-reguler-04.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Latihan 4 Soal SSW PM + KJ.pdf",
+      "appOrderIndex": 43,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T03:45:11.678Z",
+      "fileSha256": "7a055948632db28d3e7451190caf0708710db631e888d23b60039b1a9e7b66a5",
+      "internalCreatedAtMin": "2026-04-01T01:40:56.945Z",
+      "questionCount": 20,
+      "optionCount": 80,
+      "totalContexts": 100,
+      "pointsPerQuestion": 7.5,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 20,
+        "promptContextsNonEmpty": 20,
+        "optionContextsMapped": 80,
+        "optionContextsNonEmpty": 80,
+        "uniqueReferencedTerms": 205,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 20,
+        "spec009SpanCoveragePct": 61.56,
+        "spec009UnresolvedSpans": 246,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 56,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 26,
+          "SURFACE_NOT_IN_CONTEXT": 30
+        }
+      }
+    },
+    {
+      "setId": "latsol-reguler-05",
+      "name": "Latsol Reguler 05",
+      "sourcePath": "data/latsol-reguler-05.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Latihan 5 Soal SSW PM + KJ.pdf",
+      "appOrderIndex": 44,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T04:53:11.736Z",
+      "fileSha256": "cfdf414c6635129e30debcf821d94c1e0f087793a1511a0600b8cecb252cddd3",
+      "internalCreatedAtMin": "2026-04-01T01:40:57.045Z",
+      "questionCount": 20,
+      "optionCount": 61,
+      "totalContexts": 81,
+      "pointsPerQuestion": 7.5,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 20,
+        "promptContextsNonEmpty": 20,
+        "optionContextsMapped": 61,
+        "optionContextsNonEmpty": 61,
+        "uniqueReferencedTerms": 201,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 20,
+        "spec009SpanCoveragePct": 59.93,
+        "spec009UnresolvedSpans": 237,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 77,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 55,
+          "MISSING_LEXICAL_TERM": 22
+        }
+      }
+    },
+    {
+      "setId": "latsol-reguler-06",
+      "name": "Latsol Reguler 06",
+      "sourcePath": "data/latsol-reguler-06.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Latihan 6 Soal SSW PM + KJ.pdf",
+      "appOrderIndex": 45,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T03:45:11.678Z",
+      "fileSha256": "560312b52e06419cec7e9d48817856d3931defa94ae3cc3e021dd5824fa20854",
+      "internalCreatedAtMin": "2026-04-01T01:40:57.145Z",
+      "questionCount": 20,
+      "optionCount": 61,
+      "totalContexts": 81,
+      "pointsPerQuestion": 7.5,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 20,
+        "promptContextsNonEmpty": 20,
+        "optionContextsMapped": 61,
+        "optionContextsNonEmpty": 61,
+        "uniqueReferencedTerms": 193,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 20,
+        "spec009SpanCoveragePct": 57.51,
+        "spec009UnresolvedSpans": 189,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 65,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 46,
+          "MISSING_LEXICAL_TERM": 19
+        }
+      }
+    },
+    {
+      "setId": "latsol-tambahan-01",
+      "name": "Latsol Tambahan 01",
+      "sourcePath": "data/latsol-tambahan-01.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf",
+      "appOrderIndex": 46,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T03:45:11.678Z",
+      "fileSha256": "3c1b93e4e66ab87d5c416ada51e82a6c2197eee2930df0366930ef590f85dd86",
+      "internalCreatedAtMin": "2026-04-01T01:40:57.245Z",
+      "questionCount": 25,
+      "optionCount": 86,
+      "totalContexts": 111,
+      "pointsPerQuestion": 6,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 25,
+        "promptContextsNonEmpty": 25,
+        "optionContextsMapped": 86,
+        "optionContextsNonEmpty": 86,
+        "uniqueReferencedTerms": 212,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 25,
+        "spec009SpanCoveragePct": 61.91,
+        "spec009UnresolvedSpans": 327,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 17,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 13,
+          "MISSING_LEXICAL_TERM": 4
+        }
+      }
+    },
+    {
+      "setId": "latsol-tambahan-02",
+      "name": "Latsol Tambahan 02",
+      "sourcePath": "data/latsol-tambahan-02.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf",
+      "appOrderIndex": 47,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T03:45:11.678Z",
+      "fileSha256": "e0d4407b8a74dfd4b948f5a332e8f075fb9a35f2d0e7190eb8a0e9c9d23f108c",
+      "internalCreatedAtMin": "2026-04-01T01:40:57.345Z",
+      "questionCount": 30,
+      "optionCount": 120,
+      "totalContexts": 150,
+      "pointsPerQuestion": 5,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 30,
+        "promptContextsNonEmpty": 30,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 316,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 30,
+        "spec009SpanCoveragePct": 47.55,
+        "spec009UnresolvedSpans": 356,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 224,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 189,
+          "MISSING_LEXICAL_TERM": 35
+        }
+      }
+    },
+    {
+      "setId": "latsol-hitungan-01",
+      "name": "Latsol Hitungan 01",
+      "sourcePath": "data/latsol-hitungan-01.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "HITUNGAN PM.docx",
+      "appOrderIndex": 48,
+      "cohort": "cohort_2_unaudited_19_paket",
+      "fileMtime": "2026-11-14T03:45:11.678Z",
+      "fileSha256": "515593a2a76b26bd8ce3671a74763e70b6eaefa3da0f6a7261c2bbdaf8373449",
+      "internalCreatedAtMin": "2026-04-01T01:40:57.445Z",
+      "questionCount": 11,
+      "optionCount": 33,
+      "totalContexts": 44,
+      "pointsPerQuestion": 13.64,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": true
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 11,
+        "promptContextsNonEmpty": 11,
+        "optionContextsMapped": 33,
+        "optionContextsNonEmpty": 33,
+        "uniqueReferencedTerms": 41,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 0,
+        "extraTambahanEntries": 11,
+        "spec009SpanCoveragePct": 65.63,
+        "spec009UnresolvedSpans": 199,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 11,
+        "v2CompletenessErrorsByCode": {
+          "MISSING_LEXICAL_TERM": 7,
+          "SURFACE_NOT_IN_CONTEXT": 4
+        }
+      }
+    },
+    {
+      "setId": "pilot-otaff51-01",
+      "name": "Pilot OTAFF 5.1 (Bab 1-3)",
+      "sourcePath": "data/pilot-otaff51-01.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 49,
+      "cohort": "cohort_4_pilot_otaff51",
+      "fileMtime": "2026-11-15T08:21:48.206Z",
+      "fileSha256": "8929297614dff4a9e8632807fc17ee7fe4bbde4d316e499c0e2a5a7aa5e95b3b",
+      "internalCreatedAtMin": "2026-04-01T02:20:00.001Z",
+      "questionCount": 5,
+      "optionCount": 20,
+      "totalContexts": 25,
+      "pointsPerQuestion": 30,
+      "durationMinutes": null,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 5,
+        "promptContextsNonEmpty": 5,
+        "optionContextsMapped": 20,
+        "optionContextsNonEmpty": 20,
+        "uniqueReferencedTerms": 115,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 5,
+        "extraTambahanEntries": 5,
+        "spec009SpanCoveragePct": 63.64,
+        "spec009UnresolvedSpans": 129,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 72,
+        "v2CompletenessErrorsByCode": {
+          "SURFACE_NOT_IN_CONTEXT": 24,
+          "MISSING_LEXICAL_TERM": 47,
+          "SUBSTRING_KANJI_COLLISION": 1
+        }
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-01",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 01",
+      "sourcePath": "data/latsol-otaff-pm51-01.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 50,
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "fileMtime": "2026-11-15T14:13:49.493Z",
+      "fileSha256": "7993bc3295854c3d13561628b96ae9061ddec889e7d815bd77e11629a1a5cc66",
+      "internalCreatedAtMin": "2025-11-15T09:46:41.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": 70,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 601,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 40,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 79.89,
+        "spec009UnresolvedSpans": 681,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-02",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 02",
+      "sourcePath": "data/latsol-otaff-pm51-02.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 51,
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "fileMtime": "2026-11-15T14:13:49.512Z",
+      "fileSha256": "40ec3f0386929d76e98742e4089794a6e5991b684e80678934c482a18598338f",
+      "internalCreatedAtMin": "2025-11-15T09:46:42.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": 70,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 679,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 40,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 79.92,
+        "spec009UnresolvedSpans": 730,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-03",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 03",
+      "sourcePath": "data/latsol-otaff-pm51-03.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 52,
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "fileMtime": "2026-11-15T14:13:49.546Z",
+      "fileSha256": "bd0074fafb998ec59862fd503be9a44b0d783e6727427f189f653c4e7f3e833c",
+      "internalCreatedAtMin": "2025-11-15T09:46:43.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": 70,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 687,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 40,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 78.56,
+        "spec009UnresolvedSpans": 817,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-04",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 04",
+      "sourcePath": "data/latsol-otaff-pm51-04.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 53,
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "fileMtime": "2026-11-15T14:13:49.565Z",
+      "fileSha256": "7bea344857e5c7b17af23c45eda7bfc51b1ec7c37bd332ef40dc327e2dd8b74d",
+      "internalCreatedAtMin": "2025-11-15T09:46:44.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": 70,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 734,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 40,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 78.32,
+        "spec009UnresolvedSpans": 902,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-05",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 05",
+      "sourcePath": "data/latsol-otaff-pm51-05.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 54,
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "fileMtime": "2026-11-15T14:13:49.585Z",
+      "fileSha256": "25d6d686797f91826a1ad3bc108bfa53b75cdbe3d9d4205cea54036735047b51",
+      "internalCreatedAtMin": "2025-11-15T09:46:45.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": 70,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 665,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 40,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 77.26,
+        "spec009UnresolvedSpans": 802,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-06",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 06",
+      "sourcePath": "data/latsol-otaff-pm51-06.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 55,
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "fileMtime": "2026-11-15T14:13:49.608Z",
+      "fileSha256": "4626bdc707b29986f7c34632bf3471165f7d6240a6dd47d400c48791c1d5c727",
+      "internalCreatedAtMin": "2025-11-15T09:46:46.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": 70,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 678,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 40,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 80.08,
+        "spec009UnresolvedSpans": 776,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-07",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 07",
+      "sourcePath": "data/latsol-otaff-pm51-07.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 56,
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "fileMtime": "2026-11-15T14:13:49.632Z",
+      "fileSha256": "c0ed1ae66db148c1a48a9fb7b548b5d124b0492e401e9c19c5a2a3330cd83c0e",
+      "internalCreatedAtMin": "2025-11-15T09:46:47.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": 70,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 691,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 40,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 78.17,
+        "spec009UnresolvedSpans": 825,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-08",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 08",
+      "sourcePath": "data/latsol-otaff-pm51-08.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 57,
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "fileMtime": "2026-11-15T14:13:49.650Z",
+      "fileSha256": "f3b57da900116ae415fbe01d8620e9fe88227d6166102412f64268c1f23f4e45",
+      "internalCreatedAtMin": "2025-11-15T09:46:48.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": 70,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 672,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 40,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 80.13,
+        "spec009UnresolvedSpans": 834,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-09",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 09",
+      "sourcePath": "data/latsol-otaff-pm51-09.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 58,
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "fileMtime": "2026-11-15T14:13:49.665Z",
+      "fileSha256": "b2e246fc879fce6541c2f2f348907381b9282ab8803f3af1569c81f1ada3b4c3",
+      "internalCreatedAtMin": "2025-11-15T09:46:49.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": 70,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 646,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 40,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 82.11,
+        "spec009UnresolvedSpans": 758,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    },
+    {
+      "setId": "latsol-otaff-pm51-10",
+      "name": "Latsol OTAFF SSW PM Modul 5.1 - Paket 10",
+      "sourcePath": "data/latsol-otaff-pm51-10.json",
+      "isMultiPackageBundle": false,
+      "sourcePdf": "Bab 1-3.pdf",
+      "appOrderIndex": 59,
+      "cohort": "cohort_5_protected_otaff_pm51",
+      "fileMtime": "2026-11-15T14:13:49.686Z",
+      "fileSha256": "832c30cc284ee8661bd1e5f44dfa4363cf3cfd0b3c02b4a1a63125c9b4cb9a83",
+      "internalCreatedAtMin": "2025-11-15T09:46:50.001Z",
+      "questionCount": 40,
+      "optionCount": 120,
+      "totalContexts": 160,
+      "pointsPerQuestion": 3.75,
+      "durationMinutes": 70,
+      "auditEvidence": {
+        "spec009Audited": false,
+        "spec009PackageRollout": null,
+        "answerKeyAuditedInDocs": false
+      },
+      "baselineKotobaMetrics": {
+        "promptContextsMapped": 40,
+        "promptContextsNonEmpty": 40,
+        "optionContextsMapped": 120,
+        "optionContextsNonEmpty": 120,
+        "uniqueReferencedTerms": 748,
+        "missingTermReferences": 0,
+        "unverifiedTermReferences": 0,
+        "inlineKotobaQuestions": 40,
+        "extraTambahanEntries": 40,
+        "spec009SpanCoveragePct": 79.14,
+        "spec009UnresolvedSpans": 909,
+        "spec009FileValidatorErrors": 0,
+        "v2CompletenessErrorTotal": 0,
+        "v2CompletenessErrorsByCode": {}
+      }
+    }
+  ]
+}

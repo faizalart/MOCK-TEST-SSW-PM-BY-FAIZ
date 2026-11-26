@@ -1,0 +1,73 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-7 (Soal Ujian 7 — CBTP Gino1) | Batch qa-batch-02 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=kunci-ujian-7-q017 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-otaff51-0102 "乳": kotoba="にゅう" vs ruby="ちち"
+  CLUSTER CL-0082 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q024 (ssw-pm-kunci-ujian-3), kunci-ujian-14-q022 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギーの<ruby>発症件数<rt>はっしょうけんすう</rt></ruby>が<ruby>特多<rt>とくおお</rt></ruby>い8<ruby>種類<rt>しゅるい</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah 8 jenis bahan pangan yang memiliki jumlah kasus alergi paling banyak (bahan baku spesifik / alergen wajib)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 3, Câu 17 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p2-018] アレルギー(-) [technical] = alergi | [kb-ext-1453-e799bae797] 発症件数(はっしょうけんすう) [word] = jumlah kasus kejadian | [kb-audit-0255] 特多い(とくにおおい) [word] = sangat banyak (penulisan typo 特に多い) | [kb-1328890] 種類(しゅるい) [word] = jenis / macam | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=くるみ、そば、<ruby>卵<rt>たまご</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>、<ruby>小麦<rt>こむぎ</rt></ruby>、たまねぎ、えび、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>
+    TRANS: Kenari (walnut), soba (buckwheat), telur, kacang tanah, gandum, bawang bombai, udang, daging sapi
+    KOTOBA: [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut) | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-otaff51-0216] 卵(たまご) [noun] = telur | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut) | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-v2-p5-103] たまねぎ(-) [word] = bawang bombai | [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi
+  OPT B: HTML=えび、かに、<ruby>牡蠣<rt>かき</rt></ruby>、にんじん、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、りんご、オレンジ、くるみ
+    TRANS: Udang, kepiting, tiram, wortel, daging sapi, apel, jeruk, kenari (walnut)
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p2-056] にんじん(-) [word] = wortel | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi | [kb-otaff51-0030] りんご(りんご) [noun] = apel | [kb-v2-p2-057] オレンジ(-) [word] = jeruk | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)
+  OPT C: HTML=くるみ、えび、かに、<ruby>小麦<rt>こむぎ</rt></ruby>、そば、<ruby>卵<rt>たまご</rt></ruby>、<ruby>乳<rt>ちち</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>
+    TRANS: Kenari (walnut), udang, kepiting, gandum, soba (buckwheat), telur, susu, kacang tanah
+    KOTOBA: [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut) | [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-otaff51-0216] 卵(たまご) [noun] = telur | [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut)
+
+=== #Q18 | ID=kunci-ujian-7-q018 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.3 ===
+  CLUSTER CL-0083 (n=4, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q025 (ssw-pm-kunci-ujian-3), kunci-ujian-5-q030 (ssw-pm-kunci-ujian-5), kunci-ujian-14-q023 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai pengelolaan bahan kimia/obat pembersih.
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 3, Câu 18 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=どこで<ruby>保管<rt>ほかん</rt></ruby>しても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Boleh disimpan di mana saja
+    KOTOBA: [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p2-217] 保管しても(ほかんしても) [inflected, df:保管する] = meskipun disimpan | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>使用量<rt>しようりょう</rt></ruby>や<ruby>残<rt>のこ</rt></ruby>った<ruby>量<rt>りょう</rt></ruby>を<ruby>入出庫台帳<rt>にゅうしゅっこだいちょう</rt></ruby>に<ruby>書<rt>か</rt></ruby>いて<ruby>記録<rt>きろく</rt></ruby>する。
+    TRANS: Mencatat jumlah penggunaan dan sisa bahan kimia pada buku catatan keluar-masuk barang.
+    KOTOBA: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-1306330] 使用量(しようりょう) [word] = jumlah / takaran pemakaian | [kb-v2-p5-387] 残った(のこった) [inflected, df:残る] = yang tersisa | [kb-v2-p1-085] 量(りょう) [word] = jumlah / takaran | [kb-ext-1410-e585a5e587] 入出庫台帳(にゅうしゅっこだいちょう) [word] = buku catatan keluar-masuk stok | [kb-v2-p1-194] 書いて(かいて) [inflected_verb, df:書く] = menulis (dasar: 書く) | [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>薬剤<rt>やくざい</rt></ruby>の<ruby>容器<rt>ようき</rt></ruby>には、<ruby>必<rt>かなら</rt></ruby>ず<ruby>薬剤名<rt>やくざいめい</rt></ruby>、<ruby>使用方法<rt>しようほうほう</rt></ruby>などを<ruby>書<rt>か</rt></ruby>く。
+    TRANS: Pada wadah bahan kimia harus selalu dituliskan nama bahan kimia, cara penggunaan, dan informasi lainnya
+    KOTOBA: [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-ext-1708-e896ace589] 薬剤名(やくざいめい) [word] = nama bahan kimia / disinfektan | [kb-1306300] 使用方法(しようほうほう) [word] = petunjuk cara penggunaan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p2-151] 書く(かく) [word] = menulis | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q19 | ID=kunci-ujian-7-q019 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>交差汚染<rt>こうさおせん</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するために<ruby>行<rt>おこな</rt></ruby>われる<ruby>管理方法<rt>かんりほうほう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa metode manajemen yang dilakukan di pabrik pengolahan pangan untuk mencegah kontaminasi silang?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 4, Câu 19 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-otaff51-0109] 交差汚染(こうさおせん) [compound_technical] = kontaminasi silang (cross-contamination) | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-audit-0665] 行われる(おこなわれる) [inflected_verb, df:行う] = dilakukan / dilaksanakan | [kb-ext-0294-e7aea1e790] 管理方法(かんりほうほう) [word] = metode pengendalian | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>自動掃除<rt>じどうそうじ</rt></ruby>ロボットの<ruby>導入<rt>どうにゅう</rt></ruby>。
+    TRANS: Penerapan robot pembersih otomatis
+    KOTOBA: [kb-ext-0753-e887aae58b] 自動掃除(じどうそうじ) [word] = pembersihan otomatis mesin (CIP) | [kb-v2-p6-207] ロボット(-) [word] = robot | [kb-1453790] 導入(どうにゅう) [word] = penerapan sistem | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>（ゾーニング）。
+    TRANS: Manajemen higiene berdasarkan pembagian zona (zoning)
+    KOTOBA: [kb-otaff51-0209] 区分衛生管理(くぶんえいせいかんり) [compound_technical] = manajemen higiene pembagian zona (zoning) | [kb-otaff51-0056] ゾーニング(ぞーにんぐ) [compound_technical] = pembagian zona higiene (zoning)
+  OPT C: HTML=<ruby>工場内<rt>こうじょうない</rt></ruby>にペットを<ruby>置<rt>お</rt></ruby>くこと。
+    TRANS: Menempatkan hewan peliharaan di dalam pabrik
+    KOTOBA: [kb-ext-0547-e5b7a5e5a0] 工場内(こうじょうない) [word] = di dalam area pabrik | [kb-v2-p6-220] ペット(-) [word] = hewan peliharaan | [kb-v2-p3-275] 置く(おく) [word] = meletakkan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q20 | ID=kunci-ujian-7-q020 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 7.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPによる<ruby>衛生管理<rt>えいせいかんり</rt></ruby>において、<ruby>危害要因<rt>きがいよういん</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>はどれですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam manajemen higiene berdasarkan HACCP, manakah metode untuk menganalisis faktor bahaya?
+  EXPLANATION: Sumber: Kunci Soal Ujian 7.pdf (Halaman 4, Câu 20 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-1503870] 分析(ぶんせき) [word] = analisis | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>栄養価<rt>えいようか</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べる
+    TRANS: Memeriksa nilai gizi pangan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1174000] 栄養価(えいようか) [word] = nilai kandungan nutrisi | [kb-otaff51-0865] 調べる(しらべる) [verb] = memeriksa / menyelidiki | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>原材料<rt>げんざいりょう</rt></ruby>や<ruby>製造工程<rt>せいぞうこうてい</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べ、<ruby>危害要因<rt>きがいよういん</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>する
+    TRANS: Memeriksa bahan baku dan proses produksi pangan, lalu menganalisis faktor bahayanya
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0556] 製造工程(せいぞうこうてい) [compound_technical] = tahapan proses produksi | [kb-v2-p3-281] 調べ(しらべ) [inflected, df:調べる] = memeriksa / meneliti | [kb-otaff51-0212] 危害要因(きがいよういん) [compound_technical] = faktor bahaya (hazard) | [kb-1503870] 分析(ぶんせき) [word] = analisis | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>賞味期限<rt>しょうみきげん</rt></ruby>を<ruby>決定<rt>けってい</rt></ruby>する
+    TRANS: Menentukan batas waktu kualitas terbaik (baik digunakan sebelum) pada pangan
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0581] 賞味期限(しょうみきげん) [compound_technical] = batas tanggal cita rasa terbaik (best before) | [kb-1254380] 決定(けってい) [word] = penetapan / keputusan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

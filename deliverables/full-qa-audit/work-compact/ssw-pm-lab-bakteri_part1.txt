@@ -1,0 +1,86 @@
+# AUDIT SHEET: ssw-pm-lab-bakteri (細菌・微生物・食中毒 (Bacteria Lab)) | Batch qa-batch-06 | Part 1 (Q1-4 of 32)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=lab-bac-001 | KEY=B (idx=1) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>原因食品<rt>げんいんしょくひん</rt></ruby>について、<ruby>食肉<rt>しょくにく</rt></ruby>（<ruby>特<rt>とく</rt></ruby>に<ruby>鶏肉<rt>とりにく</rt></ruby>）が<ruby>挙<rt>あ</rt></ruby>げられ、<ruby>鶏卵<rt>けいらん</rt></ruby>が<ruby>含<rt>ふく</rt></ruby>まれない<ruby>細菌<rt>さいきん</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai makanan penyebab utama keracunan makanan, pilihlah satu bakteri yang paling tepat yang dicantumkan dengan makanan pemicu 'daging (terutama daging ayam)' tanpa menyertakan telur ayam.
+  EXPLANATION: 【正解：B (カンピロバクター属菌)】
+カンピロバクターの主な原因食品は「食肉（特に鶏肉）」です。サルモネラ属菌も食肉（特に鶏肉）が原因となりますが、鶏卵（生卵・割卵）も重要な原因食品として明確に記載されます。腸炎ビブリオは魚介類、黄色ブドウ球菌はおにぎりやサンドイッチなどが主な原因食品です。
+  KOTOBA_PROMPT: [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-0479-e58e9fe59b] 原因食品(げんいんしょくひん) [word] = makanan penyebab keracunan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-v2-p3-249] 挙げられ(あげられ) [inflected, df:挙げる] = disebutkan sebagai contoh | [kb-otaff51-0684] 鶏卵(けいらん) [noun] = telur ayam | [kb-otaff51-0764] 含まれない(ふくまれない) [inflected_verb, df:含む] = tidak termasuk | [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Salmonella
+    KOTOBA: [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella
+  OPT B: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Campylobacter
+    KOTOBA: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter
+  OPT C: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus
+    KOTOBA: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT D: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+
+=== #Q2 | ID=lab-bac-002 | KEY=A (idx=0) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食肉<rt>しょくにく</rt></ruby>（<ruby>特<rt>とく</rt></ruby>に<ruby>鶏肉<rt>とりにく</rt></ruby>）および<ruby>鶏卵<rt>けいらん</rt></ruby>を<ruby>主<rt>おも</rt></ruby>な<ruby>原因食品<rt>げんいんしょくひん</rt></ruby>とし、<ruby>下痢<rt>げり</rt></ruby>、<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>発熱<rt>はつねつ</rt></ruby>などの<ruby>症状<rt>しょうじょう</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu bakteri keracunan makanan yang paling tepat, yang memiliki makanan pemicu utama daging (terutama ayam) serta telur ayam, dan menyebabkan gejala diare, sakit perut, serta demam.
+  EXPLANATION: 【正解：A (サルモネラ属菌)】
+サルモネラ属菌は「鶏卵」および「食肉（特に鶏肉）」が代表的な原因食品です。激しい腹痛、下痢、発熱を引き起こします。カンピロバクターは主に鶏肉等の食肉で鶏卵は通常含まれません。ウェルシュ菌はカレーやシチュー等の煮込み料理が中心です。
+  KOTOBA_PROMPT: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-v2-p3-128] および(-) [particle] = serta / dan | [kb-otaff51-0684] 鶏卵(けいらん) [noun] = telur ayam | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-0479-e58e9fe59b] 原因食品(げんいんしょくひん) [word] = makanan penyebab keracunan | [kb-audit-0400] とし(とし) [word] = sebagai / menjadikan (bentuk sambung とする) | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p2-179] 引き起こす(ひきおこす) [word] = menimbulkan / menyebabkan | [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Campylobacter
+    KOTOBA: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter
+  OPT B: HTML=サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Salmonella
+    KOTOBA: [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella
+  OPT C: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus
+    KOTOBA: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT D: HTML=ウェルシュ<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium perfringens
+    KOTOBA: [kb-otaff51-0039] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens
+
+=== #Q3 | ID=lab-bac-003 | KEY=D (idx=3) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>生鮮魚介類<rt>せいせんぎょかいるい</rt></ruby>を<ruby>主<rt>おも</rt></ruby>な<ruby>原因食品<rt>げんいんしょくひん</rt></ruby>とし、<ruby>腹痛<rt>ふくつう</rt></ruby>や<ruby>激<rt>はげ</rt></ruby>しい<ruby>下痢<rt>げり</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>好塩性<rt>こうえんせい</rt></ruby>の<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu bakteri keracunan makanan yang paling tepat, yang menyukai garam (halofilik), bersumber utama dari makanan laut segar (ikan/kerang), dan memicu sakit perut serta diare hebat.
+  EXPLANATION: 【正解：D (腸炎ビブリオ)】
+腸炎ビブリオは海水中に生息する好塩菌で、魚介類（刺身や寿司など）を介して感染し、激しい腹痛や水様性下痢を引き起こします。真水（水道水）や加熱に弱い性質があります。
+  KOTOBA_PROMPT: [kb-otaff51-0446] 生鮮魚介類(せいせんぎょかいるい) [compound_technical] = ikan dan hasil laut segar | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-0479-e58e9fe59b] 原因食品(げんいんしょくひん) [word] = makanan penyebab keracunan | [kb-audit-0400] とし(とし) [word] = sebagai / menjadikan (bentuk sambung とする) | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-v2-p2-179] 引き起こす(ひきおこす) [word] = menimbulkan / menyebabkan | [kb-2709940] 好塩性(こうえんせい) [word] = sifat tahan garam (halofilik) | [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>
+    TRANS: Enterohemorrhagic E. coli (EHEC)
+    KOTOBA: [kb-otaff51-0525] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [compound_technical] = bakteri E. coli enterohemoragik (O157, O111)
+  OPT B: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT C: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+  OPT D: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus
+    KOTOBA: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+
+=== #Q4 | ID=lab-bac-004 | KEY=C (idx=2) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食肉<rt>しょくにく</rt></ruby>（<ruby>特<rt>とく</rt></ruby>に<ruby>牛肉<rt>ぎゅうにく</rt></ruby>）、<ruby>生野菜<rt>なまやさい</rt></ruby>、<ruby>井戸水<rt>いどみず</rt></ruby>などが<ruby>主<rt>おも</rt></ruby>な<ruby>原因食品<rt>げんいんしょくひん</rt></ruby>・<ruby>感染源<rt>かんせんげん</rt></ruby>となる<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu bakteri keracunan makanan yang paling tepat, yang makanan pemicu serta sumber infeksinya mencakup daging (terutama sapi), sayuran mentah, dan air sumur.
+  EXPLANATION: 【正解：C (腸管出血性大腸菌)】
+腸管出血性大腸菌（O157等）は牛などの家畜の腸管内に生息し、食肉（特に牛肉）、牛糞等で汚染された生野菜や井戸水が感染源となります。少量の菌数でも感染・発症します。
+  KOTOBA_PROMPT: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi | [kb-otaff51-0443] 生野菜(なまやさい) [noun] = sayuran mentah | [kb-otaff51-0108] 井戸水(いどみず) [noun] = air sumur | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-0479-e58e9fe59b] 原因食品(げんいんしょくひん) [word] = makanan penyebab keracunan | [kb-1979580] 感染源(かんせんげん) [word] = sumber penularan infeksi | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Salmonella
+    KOTOBA: [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella
+  OPT B: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bacillus cereus
+    KOTOBA: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus
+  OPT C: HTML=<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>（O157、O111など）
+    TRANS: Enterohemorrhagic E. coli (O157, O111, dll.)
+    KOTOBA: [kb-otaff51-0525] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [compound_technical] = bakteri E. coli enterohemoragik (O157, O111) | [kb-otaff51-0791] O157(おーいちごーなな) [compound_technical] = bakteri E. coli O157 | [kb-otaff51-0857] O111(おーいちいちいち) [compound_technical] = bakteri E. coli O111 | [kb-v2-p1-336] など(-) [particle] = dan lain-lain
+  OPT D: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Campylobacter
+    KOTOBA: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter

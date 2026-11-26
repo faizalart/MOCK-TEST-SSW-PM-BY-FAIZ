@@ -1,0 +1,72 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-9 (Soal Ujian 9 — CBTP Gino1) | Batch qa-batch-02 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=kunci-ujian-9-q005 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 腹 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0451 (はきある): "ada rasa mual (typo text: 吐き気がある)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ほんじつしゅっきんよていありますが、お腹をこわしたり、はきある。かきはどれか、ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hari ini Anda dijadwalkan masuk kerja, tetapi mengalami sakit perut (diare) atau muntah. Manakah tindakan di bawah ini yang tepat? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 1, Câu 5 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-v2-p6-589] ほんじつ(-) [word] = hari ini | [kb-audit-0820] しゅっきんよてい(しゅっきんよてい) [word] = jadwal masuk kerja | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-v2-p5-156] お腹(おなか) [word] = perut | [kb-audit-0039] こわしたり(こわしたり) [inflected_verb, df:壊す] = sakit perut / mengalami kerusakan | [kb-audit-0451] はきある(はきけがある) [word] = ada rasa mual (typo text: 吐き気がある) | [kb-otaff51-0966] かき(かき) [noun] = tiram | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=そのまましゅっきんします。
+    TRANS: Tetap masuk kerja seperti biasa.
+    KOTOBA: [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-audit-0821] しゅっきん(しゅっきん) [word] = masuk kerja | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=せきにんしゃにほうこくし、しじにしたがいます。
+    TRANS: Melapor kepada penanggung jawab dan mengikuti instruksinya.
+    KOTOBA: [kb-audit-0872] せきにんしゃ(せきにんしゃ) [word] = penanggung jawab | [kb-audit-1028] ほうこくし(ほうこくし) [inflected_verb, df:報告する] = melapor (報告する) | [kb-audit-0874] しじ(しじ) [word] = instruksi / arahan | [kb-audit-0875] したがいます(したがいます) [inflected_verb, df:従う] = mengikuti / mematuhi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=じこはんだんでやすみます
+    TRANS: Libur atas keputusan sendiri.
+    KOTOBA: [kb-v2-p6-602] じこはんだん(-) [word] = keputusan sendiri | [kb-audit-0822] やすみます(やすみます) [inflected_verb, df:休む] = beristirahat / libur | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q6 | ID=kunci-ujian-9-q006 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>洗剤<rt>せんざい</rt></ruby>や<ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うときに<ruby>必要<rt>ひつよう</rt></ruby>なことは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa hal yang diperlukan saat menggunakan deterjen atau bahan kimia?
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 1, Câu 6 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>洗剤<rt>せんざい</rt></ruby>や<ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>隠<rt>かく</rt></ruby>す。
+    TRANS: Menyembunyikan deterjen dan bahan kimia di tempat yang aman.
+    KOTOBA: [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-v2-p1-260] 安全な(あんぜんな) [word] = aman | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p6-372] 隠す(かくす) [word] = menyembunyikan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>保護具<rt>ほごぐ</rt></ruby>を<ruby>着用<rt>ちゃくよう</rt></ruby>して、<ruby>安全<rt>あんぜん</rt></ruby>に<ruby>使用<rt>しよう</rt></ruby>する。
+    TRANS: Mengenakan alat pelindung diri (APD) dan menggunakannya dengan aman.
+    KOTOBA: [kb-ext-1615-e4bf9de8ad] 保護具(ほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-audit-1012] 着用して(ちゃくようして) [inflected_verb, df:着用する] = mengenakan (~て) | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>洗剤<rt>せんざい</rt></ruby>や<ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>混<rt>ま</rt></ruby>ぜて<ruby>強<rt>つよ</rt></ruby>い<ruby>効果<rt>こうか</rt></ruby>を<ruby>得<rt>え</rt></ruby>る。
+    TRANS: Mencampur deterjen dan bahan kimia untuk mendapatkan efek yang kuat.
+    KOTOBA: [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-audit-0459] 混ぜて(まぜて) [inflected_verb, df:混ぜる] = mencampur / mengaduk | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-1275130] 効果(こうか) [word] = efektivitas / hasil guna | [kb-v2-p6-512] 得る(える) [word] = memperoleh / mendapatkan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q7 | ID=kunci-ujian-9-q007 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうまえにおこなうことはどれですか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah hal yang dilakukan sebelum bekerja? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 2, Câu 7 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0220] さぎょう(さぎょう) [word] = pekerjaan / pengerjaan (作業) | [kb-v2-p6-570] まえ(-) [word] = sebelum / depan | [kb-v2-p4-147] おこなう(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=さぎょうないよう・きかい・そうち・きぐをかくにんしせんじょう・さっきんする<br>、。
+    TRANS: Memeriksa isi pekerjaan, mesin, peralatan, serta perkakas, lalu mencuci dan mensterilkannya.
+    KOTOBA: [kb-audit-0220] さぎょう(さぎょう) [word] = pekerjaan / pengerjaan (作業) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-305] よう(-) [particle] = agar / supaya | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-v2-p6-591] そうち(-) [word] = perangkat / alat pengaman | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-audit-1031] かくにんし(かくにんし) [inflected_verb, df:確認する] = memastikan (確認する) | [kb-audit-0077] せんじょう(せんじょう) [word] = pencucian / pembersihan (洗浄) | [kb-audit-0212] さっきん(さっきん) [word] = sterilisasi / pembunuhan bakteri (殺菌) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=さぎょうないようをかくにん、きかい・そうち・きぐをせんじょう・さっきんする。
+    TRANS: Memeriksa isi pekerjaan, serta mencuci dan mensterilkan mesin, peralatan, dan perkakas.
+    KOTOBA: [kb-audit-0220] さぎょう(さぎょう) [word] = pekerjaan / pengerjaan (作業) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-305] よう(-) [particle] = agar / supaya | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認) | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-v2-p6-591] そうち(-) [word] = perangkat / alat pengaman | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-audit-0077] せんじょう(せんじょう) [word] = pencucian / pembersihan (洗浄) | [kb-audit-0212] さっきん(さっきん) [word] = sterilisasi / pembunuhan bakteri (殺菌) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=きかい・そうち・きぐをせんじょう・さっきんする
+    TRANS: Mencuci dan mensterilkan mesin, peralatan, dan perkakas.
+    KOTOBA: [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-v2-p6-591] そうち(-) [word] = perangkat / alat pengaman | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-audit-0077] せんじょう(せんじょう) [word] = pencucian / pembersihan (洗浄) | [kb-audit-0212] さっきん(さっきん) [word] = sterilisasi / pembunuhan bakteri (殺菌) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q8 | ID=kunci-ujian-9-q008 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.2 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0552 (もっも): "paling (typo: もっとも)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0907 (ムダなを): "gerakan sia-sia (typo)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうちゅうについて、もっもよいものをえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang paling tepat mengenai tindakan selama bekerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 2, Câu 8 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-1139] さぎょうちゅう(さぎょうちゅう) [word] = saat bekerja / selama kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0552] もっも(もっとも) [adverb] = paling (typo: もっとも) | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=かねつしたものやれいきゃくしたものをながくしつおんでほうちしてもだいじょうぶです。
+    TRANS: Tidak apa-apa membiarkan bahan yang telah melalui pemanasan atau pendinginan di suhu ruang dalam waktu lama.
+    KOTOBA: [kb-audit-0222] かねつ(かねつ) [word] = pemanasan (加熱) | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-latsol-9957f355b2] れいきゃく(れいきゃく) [word] = pendinginan | [kb-audit-1081] ながく(ながく) [inflected_adj, df:長い] = lama / panjang (長い) | [kb-audit-0693] しつおん(しつおん) [word] = suhu ruangan | [kb-audit-1036] ほうちして(ほうちして) [inflected_verb, df:放置する] = membiarkan (~て) | [kb-v2-p6-587] だいじょうぶ(-) [word] = tidak apa-apa / aman | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT B: HTML=トイレにいったあと、せんざいでてあらいします。しょうどくえきしなくてもだいじょうぶです。
+    TRANS: Setelah dari toilet, mencuci tangan dengan deterjen (sabun) saja sudah cukup tanpa cairan disinfektan.
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-audit-0725] いった(いった) [inflected_verb, df:行く] = pergi (bentuk lampau) | [kb-otaff51-0698] あと(あと) [noun] = setelahnya / sisa | [kb-audit-0107] せんざい(せんざい) [word] = deterjen / bahan pembersih (洗剤) | [kb-audit-0668] てあらい(てあらい) [word] = cuci tangan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan) | [kb-latsol-shoudoku] しょうどく(しょうどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-v2-p5-367] えき(-) [word] = cairan (larutan) | [kb-v2-p2-203] しなくても(-) [inflected, df:する] = meskipun tidak melakukan | [kb-v2-p6-587] だいじょうぶ(-) [word] = tidak apa-apa / aman | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>ムダ<rt>は</rt></ruby>なをしません。きかいやせいひんのいじょうがみつかったとき、きかい・ラインをとめて、すぐにせきにんしゃにほうこくします。
+    TRANS: Tidak melakukan obrolan yang tidak perlu. Saat ditemukan kondisi tidak normal pada mesin atau produk, segera menghentikan mesin/lini produksi dan melapor kepada penanggung jawab.
+    KOTOBA: [kb-audit-0907] ムダなを(むだなうごきを) [expression] = gerakan sia-sia (typo) | [kb-audit-0380] しません(しません) [inflected_verb, df:する] = tidak melakukan (sopan) | [kb-audit-0075] きかい(きかい) [word] = mesin produksi (機械) | [kb-audit-0359] せいひん(せいひん) [word] = produk jadi (製品) | [kb-audit-0250] いじょう(いじょう) [word] = di atas / lebih dari atau sama (以上) | [kb-audit-1114] みつかった(みつかった) [inflected_verb, df:見つかる] = ditemukan (見つかる) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-v2-p1-042] ライン(-) [word] = lini produksi | [kb-audit-0651] とめて(とめて) [inflected_verb, df:止める] = menghentikan | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-audit-0872] せきにんしゃ(せきにんしゃ) [word] = penanggung jawab | [kb-audit-1030] ほうこくします(ほうこくします) [inflected_verb, df:報告する] = melapor (sopan) | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

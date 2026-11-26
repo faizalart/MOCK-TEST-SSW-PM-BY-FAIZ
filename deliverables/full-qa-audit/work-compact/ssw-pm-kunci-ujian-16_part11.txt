@@ -1,0 +1,78 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-16 (Soal Ujian 16) | Batch qa-batch-04 | Part 11 (Q41-44 of 50)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q41 | ID=kunci-ujian-16-q041 | KEY=C (idx=2) | CAT=計算・配合・濃度（Perhitungan, Komposisi & Nilai Gizi） | SRC=Soal Ujian 16.pdf p.14 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="下記は300gのパンの配合例です。この配合に従うと小麦粉5kgからどれだけのパンを作ることができますか。" vs questionText="下記は300gのパンの配合例です。この配合に従うと小麦粉5kgからどれだけのパンを作ることができますか。(原料名・量(g):小麦粉 200、"
+  CLUSTER CL-0160 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q034 (ssw-pm-kunci-ujian-14)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下記<rt>かき</rt></ruby>は300gのパンの<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>小麦粉<rt>こむぎこ</rt></ruby>5kgからどれだけのパンを<ruby>作<rt>つく</rt></ruby>ることができますか。
+  QUESTION_TEXT: 下記は300gのパンの配合例です。この配合に従うと小麦粉5kgからどれだけのパンを作ることができますか。（原料名・量(g)：小麦粉 200、食塩 20、水 80）
+  PROMPT_TRANS: Di bawah ini adalah contoh komposisi bahan untuk 300 g roti. Jika mengikuti komposisi ini, berapa banyak roti yang dapat dibuat dari 5 kg tepung terigu?
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 14, nomor 実技試験 門1 (Q41). Bobot: 3.0 poin. Kunci jawaban: C. Visual: Tabel komposisi bahan roti 300 g: 小麦粉 (tepung terigu) 200 g, 食塩 (garam) 20 g, 水 (air) 80 g. Pembahasan: Perhitungan proporsi: Untuk 300 g roti dibutuhkan 200 g tepung terigu. Dari 5 kg (5.000 g) tepung terigu, kelipatannya = 5.000 g / 200 g = 25 kali. Total roti = 25 × 300 g = 7.500 g = 7,5 kg (C).
+  INLINE_KOTOBA_COUNT: 11
+  KOTOBA_PROMPT: [kb-1184690] 下記(かき) [word] = berikut ini | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-ext-1441-e9858de590] 配合例(はいごうれい) [word] = contoh formula campuran | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-audit-0016] 従うと(したがうと) [inflected_verb, df:従う] = jika mengikuti / sesuai dengan | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-1057] ことができます(ことができます) [expression] = dapat / bisa melakukan
+  OPT A: HTML=7kg
+    TRANS: 7 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=6kg
+    TRANS: 6 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=7.5kg
+    TRANS: 7,5 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+
+=== #Q42 | ID=kunci-ujian-16-q042 | KEY=C (idx=2) | CAT=計算・配合・濃度（Perhitungan, Komposisi & Nilai Gizi） | SRC=Soal Ujian 16.pdf p.15 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="下記は5個の餃子の配合例です。この配合に従うと豚ひき肉1.2kgからどれだけの餃子を作ることができますか。" vs questionText="下記は5個の餃子の配合例です。この配合に従うと豚ひき肉1.2kgからどれだけの餃子を作ることができますか。(原料名・量(g):豚ひき肉 20"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下記<rt>かき</rt></ruby>は5<ruby>個<rt>こ</rt></ruby>の<ruby>餃子<rt>ぎょうざ</rt></ruby>の<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby>1.2kgからどれだけの<ruby>餃子<rt>ぎょうざ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ることができますか。
+  QUESTION_TEXT: 下記は5個の餃子の配合例です。この配合に従うと豚ひき肉1.2kgからどれだけの餃子を作ることができますか。（原料名・量(g)：豚ひき肉 200、キャベツ 200、みりん 6）
+  PROMPT_TRANS: Di bawah ini adalah contoh komposisi bahan untuk 5 buah gyoza (pangsit). Jika mengikuti komposisi ini, berapa buah gyoza yang dapat dibuat dari 1,2 kg daging babi cincang?
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 15, nomor 実技試験 門2 (Q42). Bobot: 3.0 poin. Kunci jawaban: C. Visual: Tabel komposisi bahan untuk 5 buah gyoza: 豚ひき肉 (daging babi cincang) 200 g, キャベツ (kubis) 200 g, みりん (mirin) 6 g. Pembahasan: Perhitungan proporsi: Untuk 5 buah gyoza dibutuhkan 200 g daging babi cincang (豚ひき肉). Dari 1,2 kg (1.200 g) daging babi cincang, kelipatannya = 1.200 g / 200 g = 6 kali. Total gyoza = 6 × 5 buah = 30 buah (C).
+  INLINE_KOTOBA_COUNT: 11
+  KOTOBA_PROMPT: [kb-1184690] 下記(かき) [word] = berikut ini | [kb-1264740] 個(こ) [standalone_term] = Buah / butir (satuan hitungan) | [kb-u1416-ba430b74a6] 餃子(ぎょうざ) [word] = gyoza / pangsit Jepang | [kb-ext-1441-e9858de590] 配合例(はいごうれい) [word] = contoh formula campuran | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-audit-0016] 従うと(したがうと) [inflected_verb, df:従う] = jika mengikuti / sesuai dengan | [kb-v2-p2-053] 豚ひき肉(ぶたひきにく) [compound_technical] = daging babi giling | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-1057] ことができます(ことができます) [expression] = dapat / bisa melakukan
+  OPT A: HTML=25<ruby>個<rt>こ</rt></ruby>
+    TRANS: 25 buah
+    KOTOBA: [kb-1264740] 個(こ) [standalone_term] = Buah / butir (satuan hitungan)
+  OPT B: HTML=27<ruby>個<rt>こ</rt></ruby>
+    TRANS: 27 buah
+    KOTOBA: [kb-1264740] 個(こ) [standalone_term] = Buah / butir (satuan hitungan)
+  OPT C: HTML=30<ruby>個<rt>こ</rt></ruby>
+    TRANS: 30 buah
+    KOTOBA: [kb-1264740] 個(こ) [standalone_term] = Buah / butir (satuan hitungan)
+
+=== #Q43 | ID=kunci-ujian-16-q043 | KEY=B (idx=1) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.16 ===
+  CLUSTER CL-0163 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-16-q034 (ssw-pm-kunci-ujian-16)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>仕事中<rt>しごとちゅう</rt></ruby>に<ruby>体調<rt>たいちょう</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くなったときの<ruby>行動<rt>こうどう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai tindakan yang tepat saat kondisi kesehatan memburuk di tengah pekerjaan, pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 16, nomor 実技試験 門3 (Q43). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Saat merasa sakit di tengah pekerjaan, wajib segera melapor kepada atasan (すぐに上司に報告した).
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-1305020] 仕事中(しごとちゅう) [word] = saat sedang bekerja | [kb-ext-latsol-0090] 体調(たいちょう) [word] = kondisi kesehatan fisik | [kb-v2-p6-292] 悪く(わるく) [inflected, df:悪い] = buruk / tidak enak | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=がまんできなかったので、だれにも<ruby>報告<rt>ほうこく</rt></ruby>せずに<ruby>帰<rt>かえ</rt></ruby>った。
+    TRANS: Karena tidak tahan lagi, langsung pulang tanpa melapor kepada siapa pun.
+    KOTOBA: [kb-audit-0848] がまん(がまん) [word] = menahan diri / bersabar | [kb-audit-0473] できなかった(できなかった) [inflected_verb, df:できる] = tidak bisa (lampau) | [kb-audit-0020] だれにも(だれにも) [word] = kepada siapa pun (tidak) | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-audit-0643] せずに(せずに) [expression, df:する] = tanpa melakukan | [kb-audit-0021] 帰った(かえった) [inflected_verb, df:帰る] = pulang (lampau)
+  OPT B: HTML=すぐに<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>した。
+    TRANS: Segera melaporkan kepada atasan.
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-u1416-c408874d46] 上司(じょうし) [word] = atasan | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan
+  OPT C: HTML=<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>せずトイレに<ruby>行<rt>い</rt></ruby>った。
+    TRANS: Pergi ke toilet tanpa melapor kepada atasan.
+    KOTOBA: [kb-u1416-c408874d46] 上司(じょうし) [word] = atasan | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-v2-p2-160] 行った(いった) [inflected, df:行く] = pergi
+
+=== #Q44 | ID=kunci-ujian-16-q044 | KEY=B (idx=1) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 16.pdf p.16 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品機械<rt>しょくひんきかい</rt></ruby>を<ruby>操作<rt>そうさ</rt></ruby>している<ruby>様子<rt>ようす</rt></ruby>です。<ruby>急<rt>きゅう</rt></ruby>に<ruby>停電発生<rt>ていでんはっせい</rt></ruby>した。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat sedang mengoperasikan mesin pengolahan makanan, tiba-tiba terjadi pemadaman listrik (mati lampu). Pilihlah satu tindakan yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 16, nomor 実技試験 門4 (Q44). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Saat terjadi mati listrik mendadak (停電), sakelar mesin wajib segera dimatikan (スイッチを切る) agar mesin tidak tiba-tiba menyala sendiri saat aliran listrik kembali menyala.
+  INLINE_KOTOBA_COUNT: 22
+  KOTOBA_PROMPT: [kb-u1416-6023a936a0] 食品機械(しょくひんきかい) [word] = mesin pengolahan makanan | [kb-1400050] 操作(そうさ) [word] = pengoperasian mesin | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-1545820] 様子(ようす) [word] = keadaan / situasi | [kb-v2-p1-283] 急に(きゅうに) [word] = tiba-tiba | [kb-ext-latsol-0112] 停電(ていでん) [word] = pemadaman listrik | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>まるので、そのままにします。
+    TRANS: Karena mesin berhenti sendiri, biarkan saja seperti itu.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p5-264] 止まる(とまる) [word] = berhenti | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=スイッチを<ruby>切<rt>き</rt></ruby>ります
+    TRANS: Mematikan sakelar (switch) daya mesin.
+    KOTOBA: [kb-v2-p4-071] スイッチ(-) [word] = sakelar / tombol daya | [kb-latsol-9271ad0c3b] 切ります(きります) [word] = memotong / mematikan sakelar
+  OPT C: HTML=<ruby>機械<rt>きかい</rt></ruby>をまだ<ruby>動<rt>うご</rt></ruby>くかどうかを<ruby>確認<rt>かくにん</rt></ruby>するため、<ruby>手<rt>て</rt></ruby>で<ruby>触<rt>さわ</rt></ruby>ってみる
+    TRANS: Menyentuh mesin dengan tangan untuk memeriksa apakah mesin masih bergerak atau tidak.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p6-592] まだ(-) [word] = masih | [kb-latsol-d335806534] 動く(うごく) [word] = bergerak / beroperasi | [kb-v2-p1-317] かどうか(-) [particle] = apakah ... atau tidak | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-audit-0045] 触ってみる(さわってみる) [word] = mencoba menyentuh

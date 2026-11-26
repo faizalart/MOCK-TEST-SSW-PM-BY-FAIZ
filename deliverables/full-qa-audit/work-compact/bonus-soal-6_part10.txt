@@ -1,0 +1,83 @@
+# AUDIT SHEET: bonus-soal-6 (Bonus Soal 6) | Batch qa-batch-05 | Part 10 (Q37-40 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=bonus-soal-6-q037 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 6.pdf p.13 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0248 (n=2, diffPrompt=false, diffOpt=true, diffTrans=true): twins=nguyen06-q037 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「やけど」<ruby>災害<rt>さいがい</rt></ruby>の<ruby>対策<rt>たいさく</rt></ruby>はなんですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah tindakan pencegahan untuk kecelakaan "luka bakar"?
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 13, Soal 37) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-otaff51-0028] やけど(やけど) [noun] = luka bakar | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-otaff51-0278] 対策(たいさく) [noun] = tindakan pencegahan / penanggulangan | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>鉄板<rt>てっぱん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しないで<ruby>素手<rt>すで</rt></ruby>で<ruby>運<rt>はこ</rt></ruby>ぼうとした。
+    TRANS: Mencoba mengangkut loyang besi dengan tangan kosong tanpa memeriksa suhunya.
+    KOTOBA: [kb-otaff51-0616] 鉄板(てっぱん) [noun] = loyang besi pemanggang | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-audit-0932] 確認しないで(かくにんしないで) [inflected_verb, df:確認する] = tanpa memeriksa | [kb-otaff51-0493] 素手(すで) [noun] = tangan kosong (tanpa sarung tangan) | [kb-v2-p5-234] 運ぼう(はこぼう) [inflected, df:運ぶ] = hendak membawa | [kb-v2-p1-319] とした(-) [expression] = hendak melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>鉄板<rt>てっぱん</rt></ruby>が<ruby>高温<rt>こうおん</rt></ruby>であることが<ruby>分<rt>わ</rt></ruby>からないで<ruby>素手<rt>すで</rt></ruby>で<ruby>触<rt>さわ</rt></ruby>りそうになった
+    TRANS: Hampir menyentuh loyang besi dengan tangan kosong karena tidak menyadari bahwa suhunya tinggi
+    KOTOBA: [kb-otaff51-0616] 鉄板(てっぱん) [noun] = loyang besi pemanggang | [kb-otaff51-0675] 高温(こうおん) [noun] = suhu tinggi | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-latsol-wakaranai] 分からない(わからない) [inflected_verb, df:分かる] = tidak tahu / tidak mengerti | [kb-otaff51-0493] 素手(すで) [noun] = tangan kosong (tanpa sarung tangan) | [kb-v2-p5-252] 触りそうに(さわりそうに) [inflected, df:触る] = hampir menyentuh | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>鉄板<rt>てっぱん</rt></ruby>、<ruby>鍋<rt>なべ</rt></ruby>、<ruby>釜<rt>かま</rt></ruby>などを<ruby>持<rt>も</rt></ruby>って<ruby>運<rt>はこ</rt></ruby>ぶときは、<ruby>保護手袋<rt>ほごてぶくろ</rt></ruby>を <ruby>着用<rt>ちゃくよう</rt></ruby>する
+    TRANS: Mengenakan sarung tangan pelindung saat memegang dan mengangkut loyang besi, panci, kuali, dan sebagainya
+    KOTOBA: [kb-otaff51-0616] 鉄板(てっぱん) [noun] = loyang besi pemanggang | [kb-1459720] 鍋(なべ) [standalone_term] = Panci tempat memasak kuah atau adonan makanan | [kb-v2-p5-139] 釜(かま) [word] = panci / ketel besar | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p2-139] 持って(もって) [inflected, df:持つ] = membawa / memegang | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0139] 保護手袋(ほごてぶくろ) [compound_technical] = sarung tangan pelindung | [kb-pilot51-022] 着用する(ちゃくようする) [verb] = mengenakan / memakai | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q38 | ID=bonus-soal-6-q038 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 6.pdf p.13 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>腰痛<rt>ようつう</rt></ruby>」<ruby>災害<rt>さいがい</rt></ruby>の【<br>（<br><ruby>状<rt>じょう</rt></ruby><ruby>況<rt>きょう</rt></ruby>】<br>）<br>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang merupakan 【situasi】 kecelakaan "sakit pinggang"? Pilihlah jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 13, Soal 38) · Kunci Jawaban Sumber: B.
+  KOTOBA_PROMPT: [kb-otaff51-0523] 腰痛(ようつう) [compound_technical] = sakit pinggang (low back pain) | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-otaff51-0436] 状況(じょうきょう) [noun] = situasi / keadaan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=A
+    TRANS: Pilihan A — Pekerja merasa pusing dan berkeringat dingin (gejala sengatan panas / heatstroke)
+    MEDIA: media-bonus-soal-6-q038-a
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan B — Pekerja mengalami sakit pinggang saat membungkuk mengangkat wadah berat
+    MEDIA: media-bonus-soal-6-q038-b
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan C — Pekerja hampir tertabrak atau terjepit forklift yang sedang melaju
+    MEDIA: media-bonus-soal-6-q038-c
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C
+
+=== #Q39 | ID=bonus-soal-6-q039 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 6.pdf p.14 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 水, 同, 水, 何, 正, 一
+  CLUSTER CL-0249 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=nguyen06-q039 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>次亜塩素菌<rt>じあえんそきん</rt></ruby>ナトリウム 10.2CC と水 1.5L で、<ruby>濃度<rt>のうど</rt></ruby>が 250ppm の<ruby>殺菌<rt>さっきん</rt></ruby><br>えきを<ruby>作<rt>つく</rt></ruby>ります。同じ<ruby>次亜塩素菌<rt>じあえんそきん</rt></ruby>ナトリウム 10.2CC で、<ruby>濃度<rt>のうど</rt></ruby>が 50ppm の<br><ruby>殺菌液<rt>さっきんえき</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る<ruby>場合<rt>ばあい</rt></ruby>、水は何 L<ruby>必要<rt>ひつよう</rt></ruby>ですか。正しいものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 次亜塩素菌ナトリウム 10.2CC と水 1.5L で、濃度が 250ppm の殺菌
+えきを作ります。同じ次亜塩素菌ナトリウム 10.2CC で、濃度が 50ppm の
+殺菌液を作る場合、水は何 L必要ですか。正しいものを一つ選びなさい。
+  PROMPT_TRANS: Dengan 10,2 cc natrium hipoklorit dan 1,5 L air, dibuat cairan sterilisasi dengan konsentrasi 250 ppm. Jika ingin membuat cairan sterilisasi dengan konsentrasi 50 ppm menggunakan 10,2 cc natrium hipoklorit yang sama, berapa L air yang diperlukan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 14, Soal 39) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-latsol-b3e801cf40] 次亜塩素菌ナトリウム(じあえんそきんなとりうむ) [word] = disinfektan klorin (varian teks) | [kb-audit-0350] CC(しーしー) [technical] = sentimeter kubik / mililiter (cc) | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan) | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-v2-p5-367] えき(-) [word] = cairan (larutan) | [kb-latsol-9d22ffe25c] 作ります(つくります) [word] = membuat / memproduksi | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-otaff51-0364] 殺菌液(さっきんえき) [compound_technical] = larutan sterilisasi | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=0.75L
+    TRANS: 0,75 L
+    KOTOBA: [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan)
+  OPT B: HTML=3L
+    TRANS: 3 L
+    KOTOBA: [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan)
+  OPT C: HTML=7.5L
+    TRANS: 7,5 L
+    KOTOBA: [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan)
+
+=== #Q40 | ID=bonus-soal-6-q040 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 6.pdf p.14 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 必要, 一, 選
+  CLUSTER CL-0250 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=nguyen06-q040 (latsol-nguyen-06)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 450g のうどんは 300g<ruby>小麦粉<rt>こむぎこ</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>るときに 9kg<br>うどんを<ruby>作<rt>つく</rt></ruby>りたいときには<ruby>小麦粉<rt>こむぎこ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>kg が必要ですか。<ruby>正<rt>ただ</rt></ruby>しいものを一つ<br>選びなさい。
+  QUESTION_TEXT: 450g のうどんは 300g小麦粉が必要です。同じ配合で作るときに 9kg
+うどんを作りたいときには小麦粉は何kg が必要ですか。正しいものを一つ
+選びなさい。
+  PROMPT_TRANS: Untuk 450 g udon diperlukan 300 g tepung terigu. Jika membuat dengan komposisi yang sama dan ingin membuat 9 kg udon, berapa kg tepung terigu yang diperlukan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 6.pdf (Halaman 14, Soal 40) · Kunci Jawaban Sumber: C.
+  KOTOBA_PROMPT: [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-audit-1145] 作りたい(つくりたい) [inflected_verb, df:作る] = ingin membuat (作る) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=4kg
+    TRANS: 4 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=5kg
+    TRANS: 5 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=6kg
+    TRANS: 6 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram

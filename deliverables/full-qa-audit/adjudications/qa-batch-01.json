@@ -1,0 +1,28 @@
+{
+  "batchId": "qa-batch-01",
+  "notes": "Promotions verified via cross-package twin alignment (nguyen04, bonus-soal-10, kunci-ujian-16) and unambiguous Japanese grammar/internal consistency; 清作 distractor preserved in JP with clean Kotoba arti.",
+  "promoteKeys": [
+    { "questionId": "kunci1-q017", "scope": "opt:B", "field": "jp_html" },
+    { "questionId": "kunci1-q017", "scope": "kotoba:opt:B", "field": "kotoba_remove" },
+    { "questionId": "kunci1-q017", "scope": "kotoba:opt:B", "field": "kotoba_missing" },
+    { "questionId": "kunci1-q023", "scope": "opt:C", "field": "jp_html" },
+    { "questionId": "kunci1-q030", "scope": "opt:C", "field": "jp_html" },
+    { "questionId": "kunci1-q030", "scope": "kotoba:opt:C", "field": "kotoba_remove" },
+    { "questionId": "kunci1-q030", "scope": "kotoba:opt:C", "field": "kotoba_missing" },
+    { "questionId": "kunci1-q033", "scope": "opt:C", "field": "jp_html" },
+    { "questionId": "kunci1-q033", "scope": "kotoba:opt:C", "field": "kotoba_remove" },
+    { "questionId": "kunci1-q033", "scope": "kotoba:opt:C", "field": "kotoba_missing" },
+    { "questionId": "kunci1-q040", "scope": "opt:B", "field": "jp_html" },
+    { "questionId": "kunci1-q040", "scope": "kotoba:opt:B", "field": "kotoba_missing" },
+    { "questionId": "kunci-ujian-2-q008", "scope": "opt:C", "field": "jp_html" },
+    { "questionId": "kunci-ujian-2-q008", "scope": "kotoba:opt:C", "field": "kotoba_remove" },
+    { "questionId": "kunci-ujian-2-q008", "scope": "kotoba:opt:C", "field": "kotoba_missing" },
+    { "questionId": "kunci-ujian-3-q039", "scope": "prompt", "field": "jp_html" },
+    { "questionId": "kunci-ujian-4-q007", "scope": "opt:B", "field": "jp_html" },
+    { "questionId": "kunci-ujian-4-q007", "scope": "kotoba:opt:B", "field": "kotoba_missing" },
+    { "questionId": "kunci-ujian-5-q009", "scope": "instructions", "field": "jp_html" },
+    { "questionId": "kunci-ujian-5-q011", "scope": "kotoba:opt:C", "field": "kotoba_entry" }
+  ],
+  "suppressKeys": [],
+  "customOps": []
+}

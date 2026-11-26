@@ -1,0 +1,71 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-12 (Soal Ujian 12 — CBTP Gino1) | Batch qa-batch-03 | Part 6 (Q21-24 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=kunci-ujian-12-q021 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>細菌<rt>さいきん</rt></ruby>は<ruby>急速<rt>きゅうそく</rt></ruby>に<ruby>増殖<rt>ぞうしょく</rt></ruby>する<ruby>温度帯<rt>おんどたい</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah rentang suhu di mana bakteri berkembang biak dengan sangat cepat.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 4, Câu 21 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-otaff51-0302] 急速(きゅうそく) [adjective] = cepat / ekspres (pembekuan cepat) | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-ext-0162-e6b8a9e5ba] 温度帯(おんどたい) [word] = zona rentang suhu penyimpanan | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=３０℃から４０℃
+    TRANS: 30°C hingga 40°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-v2-p1-338] から(-) [particle] = dari / karena
+  OPT B: HTML=２０℃から５０℃
+    TRANS: 20°C hingga 50°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-v2-p1-338] から(-) [particle] = dari / karena
+  OPT C: HTML=10℃いか
+    TRANS: 10°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下)
+
+=== #Q22 | ID=kunci-ujian-12-q022 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: やっつけるのたのいいかたはどれですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah ungkapan lain dari kata "membasmi (yattsukeru)" dalam prinsip pencegahan keracunan makanan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 4, Câu 22 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba) | [kb-audit-0429] たの(たの) [word] = yang lain / lainnya (他の) | [kb-audit-0430] いいかた(いいかた) [word] = cara mengatakan / istilah (言い方) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=ころす
+    TRANS: Membunuh (korosu)
+    KOTOBA: [kb-audit-0691] ころす(ころす) [word] = membunuh (kuman)
+  OPT B: HTML=しゅうかん
+    TRANS: Membiasakan (shuukan)
+    KOTOBA: [kb-latsol-42d5f4821c] しゅうかん(しゅうかん) [word] = kebiasaan / Shukan 5S (習慣)
+  OPT C: HTML=ふやす
+    TRANS: Memperbanyak (fuyasu)
+    KOTOBA: [kb-audit-0424] ふやす(ふやす) [word] = memperbanyak / menambah (増やす)
+
+=== #Q23 | ID=kunci-ujian-12-q023 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.4 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0526 (レトルトょくひん): "makanan retort (typo)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>しやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan manakah yang rentan menyebabkan keracunan bakteri Staphylococcus aureus?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 4, Câu 23 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus | [kb-v2-p2-180] 発生しやすい(はっせいしやすい) [inflected, df:発生する] = mudah terjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=びんづめしょくひん<ruby>レトルト<rt>し</rt></ruby>ょくひんなど
+    TRANS: Makanan dalam botol, makanan kemasan retort, dan sebagainya
+    KOTOBA: [kb-audit-0527] びんづめしょくひん(びんづめしょくひん) [word] = makanan dalam botol kaca | [kb-audit-0526] レトルトょくひん(れとるとしょくひん) [word, df:レトルト食品] = makanan retort (typo) | [kb-v2-p1-336] など(-) [particle] = dan lain-lain
+  OPT B: HTML=<ruby>穀物加工品<rt>こくもつかこうひん</rt></ruby>、<ruby>炒飯<rt>ちゃーはん</rt></ruby>など
+    TRANS: Produk olahan biji-bijian, nasi goreng, dan sebagainya
+    KOTOBA: [kb-otaff51-0478] 穀物加工品(こくもつかこうひん) [compound_technical] = produk olahan biji-bijian/serealia | [kb-otaff51-0419] 炒飯(ちゃーはん) [noun] = nasi goreng | [kb-v2-p1-336] など(-) [particle] = dan lain-lain
+  OPT C: HTML=おにぎり、サンドイッチなど
+    TRANS: Onigiri (nasi kepal), roti lapis (sandwich), dan sebagainya
+    KOTOBA: [kb-v2-p3-048] おにぎり(-) [word] = nasi kepal (onigiri) | [kb-v2-p3-049] サンドイッチ(-) [word] = roti lapis (sandwich) | [kb-v2-p1-336] など(-) [particle] = dan lain-lain
+
+=== #Q24 | ID=kunci-ujian-12-q024 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: しょくひんえいせいほうによるただしいほかんおんどをえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah suhu penyimpanan yang benar berdasarkan Undang-Undang Higiene Pangan (Shokuhin Eiseihou).
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 5, Câu 24 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-v2-p6-620] えいせいほう(-) [technical] = undang-undang sanitasi | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管) | [kb-audit-0118] おんど(おんど) [word] = suhu / temperatur (温度) | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=れいとうこが-10°Cいかれいぞうこが10°Cいか
+    TRANS: Freezer pada suhu -10°C atau lebih rendah, lemari pendingin (kulkas) pada suhu 10°C atau lebih rendah
+    KOTOBA: [kb-audit-0246] れいとうこ(れいとうこ) [word] = lemari pembeku / freezer (冷凍庫) | [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下) | [kb-audit-0247] れいぞうこ(れいぞうこ) [word] = kulkas / lemari pendingin (冷蔵庫) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>が-15°C<ruby>以下<rt>いか</rt></ruby>、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>が10°C<ruby>以下<rt>いか</rt></ruby>
+    TRANS: Freezer pada suhu -15°C atau lebih rendah, lemari pendingin (kulkas) pada suhu 10°C atau lebih rendah
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=れいとうこが15°Cいかれいぞうこが−10°Cいか
+    TRANS: Freezer pada suhu 15°C atau lebih rendah, lemari pendingin (kulkas) pada suhu -10°C atau lebih rendah
+    KOTOBA: [kb-audit-0246] れいとうこ(れいとうこ) [word] = lemari pembeku / freezer (冷凍庫) | [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下) | [kb-audit-0247] れいぞうこ(れいぞうこ) [word] = kulkas / lemari pendingin (冷蔵庫) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p3-001] −(-) [expression] = tanda minus (suhu di bawah nol)

@@ -1,0 +1,76 @@
+# AUDIT SHEET: bonus-soal-4 (Bonus Soal 4) | Batch qa-batch-04 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=bonus-soal-4-q025 | KEY=A (idx=0) | CAT= | SRC=Bonus Soal 4.pdf p.5 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  CLUSTER CL-0200 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-7-q026 (bonus-soal-7), nguyen04-q025 (latsol-nguyen-04), nguyen07-q026 (latsol-nguyen-07)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>労働災害<rt>ろうどうさいがい</rt></ruby>を<ruby>無<rt>な</rt></ruby>くすために<ruby>守<rt>まも</rt></ruby>るべき<ruby>大切<rt>たいせつ</rt></ruby>なことは「5S」、「<ruby>正<rt>ただ</rt></ruby>しい<ruby>服装<rt>ふくそう</rt></ruby>」、「<ruby>作業手順書<rt>さぎょうてじゅんしょ</rt></ruby>とルールを<ruby>守<rt>まも</rt></ruby>る」もう一つはなんですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal penting yang harus dipatuhi untuk menghilangkan kecelakaan kerja adalah "5S", "pakaian yang benar", "mematuhi prosedur kerja dan aturan", lalu apakah satu hal lainnya? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 4.pdf (Halaman 5, Soal 25) · Kunci Jawaban Checklist Hijau (✓): A.
+  KOTOBA_PROMPT: [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-v2-p5-293] 無くす(なくす) [word] = menghilangkan / meniadakan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-otaff51-0254] 大切(たいせつ) [adjective] = penting / berharga | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0340] 服装(ふくそう) [noun] = pakaian / cara berpakaian | [kb-otaff51-0123] 作業手順書(さぎょうてじゅんしょ) [compound_technical] = dokumen prosedur kerja (SOP) | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT A: HTML=<ruby>洗剤<rt>せんざい</rt></ruby>や<ruby>薬剤<rt>やくざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>注意<rt>ちゅうい</rt></ruby>する。
+    TRANS: Berhati-hati pada pekerjaan yang menggunakan deterjen dan bahan kimia.
+    KOTOBA: [kb-1390950] 洗剤(せんざい) [word] = deterjen / sabun | [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>、<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>。
+    TRANS: Manajemen higiene bahan baku dan produk pangan.
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>施設<rt>しせつ</rt></ruby>、<ruby>設備<rt>せつび</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>などの<ruby>衛生管理<rt>えいせいかんり</rt></ruby>。
+    TRANS: Manajemen higiene fasilitas, peralatan, perkakas, dan sebagainya.
+    KOTOBA: [kb-otaff51-0335] 施設(しせつ) [noun] = fasilitas bangunan | [kb-otaff51-0570] 設備(せつび) [noun] = fasilitas / instalasi peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q26 | ID=bonus-soal-4-q026 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 4.pdf p.5 ===
+  CLUSTER CL-0201 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-7-q027 (bonus-soal-7), nguyen04-q026 (latsol-nguyen-04), nguyen07-q027 (latsol-nguyen-07)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>労働災害<rt>ろうどうさいがい</rt></ruby>でやけど<ruby>防止<rt>ぼうし</rt></ruby>するために、どんな<ruby>保護具<rt>ほごぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>いますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Alat pelindung diri (APD) apa yang digunakan untuk mencegah luka bakar akibat kecelakaan kerja? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 4.pdf (Halaman 5, Soal 26) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-otaff51-0028] やけど(やけど) [noun] = luka bakar | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-ext-1615-e4bf9de8ad] 保護具(ほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-v2-p1-117] 使いますか(つかいますか) [inflected_verb, df:使う] = digunakan untuk apa (dasar: 使う) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>耐熱<rt>たいねつ</rt></ruby>エプロン。
+    TRANS: Celemek tahan panas.
+    KOTOBA: [kb-otaff51-0509] 耐熱エプロン(たいねつえぷろん) [compound_technical] = celemek tahan panas
+  OPT B: HTML=ミトン<ruby>手袋<rt>てぶくろ</rt></ruby>。
+    TRANS: Sarung tangan oven (mitten).
+    KOTOBA: [kb-otaff51-0081] ミトン手袋(みとんてぶくろ) [compound_technical] = sarung tangan tebal tahan panas (mitten)
+  OPT C: HTML=<ruby>耳栓<rt>みみせん</rt></ruby>。
+    TRANS: Sumbat telinga (earplug).
+    KOTOBA: [kb-otaff51-0511] 耳栓(みみせん) [compound_technical] = penyumbat telinga (earplug)
+
+=== #Q27 | ID=bonus-soal-4-q027 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 4.pdf p.5 ===
+  CLUSTER CL-0100 (n=5, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q027 (ssw-pm-kunci-ujian-4), bonus-soal-7-q028 (bonus-soal-7), nguyen04-q027 (latsol-nguyen-04), nguyen07-q028 (latsol-nguyen-07)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCP（ハサップ）で<ruby>対象<rt>たいしょう</rt></ruby>とする<ruby>三<rt>みっ</rt></ruby>つの<ruby>健康危害要因<rt>けんこうきがいよういん</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah tiga faktor bahaya kesehatan yang menjadi sasaran dalam HACCP? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 4.pdf (Halaman 5, Soal 27) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p3-174] ハサップ(-) [technical] = HACCP | [kb-v2-p2-221] 対象とする(たいしょうとする) [expression] = menjadikan sasaran | [kb-v2-p5-228] 三つ(みっつ) [word] = tiga buah | [kb-ext-0459-e581a5e5ba] 健康危害要因(けんこうきがいよういん) [word] = faktor bahaya kesehatan | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>心理的危害要因<rt>しんりてききがいよういん</rt></ruby>・<ruby>健康的危害要因<rt>けんこうてききがいよういん</rt></ruby>・<ruby>金銭的危害要因<rt>きんせんてききがいよういん</rt></ruby>
+    TRANS: Faktor bahaya psikologis, faktor bahaya kesehatan, faktor bahaya finansial
+    KOTOBA: [kb-ext-0959-e5bf83e790] 心理的危害要因(しんりてききがいよういん) [word] = faktor bahaya psikologis | [kb-ext-0461-e581a5e5ba] 健康的危害要因(けんこうてききがいよういん) [word] = Faktor bahaya terhadap kesehatan | [kb-ext-0407-e98791e98a] 金銭的危害要因(きんせんてききがいよういん) [word] = faktor kerugian finansial
+  OPT B: HTML=<ruby>生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>・<ruby>化学的危害要因<rt>かがくてききがいよういん</rt></ruby>・<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>
+    TRANS: Faktor bahaya biologis, faktor bahaya kimia, faktor bahaya fisik
+    KOTOBA: [kb-otaff51-0441] 生物的危害要因(せいぶつてききがいよういん) [compound_technical] = faktor bahaya biologis | [kb-otaff51-0208] 化学的危害要因(かがくてききがいよういん) [compound_technical] = faktor bahaya kimia | [kb-otaff51-0431] 物理的危害要因(ぶつりてききがいよういん) [compound_technical] = faktor bahaya fisik
+  OPT C: HTML=<ruby>安全的危害要因<rt>あんぜんてききがいよういん</rt></ruby>・<ruby>災害的危害要因<rt>さいがいてききがいよういん</rt></ruby>・<ruby>労働的危害要因<rt>ろうどうてききがいよういん</rt></ruby>
+    TRANS: Faktor bahaya keselamatan, faktor bahaya bencana, faktor bahaya ketenagakerjaan
+    KOTOBA: [kb-ext-0055-e5ae89e585] 安全的危害要因(あんぜんてききがいよういん) [word] = faktor bahaya keamanan | [kb-ext-0612-e781bde5ae] 災害的危害要因(さいがいてききがいよういん) [word] = faktor bahaya kecelakaan kerja | [kb-ext-1804-e58ab4e583] 労働的危害要因(ろうどうてききがいよういん) [word] = faktor bahaya tenaga kerja
+
+=== #Q28 | ID=bonus-soal-4-q028 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 4.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p5-187 (ヤリ): "Hiyari (typo: ヒヤリ)"
+  CLUSTER CL-0202 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-7-q029 (bonus-soal-7), nguyen04-q028 (latsol-nguyen-04), nguyen07-q029 (latsol-nguyen-07)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>未熟練作業者<rt>みじゅくれんさぎょうしゃ</rt></ruby>は<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>の<ruby>予防<rt>よぼう</rt></ruby>のために、なにをするべきですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan oleh pekerja yang belum berpengalaman untuk mencegah kecelakaan kerja? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 4.pdf (Halaman 5, Soal 28) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-otaff51-0342] 未熟練作業者(みじゅくれんさぎょうしゃ) [compound_technical] = pekerja kurang berpengalaman (masa kerja di bawah 3 tahun) | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-1543660] 予防(よぼう) [word] = pencegahan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-256] なに(-) [word] = apa | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ヤリ・ハット<ruby>活動<rt>かつどう</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>する。
+    TRANS: Berpartisipasi dalam kegiatan Hiyari-Hatto (nyaris celaka).
+    KOTOBA: [kb-v2-p5-187] ヤリ(-) [technical] = Hiyari (typo: ヒヤリ) | [kb-v2-p5-188] ハット(-) [technical] = Hatto (nyaris celaka) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0223] 参加(さんか) [noun] = partisipasi / mengikuti | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>の<ruby>事例<rt>じれい</rt></ruby>、<ruby>危険予知訓練<rt>きけんよちくんれん</rt></ruby>に<ruby>参加<rt>さんか</rt></ruby>する。
+    TRANS: Mempelajari studi kasus kecelakaan kerja dan mengikuti pelatihan prediksi bahaya (KYT).
+    KOTOBA: [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-otaff51-0104] 事例(じれい) [noun] = contoh kasus | [kb-otaff51-0215] 危険予知訓練(きけんよちくんれん) [compound_technical] = latihan prediksi bahaya (KYT) | [kb-otaff51-0223] 参加(さんか) [noun] = partisipasi / mengikuti | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>早<rt>はや</rt></ruby>く<ruby>仕事<rt>しごと</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れるので、<ruby>安全衛生<rt>あんぜんえいせい</rt></ruby>マニュアルを<ruby>見<rt>み</rt></ruby>なくてもいいです。
+    TRANS: Tidak perlu membaca panduan keselamatan dan kesehatan kerja (K3) karena akan cepat terbiasa dengan pekerjaan.
+    KOTOBA: [kb-v2-p4-144] 早く(はやく) [inflected, df:早い] = dengan cepat / segera | [kb-otaff51-0110] 仕事(しごと) [noun] = pekerjaan | [kb-v2-p5-406] 慣れる(なれる) [word] = terbiasa | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-latsol-c4677fa34a] 安全衛生マニュアル(あんぜんえいせいまにゅある) [word] = panduan keselamatan & kesehatan (K3) | [kb-v2-p5-277] 見なくても(みなくても) [inflected, df:見る] = tanpa melihat | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

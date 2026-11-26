@@ -1,0 +1,71 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-12 (Soal Ujian 12 — CBTP Gino1) | Batch qa-batch-03 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=kunci-ujian-12-q001 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.1 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0217 (をするこ): "melakukan hal tersebut (typo するこ)" || [KANJI_WITHOUT_RUBY@opt:C] 担当者, 薬剤, 使用, 担当者, 薬剤, 行
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: .やくざいでさっきんするちょうりでじゅうようなことはなんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa hal yang penting saat mengolah makanan dengan sterilisasi menggunakan bahan kimia (disinfektan)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 1, Câu 1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0211] やくざい(やくざい) [word] = bahan kimia / disinfektan (薬剤) | [kb-audit-0212] さっきん(さっきん) [word] = sterilisasi / pembunuhan bakteri (殺菌) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-audit-0213] ちょうり(ちょうり) [word] = memasak / pengolahan makanan (調理) | [kb-audit-0145] じゅうような(じゅうような) [word] = yang penting (重要な) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=.<ruby>決<rt>き</rt></ruby>められた<ruby>濃度<rt>のうど</rt></ruby>だけで<ruby>殺菌<rt>さっきん</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う
+    TRANS: Melakukan sterilisasi hanya dengan memperhatikan konsentrasi yang ditentukan saja
+    KOTOBA: [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=きめられたのうどのやくざいできめられたじかんしょくひんぜんたいをするこ
+    TRANS: Merendam seluruh bagian makanan dalam bahan kimia dengan konsentrasi yang ditentukan selama waktu yang ditentukan
+    KOTOBA: [kb-audit-0109] きめられた(きめられた) [inflected_verb, df:決める] = yang telah ditentukan (決められた) | [kb-audit-0210] のうど(のうど) [word] = konsentrasi / kepekatan (濃度) | [kb-audit-0211] やくざい(やくざい) [word] = bahan kimia / disinfektan (薬剤) | [kb-audit-0214] じかん(じかん) [word] = waktu / durasi (時間) | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-v2-p6-583] ぜんたい(-) [word] = keseluruhan | [kb-audit-0217] をするこ(をすること) [word] = melakukan hal tersebut (typo するこ) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=担当者しか薬剤を使用できないので担当者は薬剤を行う
+    TRANS: Karena hanya petugas khusus yang boleh menggunakan bahan kimia, maka hanya petugas tersebut yang melakukan sterilisasi
+    KOTOBA: [kb-1418180] 担当者(たんとうしゃ) [word] = petugas penanggung jawab | [kb-audit-0465] しか(しか) [particle] = hanya (+ bentuk negatif) | [kb-otaff51-0538] 薬剤(やくざい) [noun] = bahan kimia / larutan obat | [kb-otaff51-0126] 使用(しよう) [noun] = penggunaan | [kb-audit-0385] できない(できない) [inflected_verb, df:できる] = tidak dapat dilakukan | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q2 | ID=kunci-ujian-12-q002 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>冷凍水産物<rt>れいとうすいさんぶつ</rt></ruby>の<ruby>保管温度<rt>ほかんおんど</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berapakah suhu penyimpanan untuk produk perikanan beku?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 1, Câu 2 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0158] 冷凍水産物(れいとうすいさんぶつ) [compound_technical] = produk hasil laut beku | [kb-otaff51-0137] 保管温度(ほかんおんど) [compound_technical] = suhu penyimpanan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=しつおん
+    TRANS: Suhu ruang
+    KOTOBA: [kb-audit-0693] しつおん(しつおん) [word] = suhu ruangan
+  OPT B: HTML=10℃いか
+    TRANS: 10°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下)
+  OPT C: HTML=－18℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: -18°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q3 | ID=kunci-ujian-12-q003 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ちょうかんしゅっけつせいだいちょうきんのとくちょうはなんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa ciri-ciri dari bakteri E. coli enterohemoragik (Enterohemorrhagic Escherichia coli)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 1, Câu 3 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0201] ちょうかん(ちょうかん) [word] = saluran usus (腸管) | [kb-audit-0202] しゅっけつせい(しゅっけつせい) [word] = hemoragik / menyebabkan perdarahan (出血性) | [kb-audit-0203] だいちょうきん(だいちょうきん) [word] = bakteri E. coli (大腸菌) | [kb-audit-0243] とくちょう(とくちょう) [word] = ciri khas / karakteristik (特徴) | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>熱<rt>ねつ</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>芽胞<rt>がほう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る。<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>菌<rt>きん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えて<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る。
+    TRANS: Membentuk spora yang tahan panas. Bakteri berkembang biak di dalam makanan dan menghasilkan racun (toksin).
+    KOTOBA: [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-150] 菌(きん) [word] = bakteri / kuman | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-otaff51-0368] 毒素(どくそ) [noun] = toksin / racun | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=ひとのひふやきずぐちにいるしょくひんのなかできんがふえてねつにつよいどくそをつくる
+    TRANS: Berada di kulit atau luka manusia, berkembang biak di dalam makanan, dan menghasilkan racun yang tahan panas.
+    KOTOBA: [kb-audit-0325] ひと(ひと) [word] = orang / manusia (人) | [kb-audit-0436] ひふ(ひふ) [word] = kulit tubuh (皮膚) | [kb-audit-0276] きずぐち(きずぐち) [word] = luka / bekas luka (傷口) | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-v2-p6-625] ふえて(-) [inflected, df:増える] = bertambah / berkembang biak | [kb-audit-0887] ねつ(ねつ) [word] = panas / demam | [kb-audit-0888] つよい(つよい) [adjective] = kuat / tahan | [kb-audit-0277] どくそ(どくそ) [word] = racun / toksin (毒素) | [kb-audit-0421] つくる(つくる) [word] = membuat / memproduksi (作る) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-audit-0746] きん(きん) [word] = bakteri / kuman | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>体<rt>からだ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>菌<rt>きん</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えて<ruby>発症<rt>はっしょう</rt></ruby>する。<ruby>毒素<rt>どくそ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るものもいる。
+    TRANS: Bakteri berkembang biak di dalam tubuh manusia dan menimbulkan gejala penyakit. Ada pula yang menghasilkan racun (toksin).
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-150] 菌(きん) [word] = bakteri / kuman | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-2398850] 発症(はっしょう) [word] = timbulnya gejala penyakit | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0368] 毒素(どくそ) [noun] = toksin / racun | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+
+=== #Q4 | ID=kunci-ujian-12-q004 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.1 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>の<ruby>着用<rt>ちゃくよう</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っていることを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang salah mengenai pemakaian pakaian kerja.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 1, Câu 4 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-otaff51-0466] 着用(ちゃくよう) [noun] = pemakaian / mengenakan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=えりはかみのけやほこりがふちゃくしにくいたてえりにする
+    TRANS: Menggunakan kerah tegak (tate-eri) yang membuat rambut dan debu sulit menempel.
+    KOTOBA: [kb-v2-p6-628] えり(-) [word] = kerah baju | [kb-audit-0181] かみのけ(かみのけ) [word] = rambut / helai rambut (髪の毛) | [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-audit-0226] ふちゃく(ふちゃく) [word] = menempel / melekat (付着) | [kb-audit-0227] しにくい(しにくい) [word] = sulit dilakukan / tidak mudah | [kb-audit-0228] たてえり(たてえり) [word] = kerah berdiri (立て襟) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>上着<rt>うわぎ</rt></ruby>の<ruby>下<rt>した</rt></ruby>にはTシャツなどボタンのあるものを<ruby>着用<rt>ちゃくよう</rt></ruby>。
+    TRANS: Mengenakan pakaian seperti kaus yang memiliki kancing di balik pakaian kerja bagian atas.
+    KOTOBA: [kb-otaff51-0090] 上着(うわぎ) [noun] = baju atasan (jaket kerja) | [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p6-218] Tシャツ(てぃーしゃつ) [word] = kaos (T-shirt) | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0466] 着用(ちゃくよう) [noun] = pemakaian / mengenakan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>履<rt>は</rt></ruby>き<ruby>物<rt>もの</rt></ruby>を<ruby>履<rt>は</rt></ruby>く。
+    TRANS: Mengenakan alas kaki yang bersih.
+    KOTOBA: [kb-v2-p2-225] 清潔な(せいけつな) [word] = bersih / higienis | [kb-v2-p6-531] 履き物(はきもの) [word] = alas kaki / sepatu | [kb-v2-p2-215] 履く(はく) [word] = memakai (sepatu/celana) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

@@ -1,0 +1,84 @@
+# AUDIT SHEET: latsol-reguler-01 (Latsol Reguler 01) | Batch qa-batch-09 | Part 2 (Q5-8 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=reguler01-q005 | KEY=B (idx=1) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="保護具使い方どれですか。。ただしものをひとつえらびなさい" vs questionText="保護具 使い方どれですか。。ただしものをひとつえらびなさい" || [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("防護眼鏡や手袋を使用する") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>保護具<rt>ほごぐ</rt></ruby><ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>どれですか。。ただしものをひとつえらびなさい
+  QUESTION_TEXT: 保護具 使い方どれですか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Manakah cara penggunaan alat pelindung diri (APD) yang benar? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 2, nomor 5. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-ext-1615-e4bf9de8ad] 保護具(ほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-latsol-47e6df04bf] 使い方(つかいかた) [word] = cara penggunaan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>古<rt>ふる</rt></ruby>いものと<ruby>傷<rt>きず</rt></ruby>あるものを<ruby>使用<rt>しよう</rt></ruby>する
+    TRANS: Menggunakan alat yang sudah tua dan rusak/cacat
+    KOTOBA: [kb-latsol-396a0112bf] 古い(ふるい) [word] = lama / usang | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan
+  OPT B: HTML=<ruby>防護眼鏡<rt>ぼうごめがね</rt></ruby>や<ruby>手袋<rt>てぶくろ</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>する
+    TRANS: Menggunakan kacamata pelindung dan sarung tangan
+    KOTOBA: [kb-ext-latsol-0035] 防護眼鏡(ぼうごめがね) [word] = kacamata pelindung (safety goggles) | [kb-otaff51-0311] 手袋(てぶくろ) [noun] = sarung tangan | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan
+  OPT C: HTML=じゃまですから<ruby>安全靴<rt>あんぜんぐつ</rt></ruby>つかわない
+    TRANS: Tidak memakai sepatu keselamatan karena mengganggu
+    KOTOBA: [kb-otaff51-0269] 安全靴(あんぜんぐつ) [compound_technical] = sepatu keselamatan (safety shoes) | [kb-audit-0886] つかわない(つかわない) [inflected_verb, df:使う] = tidak menggunakan
+
+=== #Q6 | ID=reguler01-q006 | KEY=C (idx=2) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)" || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("野菜、食肉、鶏肉、鶏卵など") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>では<ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan manakah yang mudah menjadi penyebab keracunan bakteri genus Salmonella? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 2, nomor 6. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0052] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri genus Salmonella | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>野菜<rt>やさい</rt></ruby>、<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、<ruby>井戸水<rt>いどみず</rt></ruby>など
+    TRANS: Sayuran, daging, daging sapi, air sumur, dll.
+    KOTOBA: [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi | [kb-otaff51-0108] 井戸水(いどみず) [noun] = air sumur
+  OPT B: HTML=<ruby>海水<rt>かいすい</rt></ruby>にいる<ruby>魚介類<rt>ぎょかいるい</rt></ruby> <ruby>刺<rt>さ</rt></ruby>し<ruby>身<rt>み</rt></ruby>、すしなど
+    TRANS: Hasil laut yang hidup di air laut, sashimi, sushi, dll.
+    KOTOBA: [kb-1201490] 海水(かいすい) [word] = air laut | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-audit-0497] 刺し身(さしみ) [word] = sashimi (ikan mentah irisan) | [kb-otaff51-1302] すし(すし) [noun] = sushi
+  OPT C: HTML=<ruby>野菜<rt>やさい</rt></ruby>、<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、<ruby>鶏卵<rt>けいらん</rt></ruby>など
+    TRANS: Sayuran, daging, daging ayam, telur ayam, dll.
+    KOTOBA: [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-otaff51-0684] 鶏卵(けいらん) [noun] = telur ayam
+
+=== #Q7 | ID=reguler01-q007 | KEY=A (idx=0) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [JP_TADASHIMONO@prompt] Check ただしもの typo -> 正しいもの || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0688 (ただし): "yang benar (typo: ただしい)" || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text || [PRIOR_KEY_AUDIT_KEY_CORRECTION_REQUIRED@question] Pada Kunci Jawaban PDF Latihan 1 Hal. 6 tertulis D (腹痛下痢), namun pada tabel diktat resmi SSW PM Bab 1, 腹痛・下痢 adalah gejala ウエルシュ菌 (reguler05-q002), sedangkan gejala utama 腸炎ビブリオ secara eksplisit tertulis 腹痛、激しい下痢 (Opsi A).
+  PRIOR_KEY_AUDIT: KEY_CORRECTION_REQUIRED | Pada Kunci Jawaban PDF Latihan 1 Hal. 6 tertulis D (腹痛下痢), namun pada tabel diktat resmi SSW PM Bab 1, 腹痛・下痢 adalah gejala ウエルシュ菌 (reguler05-q002), sedangkan gejala utama 腸炎ビブリオ secara eksplisit tertulis 腹痛、激しい下痢 (Opsi A).
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ<ruby>主<rt>おも</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>はどれですか。ただしものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah gejala utama dari keracunan Vibrio parahaemolyticus? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Jawaban yang benar adalah A (腹痛はげしい下痢 / sakit perut dan diare hebat). Berdasarkan buku teks resmi OTAFF SSW Pengolahan Makanan Bab 1 Hal. 6 tabel bakteri keracunan makanan tipe infeksi, gejala utama Vibrio parahaemolyticus (腸炎ビブリオ) adalah sakit perut dan diare hebat (腹痛、激しい下痢). Opsi D (腹痛下痢 tanpa 激しい) adalah gejala Clostridium perfringens (ウエルシュ菌), sedangkan Opsi B (血便 はげしい下痢 腹痛) adalah gejala EHEC (腸管出血性大腸菌).
+  KOTOBA_PROMPT: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0688] ただし(ただし) [adjective, df:正しい] = yang benar (typo: ただしい) | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>腹痛<rt>ふくつう</rt></ruby>はげしい<ruby>下痢<rt>げり</rt></ruby>
+    TRANS: Sakit perut, diare hebat
+    KOTOBA: [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-audit-0148] はげしい(はげしい) [word] = hebat / parah / deras | [kb-otaff51-0092] 下痢(げり) [noun] = diare
+  OPT B: HTML=<ruby>血便<rt>けつべん</rt></ruby> はげしい<ruby>下痢<rt>げり</rt></ruby> <ruby>腹痛<rt>ふくつう</rt></ruby>
+    TRANS: Tinja berdarah, diare hebat, sakit perut
+    KOTOBA: [kb-otaff51-0540] 血便(けつべん) [noun] = tinja berdarah | [kb-audit-0148] はげしい(はげしい) [word] = hebat / parah / deras | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut
+  OPT C: HTML=<ruby>下痢<rt>げり</rt></ruby> はげしい<ruby>下痢<rt>げり</rt></ruby> <ruby>発熱<rt>はつねつ</rt></ruby>
+    TRANS: Diare, diare hebat, demam
+    KOTOBA: [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-audit-0148] はげしい(はげしい) [word] = hebat / parah / deras | [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam
+  OPT D: HTML=<ruby>腹痛<rt>ふくつう</rt></ruby><ruby>下痢<rt>げり</rt></ruby>
+    TRANS: Sakit perut, diare
+    KOTOBA: [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare
+
+=== #Q8 | ID=reguler01-q008 | KEY=A (idx=0) | CAT= | SRC=Latihan 1 Soal SSW PM + KJ.pdf p.2 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("食肉、鶏肉") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby> <ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan manakah yang mudah menjadi penyebab keracunan bakteri genus Campylobacter? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Latihan 1 Soal SSW PM + KJ.pdf, halaman 2, nomor 8. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>
+    TRANS: Daging, daging ayam
+    KOTOBA: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam
+  OPT B: HTML=<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>
+    TRANS: Daging, daging sapi
+    KOTOBA: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi
+  OPT C: HTML=<ruby>野菜<rt>やさい</rt></ruby>、<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>
+    TRANS: Sayuran, daging, daging ayam
+    KOTOBA: [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam
+  OPT D: HTML=<ruby>野菜<rt>やさい</rt></ruby>、<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、いどみず
+    TRANS: Sayuran, daging, daging ayam, air sumur
+    KOTOBA: [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-audit-0348] いどみず(いどみず) [word] = air sumur (井戸水)

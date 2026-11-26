@@ -1,0 +1,47 @@
+{
+  "id": "hitungan01-q001",
+  "questionNumber": 1,
+  "sourcePdf": "HITUNGAN PM.docx",
+  "sourcePage": 1,
+  "pdfPage": 1,
+  "setId": "latsol-hitungan-01",
+  "setName": "Latsol Hitungan 01",
+  "points": 13.64,
+  "questionImage": "",
+  "questionText": "濃度(のうど)5%NACL 溶液(ようえき)があります、100ppmのNACL 溶液(ようえき)を2Lを作(つく)るときに、この溶液(ようえき)と水 (みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。",
+  "questionTextStatus": "verified",
+  "correctAnswer": "A",
+  "correctIndex": 0,
+  "prompt": "<ruby>濃度<rt>のうど</rt></ruby>5%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、100ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を2Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "instructions": "<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "explanation": "Sumber: HITUNGAN PM.docx, halaman 1, nomor 1. Bobot: 13.64 poin. Kunci jawaban: A. Verifikasi Hitungan: 100 ppm = 0,01%; 2 L = 2000 ml. Larutan = (2000 × 0,01%) / 5% = 4 ml; Air = 2000 - 4 = 1996 ml (Opsi A).",
+  "imageMediaId": "",
+  "imageSize": "large",
+  "imageRatio": "auto",
+  "imagePosition": "center",
+  "active": true,
+  "createdAt": 1775007657445,
+  "updatedAt": 1775007657445,
+  "options": [
+    {
+      "id": "A",
+      "text": "<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1996ml",
+      "mediaId": "",
+      "translation": "Larutan 4 ml, air 1996 ml"
+    },
+    {
+      "id": "B",
+      "text": "<ruby>溶液<rt>ようえき</rt></ruby>5ml、<ruby>水<rt>みず</rt></ruby>196ml",
+      "mediaId": "",
+      "translation": "Larutan 5 ml, air 196 ml"
+    },
+    {
+      "id": "C",
+      "text": "<ruby>溶液<rt>ようえき</rt></ruby>6ml、<ruby>水<rt>みず</rt></ruby>206ml",
+      "mediaId": "",
+      "translation": "Larutan 6 ml, air 206 ml"
+    }
+  ],
+  "media": [],
+  "promptTranslation": "Terdapat larutan NaCl dengan konsentrasi 5%. Saat membuat 2 L larutan NaCl 100 ppm, berapa ml masing-masing larutan pekat ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar."
+}

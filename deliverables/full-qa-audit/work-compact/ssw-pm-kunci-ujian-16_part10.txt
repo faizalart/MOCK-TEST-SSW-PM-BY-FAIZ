@@ -1,0 +1,76 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-16 (Soal Ujian 16) | Batch qa-batch-04 | Part 10 (Q37-40 of 50)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=kunci-ujian-16-q037 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.13 ===
+  INSTR: まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>機械<rt>きかい</rt></ruby>そうじのやり<ruby>方<rt>かた</rt></ruby>について、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai cara membersihkan mesin, pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 13, nomor 門37 (Q37). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Mencuci mesin tidak cukup hanya disiram air saja, melainkan harus dicuci dengan deterjen, dibilas, dan didisinfeksi.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p6-314] そうじ(-) [word] = pembersihan (bacaan 掃除) | [kb-v2-p1-029] やり方(やりかた) [word] = cara melakukan | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>機械<rt>きかい</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>うときは、<ruby>水<rt>みず</rt></ruby>で<ruby>流<rt>なが</rt></ruby>すだけでよい。
+    TRANS: Saat mencuci mesin, cukup disiram dengan air saja.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-208] 流す(ながす) [word] = mengalirkan / membilas | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-v2-p2-243] よい(-) [word] = baik / boleh
+  OPT B: HTML=<ruby>機械<rt>きかい</rt></ruby>の<ruby>取<rt>と</rt></ruby>りはずせるところは、はずしてそうじする。
+    TRANS: Bagian mesin yang dapat dilepas harus dilepas lalu dibersihkan.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-audit-0043] 取りはずせる(とりはずせる) [inflected_verb, df:取り外す] = dapat dilepas / dicopot | [kb-audit-0022] はずして(はずして) [inflected_verb, df:外す] = melepas / mencopot | [kb-audit-0023] そうじする(そうじする) [word] = membersihkan (掃除する)
+  OPT C: HTML=そうじするときは、<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める。
+    TRANS: Saat membersihkan, mesin harus dihentikan.
+    KOTOBA: [kb-audit-0023] そうじする(そうじする) [word] = membersihkan (掃除する) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-210] 止める(とめる) [word] = menghentikan
+
+=== #Q38 | ID=kunci-ujian-16-q038 | KEY=A (idx=0) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 16.pdf p.14 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:A] Potential doubled/colliding particle
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>作業記録<rt>さぎょうきろく</rt></ruby>のつけかたについて、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai cara mengisi catatan kerja (rekam proses), pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 14, nomor 門38 (Q38). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Sesuai aturan pencatatan mutu dan HACCP, hasil pengukuran suhu atau konsentrasi harus segera dicatat secara akurat pada saat pengukuran dilakukan.
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-u1416-b4c6941557] 作業記録(さぎょうきろく) [word] = catatan pekerjaan | [kb-otaff51-0714] つけ(つけ) [inflected_verb, df:つける] = mengoleskan / memakai | [kb-audit-0431] かた(かた) [word] = bahu (肩) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>温度<rt>おんど</rt></ruby>や<ruby>濃度<rt>のうど</rt></ruby>をはかったら、すぐに<ruby>記録<rt>きろく</rt></ruby>する。
+    TRANS: Segera mencatat begitu selesai mengukur suhu atau konsentrasi.
+    KOTOBA: [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-audit-0603] はかったら(はかったら) [inflected_verb, df:測る] = jika mengukur / menimbang | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman
+  OPT B: HTML=<ruby>後<rt>あと</rt></ruby>でまとめて<ruby>記録<rt>きろく</rt></ruby>する
+    TRANS: Mencatat sekaligus nanti di akhir.
+    KOTOBA: [kb-audit-0024] 後で(あとで) [word] = nanti / kemudian | [kb-v2-p4-220] まとめて(-) [word] = sekaligus / dirangkum | [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman
+  OPT C: HTML=いつもと<ruby>同<rt>おな</rt></ruby>じ<ruby>結果<rt>けっか</rt></ruby>を<ruby>記録<rt>きろく</rt></ruby>する。
+    TRANS: Menuliskan hasil yang selalu sama seperti biasanya tanpa mengukur.
+    KOTOBA: [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-1254690] 結果(けっか) [word] = hasil pemeriksaan | [kb-otaff51-0567] 記録(きろく) [noun] = pencatatan / dokumen rekaman
+
+=== #Q39 | ID=kunci-ujian-16-q039 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.14 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:B] Potential doubled/colliding particle
+  INSTR: まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>健康<rt>けんこう</rt></ruby>チェックについて、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai pemeriksaan kesehatan harian (health check), pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 14, nomor 門39 (Q39). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Menyembunyikan gejala sakit perut/diare tanpa melapor sangat berbahaya karena berisiko menyebarkan patogen keracunan makanan seperti Norovirus.
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-otaff51-0146] 健康チェック(けんこうちぇっく) [compound_technical] = pemeriksaan kesehatan harian sebelum kerja | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=おなかがいたかったが、<ruby>休<rt>やす</rt></ruby>みたくないので<ruby>報告<rt>ほうこく</rt></ruby>しなかった。
+    TRANS: Meskipun sakit perut, karena tidak ingin libur maka tidak melaporkannya.
+    KOTOBA: [kb-v2-p2-093] おなか(-) [word] = perut | [kb-audit-0044] いたかった(いたかった) [inflected_adj, df:痛い] = merasa sakit / nyeri (lampau) | [kb-otaff51-1712] 休み(やすみ) [noun] = jeda istirahat | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan | [kb-audit-0381] しなかった(しなかった) [inflected_verb, df:する] = tidak melakukan (lampau)
+  OPT B: HTML=<ruby>指<rt>ゆび</rt></ruby>にけがをしていたので<ruby>報告<rt>ほうこく</rt></ruby>した。
+    TRANS: Melapor karena mengalami luka pada jari.
+    KOTOBA: [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-audit-0915] けが(けが) [word] = luka / cedera | [kb-v2-p1-141] していた(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan
+  OPT C: HTML=ねつが38℃あったので、<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く<ruby>前<rt>まえ</rt></ruby>に<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>した。
+    TRANS: Karena demam 38°C, melapor kepada atasan sebelum berangkat ke perusahaan.
+    KOTOBA: [kb-audit-0887] ねつ(ねつ) [word] = panas / demam | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0115] 会社(かいしゃ) [noun] = perusahaan | [kb-v2-p1-158] 行く(いく) [word] = pergi | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-u1416-c408874d46] 上司(じょうし) [word] = atasan | [kb-otaff51-0246] 報告(ほうこく) [noun] = laporan / melaporkan
+
+=== #Q40 | ID=kunci-ujian-16-q040 | KEY=C (idx=2) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 16.pdf p.14 ===
+  INSTR: まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  PROMPT_HTML: <ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐ<ruby>方法<rt>ほうほう</rt></ruby>として、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai cara mencegah kecelakaan kerja, pilihlah satu tindakan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 14, nomor 門40 (Q40). Bobot: 3.0 poin. Kunci jawaban: C. Pembahasan: Mengganti minyak penggorengan (フライヤー) saat masih panas tanpa memeriksa suhunya sangat berbahaya karena dapat menyebabkan luka bakar parah.
+  INLINE_KOTOBA_COUNT: 22
+  KOTOBA_PROMPT: [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>非常停止<rt>ひじょうていし</rt></ruby>ボタンを<ruby>押<rt>お</rt></ruby>して<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めた。
+    TRANS: Menekan tombol berhenti darurat untuk menghentikan mesin.
+    KOTOBA: [kb-otaff51-0635] 非常停止ボタン(ひじょうていしぼたん) [compound_technical] = tombol berhenti darurat | [kb-v2-p5-355] 押して(おして) [inflected, df:押す] = menekan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p5-413] 止めた(とめた) [inflected, df:止める] = menghentikan (lampau)
+  OPT B: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>のとびらを<ruby>閉<rt>し</rt></ruby>めるまえに、<ruby>中<rt>なか</rt></ruby>に<ruby>人<rt>ひと</rt></ruby>がいないか<ruby>確認<rt>かくにん</rt></ruby>する。
+    TRANS: Memastikan tidak ada orang di dalam sebelum menutup pintu ruang pendingin.
+    KOTOBA: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-u1416-d4aef6cef4] とびら(とびら) [word] = pintu | [kb-latsol-shimeru] 閉める(しめる) [word] = menutup | [kb-v2-p6-570] まえ(-) [word] = sebelum / depan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan
+  OPT C: HTML=<ruby>油<rt>あぶら</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>せずフライヤーの<ruby>油<rt>あぶら</rt></ruby>を<ruby>交換<rt>こうかん</rt></ruby>する。
+    TRANS: Mengganti minyak penggorengan (fryer) tanpa memeriksa suhu minyak terlebih dahulu.
+    KOTOBA: [kb-otaff51-0379] 油(あぶら) [noun] = minyak | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0471] 確認(かくにん) [noun] = pemeriksaan / konfirmasi | [kb-latsol-1f65281325] フライヤー(ふらいやー) [word] = mesin penggorengan (deep fryer) | [kb-1271750] 交換(こうかん) [word] = penggantian

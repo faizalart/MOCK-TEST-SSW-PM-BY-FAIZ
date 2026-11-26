@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-09 (Latsol OTAFF SSW PM Modul 5.1 - Paket 09) | Batch qa-batch-12 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=otaff-pm51-09-q001 | KEY=C (idx=2) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.7 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ハム・ソーセージ、<ruby>魚<rt>さかな</rt></ruby>の<ruby>缶詰<rt>かんづめ</rt></ruby>、<ruby>調味料<rt>ちょうみりょう</rt></ruby>、パンやお<ruby>菓子<rt>かし</rt></ruby>、<ruby>弁当<rt>べんとう</rt></ruby>やそう<ruby>菜<rt>ざい</rt></ruby>、<ruby>冷凍食品<rt>れいとうしょくひん</rt></ruby>などを<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>業種<rt>ぎょうしゅ</rt></ruby>をまとめて<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Disebut apakah secara umum subsektor industri yang memproduksi ham dan sosis, ikan kaleng, bumbu penyedap, roti dan kue, bento dan lauk-pauk (souzai), serta makanan beku? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 7 (Bab 1.1, hal. 2 teks). Bobot: 3 poin. Kunci jawaban: C. Pembuatan ham/sosis, ikan kaleng, bumbu, roti/kue, bento/souzai, dan makanan beku termasuk 食料品製造業, sedangkan pembuatan jus/teh/kopi termasuk 飲料製造業.
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-otaff51-0874] ハム・ソーセージ(はむそーせーじ) [noun] = ham dan sosis | [kb-v2-p5-134] 魚(さかな) [word] = ikan | [kb-1214560] 缶詰(かんづめ) [word] = makanan kaleng | [kb-1429290] 調味料(ちょうみりょう) [word] = bumbu penyedap | [kb-ext-0025-e38391e383] パン(ぱん) [word] = roti | [kb-v2-p5-112] お菓子(おかし) [word] = kue / camilan | [kb-1513060] 弁当(べんとう) [word] = bekal makanan (bento) | [kb-otaff51-0021] そう菜(そうざい) [noun] = lauk-pauk siap saji (souzai) | [kb-1557240] 冷凍食品(れいとうしょくひん) [word] = Produk pangan olahan beku | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-1239450] 業種(ぎょうしゅ) [word] = jenis sektor industri | [kb-v2-p4-220] まとめて(-) [word] = sekaligus / dirangkum | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-154] 言います(いいます) [inflected, df:言う] = mengucapkan / menyebut | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>清涼飲料製造業<rt>せいりょういんりょうせいぞうぎょう</rt></ruby>
+    TRANS: Industri pembuatan minuman ringan
+    KOTOBA: [kb-otaff51-0401] 清涼飲料製造業(せいりょういんりょうせいぞうぎょう) [compound_technical] = industri pembuatan minuman ringan
+  OPT B: HTML=<ruby>工作機械製造業<rt>こうさくきかいせいぞうぎょう</rt></ruby>
+    TRANS: Industri pembuatan mesin perkakas
+    KOTOBA: [kb-otaff51-1556] 工作機械製造業(こうさくきかいせいぞうぎょう) [compound_technical] = industri pembuatan mesin perkakas
+  OPT C: HTML=<ruby>食料品製造業<rt>しょくりょうひんせいぞうぎょう</rt></ruby>（<ruby>飲料製造業<rt>いんりょうせいぞうぎょう</rt></ruby>とあわせて<ruby>飲食料品製造業<rt>いんしょくりょうひんせいぞうぎょう</rt></ruby>）
+    TRANS: Industri pengolahan bahan pangan/makanan (Shokuryouhin Seizougyou, yang bersama industri minuman disebut Industri Pengolahan Makanan & Minuman)
+    KOTOBA: [kb-ext-0950-e9a39fe696] 食料品製造業(しょくりょうひんせいぞうぎょう) [word] = Industri manufaktur produk bahan makanan | [kb-ext-0117-e9a3b2e696] 飲料製造業(いんりょうせいぞうぎょう) [word] = industri manufaktur minuman | [kb-otaff51-1557] あわせて(あわせて) [adverb] = secara gabungan / bersama | [kb-pilot51-001] 飲食料品製造業(いんしょくりょうひんせいぞうぎょう) [compound_technical] = industri pengolahan makanan dan minuman
+
+=== #Q2 | ID=otaff-pm51-09-q002 | KEY=B (idx=1) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.86 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: この『<ruby>飲食料品製造業特定技能<rt>いんしょくりょうひんせいぞうぎょうとくていぎのう</rt></ruby>1<ruby>号評価試験<rt>ごうひょうかしけん</rt></ruby> <ruby>学習用<rt>がくしゅうよう</rt></ruby>テキスト（<ruby>第<rt>だい</rt></ruby>5.1<ruby>版<rt>はん</rt></ruby>）』は、どの<ruby>機関<rt>きかん</rt></ruby>が<ruby>作成<rt>さくせい</rt></ruby>し、<ruby>著作権<rt>ちょさくけん</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Lembaga manakah yang menyusun dan memegang hak cipta atas 'Buku Teks Pembelajaran Ujian Evaluasi SSW 1 Industri Pengolahan Makanan dan Minuman (Edisi 5.1)' ini? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 1, 85, & 86 (Sampul & ＜注意事項＞, hal. 80–81 teks). Bobot: 3 poin. Kunci jawaban: B. Buku teks resmi ini disusun dan dimiliki hak ciptanya oleh 一般社団法人 外国人食品産業技能評価機構 (OTAFF).
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-pilot51-001] 飲食料品製造業(いんしょくりょうひんせいぞうぎょう) [compound_technical] = industri pengolahan makanan dan minuman | [kb-otaff51-1558] 特定技能1号評価試験(とくていぎのういちごうひょうかしけん) [compound_technical] = ujian penilaian SSW bidang 1 | [kb-otaff51-0260] 学習用(がくしゅうよう) [compound_technical] = untuk pembelajaran | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-otaff51-0986] 第5.1版(だいごてんいちはん) [compound_technical] = edisi ke-5.1 | [kb-otaff51-1559] 機関(きかん) [noun] = lembaga / institusi | [kb-1297760] 作成(さくせい) [word] = penyusunan / pembuatan | [kb-otaff51-1560] 著作権(ちょさくけん) [noun] = hak cipta | [kb-v2-p2-139] 持って(もって) [inflected, df:持つ] = membawa / memegang | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>国土交通省<rt>こくどこうつうしょう</rt></ruby>
+    TRANS: Kementerian Pertanahan, Infrastruktur, Transportasi dan Pariwisata
+    KOTOBA: [kb-otaff51-1561] 国土交通省(こくどこうつうしょう) [compound_technical] = Kementerian Pertanahan & Transportasi
+  OPT B: HTML=<ruby>一般社団法人<rt>いっぱんしゃだんほうじん</rt></ruby> <ruby>外国人食品産業技能評価機構<rt>がいこくじんしょくひんさんぎょうぎのうひょうかきこう</rt></ruby>（OTAFF）
+    TRANS: Organization for Technical Skill Assessment of Foreign Workers in Food Industry (OTAFF)
+    KOTOBA: [kb-otaff51-0088] 一般社団法人(いっぱんしゃだんほうじん) [compound_technical] = asosiasi berbadan hukum umum (Ippan Shadan Houjin) | [kb-otaff51-0253] 外国人食品産業技能評価機構(がいこくじんしょくひんさんぎょうぎのうひょうかきこう) [compound_technical] = OTAFF (lembaga penyelenggara ujian SSW) | [kb-otaff51-1562] OTAFF(おーたふ) [abbreviation] = OTAFF (lembaga penyelenggara ujian SSW)
+  OPT C: HTML=<ruby>日本自動車工業会<rt>にほんじどうしゃこうぎょうかい</rt></ruby>
+    TRANS: Asosiasi Industri Otomotif Jepang
+    KOTOBA: [kb-otaff51-1563] 日本自動車工業会(にほんじどうしゃこうぎょうかい) [compound_technical] = Asosiasi Pabrikan Otomotif Jepang
+
+=== #Q3 | ID=otaff-pm51-09-q003 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.14 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "4" missing in ID "Pada revisi April 2026 (Edisi 5.1), berapakah jumlah item masing-masing untuk 'B" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-1255430 "月": kotoba="つき" vs ruby="がつ"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 2026<ruby>年<rt>ねん</rt></ruby>4<ruby>月<rt>がつ</rt></ruby>の<ruby>改訂<rt>かいてい</rt></ruby>（<ruby>第<rt>だい</rt></ruby>5.1<ruby>版<rt>はん</rt></ruby>）において、「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>（<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>）」と「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>に<ruby>準<rt>じゅん</rt></ruby>ずるもの（<ruby>表示推奨<rt>ひょうじすいしょう</rt></ruby>）」の<ruby>品目数<rt>ひんもくすう</rt></ruby>はそれぞれ<ruby>何品目<rt>なんひんもく</rt></ruby>（<ruby>合計何品目<rt>ごうけいなんひんもく</rt></ruby>）になりましたか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada revisi April 2026 (Edisi 5.1), berapakah jumlah item masing-masing untuk 'Bahan Baku Spesifik (Wajib Label)' dan 'Bahan yang Setara dengan Bahan Baku Spesifik (Anjuran Label)' beserta total keseluruhannya? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 14 (Bab 2.2(2)①, hal. 9 teks). Bobot: 3 poin. Kunci jawaban: A. Dengan ditambahkannya カシューナッツ ke daftar wajib dan ピスタチオ ke daftar anjuran per 1 April 2026, jumlahnya menjadi 9 item wajib (特定原材料 9品目) dan 20 item anjuran (特定原材料に準ずるもの 20品目), total 29 item.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-otaff51-0689] 年(ねん) [noun] = tahun | [kb-1255430] 月(つき) [standalone_term] = Bulan dalam penanggalan kalender | [kb-otaff51-1564] 改訂(かいてい) [noun] = revisi / pembaruan edisi | [kb-otaff51-0986] 第5.1版(だいごてんいちはん) [compound_technical] = edisi ke-5.1 | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-ext-1372-e789b9e5ae] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku alergen wajib label | [kb-ext-1508-e8a1a8e7a4] 表示義務(ひょうじぎむ) [word] = kewajiban pelabelan alergen | [kb-otaff51-0708] 特定原材料に準ずるもの(とくていげんざいりょうにじゅんずるもの) [compound_technical] = bahan pangan alergen anjuran label | [kb-ext-1510-e8a1a8e7a4] 表示推奨(ひょうじすいしょう) [word] = alergen rekomendasi pelabelan | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-1580820] 数(かず) [standalone_term] = Jumlah hitungan angka kuantitas | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-otaff51-1565] 何品目(なんひんもく) [noun] = berapa item bahan pangan | [kb-otaff51-1566] 合計何品目(ごうけいなんひんもく) [noun] = total berapa item bahan | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>：9<ruby>品目<rt>ひんもく</rt></ruby> ／ <ruby>準<rt>じゅん</rt></ruby>ずるもの：20<ruby>品目<rt>ひんもく</rt></ruby>（<ruby>合計<rt>ごうけい</rt></ruby>29<ruby>品目<rt>ひんもく</rt></ruby>）
+    TRANS: Wajib label: 9 item / Anjuran label: 20 item (Total 29 item)
+    KOTOBA: [kb-ext-1372-e789b9e5ae] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku alergen wajib label | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-v2-p3-241] 準ずる(じゅんずる) [word] = setara / mengikuti aturan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-1284740] 合計(ごうけい) [word] = Total jumlah keseluruhan hitungan
+  OPT B: HTML=<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>：7<ruby>品目<rt>ひんもく</rt></ruby> ／ <ruby>準<rt>じゅん</rt></ruby>ずるもの：18<ruby>品目<rt>ひんもく</rt></ruby>（<ruby>合計<rt>ごうけい</rt></ruby>25<ruby>品目<rt>ひんもく</rt></ruby>）
+    TRANS: Wajib label: 7 item / Anjuran label: 18 item (Total 25 item)
+    KOTOBA: [kb-ext-1372-e789b9e5ae] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku alergen wajib label | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-v2-p3-241] 準ずる(じゅんずる) [word] = setara / mengikuti aturan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-1284740] 合計(ごうけい) [word] = Total jumlah keseluruhan hitungan
+  OPT C: HTML=<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>：15<ruby>品目<rt>ひんもく</rt></ruby> ／ <ruby>準<rt>じゅん</rt></ruby>ずるもの：15<ruby>品目<rt>ひんもく</rt></ruby>（<ruby>合計<rt>ごうけい</rt></ruby>30<ruby>品目<rt>ひんもく</rt></ruby>）
+    TRANS: Wajib label: 15 item / Anjuran label: 15 item (Total 30 item)
+    KOTOBA: [kb-ext-1372-e789b9e5ae] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku alergen wajib label | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-v2-p3-241] 準ずる(じゅんずる) [word] = setara / mengikuti aturan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-1284740] 合計(ごうけい) [word] = Total jumlah keseluruhan hitungan
+
+=== #Q4 | ID=otaff-pm51-09-q004 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.14 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>に<ruby>準<rt>じゅん</rt></ruby>ずるもの（20<ruby>品目<rt>ひんもく</rt></ruby>）」に<ruby>含<rt>ふく</rt></ruby>まれている「<ruby>大豆<rt>だいず</rt></ruby>」「やまいも」「ゼラチン」についての<ruby>説明<rt>せつめい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu penjelasan yang benar mengenai 'kacang kedelai (daizu)', 'ubi Jepang (yamaimo)', dan 'gelatin (zerachin)' yang termasuk dalam daftar 'Bahan yang Setara dengan Bahan Baku Spesifik (20 item)'.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 14 (Bab 2.2(2)①, hal. 9 teks). Bobot: 3 poin. Kunci jawaban: B. 大豆, やまいも, dan ゼラチン termasuk dalam 20 item 特定原材料に準ずるもの yang dianjurkan untuk dicantumkan pada label makanan olahan.
+  INLINE_KOTOBA_COUNT: 24
+  KOTOBA_PROMPT: [kb-otaff51-0708] 特定原材料に準ずるもの(とくていげんざいりょうにじゅんずるもの) [compound_technical] = bahan pangan alergen anjuran label | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-v2-p3-252] 含まれて(ふくまれて) [inflected, df:含む] = terkandung di dalam | [kb-1414680] 大豆(だいず) [word] = kacang kedelai | [kb-v2-p3-101] やまいも(-) [word] = ubi gunung (yam) | [kb-latsol-8a6d985f87] ゼラチン(ぜらちん) [word] = gelatin | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-1386460] 説明(せつめい) [word] = penjelasan / uraian | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=これらはアレルギーを<ruby>起<rt>お</rt></ruby>こさないので、<ruby>表示<rt>ひょうじ</rt></ruby>してはならない。
+    TRANS: Bahan-bahan ini tidak menimbulkan alergi sehingga dilarang dicantumkan pada label.
+    KOTOBA: [kb-v2-p5-427] これ(-) [word] = ini | [kb-latsol-8631870cb7] アレルギー(あれるぎー) [word] = alergi | [kb-v2-p4-170] 起こさない(おこさない) [inflected, df:起こす] = tidak menimbulkan | [kb-1489610] 表示(ひょうじ) [word] = pelabelan / tampilan | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi
+  OPT B: HTML=これらは「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>に<ruby>準<rt>じゅん</rt></ruby>ずるもの」として、<ruby>加工食品<rt>かこうしょくひん</rt></ruby>への<ruby>表示<rt>ひょうじ</rt></ruby>が<ruby>推奨<rt>すいしょう</rt></ruby>（<ruby>表示<rt>ひょうじ</rt></ruby>をしたほうがいい）されている。
+    TRANS: Bahan-bahan ini termasuk 'bahan yang setara dengan bahan baku spesifik' yang pencantuman labelnya pada makanan olahan dianjurkan (direkomendasikan).
+    KOTOBA: [kb-v2-p5-427] これ(-) [word] = ini | [kb-otaff51-0708] 特定原材料に準ずるもの(とくていげんざいりょうにじゅんずるもの) [compound_technical] = bahan pangan alergen anjuran label | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-2737330] 加工食品(かこうしょくひん) [compound_technical] = pangan olahan | [kb-1489610] 表示(ひょうじ) [word] = pelabelan / tampilan | [kb-1371120] 推奨(すいしょう) [word] = rekomendasi / dianjurkan | [kb-v2-p6-612] ほうがいい(-) [expression] = sebaiknya / lebih baik | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する)
+  OPT C: HTML=これらは<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>（<ruby>硬質異物<rt>こうしついぶつ</rt></ruby>）である。
+    TRANS: Bahan-bahan ini merupakan faktor bahaya fisik (benda asing keras).
+    KOTOBA: [kb-v2-p5-427] これ(-) [word] = ini | [kb-ext-1566-e789a9e790] 物理的危害要因(ぶつりてききがいよういん) [word] = bahaya fisik | [kb-otaff51-0470] 硬質異物(こうしついぶつ) [compound_technical] = benda asing keras

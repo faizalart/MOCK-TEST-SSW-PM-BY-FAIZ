@@ -1,0 +1,112 @@
+{
+  "batchId": "batch-07",
+  "completedAt": "2026-11-15T19:26:08.542Z",
+  "packages": [
+    "ssw-pm-lab-alergen",
+    "bonus-soal-7",
+    "ssw-pm-kunci-ujian-7",
+    "ssw-pm-kunci-ujian-1",
+    "bonus-soal-4"
+  ],
+  "beforeTotalErrors": 351,
+  "afterTotalErrors": 0,
+  "beforeByPackage": [
+    {
+      "setId": "ssw-pm-lab-alergen",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 20,
+      "errors": 42,
+      "spanPct": 100
+    },
+    {
+      "setId": "bonus-soal-7",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 39,
+      "errors": 94,
+      "spanPct": 100
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-7",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 125,
+      "spanPct": 100
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-1",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 8,
+      "spanPct": 100
+    },
+    {
+      "setId": "bonus-soal-4",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 82,
+      "spanPct": 100
+    }
+  ],
+  "afterByPackage": [
+    {
+      "setId": "ssw-pm-lab-alergen",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 20,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": {
+        "validatorErrors": 0,
+        "spanCoveragePct": 100,
+        "unresolvedSpans": 0
+      }
+    },
+    {
+      "setId": "bonus-soal-7",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 39,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": {
+        "validatorErrors": 0,
+        "spanCoveragePct": 100,
+        "unresolvedSpans": 0
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-7",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": {
+        "validatorErrors": 0,
+        "spanCoveragePct": 100,
+        "unresolvedSpans": 0
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-1",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": {
+        "validatorErrors": 0,
+        "spanCoveragePct": 100,
+        "unresolvedSpans": 0
+      }
+    },
+    {
+      "setId": "bonus-soal-4",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": null
+    }
+  ],
+  "touchedPackageFiles": [],
+  "curatedTermsTotalInMaster": 1171,
+  "protected10Verified": true,
+  "immutabilityVerified": true
+}

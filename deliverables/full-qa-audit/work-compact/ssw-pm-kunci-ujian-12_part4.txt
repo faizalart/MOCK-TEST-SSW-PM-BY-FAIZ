@@ -1,0 +1,71 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-12 (Soal Ujian 12 — CBTP Gino1) | Batch qa-batch-03 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=kunci-ujian-12-q013 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: きがいよういんとはなんですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dimaksud dengan faktor bahaya (hazard)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 3, Câu 13 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0264] きがいよういん(きがいよういん) [word] = faktor bahaya / hazard (危害要因) | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>が<ruby>病気<rt>びょうき</rt></ruby>になったり<ruby>ケガ<rt>けが</rt></ruby>をしない<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Makanan yang tidak membuat orang yang memakannya menjadi sakit atau terluka
+    KOTOBA: [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0453] 病気(びょうき) [noun] = penyakit / sakit | [kb-audit-0562] なったり(なったり) [inflected_verb, df:なる] = menjadi, dan lain-lain | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=ひとがびょうきになったり<ruby>ケガ<rt>けが</rt></ruby>をしたりするげんいん
+    TRANS: Penyebab yang membuat manusia menjadi sakit atau mengalami cedera
+    KOTOBA: [kb-audit-0325] ひと(ひと) [word] = orang / manusia (人) | [kb-audit-0695] びょうき(びょうき) [word] = penyakit / sakit | [kb-audit-0562] なったり(なったり) [inflected_verb, df:なる] = menjadi, dan lain-lain | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-audit-0563] したり(したり) [inflected_verb, df:する] = melakukan, dan lain-lain | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-audit-0671] げんいん(げんいん) [word] = penyebab | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>健康食品<rt>けんこうしょくひん</rt></ruby>のこと
+    TRANS: Makanan kesehatan
+    KOTOBA: [kb-1630700] 健康食品(けんこうしょくひん) [word] = Makanan kesehatan / suplemen pangan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q14 | ID=kunci-ujian-12-q014 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.3 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 清潔作業区域 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0300 (こなうべき): "yang seharusnya dilakukan (typo: 行うべき)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0225 (とりあつう): "menangani (typo 取り扱う)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: せいけつさぎょうくいきでこなうべきさぎょうはどれですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pekerjaan manakah yang seharusnya dilakukan di area kerja bersih (清潔作業区域 / seiketsu sagyou kuiki)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 3, Câu 14 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-latsol-ba01a8a7ea] せいけつ(せいけつ) [word] = Seiketsu (menjaga kebersihan 5S) | [kb-audit-0219] さぎょうくいき(さぎょうくいき) [word] = area kerja / zona kerja (作業区域) | [kb-audit-0300] こなうべき(おこなうべき) [word] = yang seharusnya dilakukan (typo: 行うべき) | [kb-audit-0220] さぎょう(さぎょう) [word] = pekerjaan / pengerjaan (作業) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=さっきんするまえのげんざいりょうをとりあつう
+    TRANS: Menangani bahan baku sebelum disterilisasi (pengolahan awal)
+    KOTOBA: [kb-audit-0212] さっきん(さっきん) [word] = sterilisasi / pembunuhan bakteri (殺菌) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p6-570] まえ(-) [word] = sebelum / depan | [kb-v2-p5-201] げんざいりょう(-) [word] = bahan baku (bacaan 原材料) | [kb-audit-0225] とりあつう(とりあつかう) [inflected_verb, df:取り扱う] = menangani (typo 取り扱う) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受入<rt>うけい</rt></ruby>れなど、<ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>外<rt>そと</rt></ruby>から<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まれた<ruby>原材料<rt>げんざいりょう</rt></ruby>などを<ruby>扱<rt>あつか</rt></ruby>う
+    TRANS: Menangani bahan baku yang dibawa masuk dari luar area kerja, seperti penerimaan bahan baku
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-latsol-a29987ec64] 受入れ(うけいれ) [word] = penerimaan bahan baku | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-audit-0171] 持ち込まれた(もちこまれた) [inflected_verb, df:持ち込む] = dibawa masuk (pasif lampau) | [kb-v2-p5-417] 扱う(あつかう) [word] = menangani / mengolah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>加熱<rt>かねつ</rt></ruby>や<ruby>薬剤<rt>やくざい</rt></ruby>による<ruby>殺菌<rt>さっきん</rt></ruby>が<ruby>終<rt>お</rt></ruby>わった<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>う
+    TRANS: Menangani makanan yang telah selesai melalui proses sterilisasi dengan pemanasan atau bahan kimia
+    KOTOBA: [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-otaff51-0539] 薬剤による殺菌(やくざいによるさっきん) [compound_technical] = sterilisasi menggunakan bahan kimia | [kb-v2-p4-157] 終わった(おわった) [inflected, df:終わる] = telah selesai | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p3-311] 取り扱う(とりあつかう) [word] = menangani / mengolah | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q15 | ID=kunci-ujian-12-q015 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>管理基準<rt>かんりきじゅん</rt></ruby>からの<ruby>逸脱<rt>いつだつ</rt></ruby>した<ruby>場合<rt>ばあい</rt></ruby>はどうしますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan jika terjadi penyimpangan dari batas kritis (standar manajemen)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 3, Câu 15 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0485] 管理基準からの逸脱(かんりきじゅんからのいつだつ) [compound_technical] = penyimpangan dari standar pengendalian (batas kritis) | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>中心温度<rt>ちゅうしんおんど</rt></ruby>を「75°Cで1<ruby>分間<rt>ふんかん</rt></ruby>」<ruby>加熱<rt>かねつ</rt></ruby>する
+    TRANS: Memanaskan suhu bagian tengah (suhu inti) pada "75°C selama 1 menit"
+    KOTOBA: [kb-otaff51-0100] 中心温度(ちゅうしんおんど) [compound_technical] = suhu bagian tengah (suhu inti) | [kb-audit-0184] °C(ど) [technical] = derajat Celcius (satuan suhu) | [kb-otaff51-0179] 分間(ふんかん) [noun] = menit (durasi) | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=かいぜんそうちをおこなってしょくひんのなかにきがいよういんがのこらないようにすること
+    TRANS: Melakukan tindakan perbaikan (korektif) agar faktor bahaya tidak tertinggal di dalam makanan
+    KOTOBA: [kb-audit-0269] かいぜんそうち(かいぜんそうち) [word] = tindakan perbaikan (改善措置) | [kb-otaff51-0804] おこなって(おこなって) [inflected_verb, df:おこなう] = melakukan | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-audit-0264] きがいよういん(きがいよういん) [word] = faktor bahaya / hazard (危害要因) | [kb-audit-0634] のこらない(のこらない) [inflected_verb, df:残る] = tidak tersisa | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=100ppmのさっきんえきに5ふんかんしかつける
+    TRANS: Merendam dalam larutan sterilisasi 100 ppm selama 5 menit saja
+    KOTOBA: [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-audit-0212] さっきん(さっきん) [word] = sterilisasi / pembunuhan bakteri (殺菌) | [kb-v2-p5-367] えき(-) [word] = cairan (larutan) | [kb-audit-0694] ふんかん(ふんかん) [suffix] = selama ... menit | [kb-audit-0465] しか(しか) [particle] = hanya (+ bentuk negatif) | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q16 | ID=kunci-ujian-12-q016 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ロウイルスのおせんをふせぐことでただしいことをえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah tindakan yang benar untuk mencegah kontaminasi Norovirus.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 3, Câu 16 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-audit-0206] ロウイルス(ろういるす) [technical] = Norovirus (penulisan kurang huruf ノ: ノロウイルス) | [kb-audit-0240] おせん(おせん) [word] = kontaminasi / pencemaran (汚染) | [kb-audit-0241] ふせぐ(ふせぐ) [word] = mencegah (防ぐ) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=<ruby>水分<rt>すいぶん</rt></ruby>をしっかり<ruby>拭<rt>ふ</rt></ruby>き<ruby>取<rt>と</rt></ruby>る
+    TRANS: Mengelap kandungan air hingga benar-benar kering
+    KOTOBA: [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-v2-p3-329] 拭き取る(ふきとる) [word] = mengelap hingga bersih | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=てあらいをてっていする
+    TRANS: Mencuci tangan secara menyeluruh dan disiplin
+    KOTOBA: [kb-audit-0668] てあらい(てあらい) [word] = cuci tangan | [kb-audit-0669] てってい(てってい) [word] = penerapan menyeluruh | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=ようきやきぐはいろわけしてしようする
+    TRANS: Menggunakan wadah dan peralatan dengan membedakan warnanya
+    KOTOBA: [kb-audit-0657] ようき(ようき) [word] = wadah / kontainer | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-audit-0319] いろわけ(いろわけ) [word] = pemisahan warna (色分け) | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-audit-0659] しようする(しようする) [word] = menggunakan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik

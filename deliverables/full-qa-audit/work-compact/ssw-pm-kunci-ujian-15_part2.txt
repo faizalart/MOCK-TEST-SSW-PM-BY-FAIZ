@@ -1,0 +1,82 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-15 (Soal Ujian 15) | Batch qa-batch-03 | Part 2 (Q5-8 of 38)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=kunci-ujian-15-q005 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.2 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Apa yang harus dilakukan untuk menjalankan pekerjaan yang higienis? Pilihlah sat" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0327 (後手): "tangan setelahnya (typo spasi: 後、手)"
+  CLUSTER CL-0121 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-8-q005 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>衛生<rt>えいせい</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>うために<ruby>何<rt>なに</rt></ruby>をするべきですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan untuk menjalankan pekerjaan yang higienis? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 2, nomor 5 (Q5). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Pemisahan zona kotor (汚染区) dan zona bersih (非汚染区) secara ketat adalah prinsip utama manajemen higiene umum untuk mencegah kontaminasi silang.
+  INLINE_KOTOBA_COUNT: 21
+  KOTOBA_PROMPT: [kb-1174790] 衛生(えいせい) [word] = sanitasi dan higienitas | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>汚染区<rt>おせんく</rt></ruby>と<ruby>非汚染区<rt>ひおせんく</rt></ruby>をしっかり<ruby>区別<rt>くべつ</rt></ruby>する。
+    TRANS: Membedakan dengan tegas antara zona kotor (osenku) dan zona bersih (hi-osenku).
+    KOTOBA: [kb-ext-0149-e6b19ae69f] 汚染区(おせんく) [compound_technical] = zona kotor (terkontaminasi) | [kb-ext-1481-e99d9ee6b1] 非汚染区(ひおせんく) [compound_technical] = zona bersih (non-terkontaminasi) | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-otaff51-0210] 区別(くべつ) [noun] = pembedaan / pemisahan penggunaan
+  OPT B: HTML=トイレの<ruby>後<rt>あと</rt></ruby><ruby>手<rt>て</rt></ruby>を<ruby>水<rt>みず</rt></ruby>だけで<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci tangan hanya dengan air saja setelah dari toilet.
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-audit-0327] 後手(あとて) [word] = tangan setelahnya (typo spasi: 後、手) | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci
+  OPT C: HTML=<ruby>作業後器具<rt>さぎょうごきぐ</rt></ruby>を<ruby>片付<rt>かたづ</rt></ruby>けず、<ruby>作業場<rt>さぎょうじょう</rt></ruby>にそのまま<ruby>置<rt>お</rt></ruby>く。
+    TRANS: Tidak membereskan peralatan setelah bekerja dan membiarkannya di tempat kerja.
+    KOTOBA: [kb-ext-0631-e4bd9ce6a5] 作業後器具(さぎょうごきぐ) [word] = peralatan setelah digunakan | [kb-audit-1130] 片付けず(かたづけず) [inflected_verb, df:片付ける] = tanpa membereskan (片付ける) | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p3-275] 置く(おく) [word] = meletakkan
+
+=== #Q6 | ID=kunci-ujian-15-q006 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.2 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Kegiatan 5S adalah kegiatan penting dalam manajemen higiene umum yang mendukung " || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0122 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-8-q006 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5S<ruby>活動<rt>かつどう</rt></ruby>は<ruby>製品<rt>せいひん</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>、<ruby>品質保持<rt>ひんしつほじ</rt></ruby>につながる<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>の<ruby>上<rt>うえ</rt></ruby>で<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>活動<rt>かつどう</rt></ruby>です。「<ruby>整理<rt>せいり</rt></ruby>」、「<ruby>整頓<rt>せいとん</rt></ruby>」、「<ruby>清潔<rt>せいけつ</rt></ruby>」、「<ruby>習慣<rt>しゅうかん</rt></ruby>」のもう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なに</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kegiatan 5S adalah kegiatan penting dalam manajemen higiene umum yang mendukung keamanan dan pemeliharaan mutu produk. Selain "Seiri (Ringkas)", "Seiton (Rapi)", "Seiketsu (Rawat)", dan "Shuukan (Rajin)", apakah satu lagi? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 2, nomor 6 (Q6). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 35), 5S terdiri dari 整理, 整頓, 清掃, 清潔, 習慣.
+  INLINE_KOTOBA_COUNT: 21
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-ext-1526-e59381e8b3] 品質保持(ひんしつほじ) [word] = pemeliharaan mutu pangan | [kb-otaff51-0734] つながる(つながる) [verb] = mengarah pada / menyebabkan | [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan) | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>清掃<rt>せいそう</rt></ruby>
+    TRANS: Seisou (Resik / Pembersihan)
+    KOTOBA: [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+  OPT B: HTML=<ruby>清算<rt>せいさん</rt></ruby>
+    TRANS: Seisan (Pelunasan/penyelesaian hitung)
+    KOTOBA: [kb-1378210] 清算(せいさん) [word] = Penyelesaian hitungan biaya
+  OPT C: HTML=<ruby>掃除<rt>そうじ</rt></ruby>
+    TRANS: Souji (Menyapu/membersihkan umum)
+    KOTOBA: [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan
+
+=== #Q7 | ID=kunci-ujian-15-q007 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 15.pdf p.2 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Kegiatan seperti apakah "Seiri (Ringkas)" itu? Pilihlah satu yang benar."
+  CLUSTER CL-0123 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-8-q007 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>整理<rt>せいり</rt></ruby>」とはどのような<ruby>活動<rt>かつどう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kegiatan seperti apakah "Seiri (Ringkas)" itu? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 2, nomor 7 (Q7). Bobot: 3.95 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 35), 整理 (Seiri) adalah memisahkan barang yang diperlukan dari yang tidak diperlukan lalu membuang barang yang tidak diperlukan.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>必要<rt>ひつよう</rt></ruby>なものを<ruby>保管<rt>ほかん</rt></ruby>し、<ruby>不要<rt>ふよう</rt></ruby>なものを<ruby>捨<rt>す</rt></ruby>てる。
+    TRANS: Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan.
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p2-030] 保管し(ほかんし) [inflected, df:保管する] = menyimpan | [kb-latsol-90a80dc9bf] 不要な(ふような) [word] = tidak diperlukan | [kb-v2-p1-174] 捨てる(すてる) [word] = membuang
+  OPT B: HTML=<ruby>必要<rt>ひつよう</rt></ruby>なものがすぐに<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>せるように、<ruby>置<rt>お</rt></ruby>き<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めておく。
+    TRANS: Menentukan tempat penyimpanan agar barang yang diperlukan dapat segera diambil (Seiton).
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p3-315] 取り出せる(とりだせる) [inflected, df:取り出す] = dapat mengambil keluar | [kb-v2-p1-023] 置き場所(おきばしょ) [word] = tempat penyimpanan | [kb-v2-p1-177] 決めて(きめて) [inflected_verb, df:決める] = menetapkan (dasar: 決める)
+  OPT C: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>とその<ruby>周辺<rt>しゅうへん</rt></ruby>をいつもきれいに<ruby>掃除<rt>そうじ</rt></ruby>する
+    TRANS: Selalu membersihkan tempat kerja dan area sekitarnya (Seisou).
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1331300] 周辺(しゅうへん) [word] = Area sekitar mesin produksi | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan
+
+=== #Q8 | ID=kunci-ujian-15-q008 | KEY=C (idx=2) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 15.pdf p.3 ===
+  FLAGS: [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Manakah penyebab keracunan makanan yang terdapat pada kerangสอง cangkang (bivalv"
+  CLUSTER CL-0124 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-8-q008 (ssw-pm-kunci-ujian-8)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カキなど<ruby>二枚貝<rt>にまいがい</rt></ruby>に<ruby>存在<rt>そんざい</rt></ruby>し、<ruby>人<rt>ひと</rt></ruby>の<ruby>指<rt>ゆび</rt></ruby>などを<ruby>通<rt>とお</rt></ruby>して<ruby>広<rt>ひろ</rt></ruby>がりやすい<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因菌<rt>げんいんきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah penyebab keracunan makanan yang terdapat pada kerangสอง cangkang (bivalvia) seperti tiram dan mudah menyebar melalui jari tangan manusia? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 3, nomor 8 (Q8). Bobot: 3.95 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 1 (hlm. 13), Norovirus terdapat pada kerang bivalvia seperti tiram (カキ) dan menular lewat jari tangan manusia.
+  INLINE_KOTOBA_COUNT: 15
+  KOTOBA_PROMPT: [kb-v2-p5-110] カキ(-) [word] = tiram | [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia) | [kb-v2-p2-183] 存在し(そんざいし) [inflected, df:存在する] = ada / terdapat | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-audit-1086] 通して(とおして) [inflected_verb, df:通す] = melewati / meloloskan (通す) | [kb-v2-p6-359] 広がりやすい(ひろがりやすい) [inflected, df:広がる] = mudah menyebar | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-2687540] 原因菌(げんいんきん) [word] = bakteri patogen penyebab | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT B: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Campylobacter
+    KOTOBA: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter
+  OPT C: HTML=ノロウイルス
+    TRANS: Norovirus
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus

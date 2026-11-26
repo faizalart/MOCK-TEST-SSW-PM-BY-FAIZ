@@ -1,0 +1,79 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-16 (Soal Ujian 16) | Batch qa-batch-04 | Part 3 (Q9-12 of 50)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=kunci-ujian-16-q009 | KEY=C (idx=2) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-ext-0627-e4bd9ce6a5 "作業靴": kotoba="さぎょうくつ" vs ruby="さぎょうぐつ"
+  CLUSTER CL-0162 (n=3, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-5-q009 (bonus-soal-5), nguyen05-q009 (latsol-nguyen-05)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業後<rt>さぎょうご</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>う<ruby>後片付<rt>あとかたづ</rt></ruby>けで、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai kegiatan beres-beres setelah selesai bekerja, pilihlah satu yang salah.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 3, nomor 門9 (Q9). Bobot: 3.0 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 2 (hlm. 32–33), sepatu kerja maupun peralatan setelah dicuci wajib didisinfeksi dan dikeringkan terlebih dahulu (洗浄・消毒・乾燥させて保管), tidak boleh disimpan basah begitu saja (そのまま片づける).
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-ext-0630-e4bd9ce6a5] 作業後(さぎょうご) [word] = setelah bekerja | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-latsol-43f8d2e67d] 後片付け(あとかたづけ) [word] = membereskan setelah kerja | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>清掃<rt>せいそう</rt></ruby>も<ruby>決<rt>き</rt></ruby>められたとおりに<ruby>行<rt>おこな</rt></ruby>い、いつも<ruby>清潔<rt>せいけつ</rt></ruby>にする。
+    TRANS: Melakukan pembersihan tempat kerja sesuai aturan yang ditetapkan dan selalu menjaganya tetap bersih.
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-v2-p2-026] 行い(おこない) [inflected, df:行う] = melakukan | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu)
+  OPT B: HTML=<ruby>汚<rt>よご</rt></ruby>れた<ruby>機械<rt>きかい</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>は<ruby>必<rt>かなら</rt></ruby>ず<ruby>洗浄<rt>せんじょう</rt></ruby>してから、<ruby>片<rt>かた</rt></ruby>づけます
+    TRANS: Mesin dan peralatan yang kotor wajib dicuci bersih terlebih dahulu sebelum dibereskan.
+    KOTOBA: [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-audit-0972] 洗浄して(せんじょうして) [inflected_verb, df:洗浄する] = mencuci bersih (~て) | [kb-audit-0343] 片づけます(かたづけます) [inflected_verb, df:片付ける] = membereskan / merapikan
+  OPT C: HTML=<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>を<ruby>洗浄<rt>せんじょう</rt></ruby>してから、そのまま<ruby>片<rt>かた</rt></ruby>づけます
+    TRANS: Setelah mencuci sepatu kerja yang kotor, langsung menyimpannya begitu saja dalam keadaan basah (tanpa disinfeksi dan pengeringan).
+    KOTOBA: [kb-v2-p1-186] 汚れた(よごれた) [inflected_verb, df:汚れる] = kotor (dasar: 汚れる) | [kb-ext-0627-e4bd9ce6a5] 作業靴(さぎょうくつ) [compound_technical] = sepatu kerja | [kb-audit-0972] 洗浄して(せんじょうして) [inflected_verb, df:洗浄する] = mencuci bersih (~て) | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-audit-0343] 片づけます(かたづけます) [inflected_verb, df:片付ける] = membereskan / merapikan
+
+=== #Q10 | ID=kunci-ujian-16-q010 | KEY=A (idx=0) | CAT=一般衛生管理・5S・身だしなみ（Manajemen Higiene Umum, 5S & Kerapian Diri） | SRC=Soal Ujian 16.pdf p.4 ===
+  CLUSTER CL-0041 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q008 (ssw-pm-kunci-ujian-2)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5S<ruby>活動<rt>かつどう</rt></ruby>の<ruby>取<rt>と</rt></ruby>り<ruby>組<rt>く</rt></ruby>みについてはどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pernyataan yang benar mengenai penerapan kegiatan 5S? Pilihlah satu.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 4, nomor 門10 (Q10). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Kunci PDF adalah A (清潔は整理・整頓・清掃がされて綺麗な状態に保つ, sesuai buku teks SSW Bab 2 hlm. 35). Catatan: Opsi C juga merangkum definisi 習慣, namun A adalah kunci resmi yang tercetak pada PDF (`答え： A`).
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-v2-p2-101] 取り組み(とりくみ) [word] = upaya / pelaksanaan | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>清潔<rt>せいけつ</rt></ruby>は<ruby>整理<rt>せいり</rt></ruby>・<ruby>整頓<rt>せいとん</rt></ruby>・<ruby>清掃<rt>せいそう</rt></ruby>がされて<ruby>綺麗<rt>きれい</rt></ruby>な<ruby>状態<rt>じょうたい</rt></ruby>に<ruby>保<rt>たも</rt></ruby>つ
+    TRANS: Seiketsu (Rawat) adalah menjaga kondisi tetap bersih melalui pelaksanaan Seiri, Seiton, dan Seisou.
+    KOTOBA: [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-1591900] 綺麗(きれい) [word] = bersih, higienis, dan rapi | [kb-otaff51-0435] 状態(じょうたい) [noun] = kondisi / keadaan | [kb-v2-p2-170] 保つ(たもつ) [word] = menjaga / mempertahankan
+  OPT B: HTML=<ruby>整頓<rt>せいとん</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>ものは<ruby>保管<rt>ほかん</rt></ruby>し、<ruby>不要<rt>ふよう</rt></ruby>なものを<ruby>捨<rt>す</rt></ruby>てて<ruby>整理<rt>せいり</rt></ruby>する
+    TRANS: Seiton (Rapi) adalah menyimpan barang yang perlu dan membuang barang yang tidak perlu (ini definisi Seiri).
+    KOTOBA: [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p2-030] 保管し(ほかんし) [inflected, df:保管する] = menyimpan | [kb-latsol-90a80dc9bf] 不要な(ふような) [word] = tidak diperlukan | [kb-v2-p2-168] 捨てて(すてて) [inflected, df:捨てる] = membuang | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan)
+  OPT C: HTML=<ruby>習慣<rt>しゅうかん</rt></ruby>は<ruby>決<rt>き</rt></ruby>められたことを<ruby>常<rt>つね</rt></ruby>に<ruby>守<rt>まも</rt></ruby>って<ruby>実行<rt>じっこう</rt></ruby>する<ruby>習慣<rt>しゅうかん</rt></ruby>をつける
+    TRANS: Shuukan (Rajin) adalah membiasakan diri mematuhi aturan.
+    KOTOBA: [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan) | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-v2-p1-284] 常に(つねに) [word] = selalu | [kb-v2-p1-175] 守って(まもって) [inflected_verb, df:守る] = mematuhi (dasar: 守る) | [kb-v2-p2-219] 実行する(じっこうする) [word] = melaksanakan | [kb-v2-p1-203] つける(-) [word] = memakai / memasang
+
+=== #Q11 | ID=kunci-ujian-16-q011 | KEY=B (idx=1) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 16.pdf p.4 ===
+  CLUSTER CL-0042 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q009 (ssw-pm-kunci-ujian-2), bonus-soal-2-q009 (bonus-soal-2), nguyen02-q009 (latsol-nguyen-02), nguyen10-q010 (latsol-nguyen-10)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>金属以外<rt>きんぞくいがい</rt></ruby>の<ruby>異物<rt>いぶつ</rt></ruby>（<ruby>石<rt>いし</rt></ruby>、ガラスなど）を<ruby>見<rt>み</rt></ruby>つけることができる<ruby>機械<rt>きかい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai mesin yang dapat mendeteksi benda asing selain logam (seperti batu, kaca, dll.), pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 4, nomor 門11 (Q11). Bobot: 3.0 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 45), benda asing keras non-logam seperti batu dan kaca dideteksi menggunakan X線検査機／X線異物検出器.
+  INLINE_KOTOBA_COUNT: 13
+  KOTOBA_PROMPT: [kb-ext-0409-e98791e5b1] 金属以外(きんぞくいがい) [word] = benda selain logam | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-otaff51-0468] 石(いし) [noun] = batu | [kb-v2-p1-057] ガラス(-) [word] = kaca | [kb-v2-p2-165] 見つける(みつける) [word] = menemukan | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>金属検査機<rt>きんぞくけんさき</rt></ruby>
+    TRANS: Mesin pemeriksa logam
+    KOTOBA: [kb-ext-0410-e98791e5b1] 金属検査機(きんぞくけんさき) [word] = mesin pemeriksa logam
+  OPT B: HTML=X<ruby>線検査機<rt>せんけんさき</rt></ruby>
+    TRANS: Mesin pemeriksa sinar-X (X-ray)
+    KOTOBA: [kb-u1416-b9db00b57f] X線検査機(えっくすせんけんさき) [word] = mesin pemeriksa sinar-X
+  OPT C: HTML=<ruby>日付検査機<rt>ひづけけんさき</rt></ruby>
+    TRANS: Mesin pemeriksa tanggal
+    KOTOBA: [kb-ext-1402-e697a5e4bb] 日付検査機(ひづけけんさき) [word] = mesin pemeriksa tanggal kedaluwarsa
+
+=== #Q12 | ID=kunci-ujian-16-q012 | KEY=A (idx=0) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 16.pdf p.4 ===
+  CLUSTER CL-0043 (n=6, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q010 (ssw-pm-kunci-ujian-2), kunci-ujian-13-q020 (ssw-pm-kunci-ujian-13), bonus-soal-2-q010 (bonus-soal-2), nguyen02-q010 (latsol-nguyen-02), nguyen10-q011 (latsol-nguyen-10)
+  INSTR: <ruby>最<rt>もっと</rt></ruby>も<ruby>良<rt>よ</rt></ruby>いものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>製品<rt>せいひん</rt></ruby>を<ruby>保管管理<rt>ほかんかんり</rt></ruby>について、<ruby>最<rt>もっと</rt></ruby>も<ruby>良<rt>よ</rt></ruby>いものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai pengelolaan penyimpanan produk, pilihlah satu yang paling baik.
+  EXPLANATION: Sumber: Soal Ujian 16.pdf, halaman 4, nomor 門12 (Q12). Bobot: 3.0 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 46–47), standar penyimpanan produk beku adalah -15°C ke bawah dan produk dingin (refrigerasi) adalah 10°C ke bawah.
+  INLINE_KOTOBA_COUNT: 22
+  KOTOBA_PROMPT: [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-ext-1609-e4bf9de7ae] 保管管理(ほかんかんり) [word] = manajemen penyimpanan | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>一般的<rt>いっぱんてき</rt></ruby>に<ruby>冷凍庫<rt>れいとうこ</rt></ruby>は-15℃<ruby>以下<rt>いか</rt></ruby>、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は10℃<ruby>以下<rt>いか</rt></ruby>が<ruby>基準<rt>きじゅん</rt></ruby>となる
+    TRANS: Secara umum standar suhu freezer adalah -15°C ke bawah dan kulkas adalah 10°C ke bawah
+    KOTOBA: [kb-1165880] 一般的(いっぱんてき) [word] = umum / lazim | [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-otaff51-0244] 基準(きじゅん) [noun] = standar / kriteria | [kb-v2-p2-266] となる(-) [expression] = menjadi
+  OPT B: HTML=<ruby>保管用<rt>ほかんよう</rt></ruby>サンプルを<ruby>適当<rt>てきとう</rt></ruby>で<ruby>抽出<rt>ちゅうしゅつ</rt></ruby>して<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Mengambil sampel simpanan (retained sample) secara asal-asalan lalu menyimpannya
+    KOTOBA: [kb-v2-p2-046] 保管用サンプル(ほかんようさんぷる) [compound_technical] = sampel untuk penyimpanan | [kb-1437450] 適当(てきとう) [word] = sembarangan / secukupnya | [kb-latsol-82b46d7cb3] 抽出して(ちゅうしゅつして) [word] = pengambilan sampel | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT C: HTML=<ruby>製品<rt>せいひん</rt></ruby>の<ruby>微生物検査項目<rt>びせいぶつけんさこうもく</rt></ruby>はそれぞれの<ruby>工場<rt>こうじょう</rt></ruby>を<ruby>決<rt>き</rt></ruby>まる
+    TRANS: Item pemeriksaan mikrobiologi produk sepenuhnya ditentukan sesuka masing-masing pabrik
+    KOTOBA: [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-ext-1494-e5beaee794] 微生物検査項目(びせいぶつけんさこうもく) [word] = item uji mikrobiologi | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-v2-p2-171] 決まる(きまる) [word] = ditentukan

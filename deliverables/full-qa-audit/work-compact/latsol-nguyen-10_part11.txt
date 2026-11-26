@@ -1,0 +1,21 @@
+# AUDIT SHEET: latsol-nguyen-10 (Latsol Nguyen 10) | Batch qa-batch-08 | Part 11 (Q41-41 of 41)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q41 | ID=nguyen10-q041 | KEY=A (idx=0) | CAT= | SRC=10 (2).pdf p.10 ===
+  CLUSTER CL-0106 (n=4, diffPrompt=false, diffOpt=true, diffTrans=false): twins=kunci-ujian-4-q040 (ssw-pm-kunci-ujian-4), bonus-soal-4-q040 (bonus-soal-4), nguyen04-q040 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: 10 (2).pdf, halaman 10, nomor 41. Bobot: 3.66 poin. Kunci jawaban: A. Perhitungan: (6000 g / 300 g) × 450 g = 20 × 450 g = 9000 g = 9 kg. Nomor asli PDF: Câu 40 (Halaman 10).), hasil yang tepat adalah Opsi A ("9キログラムのうどん麺").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 450グラムのうどん<ruby>麺<rt>めん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るためには、<ruby>小麦粉<rt>こむぎこ</rt></ruby>300グラムが<ruby>必要<rt>ひつよう</rt></ruby>です。では、<ruby>小麦粉<rt>こむぎこ</rt></ruby>6キログラムからどれだけのうどん<ruby>麺<rt>めん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ることが<ruby>出来<rt>でき</rt></ruby>るでしょうか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk membuat 450 gram mi udon, diperlukan 300 gram tepung terigu. Lalu, berapa banyak mi udon yang dapat dibuat dari 6 kilogram tepung terigu?
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 10, nomor 41. Bobot: 3.66 poin. Kunci jawaban: A. Perhitungan: (6000 g / 300 g) × 450 g = 20 × 450 g = 9000 g = 9 kg. Nomor asli PDF: Câu 40 (Halaman 10).
+  KOTOBA_PROMPT: [kb-v2-p5-179] グラム(-) [word] = gram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-v2-p5-138] 麺(めん) [word] = mi | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p5-180] キログラム(-) [word] = kilogram (satuan berat) | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-v2-p5-405] 出来る(できる) [word] = dapat / bisa
+  OPT A: HTML=9キログラムのうどん<ruby>麺<rt>めん</rt></ruby>
+    TRANS: 9 kilogram mi udon
+    KOTOBA: [kb-v2-p5-180] キログラム(-) [word] = kilogram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-v2-p5-138] 麺(めん) [word] = mi
+  OPT B: HTML=450グラムのうどん<ruby>麺<rt>めん</rt></ruby>
+    TRANS: 450 gram mi udon
+    KOTOBA: [kb-v2-p5-179] グラム(-) [word] = gram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-v2-p5-138] 麺(めん) [word] = mi
+  OPT C: HTML=300キログラムのうどん<ruby>麺<rt>めん</rt></ruby>
+    TRANS: 300 kilogram mi udon
+    KOTOBA: [kb-v2-p5-180] キログラム(-) [word] = kilogram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-v2-p5-138] 麺(めん) [word] = mi

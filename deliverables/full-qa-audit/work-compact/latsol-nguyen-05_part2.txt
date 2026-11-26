@@ -1,0 +1,81 @@
+# AUDIT SHEET: latsol-nguyen-05 (Latsol Nguyen 05) | Batch qa-batch-07 | Part 2 (Q5-8 of 36)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=nguyen05-q005 | KEY=C (idx=2) | CAT= | SRC=5.pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-ext-0642-e4bd9ce6a5 "作業場内": kotoba="さぎょうじょうない" vs ruby="さようじょない"
+  CLUSTER CL-0141 (n=3, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q005 (ssw-pm-kunci-ujian-13), bonus-soal-5-q005 (bonus-soal-5)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("急いでいるとき、運転中の機械に手を入れてもいい。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業中<rt>さぎょうちゅう</rt></ruby>に<ruby>注意<rt>ちゅうい</rt></ruby>することはなんですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Hal apa yang harus diperhatikan saat sedang bekerja? Pilihlah pernyataan yang salah.
+  EXPLANATION: Sumber: 5.pdf, halaman 1, nomor 5. Bobot: 4.17 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0120] 作業中(さぎょうちゅう) [noun] = saat sedang bekerja | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>機械<rt>きかい</rt></ruby>のしたは<ruby>危<rt>あぶ</rt></ruby>ないですから<ruby>決<rt>け</rt></ruby>してくぐらない
+    TRANS: Bagian bawah mesin berbahaya sehingga jangan pernah menerobos ke bawahnya.
+    KOTOBA: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p5-217] 危ない(あぶない) [word] = berbahaya | [kb-audit-1076] ですから(ですから) [particle] = karena / oleh sebab itu | [kb-v2-p5-380] 決して(けっして) [word] = jangan pernah / sekali-kali | [kb-audit-0896] くぐらない(くぐらない) [inflected_verb, df:くぐる] = tidak melintas di bawah
+  OPT B: HTML=<ruby>作業場内<rt>さようじょない</rt></ruby>で<ruby>走<rt>はし</rt></ruby>るのは<ruby>危険<rt>きけん</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い。
+    TRANS: Berlari di dalam area tempat kerja memiliki banyak bahaya.
+    KOTOBA: [kb-ext-0642-e4bd9ce6a5] 作業場内(さぎょうじょうない) [word] = di dalam area kerja | [kb-v2-p5-271] 走る(はしる) [word] = berlari | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-252] 多い(おおい) [word] = banyak
+  OPT C: HTML=<ruby>急<rt>いそ</rt></ruby>いでいるとき、<ruby>運転中<rt>うんてんちゅう</rt></ruby>の<ruby>機械<rt>きかい</rt></ruby>に<ruby>手<rt>て</rt></ruby>を<ruby>入<rt>い</rt></ruby>れてもいい。
+    TRANS: Saat sedang terburu-buru, boleh memasukkan tangan ke dalam mesin yang sedang beroperasi.
+    KOTOBA: [kb-v2-p5-320] 急いでいる(いそいでいる) [inflected, df:急ぐ] = sedang terburu-buru | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0596] 運転中(うんてんちゅう) [compound_technical] = sedang beroperasi / menyala | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-v2-p2-012] 入れて(いれて) [inflected, df:入れる] = memasukkan | [kb-v2-p1-249] いい(-) [word] = baik
+
+=== #Q6 | ID=nguyen05-q006 | KEY=C (idx=2) | CAT= | SRC=5.pdf p.2 ===
+  CLUSTER CL-0011 (n=7, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci1-q012 (ssw-pm-kunci-ujian-1), bonus-soal-1-q012 (bonus-soal-1), bonus-soal-5-q006 (bonus-soal-5), bonus-soal-8-q012 (bonus-soal-8), nguyen01-q012 (latsol-nguyen-01), nguyen08-q012 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("75℃、60秒間") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>多<rt>おお</rt></ruby>くの<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>殺<rt>ころ</rt></ruby>すためには、<ruby>何度<rt>なんど</rt></ruby>で<ruby>何秒<rt>なんびょう</rt></ruby>ぐらい<ruby>加熱<rt>かねつ</rt></ruby>しますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk membunuh sebagian besar mikroorganisme, dipanaskan pada suhu berapa derajat dan selama berapa detik? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 5.pdf, halaman 2, nomor 12. Bobot: 4.17 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-v2-p1-253] 多く(おおく) [inflected_adj, df:多い] = banyak (dasar: 多い) | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-1189170] 何度(なんど) [word] = berapa derajat | [kb-ext-0185-e4bd95e7a7] 何秒(なんびょう) [word] = berapa detik | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=45℃、90<ruby>秒間<rt>びょうかん</rt></ruby>
+    TRANS: 45°C selama 90 detik
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0474] 秒間(びょうかん) [noun] = detik (durasi)
+  OPT B: HTML=55℃、70<ruby>秒間<rt>びょうかん</rt></ruby>
+    TRANS: 55°C selama 70 detik
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0474] 秒間(びょうかん) [noun] = detik (durasi)
+  OPT C: HTML=75℃、60<ruby>秒間<rt>びょうかん</rt></ruby>
+    TRANS: 75°C selama 60 detik
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0474] 秒間(びょうかん) [noun] = detik (durasi)
+
+=== #Q7 | ID=nguyen05-q007 | KEY=C (idx=2) | CAT= | SRC=5.pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-otaff51-0582 "赤身魚": kotoba="あかみざかな" vs ruby="あかみさかな"
+  CLUSTER CL-0142 (n=8, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-13-q007 (ssw-pm-kunci-ujian-13), bonus-soal-2-q013 (bonus-soal-2), bonus-soal-5-q007 (bonus-soal-5), bonus-soal-9-q013 (bonus-soal-9), nguyen02-q013 (latsol-nguyen-02), nguyen09-q013 (latsol-nguyen-09), nguyen10-q014 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("魚を受け入れたすぐに冷凍したらいいです。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ヒスタミン<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためにどうしたらいいのか<ruby>一<rt>ひと</rt></ruby>つ<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang sebaiknya dilakukan untuk mencegah keracunan makanan akibat histamin? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 5.pdf, halaman 1, nomor 13. Bobot: 4.17 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0066] ヒスタミン食中毒(ひすたみんしょくちゅうどく) [compound_technical] = keracunan makanan akibat histamin | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=<ruby>魚<rt>さかな</rt></ruby>を<ruby>獲<rt>と</rt></ruby>った<ruby>後<rt>あと</rt></ruby>ゆっくり<ruby>冷凍<rt>れいとう</rt></ruby>してもいいです。
+    TRANS: Setelah menangkap ikan, boleh dibekukan secara perlahan.
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-v2-p5-281] 獲った(とった) [inflected, df:獲る] = menangkap (ikan) | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-v2-p1-281] ゆっくり(-) [word] = perlahan | [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing) | [kb-v2-p1-249] いい(-) [word] = baik
+  OPT B: HTML=マグロやサバなどの<ruby>赤身魚<rt>あかみさかな</rt></ruby>はどこでも<ruby>保存<rt>ほぞん</rt></ruby>できる。
+    TRANS: Ikan berdaging merah seperti tuna dan makarel (saba) dapat disimpan di mana saja.
+    KOTOBA: [kb-v2-p3-077] マグロ(-) [word] = ikan tuna | [kb-v2-p5-108] サバ(-) [word] = ikan makarel / kembung | [kb-otaff51-0582] 赤身魚(あかみざかな) [compound_technical] = ikan berdaging merah (tuna, makarel, sarden) | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan
+  OPT C: HTML=<ruby>魚<rt>さかな</rt></ruby>を<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れたすぐに<ruby>冷凍<rt>れいとう</rt></ruby>したらいいです。
+    TRANS: Sebaiknya segera dibekukan begitu ikan diterima.
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-latsol-042ad2c34d] 受け入れた(うけいれた) [word] = penerimaan bahan baku | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-audit-0592] 冷凍したら(れいとうしたら) [inflected_verb, df:冷凍する] = jika membekukan | [kb-v2-p1-249] いい(-) [word] = baik
+
+=== #Q8 | ID=nguyen05-q008 | KEY=A (idx=0) | CAT= | SRC=5.pdf p.2 ===
+  FLAGS: [JP_DOUBLE_PARTICLE@opt:B] Potential doubled/colliding particle
+  CLUSTER CL-0143 (n=6, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q008 (ssw-pm-kunci-ujian-13), bonus-soal-5-q008 (bonus-soal-5), bonus-soal-9-q011 (bonus-soal-9), nguyen03-q011 (latsol-nguyen-03), nguyen09-q011 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("じゃがいもの芽や緑色の皮の部分を取り除きます。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ソラニンが<ruby>原因<rt>げんいん</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐためにどうしますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan untuk mencegah keracunan makanan akibat solanin? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 5.pdf, halaman 2, nomor 11. Bobot: 4.17 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-otaff51-0055] ソラニン(そらにん) [noun] = solanin (racun pada tunas/kulit hijau kentang) | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=じゃがいもの<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>きます。
+    TRANS: Membuang bagian tunas dan kulit kentang yang berwarna hijau.
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-otaff51-0530] 芽(め) [noun] = tunas | [kb-otaff51-0501] 緑色の皮(みどりいろのかわ) [noun] = kulit berwarna hijau | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-audit-0342] 取り除きます(とりのぞきます) [inflected_verb, df:取り除く] = menghilangkan / membuang
+  OPT B: HTML=じゃがいもの<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>の<ruby>部分<rt>ぶぶん</rt></ruby>をはそのままに<ruby>食<rt>た</rt></ruby>べます。
+    TRANS: Memakan bagian tunas dan kulit kentang yang berwarna hijau begitu saja.
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-otaff51-0530] 芽(め) [noun] = tunas | [kb-otaff51-0501] 緑色の皮(みどりいろのかわ) [noun] = kulit berwarna hijau | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p5-272] 食べます(たべます) [inflected, df:食べる] = makan (sopan)
+  OPT C: HTML=ソラニンが<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>が<ruby>起<rt>お</rt></ruby>こりませんからソラニン<ruby>物質<rt>ぶっしつ</rt></ruby>があるものをよく<ruby>食<rt>た</rt></ruby>べます。
+    TRANS: Karena solanin tidak menyebabkan keracunan makanan, sering memakan bahan yang mengandung zat solanin.
+    KOTOBA: [kb-otaff51-0055] ソラニン(そらにん) [noun] = solanin (racun pada tunas/kulit hijau kentang) | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p5-411] 起こりません(おこりません) [inflected, df:起こる] = tidak terjadi (sopan) | [kb-1502560] 物質(ぶっしつ) [word] = zat / bahan | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-v2-p5-272] 食べます(たべます) [inflected, df:食べる] = makan (sopan)

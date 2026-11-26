@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-hitungan-01 (Latsol Hitungan 01) | Batch qa-batch-10 | Part 2 (Q5-8 of 11)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=hitungan01-q005 | KEY=C (idx=2) | CAT= | SRC=HITUNGAN PM.docx p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="濃度15%NaCl溶液があります、200ppmのNaCl溶液を2Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさ" vs questionText="濃度(のうど) 15% NACL 溶液(ようえき)があります、200ppmの NACL 溶液(ようえき)を2Lを作(つく)るときに、この溶液"
+  CLUSTER CL-0267 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=hitungan01-q001 (latsol-hitungan-01)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 2, nomor 5. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: 200 ppm = 0,02%; 2 L = 2000 ml. Larutan = (2000 × 0,02%) / 15% = 2,666... ml (dipotong 1 desimal menjadi 2,6 ml); Air = 2000 - 2,6 = 1997,4 ml (Opsi C).), hasil yang tepat adalah Opsi C ("溶液 2,6ml、水1997,4ml").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>濃度<rt>のうど</rt></ruby>15%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、200ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を2Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 濃度(のうど) 15% NACL 溶液(ようえき)があります、200ppmの NACL 溶液(ようえき)を2Lを作(つく)るときに、この溶液(ようえき) と水(みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。
+  PROMPT_TRANS: Terdapat larutan NaCl dengan konsentrasi 15%. Saat membuat 2 L larutan NaCl 200 ppm, berapa ml masing-masing larutan ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: HITUNGAN PM.docx, halaman 2, nomor 5. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: 200 ppm = 0,02%; 2 L = 2000 ml. Larutan = (2000 × 0,02%) / 15% = 2,666... ml (dipotong 1 desimal menjadi 2,6 ml); Air = 2000 - 2,6 = 1997,4 ml (Opsi C).
+  KOTOBA_PROMPT: [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-audit-0186] %(-) [technical] = persen (satuan persentase %) | [kb-audit-0175] NaCl(nacl) [technical] = Natrium klorida / garam dapur (NaCl) | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>溶液<rt>ようえき</rt></ruby> 2ml、<ruby>水<rt>みず</rt></ruby>1990ml
+    TRANS: Larutan 2 ml, air 1990 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT B: HTML=<ruby>溶液<rt>ようえき</rt></ruby> 2,3ml、<ruby>水<rt>みず</rt></ruby>196,7ml
+    TRANS: Larutan 2,3 ml, air 196,7 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT C: HTML=<ruby>溶液<rt>ようえき</rt></ruby> 2,6ml、<ruby>水<rt>みず</rt></ruby>1997,4ml
+    TRANS: Larutan 2,6 ml, air 1997,4 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+
+=== #Q6 | ID=hitungan01-q006 | KEY=B (idx=1) | CAT= | SRC=HITUNGAN PM.docx p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="濃度10%NaCl溶液があります、150ppmのNaCl溶液を1Lを作るときに、この溶液と水はそれぞれ何mlですか、正しいものを一つ選びなさ" vs questionText="濃度(のうど) 10%NACL 溶液(ようえき)があります、150ppmの NACL 溶液(ようえき)を1Lを作(つく)るときに、この溶液("
+  CLUSTER CL-0268 (n=3, diffPrompt=true, diffOpt=true, diffTrans=true): twins=hitungan01-q002 (latsol-hitungan-01), hitungan01-q003 (latsol-hitungan-01)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 2, nomor 6. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 150 ppm = 0,015%; 1 L = 1000 ml. Larutan = (1000 × 0,015%) / 10% = 1,5 ml; Air = 1000 - 1,5 = 998,5 ml (Opsi B).), hasil yang tepat adalah Opsi B ("溶液 1,5ml、水998,5ml").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>濃度<rt>のうど</rt></ruby>10%NaCl<ruby>溶液<rt>ようえき</rt></ruby>があります、150ppmのNaCl<ruby>溶液<rt>ようえき</rt></ruby>を1Lを<ruby>作<rt>つく</rt></ruby>るときに、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>mlですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 濃度(のうど) 10%NACL 溶液(ようえき)があります、150ppmの NACL 溶液(ようえき)を1Lを作(つく)るときに、この溶液(ようえき) と水(みず)はそれぞれ何mlですか、正しいものを一つ選びなさい。
+  PROMPT_TRANS: Terdapat larutan NaCl dengan konsentrasi 10%. Saat membuat 1 L larutan NaCl 150 ppm, berapa ml masing-masing larutan ini dan air yang dibutuhkan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: HITUNGAN PM.docx, halaman 2, nomor 6. Bobot: 13.64 poin. Kunci jawaban: B. Verifikasi Hitungan: 150 ppm = 0,015%; 1 L = 1000 ml. Larutan = (1000 × 0,015%) / 10% = 1,5 ml; Air = 1000 - 1,5 = 998,5 ml (Opsi B).
+  KOTOBA_PROMPT: [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-audit-0186] %(-) [technical] = persen (satuan persentase %) | [kb-audit-0175] NaCl(nacl) [technical] = Natrium klorida / garam dapur (NaCl) | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>溶液<rt>ようえき</rt></ruby> 4ml、<ruby>水<rt>みず</rt></ruby>995,8ml
+    TRANS: Larutan 4 ml, air 995,8 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT B: HTML=<ruby>溶液<rt>ようえき</rt></ruby> 1,5ml、<ruby>水<rt>みず</rt></ruby>998,5ml
+    TRANS: Larutan 1,5 ml, air 998,5 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT C: HTML=<ruby>溶液<rt>ようえき</rt></ruby> 1,2ml、<ruby>水<rt>みず</rt></ruby>203ml
+    TRANS: Larutan 1,2 ml, air 203 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+
+=== #Q7 | ID=hitungan01-q007 | KEY=C (idx=2) | CAT= | SRC=HITUNGAN PM.docx p.2 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="500grのうどん作るためには300gr小麦粉、10gr塩、190ml水を使う。20kgのうどんを作るため、小麦粉が何kgですか、正しいもの" vs questionText="500gr のうどん作(つく)るためには 300gr 小麦粉(こむぎこ)、10gr 塩(しお)、190ml水(みず)を使(つか)う。20kg"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 2, nomor 7. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: (20.000 g / 500 g) × 300 g = 40 × 300 g = 12.000 g = 12 kg (Opsi C).), hasil yang tepat adalah Opsi C ("12 kg").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 500grのうどん<ruby>作<rt>つく</rt></ruby>るためには300gr<ruby>小麦粉<rt>こむぎこ</rt></ruby>、10gr<ruby>塩<rt>しお</rt></ruby>、190ml<ruby>水<rt>みず</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う。20kgのうどんを<ruby>作<rt>つく</rt></ruby>るため、<ruby>小麦粉<rt>こむぎこ</rt></ruby>が<ruby>何<rt>なん</rt></ruby>kgですか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 500gr のうどん作(つく)るためには 300gr 小麦粉(こむぎこ)、10gr 塩(しお)、190ml水(みず)を使(つか)う。20kgのうどんを作(つく) るため、小麦粉(こむぎこ)が何kgですか、正しいものを一つ選びな さい。
+  PROMPT_TRANS: Untuk membuat 500 g udon, digunakan 300 g tepung terigu, 10 g garam, dan 190 ml air. Untuk membuat 20 kg udon, berapa kg tepung terigu yang dibutuhkan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: HITUNGAN PM.docx, halaman 2, nomor 7. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: (20.000 g / 500 g) × 300 g = 40 × 300 g = 12.000 g = 12 kg (Opsi C).
+  KOTOBA_PROMPT: [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p2-065] 塩(しお) [word] = garam | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=10 kg
+    TRANS: 10 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=11 kg
+    TRANS: 11 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=12 kg
+    TRANS: 12 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+
+=== #Q8 | ID=hitungan01-q008 | KEY=C (idx=2) | CAT= | SRC=HITUNGAN PM.docx p.3 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="下は500gのラーメンの配合です。同じ配合で作るときに、小麦粉の20kgあれば、ラーメンは何kgできますか。小麦粉: 400g、塩 20g、" vs questionText="下(した)は500gのラーメンの配合(はいごう)です。同(おな)じ配 合(はいごう)で作(つく)るときに、小麦粉(こうむぎこ)の20kgあれ"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: HITUNGAN PM.docx, halaman 3, nomor 8. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: (20.000 g / 400 g) × 500 g = 50 × 500 g = 25.000 g = 25 kg (Opsi C). Catatan: pada opsi A tertulis 1.15kg akibat terbawanya nomor urut 1.), hasil yang tepat adalah Opsi C ("25kg").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>下<rt>した</rt></ruby>は500gのラーメンの<ruby>配合<rt>はいごう</rt></ruby>です。<ruby>同<rt>おな</rt></ruby>じ<ruby>配合<rt>はいごう</rt></ruby>で<ruby>作<rt>つく</rt></ruby>るときに、<ruby>小麦粉<rt>こむぎこ</rt></ruby>の20kgあれば、ラーメンは<ruby>何<rt>なん</rt></ruby>kgできますか。<ruby>小麦粉<rt>こむぎこ</rt></ruby>: 400g、<ruby>塩<rt>しお</rt></ruby> 20g、<ruby>油<rt>あぶら</rt></ruby> 50g
+  QUESTION_TEXT: 下(した)は500gのラーメンの配合(はいごう)です。同(おな)じ配 合(はいごう)で作(つく)るときに、小麦粉(こうむぎこ)の20kgあれ ば、ラーメンは何kgできますか。小麦粉(こむぎこ): 400g,塩 20g, 油50g
+  PROMPT_TRANS: Di bawah ini adalah komposisi untuk 500 g ramen. Saat membuat dengan komposisi yang sama, jika tersedia 20 kg tepung terigu, berapa kg ramen yang dapat dibuat? Tepung terigu: 400 g, garam: 20 g, minyak: 50 g.
+  EXPLANATION: Sumber: HITUNGAN PM.docx, halaman 3, nomor 8. Bobot: 13.64 poin. Kunci jawaban: C. Verifikasi Hitungan: (20.000 g / 400 g) × 500 g = 50 × 500 g = 25.000 g = 25 kg (Opsi C). Catatan: pada opsi A tertulis 1.15kg akibat terbawanya nomor urut 1.
+  KOTOBA_PROMPT: [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-audit-0435] ラーメン(らーめん) [word] = mie ramen | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-125] できますか(できますか) [inflected_verb, df:できる] = dapat dibuat (dasar: できる) | [kb-v2-p2-065] 塩(しお) [word] = garam | [kb-otaff51-0379] 油(あぶら) [noun] = minyak
+  OPT A: HTML=1.15kg
+    TRANS: 15 kg (tertulis typo 1.15kg di sumber)
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=20kg
+    TRANS: 20 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=25kg
+    TRANS: 25 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram

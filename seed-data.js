@@ -1934,2352 +1934,2443 @@ export const SEED_KUNCI_UJIAN_1 = {
   ]
 };
 
-export const SEED_SSW_TIPE_2 = {
-  "setId": "ssw-pm-tipe2-nguyen1",
-  "title": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1 (Trang sensei 特定技能1号ー2号)",
-  "sourcePdf": "SSW NGUYEN 1.pdf",
-  "totalPages": 38,
-  "totalQuestions": 40,
-  "scoreSummary": {
-    "correctCount": 14,
-    "incorrectCount": 26,
-    "unverifiedCount": 0,
-    "totalScoreText": "14/40"
+export const SEED_SSW_TIPE_2 = [
+  {
+    "id": "q001",
+    "questionNumber": 1,
+    "pdfPage": 1,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q001.png",
+    "questionText": "1. 物理的危害要因の説明について、正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "1. 物理的危害要因の説明について、正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 1): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (硬くて歯が欠ける、尖っていて口の中に傷ができるなど、人にケガをさせる恐れがあるもの).",
+    "imageMediaId": "media-q001",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600001,
+    "updatedAt": 1760961600001,
+    "options": [
+      {
+        "id": "A",
+        "text": "硬くて歯が欠ける、尖っていて口の中に傷ができるなど、人にケガをさせる恐れがあるもの",
+        "mediaId": "",
+        "translation": "Benda yang berisiko melukai manusia, seperti benda keras yang membuat gigi patah atau benda tajam yang melukai bagian dalam mulut"
+      },
+      {
+        "id": "B",
+        "text": "食中毒になる原因の物質",
+        "mediaId": "",
+        "translation": "Zat yang menjadi penyebab keracunan makanan"
+      },
+      {
+        "id": "C",
+        "text": "アレルギー反応になる原因",
+        "mediaId": "",
+        "translation": "Penyebab terjadinya reaksi alergi"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q001",
+        "name": "q001.png",
+        "type": "image/png",
+        "path": "assets/questions/q001.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 1,
+    "points": 3.75,
+    "promptTranslation": "Pilihlah satu jawaban yang benar mengenai penjelasan faktor bahaya fisik."
   },
-  "questions": [
-    {
-      "id": "q001",
-      "questionNumber": 1,
-      "pdfPage": 1,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q001.png",
-      "questionText": "1. 物理的危害要因の説明について、正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "1. 物理的危害要因の説明について、正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 1): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (硬くて歯が欠ける、尖っていて口の中に傷ができるなど、人にケガをさせる恐れがあるもの).",
-      "imageMediaId": "media-q001",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600001,
-      "updatedAt": 1760961600001,
-      "options": [
-        {
-          "id": "A",
-          "text": "硬くて歯が欠ける、尖っていて口の中に傷ができるなど、人にケガをさせる恐れがあるもの",
-          "mediaId": "",
-          "translation": "Benda yang berisiko melukai manusia, seperti benda keras yang membuat gigi patah atau benda tajam yang melukai bagian dalam mulut"
-        },
-        {
-          "id": "B",
-          "text": "食中毒になる原因の物質",
-          "mediaId": "",
-          "translation": "Zat yang menjadi penyebab keracunan makanan"
-        },
-        {
-          "id": "C",
-          "text": "アレルギー反応になる原因",
-          "mediaId": "",
-          "translation": "Penyebab terjadinya reaksi alergi"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q001",
-          "name": "q001.png",
-          "type": "image/png",
-          "path": "assets/questions/q001.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 1,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang benar mengenai penjelasan faktor bahaya fisik."
-    },
-    {
-      "id": "q002",
-      "questionNumber": 2,
-      "pdfPage": 2,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q002.png",
-      "questionText": "2. 食品衛生の説明について、正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "2. 食品衛生の説明について、正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 2): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (食品の衛生管理のルールを守って、危害要因を含まないようにする).",
-      "imageMediaId": "media-q002",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600002,
-      "updatedAt": 1760961600002,
-      "options": [
-        {
-          "id": "A",
-          "text": "工場や作業場で災害を起こさないようにすることです",
-          "mediaId": "",
-          "translation": "Mencegah terjadinya bencana/kecelakaan di pabrik atau tempat kerja"
-        },
-        {
-          "id": "B",
-          "text": "食品の衛生管理のルールを守って、危害要因を含まないようにする",
-          "mediaId": "",
-          "translation": "Mematuhi aturan manajemen higiene pangan agar tidak mengandung faktor bahaya"
-        },
-        {
-          "id": "C",
-          "text": "おいしい食品を作れるようにすることです。",
-          "mediaId": "",
-          "translation": "Membuat produk pangan yang lezat."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q002",
-          "name": "q002.png",
-          "type": "image/png",
-          "path": "assets/questions/q002.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 2,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang benar mengenai penjelasan higiene pangan."
-    },
-    {
-      "id": "q003",
-      "questionNumber": 3,
-      "pdfPage": 3,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q003.png",
-      "questionText": "3. HACCP による衛生管理について、正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "3. HACCP による衛生管理について、正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 3): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (管理基準の設定は HACCP原則の一つです).",
-      "imageMediaId": "media-q003",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600003,
-      "updatedAt": 1760961600003,
-      "options": [
-        {
-          "id": "A",
-          "text": "一般衛生管理を使わないで、HACCPによる衛生管理をおこなう",
-          "mediaId": "",
-          "translation": "Melakukan manajemen higiene berdasarkan HACCP tanpa menggunakan manajemen higiene umum"
-        },
-        {
-          "id": "B",
-          "text": "管理基準の設定は HACCP原則の一つです",
-          "mediaId": "",
-          "translation": "Penetapan batas kritis (standar manajemen) adalah salah satu prinsip HACCP"
-        },
-        {
-          "id": "C",
-          "text": "重要管理点は一つだけ選びます",
-          "mediaId": "",
-          "translation": "Titik kendali kritis (CCP) hanya dipilih satu saja"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q003",
-          "name": "q003.png",
-          "type": "image/png",
-          "path": "assets/questions/q003.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 3,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang benar mengenai manajemen higiene berdasarkan HACCP."
-    },
-    {
-      "id": "q004",
-      "questionNumber": 4,
-      "pdfPage": 4,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q004.png",
-      "questionText": "4. 指差呼称の説明について、間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "4. 指差呼称の説明について、間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 4): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (他の人が危険な作業をしているのを見たら、声をかけて注意する。).",
-      "imageMediaId": "media-q004",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600004,
-      "updatedAt": 1760961600004,
-      "options": [
-        {
-          "id": "A",
-          "text": "作業や機械のスイッチを入れる前には、安全を確認する",
-          "mediaId": "",
-          "translation": "Memastikan keselamatan sebelum memulai pekerjaan atau menyalakan sakelar mesin"
-        },
-        {
-          "id": "B",
-          "text": "信号、標識、器具、作業対象などを指で指しながら、その名称や状態を声に出して言います。",
-          "mediaId": "",
-          "translation": "Menunjuk sinyal, rambu, peralatan, atau objek kerja dengan jari sambil menyebutkan nama dan kondisinya dengan suara jelas."
-        },
-        {
-          "id": "C",
-          "text": "他の人が危険な作業をしているのを見たら、声をかけて注意する。",
-          "mediaId": "",
-          "translation": "Jika melihat orang lain melakukan pekerjaan berbahaya, menegurnya dengan suara."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q004",
-          "name": "q004.png",
-          "type": "image/png",
-          "path": "assets/questions/q004.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 4,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai penjelasan tunjuk dan sebut (shisa koshou)."
-    },
-    {
-      "id": "q005",
-      "questionNumber": 5,
-      "pdfPage": 5,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q005.png",
-      "questionText": "5. ノロウイルスによる食中毒を防ぐために、何原則がありますか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "5. ノロウイルスによる食中毒を防ぐために、何原則がありますか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 5): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (つけない、持ち込まない、殺す、広げない。4原則に分けられます).",
-      "imageMediaId": "media-q005",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600005,
-      "updatedAt": 1760961600005,
-      "options": [
-        {
-          "id": "A",
-          "text": "つけない、増やさない、殺す。3原則に分けられます",
-          "mediaId": "",
-          "translation": "Dibagi menjadi 3 prinsip: tidak menempelkan, tidak memperbanyak, dan membunuh"
-        },
-        {
-          "id": "B",
-          "text": "つけない、持ち込まない、殺す、広げない。4原則に分けられます",
-          "mediaId": "",
-          "translation": "Dibagi menjadi 4 prinsip: tidak menempelkan, tidak membawa masuk, membunuh, dan tidak menyebarkan"
-        },
-        {
-          "id": "C",
-          "text": "つけない、持ち込まない、増やさない、殺す、広げない。5原則に分けられます",
-          "mediaId": "",
-          "translation": "Dibagi menjadi 5 prinsip: tidak menempelkan, tidak membawa masuk, tidak memperbanyak, membunuh, dan tidak menyebarkan"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q005",
-          "name": "q005.png",
-          "type": "image/png",
-          "path": "assets/questions/q005.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 5,
-      "points": 3.75,
-      "promptTranslation": "Ada berapa prinsip untuk mencegah keracunan makanan akibat Norovirus? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q006",
-      "questionNumber": 6,
-      "pdfPage": 6,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q006.png",
-      "questionText": "6. もう少し作業が終わるのに、おなかが痛くなります。何をすればいいいですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "6. もう少し作業が終わるのに、おなかが痛くなります。何をすればいいいですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 6): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (作業を止めて、責任者に報告します。).",
-      "imageMediaId": "media-q006",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600006,
-      "updatedAt": 1760961600006,
-      "options": [
-        {
-          "id": "A",
-          "text": "もう少し仕事が終わりますので、誰にも言わず、我慢します。",
-          "mediaId": "",
-          "translation": "Karena pekerjaan sebentar lagi selesai, menahannya tanpa memberi tahu siapa pun."
-        },
-        {
-          "id": "B",
-          "text": "作業を止めて、責任者に報告します。",
-          "mediaId": "",
-          "translation": "Menghentikan pekerjaan dan melaporkannya kepada penanggung jawab."
-        },
-        {
-          "id": "C",
-          "text": "もう少し作業が終わりますので、すぐに帰ってもいいです。",
-          "mediaId": "",
-          "translation": "Karena pekerjaan sebentar lagi selesai, boleh langsung pulang."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q006",
-          "name": "q006.png",
-          "type": "image/png",
-          "path": "assets/questions/q006.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 6,
-      "points": 3.75,
-      "promptTranslation": "Pekerjaan sebentar lagi selesai, tetapi perut terasa sakit. Apa yang sebaiknya dilakukan? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q007",
-      "questionNumber": 7,
-      "pdfPage": 7,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q007.png",
-      "questionText": "7. X線異物検出器の機能について、間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "C",
-      "selectedIndex": 2,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "incorrect",
-      "prompt": "7. X線異物検出器の機能について、間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 7): Pilihan sebelumnya = C | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = A) | Kunci Jawaban = A (すべてプラスチックを検出できます).",
-      "imageMediaId": "media-q007",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600007,
-      "updatedAt": 1760961600007,
-      "options": [
-        {
-          "id": "A",
-          "text": "すべてプラスチックを検出できます",
-          "mediaId": "",
-          "translation": "Dapat mendeteksi semua jenis plastik"
-        },
-        {
-          "id": "B",
-          "text": "肉に残ってている骨を検出できます",
-          "mediaId": "",
-          "translation": "Dapat mendeteksi tulang yang tersisa di dalam daging"
-        },
-        {
-          "id": "C",
-          "text": "ガラスや石を検出できます",
-          "mediaId": "",
-          "translation": "Dapat mendeteksi kaca dan batu"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q007",
-          "name": "q007.png",
-          "type": "image/png",
-          "path": "assets/questions/q007.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 7,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai fungsi alat pendeteksi benda asing sinar-X (X-ray)."
-    },
-    {
-      "id": "q008",
-      "questionNumber": 8,
-      "pdfPage": 8,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q008.png",
-      "questionText": "8. 労働安全の５S活動の説明について、間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "8. 労働安全の５S活動の説明について、間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 8): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (整理、整頓、清掃をして、食中毒の予防だけでなく、作業者の熱中症の予防にも役に立ちます。).",
-      "imageMediaId": "media-q008",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600008,
-      "updatedAt": 1760961600008,
-      "options": [
-        {
-          "id": "A",
-          "text": "整理は、不要なものが作業場にない状態を保ちます。転倒災害の危険が減ります。",
-          "mediaId": "",
-          "translation": "Ringkas (Pemilahan) adalah menjaga kondisi tidak adanya barang yang tidak diperlukan di tempat kerja. Risiko kecelakaan terjatuh/terpeleset akan berkurang."
-        },
-        {
-          "id": "B",
-          "text": "習慣づけは毎日同じの作業場で作業することができます。安心して作業ができるので、労働災害を防ぐことにつながります。",
-          "mediaId": "",
-          "translation": "Rajin (Pembiasaan) membuat kita dapat bekerja di tempat kerja yang kondisinya sama setiap hari. Karena dapat bekerja dengan tenang, hal ini mengarah pada pencegahan kecelakaan kerja."
-        },
-        {
-          "id": "C",
-          "text": "整理、整頓、清掃をして、食中毒の予防だけでなく、作業者の熱中症の予防にも役に立ちます。",
-          "mediaId": "",
-          "translation": "Melakukan Ringkas, Rapi, dan Resik tidak hanya bermanfaat untuk mencegah keracunan makanan, tetapi juga mencegah sengatan panas (heatstroke) pada pekerja."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q008",
-          "name": "q008.png",
-          "type": "image/png",
-          "path": "assets/questions/q008.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 8,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai penjelasan kegiatan 5S dalam keselamatan kerja."
-    },
-    {
-      "id": "q009",
-      "questionNumber": 9,
-      "pdfPage": 9,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q009.png",
-      "questionText": "9. 準清潔作業区域に作業していますが、清潔作業区域が忙しいところで、手伝いに行くとき、何を注意しなければなりませんか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "C",
-      "selectedIndex": 2,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "9. 準清潔作業区域に作業していますが、清潔作業区域が忙しいところで、手伝いに行くとき、何を注意しなければなりませんか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 9): Pilihan sebelumnya = C | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (清潔作業区域の作業服を着替えてから、清潔作業区域に入る).",
-      "imageMediaId": "media-q009",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600009,
-      "updatedAt": 1760961600009,
-      "options": [
-        {
-          "id": "A",
-          "text": "作業服のまま、エアシャワーを入って消毒します。清潔作業区域に入る",
-          "mediaId": "",
-          "translation": "Tetap mengenakan pakaian kerja tersebut, masuk ke air shower untuk disinfeksi, lalu masuk ke area kerja bersih"
-        },
-        {
-          "id": "B",
-          "text": "清潔作業区域の作業服を着替えてから、清潔作業区域に入る",
-          "mediaId": "",
-          "translation": "Mengganti pakaian dengan pakaian kerja khusus area kerja bersih terlebih dahulu, baru masuk ke area kerja bersih"
-        },
-        {
-          "id": "C",
-          "text": "忙しいですから、作業服をそのままにする",
-          "mediaId": "",
-          "translation": "Karena sedang sibuk, membiarkan pakaian kerja apa adanya"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q009",
-          "name": "q009.png",
-          "type": "image/png",
-          "path": "assets/questions/q009.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 9,
-      "points": 3.75,
-      "promptTranslation": "Saat sedang bekerja di area kerja semi-bersih, area kerja bersih sedang sibuk sehingga Anda pergi membantu ke sana. Apa yang harus diperhatikan? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q010",
-      "questionNumber": 10,
-      "pdfPage": 10,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q010.png",
-      "questionText": "10. 食中毒菌の予防する3原則による、「つけない」の説明について、間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "10. 食中毒菌の予防する3原則による、「つけない」の説明について、間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 10): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (適当の温度と時間を殺すことです。).",
-      "imageMediaId": "media-q010",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600010,
-      "updatedAt": 1760961600010,
-      "options": [
-        {
-          "id": "A",
-          "text": "適当の温度と時間を殺すことです。",
-          "mediaId": "",
-          "translation": "Membunuh pada suhu dan waktu yang tepat."
-        },
-        {
-          "id": "B",
-          "text": "作業開始前や必要な時に、決まられたとおりに手洗いをします。",
-          "mediaId": "",
-          "translation": "Mencuci tangan sesuai aturan sebelum memulai pekerjaan dan pada saat diperlukan."
-        },
-        {
-          "id": "C",
-          "text": "機械や調理器具は洗浄し、殺菌します。",
-          "mediaId": "",
-          "translation": "Mencuci dan mensterilkan mesin serta peralatan masak."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q010",
-          "name": "q010.png",
-          "type": "image/png",
-          "path": "assets/questions/q010.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 10,
-      "points": 3.75,
-      "promptTranslation": "Berdasarkan 3 prinsip pencegahan bakteri keracunan makanan, pilihlah satu jawaban yang salah mengenai penjelasan \"tidak menempelkan\"."
-    },
-    {
-      "id": "q011",
-      "questionNumber": 11,
-      "pdfPage": 11,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q011.png",
-      "questionText": "11. 食品の残りカスや汚水が床や排水口にたまったままになっていると、微生物が発生します。では、床や排水口の清掃するとき、何を注意しなければなりませんか。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "11. 食品の残りカスや汚水が床や排水口にたまったままになっていると、微生物が発生します。では、床や排水口の清掃するとき、何を注意しなければなりませんか。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 11): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (排水口はフタを外して洗います。食品のカスなどが残らないように清掃します。また、外したフタの裏側も洗います。).",
-      "imageMediaId": "media-q011",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600011,
-      "updatedAt": 1760961600011,
-      "options": [
-        {
-          "id": "A",
-          "text": "排水口の上に作業台や大型の機械を置きます。ネズミが入ってこないため",
-          "mediaId": "",
-          "translation": "Meletakkan meja kerja atau mesin besar di atas saluran pembuangan air agar tikus tidak masuk"
-        },
-        {
-          "id": "B",
-          "text": "一日の初め、作業の前に、水が十分に流して、食品の残りカスが残らないようにする",
-          "mediaId": "",
-          "translation": "Di awal hari sebelum bekerja, mengalirkan air yang cukup agar tidak ada sisa-sisa makanan yang tertinggal"
-        },
-        {
-          "id": "C",
-          "text": "排水口はフタを外して洗います。食品のカスなどが残らないように清掃します。また、外したフタの裏側も洗います。",
-          "mediaId": "",
-          "translation": "Melepas penutup saluran pembuangan air lalu mencucinya. Membersihkan hingga tidak ada sisa makanan yang tertinggal, serta mencuci bagian balik penutup yang dilepas."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q011",
-          "name": "q011.png",
-          "type": "image/png",
-          "path": "assets/questions/q011.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 11,
-      "points": 3.75,
-      "promptTranslation": "Jika sisa-sisa makanan atau air kotor dibiarkan menggenang di lantai atau saluran pembuangan air, mikroorganisme akan muncul. Lalu, apa yang harus diperhatikan saat membersihkan lantai dan saluran pembuangan air?"
-    },
-    {
-      "id": "q012",
-      "questionNumber": 12,
-      "pdfPage": 12,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q012.png",
-      "questionText": "12. 体の中で菌が増えて発症する微生物はどれですか。間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "12. 体の中で菌が増えて発症する微生物はどれですか。間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 12): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (黄色ブドウ球菌).",
-      "imageMediaId": "media-q012",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600012,
-      "updatedAt": 1760961600012,
-      "options": [
-        {
-          "id": "A",
-          "text": "黄色ブドウ球菌",
-          "mediaId": "",
-          "translation": "Staphylococcus aureus"
-        },
-        {
-          "id": "B",
-          "text": "サルモネラ属菌",
-          "mediaId": "",
-          "translation": "Bakteri genus Salmonella"
-        },
-        {
-          "id": "C",
-          "text": "セレウス菌",
-          "mediaId": "",
-          "translation": "Bakteri Bacillus cereus"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q012",
-          "name": "q012.png",
-          "type": "image/png",
-          "path": "assets/questions/q012.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 12,
-      "points": 3.75,
-      "promptTranslation": "Manakah mikroorganisme yang menimbulkan gejala penyakit karena bakterinya berkembang biak di dalam tubuh? Pilihlah satu jawaban yang salah (atau pengecualian)."
-    },
-    {
-      "id": "q013",
-      "questionNumber": 13,
-      "pdfPage": 12,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q013.png",
-      "questionText": "13. ５S活動の中の「整理」は、どのような活動ですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "13. ５S活動の中の「整理」は、どのような活動ですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 12): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (使わないものをなくして、使うものだけにすること。).",
-      "imageMediaId": "media-q013",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600013,
-      "updatedAt": 1760961600013,
-      "options": [
-        {
-          "id": "A",
-          "text": "使わないものをなくして、使うものだけにすること。",
-          "mediaId": "",
-          "translation": "Menyingkirkan barang yang tidak digunakan dan menyisakan hanya barang yang digunakan."
-        },
-        {
-          "id": "B",
-          "text": "決まられたことを常に守って、実行する",
-          "mediaId": "",
-          "translation": "Selalu mematuhi dan melaksanakan hal-hal yang telah ditetapkan"
-        },
-        {
-          "id": "C",
-          "text": "作業道具や材料の置き場所を決めておく",
-          "mediaId": "",
-          "translation": "Menentukan tempat penyimpanan peralatan kerja dan bahan terlebih dahulu."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q013",
-          "name": "q013.png",
-          "type": "image/png",
-          "path": "assets/questions/q013.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 12,
-      "points": 3.75,
-      "promptTranslation": "Kegiatan seperti apakah \"Ringkas (Pemilahan / Seiri)\" dalam kegiatan 5S? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q014",
-      "questionNumber": 14,
-      "pdfPage": 13,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q014.png",
-      "questionText": "14. 異物混入を防ぐために、何を注意しなければなりませんか。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "14. 異物混入を防ぐために、何を注意しなければなりませんか。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 13): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (原材料に異物が入っていないか、よく観察する).",
-      "imageMediaId": "media-q014",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600014,
-      "updatedAt": 1760961600014,
-      "options": [
-        {
-          "id": "A",
-          "text": "原材料に異物が入っていないか、よく観察する",
-          "mediaId": "",
-          "translation": "Mengamati dengan cermat apakah terdapat benda asing di dalam bahan baku"
-        },
-        {
-          "id": "B",
-          "text": "作業服を着るとき、ヘアーネットをかぶらないで、帽子を直接かぶる",
-          "mediaId": "",
-          "translation": "Saat mengenakan pakaian kerja, langsung memakai topi tanpa memakai hairnet (jaring rambut)"
-        },
-        {
-          "id": "C",
-          "text": "自分が担当する作業場で小さいな異物が製品に入っていることが分かったら、誰にも言わず、自分で取り除く",
-          "mediaId": "",
-          "translation": "Jika mengetahui ada benda asing kecil masuk ke dalam produk di area kerja yang menjadi tanggung jawabnya, mengambilnya sendiri tanpa memberi tahu siapa pun"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q014",
-          "name": "q014.png",
-          "type": "image/png",
-          "path": "assets/questions/q014.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 13,
-      "points": 3.75,
-      "promptTranslation": "Apa yang harus diperhatikan untuk mencegah kontaminasi benda asing?"
-    },
-    {
-      "id": "q015",
-      "questionNumber": 15,
-      "pdfPage": 14,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q015.png",
-      "questionText": "15. ノロウイルスを殺すために、何度何分で加熱必要ですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "15. ノロウイルスを殺すために、何度何分で加熱必要ですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 14): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (中心温度85℃ー90℃、90秒以上).",
-      "imageMediaId": "media-q015",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600015,
-      "updatedAt": 1760961600015,
-      "options": [
-        {
-          "id": "A",
-          "text": "中心温度85℃ー90℃、90秒以内",
-          "mediaId": "",
-          "translation": "Suhu bagian tengah (suhu inti) 85°C–90°C, kurang dari 90 detik"
-        },
-        {
-          "id": "B",
-          "text": "中心温度85℃ー90℃、90秒以上",
-          "mediaId": "",
-          "translation": "Suhu bagian tengah (suhu inti) 85°C–90°C, selama 90 detik atau lebih"
-        },
-        {
-          "id": "C",
-          "text": "表面温度85℃ー90℃、90秒以上",
-          "mediaId": "",
-          "translation": "Suhu permukaan 85°C–90°C, selama 90 detik atau lebih"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q015",
-          "name": "q015.png",
-          "type": "image/png",
-          "path": "assets/questions/q015.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 14,
-      "points": 3.75,
-      "promptTranslation": "Untuk membunuh Norovirus, perlu pemanasan pada suhu berapa derajat dan berapa lama? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q016",
-      "questionNumber": 16,
-      "pdfPage": 15,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q016.png",
-      "questionText": "16. 「一般衛生管理」では「施設、設備、器具などの衛生管理」、「作業者の衛生管理」のほか、何が重要ですか、間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "16. 「一般衛生管理」では「施設、設備、器具などの衛生管理」、「作業者の衛生管理」のほか、何が重要ですか、間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 15): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (HACCP).",
-      "imageMediaId": "media-q016",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600016,
-      "updatedAt": 1760961600016,
-      "options": [
-        {
-          "id": "A",
-          "text": "5S",
-          "mediaId": "",
-          "translation": "5S"
-        },
-        {
-          "id": "B",
-          "text": "原材料・食品の衛生管理",
-          "mediaId": "",
-          "translation": "Manajemen higiene bahan baku dan produk pangan"
-        },
-        {
-          "id": "C",
-          "text": "HACCP",
-          "mediaId": "",
-          "translation": "HACCP"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q016",
-          "name": "q016.png",
-          "type": "image/png",
-          "path": "assets/questions/q016.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 15,
-      "points": 3.75,
-      "promptTranslation": "Dalam \"Manajemen higiene umum\", selain \"Manajemen higiene fasilitas, peralatan, perkakas, dll.\" dan \"Manajemen higiene pekerja\", apa lagi yang penting? Pilihlah satu jawaban yang salah."
-    },
-    {
-      "id": "q017",
-      "questionNumber": 17,
-      "pdfPage": 16,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q017.png",
-      "questionText": "17. 働く経験が長い人よりも、働く経験が少ない人のほうが労働災害が起こりやすい理由は何ですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "17. 働く経験が長い人よりも、働く経験が少ない人のほうが労働災害が起こりやすい理由は何ですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 16): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (作業に慣れていないために、危険になかなか気が付きにくいから).",
-      "imageMediaId": "media-q017",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600017,
-      "updatedAt": 1760961600017,
-      "options": [
-        {
-          "id": "A",
-          "text": "危険な作業を担当することが多いから",
-          "mediaId": "",
-          "translation": "Karena sering ditugaskan pada pekerjaan yang berbahaya"
-        },
-        {
-          "id": "B",
-          "text": "年齢が若く、作業時間が長い人が多いから",
-          "mediaId": "",
-          "translation": "Karena banyak yang berusia muda dan memiliki jam kerja yang panjang"
-        },
-        {
-          "id": "C",
-          "text": "作業に慣れていないために、危険になかなか気が付きにくいから",
-          "mediaId": "",
-          "translation": "Karena belum terbiasa dengan pekerjaan sehingga sulit menyadari adanya bahaya"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q017",
-          "name": "q017.png",
-          "type": "image/png",
-          "path": "assets/questions/q017.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 16,
-      "points": 3.75,
-      "promptTranslation": "Apa alasan orang yang memiliki sedikit pengalaman kerja lebih rentan mengalami kecelakaan kerja dibandingkan orang yang memiliki pengalaman kerja yang lama? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q018",
-      "questionNumber": 18,
-      "pdfPage": 17,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q018.png",
-      "questionText": "18. 「危害要因を分析して、製造しようとする食品に危害要因が含まれないようにするために、どのような管理が必要かを判断します」はどんな原則ですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "18. 「危害要因を分析して、製造しようとする食品に危害要因が含まれないようにするために、どのような管理が必要かを判断します」はどんな原則ですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 17): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (危害要因分析（ハザード分析）).",
-      "imageMediaId": "media-q018",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600018,
-      "updatedAt": 1760961600018,
-      "options": [
-        {
-          "id": "A",
-          "text": "危害要因分析（ハザード分析）",
-          "mediaId": "",
-          "translation": "Analisis bahaya (Hazard Analysis)"
-        },
-        {
-          "id": "B",
-          "text": "重要管理点の決定",
-          "mediaId": "",
-          "translation": "Penentuan titik kendali kritis (CCP)"
-        },
-        {
-          "id": "C",
-          "text": "管理基準の設定",
-          "mediaId": "",
-          "translation": "Penetapan batas kritis (standar manajemen)"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q018",
-          "name": "q018.png",
-          "type": "image/png",
-          "path": "assets/questions/q018.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 17,
-      "points": 3.75,
-      "promptTranslation": "Prinsip apakah \"Menganalisis faktor bahaya dan menentukan manajemen seperti apa yang diperlukan agar produk pangan yang akan diproduksi tidak mengandung faktor bahaya\"? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q019",
-      "questionNumber": 19,
-      "pdfPage": 18,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q019.png",
-      "questionText": "19. 穀類加工品（小麦粉、デンプン）は何度で保管すればいいですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "19. 穀類加工品（小麦粉、デンプン）は何度で保管すればいいですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 18): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (室温).",
-      "imageMediaId": "media-q019",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600019,
-      "updatedAt": 1760961600019,
-      "options": [
-        {
-          "id": "A",
-          "text": "10℃以下",
-          "mediaId": "",
-          "translation": "10°C atau lebih rendah"
-        },
-        {
-          "id": "B",
-          "text": "室温",
-          "mediaId": "",
-          "translation": "Suhu ruang"
-        },
-        {
-          "id": "C",
-          "text": "30℃以下",
-          "mediaId": "",
-          "translation": "30°C atau lebih rendah"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q019",
-          "name": "q019.png",
-          "type": "image/png",
-          "path": "assets/questions/q019.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 18,
-      "points": 3.75,
-      "promptTranslation": "Produk olahan biji-bijian/serealia (tepung terigu, pati) sebaiknya disimpan pada suhu berapa derajat? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q020",
-      "questionNumber": 20,
-      "pdfPage": 19,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q020.png",
-      "questionText": "20. 危害要因の説明について、間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "20. 危害要因の説明について、間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 19): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (プラスチックは X線異物検出器では見つけることができないため、物理的危害ではありません。).",
-      "imageMediaId": "media-q020",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600020,
-      "updatedAt": 1760961600020,
-      "options": [
-        {
-          "id": "A",
-          "text": "虫や髪の毛、紙片のようにかたくない異物は、硬質異物と言わず、口の中やのどに傷ができることはないので、物理的危害ではありません。",
-          "mediaId": "",
-          "translation": "Benda asing yang tidak keras seperti serangga, rambut, dan potongan kertas tidak disebut benda asing keras dan tidak melukai bagian dalam mulut atau tenggorokan, sehingga bukan merupakan bahaya fisik."
-        },
-        {
-          "id": "B",
-          "text": "プラスチックは X線異物検出器では見つけることができないため、物理的危害ではありません。",
-          "mediaId": "",
-          "translation": "Plastik tidak dapat ditemukan oleh alat pendeteksi benda asing sinar-X (X-ray), sehingga bukan merupakan bahaya fisik."
-        },
-        {
-          "id": "C",
-          "text": "作業服を着た後、粘着ローラ、またエアシャワーを利用して、異物混入の対策です。",
-          "mediaId": "",
-          "translation": "Menggunakan rol perekat dan air shower setelah mengenakan pakaian kerja merupakan langkah pencegahan kontaminasi benda asing."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q020",
-          "name": "q020.png",
-          "type": "image/png",
-          "path": "assets/questions/q020.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 19,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai penjelasan faktor bahaya."
-    },
-    {
-      "id": "q021",
-      "questionNumber": 21,
-      "pdfPage": 20,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q021.png",
-      "questionText": "21. 交差汚染を防止するために、何をしないといけませんか。間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "21. 交差汚染を防止するために、何をしないといけませんか。間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 20): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (原材料を、段ボール箱やコンテナのまま準清潔作業区域や清潔作業区域に持ち込んでおき、必要な時に利用する。).",
-      "imageMediaId": "media-q021",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600021,
-      "updatedAt": 1760961600021,
-      "options": [
-        {
-          "id": "A",
-          "text": "清潔作業区域、準清潔作業区域、汚染作業区域など区分し、汚染作業区域で作業する人が、準清潔作業区域や清潔作業区域に入らないようにしなければなりませんか。",
-          "mediaId": "",
-          "translation": "Membagi zona menjadi area kerja bersih, area kerja semi-bersih, dan area kerja terkontaminasi, serta memastikan orang yang bekerja di area kerja terkontaminasi tidak masuk ke area kerja semi-bersih maupun area kerja bersih."
-        },
-        {
-          "id": "B",
-          "text": "原材料を、段ボール箱やコンテナのまま準清潔作業区域や清潔作業区域に持ち込んでおき、必要な時に利用する。",
-          "mediaId": "",
-          "translation": "Membawa masuk bahan baku masih di dalam kotak kardus atau kontainer ke area kerja semi-bersih atau area kerja bersih, lalu menggunakannya saat diperlukan."
-        },
-        {
-          "id": "C",
-          "text": "不要になった原材料や掃除で出たごみを作業場から出すときは、決められたルートで決められた時間に出します。",
-          "mediaId": "",
-          "translation": "Saat mengeluarkan bahan baku yang sudah tidak diperlukan atau sampah hasil pembersihan dari tempat kerja, keluarkan melalui jalur yang telah ditentukan dan pada waktu yang telah ditentukan."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q021",
-          "name": "q021.png",
-          "type": "image/png",
-          "path": "assets/questions/q021.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 20,
-      "points": 3.75,
-      "promptTranslation": "Apa yang harus dilakukan untuk mencegah kontaminasi silang? Pilihlah satu jawaban yang salah."
-    },
-    {
-      "id": "q022",
-      "questionNumber": 22,
-      "pdfPage": 21,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q022.png",
-      "questionText": "22. 薬剤の管理について、間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "22. 薬剤の管理について、間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 21): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (薬剤を使った後、ちょっとだけ残りましたが、明日も使うので、製造工場内に放置しました。).",
-      "imageMediaId": "media-q022",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600022,
-      "updatedAt": 1760961600022,
-      "options": [
-        {
-          "id": "A",
-          "text": "薬剤は、名称が分かるように表示しなければなりません。",
-          "mediaId": "",
-          "translation": "Bahan kimia harus diberi label agar namanya dapat diketahui."
-        },
-        {
-          "id": "B",
-          "text": "表示のないものを見つけたら、すぐに責任者へ報告しなければなりません。",
-          "mediaId": "",
-          "translation": "Jika menemukan bahan kimia tanpa label, harus segera melaporkannya kepada penanggung jawab."
-        },
-        {
-          "id": "C",
-          "text": "薬剤を使った後、ちょっとだけ残りましたが、明日も使うので、製造工場内に放置しました。",
-          "mediaId": "",
-          "translation": "Setelah menggunakan bahan kimia, tersisa sedikit, tetapi karena besok akan digunakan lagi, bahan kimia tersebut dibiarkan di dalam pabrik produksi."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q022",
-          "name": "q022.png",
-          "type": "image/png",
-          "path": "assets/questions/q022.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 21,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai pengelolaan bahan kimia/obat pembersih."
-    },
-    {
-      "id": "q023",
-      "questionNumber": 23,
-      "pdfPage": 22,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q023.png",
-      "questionText": "23. 充填、包装、検査について、間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "23. 充填、包装、検査について、間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 22): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (印字する機械の設定が正しいことを確認できたら、印字された内容も自動的にに正しくなるため、大量印字を開始できます。).",
-      "imageMediaId": "media-q023",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600023,
-      "updatedAt": 1760961600023,
-      "options": [
-        {
-          "id": "A",
-          "text": "印字する機械の設定が正しいことを確認できたら、印字された内容も自動的にに正しくなるため、大量印字を開始できます。",
-          "mediaId": "",
-          "translation": "Setelah memastikan pengaturan mesin pencetak sudah benar, isi yang dicetak secara otomatis akan benar, sehingga pencetakan dalam jumlah besar dapat dimulai."
-        },
-        {
-          "id": "B",
-          "text": "賞味期限や消費期限の数字を間違えてしまうミスが多く発生しているので、印字する機械の設定や印字された内容が間違っていないことを別の人が確認する。",
-          "mediaId": "",
-          "translation": "Karena sering terjadi kesalahan pencetakan angka batas waktu kualitas terbaik (baik digunakan sebelum) atau batas waktu konsumsi, orang lain turut memeriksa bahwa pengaturan mesin pencetak dan isi yang dicetak tidak salah."
-        },
-        {
-          "id": "C",
-          "text": "印字された内容は間違っていることを発見したら、すぐに作業を止めて責任者に報告する。",
-          "mediaId": "",
-          "translation": "Jika menemukan bahwa isi yang dicetak salah, segera hentikan pekerjaan dan laporkan kepada penanggung jawab."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q023",
-          "name": "q023.png",
-          "type": "image/png",
-          "path": "assets/questions/q023.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 22,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai pengisian, pengemasan, dan pemeriksaan."
-    },
-    {
-      "id": "q024",
-      "questionNumber": 24,
-      "pdfPage": 23,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q024.png",
-      "questionText": "24. 食品を製造する場合に重要管理点となる代表的な工程はいくつありますか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "24. 食品を製造する場合に重要管理点となる代表的な工程はいくつありますか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 23): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (5つ).",
-      "imageMediaId": "media-q024",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600024,
-      "updatedAt": 1760961600024,
-      "options": [
-        {
-          "id": "A",
-          "text": "3つ",
-          "mediaId": "",
-          "translation": "3 proses"
-        },
-        {
-          "id": "B",
-          "text": "5つ",
-          "mediaId": "",
-          "translation": "5 proses"
-        },
-        {
-          "id": "C",
-          "text": "7つ",
-          "mediaId": "",
-          "translation": "7 proses"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q024",
-          "name": "q024.png",
-          "type": "image/png",
-          "path": "assets/questions/q024.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 23,
-      "points": 3.75,
-      "promptTranslation": "Ada berapa proses utama (representatif) yang menjadi titik kendali kritis (CCP) saat memproduksi produk pangan? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q025",
-      "questionNumber": 25,
-      "pdfPage": 24,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q025.png",
-      "questionText": "25. 決められた作業手順を守る際の注意事項として、間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "25. 決められた作業手順を守る際の注意事項として、間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 24): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (他の人が危険な作業をしているを見たら、小さいな声をかけて注意する).",
-      "imageMediaId": "media-q025",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600025,
-      "updatedAt": 1760961600025,
-      "options": [
-        {
-          "id": "A",
-          "text": "作業の手順は、必ず守り、共同でする作業は連絡や合図を確実に行う",
-          "mediaId": "",
-          "translation": "Selalu mematuhi prosedur kerja, dan untuk pekerjaan yang dilakukan bersama-sama, pastikan melakukan komunikasi dan memberi isyarat"
-        },
-        {
-          "id": "B",
-          "text": "作業やスイッチを入れる前には指差呼称で確認する",
-          "mediaId": "",
-          "translation": "Memeriksa dengan tunjuk dan sebut (shisa koshou) sebelum melakukan pekerjaan atau menyalakan sakelar"
-        },
-        {
-          "id": "C",
-          "text": "他の人が危険な作業をしているを見たら、小さいな声をかけて注意する",
-          "mediaId": "",
-          "translation": "Jika melihat orang lain sedang melakukan pekerjaan berbahaya, menegurnya dengan suara pelan"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q025",
-          "name": "q025.png",
-          "type": "image/png",
-          "path": "assets/questions/q025.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 24,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang salah sebagai hal yang harus diperhatikan saat mematuhi prosedur kerja yang telah ditetapkan."
-    },
-    {
-      "id": "q026",
-      "questionNumber": 26,
-      "pdfPage": 25,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q026.png",
-      "questionText": "26. 異常事態や労働災害が発生した際にやるべきことで、間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "26. 異常事態や労働災害が発生した際にやるべきことで、間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 25): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (周りにいる責任者や同僚に小さいな声で知らせる。).",
-      "imageMediaId": "media-q026",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600026,
-      "updatedAt": 1760961600026,
-      "options": [
-        {
-          "id": "A",
-          "text": "異常事態が発生したら、まず何が起こっているかを早く確認する。",
-          "mediaId": "",
-          "translation": "Ketika terjadi kondisi tidak normal / darurat, pertama-tama segera pastikan apa yang sedang terjadi."
-        },
-        {
-          "id": "B",
-          "text": "必要な時は非常停止ボタンで機械を止める。",
-          "mediaId": "",
-          "translation": "Jika diperlukan, hentikan mesin dengan tombol berhenti darurat."
-        },
-        {
-          "id": "C",
-          "text": "周りにいる責任者や同僚に小さいな声で知らせる。",
-          "mediaId": "",
-          "translation": "Memberi tahu penanggung jawab atau rekan kerja di sekitar dengan suara pelan."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q026",
-          "name": "q026.png",
-          "type": "image/png",
-          "path": "assets/questions/q026.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 25,
-      "points": 3.75,
-      "promptTranslation": "Pilihlah satu jawaban yang salah mengenai hal yang harus dilakukan saat terjadi kondisi tidak normal / darurat atau kecelakaan kerja."
-    },
-    {
-      "id": "q027",
-      "questionNumber": 27,
-      "pdfPage": 26,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q027.png",
-      "questionText": "27. 特定原材料に含まれている食品はどれですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "27. 特定原材料に含まれている食品はどれですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 26): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (B).",
-      "imageMediaId": "media-q027",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600027,
-      "updatedAt": 1760961600027,
-      "options": [
-        {
-          "id": "A",
-          "text": "A",
-          "mediaId": "media-q027-a",
-          "optionImage": "assets/questions/q027_a.png",
-          "translation": "Pilihan gambar A (lihat ilustrasi pada soal)"
-        },
-        {
-          "id": "B",
-          "text": "B",
-          "mediaId": "media-q027-b",
-          "optionImage": "assets/questions/q027_b.png",
-          "translation": "Pilihan gambar B (lihat ilustrasi pada soal)"
-        },
-        {
-          "id": "C",
-          "text": "C",
-          "mediaId": "media-q027-c",
-          "optionImage": "assets/questions/q027_c.png",
-          "translation": "Pilihan gambar C (lihat ilustrasi pada soal)"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q027",
-          "name": "q027.png",
-          "type": "image/png",
-          "path": "assets/questions/q027.png"
-        },
-        {
-          "id": "media-q027-a",
-          "name": "q027_a.png",
-          "type": "image/png",
-          "path": "assets/questions/q027_a.png"
-        },
-        {
-          "id": "media-q027-b",
-          "name": "q027_b.png",
-          "type": "image/png",
-          "path": "assets/questions/q027_b.png"
-        },
-        {
-          "id": "media-q027-c",
-          "name": "q027_c.png",
-          "type": "image/png",
-          "path": "assets/questions/q027_c.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 26,
-      "points": 3.75,
-      "promptTranslation": "Manakah bahan pangan yang termasuk dalam bahan baku spesifik (alergen wajib/tertentu)? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q028",
-      "questionNumber": 28,
-      "pdfPage": 27,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q028.png",
-      "questionText": "28. そばアレルギーを持つ人が避けるべき料理はどれですか。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "28. そばアレルギーを持つ人が避けるべき料理はどれですか。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 27): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (A).",
-      "imageMediaId": "media-q028",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600028,
-      "updatedAt": 1760961600028,
-      "options": [
-        {
-          "id": "A",
-          "text": "A",
-          "mediaId": "media-q028-a",
-          "optionImage": "assets/questions/q028_a.png",
-          "translation": "Pilihan gambar A (lihat ilustrasi pada soal)"
-        },
-        {
-          "id": "B",
-          "text": "B",
-          "mediaId": "media-q028-b",
-          "optionImage": "assets/questions/q028_b.png",
-          "translation": "Pilihan gambar B (lihat ilustrasi pada soal)"
-        },
-        {
-          "id": "C",
-          "text": "C",
-          "mediaId": "media-q028-c",
-          "optionImage": "assets/questions/q028_c.png",
-          "translation": "Pilihan gambar C (lihat ilustrasi pada soal)"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q028",
-          "name": "q028.png",
-          "type": "image/png",
-          "path": "assets/questions/q028.png"
-        },
-        {
-          "id": "media-q028-a",
-          "name": "q028_a.png",
-          "type": "image/png",
-          "path": "assets/questions/q028_a.png"
-        },
-        {
-          "id": "media-q028-b",
-          "name": "q028_b.png",
-          "type": "image/png",
-          "path": "assets/questions/q028_b.png"
-        },
-        {
-          "id": "media-q028-c",
-          "name": "q028_c.png",
-          "type": "image/png",
-          "path": "assets/questions/q028_c.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 27,
-      "points": 3.75,
-      "promptTranslation": "Manakah hidangan yang harus dihindari oleh orang yang memiliki alergi soba (buckwheat)?"
-    },
-    {
-      "id": "q029",
-      "questionNumber": 29,
-      "pdfPage": 28,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q029.png",
-      "questionText": "問 29. HACCP のよる衛生管理を実施するとき、どんな時に、どうのように記録するか。間違っているものを選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "問 29. HACCP のよる衛生管理を実施するとき、どんな時に、どうのように記録するか。間違っているものを選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 28): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (後でまとめて記録しなければなりません).",
-      "imageMediaId": "media-q029",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600029,
-      "updatedAt": 1760961600029,
-      "options": [
-        {
-          "id": "A",
-          "text": "温度や濃度や時間は、測ったとき、確認したときすぐに記録しなければなりません",
-          "mediaId": "",
-          "translation": "Suhu, konsentrasi, dan waktu harus segera dicatat pada saat diukur dan diperiksa"
-        },
-        {
-          "id": "B",
-          "text": "後でまとめて記録しなければなりません",
-          "mediaId": "",
-          "translation": "Harus dicatat sekaligus nanti (dikumpulkan di akhir)"
-        },
-        {
-          "id": "C",
-          "text": "事実でないことを記録することは、絶対にしてはいけません",
-          "mediaId": "",
-          "translation": "Sama sekali tidak boleh mencatat hal yang tidak sesuai dengan fakta"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q029",
-          "name": "q029.png",
-          "type": "image/png",
-          "path": "assets/questions/q029.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 28,
-      "points": 3.75,
-      "promptTranslation": "Soal 29. Saat melaksanakan manajemen higiene berdasarkan HACCP, kapan dan bagaimana cara mencatatnya? Pilihlah jawaban yang salah."
-    },
-    {
-      "id": "q030",
-      "questionNumber": 30,
-      "pdfPage": 29,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q030.png",
-      "questionText": "30. エアコンの清掃が不十分な時に、作業場の衛生管理でどのような問題がありますか。一番正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "30. エアコンの清掃が不十分な時に、作業場の衛生管理でどのような問題がありますか。一番正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 29): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (エアコンの中のカビやほこりが作業に広がる).",
-      "imageMediaId": "media-q030",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600030,
-      "updatedAt": 1760961600030,
-      "options": [
-        {
-          "id": "A",
-          "text": "エアコンの中のカビやほこりが作業に広がる",
-          "mediaId": "",
-          "translation": "Jamur dan debu di dalam AC menyebar ke area kerja"
-        },
-        {
-          "id": "B",
-          "text": "電気料金が高くなって、工場のコストが上がる",
-          "mediaId": "",
-          "translation": "Tagihan listrik menjadi mahal sehingga biaya pabrik meningkat"
-        },
-        {
-          "id": "C",
-          "text": "冷房する力が弱くなって、温度が下がりにくくなる",
-          "mediaId": "",
-          "translation": "Daya pendinginan melemah sehingga suhu sulit turun"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q030",
-          "name": "q030.png",
-          "type": "image/png",
-          "path": "assets/questions/q030.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 29,
-      "points": 3.75,
-      "promptTranslation": "Ketika pembersihan AC tidak memadai, masalah apa yang timbul dalam manajemen higiene tempat kerja? Pilihlah satu jawaban yang paling tepat."
-    },
-    {
-      "id": "q031",
-      "questionNumber": 31,
-      "pdfPage": 30,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q031.png",
-      "questionText": "31. 肉や硬い野菜（かぼちゃ）などを強い力で切りたいですが、どんな安全保護具を着用しますか。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "31. 肉や硬い野菜（かぼちゃ）などを強い力で切りたいですが、どんな安全保護具を着用しますか。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 30): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (くさり手袋).",
-      "imageMediaId": "media-q031",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600031,
-      "updatedAt": 1760961600031,
-      "options": [
-        {
-          "id": "A",
-          "text": "くさり手袋",
-          "mediaId": "",
-          "translation": "Sarung tangan rantai baja (chainmail glove)"
-        },
-        {
-          "id": "B",
-          "text": "ミトン手袋",
-          "mediaId": "",
-          "translation": "Sarung tangan miton (tahan panas)"
-        },
-        {
-          "id": "C",
-          "text": "メクセル手袋",
-          "mediaId": "",
-          "translation": "Sarung tangan Mexel"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q031",
-          "name": "q031.png",
-          "type": "image/png",
-          "path": "assets/questions/q031.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 30,
-      "points": 3.75,
-      "promptTranslation": "Saat ingin memotong daging atau sayuran keras (seperti labu) dengan tenaga yang kuat, alat pelindung diri (APD) apa yang dikenakan?"
-    },
-    {
-      "id": "q032",
-      "questionNumber": 32,
-      "pdfPage": 30,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q032.png",
-      "questionText": "32. 日本で表示しなければならないアレルギー食品はどれですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "32. 日本で表示しなければならないアレルギー食品はどれですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 30): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (かに、えび).",
-      "imageMediaId": "media-q032",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600032,
-      "updatedAt": 1760961600032,
-      "options": [
-        {
-          "id": "A",
-          "text": "かに、えび",
-          "mediaId": "",
-          "translation": "Kepiting, udang"
-        },
-        {
-          "id": "B",
-          "text": "ジャガイモ、もも",
-          "mediaId": "",
-          "translation": "Kentang, persik"
-        },
-        {
-          "id": "C",
-          "text": "オレンジ、バナナ",
-          "mediaId": "",
-          "translation": "Jeruk, pisang"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q032",
-          "name": "q032.png",
-          "type": "image/png",
-          "path": "assets/questions/q032.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 30,
-      "points": 3.75,
-      "promptTranslation": "Manakah pangan alergen yang wajib dicantumkan pada label di Jepang? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q033",
-      "questionNumber": 33,
-      "pdfPage": 31,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q033.png",
-      "questionText": "33. 加熱調理が終わった食品をすぐに冷やす目的はなぜですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "33. 加熱調理が終わった食品をすぐに冷やす目的はなぜですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 31): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (食品の中に生き残っている細菌が増やさないため。).",
-      "imageMediaId": "media-q033",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600033,
-      "updatedAt": 1760961600033,
-      "options": [
-        {
-          "id": "A",
-          "text": "食品の中に生き残っている細菌が増やさないため。",
-          "mediaId": "",
-          "translation": "Agar bakteri yang masih bertahan hidup di dalam produk pangan tidak berkembang biak."
-        },
-        {
-          "id": "B",
-          "text": "食品の風味がもっとおいしきくするため。",
-          "mediaId": "",
-          "translation": "Agar cita rasa produk pangan menjadi lebih lezat."
-        },
-        {
-          "id": "C",
-          "text": "細菌が食品につけないため。",
-          "mediaId": "",
-          "translation": "Agar bakteri tidak menempel pada produk pangan."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q033",
-          "name": "q033.png",
-          "type": "image/png",
-          "path": "assets/questions/q033.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 31,
-      "points": 3.75,
-      "promptTranslation": "Mengapa produk pangan yang telah selesai dimasak dengan pemanasan harus segera didinginkan? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q034",
-      "questionNumber": 34,
-      "pdfPage": 31,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q034.png",
-      "questionText": "34. 「切れ・こすれ」という災害はどんな時に起こるか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "34. 「切れ・こすれ」という災害はどんな時に起こるか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 31): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (包丁やカッターなどの着る機械を使っているとき、機械に原材料が詰まって手を入れた時など).",
-      "imageMediaId": "media-q034",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600034,
-      "updatedAt": 1760961600034,
-      "options": [
-        {
-          "id": "A",
-          "text": "包丁やカッターなどの着る機械を使っているとき、機械に原材料が詰まって手を入れた時など",
-          "mediaId": "",
-          "translation": "Saat menggunakan pisau dapur atau mesin pemotong seperti cutter, atau saat memasukkan tangan ketika bahan baku tersumbat di dalam mesin, dll."
-        },
-        {
-          "id": "B",
-          "text": "階段を下りているとき、はしごや脚立を使って高い所で作業しているときなど",
-          "mediaId": "",
-          "translation": "Saat menuruni tangga, atau saat bekerja di tempat tinggi menggunakan tangga atau pijakan, dll."
-        },
-        {
-          "id": "C",
-          "text": "オーブンなどの機械を使っているとき、熱い湯や食品を扱っているときなど",
-          "mediaId": "",
-          "translation": "Saat menggunakan mesin seperti oven, atau saat menangani air panas maupun produk pangan panas, dll."
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q034",
-          "name": "q034.png",
-          "type": "image/png",
-          "path": "assets/questions/q034.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 31,
-      "points": 3.75,
-      "promptTranslation": "Kapan kecelakaan \"terpotong atau tergores\" terjadi? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q035",
-      "questionNumber": 35,
-      "pdfPage": 32,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q035.png",
-      "questionText": "35. 特定原材料とは何ですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "A",
-      "correctIndex": 0,
-      "answerStatus": "correct",
-      "prompt": "35. 特定原材料とは何ですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 32): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (日本の法律で食品加工に表示する義務があるもの).",
-      "imageMediaId": "media-q035",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600035,
-      "updatedAt": 1760961600035,
-      "options": [
-        {
-          "id": "A",
-          "text": "日本の法律で食品加工に表示する義務があるもの",
-          "mediaId": "",
-          "translation": "Bahan yang wajib dicantumkan pada produk pangan olahan berdasarkan undang-undang di Jepang"
-        },
-        {
-          "id": "B",
-          "text": "日本の法律で食品加工に表示が推奨されているもの",
-          "mediaId": "",
-          "translation": "Bahan yang dianjurkan untuk dicantumkan pada produk pangan olahan berdasarkan undang-undang di Jepang"
-        },
-        {
-          "id": "C",
-          "text": "日本の法律で食品加工に表示してはいけないもの",
-          "mediaId": "",
-          "translation": "Bahan yang dilarang dicantumkan pada produk pangan olahan berdasarkan undang-undang di Jepang"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q035",
-          "name": "q035.png",
-          "type": "image/png",
-          "path": "assets/questions/q035.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 32,
-      "points": 3.75,
-      "promptTranslation": "Apa yang dimaksud dengan bahan baku spesifik (alergen wajib/tertentu)? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q036",
-      "questionNumber": 36,
-      "pdfPage": 33,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q036.png",
-      "questionText": "36. 以下の工程は区分衛生管理により、正しい順を並びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "36. 以下の工程は区分衛生管理により、正しい順を並びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 33): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (A:汚染作業区域→B:準清潔作業区域→C:清潔作業区域).",
-      "imageMediaId": "media-q036",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600036,
-      "updatedAt": 1760961600036,
-      "options": [
-        {
-          "id": "A",
-          "text": "A:清潔作業区域→B:準清潔作業区域→C:汚染作業区域",
-          "mediaId": "",
-          "translation": "A: Area kerja bersih → B: Area kerja semi-bersih → C: Area kerja terkontaminasi"
-        },
-        {
-          "id": "B",
-          "text": "A:準清潔作業区域→B:清潔作業区域→C:汚染作業区域",
-          "mediaId": "",
-          "translation": "A: Area kerja semi-bersih → B: Area kerja bersih → C: Area kerja terkontaminasi"
-        },
-        {
-          "id": "C",
-          "text": "A:汚染作業区域→B:準清潔作業区域→C:清潔作業区域",
-          "mediaId": "",
-          "translation": "A: Area kerja terkontaminasi → B: Area kerja semi-bersih → C: Area kerja bersih"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q036",
-          "name": "q036.png",
-          "type": "image/png",
-          "path": "assets/questions/q036.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 33,
-      "points": 3.75,
-      "promptTranslation": "Urutkan proses berikut dengan benar berdasarkan manajemen higiene pembagian zona."
-    },
-    {
-      "id": "q037",
-      "questionNumber": 37,
-      "pdfPage": 34,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q037.png",
-      "questionText": "37. HACCP の原則4とは何ですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "37. HACCP の原則4とは何ですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 34): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (重要管理点の管理の状態を監視する方法を決める).",
-      "imageMediaId": "media-q037",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600037,
-      "updatedAt": 1760961600037,
-      "options": [
-        {
-          "id": "A",
-          "text": "重要管理点の管理基準を決める",
-          "mediaId": "",
-          "translation": "Menentukan batas kritis (standar manajemen) untuk titik kendali kritis (CCP)"
-        },
-        {
-          "id": "B",
-          "text": "重要管理点が管理基準を逸脱していた場合、基準通りにするためにはどうしたらよいかを決める",
-          "mediaId": "",
-          "translation": "Menentukan apa yang harus dilakukan untuk mengembalikannya sesuai standar apabila titik kendali kritis (CCP) menyimpang dari batas kritis"
-        },
-        {
-          "id": "C",
-          "text": "重要管理点の管理の状態を監視する方法を決める",
-          "mediaId": "",
-          "translation": "Menentukan metode untuk memantau (monitoring) kondisi manajemen pada titik kendali kritis (CCP)"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q037",
-          "name": "q037.png",
-          "type": "image/png",
-          "path": "assets/questions/q037.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 34,
-      "points": 3.75,
-      "promptTranslation": "Apa yang dimaksud dengan Prinsip 4 HACCP? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q038",
-      "questionNumber": 38,
-      "pdfPage": 35,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q038.png",
-      "questionText": "38. 薬品を使用する際の注意事項はなんですか。正しいものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "B",
-      "correctIndex": 1,
-      "answerStatus": "incorrect",
-      "prompt": "38. 薬品を使用する際の注意事項はなんですか。正しいものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 35): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (安全のため、安全保護を着用する).",
-      "imageMediaId": "media-q038",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600038,
-      "updatedAt": 1760961600038,
-      "options": [
-        {
-          "id": "A",
-          "text": "アルコールを火元の近くに置く",
-          "mediaId": "",
-          "translation": "Meletakkan alkohol di dekat sumber api"
-        },
-        {
-          "id": "B",
-          "text": "安全のため、安全保護を着用する",
-          "mediaId": "",
-          "translation": "Mengenakan alat pelindung diri (APD) demi keselamatan"
-        },
-        {
-          "id": "C",
-          "text": "塩素系の洗剤と酸性洗剤を混ぜて使う",
-          "mediaId": "",
-          "translation": "Mencampur dan menggunakan deterjen berbasis klorin dengan deterjen asam"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q038",
-          "name": "q038.png",
-          "type": "image/png",
-          "path": "assets/questions/q038.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 35,
-      "points": 3.75,
-      "promptTranslation": "Apa hal yang harus diperhatikan saat menggunakan bahan kimia? Pilihlah satu jawaban yang benar."
-    },
-    {
-      "id": "q039",
-      "questionNumber": 39,
-      "pdfPage": 36,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q039.png",
-      "questionText": "39. 冷凍庫内で冷凍食品を運んでいるところ、床に霜がついていたため、足が滑って、転倒しそうになった。この場合では転倒の原因は何ですか。間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "39. 冷凍庫内で冷凍食品を運んでいるところ、床に霜がついていたため、足が滑って、転倒しそうになった。この場合では転倒の原因は何ですか。間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 36): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (冷凍庫内で作業するがすべるにくい靴を履かなかったこと).",
-      "imageMediaId": "media-q039",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600039,
-      "updatedAt": 1760961600039,
-      "options": [
-        {
-          "id": "A",
-          "text": "冷蔵庫の床に霜がついて、滑りやすくなっていたことに十分な注意を払わなかった",
-          "mediaId": "",
-          "translation": "Tidak memberikan perhatian yang cukup bahwa lantai kulkas/freezer tertutup bunga es dan menjadi licin"
-        },
-        {
-          "id": "B",
-          "text": "荷物をたくさん持ってバランスをよく保たなかったこと",
-          "mediaId": "",
-          "translation": "Membawa banyak barang sehingga tidak dapat menjaga keseimbangan dengan baik"
-        },
-        {
-          "id": "C",
-          "text": "冷凍庫内で作業するがすべるにくい靴を履かなかったこと",
-          "mediaId": "",
-          "translation": "Bekerja di dalam freezer tetapi tidak mengenakan sepatu yang tahan selip (tidak mudah licin)"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q039",
-          "name": "q039.png",
-          "type": "image/png",
-          "path": "assets/questions/q039.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 36,
-      "points": 3.75,
-      "promptTranslation": "Saat sedang mengangkut makanan beku di dalam freezer, kaki terpeleset dan hampir terjatuh karena terdapat bunga es di lantai. Dalam kasus ini, apa penyebab terjatuhnya pekerja tersebut? Pilihlah satu jawaban yang salah (atau sesuai konteks soal)."
-    },
-    {
-      "id": "q040",
-      "questionNumber": 40,
-      "pdfPage": 37,
-      "setId": "ssw-pm-tipe2-nguyen1",
-      "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
-      "questionImage": "assets/questions/q040.png",
-      "questionText": "40. 食肉加工品において、豚肉の 塊 を切断する作業中、安全カーバのないスライサーの回転刃に右手が当たりそうになった。右手に切らないようにどうしたらよいか。間違っているものを一つ選びなさい。",
-      "questionTextStatus": "verified",
-      "selectedAnswer": "A",
-      "selectedIndex": 0,
-      "correctAnswer": "C",
-      "correctIndex": 2,
-      "answerStatus": "incorrect",
-      "prompt": "40. 食肉加工品において、豚肉の 塊 を切断する作業中、安全カーバのないスライサーの回転刃に右手が当たりそうになった。右手に切らないようにどうしたらよいか。間違っているものを一つ選びなさい。",
-      "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
-      "explanation": "Bukti PDF (Halaman 37): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (直接手で作業する場合、二人で協力して作業する).",
-      "imageMediaId": "media-q040",
-      "imageSize": "large",
-      "imageRatio": "auto",
-      "imagePosition": "center",
-      "active": true,
-      "createdAt": 1760961600040,
-      "updatedAt": 1760961600040,
-      "options": [
-        {
-          "id": "A",
-          "text": "スライスする食材を支えるときは専門用具を使う",
-          "mediaId": "",
-          "translation": "Menggunakan alat khusus saat menahan bahan makanan yang akan diiris"
-        },
-        {
-          "id": "B",
-          "text": "スライサーの回転している刃の使用しない部分にはカバーをつける",
-          "mediaId": "",
-          "translation": "Memasang penutup (cover) pada bagian pisau berputar mesin pengiris yang tidak digunakan"
-        },
-        {
-          "id": "C",
-          "text": "直接手で作業する場合、二人で協力して作業する",
-          "mediaId": "",
-          "translation": "Jika bekerja langsung menggunakan tangan, bekerja sama berdua dalam melakukannya"
-        }
-      ],
-      "media": [
-        {
-          "id": "media-q040",
-          "name": "q040.png",
-          "type": "image/png",
-          "path": "assets/questions/q040.png"
-        }
-      ],
-      "sourcePdf": "SSW NGUYEN 1.pdf",
-      "sourcePage": 37,
-      "points": 3.75,
-      "promptTranslation": "Pada pengolahan produk daging, saat memotong bongkahan daging babi, tangan kanan hampir mengenai pisau berputar pada mesin pengiris (slicer) yang tidak memiliki penutup pengaman. Apa yang sebaiknya dilakukan agar tangan kanan tidak terpotong? Pilihlah satu jawaban yang salah."
-    }
-  ]
-};
-
-export const SEED_DATA = {
-  questions: [
-    ...SEED_KUNCI_UJIAN_1.questions,
-    ...SEED_SSW_TIPE_2.questions
-  ],
-  themes: [],
-  passages: [],
-  sessions: [],
-  meta: [],
-  audioGroups: []
-};
+  {
+    "id": "q002",
+    "questionNumber": 2,
+    "pdfPage": 2,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q002.png",
+    "questionText": "2. 食品衛生の説明について、正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "2. 食品衛生の説明について、正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 2): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (食品の衛生管理のルールを守って、危害要因を含まないようにする).",
+    "imageMediaId": "media-q002",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600002,
+    "updatedAt": 1760961600002,
+    "options": [
+      {
+        "id": "A",
+        "text": "工場や作業場で災害を起こさないようにすることです",
+        "mediaId": "",
+        "translation": "Mencegah terjadinya bencana/kecelakaan di pabrik atau tempat kerja"
+      },
+      {
+        "id": "B",
+        "text": "食品の衛生管理のルールを守って、危害要因を含まないようにする",
+        "mediaId": "",
+        "translation": "Mematuhi aturan manajemen higiene pangan agar tidak mengandung faktor bahaya"
+      },
+      {
+        "id": "C",
+        "text": "おいしい食品を作れるようにすることです。",
+        "mediaId": "",
+        "translation": "Membuat produk pangan yang lezat."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q002",
+        "name": "q002.png",
+        "type": "image/png",
+        "path": "assets/questions/q002.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 2,
+    "points": 3.75,
+    "promptTranslation": "Pilihlah satu jawaban yang benar mengenai penjelasan higiene pangan."
+  },
+  {
+    "id": "q003",
+    "questionNumber": 3,
+    "pdfPage": 3,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q003.png",
+    "questionText": "3. HACCP による衛生管理について、正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "3. HACCP による衛生管理について、正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 3): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (管理基準の設定は HACCP原則の一つです).",
+    "imageMediaId": "media-q003",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600003,
+    "updatedAt": 1760961600003,
+    "options": [
+      {
+        "id": "A",
+        "text": "一般衛生管理を使わないで、HACCPによる衛生管理をおこなう",
+        "mediaId": "",
+        "translation": "Melakukan manajemen higiene berdasarkan HACCP tanpa menggunakan manajemen higiene umum"
+      },
+      {
+        "id": "B",
+        "text": "管理基準の設定は HACCP原則の一つです",
+        "mediaId": "",
+        "translation": "Penetapan batas kritis (standar manajemen) adalah salah satu prinsip HACCP"
+      },
+      {
+        "id": "C",
+        "text": "重要管理点は一つだけ選びます",
+        "mediaId": "",
+        "translation": "Titik kendali kritis (CCP) hanya dipilih satu saja"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q003",
+        "name": "q003.png",
+        "type": "image/png",
+        "path": "assets/questions/q003.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 3,
+    "points": 3.75,
+    "promptTranslation": "Pilihlah satu jawaban yang benar mengenai manajemen higiene berdasarkan HACCP."
+  },
+  {
+    "id": "q004",
+    "questionNumber": 4,
+    "pdfPage": 4,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q004.png",
+    "questionText": "4. 指差呼称の説明について、間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "4. 指差呼称の説明について、間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 4): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (他の人が危険な作業をしているのを見たら、声をかけて注意する。).",
+    "imageMediaId": "media-q004",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600004,
+    "updatedAt": 1760961600004,
+    "options": [
+      {
+        "id": "A",
+        "text": "作業や機械のスイッチを入れる前には、安全を確認する",
+        "mediaId": "",
+        "translation": "Memastikan keselamatan sebelum memulai pekerjaan atau menyalakan sakelar mesin"
+      },
+      {
+        "id": "B",
+        "text": "信号、標識、器具、作業対象などを指で指しながら、その名称や状態を声に出して言います。",
+        "mediaId": "",
+        "translation": "Menunjuk sinyal, rambu, peralatan, atau objek kerja dengan jari sambil menyebutkan nama dan kondisinya dengan suara jelas."
+      },
+      {
+        "id": "C",
+        "text": "他の人が危険な作業をしているのを見たら、声をかけて注意する。",
+        "mediaId": "",
+        "translation": "Jika melihat orang lain melakukan pekerjaan berbahaya, menegurnya dengan suara."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q004",
+        "name": "q004.png",
+        "type": "image/png",
+        "path": "assets/questions/q004.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 4,
+    "points": 3.75,
+    "promptTranslation": "Pilihlah satu jawaban yang salah mengenai penjelasan tunjuk dan sebut (shisa koshou)."
+  },
+  {
+    "id": "q005",
+    "questionNumber": 5,
+    "pdfPage": 5,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q005.png",
+    "questionText": "5. ノロウイルスによる食中毒を防ぐために、何原則がありますか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "5. ノロウイルスによる食中毒を防ぐために、何原則がありますか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 5): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (つけない、持ち込まない、殺す、広げない。4原則に分けられます).",
+    "imageMediaId": "media-q005",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600005,
+    "updatedAt": 1760961600005,
+    "options": [
+      {
+        "id": "A",
+        "text": "つけない、増やさない、殺す。3原則に分けられます",
+        "mediaId": "",
+        "translation": "Dibagi menjadi 3 prinsip: tidak menempelkan, tidak memperbanyak, dan membunuh"
+      },
+      {
+        "id": "B",
+        "text": "つけない、持ち込まない、殺す、広げない。4原則に分けられます",
+        "mediaId": "",
+        "translation": "Dibagi menjadi 4 prinsip: tidak menempelkan, tidak membawa masuk, membunuh, dan tidak menyebarkan"
+      },
+      {
+        "id": "C",
+        "text": "つけない、持ち込まない、増やさない、殺す、広げない。5原則に分けられます",
+        "mediaId": "",
+        "translation": "Dibagi menjadi 5 prinsip: tidak menempelkan, tidak membawa masuk, tidak memperbanyak, membunuh, dan tidak menyebarkan"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q005",
+        "name": "q005.png",
+        "type": "image/png",
+        "path": "assets/questions/q005.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 5,
+    "points": 3.75,
+    "promptTranslation": "Ada berapa prinsip untuk mencegah keracunan makanan akibat Norovirus? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q006",
+    "questionNumber": 6,
+    "pdfPage": 6,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q006.png",
+    "questionText": "6. もう少し作業が終わるのに、おなかが痛くなります。何をすればいいいですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "6. もう少し作業が終わるのに、おなかが痛くなります。何をすればいいいですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 6): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (作業を止めて、責任者に報告します。).",
+    "imageMediaId": "media-q006",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600006,
+    "updatedAt": 1760961600006,
+    "options": [
+      {
+        "id": "A",
+        "text": "もう少し仕事が終わりますので、誰にも言わず、我慢します。",
+        "mediaId": "",
+        "translation": "Karena pekerjaan sebentar lagi selesai, menahannya tanpa memberi tahu siapa pun."
+      },
+      {
+        "id": "B",
+        "text": "作業を止めて、責任者に報告します。",
+        "mediaId": "",
+        "translation": "Menghentikan pekerjaan dan melaporkannya kepada penanggung jawab."
+      },
+      {
+        "id": "C",
+        "text": "もう少し作業が終わりますので、すぐに帰ってもいいです。",
+        "mediaId": "",
+        "translation": "Karena pekerjaan sebentar lagi selesai, boleh langsung pulang."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q006",
+        "name": "q006.png",
+        "type": "image/png",
+        "path": "assets/questions/q006.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 6,
+    "points": 3.75,
+    "promptTranslation": "Pekerjaan sebentar lagi selesai, tetapi perut terasa sakit. Apa yang sebaiknya dilakukan? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q007",
+    "questionNumber": 7,
+    "pdfPage": 7,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q007.png",
+    "questionText": "7. X線異物検出器の機能について、間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "C",
+    "selectedIndex": 2,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "incorrect",
+    "prompt": "7. X線異物検出器の機能について、間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 7): Pilihan sebelumnya = C | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = A) | Kunci Jawaban = A (すべてプラスチックを検出できます).",
+    "imageMediaId": "media-q007",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600007,
+    "updatedAt": 1760961600007,
+    "options": [
+      {
+        "id": "A",
+        "text": "すべてプラスチックを検出できます",
+        "mediaId": "",
+        "translation": "Dapat mendeteksi semua jenis plastik"
+      },
+      {
+        "id": "B",
+        "text": "肉に残ってている骨を検出できます",
+        "mediaId": "",
+        "translation": "Dapat mendeteksi tulang yang tersisa di dalam daging"
+      },
+      {
+        "id": "C",
+        "text": "ガラスや石を検出できます",
+        "mediaId": "",
+        "translation": "Dapat mendeteksi kaca dan batu"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q007",
+        "name": "q007.png",
+        "type": "image/png",
+        "path": "assets/questions/q007.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 7,
+    "points": 3.75,
+    "promptTranslation": "Pilihlah satu jawaban yang salah mengenai fungsi alat pendeteksi benda asing sinar-X (X-ray)."
+  },
+  {
+    "id": "q008",
+    "questionNumber": 8,
+    "pdfPage": 8,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q008.png",
+    "questionText": "8. 労働安全の５S活動の説明について、間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "8. 労働安全の５S活動の説明について、間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 8): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (整理、整頓、清掃をして、食中毒の予防だけでなく、作業者の熱中症の予防にも役に立ちます。).",
+    "imageMediaId": "media-q008",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600008,
+    "updatedAt": 1760961600008,
+    "options": [
+      {
+        "id": "A",
+        "text": "整理は、不要なものが作業場にない状態を保ちます。転倒災害の危険が減ります。",
+        "mediaId": "",
+        "translation": "Ringkas (Pemilahan) adalah menjaga kondisi tidak adanya barang yang tidak diperlukan di tempat kerja. Risiko kecelakaan terjatuh/terpeleset akan berkurang."
+      },
+      {
+        "id": "B",
+        "text": "習慣づけは毎日同じの作業場で作業することができます。安心して作業ができるので、労働災害を防ぐことにつながります。",
+        "mediaId": "",
+        "translation": "Rajin (Pembiasaan) membuat kita dapat bekerja di tempat kerja yang kondisinya sama setiap hari. Karena dapat bekerja dengan tenang, hal ini mengarah pada pencegahan kecelakaan kerja."
+      },
+      {
+        "id": "C",
+        "text": "整理、整頓、清掃をして、食中毒の予防だけでなく、作業者の熱中症の予防にも役に立ちます。",
+        "mediaId": "",
+        "translation": "Melakukan Ringkas, Rapi, dan Resik tidak hanya bermanfaat untuk mencegah keracunan makanan, tetapi juga mencegah sengatan panas (heatstroke) pada pekerja."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q008",
+        "name": "q008.png",
+        "type": "image/png",
+        "path": "assets/questions/q008.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 8,
+    "points": 3.75,
+    "promptTranslation": "Pilihlah satu jawaban yang salah mengenai penjelasan kegiatan 5S dalam keselamatan kerja."
+  },
+  {
+    "id": "q009",
+    "questionNumber": 9,
+    "pdfPage": 9,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q009.png",
+    "questionText": "9. 準清潔作業区域に作業していますが、清潔作業区域が忙しいところで、手伝いに行くとき、何を注意しなければなりませんか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "C",
+    "selectedIndex": 2,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "9. 準清潔作業区域に作業していますが、清潔作業区域が忙しいところで、手伝いに行くとき、何を注意しなければなりませんか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 9): Pilihan sebelumnya = C | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (清潔作業区域の作業服を着替えてから、清潔作業区域に入る).",
+    "imageMediaId": "media-q009",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600009,
+    "updatedAt": 1760961600009,
+    "options": [
+      {
+        "id": "A",
+        "text": "作業服のまま、エアシャワーを入って消毒します。清潔作業区域に入る",
+        "mediaId": "",
+        "translation": "Tetap mengenakan pakaian kerja tersebut, masuk ke air shower untuk disinfeksi, lalu masuk ke area kerja bersih"
+      },
+      {
+        "id": "B",
+        "text": "清潔作業区域の作業服を着替えてから、清潔作業区域に入る",
+        "mediaId": "",
+        "translation": "Mengganti pakaian dengan pakaian kerja khusus area kerja bersih terlebih dahulu, baru masuk ke area kerja bersih"
+      },
+      {
+        "id": "C",
+        "text": "忙しいですから、作業服をそのままにする",
+        "mediaId": "",
+        "translation": "Karena sedang sibuk, membiarkan pakaian kerja apa adanya"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q009",
+        "name": "q009.png",
+        "type": "image/png",
+        "path": "assets/questions/q009.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 9,
+    "points": 3.75,
+    "promptTranslation": "Saat sedang bekerja di area kerja semi-bersih, area kerja bersih sedang sibuk sehingga Anda pergi membantu ke sana. Apa yang harus diperhatikan? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q010",
+    "questionNumber": 10,
+    "pdfPage": 10,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q010.png",
+    "questionText": "10. 食中毒菌の予防する3原則による、「つけない」の説明について、間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "10. 食中毒菌の予防する3原則による、「つけない」の説明について、間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 10): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (適当の温度と時間を殺すことです。).",
+    "imageMediaId": "media-q010",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600010,
+    "updatedAt": 1760961600010,
+    "options": [
+      {
+        "id": "A",
+        "text": "適当の温度と時間を殺すことです。",
+        "mediaId": "",
+        "translation": "Membunuh pada suhu dan waktu yang tepat."
+      },
+      {
+        "id": "B",
+        "text": "作業開始前や必要な時に、決まられたとおりに手洗いをします。",
+        "mediaId": "",
+        "translation": "Mencuci tangan sesuai aturan sebelum memulai pekerjaan dan pada saat diperlukan."
+      },
+      {
+        "id": "C",
+        "text": "機械や調理器具は洗浄し、殺菌します。",
+        "mediaId": "",
+        "translation": "Mencuci dan mensterilkan mesin serta peralatan masak."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q010",
+        "name": "q010.png",
+        "type": "image/png",
+        "path": "assets/questions/q010.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 10,
+    "points": 3.75,
+    "promptTranslation": "Berdasarkan 3 prinsip pencegahan bakteri keracunan makanan, pilihlah satu jawaban yang salah mengenai penjelasan \"tidak menempelkan\"."
+  },
+  {
+    "id": "q011",
+    "questionNumber": 11,
+    "pdfPage": 11,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q011.png",
+    "questionText": "11. 食品の残りカスや汚水が床や排水口にたまったままになっていると、微生物が発生します。では、床や排水口の清掃するとき、何を注意しなければなりませんか。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "11. 食品の残りカスや汚水が床や排水口にたまったままになっていると、微生物が発生します。では、床や排水口の清掃するとき、何を注意しなければなりませんか。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 11): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (排水口はフタを外して洗います。食品のカスなどが残らないように清掃します。また、外したフタの裏側も洗います。).",
+    "imageMediaId": "media-q011",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600011,
+    "updatedAt": 1760961600011,
+    "options": [
+      {
+        "id": "A",
+        "text": "排水口の上に作業台や大型の機械を置きます。ネズミが入ってこないため",
+        "mediaId": "",
+        "translation": "Meletakkan meja kerja atau mesin besar di atas saluran pembuangan air agar tikus tidak masuk"
+      },
+      {
+        "id": "B",
+        "text": "一日の初め、作業の前に、水が十分に流して、食品の残りカスが残らないようにする",
+        "mediaId": "",
+        "translation": "Di awal hari sebelum bekerja, mengalirkan air yang cukup agar tidak ada sisa-sisa makanan yang tertinggal"
+      },
+      {
+        "id": "C",
+        "text": "排水口はフタを外して洗います。食品のカスなどが残らないように清掃します。また、外したフタの裏側も洗います。",
+        "mediaId": "",
+        "translation": "Melepas penutup saluran pembuangan air lalu mencucinya. Membersihkan hingga tidak ada sisa makanan yang tertinggal, serta mencuci bagian balik penutup yang dilepas."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q011",
+        "name": "q011.png",
+        "type": "image/png",
+        "path": "assets/questions/q011.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 11,
+    "points": 3.75,
+    "promptTranslation": "Jika sisa-sisa makanan atau air kotor dibiarkan menggenang di lantai atau saluran pembuangan air, mikroorganisme akan muncul. Lalu, apa yang harus diperhatikan saat membersihkan lantai dan saluran pembuangan air?"
+  },
+  {
+    "id": "q012",
+    "questionNumber": 12,
+    "pdfPage": 12,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q012.png",
+    "questionText": "12. 体の中で菌が増えて発症する微生物はどれですか。間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "12. 体の中で菌が増えて発症する微生物はどれですか。間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 12): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (黄色ブドウ球菌).",
+    "imageMediaId": "media-q012",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600012,
+    "updatedAt": 1760961600012,
+    "options": [
+      {
+        "id": "A",
+        "text": "黄色ブドウ球菌",
+        "mediaId": "",
+        "translation": "Staphylococcus aureus"
+      },
+      {
+        "id": "B",
+        "text": "サルモネラ属菌",
+        "mediaId": "",
+        "translation": "Bakteri genus Salmonella"
+      },
+      {
+        "id": "C",
+        "text": "セレウス菌",
+        "mediaId": "",
+        "translation": "Bakteri Bacillus cereus"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q012",
+        "name": "q012.png",
+        "type": "image/png",
+        "path": "assets/questions/q012.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 12,
+    "points": 3.75,
+    "promptTranslation": "Manakah mikroorganisme yang menimbulkan gejala penyakit karena bakterinya berkembang biak di dalam tubuh? Pilihlah satu jawaban yang salah (atau pengecualian)."
+  },
+  {
+    "id": "q013",
+    "questionNumber": 13,
+    "pdfPage": 12,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q013.png",
+    "questionText": "13. ５S活動の中の「整理」は、どのような活動ですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "13. ５S活動の中の「整理」は、どのような活動ですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 12): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (使わないものをなくして、使うものだけにすること。).",
+    "imageMediaId": "media-q013",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600013,
+    "updatedAt": 1760961600013,
+    "options": [
+      {
+        "id": "A",
+        "text": "使わないものをなくして、使うものだけにすること。",
+        "mediaId": "",
+        "translation": "Menyingkirkan barang yang tidak digunakan dan menyisakan hanya barang yang digunakan."
+      },
+      {
+        "id": "B",
+        "text": "決まられたことを常に守って、実行する",
+        "mediaId": "",
+        "translation": "Selalu mematuhi dan melaksanakan hal-hal yang telah ditetapkan"
+      },
+      {
+        "id": "C",
+        "text": "作業道具や材料の置き場所を決めておく",
+        "mediaId": "",
+        "translation": "Menentukan tempat penyimpanan peralatan kerja dan bahan terlebih dahulu."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q013",
+        "name": "q013.png",
+        "type": "image/png",
+        "path": "assets/questions/q013.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 12,
+    "points": 3.75,
+    "promptTranslation": "Kegiatan seperti apakah \"Ringkas (Pemilahan / Seiri)\" dalam kegiatan 5S? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q014",
+    "questionNumber": 14,
+    "pdfPage": 13,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q014.png",
+    "questionText": "異物混入を防ぐために、何をしなければなりませんか。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、<ruby>何<rt>なに</rt></ruby>をしなければなりませんか。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 13): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (原材料に異物が入っていないか、よく観察する).",
+    "imageMediaId": "media-q014",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600014,
+    "updatedAt": 1760961600014,
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>原材料<rt>げんざいりょう</rt></ruby>に<ruby>異物<rt>いぶつ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていないか、よく<ruby>観察<rt>かんさつ</rt></ruby>する。",
+        "mediaId": "",
+        "translation": "Mengamati dengan cermat apakah ada benda asing yang masuk ke dalam bahan baku."
+      },
+      {
+        "id": "B",
+        "text": "<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>るとき、<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>ネットをかぶらないで、<ruby>帽子<rt>ぼうし</rt></ruby>を<ruby>直接<rt>ちょくせつ</rt></ruby>かぶる。",
+        "mediaId": "",
+        "translation": "Saat mengenakan pakaian kerja, langsung memakai topi tanpa memakai jaring rambut (hairnet)."
+      },
+      {
+        "id": "C",
+        "text": "<ruby>自分<rt>じぶん</rt></ruby>が<ruby>担当<rt>たんとう</rt></ruby>する<ruby>作業場<rt>さぎょうじょう</rt></ruby>で<ruby>小<rt>ちい</rt></ruby>さい<ruby>異物<rt>いぶつ</rt></ruby>が<ruby>製品<rt>せいひん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>っていることがわかったら、だれにも<ruby>言<rt>い</rt></ruby>わず、<ruby>自分<rt>じぶん</rt></ruby>で<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>す。",
+        "mediaId": "",
+        "translation": "Jika mengetahui ada benda asing kecil masuk ke dalam produk di area kerja yang menjadi tanggung jawab sendiri, mengambilnya sendiri tanpa memberi tahu siapa pun."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q014",
+        "name": "q014.png",
+        "type": "image/png",
+        "path": "assets/questions/q014.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 13,
+    "points": 3.75,
+    "promptTranslation": "Untuk mencegah masuknya benda asing (kontaminasi fisik), apa yang harus dilakukan?",
+    "kotobaFormatted": "異物混入（いぶつこんにゅう） : kontaminasi / masuknya benda asing\n防ぐ（ふせぐ） : mencegah\nために（ために） : untuk / demi\n何（なに） : apa\nしなければなりません（しなければなりません） : harus / wajib dilakukan\n原材料（げんざいりょう） : bahan baku\n異物（いぶつ） : benda asing\n入って（はいって） : masuk / terkandung\nよく（よく） : dengan baik / sering\n観察（かんさつ） : pengamatan / observasi\n作業服（さぎょうふく） : pakaian kerja\n着る（きる） : memakai (pakaian)\nとき（とき） : ketika / saat\n髪の毛ネット（かみのけねっと） : jaring penutup rambut (hairnet)\nかぶらないで（かぶらないで） : tanpa memakai (topi/penutup)\n帽子（ぼうし） : topi kerja\n直接（ちょくせつ） : secara langsung\nかぶる（かぶる） : memakai (helm/topi)\n自分（じぶん） : diri sendiri\n担当（たんとう） : penanggung jawab / tugas\n作業場（さぎょうじょう） : area kerja / tempat kerja\n小さい（ちいさい） : kecil\n製品（せいひん） : produk jadi\n入っている（はいっている） : terdapat di dalam\nわかったら（わかったら） : jika diketahui / dimengerti\nだれにも（だれにも） : kepada siapa pun (tidak)\n言わず（いわず） : tanpa mengatakan\n取り出す（とりだす） : mengambil / mengeluarkan",
+    "kotobaU": [
+      "異物混入（いぶつこんにゅう）",
+      "防ぐ（ふせぐ）",
+      "ために（ために）",
+      "何（なに）",
+      "しなければなりません（しなければなりません）",
+      "原材料（げんざいりょう）",
+      "異物（いぶつ）",
+      "入って（はいって）",
+      "よく（よく）",
+      "観察（かんさつ）",
+      "作業服（さぎょうふく）",
+      "着る（きる）",
+      "とき（とき）",
+      "髪の毛ネット（かみのけねっと）",
+      "かぶらないで（かぶらないで）",
+      "帽子（ぼうし）",
+      "直接（ちょくせつ）",
+      "かぶる（かぶる）",
+      "自分（じぶん）",
+      "担当（たんとう）",
+      "作業場（さぎょうじょう）",
+      "小さい（ちいさい）",
+      "製品（せいひん）",
+      "入っている（はいっている）",
+      "わかったら（わかったら）",
+      "だれにも（だれにも）",
+      "言わず（いわず）",
+      "取り出す（とりだす）"
+    ],
+    "kotobaV": [
+      "異物混入（いぶつこんにゅう） : kontaminasi / masuknya benda asing",
+      "防ぐ（ふせぐ） : mencegah",
+      "ために（ために） : untuk / demi",
+      "何（なに） : apa",
+      "しなければなりません（しなければなりません） : harus / wajib dilakukan",
+      "原材料（げんざいりょう） : bahan baku",
+      "異物（いぶつ） : benda asing",
+      "入って（はいって） : masuk / terkandung",
+      "よく（よく） : dengan baik / sering",
+      "観察（かんさつ） : pengamatan / observasi",
+      "作業服（さぎょうふく） : pakaian kerja",
+      "着る（きる） : memakai (pakaian)",
+      "とき（とき） : ketika / saat",
+      "髪の毛ネット（かみのけねっと） : jaring penutup rambut (hairnet)",
+      "かぶらないで（かぶらないで） : tanpa memakai (topi/penutup)",
+      "帽子（ぼうし） : topi kerja",
+      "直接（ちょくせつ） : secara langsung",
+      "かぶる（かぶる） : memakai (helm/topi)",
+      "自分（じぶん） : diri sendiri",
+      "担当（たんとう） : penanggung jawab / tugas",
+      "作業場（さぎょうじょう） : area kerja / tempat kerja",
+      "小さい（ちいさい） : kecil",
+      "製品（せいひん） : produk jadi",
+      "入っている（はいっている） : terdapat di dalam",
+      "わかったら（わかったら） : jika diketahui / dimengerti",
+      "だれにも（だれにも） : kepada siapa pun (tidak)",
+      "言わず（いわず） : tanpa mengatakan",
+      "取り出す（とりだす） : mengambil / mengeluarkan"
+    ]
+  },
+  {
+    "id": "q015",
+    "questionNumber": 15,
+    "pdfPage": 14,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q015.png",
+    "questionText": "15. ノロウイルスを殺すために、何度何分で加熱必要ですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "15. ノロウイルスを殺すために、何度何分で加熱必要ですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 14): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (中心温度85℃ー90℃、90秒以上).",
+    "imageMediaId": "media-q015",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600015,
+    "updatedAt": 1760961600015,
+    "options": [
+      {
+        "id": "A",
+        "text": "中心温度85℃ー90℃、90秒以内",
+        "mediaId": "",
+        "translation": "Suhu bagian tengah (suhu inti) 85°C–90°C, kurang dari 90 detik"
+      },
+      {
+        "id": "B",
+        "text": "中心温度85℃ー90℃、90秒以上",
+        "mediaId": "",
+        "translation": "Suhu bagian tengah (suhu inti) 85°C–90°C, selama 90 detik atau lebih"
+      },
+      {
+        "id": "C",
+        "text": "表面温度85℃ー90℃、90秒以上",
+        "mediaId": "",
+        "translation": "Suhu permukaan 85°C–90°C, selama 90 detik atau lebih"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q015",
+        "name": "q015.png",
+        "type": "image/png",
+        "path": "assets/questions/q015.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 14,
+    "points": 3.75,
+    "promptTranslation": "Untuk membunuh Norovirus, perlu pemanasan pada suhu berapa derajat dan berapa lama? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q016",
+    "questionNumber": 16,
+    "pdfPage": 15,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q016.png",
+    "questionText": "16. 「一般衛生管理」では「施設、設備、器具などの衛生管理」、「作業者の衛生管理」のほか、何が重要ですか、間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "16. 「一般衛生管理」では「施設、設備、器具などの衛生管理」、「作業者の衛生管理」のほか、何が重要ですか、間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 15): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (HACCP).",
+    "imageMediaId": "media-q016",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600016,
+    "updatedAt": 1760961600016,
+    "options": [
+      {
+        "id": "A",
+        "text": "5S",
+        "mediaId": "",
+        "translation": "5S"
+      },
+      {
+        "id": "B",
+        "text": "原材料・食品の衛生管理",
+        "mediaId": "",
+        "translation": "Manajemen higiene bahan baku dan produk pangan"
+      },
+      {
+        "id": "C",
+        "text": "HACCP",
+        "mediaId": "",
+        "translation": "HACCP"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q016",
+        "name": "q016.png",
+        "type": "image/png",
+        "path": "assets/questions/q016.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 15,
+    "points": 3.75,
+    "promptTranslation": "Dalam \"Manajemen higiene umum\", selain \"Manajemen higiene fasilitas, peralatan, perkakas, dll.\" dan \"Manajemen higiene pekerja\", apa lagi yang penting? Pilihlah satu jawaban yang salah."
+  },
+  {
+    "id": "q017",
+    "questionNumber": 17,
+    "pdfPage": 16,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q017.png",
+    "questionText": "働く経験が長い人よりも、働く経験が少ない人のほうが労働災害が多い理由は何ですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "<ruby>働<rt>はたら</rt></ruby>く<ruby>経験<rt>けいけん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>よりも、<ruby>働<rt>はたら</rt></ruby>く<ruby>経験<rt>けいけん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない<ruby>人<rt>ひと</rt></ruby>のほうが<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 16): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (作業に慣れていないために、危険になかなか気が付きにくいから).",
+    "imageMediaId": "media-q017",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600017,
+    "updatedAt": 1760961600017,
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>危険<rt>きけん</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>担当<rt>たんとう</rt></ruby>することが<ruby>多<rt>おお</rt></ruby>い",
+        "mediaId": "",
+        "translation": "Lebih sering ditugaskan pada pekerjaan yang berbahaya."
+      },
+      {
+        "id": "B",
+        "text": "<ruby>年齢<rt>ねんれい</rt></ruby>が<ruby>若<rt>わか</rt></ruby>く、<ruby>作業時間<rt>さぎょうじかん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い",
+        "mediaId": "",
+        "translation": "Banyak yang berusia muda dan memiliki jam kerja yang panjang."
+      },
+      {
+        "id": "C",
+        "text": "<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れていないため、<ruby>危険<rt>きけん</rt></ruby>に<ruby>気<rt>き</rt></ruby>が<ruby>付<rt>つ</rt></ruby>きにくい",
+        "mediaId": "",
+        "translation": "Belum terbiasa dengan pekerjaan sehingga sulit menyadari bahaya."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q017",
+        "name": "q017.png",
+        "type": "image/png",
+        "path": "assets/questions/q017.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 16,
+    "points": 3.75,
+    "promptTranslation": "Apa alasan kecelakaan kerja lebih banyak terjadi pada pekerja yang kurang berpengalaman dibandingkan pekerja yang sudah lama bekerja? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q018",
+    "questionNumber": 18,
+    "pdfPage": 17,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q018.png",
+    "questionText": "18. 「危害要因を分析して、製造しようとする食品に危害要因が含まれないようにするために、どのような管理が必要かを判断します」はどんな原則ですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "18. 「危害要因を分析して、製造しようとする食品に危害要因が含まれないようにするために、どのような管理が必要かを判断します」はどんな原則ですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 17): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (危害要因分析（ハザード分析）).",
+    "imageMediaId": "media-q018",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600018,
+    "updatedAt": 1760961600018,
+    "options": [
+      {
+        "id": "A",
+        "text": "危害要因分析（ハザード分析）",
+        "mediaId": "",
+        "translation": "Analisis bahaya (Hazard Analysis)"
+      },
+      {
+        "id": "B",
+        "text": "重要管理点の決定",
+        "mediaId": "",
+        "translation": "Penentuan titik kendali kritis (CCP)"
+      },
+      {
+        "id": "C",
+        "text": "管理基準の設定",
+        "mediaId": "",
+        "translation": "Penetapan batas kritis (standar manajemen)"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q018",
+        "name": "q018.png",
+        "type": "image/png",
+        "path": "assets/questions/q018.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 17,
+    "points": 3.75,
+    "promptTranslation": "Prinsip apakah \"Menganalisis faktor bahaya dan menentukan manajemen seperti apa yang diperlukan agar produk pangan yang akan diproduksi tidak mengandung faktor bahaya\"? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q019",
+    "questionNumber": 19,
+    "pdfPage": 18,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q019.png",
+    "questionText": "19. 穀類加工品（小麦粉、デンプン）は何度で保管すればいいですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "19. 穀類加工品（小麦粉、デンプン）は何度で保管すればいいですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 18): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (室温).",
+    "imageMediaId": "media-q019",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600019,
+    "updatedAt": 1760961600019,
+    "options": [
+      {
+        "id": "A",
+        "text": "10℃以下",
+        "mediaId": "",
+        "translation": "10°C atau lebih rendah"
+      },
+      {
+        "id": "B",
+        "text": "室温",
+        "mediaId": "",
+        "translation": "Suhu ruang"
+      },
+      {
+        "id": "C",
+        "text": "30℃以下",
+        "mediaId": "",
+        "translation": "30°C atau lebih rendah"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q019",
+        "name": "q019.png",
+        "type": "image/png",
+        "path": "assets/questions/q019.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 18,
+    "points": 3.75,
+    "promptTranslation": "Produk olahan biji-bijian/serealia (tepung terigu, pati) sebaiknya disimpan pada suhu berapa derajat? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q020",
+    "questionNumber": 20,
+    "pdfPage": 19,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q020.png",
+    "questionText": "20. 危害要因の説明について、間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "20. 危害要因の説明について、間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 19): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (プラスチックは X線異物検出器では見つけることができないため、物理的危害ではありません。).",
+    "imageMediaId": "media-q020",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600020,
+    "updatedAt": 1760961600020,
+    "options": [
+      {
+        "id": "A",
+        "text": "虫や髪の毛、紙片のようにかたくない異物は、硬質異物と言わず、口の中やのどに傷ができることはないので、物理的危害ではありません。",
+        "mediaId": "",
+        "translation": "Benda asing yang tidak keras seperti serangga, rambut, dan potongan kertas tidak disebut benda asing keras dan tidak melukai bagian dalam mulut atau tenggorokan, sehingga bukan merupakan bahaya fisik."
+      },
+      {
+        "id": "B",
+        "text": "プラスチックは X線異物検出器では見つけることができないため、物理的危害ではありません。",
+        "mediaId": "",
+        "translation": "Plastik tidak dapat ditemukan oleh alat pendeteksi benda asing sinar-X (X-ray), sehingga bukan merupakan bahaya fisik."
+      },
+      {
+        "id": "C",
+        "text": "作業服を着た後、粘着ローラ、またエアシャワーを利用して、異物混入の対策です。",
+        "mediaId": "",
+        "translation": "Menggunakan rol perekat dan air shower setelah mengenakan pakaian kerja merupakan langkah pencegahan kontaminasi benda asing."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q020",
+        "name": "q020.png",
+        "type": "image/png",
+        "path": "assets/questions/q020.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 19,
+    "points": 3.75,
+    "promptTranslation": "Pilihlah satu jawaban yang salah mengenai penjelasan faktor bahaya."
+  },
+  {
+    "id": "q021",
+    "questionNumber": 21,
+    "pdfPage": 20,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q021.png",
+    "questionText": "21. 交差汚染を防止するために、何をしないといけませんか。間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "21. 交差汚染を防止するために、何をしないといけませんか。間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 20): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (原材料を、段ボール箱やコンテナのまま準清潔作業区域や清潔作業区域に持ち込んでおき、必要な時に利用する。).",
+    "imageMediaId": "media-q021",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600021,
+    "updatedAt": 1760961600021,
+    "options": [
+      {
+        "id": "A",
+        "text": "清潔作業区域、準清潔作業区域、汚染作業区域など区分し、汚染作業区域で作業する人が、準清潔作業区域や清潔作業区域に入らないようにしなければなりませんか。",
+        "mediaId": "",
+        "translation": "Membagi zona menjadi area kerja bersih, area kerja semi-bersih, dan area kerja terkontaminasi, serta memastikan orang yang bekerja di area kerja terkontaminasi tidak masuk ke area kerja semi-bersih maupun area kerja bersih."
+      },
+      {
+        "id": "B",
+        "text": "原材料を、段ボール箱やコンテナのまま準清潔作業区域や清潔作業区域に持ち込んでおき、必要な時に利用する。",
+        "mediaId": "",
+        "translation": "Membawa masuk bahan baku masih di dalam kotak kardus atau kontainer ke area kerja semi-bersih atau area kerja bersih, lalu menggunakannya saat diperlukan."
+      },
+      {
+        "id": "C",
+        "text": "不要になった原材料や掃除で出たごみを作業場から出すときは、決められたルートで決められた時間に出します。",
+        "mediaId": "",
+        "translation": "Saat mengeluarkan bahan baku yang sudah tidak diperlukan atau sampah hasil pembersihan dari tempat kerja, keluarkan melalui jalur yang telah ditentukan dan pada waktu yang telah ditentukan."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q021",
+        "name": "q021.png",
+        "type": "image/png",
+        "path": "assets/questions/q021.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 20,
+    "points": 3.75,
+    "promptTranslation": "Apa yang harus dilakukan untuk mencegah kontaminasi silang? Pilihlah satu jawaban yang salah."
+  },
+  {
+    "id": "q022",
+    "questionNumber": 22,
+    "pdfPage": 21,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q022.png",
+    "questionText": "22. 薬剤の管理について、間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "22. 薬剤の管理について、間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 21): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (薬剤を使った後、ちょっとだけ残りましたが、明日も使うので、製造工場内に放置しました。).",
+    "imageMediaId": "media-q022",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600022,
+    "updatedAt": 1760961600022,
+    "options": [
+      {
+        "id": "A",
+        "text": "薬剤は、名称が分かるように表示しなければなりません。",
+        "mediaId": "",
+        "translation": "Bahan kimia harus diberi label agar namanya dapat diketahui."
+      },
+      {
+        "id": "B",
+        "text": "表示のないものを見つけたら、すぐに責任者へ報告しなければなりません。",
+        "mediaId": "",
+        "translation": "Jika menemukan bahan kimia tanpa label, harus segera melaporkannya kepada penanggung jawab."
+      },
+      {
+        "id": "C",
+        "text": "薬剤を使った後、ちょっとだけ残りましたが、明日も使うので、製造工場内に放置しました。",
+        "mediaId": "",
+        "translation": "Setelah menggunakan bahan kimia, tersisa sedikit, tetapi karena besok akan digunakan lagi, bahan kimia tersebut dibiarkan di dalam pabrik produksi."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q022",
+        "name": "q022.png",
+        "type": "image/png",
+        "path": "assets/questions/q022.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 21,
+    "points": 3.75,
+    "promptTranslation": "Pilihlah satu jawaban yang salah mengenai pengelolaan bahan kimia/obat pembersih."
+  },
+  {
+    "id": "q023",
+    "questionNumber": 23,
+    "pdfPage": 22,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q023.png",
+    "questionText": "23. 充填、包装、検査について、間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "23. 充填、包装、検査について、間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 22): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (印字する機械の設定が正しいことを確認できたら、印字された内容も自動的にに正しくなるため、大量印字を開始できます。).",
+    "imageMediaId": "media-q023",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600023,
+    "updatedAt": 1760961600023,
+    "options": [
+      {
+        "id": "A",
+        "text": "印字する機械の設定が正しいことを確認できたら、印字された内容も自動的にに正しくなるため、大量印字を開始できます。",
+        "mediaId": "",
+        "translation": "Setelah memastikan pengaturan mesin pencetak sudah benar, isi yang dicetak secara otomatis akan benar, sehingga pencetakan dalam jumlah besar dapat dimulai."
+      },
+      {
+        "id": "B",
+        "text": "賞味期限や消費期限の数字を間違えてしまうミスが多く発生しているので、印字する機械の設定や印字された内容が間違っていないことを別の人が確認する。",
+        "mediaId": "",
+        "translation": "Karena sering terjadi kesalahan pencetakan angka batas waktu kualitas terbaik (baik digunakan sebelum) atau batas waktu konsumsi, orang lain turut memeriksa bahwa pengaturan mesin pencetak dan isi yang dicetak tidak salah."
+      },
+      {
+        "id": "C",
+        "text": "印字された内容は間違っていることを発見したら、すぐに作業を止めて責任者に報告する。",
+        "mediaId": "",
+        "translation": "Jika menemukan bahwa isi yang dicetak salah, segera hentikan pekerjaan dan laporkan kepada penanggung jawab."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q023",
+        "name": "q023.png",
+        "type": "image/png",
+        "path": "assets/questions/q023.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 22,
+    "points": 3.75,
+    "promptTranslation": "Pilihlah satu jawaban yang salah mengenai pengisian, pengemasan, dan pemeriksaan."
+  },
+  {
+    "id": "q024",
+    "questionNumber": 24,
+    "pdfPage": 23,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q024.png",
+    "questionText": "24. 食品を製造する場合に重要管理点となる代表的な工程はいくつありますか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "24. 食品を製造する場合に重要管理点となる代表的な工程はいくつありますか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 23): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (5つ).",
+    "imageMediaId": "media-q024",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600024,
+    "updatedAt": 1760961600024,
+    "options": [
+      {
+        "id": "A",
+        "text": "3つ",
+        "mediaId": "",
+        "translation": "3 proses"
+      },
+      {
+        "id": "B",
+        "text": "5つ",
+        "mediaId": "",
+        "translation": "5 proses"
+      },
+      {
+        "id": "C",
+        "text": "7つ",
+        "mediaId": "",
+        "translation": "7 proses"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q024",
+        "name": "q024.png",
+        "type": "image/png",
+        "path": "assets/questions/q024.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 23,
+    "points": 3.75,
+    "promptTranslation": "Ada berapa proses utama (representatif) yang menjadi titik kendali kritis (CCP) saat memproduksi produk pangan? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q025",
+    "questionNumber": 25,
+    "pdfPage": 24,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q025.png",
+    "questionText": "25. 決められた作業手順を守る際の注意事項として、間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "25. 決められた作業手順を守る際の注意事項として、間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 24): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (他の人が危険な作業をしているを見たら、小さいな声をかけて注意する).",
+    "imageMediaId": "media-q025",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600025,
+    "updatedAt": 1760961600025,
+    "options": [
+      {
+        "id": "A",
+        "text": "作業の手順は、必ず守り、共同でする作業は連絡や合図を確実に行う",
+        "mediaId": "",
+        "translation": "Selalu mematuhi prosedur kerja, dan untuk pekerjaan yang dilakukan bersama-sama, pastikan melakukan komunikasi dan memberi isyarat"
+      },
+      {
+        "id": "B",
+        "text": "作業やスイッチを入れる前には指差呼称で確認する",
+        "mediaId": "",
+        "translation": "Memeriksa dengan tunjuk dan sebut (shisa koshou) sebelum melakukan pekerjaan atau menyalakan sakelar"
+      },
+      {
+        "id": "C",
+        "text": "他の人が危険な作業をしているを見たら、小さいな声をかけて注意する",
+        "mediaId": "",
+        "translation": "Jika melihat orang lain sedang melakukan pekerjaan berbahaya, menegurnya dengan suara pelan"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q025",
+        "name": "q025.png",
+        "type": "image/png",
+        "path": "assets/questions/q025.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 24,
+    "points": 3.75,
+    "promptTranslation": "Pilihlah satu jawaban yang salah sebagai hal yang harus diperhatikan saat mematuhi prosedur kerja yang telah ditetapkan."
+  },
+  {
+    "id": "q026",
+    "questionNumber": 26,
+    "pdfPage": 25,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q026.png",
+    "questionText": "異常事態や労働災害が発生した際にやるべきことで、間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "<ruby>異常事態<rt>いじょうじたい</rt></ruby>や<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>した<ruby>際<rt>さい</rt></ruby>にやるべきことで、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 25): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (周りにいる責任者や同僚に小さいな声で知らせる。).",
+    "imageMediaId": "media-q026",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600026,
+    "updatedAt": 1760961600026,
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>異常事態<rt>いじょうじたい</rt></ruby>を<ruby>発見<rt>はっけん</rt></ruby>したら、まず<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>こっているかをすばやく<ruby>確認<rt>かくにん</rt></ruby>する。",
+        "mediaId": "",
+        "translation": "Saat menemukan kondisi abnormal, pertama-tama periksa dengan cepat apa yang sedang terjadi."
+      },
+      {
+        "id": "B",
+        "text": "<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>時<rt>とき</rt></ruby>は<ruby>非常停止<rt>ひじょうていし</rt></ruby>ボタンで<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める。",
+        "mediaId": "",
+        "translation": "Saat diperlukan, hentikan mesin dengan tombol berhenti darurat (emergency stop)."
+      },
+      {
+        "id": "C",
+        "text": "まわりにいる<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>同僚<rt>どうりょう</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さな<ruby>声<rt>こえ</rt></ruby>で<ruby>知<rt>し</rt></ruby>らせる。",
+        "mediaId": "",
+        "translation": "Memberi tahu penanggung jawab atau rekan kerja di sekitar dengan suara kecil."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q026",
+        "name": "q026.png",
+        "type": "image/png",
+        "path": "assets/questions/q026.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 25,
+    "points": 3.75,
+    "promptTranslation": "Mengenai hal yang harus dilakukan saat terjadi kondisi abnormal atau kecelakaan kerja, pilihlah satu yang salah.",
+    "kotobaFormatted": "異常事態（いじょうじたい） : keadaan tidak normal / darurat\n労働災害（ろうどうさいがい） : kecelakaan kerja\n発生（はっせい） : timbulnya / kejadian\n際（さい） : saat / ketika\nやる（やる） : melakukan / mengerjakan\n間違っている（まちがっている） : salah / keliru\n一つ（ひとつ） : satu\n選びなさい（えらびなさい） : pilihlah\n発見したら（はっけんしたら） : jika menemukan\nまず（まず） : pertama-tama / terlebih dahulu\n何（なに） : apa\n起こっている（おこっている） : sedang terjadi\nすばやく（すばやく） : dengan cepat / sigap\n確認する（かくにんする） : memeriksa / memastikan\n必要な（ひつような） : perlu / dibutuhkan\n時（とき） : saat / waktu\n非常停止ボタン（ひじょうていしぼたん） : tombol berhenti darurat\n機械（きかい） : mesin\n止める（とめる） : menghentikan\nまわり（まわり） : sekitar / sekeliling\n責任者（せきにんしゃ） : penanggung jawab / atasan\n同僚（どうりょう） : rekan kerja\n小さな（ちいさな） : kecil\n声（こえ） : suara\n知らせる（しらせる） : memberitahu",
+    "kotobaU": [
+      "異常事態（いじょうじたい）",
+      "労働災害（ろうどうさいがい）",
+      "発生（はっせい）",
+      "際（さい）",
+      "やる（やる）",
+      "間違っている（まちがっている）",
+      "一つ（ひとつ）",
+      "選びなさい（えらびなさい）",
+      "発見したら（はっけんしたら）",
+      "まず（まず）",
+      "何（なに）",
+      "起こっている（おこっている）",
+      "すばやく（すばやく）",
+      "確認する（かくにんする）",
+      "必要な（ひつような）",
+      "時（とき）",
+      "非常停止ボタン（ひじょうていしぼたん）",
+      "機械（きかい）",
+      "止める（とめる）",
+      "まわり（まわり）",
+      "責任者（せきにんしゃ）",
+      "同僚（どうりょう）",
+      "小さな（ちいさな）",
+      "声（こえ）",
+      "知らせる（しらせる）"
+    ],
+    "kotobaV": [
+      "異常事態（いじょうじたい） : keadaan tidak normal / darurat",
+      "労働災害（ろうどうさいがい） : kecelakaan kerja",
+      "発生（はっせい） : timbulnya / kejadian",
+      "際（さい） : saat / ketika",
+      "やる（やる） : melakukan / mengerjakan",
+      "間違っている（まちがっている） : salah / keliru",
+      "一つ（ひとつ） : satu",
+      "選びなさい（えらびなさい） : pilihlah",
+      "発見したら（はっけんしたら） : jika menemukan",
+      "まず（まず） : pertama-tama / terlebih dahulu",
+      "何（なに） : apa",
+      "起こっている（おこっている） : sedang terjadi",
+      "すばやく（すばやく） : dengan cepat / sigap",
+      "確認する（かくにんする） : memeriksa / memastikan",
+      "必要な（ひつような） : perlu / dibutuhkan",
+      "時（とき） : saat / waktu",
+      "非常停止ボタン（ひじょうていしぼたん） : tombol berhenti darurat",
+      "機械（きかい） : mesin",
+      "止める（とめる） : menghentikan",
+      "まわり（まわり） : sekitar / sekeliling",
+      "責任者（せきにんしゃ） : penanggung jawab / atasan",
+      "同僚（どうりょう） : rekan kerja",
+      "小さな（ちいさな） : kecil",
+      "声（こえ） : suara",
+      "知らせる（しらせる） : memberitahu"
+    ]
+  },
+  {
+    "id": "q027",
+    "questionNumber": 27,
+    "pdfPage": 26,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q027.png",
+    "questionText": "27. 特定原材料に含まれている食品はどれですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "27. 特定原材料に含まれている食品はどれですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 26): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (B).",
+    "imageMediaId": "media-q027",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600027,
+    "updatedAt": 1760961600027,
+    "options": [
+      {
+        "id": "A",
+        "text": "A",
+        "mediaId": "media-q027-a",
+        "optionImage": "assets/questions/q027_a.png",
+        "translation": "Pilihan gambar A (lihat ilustrasi pada soal)"
+      },
+      {
+        "id": "B",
+        "text": "B",
+        "mediaId": "media-q027-b",
+        "optionImage": "assets/questions/q027_b.png",
+        "translation": "Pilihan gambar B (lihat ilustrasi pada soal)"
+      },
+      {
+        "id": "C",
+        "text": "C",
+        "mediaId": "media-q027-c",
+        "optionImage": "assets/questions/q027_c.png",
+        "translation": "Pilihan gambar C (lihat ilustrasi pada soal)"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q027",
+        "name": "q027.png",
+        "type": "image/png",
+        "path": "assets/questions/q027.png"
+      },
+      {
+        "id": "media-q027-a",
+        "name": "q027_a.png",
+        "type": "image/png",
+        "path": "assets/questions/q027_a.png"
+      },
+      {
+        "id": "media-q027-b",
+        "name": "q027_b.png",
+        "type": "image/png",
+        "path": "assets/questions/q027_b.png"
+      },
+      {
+        "id": "media-q027-c",
+        "name": "q027_c.png",
+        "type": "image/png",
+        "path": "assets/questions/q027_c.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 26,
+    "points": 3.75,
+    "promptTranslation": "Manakah bahan pangan yang termasuk dalam bahan baku spesifik (alergen wajib/tertentu)? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q028",
+    "questionNumber": 28,
+    "pdfPage": 27,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q028.png",
+    "questionText": "28. そばアレルギーを持つ人が避けるべき料理はどれですか。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "28. そばアレルギーを持つ人が避けるべき料理はどれですか。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 27): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (A).",
+    "imageMediaId": "media-q028",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600028,
+    "updatedAt": 1760961600028,
+    "options": [
+      {
+        "id": "A",
+        "text": "A",
+        "mediaId": "media-q028-a",
+        "optionImage": "assets/questions/q028_a.png",
+        "translation": "Pilihan gambar A (lihat ilustrasi pada soal)"
+      },
+      {
+        "id": "B",
+        "text": "B",
+        "mediaId": "media-q028-b",
+        "optionImage": "assets/questions/q028_b.png",
+        "translation": "Pilihan gambar B (lihat ilustrasi pada soal)"
+      },
+      {
+        "id": "C",
+        "text": "C",
+        "mediaId": "media-q028-c",
+        "optionImage": "assets/questions/q028_c.png",
+        "translation": "Pilihan gambar C (lihat ilustrasi pada soal)"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q028",
+        "name": "q028.png",
+        "type": "image/png",
+        "path": "assets/questions/q028.png"
+      },
+      {
+        "id": "media-q028-a",
+        "name": "q028_a.png",
+        "type": "image/png",
+        "path": "assets/questions/q028_a.png"
+      },
+      {
+        "id": "media-q028-b",
+        "name": "q028_b.png",
+        "type": "image/png",
+        "path": "assets/questions/q028_b.png"
+      },
+      {
+        "id": "media-q028-c",
+        "name": "q028_c.png",
+        "type": "image/png",
+        "path": "assets/questions/q028_c.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 27,
+    "points": 3.75,
+    "promptTranslation": "Manakah hidangan yang harus dihindari oleh orang yang memiliki alergi soba (buckwheat)?"
+  },
+  {
+    "id": "q029",
+    "questionNumber": 29,
+    "pdfPage": 28,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q029.png",
+    "questionText": "問 29. HACCP のよる衛生管理を実施するとき、どんな時に、どうのように記録するか。間違っているものを選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "問 29. HACCP のよる衛生管理を実施するとき、どんな時に、どうのように記録するか。間違っているものを選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 28): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (後でまとめて記録しなければなりません).",
+    "imageMediaId": "media-q029",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600029,
+    "updatedAt": 1760961600029,
+    "options": [
+      {
+        "id": "A",
+        "text": "温度や濃度や時間は、測ったとき、確認したときすぐに記録しなければなりません",
+        "mediaId": "",
+        "translation": "Suhu, konsentrasi, dan waktu harus segera dicatat pada saat diukur dan diperiksa"
+      },
+      {
+        "id": "B",
+        "text": "後でまとめて記録しなければなりません",
+        "mediaId": "",
+        "translation": "Harus dicatat sekaligus nanti (dikumpulkan di akhir)"
+      },
+      {
+        "id": "C",
+        "text": "事実でないことを記録することは、絶対にしてはいけません",
+        "mediaId": "",
+        "translation": "Sama sekali tidak boleh mencatat hal yang tidak sesuai dengan fakta"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q029",
+        "name": "q029.png",
+        "type": "image/png",
+        "path": "assets/questions/q029.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 28,
+    "points": 3.75,
+    "promptTranslation": "Soal 29. Saat melaksanakan manajemen higiene berdasarkan HACCP, kapan dan bagaimana cara mencatatnya? Pilihlah jawaban yang salah."
+  },
+  {
+    "id": "q030",
+    "questionNumber": 30,
+    "pdfPage": 29,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q030.png",
+    "questionText": "30. エアコンの清掃が不十分な時に、作業場の衛生管理でどのような問題がありますか。一番正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "30. エアコンの清掃が不十分な時に、作業場の衛生管理でどのような問題がありますか。一番正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 29): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (エアコンの中のカビやほこりが作業に広がる).",
+    "imageMediaId": "media-q030",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600030,
+    "updatedAt": 1760961600030,
+    "options": [
+      {
+        "id": "A",
+        "text": "エアコンの中のカビやほこりが作業に広がる",
+        "mediaId": "",
+        "translation": "Jamur dan debu di dalam AC menyebar ke area kerja"
+      },
+      {
+        "id": "B",
+        "text": "電気料金が高くなって、工場のコストが上がる",
+        "mediaId": "",
+        "translation": "Tagihan listrik menjadi mahal sehingga biaya pabrik meningkat"
+      },
+      {
+        "id": "C",
+        "text": "冷房する力が弱くなって、温度が下がりにくくなる",
+        "mediaId": "",
+        "translation": "Daya pendinginan melemah sehingga suhu sulit turun"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q030",
+        "name": "q030.png",
+        "type": "image/png",
+        "path": "assets/questions/q030.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 29,
+    "points": 3.75,
+    "promptTranslation": "Ketika pembersihan AC tidak memadai, masalah apa yang timbul dalam manajemen higiene tempat kerja? Pilihlah satu jawaban yang paling tepat."
+  },
+  {
+    "id": "q031",
+    "questionNumber": 31,
+    "pdfPage": 30,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q031.png",
+    "questionText": "31. 肉や硬い野菜（かぼちゃ）などを強い力で切りたいですが、どんな安全保護具を着用しますか。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "31. 肉や硬い野菜（かぼちゃ）などを強い力で切りたいですが、どんな安全保護具を着用しますか。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 30): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (くさり手袋).",
+    "imageMediaId": "media-q031",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600031,
+    "updatedAt": 1760961600031,
+    "options": [
+      {
+        "id": "A",
+        "text": "くさり手袋",
+        "mediaId": "",
+        "translation": "Sarung tangan rantai baja (chainmail glove)"
+      },
+      {
+        "id": "B",
+        "text": "ミトン手袋",
+        "mediaId": "",
+        "translation": "Sarung tangan miton (tahan panas)"
+      },
+      {
+        "id": "C",
+        "text": "メクセル手袋",
+        "mediaId": "",
+        "translation": "Sarung tangan Mexel"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q031",
+        "name": "q031.png",
+        "type": "image/png",
+        "path": "assets/questions/q031.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 30,
+    "points": 3.75,
+    "promptTranslation": "Saat ingin memotong daging atau sayuran keras (seperti labu) dengan tenaga yang kuat, alat pelindung diri (APD) apa yang dikenakan?"
+  },
+  {
+    "id": "q032",
+    "questionNumber": 32,
+    "pdfPage": 30,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q032.png",
+    "questionText": "32. 日本で表示しなければならないアレルギー食品はどれですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "32. 日本で表示しなければならないアレルギー食品はどれですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 30): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (かに、えび).",
+    "imageMediaId": "media-q032",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600032,
+    "updatedAt": 1760961600032,
+    "options": [
+      {
+        "id": "A",
+        "text": "かに、えび",
+        "mediaId": "",
+        "translation": "Kepiting, udang"
+      },
+      {
+        "id": "B",
+        "text": "ジャガイモ、もも",
+        "mediaId": "",
+        "translation": "Kentang, persik"
+      },
+      {
+        "id": "C",
+        "text": "オレンジ、バナナ",
+        "mediaId": "",
+        "translation": "Jeruk, pisang"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q032",
+        "name": "q032.png",
+        "type": "image/png",
+        "path": "assets/questions/q032.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 30,
+    "points": 3.75,
+    "promptTranslation": "Manakah pangan alergen yang wajib dicantumkan pada label di Jepang? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q033",
+    "questionNumber": 33,
+    "pdfPage": 31,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q033.png",
+    "questionText": "33. 加熱調理が終わった食品をすぐに冷やす目的はなぜですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "33. 加熱調理が終わった食品をすぐに冷やす目的はなぜですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 31): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (食品の中に生き残っている細菌が増やさないため。).",
+    "imageMediaId": "media-q033",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600033,
+    "updatedAt": 1760961600033,
+    "options": [
+      {
+        "id": "A",
+        "text": "食品の中に生き残っている細菌が増やさないため。",
+        "mediaId": "",
+        "translation": "Agar bakteri yang masih bertahan hidup di dalam produk pangan tidak berkembang biak."
+      },
+      {
+        "id": "B",
+        "text": "食品の風味がもっとおいしきくするため。",
+        "mediaId": "",
+        "translation": "Agar cita rasa produk pangan menjadi lebih lezat."
+      },
+      {
+        "id": "C",
+        "text": "細菌が食品につけないため。",
+        "mediaId": "",
+        "translation": "Agar bakteri tidak menempel pada produk pangan."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q033",
+        "name": "q033.png",
+        "type": "image/png",
+        "path": "assets/questions/q033.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 31,
+    "points": 3.75,
+    "promptTranslation": "Mengapa produk pangan yang telah selesai dimasak dengan pemanasan harus segera didinginkan? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q034",
+    "questionNumber": 34,
+    "pdfPage": 31,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q034.png",
+    "questionText": "34. 「切れ・こすれ」という災害はどんな時に起こるか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "34. 「切れ・こすれ」という災害はどんな時に起こるか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 31): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (包丁やカッターなどの着る機械を使っているとき、機械に原材料が詰まって手を入れた時など).",
+    "imageMediaId": "media-q034",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600034,
+    "updatedAt": 1760961600034,
+    "options": [
+      {
+        "id": "A",
+        "text": "包丁やカッターなどの着る機械を使っているとき、機械に原材料が詰まって手を入れた時など",
+        "mediaId": "",
+        "translation": "Saat menggunakan pisau dapur atau mesin pemotong seperti cutter, atau saat memasukkan tangan ketika bahan baku tersumbat di dalam mesin, dll."
+      },
+      {
+        "id": "B",
+        "text": "階段を下りているとき、はしごや脚立を使って高い所で作業しているときなど",
+        "mediaId": "",
+        "translation": "Saat menuruni tangga, atau saat bekerja di tempat tinggi menggunakan tangga atau pijakan, dll."
+      },
+      {
+        "id": "C",
+        "text": "オーブンなどの機械を使っているとき、熱い湯や食品を扱っているときなど",
+        "mediaId": "",
+        "translation": "Saat menggunakan mesin seperti oven, atau saat menangani air panas maupun produk pangan panas, dll."
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q034",
+        "name": "q034.png",
+        "type": "image/png",
+        "path": "assets/questions/q034.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 31,
+    "points": 3.75,
+    "promptTranslation": "Kapan kecelakaan \"terpotong atau tergores\" terjadi? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q035",
+    "questionNumber": 35,
+    "pdfPage": 32,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q035.png",
+    "questionText": "35. 特定原材料とは何ですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "A",
+    "correctIndex": 0,
+    "answerStatus": "correct",
+    "prompt": "35. 特定原材料とは何ですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 32): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (日本の法律で食品加工に表示する義務があるもの).",
+    "imageMediaId": "media-q035",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600035,
+    "updatedAt": 1760961600035,
+    "options": [
+      {
+        "id": "A",
+        "text": "日本の法律で食品加工に表示する義務があるもの",
+        "mediaId": "",
+        "translation": "Bahan yang wajib dicantumkan pada produk pangan olahan berdasarkan undang-undang di Jepang"
+      },
+      {
+        "id": "B",
+        "text": "日本の法律で食品加工に表示が推奨されているもの",
+        "mediaId": "",
+        "translation": "Bahan yang dianjurkan untuk dicantumkan pada produk pangan olahan berdasarkan undang-undang di Jepang"
+      },
+      {
+        "id": "C",
+        "text": "日本の法律で食品加工に表示してはいけないもの",
+        "mediaId": "",
+        "translation": "Bahan yang dilarang dicantumkan pada produk pangan olahan berdasarkan undang-undang di Jepang"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q035",
+        "name": "q035.png",
+        "type": "image/png",
+        "path": "assets/questions/q035.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 32,
+    "points": 3.75,
+    "promptTranslation": "Apa yang dimaksud dengan bahan baku spesifik (alergen wajib/tertentu)? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q036",
+    "questionNumber": 36,
+    "pdfPage": 33,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q036.png",
+    "questionText": "36. 以下の工程は区分衛生管理により、正しい順を並びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "36. 以下の工程は区分衛生管理により、正しい順を並びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 33): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (A:汚染作業区域→B:準清潔作業区域→C:清潔作業区域).",
+    "imageMediaId": "media-q036",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600036,
+    "updatedAt": 1760961600036,
+    "options": [
+      {
+        "id": "A",
+        "text": "A:清潔作業区域→B:準清潔作業区域→C:汚染作業区域",
+        "mediaId": "",
+        "translation": "A: Area kerja bersih → B: Area kerja semi-bersih → C: Area kerja terkontaminasi"
+      },
+      {
+        "id": "B",
+        "text": "A:準清潔作業区域→B:清潔作業区域→C:汚染作業区域",
+        "mediaId": "",
+        "translation": "A: Area kerja semi-bersih → B: Area kerja bersih → C: Area kerja terkontaminasi"
+      },
+      {
+        "id": "C",
+        "text": "A:汚染作業区域→B:準清潔作業区域→C:清潔作業区域",
+        "mediaId": "",
+        "translation": "A: Area kerja terkontaminasi → B: Area kerja semi-bersih → C: Area kerja bersih"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q036",
+        "name": "q036.png",
+        "type": "image/png",
+        "path": "assets/questions/q036.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 33,
+    "points": 3.75,
+    "promptTranslation": "Urutkan proses berikut dengan benar berdasarkan manajemen higiene pembagian zona."
+  },
+  {
+    "id": "q037",
+    "questionNumber": 37,
+    "pdfPage": 34,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q037.png",
+    "questionText": "37. HACCP の原則4とは何ですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "37. HACCP の原則4とは何ですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 34): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (重要管理点の管理の状態を監視する方法を決める).",
+    "imageMediaId": "media-q037",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600037,
+    "updatedAt": 1760961600037,
+    "options": [
+      {
+        "id": "A",
+        "text": "重要管理点の管理基準を決める",
+        "mediaId": "",
+        "translation": "Menentukan batas kritis (standar manajemen) untuk titik kendali kritis (CCP)"
+      },
+      {
+        "id": "B",
+        "text": "重要管理点が管理基準を逸脱していた場合、基準通りにするためにはどうしたらよいかを決める",
+        "mediaId": "",
+        "translation": "Menentukan apa yang harus dilakukan untuk mengembalikannya sesuai standar apabila titik kendali kritis (CCP) menyimpang dari batas kritis"
+      },
+      {
+        "id": "C",
+        "text": "重要管理点の管理の状態を監視する方法を決める",
+        "mediaId": "",
+        "translation": "Menentukan metode untuk memantau (monitoring) kondisi manajemen pada titik kendali kritis (CCP)"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q037",
+        "name": "q037.png",
+        "type": "image/png",
+        "path": "assets/questions/q037.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 34,
+    "points": 3.75,
+    "promptTranslation": "Apa yang dimaksud dengan Prinsip 4 HACCP? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q038",
+    "questionNumber": 38,
+    "pdfPage": 35,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q038.png",
+    "questionText": "38. 薬品を使用する際の注意事項はなんですか。正しいものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "B",
+    "correctIndex": 1,
+    "answerStatus": "incorrect",
+    "prompt": "38. 薬品を使用する際の注意事項はなんですか。正しいものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 35): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (安全のため、安全保護を着用する).",
+    "imageMediaId": "media-q038",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600038,
+    "updatedAt": 1760961600038,
+    "options": [
+      {
+        "id": "A",
+        "text": "アルコールを火元の近くに置く",
+        "mediaId": "",
+        "translation": "Meletakkan alkohol di dekat sumber api"
+      },
+      {
+        "id": "B",
+        "text": "安全のため、安全保護を着用する",
+        "mediaId": "",
+        "translation": "Mengenakan alat pelindung diri (APD) demi keselamatan"
+      },
+      {
+        "id": "C",
+        "text": "塩素系の洗剤と酸性洗剤を混ぜて使う",
+        "mediaId": "",
+        "translation": "Mencampur dan menggunakan deterjen berbasis klorin dengan deterjen asam"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q038",
+        "name": "q038.png",
+        "type": "image/png",
+        "path": "assets/questions/q038.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 35,
+    "points": 3.75,
+    "promptTranslation": "Apa hal yang harus diperhatikan saat menggunakan bahan kimia? Pilihlah satu jawaban yang benar."
+  },
+  {
+    "id": "q039",
+    "questionNumber": 39,
+    "pdfPage": 36,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q039.png",
+    "questionText": "39. 冷凍庫内で冷凍食品を運んでいるところ、床に霜がついていたため、足が滑って、転倒しそうになった。この場合では転倒の原因は何ですか。間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "39. 冷凍庫内で冷凍食品を運んでいるところ、床に霜がついていたため、足が滑って、転倒しそうになった。この場合では転倒の原因は何ですか。間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 36): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (冷凍庫内で作業するがすべるにくい靴を履かなかったこと).",
+    "imageMediaId": "media-q039",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600039,
+    "updatedAt": 1760961600039,
+    "options": [
+      {
+        "id": "A",
+        "text": "冷蔵庫の床に霜がついて、滑りやすくなっていたことに十分な注意を払わなかった",
+        "mediaId": "",
+        "translation": "Tidak memberikan perhatian yang cukup bahwa lantai kulkas/freezer tertutup bunga es dan menjadi licin"
+      },
+      {
+        "id": "B",
+        "text": "荷物をたくさん持ってバランスをよく保たなかったこと",
+        "mediaId": "",
+        "translation": "Membawa banyak barang sehingga tidak dapat menjaga keseimbangan dengan baik"
+      },
+      {
+        "id": "C",
+        "text": "冷凍庫内で作業するがすべるにくい靴を履かなかったこと",
+        "mediaId": "",
+        "translation": "Bekerja di dalam freezer tetapi tidak mengenakan sepatu yang tahan selip (tidak mudah licin)"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q039",
+        "name": "q039.png",
+        "type": "image/png",
+        "path": "assets/questions/q039.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 36,
+    "points": 3.75,
+    "promptTranslation": "Saat sedang mengangkut makanan beku di dalam freezer, kaki terpeleset dan hampir terjatuh karena terdapat bunga es di lantai. Dalam kasus ini, apa penyebab terjatuhnya pekerja tersebut? Pilihlah satu jawaban yang salah (atau sesuai konteks soal)."
+  },
+  {
+    "id": "q040",
+    "questionNumber": 40,
+    "pdfPage": 37,
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "setName": "Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1",
+    "questionImage": "assets/questions/q040.png",
+    "questionText": "40. 食肉加工品において、豚肉の 塊 を切断する作業中、安全カーバのないスライサーの回転刃に右手が当たりそうになった。右手に切らないようにどうしたらよいか。間違っているものを一つ選びなさい。",
+    "questionTextStatus": "verified",
+    "selectedAnswer": "A",
+    "selectedIndex": 0,
+    "correctAnswer": "C",
+    "correctIndex": 2,
+    "answerStatus": "incorrect",
+    "prompt": "40. 食肉加工品において、豚肉の 塊 を切断する作業中、安全カーバのないスライサーの回転刃に右手が当たりそうになった。右手に切らないようにどうしたらよいか。間違っているものを一つ選びなさい。",
+    "instructions": "正しいもの（または間違っているもの）を一つ選びなさい。",
+    "explanation": "Bukti PDF (Halaman 37): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (直接手で作業する場合、二人で協力して作業する).",
+    "imageMediaId": "media-q040",
+    "imageSize": "large",
+    "imageRatio": "auto",
+    "imagePosition": "center",
+    "active": true,
+    "createdAt": 1760961600040,
+    "updatedAt": 1760961600040,
+    "options": [
+      {
+        "id": "A",
+        "text": "スライスする食材を支えるときは専門用具を使う",
+        "mediaId": "",
+        "translation": "Menggunakan alat khusus saat menahan bahan makanan yang akan diiris"
+      },
+      {
+        "id": "B",
+        "text": "スライサーの回転している刃の使用しない部分にはカバーをつける",
+        "mediaId": "",
+        "translation": "Memasang penutup (cover) pada bagian pisau berputar mesin pengiris yang tidak digunakan"
+      },
+      {
+        "id": "C",
+        "text": "直接手で作業する場合、二人で協力して作業する",
+        "mediaId": "",
+        "translation": "Jika bekerja langsung menggunakan tangan, bekerja sama berdua dalam melakukannya"
+      }
+    ],
+    "media": [
+      {
+        "id": "media-q040",
+        "name": "q040.png",
+        "type": "image/png",
+        "path": "assets/questions/q040.png"
+      }
+    ],
+    "sourcePdf": "SSW NGUYEN 1.pdf",
+    "sourcePage": 37,
+    "points": 3.75,
+    "promptTranslation": "Pada pengolahan produk daging, saat memotong bongkahan daging babi, tangan kanan hampir mengenai pisau berputar pada mesin pengiris (slicer) yang tidak memiliki penutup pengaman. Apa yang sebaiknya dilakukan agar tangan kanan tidak terpotong? Pilihlah satu jawaban yang salah."
+  }
+];

@@ -1,0 +1,87 @@
+# AUDIT SHEET: ssw-pm-lab-alergen (アレルゲン・特定原材料 (Allergen Lab)) | Batch qa-batch-06 | Part 1 (Q1-4 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=lab-alg-001 | KEY=B (idx=1) | CAT= | SRC=latihan_alergen_jepang_v2.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>日本<rt>にほん</rt></ruby>の<ruby>食品表示法<rt>しょくひんひょうじほう</rt></ruby>において、<ruby>容器包装<rt>ようきほうそう</rt></ruby>された<ruby>加工食品<rt>かこうしょくひん</rt></ruby>に<ruby>表示<rt>ひょうじ</rt></ruby>が<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>義務付<rt>ぎむづ</rt></ruby>けられている「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>」の<ruby>品目数<rt>ひんもくすう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam Undang-Undang Pelabelan Pangan Jepang, pilihlah jumlah bahan yang benar untuk 'Bahan Baku Tertentu (Tokutei Genzairyou)' yang wajib dicantumkan menurut hukum pada pangan olahan dalam kemasan.
+  EXPLANATION: 【正解：B (8品目)】
+食品表示法で表示が義務付けられている「特定原材料」は、えび、かに、くるみ、小麦、そば、卵、乳、落花生（ピーナッツ）の計8品目です（※2023年に「くるみ」が義務品目に追加されました）。表示が推奨される「特定原材料に準ずるもの」は20品目あります。
+  KOTOBA_PROMPT: [kb-1582710] 日本(にほん) [word] = Jepang | [kb-ext-0947-e9a39fe593] 食品表示法(しょくひんひょうじほう) [word] = UU Pelabelan Pangan Jepang | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-ext-1731-e5aeb9e599] 容器包装(ようきほうそう) [compound_technical] = wadah dan kemasan | [kb-v2-p1-144] された(-) [inflected_verb, df:する] = yang dilakukan (dasar: する) | [kb-otaff51-0189] 加工食品(かこうしょくひん) [compound_technical] = makanan olahan | [kb-otaff51-0544] 表示(ひょうじ) [noun] = pencantuman label / tampilan | [kb-otaff51-0380] 法律(ほうりつ) [noun] = undang-undang / hukum | [kb-audit-0314] 義務付けられている(ぎむづけられている) [inflected_verb, df:義務付ける] = diwajibkan oleh peraturan | [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-ext-1529-e59381e79b] 品目数(ひんもくすう) [word] = jumlah item / jenis | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=20<ruby>品目<rt>ひんもく</rt></ruby>
+    TRANS: 20 bahan
+    KOTOBA: [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan
+  OPT B: HTML=8<ruby>品目<rt>ひんもく</rt></ruby>
+    TRANS: 8 bahan
+    KOTOBA: [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan
+  OPT C: HTML=5<ruby>品目<rt>ひんもく</rt></ruby>
+    TRANS: 5 bahan
+    KOTOBA: [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan
+  OPT D: HTML=28<ruby>品目<rt>ひんもく</rt></ruby>
+    TRANS: 28 bahan
+    KOTOBA: [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan
+
+=== #Q2 | ID=lab-alg-002 | KEY=A (idx=0) | CAT= | SRC=latihan_alergen_jepang_v2.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ナッツ<ruby>類<rt>るい</rt></ruby>のうち、<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>表示<rt>ひょうじ</rt></ruby>が「<ruby>義務<rt>ぎむ</rt></ruby>」<ruby>付<rt>つ</rt></ruby>けられている「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>」として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara kelompok kacang-kacangan/kacang pohon, pilihlah satu yang benar sebagai 'Bahan Baku Tertentu (wajib dicantumkan)' menurut hukum.
+  EXPLANATION: 【正解：A (くるみ)】
+ナッツ類の中で法律上の表示義務がある「特定原材料」は「落花生（ピーナッツ）」と「くるみ」です。アーモンド、カシューナッツ、マカダミアナッツなどは表示が推奨される「特定原材料に準ずるもの」に区分されています。
+  KOTOBA_PROMPT: [kb-v2-p3-083] ナッツ類(なっつるい) [word] = kelompok kacang-kacangan | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-otaff51-0380] 法律(ほうりつ) [noun] = undang-undang / hukum | [kb-otaff51-0544] 表示(ひょうじ) [noun] = pencantuman label / tampilan | [kb-otaff51-0505] 義務(ぎむ) [noun] = kewajiban | [kb-v2-p3-346] 付けられている(づけられている) [inflected, df:付ける] = ditetapkan / diwajibkan | [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=くるみ（walnut）
+    TRANS: Kenari (walnut)
+    KOTOBA: [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut) | [kb-v2-p3-084] walnut(-) [word] = kacang kenari (walnut)
+  OPT B: HTML=アーモンド
+    TRANS: Almond
+    KOTOBA: [kb-v2-p3-080] アーモンド(-) [word] = kacang almon
+  OPT C: HTML=カシューナッツ
+    TRANS: Kacang mete (cashew)
+    KOTOBA: [kb-otaff51-0043] カシューナッツ(かしゅーなっつ) [noun] = kacang mete (cashew nut)
+  OPT D: HTML=マカダミアナッツ
+    TRANS: Kacang macadamia
+    KOTOBA: [kb-v2-p3-082] マカダミアナッツ(-) [word] = kacang makadamia
+
+=== #Q3 | ID=lab-alg-003 | KEY=D (idx=3) | CAT= | SRC=latihan_alergen_jepang_v2.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>法律上<rt>ほうりつじょう</rt></ruby>の<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>がある「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>8<ruby>品目<rt>ひんもく</rt></ruby>」のみで<ruby>構成<rt>こうせい</rt></ruby>されている<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu kombinasi yang seluruhnya terdiri dari '8 Bahan Baku Tertentu yang Wajib Dicantumkan'.
+  EXPLANATION: 【正解：D】
+特定原材料（義務8品目）は「えび・かに・くるみ・小麦・そば・卵・乳・落花生（ピーナッツ）」です。大豆、牛肉、豚肉、鶏肉、ごまなどは「特定原材料に準ずるもの（推奨）」です。
+  KOTOBA_PROMPT: [kb-1517490] 法律上(ほうりつじょう) [word] = secara hukum | [kb-otaff51-0546] 表示義務(ひょうじぎむ) [compound_technical] = kewajiban pencantuman label | [kb-v2-p1-242] ある(-) [word] = ada | [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-v2-p3-177] のみ(-) [particle] = hanya / saja | [kb-1279730] 構成(こうせい) [word] = komposisi / susunan | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>小麦<rt>こむぎ</rt></ruby>、<ruby>大豆<rt>だいず</rt></ruby>、<ruby>卵<rt>たまご</rt></ruby>、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、<ruby>豚肉<rt>ぶたにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、さけ
+    TRANS: Gandum, kedelai, telur, susu, sapi, babi, ayam, salmon
+    KOTOBA: [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-otaff51-0257] 大豆(だいず) [noun] = kacang kedelai | [kb-otaff51-0216] 卵(たまご) [noun] = telur | [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-otaff51-0429] 牛肉(ぎゅうにく) [noun] = daging sapi | [kb-otaff51-0578] 豚肉(ぶたにく) [noun] = daging babi | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam | [kb-v2-p3-073] さけ(-) [word] = ikan salmon
+  OPT B: HTML=そば、<ruby>落花生<rt>らっかせい</rt></ruby>、アーモンド、ごま、カシューナッツ、ゼラチン、いか、りんご
+    TRANS: Soba, kacang tanah, almond, wijen, mete, gelatin, cumi, apel
+    KOTOBA: [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut) | [kb-v2-p3-080] アーモンド(-) [word] = kacang almon | [kb-v2-p3-078] ごま(-) [word] = wijen | [kb-otaff51-0043] カシューナッツ(かしゅーなっつ) [noun] = kacang mete (cashew nut) | [kb-v2-p3-098] ゼラチン(-) [word] = gelatin | [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下) | [kb-otaff51-0030] りんご(りんご) [noun] = apel
+  OPT C: HTML=えび、かに、<ruby>大豆<rt>だいず</rt></ruby>、オレンジ、キウイフルーツ、バナナ、もも、やまいも
+    TRANS: Udang, kepiting, kedelai, jeruk, kiwi, pisang, persik, ubi jepang
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0257] 大豆(だいず) [noun] = kacang kedelai | [kb-v2-p2-057] オレンジ(-) [word] = jeruk | [kb-v2-p3-099] キウイフルーツ(-) [word] = buah kiwi | [kb-v2-p3-100] バナナ(-) [word] = pisang | [kb-latsol-abbbebe758] もも(もも) [word] = buah persik (peach) | [kb-v2-p3-101] やまいも(-) [word] = ubi gunung (yam)
+  OPT D: HTML=<ruby>小麦<rt>こむぎ</rt></ruby>、そば、<ruby>卵<rt>たまご</rt></ruby>、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>、えび、かに、くるみ
+    TRANS: Gandum, soba, telur, susu, kacang tanah, udang, kepiting, kenari
+    KOTOBA: [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-otaff51-0216] 卵(たまご) [noun] = telur | [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut) | [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)
+
+=== #Q4 | ID=lab-alg-004 | KEY=C (idx=2) | CAT= | SRC=latihan_alergen_jepang_v2.html p.1 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 落花生
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つである「<ruby>落花生<rt>らっかせい</rt></ruby>」の<ruby>読<rt>よ</rt></ruby>み<ruby>方<rt>かた</rt></ruby>および<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>別名<rt>べつめい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah cara baca dan nama umum yang benar untuk '落花生', salah satu bahan baku wajib.
+  EXPLANATION: 【正解：C (らっかせい／ピーナッツ)】
+「落花生」は「らっかせい」と読み、ピーナッツのことです。特定原材料（表示義務）の一つであり、微量混入でも激しいアレルギー症状（アナフィラキシー）を起こす危険があります。
+  KOTOBA_PROMPT: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p2-268] である(-) [expression] = adalah (formal) | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut) | [kb-v2-p3-126] 読み方(よみかた) [word] = cara membaca | [kb-v2-p3-128] および(-) [particle] = serta / dan | [kb-1165880] 一般的(いっぱんてき) [word] = umum / lazim | [kb-1583930] 別名(べつめい) [word] = nama lain / alias | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=だいず（ソイビーン）
+    TRANS: Daizu (soybean / kedelai)
+    KOTOBA: [kb-v2-p3-085] だいず(-) [word] = kacang kedelai | [kb-v2-p3-086] ソイビーン(-) [word] = kacang kedelai (soybean)
+  OPT B: HTML=こむぎ（ウィート）
+    TRANS: Komugi (wheat / gandum)
+    KOTOBA: [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-v2-p3-087] ウィート(-) [word] = gandum (wheat)
+  OPT C: HTML=らっかせい（ピーナッツ）
+    TRANS: Rakkasei (peanut / kacang tanah)
+    KOTOBA: [kb-v2-p3-088] らっかせい(-) [word] = kacang tanah | [kb-ext-0026-e38394e383] ピーナッツ(ぴなっつ) [word] = kacang tanah
+  OPT D: HTML=ごま（セサミ）
+    TRANS: Goma (sesame / wijen)
+    KOTOBA: [kb-v2-p3-078] ごま(-) [word] = wijen | [kb-v2-p3-079] セサミ(-) [word] = wijen (sesame)

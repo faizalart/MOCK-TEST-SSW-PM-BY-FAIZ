@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-nguyen-07 (Latsol Nguyen 07) | Batch qa-batch-08 | Part 2 (Q5-8 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=nguyen07-q005 | KEY=B (idx=1) | CAT= | SRC=7.pdf p.2 ===
+  CLUSTER CL-0146 (n=11, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-13-q016 (ssw-pm-kunci-ujian-13), bonus-soal-1-q005 (bonus-soal-1), bonus-soal-4-q009 (bonus-soal-4), bonus-soal-5-q016 (bonus-soal-5), bonus-soal-7-q005 (bonus-soal-7), bonus-soal-7-q009 (bonus-soal-7), nguyen01-q005 (latsol-nguyen-01), nguyen04-q009 (latsol-nguyen-04), nguyen05-q016 (latsol-nguyen-05), nguyen07-q009 (latsol-nguyen-07)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("原材料、食品の衛生管理。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>は3つ<ruby>分<rt>わ</rt></ruby>けます。<ruby>施設<rt>しせつ</rt></ruby>、<ruby>設備<rt>せつび</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>と<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>ともう<ruby>一<rt>ひと</rt></ruby>つのは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manajemen kebersihan umum (ippan eisei kanri) dibagi menjadi 3. Selain manajemen kebersihan fasilitas, peralatan, dan perkakas serta manajemen kebersihan pekerja, apakah satu hal lainnya? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 7.pdf, halaman 2, nomor 5. Bobot: 3.85 poin. Kunci jawaban: B. Nomor asli PDF: Câu 5 (Halaman 2).
+  KOTOBA_PROMPT: [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-audit-0164] 分けます(わけます) [inflected_verb, df:分ける] = membagi / memisahkan | [kb-otaff51-0335] 施設(しせつ) [noun] = fasilitas bangunan | [kb-otaff51-0570] 設備(せつび) [noun] = fasilitas / instalasi peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>。
+    TRANS: Manajemen kesehatan pekerja.
+    KOTOBA: [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>、<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>。
+    TRANS: Manajemen kebersihan bahan baku dan produk pangan.
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene
+  OPT C: HTML=<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>。
+    TRANS: Manajemen keselamatan kerja.
+    KOTOBA: [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen
+
+=== #Q6 | ID=nguyen07-q006 | KEY=A (idx=0) | CAT= | SRC=7.pdf p.2 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-v2-p5-178 (清作): "pembersihan (typo: 清掃)"
+  CLUSTER CL-0005 (n=10, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q006 (ssw-pm-kunci-ujian-1), kunci-ujian-5-q011 (ssw-pm-kunci-ujian-5), kunci-ujian-13-q011 (ssw-pm-kunci-ujian-13), bonus-soal-1-q006 (bonus-soal-1), bonus-soal-5-q011 (bonus-soal-5), bonus-soal-7-q006 (bonus-soal-7), bonus-soal-10-q020 (bonus-soal-10), nguyen01-q006 (latsol-nguyen-01), nguyen05-q011 (latsol-nguyen-05)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("清掃") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「5S<ruby>活動<rt>かつどう</rt></ruby>」とは、<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>のための5つの<ruby>主要<rt>しゅよう</rt></ruby>な<ruby>活動<rt>かつどう</rt></ruby>のことです。「<ruby>整理<rt>せいり</rt></ruby>」「<ruby>整頓<rt>せいとん</rt></ruby>」「<ruby>清潔<rt>せいけつ</rt></ruby>」「<ruby>習慣<rt>しゅうかん</rt></ruby>」の<ruby>他<rt>ほか</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: "Kegiatan 5S" adalah 5 kegiatan utama untuk manajemen kebersihan umum. Selain Seiri (Ringkas), Seiton (Rapi), Seiketsu (Rawat), dan Shuukan (Rajin/Kebiasaan), apakah satu kegiatan lainnya? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 7.pdf, halaman 2, nomor 6. Bobot: 3.85 poin. Kunci jawaban: A. Nomor asli PDF: Câu 6 (Halaman 2).
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1326320] 主要(しゅよう) [word] = utama | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-otaff51-0332] 整頓(せいとん) [noun] = Seiton (Rapi: penataan alat mudah diambil) | [kb-otaff51-0402] 清潔(せいけつ) [adjective] = bersih dan higienis (seiketsu) | [kb-1333090] 習慣(しゅうかん) [word] = Shitsuke (kebiasaan) | [kb-audit-0035] 他の(ほかの) [word] = yang lain / lainnya | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>清掃<rt>せいそう</rt></ruby>
+    TRANS: Seisou (Resik / Pembersihan)
+    KOTOBA: [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja)
+  OPT B: HTML=<ruby>集中<rt>しゅうちゅう</rt></ruby>
+    TRANS: Konsentrasi
+    KOTOBA: [kb-1333750] 集中(しゅうちゅう) [word] = konsentrasi
+  OPT C: HTML=<ruby>清作<rt>せいさく</rt></ruby>
+    TRANS: Seisaku
+    KOTOBA: [kb-v2-p5-178] 清作(せいさく) [word] = pembersihan (typo: 清掃)
+
+=== #Q7 | ID=nguyen07-q007 | KEY=C (idx=2) | CAT= | SRC=7.pdf p.3 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 整理
+  CLUSTER CL-0094 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q007 (ssw-pm-kunci-ujian-4), bonus-soal-4-q007 (bonus-soal-4), bonus-soal-7-q007 (bonus-soal-7), nguyen04-q007 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("必要なものは保管し、不要なものは捨てる") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5S<ruby>活動<rt>かつどう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>の「<ruby>整理<rt>せいり</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu arti yang benar dari "Seiri (整理 / Ringkas)" dalam kegiatan 5S.
+  EXPLANATION: Sumber: 7.pdf, halaman 3, nomor 7. Bobot: 3.85 poin. Kunci jawaban: C. Nomor asli PDF: Câu 7 (Halaman 3).
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>必要<rt>ひつよう</rt></ruby>なものがすぐに<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>せるように<ruby>置<rt>お</rt></ruby>き<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めておく
+    TRANS: Menentukan tempat penyimpanan agar barang yang diperlukan dapat segera diambil
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p3-315] 取り出せる(とりだせる) [inflected, df:取り出す] = dapat mengambil keluar | [kb-v2-p1-023] 置き場所(おきばしょ) [word] = tempat penyimpanan | [kb-v2-p1-177] 決めて(きめて) [inflected_verb, df:決める] = menetapkan (dasar: 決める)
+  OPT B: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>とその<ruby>周辺<rt>しゅうへん</rt></ruby>をいつもきれいに<ruby>掃除<rt>そうじ</rt></ruby>する
+    TRANS: Selalu membersihkan tempat kerja dan area sekitarnya dengan bersih
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1331300] 周辺(しゅうへん) [word] = Area sekitar mesin produksi | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan
+  OPT C: HTML=<ruby>必要<rt>ひつよう</rt></ruby>なものは<ruby>保管<rt>ほかん</rt></ruby>し、<ruby>不要<rt>ふよう</rt></ruby>なものは<ruby>捨<rt>す</rt></ruby>てる
+    TRANS: Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p2-030] 保管し(ほかんし) [inflected, df:保管する] = menyimpan | [kb-latsol-90a80dc9bf] 不要な(ふような) [word] = tidak diperlukan | [kb-v2-p1-174] 捨てる(すてる) [word] = membuang
+
+=== #Q8 | ID=nguyen07-q008 | KEY=A (idx=0) | CAT= | SRC=7.pdf p.3 ===
+  CLUSTER CL-0193 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q008 (bonus-soal-4), bonus-soal-7-q008 (bonus-soal-7), nguyen04-q008 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("つけない・増やさない・殺す（やっつける）") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒防止<rt>しょくちゅうどくぼうし</rt></ruby>の3<ruby>原則<rt>げんそく</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah yang benar mengenai 3 prinsip pencegahan keracunan makanan.
+  EXPLANATION: Sumber: 7.pdf, halaman 3, nomor 8. Bobot: 3.85 poin. Kunci jawaban: A. Nomor asli PDF: Câu 8 (Halaman 3).
+  KOTOBA_PROMPT: [kb-ext-0924-e9a39fe4b8] 食中毒防止(しょくちゅうどくぼうし) [word] = pencegahan keracunan makanan | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=つけない・<ruby>増<rt>ふ</rt></ruby>やさない・<ruby>殺<rt>ころ</rt></ruby>す（やっつける）
+    TRANS: Tidak mencemari, tidak membiakkan, membunuh (membasmi)
+    KOTOBA: [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai | [kb-v2-p4-164] 増やさない(ふやさない) [inflected, df:増やす] = tidak memperbanyak | [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri) | [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba)
+  OPT B: HTML=<ruby>温度<rt>おんど</rt></ruby>・<ruby>水分<rt>すいぶん</rt></ruby>・<ruby>栄養分<rt>えいようぶん</rt></ruby>
+    TRANS: Suhu, kadar air, nutrisi
+    KOTOBA: [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-1624300] 栄養分(えいようぶん) [word] = kandungan zat gizi
+  OPT C: HTML=<ruby>冷蔵<rt>れいぞう</rt></ruby>・<ruby>冷却<rt>れいきゃく</rt></ruby>・<ruby>冷凍<rt>れいとう</rt></ruby>
+    TRANS: Penyimpanan dingin, pendinginan, pembekuan
+    KOTOBA: [kb-otaff51-0167] 冷蔵(れいぞう) [noun] = pendinginan (chilling) | [kb-otaff51-0162] 冷却(れいきゃく) [noun] = pendinginan setelah pemanasan | [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing)

@@ -1,0 +1,79 @@
+# AUDIT SHEET: bonus-soal-1 (Bonus Soal 1) | Batch qa-batch-04 | Part 10 (Q37-40 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=bonus-soal-1-q037 | KEY=C (idx=2) | CAT= | SRC=Bonus soal 1.pdf p.7 ===
+  CLUSTER CL-0176 (n=6, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-7-q038 (bonus-soal-7), bonus-soal-8-q036 (bonus-soal-8), nguyen01-q037 (latsol-nguyen-01), nguyen07-q038 (latsol-nguyen-07), nguyen08-q036 (latsol-nguyen-08)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>包装<rt>ほうそう</rt></ruby>ラインの<ruby>機械<rt>きかい</rt></ruby>が、<ruby>製品<rt>せいひん</rt></ruby>がつまって<ruby>止<rt>と</rt></ruby>まったので、<ruby>停止<rt>ていし</rt></ruby>ボタンを<ruby>押<rt>お</rt></ruby>さないでカバーを<ruby>開<rt>あ</rt></ruby>けて、つまった<ruby>製品<rt>せいひん</rt></ruby>を<ruby>取<rt>と</rt></ruby>り<ruby>除<rt>のぞ</rt></ruby>こうとしたら、<ruby>突然機械<rt>とつぜんきかい</rt></ruby>が<ruby>動<rt>うご</rt></ruby>き<ruby>出<rt>だ</rt></ruby>して、<ruby>手<rt>て</rt></ruby>がはさまれそうになった。この<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、どうしたらいいですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Karena mesin pada lini pengemasan berhenti akibat produk tersumbat, pekerja membuka penutup (cover) tanpa menekan tombol berhenti dan hendak mengambil produk yang tersumbat, lalu tiba-tiba mesin bergerak kembali sehingga tangan hampir terjepit. Apa yang sebaiknya dilakukan untuk mencegah kecelakaan ini? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Bonus soal 1.pdf (Halaman 7, Soal 37) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-otaff51-0203] 包装ライン(ほうそうらいん) [compound_technical] = lini pengemasan | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p5-263] つまって(-) [inflected, df:つまる] = tersumbat / macet | [kb-v2-p5-265] 止まった(とまった) [inflected, df:止まる] = berhenti (lampau) | [kb-v2-p1-330] ので(-) [particle] = karena | [kb-latsol-7f40a1060d] 停止ボタン(ていしぼたん) [word] = tombol berhenti (stop button) | [kb-v2-p5-241] 押さないで(おさないで) [inflected, df:押す] = tanpa menekan | [kb-ext-0009-e382abe383] カバー(-) [word] = penutup | [kb-v2-p5-269] 開けて(あけて) [inflected, df:開ける] = membuka | [kb-otaff51-0799] つまった(つまった) [inflected_verb, df:つまる] = tersumbat / macet | [kb-v2-p5-267] 取り除こう(とりのぞこう) [inflected, df:取り除く] = hendak menyingkirkan | [kb-audit-0401] としたら(としたら) [word] = ketika / apabila hendak melakukan | [kb-ext-1380-e7aa81e784] 突然機械(とつぜんきかい) [word] = mesin bergerak tiba-tiba | [kb-v2-p5-251] 動き出して(うごきだして) [inflected, df:動き出す] = mulai bergerak tiba-tiba | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-audit-0294] はさまれそうに(はさまれそうに) [word] = hampir terjepit (挟まれそうに) | [kb-v2-p1-240] なった(-) [inflected_verb, df:なる] = menjadi (dasar: なる) | [kb-v2-p1-267] この(-) [word] = ini | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=カバーを<ruby>開<rt>あ</rt></ruby>けると<ruby>機械<rt>きかい</rt></ruby>が<ruby>自動的<rt>じどうてき</rt></ruby>に<ruby>止<rt>と</rt></ruby>まる<ruby>安全装置<rt>あんぜんそうち</rt></ruby>をつける。
+    TRANS: Memasang perangkat keselamatan yang menghentikan mesin secara otomatis ketika penutup dibuka.
+    KOTOBA: [kb-ext-0009-e382abe383] カバー(-) [word] = penutup | [kb-v2-p5-354] 開ける(あける) [word] = membuka | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-1318470] 自動的(じどうてき) [word] = secara otomatis | [kb-v2-p5-264] 止まる(とまる) [word] = berhenti | [kb-otaff51-0268] 安全装置(あんぜんそうち) [compound_technical] = perangkat pengaman mesin | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>作業<rt>さぎょう</rt></ruby>をする<ruby>前<rt>まえ</rt></ruby>に<ruby>停止<rt>ていし</rt></ruby>ボタンを<ruby>押<rt>お</rt></ruby>して、<ruby>止<rt>と</rt></ruby>まるのを<ruby>確認<rt>かくにん</rt></ruby>してから<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>める。
+    TRANS: Menekan tombol berhenti sebelum melakukan pekerjaan, dan memulai pekerjaan setelah memastikan mesin telah berhenti.
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-latsol-7f40a1060d] 停止ボタン(ていしぼたん) [word] = tombol berhenti (stop button) | [kb-v2-p5-355] 押して(おして) [inflected, df:押す] = menekan | [kb-v2-p5-264] 止まる(とまる) [word] = berhenti | [kb-audit-0930] 確認して(かくにんして) [inflected_verb, df:確認する] = memeriksa lalu (~て) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p5-246] 始める(はじめる) [word] = memulai | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>停止<rt>ていし</rt></ruby>ボタンを<ruby>押<rt>お</rt></ruby>さないで、<ruby>製品<rt>せいひん</rt></ruby>を<ruby>取<rt>と</rt></ruby>る。
+    TRANS: Mengambil produk tanpa menekan tombol berhenti.
+    KOTOBA: [kb-latsol-7f40a1060d] 停止ボタン(ていしぼたん) [word] = tombol berhenti (stop button) | [kb-v2-p5-241] 押さないで(おさないで) [inflected, df:押す] = tanpa menekan | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p1-233] 取る(とる) [word] = menghilangkan / mengambil | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q38 | ID=bonus-soal-1-q038 | KEY=A (idx=0) | CAT= | SRC=Bonus soal 1.pdf p.7 ===
+  FLAGS: [OPT_PROHIBITION_MISMATCH@optTranslation:A] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh || [OPT_PROHIBITION_MISMATCH@optTranslation:B] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh
+  CLUSTER CL-0177 (n=8, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-4-q037 (bonus-soal-4), bonus-soal-7-q039 (bonus-soal-7), bonus-soal-8-q037 (bonus-soal-8), nguyen01-q038 (latsol-nguyen-01), nguyen04-q037 (latsol-nguyen-04), nguyen07-q039 (latsol-nguyen-07), nguyen08-q037 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>下記<rt>かき</rt></ruby>の<ruby>標識<rt>ひょうしき</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, apa arti rambu di bawah ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus soal 1.pdf (Halaman 7, Soal 38) · Kunci Jawaban Checklist Hijau (✓): A.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-1184690] 下記(かき) [word] = berikut ini | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-audit-0404] どういう(どういう) [word] = bagaimana / seperti apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>入<rt>はい</rt></ruby>ることを<ruby>禁止<rt>きんし</rt></ruby>する。
+    TRANS: Melarang masuk.
+    KOTOBA: [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>走<rt>はし</rt></ruby>ることを<ruby>禁止<rt>きんし</rt></ruby>する。
+    TRANS: Melarang berlari.
+    KOTOBA: [kb-v2-p5-271] 走る(はしる) [word] = berlari | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>切断<rt>せつだん</rt></ruby>する<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memperingatkan bahaya terpotong.
+    KOTOBA: [kb-1385120] 切断(せつだん) [word] = pemotongan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q39 | ID=bonus-soal-1-q039 | KEY=C (idx=2) | CAT= | SRC=Bonus soal 1.pdf p.8 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 点検中, スイッチを入れるな || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: はさまれ注意
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>手<rt>て</rt></ruby>で<ruby>触<rt>ふ</rt></ruby>れることを<ruby>禁止<rt>きんし</rt></ruby>する<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang melarang menyentuh dengan tangan? Pilihlah satu jawaban yang salah (atau sesuai gambar).
+  EXPLANATION: Sumber: Bonus soal 1.pdf (Halaman 8, Soal 39) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p3-266] 触れる(ふれる) [word] = bersentuhan dengan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=A
+    TRANS: Pilihan A — Simbol larangan menyentuh (telapak tangan dalam lingkaran merah dicoret)
+    MEDIA: media-bonus-soal-1-q039-a
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan B — Rambu larangan menyalakan sakelar saat pemeriksaan (点検中 スイッチを入れるな / DURING INSPECTION: DO NOT TURN SWITCH ON)
+    MEDIA: media-bonus-soal-1-q039-b
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan C — Rambu peringatan bahaya tangan terjepit (はさまれ注意)
+    MEDIA: media-bonus-soal-1-q039-c
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C
+
+=== #Q40 | ID=bonus-soal-1-q040 | KEY=A (idx=0) | CAT= | SRC=Bonus soal 1.pdf p.8 ===
+  FLAGS: [OPT_PROHIBITION_MISMATCH@optTranslation:C] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh
+  CLUSTER CL-0155 (n=3, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q038 (ssw-pm-kunci-ujian-13), nguyen01-q040 (latsol-nguyen-01)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>下記<rt>かき</rt></ruby>の<ruby>標識<rt>ひょうしき</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, apa arti rambu di bawah ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus soal 1.pdf (Halaman 8, Soal 40) · Kunci Jawaban Checklist Hijau (✓): A.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-1184690] 下記(かき) [word] = berikut ini | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-audit-0404] どういう(どういう) [word] = bagaimana / seperti apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>転落<rt>てんらく</rt></ruby>する<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memperingatkan bahaya jatuh dari ketinggian.
+    KOTOBA: [kb-otaff51-0589] 転落(てんらく) [noun] = terguling jatuh dari tangga/ketinggian | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>転<rt>はこ</rt></ruby>ぶ<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる。
+    TRANS: Memperingatkan bahaya terjatuh / tersandung.
+    KOTOBA: [kb-v2-p5-289] 転ぶ(ころぶ) [word] = terjatuh / terpeleset | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>扉<rt>とびら</rt></ruby>をあけっ<ruby>放<rt>ぱな</rt></ruby>しにすることを<ruby>禁止<rt>きんし</rt></ruby>する。
+    TRANS: Melarang membiarkan pintu terbuka terus.
+    KOTOBA: [kb-otaff51-0308] 扉(とびら) [noun] = pintu | [kb-v2-p5-268] あけっ放し(あけっぱなし) [word] = dibiarkan terbuka | [kb-audit-0216] することを(することを) [word] = melakukan hal tersebut | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

@@ -1,0 +1,72 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-10 (Soal Ujian 10 — CBTP Gino1) | Batch qa-batch-02 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=kunci-ujian-10-q017 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうをするときにマフラーをまいていてもいいでしょうか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah boleh mengenakan syal (muffler) di leher saat bekerja? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 4, Câu 17 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0220] さぎょう(さぎょう) [word] = pekerjaan / pengerjaan (作業) | [kb-v2-p1-302] するときに(-) [expression] = ketika melakukan | [kb-v2-p6-198] マフラー(-) [word] = syal / selendang leher | [kb-audit-1093] まいていて(まいていて) [inflected_verb, df:巻く] = sedang melilitkan (巻く) | [kb-v2-p1-249] いい(-) [word] = baik | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p5-220] でしょう(-) [particle] = kira-kira / bukan? | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=こじんのじゆうなのでかまわない。
+    TRANS: Tidak masalah karena merupakan kebebasan pribadi.
+    KOTOBA: [kb-audit-0789] こじん(こじん) [word] = pribadi / individu | [kb-v2-p6-575] じゆう(-) [word] = kebebasan / bebas | [kb-v2-p2-275] なので(-) [particle] = karena (kata benda) | [kb-v2-p5-283] かまわない(-) [expression] = tidak masalah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=じゅうぶんきをつければ、まいていてもよい。
+    TRANS: Boleh mengenakannya asalkan berhati-hati.
+    KOTOBA: [kb-v2-p6-617] じゅうぶん(-) [word] = cukup / memadai | [kb-audit-1100] きをつければ(きをつければ) [expression] = jika berhati-hati (気をつける) | [kb-audit-1093] まいていて(まいていて) [inflected_verb, df:巻く] = sedang melilitkan (巻く) | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT C: HTML=まきこまれるおそれのあるものは、ちゃくようしない。
+    TRANS: Tidak mengenakan benda yang berisiko terlilit ke dalam mesin.
+    KOTOBA: [kb-audit-0791] まきこまれる(まきこまれる) [inflected_verb, df:巻き込む] = terlilit / tergulung mesin | [kb-otaff51-0733] おそれ(おそれ) [noun] = risiko / kekhawatiran | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0232] ちゃくよう(ちゃくよう) [word] = pemakaian / mengenakan (着用) | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+
+=== #Q18 | ID=kunci-ujian-10-q018 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>にアクセサリーについてどうすべきですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan terkait aksesori sebelum masuk ke area kerja?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 4, Câu 18 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p6-180] アクセサリー(-) [word] = perhiasan / aksesori | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-otaff51-0967] すべき(すべき) [expression] = yang seharusnya dilakukan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT A: HTML=アクセサリーをつけたまま<ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る。
+    TRANS: Masuk ke area kerja dengan tetap mengenakan aksesori.
+    KOTOBA: [kb-v2-p6-180] アクセサリー(-) [word] = perhiasan / aksesori | [kb-audit-1162] つけた(つけた) [inflected_verb, df:付ける] = yang memakai / memasang | [kb-v2-p3-204] まま(-) [word] = apa adanya / tetap | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>指輪<rt>ゆびわ</rt></ruby>、<ruby>腕輪<rt>うでわ</rt></ruby>、ネックレスなどのアクセサリーを<ruby>外<rt>はず</rt></ruby>して<ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る。
+    TRANS: Melepas aksesori seperti cincin, gelang, dan kalung sebelum masuk ke area kerja.
+    KOTOBA: [kb-otaff51-0321] 指輪(ゆびわ) [noun] = cincin | [kb-1562960] 腕輪(うでわ) [word] = gelang tangan | [kb-v2-p5-097] ネックレス(-) [word] = kalung | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p6-180] アクセサリー(-) [word] = perhiasan / aksesori | [kb-v2-p1-209] 外して(はずして) [inflected_verb, df:外す] = melepas (dasar: 外す) | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=ヘアピンとつけまつげはそのままで<ruby>入<rt>はい</rt></ruby>る。
+    TRANS: Tetap memakai jepit rambut dan bulu mata palsu saat masuk.
+    KOTOBA: [kb-v2-p6-241] ヘアピン(-) [word] = jepit rambut | [kb-v2-p6-242] つけまつげ(-) [word] = bulu mata palsu | [kb-v2-p2-017] そのまま(-) [word] = apa adanya / begitu saja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q19 | ID=kunci-ujian-10-q019 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KANJI_WITHOUT_RUBY@opt:C] 保, 期間
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>賞味期限<rt>しょうみきげん</rt></ruby>」は<ruby>何<rt>なに</rt></ruby>を<ruby>示<rt>しめ</rt></ruby>していますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang ditunjukkan oleh "Batas waktu kualitas terbaik (Shoumikigen / baik digunakan sebelum)"?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 4, Câu 19 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0581] 賞味期限(しょうみきげん) [compound_technical] = batas tanggal cita rasa terbaik (best before) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p6-522] 示して(しめして) [inflected, df:示す] = menunjukkan | [kb-audit-0369] います(います) [inflected_verb, df:いる] = ada / sedang melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>が<ruby>安全<rt>あんぜん</rt></ruby>に<ruby>食<rt>た</rt></ruby>べられる<ruby>期間<rt>きかん</rt></ruby>
+    TRANS: Periode di mana makanan dapat dimakan dengan aman
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-v2-p5-389] 食べられる(たべられる) [inflected, df:食べる] = dapat dimakan | [kb-1220550] 期間(きかん) [word] = periode / jangka waktu | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>味<rt>あじ</rt></ruby>が<ruby>美味<rt>おい</rt></ruby>しいとされる<ruby>期間<rt>きかん</rt></ruby>
+    TRANS: Periode di mana rasa makanan masih terjaga kelezatannya (kualitas terbaiknya)
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p3-160] 味(あじ) [word] = rasa | [kb-u1416-eab19238e8] 美味しい(おいしい) [word] = lezat / enak | [kb-v2-p3-230] される(-) [inflected, df:する] = dilakukan (pasif) | [kb-1220550] 期間(きかん) [word] = periode / jangka waktu | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>栄養<rt>えいよう</rt></ruby>が<ruby>最高<rt>さいこう</rt></ruby>の<ruby>状態<rt>じょうたい</rt></ruby>に保たれる期間
+    TRANS: Periode di mana nutrisi makanan terjaga pada kondisi tertinggi
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0345] 栄養(えいよう) [noun] = nutrisi / zat gizi | [kb-1293850] 最高(さいこう) [word] = tertinggi / batas maksimal | [kb-otaff51-0435] 状態(じょうたい) [noun] = kondisi / keadaan | [kb-audit-0666] 保たれる(たもたれる) [inflected_verb, df:保つ] = terjaga / dipertahankan | [kb-1220550] 期間(きかん) [word] = periode / jangka waktu | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q20 | ID=kunci-ujian-10-q020 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 10.pdf p.4 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0217 (をするこ): "melakukan hal tersebut (typo するこ)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>加熱殺菌<rt>かねつさっきん</rt></ruby>をすることによって、<ruby>食材<rt>しょくざい</rt></ruby>にどのような<ruby>効果<rt>こうか</rt></ruby>がありますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Efek apa yang diperoleh bahan makanan dengan melakukan sterilisasi pemanasan?
+  EXPLANATION: Sumber: Kunci Soal Ujian 10.pdf (Halaman 4, Câu 20 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0194] 加熱殺菌(かねつさっきん) [compound_technical] = sterilisasi dengan pemanasan | [kb-audit-0217] をするこ(をすること) [word] = melakukan hal tersebut (typo するこ) | [kb-v2-p1-316] によって(-) [particle] = tergantung pada / oleh | [kb-1983500] 食材(しょくざい) [word] = bahan makanan | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-1275130] 効果(こうか) [word] = efektivitas / hasil guna | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=<ruby>食材<rt>しょくざい</rt></ruby>を<ruby>食<rt>た</rt></ruby>べやすくする
+    TRANS: Membuat bahan makanan lebih mudah dimakan
+    KOTOBA: [kb-1983500] 食材(しょくざい) [word] = bahan makanan | [kb-otaff51-1325] 食べやすく(たべやすく) [inflected_adj, df:食べやすい] = mudah dimakan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>風味<rt>ふうみ</rt></ruby>を<ruby>悪<rt>わる</rt></ruby>くする
+    TRANS: Merusak cita rasa
+    KOTOBA: [kb-1624810] 風味(ふうみ) [word] = aroma dan cita rasa | [kb-v2-p6-292] 悪く(わるく) [inflected, df:悪い] = buruk / tidak enak | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>加工時間<rt>かこうじかん</rt></ruby>を<ruby>短縮<rt>たんしゅく</rt></ruby>する
+    TRANS: Mempersingkat waktu pengolahan
+    KOTOBA: [kb-ext-0191-e58aa0e5b7] 加工時間(かこうじかん) [word] = Waktu pemrosesan pengolahan bahan pangan | [kb-1418740] 短縮(たんしゅく) [word] = pemendekan durasi waktu | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

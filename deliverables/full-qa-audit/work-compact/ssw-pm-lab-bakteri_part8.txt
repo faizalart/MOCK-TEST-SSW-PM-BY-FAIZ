@@ -1,0 +1,87 @@
+# AUDIT SHEET: ssw-pm-lab-bakteri (細菌・微生物・食中毒 (Bacteria Lab)) | Batch qa-batch-06 | Part 8 (Q29-32 of 32)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=lab-bac-029 | KEY=B (idx=1) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>魚介類<rt>ぎょかいるい</rt></ruby>に<ruby>付着<rt>ふちゃく</rt></ruby>して<ruby>侵入<rt>しんにゅう</rt></ruby>し、<ruby>人<rt>ひと</rt></ruby>の<ruby>体内<rt>たいない</rt></ruby>で<ruby>増殖<rt>ぞうしょく</rt></ruby>して<ruby>激<rt>はげ</rt></ruby>しい<ruby>下痢<rt>げり</rt></ruby>や<ruby>腹痛<rt>ふくつう</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>好塩菌<rt>こうえんきん</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah bakteri halofilik yang menempel pada hasil laut, bertambah banyak di dalam tubuh manusia, dan memicu diare hebat serta sakit perut?
+  EXPLANATION: 【正解：B (腸炎ビブリオ)】
+海水由来の「好塩菌」であり、魚介類の刺身などを介して経口摂取されると、人の体内で急激に増殖して激しい下痢や腹痛を起こします。真水洗浄と10℃以下（望ましくは5℃以下）の温度管理が有効な予防策です。
+  KOTOBA_PROMPT: [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-1496400] 付着(ふちゃく) [word] = menempel / melekat | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-audit-0989] 侵入し(しんにゅうし) [inflected_verb, df:侵入する] = masuk / menyusup | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1409640] 体内(たいない) [word] = di dalam tubuh | [kb-audit-0981] 増殖して(ぞうしょくして) [inflected_verb, df:増殖する] = berkembang biak (~て) | [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-v2-p2-179] 引き起こす(ひきおこす) [word] = menimbulkan / menyebabkan | [kb-1835930] 好塩菌(こうえんきん) [word] = bakteri tahan garam (halofilik) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium botulinum
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+  OPT B: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus
+    KOTOBA: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT C: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT D: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bacillus cereus
+    KOTOBA: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus
+
+=== #Q30 | ID=lab-bac-030 | KEY=A (idx=0) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ウェルシュ<ruby>菌<rt>きん</rt></ruby>による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>の<ruby>特徴<rt>とくちょう</rt></ruby>として、<ruby>最<rt>もっと</rt></ruby>も<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu karakteristik gejala keracunan makanan oleh Clostridium perfringens yang paling tepat.
+  EXPLANATION: 【正解：A (主に腹痛と下痢)】
+ウェルシュ菌食中毒は、潜伏期間約8〜20時間で、下腹部の腹痛と下痢が主症状です。症状は比較的軽症で、高熱やおう吐はめったに起こりません。
+  KOTOBA_PROMPT: [kb-otaff51-0039] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-otaff51-0434] 特徴(とくちょう) [noun] = karakteristik / ciri khas | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0599] 適切な(てきせつな) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>主<rt>おも</rt></ruby>に<ruby>腹痛<rt>ふくつう</rt></ruby>と<ruby>下痢<rt>げり</rt></ruby>であり、<ruby>発熱<rt>はつねつ</rt></ruby>や<ruby>おう吐<rt>おうと</rt></ruby>はほとんど<ruby>見<rt>み</rt></ruby>られない。
+    TRANS: Terutama sakit perut dan diare, hampir tidak terlihat demam atau muntah.
+    KOTOBA: [kb-v2-p1-297] 主に(おもに) [word] = terutama / utamanya | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam | [kb-otaff51-0007] おう吐(おうと) [noun] = muntah | [kb-v2-p3-133] ほとんど(-) [word] = hampir tidak / hampir semua | [kb-v2-p3-341] 見られない(みられない) [inflected, df:見る] = tidak terlihat / dijumpai | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-259] あり(-) [inflected, df:ある] = ada | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=<ruby>高熱<rt>こうねつ</rt></ruby>が<ruby>数日間<rt>すうじつかん</rt></ruby><ruby>続<rt>つづ</rt></ruby>き、<ruby>呼吸筋<rt>こきゅうきん</rt></ruby>が<ruby>麻痺<rt>まひ</rt></ruby>する。
+    TRANS: Demam tinggi berlanjut beberapa hari dan otot pernapasan lumpuh.
+    KOTOBA: [kb-1283880] 高熱(こうねつ) [word] = demam tinggi / suhu tinggi | [kb-1373210] 数日間(すうじつかん) [word] = selama beberapa hari | [kb-v2-p3-257] 続き(つづき) [inflected, df:続く] = berlanjut | [kb-2125940] 呼吸筋(こきゅうきん) [word] = otot pernapasan | [kb-1604160] 麻痺(まひ) [word] = kelumpuhan | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>鮮血<rt>せんけつ</rt></ruby>の<ruby>混<rt>ま</rt></ruby>ざった<ruby>激<rt>はげ</rt></ruby>しい<ruby>血便<rt>けつべん</rt></ruby>と<ruby>痙攣<rt>けいれん</rt></ruby>が<ruby>起<rt>お</rt></ruby>こる。
+    TRANS: Terjadi tinja berdarah segar yang hebat dan kejang-kejang.
+    KOTOBA: [kb-1721150] 鮮血(せんけつ) [word] = darah segar | [kb-v2-p3-242] 混ざった(まざった) [inflected, df:混ざる] = tercampur | [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-otaff51-0540] 血便(けつべん) [noun] = tinja berdarah | [kb-1569590] 痙攣(けいれん) [word] = kejang otot | [kb-v2-p3-244] 起こる(おこる) [word] = terjadi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT D: HTML=<ruby>手足<rt>てあし</rt></ruby>の<ruby>皮膚<rt>ひふ</rt></ruby>に<ruby>激<rt>はげ</rt></ruby>しい<ruby>水<rt>みず</rt></ruby>ぶくれと<ruby>膿<rt>うみ</rt></ruby>ができる。
+    TRANS: Timbul lenting melepuh dan nanah hebat pada kulit tangan dan kaki.
+    KOTOBA: [kb-1328080] 手足(てあし) [word] = Tangan dan kaki pekerja pabrik | [kb-otaff51-0458] 皮膚(ひふ) [noun] = kulit | [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-v2-p3-165] 水ぶくれ(みずぶくれ) [word] = lepuhan berisi cairan | [kb-v2-p3-164] 膿(うみ) [word] = nanah | [kb-v2-p3-339] できる(-) [word] = dapat / bisa / terbentuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q31 | ID=lab-bac-031 | KEY=D (idx=3) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>と、その<ruby>代表的<rt>だいひょうてき</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu kombinasi yang benar antara bakteri keracunan makanan dan gejala khasnya.
+  EXPLANATION: 【正解：D (腸管出血性大腸菌 — 腹痛、血便)】
+腸管出血性大腸菌はベロ毒素により激しい腹痛と血便が特徴です。呼吸困難や言語障害はボツリヌス菌の症状です。黄色ブドウ球菌は潜伏期間数時間でおう吐が主症状です。
+  KOTOBA_PROMPT: [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-v2-p1-268] その(-) [word] = itu | [kb-1412220] 代表的(だいひょうてき) [word] = khas / representatif | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ — <ruby>呼吸困難<rt>こきゅうこんなん</rt></ruby>、<ruby>言語障害<rt>げんごしょうがい</rt></ruby>、<ruby>視力<rt>しりょく</rt></ruby><ruby>低下<rt>ていか</rt></ruby>
+    TRANS: Vibrio parahaemolyticus — Sesak napas, gangguan bicara, penurunan penglihatan
+    KOTOBA: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus | [kb-otaff51-0231] 呼吸困難(こきゅうこんなん) [compound_technical] = kesulitan bernapas / sesak napas | [kb-1756560] 言語障害(げんごしょうがい) [word] = gangguan berbicara | [kb-1312150] 視力(しりょく) [word] = daya penglihatan | [kb-1434250] 低下(ていか) [word] = penurunan
+  OPT B: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby> — <ruby>激<rt>はげ</rt></ruby>しい<ruby>下痢<rt>げり</rt></ruby>のみで<ruby>神経<rt>しんけい</rt></ruby><ruby>症状<rt>しょうじょう</rt></ruby>は<ruby>一切<rt>いっさい</rt></ruby>ない
+    TRANS: Clostridium botulinum — Hanya diare hebat tanpa gejala saraf sama sekali
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-otaff51-0092] 下痢(げり) [noun] = diare | [kb-v2-p3-177] のみ(-) [particle] = hanya / saja | [kb-1364520] 神経(しんけい) [word] = sistem saraf | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-1164170] 一切(いっさい) [word] = sama sekali (tidak) | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT C: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby> — <ruby>潜伏期間<rt>せんぷくきかん</rt></ruby>10<ruby>日後<rt>にちご</rt></ruby>の<ruby>高熱<rt>こうねつ</rt></ruby>と<ruby>全身<rt>ぜんしん</rt></ruby><ruby>発疹<rt>ほっしん</rt></ruby>
+    TRANS: Staphylococcus aureus — Demam tinggi dan ruam setelah masa inkubasi 10 hari
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus | [kb-2842881] 潜伏期間(せんぷくきかん) [word] = masa inkubasi | [kb-audit-0178] 日後(にちご) [word] = sekian hari setelahnya / hari kemudian | [kb-1283880] 高熱(こうねつ) [word] = demam tinggi / suhu tinggi | [kb-otaff51-0153] 全身(ぜんしん) [noun] = seluruh tubuh | [kb-1477600] 発疹(ほっしん) [word] = ruam kulit | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT D: HTML=<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>（O157） — <ruby>激<rt>はげ</rt></ruby>しい<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>水様便<rt>すいようべん</rt></ruby>、<ruby>鮮血便<rt>せんけつべん</rt></ruby>（<ruby>血便<rt>けつべん</rt></ruby>）
+    TRANS: EHEC (O157) — Sakit perut hebat, diare berair, tinja berdarah segar
+    KOTOBA: [kb-otaff51-0525] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [compound_technical] = bakteri E. coli enterohemoragik (O157, O111) | [kb-otaff51-0791] O157(おーいちごーなな) [compound_technical] = bakteri E. coli O157 | [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-ext-0993-e6b0b4e6a7] 水様便(すいようべん) [word] = diare berair | [kb-ext-1108-e9aeaee8a1] 鮮血便(せんけつべん) [word] = tinja berdarah segar | [kb-otaff51-0540] 血便(けつべん) [noun] = tinja berdarah
+
+=== #Q32 | ID=lab-bac-032 | KEY=C (idx=2) | CAT= | SRC=SSW_Bacteria_Lab.html p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-otaff51-0419 "炒飯": kotoba="ちゃーはん" vs ruby="チャーハン" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:D] kb-otaff51-0419 "炒飯": kotoba="ちゃーはん" vs ruby="チャーハン"
+  INSTR: <ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>と<ruby>主<rt>おも</rt></ruby>な<ruby>原因食品<rt>げんいんしょくひん</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>誤<rt>あやま</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pasangan yang salah antara bakteri keracunan makanan dan makanan penyebab utamanya.
+  EXPLANATION: 【誤り（正解）：C (腸炎ビブリオ — 炒飯)】
+腸炎ビブリオの原因食品は「生の魚介類」です。炒飯やピラフなどの米飯類が主な原因食品となるのは「セレウス菌」です。他の3つの組み合わせはすべて正しいです。
+  KOTOBA_PROMPT: [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-0479-e58e9fe59b] 原因食品(げんいんしょくひん) [word] = makanan penyebab keracunan | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-latsol-1dee95223c] 誤っている(あやまっている) [word] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby> — <ruby>瓶詰<rt>びんづ</rt></ruby>め<ruby>食品<rt>しょくひん</rt></ruby>、<ruby>真空<rt>しんくう</rt></ruby>パック<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Clostridium botulinum — Pangan kemasan botol/kaca, pangan kemasan vakum
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-otaff51-0438] 瓶詰め食品(びんづめしょくひん) [compound_technical] = makanan dalam kemasan botol kaca | [kb-1363600] 真空(しんくう) [word] = kemasan hampa udara (vakum) | [kb-v2-p3-046] パック(-) [word] = kemasan / bungkus | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan
+  OPT B: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby> — おにぎり、サンドイッチ
+    TRANS: Staphylococcus aureus — Onigiri, sandwich
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus | [kb-v2-p3-048] おにぎり(-) [word] = nasi kepal (onigiri) | [kb-v2-p3-049] サンドイッチ(-) [word] = roti lapis (sandwich)
+  OPT C: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ — <ruby>炒飯<rt>チャーハン</rt></ruby>（チャーハン）、ピラフ
+    TRANS: Vibrio parahaemolyticus — Nasi goreng (chahan), pilaf
+    KOTOBA: [kb-otaff51-0524] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus | [kb-otaff51-0419] 炒飯(ちゃーはん) [noun] = nasi goreng | [kb-v2-p3-051] チャーハン(-) [word] = nasi goreng | [kb-v2-p3-050] ピラフ(-) [word] = nasi pilaf
+  OPT D: HTML=セレウス<ruby>菌<rt>きん</rt></ruby> — <ruby>穀類加工品<rt>こくるいかこうひん</rt></ruby>、<ruby>炒飯<rt>チャーハン</rt></ruby>、スパゲティ
+    TRANS: Bacillus cereus — Produk olahan serealia, nasi goreng, spageti
+    KOTOBA: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus | [kb-ext-0582-e7a980e9a1] 穀類加工品(こくるいかこうひん) [word] = Produk olahan kelompok biji-bijian | [kb-otaff51-0419] 炒飯(ちゃーはん) [noun] = nasi goreng | [kb-v2-p3-054] スパゲティ(-) [word] = spageti

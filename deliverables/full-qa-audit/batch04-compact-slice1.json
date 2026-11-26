@@ -1,0 +1,3580 @@
+[
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q001",
+    "prompt": "<ruby>食品安全<rt>しょくひんあんぜん</rt></ruby>の<ruby>大切<rt>たいせつ</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>消費者<rt>しょうひしゃ</rt></ruby>が<ruby>美味<rt>おい</rt></ruby>しい<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>求<rt>もと</rt></ruby>めている"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>病気<rt>びょうき</rt></ruby>になる<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>対<rt>たい</rt></ruby>する<ruby>不信感<rt>ふしんかん</rt></ruby>を<ruby>高<rt>たか</rt></ruby>める"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>会社全体<rt>かいしゃぜんたい</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きな<ruby>影響<rt>えいきょう</rt></ruby>を<ruby>与<rt>あた</rt></ruby>え、<ruby>自分<rt>じぶん</rt></ruby>たちの<ruby>職場<rt>しょくば</rt></ruby>にも<ruby>影響<rt>えいきょう</rt></ruby>が<ruby>及<rt>およ</rt></ruby>びます"
+      },
+      {
+        "id": "D",
+        "text": "すべて<ruby>正<rt>ただ</rt></ruby>しい"
+      }
+    ],
+    "transPrompt": "Manakah yang menunjukkan pentingnya keamanan pangan? Pilihlah satu yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Konsumen menginginkan makanan yang lezat dan aman"
+      },
+      {
+        "id": "B",
+        "text": "Makanan yang menimbulkan penyakit akan meningkatkan rasa ketidakpercayaan terhadap produk"
+      },
+      {
+        "id": "C",
+        "text": "Masalah keamanan pangan berdampak besar pada seluruh perusahaan dan juga berdampak pada tempat kerja kita sendiri"
+      },
+      {
+        "id": "D",
+        "text": "Semua benar"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q002",
+    "prompt": "<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>する<ruby>為<rt>ため</rt></ruby>の<ruby>全体像<rt>ぜんたいぞう</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "HACCP、<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>衛生管理<rt>えいせいかんり</rt></ruby>を<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせる"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>衛生管理<rt>えいせいかんり</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "HACCP"
+      }
+    ],
+    "transPrompt": "Manakah gambaran menyeluruh upaya untuk menyediakan makanan yang aman? Pilihlah satu yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Menggabungkan HACCP dan manajemen higiene umum"
+      },
+      {
+        "id": "B",
+        "text": "Manajemen higiene umum saja"
+      },
+      {
+        "id": "C",
+        "text": "HACCP saja"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q003",
+    "prompt": "<ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>に<ruby>存在<rt>そんざい</rt></ruby>し、<ruby>十分加熱<rt>じゅうぶんかねつ</rt></ruby>しないと<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>しやすい<ruby>原因<rt>げんいん</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "ノロウイルス"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>大腸菌<rt>だいちょうきん</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Penyebab manakah yang terdapat pada kerang bivalvia seperti tiram dan mudah menyebabkan keracunan makanan jika tidak dipanaskan secara menyeluruh? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Staphylococcus aureus"
+      },
+      {
+        "id": "B",
+        "text": "Norovirus"
+      },
+      {
+        "id": "C",
+        "text": "Escherichia coli (E. coli)"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q004",
+    "prompt": "<ruby>微生物<rt>びせいぶつ</rt></ruby>は<ruby>増殖<rt>ぞうしょく</rt></ruby>しにくい<ruby>環境<rt>かんきょう</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "30℃－40℃、<ruby>水分<rt>すいぶん</rt></ruby>があり、<ruby>汚<rt>よご</rt></ruby>れがある<ruby>環境<rt>かんきょう</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "4℃<ruby>以下<rt>いか</rt></ruby>、<ruby>乾燥<rt>かんそう</rt></ruby>、<ruby>汚<rt>よご</rt></ruby>れがない<ruby>環境<rt>かんきょう</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>室温<rt>しつおん</rt></ruby>で、<ruby>汚<rt>よご</rt></ruby>れがある<ruby>環境<rt>かんきょう</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Lingkungan manakah yang membuat mikroorganisme sulit berkembang biak? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Lingkungan bersuhu 30°C - 40°C, lembap/berair, dan terdapat kotoran"
+      },
+      {
+        "id": "B",
+        "text": "Lingkungan bersuhu 4°C atau lebih rendah, kering, dan bersih tanpa kotoran"
+      },
+      {
+        "id": "C",
+        "text": "Lingkungan bersuhu ruang dan terdapat kotoran"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q005",
+    "prompt": "<ruby>本日出勤予定<rt>ほんじつしゅっきんよてい</rt></ruby>ありますが、おなかをこわしたり、<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>がある。<ruby>下記<rt>かき</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "そのまま<ruby>出勤<rt>しゅっきん</rt></ruby>する"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>し、<ruby>指示<rt>しじ</rt></ruby>に<ruby>従<rt>したが</rt></ruby>います"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>自己判断<rt>じこはんだん</rt></ruby>で<ruby>休<rt>やす</rt></ruby>みます"
+      }
+    ],
+    "transPrompt": "Hari ini Anda dijadwalkan masuk kerja, tetapi sedang sakit perut (diare) atau merasa mual ingin muntah. Di antara pilihan berikut, pilihlah satu tindakan yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Tetap berangkat masuk kerja begitu saja"
+      },
+      {
+        "id": "B",
+        "text": "Melaporkan kepada penanggung jawab dan mengikuti instruksinya"
+      },
+      {
+        "id": "C",
+        "text": "Libur atas keputusan sendiri tanpa melapor"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q006",
+    "prompt": "<ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>う<ruby>流<rt>なが</rt></ruby>れとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>、<ruby>手洗<rt>てあら</rt></ruby>い、<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラー、エアーシャワー"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>手洗<rt>てあら</rt></ruby>い、<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>、<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラー、エアーシャワー"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>正<rt>ただ</rt></ruby>しく<ruby>着用<rt>ちゃくよう</rt></ruby>、<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラー、エアーシャワー、<ruby>手洗<rt>てあら</rt></ruby>い"
+      }
+    ],
+    "transPrompt": "Pilihlah satu urutan yang benar untuk dilakukan sebelum memasuki area kerja.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Mengenakan pakaian kerja dengan benar, mencuci tangan, rol perekat, air shower"
+      },
+      {
+        "id": "B",
+        "text": "Mencuci tangan, mengenakan pakaian kerja dengan benar, rol perekat, air shower"
+      },
+      {
+        "id": "C",
+        "text": "Mengenakan pakaian kerja dengan benar, rol perekat, air shower, mencuci tangan"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q007",
+    "prompt": "<ruby>作業前<rt>さぎょうまえ</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>うことはどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>作業内容<rt>さぎょうないよう</rt></ruby>・<ruby>機械<rt>きかい</rt></ruby>・<ruby>装置<rt>そうち</rt></ruby>・<ruby>器具<rt>きぐ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>し、<ruby>洗浄<rt>せんじょう</rt></ruby>・<ruby>殺菌<rt>さっきん</rt></ruby>する"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>作業内容<rt>さぎょうないよう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>、<ruby>機械<rt>きかい</rt></ruby>・<ruby>装置<rt>そうち</rt></ruby>・<ruby>器具<rt>きぐ</rt></ruby>を<ruby>洗浄<rt>せんじょう</rt></ruby>・<ruby>殺菌<rt>さっきん</rt></ruby>する"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>機械<rt>きかい</rt></ruby>・<ruby>装置<rt>そうち</rt></ruby>・<ruby>器具<rt>きぐ</rt></ruby>を<ruby>洗浄<rt>せんじょう</rt></ruby>・<ruby>殺菌<rt>さっきん</rt></ruby>する"
+      }
+    ],
+    "transPrompt": "Manakah hal yang dilakukan sebelum memulai pekerjaan? Pilihlah satu yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Memeriksa isi pekerjaan, mesin, perangkat, dan peralatan, serta melakukan pencucian dan sterilisasi bila diperlukan"
+      },
+      {
+        "id": "B",
+        "text": "Hanya memeriksa isi pekerjaan tanpa memeriksa kondisi mesin/alat"
+      },
+      {
+        "id": "C",
+        "text": "Hanya mencuci dan mensterilkan mesin, perangkat, dan peralatan"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q008",
+    "prompt": "<ruby>作業中<rt>さぎょうちゅう</rt></ruby>について、<ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>物<rt>もの</rt></ruby>や<ruby>冷却<rt>れいきゃく</rt></ruby>した<ruby>物<rt>もの</rt></ruby>を<ruby>長<rt>なが</rt></ruby>く<ruby>室温<rt>しつおん</rt></ruby>で<ruby>放置<rt>ほうち</rt></ruby>しても<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>だ"
+      },
+      {
+        "id": "B",
+        "text": "トイレに<ruby>行<rt>い</rt></ruby>った<ruby>後<rt>あと</rt></ruby>、<ruby>洗剤<rt>せんざい</rt></ruby>で<ruby>手洗<rt>てあら</rt></ruby>いします。<ruby>消毒液<rt>しょうどくえき</rt></ruby>しなくても<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>だ"
+      },
+      {
+        "id": "C",
+        "text": "ムダ<ruby>話<rt>ばなし</rt></ruby>しない。<ruby>機械<rt>きかい</rt></ruby>や<ruby>製品<rt>せいひん</rt></ruby>の<ruby>異常<rt>いじょう</rt></ruby>が<ruby>見<rt>み</rt></ruby>つかったとき、<ruby>機械<rt>きかい</rt></ruby>やラインを<ruby>止<rt>と</rt></ruby>めて、すぐ<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>する"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang paling tepat mengenai kegiatan selama bekerja.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Tidak masalah membiarkan produk yang telah dipanaskan atau didinginkan di suhu ruang dalam waktu lama."
+      },
+      {
+        "id": "B",
+        "text": "Setelah dari toilet, mencuci tangan dengan sabun pembersih dan tidak perlu menggunakan cairan disinfektan."
+      },
+      {
+        "id": "C",
+        "text": "Tidak mengobrol yang tidak perlu. Saat ditemukan ketidaknormalan pada mesin atau produk, segera hentikan mesin atau lini produksi dan laporkan kepada penanggung jawab."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q009",
+    "prompt": "<ruby>作業後<rt>さぎょうご</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>う<ruby>後片付<rt>あとかたづ</rt></ruby>けで、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>清掃<rt>せいそう</rt></ruby>も<ruby>決<rt>き</rt></ruby>められたとおりに<ruby>行<rt>おこな</rt></ruby>い、いつも<ruby>清潔<rt>せいけつ</rt></ruby>にする。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>汚<rt>よご</rt></ruby>れた<ruby>機械<rt>きかい</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>は<ruby>必<rt>かなら</rt></ruby>ず<ruby>洗浄<rt>せんじょう</rt></ruby>してから、<ruby>片<rt>かた</rt></ruby>づけます"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>汚<rt>よご</rt></ruby>れた<ruby>作業靴<rt>さぎょうぐつ</rt></ruby>を<ruby>洗浄<rt>せんじょう</rt></ruby>してから、そのまま<ruby>片<rt>かた</rt></ruby>づけます"
+      }
+    ],
+    "transPrompt": "Mengenai kegiatan beres-beres setelah selesai bekerja, pilihlah satu yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Melakukan pembersihan tempat kerja sesuai aturan yang ditetapkan dan selalu menjaganya tetap bersih."
+      },
+      {
+        "id": "B",
+        "text": "Mesin dan peralatan yang kotor wajib dicuci bersih terlebih dahulu sebelum dibereskan."
+      },
+      {
+        "id": "C",
+        "text": "Setelah mencuci sepatu kerja yang kotor, langsung menyimpannya begitu saja dalam keadaan basah (tanpa disinfeksi dan pengeringan)."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q010",
+    "prompt": "5S<ruby>活動<rt>かつどう</rt></ruby>の<ruby>取<rt>と</rt></ruby>り<ruby>組<rt>く</rt></ruby>みについてはどれか、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>清潔<rt>せいけつ</rt></ruby>は<ruby>整理<rt>せいり</rt></ruby>‐<ruby>整頓<rt>せいとん</rt></ruby>‐<ruby>清掃<rt>せいそう</rt></ruby>されて<ruby>綺麗<rt>きれい</rt></ruby>な<ruby>状態<rt>じょうたい</rt></ruby>に<ruby>保<rt>たも</rt></ruby>つ"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>整頓<rt>せいとん</rt></ruby>は<ruby>必要<rt>ひつよう</rt></ruby>なものは<ruby>保管<rt>ほかん</rt></ruby>し、<ruby>不要<rt>ふよう</rt></ruby>なものを<ruby>捨<rt>す</rt></ruby>てて<ruby>整理<rt>せいり</rt></ruby>する"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>習慣<rt>しゅうかん</rt></ruby>は<ruby>決<rt>き</rt></ruby>められたことを<ruby>常<rt>つね</rt></ruby>に<ruby>守<rt>まも</rt></ruby>って<ruby>実行<rt>じっこう</rt></ruby>する<ruby>習慣<rt>しゅうかん</rt></ruby>をつける"
+      }
+    ],
+    "transPrompt": "Manakah pernyataan yang salah mengenai penerapan kegiatan 5S? Pilihlah satu jawaban yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Rawat (Seiketsu) adalah mempertahankan kondisi tetap bersih setelah dilakukan Ringkas, Rapi, dan Resik."
+      },
+      {
+        "id": "B",
+        "text": "Rapi (Seiton) adalah menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan untuk dipilah."
+      },
+      {
+        "id": "C",
+        "text": "Rajin (Shukan) adalah membiasakan diri untuk selalu mematuhi dan menjalankan hal-hal yang telah ditetapkan."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q011",
+    "prompt": "<ruby>金属以外<rt>きんぞくいがい</rt></ruby>の<ruby>異物<rt>いぶつ</rt></ruby>(<ruby>石<rt>いし</rt></ruby>、ガラスなど)を<ruby>見<rt>み</rt></ruby>つけることができる<ruby>機械<rt>きかい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>金属検査機<rt>きんぞくけんさき</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "X<ruby>線異物検査機<rt>せんいぶつけんさき</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>日付検査<rt>ひづけけんさ</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang benar mengenai mesin yang dapat mendeteksi benda asing selain logam (seperti batu, kaca, dan sebagainya).",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Mesin pemeriksa logam (metal detector)"
+      },
+      {
+        "id": "B",
+        "text": "Mesin pemeriksa benda asing sinar-X (X-ray)"
+      },
+      {
+        "id": "C",
+        "text": "Pemeriksaan tanggal"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q012",
+    "prompt": "<ruby>製品<rt>せいひん</rt></ruby>の<ruby>保管管理<rt>ほかんかんり</rt></ruby>について、<ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>一般的<rt>いっぱんてき</rt></ruby>に<ruby>冷凍庫<rt>れいとうこ</rt></ruby>は‐15℃<ruby>以下<rt>いか</rt></ruby>、<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>は10℃<ruby>以下<rt>いか</rt></ruby>が<ruby>基準<rt>きじゅん</rt></ruby>となる"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>保管用<rt>ほかんよう</rt></ruby>サンプルを<ruby>適当<rt>てきとう</rt></ruby>に<ruby>抽出<rt>ちゅうしゅつ</rt></ruby>して<ruby>保管<rt>ほかん</rt></ruby>する"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>製品<rt>せいひん</rt></ruby>の<ruby>微生物検査項目<rt>びせいぶつけんさこうもく</rt></ruby>はそれぞれの<ruby>工場<rt>こうじょう</rt></ruby>で<ruby>決<rt>き</rt></ruby>まる"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang paling tepat mengenai manajemen penyimpanan produk.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Secara umum, standar suhu untuk freezer adalah -15°C atau lebih rendah, dan untuk kulkas (chiller) adalah 10°C atau lebih rendah."
+      },
+      {
+        "id": "B",
+        "text": "Mengambil sampel penyimpanan secara asal-asalan lalu menyimpannya."
+      },
+      {
+        "id": "C",
+        "text": "Item pemeriksaan mikroorganisme pada produk ditentukan secara bebas oleh masing-masing pabrik."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q013",
+    "prompt": "アレルギーの<ruby>発症件数<rt>はっしょうけんすう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い7<ruby>種類<rt>しゅるい</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "そば、たまご、ピナッツ、<ruby>小麦<rt>こむぎ</rt></ruby>、<ruby>玉<rt>たま</rt></ruby>ねぎ、えび、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "えび、かに、<ruby>牡蠣<rt>かき</rt></ruby>、にんじん、<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、りんご、オレンジ"
+      },
+      {
+        "id": "C",
+        "text": "えび、かに、<ruby>小麦<rt>こむぎ</rt></ruby>、そば、たまご、<ruby>乳<rt>にゅう</rt></ruby>、ピナッツ"
+      }
+    ],
+    "transPrompt": "Manakah 7 jenis bahan makanan yang memiliki jumlah kasus alergi terbanyak (bahan baku spesifik)? Pilihlah satu yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Soba, telur, kacang tanah, gandum, bawang bombai, udang, daging sapi"
+      },
+      {
+        "id": "B",
+        "text": "Udang, kepiting, tiram, wortel, daging sapi, apel, jeruk"
+      },
+      {
+        "id": "C",
+        "text": "Udang, kepiting, gandum, soba, telur, susu, kacang tanah (peanut)"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q014",
+    "prompt": "HACCPで<ruby>対象<rt>たいしょう</rt></ruby>とする<ruby>健康危害<rt>けんこうきがい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しくないものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>機械<rt>きかい</rt></ruby>の<ruby>故障<rt>こしょう</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>や<ruby>農薬<rt>のうやく</rt></ruby>などを<ruby>誤<rt>あやま</rt></ruby>って<ruby>使<rt>つか</rt></ruby>い、<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>混入<rt>こんにゅう</rt></ruby>したり、<ruby>事故<rt>じこ</rt></ruby>を<ruby>発生<rt>はっせい</rt></ruby>する"
+      }
+    ],
+    "transPrompt": "Sebagai bahaya kesehatan yang menjadi sasaran dalam HACCP, pilihlah satu yang tidak benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Bakteri keracunan makanan"
+      },
+      {
+        "id": "B",
+        "text": "Kerusakan mesin"
+      },
+      {
+        "id": "C",
+        "text": "Salah menggunakan bahan pencuci atau pestisida sehingga tercampur ke dalam makanan dan menimbulkan insiden"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q015",
+    "prompt": "HACCPに<ruby>沿<rt>そ</rt></ruby>った<ruby>衛生管理<rt>えいせいかんり</rt></ruby><ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>（CCP）を<ruby>行<rt>おこな</rt></ruby>う<ruby>上<rt>うえ</rt></ruby>で、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "モニター<ruby>結果<rt>けっか</rt></ruby>を<ruby>知<rt>し</rt></ruby>る"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>管理基準<rt>かんりきじゅん</rt></ruby>の<ruby>設定値<rt>せっていち</rt></ruby>を<ruby>知<rt>し</rt></ruby>る"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>を<ruby>監視<rt>かんし</rt></ruby>（モニタリング）する"
+      }
+    ],
+    "transPrompt": "Dalam melaksanakan Titik Kendali Kritis (CCP) pada manajemen higiene berbasis HACCP, pilihlah satu yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Sekadar mengetahui hasil pemantauan (monitoring)"
+      },
+      {
+        "id": "B",
+        "text": "Mengetahui nilai ketetapan standar kendali (batas kritis)"
+      },
+      {
+        "id": "C",
+        "text": "Memantau (monitoring) Titik Kendali Kritis"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q016",
+    "prompt": "<ruby>労働安全衛生<rt>ろうどうあんぜんえいせい</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う<ruby>上<rt>うえ</rt></ruby>で、<ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>を<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>し<ruby>練習<rt>れんしゅう</rt></ruby>し、<ruby>慣<rt>な</rt></ruby>れによるケガに<ruby>注意<rt>ちゅうい</rt></ruby>し、<ruby>軽<rt>かる</rt></ruby>はずみな<ruby>動作<rt>どうさ</rt></ruby>や<ruby>強引<rt>ごういん</rt></ruby>な<ruby>動作<rt>どうさ</rt></ruby>をしない"
+      },
+      {
+        "id": "B",
+        "text": "タオルや<ruby>手<rt>て</rt></ruby>ぬぐいを<ruby>首<rt>くび</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>いて、<ruby>仕事<rt>しごと</rt></ruby>する"
+      },
+      {
+        "id": "C",
+        "text": "“かもしれない”は<ruby>想定<rt>そうてい</rt></ruby>なので、<ruby>意識<rt>いしき</rt></ruby>しなくてもよい"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang paling tepat dalam melaksanakan keselamatan dan kesehatan kerja (K3).",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Berlatih prosedur kerja secara berulang-ulang, berhati-hati terhadap cedera akibat terlalu terbiasa (lengah), dan tidak melakukan gerakan ceroboh atau dipaksakan."
+      },
+      {
+        "id": "B",
+        "text": "Bekerja dengan melilitkan handuk atau kain lap di leher."
+      },
+      {
+        "id": "C",
+        "text": "Karena pemikiran \"mungkin saja terjadi bahaya\" hanyalah asumsi, maka tidak perlu diperhatikan."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q017",
+    "prompt": "HACCPとはどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>危害要因分析<rt>きがいよういんぶんせき</rt></ruby>とミスすることができない<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>のことである"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受入<rt>うけいれ</rt></ruby>から<ruby>最終製品<rt>さいしゅうせいひん</rt></ruby>の<ruby>出荷<rt>しゅっか</rt></ruby>までの<ruby>工程<rt>こうてい</rt></ruby>である"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>微生物<rt>びせいぶつ</rt></ruby>による<ruby>汚染<rt>おせん</rt></ruby>や<ruby>異物<rt>いぶつ</rt></ruby>の<ruby>混入<rt>こんにゅう</rt></ruby>の<ruby>危害<rt>きがい</rt></ruby>を<ruby>予測<rt>よそく</rt></ruby>することである"
+      }
+    ],
+    "transPrompt": "Manakah pengertian HACCP yang benar? Pilihlah satu.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Merupakan gabungan Analisis Bahaya (HA) dan Titik Kendali Kritis (CCP) yang tidak boleh terjadi kesalahan"
+      },
+      {
+        "id": "B",
+        "text": "Merupakan proses dari penerimaan bahan baku hingga pengiriman produk akhir"
+      },
+      {
+        "id": "C",
+        "text": "Merupakan prediksi bahaya kontaminasi mikroorganisme atau benda asing saja"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q018",
+    "prompt": "<ruby>下記<rt>かき</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>起<rt>お</rt></ruby>こす<ruby>主<rt>おも</rt></ruby>な<ruby>細菌<rt>さいきん</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>、サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>、<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>毒素型<rt>どくそがた</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>感染型<rt>かんせんがた</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "ウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang benar mengenai jenis keracunan makanan yang disebabkan oleh bakteri utama berikut: Escherichia coli enterohemoragik (EHEC), bakteri genus Salmonella, dan Vibrio parahaemolyticus.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Keracunan makanan tipe toksin (racun)"
+      },
+      {
+        "id": "B",
+        "text": "Keracunan makanan tipe infeksi"
+      },
+      {
+        "id": "C",
+        "text": "Keracunan makanan akibat virus"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q019",
+    "prompt": "<ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>増殖<rt>ぞうしょく</rt></ruby>させないため、どれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>機械<rt>きかい</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>などを<ruby>洗浄<rt>せんじょう</rt></ruby>する"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>加熱<rt>かねつ</rt></ruby>したものを<ruby>室温<rt>しつおん</rt></ruby>で<ruby>長<rt>なが</rt></ruby>く<ruby>放置<rt>ほうち</rt></ruby>し、<ruby>温度<rt>おんど</rt></ruby>をゆっくりさげる"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>世代交代時間<rt>せだいこうたいじかん</rt></ruby>があるので、<ruby>時間<rt>じかん</rt></ruby>をコントロールするのが<ruby>必要<rt>ひつよう</rt></ruby>である"
+      }
+    ],
+    "transPrompt": "Untuk mencegah mikroorganisme berkembang biak, manakah pernyataan yang benar? Pilihlah satu.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Mencuci mesin dan peralatan (ini prinsip 'tidak menempelkan / tsukenai')"
+      },
+      {
+        "id": "B",
+        "text": "Membiarkan makanan yang telah dipanaskan di suhu ruang dalam waktu lama dan menurunkan suhunya perlahan"
+      },
+      {
+        "id": "C",
+        "text": "Karena bakteri memiliki waktu pembelahan generasi (sedai koutai jikan), maka diperlukan pengendalian waktu"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q020",
+    "prompt": "<ruby>安全<rt>あんぜん</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>はどれか、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>私物紛失予防<rt>しぶつふんしつよぼう</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>腰痛症予防<rt>ようつうしょうよぼう</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>挟<rt>はさ</rt></ruby>まれ・<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ・<ruby>転倒<rt>てんとう</rt></ruby>など"
+      }
+    ],
+    "transPrompt": "Manakah yang salah (bukan termasuk kategori pencegahan kecelakaan kerja / K3) mengenai pekerjaan yang aman? Pilihlah satu.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Pencegahan kehilangan barang pribadi"
+      },
+      {
+        "id": "B",
+        "text": "Pencegahan nyeri pinggang"
+      },
+      {
+        "id": "C",
+        "text": "Pencegahan terjepit, terlilit, terjatuh, dan sebagainya"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q021",
+    "prompt": "<ruby>作業着<rt>さぎょうぎ</rt></ruby>について、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>作業着<rt>さぎょうぎ</rt></ruby>は、いつも<ruby>清潔<rt>せいけつ</rt></ruby>なものを<ruby>着<rt>き</rt></ruby>なければならない。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>清潔<rt>せいけつ</rt></ruby>な<ruby>服<rt>ふく</rt></ruby>なら、なにを<ruby>着<rt>き</rt></ruby>てもよい。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>作業着<rt>さぎょうぎ</rt></ruby>は、<ruby>決<rt>き</rt></ruby>められた<ruby>着<rt>き</rt></ruby>かたをしなければならない。"
+      }
+    ],
+    "transPrompt": "Mengenai pakaian kerja, pilihlah satu pernyataan yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Pakaian kerja harus selalu dikenakan dalam keadaan bersih."
+      },
+      {
+        "id": "B",
+        "text": "Asalkan pakaiannya bersih, boleh mengenakan pakaian apa saja."
+      },
+      {
+        "id": "C",
+        "text": "Pakaian kerja harus dikenakan sesuai cara pemakaian yang telah ditetapkan."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q022",
+    "prompt": "マスクをつける<ruby>理由<rt>りゆう</rt></ruby>として、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>口<rt>くち</rt></ruby>の<ruby>中<rt>なか</rt></ruby>の<ruby>微生物<rt>びせいぶつ</rt></ruby>が、<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>らないようにするため。"
+      },
+      {
+        "id": "B",
+        "text": "はなの<ruby>中<rt>なか</rt></ruby>の<ruby>微生物<rt>びせいぶつ</rt></ruby>が、<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>らないようにするため。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>顔<rt>かお</rt></ruby>に<ruby>汚<rt>よご</rt></ruby>れがつかないようにするため。"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang salah mengenai alasan memakai masker.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Agar mikroorganisme di dalam mulut tidak masuk ke dalam pangan."
+      },
+      {
+        "id": "B",
+        "text": "Agar mikroorganisme di dalam hidung tidak masuk ke dalam pangan."
+      },
+      {
+        "id": "C",
+        "text": "Agar wajah tidak terkena kotoran."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q023",
+    "prompt": "<ruby>手袋<rt>てぶくろ</rt></ruby>をつける<ruby>理由<rt>りゆう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>手<rt>て</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>にいる<ruby>微生物<rt>びせいぶつ</rt></ruby>が、<ruby>食品<rt>しょくひん</rt></ruby>につかないようにするため。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>手<rt>て</rt></ruby>が<ruby>汚<rt>よご</rt></ruby>れないようにするため。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>手<rt>て</rt></ruby>が<ruby>冷<rt>つめ</rt></ruby>たくならないようにするため。"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang benar mengenai alasan memakai sarung tangan.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Agar mikroorganisme yang ada di permukaan tangan tidak menempel pada pangan."
+      },
+      {
+        "id": "B",
+        "text": "Agar tangan tidak menjadi kotor."
+      },
+      {
+        "id": "C",
+        "text": "Agar tangan tidak menjadi dingin."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q024",
+    "prompt": "<ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>持<rt>も</rt></ruby>って<ruby>入<rt>はい</rt></ruby>ってよいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "お<ruby>金<rt>かね</rt></ruby>やたばこ"
+      },
+      {
+        "id": "B",
+        "text": "あめや<ruby>薬<rt>くすり</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "ロッカーの<ruby>鍵<rt>かぎ</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Pilihlah satu benda yang boleh dibawa masuk ke ruang kerja.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Uang atau rokok"
+      },
+      {
+        "id": "B",
+        "text": "Permen atau obat"
+      },
+      {
+        "id": "C",
+        "text": "Kunci loker"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q025",
+    "prompt": "<ruby>器具<rt>きぐ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>うときに<ruby>使<rt>つか</rt></ruby>うものについて、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>洗<rt>あら</rt></ruby>う。"
+      },
+      {
+        "id": "B",
+        "text": "アルコールを<ruby>使<rt>つか</rt></ruby>って<ruby>洗<rt>あら</rt></ruby>う。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>洗<rt>あら</rt></ruby>う。"
+      }
+    ],
+    "transPrompt": "Mengenai bahan yang digunakan saat mencuci peralatan (untuk menghilangkan kotoran), pilihlah satu yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Mencuci menggunakan bahan sterilisasi/bakterisida."
+      },
+      {
+        "id": "B",
+        "text": "Mencuci menggunakan alkohol."
+      },
+      {
+        "id": "C",
+        "text": "Mencuci menggunakan bahan pencuci / deterjen (senjouzai)."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q026",
+    "prompt": "<ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>を<ruby>消毒<rt>しょうどく</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>う<ruby>前<rt>まえ</rt></ruby>に<ruby>消毒<rt>しょうどく</rt></ruby>する。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>消毒<rt>しょうどく</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>に<ruby>水<rt>みず</rt></ruby>をつける。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>って<ruby>乾<rt>かわ</rt></ruby>かしてから<ruby>消毒<rt>しょうどく</rt></ruby>する。"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang benar mengenai cara mendisinfeksi peralatan masak menggunakan bahan sterilisasi/disinfektan.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Mendisinfeksi peralatan masak sebelum dicuci."
+      },
+      {
+        "id": "B",
+        "text": "Membasahi peralatan masak dengan air sebelum didisinfeksi."
+      },
+      {
+        "id": "C",
+        "text": "Mencuci dan mengeringkan peralatan masak terlebih dahulu, kemudian mendisinfeksinya."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q027",
+    "prompt": "<ruby>殺菌<rt>さっきん</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>のあつかい<ruby>方<rt>かた</rt></ruby>で、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>手袋<rt>てぶくろ</rt></ruby>をつけていない<ruby>手<rt>て</rt></ruby>で<ruby>食品<rt>しょくひん</rt></ruby>をもつ。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>手袋<rt>てぶくろ</rt></ruby>をつけた<ruby>手<rt>て</rt></ruby>で<ruby>食品<rt>しょくひん</rt></ruby>をもつ。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>消毒<rt>しょうどく</rt></ruby>した<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>食品<rt>しょくひん</rt></ruby>をもつ。"
+      }
+    ],
+    "transPrompt": "Mengenai cara menangani makanan yang sudah disterilkan/dipanaskan, pilihlah satu yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Memegang makanan dengan tangan telanjang tanpa memakai sarung tangan."
+      },
+      {
+        "id": "B",
+        "text": "Memegang makanan dengan tangan yang mengenakan sarung tangan bersih."
+      },
+      {
+        "id": "C",
+        "text": "Memegang/mengambil makanan menggunakan peralatan yang telah didisinfeksi."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q028",
+    "prompt": "<ruby>食材<rt>しょくざい</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>について、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>冷凍品<rt>れいとうひん</rt></ruby>がとけていたら、また<ruby>冷凍<rt>れいとう</rt></ruby>する。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>砂糖<rt>さとう</rt></ruby>や<ruby>塩<rt>しお</rt></ruby>は、<ruby>湿度<rt>しつど</rt></ruby>が<ruby>低<rt>ひく</rt></ruby>いところに<ruby>保管<rt>ほかん</rt></ruby>する。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>小麦粉<rt>こむぎこ</rt></ruby>やでんぷんは、<ruby>水<rt>みず</rt></ruby>にぬれないように<ruby>保管<rt>ほかん</rt></ruby>する。"
+      }
+    ],
+    "transPrompt": "Mengenai cara menangani bahan makanan, pilihlah satu yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Jika produk beku sudah mencair, bekukan kembali."
+      },
+      {
+        "id": "B",
+        "text": "Menyimpan gula dan garam di tempat yang kelembapannya rendah."
+      },
+      {
+        "id": "C",
+        "text": "Menyimpan tepung terigu dan pati agar tidak terkena air."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q029",
+    "prompt": "<ruby>作業場<rt>さぎょうじょう</rt></ruby>で<ruby>転<rt>ころ</rt></ruby>ばないために、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "ゆかにこぼれた<ruby>水<rt>みず</rt></ruby>や<ruby>油<rt>あぶら</rt></ruby>は、すぐにふきとる。"
+      },
+      {
+        "id": "B",
+        "text": "くつは、うらのみぞが<ruby>少<rt>すく</rt></ruby>なくなったものをはく。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>階段<rt>かいだん</rt></ruby>をのぼるときは、<ruby>手<rt>て</rt></ruby>すりをつかむ。"
+      }
+    ],
+    "transPrompt": "Agar tidak terpeleset/terjatuh di tempat kerja, pilihlah satu tindakan yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Segera mengelap air atau minyak yang tumpah di lantai."
+      },
+      {
+        "id": "B",
+        "text": "Memakai sepatu yang alur sol bawahnya sudah aus/menipis."
+      },
+      {
+        "id": "C",
+        "text": "Berpegangan pada pegangan tangga (handrail) saat menaiki tangga."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q030",
+    "prompt": "<ruby>作業着<rt>さぎょうぎ</rt></ruby>や<ruby>工場内<rt>こうじょうない</rt></ruby>の<ruby>靴<rt>くつ</rt></ruby>で<ruby>外<rt>そと</rt></ruby>へ<ruby>出<rt>で</rt></ruby>てはいけない<ruby>理由<rt>りゆう</rt></ruby>のうち、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>外<rt>そと</rt></ruby>のほこりや<ruby>汚<rt>よご</rt></ruby>れを<ruby>作業着<rt>さぎょうぎ</rt></ruby>や<ruby>靴<rt>くつ</rt></ruby>につけないため。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>外<rt>そと</rt></ruby>の<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>工場内<rt>こうじょうない</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>ませないため。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>工場内<rt>こうじょうない</rt></ruby>の<ruby>汚<rt>よご</rt></ruby>れや<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>外<rt>そと</rt></ruby>に<ruby>持<rt>も</rt></ruby>ち<ruby>出<rt>だ</rt></ruby>すため。"
+      }
+    ],
+    "transPrompt": "Di antara alasan mengapa tidak boleh keluar gedung menggunakan pakaian kerja atau sepatu khusus dalam pabrik, pilihlah satu jawaban yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Agar debu dan kotoran dari luar tidak menempel pada pakaian kerja dan sepatu."
+      },
+      {
+        "id": "B",
+        "text": "Agar mikroorganisme dari luar tidak terbawa masuk ke dalam pabrik."
+      },
+      {
+        "id": "C",
+        "text": "Untuk membawa kotoran dan mikroorganisme dari dalam pabrik ke luar."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q031",
+    "prompt": "<ruby>工場内<rt>こうじょうない</rt></ruby>で<ruby>身<rt>み</rt></ruby>に<ruby>着<rt>つ</rt></ruby>けてよいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>指輪<rt>ゆびわ</rt></ruby>やイヤリング"
+      },
+      {
+        "id": "B",
+        "text": "めがね"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>輪<rt>わ</rt></ruby>ゴム"
+      }
+    ],
+    "transPrompt": "Pilihlah satu benda yang boleh dikenakan di dalam ruang produksi pabrik.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Cincin atau anting-anting"
+      },
+      {
+        "id": "B",
+        "text": "Kacamata"
+      },
+      {
+        "id": "C",
+        "text": "Karet gelang (di pergelangan tangan)"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q032",
+    "prompt": "<ruby>作業<rt>さぎょう</rt></ruby>で<ruby>使用<rt>しよう</rt></ruby>した<ruby>器具<rt>きぐ</rt></ruby>の<ruby>片付<rt>かたづ</rt></ruby>けについて、まちがったものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>使<rt>つか</rt></ruby>った<ruby>器具<rt>きぐ</rt></ruby>は<ruby>元<rt>もと</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>す。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>誰<rt>だれ</rt></ruby>かが<ruby>使<rt>つか</rt></ruby>うと<ruby>思<rt>おも</rt></ruby>ったので、そのまま<ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>置<rt>お</rt></ruby>く。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>次<rt>つぎ</rt></ruby>に<ruby>使<rt>つか</rt></ruby>う<ruby>人<rt>ひと</rt></ruby>がいたらその<ruby>人<rt>ひと</rt></ruby>に<ruby>渡<rt>わた</rt></ruby>す。"
+      }
+    ],
+    "transPrompt": "Mengenai pemberesan peralatan yang telah digunakan dalam pekerjaan, pilihlah satu yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Mengembalikan peralatan yang telah dipakai ke tempat semula."
+      },
+      {
+        "id": "B",
+        "text": "Karena mengira akan ada orang lain yang memakainya, membiarkannya begitu saja di tempat kerja."
+      },
+      {
+        "id": "C",
+        "text": "Jika ada orang yang akan langsung menggunakannya berikutnya, menyerahkannya kepada orang tersebut."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q033",
+    "prompt": "<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>として、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>殺菌剤<rt>さっきんざい</rt></ruby>は、どこで<ruby>保管<rt>ほかん</rt></ruby>しても<ruby>良<rt>よ</rt></ruby>い。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>容器<rt>ようき</rt></ruby>に<ruby>移<rt>うつ</rt></ruby>すときは、<ruby>必<rt>かなら</rt></ruby>ず<ruby>移<rt>うつ</rt></ruby>した<ruby>容器<rt>ようき</rt></ruby>に「<ruby>殺菌剤<rt>さっきんざい</rt></ruby>」と<ruby>表示<rt>ひょうじ</rt></ruby>する。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>目<rt>め</rt></ruby>に<ruby>入<rt>はい</rt></ruby>らないようにする。"
+      }
+    ],
+    "transPrompt": "Sebagai cara menangani bahan sterilisasi/disinfektan (sakkinzai), pilihlah satu yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Bahan sterilisasi boleh disimpan di mana saja."
+      },
+      {
+        "id": "B",
+        "text": "Saat memindahkan bahan sterilisasi ke wadah lain, wajib mencantumkan label \"Bahan Sterilisasi\" pada wadah tersebut."
+      },
+      {
+        "id": "C",
+        "text": "Berhati-hati agar cairan tidak masuk ke mata."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q034",
+    "prompt": "<ruby>仕事中<rt>しごとちゅう</rt></ruby>に<ruby>体調<rt>たいちょう</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くなったときの<ruby>行動<rt>こうどう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "がまんできなかったので、だれにも<ruby>報告<rt>ほうこく</rt></ruby>せずに<ruby>帰<rt>かえ</rt></ruby>った。"
+      },
+      {
+        "id": "B",
+        "text": "すぐに<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>した。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>せずトイレに<ruby>行<rt>い</rt></ruby>った。"
+      }
+    ],
+    "transPrompt": "Sebagai tindakan yang tepat saat kondisi tubuh jatuh sakit di tengah pekerjaan, pilihlah satu yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Karena tidak tahan lagi, langsung pulang tanpa melapor kepada siapa pun."
+      },
+      {
+        "id": "B",
+        "text": "Segera melaporkan kepada atasan."
+      },
+      {
+        "id": "C",
+        "text": "Pergi ke toilet tanpa melapor kepada atasan."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q035",
+    "prompt": "<ruby>手洗<rt>てあら</rt></ruby>いについて、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>手<rt>て</rt></ruby>についた<ruby>汚<rt>よご</rt></ruby>れや<ruby>微生物<rt>びせいぶつ</rt></ruby>をとるためにおこなう"
+      },
+      {
+        "id": "B",
+        "text": "つめの<ruby>中<rt>なか</rt></ruby>は<ruby>洗<rt>あら</rt></ruby>わなくてもよい。"
+      },
+      {
+        "id": "C",
+        "text": "ゆびのあいだや<ruby>手首<rt>てくび</rt></ruby>までしっかり<ruby>洗<rt>あら</rt></ruby>う。"
+      }
+    ],
+    "transPrompt": "Mengenai pencucian tangan, pilihlah satu pernyataan yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Dilakukan untuk menghilangkan kotoran dan mikroorganisme yang menempel di tangan."
+      },
+      {
+        "id": "B",
+        "text": "Bagian dalam sela kuku tidak perlu dicuci."
+      },
+      {
+        "id": "C",
+        "text": "Mencuci dengan bersih sela-sela jari hingga pergelangan tangan."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q036",
+    "prompt": "<ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うときに<ruby>注意<rt>ちゅうい</rt></ruby>する<ruby>点<rt>てん</rt></ruby>として、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>殺菌<rt>さっきん</rt></ruby>する<ruby>時間<rt>じかん</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Sebagai poin yang diperhatikan saat menggunakan cairan sterilisasi/disinfektan, pilihlah satu yang salah menurut soal ini.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Konsentrasi bahan sterilisasi"
+      },
+      {
+        "id": "B",
+        "text": "Waktu perendaman/sterilisasi"
+      },
+      {
+        "id": "C",
+        "text": "Suhu bahan sterilisasi"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q037",
+    "prompt": "<ruby>機械<rt>きかい</rt></ruby>そうじのやり<ruby>方<rt>かた</rt></ruby>について、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>機械<rt>きかい</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>うときは、<ruby>水<rt>みず</rt></ruby>で<ruby>流<rt>なが</rt></ruby>すだけでよい。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>機械<rt>きかい</rt></ruby>の<ruby>取<rt>と</rt></ruby>りはずせるところは、はずしてそうじする。"
+      },
+      {
+        "id": "C",
+        "text": "そうじするときは、<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める。"
+      }
+    ],
+    "transPrompt": "Mengenai cara membersihkan mesin, pilihlah satu yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Saat mencuci mesin, cukup disiram dengan air saja."
+      },
+      {
+        "id": "B",
+        "text": "Bagian mesin yang dapat dilepas harus dilepas lalu dibersihkan."
+      },
+      {
+        "id": "C",
+        "text": "Saat membersihkan, mesin harus dihentikan."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q038",
+    "prompt": "<ruby>作業記録<rt>さぎょうきろく</rt></ruby>のつけかたについて、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>温度<rt>おんど</rt></ruby>や<ruby>濃度<rt>のうど</rt></ruby>をはかったら、すぐに<ruby>記録<rt>きろく</rt></ruby>する。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>後<rt>あと</rt></ruby>でまとめて<ruby>記録<rt>きろく</rt></ruby>する"
+      },
+      {
+        "id": "C",
+        "text": "いつもと<ruby>同<rt>おな</rt></ruby>じ<ruby>結果<rt>けっか</rt></ruby>を<ruby>記録<rt>きろく</rt></ruby>する。"
+      }
+    ],
+    "transPrompt": "Mengenai cara mengisi catatan kerja (rekam proses), pilihlah satu yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Segera mencatat begitu selesai mengukur suhu atau konsentrasi."
+      },
+      {
+        "id": "B",
+        "text": "Mencatat sekaligus nanti di akhir."
+      },
+      {
+        "id": "C",
+        "text": "Menuliskan hasil yang selalu sama seperti biasanya tanpa mengukur."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q039",
+    "prompt": "<ruby>健康<rt>けんこう</rt></ruby>チェックについて、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "おなかがいたかったが、<ruby>休<rt>やす</rt></ruby>みたくないので<ruby>報告<rt>ほうこく</rt></ruby>しなかった。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>指<rt>ゆび</rt></ruby>にけがをしていたので<ruby>報告<rt>ほうこく</rt></ruby>した。"
+      },
+      {
+        "id": "C",
+        "text": "ねつが38℃あったので、<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く<ruby>前<rt>まえ</rt></ruby>に<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>した。"
+      }
+    ],
+    "transPrompt": "Mengenai pemeriksaan kesehatan harian (health check), pilihlah satu yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Meskipun sakit perut, karena tidak ingin libur maka tidak melaporkannya."
+      },
+      {
+        "id": "B",
+        "text": "Melapor karena mengalami luka pada jari."
+      },
+      {
+        "id": "C",
+        "text": "Karena demam 38°C, melapor kepada atasan sebelum berangkat ke perusahaan."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q040",
+    "prompt": "<ruby>事故<rt>じこ</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐ<ruby>方法<rt>ほうほう</rt></ruby>として、まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>非常停止<rt>ひじょうていし</rt></ruby>ボタンを<ruby>押<rt>お</rt></ruby>して<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めた。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>のとびらを<ruby>閉<rt>し</rt></ruby>めるまえに、<ruby>中<rt>なか</rt></ruby>に<ruby>人<rt>ひと</rt></ruby>がいないか<ruby>確認<rt>かくにん</rt></ruby>する。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>油<rt>あぶら</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>せずフライヤーの<ruby>油<rt>あぶら</rt></ruby>を<ruby>交換<rt>こうかん</rt></ruby>する。"
+      }
+    ],
+    "transPrompt": "Sebagai cara mencegah kecelakaan kerja, pilihlah satu tindakan yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Menekan tombol berhenti darurat untuk menghentikan mesin."
+      },
+      {
+        "id": "B",
+        "text": "Memastikan tidak ada orang di dalam sebelum menutup pintu ruang pendingin."
+      },
+      {
+        "id": "C",
+        "text": "Mengganti minyak penggorengan (fryer) tanpa memeriksa suhu minyak terlebih dahulu."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q041",
+    "prompt": "<ruby>右<rt>みぎ</rt></ruby>の<ruby>表<rt>ひょう</rt></ruby>は300gのパンの<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>小麦粉<rt>こむぎこ</rt></ruby>4kgからどれだけのパンを<ruby>作<rt>つく</rt></ruby>ることができますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "5kg"
+      },
+      {
+        "id": "B",
+        "text": "6kg"
+      },
+      {
+        "id": "C",
+        "text": "7kg"
+      }
+    ],
+    "transPrompt": "Tabel di samping adalah contoh komposisi bahan untuk 300 g roti. Jika mengikuti komposisi ini, berapa banyak roti yang dapat dibuat dari 4 kg tepung terigu?",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "5 kg"
+      },
+      {
+        "id": "B",
+        "text": "6 kg"
+      },
+      {
+        "id": "C",
+        "text": "7 kg"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q042",
+    "prompt": "<ruby>下記<rt>かき</rt></ruby>は5<ruby>個<rt>こ</rt></ruby>の<ruby>餃子<rt>ぎょうざ</rt></ruby>の<ruby>配合例<rt>はいごうれい</rt></ruby>です。この<ruby>配合<rt>はいごう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>うと<ruby>豚<rt>ぶた</rt></ruby>ひき<ruby>肉<rt>にく</rt></ruby>1.2kgからどれだけの<ruby>餃子<rt>ぎょうざ</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ることができますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "25<ruby>個<rt>こ</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "27<ruby>個<rt>こ</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "30<ruby>個<rt>こ</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Di bawah ini adalah contoh komposisi bahan untuk 5 buah gyoza (pangsit). Jika mengikuti komposisi ini, berapa buah gyoza yang dapat dibuat dari 1,2 kg daging babi cincang?",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "25 buah"
+      },
+      {
+        "id": "B",
+        "text": "27 buah"
+      },
+      {
+        "id": "C",
+        "text": "30 buah"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q043",
+    "prompt": "<ruby>仕事中<rt>しごとちゅう</rt></ruby>に<ruby>体調<rt>たいちょう</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くなったときの<ruby>行動<rt>こうどう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つえらびなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "がまんできなかったので、だれにも<ruby>報告<rt>ほうこく</rt></ruby>せずに<ruby>帰<rt>かえ</rt></ruby>った。"
+      },
+      {
+        "id": "B",
+        "text": "すぐに<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>した。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>せずトイレに<ruby>行<rt>い</rt></ruby>った。"
+      }
+    ],
+    "transPrompt": "Sebagai tindakan yang tepat saat kondisi kesehatan memburuk di tengah pekerjaan, pilihlah satu yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Karena tidak tahan lagi, langsung pulang tanpa melapor kepada siapa pun."
+      },
+      {
+        "id": "B",
+        "text": "Segera melaporkan kepada atasan."
+      },
+      {
+        "id": "C",
+        "text": "Pergi ke toilet tanpa melapor kepada atasan."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q044",
+    "prompt": "<ruby>食品機械<rt>しょくひんきかい</rt></ruby>を<ruby>操作<rt>そうさ</rt></ruby>している<ruby>様子<rt>ようす</rt></ruby>です。<ruby>急<rt>きゅう</rt></ruby>に<ruby>停電発生<rt>ていでんはっせい</rt></ruby>した。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>まるので、そのままにします。"
+      },
+      {
+        "id": "B",
+        "text": "スイッチを<ruby>切<rt>き</rt></ruby>ります"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>機械<rt>きかい</rt></ruby>をまだ<ruby>動<rt>うご</rt></ruby>くかどうかを<ruby>確認<rt>かくにん</rt></ruby>するため、<ruby>手<rt>て</rt></ruby>で<ruby>触<rt>さわ</rt></ruby>ってみる"
+      }
+    ],
+    "transPrompt": "Saat sedang mengoperasikan mesin pengolahan makanan, tiba-tiba terjadi pemadaman listrik (mati lampu). Pilihlah satu tindakan yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Karena mesin berhenti sendiri, biarkan saja seperti itu."
+      },
+      {
+        "id": "B",
+        "text": "Mematikan sakelar (switch) daya mesin."
+      },
+      {
+        "id": "C",
+        "text": "Menyentuh mesin dengan tangan untuk memeriksa apakah mesin masih bergerak atau tidak."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q045",
+    "prompt": "<ruby>高温多湿工場内<rt>こうおんたしつこうじょうない</rt></ruby>でめまい、<ruby>立<rt>た</rt></ruby>ちくらみ<ruby>人<rt>ひと</rt></ruby>が<ruby>居<rt>い</rt></ruby>て、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>衣服<rt>いふく</rt></ruby>をゆるめて、<ruby>水<rt>みず</rt></ruby>を<ruby>飲<rt>の</rt></ruby>ませ、<ruby>仕事<rt>しごと</rt></ruby>を<ruby>続<rt>つづ</rt></ruby>ける"
+      },
+      {
+        "id": "B",
+        "text": "すぐ<ruby>救急車<rt>きゅうきゅうしゃ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>ぶ"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>涼<rt>すず</rt></ruby>しい<ruby>場所<rt>ばしょ</rt></ruby>へ<ruby>避難<rt>ひなん</rt></ruby>させ、<ruby>係員<rt>かかりいん</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>する"
+      }
+    ],
+    "transPrompt": "Di dalam pabrik yang bersuhu tinggi dan lembap, terdapat pekerja yang mengalami pusing atau kunang-kunang saat berdiri (gejala awal heatstroke). Pilihlah satu tindakan yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Melonggarkan pakaian, memberi minum air, lalu menyuruhnya melanjutkan pekerjaan."
+      },
+      {
+        "id": "B",
+        "text": "Langsung memanggil ambulans (meskipun masih sadar dan hanya gejala ringan)."
+      },
+      {
+        "id": "C",
+        "text": "Mengevakuasinya ke tempat yang sejuk dan melaporkan kepada petugas/penanggung jawab."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q046",
+    "prompt": "<ruby>機械<rt>きかい</rt></ruby>（コンベア）を<ruby>掃除<rt>そうじ</rt></ruby>するとき、<ruby>正<rt>ただ</rt></ruby>しくないものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>めてから、<ruby>掃除<rt>そうじ</rt></ruby>する"
+      },
+      {
+        "id": "B",
+        "text": "コンベアのスピードが<ruby>遅<rt>おそ</rt></ruby>いので、<ruby>機械<rt>きかい</rt></ruby>を<ruby>停止<rt>ていし</rt></ruby>させなくぞうきんで<ruby>拭<rt>ふ</rt></ruby>く"
+      },
+      {
+        "id": "C",
+        "text": "「<ruby>掃除中<rt>そうじちゅう</rt></ruby>」を<ruby>表示<rt>ひょうじ</rt></ruby>、うっかり<ruby>起動<rt>きどう</rt></ruby>することを<ruby>防止<rt>ぼうし</rt></ruby>する"
+      }
+    ],
+    "transPrompt": "Saat membersihkan mesin (konveyor), pilihlah satu tindakan yang tidak benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Menghentikan mesin terlebih dahulu sebelum membersihkan"
+      },
+      {
+        "id": "B",
+        "text": "Karena kecepatan konveyor lambat, mengelapnya dengan kain lap tanpa menghentikan mesin"
+      },
+      {
+        "id": "C",
+        "text": "Memasang tanda \"Sedang Dibersihkan\" untuk mencegah mesin dinyalakan secara tidak sengaja"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q047",
+    "prompt": "<ruby>仕事<rt>しごと</rt></ruby>の<ruby>後<rt>あと</rt></ruby>、<ruby>床<rt>ゆか</rt></ruby>の<ruby>掃除時間<rt>そうじじかん</rt></ruby>になります。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "ホースにかかる<ruby>水<rt>みず</rt></ruby>の<ruby>圧力<rt>あつりょく</rt></ruby>でホース<ruby>動<rt>うご</rt></ruby>き、バランスを<ruby>崩<rt>くず</rt></ruby>す<ruby>可能性<rt>かのうせい</rt></ruby>があるので、ゆっくり<ruby>蛇口<rt>じゃぐち</rt></ruby>を<ruby>開<rt>ひら</rt></ruby>く"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>早<rt>はや</rt></ruby>めに<ruby>終<rt>お</rt></ruby>わらせたいので、<ruby>水道<rt>すいどう</rt></ruby>の<ruby>蛇口<rt>じゃぐち</rt></ruby>を<ruby>最大<rt>さいだい</rt></ruby>に<ruby>開<rt>ひら</rt></ruby>く。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>片手<rt>かたて</rt></ruby>でホースを<ruby>持<rt>も</rt></ruby>つ"
+      }
+    ],
+    "transPrompt": "Setelah selesai bekerja, tiba waktunya membersihkan lantai dengan selang air. Pilihlah satu tindakan yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Karena tekanan air pada selang dapat membuat selang bergerak liar dan menghilangkan keseimbangan tubuh, bukalah keran air secara perlahan"
+      },
+      {
+        "id": "B",
+        "text": "Karena ingin cepat selesai, membuka keran air ledeng hingga maksimal sekaligus"
+      },
+      {
+        "id": "C",
+        "text": "Memegang selang hanya dengan satu tangan"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q048",
+    "prompt": "<ruby>大<rt>おお</rt></ruby>きな<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>運<rt>はこ</rt></ruby>ぶため、<ruby>荷台<rt>にだい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う。<ruby>正<rt>ただ</rt></ruby>しくないものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>重<rt>かさ</rt></ruby>ねないようにする"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>操作<rt>そうさ</rt></ruby>スピードをアップしたいので、<ruby>箱<rt>はこ</rt></ruby>を<ruby>重<rt>かさ</rt></ruby>ねて、ふらついて<ruby>台車<rt>だいしゃ</rt></ruby>に<ruby>足<rt>あし</rt></ruby>をのせ、ストッパーを<ruby>付<rt>つ</rt></ruby>けない"
+      },
+      {
+        "id": "C",
+        "text": "ストッパーをつけ、<ruby>二人<rt>ふたり</rt></ruby>で<ruby>運<rt>はこ</rt></ruby>ぶ"
+      }
+    ],
+    "transPrompt": "Menggunakan troli pengangkut barang (nidai/daisha) untuk mengangkut barang yang besar. Pilihlah satu tindakan yang tidak benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Tidak menumpuk barang terlalu tinggi"
+      },
+      {
+        "id": "B",
+        "text": "Karena ingin mempercepat pekerjaan, menumpuk kotak tinggi-tinggi, menginjakkan kaki ke atas troli yang goyah, dan tidak memasang pengunci roda (stopper)"
+      },
+      {
+        "id": "C",
+        "text": "Memasang pengunci roda saat memuat barang dan mengangkutnya berdua"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q049",
+    "prompt": "<ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>掃除<rt>そうじ</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>電気具周辺<rt>でんきぐしゅうへん</rt></ruby>で<ruby>水<rt>みず</rt></ruby>がかからないようにモップをよく<ruby>絞<rt>しぼ</rt></ruby>っていく"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>電気具周辺<rt>でんきぐしゅうへん</rt></ruby>に<ruby>掃除<rt>そうじ</rt></ruby>しない"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>電気具周辺<rt>でんきぐしゅうへん</rt></ruby>に<ruby>粘着<rt>ねんちゃく</rt></ruby>ローラーで<ruby>掃除<rt>そうじ</rt></ruby>する"
+      }
+    ],
+    "transPrompt": "Mengenai pembersihan tempat kerja (di sekitar peralatan listrik), pilihlah satu tindakan yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Di sekitar peralatan listrik, memeras kain pel (mop) dengan kuat agar air tidak terciprat mengenai peralatan listrik"
+      },
+      {
+        "id": "B",
+        "text": "Tidak membersihkan area di sekitar peralatan listrik"
+      },
+      {
+        "id": "C",
+        "text": "Membersihkan lantai di sekitar peralatan listrik menggunakan roller perekat pakaian"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-kunci-ujian-16",
+    "id": "kunci-ujian-16-q050",
+    "prompt": "<ruby>機械<rt>きかい</rt></ruby>の<ruby>状態<rt>じょうたい</rt></ruby>がいつもと<ruby>違<rt>ちが</rt></ruby>っていたら、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>にすぐに<ruby>知<rt>し</rt></ruby>らせます"
+      },
+      {
+        "id": "B",
+        "text": "マニュアルを<ruby>確認<rt>かくにん</rt></ruby>し、<ruby>自分<rt>じぶん</rt></ruby>で<ruby>修理<rt>しゅうり</rt></ruby>する"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>と<ruby>相談<rt>そうだん</rt></ruby>し、<ruby>修理<rt>しゅうり</rt></ruby>する"
+      }
+    ],
+    "transPrompt": "Apabila kondisi mesin terasa berbeda dari biasanya (tidak normal), pilihlah satu tindakan yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Segera memberi tahu penanggung jawab dan orang-orang di sekitar"
+      },
+      {
+        "id": "B",
+        "text": "Memeriksa buku manual lalu memperbaikinya sendiri"
+      },
+      {
+        "id": "C",
+        "text": "Berdiskusi dengan orang di sekitar lalu memperbaikinya sendiri"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q001",
+    "prompt": "1. 物理的危害要因の説明について、正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "硬くて歯が欠ける、尖っていて口の中に傷ができるなど、人にケガをさせる恐れがあるもの"
+      },
+      {
+        "id": "B",
+        "text": "食中毒になる原因の物質"
+      },
+      {
+        "id": "C",
+        "text": "アレルギー反応になる原因"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang benar mengenai penjelasan faktor bahaya fisik.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Benda yang berisiko melukai manusia, seperti benda keras yang membuat gigi patah atau benda tajam yang melukai bagian dalam mulut"
+      },
+      {
+        "id": "B",
+        "text": "Zat yang menjadi penyebab keracunan makanan"
+      },
+      {
+        "id": "C",
+        "text": "Penyebab terjadinya reaksi alergi"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q002",
+    "prompt": "2. 食品衛生の説明について、正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "工場や作業場で災害を起こさないようにすることです"
+      },
+      {
+        "id": "B",
+        "text": "食品の衛生管理のルールを守って、危害要因を含まないようにする"
+      },
+      {
+        "id": "C",
+        "text": "おいしい食品を作れるようにすることです。"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang benar mengenai penjelasan higiene pangan.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Mencegah terjadinya bencana/kecelakaan di pabrik atau tempat kerja"
+      },
+      {
+        "id": "B",
+        "text": "Mematuhi aturan manajemen higiene pangan agar tidak mengandung faktor bahaya"
+      },
+      {
+        "id": "C",
+        "text": "Membuat produk pangan yang lezat."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q003",
+    "prompt": "3. HACCP による衛生管理について、正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "一般衛生管理を使わないで、HACCPによる衛生管理をおこなう"
+      },
+      {
+        "id": "B",
+        "text": "管理基準の設定は HACCP原則の一つです"
+      },
+      {
+        "id": "C",
+        "text": "重要管理点は一つだけ選びます"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang benar mengenai manajemen higiene berdasarkan HACCP.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Melakukan manajemen higiene berdasarkan HACCP tanpa menggunakan manajemen higiene umum"
+      },
+      {
+        "id": "B",
+        "text": "Penetapan batas kritis (standar manajemen) adalah salah satu prinsip HACCP"
+      },
+      {
+        "id": "C",
+        "text": "Titik kendali kritis (CCP) hanya dipilih satu saja"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q004",
+    "prompt": "4. 指差呼称の説明について、間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "作業や機械のスイッチを入れる前には、安全を確認する"
+      },
+      {
+        "id": "B",
+        "text": "信号、標識、器具、作業対象などを指で指しながら、その名称や状態を声に出して言います。"
+      },
+      {
+        "id": "C",
+        "text": "他の人が危険な作業をしているのを見たら、声をかけて注意する。"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang salah mengenai penjelasan tunjuk dan sebut (shisa koshou).",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Memastikan keselamatan sebelum memulai pekerjaan atau menyalakan sakelar mesin"
+      },
+      {
+        "id": "B",
+        "text": "Menunjuk sinyal, rambu, peralatan, atau objek kerja dengan jari sambil menyebutkan nama dan kondisinya dengan suara jelas."
+      },
+      {
+        "id": "C",
+        "text": "Jika melihat orang lain melakukan pekerjaan berbahaya, menegurnya dengan suara."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q005",
+    "prompt": "5. ノロウイルスによる食中毒を防ぐために、何原則がありますか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "つけない、増やさない、殺す。3原則に分けられます"
+      },
+      {
+        "id": "B",
+        "text": "つけない、持ち込まない、殺す、広げない。4原則に分けられます"
+      },
+      {
+        "id": "C",
+        "text": "つけない、持ち込まない、増やさない、殺す、広げない。5原則に分けられます"
+      }
+    ],
+    "transPrompt": "Ada berapa prinsip untuk mencegah keracunan makanan akibat Norovirus? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Dibagi menjadi 3 prinsip: tidak menempelkan, tidak memperbanyak, dan membunuh"
+      },
+      {
+        "id": "B",
+        "text": "Dibagi menjadi 4 prinsip: tidak menempelkan, tidak membawa masuk, membunuh, dan tidak menyebarkan"
+      },
+      {
+        "id": "C",
+        "text": "Dibagi menjadi 5 prinsip: tidak menempelkan, tidak membawa masuk, tidak memperbanyak, membunuh, dan tidak menyebarkan"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q006",
+    "prompt": "6. もう少し作業が終わるのに、おなかが痛くなります。何をすればいいいですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "もう少し仕事が終わりますので、誰にも言わず、我慢します。"
+      },
+      {
+        "id": "B",
+        "text": "作業を止めて、責任者に報告します。"
+      },
+      {
+        "id": "C",
+        "text": "もう少し作業が終わりますので、すぐに帰ってもいいです。"
+      }
+    ],
+    "transPrompt": "Pekerjaan sebentar lagi selesai, tetapi perut terasa sakit. Apa yang sebaiknya dilakukan? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Karena pekerjaan sebentar lagi selesai, menahannya tanpa memberi tahu siapa pun."
+      },
+      {
+        "id": "B",
+        "text": "Menghentikan pekerjaan dan melaporkannya kepada penanggung jawab."
+      },
+      {
+        "id": "C",
+        "text": "Karena pekerjaan sebentar lagi selesai, boleh langsung pulang."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q007",
+    "prompt": "7. X線異物検出器の機能について、間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "すべてプラスチックを検出できます"
+      },
+      {
+        "id": "B",
+        "text": "肉に残ってている骨を検出できます"
+      },
+      {
+        "id": "C",
+        "text": "ガラスや石を検出できます"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang salah mengenai fungsi alat pendeteksi benda asing sinar-X (X-ray).",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Dapat mendeteksi semua jenis plastik"
+      },
+      {
+        "id": "B",
+        "text": "Dapat mendeteksi tulang yang tersisa di dalam daging"
+      },
+      {
+        "id": "C",
+        "text": "Dapat mendeteksi kaca dan batu"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q008",
+    "prompt": "8. 労働安全の５S活動の説明について、間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "整理は、不要なものが作業場にない状態を保ちます。転倒災害の危険が減ります。"
+      },
+      {
+        "id": "B",
+        "text": "習慣づけは毎日同じの作業場で作業することができます。安心して作業ができるので、労働災害を防ぐことにつながります。"
+      },
+      {
+        "id": "C",
+        "text": "整理、整頓、清掃をして、食中毒の予防だけでなく、作業者の熱中症の予防にも役に立ちます。"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang salah mengenai penjelasan kegiatan 5S dalam keselamatan kerja.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Ringkas (Pemilahan) adalah menjaga kondisi tidak adanya barang yang tidak diperlukan di tempat kerja. Risiko kecelakaan terjatuh/terpeleset akan berkurang."
+      },
+      {
+        "id": "B",
+        "text": "Rajin (Pembiasaan) membuat kita dapat bekerja di tempat kerja yang kondisinya sama setiap hari. Karena dapat bekerja dengan tenang, hal ini mengarah pada pencegahan kecelakaan kerja."
+      },
+      {
+        "id": "C",
+        "text": "Melakukan Ringkas, Rapi, dan Resik tidak hanya bermanfaat untuk mencegah keracunan makanan, tetapi juga mencegah sengatan panas (heatstroke) pada pekerja."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q009",
+    "prompt": "9. 準清潔作業区域に作業していますが、清潔作業区域が忙しいところで、手伝いに行くとき、何を注意しなければなりませんか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "作業服のまま、エアシャワーを入って消毒します。清潔作業区域に入る"
+      },
+      {
+        "id": "B",
+        "text": "清潔作業区域の作業服を着替えてから、清潔作業区域に入る"
+      },
+      {
+        "id": "C",
+        "text": "忙しいですから、作業服をそのままにする"
+      }
+    ],
+    "transPrompt": "Saat sedang bekerja di area kerja semi-bersih, area kerja bersih sedang sibuk sehingga Anda pergi membantu ke sana. Apa yang harus diperhatikan? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Tetap mengenakan pakaian kerja tersebut, masuk ke air shower untuk disinfeksi, lalu masuk ke area kerja bersih"
+      },
+      {
+        "id": "B",
+        "text": "Mengganti pakaian dengan pakaian kerja khusus area kerja bersih terlebih dahulu, baru masuk ke area kerja bersih"
+      },
+      {
+        "id": "C",
+        "text": "Karena sedang sibuk, membiarkan pakaian kerja apa adanya"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q010",
+    "prompt": "10. 食中毒菌の予防する3原則による、「つけない」の説明について、間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "適当の温度と時間を殺すことです。"
+      },
+      {
+        "id": "B",
+        "text": "作業開始前や必要な時に、決まられたとおりに手洗いをします。"
+      },
+      {
+        "id": "C",
+        "text": "機械や調理器具は洗浄し、殺菌します。"
+      }
+    ],
+    "transPrompt": "Berdasarkan 3 prinsip pencegahan bakteri keracunan makanan, pilihlah satu jawaban yang salah mengenai penjelasan \"tidak menempelkan\".",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Membunuh pada suhu dan waktu yang tepat."
+      },
+      {
+        "id": "B",
+        "text": "Mencuci tangan sesuai aturan sebelum memulai pekerjaan dan pada saat diperlukan."
+      },
+      {
+        "id": "C",
+        "text": "Mencuci dan mensterilkan mesin serta peralatan masak."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q011",
+    "prompt": "11. 食品の残りカスや汚水が床や排水口にたまったままになっていると、微生物が発生します。では、床や排水口の清掃するとき、何を注意しなければなりませんか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "排水口の上に作業台や大型の機械を置きます。ネズミが入ってこないため"
+      },
+      {
+        "id": "B",
+        "text": "一日の初め、作業の前に、水が十分に流して、食品の残りカスが残らないようにする"
+      },
+      {
+        "id": "C",
+        "text": "排水口はフタを外して洗います。食品のカスなどが残らないように清掃します。また、外したフタの裏側も洗います。"
+      }
+    ],
+    "transPrompt": "Jika sisa-sisa makanan atau air kotor dibiarkan menggenang di lantai atau saluran pembuangan air, mikroorganisme akan muncul. Lalu, apa yang harus diperhatikan saat membersihkan lantai dan saluran pembuangan air?",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Meletakkan meja kerja atau mesin besar di atas saluran pembuangan air agar tikus tidak masuk"
+      },
+      {
+        "id": "B",
+        "text": "Di awal hari sebelum bekerja, mengalirkan air yang cukup agar tidak ada sisa-sisa makanan yang tertinggal"
+      },
+      {
+        "id": "C",
+        "text": "Melepas penutup saluran pembuangan air lalu mencucinya. Membersihkan hingga tidak ada sisa makanan yang tertinggal, serta mencuci bagian balik penutup yang dilepas."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q012",
+    "prompt": "12. 体の中で菌が増えて発症する微生物はどれですか。間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "黄色ブドウ球菌"
+      },
+      {
+        "id": "B",
+        "text": "サルモネラ属菌"
+      },
+      {
+        "id": "C",
+        "text": "セレウス菌"
+      }
+    ],
+    "transPrompt": "Manakah mikroorganisme yang menimbulkan gejala penyakit karena bakterinya berkembang biak di dalam tubuh? Pilihlah satu jawaban yang salah (atau pengecualian).",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Staphylococcus aureus"
+      },
+      {
+        "id": "B",
+        "text": "Bakteri genus Salmonella"
+      },
+      {
+        "id": "C",
+        "text": "Bakteri Bacillus cereus"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q013",
+    "prompt": "13. ５S活動の中の「整理」は、どのような活動ですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "使わないものをなくして、使うものだけにすること。"
+      },
+      {
+        "id": "B",
+        "text": "決まられたことを常に守って、実行する"
+      },
+      {
+        "id": "C",
+        "text": "作業道具や材料の置き場所を決めておく"
+      }
+    ],
+    "transPrompt": "Kegiatan seperti apakah \"Ringkas (Pemilahan / Seiri)\" dalam kegiatan 5S? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Menyingkirkan barang yang tidak digunakan dan menyisakan hanya barang yang digunakan."
+      },
+      {
+        "id": "B",
+        "text": "Selalu mematuhi dan melaksanakan hal-hal yang telah ditetapkan"
+      },
+      {
+        "id": "C",
+        "text": "Menentukan tempat penyimpanan peralatan kerja dan bahan terlebih dahulu."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q014",
+    "prompt": "<ruby>異物混入<rt>いぶつこんにゅう</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐために、<ruby>何<rt>なに</rt></ruby>をしなければなりませんか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>原材料<rt>げんざいりょう</rt></ruby>に<ruby>異物<rt>いぶつ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていないか、よく<ruby>観察<rt>かんさつ</rt></ruby>する。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>るとき、<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>ネットをかぶらないで、<ruby>帽子<rt>ぼうし</rt></ruby>を<ruby>直接<rt>ちょくせつ</rt></ruby>かぶる。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>自分<rt>じぶん</rt></ruby>が<ruby>担当<rt>たんとう</rt></ruby>する<ruby>作業場<rt>さぎょうじょう</rt></ruby>で<ruby>小<rt>ちい</rt></ruby>さい<ruby>異物<rt>いぶつ</rt></ruby>が<ruby>製品<rt>せいひん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>っていることがわかったら、だれにも<ruby>言<rt>い</rt></ruby>わず、<ruby>自分<rt>じぶん</rt></ruby>で<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>す。"
+      }
+    ],
+    "transPrompt": "Untuk mencegah masuknya benda asing (kontaminasi fisik), apa yang harus dilakukan?",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Mengamati dengan cermat apakah ada benda asing yang masuk ke dalam bahan baku."
+      },
+      {
+        "id": "B",
+        "text": "Saat mengenakan pakaian kerja, langsung memakai topi tanpa memakai jaring rambut (hairnet)."
+      },
+      {
+        "id": "C",
+        "text": "Jika mengetahui ada benda asing kecil masuk ke dalam produk di area kerja yang menjadi tanggung jawab sendiri, mengambilnya sendiri tanpa memberi tahu siapa pun."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q015",
+    "prompt": "15. ノロウイルスを殺すために、何度何分で加熱必要ですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "中心温度85℃ー90℃、90秒以内"
+      },
+      {
+        "id": "B",
+        "text": "中心温度85℃ー90℃、90秒以上"
+      },
+      {
+        "id": "C",
+        "text": "表面温度85℃ー90℃、90秒以上"
+      }
+    ],
+    "transPrompt": "Untuk membunuh Norovirus, perlu pemanasan pada suhu berapa derajat dan berapa lama? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Suhu bagian tengah (suhu inti) 85°C–90°C, kurang dari 90 detik"
+      },
+      {
+        "id": "B",
+        "text": "Suhu bagian tengah (suhu inti) 85°C–90°C, selama 90 detik atau lebih"
+      },
+      {
+        "id": "C",
+        "text": "Suhu permukaan 85°C–90°C, selama 90 detik atau lebih"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q016",
+    "prompt": "16. 「一般衛生管理」では「施設、設備、器具などの衛生管理」、「作業者の衛生管理」のほか、何が重要ですか、間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "5S"
+      },
+      {
+        "id": "B",
+        "text": "原材料・食品の衛生管理"
+      },
+      {
+        "id": "C",
+        "text": "HACCP"
+      }
+    ],
+    "transPrompt": "Dalam \"Manajemen higiene umum\", selain \"Manajemen higiene fasilitas, peralatan, perkakas, dll.\" dan \"Manajemen higiene pekerja\", apa lagi yang penting? Pilihlah satu jawaban yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "5S"
+      },
+      {
+        "id": "B",
+        "text": "Manajemen higiene bahan baku dan produk pangan"
+      },
+      {
+        "id": "C",
+        "text": "HACCP"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q017",
+    "prompt": "<ruby>働<rt>はたら</rt></ruby>く<ruby>経験<rt>けいけん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>よりも、<ruby>働<rt>はたら</rt></ruby>く<ruby>経験<rt>けいけん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない<ruby>人<rt>ひと</rt></ruby>のほうが<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>危険<rt>きけん</rt></ruby>な<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>担当<rt>たんとう</rt></ruby>することが<ruby>多<rt>おお</rt></ruby>い"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>年齢<rt>ねんれい</rt></ruby>が<ruby>若<rt>わか</rt></ruby>く、<ruby>作業時間<rt>さぎょうじかん</rt></ruby>が<ruby>長<rt>なが</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れていないため、<ruby>危険<rt>きけん</rt></ruby>に<ruby>気<rt>き</rt></ruby>が<ruby>付<rt>つ</rt></ruby>きにくい"
+      }
+    ],
+    "transPrompt": "Apa alasan kecelakaan kerja lebih banyak terjadi pada pekerja yang kurang berpengalaman dibandingkan pekerja yang sudah lama bekerja? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Lebih sering ditugaskan pada pekerjaan yang berbahaya."
+      },
+      {
+        "id": "B",
+        "text": "Banyak yang berusia muda dan memiliki jam kerja yang panjang."
+      },
+      {
+        "id": "C",
+        "text": "Belum terbiasa dengan pekerjaan sehingga sulit menyadari bahaya."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q018",
+    "prompt": "18. 「危害要因を分析して、製造しようとする食品に危害要因が含まれないようにするために、どのような管理が必要かを判断します」はどんな原則ですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "危害要因分析（ハザード分析）"
+      },
+      {
+        "id": "B",
+        "text": "重要管理点の決定"
+      },
+      {
+        "id": "C",
+        "text": "管理基準の設定"
+      }
+    ],
+    "transPrompt": "Prinsip apakah \"Menganalisis faktor bahaya dan menentukan manajemen seperti apa yang diperlukan agar produk pangan yang akan diproduksi tidak mengandung faktor bahaya\"? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Analisis bahaya (Hazard Analysis)"
+      },
+      {
+        "id": "B",
+        "text": "Penentuan titik kendali kritis (CCP)"
+      },
+      {
+        "id": "C",
+        "text": "Penetapan batas kritis (standar manajemen)"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q019",
+    "prompt": "19. 穀類加工品（小麦粉、デンプン）は何度で保管すればいいですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "10℃以下"
+      },
+      {
+        "id": "B",
+        "text": "室温"
+      },
+      {
+        "id": "C",
+        "text": "30℃以下"
+      }
+    ],
+    "transPrompt": "Produk olahan biji-bijian/serealia (tepung terigu, pati) sebaiknya disimpan pada suhu berapa derajat? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "10°C atau lebih rendah"
+      },
+      {
+        "id": "B",
+        "text": "Suhu ruang"
+      },
+      {
+        "id": "C",
+        "text": "30°C atau lebih rendah"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q020",
+    "prompt": "20. 危害要因の説明について、間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "虫や髪の毛、紙片のようにかたくない異物は、硬質異物と言わず、口の中やのどに傷ができることはないので、物理的危害ではありません。"
+      },
+      {
+        "id": "B",
+        "text": "プラスチックは X線異物検出器では見つけることができないため、物理的危害ではありません。"
+      },
+      {
+        "id": "C",
+        "text": "作業服を着た後、粘着ローラ、またエアシャワーを利用して、異物混入の対策です。"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang salah mengenai penjelasan faktor bahaya.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Benda asing yang tidak keras seperti serangga, rambut, dan potongan kertas tidak disebut benda asing keras dan tidak melukai bagian dalam mulut atau tenggorokan, sehingga bukan merupakan bahaya fisik."
+      },
+      {
+        "id": "B",
+        "text": "Plastik tidak dapat ditemukan oleh alat pendeteksi benda asing sinar-X (X-ray), sehingga bukan merupakan bahaya fisik."
+      },
+      {
+        "id": "C",
+        "text": "Menggunakan rol perekat dan air shower setelah mengenakan pakaian kerja merupakan langkah pencegahan kontaminasi benda asing."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q021",
+    "prompt": "21. 交差汚染を防止するために、何をしないといけませんか。間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "清潔作業区域、準清潔作業区域、汚染作業区域など区分し、汚染作業区域で作業する人が、準清潔作業区域や清潔作業区域に入らないようにしなければなりませんか。"
+      },
+      {
+        "id": "B",
+        "text": "原材料を、段ボール箱やコンテナのまま準清潔作業区域や清潔作業区域に持ち込んでおき、必要な時に利用する。"
+      },
+      {
+        "id": "C",
+        "text": "不要になった原材料や掃除で出たごみを作業場から出すときは、決められたルートで決められた時間に出します。"
+      }
+    ],
+    "transPrompt": "Apa yang harus dilakukan untuk mencegah kontaminasi silang? Pilihlah satu jawaban yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Membagi zona menjadi area kerja bersih, area kerja semi-bersih, dan area kerja terkontaminasi, serta memastikan orang yang bekerja di area kerja terkontaminasi tidak masuk ke area kerja semi-bersih maupun area kerja bersih."
+      },
+      {
+        "id": "B",
+        "text": "Membawa masuk bahan baku masih di dalam kotak kardus atau kontainer ke area kerja semi-bersih atau area kerja bersih, lalu menggunakannya saat diperlukan."
+      },
+      {
+        "id": "C",
+        "text": "Saat mengeluarkan bahan baku yang sudah tidak diperlukan atau sampah hasil pembersihan dari tempat kerja, keluarkan melalui jalur yang telah ditentukan dan pada waktu yang telah ditentukan."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q022",
+    "prompt": "22. 薬剤の管理について、間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "薬剤は、名称が分かるように表示しなければなりません。"
+      },
+      {
+        "id": "B",
+        "text": "表示のないものを見つけたら、すぐに責任者へ報告しなければなりません。"
+      },
+      {
+        "id": "C",
+        "text": "薬剤を使った後、ちょっとだけ残りましたが、明日も使うので、製造工場内に放置しました。"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang salah mengenai pengelolaan bahan kimia/obat pembersih.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Bahan kimia harus diberi label agar namanya dapat diketahui."
+      },
+      {
+        "id": "B",
+        "text": "Jika menemukan bahan kimia tanpa label, harus segera melaporkannya kepada penanggung jawab."
+      },
+      {
+        "id": "C",
+        "text": "Setelah menggunakan bahan kimia, tersisa sedikit, tetapi karena besok akan digunakan lagi, bahan kimia tersebut dibiarkan di dalam pabrik produksi."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q023",
+    "prompt": "23. 充填、包装、検査について、間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "印字する機械の設定が正しいことを確認できたら、印字された内容も自動的にに正しくなるため、大量印字を開始できます。"
+      },
+      {
+        "id": "B",
+        "text": "賞味期限や消費期限の数字を間違えてしまうミスが多く発生しているので、印字する機械の設定や印字された内容が間違っていないことを別の人が確認する。"
+      },
+      {
+        "id": "C",
+        "text": "印字された内容は間違っていることを発見したら、すぐに作業を止めて責任者に報告する。"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang salah mengenai pengisian, pengemasan, dan pemeriksaan.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Setelah memastikan pengaturan mesin pencetak sudah benar, isi yang dicetak secara otomatis akan benar, sehingga pencetakan dalam jumlah besar dapat dimulai."
+      },
+      {
+        "id": "B",
+        "text": "Karena sering terjadi kesalahan pencetakan angka batas waktu kualitas terbaik (baik digunakan sebelum) atau batas waktu konsumsi, orang lain turut memeriksa bahwa pengaturan mesin pencetak dan isi yang dicetak tidak salah."
+      },
+      {
+        "id": "C",
+        "text": "Jika menemukan bahwa isi yang dicetak salah, segera hentikan pekerjaan dan laporkan kepada penanggung jawab."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q024",
+    "prompt": "24. 食品を製造する場合に重要管理点となる代表的な工程はいくつありますか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "3つ"
+      },
+      {
+        "id": "B",
+        "text": "5つ"
+      },
+      {
+        "id": "C",
+        "text": "7つ"
+      }
+    ],
+    "transPrompt": "Ada berapa proses utama (representatif) yang menjadi titik kendali kritis (CCP) saat memproduksi produk pangan? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "3 proses"
+      },
+      {
+        "id": "B",
+        "text": "5 proses"
+      },
+      {
+        "id": "C",
+        "text": "7 proses"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q025",
+    "prompt": "25. 決められた作業手順を守る際の注意事項として、間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "作業の手順は、必ず守り、共同でする作業は連絡や合図を確実に行う"
+      },
+      {
+        "id": "B",
+        "text": "作業やスイッチを入れる前には指差呼称で確認する"
+      },
+      {
+        "id": "C",
+        "text": "他の人が危険な作業をしているを見たら、小さいな声をかけて注意する"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang salah sebagai hal yang harus diperhatikan saat mematuhi prosedur kerja yang telah ditetapkan.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Selalu mematuhi prosedur kerja, dan untuk pekerjaan yang dilakukan bersama-sama, pastikan melakukan komunikasi dan memberi isyarat"
+      },
+      {
+        "id": "B",
+        "text": "Memeriksa dengan tunjuk dan sebut (shisa koshou) sebelum melakukan pekerjaan atau menyalakan sakelar"
+      },
+      {
+        "id": "C",
+        "text": "Jika melihat orang lain sedang melakukan pekerjaan berbahaya, menegurnya dengan suara pelan"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q026",
+    "prompt": "<ruby>異常事態<rt>いじょうじたい</rt></ruby>や<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>した<ruby>際<rt>さい</rt></ruby>にやるべきことで、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>異常事態<rt>いじょうじたい</rt></ruby>を<ruby>発見<rt>はっけん</rt></ruby>したら、まず<ruby>何<rt>なに</rt></ruby>が<ruby>起<rt>お</rt></ruby>こっているかをすばやく<ruby>確認<rt>かくにん</rt></ruby>する。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>時<rt>とき</rt></ruby>は<ruby>非常停止<rt>ひじょうていし</rt></ruby>ボタンで<ruby>機械<rt>きかい</rt></ruby>を<ruby>止<rt>と</rt></ruby>める。"
+      },
+      {
+        "id": "C",
+        "text": "まわりにいる<ruby>責任者<rt>せきにんしゃ</rt></ruby>や<ruby>同僚<rt>どうりょう</rt></ruby>に<ruby>小<rt>ちい</rt></ruby>さな<ruby>声<rt>こえ</rt></ruby>で<ruby>知<rt>し</rt></ruby>らせる。"
+      }
+    ],
+    "transPrompt": "Mengenai hal yang harus dilakukan saat terjadi kondisi abnormal atau kecelakaan kerja, pilihlah satu yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Saat menemukan kondisi abnormal, pertama-tama periksa dengan cepat apa yang sedang terjadi."
+      },
+      {
+        "id": "B",
+        "text": "Saat diperlukan, hentikan mesin dengan tombol berhenti darurat (emergency stop)."
+      },
+      {
+        "id": "C",
+        "text": "Memberi tahu penanggung jawab atau rekan kerja di sekitar dengan suara kecil."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q027",
+    "prompt": "27. 特定原材料に含まれている食品はどれですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      }
+    ],
+    "transPrompt": "Manakah bahan pangan yang termasuk dalam bahan baku spesifik (alergen wajib/tertentu)? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Pilihan gambar A (lihat ilustrasi pada soal)"
+      },
+      {
+        "id": "B",
+        "text": "Pilihan gambar B (lihat ilustrasi pada soal)"
+      },
+      {
+        "id": "C",
+        "text": "Pilihan gambar C (lihat ilustrasi pada soal)"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q028",
+    "prompt": "28. そばアレルギーを持つ人が避けるべき料理はどれですか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "B"
+      },
+      {
+        "id": "C",
+        "text": "C"
+      }
+    ],
+    "transPrompt": "Manakah hidangan yang harus dihindari oleh orang yang memiliki alergi soba (buckwheat)?",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Pilihan gambar A (lihat ilustrasi pada soal)"
+      },
+      {
+        "id": "B",
+        "text": "Pilihan gambar B (lihat ilustrasi pada soal)"
+      },
+      {
+        "id": "C",
+        "text": "Pilihan gambar C (lihat ilustrasi pada soal)"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q029",
+    "prompt": "問 29. HACCP のよる衛生管理を実施するとき、どんな時に、どうのように記録するか。間違っているものを選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "温度や濃度や時間は、測ったとき、確認したときすぐに記録しなければなりません"
+      },
+      {
+        "id": "B",
+        "text": "後でまとめて記録しなければなりません"
+      },
+      {
+        "id": "C",
+        "text": "事実でないことを記録することは、絶対にしてはいけません"
+      }
+    ],
+    "transPrompt": "Soal 29. Saat melaksanakan manajemen higiene berdasarkan HACCP, kapan dan bagaimana cara mencatatnya? Pilihlah jawaban yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Suhu, konsentrasi, dan waktu harus segera dicatat pada saat diukur dan diperiksa"
+      },
+      {
+        "id": "B",
+        "text": "Harus dicatat sekaligus nanti (dikumpulkan di akhir)"
+      },
+      {
+        "id": "C",
+        "text": "Sama sekali tidak boleh mencatat hal yang tidak sesuai dengan fakta"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q030",
+    "prompt": "30. エアコンの清掃が不十分な時に、作業場の衛生管理でどのような問題がありますか。一番正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "エアコンの中のカビやほこりが作業に広がる"
+      },
+      {
+        "id": "B",
+        "text": "電気料金が高くなって、工場のコストが上がる"
+      },
+      {
+        "id": "C",
+        "text": "冷房する力が弱くなって、温度が下がりにくくなる"
+      }
+    ],
+    "transPrompt": "Ketika pembersihan AC tidak memadai, masalah apa yang timbul dalam manajemen higiene tempat kerja? Pilihlah satu jawaban yang paling tepat.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Jamur dan debu di dalam AC menyebar ke area kerja"
+      },
+      {
+        "id": "B",
+        "text": "Tagihan listrik menjadi mahal sehingga biaya pabrik meningkat"
+      },
+      {
+        "id": "C",
+        "text": "Daya pendinginan melemah sehingga suhu sulit turun"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q031",
+    "prompt": "31. 肉や硬い野菜（かぼちゃ）などを強い力で切りたいですが、どんな安全保護具を着用しますか。",
+    "options": [
+      {
+        "id": "A",
+        "text": "くさり手袋"
+      },
+      {
+        "id": "B",
+        "text": "ミトン手袋"
+      },
+      {
+        "id": "C",
+        "text": "メクセル手袋"
+      }
+    ],
+    "transPrompt": "Saat ingin memotong daging atau sayuran keras (seperti labu) dengan tenaga yang kuat, alat pelindung diri (APD) apa yang dikenakan?",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Sarung tangan rantai baja (chainmail glove)"
+      },
+      {
+        "id": "B",
+        "text": "Sarung tangan miton (tahan panas)"
+      },
+      {
+        "id": "C",
+        "text": "Sarung tangan Mexel"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q032",
+    "prompt": "32. 日本で表示しなければならないアレルギー食品はどれですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "かに、えび"
+      },
+      {
+        "id": "B",
+        "text": "ジャガイモ、もも"
+      },
+      {
+        "id": "C",
+        "text": "オレンジ、バナナ"
+      }
+    ],
+    "transPrompt": "Manakah pangan alergen yang wajib dicantumkan pada label di Jepang? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Kepiting, udang"
+      },
+      {
+        "id": "B",
+        "text": "Kentang, persik"
+      },
+      {
+        "id": "C",
+        "text": "Jeruk, pisang"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q033",
+    "prompt": "33. 加熱調理が終わった食品をすぐに冷やす目的はなぜですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "食品の中に生き残っている細菌が増やさないため。"
+      },
+      {
+        "id": "B",
+        "text": "食品の風味がもっとおいしきくするため。"
+      },
+      {
+        "id": "C",
+        "text": "細菌が食品につけないため。"
+      }
+    ],
+    "transPrompt": "Mengapa produk pangan yang telah selesai dimasak dengan pemanasan harus segera didinginkan? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Agar bakteri yang masih bertahan hidup di dalam produk pangan tidak berkembang biak."
+      },
+      {
+        "id": "B",
+        "text": "Agar cita rasa produk pangan menjadi lebih lezat."
+      },
+      {
+        "id": "C",
+        "text": "Agar bakteri tidak menempel pada produk pangan."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q034",
+    "prompt": "34. 「切れ・こすれ」という災害はどんな時に起こるか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "包丁やカッターなどの着る機械を使っているとき、機械に原材料が詰まって手を入れた時など"
+      },
+      {
+        "id": "B",
+        "text": "階段を下りているとき、はしごや脚立を使って高い所で作業しているときなど"
+      },
+      {
+        "id": "C",
+        "text": "オーブンなどの機械を使っているとき、熱い湯や食品を扱っているときなど"
+      }
+    ],
+    "transPrompt": "Kapan kecelakaan \"terpotong atau tergores\" terjadi? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Saat menggunakan pisau dapur atau mesin pemotong seperti cutter, atau saat memasukkan tangan ketika bahan baku tersumbat di dalam mesin, dll."
+      },
+      {
+        "id": "B",
+        "text": "Saat menuruni tangga, atau saat bekerja di tempat tinggi menggunakan tangga atau pijakan, dll."
+      },
+      {
+        "id": "C",
+        "text": "Saat menggunakan mesin seperti oven, atau saat menangani air panas maupun produk pangan panas, dll."
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q035",
+    "prompt": "35. 特定原材料とは何ですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "日本の法律で食品加工に表示する義務があるもの"
+      },
+      {
+        "id": "B",
+        "text": "日本の法律で食品加工に表示が推奨されているもの"
+      },
+      {
+        "id": "C",
+        "text": "日本の法律で食品加工に表示してはいけないもの"
+      }
+    ],
+    "transPrompt": "Apa yang dimaksud dengan bahan baku spesifik (alergen wajib/tertentu)? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Bahan yang wajib dicantumkan pada produk pangan olahan berdasarkan undang-undang di Jepang"
+      },
+      {
+        "id": "B",
+        "text": "Bahan yang dianjurkan untuk dicantumkan pada produk pangan olahan berdasarkan undang-undang di Jepang"
+      },
+      {
+        "id": "C",
+        "text": "Bahan yang dilarang dicantumkan pada produk pangan olahan berdasarkan undang-undang di Jepang"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q036",
+    "prompt": "36. 以下の工程は区分衛生管理により、正しい順を並びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "A:清潔作業区域→B:準清潔作業区域→C:汚染作業区域"
+      },
+      {
+        "id": "B",
+        "text": "A:準清潔作業区域→B:清潔作業区域→C:汚染作業区域"
+      },
+      {
+        "id": "C",
+        "text": "A:汚染作業区域→B:準清潔作業区域→C:清潔作業区域"
+      }
+    ],
+    "transPrompt": "Urutkan proses berikut dengan benar berdasarkan manajemen higiene pembagian zona.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "A: Area kerja bersih → B: Area kerja semi-bersih → C: Area kerja terkontaminasi"
+      },
+      {
+        "id": "B",
+        "text": "A: Area kerja semi-bersih → B: Area kerja bersih → C: Area kerja terkontaminasi"
+      },
+      {
+        "id": "C",
+        "text": "A: Area kerja terkontaminasi → B: Area kerja semi-bersih → C: Area kerja bersih"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q037",
+    "prompt": "37. HACCP の原則4とは何ですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "重要管理点の管理基準を決める"
+      },
+      {
+        "id": "B",
+        "text": "重要管理点が管理基準を逸脱していた場合、基準通りにするためにはどうしたらよいかを決める"
+      },
+      {
+        "id": "C",
+        "text": "重要管理点の管理の状態を監視する方法を決める"
+      }
+    ],
+    "transPrompt": "Apa yang dimaksud dengan Prinsip 4 HACCP? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Menentukan batas kritis (standar manajemen) untuk titik kendali kritis (CCP)"
+      },
+      {
+        "id": "B",
+        "text": "Menentukan apa yang harus dilakukan untuk mengembalikannya sesuai standar apabila titik kendali kritis (CCP) menyimpang dari batas kritis"
+      },
+      {
+        "id": "C",
+        "text": "Menentukan metode untuk memantau (monitoring) kondisi manajemen pada titik kendali kritis (CCP)"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q038",
+    "prompt": "38. 薬品を使用する際の注意事項はなんですか。正しいものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "アルコールを火元の近くに置く"
+      },
+      {
+        "id": "B",
+        "text": "安全のため、安全保護を着用する"
+      },
+      {
+        "id": "C",
+        "text": "塩素系の洗剤と酸性洗剤を混ぜて使う"
+      }
+    ],
+    "transPrompt": "Apa hal yang harus diperhatikan saat menggunakan bahan kimia? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Meletakkan alkohol di dekat sumber api"
+      },
+      {
+        "id": "B",
+        "text": "Mengenakan alat pelindung diri (APD) demi keselamatan"
+      },
+      {
+        "id": "C",
+        "text": "Mencampur dan menggunakan deterjen berbasis klorin dengan deterjen asam"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q039",
+    "prompt": "39. 冷凍庫内で冷凍食品を運んでいるところ、床に霜がついていたため、足が滑って、転倒しそうになった。この場合では転倒の原因は何ですか。間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "冷蔵庫の床に霜がついて、滑りやすくなっていたことに十分な注意を払わなかった"
+      },
+      {
+        "id": "B",
+        "text": "荷物をたくさん持ってバランスをよく保たなかったこと"
+      },
+      {
+        "id": "C",
+        "text": "冷凍庫内で作業するがすべるにくい靴を履かなかったこと"
+      }
+    ],
+    "transPrompt": "Saat sedang mengangkut makanan beku di dalam freezer, kaki terpeleset dan hampir terjatuh karena terdapat bunga es di lantai. Dalam kasus ini, apa penyebab terjatuhnya pekerja tersebut? Pilihlah satu jawaban yang salah (atau sesuai konteks soal).",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Tidak memberikan perhatian yang cukup bahwa lantai kulkas/freezer tertutup bunga es dan menjadi licin"
+      },
+      {
+        "id": "B",
+        "text": "Membawa banyak barang sehingga tidak dapat menjaga keseimbangan dengan baik"
+      },
+      {
+        "id": "C",
+        "text": "Bekerja di dalam freezer tetapi tidak mengenakan sepatu yang tahan selip (tidak mudah licin)"
+      }
+    ]
+  },
+  {
+    "setId": "ssw-pm-tipe2-nguyen1",
+    "id": "q040",
+    "prompt": "40. 食肉加工品において、豚肉の 塊 を切断する作業中、安全カーバのないスライサーの回転刃に右手が当たりそうになった。右手に切らないようにどうしたらよいか。間違っているものを一つ選びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "スライスする食材を支えるときは専門用具を使う"
+      },
+      {
+        "id": "B",
+        "text": "スライサーの回転している刃の使用しない部分にはカバーをつける"
+      },
+      {
+        "id": "C",
+        "text": "直接手で作業する場合、二人で協力して作業する"
+      }
+    ],
+    "transPrompt": "Pada pengolahan produk daging, saat memotong bongkahan daging babi, tangan kanan hampir mengenai pisau berputar pada mesin pengiris (slicer) yang tidak memiliki penutup pengaman. Apa yang sebaiknya dilakukan agar tangan kanan tidak terpotong? Pilihlah satu jawaban yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Menggunakan alat khusus saat menahan bahan makanan yang akan diiris"
+      },
+      {
+        "id": "B",
+        "text": "Memasang penutup (cover) pada bagian pisau berputar mesin pengiris yang tidak digunakan"
+      },
+      {
+        "id": "C",
+        "text": "Jika bekerja langsung menggunakan tangan, bekerja sama berdua dalam melakukannya"
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q001",
+    "prompt": "アレルギー<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>として<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>がある8つの<ruby>食品<rt>しょくひん</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものはどれでしょう。<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "そば、たまご、ピナッツ、こむぎ、たまねぎ、えび、ぎゅうにく、くるみ"
+      },
+      {
+        "id": "B",
+        "text": "えび、かに、<ruby>牡蠣<rt>かき</rt></ruby>、にんじん、ぎゅうにく、りんご、オレンジ、そば"
+      },
+      {
+        "id": "C",
+        "text": "えび、かに、こむぎ、そば、たまご、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>、くるみ"
+      }
+    ],
+    "transPrompt": "Manakah 8 bahan pangan yang benar yang wajib dicantumkan sebagai bahan baku spesifik (alergen wajib/tertentu) pada pangan alergen? Pilihlah satu jawaban.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Soba (buckwheat), telur, kacang tanah, gandum, bawang bombai, udang, daging sapi, kenari (walnut)"
+      },
+      {
+        "id": "B",
+        "text": "Udang, kepiting, tiram, wortel, daging sapi, apel, jeruk, soba (buckwheat)"
+      },
+      {
+        "id": "C",
+        "text": "Udang, kepiting, gandum, soba (buckwheat), telur, susu, kacang tanah, kenari (walnut)"
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q002",
+    "prompt": "<ruby>食料品製造業<rt>しょくりょうひんせいぞうぎょう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>仕事<rt>しごと</rt></ruby>ですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "ハム、ソーセージ。"
+      },
+      {
+        "id": "B",
+        "text": "ジュース、お<ruby>茶<rt>ちゃ</rt></ruby>。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>弁当<rt>べんとう</rt></ruby>、お<ruby>菓子<rt>かし</rt></ruby>、パン。"
+      }
+    ],
+    "transPrompt": "Pekerjaan memproduksi apakah industri pengolahan makanan (shokuryouhin seizougyou)? Pilihlah jawaban yang salah.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Ham, sosis."
+      },
+      {
+        "id": "B",
+        "text": "Jus, teh."
+      },
+      {
+        "id": "C",
+        "text": "Nasi kotak (bento), kue/camilan, roti."
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q003",
+    "prompt": "<ruby>機械<rt>きかい</rt></ruby>や<ruby>器具<rt>きぐ</rt></ruby>を<ruby>洗浄<rt>せんじょう</rt></ruby>するときに、どのようにしますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>洗浄<rt>せんじょう</rt></ruby>する<ruby>部分<rt>ぶぶん</rt></ruby>を、<ruby>日<rt>ひ</rt></ruby>によって<ruby>変<rt>か</rt></ruby>える"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>で<ruby>洗<rt>あら</rt></ruby>った<ruby>後<rt>あと</rt></ruby>、<ruby>洗<rt>あら</rt></ruby>い<ruby>流<rt>なが</rt></ruby>さずに<ruby>乾<rt>かわ</rt></ruby>かす"
+      }
+    ],
+    "transPrompt": "Bagaimana cara yang tepat saat mencuci mesin atau peralatan? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Memastikan konsentrasi cairan pembersih (deterjen)."
+      },
+      {
+        "id": "B",
+        "text": "Mengubah bagian yang dicuci tergantung harinya."
+      },
+      {
+        "id": "C",
+        "text": "Mengeringkannya tanpa membilas setelah dicuci dengan cairan pembersih."
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q004",
+    "prompt": "<ruby>冷凍<rt>れいとう</rt></ruby>の<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>方法<rt>ほうほう</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを一<ruby>選<rt>えら</rt></ruby>びない。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>自然解凍<rt>しぜんかいとう</rt></ruby>。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>水冷<rt>すいれい</rt></ruby>。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>冷蔵庫解凍<rt>れいぞうこかいとう</rt></ruby>。"
+      }
+    ],
+    "transPrompt": "Pilihlah satu jawaban yang salah mengenai metode pencairan (thawing) bahan baku beku.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Pencairan alami pada suhu ruang."
+      },
+      {
+        "id": "B",
+        "text": "Pendinginan/pencairan dengan air mengalir."
+      },
+      {
+        "id": "C",
+        "text": "Pencairan di dalam kulkas (refrigerator)."
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q005",
+    "prompt": "「<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>」は３つに<ruby>分<rt>わ</rt></ruby>けます。「<ruby>施設<rt>しせつ</rt></ruby>、<ruby>設備<rt>せつび</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>」と「<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>」ともう<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>健康<rt>けんこう</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>。"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>原材料<rt>げんざいりょう</rt></ruby>、<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>。"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>。"
+      }
+    ],
+    "transPrompt": "\"Manajemen higiene umum\" dibagi menjadi 3 bagian. Selain \"Manajemen higiene fasilitas, peralatan, dan perkakas\" serta \"Manajemen higiene pekerja\", apakah satu bagian lainnya? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Manajemen kesehatan pekerja."
+      },
+      {
+        "id": "B",
+        "text": "Manajemen higiene bahan baku dan produk pangan."
+      },
+      {
+        "id": "C",
+        "text": "Manajemen keselamatan kerja."
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q006",
+    "prompt": "「5S<ruby>活動<rt>かつどう</rt></ruby>」とは、<ruby>一般衛生管理者<rt>いっぱんえいせいかんりしゃ</rt></ruby>のための５つの<ruby>主要<rt>しゅよう</rt></ruby>な<ruby>活動<rt>かつどう</rt></ruby>のことです。「<ruby>整理<rt>せいり</rt></ruby>」「<ruby>整頓<rt>せいとん</rt></ruby>」「<ruby>清潔<rt>せいけつ</rt></ruby>」「<ruby>習慣<rt>しゅうかん</rt></ruby>」の<ruby>他<rt>ほか</rt></ruby>の<ruby>一<rt>ひと</rt></ruby>つは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>清掃<rt>せいそう</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>集中<rt>しゅうちゅう</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>制作<rt>せいさく</rt></ruby>"
+      }
+    ],
+    "transPrompt": "\"Kegiatan 5S\" adalah lima kegiatan utama untuk manajemen higiene umum. Selain \"Ringkas (Seiri)\", \"Rapi (Seiton)\", \"Rawat (Seiketsu)\", dan \"Rajin (Shukan/Shitsuke)\", apakah satu kegiatan lainnya? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Resik / Pembersihan (Seiso)"
+      },
+      {
+        "id": "B",
+        "text": "Konsentrasi (Shuchu)"
+      },
+      {
+        "id": "C",
+        "text": "Produksi / Pembuatan (Seisaku)"
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q007",
+    "prompt": "5S<ruby>活動<rt>かつどう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>の「<ruby>整頓<rt>せいとん</rt></ruby>」は、どのような<ruby>活動<rt>かつどう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>職場<rt>しょくば</rt></ruby>や<ruby>工場<rt>こうじょう</rt></ruby>などのゴミを<ruby>捨<rt>す</rt></ruby>てる"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>決<rt>き</rt></ruby>められたことを<ruby>常<rt>つね</rt></ruby>に<ruby>守<rt>まも</rt></ruby>って<ruby>実行<rt>じっこう</rt></ruby>する"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>作業道具<rt>さぎょうどうぐ</rt></ruby>や<ruby>材料<rt>ざいりょう</rt></ruby>の<ruby>置<rt>お</rt></ruby>き<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めておく"
+      }
+    ],
+    "transPrompt": "Kegiatan seperti apakah \"Rapi (Seiton)\" dalam kegiatan 5S? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Membuang sampah di tempat kerja atau pabrik."
+      },
+      {
+        "id": "B",
+        "text": "Selalu mematuhi dan menjalankan hal-hal yang telah ditetapkan."
+      },
+      {
+        "id": "C",
+        "text": "Menentukan tempat penyimpanan peralatan kerja dan bahan terlebih dahulu."
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q008",
+    "prompt": "ノロウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>主<rt>おも</rt></ruby>な<ruby>原因<rt>げんいん</rt></ruby>になる<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>卵<rt>たまご</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>米<rt>こめ</rt></ruby>、<ruby>麦<rt>むぎ</rt></ruby>、<ruby>豆<rt>まめ</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Pangan apakah yang menjadi penyebab utama keracunan makanan akibat Norovirus? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Telur dan daging ayam"
+      },
+      {
+        "id": "B",
+        "text": "Beras, gandum, dan kacang-kacangan"
+      },
+      {
+        "id": "C",
+        "text": "Kerang berkeping dua (bivalvia) seperti tiram"
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q009",
+    "prompt": "<ruby>主<rt>おも</rt></ruby>な<ruby>原因<rt>げんいん</rt></ruby>になる<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>食肉<rt>しょくにく</rt></ruby>（<ruby>鶏肉<rt>とりにく</rt></ruby>）で、<ruby>感染<rt>かんせん</rt></ruby>すると、<ruby>下痢<rt>げり</rt></ruby>、<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>発熱<rt>はつねつ</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>が<ruby>出<rt>で</rt></ruby>る<ruby>細菌<rt>さいきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ"
+      },
+      {
+        "id": "C",
+        "text": "ボツリヌス<ruby>菌<rt>きん</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Bakteri manakah yang penyebab utamanya adalah daging (daging ayam) dan menimbulkan gejala diare, sakit perut, serta demam jika terinfeksi? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Bakteri genus Campylobacter"
+      },
+      {
+        "id": "B",
+        "text": "Vibrio parahaemolyticus"
+      },
+      {
+        "id": "C",
+        "text": "Clostridium botulinum"
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q010",
+    "prompt": "<ruby>食品工場<rt>しょくひんこうじょう</rt></ruby>で<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>予防<rt>よぼう</rt></ruby>するために<ruby>必要<rt>ひつよう</rt></ruby>なことは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>生<rt>なま</rt></ruby>の<ruby>牡蠣<rt>かき</rt></ruby>や<ruby>生肉<rt>なまにく</rt></ruby>は、<ruby>室温<rt>しつおん</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>器具<rt>きぐ</rt></ruby>、<ruby>容器<rt>ようき</rt></ruby>、<ruby>装置<rt>そうち</rt></ruby>などは、<ruby>常<rt>つね</rt></ruby>に<ruby>清潔<rt>せいけつ</rt></ruby>にする"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>加熱<rt>かねつ</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>は、できるだけゆっくり<ruby>冷<rt>ひ</rt></ruby>やす"
+      }
+    ],
+    "transPrompt": "Apa yang diperlukan untuk mencegah keracunan makanan di pabrik pangan? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Menyimpan tiram mentah dan daging mentah pada suhu ruang."
+      },
+      {
+        "id": "B",
+        "text": "Selalu menjaga kebersihan peralatan, wadah, dan mesin."
+      },
+      {
+        "id": "C",
+        "text": "Mendinginkan pangan yang telah dipanaskan secara perlahan-lahan."
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q011",
+    "prompt": "<ruby>多<rt>おお</rt></ruby>くの<ruby>微生物<rt>びせいぶつ</rt></ruby>は<ruby>何度<rt>なんど</rt></ruby>で<ruby>急<rt>きゅう</rt></ruby>に<ruby>増<rt>ふ</rt></ruby>えますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "0°C-10°C"
+      },
+      {
+        "id": "B",
+        "text": "30°C-40°C"
+      },
+      {
+        "id": "C",
+        "text": "60°C-70°C"
+      }
+    ],
+    "transPrompt": "Pada suhu berapa derajat kebanyakan mikroorganisme berkembang biak dengan cepat? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "0°C - 10°C"
+      },
+      {
+        "id": "B",
+        "text": "30°C - 40°C"
+      },
+      {
+        "id": "C",
+        "text": "60°C - 70°C"
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q012",
+    "prompt": "<ruby>多<rt>おお</rt></ruby>くの<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>殺<rt>ころ</rt></ruby>すためには、<ruby>何度<rt>なんど</rt></ruby>で<ruby>何秒<rt>なんびょう</rt></ruby>ぐらい<ruby>加熱<rt>かねつ</rt></ruby>しますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "45°C-90<ruby>秒間<rt>びょうかん</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "55°C-70<ruby>秒間<rt>びょうかん</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "75°C-60<ruby>秒間<rt>びょうかん</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Untuk membunuh sebagian besar mikroorganisme, pemanasan dilakukan pada suhu berapa derajat dan selama berapa detik? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "45°C selama 90 detik"
+      },
+      {
+        "id": "B",
+        "text": "55°C selama 70 detik"
+      },
+      {
+        "id": "C",
+        "text": "75°C selama 60 detik"
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q013",
+    "prompt": "<ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>殺<rt>ころ</rt></ruby>すために<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>加熱<rt>かねつ</rt></ruby>するときに、<ruby>食品<rt>しょくひん</rt></ruby>のどこの<ruby>温度<rt>おんど</rt></ruby>を<ruby>測<rt>はか</rt></ruby>りますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中心<rt>ちゅうしん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>と<ruby>中心<rt>ちゅうしん</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>の<ruby>平均値<rt>へいきんち</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Saat melakukan pemanasan pangan untuk membunuh mikroorganisme, bagian mana dari pangan yang diukur suhunya? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Suhu permukaan pangan"
+      },
+      {
+        "id": "B",
+        "text": "Suhu bagian tengah (suhu inti) pangan"
+      },
+      {
+        "id": "C",
+        "text": "Nilai rata-rata suhu permukaan dan suhu bagian tengah pangan"
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q014",
+    "prompt": "<ruby>主<rt>おも</rt></ruby>に<ruby>石<rt>いし</rt></ruby>やガラスを<ruby>検出<rt>けんしゅつ</rt></ruby>する<ruby>機械<rt>きかい</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "X<ruby>線異物検出器<rt>せんいぶつけんしゅつき</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "<ruby>金属検出器<rt>きんぞくけんしゅつき</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "<ruby>自記温度計<rt>じきおんどけい</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Apa nama mesin yang terutama digunakan untuk mendeteksi batu atau kaca? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "Detektor benda asing sinar-X (X-ray)"
+      },
+      {
+        "id": "B",
+        "text": "Detektor logam"
+      },
+      {
+        "id": "C",
+        "text": "Termometer perekam otomatis"
+      }
+    ]
+  },
+  {
+    "setId": "bonus-soal-1",
+    "id": "bonus-soal-1-q015",
+    "prompt": "<ruby>日本<rt>にほん</rt></ruby>の<ruby>食品衛生法<rt>しょくひんえいせいほう</rt></ruby>では、<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>基準温度<rt>きじゅんおんど</rt></ruby>は<ruby>何度以下<rt>なんどいか</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    "options": [
+      {
+        "id": "A",
+        "text": "-5°C<ruby>以下<rt>いか</rt></ruby>"
+      },
+      {
+        "id": "B",
+        "text": "-10°C<ruby>以下<rt>いか</rt></ruby>"
+      },
+      {
+        "id": "C",
+        "text": "-15°C<ruby>以下<rt>いか</rt></ruby>"
+      }
+    ],
+    "transPrompt": "Berdasarkan Undang-Undang Higiene Pangan Jepang, berapa derajat standar suhu maksimal untuk freezer (lemari pembeku)? Pilihlah satu jawaban yang benar.",
+    "transOptions": [
+      {
+        "id": "A",
+        "text": "-5°C atau lebih rendah"
+      },
+      {
+        "id": "B",
+        "text": "-10°C atau lebih rendah"
+      },
+      {
+        "id": "C",
+        "text": "-15°C atau lebih rendah"
+      }
+    ]
+  }
+]

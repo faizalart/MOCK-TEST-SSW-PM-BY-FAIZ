@@ -1,0 +1,75 @@
+# AUDIT SHEET: latsol-otaff-pm51-06 (Latsol OTAFF SSW PM Modul 5.1 - Paket 06) | Batch qa-batch-12 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=otaff-pm51-06-q005 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.14 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>に<ruby>準<rt>じゅん</rt></ruby>ずるもの（<ruby>表示<rt>ひょうじ</rt></ruby>を<ruby>推奨<rt>すいしょう</rt></ruby>・20<ruby>品目<rt>ひんもく</rt></ruby>）」に<ruby>含<rt>ふく</rt></ruby>まれている<ruby>食肉<rt>しょくにく</rt></ruby>3<ruby>種類<rt>しゅるい</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu kombinasi 3 jenis daging yang termasuk dalam daftar 'Bahan yang Setara dengan Bahan Baku Spesifik (Anjuran Pelabelan, 20 item)'.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 14 (Bab 2.2(2)① Daftar 20 Item Anjuran, hal. 9 teks). Bobot: 3 poin. Kunci jawaban: A. Tiga jenis daging yang termasuk dalam 20 item 特定原材料に準ずるもの adalah 牛肉 (daging sapi), 鶏肉 (daging ayam), dan 豚肉 (daging babi).
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-otaff51-0708] 特定原材料に準ずるもの(とくていげんざいりょうにじゅんずるもの) [compound_technical] = bahan pangan alergen anjuran label | [kb-1489610] 表示(ひょうじ) [word] = pelabelan / tampilan | [kb-1371120] 推奨(すいしょう) [word] = rekomendasi / dianjurkan | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-v2-p3-252] 含まれて(ふくまれて) [inflected, df:含む] = terkandung di dalam | [kb-1358580] 食肉(しょくにく) [word] = daging konsumsi | [kb-1328890] 種類(しゅるい) [word] = jenis / macam | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>牛肉<rt>ぎゅうにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、<ruby>豚肉<rt>ぶたにく</rt></ruby>
+    TRANS: Daging sapi, daging ayam, dan daging babi
+    KOTOBA: [kb-1231580] 牛肉(ぎゅうにく) [word] = daging sapi | [kb-1253020] 鶏肉(とりにく) [word] = daging ayam | [kb-1457440] 豚肉(ぶたにく) [word] = daging babi
+  OPT B: HTML=<ruby>羊肉<rt>ようにく</rt></ruby>、<ruby>馬肉<rt>ばにく</rt></ruby>、<ruby>鹿肉<rt>しかにく</rt></ruby>
+    TRANS: Daging domba, daging kuda, dan daging rusa
+    KOTOBA: [kb-otaff51-1311] 羊肉(ようにく) [noun] = daging domba | [kb-otaff51-1312] 馬肉(ばにく) [noun] = daging kuda | [kb-otaff51-1313] 鹿肉(しかにく) [noun] = daging rusa
+  OPT C: HTML=クジラ<ruby>肉<rt>にく</rt></ruby>、カエル<ruby>肉<rt>にく</rt></ruby>、ウサギ<ruby>肉<rt>にく</rt></ruby>
+    TRANS: Daging paus, daging katak, dan daging kelinci
+    KOTOBA: [kb-otaff51-0954] クジラ(くじら) [noun] = ikan paus | [kb-1463520] 肉(にく) [standalone_term] = Daging hewan ternak mentah bahan makanan | [kb-otaff51-0955] カエル(かえる) [noun] = katak | [kb-otaff51-1314] ウサギ(うさぎ) [noun] = kelinci
+
+=== #Q6 | ID=otaff-pm51-06-q006 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.13 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>日本<rt>にほん</rt></ruby>の<ruby>法律<rt>ほうりつ</rt></ruby>で、<ruby>加工食品<rt>かこうしょくひん</rt></ruby>にアレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>が<ruby>使<rt>つか</rt></ruby>われていることを<ruby>表示<rt>ひょうじ</rt></ruby>することになっている<ruby>理由<rt>りゆう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu alasan yang benar mengapa undang-undang di Jepang mengatur pencantuman label penggunaan bahan baku yang mengandung alergen pada makanan olahan.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 13 (Bab 2.2(2)①, hal. 8 teks). Bobot: 3 poin. Kunci jawaban: C. Undang-undang mewajibkan/menganjurkan pelabelan alergen pada pangan olahan untuk bahan yang memiliki jumlah kasus alergi tinggi (発症数が多い) atau yang menimbulkan gejala berat (症状が重くなる).
+  INLINE_KOTOBA_COUNT: 32
+  KOTOBA_PROMPT: [kb-1582710] 日本(にほん) [word] = Jepang | [kb-1517480] 法律(ほうりつ) [word] = hukum / peraturan | [kb-2737330] 加工食品(かこうしょくひん) [compound_technical] = pangan olahan | [kb-u1416-61d9247d44] アレルギー物質(あれるぎーぶっしつ) [word] = zat alergen | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0783] 使われ(つかわれ) [inflected_verb, df:使う] = digunakan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p2-207] 表示する(ひょうじする) [word] = memberi label / menampilkan | [kb-1550140] 理由(りゆう) [word] = alasan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っているほうが<ruby>値段<rt>ねだん</rt></ruby>が<ruby>高<rt>たか</rt></ruby>く<ruby>売<rt>う</rt></ruby>れるから。
+    TRANS: Karena makanan yang mengandung zat alergen dapat dijual dengan harga lebih mahal.
+    KOTOBA: [kb-u1416-61d9247d44] アレルギー物質(あれるぎーぶっしつ) [word] = zat alergen | [kb-v2-p6-354] 入っている(はいっている) [inflected, df:入る] = terdapat di dalam | [kb-otaff51-0774] 値段(ねだん) [noun] = harga | [kb-v2-p4-143] 高く(たかく) [inflected, df:高い] = tinggi / mahal | [kb-v2-p1-156] 売れる(うれる) [word] = laku terjual
+  OPT B: HTML=アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>はすべての<ruby>人<rt>ひと</rt></ruby>にとって<ruby>体<rt>からだ</rt></ruby>に<ruby>良<rt>よ</rt></ruby>い<ruby>栄養<rt>えいよう</rt></ruby>だから。
+    TRANS: Karena zat alergen merupakan nutrisi yang baik bagi tubuh semua orang.
+    KOTOBA: [kb-u1416-61d9247d44] アレルギー物質(あれるぎーぶっしつ) [word] = zat alergen | [kb-v2-p3-127] すべて(-) [word] = semua / seluruhnya | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-1173990] 栄養(えいよう) [word] = nutrisi / zat gizi
+  OPT C: HTML=<ruby>発症数<rt>はっしょうすう</rt></ruby>が<ruby>多<rt>おお</rt></ruby>い、またはアレルギーの<ruby>症状<rt>しょうじょう</rt></ruby>が<ruby>重<rt>おも</rt></ruby>くなる（<ruby>死<rt>し</rt></ruby>ぬこともある）のを<ruby>防<rt>ふせ</rt></ruby>ぐため。
+    TRANS: Karena jumlah kasusnya banyak atau untuk mencegah timbulnya gejala alergi yang berat (yang bahkan dapat menyebabkan kematian).
+    KOTOBA: [kb-pilot51-038] 発症数(はっしょうすう) [compound_technical] = jumlah kasus timbulnya gejala | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-latsol-8631870cb7] アレルギー(あれるぎー) [word] = alergi | [kb-1351030] 症状(しょうじょう) [word] = gejala | [kb-pilot51-040] 重くなる(おもくなる) [verb] = menjadi parah / berat | [kb-v2-p6-413] 死ぬ(しぬ) [word] = meninggal dunia | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-312] ため(-) [word] = demi / untuk
+
+=== #Q7 | ID=otaff-pm51-06-q007 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.16 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>代表的<rt>だいひょうてき</rt></ruby>な<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>8<ruby>種類<rt>しゅるい</rt></ruby>のうち、「<ruby>熱<rt>ねつ</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>芽胞<rt>がほう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>る<ruby>細菌<rt>さいきん</rt></ruby>（<ruby>芽胞菌<rt>がほうきん</rt></ruby>）」3つの<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara 8 jenis bakteri keracunan makanan yang representatif, pilihlah satu kombinasi 3 'bakteri yang membentuk spora tahan panas (gahoukin)' yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 16 & 38 (Bab 2.2(3)① Tabel Bakteri & Bab 2.3(4)③イ, hal. 11 & 33 teks). Bobot: 3 poin. Kunci jawaban: B. Tiga bakteri pembentuk spora tahan panas (芽胞菌) dalam buku teks adalah セレウス菌, ウェルシュ菌, dan ボツリヌス菌.
+  INLINE_KOTOBA_COUNT: 26
+  KOTOBA_PROMPT: [kb-1412220] 代表的(だいひょうてき) [word] = khas / representatif | [kb-2134080] 食中毒菌(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan | [kb-1328890] 種類(しゅるい) [word] = jenis / macam | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-1197750] 芽胞(がほう) [word] = spora bakteri tahan panas | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-1295590] 細菌(さいきん) [word] = bakteri | [kb-u1416-9371420b87] 芽胞菌(がほうきん) [word] = bakteri pembentuk spora | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>、サルモネラ<ruby>属菌<rt>ぞくきん</rt></ruby>、<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Campylobacter, Salmonella, dan Vibrio parahaemolyticus
+    KOTOBA: [kb-latsol-6865ce3bd3] カンピロバクター(かんぴろばくたー) [word] = bakteri Campylobacter | [kb-otaff51-0690] 属菌(ぞくきん) [compound_technical] = bakteri genus tertentu | [kb-v2-p2-042] サルモネラ属菌(さるもねらぞくきん) [compound_technical] = bakteri Salmonella | [kb-v2-p1-007] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT B: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>、ウェルシュ<ruby>菌<rt>きん</rt></ruby>、ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bacillus cereus, Clostridium perfringens, dan Clostridium botulinum
+    KOTOBA: [kb-v2-p2-054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus | [kb-v2-p3-009] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens | [kb-v2-p1-008] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+  OPT C: HTML=<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>、<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>、アニサキス
+    TRANS: E. coli enterohemoragik, Staphylococcus aureus, dan Anisakis
+    KOTOBA: [kb-2126920] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [word] = bakteri E. coli enterohemoragik | [kb-v2-p2-039] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus | [kb-otaff51-0032] アニサキス(あにさきす) [compound_technical] = parasit Anisakis
+
+=== #Q8 | ID=otaff-pm51-06-q008 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.18 ===
+  FLAGS: [NUMBER_MISMATCH@optTranslation:B] JP number "100" missing in ID "Karena Norovirus berkembang biak 1 juta kali lipat per detik bahkan di dalam fre"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスに<ruby>対<rt>たい</rt></ruby>して、<ruby>細菌<rt>さいきん</rt></ruby>の<ruby>食中毒予防<rt>しょくちゅうどくよぼう</rt></ruby>3<ruby>原則<rt>げんそく</rt></ruby>のうち「<ruby>増<rt>ふ</rt></ruby>やさない」という<ruby>対策<rt>たいさく</rt></ruby>が<ruby>有効<rt>ゆうこう</rt></ruby>ではない<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengapa langkah 'tidak membiakkan (fuyasanai)' dari 3 prinsip pencegahan keracunan bakteri dinilai tidak efektif untuk menghadapi Norovirus? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 18 (Bab 2.2(3)②（※）, hal. 13 teks). Bobot: 3 poin. Kunci jawaban: A. Norovirus tidak berkembang biak di dalam makanan (食品の中では増えません), melainkan di dalam usus manusia, sehingga prinsip '増やさない' pada makanan tidak efektif dan diganti dengan 4 prinsip (持ち込まない、つけない、やっつける、拡げない).
+  INLINE_KOTOBA_COUNT: 33
+  KOTOBA_PROMPT: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-otaff51-0742] に対し(にたいし) [expression] = terhadap / dibandingkan | [kb-1295590] 細菌(さいきん) [word] = bakteri | [kb-ext-0926-e9a39fe4b8] 食中毒予防(しょくちゅうどくよぼう) [word] = pencegahan keracunan makanan | [kb-1262070] 原則(げんそく) [word] = prinsip | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-v2-p4-164] 増やさない(ふやさない) [inflected, df:増やす] = tidak memperbanyak | [kb-1410050] 対策(たいさく) [word] = tindakan penanggulangan | [kb-1541290] 有効(ゆうこう) [word] = efektif / berlaku | [kb-1550140] 理由(りゆう) [word] = alasan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=ノロウイルスは<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では<ruby>増<rt>ふ</rt></ruby>えず、<ruby>少量<rt>しょうりょう</rt></ruby>でも<ruby>人<rt>ひと</rt></ruby>の<ruby>体<rt>からだ</rt></ruby>（<ruby>腸<rt>ちょう</rt></ruby>）の<ruby>中<rt>なか</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ると<ruby>増<rt>ふ</rt></ruby>えて<ruby>発症<rt>はっしょう</rt></ruby>するから。
+    TRANS: Karena Norovirus memang tidak berkembang biak di dalam makanan, melainkan berkembang biak setelah masuk ke dalam tubuh (usus) manusia meskipun dalam jumlah sedikit.
+    KOTOBA: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-v2-p3-262] 増え(ふえ) [inflected, df:増える] = bertambah banyak | [kb-1595030] 少量(しょうりょう) [word] = jumlah sedikit | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-otaff51-0794] 腸(ちょう) [noun] = usus | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-v2-p3-261] 増えて(ふえて) [inflected, df:増える] = bertambah banyak | [kb-2398850] 発症(はっしょう) [word] = timbulnya gejala penyakit
+  OPT B: HTML=ノロウイルスは-20℃の<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>でも1<ruby>秒間<rt>びょうかん</rt></ruby>に100<ruby>万倍<rt>まんばい</rt></ruby>に<ruby>増<rt>ふ</rt></ruby>えるから。
+    TRANS: Karena Norovirus berkembang biak 1 juta kali lipat per detik bahkan di dalam freezer -20°C.
+    KOTOBA: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-1557210] 冷凍庫(れいとうこ) [word] = freezer / ruang beku | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-latsol-byoukan] 秒間(びょうかん) [word] = selama ... detik | [kb-otaff51-1315] 万倍(まんばい) [noun] = puluhan ribu kali lipat | [kb-otaff51-0703] 増える(ふえる) [verb] = bertambah / berkembang biak
+  OPT C: HTML=ノロウイルスは<ruby>目<rt>め</rt></ruby>に<ruby>見<rt>み</rt></ruby>えるほど<ruby>大<rt>おお</rt></ruby>きな<ruby>虫<rt>むし</rt></ruby>だから。
+    TRANS: Karena Norovirus adalah serangga besar yang terlihat dengan mata telanjang.
+    KOTOBA: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-v2-p2-004] 目(め) [word] = mata | [kb-v2-p3-269] 見える(みえる) [word] = terlihat | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-v2-p4-111] 虫(むし) [word] = serangga / hama

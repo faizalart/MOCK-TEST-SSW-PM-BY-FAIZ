@@ -96,6 +96,27 @@ const BUILTIN_PACKAGES_META = [
     pointsPerQuestion: 3.75
   },
   {
+    id: 'ssw-pm-kunci-ujian-14',
+    name: 'Soal Ujian 14',
+    sourcePdf: 'Soal Ujian 14.pdf',
+    description: 'Paket 59 soal SSW PM (32 学科 + 2 実技 + 25 参考).',
+    pointsPerQuestion: 2.54
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-15',
+    name: 'Soal Ujian 15',
+    sourcePdf: 'Soal Ujian 15.pdf',
+    description: 'Paket 38 soal SSW PM (38 学科・実技).',
+    pointsPerQuestion: 3.95
+  },
+  {
+    id: 'ssw-pm-kunci-ujian-16',
+    name: 'Soal Ujian 16',
+    sourcePdf: 'Soal Ujian 16.pdf',
+    description: 'Paket 50 soal SSW PM (40 学科 + 10 実技).',
+    pointsPerQuestion: 3.00
+  },
+  {
     id: 'ssw-pm-tipe2-nguyen1',
     name: 'Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1',
     sourcePdf: 'SSW NGUYEN 1.pdf',
@@ -192,7 +213,157 @@ const BUILTIN_PACKAGES_META = [
     sourcePdf: 'latihan_alergen_jepang_v2.html',
     description: '20 soal 8 bahan wajib, 20 bahan anjuran, pencegahan kontaminasi silang, dan regulasi pelabelan.',
     pointsPerQuestion: 3.75
-  }
+  },
+  {
+    id: 'latsol-nguyen-01',
+    name: 'Latsol Nguyen 01',
+    sourcePdf: '1-1.pdf',
+    description: 'Paket latihan 40 soal SSW PM (Latsol Nguyen 01).',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'latsol-nguyen-02',
+    name: 'Latsol Nguyen 02',
+    sourcePdf: '2.pdf',
+    description: 'Paket latihan 40 soal SSW PM (Latsol Nguyen 02).',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'latsol-nguyen-03',
+    name: 'Latsol Nguyen 03',
+    sourcePdf: '3.pdf',
+    description: 'Paket latihan 40 soal SSW PM (Latsol Nguyen 03).',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'latsol-nguyen-04',
+    name: 'Latsol Nguyen 04',
+    sourcePdf: '4.pdf',
+    description: 'Paket latihan 40 soal SSW PM (Latsol Nguyen 04).',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'latsol-nguyen-05',
+    name: 'Latsol Nguyen 05',
+    sourcePdf: '5.pdf',
+    description: 'Paket latihan 36 soal SSW PM (Latsol Nguyen 05).',
+    pointsPerQuestion: 4.17
+  },
+  {
+    id: 'latsol-nguyen-06',
+    name: 'Latsol Nguyen 06',
+    sourcePdf: '6.pdf',
+    description: 'Paket latihan 40 soal SSW PM (Latsol Nguyen 06).',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'latsol-nguyen-07',
+    name: 'Latsol Nguyen 07',
+    sourcePdf: '7.pdf',
+    description: 'Paket latihan 39 soal SSW PM (Latsol Nguyen 07).',
+    pointsPerQuestion: 3.85
+  },
+  {
+    id: 'latsol-nguyen-08',
+    name: 'Latsol Nguyen 08',
+    sourcePdf: '8.pdf',
+    description: 'Paket latihan 39 soal SSW PM (Latsol Nguyen 08).',
+    pointsPerQuestion: 3.85
+  },
+  {
+    id: 'latsol-nguyen-09',
+    name: 'Latsol Nguyen 09',
+    sourcePdf: '9.pdf',
+    description: 'Paket latihan 40 soal SSW PM (Latsol Nguyen 09).',
+    pointsPerQuestion: 3.75
+  },
+  {
+    id: 'latsol-nguyen-10',
+    name: 'Latsol Nguyen 10',
+    sourcePdf: '10 (2).pdf',
+    description: 'Paket latihan 41 soal SSW PM (Latsol Nguyen 10).',
+    pointsPerQuestion: 3.66
+  },
+  {
+    id: 'latsol-reguler-01',
+    name: 'Latsol Reguler 01',
+    sourcePdf: 'Latihan 1 Soal SSW PM + KJ.pdf',
+    description: 'Paket latihan 20 soal SSW PM (Latsol Reguler 01).',
+    pointsPerQuestion: 7.5
+  },
+  {
+    id: 'latsol-reguler-02',
+    name: 'Latsol Reguler 02',
+    sourcePdf: 'Latihan 2 Soal SSW PM + KJ.pdf',
+    description: 'Paket latihan 20 soal SSW PM (Latsol Reguler 02).',
+    pointsPerQuestion: 7.5
+  },
+  {
+    id: 'latsol-reguler-03',
+    name: 'Latsol Reguler 03',
+    sourcePdf: 'Latihan 3 Soal SSW PM + KJ.pdf',
+    description: 'Paket latihan 20 soal SSW PM (Latsol Reguler 03).',
+    pointsPerQuestion: 7.5
+  },
+  {
+    id: 'latsol-reguler-04',
+    name: 'Latsol Reguler 04',
+    sourcePdf: 'Latihan 4 Soal SSW PM + KJ.pdf',
+    description: 'Paket latihan 20 soal SSW PM (Latsol Reguler 04).',
+    pointsPerQuestion: 7.5
+  },
+  {
+    id: 'latsol-reguler-05',
+    name: 'Latsol Reguler 05',
+    sourcePdf: 'Latihan 5 Soal SSW PM + KJ.pdf',
+    description: 'Paket latihan 20 soal SSW PM (Latsol Reguler 05).',
+    pointsPerQuestion: 7.5
+  },
+  {
+    id: 'latsol-reguler-06',
+    name: 'Latsol Reguler 06',
+    sourcePdf: 'Latihan 6 Soal SSW PM + KJ.pdf',
+    description: 'Paket latihan 20 soal SSW PM (Latsol Reguler 06).',
+    pointsPerQuestion: 7.5
+  },
+  {
+    id: 'latsol-tambahan-01',
+    name: 'Latsol Tambahan 01',
+    sourcePdf: '25 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf',
+    description: 'Paket latihan 25 soal SSW PM (Latsol Tambahan 01).',
+    pointsPerQuestion: 6
+  },
+  {
+    id: 'latsol-tambahan-02',
+    name: 'Latsol Tambahan 02',
+    sourcePdf: '30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf',
+    description: 'Paket latihan 30 soal SSW PM (Latsol Tambahan 02).',
+    pointsPerQuestion: 5
+  },
+  {
+    id: 'latsol-hitungan-01',
+    name: 'Latsol Hitungan 01',
+    sourcePdf: 'HITUNGAN PM.docx',
+    description: 'Paket 11 soal SSW PM perhitungan konsentrasi dan rasio produksi.',
+    pointsPerQuestion: 13.64
+  },
+  {
+    id: 'pilot-otaff51-01',
+    name: 'Pilot OTAFF 5.1 (Bab 1-3)',
+    sourcePdf: 'Bab 1-3.pdf',
+    description: 'Paket pilot 5 soal OTAFF SSW PM Edisi 5.1 (Bab 1-3).',
+    pointsPerQuestion: 30
+  },
+  ...Array.from({ length: 10 }, (_, i) => {
+    const num = String(i + 1).padStart(2, '0');
+    return {
+      id: `latsol-otaff-pm51-${num}`,
+      name: `Latsol OTAFF SSW PM Modul 5.1 - Paket ${num}`,
+      sourcePdf: 'Bab 1-3.pdf',
+      description: `Paket latihan 40 soal OTAFF SSW PM Edisi 5.1 Bab 1-3 (Paket ${num}, 3 opsi A-C, 150 poin / 70 menit).`,
+      pointsPerQuestion: 3.75
+    };
+  })
 ];
 if (Array.isArray(DEFAULT_PACKAGES)) {
   DEFAULT_PACKAGES.splice(0, DEFAULT_PACKAGES.length, ...BUILTIN_PACKAGES_META);
@@ -227,6 +398,18 @@ const I18N = {
     studySortNumber: 'Nomor Soal',
     studyDetail: 'Detail Soal',
     studyRemoveBtn: 'Hapus dari List',
+    studyStartExamBtn: 'Ujian Soal Tersimpan',
+    studyStartExamModalTitle: 'Pilih Mode Ujian Study List',
+    studyStartExamModalDesc: 'Mulai ujian khusus menggunakan seluruh soal yang ada di Study List kamu.',
+    studyModeCbtTitle: 'CBT Mock Test (Dengan Timer)',
+    studyModeCbtDesc: 'Simulasi ujian CBT sebenarnya dengan batas waktu, navigasi soal, dan penilaian otomatis di akhir sesi.',
+    studyModePracticeTitle: 'Latihan / Practice (Tanpa Timer)',
+    studyModePracticeDesc: 'Latihan santai dengan opsi cek jawaban langsung, kamus kotoba instan, dan terjemahan per soal.',
+    studyExamDurationLabel: 'Durasi Ujian (Menit):',
+    studyExamShuffleLabel: 'Acak urutan soal Study List',
+    studyExamNoValidQuestions: 'Tidak ada soal valid di Study List untuk memulai ujian.',
+    studyExamStartedToast: 'Sesi ujian Study List dimulai.',
+    studyExamPkgTitle: 'Koleksi Study List',
     navBackup: 'Backup',
     pageExam: 'Layar Ujian SSW PM',
     pageResult: 'Hasil Ujian',
@@ -665,6 +848,18 @@ const I18N = {
     studySortNumber: 'Question Number',
     studyDetail: 'Question Detail',
     studyRemoveBtn: 'Remove from List',
+    studyStartExamBtn: 'Exam from Study List',
+    studyStartExamModalTitle: 'Choose Study List Exam Mode',
+    studyStartExamModalDesc: 'Start an exam session using all questions saved in your Study List.',
+    studyModeCbtTitle: 'CBT Mock Test (Timed)',
+    studyModeCbtDesc: 'Authentic CBT exam simulation with countdown timer, question map, and automated scoring at the end.',
+    studyModePracticeTitle: 'Practice Mode (Untimed)',
+    studyModePracticeDesc: 'Self-paced review with instant answer reveal, integrated kotoba dictionary, and translations.',
+    studyExamDurationLabel: 'Exam Duration (Minutes):',
+    studyExamShuffleLabel: 'Shuffle Study List questions',
+    studyExamNoValidQuestions: 'No valid questions found in Study List to start an exam.',
+    studyExamStartedToast: 'Study List exam session started.',
+    studyExamPkgTitle: 'Study List Collection',
     furiShowTitle: 'Show Furigana',
     furiHideTitle: 'Hide Furigana',
     transShowTitle: 'Show Indonesian Translation',
@@ -747,6 +942,18 @@ const I18N = {
     studySortNumber: '問題番号順',
     studyDetail: '問題詳細',
     studyRemoveBtn: 'リストから削除',
+    studyStartExamBtn: '学習リストで試験開始',
+    studyStartExamModalTitle: '試験モードを選択',
+    studyStartExamModalDesc: '学習リストに保存されたすべての問題を使用して試験または練習を開始します。',
+    studyModeCbtTitle: 'CBT模擬試験（制限時間あり）',
+    studyModeCbtDesc: '本番同様のタイマーと自動採点を備えたCBT形式の模擬試験です。',
+    studyModePracticeTitle: '練習モード（時間無制限）',
+    studyModePracticeDesc: '即時正解確認や単語辞書を活用しながらマイペースに進められます。',
+    studyExamDurationLabel: '制限時間（分）:',
+    studyExamShuffleLabel: '問題順をシャッフルする',
+    studyExamNoValidQuestions: '試験を開始できる有効な問題が学習リストにありません。',
+    studyExamStartedToast: '学習リストの試験セッションを開始しました。',
+    studyExamPkgTitle: '学習リスト問題集',
     navBackup: 'バックアップ',
     pageExam: 'SSW PM 試験画面',
     pageResult: '試験結果',
@@ -991,14 +1198,14 @@ function loadLang() {
   try {
     const saved = localStorage.getItem('sswPmLang');
     if (saved && I18N[saved]) return saved;
-  } catch {}
+  } catch { }
   return 'id';
 }
 
 function saveLang(lang) {
   try {
     localStorage.setItem('sswPmLang', lang);
-  } catch {}
+  } catch { }
 }
 
 function loadMapHidden() {
@@ -1012,7 +1219,7 @@ function loadMapHidden() {
 function saveMapHidden(hidden) {
   try {
     localStorage.setItem('sswPmMapHidden', String(Boolean(hidden)));
-  } catch {}
+  } catch { }
 }
 
 const DEFAULT_EXAM_PREFS = {
@@ -1378,20 +1585,20 @@ function updateShellLanguage() {
 
 // Safe rich-HTML support for Japanese question content and <ruby><rt> furigana.
 const RICH_HTML_TAGS = new Set([
-  'p','div','span','br','hr','strong','b','em','i','u','s','del','ins','mark','small',
-  'sub','sup','ruby','rt','rp','ul','ol','li','blockquote','pre','code',
-  'h1','h2','h3','h4','h5','h6','table','thead','tbody','tfoot','tr','th','td','img','font'
+  'p', 'div', 'span', 'br', 'hr', 'strong', 'b', 'em', 'i', 'u', 's', 'del', 'ins', 'mark', 'small',
+  'sub', 'sup', 'ruby', 'rt', 'rp', 'ul', 'ol', 'li', 'blockquote', 'pre', 'code',
+  'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'table', 'thead', 'tbody', 'tfoot', 'tr', 'th', 'td', 'img', 'font'
 ]);
 const RICH_HTML_DROP_TAGS = new Set([
-  'script','style','iframe','frame','frameset','object','embed','svg','math','form','input',
-  'button','textarea','select','option','video','audio','source','link','meta','picture',
-  'canvas','template','noscript'
+  'script', 'style', 'iframe', 'frame', 'frameset', 'object', 'embed', 'svg', 'math', 'form', 'input',
+  'button', 'textarea', 'select', 'option', 'video', 'audio', 'source', 'link', 'meta', 'picture',
+  'canvas', 'template', 'noscript'
 ]);
 const RICH_HTML_STYLE_PROPS = new Set([
-  'color','background-color','font-weight','font-style','text-decoration','font-size',
-  'vertical-align','text-align','white-space','letter-spacing','line-height','font-family',
-  'border','border-color','border-width','border-style','padding','padding-left','padding-right',
-  'padding-top','padding-bottom','margin','margin-left','margin-right','margin-top','margin-bottom'
+  'color', 'background-color', 'font-weight', 'font-style', 'text-decoration', 'font-size',
+  'vertical-align', 'text-align', 'white-space', 'letter-spacing', 'line-height', 'font-family',
+  'border', 'border-color', 'border-width', 'border-style', 'padding', 'padding-left', 'padding-right',
+  'padding-top', 'padding-bottom', 'margin', 'margin-left', 'margin-right', 'margin-top', 'margin-bottom'
 ]);
 
 function sanitizeRichStyle(rawStyle) {
@@ -1451,11 +1658,11 @@ function sanitizeRichHTML(value = '') {
       if (/^[a-zA-Z]{2,3}(?:-[a-zA-Z0-9]{2,8})*$/.test(lang)) clean.setAttribute('lang', lang);
     }
     if (tag === 'td' || tag === 'th') {
-      for (const attr of ['colspan','rowspan']) {
+      for (const attr of ['colspan', 'rowspan']) {
         const n = Number.parseInt(node.getAttribute(attr), 10);
         if (Number.isInteger(n) && n >= 1 && n <= 20) clean.setAttribute(attr, String(n));
       }
-      if (tag === 'th' && ['row','col','rowgroup','colgroup'].includes(node.getAttribute('scope'))) {
+      if (tag === 'th' && ['row', 'col', 'rowgroup', 'colgroup'].includes(node.getAttribute('scope'))) {
         clean.setAttribute('scope', node.getAttribute('scope'));
       }
     }
@@ -1604,8 +1811,8 @@ function cleanupFullscreen() {
   if (isFs && exitFs) {
     try {
       const p = exitFs.call(document);
-      if (p && typeof p.catch === 'function') p.catch(() => {});
-    } catch {}
+      if (p && typeof p.catch === 'function') p.catch(() => { });
+    } catch { }
   }
   state.examFillScreen = false;
   document.body.classList.remove('is-fullscreen', 'is-fill-screen');
@@ -1694,8 +1901,8 @@ document.addEventListener('visibilitychange', () => {
       if (exitFs) {
         try {
           const p = exitFs.call(document);
-          if (p && typeof p.catch === 'function') p.catch(() => {});
-        } catch {}
+          if (p && typeof p.catch === 'function') p.catch(() => { });
+        } catch { }
       }
     }
   } else {
@@ -1776,7 +1983,7 @@ function getAvailablePackages(questions = state.questions) {
     const entry = map.get(setId);
     entry.total++;
     if (q.active !== false && validateQuestion(q).length === 0) entry.active++;
-    if (q.imageMediaId || q.questionImage) entry.withImage++;
+    if (q.imageMediaId || q.questionImage || q.options?.some(o => o.mediaId || o.optionImage)) entry.withImage++;
   }
   return [...map.values()].filter(p => p.total > 0 || p.id === 'ssw-pm-kunci-ujian-1' || p.id === 'ssw-pm-tipe2-nguyen1');
 }
@@ -1828,8 +2035,26 @@ function questionLocationLabel(q) {
 }
 
 
+const QUESTION_IMAGE_CACHE_VER = 'crop2';
+
 function mediaURL(media) {
   if (!media) return '';
+
+  if (typeof media.path === 'string' && media.path.trim()) {
+    const rawPath = media.path.trim();
+    const marker = 'assets/questions/';
+    const markerIndex = rawPath.indexOf(marker);
+
+    // Tangani path relatif maupun URL absolut lama untuk aset soal.
+    if (markerIndex !== -1) {
+      const filename = rawPath
+        .slice(markerIndex + marker.length)
+        .split('?')[0]
+        .replace(/^\/+/, '');
+
+      return `./assets/questions/${filename}?v=${QUESTION_IMAGE_CACHE_VER}`;
+    }
+  }
 
   if (media.blob instanceof Blob) {
     if (!objectURLs.has(media.id)) {
@@ -1847,17 +2072,6 @@ function mediaURL(media) {
 
   if (typeof media.path === 'string' && media.path.trim()) {
     const rawPath = media.path.trim();
-    const marker = 'assets/questions/';
-    const markerIndex = rawPath.indexOf(marker);
-
-    // Tangani path relatif maupun URL absolut lama.
-    if (markerIndex !== -1) {
-      const filename = rawPath.slice(
-        markerIndex + marker.length
-      );
-
-      return `./${filename.replace(/^\/+/, '')}`;
-    }
 
     if (/^(?:https?:|data:|blob:)/i.test(rawPath)) {
       return rawPath;
@@ -1897,6 +2111,34 @@ async function reloadData() {
   updateStudyBadge();
   let currentQuestions = dbQuestions || [];
   let anyChanged = false;
+
+  // Pembersihan otomatis sisa paket Konstruksi dari IndexedDB klien
+  const foreignQuestions = currentQuestions.filter(q => q.setId === 'latsol-konstruksi-01' || String(q.id || '').startsWith('konstruksi01-'));
+  if (foreignQuestions.length) {
+    for (const q of foreignQuestions) {
+      await del('questions', q.id);
+    }
+    anyChanged = true;
+    currentQuestions = currentQuestions.filter(q => q.setId !== 'latsol-konstruksi-01' && !String(q.id || '').startsWith('konstruksi01-'));
+  }
+
+  const foreignSessions = state.sessions.filter(s => s.setId === 'latsol-konstruksi-01' || String(s.title || '').includes('Konstruksi'));
+  if (foreignSessions.length) {
+    for (const s of foreignSessions) {
+      await del('sessions', s.id);
+    }
+    state.sessions = state.sessions.filter(s => s.setId !== 'latsol-konstruksi-01' && !String(s.title || '').includes('Konstruksi'));
+  }
+
+  const foreignStudy = state.studyList.filter(s => s.setId === 'latsol-konstruksi-01' || String(s.id || '').startsWith('konstruksi01-'));
+  if (foreignStudy.length) {
+    for (const s of foreignStudy) {
+      await del('studyList', s.id);
+    }
+    state.studyList = state.studyList.filter(s => s.setId !== 'latsol-konstruksi-01' && !String(s.id || '').startsWith('konstruksi01-'));
+    updateStudyBadge();
+  }
+
   for (const q of [...currentQuestions]) {
     if (q.isDemo) {
       await del('questions', q.id);
@@ -1929,13 +2171,14 @@ async function reloadData() {
   if (anyChanged) {
     currentQuestions = await all('questions');
   }
-  if (prevQuestions.length > currentQuestions.length) {
+  const cleanPrevQuestions = prevQuestions.filter(q => q.setId !== 'latsol-konstruksi-01' && !String(q.id || '').startsWith('konstruksi01-'));
+  if (cleanPrevQuestions.length > currentQuestions.length) {
     const dbIds = new Set(currentQuestions.map(q => q.id));
-    const missingInDb = prevQuestions.filter(q => !dbIds.has(q.id));
+    const missingInDb = cleanPrevQuestions.filter(q => !dbIds.has(q.id));
     if (missingInDb.length) {
-      try { await putMany('questions', missingInDb); } catch {}
+      try { await putMany('questions', missingInDb); } catch { }
     }
-    const merged = new Map(prevQuestions.map(q => [q.id, q]));
+    const merged = new Map(cleanPrevQuestions.map(q => [q.id, q]));
     for (const q of currentQuestions) merged.set(q.id, q);
     state.questions = [...merged.values()];
   } else {
@@ -2025,6 +2268,16 @@ function getHomePackageCode(pkg, index) {
   if (id === 'ssw-pm-tipe2-nguyen1' || /tipe-?2/i.test(id)) return 'T2';
   const bonusMatch = id.match(/^bonus-soal-(\d+)$/i);
   if (bonusMatch) return `B${bonusMatch[1]}`;
+  const nguyenMatch = id.match(/^latsol-nguyen-(\d+)$/i);
+  if (nguyenMatch) return `N${String(nguyenMatch[1]).padStart(2, '0')}`;
+  const regulerMatch = id.match(/^latsol-reguler-(\d+)$/i);
+  if (regulerMatch) return `R${String(regulerMatch[1]).padStart(2, '0')}`;
+  const tambahanMatch = id.match(/^latsol-tambahan-(\d+)$/i);
+  if (tambahanMatch) return `TB${String(tambahanMatch[1]).padStart(2, '0')}`;
+  if (id === 'latsol-hitungan-01' || /hitungan/i.test(id)) return 'CALC';
+  if (id === 'pilot-otaff51-01' || /pilot-otaff51/i.test(id)) return 'O51';
+  const otaff51Match = id.match(/^latsol-otaff-pm51-(\d+)$/i);
+  if (otaff51Match) return `OP${String(otaff51Match[1]).padStart(2, '0')}`;
   return `P${index + 1}`;
 }
 
@@ -2076,105 +2329,105 @@ function renderHome() {
 
   const copy = lang === 'ja'
     ? {
-        kicker: '特定技能1号・飲食料品製造業',
-        title: '飲食料品製造業 技能測定試験',
-        spec: 'CBT基準 · 40問 · 70分 · 150点満点',
-        startExam: '模擬試験を開始',
-        startPractice: '時間無制限で練習',
-        startCustom: 'カスタム設定',
-        resumeTag: '中断中のセッション',
-        resumeBtn: '再開する',
-        pkgHeading: '問題パッケージ',
-        totalQuestions: `全${ready}問`,
-        filterAll: 'すべて',
-        filterKunci: '本試験キー',
-        filterBonus: '追加演習',
-        unitSoal: '問',
-        unitImg: '図解',
-        btnQuestions: '問題一覧',
-        btnStartPkg: '開始',
-        histHeading: '最近の試験結果',
-        histCount: `${completedSessions.length}件`,
-        histViewAll: 'すべて表示',
-        histEmpty: '試験履歴はまだありません。',
-        thDate: '日時',
-        thPkg: 'パッケージ',
-        thMode: 'モード',
-        thCorrect: '正解',
-        thScore: '得点',
-        thAcc: '正答率',
-        btnReview: '詳細',
-        utilSetup: '試験設定',
-        utilBank: '問題バンク管理',
-        utilBackup: 'バックアップ・復元'
-      }
+      kicker: '特定技能1号・飲食料品製造業',
+      title: '飲食料品製造業 技能測定試験',
+      spec: 'CBT基準 · 40問 · 70分 · 150点満点',
+      startExam: '模擬試験を開始',
+      startPractice: '時間無制限で練習',
+      startCustom: 'カスタム設定',
+      resumeTag: '中断中のセッション',
+      resumeBtn: '再開する',
+      pkgHeading: '問題パッケージ',
+      totalQuestions: `全${ready}問`,
+      filterAll: 'すべて',
+      filterKunci: '本試験キー',
+      filterBonus: '追加演習',
+      unitSoal: '問',
+      unitImg: '図解',
+      btnQuestions: '問題一覧',
+      btnStartPkg: '開始',
+      histHeading: '最近の試験結果',
+      histCount: `${completedSessions.length}件`,
+      histViewAll: 'すべて表示',
+      histEmpty: '試験履歴はまだありません。',
+      thDate: '日時',
+      thPkg: 'パッケージ',
+      thMode: 'モード',
+      thCorrect: '正解',
+      thScore: '得点',
+      thAcc: '正答率',
+      btnReview: '詳細',
+      utilSetup: '試験設定',
+      utilBank: '問題バンク管理',
+      utilBackup: 'バックアップ・復元'
+    }
     : lang === 'en'
       ? {
-          kicker: '特定技能1号・飲食料品製造業',
-          title: 'Food & Beverage Manufacturing Exam',
-          spec: 'CBT Standard · 40 questions · 70 minutes · 150 points',
-          startExam: 'Start Mock Test',
-          startPractice: 'Untimed Practice',
-          startCustom: 'Custom Simulation',
-          resumeTag: 'Session in progress',
-          resumeBtn: 'Resume',
-          pkgHeading: 'Question Packages',
-          totalQuestions: `${ready} questions`,
-          filterAll: 'All',
-          filterKunci: 'Exam Keys',
-          filterBonus: 'Bonus Sets',
-          unitSoal: 'questions',
-          unitImg: 'illustrated',
-          btnQuestions: 'Questions',
-          btnStartPkg: 'Start',
-          histHeading: 'Recent Results',
-          histCount: `${completedSessions.length} sessions`,
-          histViewAll: 'View all',
-          histEmpty: 'No completed examination sessions yet.',
-          thDate: 'Date',
-          thPkg: 'Package',
-          thMode: 'Mode',
-          thCorrect: 'Correct',
-          thScore: 'Points',
-          thAcc: 'Accuracy',
-          btnReview: 'Review',
-          utilSetup: 'Exam Configuration',
-          utilBank: 'Question Bank',
-          utilBackup: 'Backup & Restore'
-        }
+        kicker: '特定技能1号・飲食料品製造業',
+        title: 'Food & Beverage Manufacturing Exam',
+        spec: 'CBT Standard · 40 questions · 70 minutes · 150 points',
+        startExam: 'Start Mock Test',
+        startPractice: 'Untimed Practice',
+        startCustom: 'Custom Simulation',
+        resumeTag: 'Session in progress',
+        resumeBtn: 'Resume',
+        pkgHeading: 'Question Packages',
+        totalQuestions: `${ready} questions`,
+        filterAll: 'All',
+        filterKunci: 'Exam Keys',
+        filterBonus: 'Bonus Sets',
+        unitSoal: 'questions',
+        unitImg: 'illustrated',
+        btnQuestions: 'Questions',
+        btnStartPkg: 'Start',
+        histHeading: 'Recent Results',
+        histCount: `${completedSessions.length} sessions`,
+        histViewAll: 'View all',
+        histEmpty: 'No completed examination sessions yet.',
+        thDate: 'Date',
+        thPkg: 'Package',
+        thMode: 'Mode',
+        thCorrect: 'Correct',
+        thScore: 'Points',
+        thAcc: 'Accuracy',
+        btnReview: 'Review',
+        utilSetup: 'Exam Configuration',
+        utilBank: 'Question Bank',
+        utilBackup: 'Backup & Restore'
+      }
       : {
-          kicker: '特定技能1号・飲食料品製造業',
-          title: 'Simulasi Ujian Pengolahan Makanan',
-          spec: 'Standar CBT · 40 soal · 70 menit · 150 poin',
-          startExam: 'Mulai Mock Test',
-          startPractice: 'Latihan Tanpa Timer',
-          startCustom: 'Simulasi Kustom',
-          resumeTag: 'Sesi berlangsung',
-          resumeBtn: 'Lanjutkan',
-          pkgHeading: 'Paket Soal',
-          totalQuestions: `${ready} soal`,
-          filterAll: 'Semua',
-          filterKunci: 'Kunci Ujian',
-          filterBonus: 'Bonus',
-          unitSoal: 'soal',
-          unitImg: 'ilustrasi',
-          btnQuestions: 'Daftar Soal',
-          btnStartPkg: 'Mulai',
-          histHeading: 'Riwayat Hasil',
-          histCount: `${completedSessions.length} sesi`,
-          histViewAll: 'Lihat semua',
-          histEmpty: 'Belum ada riwayat sesi ujian.',
-          thDate: 'Tanggal',
-          thPkg: 'Paket',
-          thMode: 'Mode',
-          thCorrect: 'Benar',
-          thScore: 'Poin',
-          thAcc: 'Akurasi',
-          btnReview: 'Review',
-          utilSetup: 'Konfigurasi Ujian',
-          utilBank: 'Kelola Bank Soal',
-          utilBackup: 'Backup & Restore'
-        };
+        kicker: '特定技能1号・飲食料品製造業',
+        title: 'Simulasi Ujian Pengolahan Makanan',
+        spec: 'Standar CBT · 40 soal · 70 menit · 150 poin',
+        startExam: 'Mulai Mock Test',
+        startPractice: 'Latihan Tanpa Timer',
+        startCustom: 'Simulasi Kustom',
+        resumeTag: 'Sesi berlangsung',
+        resumeBtn: 'Lanjutkan',
+        pkgHeading: 'Paket Soal',
+        totalQuestions: `${ready} soal`,
+        filterAll: 'Semua',
+        filterKunci: 'Kunci Ujian',
+        filterBonus: 'Bonus',
+        unitSoal: 'soal',
+        unitImg: 'ilustrasi',
+        btnQuestions: 'Daftar Soal',
+        btnStartPkg: 'Mulai',
+        histHeading: 'Riwayat Hasil',
+        histCount: `${completedSessions.length} sesi`,
+        histViewAll: 'Lihat semua',
+        histEmpty: 'Belum ada riwayat sesi ujian.',
+        thDate: 'Tanggal',
+        thPkg: 'Paket',
+        thMode: 'Mode',
+        thCorrect: 'Benar',
+        thScore: 'Poin',
+        thAcc: 'Akurasi',
+        btnReview: 'Review',
+        utilSetup: 'Konfigurasi Ujian',
+        utilBank: 'Kelola Bank Soal',
+        utilBackup: 'Backup & Restore'
+      };
 
   view.innerHTML = `
     <div class="home-dashboard">
@@ -2225,10 +2478,10 @@ function renderHome() {
 
         <div class="hd-pkg-list">
           ${visiblePackages.map((pkg, idx) => {
-            const code = getHomePackageCode(pkg, idx);
-            const titleObj = formatHomePackageTitle(pkg);
-            const metaText = `${pkg.active} ${copy.unitSoal}${pkg.withImage > 0 ? ` · ${pkg.withImage} ${copy.unitImg}` : ''}`;
-            return `
+    const code = getHomePackageCode(pkg, idx);
+    const titleObj = formatHomePackageTitle(pkg);
+    const metaText = `${pkg.active} ${copy.unitSoal}${pkg.withImage > 0 ? ` · ${pkg.withImage} ${copy.unitImg}` : ''}`;
+    return `
               <div class="hd-pkg-row">
                 <span class="hd-pkg-code" aria-hidden="true">${esc(code)}</span>
                 <div class="hd-pkg-main">
@@ -2242,7 +2495,7 @@ function renderHome() {
                 </div>
               </div>
             `;
-          }).join('')}
+  }).join('')}
         </div>
       </section>
 
@@ -2270,9 +2523,9 @@ function renderHome() {
               </thead>
               <tbody>
                 ${latest.map(s => {
-                  const st = rawStats(s);
-                  const sessionTitle = formatHomeSessionTitle(s);
-                  return `
+    const st = rawStats(s);
+    const sessionTitle = formatHomeSessionTitle(s);
+    return `
                     <tr>
                       <td data-label="${esc(copy.thDate)}">${fmtDate(s.endedAt || s.startedAt, loc)}</td>
                       <td class="hd-td-pkg" data-label="${esc(copy.thPkg)}">
@@ -2287,7 +2540,7 @@ function renderHome() {
                       </td>
                     </tr>
                   `;
-                }).join('')}
+  }).join('')}
               </tbody>
             </table>
           </div>
@@ -2333,84 +2586,84 @@ function renderSetup() {
 
   const L = lang === 'ja'
     ? {
-        kicker: 'CBT模擬試験 · SSW PM',
-        title: '模擬試験の設定',
-        mode: '試験モード',
-        modeFull: '本試験モード（40問・70分）',
-        modePrac: '練習モード（時間無制限）',
-        modeCust: 'カスタム設定',
-        pkg: '問題パッケージ',
-        allPkg: 'すべてのパッケージ',
-        qCount: '問題数',
-        duration: '制限時間（分）',
-        optionsHeading: '出題オプション',
-        randomQ: '問題順をシャッフル',
-        shuffleOpt: '選択肢（A・B・C）をシャッフル',
-        untimed: '制限時間を無効にする',
-        candidateHeading: '受験者情報（任意）',
-        candName: '受験者名',
-        candPhoto: '証明写真（印刷用）',
-        pickerTitle: '問題を個別に選択（任意）',
-        pickerReset: '選択をリセット',
-        startBtn: '試験を開始',
-        unitSoal: '問',
-        unitMin: '分',
-        noLimit: '時間無制限',
-        maxPts: `最大 ${maxPoints} 点`
-      }
+      kicker: 'CBT模擬試験 · SSW PM',
+      title: '模擬試験の設定',
+      mode: '試験モード',
+      modeFull: '本試験モード（40問・70分）',
+      modePrac: '練習モード（時間無制限）',
+      modeCust: 'カスタム設定',
+      pkg: '問題パッケージ',
+      allPkg: 'すべてのパッケージ',
+      qCount: '問題数',
+      duration: '制限時間（分）',
+      optionsHeading: '出題オプション',
+      randomQ: '問題順をシャッフル',
+      shuffleOpt: '選択肢（A・B・C）をシャッフル',
+      untimed: '制限時間を無効にする',
+      candidateHeading: '受験者情報（任意）',
+      candName: '受験者名',
+      candPhoto: '証明写真（印刷用）',
+      pickerTitle: '問題を個別に選択（任意）',
+      pickerReset: '選択をリセット',
+      startBtn: '試験を開始',
+      unitSoal: '問',
+      unitMin: '分',
+      noLimit: '時間無制限',
+      maxPts: `最大 ${maxPoints} 点`
+    }
     : lang === 'en'
       ? {
-          kicker: 'CBT SIMULATION · SSW PM',
-          title: 'Simulation Setup',
-          mode: 'Simulation Mode',
-          modeFull: 'Full Mock Test (40 questions · 70 min)',
-          modePrac: 'Untimed Practice',
-          modeCust: 'Custom Simulation',
-          pkg: 'Question Package',
-          allPkg: 'All Question Packages',
-          qCount: 'Question Count',
-          duration: 'Duration (Minutes)',
-          optionsHeading: 'Ordering & Timer',
-          randomQ: 'Shuffle question order',
-          shuffleOpt: 'Shuffle answer choices (A, B, C)',
-          untimed: 'Disable countdown timer',
-          candidateHeading: 'Candidate Details (Optional)',
-          candName: 'Candidate Name',
-          candPhoto: 'Candidate Photo (Print Report)',
-          pickerTitle: 'Select Specific Questions (Optional)',
-          pickerReset: 'Reset Selection',
-          startBtn: 'Start Exam',
-          unitSoal: 'questions',
-          unitMin: 'min',
-          noLimit: 'No time limit',
-          maxPts: `Max ${maxPoints} pts`
-        }
+        kicker: 'CBT SIMULATION · SSW PM',
+        title: 'Simulation Setup',
+        mode: 'Simulation Mode',
+        modeFull: 'Full Mock Test (40 questions · 70 min)',
+        modePrac: 'Untimed Practice',
+        modeCust: 'Custom Simulation',
+        pkg: 'Question Package',
+        allPkg: 'All Question Packages',
+        qCount: 'Question Count',
+        duration: 'Duration (Minutes)',
+        optionsHeading: 'Ordering & Timer',
+        randomQ: 'Shuffle question order',
+        shuffleOpt: 'Shuffle answer choices (A, B, C)',
+        untimed: 'Disable countdown timer',
+        candidateHeading: 'Candidate Details (Optional)',
+        candName: 'Candidate Name',
+        candPhoto: 'Candidate Photo (Print Report)',
+        pickerTitle: 'Select Specific Questions (Optional)',
+        pickerReset: 'Reset Selection',
+        startBtn: 'Start Exam',
+        unitSoal: 'questions',
+        unitMin: 'min',
+        noLimit: 'No time limit',
+        maxPts: `Max ${maxPoints} pts`
+      }
       : {
-          kicker: 'SIMULASI CBT · SSW PM',
-          title: 'Konfigurasi Simulasi',
-          mode: 'Mode Simulasi',
-          modeFull: 'Mock Test Penuh (40 soal · 70 menit)',
-          modePrac: 'Latihan Tanpa Timer',
-          modeCust: 'Simulasi Kustom',
-          pkg: 'Paket Soal',
-          allPkg: 'Semua Paket Soal',
-          qCount: 'Jumlah Soal',
-          duration: 'Durasi (Menit)',
-          optionsHeading: 'Pengaturan Urutan & Waktu',
-          randomQ: 'Acak urutan nomor soal',
-          shuffleOpt: 'Acak urutan pilihan jawaban (A, B, C)',
-          untimed: 'Nonaktifkan batas waktu',
-          candidateHeading: 'Identitas Peserta (Opsional)',
-          candName: 'Nama Peserta',
-          candPhoto: 'Foto Laporan Cetak',
-          pickerTitle: 'Pilih Soal Spesifik (Opsional)',
-          pickerReset: 'Reset Pilihan',
-          startBtn: 'Mulai Ujian',
-          unitSoal: 'soal',
-          unitMin: 'menit',
-          noLimit: 'Tanpa batas waktu',
-          maxPts: `Maks ${maxPoints} poin`
-        };
+        kicker: 'SIMULASI CBT · SSW PM',
+        title: 'Konfigurasi Simulasi',
+        mode: 'Mode Simulasi',
+        modeFull: 'Mock Test Penuh (40 soal · 70 menit)',
+        modePrac: 'Latihan Tanpa Timer',
+        modeCust: 'Simulasi Kustom',
+        pkg: 'Paket Soal',
+        allPkg: 'Semua Paket Soal',
+        qCount: 'Jumlah Soal',
+        duration: 'Durasi (Menit)',
+        optionsHeading: 'Pengaturan Urutan & Waktu',
+        randomQ: 'Acak urutan nomor soal',
+        shuffleOpt: 'Acak urutan pilihan jawaban (A, B, C)',
+        untimed: 'Nonaktifkan batas waktu',
+        candidateHeading: 'Identitas Peserta (Opsional)',
+        candName: 'Nama Peserta',
+        candPhoto: 'Foto Laporan Cetak',
+        pickerTitle: 'Pilih Soal Spesifik (Opsional)',
+        pickerReset: 'Reset Pilihan',
+        startBtn: 'Mulai Ujian',
+        unitSoal: 'soal',
+        unitMin: 'menit',
+        noLimit: 'Tanpa batas waktu',
+        maxPts: `Maks ${maxPoints} poin`
+      };
 
   const packageOptions = [
     ...packages.map(p => {
@@ -2650,147 +2903,147 @@ function renderBank() {
 
   const B = lang === 'ja'
     ? {
-        kicker: '問題ライブラリ＆エディタ',
-        title: '問題バンク',
-        meta: `全${activeQuestions().length}問 · ${packages.length}パッケージ`,
-        addBtn: '問題を追加',
-        importCsv: 'CSV読込',
-        importJson: 'JSON読込',
-        csvTpl: 'CSVテンプレート',
-        exportJson: 'JSON出力',
-        reloadBtn: '初期データを再読込',
-        catalogTitle: 'パッケージ一覧',
-        filterAll: 'すべて',
-        filterKunci: '本試験キー',
-        filterBonus: '追加演習',
-        btnOpenQ: '問題を見る',
-        btnStart: '開始',
-        allPkgsBtn: 'すべてのパッケージ',
-        questionsTitle: '問題バンク（個別問題）',
-        soalAvailable: '問が利用可能',
-        btnShowQuestions: '問題一覧を表示',
-        btnHideQuestions: '問題一覧を折りたたむ',
-        btnPrev: '前へ',
-        btnNext: '次へ',
-        pageShowing: (start, end, total) => `${total}問中 ${start}–${end}問を表示`,
-        shownMeta: `${totalItems}問を表示中`,
-        searchPlaceholder: '問題番号・漢字・キーワードで検索…',
-        allPkgsOpt: `すべてのパッケージ (${state.questions.length})`,
-        mediaAll: 'すべての形式',
-        mediaImg: '図解あり',
-        mediaTxt: 'テキストのみ',
-        statusAll: 'すべての状態',
-        statusActive: '有効',
-        statusInactive: '無効',
-        selectAll: 'すべて選択',
-        clearSel: '選択解除',
-        addSelStudy: '学習リストに追加',
-        deleteSel: `選択を削除 (${selectedCount})`,
-        keyLabel: '正解',
-        imgTag: '図解',
-        inactiveTag: '無効',
-        editBtn: '編集',
-        dupBtn: '複製',
-        delBtn: '削除',
-        emptyMsg: '条件に一致する問題がありません。',
-        unitSoal: '問',
-        unitImg: '図解'
-      }
+      kicker: '問題ライブラリ＆エディタ',
+      title: '問題バンク',
+      meta: `全${activeQuestions().length}問 · ${packages.length}パッケージ`,
+      addBtn: '問題を追加',
+      importCsv: 'CSV読込',
+      importJson: 'JSON読込',
+      csvTpl: 'CSVテンプレート',
+      exportJson: 'JSON出力',
+      reloadBtn: '初期データを再読込',
+      catalogTitle: 'パッケージ一覧',
+      filterAll: 'すべて',
+      filterKunci: '本試験キー',
+      filterBonus: '追加演習',
+      btnOpenQ: '問題を見る',
+      btnStart: '開始',
+      allPkgsBtn: 'すべてのパッケージ',
+      questionsTitle: '問題バンク（個別問題）',
+      soalAvailable: '問が利用可能',
+      btnShowQuestions: '問題一覧を表示',
+      btnHideQuestions: '問題一覧を折りたたむ',
+      btnPrev: '前へ',
+      btnNext: '次へ',
+      pageShowing: (start, end, total) => `${total}問中 ${start}–${end}問を表示`,
+      shownMeta: `${totalItems}問を表示中`,
+      searchPlaceholder: '問題番号・漢字・キーワードで検索…',
+      allPkgsOpt: `すべてのパッケージ (${state.questions.length})`,
+      mediaAll: 'すべての形式',
+      mediaImg: '図解あり',
+      mediaTxt: 'テキストのみ',
+      statusAll: 'すべての状態',
+      statusActive: '有効',
+      statusInactive: '無効',
+      selectAll: 'すべて選択',
+      clearSel: '選択解除',
+      addSelStudy: '学習リストに追加',
+      deleteSel: `選択を削除 (${selectedCount})`,
+      keyLabel: '正解',
+      imgTag: '図解',
+      inactiveTag: '無効',
+      editBtn: '編集',
+      dupBtn: '複製',
+      delBtn: '削除',
+      emptyMsg: '条件に一致する問題がありません。',
+      unitSoal: '問',
+      unitImg: '図解'
+    }
     : lang === 'en'
       ? {
-          kicker: 'QUESTION LIBRARY & EDITOR',
-          title: 'Question Bank',
-          meta: `${activeQuestions().length} questions · ${packages.length} packages`,
-          addBtn: 'Add Question',
-          importCsv: 'Import CSV',
-          importJson: 'Import JSON',
-          csvTpl: 'CSV Template',
-          exportJson: 'Export JSON',
-          reloadBtn: 'Reload Built-in Sets',
-          catalogTitle: 'Package Directory',
-          filterAll: 'All',
-          filterKunci: 'Exam Keys',
-          filterBonus: 'Bonus Sets',
-          btnOpenQ: 'Questions',
-          btnStart: 'Start',
-          allPkgsBtn: 'All Packages',
-          questionsTitle: 'Individual Question Bank',
-          soalAvailable: 'questions available',
-          btnShowQuestions: 'Show question list',
-          btnHideQuestions: 'Hide question list',
-          btnPrev: 'Previous',
-          btnNext: 'Next',
-          pageShowing: (start, end, total) => `Showing ${start}–${end} of ${total}`,
-          shownMeta: `${totalItems} shown`,
-          searchPlaceholder: 'Search question number, kanji, or text…',
-          allPkgsOpt: `All Packages (${state.questions.length})`,
-          mediaAll: 'All Media',
-          mediaImg: 'Illustrated',
-          mediaTxt: 'Text Only',
-          statusAll: 'All Status',
-          statusActive: 'Active',
-          statusInactive: 'Inactive',
-          selectAll: 'Select all',
-          clearSel: 'Clear',
-          addSelStudy: 'Add to Study List',
-          deleteSel: `Delete (${selectedCount})`,
-          keyLabel: 'Key',
-          imgTag: 'Illustrated',
-          inactiveTag: 'Inactive',
-          editBtn: 'Edit',
-          dupBtn: 'Duplicate',
-          delBtn: 'Delete',
-          emptyMsg: 'No questions match the current filter.',
-          unitSoal: 'questions',
-          unitImg: 'illustrated'
-        }
+        kicker: 'QUESTION LIBRARY & EDITOR',
+        title: 'Question Bank',
+        meta: `${activeQuestions().length} questions · ${packages.length} packages`,
+        addBtn: 'Add Question',
+        importCsv: 'Import CSV',
+        importJson: 'Import JSON',
+        csvTpl: 'CSV Template',
+        exportJson: 'Export JSON',
+        reloadBtn: 'Reload Built-in Sets',
+        catalogTitle: 'Package Directory',
+        filterAll: 'All',
+        filterKunci: 'Exam Keys',
+        filterBonus: 'Bonus Sets',
+        btnOpenQ: 'Questions',
+        btnStart: 'Start',
+        allPkgsBtn: 'All Packages',
+        questionsTitle: 'Individual Question Bank',
+        soalAvailable: 'questions available',
+        btnShowQuestions: 'Show question list',
+        btnHideQuestions: 'Hide question list',
+        btnPrev: 'Previous',
+        btnNext: 'Next',
+        pageShowing: (start, end, total) => `Showing ${start}–${end} of ${total}`,
+        shownMeta: `${totalItems} shown`,
+        searchPlaceholder: 'Search question number, kanji, or text…',
+        allPkgsOpt: `All Packages (${state.questions.length})`,
+        mediaAll: 'All Media',
+        mediaImg: 'Illustrated',
+        mediaTxt: 'Text Only',
+        statusAll: 'All Status',
+        statusActive: 'Active',
+        statusInactive: 'Inactive',
+        selectAll: 'Select all',
+        clearSel: 'Clear',
+        addSelStudy: 'Add to Study List',
+        deleteSel: `Delete (${selectedCount})`,
+        keyLabel: 'Key',
+        imgTag: 'Illustrated',
+        inactiveTag: 'Inactive',
+        editBtn: 'Edit',
+        dupBtn: 'Duplicate',
+        delBtn: 'Delete',
+        emptyMsg: 'No questions match the current filter.',
+        unitSoal: 'questions',
+        unitImg: 'illustrated'
+      }
       : {
-          kicker: 'PUSTAKA & EDITOR SOAL',
-          title: 'Bank Soal',
-          meta: `${activeQuestions().length} soal · ${packages.length} paket`,
-          addBtn: 'Tambah Soal',
-          importCsv: 'Impor CSV',
-          importJson: 'Impor JSON',
-          csvTpl: 'Template CSV',
-          exportJson: 'Ekspor JSON',
-          reloadBtn: 'Muat Ulang Paket',
-          catalogTitle: 'Katalog Paket',
-          filterAll: 'Semua',
-          filterKunci: 'Kunci Ujian',
-          filterBonus: 'Bonus',
-          btnOpenQ: 'Daftar Soal',
-          btnStart: 'Mulai',
-          allPkgsBtn: 'Semua Paket',
-          questionsTitle: 'Bank Soal Individual',
-          soalAvailable: 'soal tersedia',
-          btnShowQuestions: 'Tampilkan daftar soal',
-          btnHideQuestions: 'Sembunyikan daftar soal',
-          btnPrev: 'Sebelumnya',
-          btnNext: 'Berikutnya',
-          pageShowing: (start, end, total) => `Menampilkan soal ${start}–${end} dari ${total}`,
-          shownMeta: `${totalItems} soal`,
-          searchPlaceholder: 'Cari nomor soal, kanji, furigana, atau isi pilihan…',
-          allPkgsOpt: `Semua Paket (${state.questions.length})`,
-          mediaAll: 'Semua Media',
-          mediaImg: 'Dengan Ilustrasi',
-          mediaTxt: 'Teks Saja',
-          statusAll: 'Semua Status',
-          statusActive: 'Aktif',
-          statusInactive: 'Nonaktif',
-          selectAll: 'Pilih semua',
-          clearSel: 'Batal Pilih',
-          addSelStudy: 'Tambah ke Study List',
-          deleteSel: `Hapus (${selectedCount})`,
-          keyLabel: 'Kunci',
-          imgTag: 'Ilustrasi',
-          inactiveTag: 'Nonaktif',
-          editBtn: 'Edit',
-          dupBtn: 'Duplikat',
-          delBtn: 'Hapus',
-          emptyMsg: 'Tidak ada soal yang cocok dengan filter saat ini.',
-          unitSoal: 'soal',
-          unitImg: 'ilustrasi'
-        };
+        kicker: 'PUSTAKA & EDITOR SOAL',
+        title: 'Bank Soal',
+        meta: `${activeQuestions().length} soal · ${packages.length} paket`,
+        addBtn: 'Tambah Soal',
+        importCsv: 'Impor CSV',
+        importJson: 'Impor JSON',
+        csvTpl: 'Template CSV',
+        exportJson: 'Ekspor JSON',
+        reloadBtn: 'Muat Ulang Paket',
+        catalogTitle: 'Katalog Paket',
+        filterAll: 'Semua',
+        filterKunci: 'Kunci Ujian',
+        filterBonus: 'Bonus',
+        btnOpenQ: 'Daftar Soal',
+        btnStart: 'Mulai',
+        allPkgsBtn: 'Semua Paket',
+        questionsTitle: 'Bank Soal Individual',
+        soalAvailable: 'soal tersedia',
+        btnShowQuestions: 'Tampilkan daftar soal',
+        btnHideQuestions: 'Sembunyikan daftar soal',
+        btnPrev: 'Sebelumnya',
+        btnNext: 'Berikutnya',
+        pageShowing: (start, end, total) => `Menampilkan soal ${start}–${end} dari ${total}`,
+        shownMeta: `${totalItems} soal`,
+        searchPlaceholder: 'Cari nomor soal, kanji, furigana, atau isi pilihan…',
+        allPkgsOpt: `Semua Paket (${state.questions.length})`,
+        mediaAll: 'Semua Media',
+        mediaImg: 'Dengan Ilustrasi',
+        mediaTxt: 'Teks Saja',
+        statusAll: 'Semua Status',
+        statusActive: 'Aktif',
+        statusInactive: 'Nonaktif',
+        selectAll: 'Pilih semua',
+        clearSel: 'Batal Pilih',
+        addSelStudy: 'Tambah ke Study List',
+        deleteSel: `Hapus (${selectedCount})`,
+        keyLabel: 'Kunci',
+        imgTag: 'Ilustrasi',
+        inactiveTag: 'Nonaktif',
+        editBtn: 'Edit',
+        dupBtn: 'Duplikat',
+        delBtn: 'Hapus',
+        emptyMsg: 'Tidak ada soal yang cocok dengan filter saat ini.',
+        unitSoal: 'soal',
+        unitImg: 'ilustrasi'
+      };
 
   view.innerHTML = `
     <div class="zen-page zen-bank-page">
@@ -2848,10 +3101,10 @@ function renderBank() {
           </div>
           <div class="hd-pkg-list">
             ${visiblePackages.map((pkg, idx) => {
-              const code = getHomePackageCode(pkg, idx);
-              const titleObj = formatHomePackageTitle(pkg);
-              const metaText = `${pkg.active} ${B.unitSoal}${pkg.withImage > 0 ? ` · ${pkg.withImage} ${B.unitImg}` : ''}`;
-              return `
+    const code = getHomePackageCode(pkg, idx);
+    const titleObj = formatHomePackageTitle(pkg);
+    const metaText = `${pkg.active} ${B.unitSoal}${pkg.withImage > 0 ? ` · ${pkg.withImage} ${B.unitImg}` : ''}`;
+    return `
                 <div class="hd-pkg-row">
                   <span class="hd-pkg-code" aria-hidden="true">${esc(code)}</span>
                   <div class="hd-pkg-main">
@@ -2865,7 +3118,7 @@ function renderBank() {
                   </div>
                 </div>
               `;
-            }).join('')}
+  }).join('')}
           </div>
         </section>
       `}
@@ -2934,12 +3187,12 @@ function renderBank() {
 
           <div class="zen-q-list">
             ${pageItems.length ? pageItems.map(q => {
-              const img = getQuestionMainMedia(q);
-              const hasImg = Boolean(img || q.options?.some(o => o.mediaId || o.optionImage));
-              const keyLetter = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : 'A';
-              const pkgLabel = formatHomePackageTitle({ name: packageName(q) }).primary;
-              const inStudy = isQuestionInStudy(q);
-              return `
+    const img = getQuestionMainMedia(q);
+    const hasImg = Boolean(img || q.options?.some(o => o.mediaId || o.optionImage));
+    const keyLetter = Number.isInteger(q.correctIndex) ? String.fromCharCode(65 + q.correctIndex) : 'A';
+    const pkgLabel = formatHomePackageTitle({ name: packageName(q) }).primary;
+    const inStudy = isQuestionInStudy(q);
+    return `
                 <article class="zen-q-item">
                   <div class="zen-q-top">
                     <div class="zen-q-meta">
@@ -2972,7 +3225,7 @@ function renderBank() {
                   </div>
                 </article>
               `;
-            }).join('') : `<p class="hd-empty-line">${esc(B.emptyMsg)}</p>`}
+  }).join('') : `<p class="hd-empty-line">${esc(B.emptyMsg)}</p>`}
           </div>
 
           <div class="zen-pagination">
@@ -2986,16 +3239,16 @@ function renderBank() {
                 </button>
                 <div class="zen-page-numbers">
                   ${generatePaginationPages(currentPage, totalPages).map(p => {
-                    if (p === '…') {
-                      return `<span class="zen-page-ellipsis" aria-hidden="true">…</span>`;
-                    }
-                    const isCurrent = p === currentPage;
-                    return `
+    if (p === '…') {
+      return `<span class="zen-page-ellipsis" aria-hidden="true">…</span>`;
+    }
+    const isCurrent = p === currentPage;
+    return `
                       <button type="button" class="zen-page-num-btn ${isCurrent ? 'is-active' : ''}" data-action="bank-go-page" data-page-num="${p}" ${isCurrent ? 'aria-current="page"' : ''}>
                         ${p}
                       </button>
                     `;
-                  }).join('')}
+  }).join('')}
                 </div>
                 <button type="button" class="hd-row-btn zen-page-nav-btn" data-action="bank-next-page" ${currentPage === totalPages ? 'disabled aria-disabled="true"' : ''}>
                   ${esc(B.btnNext)} ›
@@ -3010,16 +3263,16 @@ function renderBank() {
 
 // CSV Importer for SSW PM
 const CSV_MAP_FIELDS = [
-  { key: 'setName', label: 'Nama Paket Soal', aliases: ['setname','set name','package','paket','nama paket','sumber'] },
-  { key: 'questionNumber', label: 'Nomor Soal', aliases: ['questionnumber','question number','nomor','no','nomor soal','number'] },
-  { key: 'prompt', label: 'Pertanyaan Bahasa Jepang', required: true, aliases: ['prompt','question','pertanyaan','soal','question text','teks soal','teks pertanyaan','問題','問題文','jp'] },
-  { key: 'instructions', label: 'Instruksi Soal', aliases: ['instructions','instruction','instruksi','petunjuk','perintah','指示'] },
-  { key: 'optionA', label: 'Pilihan A', required: true, aliases: ['option a','option_a','optiona','choice a','opsi a','pilihan a','jawaban a','選択肢a','a'] },
-  { key: 'optionB', label: 'Pilihan B', required: true, aliases: ['option b','option_b','optionb','choice b','opsi b','pilihan b','jawaban b','選択肢b','b'] },
-  { key: 'optionC', label: 'Pilihan C', aliases: ['option c','option_c','optionc','choice c','opsi c','pilihan c','jawaban c','選択肢c','c'] },
-  { key: 'correctAnswer', label: 'Kunci Jawaban (A/B/C)', required: true, aliases: ['correctanswer','correct answer','correct_answer','answer key','kunci','kunci jawaban','jawaban benar','answer','正解'] },
-  { key: 'explanation', label: 'Pembahasan / Catatan', aliases: ['explanation','pembahasan','penjelasan','catatan','解説'] },
-  { key: 'active', label: 'Status Aktif (Opsional)', aliases: ['active','aktif','status','enabled'] }
+  { key: 'setName', label: 'Nama Paket Soal', aliases: ['setname', 'set name', 'package', 'paket', 'nama paket', 'sumber'] },
+  { key: 'questionNumber', label: 'Nomor Soal', aliases: ['questionnumber', 'question number', 'nomor', 'no', 'nomor soal', 'number'] },
+  { key: 'prompt', label: 'Pertanyaan Bahasa Jepang', required: true, aliases: ['prompt', 'question', 'pertanyaan', 'soal', 'question text', 'teks soal', 'teks pertanyaan', '問題', '問題文', 'jp'] },
+  { key: 'instructions', label: 'Instruksi Soal', aliases: ['instructions', 'instruction', 'instruksi', 'petunjuk', 'perintah', '指示'] },
+  { key: 'optionA', label: 'Pilihan A', required: true, aliases: ['option a', 'option_a', 'optiona', 'choice a', 'opsi a', 'pilihan a', 'jawaban a', '選択肢a', 'a'] },
+  { key: 'optionB', label: 'Pilihan B', required: true, aliases: ['option b', 'option_b', 'optionb', 'choice b', 'opsi b', 'pilihan b', 'jawaban b', '選択肢b', 'b'] },
+  { key: 'optionC', label: 'Pilihan C', aliases: ['option c', 'option_c', 'optionc', 'choice c', 'opsi c', 'pilihan c', 'jawaban c', '選択肢c', 'c'] },
+  { key: 'correctAnswer', label: 'Kunci Jawaban (A/B/C)', required: true, aliases: ['correctanswer', 'correct answer', 'correct_answer', 'answer key', 'kunci', 'kunci jawaban', 'jawaban benar', 'answer', '正解'] },
+  { key: 'explanation', label: 'Pembahasan / Catatan', aliases: ['explanation', 'pembahasan', 'penjelasan', 'catatan', '解説'] },
+  { key: 'active', label: 'Status Aktif (Opsional)', aliases: ['active', 'aktif', 'status', 'enabled'] }
 ];
 
 function csvNorm(value) {
@@ -3029,7 +3282,7 @@ function countCsvDelimiter(line, delimiter) {
   let count = 0, quoted = false;
   for (let i = 0; i < line.length; i++) {
     const c = line[i];
-    if (c === '"') { if (quoted && line[i+1] === '"') i++; else quoted = !quoted; }
+    if (c === '"') { if (quoted && line[i + 1] === '"') i++; else quoted = !quoted; }
     else if (!quoted && c === delimiter) count++;
   }
   return count;
@@ -3039,18 +3292,18 @@ function parseCSVText(text) {
   const sampleLines = text.split(/\r?\n/).filter(line => line.trim()).slice(0, 8);
   const delimiters = [',', ';', '\t'];
   const delimiter = delimiters.map(d => ({ d, score: sampleLines.reduce((n, line) => n + countCsvDelimiter(line, d), 0) }))
-    .sort((a,b) => b.score - a.score)[0]?.d || ',';
+    .sort((a, b) => b.score - a.score)[0]?.d || ',';
   const rows = []; let row = [], field = '', quoted = false;
   for (let i = 0; i < text.length; i++) {
     const c = text[i];
     if (c === '"') {
-      if (quoted && text[i+1] === '"') { field += '"'; i++; }
+      if (quoted && text[i + 1] === '"') { field += '"'; i++; }
       else if (quoted) quoted = false;
       else if (!field.length) quoted = true;
       else field += c;
     } else if (c === delimiter && !quoted) { row.push(field); field = ''; }
     else if ((c === '\n' || c === '\r') && !quoted) {
-      if (c === '\r' && text[i+1] === '\n') i++;
+      if (c === '\r' && text[i + 1] === '\n') i++;
       row.push(field); field = '';
       if (row.some(cell => String(cell).trim() !== '')) rows.push(row);
       row = [];
@@ -3060,7 +3313,7 @@ function parseCSVText(text) {
   if (quoted) throw new Error('Format CSV tidak lengkap: ada tanda kutip yang belum ditutup.');
   if (!rows.length || rows.length < 2) throw new Error('CSV kosong atau hanya memiliki header.');
   const rawHeaders = rows.shift();
-  const headers = rawHeaders.map((h, i) => String(h ?? '').trim() || `Kolom ${i+1}`);
+  const headers = rawHeaders.map((h, i) => String(h ?? '').trim() || `Kolom ${i + 1}`);
   const dataRows = rows.map(r => headers.map((_, i) => String(r[i] ?? '')));
   return { headers, rows: dataRows, delimiter };
 }
@@ -3069,7 +3322,7 @@ function suggestCsvHeader(headers, field) {
   const normalized = headers.map(csvNorm);
   let index = normalized.findIndex(h => aliases.includes(h));
   if (index < 0) {
-    const specificAliases = aliases.filter(a => a.length >= 6).sort((a,b) => b.length - a.length);
+    const specificAliases = aliases.filter(a => a.length >= 6).sort((a, b) => b.length - a.length);
     for (const alias of specificAliases) {
       index = normalized.findIndex(h => h.startsWith(alias + ' ') || h.endsWith(' ' + alias));
       if (index >= 0) break;
@@ -3097,7 +3350,7 @@ function makeCSVQuestion(row, rowNumber) {
   const errors = [];
   const prompt = sanitizeRichHTML(csvFieldValue(row, 'prompt'));
   if (!richPlainText(prompt) && !/<img\b/i.test(prompt)) errors.push('Pertanyaan kosong.');
-  const optionFields = ['optionA','optionB','optionC'];
+  const optionFields = ['optionA', 'optionB', 'optionC'];
   const options = optionFields
     .map((field, sourceSlot) => ({ id: String.fromCharCode(65 + sourceSlot), text: sanitizeRichHTML(csvFieldValue(row, field)), mediaId: '', sourceSlot }))
     .filter(o => richPlainText(o.text) !== '' || /<img\b/i.test(o.text));
@@ -3108,7 +3361,7 @@ function makeCSVQuestion(row, rowNumber) {
     errors.push(`Kunci jawaban “${answerRaw || '(kosong)'}” tidak cocok. Gunakan A, B, atau C.`);
   }
   const activeRaw = csvFieldValue(row, 'active');
-  const active = !['0','false','no','tidak','nonaktif','inactive','off'].includes(csvNorm(activeRaw));
+  const active = !['0', 'false', 'no', 'tidak', 'nonaktif', 'inactive', 'off'].includes(csvNorm(activeRaw));
   const rawSetName = csvFieldValue(row, 'setName') || draft.defaults.setName || 'Paket Impor CSV SSW PM';
   const setId = csvNorm(rawSetName).replace(/\s+/g, '-') || 'ssw-pm-csv';
   const qNum = Number.parseInt(csvFieldValue(row, 'questionNumber'), 10) || (rowNumber + 1);
@@ -3161,7 +3414,7 @@ function renderCSVImportModal() {
   const invalid = previews.filter(x => x.errors.length);
   const duplicates = previews.filter(x => x.duplicate && !x.errors.length);
   const mappingHTML = CSV_MAP_FIELDS.map(f => {
-    const opts = `<option value="">— Tidak dipetakan —</option>` + d.headers.map((h,i)=>`<option value="${i}" ${d.mapping[f.key] === i ? 'selected' : ''}>Kolom ${i+1} · ${esc(h)}</option>`).join('');
+    const opts = `<option value="">— Tidak dipetakan —</option>` + d.headers.map((h, i) => `<option value="${i}" ${d.mapping[f.key] === i ? 'selected' : ''}>Kolom ${i + 1} · ${esc(h)}</option>`).join('');
     return `<div class="csv-map-row ${f.required ? 'is-required' : ''}">
       <div class="csv-map-target"><div class="csv-map-target-title"><strong>${esc(f.label)}</strong>${f.required ? '<span class="csv-required-tag">Wajib</span>' : '<span class="csv-optional-tag">Opsional</span>'}</div></div>
       <div class="csv-map-source"><select data-csv-map="${f.key}">${opts}</select></div>
@@ -3169,7 +3422,7 @@ function renderCSVImportModal() {
   }).join('');
   const previewHTML = previews.slice(0, 10).map(x => {
     const status = x.errors.length ? `<span class="status status-warn">Lewati</span>` : x.duplicate && d.skipDuplicates ? `<span class="status status-neutral">Duplikat</span>` : `<span class="status status-on">Siap</span>`;
-    return `<tr><td>${x.rowNumber + 2}</td><td><div class="csv-preview-prompt rich-content">${richHTML(x.q.prompt || '(kosong)')}</div></td><td class="csv-preview-options rich-content">${x.q.options.map((o,i)=>`<div><strong>${String.fromCharCode(65+i)}.</strong> ${richHTML(o.text)}</div>`).join('')}</td><td>${esc(x.q.correctAnswer || '—')}</td><td>${status}</td></tr>`;
+    return `<tr><td>${x.rowNumber + 2}</td><td><div class="csv-preview-prompt rich-content">${richHTML(x.q.prompt || '(kosong)')}</div></td><td class="csv-preview-options rich-content">${x.q.options.map((o, i) => `<div><strong>${String.fromCharCode(65 + i)}.</strong> ${richHTML(o.text)}</div>`).join('')}</td><td>${esc(x.q.correctAnswer || '—')}</td><td>${status}</td></tr>`;
   }).join('');
   const content = `<div class="csv-import-content">
     <div class="notice notice-neutral csv-import-note"><strong>File: ${esc(d.fileName)}</strong><p>${d.rows.length} baris data terdeteksi. Mendukung HTML <code>&lt;ruby&gt;&lt;rt&gt;</code> untuk furigana.</p></div>
@@ -3210,7 +3463,7 @@ async function applyCSVImport() {
   toast(`Impor CSV selesai: ${saved} soal ditambahkan ke Bank Soal.`, 'success');
 }
 function downloadCSVTemplate() {
-  const headers = ['setName','questionNumber','prompt','instructions','optionA','optionB','optionC','correctAnswer','explanation','active'];
+  const headers = ['setName', 'questionNumber', 'prompt', 'instructions', 'optionA', 'optionB', 'optionC', 'correctAnswer', 'explanation', 'active'];
   const sample = [
     'Paket Latihan SSW PM',
     '1',
@@ -3265,10 +3518,10 @@ function renderHistory() {
               </thead>
               <tbody>
                 ${hist.map(s => {
-                  const st = rawStats(s);
-                  const elapsed = s.elapsedSeconds ?? Math.max(0, Math.floor(((s.endedAt || Date.now()) - s.startedAt) / 1000));
-                  const cleanTitle = formatHomeSessionTitle(s);
-                  return `<tr>
+    const st = rawStats(s);
+    const elapsed = s.elapsedSeconds ?? Math.max(0, Math.floor(((s.endedAt || Date.now()) - s.startedAt) / 1000));
+    const cleanTitle = formatHomeSessionTitle(s);
+    return `<tr>
                     <td class="hd-col-date" data-label="${esc(t('thDate'))}">${fmtDate(s.endedAt || s.startedAt, loc)}</td>
                     <td class="hd-col-pkg" data-label="${esc(t('thPkg'))}">
                       <div>
@@ -3288,7 +3541,7 @@ function renderHistory() {
                       </div>
                     </td>
                   </tr>`;
-                }).join('')}
+  }).join('')}
               </tbody>
             </table>
           </div>
@@ -3434,15 +3687,15 @@ function mediaControl(q, kind, mediaId, accept, label) {
 function richToolbarHTML(compact = false) {
   const tools = compact
     ? [
-        ['bold','B','Tebal'], ['italic','I','Miring'], ['underline','U','Garis bawah'],
-        ['foreColor','A','Warna teks', '#c0392b'], ['backColor','▰','Sorot teks', '#fff0a8']
-      ]
+      ['bold', 'B', 'Tebal'], ['italic', 'I', 'Miring'], ['underline', 'U', 'Garis bawah'],
+      ['foreColor', 'A', 'Warna teks', '#c0392b'], ['backColor', '▰', 'Sorot teks', '#fff0a8']
+    ]
     : [
-        ['bold','B','Tebal'], ['italic','I','Miring'], ['underline','U','Garis bawah'], ['strikeThrough','S','Coret'],
-        ['foreColor','A','Warna teks', '#c0392b'], ['backColor','▰','Sorot teks', '#fff0a8'],
-        ['insertUnorderedList','• List','Daftar poin'], ['insertOrderedList','1. List','Daftar angka'], ['removeFormat','Tx','Hapus format']
-      ];
-  return `<div class="rich-editor-toolbar ${compact ? 'is-compact' : ''}" role="toolbar" aria-label="Pemformatan teks">${tools.map(([cmd,label,title,value]) => `<button type="button" data-rich-command="${cmd}" ${value ? `data-rich-value="${value}"` : ''} title="${title}" aria-label="${title}">${label === 'B' ? '<b>B</b>' : label === 'I' ? '<i>I</i>' : label === 'U' ? '<u>U</u>' : label === 'S' ? '<s>S</s>' : label}</button>`).join('')}<span class="rich-toolbar-tip">Mendukung &lt;ruby&gt;漢字&lt;rt&gt;かんじ&lt;/rt&gt;&lt;/ruby&gt;</span></div>`;
+      ['bold', 'B', 'Tebal'], ['italic', 'I', 'Miring'], ['underline', 'U', 'Garis bawah'], ['strikeThrough', 'S', 'Coret'],
+      ['foreColor', 'A', 'Warna teks', '#c0392b'], ['backColor', '▰', 'Sorot teks', '#fff0a8'],
+      ['insertUnorderedList', '• List', 'Daftar poin'], ['insertOrderedList', '1. List', 'Daftar angka'], ['removeFormat', 'Tx', 'Hapus format']
+    ];
+  return `<div class="rich-editor-toolbar ${compact ? 'is-compact' : ''}" role="toolbar" aria-label="Pemformatan teks">${tools.map(([cmd, label, title, value]) => `<button type="button" data-rich-command="${cmd}" ${value ? `data-rich-value="${value}"` : ''} title="${title}" aria-label="${title}">${label === 'B' ? '<b>B</b>' : label === 'I' ? '<i>I</i>' : label === 'U' ? '<u>U</u>' : label === 'S' ? '<s>S</s>' : label}</button>`).join('')}<span class="rich-toolbar-tip">Mendukung &lt;ruby&gt;漢字&lt;rt&gt;かんじ&lt;/rt&gt;&lt;/ruby&gt;</span></div>`;
 }
 
 function richEditorControl(name, value, placeholder = 'Ketik atau tempel di sini…', options = {}) {
@@ -3464,15 +3717,15 @@ function renderQuestionPreviewMarkup(q) {
       <div class="question-author-preview-prompt rich-content" lang="ja">${richHTML(q.prompt || '<span class="muted">Pertanyaan belum diisi.</span>')}</div>
       ${mainImage ? `<img class="question-author-preview-image" src="${mediaURL(mainImage)}" alt="Ilustrasi soal">` : ''}
       <div class="question-author-preview-options">
-        ${(q.options || []).map((o,i) => {
-          const media = getOptionMedia(q,o,i);
-          return `<div class="question-author-preview-option ${i===q.correctIndex?'is-correct':''}">
-            <span class="question-author-preview-letter">${String.fromCharCode(65+i)}</span>
+        ${(q.options || []).map((o, i) => {
+    const media = getOptionMedia(q, o, i);
+    return `<div class="question-author-preview-option ${i === q.correctIndex ? 'is-correct' : ''}">
+            <span class="question-author-preview-letter">${String.fromCharCode(65 + i)}</span>
             <div class="rich-content" lang="ja">${richHTML(o.text || '(opsi kosong)')}</div>
             ${media ? `<img src="${mediaURL(media)}" alt="Gambar opsi">` : ''}
-            ${i===q.correctIndex ? '<small>Kunci Benar</small>' : ''}
+            ${i === q.correctIndex ? '<small>Kunci Benar</small>' : ''}
           </div>`;
-        }).join('')}
+  }).join('')}
       </div>
     </div>
   </section>`;
@@ -3500,16 +3753,16 @@ function renderQuestionEditor() {
         <input name="sourcePage" type="number" min="1" max="200" value="${esc(q.sourcePage || q.pdfPage || 1)}">
       </label>
     </div>
-    ${richEditorField('prompt','Pertanyaan Bahasa Jepang',q.prompt,'Tulis pertanyaan bahasa Jepang…',{size:'large'})}
-    ${richEditorField('promptTranslation','Terjemahan Pertanyaan (Bahasa Indonesia · Ditampilkan Setelah Finish Exam)',q.promptTranslation || q.translation || '','Tulis terjemahan Bahasa Indonesia untuk pertanyaan ini…',{size:'small'})}
-    ${richEditorField('instructions','Instruksi Soal',q.instructions,'Instruksi soal',{size:'small'})}
+    ${richEditorField('prompt', 'Pertanyaan Bahasa Jepang', q.prompt, 'Tulis pertanyaan bahasa Jepang…', { size: 'large' })}
+    ${richEditorField('promptTranslation', 'Terjemahan Pertanyaan (Bahasa Indonesia · Ditampilkan Setelah Finish Exam)', q.promptTranslation || q.translation || '', 'Tulis terjemahan Bahasa Indonesia untuk pertanyaan ini…', { size: 'small' })}
+    ${richEditorField('instructions', 'Instruksi Soal', q.instructions, 'Instruksi soal', { size: 'small' })}
     <div class="field">
       <span>Ilustrasi Soal (Opsional)</span>
-      ${mediaControl(q,'image',q.imageMediaId,'image/jpeg,image/png,image/webp','Pilih ilustrasi JPG, PNG, atau WebP')}
+      ${mediaControl(q, 'image', q.imageMediaId, 'image/jpeg,image/png,image/webp', 'Pilih ilustrasi JPG, PNG, atau WebP')}
       <div class="three-fields">
-        <label class="field"><span>Ukuran</span><select name="imageSize">${[['compact','Kompak'],['medium','Sedang'],['large','Lebar']].map(([v,l])=>`<option value="${v}" ${q.imageSize===v?'selected':''}>${l}</option>`).join('')}</select></label>
-        <label class="field"><span>Rasio</span><select name="imageRatio">${[['auto','Asli'],['landscape','16:9'],['square','1:1'],['portrait','3:4']].map(([v,l])=>`<option value="${v}" ${q.imageRatio===v?'selected':''}>${l}</option>`).join('')}</select></label>
-        <label class="field"><span>Posisi</span><select name="imagePosition">${[['left','Kiri'],['center','Tengah'],['right','Kanan']].map(([v,l])=>`<option value="${v}" ${q.imagePosition===v?'selected':''}>${l}</option>`).join('')}</select></label>
+        <label class="field"><span>Ukuran</span><select name="imageSize">${[['compact', 'Kompak'], ['medium', 'Sedang'], ['large', 'Lebar']].map(([v, l]) => `<option value="${v}" ${q.imageSize === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
+        <label class="field"><span>Rasio</span><select name="imageRatio">${[['auto', 'Asli'], ['landscape', '16:9'], ['square', '1:1'], ['portrait', '3:4']].map(([v, l]) => `<option value="${v}" ${q.imageRatio === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
+        <label class="field"><span>Posisi</span><select name="imagePosition">${[['left', 'Kiri'], ['center', 'Tengah'], ['right', 'Kanan']].map(([v, l]) => `<option value="${v}" ${q.imagePosition === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
       </div>
     </div>
     <div class="editor-section-title">
@@ -3519,26 +3772,26 @@ function renderQuestionEditor() {
     <div class="option-editor-list">
       ${q.options.map((o, i) => `
         <div class="option-editor" data-option-row="${i}">
-          <div class="option-editor-index">${String.fromCharCode(65+i)}</div>
+          <div class="option-editor-index">${String.fromCharCode(65 + i)}</div>
           <div class="field option-text-field">
-            <span>Pilihan ${String.fromCharCode(65+i)} (Jepang)</span>
-            ${richEditorControl(`optionText${i}`,o.text,'Isi pilihan jawaban…',{size:'small',compact:true,label:`Pilihan ${String.fromCharCode(65+i)}`})}
-            <input type="text" name="optionTranslation${i}" value="${esc(o.translation || o.textId || '')}" placeholder="Terjemahan Bahasa Indonesia Opsi ${String.fromCharCode(65+i)} (opsional)…" aria-label="Terjemahan Opsi ${String.fromCharCode(65+i)}">
+            <span>Pilihan ${String.fromCharCode(65 + i)} (Jepang)</span>
+            ${richEditorControl(`optionText${i}`, o.text, 'Isi pilihan jawaban…', { size: 'small', compact: true, label: `Pilihan ${String.fromCharCode(65 + i)}` })}
+            <input type="text" name="optionTranslation${i}" value="${esc(o.translation || o.textId || '')}" placeholder="Terjemahan Bahasa Indonesia Opsi ${String.fromCharCode(65 + i)} (opsional)…" aria-label="Terjemahan Opsi ${String.fromCharCode(65 + i)}">
           </div>
           <div class="option-correct">
-            <input type="radio" name="correctIndex" value="${i}" ${q.correctIndex === i ? 'checked' : ''} aria-label="Jadikan opsi ${String.fromCharCode(65+i)} kunci benar">
+            <input type="radio" name="correctIndex" value="${i}" ${q.correctIndex === i ? 'checked' : ''} aria-label="Jadikan opsi ${String.fromCharCode(65 + i)} kunci benar">
             <span>Kunci</span>
           </div>
           <div class="option-image-wrap">
-            ${getOptionMedia(q,o,i) ? `<img class="option-preview-img" src="${mediaURL(getOptionMedia(q,o,i))}" alt="Preview opsi"><span class="option-image-label">${esc(getOptionMedia(q,o,i)?.name || 'file')}</span>` : ''}
-            <label class="text-button file-link">${getOptionMedia(q,o,i) ? 'Ganti gambar' : '+ Gambar'}<input type="file" data-option-image="${i}" accept="image/jpeg,image/png,image/webp" hidden></label>
-            ${getOptionMedia(q,o,i) ? `<button type="button" class="text-button danger-text" data-action="remove-option-image" data-index="${i}">Hapus</button>` : ''}
+            ${getOptionMedia(q, o, i) ? `<img class="option-preview-img" src="${mediaURL(getOptionMedia(q, o, i))}" alt="Preview opsi"><span class="option-image-label">${esc(getOptionMedia(q, o, i)?.name || 'file')}</span>` : ''}
+            <label class="text-button file-link">${getOptionMedia(q, o, i) ? 'Ganti gambar' : '+ Gambar'}<input type="file" data-option-image="${i}" accept="image/jpeg,image/png,image/webp" hidden></label>
+            ${getOptionMedia(q, o, i) ? `<button type="button" class="text-button danger-text" data-action="remove-option-image" data-index="${i}">Hapus</button>` : ''}
           </div>
           ${q.options.length > 2 ? `<button type="button" class="icon-button danger-icon option-delete" data-action="remove-option" data-index="${i}" title="Hapus opsi">×</button>` : ''}
         </div>
       `).join('')}
     </div>
-    ${richEditorField('explanation','Catatan Sumber / Pembahasan',q.explanation,'Catatan sumber halaman PDF atau pembahasan…',{size:'small'})}
+    ${richEditorField('explanation', 'Catatan Sumber / Pembahasan', q.explanation, 'Catatan sumber halaman PDF atau pembahasan…', { size: 'small' })}
     <div class="two-fields">
       <label class="field"><span>Status</span><select name="active"><option value="true" ${q.active !== false ? 'selected' : ''}>Aktif</option><option value="false" ${q.active === false ? 'selected' : ''}>Nonaktif</option></select></label>
       <label class="field"><span>Bobot Poin</span><input name="points" type="number" step="0.05" min="0.5" max="100" value="${esc(q.points || 3.75)}"></label>
@@ -3564,7 +3817,7 @@ function syncQuestionDraft() {
   q.pdfPage = q.sourcePage;
   q.points = Number.parseFloat(fd.get('points')) || 3.75;
 
-  for (const key of ['prompt','promptTranslation','instructions','explanation']) {
+  for (const key of ['prompt', 'promptTranslation', 'instructions', 'explanation']) {
     const rich = form.querySelector(`[data-rich-field="${key}"]`);
     if (rich) q[key] = normalizedRichEditorValue(rich.innerHTML);
   }
@@ -3621,13 +3874,21 @@ function buildExamQuestions(setup) {
 }
 
 function getExamPackageDisplayName(session, currentQ = null) {
-  const rawSetId = session?.setId && session.setId !== 'all' ? session.setId : (currentQ?.setId || session?.setId || '');
-  const rawName = (session?.setId && session.setId !== 'all' && session?.setName)
-    ? session.setName
-    : (rawSetId ? packageName(rawSetId, session?.setName || '') : (session?.setName || ''));
+  // If this is a mixed/collection session (e.g. Study List or all packages), prioritize current question's source package
+  const isMultiSetSession = session?.setId === 'all' || session?.setId === 'study-list-all' || session?.isStudyList;
+  const rawSetId = isMultiSetSession
+    ? (currentQ?.setId || currentQ?.packageId || session?.setId || '')
+    : (session?.setId ? session.setId : (currentQ?.setId || ''));
+
+  const rawName = isMultiSetSession
+    ? (currentQ ? packageName(currentQ, currentQ.setName || '') : (session?.setName || ''))
+    : ((session?.setId && session?.setName)
+      ? session.setName
+      : (rawSetId ? packageName(rawSetId, session?.setName || '') : (session?.setName || '')));
+
   if (!rawName) return formatHomeSessionTitle(session) || 'Soal Ujian 1';
   const stripped = String(rawName)
-    .replace(/^(Mock Test Penuh|Latihan|Simulasi Kustom)\s*—\s*/i, '')
+    .replace(/^(Mock Test Penuh|Latihan|Simulasi Kustom|Latihan Study List|CBT Mock Test Study List)\s*—\s*/i, '')
     .trim();
   const parts = stripped.split(/\s*—\s*/);
   return (parts[0] || stripped).trim();
@@ -3950,28 +4211,33 @@ function toggleSelectiveKotoba(s = activeExam(), qId, optKey = null) {
    ========================================================================== */
 let kotobaMappingCache = null;
 let kotobaDictionaryCache = null;
+let kotobaExtraCache = null;
 let kotobaLoadingPromise = null;
 
-function setKotobaData(mappingData = null, dictData = null) {
+function setKotobaData(mappingData = null, dictData = null, extraData = null) {
   if (mappingData && typeof mappingData === 'object') {
     kotobaMappingCache = mappingData;
   }
   if (dictData && typeof dictData === 'object') {
     kotobaDictionaryCache = dictData;
   }
+  if (extraData && typeof extraData === 'object') {
+    kotobaExtraCache = extraData;
+  }
 }
 
 async function ensureKotobaDataLoaded() {
-  if (kotobaMappingCache && kotobaDictionaryCache) {
-    return { mapping: kotobaMappingCache, dictionary: kotobaDictionaryCache };
+  if (kotobaMappingCache && kotobaDictionaryCache && kotobaExtraCache) {
+    return { mapping: kotobaMappingCache, dictionary: kotobaDictionaryCache, extra: kotobaExtraCache };
   }
   if (kotobaLoadingPromise) return kotobaLoadingPromise;
 
   kotobaLoadingPromise = (async () => {
     try {
-      const [mappingData, dictData] = await Promise.all([
-        fetchBuiltinJson('kotobaMapping.json'),
-        fetchBuiltinJson('sharedKotobaDictionary.json')
+      const [mappingData, dictData, extraData] = await Promise.all([
+        fetchBuiltinJson('data/kotobaMapping.json'),
+        fetchBuiltinJson('data/sharedKotobaDictionary.json'),
+        fetchBuiltinJson('data/kotoba-dan-kategori-tambahan.json')
       ]);
       if (mappingData && mappingData.questions) {
         kotobaMappingCache = mappingData;
@@ -3979,12 +4245,15 @@ async function ensureKotobaDataLoaded() {
       if (dictData && dictData.terms) {
         kotobaDictionaryCache = dictData;
       }
+      if (extraData && extraData.entries) {
+        kotobaExtraCache = extraData;
+      }
     } catch (err) {
       console.warn('Gagal memuat dataset Kotoba:', err);
     } finally {
       kotobaLoadingPromise = null;
     }
-    return { mapping: kotobaMappingCache, dictionary: kotobaDictionaryCache };
+    return { mapping: kotobaMappingCache, dictionary: kotobaDictionaryCache, extra: kotobaExtraCache };
   })();
 
   return kotobaLoadingPromise;
@@ -4127,10 +4396,10 @@ function renderExamShortcutsSection() {
           <div class="exam-shortcuts-status" role="status" aria-live="polite">${esc(conflictMsg)}</div>
           <div class="exam-shortcuts-list">
             ${EXAM_SHORTCUT_ACTIONS.map(item => {
-              const isCapturing = captureAction === item.id;
-              const currentKey = bindings[item.id] ?? DEFAULT_EXAM_SHORTCUTS[item.id];
-              const badgeText = isCapturing ? 'Press a key...' : formatShortcutKeyLabel(currentKey);
-              return `
+    const isCapturing = captureAction === item.id;
+    const currentKey = bindings[item.id] ?? DEFAULT_EXAM_SHORTCUTS[item.id];
+    const badgeText = isCapturing ? 'Press a key...' : formatShortcutKeyLabel(currentKey);
+    return `
                 <div class="exam-shortcut-row">
                   <span class="exam-shortcut-label">${esc(item.label)}</span>
                   <button
@@ -4142,7 +4411,7 @@ function renderExamShortcutsSection() {
                     aria-label="${esc(item.label)}: ${esc(badgeText)}"
                   >${esc(badgeText)}</button>
                 </div>`;
-            }).join('')}
+  }).join('')}
           </div>
         </div>`;
 }
@@ -4284,8 +4553,8 @@ function renderExam() {
 
     if (target.targetType === 'prompt') {
       return workspace.querySelector('.practice-prompt-row') ||
-             workspace.querySelector('.question-card') ||
-             workspace.querySelector('.question-prompt');
+        workspace.querySelector('.question-card') ||
+        workspace.querySelector('.question-prompt');
     }
 
     if (target.targetType === 'option') {
@@ -4328,7 +4597,7 @@ function renderExam() {
 
     // Check if target is already comfortably and fully in view:
     const isComfortablyVisible = (targetTop >= currentVisibleTop + MARGIN) &&
-                                (targetTop + targetHeight <= currentVisibleBottom - MARGIN);
+      (targetTop + targetHeight <= currentVisibleBottom - MARGIN);
 
     if (isComfortablyVisible) {
       return;
@@ -4381,8 +4650,8 @@ function renderExam() {
       : [];
     const isOptTransOpen = isUntimedPractice
       ? (optSelState?.translation !== null && optSelState?.translation !== undefined
-          ? Boolean(optSelState.translation)
-          : Boolean(state.practiceTranslationOpen))
+        ? Boolean(optSelState.translation)
+        : Boolean(state.practiceTranslationOpen))
       : false;
 
     const showCorrectKey = Boolean(
@@ -4450,12 +4719,12 @@ function renderExam() {
     <aside class="exam-question-map" aria-label="Question list 1 to ${totalQ}">
       <div class="question-map-grid">
         ${s.questions.map((item, idx) => {
-          const isCurrent = idx === s.currentIndex;
-          const isAnswered = s.answers[item.id] != null;
-          const isFlagged = s.flaggedQuestions.includes(item.id);
-          const isInStudy = isQuestionInStudy(item);
-          return `<button type="button" class="question-map-item ${isCurrent ? 'current' : ''} ${isAnswered ? 'answered' : ''} ${isFlagged ? 'flagged' : ''} ${isInStudy ? 'in-study' : ''}" data-action="jump-question" data-index="${idx}" title="No. ${idx + 1}">${idx + 1}</button>`;
-        }).join('')}
+    const isCurrent = idx === s.currentIndex;
+    const isAnswered = s.answers[item.id] != null;
+    const isFlagged = s.flaggedQuestions.includes(item.id);
+    const isInStudy = isQuestionInStudy(item);
+    return `<button type="button" class="question-map-item ${isCurrent ? 'current' : ''} ${isAnswered ? 'answered' : ''} ${isFlagged ? 'flagged' : ''} ${isInStudy ? 'in-study' : ''}" data-action="jump-question" data-index="${idx}" title="No. ${idx + 1}">${idx + 1}</button>`;
+  }).join('')}
       </div>
     </aside>`;
 
@@ -4469,8 +4738,8 @@ function renderExam() {
     : [];
   const isPromptTransOpen = isUntimedPractice
     ? (qSelState?.translation !== null && qSelState?.translation !== undefined
-        ? Boolean(qSelState.translation)
-        : Boolean(state.practiceTranslationOpen))
+      ? Boolean(qSelState.translation)
+      : Boolean(state.practiceTranslationOpen))
     : false;
   const imageClass = `image-size-${q.imageSize || 'medium'} image-ratio-${q.imageRatio || 'auto'} image-pos-${q.imagePosition || 'center'}`;
   const answerPrev = questionNo > 1
@@ -4778,7 +5047,7 @@ function buildReviewCardsHTML(s, filter = 'all') {
     const correct = answer === q.correctIndex;
     const blank = answer == null;
     const tag = blank ? t('reviewTagBlank') : correct ? t('reviewTagCorrect') : t('reviewTagWrong');
-    const img = getQuestionMainMedia(q);
+    const img = getQuestionMainMedia(liveQ) || getQuestionMainMedia(q);
     const isTransOpen = Boolean(state.showAllTranslations || state.openTranslationIds?.has(q.id));
     const cardFuriOn = state.cardFurigana?.has(q.id) ? Boolean(state.cardFurigana.get(q.id)) : Boolean(state.examPrefs.showFurigana);
     const inStudy = isQuestionInStudy(q);
@@ -4837,17 +5106,17 @@ function buildReviewCardsHTML(s, filter = 'all') {
       const badgeMark = isKey && isUser
         ? (state.lang === 'ja' ? '✓ あなたの回答・正解' : state.lang === 'en' ? '✓ Selected & Key' : '✓ Pilihan & Kunci')
         : isKey
-        ? (state.lang === 'ja' ? '✓ 正解' : state.lang === 'en' ? '✓ Key' : '✓ Kunci')
-        : isUser
-        ? (state.lang === 'ja' ? '✕ あなたの回答' : state.lang === 'en' ? '✕ Your Choice' : '✕ Pilihan Anda')
-        : '';
+          ? (state.lang === 'ja' ? '✓ 正解' : state.lang === 'en' ? '✓ Key' : '✓ Kunci')
+          : isUser
+            ? (state.lang === 'ja' ? '✕ あなたの回答' : state.lang === 'en' ? '✕ Your Choice' : '✕ Pilihan Anda')
+            : '';
       return `
         <div class="zen-trans-opt ${isKey ? 'is-key' : ''} ${isUser && !correct ? 'is-wrong' : ''}">
           <span class="zen-trans-opt-letter">${letter}</span>
           <div class="zen-trans-opt-body">
             ${optTrans
-              ? `<span class="zen-trans-opt-text rich-content">${richHTML(optTrans)}</span>`
-              : `<span class="zen-trans-missing-inline">—</span>`}
+          ? `<span class="zen-trans-opt-text rich-content">${richHTML(optTrans)}</span>`
+          : `<span class="zen-trans-missing-inline">—</span>`}
           </div>
           ${badgeMark ? `<span class="zen-trans-badge ${isKey ? 'is-key' : 'is-user-wrong'}">${esc(badgeMark)}</span>` : ''}
         </div>`;
@@ -4877,18 +5146,19 @@ function buildReviewCardsHTML(s, filter = 'all') {
         ${img ? `<img class="zen-review-image" src="${mediaURL(img)}" alt="Ilustrasi ${qIdx}">` : ''}
         <div class="zen-review-options">
           ${(q.options || []).map((o, i) => {
-            const m = getOptionMedia(q, o, i);
-            const isKey = i === q.correctIndex;
-            const isUserWrong = i === answer && !correct;
-            const isUserCorrect = i === answer && correct;
-            const markLabel = isUserCorrect
-              ? '✓'
-              : isKey
-              ? '✓'
-              : isUserWrong
-              ? '✕'
-              : '';
-            return `
+      const liveOpt = resolveLiveOption(o, i);
+      const m = getOptionMedia(liveQ, liveOpt, i) || getOptionMedia(q, o, i);
+      const isKey = i === q.correctIndex;
+      const isUserWrong = i === answer && !correct;
+      const isUserCorrect = i === answer && correct;
+      const markLabel = isUserCorrect
+        ? '✓'
+        : isKey
+          ? '✓'
+          : isUserWrong
+            ? '✕'
+            : '';
+      return `
               <div class="zen-review-opt ${isKey ? 'is-correct' : ''} ${isUserWrong ? 'is-wrong' : ''}">
                 <span class="zen-opt-letter">${String.fromCharCode(65 + i)}</span>
                 <div class="zen-opt-body">
@@ -4897,12 +5167,12 @@ function buildReviewCardsHTML(s, filter = 'all') {
                 </div>
                 ${markLabel ? `<span class="zen-review-mark" aria-hidden="true">${esc(markLabel)}</span>` : ''}
               </div>`;
-          }).join('')}
+    }).join('')}
         </div>
         <div class="zen-translation-panel ${isTransOpen ? 'is-open' : ''}" ${isTransOpen ? '' : 'hidden'} lang="id">
           ${promptTrans
-            ? `<div class="zen-trans-prompt rich-content">${richHTML(promptTrans)}</div>`
-            : `<div class="zen-trans-missing">${esc(t('reviewTransMissing'))}</div>`}
+        ? `<div class="zen-trans-prompt rich-content">${richHTML(promptTrans)}</div>`
+        : `<div class="zen-trans-missing">${esc(t('reviewTransMissing'))}</div>`}
           <div class="zen-trans-options-list">
             ${transOptionsHTML}
           </div>
@@ -5149,10 +5419,10 @@ function renderResult() {
           <div class="zen-review-bar-left">
             <h2 class="hd-section-title">${esc(t('reviewSectionTitle'))}</h2>
             <select id="review-filter" aria-label="${esc(t('revFilterLabel'))}">
-              <option value="all" ${f==='all'?'selected':''}>${esc(t('revFilterAll'))} (${s.questions.length})</option>
-              <option value="wrong" ${f==='wrong'?'selected':''}>${esc(t('revFilterWrong'))} (${st.wrong})</option>
-              <option value="blank" ${f==='blank'?'selected':''}>${esc(t('revFilterBlank'))} (${st.unanswered})</option>
-              <option value="correct" ${f==='correct'?'selected':''}>${esc(t('revFilterCorrect'))} (${st.correct})</option>
+              <option value="all" ${f === 'all' ? 'selected' : ''}>${esc(t('revFilterAll'))} (${s.questions.length})</option>
+              <option value="wrong" ${f === 'wrong' ? 'selected' : ''}>${esc(t('revFilterWrong'))} (${st.wrong})</option>
+              <option value="blank" ${f === 'blank' ? 'selected' : ''}>${esc(t('revFilterBlank'))} (${st.unanswered})</option>
+              <option value="correct" ${f === 'correct' ? 'selected' : ''}>${esc(t('revFilterCorrect'))} (${st.correct})</option>
             </select>
             <button type="button"
                     class="button button-primary button-small retry-incorrect-btn"
@@ -5242,7 +5512,7 @@ async function toggleStudyItem(q) {
   const setId = liveQ.setId || q.setId || 'ssw-pm-kunci-ujian-1';
   const studyId = `${setId}::${q.id}`;
   if (!Array.isArray(state.studyList)) state.studyList = [];
-  
+
   const existingIdx = state.studyList.findIndex(
     item => item.id === studyId || item.id === q.id || (item.questionId === q.id && (item.setId === setId || item.packageId === setId))
   );
@@ -5306,10 +5576,10 @@ function openStudyDetail(item) {
 
       <div class="zen-study-options">
         ${(item.options || []).map((o, i) => {
-          const isCorrect = i === item.correctIndex;
-          const letter = String.fromCharCode(65 + i);
-          const optTrans = o.translation || o.textId || '';
-          return `
+    const isCorrect = i === item.correctIndex;
+    const letter = String.fromCharCode(65 + i);
+    const optTrans = o.translation || o.textId || '';
+    return `
             <div class="zen-study-opt ${isCorrect ? 'is-correct' : ''}">
               <span class="zen-study-opt-letter">${letter}</span>
               <div class="zen-study-opt-body">
@@ -5319,7 +5589,7 @@ function openStudyDetail(item) {
               ${isCorrect ? `<span class="zen-study-correct-badge">${esc(t('studyCorrectKey'))}</span>` : ''}
             </div>
           `;
-        }).join('')}
+  }).join('')}
       </div>
 
       ${item.promptTranslation ? `
@@ -5342,6 +5612,196 @@ function openStudyDetail(item) {
     <button type="button" class="button button-danger" data-action="remove-study-item" data-id="${esc(item.id)}" onclick="closeModal()">${esc(t('studyRemoveBtn'))}</button>
   `;
   modal(`${esc(item.setName || 'Soal')} — No. ${item.questionNumber}`, content, footer);
+}
+
+function openStudyExamModal() {
+  const items = Array.isArray(state.studyList) ? state.studyList : [];
+  if (!items.length) {
+    toast(t('studyExamNoValidQuestions'), 'warn');
+    return;
+  }
+  const qCount = items.length;
+  // Estimate realistic duration: 70 min for 40 questions -> ~1.75 min/question, capped at 120 min, minimum 5 min
+  const defaultMinutes = Math.min(180, Math.max(5, Math.round(qCount * 1.75)));
+
+  const content = `
+    <div class="zen-study-exam-dialog" style="display:flex; flex-direction:column; gap:16px;">
+      <p style="margin:0; font-size:14px; line-height:1.55; color:var(--zen-ink-soft);">
+        ${esc(t('studyStartExamModalDesc'))}
+        <strong style="color:var(--zen-ink); display:block; margin-top:4px;">${qCount} ${esc(t('studyMetaCount'))}</strong>
+      </p>
+
+      <div class="zen-study-exam-modes" style="display:flex; flex-direction:column; gap:10px;">
+        <label class="zen-study-mode-card" style="display:flex; gap:12px; padding:14px; border:1px solid var(--zen-line-strong); border-radius:10px; cursor:pointer; background:rgba(255,255,255,0.85); transition:border-color 0.15s ease;">
+          <input type="radio" name="study-exam-mode-choice" value="cbt" checked style="margin-top:3px; accent-color:var(--zen-ink);">
+          <div style="flex:1;">
+            <div style="font-weight:650; font-size:14px; color:var(--zen-ink); margin-bottom:2px;">${esc(t('studyModeCbtTitle'))}</div>
+            <div style="font-size:12.5px; color:var(--zen-muted); line-height:1.45;">${esc(t('studyModeCbtDesc'))}</div>
+          </div>
+        </label>
+
+        <label class="zen-study-mode-card" style="display:flex; gap:12px; padding:14px; border:1px solid var(--zen-line-strong); border-radius:10px; cursor:pointer; background:rgba(255,255,255,0.85); transition:border-color 0.15s ease;">
+          <input type="radio" name="study-exam-mode-choice" value="practice" style="margin-top:3px; accent-color:var(--zen-ink);">
+          <div style="flex:1;">
+            <div style="font-weight:650; font-size:14px; color:var(--zen-ink); margin-bottom:2px;">${esc(t('studyModePracticeTitle'))}</div>
+            <div style="font-size:12.5px; color:var(--zen-muted); line-height:1.45;">${esc(t('studyModePracticeDesc'))}</div>
+          </div>
+        </label>
+      </div>
+
+      <div id="study-cbt-timer-row" style="display:flex; align-items:center; justify-content:space-between; gap:12px; padding:10px 14px; background:var(--zen-sand); border-radius:8px; border:1px solid var(--zen-line);">
+        <label for="study-exam-duration-input" style="font-size:13px; font-weight:600; color:var(--zen-ink);">
+          ${esc(t('studyExamDurationLabel'))}
+        </label>
+        <div style="display:flex; align-items:center; gap:6px;">
+          <input type="number" id="study-exam-duration-input" min="1" max="300" value="${defaultMinutes}" style="width:72px; padding:6px 8px; border:1px solid var(--zen-line-strong); border-radius:6px; font-size:14px; text-align:center; font-weight:600;">
+          <span style="font-size:13px; color:var(--zen-muted);">min</span>
+        </div>
+      </div>
+
+      <div style="display:flex; align-items:center; gap:8px;">
+        <input type="checkbox" id="study-exam-shuffle-input" style="accent-color:var(--zen-ink); width:16px; height:16px;">
+        <label for="study-exam-shuffle-input" style="font-size:13px; color:var(--zen-ink); cursor:pointer; user-select:none;">
+          ${esc(t('studyExamShuffleLabel'))}
+        </label>
+      </div>
+    </div>
+  `;
+
+  const footer = `
+    <button type="button" class="button button-outline" data-action="close-modal">${esc(t('btnCancel'))}</button>
+    <button type="button" class="button button-primary" id="study-exam-launch-btn">${esc(t('topStartExam'))}</button>
+  `;
+
+  modal(t('studyStartExamModalTitle'), content, footer);
+
+  // Hook up mode radio toggle for duration row
+  const modalEl = $('#modal-root');
+  if (modalEl) {
+    const radios = modalEl.querySelectorAll('input[name="study-exam-mode-choice"]');
+    const timerRow = modalEl.querySelector('#study-cbt-timer-row');
+    radios.forEach(r => {
+      r.addEventListener('change', () => {
+        if (timerRow) timerRow.style.display = r.value === 'cbt' ? 'flex' : 'none';
+      });
+    });
+
+    const launchBtn = modalEl.querySelector('#study-exam-launch-btn');
+    if (launchBtn) {
+      launchBtn.addEventListener('click', async () => {
+        const selectedMode = modalEl.querySelector('input[name="study-exam-mode-choice"]:checked')?.value || 'cbt';
+        const durationVal = Math.max(1, Number(modalEl.querySelector('#study-exam-duration-input')?.value) || defaultMinutes);
+        const shuffleVal = Boolean(modalEl.querySelector('#study-exam-shuffle-input')?.checked);
+        closeModal();
+        await startExamFromStudyList({
+          isPractice: selectedMode === 'practice',
+          duration: durationVal,
+          random: shuffleVal
+        });
+      });
+    }
+  }
+}
+
+async function startExamFromStudyList({ isPractice = false, duration = 70, random = false } = {}) {
+  const items = Array.isArray(state.studyList) ? state.studyList : [];
+  if (!items.length) {
+    toast(t('studyExamNoValidQuestions'), 'warn');
+    return;
+  }
+
+  // Convert study items into full exam questions
+  let qs = items.map((orig, index) => {
+    const q = structuredClone(orig);
+    if (!q.id) q.id = `study-${index + 1}`;
+    q.questionNumber = index + 1;
+    return q;
+  });
+
+  if (random) {
+    qs = shuffle(qs);
+    qs.forEach((q, idx) => {
+      q.questionNumber = idx + 1;
+    });
+  }
+
+  // Validate active sessions
+  if (state.sessions.some(s => s.status === 'in_progress')) {
+    const active = state.sessions.find(s => s.status === 'in_progress');
+    const yes = await confirmModal(
+      'Sesi ujian sebelumnya belum selesai',
+      'Memulai sesi ujian Study List baru akan mengakhiri sesi yang sedang berjalan. Lanjutkan?',
+      'Mulai Ujian Baru'
+    );
+    if (!yes) return;
+    if (active && active.selectiveState) delete active.selectiveState;
+    if (state.activeSession && state.activeSession.selectiveState) delete state.activeSession.selectiveState;
+    active.status = 'interrupted';
+    active.endedAt = Date.now();
+    await put('sessions', active);
+  }
+
+  const minutes = Math.max(1, Number(duration) || 70);
+  const startedAt = Date.now();
+  const pkgTitle = `${t('studyExamPkgTitle')} (${qs.length} ${t('studyMetaCount')})`;
+  const modeLabel = isPractice ? 'Latihan Study List' : 'CBT Mock Test Study List';
+
+  const session = {
+    id: uid('study-exam'),
+    candidateName: String(state.setup?.candidateName || '').trim() || 'Faiz',
+    candidatePhoto: state.setup?.candidatePhoto || '',
+    title: `${modeLabel} — ${pkgTitle}`,
+    setId: 'study-list-all',
+    setName: pkgTitle,
+    isStudyList: true,
+    startedAt,
+    deadline: isPractice ? null : startedAt + minutes * 60000,
+    timed: !isPractice,
+    durationMinutes: minutes,
+    status: 'in_progress',
+    mode: isPractice ? 'practice' : 'exam',
+    questions: qs,
+    answers: {},
+    currentIndex: 0,
+    flaggedQuestions: [],
+    setup: {
+      setId: 'study-list-all',
+      count: qs.length,
+      mode: isPractice ? 'practice' : 'full',
+      practice: isPractice,
+      duration: minutes,
+      random: Boolean(random)
+    }
+  };
+
+  await put('sessions', session);
+  state.activeSession = session;
+
+  if (isPractice) {
+    initSelectiveState(session);
+    ensureKotobaDataLoaded();
+  }
+
+  state.practiceTranslationOpen = false;
+  state.practiceRevealAnswer = false;
+  lastExamMapSessionId = null;
+  state.resultId = null;
+  state.finalizing = false;
+  state.examSettingsOpen = false;
+  state.examFillScreen = false;
+  activeExamPointers.clear();
+  wasMultiTouch = false;
+  multiTouchCooldownUntil = 0;
+
+  window.scrollTo(0, 0);
+  if (document.documentElement) document.documentElement.scrollTop = 0;
+  if (document.body) document.body.scrollTop = 0;
+  await go('exam');
+  window.scrollTo(0, 0);
+  if (document.documentElement) document.documentElement.scrollTop = 0;
+  if (document.body) document.body.scrollTop = 0;
+  syncExamViewportAfterResume();
+  toast(t('studyExamStartedToast'), 'success');
 }
 
 function renderStudy() {
@@ -5426,7 +5886,8 @@ function renderStudy() {
         </div>
         <div class="zen-page-head-actions">
           <span class="zen-meta-count" id="study-total-count">${totalCount} ${esc(t('studyMetaCount'))}</span>
-          <button type="button" class="hd-btn-primary" data-page="setup">${esc(t('topStartExam'))}</button>
+          <button type="button" class="hd-btn-primary" data-action="open-study-exam-modal">${esc(t('studyStartExamBtn'))}</button>
+          <button type="button" class="hd-btn-secondary" data-page="setup">${esc(t('topStartExam'))}</button>
         </div>
       </header>
 
@@ -5458,12 +5919,12 @@ function renderStudy() {
             <button type="button" class="hd-btn-ghost" id="study-reset-filter-btn">${esc(t('studyResetFilterBtn'))}</button>
           </div>
         ` : filtered.map(item => {
-          const img = getQuestionMainMedia(item);
-          const furiOn = state.studyCardFurigana?.has(item.id)
-            ? Boolean(state.studyCardFurigana.get(item.id))
-            : Boolean(state.examPrefs.showFurigana);
-          const transOpen = state.studyCardTrans?.has(item.id) ?? true;
-          return `
+    const img = getQuestionMainMedia(item);
+    const furiOn = state.studyCardFurigana?.has(item.id)
+      ? Boolean(state.studyCardFurigana.get(item.id))
+      : Boolean(state.examPrefs.showFurigana);
+    const transOpen = state.studyCardTrans?.has(item.id) ?? true;
+    return `
             <article class="zen-study-card ${furiOn ? 'furigana-on' : 'furigana-off'}" data-study-id="${esc(item.id)}">
               <div class="zen-study-card-top">
                 <div class="zen-study-card-meta">
@@ -5486,9 +5947,9 @@ function renderStudy() {
 
               <div class="zen-study-options">
                 ${(item.options || []).map((o, idx) => {
-                  const isCorrect = idx === item.correctIndex;
-                  const letter = String.fromCharCode(65 + idx);
-                  return `
+      const isCorrect = idx === item.correctIndex;
+      const letter = String.fromCharCode(65 + idx);
+      return `
                     <div class="zen-study-opt ${isCorrect ? 'is-correct' : ''}">
                       <span class="zen-study-opt-letter">${letter}</span>
                       <div class="zen-study-opt-body">
@@ -5497,7 +5958,7 @@ function renderStudy() {
                       ${isCorrect ? `<span class="zen-study-correct-badge">${esc(t('studyCorrectKey'))}</span>` : ''}
                     </div>
                   `;
-                }).join('')}
+    }).join('')}
               </div>
 
               <div class="zen-study-translation-panel ${transOpen ? '' : 'is-hidden'}" lang="id">
@@ -5506,17 +5967,17 @@ function renderStudy() {
                 ` : `<div style="color:var(--zen-muted);font-style:italic;">${esc(t('studyTransMissing'))}</div>`}
                 <div style="display:flex;flex-direction:column;gap:3px;margin-top:6px;font-size:13px;">
                   ${(item.options || []).map((o, idx) => {
-                    const isKey = idx === item.correctIndex;
-                    const letter = String.fromCharCode(65 + idx);
-                    const optTrans = o.translation || o.textId || '';
-                    return `
+      const isKey = idx === item.correctIndex;
+      const letter = String.fromCharCode(65 + idx);
+      const optTrans = o.translation || o.textId || '';
+      return `
                       <div style="display:flex;gap:6px;align-items:baseline;${isKey ? 'font-weight:600;color:#2e5c1e;' : ''}">
                         <span>${letter}.</span>
                         <span>${optTrans ? richHTML(optTrans) : '—'}</span>
                         ${isKey ? `<span style="font-size:11px;background:#9ecb65;color:#1a3311;padding:1px 5px;border-radius:3px;">${esc(t('studyCorrectKey'))}</span>` : ''}
                       </div>
                     `;
-                  }).join('')}
+    }).join('')}
                 </div>
               </div>
 
@@ -5528,7 +5989,7 @@ function renderStudy() {
               ` : ''}
             </article>
           `;
-        }).join('')}
+  }).join('')}
       </section>
     </div>
   `;
@@ -5762,12 +6223,15 @@ function normalizeExternalQuestion(raw, idx = 0, defaultSetId = 'ssw-pm-kunci-uj
 }
 
 async function fetchBuiltinJson(filename) {
-  const candidates = [`./${filename}`, `./data/${filename}`];
+  const clean = String(filename || '').replace(/^\.?\//, '');
+  const candidates = clean.startsWith('data/')
+    ? [`./${clean}`, `./${clean.slice(5)}`]
+    : [`./data/${clean}`, `./${clean}`];
   for (const url of candidates) {
     try {
-      const res = await fetch(url);
+      const res = await fetch(url, { cache: 'no-cache' });
       if (res.ok) return await res.json();
-    } catch {}
+    } catch { }
   }
   return null;
 }
@@ -5917,7 +6381,8 @@ async function ensureBonusSoal1To10Loaded(force = false) {
       'bonus-soal-8', 'bonus-soal-9', 'bonus-soal-10'
     ]);
     const existingQs = state.questions.filter(q => targetSets.has(q.setId));
-    if (!force && existingQs.length >= 354 && hasCompleteTranslations(existingQs)) return false;
+    const bs09Q10 = existingQs.find(q => q.id === 'bonus-soal-9-q010');
+    if (!force && existingQs.length >= 354 && hasCompleteTranslations(existingQs) && bs09Q10?.correctAnswer === 'B') return false;
     const data = await fetchBuiltinJson('ssw-pm-bonus-soal-1-to-10-bundle.json');
     if (!data) return false;
     await importAdditiveQuestionSet(data, {
@@ -5960,6 +6425,181 @@ async function ensureSpecialLabTopicsLoaded(force = false) {
   }
 }
 
+const LATSOL_PACKAGE_FILES = [
+  'latsol-nguyen-01.json', 'latsol-nguyen-02.json', 'latsol-nguyen-03.json', 'latsol-nguyen-04.json', 'latsol-nguyen-05.json',
+  'latsol-nguyen-06.json', 'latsol-nguyen-07.json', 'latsol-nguyen-08.json', 'latsol-nguyen-09.json', 'latsol-nguyen-10.json',
+  'latsol-reguler-01.json', 'latsol-reguler-02.json', 'latsol-reguler-03.json', 'latsol-reguler-04.json', 'latsol-reguler-05.json', 'latsol-reguler-06.json',
+  'latsol-tambahan-01.json', 'latsol-tambahan-02.json',
+  'latsol-hitungan-01.json',
+  'pilot-otaff51-01.json',
+  'latsol-otaff-pm51-01.json', 'latsol-otaff-pm51-02.json', 'latsol-otaff-pm51-03.json', 'latsol-otaff-pm51-04.json', 'latsol-otaff-pm51-05.json',
+  'latsol-otaff-pm51-06.json', 'latsol-otaff-pm51-07.json', 'latsol-otaff-pm51-08.json', 'latsol-otaff-pm51-09.json', 'latsol-otaff-pm51-10.json'
+];
+
+const LATSOL_SET_IDS = new Set([
+  'latsol-nguyen-01', 'latsol-nguyen-02', 'latsol-nguyen-03', 'latsol-nguyen-04', 'latsol-nguyen-05',
+  'latsol-nguyen-06', 'latsol-nguyen-07', 'latsol-nguyen-08', 'latsol-nguyen-09', 'latsol-nguyen-10',
+  'latsol-reguler-01', 'latsol-reguler-02', 'latsol-reguler-03', 'latsol-reguler-04', 'latsol-reguler-05', 'latsol-reguler-06',
+  'latsol-tambahan-01', 'latsol-tambahan-02',
+  'latsol-hitungan-01',
+  'pilot-otaff51-01',
+  'latsol-otaff-pm51-01', 'latsol-otaff-pm51-02', 'latsol-otaff-pm51-03', 'latsol-otaff-pm51-04', 'latsol-otaff-pm51-05',
+  'latsol-otaff-pm51-06', 'latsol-otaff-pm51-07', 'latsol-otaff-pm51-08', 'latsol-otaff-pm51-09', 'latsol-otaff-pm51-10'
+]);
+
+const LATSOL_DATASET_VERSION = '2026-11-15-otaff-pm51-10paket-v1';
+
+async function syncSessionsQuestionMedia() {
+  if (!Array.isArray(state.questions) || !state.questions.length) return;
+  const byId = new Map(state.questions.map(q => [q.id, q]));
+  const syncQuestionObj = sq => {
+    if (!sq || !sq.id) return false;
+    const liveQ = byId.get(sq.id);
+    if (!liveQ) return false;
+    let changed = false;
+    if (sq.correctAnswer !== liveQ.correctAnswer) {
+      sq.correctAnswer = liveQ.correctAnswer;
+      changed = true;
+    }
+    const targetIdx = Array.isArray(sq.options)
+      ? sq.options.findIndex(o => String(o?.originalId || o?.id || '').trim().toUpperCase() === String(liveQ.correctAnswer || '').trim().toUpperCase())
+      : -1;
+    const resolvedIndex = targetIdx >= 0 ? targetIdx : liveQ.correctIndex;
+    if (Number.isInteger(resolvedIndex) && sq.correctIndex !== resolvedIndex) {
+      sq.correctIndex = resolvedIndex;
+      changed = true;
+    }
+    if (liveQ.explanation && sq.explanation !== liveQ.explanation) {
+      sq.explanation = liveQ.explanation;
+      changed = true;
+    }
+    if (sq.imageMediaId !== liveQ.imageMediaId) {
+      sq.imageMediaId = liveQ.imageMediaId || '';
+      changed = true;
+    }
+    if (sq.questionImage !== liveQ.questionImage) {
+      sq.questionImage = liveQ.questionImage || '';
+      changed = true;
+    }
+    const nextMediaJson = JSON.stringify(liveQ.media || []);
+    if (JSON.stringify(sq.media || []) !== nextMediaJson) {
+      sq.media = structuredClone(liveQ.media || []);
+      changed = true;
+    }
+    if (Array.isArray(sq.options) && Array.isArray(liveQ.options)) {
+      for (let i = 0; i < sq.options.length; i++) {
+        const opt = sq.options[i];
+        const origId = String(opt?.originalId || opt?.id || '').trim().toUpperCase();
+        const liveOpt = liveQ.options.find(lo => String(lo?.id || '').trim().toUpperCase() === origId) || liveQ.options[i];
+        if (!liveOpt) continue;
+        if ((opt.mediaId || '') !== (liveOpt.mediaId || '')) {
+          opt.mediaId = liveOpt.mediaId || '';
+          changed = true;
+        }
+        if ((opt.optionImage || '') !== (liveOpt.optionImage || '')) {
+          if (liveOpt.optionImage) opt.optionImage = liveOpt.optionImage;
+          else delete opt.optionImage;
+          changed = true;
+        }
+      }
+    }
+    return changed;
+  };
+
+  for (const s of (state.sessions || [])) {
+    if (!Array.isArray(s?.questions)) continue;
+    let sessionChanged = false;
+    for (const sq of s.questions) {
+      if (syncQuestionObj(sq)) sessionChanged = true;
+    }
+    if (sessionChanged) {
+      try { await put('sessions', s); } catch { }
+    }
+  }
+  if (state.activeSession && Array.isArray(state.activeSession.questions)) {
+    for (const sq of state.activeSession.questions) {
+      syncQuestionObj(sq);
+    }
+  }
+}
+
+async function ensureLatsolPackagesLoaded(force = false) {
+  try {
+    const existing = state.questions.filter(q => LATSOL_SET_IDS.has(q.setId));
+    const versionMeta = await get('meta', 'latsolDatasetVersion');
+    const reg01Q18 = existing.find(q => q.id === 'reguler01-q018');
+    const reg05Q08 = existing.find(q => q.id === 'reguler05-q008');
+    const ng01Q39 = existing.find(q => q.id === 'nguyen01-q039');
+    const ng10Q30 = existing.find(q => q.id === 'nguyen10-q030');
+    const reg01Q07 = existing.find(q => q.id === 'reguler01-q007');
+    const ng03Q10 = existing.find(q => q.id === 'nguyen03-q010');
+    const needsDatasetUpgrade = existing.length < 581 ||
+      versionMeta?.version !== LATSOL_DATASET_VERSION ||
+      existing.some(q => q.active === false) ||
+      ng10Q30?.correctAnswer !== 'C' ||
+      ng03Q10?.correctAnswer !== 'B' ||
+      reg01Q07?.correctAnswer !== 'A' ||
+      Boolean(reg01Q18?.imageMediaId) ||
+      Boolean(ng01Q39?.imageMediaId) ||
+      Boolean(reg05Q08?.imageMediaId) ||
+      !existing.some(q => q.id === 'nguyen01-q039' && q.options?.[0]?.mediaId === 'media-nguyen01-q039-option-a') ||
+      !(reg05Q08 && reg05Q08.options?.[0]?.mediaId === 'media-reguler05-q008-option-a');
+    if (!force && !needsDatasetUpgrade) {
+      await syncSessionsQuestionMedia();
+      return false;
+    }
+    const effectiveForce = force || needsDatasetUpgrade;
+    for (const filename of LATSOL_PACKAGE_FILES) {
+      const data = await fetchBuiltinJson(filename);
+      if (data) {
+        await importAdditiveQuestionSet(data, {
+          silent: true,
+          force: effectiveForce,
+          defaultSetId: data.setId,
+          defaultSetName: data.setName,
+          skipReload: true
+        });
+      }
+    }
+    try {
+      await put('meta', { id: 'latsolDatasetVersion', version: LATSOL_DATASET_VERSION, updatedAt: Date.now() });
+    } catch { }
+    await reloadData();
+    await syncSessionsQuestionMedia();
+    return true;
+  } catch (err) {
+    console.warn('Auto-seed 19 Paket Latsol dilewati:', err);
+    return false;
+  }
+}
+
+async function ensureKunciUjian14To16Loaded(force = false) {
+  try {
+    const targetSets = ['ssw-pm-kunci-ujian-14', 'ssw-pm-kunci-ujian-15', 'ssw-pm-kunci-ujian-16'];
+    const existing = state.questions.filter(q => targetSets.includes(q.setId));
+    if (!force && existing.length >= 147 && hasCompleteTranslations(existing)) return false;
+    const files = ['ssw-pm-kunci-ujian-14.json', 'ssw-pm-kunci-ujian-15.json', 'ssw-pm-kunci-ujian-16.json'];
+    for (const f of files) {
+      const data = await fetchBuiltinJson(f);
+      if (data) {
+        await importAdditiveQuestionSet(data, {
+          silent: !force,
+          force,
+          defaultSetId: data.setId,
+          defaultSetName: data.setName,
+          skipReload: true
+        });
+      }
+    }
+    await reloadData();
+    await syncSessionsQuestionMedia();
+    return true;
+  } catch (err) {
+    console.warn('Auto-seed Kunci Soal Ujian 14-16 dilewati:', err);
+    return false;
+  }
+}
+
 async function ensureAllBuiltinSetsLoaded(force = false) {
   await ensureKunciUjian1Loaded(force);
   await ensureSswPmTipe2Loaded(force);
@@ -5967,7 +6607,9 @@ async function ensureAllBuiltinSetsLoaded(force = false) {
     ensureKunciUjian2Loaded(force),
     ensureKunciUjian3To13Loaded(force),
     ensureBonusSoal1To10Loaded(force),
-    ensureSpecialLabTopicsLoaded(force)
+    ensureSpecialLabTopicsLoaded(force),
+    ensureLatsolPackagesLoaded(force),
+    ensureKunciUjian14To16Loaded(force)
   ]);
   const anyLoaded = results.some(r => r.status === 'fulfilled' && r.value === true);
   if (anyLoaded || force) {
@@ -6431,7 +7073,7 @@ async function handleAction(action, el) {
       toast('Shortcut keyboard dikembalikan ke default.', 'info');
       break;
     }
-            case 'toggle-review-study': {
+    case 'toggle-review-study': {
       if (!id) break;
       const s = getResultSession();
       const q = (s?.questions || []).find(x => x.id === id) || (state.questions || []).find(x => x.id === id);
@@ -6524,6 +7166,10 @@ async function handleAction(action, el) {
       if (!id) break;
       await removeStudyItem(id);
       if (state.page === 'study') renderStudy();
+      break;
+    }
+    case 'open-study-exam-modal': {
+      openStudyExamModal();
       break;
     }
     case 'open-study-detail': {
@@ -6698,7 +7344,7 @@ function isInputOrEditable(element) {
     if (element.matches?.('input, textarea, select, [contenteditable="true"]') || element.closest?.('[contenteditable="true"]')) {
       return true;
     }
-  } catch {}
+  } catch { }
   return false;
 }
 
@@ -6944,7 +7590,7 @@ document.addEventListener('keydown', async e => {
       if (typeof ensureKotobaDataLoaded === 'function') {
         try {
           await ensureKotobaDataLoaded();
-        } catch (e) {}
+        } catch (e) { }
       }
       renderExam({ preserveScroll: true });
       break;
@@ -6964,7 +7610,7 @@ document.addEventListener('keydown', async e => {
       if (typeof ensureKotobaDataLoaded === 'function') {
         try {
           await ensureKotobaDataLoaded();
-        } catch (e) {}
+        } catch (e) { }
       }
       renderExam({ preserveScroll: true });
       break;
@@ -7246,7 +7892,7 @@ document.addEventListener('change', async e => {
       syncQuestionDraft();
       const file = target.files?.[0]; if (!file) return;
       if (file.size > 35 * 1024 * 1024) { toast('File gambar maksimal 35 MB.', 'warn'); target.value = ''; return; }
-      if (!['image/jpeg','image/png','image/webp'].includes(file.type)) { toast('Gunakan gambar JPG, PNG, atau WebP.', 'warn'); return; }
+      if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) { toast('Gunakan gambar JPG, PNG, atau WebP.', 'warn'); return; }
       const m = { id: uid('media'), name: file.name, type: file.type, blob: file };
       state.editor.q.media.push(m);
       state.editor.q.imageMediaId = m.id;
@@ -7346,7 +7992,7 @@ document.addEventListener('input', e => {
     renderBank();
     const next = $('#bank-search');
     next?.focus();
-    try { next?.setSelectionRange(start, start); } catch {}
+    try { next?.setSelectionRange(start, start); } catch { }
   }
 });
 
@@ -7416,6 +8062,7 @@ if (typeof window !== 'undefined') {
   window.render = render;
   window.getAvailablePackages = getAvailablePackages;
   window.ensureAllBuiltinSetsLoaded = ensureAllBuiltinSetsLoaded;
+  window.ensureLatsolPackagesLoaded = ensureLatsolPackagesLoaded;
   window.go = go;
   window.startExam = startExam;
   window.moveExamTo = moveExamTo;
@@ -7491,7 +8138,7 @@ function isSwipeTargetExcluded(target) {
         const style = window.getComputedStyle(curr);
         const ox = style.overflowX;
         if (ox === 'auto' || ox === 'scroll') return true;
-      } catch (_) {}
+      } catch (_) { }
     }
     curr = curr.parentElement;
   }
@@ -7607,6 +8254,7 @@ async function boot() {
     await reloadData();
     await ensureKunciUjian1Loaded(false);
     await ensureSswPmTipe2Loaded(false);
+    await ensureLatsolPackagesLoaded(false);
     $('#connection-label').textContent = navigator.onLine ? t('storageOnline') : t('storageOffline');
     window.addEventListener('online', () => $('#connection-label').textContent = t('storageOnline'));
     window.addEventListener('offline', () => $('#connection-label').textContent = t('storageOffline'));
@@ -7619,11 +8267,11 @@ async function boot() {
       await reloadData();
     }
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-      navigator.serviceWorker.register('./sw.js?v=ssw28').catch(err => console.warn('Service worker gagal didaftarkan:', err));
+      navigator.serviceWorker.register('./sw.js?v=ssw39', { updateViaCache: 'none' }).catch(err => console.warn('Service worker gagal didaftarkan:', err));
     }
     state.setup.duration = state.settings.standardDuration || 70;
     state.setup.count = state.settings.standardCount || 40;
-    renderHome();
+    if (state.page === 'home') renderHome();
     if (typeof window !== 'undefined') window.__APP_BOOTED__ = true;
     ensureAllBuiltinSetsLoaded(false).catch(err => console.warn('Auto-seed paket tambahan dilewati:', err));
   } catch (err) {

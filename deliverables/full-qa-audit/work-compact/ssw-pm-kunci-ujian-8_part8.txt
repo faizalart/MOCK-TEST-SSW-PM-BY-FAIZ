@@ -1,0 +1,72 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-8 (Soal Ujian 8 — CBTP Gino1) | Batch qa-batch-02 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=kunci-ujian-8-q029 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>転倒<rt>てんとう</rt></ruby>」<ruby>災害<rt>さいがい</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa penyebab kecelakaan "terjatuh/terpeleset"?
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 5, Câu 29 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>床<rt>ゆか</rt></ruby>が<ruby>滑<rt>すべ</rt></ruby>りやすかったから
+    TRANS: Karena lantai licin
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-v2-p2-126] 滑りやすかった(すべりやすかった) [inflected, df:滑る] = mudah licin / terpeleset | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>床<rt>ゆか</rt></ruby>の<ruby>水<rt>みず</rt></ruby>をきちんとふき<ruby>取<rt>と</rt></ruby>っていなかったから
+    TRANS: Karena air di lantai tidak dilap dengan benar hingga kering
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-audit-0413] ふき取って(ふきとって) [inflected_verb, df:拭き取る] = mengelap hingga bersih | [kb-audit-0463] いなかった(いなかった) [inflected_verb, df:いる] = tidak ada / belum dilakukan (lampau) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=トレーを<ruby>持<rt>も</rt></ruby>っている<ruby>手<rt>て</rt></ruby>が<ruby>疲<rt>つか</rt></ruby>れていたから
+    TRANS: Karena tangan yang memegang nampan (tray) merasa lelah
+    KOTOBA: [kb-ext-0022-e38388e383] トレー(とれ) [word] = baki / nampan makanan | [kb-v2-p2-139] 持って(もって) [inflected, df:持つ] = membawa / memegang | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p6-430] 疲れていた(つかれていた) [inflected, df:疲れる] = kelelahan (lampau) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q30 | ID=kunci-ujian-8-q030 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.5 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0910 (きがしなったひと): "orang yang pingsan (typo)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0908 (からを): "tubuh / badan (typo: からだを)"
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ねっちゅうしょうのひとがでたら、どうしますか。まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan jika ada orang yang terkena sengatan panas (heatstroke)? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 5, Câu 30 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0771] ねっちゅうしょう(ねっちゅうしょう) [word] = serangan panas (heatstroke) | [kb-audit-0325] ひと(ひと) [word] = orang / manusia (人) | [kb-audit-0607] でたら(でたら) [inflected_verb, df:出る] = jika muncul / keluar | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=きがしなったひとは、きがつくまでまつ。
+    TRANS: Jika orang tersebut kehilangan kesadaran (pingsan), tunggu saja sampai ia sadar kembali
+    KOTOBA: [kb-audit-0910] きがしなったひと(きをうしなったひと) [word] = orang yang pingsan (typo) | [kb-audit-0447] きがつく(きがつく) [word] = sadar kembali / menyadari (気がつく) | [kb-v2-p2-284] まで(-) [particle] = sampai | [kb-audit-0759] まつ(まつ) [word] = menunggu | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT B: HTML=すずしいばしょにひなんさせる
+    TRANS: Mengevakuasinya ke tempat yang sejuk
+    KOTOBA: [kb-audit-0715] すずしい(すずしい) [adjective] = sejuk / dingin | [kb-audit-0361] ばしょ(ばしょ) [word] = tempat / lokasi (場所) | [kb-audit-0422] ひなん(ひなん) [word] = evakuasi / mengungsi (避難) | [kb-audit-0458] させる(させる) [inflected_verb, df:する] = membuat jadi / menyebabkan (kausatif) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=ふくなどをゆるめてからをひやす。
+    TRANS: Melonggarkan pakaiannya dan mendinginkan tubuhnya
+    KOTOBA: [kb-audit-1085] ふく(ふく) [word] = pakaian; mengelap (服／拭く) | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p5-303] ゆるめて(-) [inflected, df:ゆるめる] = melonggarkan (pakaian) | [kb-audit-0908] からを(からだを) [word] = tubuh / badan (typo: からだを) | [kb-audit-0423] ひやす(ひやす) [word] = mendinginkan (冷やす) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q31 | ID=kunci-ujian-8-q031 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.6 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0908 (からを): "tubuh / badan (typo: からだを)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: なんのためにエアシャワーにはいりますか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk tujuan apa kita masuk ke dalam air shower? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 6, Câu 31 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0916] なん(なん) [word] = apa / berapa | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p4-069] エアシャワー(-) [technical] = air shower (bilik hembus udara) | [kb-audit-0772] いります(いります) [inflected_verb, df:入る] = masuk (bentuk sopan) | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=かみのけやほこりをおとすため。
+    TRANS: Untuk merontokkan/menghilangkan rambut dan debu
+    KOTOBA: [kb-audit-0181] かみのけ(かみのけ) [word] = rambut / helai rambut (髪の毛) | [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-audit-0425] おとす(おとす) [word] = menjatuhkan / menghilangkan (落とす) | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=しょうどくするため
+    TRANS: Untuk melakukan disinfeksi
+    KOTOBA: [kb-latsol-shoudoku] しょうどく(しょうどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk
+  OPT C: HTML=からをきれいにするため。
+    TRANS: Untuk membersihkan tubuh
+    KOTOBA: [kb-audit-0908] からを(からだを) [word] = tubuh / badan (typo: からだを) | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q32 | ID=kunci-ujian-8-q032 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.6 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうふくをただしくきるとき、かみのけがしょくひんにはいらないように、なにをつけますか。ただしいものをひとつえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat mengenakan pakaian kerja dengan benar, apa yang dipakai agar rambut tidak masuk ke dalam makanan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 6, Câu 32 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-v2-p6-321] さぎょうふく(-) [word] = baju kerja (bacaan 作業服) | [kb-audit-0334] ただしく(ただしく) [inflected_adj, df:正しい] = dengan benar (正しく) | [kb-audit-0664] きる(きる) [word] = memakai / memotong / mematikan | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-audit-0181] かみのけ(かみのけ) [word] = rambut / helai rambut (髪の毛) | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-1080] はいらない(はいらない) [inflected_verb, df:入る] = tidak masuk (入る) | [kb-v2-p1-327] ように(-) [particle] = agar / supaya | [kb-v2-p2-256] なに(-) [word] = apa | [kb-audit-0917] つけます(つけます) [inflected_verb, df:つける] = memakai / memasang | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=ヘアクリーム(かみのけをおさえる)
+    TRANS: Krim rambut (untuk menahan rambut)
+    KOTOBA: [kb-v2-p6-240] ヘアクリーム(-) [word] = krim rambut | [kb-audit-0181] かみのけ(かみのけ) [word] = rambut / helai rambut (髪の毛) | [kb-u1416-e1b911196a] おさえる(おさえる) [word] = menahan / merapikan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=アルコール(かみのけをしょうどくする)
+    TRANS: Alkohol (untuk mendisinfeksi rambut)
+    KOTOBA: [kb-v2-p2-001] アルコール(-) [technical] = alkohol | [kb-audit-0181] かみのけ(かみのけ) [word] = rambut / helai rambut (髪の毛) | [kb-latsol-shoudoku] しょうどく(しょうどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=かみのけネット(かみのけがでないようにする)
+    TRANS: Jaring rambut / hairnet (agar rambut tidak keluar)
+    KOTOBA: [kb-audit-0181] かみのけ(かみのけ) [word] = rambut / helai rambut (髪の毛) | [kb-v2-p5-148] ネット(-) [word] = jaring / net | [kb-v2-p2-272] ようにする(-) [expression] = berusaha agar | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-260] ない(-) [word] = tidak ada

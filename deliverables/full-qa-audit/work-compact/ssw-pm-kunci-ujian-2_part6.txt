@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-2 (Soal Ujian 2 — CBTP Gino1) | Batch qa-batch-01 | Part 6 (Q21-24 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=kunci-ujian-2-q021 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.4 ===
+  CLUSTER CL-0053 (n=6, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-16-q025 (ssw-pm-kunci-ujian-16), bonus-soal-2-q021 (bonus-soal-2), bonus-soal-9-q021 (bonus-soal-9), nguyen02-q021 (latsol-nguyen-02), nguyen09-q021 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>器具<rt>きぐ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>うときに<ruby>使<rt>つか</rt></ruby>うものについて、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai bahan yang digunakan saat mencuci peralatan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 4, Câu 21 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci dengan menggunakan bahan sterilisasi (bakterisida).
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=アルコールを<ruby>使<rt>つか</rt></ruby>って<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci dengan menggunakan alkohol.
+    KOTOBA: [kb-v2-p2-001] アルコール(-) [technical] = alkohol | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci dengan menggunakan bahan pembersih (deterjen).
+    KOTOBA: [kb-otaff51-0386] 洗浄剤(せんじょうざい) [compound_technical] = bahan pencuci / deterjen | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q22 | ID=kunci-ujian-2-q022 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.4 ===
+  CLUSTER CL-0054 (n=6, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-16-q026 (ssw-pm-kunci-ujian-16), bonus-soal-2-q022 (bonus-soal-2), bonus-soal-9-q022 (bonus-soal-9), nguyen02-q022 (latsol-nguyen-02), nguyen09-q022 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>を<ruby>消毒<rt>しょうどく</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai cara mendisinfeksi peralatan masak menggunakan bahan sterilisasi/disinfektan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 4, Câu 22 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-otaff51-0576] 調理器具(ちょうりきぐ) [compound_technical] = peralatan masak | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>を<ruby>洗<rt>せん</rt></ruby>う<ruby>前<rt>まえ</rt></ruby>にを<ruby>消毒<rt>しょうどく</rt></ruby>する。
+    TRANS: Mendisinfeksi peralatan masak sebelum dicuci.
+    KOTOBA: [kb-otaff51-0576] 調理器具(ちょうりきぐ) [compound_technical] = peralatan masak | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>消毒<rt>しょうどく</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>に<ruby>水<rt>みず</rt></ruby>をつける。
+    TRANS: Membasahi peralatan masak dengan air sebelum didisinfeksi.
+    KOTOBA: [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-otaff51-0576] 調理器具(ちょうりきぐ) [compound_technical] = peralatan masak | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>って<ruby>乾<rt>かわ</rt></ruby>かしてから<ruby>消毒<rt>しょうどく</rt></ruby>する。
+    TRANS: Mencuci dan mengeringkan peralatan masak terlebih dahulu, kemudian mendisinfeksinya.
+    KOTOBA: [kb-otaff51-0576] 調理器具(ちょうりきぐ) [compound_technical] = peralatan masak | [kb-v2-p1-162] 洗って(あらって) [inflected_verb, df:洗う] = mencuci (dasar: 洗う) | [kb-v2-p2-201] 乾かしてから(かわかしてから) [inflected, df:乾かす] = setelah dikeringkan | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q23 | ID=kunci-ujian-2-q023 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.4 ===
+  CLUSTER CL-0055 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q023 (bonus-soal-2), bonus-soal-9-q023 (bonus-soal-9), nguyen02-q023 (latsol-nguyen-02), nguyen09-q023 (latsol-nguyen-09)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌<rt>さっきん</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai cara menangani pangan yang telah disterilisasi.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 4, Câu 23 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-108] 扱い方(あつかいかた) [word] = cara penanganan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>手袋<rt>てぶくろ</rt></ruby>をつけていない<ruby>手<rt>て</rt></ruby>で<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。
+    TRANS: Memegang pangan dengan tangan telanjang (tanpa memakai sarung tangan).
+    KOTOBA: [kb-otaff51-0311] 手袋(てぶくろ) [noun] = sarung tangan | [kb-v2-p2-197] つけていない(-) [inflected, df:つける] = tidak memakai | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT B: HTML=<ruby>手袋<rt>てぶくろ</rt></ruby>をつけた<ruby>手<rt>て</rt></ruby>で<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。
+    TRANS: Memegang pangan dengan tangan yang memakai sarung tangan.
+    KOTOBA: [kb-otaff51-0311] 手袋(てぶくろ) [noun] = sarung tangan | [kb-audit-1162] つけた(つけた) [inflected_verb, df:付ける] = yang memakai / memasang | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>消毒<rt>しょうどく</rt></ruby>した<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。
+    TRANS: Memegang pangan dengan menggunakan peralatan yang telah didisinfeksi.
+    KOTOBA: [kb-otaff51-0389] 消毒(しょうどく) [noun] = disinfeksi | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q24 | ID=kunci-ujian-2-q024 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.4 ===
+  CLUSTER CL-0056 (n=6, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-16-q028 (ssw-pm-kunci-ujian-16), bonus-soal-2-q024 (bonus-soal-2), bonus-soal-9-q024 (bonus-soal-9), nguyen02-q024 (latsol-nguyen-02), nguyen09-q024 (latsol-nguyen-09)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食材<rt>しょくざい</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai cara menangani bahan pangan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 4, Câu 24 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-1983500] 食材(しょくざい) [word] = bahan makanan | [kb-v2-p2-108] 扱い方(あつかいかた) [word] = cara penanganan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>冷凍品<rt>れいとうひん</rt></ruby>がとけていたら、また<ruby>冷凍<rt>れいとう</rt></ruby>する。
+    TRANS: Jika produk beku sudah mencair, bekukan kembali.
+    KOTOBA: [kb-ext-1793-e586b7e587] 冷凍品(れいとうひん) [word] = Produk pangan beku | [kb-audit-0593] とけていたら(とけていたら) [inflected_verb, df:溶ける] = jika sudah mencair | [kb-v2-p2-238] また(-) [word] = lagi / kembali | [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>砂糖<rt>さとう</rt></ruby>や<ruby>塩<rt>しお</rt></ruby>は、<ruby>湿度<rt>しつど</rt></ruby>が<ruby>低<rt>ひく</rt></ruby>いところに<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan gula dan garam di tempat dengan kelembapan rendah.
+    KOTOBA: [kb-otaff51-0469] 砂糖(さとう) [noun] = gula | [kb-v2-p2-065] 塩(しお) [word] = garam | [kb-otaff51-0409] 湿度(しつど) [noun] = kelembapan udara | [kb-v2-p2-230] 低い(ひくい) [word] = rendah | [kb-v2-p1-292] ところ(-) [word] = bagian / tempat | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>小麦粉<rt>こむぎこ</rt></ruby>やでんぷんは、<ruby>水<rt>みず</rt></ruby>にぬれないように<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan tepung terigu dan pati agar tidak terkena air.
+    KOTOBA: [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p2-064] でんぷん(-) [word] = pati / tepung kanji | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p2-113] ぬれない(-) [inflected, df:ぬれる] = tidak basah | [kb-v2-p1-327] ように(-) [particle] = agar / supaya | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

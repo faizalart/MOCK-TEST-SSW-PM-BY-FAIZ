@@ -1,0 +1,77 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-8 (Soal Ujian 8 — CBTP Gino1) | Batch qa-batch-02 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=kunci-ujian-8-q017 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.3 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-v2-p6-424 (喋ながら): "sambil mengobrol (typo)"
+  CLUSTER CL-0130 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-15-q017 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>仕事経験<rt>しごとけいけん</rt></ruby>は<ruby>多<rt>おお</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>よりも、<ruby>仕事経験<rt>しごとけいけん</rt></ruby>が<ruby>少<rt>すく</rt></ruby>ない<ruby>人<rt>ひと</rt></ruby>のほうには<ruby>災害<rt>さいがい</rt></ruby>が<ruby>起<rt>お</rt></ruby>こりやすいです。<ruby>理由<rt>りゆう</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさ<br>い。
+  QUESTION_TEXT: 仕事経験は多い人よりも、仕事経験が少ない人のほうには災害が起こりやすいです。理由はどれですか。正しいものを一つ選びなさ
+い。
+  PROMPT_TRANS: Kecelakaan kerja lebih mudah terjadi pada orang yang memiliki sedikit pengalaman kerja dibandingkan orang yang memiliki banyak pengalaman kerja. Manakah alasannya? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 3, Câu 17 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-ext-0679-e4bb95e4ba] 仕事経験(しごとけいけん) [word] = Pengalaman kerja praktis di pabrik | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-322] よりも(-) [particle] = dibandingkan dengan | [kb-v2-p1-251] 少ない(すくない) [word] = sedikit | [kb-v2-p1-293] のほう(-) [expression] = lebih (perbandingan) | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-v2-p4-171] 起こりやすい(おこりやすい) [inflected, df:起こる] = mudah terjadi | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah) | [kb-otaff51-0437] 理由(りゆう) [noun] = alasan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>作業<rt>さぎょう</rt></ruby>に<ruby>慣<rt>な</rt></ruby>れていないから、<ruby>危険<rt>きけん</rt></ruby>を<ruby>気<rt>き</rt></ruby>づきにくい
+    TRANS: Sulit menyadari bahaya karena belum terbiasa dengan pekerjaan
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-131] 慣れていない(なれていない) [inflected_verb, df:慣れる] = belum terbiasa (dasar: 慣れる) | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-audit-0064] 気づきにくい(きづきにくい) [word] = sulit disadari / sulit terlihat | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>同僚<rt>どうりょう</rt></ruby>と<ruby>喋<rt>ちょう</rt></ruby>ながら、<ruby>作業<rt>さぎょう</rt></ruby>する
+    TRANS: Bekerja sambil mengobrol dengan rekan kerja
+    KOTOBA: [kb-1453580] 同僚(どうりょう) [word] = rekan kerja | [kb-v2-p6-424] 喋ながら(しゃべりながら) [inflected, df:喋る] = sambil mengobrol (typo) | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan
+  OPT C: HTML=<ruby>体<rt>からだ</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きさに<ruby>合<rt>あ</rt></ruby>った<ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>る
+    TRANS: Mengenakan pakaian kerja yang sesuai dengan ukuran tubuh
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-v2-p6-288] 大きさ(おおきさ) [word] = ukuran besarnya | [kb-v2-p6-425] 合った(あった) [inflected, df:合う] = sesuai / pas (ukuran) | [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q18 | ID=kunci-ujian-8-q018 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全<rt>あんぜん</rt></ruby>で<ruby>品質<rt>ひんしつ</rt></ruby>の<ruby>良<rt>よ</rt></ruby>い<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るために<ruby>必要<rt>ひつよう</rt></ruby>なことは<ruby>何<rt>なん</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang diperlukan untuk membuat pangan yang aman dan berkualitas baik?
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 3, Câu 18 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1490580] 品質(ひんしつ) [word] = kualitas / mutu produk | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>安全<rt>あんぜん</rt></ruby>で<ruby>品質<rt>ひんしつ</rt></ruby>の<ruby>良<rt>よ</rt></ruby>い<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うこと
+    TRANS: Menggunakan bahan baku yang aman dan berkualitas baik
+    KOTOBA: [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-1490580] 品質(ひんしつ) [word] = kualitas / mutu produk | [kb-v2-p1-248] 良い(よい) [word] = baik | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>製造方法<rt>せいぞうほうほう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>せずに<ruby>作業<rt>さぎょう</rt></ruby>を<ruby>進<rt>すす</rt></ruby>めること
+    TRANS: Melanjutkan pekerjaan tanpa memeriksa metode produksi
+    KOTOBA: [kb-otaff51-0557] 製造方法(せいぞうほうほう) [compound_technical] = metode produksi | [kb-otaff51-0471] 確認(かくにん) [noun] = pemeriksaan / konfirmasi | [kb-audit-0643] せずに(せずに) [expression, df:する] = tanpa melakukan | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p3-296] 進める(すすめる) [word] = melanjutkan proses | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>製造<rt>せいぞう</rt></ruby>コストを<ruby>削減<rt>さくげん</rt></ruby>すること
+    TRANS: Mengurangi biaya produksi
+    KOTOBA: [kb-otaff51-0555] 製造(せいぞう) [noun] = pembuatan / produksi | [kb-v2-p4-078] コスト(-) [word] = biaya | [kb-1298110] 削減(さくげん) [word] = pengurangan limbah / bahaya | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q19 | ID=kunci-ujian-8-q019 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-audit-0328 (後石鹸): "sabun setelahnya (typo spasi: 後、石鹸)"
+  CLUSTER CL-0131 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-15-q019 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>工場<rt>こうじょう</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>何<rt>なに</rt></ruby>をするべきですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus dilakukan sebelum memasuki pabrik? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 4, Câu 19 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0285] 工場(こうじょう) [noun] = pabrik | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>風邪<rt>かぜ</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>いているとき、<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>し、<ruby>指示<rt>しじ</rt></ruby>を<ruby>待<rt>ま</rt></ruby>つ
+    TRANS: Melapor kepada penanggung jawab dan menunggu instruksi ketika sedang terkena flu (masuk angin)
+    KOTOBA: [kb-1583720] 風邪(かぜ) [word] = flu / batuk pilek | [kb-v2-p6-426] 引いている(ひいている) [inflected, df:引く] = sedang sakit (flu) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-156] 報告し(ほうこくし) [inflected, df:報告する] = melapor | [kb-otaff51-0320] 指示(しじ) [noun] = instruksi / arahan | [kb-v2-p3-328] 待つ(まつ) [word] = menunggu | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=トイレの<ruby>後石鹸<rt>あとせっけん</rt></ruby>だけで<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>う
+    TRANS: Mencuci tangan hanya dengan sabun saja setelah dari toilet (tanpa disinfeksi)
+    KOTOBA: [kb-v2-p1-040] トイレ(-) [word] = toilet | [kb-audit-0328] 後石鹸(あとせっけん) [word] = sabun setelahnya (typo spasi: 後、石鹸) | [kb-v2-p1-326] だけで(-) [particle] = hanya dengan | [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>時計<rt>とけい</rt></ruby>、<ruby>宝石類<rt>ほうせきるい</rt></ruby>、<ruby>装飾品<rt>そうしょくひん</rt></ruby>などはロッカーに<ruby>保管<rt>ほかん</rt></ruby>して<ruby>置<rt>お</rt></ruby>く
+    TRANS: Menyimpan jam tangan, perhiasan, dan aksesori di dalam loker
+    KOTOBA: [kb-1316140] 時計(とけい) [word] = jam | [kb-ext-1636-e5ae9de79f] 宝石類(ほうせきるい) [word] = perhiasan (dilarang di pabrik) | [kb-1799160] 装飾品(そうしょくひん) [word] = aksesori perhiasan | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-039] ロッカー(-) [word] = loker | [kb-otaff51-0132] 保管(ほかん) [noun] = penyimpanan | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-v2-p3-275] 置く(おく) [word] = meletakkan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q20 | ID=kunci-ujian-8-q020 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 8.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0132 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-15-q020 (ssw-pm-kunci-ujian-15)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業服<rt>さぎょうふく</rt></ruby>を<ruby>着<rt>き</rt></ruby>るとき<ruby>何<rt>なに</rt></ruby>を<ruby>注意<rt>ちゅうい</rt></ruby>するべきですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus diperhatikan saat mengenakan pakaian kerja? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 8.pdf (Halaman 4, Câu 20 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=タオルを<ruby>首<rt>くび</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>く
+    TRANS: Melilitkan handuk di leher
+    KOTOBA: [kb-v2-p2-087] タオル(-) [word] = handuk | [kb-otaff51-0669] 首(くび) [noun] = leher | [kb-u1416-9c54b26f77] 巻く(まく) [word] = melilitkan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>長袖<rt>ながそで</rt></ruby>の<ruby>場合<rt>ばあい</rt></ruby>には<ruby>袖口<rt>そでぐち</rt></ruby>を<ruby>締<rt>し</rt></ruby>める
+    TRANS: Mengencangkan bagian ujung lengan jika mengenakan baju berlengan panjang
+    KOTOBA: [kb-otaff51-0619] 長袖(ながそで) [noun] = lengan panjang | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-otaff51-0549] 袖口(そでぐち) [noun] = ujung lengan baju | [kb-v2-p6-508] 締める(しめる) [word] = mengencangkan / menutup rapat | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=ポケット、ボタンのないものを<ruby>着用<rt>ちゃくよう</rt></ruby>します
+    TRANS: Mengenakan pakaian kerja yang tidak memiliki saku dan kancing luar
+    KOTOBA: [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-1016] 着用します(ちゃくようします) [inflected_verb, df:着用する] = mengenakan (sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek

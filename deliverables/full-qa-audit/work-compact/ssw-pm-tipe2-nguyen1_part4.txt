@@ -1,0 +1,75 @@
+# AUDIT SHEET: ssw-pm-tipe2-nguyen1 (Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1) | Batch qa-batch-04 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=q013 | KEY=A (idx=0) | CAT= | SRC=SSW NGUYEN 1.pdf p.12 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 活動, 中, 整理, 活動, 正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "13" missing in ID "Kegiatan seperti apakah "Ringkas (Pemilahan / Seiri)" dalam kegiatan 5S? Pilihla" || [KANJI_WITHOUT_RUBY@opt:A] 使, 使 || [KANJI_WITHOUT_RUBY@opt:B] 決, 常, 守, 実行 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:B] kb-v2-p4-168 (決まられた): "telah ditetapkan (typo text)" || [KANJI_WITHOUT_RUBY@opt:C] 作業道具, 材料, 置, 場所, 決
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 13. ５S活動の中の「整理」は、どのような活動ですか。正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kegiatan seperti apakah "Ringkas (Pemilahan / Seiri)" dalam kegiatan 5S? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Bukti PDF (Halaman 12): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (使わないものをなくして、使うものだけにすること。).
+  KOTOBA_PROMPT: [kb-v2-p1-016] S活動(えすかつどう) [compound_technical] = aktivitas S (5S) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=使わないものをなくして、使うものだけにすること。
+    TRANS: Menyingkirkan barang yang tidak digunakan dan menyisakan hanya barang yang digunakan.
+    KOTOBA: [kb-v2-p2-211] 使わない(つかわない) [inflected, df:使う] = tidak menggunakan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0894] なくして(なくして) [inflected_verb, df:なくす] = menghilangkan / menyingkirkan | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-335] だけ(-) [particle] = hanya | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=決まられたことを常に守って、実行する
+    TRANS: Selalu mematuhi dan melaksanakan hal-hal yang telah ditetapkan
+    KOTOBA: [kb-v2-p4-168] 決まられた(きまられた) [inflected, df:決まる] = telah ditetapkan (typo text) | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-284] 常に(つねに) [word] = selalu | [kb-v2-p1-175] 守って(まもって) [inflected_verb, df:守る] = mematuhi (dasar: 守る) | [kb-v2-p2-219] 実行する(じっこうする) [word] = melaksanakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=作業道具や材料の置き場所を決めておく
+    TRANS: Menentukan tempat penyimpanan peralatan kerja dan bahan terlebih dahulu.
+    KOTOBA: [kb-ext-0649-e4bd9ce6a5] 作業道具(さぎょうどうぐ) [compound_technical] = peralatan kerja | [kb-1296670] 材料(ざいりょう) [word] = bahan | [kb-v2-p1-023] 置き場所(おきばしょ) [word] = tempat penyimpanan | [kb-v2-p1-177] 決めて(きめて) [inflected_verb, df:決める] = menetapkan (dasar: 決める) | [kb-v2-p1-243] おく(-) [word] = melakukan terlebih dahulu | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q14 | ID=q014 | KEY=A (idx=0) | CAT= | SRC=SSW NGUYEN 1.pdf p.13 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 異物混入, 防, 何, 注意 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "14" missing in ID "Apa yang harus diperhatikan untuk mencegah kontaminasi benda asing?" || [KANJI_WITHOUT_RUBY@opt:A] 原材料, 異物, 入, 観察 || [KANJI_WITHOUT_RUBY@opt:B] 作業服, 着, 帽子, 直接 || [KANJI_WITHOUT_RUBY@opt:C] 自分, 担当, 作業場, 小, 異物, 製品, 入, 分, 誰, 言, 自分, 取, 除
+  CLUSTER CL-0157 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q015 (ssw-pm-kunci-ujian-14)
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 14. 異物混入を防ぐために、何を注意しなければなりませんか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang harus diperhatikan untuk mencegah kontaminasi benda asing?
+  EXPLANATION: Bukti PDF (Halaman 13): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (原材料に異物が入っていないか、よく観察する).
+  KOTOBA_PROMPT: [kb-otaff51-0451] 異物混入(いぶつこんにゅう) [compound_technical] = kontaminasi / masuknya benda asing | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p2-177] 注意し(ちゅういし) [inflected, df:注意する] = berhati-hati / memperhatikan | [kb-audit-0374] なければなりませんか(なければなりませんか) [word] = apakah harus / wajib dilakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=原材料に異物が入っていないか、よく観察する
+    TRANS: Mengamati dengan cermat apakah terdapat benda asing di dalam bahan baku
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-v2-p3-224] 入って(はいって) [inflected, df:入る] = masuk / terkandung | [kb-audit-0462] いない(いない) [inflected_verb, df:いる] = tidak ada / belum dilakukan | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-v2-p4-096] 観察(かんさつ) [word] = pengamatan / observasi | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT B: HTML=作業服を着るとき、ヘアーネットをかぶらないで、帽子を直接かぶる
+    TRANS: Saat mengenakan pakaian kerja, langsung memakai topi tanpa memakai hairnet (jaring rambut)
+    KOTOBA: [kb-otaff51-0124] 作業服(さぎょうふく) [noun] = pakaian kerja | [kb-v2-p1-188] 着る(きる) [word] = memakai (pakaian) | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-otaff51-0075] ヘアーネット(へあーねっと) [noun] = jaring rambut (hairnet) | [kb-v2-p4-151] かぶらないで(-) [inflected, df:かぶる] = tanpa memakai (topi/penutup) | [kb-otaff51-0290] 帽子(ぼうし) [noun] = topi kerja | [kb-1431110] 直接(ちょくせつ) [word] = secara langsung | [kb-v2-p1-202] かぶる(-) [word] = memakai (helm/topi) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=自分が担当する作業場で小さいな異物が製品に入っていることが分かったら、誰にも言わず、自分で取り除く
+    TRANS: Jika mengetahui ada benda asing kecil masuk ke dalam produk di area kerja yang menjadi tanggung jawabnya, mengambilnya sendiri tanpa memberi tahu siapa pun
+    KOTOBA: [kb-audit-0510] 自分(じぶん) [word] = diri sendiri | [kb-1418160] 担当(たんとう) [word] = penanggung jawab / tugas | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p3-214] 小さい(ちいさい) [word] = kecil | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-v2-p6-354] 入っている(はいっている) [inflected, df:入る] = terdapat di dalam | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0606] 分かったら(わかったら) [inflected_verb, df:分かる] = jika diketahui / dimengerti | [kb-1416830] 誰(だれ) [standalone_term] = Siapa / pihak penanggung jawab yang ditunjuk | [kb-v2-p4-155] 言わず(いわず) [inflected, df:言う] = tanpa mengatakan | [kb-otaff51-0224] 取り除く(とりのぞく) [verb] = menghilangkan / membuang | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+
+=== #Q15 | ID=q015 | KEY=B (idx=1) | CAT= | SRC=SSW NGUYEN 1.pdf p.14 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 殺, 何度何分, 加熱必要, 正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "15" missing in ID "Untuk membunuh Norovirus, perlu pemanasan pada suhu berapa derajat dan berapa la" || [KANJI_WITHOUT_RUBY@opt:A] 中心温度, 秒以内 || [KANJI_WITHOUT_RUBY@opt:B] 中心温度, 秒以上 || [KANJI_WITHOUT_RUBY@opt:C] 表面温度, 秒以上
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 15. ノロウイルスを殺すために、何度何分で加熱必要ですか。正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk membunuh Norovirus, perlu pemanasan pada suhu berapa derajat dan berapa lama? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Bukti PDF (Halaman 14): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (中心温度85℃ー90℃、90秒以上).
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri) | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-0184-e4bd95e5ba] 何度何分(なんどなんぷん) [word] = berapa derajat dan berapa menit | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=中心温度85℃ー90℃、90秒以内
+    TRANS: Suhu bagian tengah (suhu inti) 85°C–90°C, kurang dari 90 detik
+    KOTOBA: [kb-otaff51-0100] 中心温度(ちゅうしんおんど) [compound_technical] = suhu bagian tengah (suhu inti) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-audit-0179] 秒(びょう) [word] = detik (satuan waktu) | [kb-otaff51-0113] 以内(いない) [noun] = dalam batas / tidak lebih dari
+  OPT B: HTML=中心温度85℃ー90℃、90秒以上
+    TRANS: Suhu bagian tengah (suhu inti) 85°C–90°C, selama 90 detik atau lebih
+    KOTOBA: [kb-otaff51-0100] 中心温度(ちゅうしんおんど) [compound_technical] = suhu bagian tengah (suhu inti) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih
+  OPT C: HTML=表面温度85℃ー90℃、90秒以上
+    TRANS: Suhu permukaan 85°C–90°C, selama 90 detik atau lebih
+    KOTOBA: [kb-1489880] 表面(ひょうめん) [word] = permukaan | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih
+
+=== #Q16 | ID=q016 | KEY=C (idx=2) | CAT= | SRC=SSW NGUYEN 1.pdf p.15 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一般衛生管理, 施設, 設備, 器具, 衛生管理, 作業者, 衛生管理, 何, 重要, 間違, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "16" missing in ID "Dalam "Manajemen higiene umum", selain "Manajemen higiene fasilitas, peralatan, " || [KANJI_WITHOUT_RUBY@opt:B] 原材料, 食品, 衛生管理
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 16. 「一般衛生管理」では「施設、設備、器具などの衛生管理」、「作業者の衛生管理」のほか、何が重要ですか、間違っているものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam "Manajemen higiene umum", selain "Manajemen higiene fasilitas, peralatan, perkakas, dll." dan "Manajemen higiene pekerja", apa lagi yang penting? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Bukti PDF (Halaman 15): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (HACCP).
+  KOTOBA_PROMPT: [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-otaff51-0335] 施設(しせつ) [noun] = fasilitas bangunan | [kb-otaff51-0570] 設備(せつび) [noun] = fasilitas / instalasi peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-v2-p1-287] ほか(-) [word] = lainnya | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0609] 重要(じゅうよう) [adjective] = penting | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=5S
+    TRANS: 5S
+    KOTOBA: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke)
+  OPT B: HTML=原材料・食品の衛生管理
+    TRANS: Manajemen higiene bahan baku dan produk pangan
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=HACCP
+    TRANS: HACCP
+    KOTOBA: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point)

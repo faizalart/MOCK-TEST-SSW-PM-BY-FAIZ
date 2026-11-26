@@ -1,0 +1,74 @@
+# AUDIT SHEET: latsol-otaff-pm51-02 (Latsol OTAFF SSW PM Modul 5.1 - Paket 02) | Batch qa-batch-11 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=otaff-pm51-02-q009 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.16 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食肉<rt>しょくにく</rt></ruby>（<ruby>特<rt>とく</rt></ruby>に<ruby>牛肉<rt>ぎゅうにく</rt></ruby>）や<ruby>野菜<rt>やさい</rt></ruby>、<ruby>井戸水<rt>いどみず</rt></ruby>などが<ruby>原因<rt>げんいん</rt></ruby>となりやすく、<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>激<rt>はげ</rt></ruby>しい<ruby>下痢<rt>げり</rt></ruby>、「<ruby>血便<rt>けつべん</rt></ruby>」などの<ruby>症状<rt>しょうじょう</rt></ruby>を<ruby>起<rt>お</rt></ruby>こす<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bakteri keracunan makanan manakah yang sering berasal dari daging (terutama daging sapi), sayuran, atau air sumur, serta menimbulkan gejala sakit perut, diare hebat, dan 'tinja berdarah (ketsuben)'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 16 (Bab 2.2(3)① Tabel Bakteri, hal. 11 teks). Bobot: 3 poin. Kunci jawaban: B. 腸管出血性大腸菌 (O157, O111, dll.) sering ditemukan pada daging sapi, sayuran, atau air sumur, dan memiliki gejala khas berupa diare hebat serta tinja berdarah (血便).
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-1358580] 食肉(しょくにく) [word] = daging konsumsi | [kb-v2-p3-340] 特に(とくに) [word] = khususnya / terutama | [kb-1231580] 牛肉(ぎゅうにく) [word] = daging sapi | [kb-1537370] 野菜(やさい) [word] = sayur-sayuran | [kb-1160380] 井戸水(いどみず) [word] = air sumur | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1261190] 原因(げんいん) [word] = penyebab | [kb-otaff51-0758] なりやすく(なりやすく) [inflected_verb, df:なる] = menjadi mudah untuk ... | [kb-1501230] 腹痛(ふくつう) [word] = sakit perut | [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-1186540] 下痢(げり) [word] = diare | [kb-1669930] 血便(けつべん) [word] = buang air besar berdarah | [kb-1351030] 症状(しょうじょう) [word] = gejala | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan | [kb-2134080] 食中毒菌(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bacillus cereus
+    KOTOBA: [kb-v2-p2-054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus
+  OPT B: HTML=<ruby>腸管出血性大腸菌<rt>ちょうかんしゅっけつせいだいちょうきん</rt></ruby>（O157、O111など）
+    TRANS: E. coli enterohemoragik (O157, O111, dll.)
+    KOTOBA: [kb-2126920] 腸管出血性大腸菌(ちょうかんしゅっけつせいだいちょうきん) [word] = bakteri E. coli enterohemoragik | [kb-otaff51-0791] O157(おーいちごーなな) [compound_technical] = bakteri E. coli O157 | [kb-otaff51-0857] O111(おーいちいちいち) [compound_technical] = bakteri E. coli O111 | [kb-v2-p1-336] など(-) [particle] = dan lain-lain
+  OPT C: HTML=ウェルシュ<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium perfringens
+    KOTOBA: [kb-v2-p3-009] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens
+
+=== #Q10 | ID=otaff-pm51-02-q010 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.16 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カレーやシチューなど<ruby>大量<rt>たいりょう</rt></ruby>に<ruby>加熱調理<rt>かねつちょうり</rt></ruby>された<ruby>食品<rt>しょくひん</rt></ruby>がゆっくり<ruby>冷<rt>ひ</rt></ruby>える<ruby>間<rt>あいだ</rt></ruby>に、<ruby>熱<rt>ねつ</rt></ruby>に<ruby>強<rt>つよ</rt></ruby>い<ruby>芽胞<rt>がほう</rt></ruby>から<ruby>増<rt>ふ</rt></ruby>えやすい<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bakteri keracunan makanan manakah yang mudah berkembang biak dari spora tahan panas saat makanan yang dimasak dalam jumlah besar seperti kari atau semur (stew) mendingin secara perlahan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 16 & 18 (Bab 2.2(3)① Tabel Bakteri & hal. 13 teks). Bobot: 3 poin. Kunci jawaban: C. ウェルシュ菌 membentuk spora tahan panas dan sering mencemari masakan berkuah kental seperti kari dan stew jika dibiarkan mendingin secara perlahan setelah dimasak.
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-v2-p3-052] カレー(-) [word] = kari | [kb-v2-p3-053] シチュー(-) [word] = semur / stew | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-1415190] 大量(たいりょう) [word] = jumlah banyak / massal | [kb-ext-latsol-0018] 加熱調理(かねつちょうり) [word] = proses pemasakan dengan pemanasan | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-pilot51-085] ゆっくり(ゆっくり) [adverb] = secara perlahan-lahan | [kb-otaff51-0858] 冷える(ひえる) [verb] = menjadi dingin | [kb-v2-p2-104] 間(あいだ) [word] = antara / sela-sela | [kb-v2-p3-149] 熱(ねつ) [word] = panas | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-1197750] 芽胞(がほう) [word] = spora bakteri tahan panas | [kb-otaff51-0859] 増えやすい(ふえやすい) [inflected_adj, df:増えやすい] = mudah berkembang biak | [kb-2134080] 食中毒菌(しょくちゅうどくきん) [word] = bakteri penyebab keracunan makanan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>腸炎<rt>ちょうえん</rt></ruby>ビブリオ
+    TRANS: Vibrio parahaemolyticus
+    KOTOBA: [kb-v2-p1-007] 腸炎ビブリオ(ちょうえんびぶりお) [compound_technical] = bakteri Vibrio parahaemolyticus
+  OPT B: HTML=カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>
+    TRANS: Bakteri genus Campylobacter
+    KOTOBA: [kb-latsol-6865ce3bd3] カンピロバクター(かんぴろばくたー) [word] = bakteri Campylobacter | [kb-otaff51-0690] 属菌(ぞくきん) [compound_technical] = bakteri genus tertentu
+  OPT C: HTML=ウェルシュ<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Clostridium perfringens (Uerushu-kin)
+    KOTOBA: [kb-v2-p3-009] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens
+
+=== #Q11 | ID=otaff-pm51-02-q011 | KEY=A (idx=0) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.17 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>食中毒予防<rt>しょくちゅうどくよぼう</rt></ruby>の3<ruby>原則<rt>げんそく</rt></ruby>」の3つは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah 3 prinsip dalam '3 Prinsip Pencegahan Keracunan Makanan' (untuk bakteri)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 17 (Bab 2.2(3)①, hal. 12 teks). Bobot: 3 poin. Kunci jawaban: A. Tiga prinsip pencegahan keracunan makanan akibat bakteri adalah: ア. つけない (tidak mencemari), イ. 増やさない (tidak membiakkan), dan ウ. やっつける（殺す） (membasmi).
+  INLINE_KOTOBA_COUNT: 16
+  KOTOBA_PROMPT: [kb-otaff51-0649] 食中毒予防の3原則(しょくちゅうどくよぼうのさんげんそく) [compound_technical] = 3 prinsip pencegahan keracunan makanan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=「つけない」「<ruby>増<rt>ふ</rt></ruby>やさない」「やっつける（<ruby>殺<rt>ころ</rt></ruby>す）」
+    TRANS: 'Tidak mencemari (tsukenai)', 'Tidak membiakkan (fuyasanai)', dan 'Membasmi/membunuh (yattsukeru/korosu)'
+    KOTOBA: [kb-latsol-e6f9a006a5] つけない(つけない) [word] = tidak menempel / memakai | [kb-v2-p4-164] 増やさない(ふやさない) [inflected, df:増やす] = tidak memperbanyak | [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba) | [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri)
+  OPT B: HTML=「<ruby>洗<rt>あら</rt></ruby>わない」「<ruby>冷<rt>ひ</rt></ruby>やさない」「<ruby>加熱<rt>かねつ</rt></ruby>しない」
+    TRANS: 'Tidak mencuci', 'Tidak mendinginkan', dan 'Tidak memanaskan'
+    KOTOBA: [kb-otaff51-0860] 洗わない(あらわない) [inflected_verb, df:洗う] = tidak mencuci | [kb-otaff51-1043] 冷やさない(ひやさない) [inflected_verb, df:冷やす] = tidak mendinginkan | [kb-1190470] 加熱(かねつ) [word] = pemanasan
+  OPT C: HTML=「<ruby>整理<rt>せいり</rt></ruby>」「<ruby>整頓<rt>せいとん</rt></ruby>」「<ruby>清掃<rt>せいそう</rt></ruby>」
+    TRANS: 'Ringkas (Seiri)', 'Rapi (Seiton)', dan 'Resik (Seisou)'
+    KOTOBA: [kb-1376250] 整理(せいり) [word] = Seiri (ringkas) | [kb-1376230] 整頓(せいとん) [word] = Seiton (rapi) | [kb-1378320] 清掃(せいそう) [word] = Seiso (resik / bersih-bersih)
+
+=== #Q12 | ID=otaff-pm51-02-q012 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.19 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルスによる<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐための「4<ruby>原則<rt>げんそく</rt></ruby>」として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu kombinasi yang benar sebagai '4 Prinsip' untuk mencegah keracunan makanan akibat Norovirus.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 18–19 (Bab 2.2(3)②, hal. 13–14 teks). Bobot: 3 poin. Kunci jawaban: B. Karena Norovirus tidak berkembang biak di dalam makanan, prinsip '増やさない' tidak efektif; gantinya adalah 4 prinsip: 1) 持ち込まない, 2) つけない, 3) やっつける, 4) 拡げない.
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-1609950] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-1262070] 原則(げんそく) [word] = prinsip | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=１）つけない、２）<ruby>増<rt>ふ</rt></ruby>やさない、３）やっつける、４）<ruby>冷凍<rt>れいとう</rt></ruby>する
+    TRANS: 1) Tidak mencemari, 2) Tidak membiakkan, 3) Membasmi, 4) Membekukan
+    KOTOBA: [kb-latsol-e6f9a006a5] つけない(つけない) [word] = tidak menempel / memakai | [kb-v2-p4-164] 増やさない(ふやさない) [inflected, df:増やす] = tidak memperbanyak | [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba) | [kb-1557170] 冷凍(れいとう) [word] = pembekuan
+  OPT B: HTML=１）<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まない、２）つけない、３）やっつける、４）<ruby>拡<rt>ひろ</rt></ruby>げない
+    TRANS: 1) Tidak membawa masuk (mochikomana), 2) Tidak mencemari (tsukenai), 3) Membasmi (yattsukeru), 4) Tidak menyebarkan (hirogenai)
+    KOTOBA: [kb-v2-p4-160] 持ち込まない(もちこまない) [inflected, df:持ち込む] = tidak membawa masuk | [kb-latsol-e6f9a006a5] つけない(つけない) [word] = tidak menempel / memakai | [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba) | [kb-v2-p6-360] 拡げない(ひろげない) [inflected, df:拡げる] = tidak menyebarkan
+  OPT C: HTML=１）<ruby>乾燥<rt>かんそう</rt></ruby>させる、２）<ruby>塩水<rt>しおみず</rt></ruby>で<ruby>洗<rt>あら</rt></ruby>う、３）アルコールをかける、４）<ruby>記録<rt>きろく</rt></ruby>する
+    TRANS: 1) Mengeringkan, 2) Mencuci dengan air garam, 3) Menyemprot alkohol, 4) Mencatat
+    KOTOBA: [kb-1209920] 乾燥(かんそう) [word] = pengeringan | [kb-otaff51-1044] 塩水(しおみず) [noun] = air garam | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-latsol-4f9fc10ef6] アルコール(あるこーる) [word] = alkohol | [kb-v2-p1-190] かける(-) [word] = memanggil / menegur | [kb-1223440] 記録(きろく) [word] = pencatatan / rekaman data

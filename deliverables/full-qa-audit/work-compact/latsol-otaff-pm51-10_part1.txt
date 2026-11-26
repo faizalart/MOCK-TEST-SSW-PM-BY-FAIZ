@@ -1,0 +1,76 @@
+# AUDIT SHEET: latsol-otaff-pm51-10 (Latsol OTAFF SSW PM Modul 5.1 - Paket 10) | Batch qa-batch-12 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=otaff-pm51-10-q001 | KEY=B (idx=1) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.7 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 2022<ruby>年<rt>ねん</rt></ruby>（<ruby>概算<rt>がいさん</rt></ruby>）の「<ruby>食品製造業<rt>しょくひんせいぞうぎょう</rt></ruby>の<ruby>国内生産額<rt>こくないせいさんがく</rt></ruby>（38.4<ruby>兆円<rt>ちょうえん</rt></ruby>）」の<ruby>資料<rt>しりょう</rt></ruby>の「<ruby>出典<rt>しゅってん</rt></ruby>（データを<ruby>発表<rt>はっぴょう</rt></ruby>した<ruby>省庁<rt>しょうちょう</rt></ruby>）」はどこですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kementerian manakah yang menjadi 'sumber data (shutten)' dari statistik 'Nilai Produksi Domestik Industri Pengolahan Makanan (38,4 triliun yen)' tahun 2022 (estimasi)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 7 (Bab 1.1, hal. 2 teks). Bobot: 3 poin. Kunci jawaban: B. Statistik nilai produksi domestik industri pengolahan makanan bersumber dari Kementerian Pertanian, Kehutanan, dan Perikanan Jepang (農林水産省HP 令和4年農業・食料関連産業の経済計算).
+  INLINE_KOTOBA_COUNT: 22
+  KOTOBA_PROMPT: [kb-otaff51-0689] 年(ねん) [noun] = tahun | [kb-otaff51-0716] 概算(がいさん) [noun] = perkiraan kasar / estimasi | [kb-otaff51-0656] 食品製造業(しょくひんせいぞうぎょう) [compound_technical] = industri pengolahan makanan | [kb-otaff51-0239] 国内生産額(こくないせいさんがく) [compound_technical] = nilai produksi domestik | [kb-otaff51-0150] 兆円(ちょうえん) [noun] = triliun yen | [kb-otaff51-1626] 資料(しりょう) [noun] = data / bahan dokumen | [kb-otaff51-0990] 出典(しゅってん) [noun] = sumber data / referensi | [kb-v2-p3-027] データ(-) [word] = data | [kb-otaff51-1627] 発表した(はっぴょうした) [inflected_verb, df:発表する] = menerbitkan / mengumumkan | [kb-otaff51-0991] 省庁(しょうちょう) [noun] = kementerian / lembaga pemerintah | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>文部科学省<rt>もんぶかがくしょう</rt></ruby>
+    TRANS: Kementerian Pendidikan, Kebudayaan, Olahraga, Ilmu Pengetahuan dan Teknologi
+    KOTOBA: [kb-otaff51-1628] 文部科学省(もんぶかがくしょう) [compound_technical] = Kementerian Pendidikan & Sains
+  OPT B: HTML=<ruby>農林水産省<rt>のうりんすいさんしょう</rt></ruby>（<ruby>令和<rt>れいわ</rt></ruby>4<ruby>年<rt>ねん</rt></ruby> <ruby>農業<rt>のうぎょう</rt></ruby>・<ruby>食料関連産業<rt>しょくりょうかんれんさんぎょう</rt></ruby>の<ruby>経済計算<rt>けいざいけいさん</rt></ruby>）
+    TRANS: Kementerian Pertanian, Kehutanan, dan Perikanan Jepang / MAFF (Perhitungan Ekonomi Pertanian dan Industri Terkait Pangan Tahun Reiwa 4)
+    KOTOBA: [kb-otaff51-0592] 農林水産省(のうりんすいさんしょう) [compound_technical] = Kementerian Pertanian & Perikanan Jepang | [kb-2839013] 令和(れいわ) [word] = era Reiwa (kalender Jepang) | [kb-otaff51-0689] 年(ねん) [noun] = tahun | [kb-otaff51-0813] 農業(のうぎょう) [noun] = pertanian | [kb-otaff51-1629] 食料関連産業(しょくりょうかんれんさんぎょう) [compound_technical] = industri terkait pangan | [kb-otaff51-1630] 経済計算(けいざいけいさん) [compound_technical] = perhitungan statistik ekonomi
+  OPT C: HTML=<ruby>外務省<rt>がいむしょう</rt></ruby>
+    TRANS: Kementerian Luar Negeri
+    KOTOBA: [kb-otaff51-1631] 外務省(がいむしょう) [compound_technical] = Kementerian Luar Negeri
+
+=== #Q2 | ID=otaff-pm51-10-q002 | KEY=A (idx=0) | CAT=第1章 飲食料品製造業で必要な技能（Bab 1: Keterampilan Industri Pangan） | SRC=Bab 1-3.pdf p.48 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>第<rt>だい</rt></ruby>1<ruby>章<rt>しょう</rt></ruby>の「<ruby>国内生産額<rt>こくないせいさんがく</rt></ruby>のグラフ」と<ruby>第<rt>だい</rt></ruby>3<ruby>章<rt>しょう</rt></ruby>の「<ruby>労働災害発生状況<rt>ろうどうさいがいはっせいじょうきょう</rt></ruby>のグラフ」の<ruby>出典<rt>しゅってん</rt></ruby>（<ruby>省庁<rt>しょうちょう</rt></ruby>）の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせとして、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu kombinasi yang benar mengenai kementerian sumber data untuk 'Grafik Nilai Produksi Domestik' pada Bab 1 dan 'Grafik Situasi Terjadinya Kecelakaan Kerja' pada Bab 3.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 7 & 48 (Bab 1.1 & Bab 3.1(1), hal. 2 & 43 teks). Bobot: 3 poin. Kunci jawaban: A. Data nilai produksi pangan pada Bab 1 bersumber dari 農林水産省 (MAFF), sedangkan data kecelakaan kerja pada Bab 3 bersumber dari 厚生労働省 (MHLW).
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-otaff51-1632] 第1章(だいいっしょう) [compound_technical] = Bab 1 | [kb-otaff51-0239] 国内生産額(こくないせいさんがく) [compound_technical] = nilai produksi domestik | [kb-otaff51-0723] グラフ(ぐらふ) [noun] = grafik / diagram | [kb-otaff51-1633] 第3章(だいさんしょう) [compound_technical] = Bab 3 | [kb-otaff51-0992] 労働災害発生状況(ろうどうさいがいはっせいじょうきょう) [compound_technical] = kondisi kejadian kecelakaan kerja | [kb-otaff51-0990] 出典(しゅってん) [noun] = sumber data / referensi | [kb-otaff51-0991] 省庁(しょうちょう) [noun] = kementerian / lembaga pemerintah | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>国内生産額<rt>こくないせいさんがく</rt></ruby>：<ruby>農林水産省<rt>のうりんすいさんしょう</rt></ruby> ／ <ruby>労働災害発生状況<rt>ろうどうさいがいはっせいじょうきょう</rt></ruby>：<ruby>厚生労働省<rt>こうせいろうどうしょう</rt></ruby>
+    TRANS: Nilai produksi domestik: Kementerian Pertanian, Kehutanan, dan Perikanan (MAFF) / Situasi kecelakaan kerja: Kementerian Kesehatan, Ketenagakerjaan, dan Kesejahteraan (MHLW)
+    KOTOBA: [kb-otaff51-0239] 国内生産額(こくないせいさんがく) [compound_technical] = nilai produksi domestik | [kb-otaff51-0592] 農林水産省(のうりんすいさんしょう) [compound_technical] = Kementerian Pertanian & Perikanan Jepang | [kb-otaff51-0992] 労働災害発生状況(ろうどうさいがいはっせいじょうきょう) [compound_technical] = kondisi kejadian kecelakaan kerja | [kb-otaff51-0218] 厚生労働省(こうせいろうどうしょう) [compound_technical] = Kementerian Kesehatan & Kerja (MHLW)
+  OPT B: HTML=どちらも<ruby>防衛省<rt>ぼうえいしょう</rt></ruby>
+    TRANS: Keduanya Kementerian Pertahanan
+    KOTOBA: [kb-v2-p3-130] どちらも(-) [word] = keduanya | [kb-otaff51-1634] 防衛省(ぼうえいしょう) [compound_technical] = Kementerian Pertahanan
+  OPT C: HTML=どちらも<ruby>環境省<rt>かんきょうしょう</rt></ruby>
+    TRANS: Keduanya Kementerian Lingkungan Hidup
+    KOTOBA: [kb-v2-p3-130] どちらも(-) [word] = keduanya | [kb-otaff51-1635] 環境省(かんきょうしょう) [compound_technical] = Kementerian Lingkungan Hidup
+
+=== #Q3 | ID=otaff-pm51-10-q003 | KEY=C (idx=2) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.14 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 次, 食品 || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-v2-p2-023 "乳": kotoba="ちち" vs ruby="にゅう"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 次の食品のうち、「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>（<ruby>表示義務<rt>ひょうじぎむ</rt></ruby>・9<ruby>品目<rt>ひんもく</rt></ruby>）」ではなく、「<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>に<ruby>準<rt>じゅん</rt></ruby>ずるもの（<ruby>表示推奨<rt>ひょうじすいしょう</rt></ruby>・20<ruby>品目<rt>ひんもく</rt></ruby>）」に<ruby>分類<rt>ぶんるい</rt></ruby>されるものだけの<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせはどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara bahan pangan berikut, manakah kombinasi yang seluruhnya TIDAK termasuk 'Bahan Baku Spesifik (Wajib, 9 item)', melainkan diklasifikasikan ke dalam 'Bahan yang Setara dengan Bahan Baku Spesifik (Anjuran, 20 item)'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 14 (Bab 2.2(2)①, hal. 9 teks). Bobot: 3 poin. Kunci jawaban: C. Opsi A dan B seluruhnya adalah 9 item wajib (特定原材料), sedangkan Opsi C seluruhnya termasuk dalam 20 item anjuran (特定原材料に準ずるもの).
+  INLINE_KOTOBA_COUNT: 32
+  KOTOBA_PROMPT: [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-1358600] 食品(しょくひん) [word] = makanan / produk pangan | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-ext-1372-e789b9e5ae] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku alergen wajib label | [kb-ext-1508-e8a1a8e7a4] 表示義務(ひょうじぎむ) [word] = kewajiban pelabelan alergen | [kb-1490700] 品目(ひんもく) [word] = item / jenis bahan pangan | [kb-otaff51-0708] 特定原材料に準ずるもの(とくていげんざいりょうにじゅんずるもの) [compound_technical] = bahan pangan alergen anjuran label | [kb-ext-1510-e8a1a8e7a4] 表示推奨(ひょうじすいしょう) [word] = alergen rekomendasi pelabelan | [kb-1504460] 分類(ぶんるい) [word] = klasifikasi / pengelompokan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=えび、かに、<ruby>小麦<rt>こむぎ</rt></ruby>、そば
+    TRANS: Udang, kepiting, gandum, dan soba
+    KOTOBA: [kb-latsol-fb20898730] えび(えび) [word] = udang | [kb-latsol-8030f7ad18] かに(かに) [word] = kepiting | [kb-1348630] 小麦(こむぎ) [word] = gandum | [kb-latsol-b882f23d60] そば(そば) [word] = soba (gandum kuda)
+  OPT B: HTML=<ruby>卵<rt>たまご</rt></ruby>、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>、くるみ、カシューナッツ
+    TRANS: Telur, susu, kacang tanah, kenari, dan kacang mete
+    KOTOBA: [kb-v2-p1-070] 卵(たまご) [word] = telur | [kb-v2-p2-023] 乳(ちち) [word] = susu | [kb-1775610] 落花生(らっかせい) [word] = kacang tanah (alergen) | [kb-latsol-7a3cad8dcb] くるみ(くるみ) [word] = kacang kenari (walnut) | [kb-pilot51-114] カシューナッツ(かしゅーなっつ) [noun_allergen] = kacang mete
+  OPT C: HTML=アーモンド、さけ、さば、<ruby>大豆<rt>だいず</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>、<ruby>豚肉<rt>ぶたにく</rt></ruby>、ゼラチン、ピスタチオ
+    TRANS: Almond, salmon, makarel, kedelai, daging ayam, daging babi, gelatin, dan pistachio
+    KOTOBA: [kb-v2-p3-080] アーモンド(-) [word] = kacang almon | [kb-latsol-93b1af1a3f] さけ(さけ) [word] = ikan salmon | [kb-latsol-82a4ee8540] さば(さば) [word] = ikan kembung / makarel | [kb-1414680] 大豆(だいず) [word] = kacang kedelai | [kb-1253020] 鶏肉(とりにく) [word] = daging ayam | [kb-1457440] 豚肉(ぶたにく) [word] = daging babi | [kb-latsol-8a6d985f87] ゼラチン(ぜらちん) [word] = gelatin | [kb-pilot51-115] ピスタチオ(ぴすたちお) [noun_allergen] = kacang pistachio
+
+=== #Q4 | ID=otaff-pm51-10-q004 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.15 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>」としてテキストに<ruby>挙<rt>あ</rt></ruby>げられている4つの<ruby>種類<rt>しゅるい</rt></ruby>の<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせはどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah kombinasi 4 jenis 'Faktor Bahaya Biologis (Seibutsuteki Kigai Youin)' sebagaimana disebutkan di dalam buku teks? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 15 (Bab 2.2(3), hal. 10 teks). Bobot: 3 poin. Kunci jawaban: B. 危害要因の中で、食中毒の原因になる細菌やウイルス、寄生虫、カビなどを、「生物的危害要因」と言います.
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-ext-1048-e7949fe789] 生物的危害要因(せいぶつてききがいよういん) [word] = bahaya biologis (kuman/virus) | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0697] テキスト(てきすと) [noun] = buku teks / modul | [kb-otaff51-0731] 挙げられている(あげられている) [inflected_verb, df:挙げる] = disebutkan / tercantum | [kb-1328890] 種類(しゅるい) [word] = jenis / macam | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>金属片<rt>きんぞくへん</rt></ruby>、ガラス<ruby>片<rt>へん</rt></ruby>、プラスチック<ruby>片<rt>へん</rt></ruby>、<ruby>石<rt>いし</rt></ruby>
+    TRANS: Serpihan logam, pecahan kaca, serpihan plastik, dan batu
+    KOTOBA: [kb-otaff51-0614] 金属片(きんぞくへん) [compound_technical] = serpihan logam | [kb-otaff51-0048] ガラス片(がらすへん) [compound_technical] = pecahan kaca | [kb-otaff51-0074] プラスチック片(ぷらすちっくへん) [compound_technical] = serpihan plastik | [kb-v2-p1-075] 石(いし) [word] = batu
+  OPT B: HTML=<ruby>細菌<rt>さいきん</rt></ruby>、ウイルス、<ruby>寄生虫<rt>きせいちゅう</rt></ruby>、カビ
+    TRANS: Bakteri (saikin), virus (uirusu), parasit (kiseichuu), dan kapang/jamur (kabi)
+    KOTOBA: [kb-1295590] 細菌(さいきん) [word] = bakteri | [kb-otaff51-0038] ウイルス(ういるす) [noun] = virus | [kb-1219770] 寄生虫(きせいちゅう) [word] = parasit pangan (Anisakis dll) | [kb-ext-0010-e382abe383] カビ(かび) [word] = jamur / kapang
+  OPT C: HTML=ヒスタミン、ソラニン、<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>、<ruby>殺菌剤<rt>さっきんざい</rt></ruby>
+    TRANS: Histamin, solanin, deterjen pencuci, dan disinfektan
+    KOTOBA: [kb-latsol-2b68f5ee9d] ヒスタミン(ひすたみん) [word] = histamin (racun alergi ikan) | [kb-latsol-54090265ff] ソラニン(そらにん) [word] = solanin (racun tunas kentang) | [kb-2149190] 洗浄剤(せんじょうざい) [compound_technical] = deterjen / cairan pembersih | [kb-1755080] 殺菌剤(さっきんざい) [word] = zat disinfektan / pembunuh bakteri

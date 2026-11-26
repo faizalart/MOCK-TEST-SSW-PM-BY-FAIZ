@@ -1,0 +1,70 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-9 (Soal Ujian 9 — CBTP Gino1) | Batch qa-batch-02 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-9-q025 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: きぐをあらうときにつかうものについて、ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang benar mengenai bahan yang digunakan saat mencuci peralatan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 5, Câu 25 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-v2-fix-arau] あらう(-) [] = mencuci (洗う) | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-fix-tsukau] つかう(-) [] = menggunakan (使う) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=さっきんざいをつかってあらう
+    TRANS: Mencuci menggunakan bahan sterilisasi (disinfektan)
+    KOTOBA: [kb-latsol-7f3337ef4c] さっきんざい(さっきんざい) [word] = zat disinfektan / pembunuh bakteri | [kb-audit-0884] つかって(つかって) [inflected_verb, df:使う] = menggunakan | [kb-v2-fix-arau] あらう(-) [] = mencuci (洗う) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>アルコール<rt>る</rt></ruby>をつかってあらう。
+    TRANS: Mencuci menggunakan alkohol
+    KOTOBA: [kb-v2-p2-001] アルコール(-) [technical] = alkohol | [kb-audit-0884] つかって(つかって) [inflected_verb, df:使う] = menggunakan | [kb-v2-fix-arau] あらう(-) [] = mencuci (洗う) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=せんじょうざいをつかってあらう
+    TRANS: Mencuci menggunakan bahan pembersih (deterjen)
+    KOTOBA: [kb-latsol-2d34f08d9e] せんじょうざい(せんじょうざい) [word] = deterjen / cairan pembersih | [kb-audit-0884] つかって(つかって) [inflected_verb, df:使う] = menggunakan | [kb-v2-fix-arau] あらう(-) [] = mencuci (洗う) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q26 | ID=kunci-ujian-9-q026 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さっきんざいをつかってちょうりきぐをしょうどくするほうほうとして、ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu cara yang benar untuk mendisinfeksi peralatan masak menggunakan bahan sterilisasi (disinfektan).
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 5, Câu 26 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-latsol-7f3337ef4c] さっきんざい(さっきんざい) [word] = zat disinfektan / pembunuh bakteri | [kb-audit-0884] つかって(つかって) [inflected_verb, df:使う] = menggunakan | [kb-audit-0213] ちょうり(ちょうり) [word] = memasak / pengolahan makanan (調理) | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-latsol-shoudoku] しょうどく(しょうどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p6-467] ほうほう(-) [word] = metode / cara (bacaan 方法) | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=ちょうりきぐをあらうまえにしょうどくする
+    TRANS: Mendisinfeksi peralatan masak sebelum dicuci.
+    KOTOBA: [kb-audit-0213] ちょうり(ちょうり) [word] = memasak / pengolahan makanan (調理) | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-v2-fix-arau] あらう(-) [] = mencuci (洗う) | [kb-v2-p6-570] まえ(-) [word] = sebelum / depan | [kb-latsol-shoudoku] しょうどく(しょうどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=しょうどくするまえにちょうりぐにみずをつける。
+    TRANS: Membasahi peralatan masak dengan air sebelum didisinfeksi.
+    KOTOBA: [kb-latsol-shoudoku] しょうどく(しょうどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p6-570] まえ(-) [word] = sebelum / depan | [kb-audit-1123] ちょうりぐ(ちょうりぐ) [word] = peralatan masak (調理具) | [kb-audit-0347] みず(みず) [word] = air (水) | [kb-v2-p1-203] つける(-) [word] = memakai / memasang | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=ちょうりきぐをあらってほしてからしょうどくする。
+    TRANS: Mencuci dan mengeringkan peralatan masak terlebih dahulu, kemudian mendisinfeksinya.
+    KOTOBA: [kb-audit-0213] ちょうり(ちょうり) [word] = memasak / pengolahan makanan (調理) | [kb-audit-0658] きぐ(きぐ) [word] = peralatan / perkakas | [kb-audit-0838] あらって(あらって) [inflected_verb, df:洗う] = mencuci | [kb-audit-0839] ほして(ほして) [inflected_verb, df:干す] = mengeringkan | [kb-v2-p1-338] から(-) [particle] = dari / karena | [kb-latsol-shoudoku] しょうどく(しょうどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q27 | ID=kunci-ujian-9-q027 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.5 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さっきんしたしょくひんのつかいかたで、まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu cara penanganan makanan yang telah disterilisasi yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 5, Câu 27 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0212] さっきん(さっきん) [word] = sterilisasi / pembunuhan bakteri (殺菌) | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-0826] つかい(つかい) [inflected_verb, df:使う] = menggunakan | [kb-audit-0431] かた(かた) [word] = bahu (肩) | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=てぶくろをつけていないてでしょくひんをもつ。
+    TRANS: Memegang makanan dengan tangan tanpa memakai sarung tangan.
+    KOTOBA: [kb-v2-p6-601] てぶくろ(-) [word] = sarung tangan | [kb-v2-p2-197] つけていない(-) [inflected, df:つける] = tidak memakai | [kb-audit-0410] てで(てで) [word] = dengan tangan (手で) | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-0009] もつ(もつ) [word] = memegang / membawa | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=てぶくろをつけたてでしょくひんをもつ。
+    TRANS: Memegang makanan dengan tangan yang memakai sarung tangan.
+    KOTOBA: [kb-v2-p6-601] てぶくろ(-) [word] = sarung tangan | [kb-audit-1162] つけた(つけた) [inflected_verb, df:付ける] = yang memakai / memasang | [kb-audit-0410] てで(てで) [word] = dengan tangan (手で) | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-0009] もつ(もつ) [word] = memegang / membawa | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=しょうどくしたどうぐをつかってしょくひんをもつ。
+    TRANS: Memegang makanan menggunakan peralatan yang telah didisinfeksi.
+    KOTOBA: [kb-latsol-shoudoku] しょうどく(しょうどく) [word] = disinfeksi / sterilisasi (消毒) | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-audit-0142] どうぐ(どうぐ) [word] = perkakas / alat bantu (道具) | [kb-audit-0884] つかって(つかって) [inflected_verb, df:使う] = menggunakan | [kb-audit-0215] しょくひん(しょくひん) [word] = makanan / bahan pangan (食品) | [kb-audit-0009] もつ(もつ) [word] = memegang / membawa | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q28 | ID=kunci-ujian-9-q028 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 9.pdf p.5 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: しょくざいのつかいかたについて、まちがっているものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang salah mengenai cara penanganan bahan makanan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 9.pdf (Halaman 5, Câu 28 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0103] しょくざい(しょくざい) [word] = bahan makanan (食材) | [kb-audit-0826] つかい(つかい) [inflected_verb, df:使う] = menggunakan | [kb-audit-0431] かた(かた) [word] = bahu (肩) | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=れいとうひんがとけていたら、またれいとうする。
+    TRANS: Jika produk beku sudah mencair, bekukan kembali.
+    KOTOBA: [kb-audit-0840] れいとうひん(れいとうひん) [word] = produk makanan beku | [kb-audit-0593] とけていたら(とけていたら) [inflected_verb, df:溶ける] = jika sudah mencair | [kb-v2-p2-238] また(-) [word] = lagi / kembali | [kb-audit-0079] れいとう(れいとう) [word] = pembekuan / freezer (冷凍) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=さとうやしおは、しつどがひくいところにほかんする。
+    TRANS: Menyimpan gula dan garam di tempat dengan kelembapan rendah.
+    KOTOBA: [kb-v2-p1-035] さとう(-) [word] = gula | [kb-audit-0704] しお(しお) [word] = garam | [kb-audit-0841] しつど(しつど) [word] = kelembapan udara | [kb-audit-0842] ひくい(ひくい) [adjective] = rendah | [kb-v2-p1-292] ところ(-) [word] = bagian / tempat | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=こむぎこやでんぷんは、みずにぬれないようにほかんする。
+    TRANS: Menyimpan tepung terigu dan pati (kanji) agar tidak terkena air.
+    KOTOBA: [kb-audit-0282] こむぎこ(こむぎこ) [word] = tepung terigu (小麦粉) | [kb-v2-p2-064] でんぷん(-) [word] = pati / tepung kanji | [kb-audit-0347] みず(みず) [word] = air (水) | [kb-v2-p2-113] ぬれない(-) [inflected, df:ぬれる] = tidak basah | [kb-v2-p1-327] ように(-) [particle] = agar / supaya | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

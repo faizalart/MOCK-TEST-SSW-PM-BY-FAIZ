@@ -1,0 +1,70 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-12 (Soal Ujian 12 — CBTP Gino1) | Batch qa-batch-03 | Part 3 (Q9-12 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q9 | ID=kunci-ujian-12-q009 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: とくていげんざいりょうはどれですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah yang termasuk bahan baku spesifik (8 alergen wajib)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 2, Câu 9 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0270] とくていげんざいりょう(とくていげんざいりょう) [word] = bahan baku alergen wajib (特定原材料) | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=えびかにくるみこむぎそばたまごにゅうピーナッツ
+    TRANS: Udang, kepiting, kacang kenari (walnut), gandum, soba (buckwheat), telur, susu, kacang tanah (peanut)
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut) | [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-v2-p3-089] にゅう(-) [word] = susu (bacaan 乳) | [kb-ext-0026-e38394e383] ピーナッツ(ぴなっつ) [word] = kacang tanah
+  OPT B: HTML=えびかにくるみいかそばたまごにゅうピーナッツ
+    TRANS: Udang, kepiting, kacang kenari, cumi-cumi, soba, telur, susu, kacang tanah
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut) | [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下) | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-v2-p3-089] にゅう(-) [word] = susu (bacaan 乳) | [kb-ext-0026-e38394e383] ピーナッツ(ぴなっつ) [word] = kacang tanah
+  OPT C: HTML=えびかにアーモンドこむぎそばたまごにゅうピーナッツ
+    TRANS: Udang, kepiting, almon, gandum, soba, telur, susu, kacang tanah
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-v2-p3-080] アーモンド(-) [word] = kacang almon | [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-v2-p3-089] にゅう(-) [word] = susu (bacaan 乳) | [kb-ext-0026-e38394e383] ピーナッツ(ぴなっつ) [word] = kacang tanah
+
+=== #Q10 | ID=kunci-ujian-12-q010 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>虫<rt>むし</rt></ruby>の<ruby>発生源<rt>はっせいげん</rt></ruby>になりやすいところはどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Tempat manakah yang mudah menjadi sumber munculnya serangga?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 2, Câu 10 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p4-111] 虫(むし) [word] = serangga / hama | [kb-otaff51-0456] 発生源(はっせいげん) [compound_technical] = sumber kemunculan (hama/serangga) | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-v2-p1-292] ところ(-) [word] = bagian / tempat | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>排水溝<rt>はいすいこう</rt></ruby>や<ruby>大<rt>おお</rt></ruby>きな<ruby>機械<rt>きかい</rt></ruby>の<ruby>下<rt>した</rt></ruby>
+    TRANS: Saluran pembuangan air (selokan) dan bagian bawah mesin besar
+    KOTOBA: [kb-otaff51-0324] 排水溝(はいすいこう) [compound_technical] = saluran pembuangan air / selokan | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>混<rt>ま</rt></ruby>ぜる<ruby>機械<rt>きかい</rt></ruby>
+    TRANS: Mesin pencampur (mixer)
+    KOTOBA: [kb-v2-p6-448] 混ぜる(まぜる) [word] = mencampur / mengaduk | [kb-otaff51-0353] 機械(きかい) [noun] = mesin
+  OPT C: HTML=スライサー、フードカッター
+    TRANS: Mesin pengiris (slicer) dan pemotong makanan (food cutter)
+    KOTOBA: [kb-v2-p1-056] スライサー(-) [word] = mesin pengiris | [kb-v2-p6-173] フードカッター(-) [technical] = mesin pencacah makanan
+
+=== #Q11 | ID=kunci-ujian-12-q011 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: きがいよういんのしゅるいについてただしいことをえらびなさい
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah jawaban yang benar mengenai jenis-jenis faktor bahaya.
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 2, Câu 11 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-audit-0264] きがいよういん(きがいよういん) [word] = faktor bahaya / hazard (危害要因) | [kb-audit-0268] しゅるい(しゅるい) [word] = jenis / macam (種類) | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>安全食品<rt>あんぜんしょくひん</rt></ruby>、<ruby>化学的危害要因<rt>かがくてききがいよういん</rt></ruby>、<ruby>生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>
+    TRANS: Pangan aman, faktor bahaya kimia, faktor bahaya biologis
+    KOTOBA: [kb-ext-0051-e5ae89e585] 安全食品(あんぜんしょくひん) [word] = produk pangan yang aman | [kb-otaff51-0208] 化学的危害要因(かがくてききがいよういん) [compound_technical] = faktor bahaya kimia | [kb-otaff51-0441] 生物的危害要因(せいぶつてききがいよういん) [compound_technical] = faktor bahaya biologis
+  OPT B: HTML=<ruby>物理的危害要因<rt>ぶつりてききがいよういん</rt></ruby>、<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>、<ruby>生物的危害要因<rt>せいぶつてききがいよういん</rt></ruby>
+    TRANS: Faktor bahaya fisik, kecelakaan kerja, faktor bahaya biologis
+    KOTOBA: [kb-otaff51-0431] 物理的危害要因(ぶつりてききがいよういん) [compound_technical] = faktor bahaya fisik | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-otaff51-0441] 生物的危害要因(せいぶつてききがいよういん) [compound_technical] = faktor bahaya biologis
+  OPT C: HTML=ぶつりてききがいよういんかがくてききがいよういんせいぶつてききがいよういん
+    TRANS: Faktor bahaya fisik, faktor bahaya kimia, faktor bahaya biologis
+    KOTOBA: [kb-audit-0265] ぶつりてき(ぶつりてき) [word] = bersifat fisik (物理的) | [kb-audit-0264] きがいよういん(きがいよういん) [word] = faktor bahaya / hazard (危害要因) | [kb-audit-0266] かがくてき(かがくてき) [word] = bersifat kimiawi (化学的) | [kb-latsol-6dc2e156b6] せいぶつてききがいよういん(せいぶつてききがいよういん) [word] = faktor bahaya biologis
+
+=== #Q12 | ID=kunci-ujian-12-q012 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 12.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>生鮮果実<rt>せいせんかじつ</rt></ruby>・<ruby>野菜<rt>やさい</rt></ruby>（<ruby>容器<rt>ようき</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ったカット<ruby>野菜<rt>やさい</rt></ruby>の<ruby>中<rt>なか</rt></ruby>には、<ruby>保管温度<rt>ほかんおんど</rt></ruby>が<ruby>指定<rt>してい</rt></ruby>されている<ruby>場合<rt>ばあい</rt></ruby>があります。）の<ruby>保管温度<rt>ほかんおんど</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Berapakah suhu penyimpanan untuk buah dan sayuran segar (untuk sayuran potong dalam wadah, terkadang ada suhu penyimpanan khusus yang ditentukan)?
+  EXPLANATION: Sumber: Kunci Soal Ujian 12.pdf (Halaman 2, Câu 12 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0444] 生鮮果実(せいせんかじつ) [compound_technical] = buah-buahan segar | [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-v2-p6-355] 入った(はいった) [inflected, df:入る] = berisi / masuk (lampau) | [kb-v2-p6-228] カット野菜(かっとやさい) [word] = sayuran potong siap pakai | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0137] 保管温度(ほかんおんど) [compound_technical] = suhu penyimpanan | [kb-1309910] 指定(してい) [word] = penetapan resmi | [kb-v2-p1-143] されている(-) [inflected_verb, df:する] = sedang dilakukan (dasar: する) | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=10℃<ruby>前後<rt>ぜんご</rt></ruby>
+    TRANS: Sekitar 10°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0187] 前後(ぜんご) [noun] = sekitar / kurang lebih
+  OPT B: HTML=10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 10°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=<ruby>室温<rt>しつおん</rt></ruby>
+    TRANS: Suhu ruang
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang

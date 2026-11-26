@@ -1,0 +1,81 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-13 (Soal Ujian 13 — Rakuraku Tokutei (2024年10月)) | Batch qa-batch-03 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=kunci-ujian-13-q001 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.1 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0349 (―つ): "satu buah (typo garis: 一つ)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギーが<ruby>入<rt>はい</rt></ruby>っている<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを―つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah makanan yang mengandung alergen? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 1, Nomor 1) · Kunci Jawaban PDF (Teks Merah): A.
+  KOTOBA_PROMPT: [kb-v2-p2-018] アレルギー(-) [technical] = alergi | [kb-v2-p6-354] 入っている(はいっている) [inflected, df:入る] = terdapat di dalam | [kb-otaff51-1178] 食べ(たべ) [inflected_verb, df:食べる] = makan | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0349] ―つ(ひとつ) [word] = satu buah (typo garis: 一つ) | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=A
+    TRANS: Pilihan A — Spageti saus daging (mengandung gandum)
+    MEDIA: media-kunci-ujian-13-q001-a
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan B — Ubi jalar
+    MEDIA: media-kunci-ujian-13-q001-b
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan C — Nasi putih
+    MEDIA: media-kunci-ujian-13-q001-c
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C
+
+=== #Q2 | ID=kunci-ujian-13-q002 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.1 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0349 (―つ): "satu buah (typo garis: 一つ)"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>機械<rt>きかい</rt></ruby>は<ruby>異常事態<rt>いじょうじたい</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>した<ruby>場合<rt>ばあい</rt></ruby>、どんなボタンを<ruby>押<rt>お</rt></ruby>せばいいですか。<ruby>正<rt>ただ</rt></ruby>しいもの<br>を―つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 機械は異常事態が発生した場合、どんなボタンを押せばいいですか。正しいもの
+を―つ選びなさい。
+  PROMPT_TRANS: Apabila terjadi kondisi tidak normal / darurat pada mesin, tombol manakah yang sebaiknya ditekan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 1, Nomor 2) · Kunci Jawaban PDF (Teks Merah): B.
+  KOTOBA_PROMPT: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-v2-p6-559] 押せば(おせば) [inflected, df:押す] = jika menekan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0349] ―つ(ひとつ) [word] = satu buah (typo garis: 一つ) | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=A
+    TRANS: Pilihan A — Tombol START STOP ENGINE
+    MEDIA: media-kunci-ujian-13-q002-a
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan B — Tombol berhenti darurat (EMERGENCY STOP)
+    MEDIA: media-kunci-ujian-13-q002-b
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan C — Lampu indikator menara tiga warna (merah, kuning, hijau)
+    MEDIA: media-kunci-ujian-13-q002-c
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C
+
+=== #Q3 | ID=kunci-ujian-13-q003 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 何 || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0349 (―つ): "satu buah (typo garis: 一つ)" || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>滑<rt>すべ</rt></ruby>る<ruby>原因<rt>げんいん</rt></ruby>は何ですか。<ruby>間違<rt>まちが</rt></ruby>っているものを―つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa penyebab terpeleset? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 1, Nomor 3) · Kunci Jawaban PDF (Teks Merah): C.
+  KOTOBA_PROMPT: [kb-otaff51-0412] 滑る(すべる) [verb] = terpeleset / licin | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0349] ―つ(ひとつ) [word] = satu buah (typo garis: 一つ) | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>の<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>の<ruby>床<rt>ゆか</rt></ruby>は<ruby>薄<rt>うす</rt></ruby>い <ruby>氷<rt>こおり</rt></ruby>ができているため。
+    TRANS: Karena terbentuk lapisan es tipis di lantai depan pintu masuk freezer.
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-otaff51-0152] 入り口(いりぐち) [noun] = pintu masuk | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-v2-p6-262] 薄い(うすい) [word] = tipis | [kb-otaff51-0375] 氷(こおり) [noun] = es | [kb-v2-p3-332] できている(-) [inflected, df:できる] = dapat dilakukan / berjalan baik | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>調理場<rt>ちょうりば</rt></ruby>の<ruby>床<rt>ゆか</rt></ruby>は <ruby>油<rt>あぶら</rt></ruby>で<ruby>汚<rt>よご</rt></ruby>れているため。
+    TRANS: Karena lantai ruang pengolahan kotor oleh minyak.
+    KOTOBA: [kb-otaff51-0577] 調理場(ちょうりば) [noun] = ruang pengolahan / dapur produksi | [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-otaff51-0379] 油(あぶら) [noun] = minyak | [kb-latsol-f6786ecc0f] 汚れている(よごれている) [word] = kotor / terkena noda | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=<ruby>積<rt>つ</rt></ruby>まれた<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>崩<rt>くず</rt></ruby>れたため。
+    TRANS: Karena tumpukan barang muatan roboh.
+    KOTOBA: [kb-v2-p6-449] 積まれた(つまれた) [inflected, df:積む] = yang ditumpuk | [kb-otaff51-0534] 荷物(にもつ) [noun] = barang bawaan / muatan | [kb-v2-p6-450] 崩れた(くずれた) [inflected, df:崩れる] = runtuh / roboh | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+
+=== #Q4 | ID=kunci-ujian-13-q004 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 13.pdf p.2 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム<ruby>溶液<rt>ようえき</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っている<ruby>容器<rt>ようき</rt></ruby>、ある<ruby>溶液<rt>ようえき</rt></ruby>を<ruby>入<rt>い</rt></ruby>れて<ruby>有毒<rt>ゆうどく</rt></ruby>なガスを<ruby>感<rt>かん</rt></ruby><br>じた。<ruby>容器<rt>ようき</rt></ruby>に<ruby>入<rt>い</rt></ruby>れた<ruby>溶液<rt>ようえき</rt></ruby>はどんな<ruby>溶液<rt>ようえき</rt></ruby>ですか。
+  QUESTION_TEXT: 次亜塩素酸ナトリウム溶液が入っている容器、ある溶液を入れて有毒なガスを感
+じた。容器に入れた溶液はどんな溶液ですか。
+  PROMPT_TRANS: Ketika suatu larutan dimasukkan ke dalam wadah yang berisi larutan natrium hipoklorit, tercium gas beracun. Larutan apakah yang dimasukkan ke dalam wadah tersebut?
+  EXPLANATION: Sumber: Kunci Soal Ujian 13.pdf (Halaman 2, Nomor 4) · Kunci Jawaban PDF (Teks Merah): A.
+  KOTOBA_PROMPT: [kb-otaff51-0355] 次亜塩素酸ナトリウム(じあえんそさんなとりうむ) [compound_technical] = natrium hipoklorit (NaClO) | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p6-354] 入っている(はいっている) [inflected, df:入る] = terdapat di dalam | [kb-otaff51-0273] 容器(ようき) [noun] = wadah / kemasan | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p2-012] 入れて(いれて) [inflected, df:入れる] = memasukkan | [kb-otaff51-0339] 有毒(ゆうどく) [adjective] = beracun | [kb-v2-p6-222] ガス(-) [word] = gas | [kb-v2-p5-280] 感じた(かんじた) [inflected, df:感じる] = merasakan (lampau) | [kb-v2-p4-215] 入れた(いれた) [inflected, df:入れる] = memasukkan (lampau) | [kb-v2-p1-269] どんな(-) [word] = seperti apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>酸性洗剤<rt>さんせいせんざい</rt></ruby>
+    TRANS: Deterjen asam
+    KOTOBA: [kb-otaff51-0607] 酸性洗剤(さんせいせんざい) [compound_technical] = deterjen bersifat asam
+  OPT B: HTML=アルカリ<ruby>性洗剤<rt>せいせんざい</rt></ruby>
+    TRANS: Deterjen basa (alkali)
+    KOTOBA: [kb-v2-p6-246] アルカリ性洗剤(あるかりせいせんざい) [compound_technical] = detergen basa (alkali)
+  OPT C: HTML=<ruby>中性洗剤<rt>ちゅうせいせんざい</rt></ruby>
+    TRANS: Deterjen netral
+    KOTOBA: [kb-1424730] 中性洗剤(ちゅうせいせんざい) [word] = detergen netral

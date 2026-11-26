@@ -1,0 +1,80 @@
+# AUDIT SHEET: latsol-nguyen-07 (Latsol Nguyen 07) | Batch qa-batch-08 | Part 9 (Q33-36 of 39)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q33 | ID=nguyen07-q033 | KEY=A (idx=0) | CAT= | SRC=7.pdf p.7 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="濃度30%のNaClO溶液があります。100 ppmのNaClO溶液から3Lを作るのに、溶液と水はどれぐらいの量が必要ですか。正しいものを一" vs questionText="濃度30%のNaClO溶液があります。100ppmのNaClO溶液から3Lを作るのに、溶液と水はどれぐらいの量が必要ですか。正しいものを一つ" || [JP_NACLO_DIGIT@prompt] Suspicious NaClO OCR spelling || [PRIOR_KEY_AUDIT_REVIEW_REQUIRED@question] Pada cetakan asli 4.pdf dan 7.pdf, kata 水 (air) dan 溶液 (larutan) tertukar posisinya pada semua opsi (tertulis 1ml水、2999ml溶液), serta pada 7.pdf Hal. 7 baris Opsi C terpotong di tepi bawah halaman. Secara perhitungan matematis, pasangan angka 1 ml dan 2999 ml pada Opsi A adalah satu-satunya jawaban yang benar.
+  CLUSTER CL-0203 (n=4, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-4-q032 (bonus-soal-4), bonus-soal-7-q033 (bonus-soal-7), nguyen04-q032 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: REVIEW_REQUIRED | Pada cetakan asli 4.pdf dan 7.pdf, kata 水 (air) dan 溶液 (larutan) tertukar posisinya pada semua opsi (tertulis 1ml水、2999ml溶液), serta pada 7.pdf Hal. 7 baris Opsi C terpotong di tepi bawah halaman. Secara perhitungan matematis, pasangan angka 1 ml dan 2999 ml pada Opsi A adalah satu-satunya jawaban yang benar.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>濃度<rt>のうど</rt></ruby>30%のNaClO<ruby>溶液<rt>ようえき</rt></ruby>があります。100 ppmのNaClO<ruby>溶液<rt>ようえき</rt></ruby>から3Lを<ruby>作<rt>つく</rt></ruby>るのに、<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はどれぐらいの<ruby>量<rt>りょう</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 濃度30%のNaClO溶液があります。100ppmのNaClO溶液から3Lを作るのに、溶液と水はどれぐらいの量が必要ですか。正しいものを一つ選びなさい。
+  PROMPT_TRANS: Tersedia larutan NaClO dengan konsentrasi 30%. Untuk membuat 3 L larutan NaClO berkonsentrasi 100 ppm, berapa banyak jumlah larutan pekat dan air yang diperlukan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 7.pdf, halaman 7, nomor 33. Bobot: 3.85 poin. Kunci jawaban: A. Perhitungan: (3000 ml × 0,01%) / 30% = 1 ml larutan pekat dan 2999 ml air (pada cetakan asli posisi kata 水 dan 溶液 tertukar). Nomor asli PDF: Câu 32 (Halaman 7) — Opsi C terpotong di batas bawah halaman 7 pada scan 7.pdf.
+  KOTOBA_PROMPT: [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-audit-0186] %(-) [technical] = persen (satuan persentase %) | [kb-v2-p1-019] NaClO(-) [abbreviation] = natrium hipoklorit | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p2-254] どれぐらい(-) [word] = seberapa banyak | [kb-v2-p1-085] 量(りょう) [word] = jumlah / takaran | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=1ml<ruby>水<rt>みず</rt></ruby>、2999ml<ruby>溶液<rt>ようえき</rt></ruby>
+    TRANS: 1 ml air (larutan), 2999 ml larutan (air)
+    KOTOBA: [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan
+  OPT B: HTML=2ml<ruby>水<rt>みず</rt></ruby>、2998ml<ruby>溶液<rt>ようえき</rt></ruby>
+    TRANS: 2 ml air (larutan), 2998 ml larutan (air)
+    KOTOBA: [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan
+  OPT C: HTML=3ml<ruby>水<rt>みず</rt></ruby>、3000ml<ruby>溶液<rt>ようえき</rt></ruby>
+    TRANS: 3 ml air (larutan), 3000 ml larutan (air)
+    KOTOBA: [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan
+
+=== #Q34 | ID=nguyen07-q034 | KEY=B (idx=1) | CAT= | SRC=7.pdf p.8 ===
+  CLUSTER CL-0174 (n=6, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q033 (bonus-soal-1), bonus-soal-7-q034 (bonus-soal-7), bonus-soal-9-q033 (bonus-soal-9), nguyen01-q033 (latsol-nguyen-01), nguyen09-q033 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("床の水をきちんとふき取ってなかったため。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: トレーを<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>って、<ruby>歩<rt>ある</rt></ruby>いて<ruby>移動<rt>いどう</rt></ruby>しようとしたところ、<ruby>濡<rt>ぬ</rt></ruby>れた<ruby>床<rt>ゆか</rt></ruby>で<ruby>滑<rt>すべ</rt></ruby>って<ruby>転倒<rt>てんとう</rt></ruby>しそうになった。この<ruby>事故<rt>じこ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>最<rt>もっと</rt></ruby>も<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat memegang nampan (tray) dengan kedua tangan dan hendak berjalan berpindah tempat, pekerja terpeleset di lantai yang basah dan hampir terjatuh. Apakah penyebab kecelakaan ini? Pilihlah satu yang paling benar.
+  EXPLANATION: Sumber: 7.pdf, halaman 8, nomor 34. Bobot: 3.85 poin. Kunci jawaban: B. Visual: Ilustrasi pekerja membawa nampan terpeleset genangan air di lantai. Nomor asli PDF: Câu 33 (Halaman 8).
+  KOTOBA_PROMPT: [kb-ext-0022-e38388e383] トレー(とれ) [word] = baki / nampan makanan | [kb-otaff51-0099] 両手(りょうて) [noun] = kedua tangan | [kb-v2-p2-139] 持って(もって) [inflected, df:持つ] = membawa / memegang | [kb-v2-p5-239] 歩いて(あるいて) [inflected, df:歩く] = berjalan | [kb-otaff51-0476] 移動(いどう) [noun] = perpindahan / bergerak | [kb-audit-0382] しよう(しよう) [inflected_verb, df:する] = hendak / mencoba melakukan | [kb-v2-p1-319] とした(-) [expression] = hendak melakukan | [kb-latsol-56cb3efc8c] 濡れた床(ぬれたゆか) [word] = lantai yang basah | [kb-v2-p1-230] 滑って(すべって) [inflected_verb, df:滑る] = terpeleset (dasar: 滑る) | [kb-v2-p2-124] 転倒しそうに(てんとうしそうに) [inflected, df:転倒する] = hampir terpeleset jatuh | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-261] 最も(もっとも) [word] = paling | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>安全靴<rt>あんぜんぐつ</rt></ruby>を<ruby>履<rt>は</rt></ruby>かなかったため。
+    TRANS: Karena tidak mengenakan sepatu keselamatan (safety shoes).
+    KOTOBA: [kb-otaff51-0269] 安全靴(あんぜんぐつ) [compound_technical] = sepatu keselamatan (safety shoes) | [kb-v2-p4-195] 履かなかった(はかなかった) [inflected, df:履く] = tidak memakai (sepatu)
+  OPT B: HTML=<ruby>床<rt>ゆか</rt></ruby>の<ruby>水<rt>みず</rt></ruby>をきちんとふき<ruby>取<rt>と</rt></ruby>ってなかったため。
+    TRANS: Karena air di lantai tidak dilap/dibersihkan dengan benar.
+    KOTOBA: [kb-otaff51-0291] 床(ゆか) [noun] = lantai | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-audit-0413] ふき取って(ふきとって) [inflected_verb, df:拭き取る] = mengelap hingga bersih
+  OPT C: HTML=<ruby>両手<rt>りょうて</rt></ruby>で<ruby>持<rt>も</rt></ruby>っていたため。
+    TRANS: Karena memegang dengan kedua tangan.
+    KOTOBA: [kb-otaff51-0099] 両手(りょうて) [noun] = kedua tangan | [kb-latsol-785c68b18f] 持っていた(もっていた) [word] = memegang / membawa
+
+=== #Q35 | ID=nguyen07-q035 | KEY=A (idx=0) | CAT= | SRC=7.pdf p.8 ===
+  CLUSTER CL-0175 (n=8, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q034 (bonus-soal-1), bonus-soal-5-q035 (bonus-soal-5), bonus-soal-7-q035 (bonus-soal-7), bonus-soal-8-q033 (bonus-soal-8), nguyen01-q034 (latsol-nguyen-01), nguyen05-q035 (latsol-nguyen-05), nguyen08-q033 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("フォークリフトが、倉庫の入り口の前で一時停止をしなかったため。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: フォークリフトで<ruby>空箱<rt>からばこ</rt></ruby>を<ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>外<rt>そと</rt></ruby>の<ruby>置<rt>お</rt></ruby>き<ruby>場<rt>ば</rt></ruby>に<ruby>運<rt>はこ</rt></ruby>ぶため、<ruby>倉庫<rt>そうこ</rt></ruby>の<ruby>入口<rt>いりぐち</rt></ruby>を<ruby>一時停止<rt>いちじていし</rt></ruby>しないで<ruby>通過<rt>つうか</rt></ruby>したとき、<ruby>横<rt>よこ</rt></ruby>から<ruby>来<rt>き</rt></ruby>た<ruby>人<rt>ひと</rt></ruby>とぶつかりそうになった。この<ruby>事故<rt>じこ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat mengangkut kotak kosong dengan forklift ke tempat penyimpanan di luar area kerja, forklift melewati pintu masuk gudang tanpa berhenti sejenak, sehingga hampir menabrak orang yang datang dari samping. Apakah penyebab kecelakaan ini?
+  EXPLANATION: Sumber: 7.pdf, halaman 8, nomor 35. Bobot: 3.85 poin. Kunci jawaban: A. Visual: Ilustrasi forklift keluar pintu gudang dan hampir menabrak pekerja. Nomor asli PDF: Câu 34 (Halaman 8).
+  KOTOBA_PROMPT: [kb-otaff51-0071] フォークリフト(ふぉーくりふと) [noun] = forklift | [kb-otaff51-0479] 空箱(からばこ) [noun] = kotak kosong | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-v2-p5-124] 置き場(おきば) [word] = tempat penyimpanan / peletakan | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-otaff51-0143] 倉庫(そうこ) [noun] = gudang | [kb-1582820] 入口(いりぐち) [word] = pintu masuk | [kb-audit-0998] 一時停止しない(いちじていししない) [inflected_verb, df:一時停止する] = tidak berhenti sementara | [kb-latsol-1f809cd555] 通過した(つうかした) [word] = melewati | [kb-v2-p1-307] とき(-) [word] = ketika / saat | [kb-1180570] 横(よこ) [standalone_term] = Samping / posisi sebelah sisi | [kb-v2-p5-274] 来た(きた) [inflected, df:来る] = datang (lampau) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p5-242] ぶつかりそうに(-) [inflected, df:ぶつかる] = hampir bertabrakan | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=フォークリフトが、<ruby>倉庫<rt>そうこ</rt></ruby>の<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>一時停止<rt>いちじていし</rt></ruby>をしなかったため。
+    TRANS: Karena forklift tidak berhenti sejenak (ichiji teishi) di depan pintu masuk gudang.
+    KOTOBA: [kb-otaff51-0071] フォークリフト(ふぉーくりふと) [noun] = forklift | [kb-otaff51-0143] 倉庫(そうこ) [noun] = gudang | [kb-otaff51-0152] 入り口(いりぐち) [noun] = pintu masuk | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-otaff51-0086] 一時停止(いちじていし) [compound_technical] = berhenti sejenak | [kb-audit-0381] しなかった(しなかった) [inflected_verb, df:する] = tidak melakukan (lampau)
+  OPT B: HTML=<ruby>倉庫<rt>そうこ</rt></ruby>の<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>が<ruby>狭<rt>せま</rt></ruby>かったため。
+    TRANS: Karena pintu masuk gudang sempit.
+    KOTOBA: [kb-otaff51-0143] 倉庫(そうこ) [noun] = gudang | [kb-otaff51-0152] 入り口(いりぐち) [noun] = pintu masuk | [kb-v2-p5-215] 狭かった(せまかった) [inflected, df:狭い] = sempit (lampau)
+  OPT C: HTML=<ruby>歩<rt>ある</rt></ruby>いている<ruby>人<rt>ひと</rt></ruby>は<ruby>帽子<rt>ぼうし</rt></ruby>をかぶっているので、フォークリフトが<ruby>見<rt>み</rt></ruby>えなかったため。
+    TRANS: Karena orang yang berjalan memakai topi sehingga tidak bisa melihat forklift.
+    KOTOBA: [kb-v2-p5-239] 歩いて(あるいて) [inflected, df:歩く] = berjalan | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0290] 帽子(ぼうし) [noun] = topi kerja | [kb-otaff51-0071] フォークリフト(ふぉーくりふと) [noun] = forklift | [kb-v2-p5-276] 見えなかった(みえなかった) [inflected, df:見える] = tidak terlihat
+
+=== #Q36 | ID=nguyen07-q036 | KEY=A (idx=0) | CAT= | SRC=7.pdf p.8 ===
+  FLAGS: [JP_NACLO_DIGIT@prompt] Suspicious NaClO OCR spelling
+  CLUSTER CL-0032 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q035 (ssw-pm-kunci-ujian-1), kunci-ujian-13-q032 (ssw-pm-kunci-ujian-13), bonus-soal-1-q035 (bonus-soal-1), bonus-soal-7-q036 (bonus-soal-7), bonus-soal-8-q034 (bonus-soal-8), bonus-soal-10-q032 (bonus-soal-10), nguyen01-q035 (latsol-nguyen-01), nguyen08-q034 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: 7.pdf, halaman 8, nomor 36. Bobot: 3.85 poin. Kunci jawaban: A. Perhitungan: 1000 ml × (0,04% / 10%) = 4 ml larutan induk + 996 ml air = 1000 ml. Nomor asli PDF: Câu 35 (Halaman 8).), hasil yang tepat adalah Opsi A ("溶液4ml、水996ml").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>濃度<rt>のうど</rt></ruby>10%の<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム（NaClO）<ruby>溶液<rt>ようえき</rt></ruby>があります。400ppmの<ruby>次亜塩素酸<rt>じあえんそさん</rt></ruby>ナトリウム（NaClO）<ruby>溶液<rt>ようえき</rt></ruby>を1L<ruby>作<rt>つく</rt></ruby>る<ruby>時<rt>とき</rt></ruby>に、この<ruby>溶液<rt>ようえき</rt></ruby>と<ruby>水<rt>みず</rt></ruby>はそれぞれ<ruby>何<rt>なん</rt></ruby>ml<ruby>必要<rt>ひつよう</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。(400ppm=0.04%)
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Terdapat larutan natrium hipoklorit (NaClO) dengan konsentrasi 10%. Saat membuat 1 L larutan natrium hipoklorit (NaClO) 400 ppm, berapa ml larutan ini dan air yang masing-masing diperlukan? Pilihlah satu yang benar. (400 ppm = 0,04%)
+  EXPLANATION: Sumber: 7.pdf, halaman 8, nomor 36. Bobot: 3.85 poin. Kunci jawaban: A. Perhitungan: 1000 ml × (0,04% / 10%) = 4 ml larutan induk + 996 ml air = 1000 ml. Nomor asli PDF: Câu 35 (Halaman 8).
+  KOTOBA_PROMPT: [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-audit-0186] %(-) [technical] = persen (satuan persentase %) | [kb-otaff51-0355] 次亜塩素酸ナトリウム(じあえんそさんなとりうむ) [compound_technical] = natrium hipoklorit (NaClO) | [kb-v2-p1-019] NaClO(-) [abbreviation] = natrium hipoklorit | [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-otaff51-0699] ppm(ぴーぴーえむ) [abbreviation] = bagian per juta (ppm) | [kb-latsol-liter] L(りっとる) [word] = liter (satuan volume cairan) | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>996ml
+    TRANS: Larutan 4 ml, air 996 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT B: HTML=<ruby>溶液<rt>ようえき</rt></ruby>2ml、<ruby>水<rt>みず</rt></ruby>998ml
+    TRANS: Larutan 2 ml, air 998 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air
+  OPT C: HTML=<ruby>溶液<rt>ようえき</rt></ruby>4ml、<ruby>水<rt>みず</rt></ruby>1000ml
+    TRANS: Larutan 4 ml, air 1000 ml
+    KOTOBA: [kb-otaff51-0411] 溶液(ようえき) [noun] = larutan | [kb-v2-p1-021] ml(-) [abbreviation] = mililiter | [kb-otaff51-0369] 水(みず) [noun] = air

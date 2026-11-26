@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-02 (Latsol Nguyen 02) | Batch qa-batch-07 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=nguyen02-q001 | KEY=B (idx=1) | CAT= | SRC=2.pdf p.1 ===
+  CLUSTER CL-0178 (n=8, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q001 (bonus-soal-2), bonus-soal-4-q013 (bonus-soal-4), bonus-soal-7-q013 (bonus-soal-7), bonus-soal-8-q001 (bonus-soal-8), nguyen04-q013 (latsol-nguyen-04), nguyen07-q013 (latsol-nguyen-07), nguyen08-q001 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("施設、設備、器具などの衛生管理。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>は３つに<ruby>分<rt>わ</rt></ruby>けます。<ruby>作業者<rt>さぎょうしゃ</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>と<ruby>原材料<rt>げんざいりょう</rt></ruby>、<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>ともう<ruby>一<rt>ひと</rt></ruby>つ<ruby>物<rt>もの</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manajemen kebersihan umum dibagi menjadi 3. Selain manajemen kebersihan pekerja serta manajemen kebersihan bahan baku dan makanan, manakah satu hal lainnya?
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 1. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-audit-0164] 分けます(わけます) [inflected_verb, df:分ける] = membagi / memisahkan | [kb-otaff51-0125] 作業者(さぎょうしゃ) [noun] = pekerja | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0830] もう(もう) [adverb] = lagi / sudah | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-1502390] 物(もの) [standalone_term] = Barang / benda yang ditangani dalam pekerjaan | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=<ruby>環境管理<rt>かんきょうかんり</rt></ruby>。
+    TRANS: Manajemen lingkungan.
+    KOTOBA: [kb-ext-0288-e792b0e5a2] 環境管理(かんきょうかんり) [word] = manajemen sanitasi lingkungan
+  OPT B: HTML=<ruby>施設<rt>しせつ</rt></ruby>、<ruby>設備<rt>せつび</rt></ruby>、<ruby>器具<rt>きぐ</rt></ruby>などの<ruby>衛生管理<rt>えいせいかんり</rt></ruby>。
+    TRANS: Manajemen kebersihan fasilitas, peralatan, perkakas, dan sebagainya.
+    KOTOBA: [kb-otaff51-0335] 施設(しせつ) [noun] = fasilitas bangunan | [kb-otaff51-0570] 設備(せつび) [noun] = fasilitas / instalasi peralatan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene
+  OPT C: HTML=<ruby>服作業管理<rt>ふくさぎょうかんり</rt></ruby>。
+    TRANS: Manajemen pakaian kerja.
+    KOTOBA: [kb-ext-latsol-0005] 服作業管理(ふくさぎょうかんり) [word] = manajemen pakaian kerja
+
+=== #Q2 | ID=nguyen02-q002 | KEY=B (idx=1) | CAT= | SRC=2.pdf p.1 ===
+  CLUSTER CL-0036 (n=6, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q002 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q003 (ssw-pm-kunci-ujian-16), bonus-soal-2-q002 (bonus-soal-2), bonus-soal-8-q002 (bonus-soal-8), nguyen08-q002 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("ノロウイルス") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>に<ruby>存在<rt>そんざい</rt></ruby>し、<ruby>十分<rt>じゅうぶん</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>しないと<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>が<ruby>発生<rt>はっせい</rt></ruby>しやすい<ruby>原因<rt>げんいん</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah penyebab yang terdapat pada kerang berkeping dua seperti tiram dan mudah menimbulkan keracunan makanan jika tidak dipanaskan dengan cukup? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 2. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia) | [kb-v2-p2-183] 存在し(そんざいし) [inflected, df:存在する] = ada / terdapat | [kb-ext-0817-e58d81e588] 十分加熱(じゅうぶんかねつ) [word] = pemanasan menyeluruh hingga matang | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p2-180] 発生しやすい(はっせいしやすい) [inflected, df:発生する] = mudah terjadi | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>黄色<rt>おうしょく</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT B: HTML=ノロウイルス
+    TRANS: Norovirus
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus
+  OPT C: HTML=<ruby>大腸菌<rt>だいちょうきん</rt></ruby>
+    TRANS: Escherichia coli (E. coli)
+    KOTOBA: [kb-otaff51-0255] 大腸菌(だいちょうきん) [compound_technical] = bakteri E. coli
+
+=== #Q3 | ID=nguyen02-q003 | KEY=B (idx=1) | CAT= | SRC=2.pdf p.1 ===
+  CLUSTER CL-0037 (n=6, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q003 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q004 (ssw-pm-kunci-ujian-16), bonus-soal-2-q003 (bonus-soal-2), bonus-soal-8-q003 (bonus-soal-8), nguyen08-q003 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("4℃以下、乾燥、汚れがない環境") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>は<ruby>増殖<rt>ぞうしょく</rt></ruby>しにくい<ruby>環境<rt>かんきょう</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Lingkungan manakah yang membuat mikroorganisme sulit berkembang biak? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 3. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0983] 増殖しにくい(ぞうしょくしにくい) [inflected_adj, df:増殖しにくい] = sulit berkembang biak | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=30℃～40℃、<ruby>水分<rt>すいぶん</rt></ruby>があり、<ruby>汚<rt>よご</rt></ruby>れがある<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu 30°C~40°C, terdapat air/kelembapan, dan terdapat kotoran
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja
+  OPT B: HTML=4℃<ruby>以下<rt>いか</rt></ruby>、<ruby>乾燥<rt>かんそう</rt></ruby>、<ruby>汚<rt>よご</rt></ruby>れがない<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan bersuhu 4°C ke bawah, kering, dan bersih tanpa kotoran
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-otaff51-0103] 乾燥(かんそう) [noun] = pengeringan | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja
+  OPT C: HTML=<ruby>室温<rt>しつおん</rt></ruby>で、<ruby>汚<rt>よご</rt></ruby>れがある<ruby>環境<rt>かんきょう</rt></ruby>
+    TRANS: Lingkungan pada suhu ruang dan terdapat kotoran
+    KOTOBA: [kb-otaff51-0272] 室温(しつおん) [noun] = suhu ruang | [kb-v2-p1-097] 汚れ(よごれ) [word] = kotoran | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja
+
+=== #Q4 | ID=nguyen02-q004 | KEY=B (idx=1) | CAT= | SRC=2.pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p5-101 (コーヒ): "kopi (typo: コーヒー)"
+  CLUSTER CL-0167 (n=9, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q017 (bonus-soal-1), bonus-soal-2-q004 (bonus-soal-2), bonus-soal-7-q017 (bonus-soal-7), bonus-soal-8-q004 (bonus-soal-8), nguyen01-q017 (latsol-nguyen-01), nguyen07-q017 (latsol-nguyen-07), nguyen08-q004 (latsol-nguyen-08), nguyen10-q018 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("冷凍食品。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>飲料製造業<rt>いんりょうせいぞうぎょう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>を<ruby>製造<rt>せいぞう</rt></ruby>することですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Memproduksi apakah industri manufaktur minuman (inryou seizougyou) itu? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 2.pdf, halaman 3, nomor 17. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0666] 飲料製造業(いんりょうせいぞうぎょう) [compound_technical] = industri pembuatan minuman | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=コーヒ。
+    TRANS: Kopi.
+    KOTOBA: [kb-v2-p5-101] コーヒ(-) [word] = kopi (typo: コーヒー)
+  OPT B: HTML=<ruby>冷凍食品<rt>れいとうしょくひん</rt></ruby>。
+    TRANS: Makanan beku.
+    KOTOBA: [kb-otaff51-0160] 冷凍食品(れいとうしょくひん) [compound_technical] = makanan beku
+  OPT C: HTML=ジュース。
+    TRANS: Jus.
+    KOTOBA: [kb-v2-p5-100] ジュース(-) [word] = jus minuman

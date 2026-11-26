@@ -1,0 +1,86 @@
+# AUDIT SHEET: latsol-nguyen-04 (Latsol Nguyen 04) | Batch qa-batch-07 | Part 10 (Q37-40 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=nguyen04-q037 | KEY=B (idx=1) | CAT= | SRC=4.pdf p.8 ===
+  CLUSTER CL-0177 (n=8, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q038 (bonus-soal-1), bonus-soal-4-q037 (bonus-soal-4), bonus-soal-7-q039 (bonus-soal-7), bonus-soal-8-q037 (bonus-soal-8), nguyen01-q038 (latsol-nguyen-01), nguyen07-q039 (latsol-nguyen-07), nguyen08-q037 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("感電する危険を知らせる") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>下記<rt>かき</rt></ruby>の<ruby>標識<rt>ひょうしき</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, apa arti dari rambu di bawah ini? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 4.pdf, halaman 8, nomor 37. Bobot: 3.75 poin. Kunci jawaban: B. Visual: Rambu 危険 感電注意 / DANGER! ELECTRIC SHOCK!.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-1184690] 下記(かき) [word] = berikut ini | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-audit-0404] どういう(どういう) [word] = bagaimana / seperti apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=やけどをする<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる
+    TRANS: Memberitahukan bahaya terkena luka bakar
+    KOTOBA: [kb-otaff51-0028] やけど(やけど) [noun] = luka bakar | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu
+  OPT B: HTML=<ruby>感電<rt>かんでん</rt></ruby>する<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる
+    TRANS: Memberitahukan bahaya tersengat listrik
+    KOTOBA: [kb-otaff51-0306] 感電(かんでん) [noun] = tersengat listrik | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu
+  OPT C: HTML=<ruby>切断<rt>せつだん</rt></ruby>する<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる
+    TRANS: Memberitahukan bahaya terpotong
+    KOTOBA: [kb-1385120] 切断(せつだん) [word] = pemotongan | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu
+
+=== #Q38 | ID=nguyen04-q038 | KEY=C (idx=2) | CAT= | SRC=4.pdf p.9 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 標識 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [KANJI_WITHOUT_RUBY@opt:C] 標識 || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0259 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=nguyen10-q039 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("[標識C] 危険 感電注意（DANGER! ELECTRIC SHOCK!）") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>頭<rt>あたま</rt></ruby>をぶつける<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan bahaya kepala terbentur? Pilihlah satu yang salah (yang bukan rambu bahaya kepala terbentur).
+  EXPLANATION: Sumber: 4.pdf, halaman 9, nomor 38. Bobot: 3.75 poin. Kunci jawaban: C. Visual: 3 rambu keselamatan pada opsi A, B, dan C.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-otaff51-0640] 頭(あたま) [noun] = kepala | [kb-v2-p5-318] ぶつける(-) [word] = membenturkan | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] <ruby>頭上注意<rt>ずじょうちゅうい</rt></ruby>（WATCH YOUR HEAD）
+    TRANS: Rambu "Awas Kepala Terbentur / Watch Your Head".
+    MEDIA: media-nguyen04-q038-option-a
+    KOTOBA: [kb-otaff51-0641] 頭上注意(ずじょうちゅうい) [compound_technical] = awas bahaya di atas kepala
+  OPT B: HTML=[標識B] <ruby>頭上注意<rt>ずじょうちゅうい</rt></ruby>
+    TRANS: Rambu "Awas Atas / Kepala Terbentur".
+    MEDIA: media-nguyen04-q038-option-b
+    KOTOBA: [kb-otaff51-0641] 頭上注意(ずじょうちゅうい) [compound_technical] = awas bahaya di atas kepala
+  OPT C: HTML=[標識C] <ruby>危険<rt>きけん</rt></ruby> <ruby>感電注意<rt>かんでんちゅうい</rt></ruby>（DANGER! ELECTRIC SHOCK!）
+    TRANS: Rambu "Bahaya Sengatan Listrik / Danger! Electric Shock!".
+    MEDIA: media-nguyen04-q038-option-c
+    KOTOBA: [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-otaff51-0307] 感電注意(かんでんちゅうい) [compound_technical] = awas bahaya sengatan listrik
+
+=== #Q39 | ID=nguyen04-q039 | KEY=B (idx=1) | CAT= | SRC=4.pdf p.10 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 標識 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [KANJI_WITHOUT_RUBY@opt:C] 標識
+  CLUSTER CL-0260 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=nguyen10-q040 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("[標識B] 高温注意（HOT SURFACE）") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>消火器<rt>しょうかき</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan lokasi alat pemadam api ringan (APAR)? Pilihlah satu yang salah (yang bukan rambu lokasi APAR).
+  EXPLANATION: Sumber: 4.pdf, halaman 10, nomor 39. Bobot: 3.75 poin. Kunci jawaban: B. Visual: 3 rambu keselamatan pada opsi A, B, dan C.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-otaff51-0392] 消火器(しょうかき) [compound_technical] = alat pemadam api ringan (APAR) | [kb-1355850] 場所(ばしょ) [word] = tempat / lokasi | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] <ruby>消火器<rt>しょうかき</rt></ruby>（FIRE EXTINGUISHER）
+    TRANS: Rambu "Alat Pemadam Api / Fire Extinguisher".
+    MEDIA: media-nguyen04-q039-option-a
+    KOTOBA: [kb-otaff51-0392] 消火器(しょうかき) [compound_technical] = alat pemadam api ringan (APAR)
+  OPT B: HTML=[標識B] <ruby>高温注意<rt>こうおんちゅうい</rt></ruby>（HOT SURFACE）
+    TRANS: Rambu "Awas Suhu Tinggi / Hot Surface".
+    MEDIA: media-nguyen04-q039-option-b
+    KOTOBA: [kb-otaff51-0677] 高温注意(こうおんちゅうい) [compound_technical] = awas permukaan bersuhu tinggi
+  OPT C: HTML=[標識C] <ruby>消火器<rt>しょうかき</rt></ruby>
+    TRANS: Rambu "Alat Pemadam Api".
+    MEDIA: media-nguyen04-q039-option-c
+    KOTOBA: [kb-otaff51-0392] 消火器(しょうかき) [compound_technical] = alat pemadam api ringan (APAR)
+
+=== #Q40 | ID=nguyen04-q040 | KEY=A (idx=0) | CAT= | SRC=4.pdf p.10 ===
+  CLUSTER CL-0106 (n=4, diffPrompt=false, diffOpt=true, diffTrans=false): twins=kunci-ujian-4-q040 (ssw-pm-kunci-ujian-4), bonus-soal-4-q040 (bonus-soal-4), nguyen10-q041 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan perhitungan proporsi/pengenceran. Berdasarkan verifikasi matematis (Sumber: 4.pdf, halaman 10, nomor 40. Bobot: 3.75 poin. Kunci jawaban: A. Perhitungan: (6000 g / 300 g) × 450 g = 20 × 450 g = 9000 g = 9 kg.), hasil yang tepat adalah Opsi A ("9キログラムのうどん麺").
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 450グラムのうどん<ruby>麺<rt>めん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るためには、<ruby>小麦粉<rt>こむぎこ</rt></ruby>300グラムが<ruby>必要<rt>ひつよう</rt></ruby>です。では、<ruby>小麦粉<rt>こむぎこ</rt></ruby>6キログラムからどれだけのうどん<ruby>麺<rt>めん</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ることが<ruby>出来<rt>でき</rt></ruby>るでしょうか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk membuat 450 gram mi udon, diperlukan 300 gram tepung terigu. Lalu, berapa banyak mi udon yang dapat dibuat dari 6 kilogram tepung terigu?
+  EXPLANATION: Sumber: 4.pdf, halaman 10, nomor 40. Bobot: 3.75 poin. Kunci jawaban: A. Perhitungan: (6000 g / 300 g) × 450 g = 20 × 450 g = 9000 g = 9 kg.
+  KOTOBA_PROMPT: [kb-v2-p5-179] グラム(-) [word] = gram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-v2-p5-138] 麺(めん) [word] = mi | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p5-180] キログラム(-) [word] = kilogram (satuan berat) | [kb-v2-p2-255] どれだけ(-) [word] = seberapa banyak | [kb-v2-p5-405] 出来る(できる) [word] = dapat / bisa
+  OPT A: HTML=9キログラムのうどん<ruby>麺<rt>めん</rt></ruby>
+    TRANS: 9 kilogram mi udon
+    KOTOBA: [kb-v2-p5-180] キログラム(-) [word] = kilogram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-v2-p5-138] 麺(めん) [word] = mi
+  OPT B: HTML=450グラムのうどん<ruby>麺<rt>めん</rt></ruby>
+    TRANS: 450 gram mi udon
+    KOTOBA: [kb-v2-p5-179] グラム(-) [word] = gram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-v2-p5-138] 麺(めん) [word] = mi
+  OPT C: HTML=300キログラムのうどん<ruby>麺<rt>めん</rt></ruby>
+    TRANS: 300 kilogram mi udon
+    KOTOBA: [kb-v2-p5-180] キログラム(-) [word] = kilogram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-v2-p5-138] 麺(めん) [word] = mi

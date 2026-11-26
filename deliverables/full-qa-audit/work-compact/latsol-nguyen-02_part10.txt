@@ -1,0 +1,87 @@
+# AUDIT SHEET: latsol-nguyen-02 (Latsol Nguyen 02) | Batch qa-batch-07 | Part 10 (Q37-40 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=nguyen02-q037 | KEY=A (idx=0) | CAT= | SRC=2.pdf p.1 ===
+  CLUSTER CL-0187 (n=2, diffPrompt=true, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q037 (bonus-soal-2)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("清掃するときにベルトコンベアを止めなかったため。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ベルトコンベアを<ruby>止<rt>と</rt></ruby>めない<ruby>清掃<rt>せいそう</rt></ruby>をおこなっていたところ、ぞうきんが<ruby>引<rt>ひ</rt></ruby>っか<ruby>掛<rt>か</rt></ruby>かって<ruby>手<rt>て</rt></ruby>が<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれそうになった。この<ruby>事故<rt>じこ</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>は<ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Saat melakukan pembersihan tanpa menghentikan belt conveyor, kain lap tersangkut dan tangan pekerja hampir terlilit masuk ke dalam mesin. Apakah penyebab kecelakaan ini? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 37. Bobot: 3.75 poin. Kunci jawaban: A. Visual: Ilustrasi kain lap pekerja tertarik ke rol konveyor hijau yang sedang berputar.
+  KOTOBA_PROMPT: [kb-v2-p1-010] ベルトコンベア(-) [technical] = konveyor sabuk | [kb-v2-p5-266] 止めない(とめない) [inflected, df:止める] = tidak menghentikan | [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-v2-p5-356] おこなっていた(-) [inflected, df:おこなう] = sedang melakukan (lampau) | [kb-v2-p1-054] ぞうきん(-) [word] = kain lap | [kb-audit-0174] 引っか掛かって(ひっかかかって) [inflected_verb, df:引っ掛かる] = tersangkut / terkait (penulisan 引っ掛かって) | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-audit-0173] 巻き込まれそうになった(まきこまれそうになった) [word] = hampir terlilit / terjepit mesin | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>清掃<rt>せいそう</rt></ruby>するときにベルトコンベアを<ruby>止<rt>と</rt></ruby>めなかったため。
+    TRANS: Karena tidak menghentikan belt conveyor saat melakukan pembersihan.
+    KOTOBA: [kb-otaff51-0399] 清掃(せいそう) [noun] = Seisou (Resik: membersihkan peralatan dan area kerja) | [kb-v2-p1-302] するときに(-) [expression] = ketika melakukan | [kb-v2-p1-010] ベルトコンベア(-) [technical] = konveyor sabuk | [kb-v2-p5-364] 止めなかった(とめなかった) [inflected, df:止める] = tidak menghentikan
+  OPT B: HTML=ぞうきんを<ruby>使<rt>つか</rt></ruby>って<ruby>清掃<rt>せいそう</rt></ruby>したため。
+    TRANS: Karena melakukan pembersihan menggunakan kain lap.
+    KOTOBA: [kb-v2-p1-054] ぞうきん(-) [word] = kain lap | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-audit-1019] 清掃した(せいそうした) [inflected_verb, df:清掃する] = telah membersihkan
+  OPT C: HTML=<ruby>停止<rt>ていし</rt></ruby>ボタンを<ruby>押<rt>お</rt></ruby>したため。
+    TRANS: Karena menekan tombol berhenti.
+    KOTOBA: [kb-latsol-7f40a1060d] 停止ボタン(ていしぼたん) [word] = tombol berhenti (stop button) | [kb-v2-p5-409] 押した(おした) [inflected, df:押す] = menekan (lampau)
+
+=== #Q38 | ID=nguyen02-q038 | KEY=B (idx=1) | CAT= | SRC=2.pdf p.1 ===
+  FLAGS: [OPT_PROHIBITION_MISMATCH@optTranslation:A] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh || [OPT_PROHIBITION_MISMATCH@optTranslation:B] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh || [OPT_PROHIBITION_MISMATCH@optTranslation:C] JP has てはいけない/禁止, ID lacks dilarang/tidak boleh
+  CLUSTER CL-0188 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q038 (bonus-soal-2), bonus-soal-9-q039 (bonus-soal-9), nguyen09-q039 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("扉をあけっ放しにすることを禁止する。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、<ruby>下記<rt>かき</rt></ruby>の<ruby>標識<rt>ひょうしき</rt></ruby>はどういう<ruby>意味<rt>いみ</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, apakah arti dari rambu di bawah ini? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 38. Bobot: 3.75 poin. Kunci jawaban: B. Visual: Rambu 開放厳禁 / OPENING STRICTLY PROHIBITED.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-1184690] 下記(かき) [word] = berikut ini | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-audit-0404] どういう(どういう) [word] = bagaimana / seperti apa | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>手<rt>て</rt></ruby>で<ruby>触<rt>ふ</rt></ruby>れることを<ruby>禁止<rt>きんし</rt></ruby>す。
+    TRANS: Melarang menyentuh dengan tangan.
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p3-266] 触れる(ふれる) [word] = bersentuhan dengan | [kb-audit-0453] 禁止す(きんしす) [word] = dilarang (penulisan typo: 禁止する)
+  OPT B: HTML=<ruby>扉<rt>とびら</rt></ruby>をあけっ<ruby>放<rt>ぱな</rt></ruby>しにすることを<ruby>禁止<rt>きんし</rt></ruby>する。
+    TRANS: Melarang membiarkan pintu terbuka terus.
+    KOTOBA: [kb-otaff51-0308] 扉(とびら) [noun] = pintu | [kb-v2-p5-268] あけっ放し(あけっぱなし) [word] = dibiarkan terbuka | [kb-audit-0216] することを(することを) [word] = melakukan hal tersebut | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang
+  OPT C: HTML=<ruby>入<rt>はい</rt></ruby>ることを<ruby>禁止<rt>きんし</rt></ruby>する。
+    TRANS: Melarang masuk.
+    KOTOBA: [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-pilot51-099] 禁止する(きんしする) [verb] = melarang
+
+=== #Q39 | ID=nguyen02-q039 | KEY=B (idx=1) | CAT= | SRC=2.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 標識 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [KANJI_WITHOUT_RUBY@opt:C] 標識 || [TRANSLATION_CONTAINS_JP@optTranslation:C] Untranslated JP: はさまれ注意
+  CLUSTER CL-0255 (n=3, diffPrompt=false, diffOpt=false, diffTrans=false): twins=nguyen08-q038 (latsol-nguyen-08), nguyen09-q040 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("[標識B] 危険 手をふれるな（DANGER! DO NOT TOUCH）") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、はさまれる<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan bahaya terjepit? Pilihlah satu yang salah (yang bukan rambu bahaya terjepit).
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 39. Bobot: 3.75 poin. Kunci jawaban: B. Visual: 3 rambu keselamatan pada opsi A, B, dan C.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-otaff51-0773] はさまれる(はさまれる) [verb] = terjepit | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] はさまれ<ruby>注意<rt>ちゅうい</rt></ruby>（WATCH YOUR HANDS）
+    TRANS: Rambu peringatan "Awas Terjepit / Watch Your Hands".
+    MEDIA: media-nguyen02-q039-option-a
+    KOTOBA: [kb-latsol-c9ad9cd496] はさまれ注意(はさまれちゅうい) [word] = awas terjepit mesin | [kb-v2-p6-170] HA(-) [technical] = Analisis Bahaya (Hazard Analysis)
+  OPT B: HTML=[標識B] <ruby>危険<rt>きけん</rt></ruby> <ruby>手<rt>て</rt></ruby>をふれるな（DANGER! DO NOT TOUCH）
+    TRANS: Rambu "Bahaya: Jangan Sentuh / Danger! Do Not Touch".
+    MEDIA: media-nguyen02-q039-option-b
+    KOTOBA: [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-latsol-ccc4c32239] 手をふれるな(てをふれるな) [word] = jangan menyentuh dengan tangan
+  OPT C: HTML=[標識C] はさまれ<ruby>注意<rt>ちゅうい</rt></ruby>
+    TRANS: Rambu peringatan "Awas Terjepit" (はさまれ注意).
+    MEDIA: media-nguyen02-q039-option-c
+    KOTOBA: [kb-latsol-c9ad9cd496] はさまれ注意(はさまれちゅうい) [word] = awas terjepit mesin
+
+=== #Q40 | ID=nguyen02-q040 | KEY=C (idx=2) | CAT= | SRC=2.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@opt:A] 標識 || [TRANSLATION_CONTAINS_JP@optTranslation:A] Untranslated JP: やけど注意 || [KANJI_WITHOUT_RUBY@opt:B] 標識 || [TRANSLATION_CONTAINS_JP@optTranslation:B] Untranslated JP: 火傷注意 || [KANJI_WITHOUT_RUBY@opt:C] 標識 || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text
+  CLUSTER CL-0256 (n=2, diffPrompt=false, diffOpt=false, diffTrans=false): twins=nguyen08-q039 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("[標識C] 危険 手をふれるな（DANGER! DO NOT TOUCH）") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>安全標識<rt>あんぜんひょうしき</rt></ruby>について、やけどをする<ruby>危険<rt>きけん</rt></ruby>を<ruby>知<rt>し</rt></ruby>らせる<ruby>標識<rt>ひょうしき</rt></ruby>はどれですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai rambu keselamatan, manakah rambu yang memberitahukan bahaya luka bakar (yakedo)? Pilihlah satu yang salah (yang bukan rambu bahaya luka bakar).
+  EXPLANATION: Sumber: 2.pdf, halaman 1, nomor 40. Bobot: 3.75 poin. Kunci jawaban: C. Visual: 3 rambu keselamatan pada opsi A, B, dan C.
+  KOTOBA_PROMPT: [kb-otaff51-0265] 安全標識(あんぜんひょうしき) [compound_technical] = rambu keselamatan kerja | [kb-otaff51-0028] やけど(やけど) [noun] = luka bakar | [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-1488700] 標識(ひょうしき) [word] = rambu / tanda peringatan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=[標識A] やけど<ruby>注意<rt>ちゅうい</rt></ruby>
+    TRANS: Rambu peringatan "Awas Luka Bakar" (やけど注意).
+    MEDIA: media-nguyen02-q040-option-a
+    KOTOBA: [kb-latsol-8d9ace60a2] やけど注意(やけどちゅうい) [word] = perhatian / kewaspadaan
+  OPT B: HTML=[標識B] <ruby>火傷注意<rt>やけどちゅうい</rt></ruby>
+    TRANS: Rambu peringatan "Awas Luka Bakar" (火傷注意).
+    MEDIA: media-nguyen02-q040-option-b
+    KOTOBA: [kb-ext-latsol-0006] 火傷注意(やけどちゅうい) [word] = perhatian bahaya luka bakar
+  OPT C: HTML=[標識C] <ruby>危険<rt>きけん</rt></ruby> <ruby>手<rt>て</rt></ruby>をふれるな（DANGER! DO NOT TOUCH）
+    TRANS: Rambu "Bahaya: Jangan Sentuh / Danger! Do Not Touch".
+    MEDIA: media-nguyen02-q040-option-c
+    KOTOBA: [kb-otaff51-0214] 危険(きけん) [adjective] = bahaya / berbahaya | [kb-latsol-ccc4c32239] 手をふれるな(てをふれるな) [word] = jangan menyentuh dengan tangan

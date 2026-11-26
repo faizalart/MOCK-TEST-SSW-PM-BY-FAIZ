@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-01 (Latsol Nguyen 01) | Batch qa-batch-07 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=nguyen01-q025 | KEY=B (idx=1) | CAT= | SRC=1-1.pdf p.4 ===
+  CLUSTER CL-0024 (n=8, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q025 (ssw-pm-kunci-ujian-1), kunci-ujian-13-q006 (ssw-pm-kunci-ujian-13), bonus-soal-1-q025 (bonus-soal-1), bonus-soal-8-q024 (bonus-soal-8), bonus-soal-10-q012 (bonus-soal-10), nguyen08-q024 (latsol-nguyen-08), nguyen10-q026 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("施設基準の設定") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第3章 HACCPに沿った衛生管理 / Codex Alimentarius, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPの「7つ<ruby>原則<rt>げんそく</rt></ruby>」には、どんな<ruby>項目<rt>こうもく</rt></ruby>がありますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Item apa saja yang terdapat dalam "7 Prinsip" HACCP? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 4, nomor 25. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-1283000] 項目(こうもく) [word] = item / poin | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>検証方法<rt>けんしょうほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode verifikasi
+    KOTOBA: [kb-otaff51-0351] 検証方法(けんしょうほうほう) [compound_technical] = metode verifikasi | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT B: HTML=<ruby>施設基準<rt>しせつきじゅん</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan standar fasilitas
+    KOTOBA: [kb-ext-0709-e696bde8a8] 施設基準(しせつきじゅん) [compound_technical] = standar fasilitas | [kb-1386060] 設定(せってい) [word] = penetapan
+  OPT C: HTML=モニタリング<ruby>方法<rt>ほうほう</rt></ruby>の<ruby>設定<rt>せってい</rt></ruby>
+    TRANS: Penetapan metode pemantauan (monitoring)
+    KOTOBA: [kb-v2-p1-005] モニタリング方法(もにたりんぐほうほう) [compound_technical] = metode pemantauan | [kb-1386060] 設定(せってい) [word] = penetapan
+
+=== #Q26 | ID=nguyen01-q026 | KEY=C (idx=2) | CAT= | SRC=1-1.pdf p.4 ===
+  CLUSTER CL-0170 (n=8, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q026 (bonus-soal-1), bonus-soal-8-q025 (bonus-soal-8), bonus-soal-9-q005 (bonus-soal-9), nguyen03-q005 (latsol-nguyen-03), nguyen08-q025 (latsol-nguyen-08), nguyen09-q005 (latsol-nguyen-09), nguyen10-q027 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("虫、髪の毛") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>遺物<rt>いぶつ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びない。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang benar yang termasuk benda asing (ibutsu).
+  EXPLANATION: Sumber: 1-1.pdf, halaman 4, nomor 26. Bobot: 3.75 poin. Kunci jawaban: C. Catatan QA: Cetakan asli menulis kanji 遺物 dengan furigana いぶつ (maksudnya 異物).
+  KOTOBA_PROMPT: [kb-1159610] 遺物(いぶつ) [word] = benda asing (varian penulisan) | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-v2-p5-207] 選びない(えらびない) [inflected, df:選ぶ] = pilihlah
+  OPT A: HTML=ヒスタミン
+    TRANS: Histamin
+    KOTOBA: [kb-otaff51-0065] ヒスタミン(ひすたみん) [noun] = histamin
+  OPT B: HTML=<ruby>芽胞<rt>がほう</rt></ruby>
+    TRANS: Spora bakteri (gahou)
+    KOTOBA: [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas)
+  OPT C: HTML=<ruby>虫<rt>むし</rt></ruby>、<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>
+    TRANS: Serangga, helai rambut
+    KOTOBA: [kb-v2-p4-111] 虫(むし) [word] = serangga / hama | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut
+
+=== #Q27 | ID=nguyen01-q027 | KEY=A (idx=0) | CAT= | SRC=1-1.pdf p.4 ===
+  CLUSTER CL-0150 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-13-q025 (ssw-pm-kunci-ujian-13), bonus-soal-1-q027 (bonus-soal-1), bonus-soal-5-q025 (bonus-soal-5), bonus-soal-6-q031 (bonus-soal-6), bonus-soal-8-q026 (bonus-soal-8), nguyen05-q025 (latsol-nguyen-05), nguyen06-q031 (latsol-nguyen-06), nguyen08-q026 (latsol-nguyen-08)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("転倒") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>起<rt>お</rt></ruby>きる<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>が<ruby>一番多<rt>いちばんおお</rt></ruby>いのはなんですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Kecelakaan kerja apakah yang paling banyak terjadi di pabrik pengolahan makanan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 4, nomor 27. Bobot: 3.75 poin. Kunci jawaban: A. Catatan QA: Kunci sistem pada PDF menandai A (転倒).
+  KOTOBA_PROMPT: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-v2-p5-240] 起きる(おきる) [word] = terjadi | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-audit-0061] 一番多い(いちばんおおい) [word] = paling banyak / terbanyak | [kb-v2-p5-077] なんですか(-) [expression] = apakah ...? | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>転倒<rt>てんとう</rt></ruby>
+    TRANS: Terjatuh / terpeleset (tentou)
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama
+  OPT B: HTML=はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ
+    TRANS: Terjepit, terlilit mesin
+    KOTOBA: [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin
+  OPT C: HTML=<ruby>切<rt>き</rt></ruby>れ、こすれ
+    TRANS: Tersayat, tergores
+    KOTOBA: [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek
+
+=== #Q28 | ID=nguyen01-q028 | KEY=B (idx=1) | CAT= | SRC=1-1.pdf p.5 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに"
+  CLUSTER CL-0171 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-1-q028 (bonus-soal-1), bonus-soal-5-q026 (bonus-soal-5), nguyen05-q026 (latsol-nguyen-05)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("頭傷防止。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第4章 労働安全衛生 / 厚生労働省・JIS Z 9101, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>保護具<rt>ほごぐ</rt></ruby>について「ヘルメット」は<ruby>何<rt>なに</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぎますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai alat pelindung diri (APD), apakah yang dicegah oleh "helm"? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 1-1.pdf, halaman 5, nomor 28. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-ext-1615-e4bf9de8ad] 保護具(ほごぐ) [compound_technical] = alat pelindung diri (APD) | [kb-otaff51-0076] ヘルメット(へるめっと) [noun] = helm keselamatan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p5-288] 防ぎます(ふせぎます) [inflected, df:防ぐ] = mencegah (sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>眼<rt>め</rt></ruby>のケガの<ruby>防止<rt>ぼうし</rt></ruby>。
+    TRANS: Pencegahan cedera mata.
+    KOTOBA: [kb-otaff51-0465] 眼(め) [noun] = mata | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan
+  OPT B: HTML=<ruby>頭傷防止<rt>とうしょうぼうし</rt></ruby>。
+    TRANS: Pencegahan cedera kepala.
+    KOTOBA: [kb-otaff51-0642] 頭傷防止(とうしょうぼうし) [compound_technical] = pencegahan cedera kepala
+  OPT C: HTML=やけど<ruby>防止<rt>ぼうし</rt></ruby>。
+    TRANS: Pencegahan luka bakar.
+    KOTOBA: [kb-otaff51-0028] やけど(やけど) [noun] = luka bakar | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan

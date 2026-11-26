@@ -1,0 +1,75 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-14 (Soal Ujian 14) | Batch qa-batch-03 | Part 11 (Q41-44 of 59)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q41 | ID=kunci-ujian-14-q041 | KEY=C (idx=2) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 14.pdf p.10 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギー<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>交差汚染防止<rt>こうさおせんぼうし</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang benar mengenai pencegahan kontaminasi silang makanan pemicu alergi.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 10, nomor 参考問題⑦ (Q41). Bobot: 2.54 poin. Kunci jawaban: C. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 50), bahan baku maupun peralatan khusus alergen harus dipisahkan tempat penyimpanannya (区分して保管する).
+  INLINE_KOTOBA_COUNT: 25
+  KOTOBA_PROMPT: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-u1416-9c797916be] 交差汚染防止(こうさおせんぼうし) [word] = pencegahan kontaminasi silang | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>使用<rt>しよう</rt></ruby>する<ruby>器具<rt>きぐ</rt></ruby>は、アレルギーを<ruby>含<rt>ふく</rt></ruby>むものと<ruby>含<rt>ふく</rt></ruby>まないものでマークをつけて<ruby>区別<rt>くべつ</rt></ruby>し、<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Peralatan yang digunakan diberi tanda untuk membedakan antara yang mengandung alergen dan yang tidak, lalu disimpan bersama-sama.
+    KOTOBA: [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-v2-p2-018] アレルギー(-) [technical] = alergi | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-v2-p5-094] マーク(-) [word] = tanda / simbol | [kb-v2-p1-204] つけて(-) [inflected_verb, df:つける] = memasang (dasar: つける) | [kb-audit-0955] 区別し(くべつし) [inflected_verb, df:区別する] = membedakan (区別する) | [kb-1163400] 一緒(いっしょ) [word] = Bersama-sama / serentak | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT B: HTML=<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>は<ruby>蓋<rt>ふた</rt></ruby>をしていれば、<ruby>他<rt>ほか</rt></ruby>の<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>重<rt>かさ</rt></ruby>ねて<ruby>置<rt>お</rt></ruby>いても<ruby>良<rt>よ</rt></ruby>い。
+    TRANS: Bahan baku spesifik (alergen) boleh ditumpuk bersama bahan baku lain asalkan ditutup.
+    KOTOBA: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-otaff51-0537] 蓋(ふた) [noun] = tutup / penutup | [kb-audit-0742] いれば(いれば) [inflected_verb, df:いる] = jika ada / jika berada | [kb-audit-0035] 他の(ほかの) [word] = yang lain / lainnya | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p5-314] 重ねて(かさねて) [inflected, df:重ねる] = menumpuk | [kb-latsol-85da72508c] 置いて(おいて) [word] = meletakkan / menaruh | [kb-v2-p1-248] 良い(よい) [word] = baik
+  OPT C: HTML=アレルギー<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>は、<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>区分<rt>くぶん</rt></ruby>して<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Bahan baku yang mengandung alergen disimpan secara terpisah dari bahan baku yang tidak mengandung alergen.
+    KOTOBA: [kb-v2-p1-006] アレルギー食品(あれるぎーしょくひん) [compound_technical] = makanan pemicu alergi | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-audit-1043] 区分して(くぶんして) [inflected_verb, df:区分する] = memisahkan zona (~て) | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+
+=== #Q42 | ID=kunci-ujian-14-q042 | KEY=B (idx=1) | CAT=製造工程管理・温度管理・異物・アレルゲン（Kontrol Proses Produksi, Suhu, Benda Asing & Alergen） | SRC=Soal Ujian 14.pdf p.11 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物検査<rt>びせいぶつけんさ</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai pemeriksaan mikrobiologi, pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 11, nomor 参考問題⑧ (Q42). Bobot: 2.54 poin. Kunci jawaban: B. Pembahasan: Sesuai buku teks SSW Bab 3 (hlm. 46), pemeriksaan mikrobiologi mandiri menguji 一般生菌数 (angka lempeng total), 大腸菌, 大腸菌群, serta patogen lain sesuai produk, bukan hanya E. coli dan koliform saja.
+  INLINE_KOTOBA_COUNT: 20
+  KOTOBA_PROMPT: [kb-otaff51-0296] 微生物検査(びせいぶつけんさ) [compound_technical] = uji laboratorium mikrobiologi | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>自主的<rt>じしゅてき</rt></ruby>な<ruby>検査<rt>けんさ</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う<ruby>時<rt>とき</rt></ruby>は、<ruby>一般生菌数<rt>いっぱんせいきんすう</rt></ruby>、<ruby>大腸菌<rt>だいちょうきん</rt></ruby>、<ruby>大腸菌群<rt>だいちょうきんぐん</rt></ruby>を<ruby>主体<rt>しゅたい</rt></ruby>として<ruby>行<rt>おこな</rt></ruby>う。
+    TRANS: Saat melakukan pemeriksaan mandiri, pemeriksaan utamanya dilakukan terhadap jumlah bakteri hidup umum (ALT), E. coli, dan kelompok koliform.
+    KOTOBA: [kb-ext-latsol-0046] 自主的(じしゅてき) [word] = secara mandiri / inisiatif sendiri | [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-otaff51-0087] 一般生菌数(いっぱんせいきんすう) [compound_technical] = angka lempeng total bakteri hidup | [kb-otaff51-0255] 大腸菌(だいちょうきん) [compound_technical] = bakteri E. coli | [kb-otaff51-0256] 大腸菌群(だいちょうきんぐん) [compound_technical] = kelompok bakteri koliform | [kb-u1416-d6a7576b79] 主体(しゅたい) [word] = pokok / utama
+  OPT B: HTML=<ruby>自主的<rt>じしゅてき</rt></ruby>な<ruby>検査<rt>けんさ</rt></ruby>では、<ruby>大腸菌<rt>だいちょうきん</rt></ruby>と<ruby>大腸菌群<rt>だいちょうきんぐん</rt></ruby>のみを<ruby>検査<rt>けんさ</rt></ruby>する。
+    TRANS: Dalam pemeriksaan mandiri, hanya E. coli dan kelompok koliform saja yang diperiksa.
+    KOTOBA: [kb-ext-latsol-0046] 自主的(じしゅてき) [word] = secara mandiri / inisiatif sendiri | [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-otaff51-0255] 大腸菌(だいちょうきん) [compound_technical] = bakteri E. coli | [kb-otaff51-0256] 大腸菌群(だいちょうきんぐん) [compound_technical] = kelompok bakteri koliform | [kb-v2-p3-177] のみ(-) [particle] = hanya / saja
+  OPT C: HTML=<ruby>検査項目<rt>けんさこうもく</rt></ruby>と<ruby>基準<rt>きじゅん</rt></ruby>は<ruby>法律<rt>ほうりつ</rt></ruby>で<ruby>定<rt>さだ</rt></ruby>められた<ruby>場合<rt>ばあい</rt></ruby>は、それに<ruby>従<rt>したが</rt></ruby>う。
+    TRANS: Apabila item pemeriksaan dan standarnya telah ditetapkan oleh undang-undang, maka wajib mengikutinya.
+    KOTOBA: [kb-ext-0467-e6a49ce69f] 検査項目(けんさこうもく) [compound_technical] = item pemeriksaan | [kb-otaff51-0244] 基準(きじゅん) [noun] = standar / kriteria | [kb-otaff51-0380] 法律(ほうりつ) [noun] = undang-undang / hukum | [kb-v2-p6-389] 定められた(さだめられた) [inflected, df:定める] = yang telah ditetapkan | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-v2-p2-009] 従う(したがう) [word] = mematuhi / mengikuti
+
+=== #Q43 | ID=kunci-ujian-14-q043 | KEY=A (idx=0) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 14.pdf p.11 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-latsol-funijou "分以上": kotoba="ふんいじょう" vs ruby="ぷんいじょう"
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>殺<rt>ころ</rt></ruby>す<ruby>温度<rt>おんど</rt></ruby>と<ruby>時間<rt>じかん</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai suhu dan waktu untuk membunuh mikroorganisme, pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 11, nomor 参考問題⑨ (Q43). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Sesuai buku teks SSW Bab 1 & Bab 3 (hlm. 21, 41), spora bakteri (芽胞菌 seperti Clostridium botulinum / perfringens) tahan panas dan tidak mati pada pemanasan 75°C selama 1 menit (membutuhkan sterilisasi bertekanan 120°C selama 4 menit atau lebih).
+  INLINE_KOTOBA_COUNT: 17
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri) | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>芽胞菌<rt>がほうきん</rt></ruby>は、<ruby>中心温度<rt>ちゅうしんおんど</rt></ruby>75℃1<ruby>分以上<rt>ぷんいじょう</rt></ruby>で<ruby>死滅<rt>しめつ</rt></ruby>
+    TRANS: Bakteri pembentuk spora (gahoukin) mati pada suhu pusat 75°C selama 1 menit atau lebih.
+    KOTOBA: [kb-otaff51-0532] 芽胞菌(がほうきん) [compound_technical] = bakteri pembentuk spora | [kb-otaff51-0100] 中心温度(ちゅうしんおんど) [compound_technical] = suhu bagian tengah (suhu inti) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih | [kb-1646680] 死滅(しめつ) [word] = pemusnahan / mati (mikroba)
+  OPT B: HTML=ノロウイルスは、85℃～90℃ 90<ruby>秒以上<rt>びょういじょう</rt></ruby>で<ruby>死滅<rt>しめつ</rt></ruby>する。
+    TRANS: Norovirus mati pada suhu 85°C–90°C selama 90 detik atau lebih.
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih | [kb-1646680] 死滅(しめつ) [word] = pemusnahan / mati (mikroba)
+  OPT C: HTML=<ruby>一般的<rt>いっぱんてき</rt></ruby>な<ruby>食中毒菌<rt>しょくちゅうどくきん</rt></ruby>は、<ruby>中心温度<rt>ちゅうしんおんど</rt></ruby>75℃1<ruby>分以上<rt>ぷんいじょう</rt></ruby>で<ruby>死滅<rt>しめつ</rt></ruby>する。
+    TRANS: Bakteri keracunan makanan pada umumnya mati pada suhu pusat 75°C selama 1 menit atau lebih.
+    KOTOBA: [kb-1165880] 一般的(いっぱんてき) [word] = umum / lazim | [kb-otaff51-0650] 食中毒菌(しょくちゅうどくきん) [compound_technical] = bakteri penyebab keracunan makanan | [kb-otaff51-0100] 中心温度(ちゅうしんおんど) [compound_technical] = suhu bagian tengah (suhu inti) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-latsol-funijou] 分以上(ふんいじょう) [word] = menit atau lebih | [kb-1646680] 死滅(しめつ) [word] = pemusnahan / mati (mikroba)
+
+=== #Q44 | ID=kunci-ujian-14-q044 | KEY=A (idx=0) | CAT=食品安全・品質管理・微生物（Keamanan Pangan, Manajemen Mutu & Mikroorganisme） | SRC=Soal Ujian 14.pdf p.11 ===
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>微生物<rt>びせいぶつ</rt></ruby>を<ruby>増殖<rt>ぞうしょく</rt></ruby>しないようにするために<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk mencegah agar mikroorganisme tidak berkembang biak, pilihlah satu tindakan yang salah.
+  EXPLANATION: Sumber: Soal Ujian 14.pdf, halaman 11, nomor 参考問題⑩ (Q44). Bobot: 2.54 poin. Kunci jawaban: A. Pembahasan: Menyimpan makanan pada suhu ruang (常温) membuat bakteri berkembang biak dengan cepat, sedangkan penyimpanan suhu tinggi (65°C ke atas) atau rendah (10°C/4°C ke bawah) serta konsumsi segera mencegah perkembangbiakan bakteri.
+  INLINE_KOTOBA_COUNT: 11
+  KOTOBA_PROMPT: [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-audit-0982] 増殖しない(ぞうしょくしない) [inflected_verb, df:増殖する] = tidak berkembang biak | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>常温<rt>じょうおん</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Menyimpan pada suhu ruang (jouon)
+    KOTOBA: [kb-1798230] 常温(じょうおん) [word] = suhu ruang | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT B: HTML=<ruby>高温<rt>こうおん</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Menyimpan pada suhu tinggi (di atas 65°C)
+    KOTOBA: [kb-otaff51-0675] 高温(こうおん) [noun] = suhu tinggi | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT C: HTML=すぐに<ruby>食<rt>た</rt></ruby>べる
+    TRANS: Segera dimakan
+    KOTOBA: [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-pilot51-013] 食べる(たべる) [verb] = makan

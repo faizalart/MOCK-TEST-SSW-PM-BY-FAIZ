@@ -1,0 +1,84 @@
+# AUDIT SHEET: bonus-soal-5 (Bonus Soal 5) | Batch qa-batch-05 | Part 1 (Q1-4 of 36)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=bonus-soal-5-q001 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-v2-p5-189 (アレルギ): "alergi (typo: アレルギー)" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-v2-p5-102 (ピナッツ): "kacang tanah (typo: ピーナッツ)"
+  CLUSTER CL-0164 (n=9, diffPrompt=true, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q001 (bonus-soal-1), bonus-soal-2-q011 (bonus-soal-2), bonus-soal-7-q001 (bonus-soal-7), nguyen01-q001 (latsol-nguyen-01), nguyen02-q011 (latsol-nguyen-02), nguyen05-q001 (latsol-nguyen-05), nguyen07-q001 (latsol-nguyen-07), nguyen10-q012 (latsol-nguyen-10)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギ－<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>として<br><ruby>表示義務<rt>ひょうじぎむ</rt></ruby>がある8つの<ruby>食品<rt>しょくひん</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものはどれで<br>しょう。<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: アレルギ－食品の特定原材料として
+表示義務がある8つの食品で正しいものはどれで
+しょう。一つ選びなさい。
+  PROMPT_TRANS: Manakah 8 bahan pangan yang benar yang wajib dicantumkan sebagai bahan baku spesifik (alergen wajib/tertentu) pada pangan alergen? Pilihlah satu jawaban.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 1 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-v2-p5-189] アレルギ(-) [technical] = alergi (typo: アレルギー) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0546] 表示義務(ひょうじぎむ) [compound_technical] = kewajiban pencantuman label | [kb-v2-p1-242] ある(-) [word] = ada | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p5-220] でしょう(-) [particle] = kira-kira / bukan? | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=そば、たまご、ピナッツ、こむぎ、たまね<br>ぎ、えび、ぎゅうにく、くるみ
+    TRANS: Soba (buckwheat), telur, kacang tanah, gandum, bawang bombai, udang, daging sapi, kenari (walnut)
+    KOTOBA: [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-v2-p5-102] ピナッツ(-) [word] = kacang tanah (typo: ピーナッツ) | [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-v2-p5-103] たまねぎ(-) [word] = bawang bombai | [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-v2-p5-104] ぎゅうにく(-) [word] = daging sapi | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)
+  OPT B: HTML=えび、かに、<ruby>牡蠣<rt>かき</rt></ruby>、にんじん、ぎゅうにく、<br>りんご、オレンジ、そば
+    TRANS: Udang, kepiting, tiram, wortel, daging sapi, apel, jeruk, soba (buckwheat)
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p2-056] にんじん(-) [word] = wortel | [kb-v2-p5-104] ぎゅうにく(-) [word] = daging sapi | [kb-otaff51-0030] りんご(りんご) [noun] = apel | [kb-v2-p2-057] オレンジ(-) [word] = jeruk | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat)
+  OPT C: HTML=えび、かに、こむぎ、そば、たま<br>ご、<ruby>乳<rt>にゅう</rt></ruby>、<ruby>落花生<rt>らっかせい</rt></ruby>、くるみ
+    TRANS: Udang, kepiting, gandum, soba (buckwheat), telur, susu, kacang tanah, kenari (walnut)
+    KOTOBA: [kb-otaff51-0006] えび(えび) [noun] = udang | [kb-otaff51-0011] かに(かに) [noun] = kepiting | [kb-v2-p2-060] こむぎ(-) [word] = gandum | [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-061] たまご(-) [word] = telur | [kb-otaff51-0102] 乳(にゅう) [noun] = susu | [kb-otaff51-0536] 落花生(らっかせい) [noun] = kacang tanah (peanut) | [kb-otaff51-0014] くるみ(くるみ) [noun] = kacang kenari (walnut)
+
+=== #Q2 | ID=bonus-soal-5-q002 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  CLUSTER CL-0208 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-7-q002 (bonus-soal-7), nguyen05-q002 (latsol-nguyen-05), nguyen07-q002 (latsol-nguyen-07)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>に<ruby>行<rt>い</rt></ruby>く<ruby>前<rt>まえ</rt></ruby>に<ruby>体<rt>からだ</rt></ruby>の<ruby>調子<rt>ちょうし</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いときに、ど<br>うすればいいですか。<ruby>正<rt>ただ</rt></ruby>しいもの<ruby>一<rt>ひと</rt></ruby>つを<ruby>選<rt>えら</rt></ruby>びなさ<br>い。
+  QUESTION_TEXT: 作業場に行く前に体の調子が悪いときに、ど
+うすればいいですか。正しいもの一つを選びなさ
+い。
+  PROMPT_TRANS: Saat kondisi tubuh sedang kurang sehat sebelum pergi ke tempat kerja, apa yang harus dilakukan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 2 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-158] 行く(いく) [word] = pergi | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-1429170] 調子(ちょうし) [word] = kondisi tubuh | [kb-v2-p1-246] 悪い(わるい) [word] = buruk / tidak baik | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p1-273] どうすれば(-) [expression] = bagaimana sebaiknya | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>薬<rt>くすり</rt></ruby>をのむ。
+    TRANS: Meminum obat.
+    KOTOBA: [kb-v2-p2-069] 薬(くすり) [word] = obat | [kb-v2-p5-373] のむ(-) [word] = minum / menelan (obat) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>病院<rt>びょういん</rt></ruby>に<ruby>行<rt>い</rt></ruby>く。
+    TRANS: Pergi ke rumah sakit terlebih dahulu.
+    KOTOBA: [kb-1293990] 最初(さいしょ) [word] = pertama / awal | [kb-1490220] 病院(びょういん) [word] = rumah sakit / klinik | [kb-v2-p1-158] 行く(いく) [word] = pergi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>職場<rt>しょくば</rt></ruby>の<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>報告<rt>ほうこく</rt></ruby>する。
+    TRANS: Melapor kepada penanggung jawab di tempat kerja.
+    KOTOBA: [kb-1357540] 職場(しょくば) [word] = tempat kerja | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p2-157] 報告する(ほうこくする) [word] = melaporkan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q3 | ID=bonus-soal-5-q003 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-1143 (間違がっている): "keliru (typo: 間違っている)"
+  CLUSTER CL-0209 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=nguyen05-q003 (latsol-nguyen-05)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>仕事中<rt>しごとちゅう</rt></ruby>に<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>らなければなりませ<br>ん。<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>るためにどうしたらいいです<br>か。<ruby>間違<rt>まち</rt></ruby>がっているものを<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 仕事中に作業手順を守らなければなりませ
+ん。作業手順を守るためにどうしたらいいです
+か。間違がっているものを選びなさい。
+  PROMPT_TRANS: Selama bekerja, kita harus mematuhi prosedur kerja. Apa yang harus dilakukan untuk mematuhi prosedur kerja? Pilihlah jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 3 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-1305020] 仕事中(しごとちゅう) [word] = saat sedang bekerja | [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-v2-p5-357] 守らなければ(まもらなければ) [inflected, df:守る] = harus mematuhi | [kb-audit-0370] なりません(なりません) [inflected_verb, df:なる] = menjadi / harus (dengan なければ) | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p1-274] どうしたら(-) [expression] = apa yang harus dilakukan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-audit-1143] 間違がっている(まちがっている) [inflected_verb, df:間違う] = keliru (typo: 間違っている) | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>安全<rt>あんぜん</rt></ruby>かどうかの<ruby>確認<rt>かくにん</rt></ruby>のために<ruby>指差呼称<rt>しさこしょう</rt></ruby>を<ruby>行<rt>おこな</rt></ruby><br>う。
+    TRANS: Melakukan tunjuk sebut (shisa koshou) untuk memastikan keamanan.
+    KOTOBA: [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-v2-p1-317] かどうか(-) [particle] = apakah ... atau tidak | [kb-otaff51-0471] 確認(かくにん) [noun] = pemeriksaan / konfirmasi | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0319] 指差呼称(しさこしょう) [compound_technical] = tunjuk dan sebut (shisa koshou) | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>作業手順<rt>さぎょうてじゅん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>からない<ruby>場合<rt>ばあい</rt></ruby>、<ruby>責任者<rt>せきにんしゃ</rt></ruby>に<ruby>聞<rt>き</rt></ruby>い<br>て、<ruby>確認<rt>かくにん</rt></ruby>する。
+    TRANS: Jika tidak memahami prosedur kerja, bertanya dan memastikan kepada penanggung jawab.
+    KOTOBA: [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-latsol-wakaranai] 分からない(わからない) [inflected_verb, df:分かる] = tidak tahu / tidak mengerti | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-v2-p5-319] 聞いて(きいて) [inflected, df:聞く] = bertanya / mendengar | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>何回<rt>なんかい</rt></ruby>もやって、なれた<ruby>作業<rt>さぎょう</rt></ruby>なのでマニュアル<br>に<ruby>参考<rt>さんこう</rt></ruby>しない。
+    TRANS: Tidak mengacu pada buku panduan (manual) karena sudah melakukannya berkali-kali dan sudah terbiasa dengan pekerjaan tersebut.
+    KOTOBA: [kb-1188650] 何回(なんかい) [word] = berapa kali | [kb-audit-0890] やって(やって) [inflected_verb, df:やる] = melakukan | [kb-audit-0660] なれた(なれた) [inflected_verb, df:慣れる] = sudah terbiasa | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p2-275] なので(-) [particle] = karena (kata benda) | [kb-v2-p5-091] マニュアル(-) [word] = buku panduan (manual) | [kb-audit-0661] 参考しない(さんこうしない) [inflected_verb, df:参考する] = tidak merujuk pada | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+
+=== #Q4 | ID=bonus-soal-5-q004 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 5.pdf p.1 ===
+  CLUSTER CL-0210 (n=2, diffPrompt=false, diffOpt=false, diffTrans=true): twins=nguyen05-q004 (latsol-nguyen-05)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>に<ruby>存在<rt>そんざい</rt></ruby>し、<ruby>発生<rt>はっせい</rt></ruby>しやすい<br><ruby>食中毒<rt>しょくちゅうどく</rt></ruby>はどれか、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさ<br>い。
+  QUESTION_TEXT: 牡蠣などの二枚貝に存在し、発生しやすい
+食中毒はどれか、正しいものを一つ選びなさ
+い。
+  PROMPT_TRANS: Manakah penyebab keracunan makanan yang terdapat pada kerang dua cangkang (bivalvia) seperti tiram dan mudah terjadi? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Bonus Soal 5.pdf (Soal 4 — 3,75 poin) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia) | [kb-v2-p2-183] 存在し(そんざいし) [inflected, df:存在する] = ada / terdapat | [kb-v2-p2-180] 発生しやすい(はっせいしやすい) [inflected, df:発生する] = mudah terjadi | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>黄色<rt>きいろ</rt></ruby>ブドウ<ruby>球菌<rt>きゅうきん</rt></ruby>
+    TRANS: Staphylococcus aureus
+    KOTOBA: [kb-otaff51-0686] 黄色ブドウ球菌(おうしょくぶどうきゅうきん) [compound_technical] = bakteri Staphylococcus aureus
+  OPT B: HTML=ノロウイルス
+    TRANS: Norovirus
+    KOTOBA: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus
+  OPT C: HTML=サルモネラ<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bakteri Salmonella
+    KOTOBA: [kb-v2-p5-087] サルモネラ菌(さるもねらきん) [compound_technical] = bakteri Salmonella

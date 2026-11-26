@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-5 (Soal Ujian 5 — CBTP Gino1) | Batch qa-batch-01 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=kunci-ujian-5-q017 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.3 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0552 (もっも): "paling (typo: もっとも)"
+  CLUSTER CL-0107 (n=2, diffPrompt=false, diffOpt=true, diffTrans=false): twins=kunci-ujian-9-q012 (ssw-pm-kunci-ujian-9)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: せいひんをほかんかんりについて、もっもよいものをひとつえらびなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu pernyataan yang paling tepat mengenai manajemen penyimpanan produk.
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 3, Câu 17 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0359] せいひん(せいひん) [word] = produk jadi (製品) | [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管) | [kb-audit-0623] かんり(かんり) [word] = pengelolaan / manajemen | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0552] もっも(もっとも) [adverb] = paling (typo: もっとも) | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=いっぱんてきにれいとうこはー15℃いか、れいぞうこは10℃いかがきじゅんとなる。
+    TRANS: Secara umum, standar suhu untuk freezer adalah -15°C atau lebih rendah, dan untuk kulkas adalah 10°C atau lebih rendah
+    KOTOBA: [kb-audit-0231] いっぱんてき(いっぱんてき) [word] = umum / secara umum (一般的) | [kb-audit-0246] れいとうこ(れいとうこ) [word] = lemari pembeku / freezer (冷凍庫) | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-audit-0249] いか(いか) [word] = di bawah / kurang dari / berikut (以下) | [kb-audit-0247] れいぞうこ(れいぞうこ) [word] = kulkas / lemari pendingin (冷蔵庫) | [kb-audit-0248] きじゅん(きじゅん) [word] = standar / patokan (基準) | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=ほかんよう<ruby>サンプル<rt>さんぷる</rt></ruby>をてきとうでちゅうしゅつしてほかんする
+    TRANS: Mengambil sampel penyimpanan secara asal-asalan lalu menyimpannya
+    KOTOBA: [kb-v2-p6-323] ほかん(-) [word] = penyimpanan (bacaan 保管) | [kb-v2-p1-305] よう(-) [particle] = agar / supaya | [kb-ext-0016-e382b5e383] サンプル(さんぷる) [word] = sampel / contoh uji | [kb-audit-1090] てきとう(てきとう) [word] = sembarangan / asal-asalan | [kb-audit-0705] ちゅうしゅつ(ちゅうしゅつ) [word] = pengambilan sampel / ekstraksi | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=せいひんのびせいぶつけんさこうもくはそれぞれのこうじょうをきまる。
+    TRANS: Item pengujian mikroorganisme pada produk ditetapkan secara bebas oleh masing-masing pabrik
+    KOTOBA: [kb-audit-0359] せいひん(せいひん) [word] = produk jadi (製品) | [kb-v2-p6-561] びせいぶつ(-) [technical] = mikroorganisme | [kb-audit-0419] けんさこうもく(けんさこうもく) [word] = item pemeriksaan (検査項目) | [kb-v2-p1-276] それぞれ(-) [word] = masing-masing | [kb-audit-0795] こうじょう(こうじょう) [word] = pabrik | [kb-v2-p6-305] きまる(-) [word] = ditentukan (bacaan 決まる) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q18 | ID=kunci-ujian-5-q018 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.3 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 選
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうじょうにはいるときに、ねんちゃく<ruby>ローラー<rt>ろら</rt></ruby>をつかっています。なんのためにねんちゃく<ruby>ローラー<rt>ろら</rt></ruby>をつかいますか。ただしいものをひとつ選びなさ<br>い。
+  QUESTION_TEXT: さぎょうじょうにはいるときに、ねんちゃくローラーをつかっています。なんのためにねんちゃくローラーをつかいますか。ただしいものをひとつ選びなさ
+い。
+  PROMPT_TRANS: Saat memasuki area kerja, kita menggunakan rol perekat (adhesive roller). Untuk tujuan apa rol perekat tersebut digunakan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 3, Câu 18 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-audit-0235] さぎょうじょう(さぎょうじょう) [word] = area / ruang kerja pabrik (作業場) | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p6-307] ねんちゃく(-) [word] = perekat (bacaan 粘着) | [kb-ext-0034-e383ade383] ローラー(-) [word] = rol | [kb-audit-0885] つかっています(つかっています) [inflected_verb, df:使う] = sedang menggunakan | [kb-audit-0916] なん(なん) [word] = apa / berapa | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-audit-1097] つかいます(つかいます) [inflected_verb, df:使う] = menggunakan (使う) | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=ほこりをおとす
+    TRANS: Menghilangkan debu dan kotoran (rambut, dll.)
+    KOTOBA: [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-audit-0425] おとす(おとす) [word] = menjatuhkan / menghilangkan (落とす) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>マッサージ<rt>まっさじ</rt></ruby>をする
+    TRANS: Melakukan pijatan
+    KOTOBA: [kb-ext-0029-e3839ee383] マッサージ(-) [word] = pijat | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=さぎょうふくをひやす
+    TRANS: Mendinginkan pakaian kerja
+    KOTOBA: [kb-v2-p6-321] さぎょうふく(-) [word] = baju kerja (bacaan 作業服) | [kb-audit-0423] ひやす(ひやす) [word] = mendinginkan (冷やす) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q19 | ID=kunci-ujian-5-q019 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 「<ruby>一般衛生管理<rt>いっぱんえいせいかんり</rt></ruby>」と「<ruby>重要管理点<rt>じゅうようかんりてん</rt></ruby>（CCP）」を<ruby>組<rt>く</rt></ruby>み<ruby>合<rt>あ</rt></ruby>わせた<ruby>衛生管理<rt>えいせいかんり</rt></ruby>を<ruby>何<rt>なん</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Disebut apakah manajemen higiene yang menggabungkan "Manajemen Higiene Umum" dan "Titik Kendali Kritis (CCP)"?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 4, Câu 19 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0089] 一般衛生管理(いっぱんえいせいかんり) [compound_technical] = manajemen higiene umum | [kb-otaff51-0610] 重要管理点(じゅうようかんりてん) [compound_technical] = titik kendali kritis (Critical Control Point / CCP) | [kb-v2-p2-020] CCP(-) [technical] = Titik Kendali Kritis (CCP) | [kb-v2-p5-412] 合わせた(あわせた) [inflected, df:合わせる] = menyesuaikan (lampau) | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-154] 言います(いいます) [inflected, df:言う] = mengucapkan / menyebut | [kb-v2-p3-123] 組み合わせ(くみあわせ) [word] = kombinasi / pasangan | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau
+  OPT A: HTML=HACCPによる<ruby>衛生管理<rt>えいせいかんり</rt></ruby>
+    TRANS: Manajemen higiene berdasarkan HACCP
+    KOTOBA: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0542] 衛生管理(えいせいかんり) [compound_technical] = manajemen higiene
+  OPT B: HTML=<ruby>食品衛生計画<rt>しょくひんえいせいけいかく</rt></ruby>
+    TRANS: Rencana Higiene Pangan
+    KOTOBA: [kb-ext-0934-e9a39fe593] 食品衛生計画(しょくひんえいせいけいかく) [word] = rencana manajemen sanitasi pangan
+  OPT C: HTML=<ruby>衛生管理基準<rt>えいせいかんりきじゅん</rt></ruby>
+    TRANS: Standar Manajemen Higiene
+    KOTOBA: [kb-ext-0134-e8a19be794] 衛生管理基準(えいせいかんりきじゅん) [word] = standar baku manajemen sanitasi
+
+=== #Q20 | ID=kunci-ujian-5-q020 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 5.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: さぎょうふくについてただしいものはどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah pernyataan yang benar mengenai pakaian kerja?
+  EXPLANATION: Sumber: Kunci Soal Ujian 5.pdf (Halaman 4, Câu 20 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-v2-p6-321] さぎょうふく(-) [word] = baju kerja (bacaan 作業服) | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=さぎょうふくのそでは<ruby>ゴム<rt>ごむ</rt></ruby>などでしぼりのあるものをしようする。
+    TRANS: Menggunakan pakaian kerja yang bagian ujung lengannya memiliki kerutan karet (pengencang)
+    KOTOBA: [kb-v2-p6-321] さぎょうふく(-) [word] = baju kerja (bacaan 作業服) | [kb-audit-0923] そでは(そでは) [expression, df:そで] = lengan baju + は | [kb-ext-0015-e382b4e383] ゴム(ごむ) [word] = karet | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p6-310] しぼり(-) [word] = karet pengencang (bacaan 絞り) | [kb-v2-p1-242] ある(-) [word] = ada | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-audit-0659] しようする(しようする) [word] = menggunakan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=ポケットやボタンがついたものでもよい
+    TRANS: Boleh menggunakan pakaian yang memiliki saku atau kancing luar
+    KOTOBA: [kb-v2-p1-038] ポケット(-) [word] = saku / kantong | [kb-ext-0028-e3839ce382] ボタン(-) [word] = kancing / tombol | [kb-v2-p2-198] ついた(-) [inflected, df:つく] = menempel | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p2-243] よい(-) [word] = baik / boleh | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-351] も(-) [particle] = partikel juga / pun
+  OPT C: HTML=ふく<br>きれいなならなんでもよい。
+    TRANS: Boleh memakai pakaian apa saja asalkan bersih
+    KOTOBA: [kb-audit-1085] ふく(ふく) [word] = pakaian; mengelap (服／拭く) | [kb-v2-p1-259] きれいな(-) [word] = bersih | [kb-v2-p2-036] なら(-) [particle] = jika / kalau | [kb-audit-0365] なんでも(なんでも) [word] = apa saja / segala hal | [kb-v2-p2-243] よい(-) [word] = baik / boleh

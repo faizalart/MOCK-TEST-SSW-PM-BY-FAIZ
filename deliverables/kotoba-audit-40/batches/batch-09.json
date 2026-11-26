@@ -1,0 +1,112 @@
+{
+  "batchId": "batch-09",
+  "completedAt": "2026-11-15T19:26:18.914Z",
+  "packages": [
+    "ssw-pm-kunci-ujian-5",
+    "bonus-soal-9",
+    "ssw-pm-kunci-ujian-2",
+    "ssw-pm-kunci-ujian-8",
+    "ssw-pm-lab-haccp"
+  ],
+  "beforeTotalErrors": 1504,
+  "afterTotalErrors": 0,
+  "beforeByPackage": [
+    {
+      "setId": "ssw-pm-kunci-ujian-5",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 742,
+      "spanPct": 100
+    },
+    {
+      "setId": "bonus-soal-9",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 96,
+      "spanPct": 100
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-2",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 2,
+      "spanPct": 100
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-8",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 642,
+      "spanPct": 100
+    },
+    {
+      "setId": "ssw-pm-lab-haccp",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 12,
+      "errors": 22,
+      "spanPct": 100
+    }
+  ],
+  "afterByPackage": [
+    {
+      "setId": "ssw-pm-kunci-ujian-5",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": {
+        "validatorErrors": 0,
+        "spanCoveragePct": 100,
+        "unresolvedSpans": 0
+      }
+    },
+    {
+      "setId": "bonus-soal-9",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": {
+        "validatorErrors": 0,
+        "spanCoveragePct": 100,
+        "unresolvedSpans": 0
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-2",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": {
+        "validatorErrors": 0,
+        "spanCoveragePct": 100,
+        "unresolvedSpans": 0
+      }
+    },
+    {
+      "setId": "ssw-pm-kunci-ujian-8",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 40,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": null
+    },
+    {
+      "setId": "ssw-pm-lab-haccp",
+      "cohort": "cohort_1_spec009_canonical",
+      "questions": 12,
+      "errors": 0,
+      "spanPct": 100,
+      "spec009Check": {
+        "validatorErrors": 0,
+        "spanCoveragePct": 100,
+        "unresolvedSpans": 0
+      }
+    }
+  ],
+  "touchedPackageFiles": [],
+  "curatedTermsTotalInMaster": 1171,
+  "protected10Verified": true,
+  "immutabilityVerified": true
+}

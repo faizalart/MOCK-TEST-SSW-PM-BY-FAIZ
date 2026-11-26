@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-6 (Soal Ujian 6 — CBTP Gino1) | Batch qa-batch-02 | Part 5 (Q17-20 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q17 | ID=kunci-ujian-6-q017 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.3 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-2846738 "何": kotoba="なん" vs ruby="なに" || [KOTOBA_SUSPICIOUS_ARTI@kotoba:prompt] kb-audit-0217 (をするこ): "melakukan hal tersebut (typo するこ)"
+  CLUSTER CL-0016 (n=3, diffPrompt=true, diffOpt=true, diffTrans=false): twins=kunci1-q017 (ssw-pm-kunci-ujian-1), bonus-soal-10-q023 (bonus-soal-10)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: HACCPとは、<ruby>製品<rt>せいひん</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>のために、<ruby>何<rt>なに</rt></ruby>をすることですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dilakukan dalam HACCP demi keamanan produk? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 3, Câu 17 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0002] HACCP(はさっぷ) [compound_technical] = HACCP (Hazard Analysis and Critical Control Point) | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-audit-0217] をするこ(をすること) [word] = melakukan hal tersebut (typo するこ) | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>完成<rt>かんせい</rt></ruby>した<ruby>製品<rt>せいひん</rt></ruby>を<ruby>検査<rt>けんさ</rt></ruby>する
+    TRANS: Memeriksa produk yang telah selesai dibuat.
+    KOTOBA: [kb-1211490] 完成(かんせい) [word] = selesai diproduksi | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-otaff51-0349] 検査(けんさ) [noun] = pemeriksaan / pengujian | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れを<ruby>集中力<rt>しゅうちゅうりょく</rt></ruby>に<ruby>管理<rt>かんり</rt></ruby>する
+    TRANS: Mengelola penerimaan bahan baku secara terpusat.
+    KOTOBA: [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-024] 受け入れ(うけいれ) [word] = penerimaan bahan | [kb-1937890] 集中力(しゅうちゅうりょく) [word] = konsentrasi | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>危険要因<rt>きけんよういん</rt></ruby>を<ruby>明確<rt>めいかく</rt></ruby>にして<ruby>重要点<rt>じゅうようてん</rt></ruby>を<ruby>管理<rt>かんり</rt></ruby>する
+    TRANS: Memperjelas faktor bahaya dan mengelola titik kendali kritis.
+    KOTOBA: [kb-ext-0321-e58db1e999] 危険要因(きけんよういん) [compound_technical] = faktor bahaya | [kb-latsol-efb1c63b55] 明確に(めいかくに) [word] = jelas | [kb-v2-p1-308] して(-) [inflected_verb, df:する] = melakukan (dasar: する) | [kb-ext-0836-e9878de8a6] 重要点(じゅうようてん) [compound_technical] = titik penting (CCP) | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+
+=== #Q18 | ID=kunci-ujian-6-q018 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.3 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品製造工場<rt>しょくひんせいぞうこうじょう</rt></ruby>で<ruby>発生<rt>はっせい</rt></ruby>する<ruby>労働災害<rt>ろうどうさいがい</rt></ruby>の<ruby>約<rt>やく</rt></ruby>60％はどの3つの<ruby>事故<rt>じこ</rt></ruby>ですか？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sekitar 60% kecelakaan kerja yang terjadi di pabrik pengolahan pangan terdiri dari 3 jenis kecelakaan apa?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 3, Câu 18 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0655] 食品製造工場(しょくひんせいぞうこうじょう) [compound_technical] = pabrik pengolahan makanan | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-1538100] 約(やく) [standalone_term] = Sekitar / kurang lebih perkiraan angka | [kb-v2-p6-161] ％(-) [technical] = persen (%) | [kb-v2-p3-186] どの(-) [word] = yang mana | [kb-latsol-tsu] つ(つ) [word] = buah / butir (satuan hitung) | [kb-1313850] 事故(じこ) [word] = kecelakaan | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>転倒<rt>てんとう</rt></ruby>、はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ
+    TRANS: Terjatuh/terpeleset, terjepit, dan terlilit
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin
+  OPT B: HTML=<ruby>転倒<rt>てんとう</rt></ruby>、はさまれ、<ruby>巻<rt>ま</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれ、<ruby>切<rt>き</rt></ruby>れ、こすれ
+    TRANS: Terjatuh/terpeleset, terjepit, terlilit, teriris/terpotong, dan tergores
+    KOTOBA: [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama | [kb-otaff51-0025] はさまれ(はさまれ) [noun] = terjepit | [kb-otaff51-0287] 巻き込まれ(まきこまれ) [noun] = terlilit / tertarik masuk ke mesin | [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek
+  OPT C: HTML=<ruby>切<rt>き</rt></ruby>れ、こすれ、<ruby>転倒<rt>てんとう</rt></ruby>
+    TRANS: Teriris/terpotong, tergores, dan terjatuh/terpeleset
+    KOTOBA: [kb-otaff51-0180] 切れ(きれ) [noun] = teriris / terpotong | [kb-otaff51-0015] こすれ(こすれ) [noun] = tergores /ergesek | [kb-otaff51-0586] 転倒(てんとう) [noun] = terjatuh / terpeleset di permukaan yang sama
+
+=== #Q19 | ID=kunci-ujian-6-q019 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.4 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:A] kb-audit-0878 (確認んする): "memeriksa / memastikan (typo)" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-2083100 "日": kotoba="にち" vs ruby="ひ"
+  CLUSTER CL-0003 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q003 (ssw-pm-kunci-ujian-1), bonus-soal-1-q003 (bonus-soal-1), bonus-soal-7-q003 (bonus-soal-7), bonus-soal-10-q018 (bonus-soal-10), nguyen01-q003 (latsol-nguyen-01), nguyen07-q003 (latsol-nguyen-07)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>機械<rt>きかい</rt></ruby>や<ruby>器具<rt>きぐ</rt></ruby>を<ruby>洗浄<rt>せんじょう</rt></ruby>するときに、どのようにしますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Bagaimana cara yang tepat saat mencuci mesin atau peralatan? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 4, Câu 19 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-v2-p1-302] するときに(-) [expression] = ketika melakukan | [kb-v2-p1-271] どのように(-) [expression] = dengan cara bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>んする
+    TRANS: Memastikan konsentrasi cairan pembersih (deterjen)
+    KOTOBA: [kb-otaff51-0386] 洗浄剤(せんじょうざい) [compound_technical] = bahan pencuci / deterjen | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-audit-0878] 確認んする(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan (typo) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>洗浄<rt>せんじょう</rt></ruby>する<ruby>部分<rt>ぶぶん</rt></ruby>を、<ruby>日<rt>ひ</rt></ruby>によって<ruby>変<rt>か</rt></ruby>える
+    TRANS: Mengubah bagian yang dicuci tergantung harinya.
+    KOTOBA: [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1499490] 部分(ぶぶん) [word] = bagian | [kb-2083100] 日(にち) [standalone_term] = Hari / penanggalan kalender | [kb-v2-p1-316] によって(-) [particle] = tergantung pada / oleh | [kb-v2-p1-160] 変える(かえる) [word] = mengubah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>で<ruby>洗<rt>あら</rt></ruby>った<ruby>後<rt>あと</rt></ruby>、<ruby>洗<rt>あら</rt></ruby>い<ruby>流<rt>なが</rt></ruby>さずに<ruby>乾<rt>かわ</rt></ruby>かす
+    TRANS: Mengeringkannya tanpa membilas setelah dicuci dengan cairan pembersih.
+    KOTOBA: [kb-otaff51-0386] 洗浄剤(せんじょうざい) [compound_technical] = bahan pencuci / deterjen | [kb-v2-p1-161] 洗った(あらった) [inflected_verb, df:洗う] = yang dicuci (dasar: 洗う) | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-v2-p1-113] 洗い流さずに(あらいながさずに) [inflected_verb, df:洗い流す] = tanpa dibilas (dasar: 洗い流す) | [kb-v2-p1-164] 乾かす(かわかす) [word] = mengeringkan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q20 | ID=kunci-ujian-6-q020 | KEY=A (idx=0) | CAT= | SRC=Kunci Soal Ujian 6.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>して<ruby>重<rt>おも</rt></ruby>いものを<ruby>運<rt>はこ</rt></ruby>ぶと、どのようなことが<ruby>起<rt>お</rt></ruby>こる<ruby>可能性<rt>かのうせい</rt></ruby>がありますか？。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang berpotensi terjadi jika mengangkut benda berat secara berulang-ulang?
+  EXPLANATION: Sumber: Kunci Soal Ujian 6.pdf (Halaman 4, Câu 20 — 3,75 poin) · Kunci Jawaban PDF: A.
+  KOTOBA_PROMPT: [kb-latsol-b09dc99a8c] 繰り返して(くりかえして) [word] = berulang kali | [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-v2-p5-233] 運ぶ(はこぶ) [word] = mengangkut / membawa | [kb-v2-p1-270] どのような(-) [expression] = bagaimana / seperti apa | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p3-244] 起こる(おこる) [word] = terjadi | [kb-1191080] 可能性(かのうせい) [word] = kemungkinan / potensi | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT A: HTML=<ruby>腰痛<rt>ようつう</rt></ruby>になりやすくなる
+    TRANS: Menjadi mudah terkena sakit pinggang
+    KOTOBA: [kb-otaff51-0523] 腰痛(ようつう) [compound_technical] = sakit pinggang (low back pain) | [kb-otaff51-0758] なりやすく(なりやすく) [inflected_verb, df:なる] = menjadi mudah untuk ... | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT B: HTML=<ruby>肩<rt>かた</rt></ruby>こりが<ruby>解消<rt>かいしょう</rt></ruby>される
+    TRANS: Ketegangan bahu menjadi hilang
+    KOTOBA: [kb-audit-0335] 肩こり(かたこり) [word] = pegal / kaku pada bahu | [kb-1199040] 解消(かいしょう) [word] = penyelesaian / penghilangan bahaya | [kb-v2-p3-230] される(-) [inflected, df:する] = dilakukan (pasif) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT C: HTML=<ruby>体<rt>からだ</rt></ruby>が<ruby>健康<rt>けんこう</rt></ruby>になる
+    TRANS: Tubuh menjadi sehat
+    KOTOBA: [kb-v2-p1-061] 体(からだ) [word] = tubuh | [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan

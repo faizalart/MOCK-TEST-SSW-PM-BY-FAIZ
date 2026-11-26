@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-09 (Latsol Nguyen 09) | Batch qa-batch-08 | Part 6 (Q21-24 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=nguyen09-q021 | KEY=C (idx=2) | CAT= | SRC=9.pdf p.4 ===
+  CLUSTER CL-0053 (n=6, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q021 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q025 (ssw-pm-kunci-ujian-16), bonus-soal-2-q021 (bonus-soal-2), bonus-soal-9-q021 (bonus-soal-9), nguyen02-q021 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("洗浄剤を使って洗う。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>器具<rt>きぐ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>うときに<ruby>使<rt>つか</rt></ruby>うものについて、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang benar mengenai bahan yang digunakan saat mencuci peralatan.
+  EXPLANATION: Sumber: 9.pdf, halaman 4, nomor 21. Bobot: 3.75 poin. Kunci jawaban: C. Nomor asli PDF: Câu 21 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0233] 器具(きぐ) [noun] = peralatan / perkakas | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci menggunakan bahan bakterisida/disinfektan.
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci
+  OPT B: HTML=アルコールを<ruby>使<rt>つか</rt></ruby>って<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci menggunakan alkohol.
+    KOTOBA: [kb-v2-p2-001] アルコール(-) [technical] = alkohol | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci
+  OPT C: HTML=<ruby>洗浄剤<rt>せんじょうざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>洗<rt>あら</rt></ruby>う。
+    TRANS: Mencuci menggunakan bahan pembersih/deterjen (senjouzai).
+    KOTOBA: [kb-otaff51-0386] 洗浄剤(せんじょうざい) [compound_technical] = bahan pencuci / deterjen | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci
+
+=== #Q22 | ID=nguyen09-q022 | KEY=C (idx=2) | CAT= | SRC=9.pdf p.4 ===
+  FLAGS: [KOTOBA_SUSPICIOUS_ARTI@kotoba:opt:C] kb-audit-0480 (乾して): "mengeringkan (typo: 乾かして)"
+  CLUSTER CL-0054 (n=6, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q022 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q026 (ssw-pm-kunci-ujian-16), bonus-soal-2-q022 (bonus-soal-2), bonus-soal-9-q022 (bonus-soal-9), nguyen02-q022 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("調理器具を洗って乾してから消毒する。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>を<ruby>消毒<rt>しょうどく</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Sebagai metode mendisinfeksi peralatan masak menggunakan bakterisida/disinfektan, pilihlah satu yang benar.
+  EXPLANATION: Sumber: 9.pdf, halaman 4, nomor 22. Bobot: 3.75 poin. Kunci jawaban: C. Nomor asli PDF: Câu 22 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-otaff51-0576] 調理器具(ちょうりきぐ) [compound_technical] = peralatan masak | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi | [kb-otaff51-0334] 方法(ほうほう) [noun] = cara / metode | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>う<ruby>前<rt>まえ</rt></ruby>にを<ruby>消毒<rt>しょうどく</rt></ruby>する。
+    TRANS: Mendisinfeksi sebelum mencuci peralatan masak.
+    KOTOBA: [kb-otaff51-0576] 調理器具(ちょうりきぐ) [compound_technical] = peralatan masak | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi
+  OPT B: HTML=<ruby>消毒<rt>しょうどく</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>に<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>に<ruby>水<rt>みず</rt></ruby>をつける。
+    TRANS: Membasahi peralatan masak dengan air sebelum mendisinfeksi.
+    KOTOBA: [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-otaff51-0576] 調理器具(ちょうりきぐ) [compound_technical] = peralatan masak | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p1-203] つける(-) [word] = memakai / memasang
+  OPT C: HTML=<ruby>調理器具<rt>ちょうりきぐ</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>って<ruby>乾<rt>かわか</rt></ruby>してから<ruby>消毒<rt>しょうどく</rt></ruby>する。
+    TRANS: Mencuci dan mengeringkan peralatan masak terlebih dahulu, baru kemudian mendisinfeksinya.
+    KOTOBA: [kb-otaff51-0576] 調理器具(ちょうりきぐ) [compound_technical] = peralatan masak | [kb-v2-p1-162] 洗って(あらって) [inflected_verb, df:洗う] = mencuci (dasar: 洗う) | [kb-audit-0480] 乾して(ほして) [inflected_verb, df:乾す] = mengeringkan (typo: 乾かして) | [kb-v2-p2-202] 消毒する(しょうどくする) [word] = mendisinfeksi
+
+=== #Q23 | ID=nguyen09-q023 | KEY=A (idx=0) | CAT= | SRC=9.pdf p.4 ===
+  CLUSTER CL-0055 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q023 (ssw-pm-kunci-ujian-2), bonus-soal-2-q023 (bonus-soal-2), bonus-soal-9-q023 (bonus-soal-9), nguyen02-q023 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("手袋をつけていない手で食品を持つ。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌<rt>さっきん</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai cara menangani makanan yang sudah disterilisasi.
+  EXPLANATION: Sumber: 9.pdf, halaman 4, nomor 23. Bobot: 3.75 poin. Kunci jawaban: A. Nomor asli PDF: Câu 23 (Halaman 4).
+  KOTOBA_PROMPT: [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p2-108] 扱い方(あつかいかた) [word] = cara penanganan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>手袋<rt>てぶくろ</rt></ruby>をつけていない<ruby>手<rt>て</rt></ruby>で<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。
+    TRANS: Memegang makanan dengan tangan telanjang tanpa mengenakan sarung tangan.
+    KOTOBA: [kb-otaff51-0311] 手袋(てぶくろ) [noun] = sarung tangan | [kb-v2-p2-197] つけていない(-) [inflected, df:つける] = tidak memakai | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang
+  OPT B: HTML=<ruby>手袋<rt>てぶくろ</rt></ruby>をつけた<ruby>手<rt>て</rt></ruby>で<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。
+    TRANS: Memegang makanan dengan tangan yang mengenakan sarung tangan.
+    KOTOBA: [kb-otaff51-0311] 手袋(てぶくろ) [noun] = sarung tangan | [kb-audit-1162] つけた(つけた) [inflected_verb, df:付ける] = yang memakai / memasang | [kb-v2-p1-067] 手(て) [word] = tangan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang
+  OPT C: HTML=<ruby>消毒<rt>しょうどく</rt></ruby>した<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ。
+    TRANS: Memegang/mengambil makanan menggunakan peralatan yang telah didisinfeksi.
+    KOTOBA: [kb-otaff51-0389] 消毒(しょうどく) [noun] = disinfeksi | [kb-1454180] 道具(どうぐ) [word] = alat / perkakas | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-239] 持つ(もつ) [word] = memegang
+
+=== #Q24 | ID=nguyen09-q024 | KEY=A (idx=0) | CAT= | SRC=9.pdf p.4 ===
+  CLUSTER CL-0056 (n=6, diffPrompt=true, diffOpt=false, diffTrans=true): twins=kunci-ujian-2-q024 (ssw-pm-kunci-ujian-2), kunci-ujian-16-q028 (ssw-pm-kunci-ujian-16), bonus-soal-2-q024 (bonus-soal-2), bonus-soal-9-q024 (bonus-soal-9), nguyen02-q024 (latsol-nguyen-02)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("冷凍品がとけていたら、また冷凍する。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食材<rt>しょくざい</rt></ruby>の<ruby>扱<rt>あつか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang salah mengenai cara menangani bahan makanan.
+  EXPLANATION: Sumber: 9.pdf, halaman 4, nomor 24. Bobot: 3.75 poin. Kunci jawaban: A. Nomor asli PDF: Câu 24 (Halaman 4).
+  KOTOBA_PROMPT: [kb-1983500] 食材(しょくざい) [word] = bahan makanan | [kb-v2-p2-108] 扱い方(あつかいかた) [word] = cara penanganan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>冷凍品<rt>れいとうひん</rt></ruby>がとけていたら、また<ruby>冷凍<rt>れいとう</rt></ruby>する。
+    TRANS: Apabila produk beku sudah mencair, bekukan kembali.
+    KOTOBA: [kb-ext-1793-e586b7e587] 冷凍品(れいとうひん) [word] = Produk pangan beku | [kb-audit-0593] とけていたら(とけていたら) [inflected_verb, df:溶ける] = jika sudah mencair | [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing)
+  OPT B: HTML=<ruby>砂糖<rt>さとう</rt></ruby>や<ruby>塩<rt>しお</rt></ruby>は、<ruby>湿度<rt>しつど</rt></ruby>が<ruby>低<rt>ひく</rt></ruby>いところに<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan gula dan garam di tempat yang kelembapannya rendah.
+    KOTOBA: [kb-otaff51-0469] 砂糖(さとう) [noun] = gula | [kb-v2-p2-065] 塩(しお) [word] = garam | [kb-otaff51-0409] 湿度(しつど) [noun] = kelembapan udara | [kb-v2-p2-230] 低い(ひくい) [word] = rendah | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT C: HTML=<ruby>小麦粉<rt>こむぎこ</rt></ruby>やでんぷんは、<ruby>水<rt>みず</rt></ruby>にぬれないように<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan tepung terigu dan pati agar tidak terkena air.
+    KOTOBA: [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-v2-p2-064] でんぷん(-) [word] = pati / tepung kanji | [kb-otaff51-0369] 水(みず) [noun] = air | [kb-v2-p2-113] ぬれない(-) [inflected, df:ぬれる] = tidak basah | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan

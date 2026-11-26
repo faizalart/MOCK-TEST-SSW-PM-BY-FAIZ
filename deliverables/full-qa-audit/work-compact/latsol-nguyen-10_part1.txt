@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-10 (Latsol Nguyen 10) | Batch qa-batch-08 | Part 1 (Q1-4 of 41)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=nguyen10-q001 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.1 ===
+  CLUSTER CL-0190 (n=6, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q001 (bonus-soal-4), bonus-soal-9-q002 (bonus-soal-9), nguyen03-q002 (latsol-nguyen-03), nguyen04-q001 (latsol-nguyen-04), nguyen09-q002 (latsol-nguyen-09)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("会社の食品は有名になるためです。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>のためですか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk apa higiene pangan dilakukan? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 1, nomor 1. Bobot: 3.66 poin. Kunci jawaban: B. Nomor asli PDF: Câu 1 (Halaman 1).
+  KOTOBA_PROMPT: [kb-otaff51-0652] 食品衛生(しょくひんえいせい) [compound_technical] = higiene pangan / keamanan pangan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>は<ruby>病気<rt>びょうき</rt></ruby>にならないためです。
+    TRANS: Agar orang yang memakan makanan tersebut tidak jatuh sakit.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0453] 病気(びょうき) [noun] = penyakit / sakit
+  OPT B: HTML=<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>有名<rt>ゆうめい</rt></ruby>になるためです。
+    TRANS: Agar produk makanan perusahaan menjadi terkenal.
+    KOTOBA: [kb-otaff51-0115] 会社(かいしゃ) [noun] = perusahaan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1541620] 有名(ゆうめい) [word] = terkenal
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>はケガをしないためです。
+    TRANS: Agar orang yang memakan makanan tersebut tidak terluka.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka
+
+=== #Q2 | ID=nguyen10-q002 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.1 ===
+  CLUSTER CL-0092 (n=4, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q002 (ssw-pm-kunci-ujian-4), bonus-soal-4-q002 (bonus-soal-4), nguyen04-q002 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi B ("髪の毛は少しであれば出てもかまわない") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>帽子<rt>ぼうし</rt></ruby>の<ruby>正<rt>ただ</rt></ruby>しい<ruby>被<rt>かぶ</rt></ruby>り<ruby>方<rt>かた</rt></ruby>は<ruby>次<rt>つぎ</rt></ruby>のどれでしょうか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah di bawah ini cara memakai topi kerja yang benar? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 1, nomor 2. Bobot: 3.66 poin. Kunci jawaban: B. Nomor asli PDF: Câu 2 (Halaman 1).
+  KOTOBA_PROMPT: [kb-otaff51-0290] 帽子(ぼうし) [noun] = topi kerja | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-230] 被り方(かぶりかた) [word] = cara memakai (topi) | [kb-v2-p3-171] 次(つぎ) [word] = berikutnya | [kb-audit-0703] のど(のど) [word] = tenggorokan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-264] どれ(-) [word] = yang mana
+  OPT A: HTML=<ruby>被<rt>かぶ</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>には<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>をよくブラッシングする
+    TRANS: Menyisir rambut dengan baik sebelum memakai topi
+    KOTOBA: [kb-v2-p5-231] 被る(かぶる) [word] = memakai (topi) | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-otaff51-0073] ブラッシング(ぶらっしんぐ) [noun] = penyikatan rambut
+  OPT B: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>しであれば<ruby>出<rt>で</rt></ruby>てもかまわない
+    TRANS: Tidak apa-apa jika rambut keluar sedikit
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p5-219] 少し(すこし) [word] = sedikit | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-audit-0406] 出て(でて) [inflected_verb, df:出る] = keluar dari (dalam ruangan/area) | [kb-v2-p5-283] かまわない(-) [expression] = tidak masalah
+  OPT C: HTML=ネットを<ruby>内側<rt>うちがわ</rt></ruby>に<ruby>使用<rt>しよう</rt></ruby>する
+    TRANS: Menggunakan jaring rambut (hairnet) di bagian dalam
+    KOTOBA: [kb-v2-p5-148] ネット(-) [word] = jaring / net | [kb-1458770] 内側(うちがわ) [word] = bagian sisi dalam | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan
+
+=== #Q3 | ID=nguyen10-q003 | KEY=A (idx=0) | CAT= | SRC=10 (2).pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:A] kb-otaff51-0122 "作業場": kotoba="さぎょうじょう" vs ruby="さぎょうば"
+  CLUSTER CL-0191 (n=3, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q003 (bonus-soal-4), nguyen04-q003 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("髪やほこりなどを作業場に入る前に落とす") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: エアーシャワーを<ruby>使<rt>つか</rt></ruby>う<ruby>目的<rt>もくてき</rt></ruby>は<ruby>何<rt>なん</rt></ruby>でしょうか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa tujuan menggunakan air shower? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 1, nomor 3. Bobot: 3.66 poin. Kunci jawaban: A. Nomor asli PDF: Câu 3 (Halaman 1).
+  KOTOBA_PROMPT: [kb-otaff51-0040] エアーシャワー(えあーしゃわー) [compound_technical] = air shower (bilik hembusan udara bersih) | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p4-222] 目的は(もくてきは) [expression] = tujuannya adalah | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>髪<rt>かみ</rt></ruby>やほこりなどを<ruby>作業場<rt>さぎょうば</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に<ruby>落<rt>お</rt></ruby>とす
+    TRANS: Merontokkan rambut, debu, dan kotoran lainnya sebelum masuk ke ruang kerja
+    KOTOBA: [kb-v2-p5-149] 髪(かみ) [word] = rambut | [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-v2-p1-189] 入る(はいる) [word] = masuk | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-v2-p1-214] 落とす(おとす) [word] = menghilangkan / menjatuhkan
+  OPT B: HTML=<ruby>暑<rt>あつ</rt></ruby>い<ruby>時<rt>とき</rt></ruby>にすずむ
+    TRANS: Mendinginkan badan saat kepanasan
+    KOTOBA: [kb-v2-p5-216] 暑い(あつい) [word] = panas (cuaca/ruangan) | [kb-audit-0015] 時に(ときに) [word] = ketika / pada saat | [kb-v2-p5-282] すずむ(-) [word] = mendinginkan diri / mencari angin
+  OPT C: HTML=<ruby>髪<rt>かみ</rt></ruby>の<ruby>毛<rt>け</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>う
+    TRANS: Mencuci rambut
+    KOTOBA: [kb-otaff51-0679] 髪の毛(かみのけ) [noun] = helai rambut | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci
+
+=== #Q4 | ID=nguyen10-q004 | KEY=B (idx=1) | CAT= | SRC=10 (2).pdf p.1 ===
+  CLUSTER CL-0192 (n=3, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q004 (bonus-soal-4), nguyen04-q004 (latsol-nguyen-04)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("じゃがいもの芽や緑色の皮にあります。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ソラニンはどんな<ruby>環境<rt>かんきょう</rt></ruby>にありますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pada kondisi/bahan seperti apa solanin ditemukan?
+  EXPLANATION: Sumber: 10 (2).pdf, halaman 1, nomor 4. Bobot: 3.66 poin. Kunci jawaban: B. Nomor asli PDF: Câu 4 (Halaman 1).
+  KOTOBA_PROMPT: [kb-otaff51-0055] ソラニン(そらにん) [noun] = solanin (racun pada tunas/kulit hijau kentang) | [kb-1213280] 環境(かんきょう) [word] = lingkungan kerja | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある)
+  OPT A: HTML=<ruby>魚<rt>さかな</rt></ruby>、マグロ、アジ、<ruby>赤身魚<rt>あかみざかな</rt></ruby>にあります。
+    TRANS: Terdapat pada ikan, tuna, makarel (aji), dan ikan berdaging merah.
+    KOTOBA: [kb-otaff51-0680] 魚(さかな) [noun] = ikan | [kb-v2-p3-077] マグロ(-) [word] = ikan tuna | [kb-v2-p5-109] アジ(-) [word] = ikan kembung (aji) | [kb-otaff51-0582] 赤身魚(あかみざかな) [compound_technical] = ikan berdaging merah (tuna, makarel, sarden)
+  OPT B: HTML=じゃがいもの<ruby>芽<rt>め</rt></ruby>や<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>皮<rt>かわ</rt></ruby>にあります。
+    TRANS: Terdapat pada tunas kentang dan kulit kentang yang berwarna hijau.
+    KOTOBA: [kb-otaff51-0018] じゃがいも(じゃがいも) [noun] = kentang | [kb-otaff51-0530] 芽(め) [noun] = tunas | [kb-otaff51-0501] 緑色の皮(みどりいろのかわ) [noun] = kulit berwarna hijau
+  OPT C: HTML=そばや<ruby>小麦粉<rt>こむぎこ</rt></ruby>にあります。
+    TRANS: Terdapat pada soba (buckwheat) dan tepung terigu.
+    KOTOBA: [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu

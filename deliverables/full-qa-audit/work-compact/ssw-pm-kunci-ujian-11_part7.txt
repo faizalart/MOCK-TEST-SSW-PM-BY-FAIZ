@@ -1,0 +1,72 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-11 (Soal Ujian 11 — CBTP Gino1) | Batch qa-batch-03 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=kunci-ujian-11-q025 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.4 ===
+  CLUSTER CL-0061 (n=10, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q030 (ssw-pm-kunci-ujian-2), kunci-ujian-3-q004 (ssw-pm-kunci-ujian-3), bonus-soal-2-q030 (bonus-soal-2), bonus-soal-8-q029 (bonus-soal-8), bonus-soal-9-q004 (bonus-soal-9), nguyen02-q030 (latsol-nguyen-02), nguyen03-q004 (latsol-nguyen-03), nguyen08-q029 (latsol-nguyen-08), nguyen09-q004 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: セレウス<ruby>菌<rt>きん</rt></ruby>（Bacillus cereus）による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Makanan manakah yang menjadi penyebab keracunan makanan akibat bakteri Bacillus cereus?
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 4, Câu 25 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p6-167] Bacillus(-) [technical] = bakteri Bacillus | [kb-v2-p6-168] cereus(-) [technical] = spesies cereus (B. cereus) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>
+    TRANS: Kerang bivalvia seperti tiram
+    KOTOBA: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>米<rt>こめ</rt></ruby>や<ruby>小麦<rt>こむぎ</rt></ruby>などを<ruby>使<rt>つか</rt></ruby>って<ruby>調理<rt>ちょうり</rt></ruby>された<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Pangan yang diolah menggunakan beras atau gandum
+    KOTOBA: [kb-1508750] 米(こめ) [standalone_term] = Beras mentah bahan baku pangan pokok | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan | [kb-v2-p1-144] された(-) [inflected_verb, df:する] = yang dilakukan (dasar: する) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>缶詰<rt>かんづめ</rt></ruby>
+    TRANS: Makanan kaleng
+    KOTOBA: [kb-otaff51-0504] 缶詰(かんづめ) [noun] = makanan kaleng
+
+=== #Q26 | ID=kunci-ujian-11-q026 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.4 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:C] kb-otaff51-0702 "下": kotoba="した" vs ruby="もと"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う<ruby>際<rt>さい</rt></ruby>に<ruby>適切<rt>てきせつ</rt></ruby>でない<ruby>行動<rt>こうどう</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu tindakan yang tidak tepat saat menggunakan bahan sterilisasi (disinfektan).
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 4, Câu 26 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-otaff51-0598] 適切(てきせつ) [adjective] = tepat / sesuai | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-260] ない(-) [word] = tidak ada
+  OPT A: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>使用量<rt>しようりょう</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る
+    TRANS: Mematuhi takaran penggunaan bahan sterilisasi
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-1306330] 使用量(しようりょう) [word] = jumlah / takaran pemakaian | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>使用前<rt>しようぜん</rt></ruby>によく<ruby>振<rt>ふ</rt></ruby>る
+    TRANS: Mengocok dengan baik sebelum digunakan
+    KOTOBA: [kb-2735910] 使用前(しようぜん) [word] = sebelum penggunaan alat/mesin | [kb-v2-p4-138] よく(-) [word] = dengan baik / sering | [kb-v2-p6-445] 振る(ふる) [word] = mengocok / mengayun | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan
+  OPT C: HTML=<ruby>直射日光<rt>ちょくしゃにっこう</rt></ruby>の<ruby>下<rt>もと</rt></ruby>で<ruby>使用<rt>しよう</rt></ruby>する
+    TRANS: Menggunakannya di bawah sinar matahari langsung
+    KOTOBA: [kb-1894110] 直射日光(ちょくしゃにっこう) [word] = sinar matahari langsung | [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q27 | ID=kunci-ujian-11-q027 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.4 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>正<rt>ただ</rt></ruby>しい<ruby>手洗<rt>てあら</rt></ruby>いの<ruby>手順<rt>てじゅん</rt></ruby>として、<ruby>適切<rt>てきせつ</rt></ruby>でないものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu yang tidak tepat sebagai prosedur mencuci tangan yang benar.
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 4, Câu 27 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-otaff51-0312] 手順(てじゅん) [noun] = urutan prosedur / langkah | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0598] 適切(てきせつ) [adjective] = tepat / sesuai | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-260] ない(-) [word] = tidak ada | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=せっけんを<ruby>使<rt>つか</rt></ruby>う。
+    TRANS: Menggunakan sabun.
+    KOTOBA: [kb-otaff51-0706] せっけん(せっけん) [noun] = sabun cuci tangan | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>少<rt>すく</rt></ruby>なくとも20<ruby>秒間洗<rt>びょうかんあら</rt></ruby>う。
+    TRANS: Mencuci tangan setidaknya selama 20 detik.
+    KOTOBA: [kb-v2-p6-295] 少なくとも(すくなくとも) [expression] = setidaknya / paling sedikit | [kb-otaff51-0474] 秒間(びょうかん) [noun] = detik (durasi) | [kb-v2-p1-163] 洗う(あらう) [word] = mencuci
+  OPT C: HTML=<ruby>手<rt>て</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>った<ruby>後<rt>あと</rt></ruby>、<ruby>自然乾燥<rt>しぜんかんそう</rt></ruby>させる。
+    TRANS: Membiarkan tangan mengering sendiri secara alami setelah dicuci.
+    KOTOBA: [kb-audit-0407] 手を(てを) [word] = tangan (objek) | [kb-v2-p1-161] 洗った(あらった) [inflected_verb, df:洗う] = yang dicuci (dasar: 洗う) | [kb-1269320] 後(あと) [standalone_term] = Setelah menyelesaikan suatu tahapan kerja | [kb-ext-0750-e887aae784] 自然乾燥(しぜんかんそう) [word] = Pengeringan secara alami di udara bersih | [kb-audit-0458] させる(させる) [inflected_verb, df:する] = membuat jadi / menyebabkan (kausatif)
+
+=== #Q28 | ID=kunci-ujian-11-q028 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 11.pdf p.5 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使用<rt>しよう</rt></ruby>する<ruby>際<rt>さい</rt></ruby>に<ruby>適切<rt>てきせつ</rt></ruby>でない<ruby>行動<rt>こうどう</rt></ruby>を<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu tindakan yang tidak tepat saat menggunakan bahan sterilisasi (disinfektan).
+  EXPLANATION: Sumber: Kunci Soal Ujian 11.pdf (Halaman 5, Câu 28 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p2-208] 使用する(しようする) [word] = menggunakan | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-otaff51-0598] 適切(てきせつ) [adjective] = tepat / sesuai | [kb-otaff51-0541] 行動(こうどう) [noun] = tindakan / perilaku | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p2-260] ない(-) [word] = tidak ada
+  OPT A: HTML=<ruby>使用前<rt>しようぜん</rt></ruby>に<ruby>説明書<rt>せつめいしょ</rt></ruby>を<ruby>読<rt>よ</rt></ruby>む。
+    TRANS: Membaca petunjuk penggunaan sebelum memakai.
+    KOTOBA: [kb-2735910] 使用前(しようぜん) [word] = sebelum penggunaan alat/mesin | [kb-1386470] 説明書(せつめいしょ) [word] = buku petunjuk manual mesin | [kb-v2-p6-446] 読む(よむ) [word] = membaca | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=<ruby>使用時<rt>しようじ</rt></ruby>は<ruby>換気<rt>かんき</rt></ruby>を<ruby>良<rt>よ</rt></ruby>くする。
+    TRANS: Memastikan ventilasi udara yang baik saat menggunakannya.
+    KOTOBA: [kb-2396450] 使用時(しようじ) [word] = saat sedang menggunakan alat | [kb-1212780] 換気(かんき) [word] = ventilasi / sirkulasi udara | [kb-v2-p6-291] 良く(よく) [inflected, df:良い] = dengan baik | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>他<rt>た</rt></ruby>の<ruby>家庭用洗剤<rt>かていようせんざい</rt></ruby>と<ruby>混<rt>ま</rt></ruby>ぜて<ruby>使<rt>つか</rt></ruby>う。
+    TRANS: Mencampur bahan sterilisasi dengan deterjen rumah tangga lainnya saat digunakan.
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-audit-0035] 他の(ほかの) [word] = yang lain / lainnya | [kb-ext-0204-e5aeb6e5ba] 家庭用洗剤(かていようせんざい) [word] = detergen rumah tangga biasa | [kb-audit-0459] 混ぜて(まぜて) [inflected_verb, df:混ぜる] = mencampur / mengaduk | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-349] と(-) [particle] = partikel dan / dengan / kutipan

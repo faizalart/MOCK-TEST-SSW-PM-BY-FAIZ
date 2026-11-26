@@ -1,0 +1,81 @@
+# AUDIT SHEET: ssw-pm-tipe2-nguyen1 (Latsol Tipe 2 SSW PM — Đề 7 Thực Phẩm GINO1) | Batch qa-batch-04 | Part 7 (Q25-28 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q25 | ID=q025 | KEY=C (idx=2) | CAT= | SRC=SSW NGUYEN 1.pdf p.24 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 決, 作業手順, 守, 際, 注意事項, 間違, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "25" missing in ID "Pilihlah satu jawaban yang salah sebagai hal yang harus diperhatikan saat mematu" || [KANJI_WITHOUT_RUBY@opt:A] 作業, 手順, 必, 守, 共同, 作業, 連絡, 合図, 確実, 行 || [KANJI_WITHOUT_RUBY@opt:B] 作業, 入, 前, 指差呼称, 確認 || [KANJI_WITHOUT_RUBY@opt:C] 他, 人, 危険, 作業, 見, 小, 声, 注意
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 25. 決められた作業手順を守る際の注意事項として、間違っているものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah sebagai hal yang harus diperhatikan saat mematuhi prosedur kerja yang telah ditetapkan.
+  EXPLANATION: Bukti PDF (Halaman 24): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (他の人が危険な作業をしているを見たら、小さいな声をかけて注意する).
+  KOTOBA_PROMPT: [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-2823670] 作業手順(さぎょうてじゅん) [word] = prosedur kerja (SOP) | [kb-v2-p1-176] 守る(まもる) [word] = melindungi / mematuhi | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-otaff51-0382] 注意事項(ちゅういじこう) [compound_technical] = hal-hal yang harus diperhatikan | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT A: HTML=作業の手順は、必ず守り、共同でする作業は連絡や合図を確実に行う
+    TRANS: Selalu mematuhi prosedur kerja, dan untuk pekerjaan yang dilakukan bersama-sama, pastikan melakukan komunikasi dan memberi isyarat
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-otaff51-0312] 手順(てじゅん) [noun] = urutan prosedur / langkah | [kb-otaff51-0298] 必ず(かならず) [adverb] = pasti / wajib | [kb-v2-p4-186] 守り(まもり) [inflected, df:守る] = mematuhi | [kb-v2-p4-218] 共同で(きょうどうで) [expression] = secara bersama-sama | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-1559900] 連絡(れんらく) [word] = menghubungi / laporan | [kb-v2-p4-092] 合図(あいず) [word] = isyarat / aba-aba | [kb-latsol-91b4e2ec41] 確実に(かくじつに) [word] = pasti / akurat | [kb-v2-p2-025] 行う(おこなう) [word] = melakukan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=作業やスイッチを入れる前には指差呼称で確認する
+    TRANS: Memeriksa dengan tunjuk dan sebut (shisa koshou) sebelum melakukan pekerjaan atau menyalakan sakelar
+    KOTOBA: [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p4-071] スイッチ(-) [word] = sakelar / tombol daya | [kb-v2-p4-198] 入れる(いれる) [word] = memasukkan / menyalakan | [kb-1392580] 前(まえ) [standalone_term] = Sebelum melakukan tahapan kerja berikutnya | [kb-otaff51-0319] 指差呼称(しさこしょう) [compound_technical] = tunjuk dan sebut (shisa koshou) | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT C: HTML=他の人が危険な作業をしているを見たら、小さいな声をかけて注意する
+    TRANS: Jika melihat orang lain sedang melakukan pekerjaan berbahaya, menegurnya dengan suara pelan
+    KOTOBA: [kb-audit-0035] 他の(ほかの) [word] = yang lain / lainnya | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-latsol-2074490d3e] 危険な(きけんな) [word] = bahaya | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-v2-p1-140] している(-) [inflected_verb, df:する] = sedang melakukan (dasar: する) | [kb-audit-0594] 見たら(みたら) [inflected_verb, df:見る] = jika melihat | [kb-v2-p3-214] 小さい(ちいさい) [word] = kecil | [kb-otaff51-0898] 声をかけて(こえをかけて) [expression] = menegur / memberi tahu | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na
+
+=== #Q26 | ID=q026 | KEY=C (idx=2) | CAT= | SRC=SSW NGUYEN 1.pdf p.25 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 異常事態, 労働災害, 発生, 際, 間違, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "26" missing in ID "Pilihlah satu jawaban yang salah mengenai hal yang harus dilakukan saat terjadi " || [KANJI_WITHOUT_RUBY@opt:A] 異常事態, 発生, 何, 起, 早, 確認 || [KANJI_WITHOUT_RUBY@opt:B] 必要, 時, 非常停止, 機械, 止 || [KANJI_WITHOUT_RUBY@opt:C] 周, 責任者, 同僚, 小, 声, 知
+  CLUSTER CL-0159 (n=2, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-14-q032 (ssw-pm-kunci-ujian-14)
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 26. 異常事態や労働災害が発生した際にやるべきことで、間違っているものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai hal yang harus dilakukan saat terjadi kondisi tidak normal / darurat atau kecelakaan kerja.
+  EXPLANATION: Bukti PDF (Halaman 25): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = C) | Kunci Jawaban = C (周りにいる責任者や同僚に小さいな声で知らせる。).
+  KOTOBA_PROMPT: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-otaff51-0199] 労働災害(ろうどうさいがい) [compound_technical] = kecelakaan kerja | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-v2-p1-148] した(-) [inflected_verb, df:する] = yang sudah (dasar: する) | [kb-v2-p1-084] 際(さい) [word] = saat / ketika | [kb-v2-p4-219] やる(-) [word] = melakukan / mengerjakan | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=異常事態が発生したら、まず何が起こっているかを早く確認する。
+    TRANS: Ketika terjadi kondisi tidak normal / darurat, pertama-tama segera pastikan apa yang sedang terjadi.
+    KOTOBA: [kb-otaff51-0449] 異常事態(いじょうじたい) [compound_technical] = keadaan tidak normal / darurat | [kb-audit-0595] 発生したら(はっせいしたら) [inflected_verb, df:発生する] = jika terjadi | [kb-v2-p4-208] まず(-) [word] = pertama-tama / terlebih dahulu | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p4-172] 起こっている(おこっている) [inflected, df:起こる] = sedang terjadi | [kb-v2-p4-144] 早く(はやく) [inflected, df:早い] = dengan cepat / segera | [kb-audit-0928] 確認する(かくにんする) [inflected_verb, df:確認する] = memeriksa / memastikan | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-343] か(-) [particle] = penanda tanya / atau | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT B: HTML=必要な時は非常停止ボタンで機械を止める。
+    TRANS: Jika diperlukan, hentikan mesin dengan tombol berhenti darurat.
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-otaff51-0635] 非常停止ボタン(ひじょうていしぼたん) [compound_technical] = tombol berhenti darurat | [kb-otaff51-0353] 機械(きかい) [noun] = mesin | [kb-v2-p1-210] 止める(とめる) [word] = menghentikan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=周りにいる責任者や同僚に小さいな声で知らせる。
+    TRANS: Memberi tahu penanggung jawab atau rekan kerja di sekitar dengan suara pelan.
+    KOTOBA: [kb-v2-p1-099] 周り(まわり) [word] = sekitar | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-otaff51-0580] 責任者(せきにんしゃ) [noun] = penanggung jawab / atasan | [kb-1453580] 同僚(どうりょう) [word] = rekan kerja | [kb-v2-p3-214] 小さい(ちいさい) [word] = kecil | [kb-v2-p1-077] 声(こえ) [word] = suara | [kb-v2-p1-213] 知らせる(しらせる) [word] = memberitahu | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-353] な(-) [particle] = partikel kata sifat-na | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+
+=== #Q27 | ID=q027 | KEY=B (idx=1) | CAT= | SRC=SSW NGUYEN 1.pdf p.26 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 特定原材料, 含, 食品, 正, 一, 選 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "27" missing in ID "Manakah bahan pangan yang termasuk dalam bahan baku spesifik (alergen wajib/tert"
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 27. 特定原材料に含まれている食品はどれですか。正しいものを一つ選びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah bahan pangan yang termasuk dalam bahan baku spesifik (alergen wajib/tertentu)? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Bukti PDF (Halaman 26): Pilihan sebelumnya = A | Status = Salah (0/1 — koreksi PDF: Jawaban yang benar = B) | Kunci Jawaban = B (B).
+  KOTOBA_PROMPT: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p3-252] 含まれて(ふくまれて) [inflected, df:含む] = terkandung di dalam | [kb-v2-p1-212] いる(-) [word] = berada / ada | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=A
+    TRANS: Pilihan gambar A (lihat ilustrasi pada soal)
+    MEDIA: assets/questions/q027_a.png
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan gambar B (lihat ilustrasi pada soal)
+    MEDIA: assets/questions/q027_b.png
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan gambar C (lihat ilustrasi pada soal)
+    MEDIA: assets/questions/q027_c.png
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C
+
+=== #Q28 | ID=q028 | KEY=A (idx=0) | CAT= | SRC=SSW NGUYEN 1.pdf p.27 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 持, 人, 避, 料理 || [KANJI_WITHOUT_RUBY@instructions] 正, 間違, 一, 選 || [NUMBER_MISMATCH@promptTranslation] JP number "28" missing in ID "Manakah hidangan yang harus dihindari oleh orang yang memiliki alergi soba (buck"
+  INSTR: 正しいもの（または間違っているもの）を一つ選びなさい。
+  PROMPT_HTML: 28. そばアレルギーを持つ人が避けるべき料理はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah hidangan yang harus dihindari oleh orang yang memiliki alergi soba (buckwheat)?
+  EXPLANATION: Bukti PDF (Halaman 27): Pilihan sebelumnya = A | Status = Benar (1/1 — tanpa koreksi pada PDF) | Kunci Jawaban = A (A).
+  KOTOBA_PROMPT: [kb-otaff51-0022] そば(そば) [noun] = soba (buckwheat) | [kb-v2-p2-018] アレルギー(-) [technical] = alergi | [kb-v2-p1-239] 持つ(もつ) [word] = memegang | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-v2-p1-222] 避ける(さける) [word] = menghindari | [kb-v2-p3-283] べき(-) [particle] = seharusnya | [kb-1554310] 料理(りょうり) [word] = Masakan / makanan olahan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=A
+    TRANS: Pilihan gambar A (lihat ilustrasi pada soal)
+    MEDIA: assets/questions/q028_a.png
+    KOTOBA: [kb-v2-p4-052] A(-) [technical] = label pilihan A / zona A
+  OPT B: HTML=B
+    TRANS: Pilihan gambar B (lihat ilustrasi pada soal)
+    MEDIA: assets/questions/q028_b.png
+    KOTOBA: [kb-v2-p4-053] B(-) [technical] = label pilihan B / zona B
+  OPT C: HTML=C
+    TRANS: Pilihan gambar C (lihat ilustrasi pada soal)
+    MEDIA: assets/questions/q028_c.png
+    KOTOBA: [kb-v2-p4-054] C(-) [technical] = label pilihan C / zona C

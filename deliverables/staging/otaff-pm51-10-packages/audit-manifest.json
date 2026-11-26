@@ -1,0 +1,961 @@
+{
+  "bundleName": "latsol-otaff-pm-modul-5.1-10-paket.zip",
+  "generatedAt": "2026-11-15T17:35:00+07:00",
+  "sourcePdf": "Bab 1-3.pdf",
+  "moduleEdition": "第5.1版 (2026年4月)",
+  "totalPackages": 10,
+  "questionsPerPackage": 40,
+  "totalQuestions": 400,
+  "optionsPerQuestion": 3,
+  "totalOptions": 1200,
+  "maxScorePerPackage": 150,
+  "durationMinutesPerPackage": 70,
+  "totalPngAssets": 122,
+  "questionImageCount": 41,
+  "optionImageQuestionCount": 27,
+  "optionImageFileCount": 81,
+  "kotobaVerifiedTerms": 753,
+  "kotobaMappedQuestions": 400,
+  "kotobaMappedOptions": 1200,
+  "files": [
+    {
+      "path": "INTEGRATION-GUIDE.md",
+      "sizeBytes": 5427,
+      "sha256": "6b368e10e0c5bdf5f8657fc30315d75780f218135ec1b96948e2d1a952d8737c"
+    },
+    {
+      "path": "generation-audit-report.md",
+      "sizeBytes": 8897,
+      "sha256": "79aee50ffdb6fb154dba54b3c339d484cebaddeee7a3b83ad7073f0820e65b8a"
+    },
+    {
+      "path": "generation-blueprint-10-packages.md",
+      "sizeBytes": 15746,
+      "sha256": "2b2e95686a57ee0018c14d34a1718ee404d61d45773bf942c6fc8629949d9c35"
+    },
+    {
+      "path": "similarity-report.md",
+      "sizeBytes": 4817,
+      "sha256": "f15aad03f0dd9a067089504937f81435fa0f1a4af83d83e5819e05db3f98a7b7"
+    },
+    {
+      "path": "data/kotoba-tambahan-delta.json",
+      "sizeBytes": 973295,
+      "sha256": "d2f76abec638d411cbb81f7180c91e57824401bcd4264bd6ea3a99d14fa2a481"
+    },
+    {
+      "path": "data/kotobaMapping-delta.json",
+      "sizeBytes": 346251,
+      "sha256": "8f72c501fa948ce9ab4bc1fa1af01817353480c6a5df503fa1475340db503a9f"
+    },
+    {
+      "path": "data/latsol-otaff-pm51-01.json",
+      "sizeBytes": 229933,
+      "sha256": "5da48ac2b16f80816ea3c53b7f5d033b8de293dc5928a044ac56e9fdd33454c4"
+    },
+    {
+      "path": "data/latsol-otaff-pm51-02.json",
+      "sizeBytes": 234251,
+      "sha256": "2862848aa834ea17b9839af0fae7d9e1095c94fbff0df8299b9e2db3f68e0d7b"
+    },
+    {
+      "path": "data/latsol-otaff-pm51-03.json",
+      "sizeBytes": 237368,
+      "sha256": "26c56ef0b5afdc0b61435e0010d4cf9383f8afdf570e77bafeda1fe82f4a4bae"
+    },
+    {
+      "path": "data/latsol-otaff-pm51-04.json",
+      "sizeBytes": 247635,
+      "sha256": "7f192def6d4312fa21e88a85ee61dc6a2ca69c9d1cffc5374faf647f6edc61a6"
+    },
+    {
+      "path": "data/latsol-otaff-pm51-05.json",
+      "sizeBytes": 232677,
+      "sha256": "0527446bf25a3f8285ddf484c5ecac4023dc4f95047cadb2378eba97ec66d478"
+    },
+    {
+      "path": "data/latsol-otaff-pm51-06.json",
+      "sizeBytes": 240847,
+      "sha256": "58cfd3de19ba2b6dd90e7b794bffb9c959e7916942a22281f81f00c71798249a"
+    },
+    {
+      "path": "data/latsol-otaff-pm51-07.json",
+      "sizeBytes": 241391,
+      "sha256": "a96aca831917fc87603e2f5fe44a7918fb33b703501dd02f676795da6c81101e"
+    },
+    {
+      "path": "data/latsol-otaff-pm51-08.json",
+      "sizeBytes": 243210,
+      "sha256": "5ec28836649f63d4d9804f5c19fc8952b84e77841d21a9a9b6ad7f8933430554"
+    },
+    {
+      "path": "data/latsol-otaff-pm51-09.json",
+      "sizeBytes": 247315,
+      "sha256": "4313f333e343ba79ec9ff3ccd721a8639d495cf9820e95cc2cc814c0c5bad6bd"
+    },
+    {
+      "path": "data/latsol-otaff-pm51-10.json",
+      "sizeBytes": 249301,
+      "sha256": "2cc9d42b244f5faf65b012ecb859beae13a4a68869943e56ac5eb12d7dbd45a8"
+    },
+    {
+      "path": "data/sharedKotobaDictionary-delta.json",
+      "sizeBytes": 175755,
+      "sha256": "3e420a52554cddb684877189f5e86f0933c617d2924255ca58e624667e91d349"
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q031.png",
+      "sizeBytes": 326521,
+      "sha256": "457ce4e9ec1c3ac97ce48636057941d11634629a61bb487dfec43830534cfd37",
+      "width": 1360,
+      "height": 1244
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q032.png",
+      "sizeBytes": 361436,
+      "sha256": "da7696aff3d666cbc12f55b60ed370eda749ee7714500318295734ea47928bb7",
+      "width": 1290,
+      "height": 1345
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q033-option-a.png",
+      "sizeBytes": 26092,
+      "sha256": "83bed4fb228b6f8502323af200bb401aa734695a3bc36f631a095f368e919c19",
+      "width": 539,
+      "height": 355
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q033-option-b.png",
+      "sizeBytes": 63735,
+      "sha256": "1f0f0266ca9ea389c93540f62997510b60f5c76522778574b68be1a7d1d64b32",
+      "width": 539,
+      "height": 348
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q033-option-c.png",
+      "sizeBytes": 45394,
+      "sha256": "d9775d1886b2a9d33d0130fb89ff1fe5430cbd0b2ea6f7a9cf2cea2011316249",
+      "width": 539,
+      "height": 353
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q037.png",
+      "sizeBytes": 41043,
+      "sha256": "6973effa9ca511231fba80fa3e4557470b102489bc17da3215827d9bf2c31a34",
+      "width": 359,
+      "height": 300
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q038.png",
+      "sizeBytes": 55456,
+      "sha256": "5e02ab49b0fce6fbfa249122d19f36e0a197ad39e0a0581d833d8ef183361d80",
+      "width": 461,
+      "height": 309
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q039-option-a.png",
+      "sizeBytes": 39472,
+      "sha256": "78a71615f3206eff1e1fca4c6eebbfdb496a645ec1e6a9e6121a247b345920a1",
+      "width": 292,
+      "height": 291
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q039-option-b.png",
+      "sizeBytes": 85793,
+      "sha256": "9af34558cb34cfba8720030d9c9141c30456f7a47fa6b34b3e19857e7a0b81c1",
+      "width": 251,
+      "height": 341
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q039-option-c.png",
+      "sizeBytes": 66308,
+      "sha256": "576bdd1c30d81304e228519de17c511e08f1f0843548b0f6737fc322b9f3f90d",
+      "width": 286,
+      "height": 350
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q040-option-a.png",
+      "sizeBytes": 30299,
+      "sha256": "a10f403fbf6c6a948e72328e1ad41970e018a61e147b065fe717571a60d73381",
+      "width": 232,
+      "height": 252
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q040-option-b.png",
+      "sizeBytes": 31373,
+      "sha256": "25181aa7e3c9b10fee2021e944019f68becaa1bd156f4f1effbf5f2691dbb718",
+      "width": 232,
+      "height": 253
+    },
+    {
+      "path": "assets/questions/otaff-pm51-01-q040-option-c.png",
+      "sizeBytes": 72570,
+      "sha256": "59fc21f3cda21b1cfcc38e60dd99273e4461670b2dba8b37529738483f48bc66",
+      "width": 232,
+      "height": 265
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q031.png",
+      "sizeBytes": 609540,
+      "sha256": "0a812b559788443e7c558ab40c47bd8ed012a8d6bec2105e2e2becfdc86b5dad",
+      "width": 1315,
+      "height": 1364
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q032.png",
+      "sizeBytes": 131480,
+      "sha256": "a0898f700d3e3590586caee1be749b94a2de144e412377ca3173e9c64cba588b",
+      "width": 1254,
+      "height": 303
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q033-option-a.png",
+      "sizeBytes": 74207,
+      "sha256": "de541f1dbca280cc8335d9877dff5a83031088b47e4d1c708de57305c1abf8f5",
+      "width": 362,
+      "height": 315
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q033-option-b.png",
+      "sizeBytes": 88460,
+      "sha256": "1513b861d799804fdbde3dc00b71b8c766429937736357f27f0f87fe3b077243",
+      "width": 384,
+      "height": 315
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q033-option-c.png",
+      "sizeBytes": 78456,
+      "sha256": "97b4bb740367f537b20a8a815fadfe8a1b93cb95cfc725e292471a1215e9023c",
+      "width": 369,
+      "height": 315
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q037.png",
+      "sizeBytes": 55122,
+      "sha256": "10f81a00a3bee6025d2c062ef332e7b364f2aa70c7b33b72d45d88cf27fe5feb",
+      "width": 425,
+      "height": 411
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q038.png",
+      "sizeBytes": 27151,
+      "sha256": "06e6cad09afa0263fbb5229652aa49d6ed804570954e077e049c27d1b2806f5c",
+      "width": 398,
+      "height": 270
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q039-option-a.png",
+      "sizeBytes": 69155,
+      "sha256": "cf34cb531c2fabaabee451ee5ee9b4536fb2533e0bb59f29484ee4f5d962ecf3",
+      "width": 286,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q039-option-b.png",
+      "sizeBytes": 42516,
+      "sha256": "ec1b708756d38b6c5494ee095311877ffa157b4c77c193239f4ec328d028c750",
+      "width": 357,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q039-option-c.png",
+      "sizeBytes": 77950,
+      "sha256": "2872f0f0639c30ed9223cf0ba54f69063f688a5f7ded063d11ae26d2a7856297",
+      "width": 321,
+      "height": 343
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q040-option-a.png",
+      "sizeBytes": 18890,
+      "sha256": "035973690817ace289ebebd73acb4f7ced179f1403fc6296b8c48a2504b5cac6",
+      "width": 206,
+      "height": 371
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q040-option-b.png",
+      "sizeBytes": 17351,
+      "sha256": "5901ee2a2b63aeb7f73b2d336190bfe79a667bc958419e1449fe0b222d5ff42b",
+      "width": 250,
+      "height": 330
+    },
+    {
+      "path": "assets/questions/otaff-pm51-02-q040-option-c.png",
+      "sizeBytes": 36711,
+      "sha256": "b6f4577327a78715e9096e8823b0b57ce6009b20ef27957aac69f646cd1454f1",
+      "width": 369,
+      "height": 301
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q031.png",
+      "sizeBytes": 88498,
+      "sha256": "88583b44015e71b77abd2ca459012e351ea0a3d3f0dea0919c77147fc0bc4f0c",
+      "width": 728,
+      "height": 592
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q032.png",
+      "sizeBytes": 72387,
+      "sha256": "d7ddd846684fc336ca21659fcdd305a55c9f43dbb00f891807e11b1a7d32ecaa",
+      "width": 464,
+      "height": 418
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q033-option-a.png",
+      "sizeBytes": 22757,
+      "sha256": "3addb1517e647eacae093b528b1d6ddac69175a5d4634999f999eaa0fc9a2db1",
+      "width": 210,
+      "height": 255
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q033-option-b.png",
+      "sizeBytes": 16385,
+      "sha256": "1358876bdb457cd29a2dcbd8b4191f3946109da41b481eb2490cfd9997320e41",
+      "width": 190,
+      "height": 248
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q033-option-c.png",
+      "sizeBytes": 19496,
+      "sha256": "464e51a4678a9a052a16414234e097772f2f23eebbc06ac610a58c2e7bbc5f27",
+      "width": 251,
+      "height": 241
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q037.png",
+      "sizeBytes": 46547,
+      "sha256": "128f0996ce91b521a35694d5c56e525c9fa0ccaa90389874c38b31386484d05c",
+      "width": 338,
+      "height": 306
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q038.png",
+      "sizeBytes": 23789,
+      "sha256": "eedd55f4667b2443af8abfb8b45798e9532d63a04959a5cbe24c4ae7d17e2528",
+      "width": 307,
+      "height": 270
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q039-option-a.png",
+      "sizeBytes": 74677,
+      "sha256": "d2f173132e577680eb0ca2e48e7eb7aba3946596d24ac74d6a3b1afc3ec4ebf0",
+      "width": 268,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q039-option-b.png",
+      "sizeBytes": 58712,
+      "sha256": "17fd7fa4b1889026c45023595239e916bda73bd5166335dc3ca6820efe1e4894",
+      "width": 242,
+      "height": 328
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q039-option-c.png",
+      "sizeBytes": 52211,
+      "sha256": "78fc56047fb2b9db7aa083137aeff1431e1280fc4eec6d61fa9a75874feb9560",
+      "width": 250,
+      "height": 341
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q040-option-a.png",
+      "sizeBytes": 39648,
+      "sha256": "f76753c12cbbc9d060c728c806f6b545f280a200629e0f3739a7a13067402fa0",
+      "width": 232,
+      "height": 253
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q040-option-b.png",
+      "sizeBytes": 72570,
+      "sha256": "59fc21f3cda21b1cfcc38e60dd99273e4461670b2dba8b37529738483f48bc66",
+      "width": 232,
+      "height": 265
+    },
+    {
+      "path": "assets/questions/otaff-pm51-03-q040-option-c.png",
+      "sizeBytes": 55591,
+      "sha256": "67cff53b8ea5da60267dfcb4dca2a031a1062b33ab965009f67f8d98a2132f67",
+      "width": 232,
+      "height": 253
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q031.png",
+      "sizeBytes": 73471,
+      "sha256": "d306e5d36ccf961f1a1bc294707b965c56eeef748275360293fc2543bc925bcd",
+      "width": 566,
+      "height": 586
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q032.png",
+      "sizeBytes": 119537,
+      "sha256": "d03fa8107b99712a1ebe267d4fe93f6b33d1d069f4201930a6d385e1a7b55060",
+      "width": 463,
+      "height": 388
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q033-option-a.png",
+      "sizeBytes": 17765,
+      "sha256": "261d14680655a8926f0d093c30966b19940cfe0ee97fe6258bc2b673bf8a1799",
+      "width": 158,
+      "height": 228
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q033-option-b.png",
+      "sizeBytes": 15566,
+      "sha256": "84d8d986da2d9fb6ef28dcdc89e6dd2f6a97169182f98693f20c5c68df99eb23",
+      "width": 161,
+      "height": 227
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q033-option-c.png",
+      "sizeBytes": 12280,
+      "sha256": "a52743334f51714102c31430e40ce97ab40140cb9a843a74f4ace4e0ccb890a7",
+      "width": 159,
+      "height": 228
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q037.png",
+      "sizeBytes": 80626,
+      "sha256": "92b1abc396b9e0228a988a784e321a3debb2b4fe92143bc45ff79609f529cc68",
+      "width": 444,
+      "height": 435
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q038.png",
+      "sizeBytes": 31467,
+      "sha256": "7dbc2db4a9cfc14719c7612a09eb52476914abe7a08f4f4d2d4738dd51265cc2",
+      "width": 307,
+      "height": 270
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q039-option-a.png",
+      "sizeBytes": 50132,
+      "sha256": "89afe1a3afb06054900b5c8ea9a2e626d6541ad90c8c6a2bb3994f5f735a3ce9",
+      "width": 286,
+      "height": 379
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q039-option-b.png",
+      "sizeBytes": 57231,
+      "sha256": "1174ef3916a76b0b17562063edc52ef677587f63aab6eef1576caeb79a894923",
+      "width": 322,
+      "height": 362
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q039-option-c.png",
+      "sizeBytes": 71821,
+      "sha256": "4c5693a7e4af699c0b2159aa7d463b6f3609bf784c0fa792496e49d09b96421f",
+      "width": 260,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-04-q040.png",
+      "sizeBytes": 209909,
+      "sha256": "248659c05f556c3d8869a249ef683f8165413fb47aa4e70a38ca97c7f24a6469",
+      "width": 1273,
+      "height": 765
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q031.png",
+      "sizeBytes": 29180,
+      "sha256": "5b42f9984e0be8d2ef27dc26adf90d6d923008cd06a9c2bc7884283859c9e669",
+      "width": 351,
+      "height": 350
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q032.png",
+      "sizeBytes": 115550,
+      "sha256": "098f3a47a57655be8ffc4f2875143d61fa902262f42edc41d3c3121ecc1e5dcb",
+      "width": 374,
+      "height": 560
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q033-option-a.png",
+      "sizeBytes": 7258,
+      "sha256": "d4b4db181037d0e9e418027417174426b99271e3a6ccbc32d1d5072b06ea8145",
+      "width": 107,
+      "height": 146
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q033-option-b.png",
+      "sizeBytes": 7947,
+      "sha256": "e0c57275c64cb04640a784a9849496a4c41d1a5807091f316e40122f0eb609be",
+      "width": 122,
+      "height": 142
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q033-option-c.png",
+      "sizeBytes": 9520,
+      "sha256": "3ad260f2c27bd77e58fed6dab864ecea574f7dbc3ed1b25e16545fb3dc45228a",
+      "width": 186,
+      "height": 150
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q037.png",
+      "sizeBytes": 36711,
+      "sha256": "b6f4577327a78715e9096e8823b0b57ce6009b20ef27957aac69f646cd1454f1",
+      "width": 369,
+      "height": 301
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q038.png",
+      "sizeBytes": 27775,
+      "sha256": "3bc78c332fe015ecbef66c93f22fff703402491119128efeab2004521b5cf730",
+      "width": 219,
+      "height": 412
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q039-option-a.png",
+      "sizeBytes": 79237,
+      "sha256": "b53011e169c13e8ad3783741c398efad31327ea3c475017d91bc641506624d44",
+      "width": 286,
+      "height": 379
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q039-option-b.png",
+      "sizeBytes": 82652,
+      "sha256": "bb9a0cc5c73861989817254c49616ecfaba66525562764eb76d6ededa76370a6",
+      "width": 286,
+      "height": 366
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q039-option-c.png",
+      "sizeBytes": 53884,
+      "sha256": "c18eab13bdde7c77a3dec61f1c771df729ac4b9f5d5e2cbdb8cc039bca2cdcb5",
+      "width": 251,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-05-q040.png",
+      "sizeBytes": 41433,
+      "sha256": "d23e607801f45fea974759aec62066edaab8931546be0c9a9eb3ee1d5c66dbd4",
+      "width": 326,
+      "height": 391
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q031.png",
+      "sizeBytes": 92266,
+      "sha256": "c6facb28c705ee0dbc315df53f9c31b861caef934e84cae4b6a31cf876031c40",
+      "width": 1050,
+      "height": 557
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q032.png",
+      "sizeBytes": 590507,
+      "sha256": "725e9b1afbcf5887497e209e5af55fc56ff7cc9fd3355fcf5ac0d0e565d2ec6b",
+      "width": 1357,
+      "height": 1516
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q033-option-a.png",
+      "sizeBytes": 26288,
+      "sha256": "77d3aceb405dcde1f8117cfac0154bdd77a59013b3f62e4df12d19824e4a9119",
+      "width": 539,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q033-option-b.png",
+      "sizeBytes": 28033,
+      "sha256": "44304068d9c936bf086c5498f599b349bc4a84ddb36feee48019e1e21b202c99",
+      "width": 539,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q033-option-c.png",
+      "sizeBytes": 45394,
+      "sha256": "d9775d1886b2a9d33d0130fb89ff1fe5430cbd0b2ea6f7a9cf2cea2011316249",
+      "width": 539,
+      "height": 353
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q037.png",
+      "sizeBytes": 65616,
+      "sha256": "4b3ef79611b28b43adfea23008b73936f324b8ba5c37fe1f4deacf595d7010c7",
+      "width": 498,
+      "height": 445
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q038.png",
+      "sizeBytes": 43634,
+      "sha256": "6dec85115e0dcee472d0c651f07138d4c1d7b28acc8d335b12aa3d160b4b9f7f",
+      "width": 407,
+      "height": 254
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q039-option-a.png",
+      "sizeBytes": 69155,
+      "sha256": "cf34cb531c2fabaabee451ee5ee9b4536fb2533e0bb59f29484ee4f5d962ecf3",
+      "width": 286,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q039-option-b.png",
+      "sizeBytes": 42516,
+      "sha256": "ec1b708756d38b6c5494ee095311877ffa157b4c77c193239f4ec328d028c750",
+      "width": 357,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q039-option-c.png",
+      "sizeBytes": 74677,
+      "sha256": "d2f173132e577680eb0ca2e48e7eb7aba3946596d24ac74d6a3b1afc3ec4ebf0",
+      "width": 268,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-06-q040.png",
+      "sizeBytes": 150734,
+      "sha256": "f464eb83db6323bf1937607e48af04fa7244872b4dfc9494f04ace04874a50ba",
+      "width": 1265,
+      "height": 586
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q031.png",
+      "sizeBytes": 97905,
+      "sha256": "a2db0e7b12a6bbb6beb23176d45e7a12d8485facd2e51a62b263744c70408c01",
+      "width": 1322,
+      "height": 478
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q032.png",
+      "sizeBytes": 211645,
+      "sha256": "2c4d65c24cbe27556042ee5ed99e0bdaf4410423dfb765e683945a083f2dd0c4",
+      "width": 1132,
+      "height": 783
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q033-option-a.png",
+      "sizeBytes": 8624,
+      "sha256": "6db0e2225fab8b535cf2328467c0e0fb43d048e0a513a7d66b952ecda1ebe824",
+      "width": 103,
+      "height": 151
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q033-option-b.png",
+      "sizeBytes": 9966,
+      "sha256": "ccf54bed56c615819d45d136e110423797225109c0cfe0ddf8067fc357282f47",
+      "width": 161,
+      "height": 136
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q033-option-c.png",
+      "sizeBytes": 14015,
+      "sha256": "79244e43dfa5e5ea431c2efe0708b5188e3afbc860c64f2583d9a0a46253de68",
+      "width": 235,
+      "height": 152
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q037.png",
+      "sizeBytes": 47976,
+      "sha256": "a578dff6f0b470bfe0ceff410ccf792938712a871463dcbc82466531fcff570d",
+      "width": 370,
+      "height": 256
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q038.png",
+      "sizeBytes": 30972,
+      "sha256": "3fce5a9a8c48daceb52c0e17883e3dc0ad54caab9052e1712d1e8b040394dc27",
+      "width": 357,
+      "height": 301
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q039-option-a.png",
+      "sizeBytes": 37281,
+      "sha256": "17ae3872957d498fb334bbe486ad7b45e1275e66b918980275e15ce46f852aaa",
+      "width": 322,
+      "height": 379
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q039-option-b.png",
+      "sizeBytes": 57231,
+      "sha256": "1174ef3916a76b0b17562063edc52ef677587f63aab6eef1576caeb79a894923",
+      "width": 322,
+      "height": 362
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q039-option-c.png",
+      "sizeBytes": 71821,
+      "sha256": "4c5693a7e4af699c0b2159aa7d463b6f3609bf784c0fa792496e49d09b96421f",
+      "width": 260,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q040-option-a.png",
+      "sizeBytes": 32191,
+      "sha256": "c20cd75eba3a754b28521ecb54b51a95e0d4ac8f34cdf653854f8e70441056ad",
+      "width": 232,
+      "height": 252
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q040-option-b.png",
+      "sizeBytes": 19763,
+      "sha256": "940e1386e5841fb6e2b6f547325e6df2804747277335ae27adad17a2eebc22fb",
+      "width": 232,
+      "height": 253
+    },
+    {
+      "path": "assets/questions/otaff-pm51-07-q040-option-c.png",
+      "sizeBytes": 64586,
+      "sha256": "002384f01572d1dd3baea81eea0cb9bf1965ac8e5f8fc3832eea84706733f78b",
+      "width": 232,
+      "height": 253
+    },
+    {
+      "path": "assets/questions/otaff-pm51-08-q031.png",
+      "sizeBytes": 39935,
+      "sha256": "329fd9ab1fd243d53b0872b4f313c7b6476c45557f6bd033b3460e05750d1116",
+      "width": 291,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-08-q032.png",
+      "sizeBytes": 90781,
+      "sha256": "97f849e20badb81705c2719b6b56e2cbbf858225d241540c29db577131de81d8",
+      "width": 1305,
+      "height": 286
+    },
+    {
+      "path": "assets/questions/otaff-pm51-08-q033-option-a.png",
+      "sizeBytes": 19496,
+      "sha256": "464e51a4678a9a052a16414234e097772f2f23eebbc06ac610a58c2e7bbc5f27",
+      "width": 251,
+      "height": 241
+    },
+    {
+      "path": "assets/questions/otaff-pm51-08-q033-option-b.png",
+      "sizeBytes": 20325,
+      "sha256": "475f353ff91e4432f2cf1f03ebf72bbaaff1f6e60256d23f2fbeb37f3538cc69",
+      "width": 228,
+      "height": 278
+    },
+    {
+      "path": "assets/questions/otaff-pm51-08-q033-option-c.png",
+      "sizeBytes": 25265,
+      "sha256": "affc6bd378d8955ba667b66d23c41a42032d872aa0acc6d0032e1f77a19be1cc",
+      "width": 280,
+      "height": 278
+    },
+    {
+      "path": "assets/questions/otaff-pm51-08-q037.png",
+      "sizeBytes": 59264,
+      "sha256": "0f6a0b98a3708600dfc1b79105cc5098f3ecabb60b802783eda32ded77f4661b",
+      "width": 482,
+      "height": 290
+    },
+    {
+      "path": "assets/questions/otaff-pm51-08-q038.png",
+      "sizeBytes": 187590,
+      "sha256": "2ef0851e6b093a0f62774a5663b0e8a0b28f1bbd7b0a1e0b8d7e7b5ad6c8ea28",
+      "width": 1143,
+      "height": 733
+    },
+    {
+      "path": "assets/questions/otaff-pm51-08-q039-option-a.png",
+      "sizeBytes": 77649,
+      "sha256": "01a1a01230ce28ecd480cc63256301572d842fd664b98e81e332f18bd0094322",
+      "width": 259,
+      "height": 366
+    },
+    {
+      "path": "assets/questions/otaff-pm51-08-q039-option-b.png",
+      "sizeBytes": 79295,
+      "sha256": "1198ccbdf5ca5f4bef9bb4c10637eb9c2339a2719d46e17e38b102f5c1fa67c4",
+      "width": 316,
+      "height": 342
+    },
+    {
+      "path": "assets/questions/otaff-pm51-08-q039-option-c.png",
+      "sizeBytes": 51564,
+      "sha256": "7b2487dae8f381e9f4d87ec84360d9626aa4d8fdc691808fc0460a82ab851aa0",
+      "width": 268,
+      "height": 379
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q031.png",
+      "sizeBytes": 110004,
+      "sha256": "cda29deec693a7b33966f010f23152c715d54355c36d2a951c82871b1a80d7db",
+      "width": 1323,
+      "height": 375
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q032.png",
+      "sizeBytes": 193200,
+      "sha256": "b759c818a6dd1052fc04fb0fb2233f6b9735e9a4eef7a25703877d60b414e5a5",
+      "width": 1304,
+      "height": 555
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q033-option-a.png",
+      "sizeBytes": 25265,
+      "sha256": "affc6bd378d8955ba667b66d23c41a42032d872aa0acc6d0032e1f77a19be1cc",
+      "width": 280,
+      "height": 278
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q033-option-b.png",
+      "sizeBytes": 96758,
+      "sha256": "91a4d75f1034d3e8f8b016efe2ced9ee58ef7a6f38d7fdd869ad77200310aa64",
+      "width": 520,
+      "height": 681
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q033-option-c.png",
+      "sizeBytes": 29180,
+      "sha256": "5b42f9984e0be8d2ef27dc26adf90d6d923008cd06a9c2bc7884283859c9e669",
+      "width": 351,
+      "height": 350
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q037.png",
+      "sizeBytes": 995975,
+      "sha256": "801c3b0cfcdec6645e212ccc9de63f2a33f1c4e5403a816b164f22f6b566c867",
+      "width": 1339,
+      "height": 1626
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q038-option-a.png",
+      "sizeBytes": 87921,
+      "sha256": "c2a7af5e768a0e2bfc344f9495c6a72f2ab49218349c85d520d869ac31cedb94",
+      "width": 322,
+      "height": 322
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q038-option-b.png",
+      "sizeBytes": 72393,
+      "sha256": "8cbabddb143ab3a631d39b06e5a7f48ad1064fe52bd6aed8b6b5b9893ca7d701",
+      "width": 428,
+      "height": 343
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q038-option-c.png",
+      "sizeBytes": 42516,
+      "sha256": "ec1b708756d38b6c5494ee095311877ffa157b4c77c193239f4ec328d028c750",
+      "width": 357,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q039-option-a.png",
+      "sizeBytes": 33230,
+      "sha256": "e7d038584d514307685cb0b505dcbf3b4f8647d1db7b72fe53653068b436949a",
+      "width": 285,
+      "height": 370
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q039-option-b.png",
+      "sizeBytes": 54244,
+      "sha256": "ef5828332e7b8465c9cdd0c8bb00fcdeb12bdc6d7ae4c10816599bbf24f32b18",
+      "width": 393,
+      "height": 376
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q039-option-c.png",
+      "sizeBytes": 103148,
+      "sha256": "ceb20cb62be0d023347f4bb466096be2694d119176a4dd74d51b40a133e4dea4",
+      "width": 437,
+      "height": 266
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q040-option-a.png",
+      "sizeBytes": 42050,
+      "sha256": "ffd6c45e158b631583c7788c6019d92b5a80a24d6eaa734c099c217587275b1d",
+      "width": 232,
+      "height": 253
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q040-option-b.png",
+      "sizeBytes": 25669,
+      "sha256": "f94488216a533201c1cef5add59f561dad8678f4b5e9dbf8060baa418009fd22",
+      "width": 232,
+      "height": 265
+    },
+    {
+      "path": "assets/questions/otaff-pm51-09-q040-option-c.png",
+      "sizeBytes": 31373,
+      "sha256": "25181aa7e3c9b10fee2021e944019f68becaa1bd156f4f1effbf5f2691dbb718",
+      "width": 232,
+      "height": 253
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q031.png",
+      "sizeBytes": 22697,
+      "sha256": "58c0d1bb0113dad8103500fef9d6a75c01991dc4b0aeb9e5e1521a6fe6e277d8",
+      "width": 334,
+      "height": 259
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q032.png",
+      "sizeBytes": 189450,
+      "sha256": "2c10c46a5a35a80705dc944166ad63a933f8e14df8bee93bb243a9d8ca5b3c04",
+      "width": 539,
+      "height": 1769
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q033-option-a.png",
+      "sizeBytes": 74207,
+      "sha256": "de541f1dbca280cc8335d9877dff5a83031088b47e4d1c708de57305c1abf8f5",
+      "width": 362,
+      "height": 315
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q033-option-b.png",
+      "sizeBytes": 88460,
+      "sha256": "1513b861d799804fdbde3dc00b71b8c766429937736357f27f0f87fe3b077243",
+      "width": 384,
+      "height": 315
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q033-option-c.png",
+      "sizeBytes": 78456,
+      "sha256": "97b4bb740367f537b20a8a815fadfe8a1b93cb95cfc725e292471a1215e9023c",
+      "width": 369,
+      "height": 315
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q037.png",
+      "sizeBytes": 49594,
+      "sha256": "faf59b5b690477dd6d557eaef1a8e263598f88ac8024d76184c745557aa9ede1",
+      "width": 625,
+      "height": 371
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q038-option-a.png",
+      "sizeBytes": 79237,
+      "sha256": "b53011e169c13e8ad3783741c398efad31327ea3c475017d91bc641506624d44",
+      "width": 286,
+      "height": 379
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q038-option-b.png",
+      "sizeBytes": 52011,
+      "sha256": "f76c95ac29c790b0bf080522fb048431b37e4f6b3bb54959a2b3b9d2ba1fe53f",
+      "width": 376,
+      "height": 354
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q038-option-c.png",
+      "sizeBytes": 58259,
+      "sha256": "98006c246aeb6ab3c165a8da087baf8427717f07af45098f96f73478599a9953",
+      "width": 319,
+      "height": 252
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q039-option-a.png",
+      "sizeBytes": 73456,
+      "sha256": "80b55536ccd4cbd46098878325b3774d54f8166819970590b683d4341acd7777",
+      "width": 257,
+      "height": 366
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q039-option-b.png",
+      "sizeBytes": 79295,
+      "sha256": "1198ccbdf5ca5f4bef9bb4c10637eb9c2339a2719d46e17e38b102f5c1fa67c4",
+      "width": 316,
+      "height": 342
+    },
+    {
+      "path": "assets/questions/otaff-pm51-10-q039-option-c.png",
+      "sizeBytes": 52382,
+      "sha256": "5d23150b565fcb23cb07ae5625c890ffed195caa344329e70255da9fdd783dcd",
+      "width": 215,
+      "height": 379
+    }
+  ]
+}

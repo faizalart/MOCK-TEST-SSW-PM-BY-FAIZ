@@ -1,0 +1,89 @@
+# AUDIT SHEET: latsol-tambahan-02 (Latsol Tambahan 02) | Batch qa-batch-10 | Part 6 (Q21-24 of 30)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q21 | ID=tambahan02-q021 | KEY=D (idx=3) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.8 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi D ("ちからがあるので、重いおおなべを一人ではこぶ") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: たいさくは どれですか。まちがっているものを<ruby>一<rt>ひと</rt></ruby>つえらんでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Manakah tindakan pencegahan untuk gambar ini? Pilihlah satu yang salah.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 8, nomor 21. Bobot: 5.0 poin. Kunci jawaban: D. Visual: Ilustrasi pekerja mengangkat panci besar panas sendirian hingga air panasnya tumpah.
+  KOTOBA_PROMPT: [kb-latsol-571684ccab] たいさく(たいさく) [word] = tindakan penanggulangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=ねっとうの<ruby>入<rt>はい</rt></ruby>ったおおなべはふたりではこぶ
+    TRANS: Panci besar berisi air mendidih diangkut oleh dua orang
+    KOTOBA: [kb-latsol-503c83ce3d] ねっとう(ねっとう) [word] = air mendidih (100°C) | [kb-v2-p6-355] 入った(はいった) [inflected, df:入る] = berisi / masuk (lampau) | [kb-latsol-8bf9060b0b] おおなべ(おおなべ) [word] = panci masak besar | [kb-audit-0130] ふたり(ふたり) [word] = dua orang (二人) | [kb-audit-0098] はこぶ(はこぶ) [word] = mengangkut / membawa (運ぶ)
+  OPT B: HTML=まえかけやめがねなどほごぐをつける
+    TRANS: Mengenakan alat pelindung diri seperti celemek dan kacamata pelindung
+    KOTOBA: [kb-latsol-a01972a877] まえかけ(まえかけ) [word] = celemek kerja (apron) | [kb-u1416-07e0469513] めがね(めがね) [word] = kacamata | [kb-v2-p6-540] ほごぐ(-) [technical] = alat pelindung diri (APD) | [kb-v2-p1-203] つける(-) [word] = memakai / memasang
+  OPT C: HTML=はこんでいるときにねっとうがこぼれることもあるので、ゴム<ruby>手袋<rt>てぶくろ</rt></ruby>をつける
+    TRANS: Karena air mendidih bisa tumpah saat diangkut, kenakan sarung tangan karet
+    KOTOBA: [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-latsol-503c83ce3d] ねっとう(ねっとう) [word] = air mendidih (100°C) | [kb-latsol-koboreru] こぼれる(こぼれる) [word] = tumpah | [kb-otaff51-0050] ゴム手袋(ごむてぶくろ) [compound_technical] = sarung tangan karet | [kb-v2-p1-203] つける(-) [word] = memakai / memasang
+  OPT D: HTML=ちからがあるので、<ruby>重<rt>おも</rt></ruby>いおおなべを<ruby>一人<rt>ひとり</rt></ruby>ではこぶ
+    TRANS: Karena merasa kuat, mengangkut panci besar yang berat sendirian
+    KOTOBA: [kb-audit-0096] ちから(ちから) [word] = tenaga / kekuatan (力) | [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-latsol-8bf9060b0b] おおなべ(おおなべ) [word] = panci masak besar | [kb-1576150] 一人(ひとり) [word] = satu orang / sendirian | [kb-audit-0098] はこぶ(はこぶ) [word] = mengangkut / membawa (運ぶ)
+
+=== #Q22 | ID=tambahan02-q022 | KEY=B (idx=1) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.9 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("りょうてがふさがったじょうたいでいどうした") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>正<rt>ただ</rt></ruby>しいものをえらんでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah pernyataan yang benar (mengenai penyebab kecelakaan pada gambar).
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 9, nomor 22. Bobot: 5.0 poin. Kunci jawaban: B. Visual: Ilustrasi pekerja membawa nampan gorengan dengan kedua tangan lalu terpeleset di lantai basah.
+  KOTOBA_PROMPT: [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-audit-0003] えらんで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=ぬれたゆかをきちんとする
+    TRANS: Menangani lantai yang basah dengan benar (kalimat tidak lengkap)
+    KOTOBA: [kb-v2-p1-172] ぬれた(-) [inflected_verb, df:ぬれる] = basah (dasar: ぬれる) | [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama
+  OPT B: HTML=りょうてがふさがったじょうたいでいどうした
+    TRANS: Berpindah tempat dalam kondisi kedua tangan penuh memegang barang
+    KOTOBA: [kb-audit-0099] りょうて(りょうて) [word] = kedua tangan (両手) | [kb-latsol-fusagatta] ふさがった(ふさがった) [inflected_verb, df:ふさがる] = penuh / memegang barang di kedua tangan | [kb-audit-0131] じょうたい(じょうたい) [word] = keadaan / kondisi (状態) | [kb-audit-0132] いどうした(いどうした) [inflected_verb, df:移動する] = berpindah / berjalan (移動した)
+  OPT C: HTML=ゆかがぬれているばあいはきちんとふきとらない
+    TRANS: Jika lantai basah, tidak mengelapnya dengan benar
+    KOTOBA: [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-audit-0133] ぬれている(ぬれている) [inflected_verb, df:濡れる] = dalam keadaan basah (濡れている) | [kb-audit-0091] ばあい(ばあい) [word] = keadaan / apabila terjadi (場合) | [kb-otaff51-0743] きちんと(きちんと) [adverb] = dengan rapi / saksama | [kb-latsol-fukitoranai] ふきとらない(ふきとらない) [inflected_verb, df:拭き取る] = tidak mengelap (拭き取らない)
+  OPT D: HTML=いどうじはりょうてがふさがらないようにしない
+    TRANS: Saat berpindah tempat, tidak berusaha agar kedua tangan tidak penuh
+    KOTOBA: [kb-audit-0134] いどうじ(いどうじ) [word] = saat berpindah / berjalan (移動時) | [kb-audit-0099] りょうて(りょうて) [word] = kedua tangan (両手) | [kb-audit-0135] ふさがらない(ふさがらない) [inflected_verb, df:塞がる] = tidak terhalang / tidak penuh (塞がらない)
+
+=== #Q23 | ID=tambahan02-q023 | KEY=A (idx=0) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.9 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:A] Space inside Japanese text || [JP_DOUBLE_PARTICLE@opt:B] Potential doubled/colliding particle || [JP_DOUBLE_PARTICLE@opt:C] Potential doubled/colliding particle || [JP_WHITESPACE_BETWEEN_JP@opt:C] Space inside Japanese text || [JP_WHITESPACE_BETWEEN_JP@opt:D] Space inside Japanese text
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("れいとうこの ゆかにしもがついて、すべりやすくなっていたこと") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: このえのげんいんは <ruby>何<rt>なん</rt></ruby>ですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>んでください
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa penyebab kecelakaan pada gambar ini? Pilihlah satu jawaban yang benar.
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 9, nomor 23. Bobot: 5.0 poin. Kunci jawaban: A. Visual: Ilustrasi pekerja membawa kotak di dalam ruang pembeku (freezer) dan terpeleset karena bunga es di lantai.
+  KOTOBA_PROMPT: [kb-audit-0671] げんいん(げんいん) [word] = penyebab | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-audit-0004] 選んで(えらんで) [inflected_verb, df:選ぶ] = memilih (bentuk -te)
+  OPT A: HTML=れいとうこの ゆかにしもがついて、すべりやすくなっていたこと
+    TRANS: Lantai lemari pembeku (freezer) tertutup bunga es (frost) sehingga menjadi licin
+    KOTOBA: [kb-audit-0246] れいとうこ(れいとうこ) [word] = lemari pembeku / freezer (冷凍庫) | [kb-v2-p6-340] ゆか(-) [word] = lantai (bacaan 床) | [kb-v2-p6-341] しも(-) [word] = embun beku / bunga es (bacaan 霜) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat | [kb-audit-0136] すべりやすくなっていた(すべりやすくなっていた) [word] = telah menjadi licin / mudah terpeleset
+  OPT B: HTML=そのようなじょうきょうに<ruby>十分<rt>じゅうぶん</rt></ruby>なちゅういをはらうこと
+    TRANS: Memberikan perhatian yang cukup pada situasi seperti itu
+    KOTOBA: [kb-audit-0100] じょうきょう(じょうきょう) [word] = situasi / kondisi (状況) | [kb-latsol-fb5ae409ae] 十分な(じゅうぶんな) [word] = cukup / memadai | [kb-v2-p6-309] ちゅうい(-) [word] = perhatian / waspada (bacaan 注意) | [kb-audit-0101] はらう(はらう) [word] = memberikan (perhatian) / menyingkirkan
+  OPT C: HTML=れいとうこでの<ruby>作業<rt>さぎょう</rt></ruby>は すべりにくいくつをはく
+    TRANS: Saat bekerja di dalam freezer, memakai sepatu anti-selip
+    KOTOBA: [kb-audit-0246] れいとうこ(れいとうこ) [word] = lemari pembeku / freezer (冷凍庫) | [kb-1297540] 作業(さぎょう) [word] = pekerjaan / tugas | [kb-audit-0197] すべりにくい(すべりにくい) [word] = tidak licin / sulit terpeleset (滑りにくい) | [kb-audit-0198] くつ(くつ) [word] = sepatu / alas kaki (靴) | [kb-audit-1084] はく(はく) [inflected_verb, df:履く] = memakai alas kaki (履く)
+  OPT D: HTML=<ruby>作業時<rt>さぎょうじ</rt></ruby>は ばらんすを とりながら、 あわてず、おちついてこうどうすること
+    TRANS: Saat bekerja, bertindak dengan tenang dan tidak terburu-buru sambil menjaga keseimbangan
+    KOTOBA: [kb-ext-latsol-0118] 作業時(さぎょうじ) [word] = saat bekerja | [kb-latsol-awatezu] あわてず(あわてず) [word] = tanpa tergesa-gesa / tidak panik | [kb-latsol-ochitsuite] おちついて(おちついて) [inflected_verb, df:落ち着く] = dengan tenang (落ち着いて) | [kb-audit-0712] こうどう(こうどう) [word] = tindakan / perilaku
+
+=== #Q24 | ID=tambahan02-q024 | KEY=B (idx=1) | CAT= | SRC=30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf p.10 ===
+  FLAGS: [JP_WHITESPACE_BETWEEN_JP@prompt] Space inside Japanese text || [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 対策 || [JP_WHITESPACE_BETWEEN_JP@opt:B] Space inside Japanese text || [JP_DOUBLE_PARTICLE@opt:D] Potential doubled/colliding particle
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("フォークリフトのうんてんしゃは そうこの入口前での一時ていし") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: たいさくは <ruby>何<rt>なん</rt></ruby>ですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa tindakan pencegahan (対策) untuk situasi pada gambar ini?
+  EXPLANATION: Sumber: 30 Soal SSW Pengolahan Makanan + Kunci Jawaban - WM.pdf, halaman 10, nomor 24. Bobot: 5.0 poin. Kunci jawaban: B. Visual: Ilustrasi forklift keluar dari pintu gudang dan hampir menabrak pekerja yang melintas.
+  KOTOBA_PROMPT: [kb-latsol-571684ccab] たいさく(たいさく) [word] = tindakan penanggulangan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa
+  OPT A: HTML=フォークリフトがそうこのいりぐちまえで、いちじていししなかったこと
+    TRANS: Forklift tidak berhenti sejenak di depan pintu masuk gudang (penyebab)
+    KOTOBA: [kb-otaff51-0071] フォークリフト(ふぉーくりふと) [noun] = forklift | [kb-audit-0102] そうこ(そうこ) [word] = gudang penyimpanan (倉庫) | [kb-audit-0137] いりぐちまえ(いりぐちまえ) [word] = area di depan pintu masuk (入口前) | [kb-latsol-6ef8dba0a5] いちじていし(いちじていし) [word] = berhenti sementara | [kb-audit-0381] しなかった(しなかった) [inflected_verb, df:する] = tidak melakukan (lampau)
+  OPT B: HTML=フォークリフトのうんてんしゃは そうこの<ruby>入口前<rt>いりぐちまえ</rt></ruby>での<ruby>一時<rt>いちじ</rt></ruby>ていし
+    TRANS: Pengemudi forklift berhenti sejenak di depan pintu masuk gudang
+    KOTOBA: [kb-otaff51-0071] フォークリフト(ふぉーくりふと) [noun] = forklift | [kb-audit-0090] うんてん(うんてん) [word] = pengoperasian / mengemudi (運転) | [kb-audit-0102] そうこ(そうこ) [word] = gudang penyimpanan (倉庫) | [kb-ext-latsol-0119] 入口前(いりぐちまえ) [word] = di depan pintu masuk | [kb-ext-latsol-0120] 一時(いちじ) [word] = sementara / sejenak | [kb-audit-0082] ていし(ていし) [word] = berhenti / menghentikan (停止)
+  OPT C: HTML=しさこしょうによる<ruby>安全<rt>あんぜん</rt></ruby>かくにんをかならず<ruby>行<rt>おこな</rt></ruby>わないこと
+    TRANS: Pastikan untuk tidak melakukan konfirmasi keselamatan dengan tunjuk-sebut
+    KOTOBA: [kb-latsol-afe03883a8] しさこしょう(しさこしょう) [word] = tunjuk-sebut keselamatan (K3) | [kb-otaff51-0261] 安全(あんぜん) [noun] = keselamatan / aman | [kb-v2-p6-319] かくにん(-) [word] = konfirmasi / cek (bacaan 確認) | [kb-v2-p1-278] かならず(-) [word] = pasti / selalu | [kb-latsol-50f4c6f57c] 行わない(おこなわない) [word] = tidak melakukan
+  OPT D: HTML=そのようなじょうきょうに<ruby>十分<rt>じゅうぶん</rt></ruby>なちゅういをはらうこと
+    TRANS: Memberikan perhatian yang cukup pada situasi seperti itu
+    KOTOBA: [kb-audit-0100] じょうきょう(じょうきょう) [word] = situasi / kondisi (状況) | [kb-latsol-fb5ae409ae] 十分な(じゅうぶんな) [word] = cukup / memadai | [kb-v2-p6-309] ちゅうい(-) [word] = perhatian / waspada (bacaan 注意) | [kb-audit-0101] はらう(はらう) [word] = memberikan (perhatian) / menyingkirkan

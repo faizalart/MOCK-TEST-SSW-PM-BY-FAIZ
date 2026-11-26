@@ -1,0 +1,77 @@
+# AUDIT SHEET: latsol-reguler-05 (Latsol Reguler 05) | Batch qa-batch-09 | Part 1 (Q1-4 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=reguler05-q001 | KEY=C (idx=2) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="ボツリヌス菌では原因になりやすい食品はどれですか。ただしいものをひとつえらびなさい。" vs questionText="ボツリヌス菌では原因になりやすい食品はどれですか。。ただしものをひとつえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("缶詰、びんづめ、真空パック食品") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ボツリヌス<ruby>菌<rt>きん</rt></ruby>では<ruby>原因<rt>げんいん</rt></ruby>になりやすい<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: ボツリヌス菌では原因になりやすい食品はどれですか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Makanan manakah yang mudah menjadi penyebab keracunan bakteri Clostridium botulinum? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 1, nomor 1. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>手<rt>て</rt></ruby>や<ruby>指<rt>ゆび</rt></ruby>に<ruby>傷<rt>きず</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>が<ruby>調理<rt>ちょうり</rt></ruby>した<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Makanan yang dimasak oleh orang yang memiliki luka pada tangan atau jarinya
+    KOTOBA: [kb-v2-p1-067] 手(て) [word] = tangan | [kb-v2-p2-078] 指(ゆび) [word] = jari | [kb-v2-p1-080] 傷(きず) [word] = luka / goresan | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan
+  OPT B: HTML=<ruby>野菜<rt>やさい</rt></ruby>、<ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>鶏肉<rt>とりにく</rt></ruby>
+    TRANS: Sayuran, daging, daging ayam
+    KOTOBA: [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran | [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam
+  OPT C: HTML=<ruby>缶詰<rt>かんづめ</rt></ruby>、びんづめ、<ruby>真空<rt>しんくう</rt></ruby>パック<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Makanan kaleng, makanan botol, makanan kemasan vakum
+    KOTOBA: [kb-otaff51-0504] 缶詰(かんづめ) [noun] = makanan kaleng | [kb-audit-0106] びんづめ(びんづめ) [word] = makanan kemasan botol kaca (瓶詰) | [kb-1363600] 真空(しんくう) [word] = kemasan hampa udara (vakum) | [kb-v2-p3-046] パック(-) [word] = kemasan / bungkus | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan
+
+=== #Q2 | ID=reguler05-q002 | KEY=C (idx=2) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="ウェルシュ菌では主な症状はどれか。ただしいものをひとつえらびなさい。" vs questionText="ウェルシュ菌では主な症状はどれか。。ただしものをひとつえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("腹痛、下痢") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ウェルシュ<ruby>菌<rt>きん</rt></ruby>では<ruby>主<rt>おも</rt></ruby>な<ruby>症状<rt>しょうじょう</rt></ruby>はどれか。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: ウェルシュ菌では主な症状はどれか。。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Manakah gejala utama dari keracunan bakteri Clostridium perfringens (Welchii)? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 1, nomor 2. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0039] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p2-253] どれか(-) [word] = yang mana | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah)
+  OPT A: HTML=<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おうと、<ruby>腹痛<rt>ふくつう</rt></ruby>
+    TRANS: Mual, muntah, sakit perut
+    KOTOBA: [kb-otaff51-0230] 吐き気(はきけ) [noun] = rasa mual | [kb-latsol-914f5e914c] おうと(おうと) [word] = muntah | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut
+  OPT B: HTML=<ruby>吐<rt>は</rt></ruby>き<ruby>気<rt>け</rt></ruby>、おうと、<ruby>呼吸困難<rt>こきゅうこんなん</rt></ruby>
+    TRANS: Mual, muntah, kesulitan bernapas
+    KOTOBA: [kb-otaff51-0230] 吐き気(はきけ) [noun] = rasa mual | [kb-latsol-914f5e914c] おうと(おうと) [word] = muntah | [kb-otaff51-0231] 呼吸困難(こきゅうこんなん) [compound_technical] = kesulitan bernapas / sesak napas
+  OPT C: HTML=<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>下痢<rt>げり</rt></ruby>
+    TRANS: Sakit perut, diare
+    KOTOBA: [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare
+
+=== #Q3 | ID=reguler05-q003 | KEY=A (idx=0) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.1 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="主な予防対策、芽胞について、すぐに 20℃以下にれいきゃくして保存します。ただしいものをひとつえらびなさい。" vs questionText="主な予防対策芽胞について、すぐに20℃以下にれいきゃくして保存します。ただしものをひとつえらびなさい"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("ウェルシュ菌") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>主<rt>おも</rt></ruby>な<ruby>予防対策<rt>よぼうたいさく</rt></ruby>、<ruby>芽胞<rt>がほう</rt></ruby>について、すぐに 20℃<ruby>以下<rt>いか</rt></ruby>にれいきゃくして<ruby>保存<rt>ほぞん</rt></ruby>します。ただしいものをひとつえらびなさい。
+  QUESTION_TEXT: 主な予防対策芽胞について、すぐに20℃以下にれいきゃくして保存します。ただしものをひとつえらびなさい
+  PROMPT_TRANS: Mengenai tindakan pencegahan utama terhadap bakteri pembentuk spora yang dilakukan dengan segera mendinginkannya hingga suhu 20°C atau di bawahnya lalu menyimpannya, bakteri manakah yang dimaksud? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 1, nomor 3. Bobot: 7.5 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-latsol-0033] 予防対策(よぼうたいさく) [word] = tindakan pencegahan | [kb-otaff51-0531] 芽胞(がほう) [compound_technical] = spora bakteri (tahan panas) | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal | [kb-latsol-9957f355b2] れいきゃく(れいきゃく) [word] = pendinginan | [kb-otaff51-0128] 保存(ほぞん) [noun] = penyimpanan / pengawetan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan) | [kb-audit-0621] ただしい(ただしい) [adjective] = benar / tepat | [kb-v2-p5-204] ひとつ(-) [word] = satu buah | [kb-audit-0002] えらびなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah (perintah) | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=ウェルシュ<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bakteri Clostridium perfringens (Welchii)
+    KOTOBA: [kb-otaff51-0039] ウェルシュ菌(うぇるしゅきん) [compound_technical] = bakteri Clostridium perfringens
+  OPT B: HTML=ボツリヌス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bakteri Clostridium botulinum
+    KOTOBA: [kb-otaff51-0079] ボツリヌス菌(ぼつりぬすきん) [compound_technical] = bakteri Clostridium botulinum
+  OPT C: HTML=セレウス<ruby>菌<rt>きん</rt></ruby>
+    TRANS: Bakteri Bacillus cereus
+    KOTOBA: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus
+
+=== #Q4 | ID=reguler05-q004 | KEY=C (idx=2) | CAT= | SRC=Latihan 5 Soal SSW PM + KJ.pdf p.1 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("80℃以上、30秒以上加熱します") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: ノロウイルス<ruby>主<rt>おも</rt></ruby>な<ruby>予防対策<rt>よぼうたいさく</rt></ruby>について。まちがっているものはどれですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Mengenai tindakan pencegahan utama terhadap Norovirus, manakah yang salah?
+  EXPLANATION: Sumber: Latihan 5 Soal SSW PM + KJ.pdf, halaman 1, nomor 4. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0060] ノロウイルス(のろういるす) [compound_technical] = Norovirus | [kb-v2-p1-295] 主な(おもな) [word] = utama | [kb-ext-latsol-0033] 予防対策(よぼうたいさく) [word] = tindakan pencegahan | [kb-audit-0001] まちがっている(まちがっている) [inflected_verb, df:間違う] = keliru / tidak benar | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>手洗<rt>てあら</rt></ruby>いを<ruby>徹底<rt>てってい</rt></ruby>します
+    TRANS: Menerapkan cuci tangan secara menyeluruh
+    KOTOBA: [kb-otaff51-0310] 手洗い(てあらい) [noun] = mencuci tangan | [kb-1437670] 徹底(てってい) [word] = penerapan tuntas / menyeluruh | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT B: HTML=85℃〜90℃<ruby>以上<rt>いじょう</rt></ruby>、90<ruby>秒以上<rt>びょういじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します
+    TRANS: Memanaskan pada suhu 85°C–90°C atau lebih selama 90 detik atau lebih
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)
+  OPT C: HTML=80℃<ruby>以上<rt>いじょう</rt></ruby>、30<ruby>秒以上<rt>びょういじょう</rt></ruby><ruby>加熱<rt>かねつ</rt></ruby>します
+    TRANS: Memanaskan pada suhu 80°C atau lebih selama 30 detik atau lebih
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-latsol-byouijou] 秒以上(びょういじょう) [word] = detik atau lebih | [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-v2-p2-262] します(-) [inflected, df:する] = melakukan (sopan)

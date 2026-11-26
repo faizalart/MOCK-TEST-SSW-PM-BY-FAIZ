@@ -1,0 +1,89 @@
+# AUDIT SHEET: latsol-reguler-04 (Latsol Reguler 04) | Batch qa-batch-09 | Part 4 (Q13-16 of 20)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=reguler04-q013 | KEY=B (idx=1) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="食肉、魚介類などは低温で保管しなければなりません。どうするのが正しいですか。" vs questionText="食肉、魚介類などは低温で保管しなければなりません。どうするのが正しいですか。。" || [PRIOR_KEY_AUDIT_REVIEW_REQUIRED@question] Pertanyaan menanyakan cara menyimpan daging dan hasil laut pada suhu rendah antara A (冷蔵庫で保管する) dan B (冷凍庫で保管する). Dalam praktik industri pangan keduanya benar sesuai jenis bahan (dingin ≤4°C atau beku ≤-15°C), namun kunci PDF Latihan 4 Hal. 8 menetapkan B (冷凍庫で保管する, konsisten dengan Soal 12 di halaman sebelumnya). Kunci B dipertahankan.
+  PRIOR_KEY_AUDIT: REVIEW_REQUIRED | Pertanyaan menanyakan cara menyimpan daging dan hasil laut pada suhu rendah antara A (冷蔵庫で保管する) dan B (冷凍庫で保管する). Dalam praktik industri pangan keduanya benar sesuai jenis bahan (dingin ≤4°C atau beku ≤-15°C), namun kunci PDF Latihan 4 Hal. 8 menetapkan B (冷凍庫で保管する, konsisten dengan Soal 12 di halaman sebelumnya). Kunci B dipertahankan.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>魚介類<rt>ぎょかいるい</rt></ruby>などは<ruby>低温<rt>ていおん</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>しなければなりません。どうするのが<ruby>正<rt>ただ</rt></ruby>しいですか。
+  QUESTION_TEXT: 食肉、魚介類などは低温で保管しなければなりません。どうするのが正しいですか。。
+  PROMPT_TRANS: Daging, hasil laut (ikan dan kerang-kerangan), dan sejenisnya harus disimpan pada suhu rendah. Tindakan manakah yang benar?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 5, nomor 13. Bobot: 7.5 poin. Kunci jawaban: B. Catatan QA: Kunci Jawaban PDF Hal. 8 adalah B (冷凍庫で保管する); dalam praktik SSW baik 冷蔵庫 (≤4°C) maupun 冷凍庫 (≤-15°C) digunakan sesuai kondisi bahan.
+  KOTOBA_PROMPT: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-otaff51-0117] 低温(ていおん) [noun] = suhu rendah | [kb-v2-p2-030] 保管し(ほかんし) [inflected, df:保管する] = menyimpan | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat
+  OPT A: HTML=<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Menyimpannya di dalam kulkas
+    KOTOBA: [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT B: HTML=<ruby>冷凍庫<rt>れいとうこ</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Menyimpannya di dalam freezer
+    KOTOBA: [kb-otaff51-0157] 冷凍庫(れいとうこ) [noun] = lemari pembeku (freezer) | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT C: HTML=10℃で<ruby>保管<rt>ほかん</rt></ruby>する
+    TRANS: Menyimpannya pada suhu 10°C
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT D: HTML=<ruby>正<rt>ただ</rt></ruby>しいものはない
+    TRANS: Tidak ada jawaban yang benar
+    KOTOBA: [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat
+
+=== #Q14 | ID=reguler04-q014 | KEY=C (idx=2) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="製造工程の管理と注意事項について間違っているものはどれですか。" vs questionText="製造工程の管理と注意事項について間違っているものはどれですか。。"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi C ("X線異物検出器は金属の危険異物を検出することができる") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>製造工程<rt>せいぞうこうてい</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>と<ruby>注意事項<rt>ちゅういじこう</rt></ruby>について<ruby>間違<rt>まちが</rt></ruby>っているものはどれですか。
+  QUESTION_TEXT: 製造工程の管理と注意事項について間違っているものはどれですか。。
+  PROMPT_TRANS: Manakah pernyataan yang salah mengenai pengelolaan dan hal-hal yang perlu diperhatikan dalam proses produksi?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 5, nomor 14. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0556] 製造工程(せいぞうこうてい) [compound_technical] = tahapan proses produksi | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-otaff51-0382] 注意事項(ちゅういじこう) [compound_technical] = hal-hal yang harus diperhatikan | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=100℃<ruby>以上<rt>いじょう</rt></ruby>でも<ruby>死滅<rt>しめつ</rt></ruby>しない<ruby>強<rt>つよ</rt></ruby>い<ruby>微生物<rt>びせいぶつ</rt></ruby>がある
+    TRANS: Ada mikroorganisme kuat yang tidak mati meskipun dipanaskan pada suhu 100°C atau lebih
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0111] 以上(いじょう) [noun] = atau lebih / minimal | [kb-1646680] 死滅(しめつ) [word] = pemusnahan / mati (mikroba) | [kb-v2-p3-206] 強い(つよい) [word] = kuat / tahan | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba
+  OPT B: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>凍結<rt>とうけつ</rt></ruby>すると、<ruby>低温<rt>ていおん</rt></ruby><ruby>短時間<rt>たんじかん</rt></ruby>で<ruby>凍結<rt>とうけつ</rt></ruby>することが<ruby>必要<rt>ひつよう</rt></ruby>
+    TRANS: Saat membekukan makanan, perlu dibekukan pada suhu rendah dalam waktu singkat
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1446300] 凍結(とうけつ) [word] = Pembekuan cairan atau bahan baku makanan | [kb-v2-p1-146] すると(-) [expression] = jika melakukan | [kb-latsol-ad451d245e] 低温短時間(ていおんたんじかん) [word] = suhu rendah dan waktu singkat | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan
+  OPT C: HTML=X<ruby>線<rt>せん</rt></ruby><ruby>異物<rt>いぶつ</rt></ruby><ruby>検出器<rt>けんしゅつき</rt></ruby>は<ruby>金属<rt>きんぞく</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby><ruby>異物<rt>いぶつ</rt></ruby>を<ruby>検出<rt>けんしゅつ</rt></ruby>することができる
+    TRANS: Detektor benda asing sinar-X (X-ray) berfungsi khusus mendeteksi benda asing berbahaya berupa logam
+    KOTOBA: [kb-ext-0003-58e7b79ae7] X線異物検出器(せんいぶつけんしゅつき) [word] = detektor benda asing sinar-X | [kb-1243040] 金属(きんぞく) [word] = logam | [kb-ext-0317-e58db1e999] 危険異物(きけんいぶつ) [compound_technical] = benda asing berbahaya | [kb-1257940] 検出(けんしゅつ) [word] = deteksi / pendeteksian | [kb-v2-p2-032] ことができる(-) [expression] = dapat melakukan
+  OPT D: HTML=<ruby>期限<rt>きげん</rt></ruby><ruby>表示<rt>ひょうじ</rt></ruby><ruby>管理<rt>かんり</rt></ruby>においてミスが<ruby>多<rt>おお</rt></ruby>いのは<ruby>日付<rt>ひづけ</rt></ruby><ruby>管理<rt>かんり</rt></ruby>
+    TRANS: Dalam pengelolaan pencantuman batas kedaluwarsa, kesalahan yang sering terjadi adalah pengelolaan tanggal
+    KOTOBA: [kb-latsol-17fbb68d64] 期限表示管理(きげんひょうじかんり) [word] = manajemen label kedaluwarsa | [kb-v2-p4-077] ミス(-) [word] = kesalahan (human error) | [kb-v2-p1-252] 多い(おおい) [word] = banyak | [kb-latsol-e3d27dead6] 日付管理(ひづけかんり) [word] = manajemen pencantuman tanggal
+
+=== #Q15 | ID=reguler04-q015 | KEY=B (idx=1) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.5 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="包装工程での重要な管理事項について正しいものはどれですか。" vs questionText="包装工程での重要な管理事項について正しいものはどれですか。。"
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("金属検出器管理、X線検出器管理、期限表示管理") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>包装工程<rt>ほうそうこうてい</rt></ruby>での<ruby>重要<rt>じゅうよう</rt></ruby>な<ruby>管理事項<rt>かんりじこう</rt></ruby>について<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。
+  QUESTION_TEXT: 包装工程での重要な管理事項について正しいものはどれですか。。
+  PROMPT_TRANS: Manakah yang benar mengenai hal pengelolaan penting pada proses pengemasan?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 5, nomor 15. Bobot: 7.5 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0204] 包装工程(ほうそうこうてい) [compound_technical] = tahapan pengemasan | [kb-latsol-8c2ecaac40] 重要な(じゅうような) [word] = penting / kritis | [kb-ext-latsol-0066] 管理事項(かんりじこう) [word] = hal-hal yang harus dikelola | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p4-225] ついて(-) [inflected, df:つく] = menempel / melekat
+  OPT A: HTML=<ruby>金属<rt>きんぞく</rt></ruby><ruby>検出器<rt>けんしゅつき</rt></ruby><ruby>管理<rt>かんり</rt></ruby>、X<ruby>線<rt>せん</rt></ruby><ruby>検出器<rt>けんしゅつき</rt></ruby><ruby>管理<rt>かんり</rt></ruby>、<ruby>凍結<rt>とうけつ</rt></ruby><ruby>温度<rt>おんど</rt></ruby><ruby>管理<rt>かんり</rt></ruby>
+    TRANS: Pengelolaan detektor logam, pengelolaan detektor sinar-X, pengelolaan suhu pembekuan
+    KOTOBA: [kb-latsol-c96b35fa5e] 金属検出器管理(きんぞくけんしゅつきかんり) [word] = manajemen mesin detektor logam | [kb-latsol-d28fc59b5f] X線(えっくすせん) [word] = sinar-X (detektor benda asing) | [kb-ext-latsol-0064] 検出器(けんしゅつき) [word] = detektor / alat pendeteksi | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-latsol-b207347aad] 凍結温度管理(とうけつおんどかんり) [word] = manajemen suhu pembekuan
+  OPT B: HTML=<ruby>金属<rt>きんぞく</rt></ruby><ruby>検出器<rt>けんしゅつき</rt></ruby><ruby>管理<rt>かんり</rt></ruby>、X<ruby>線<rt>せん</rt></ruby><ruby>検出器<rt>けんしゅつき</rt></ruby><ruby>管理<rt>かんり</rt></ruby>、<ruby>期限<rt>きげん</rt></ruby><ruby>表示<rt>ひょうじ</rt></ruby><ruby>管理<rt>かんり</rt></ruby>
+    TRANS: Pengelolaan detektor logam, pengelolaan detektor sinar-X, pengelolaan pencantuman tanggal kedaluwarsa
+    KOTOBA: [kb-latsol-c96b35fa5e] 金属検出器管理(きんぞくけんしゅつきかんり) [word] = manajemen mesin detektor logam | [kb-latsol-d28fc59b5f] X線(えっくすせん) [word] = sinar-X (detektor benda asing) | [kb-ext-latsol-0064] 検出器(けんしゅつき) [word] = detektor / alat pendeteksi | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-latsol-17fbb68d64] 期限表示管理(きげんひょうじかんり) [word] = manajemen label kedaluwarsa
+  OPT C: HTML=<ruby>金属<rt>きんぞく</rt></ruby><ruby>検出器<rt>けんしゅつき</rt></ruby><ruby>管理<rt>かんり</rt></ruby>、<ruby>期限<rt>きげん</rt></ruby><ruby>表示<rt>ひょうじ</rt></ruby><ruby>管理<rt>かんり</rt></ruby>、<ruby>凍結<rt>とうけつ</rt></ruby><ruby>温度<rt>おんど</rt></ruby><ruby>管理<rt>かんり</rt></ruby>
+    TRANS: Pengelolaan detektor logam, pengelolaan pencantuman tanggal kedaluwarsa, pengelolaan suhu pembekuan
+    KOTOBA: [kb-latsol-c96b35fa5e] 金属検出器管理(きんぞくけんしゅつきかんり) [word] = manajemen mesin detektor logam | [kb-latsol-17fbb68d64] 期限表示管理(きげんひょうじかんり) [word] = manajemen label kedaluwarsa | [kb-latsol-b207347aad] 凍結温度管理(とうけつおんどかんり) [word] = manajemen suhu pembekuan
+  OPT D: HTML=X<ruby>線<rt>せん</rt></ruby><ruby>検出器<rt>けんしゅつき</rt></ruby><ruby>管理<rt>かんり</rt></ruby>、<ruby>凍結<rt>とうけつ</rt></ruby><ruby>温度<rt>おんど</rt></ruby><ruby>管理<rt>かんり</rt></ruby>、<ruby>期限<rt>きげん</rt></ruby><ruby>表示<rt>ひょうじ</rt></ruby><ruby>管理<rt>かんり</rt></ruby>
+    TRANS: Pengelolaan detektor sinar-X, pengelolaan suhu pembekuan, pengelolaan pencantuman tanggal kedaluwarsa
+    KOTOBA: [kb-latsol-d28fc59b5f] X線(えっくすせん) [word] = sinar-X (detektor benda asing) | [kb-ext-latsol-0064] 検出器(けんしゅつき) [word] = detektor / alat pendeteksi | [kb-otaff51-0483] 管理(かんり) [noun] = pengelolaan / manajemen | [kb-latsol-b207347aad] 凍結温度管理(とうけつおんどかんり) [word] = manajemen suhu pembekuan | [kb-latsol-17fbb68d64] 期限表示管理(きげんひょうじかんり) [word] = manajemen label kedaluwarsa
+
+=== #Q16 | ID=reguler04-q016 | KEY=C (idx=2) | CAT= | SRC=Latihan 4 Soal SSW PM + KJ.pdf p.6 ===
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("金属以外の危険異物を検出するもの") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: X<ruby>線<rt>せん</rt></ruby><ruby>検出器<rt>けんしゅつき</rt></ruby>とは？
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apakah yang dimaksud dengan detektor sinar-X (X-ray detector)?
+  EXPLANATION: Sumber: Latihan 4 Soal SSW PM + KJ.pdf, halaman 6, nomor 16. Bobot: 7.5 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-latsol-d28fc59b5f] X線(えっくすせん) [word] = sinar-X (detektor benda asing) | [kb-ext-latsol-0064] 検出器(けんしゅつき) [word] = detektor / alat pendeteksi
+  OPT A: HTML=<ruby>金属<rt>きんぞく</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby><ruby>異物<rt>いぶつ</rt></ruby>を<ruby>検出<rt>けんしゅつ</rt></ruby>するもの
+    TRANS: Alat untuk mendeteksi benda asing berbahaya berupa logam
+    KOTOBA: [kb-1243040] 金属(きんぞく) [word] = logam | [kb-ext-0317-e58db1e999] 危険異物(きけんいぶつ) [compound_technical] = benda asing berbahaya | [kb-1257940] 検出(けんしゅつ) [word] = deteksi / pendeteksian
+  OPT B: HTML=<ruby>危害<rt>きがい</rt></ruby>を<ruby>起<rt>お</rt></ruby>こす<ruby>異物<rt>いぶつ</rt></ruby>である<ruby>金属<rt>きんぞく</rt></ruby>を<ruby>検出<rt>けんしゅつ</rt></ruby>するもの
+    TRANS: Alat untuk mendeteksi logam yang merupakan benda asing penyebab bahaya
+    KOTOBA: [kb-1218440] 危害(きがい) [word] = bahaya | [kb-v2-p3-245] 起こす(おこす) [word] = menimbulkan | [kb-otaff51-0450] 異物(いぶつ) [compound_technical] = benda asing | [kb-1243040] 金属(きんぞく) [word] = logam | [kb-1257940] 検出(けんしゅつ) [word] = deteksi / pendeteksian
+  OPT C: HTML=<ruby>金属<rt>きんぞく</rt></ruby><ruby>以外<rt>いがい</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby><ruby>異物<rt>いぶつ</rt></ruby>を<ruby>検出<rt>けんしゅつ</rt></ruby>するもの
+    TRANS: Alat untuk mendeteksi benda asing berbahaya selain logam (seperti batu, kaca, tulang keras)
+    KOTOBA: [kb-ext-0409-e98791e5b1] 金属以外(きんぞくいがい) [word] = benda selain logam | [kb-ext-0317-e58db1e999] 危険異物(きけんいぶつ) [compound_technical] = benda asing berbahaya | [kb-1257940] 検出(けんしゅつ) [word] = deteksi / pendeteksian
+  OPT D: HTML=<ruby>加熱<rt>かねつ</rt></ruby>に<ruby>生<rt>い</rt></ruby>き<ruby>残<rt>のこ</rt></ruby>った<ruby>微生物<rt>びせいぶつ</rt></ruby>の<ruby>増殖<rt>ぞうしょく</rt></ruby>を<ruby>防止<rt>ぼうし</rt></ruby>するもの
+    TRANS: Alat untuk mencegah perkembangbiakan mikroorganisme yang bertahan hidup setelah pemanasan
+    KOTOBA: [kb-1190470] 加熱(かねつ) [word] = pemanasan | [kb-otaff51-1508] 生き残った(いきのこった) [inflected_verb, df:生き残る] = bertahan hidup (tersisa) | [kb-otaff51-0295] 微生物(びせいぶつ) [compound_technical] = mikroorganisme / mikroba | [kb-1403250] 増殖(ぞうしょく) [word] = perkembangbiakan bakteri | [kb-otaff51-0626] 防止(ぼうし) [noun] = pencegahan

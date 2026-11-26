@@ -1,0 +1,39 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-15 (Soal Ujian 15) | Batch qa-batch-03 | Part 10 (Q37-38 of 38)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q37 | ID=kunci-ujian-15-q037 | KEY=B (idx=1) | CAT=計算・配合・濃度（Perhitungan, Komposisi & Nilai Gizi） | SRC=Soal Ujian 15.pdf p.11 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: （450gのうどんを<ruby>作<rt>つく</rt></ruby>るための<ruby>配合<rt>はいごう</rt></ruby>の<ruby>例<rt>れい</rt></ruby>があります。）450gのうどんを<ruby>作<rt>つく</rt></ruby>るのに、300gの<ruby>小麦粉<rt>こむぎこ</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>となります。10kg<ruby>小麦粉<rt>こむぎこ</rt></ruby>があれば、うどんはどれぐらい<ruby>製造<rt>せいぞう</rt></ruby>できますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: (Terdapat contoh komposisi untuk membuat 450 g mi udon.) Untuk membuat 450 g udon, diperlukan 300 g tepung terigu. Jika tersedia 10 kg tepung terigu, berapa banyak udon yang dapat diproduksi?
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 11, nomor 37 (Q37). Bobot: 3.95 poin. Kunci jawaban: B. Pembahasan: Perhitungan proporsi: 10 kg = 10.000 g tepung terigu. Rasio udon terhadap tepung terigu = 450 g / 300 g = 1,5. Maka dari 10 kg tepung terigu dapat diproduksi 10 kg × 1,5 = 15 kg udon (B).
+  INLINE_KOTOBA_COUNT: 12
+  KOTOBA_PROMPT: [kb-v2-p6-162] g(-) [technical] = gram (satuan berat) | [kb-audit-0433] うどん(うどん) [word] = mie udon | [kb-v2-p1-151] 作る(つくる) [word] = membuat | [kb-1473070] 配合(はいごう) [word] = komposisi / resep | [kb-ext-latsol-0055] 例(れい) [word] = contoh | [kb-otaff51-0282] 小麦粉(こむぎこ) [noun] = tepung terigu | [kb-otaff51-0299] 必要(ひつよう) [adjective] = perlu / dibutuhkan | [kb-v2-p5-181] kg(-) [technical] = kilogram | [kb-v2-p1-300] あれば(-) [inflected_verb, df:ある] = jika ada (dasar: ある) | [kb-v2-p2-254] どれぐらい(-) [word] = seberapa banyak | [kb-otaff51-0555] 製造(せいぞう) [noun] = pembuatan / produksi | [kb-v2-p1-125] できますか(できますか) [inflected_verb, df:できる] = dapat dibuat (dasar: できる)
+  OPT A: HTML=14kg
+    TRANS: 14 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT B: HTML=15kg
+    TRANS: 15 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+  OPT C: HTML=16kg
+    TRANS: 16 kg
+    KOTOBA: [kb-v2-p5-181] kg(-) [technical] = kilogram
+
+=== #Q38 | ID=kunci-ujian-15-q038 | KEY=C (idx=2) | CAT=労働安全衛生・KY・異常時対応（Keselamatan dan Kesehatan Kerja / K3 & Tanggap Darurat） | SRC=Soal Ujian 15.pdf p.12 ===
+  FLAGS: [PROMPT_QUESTIONTEXT_DESYNC@question] prompt="動いているローラーコンベヤーの反対側に行きたいので、コンベヤー上に乗って渡ろうとした時、滑って転んでしまいました。このような災害を防ぐため、" vs questionText="動いているローラーコンベヤーの反対側に行きたいので、コンベヤー上に乗って渡そうとした時、滑って転んでしまいました。このような災害を防ぐため、" || [NUMBER_MISMATCH@promptTranslation] JP number "1" missing in ID "Karena ingin pergi ke sisi seberang roller conveyor yang sedang bergerak, saat m" || [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:prompt] kb-1352130 "上": kotoba="うえ" vs ruby="じょう"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>動<rt>うご</rt></ruby>いているローラーコンベヤーの<ruby>反対側<rt>はんたいがわ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたいので、コンベヤー<ruby>上<rt>じょう</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って<ruby>渡<rt>わた</rt></ruby>ろうとした<ruby>時<rt>とき</rt></ruby>、<ruby>滑<rt>すべ</rt></ruby>って<ruby>転<rt>ころ</rt></ruby>んでしまいました。このような<ruby>災害<rt>さいがい</rt></ruby>を<ruby>防<rt>ふせ</rt></ruby>ぐため、どうしますか。<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 動いているローラーコンベヤーの反対側に行きたいので、コンベヤー上に乗って渡そうとした時、滑って転んでしまいました。このような災害を防ぐため、どうしますか。正しいものを1つ選びなさい。
+  PROMPT_TRANS: Karena ingin pergi ke sisi seberang roller conveyor yang sedang bergerak, saat mencoba menyeberang dengan menginjak/naik ke atas konveyor, pekerja terpeleset dan terjatuh. Untuk mencegah kecelakaan seperti ini, apa yang harus dilakukan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Soal Ujian 15.pdf, halaman 12, nomor 38 (Q38). Bobot: 3.95 poin. Kunci jawaban: C. Visual: Ilustrasi pekerja membawa kotak mencoba melangkah di atas roller conveyor yang sedang bergerak lalu kakinya terpeleset jatuh. Pembahasan: Sesuai aturan keselamatan kerja SSW Bab 5 (hlm. 70), pekerja dilarang keras melompati, menginjak, atau menerobos di bawah konveyor; wajib berjalan memutar melewati jalur aman di samping atau jembatan penyeberangan (脇から通る).
+  INLINE_KOTOBA_COUNT: 28
+  KOTOBA_PROMPT: [kb-v2-p1-229] 動いている(うごいている) [inflected_verb, df:動く] = sedang bergerak (dasar: 動く) | [kb-u1416-d440af8ff2] ローラーコンベヤー(ろーらーこんべやー) [word] = konveyor rol (roller conveyor) | [kb-1480720] 反対側(はんたいがわ) [word] = sisi seberang | [kb-v2-p6-422] 行きたい(いきたい) [inflected, df:行く] = ingin pergi | [kb-v2-p6-181] コンベヤー(-) [technical] = ban berjalan (konveyor) | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-latsol-ffb1737619] 乗って(のって) [word] = menaiki / berdiri di atas | [kb-audit-0071] 渡ろう(わたろう) [inflected_verb, df:渡る] = hendak menyeberang / melintas | [kb-v2-p1-319] とした(-) [expression] = hendak melakukan | [kb-audit-0509] 時(とき) [word] = saat / waktu | [kb-v2-p1-230] 滑って(すべって) [inflected_verb, df:滑る] = terpeleset (dasar: 滑る) | [kb-v2-p1-237] 転んで(ころんで) [inflected_verb, df:転ぶ] = terjatuh (dasar: 転ぶ) | [kb-audit-0717] しまいました(しまいました) [inflected_verb, df:しまう] = sudah terlanjur terjadi | [kb-1295100] 災害(さいがい) [word] = kecelakaan kerja / bencana | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-275] どう(-) [word] = bagaimana | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=コンベヤーを<ruby>乗<rt>の</rt></ruby>りやすくするため、カバーをつける。
+    TRANS: Memasang penutup agar konveyor lebih mudah diinjak.
+    KOTOBA: [kb-v2-p6-181] コンベヤー(-) [technical] = ban berjalan (konveyor) | [kb-audit-0072] 乗りやすく(のりやすく) [inflected_adj, df:乗りやすい] = mudah dinaiki / dilalui | [kb-ext-0009-e382abe383] カバー(-) [word] = penutup | [kb-v2-p1-203] つける(-) [word] = memakai / memasang
+  OPT B: HTML=コンベヤーを<ruby>止<rt>と</rt></ruby>めてから<ruby>乗<rt>の</rt></ruby>る。
+    TRANS: Menghentikan konveyor terlebih dahulu baru menginjaknya.
+    KOTOBA: [kb-v2-p6-181] コンベヤー(-) [technical] = ban berjalan (konveyor) | [kb-v2-p1-211] 止めて(とめて) [inflected_verb, df:止める] = menghentikan (dasar: 止める) | [kb-audit-0037] 乗る(のる) [word] = naik / menginjak ke atas
+  OPT C: HTML=コンベヤーの<ruby>上<rt>うえ</rt></ruby>を<ruby>乗<rt>の</rt></ruby>らないようにするため、<ruby>脇<rt>わき</rt></ruby>から<ruby>通<rt>とお</rt></ruby>る。
+    TRANS: Tidak naik ke atas konveyor, melainkan berjalan memutar lewat jalur samping.
+    KOTOBA: [kb-v2-p6-181] コンベヤー(-) [technical] = ban berjalan (konveyor) | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-audit-0073] 乗らない(のらない) [inflected_verb, df:乗る] = tidak naik / tidak menginjak | [kb-v2-p2-273] ようにするため(-) [expression] = agar / supaya | [kb-u1416-a3ba4bb4f2] 脇(わき) [word] = samping / sisi pinggir | [kb-u1416-a5921e8a61] 通る(とおる) [word] = melewati

@@ -1,0 +1,77 @@
+# AUDIT SHEET: bonus-soal-9 (Bonus Soal 9) | Batch qa-batch-05 | Part 1 (Q1-4 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q1 | ID=bonus-soal-9-q001 | KEY=C (idx=2) | CAT= | SRC=Bonus Soal 9.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  CLUSTER CL-0168 (n=8, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-1-q020 (bonus-soal-1), bonus-soal-7-q020 (bonus-soal-7), nguyen01-q020 (latsol-nguyen-01), nguyen03-q001 (latsol-nguyen-03), nguyen07-q020 (latsol-nguyen-07), nguyen09-q001 (latsol-nguyen-09), nguyen10-q021 (latsol-nguyen-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>飲食料品製造業特定技能<rt>いんしょくりょうひんせいぞうぎょうとくていぎのう</rt></ruby>１<ruby>号<rt>ごう</rt></ruby>の<ruby>在留資格者<rt>ざいりゅうしかくしゃ</rt></ruby>が<ruby>働<rt>はたら</rt></ruby>く<ruby>業種<rt>ぎょうしゅ</rt></ruby>は<ruby>色々<rt>いろいろ</rt></ruby>があります。<ruby>業種<rt>ぎょうしゅ</rt></ruby>で<ruby>必要<rt>ひつよう</rt></ruby>なものは<ruby>何<rt>なん</rt></ruby>ですか。<ruby>間違<rt>まちが</rt></ruby>っているものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: 飲食料品製造業特定技能1号の在留資格者が働く業種は色々があります。業種で必要なものは何ですか。間違っているものを一つ選びなさい。
+  PROMPT_TRANS: Ada berbagai jenis bidang usaha tempat pemegang status izin tinggal Pekerja Berketerampilan Spesifik (SSW) No. 1 Industri Pengolahan Makanan dan Minuman bekerja. Apa yang diperlukan dalam bidang usaha tersebut? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 9.pdf (Halaman 1, Soal 1) · Kunci Jawaban Checklist Hijau (✓): C.
+  KOTOBA_PROMPT: [kb-ext-0115-e9a3b2e9a3] 飲食料品製造業特定技能(いんしょくりょうひんせいぞうぎょうとくていぎのう) [word] = SSW Manufaktur Makanan & Minuman | [kb-1284220] 号(ごう) [standalone_term] = Nomor (seperti Tokutei Ginou No. 1 / 特定技能1号) | [kb-otaff51-0242] 在留資格者(ざいりゅうしかくしゃ) [compound_technical] = pemegang izin tinggal | [kb-v2-p1-181] 働く(はたらく) [word] = bekerja | [kb-otaff51-0352] 業種(ぎょうしゅ) [noun] = jenis industri / bidang usaha | [kb-1587850] 色々(いろいろ) [word] = bermacam-macam / beragam | [kb-v2-p1-135] あります(-) [inflected_verb, df:ある] = ada / tersedia (dasar: ある) | [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>。
+    TRANS: Pengetahuan higiene pangan.
+    KOTOBA: [kb-otaff51-0652] 食品衛生(しょくひんえいせい) [compound_technical] = higiene pangan / keamanan pangan | [kb-otaff51-0467] 知識(ちしき) [noun] = pengetahuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>労働安全<rt>ろうどうあんぜん</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>。
+    TRANS: Pengetahuan keselamatan kerja.
+    KOTOBA: [kb-otaff51-0198] 労働安全(ろうどうあんぜん) [compound_technical] = keselamatan kerja | [kb-otaff51-0467] 知識(ちしき) [noun] = pengetahuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT C: HTML=<ruby>健康<rt>けんこう</rt></ruby>の<ruby>知識<rt>ちしき</rt></ruby>。
+    TRANS: Pengetahuan kesehatan.
+    KOTOBA: [kb-otaff51-0145] 健康(けんこう) [noun] = kesehatan | [kb-otaff51-0467] 知識(ちしき) [noun] = pengetahuan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q2 | ID=bonus-soal-9-q002 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 9.pdf p.1 ===
+  FLAGS: [KANJI_WITHOUT_RUBY@prompt] 一
+  CLUSTER CL-0190 (n=6, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q001 (bonus-soal-4), nguyen03-q002 (latsol-nguyen-03), nguyen04-q001 (latsol-nguyen-04), nguyen09-q002 (latsol-nguyen-09), nguyen10-q001 (latsol-nguyen-10)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食品衛生<rt>しょくひんえいせい</rt></ruby>は<ruby>何<rt>なん</rt></ruby>のためですか。<ruby>間違<rt>まちが</rt></ruby>っているものを一つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Untuk tujuan apakah higiene pangan dilakukan? Pilihlah satu jawaban yang salah.
+  EXPLANATION: Sumber: Bonus Soal 9.pdf (Halaman 1, Soal 2) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0652] 食品衛生(しょくひんえいせい) [compound_technical] = higiene pangan / keamanan pangan | [kb-2846738] 何(なん) [standalone_term] = Berapa / apa | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>は<ruby>病気<rt>びょうき</rt></ruby>にならないためです。
+    TRANS: Agar orang yang memakan produk pangan tidak jatuh sakit.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-otaff51-0453] 病気(びょうき) [noun] = penyakit / sakit | [kb-v2-p2-035] ならない(-) [inflected, df:なる] = tidak menjadi | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah)
+  OPT B: HTML=<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>食品<rt>しょくひん</rt></ruby>は<ruby>有名<rt>ゆうめい</rt></ruby>になるためです。
+    TRANS: Agar produk pangan perusahaan menjadi terkenal.
+    KOTOBA: [kb-otaff51-0115] 会社(かいしゃ) [noun] = perusahaan | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-1541620] 有名(ゆうめい) [word] = terkenal | [kb-v2-p1-241] なる(-) [word] = menjadi | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-347] に(-) [particle] = partikel lokasi / waktu / tujuan | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah)
+  OPT C: HTML=<ruby>食品<rt>しょくひん</rt></ruby>を<ruby>食<rt>た</rt></ruby>べた<ruby>人<rt>ひと</rt></ruby>はケガをしないためです。
+    TRANS: Agar orang yang memakan produk pangan tidak mengalami cedera/luka.
+    KOTOBA: [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-152] 食べた(たべた) [inflected_verb, df:食べる] = yang memakan (dasar: 食べる) | [kb-v2-p1-058] 人(ひと) [word] = orang | [kb-ext-0013-e382b1e382] ケガ(けが) [word] = cedera / luka | [kb-v2-p1-301] しない(-) [inflected_verb, df:する] = tidak melakukan (dasar: する) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-v2-p1-304] です(-) [particle] = kopula sopan (adalah)
+
+=== #Q3 | ID=bonus-soal-9-q003 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 9.pdf p.1 ===
+  CLUSTER CL-0068 (n=6, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q003 (ssw-pm-kunci-ujian-3), kunci-ujian-7-q004 (ssw-pm-kunci-ujian-7), kunci-ujian-14-q004 (ssw-pm-kunci-ujian-14), nguyen03-q003 (latsol-nguyen-03), nguyen09-q003 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: カンピロバクター<ruby>属菌<rt>ぞくきん</rt></ruby>による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pangan manakah yang menjadi penyebab keracunan makanan akibat bakteri genus Campylobacter?
+  EXPLANATION: Sumber: Bonus Soal 9.pdf (Halaman 1, Soal 3) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0046] カンピロバクター属菌(かんぴろばくたーぞくきん) [compound_technical] = bakteri genus Campylobacter | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>野菜<rt>やさい</rt></ruby>
+    TRANS: Sayuran
+    KOTOBA: [kb-otaff51-0612] 野菜(やさい) [noun] = sayuran
+  OPT B: HTML=<ruby>鶏肉<rt>とりにく</rt></ruby>
+    TRANS: Daging ayam
+    KOTOBA: [kb-otaff51-0685] 鶏肉(とりにく) [noun] = daging ayam
+  OPT C: HTML=<ruby>魚介類<rt>ぎょかいるい</rt></ruby>
+    TRANS: Hasil laut (ikan dan kerang-kerangan)
+    KOTOBA: [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan)
+
+=== #Q4 | ID=bonus-soal-9-q004 | KEY=B (idx=1) | CAT= | SRC=Bonus Soal 9.pdf p.1 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-1429310 "調理": kotoba="ちょうり" vs ruby="ちょうせい"
+  CLUSTER CL-0061 (n=10, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-2-q030 (ssw-pm-kunci-ujian-2), kunci-ujian-3-q004 (ssw-pm-kunci-ujian-3), kunci-ujian-11-q025 (ssw-pm-kunci-ujian-11), bonus-soal-2-q030 (bonus-soal-2), bonus-soal-8-q029 (bonus-soal-8), nguyen02-q030 (latsol-nguyen-02), nguyen03-q004 (latsol-nguyen-03), nguyen08-q029 (latsol-nguyen-08), nguyen09-q004 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: セレウス<ruby>菌<rt>きん</rt></ruby>による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>食品<rt>しょくひん</rt></ruby>はどれですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pangan manakah yang menjadi penyebab keracunan makanan akibat bakteri Bacillus cereus?
+  EXPLANATION: Sumber: Bonus Soal 9.pdf (Halaman 1, Soal 4) · Kunci Jawaban Checklist Hijau (✓): B.
+  KOTOBA_PROMPT: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>牡蠣<rt>かき</rt></ruby>
+    TRANS: Tiram
+    KOTOBA: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram
+  OPT B: HTML=<ruby>米<rt>こめ</rt></ruby>や<ruby>小麦<rt>こむぎ</rt></ruby>などを<ruby>使<rt>つか</rt></ruby>って<ruby>調理<rt>ちょうせい</rt></ruby>された<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Pangan yang diolah menggunakan beras atau gandum
+    KOTOBA: [kb-1508750] 米(こめ) [standalone_term] = Beras mentah bahan baku pangan pokok | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan | [kb-v2-p1-144] された(-) [inflected_verb, df:する] = yang dilakukan (dasar: する) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>缶詰<rt>かんづめ</rt></ruby>
+    TRANS: Makanan kaleng
+    KOTOBA: [kb-otaff51-0504] 缶詰(かんづめ) [noun] = makanan kaleng

@@ -1,0 +1,79 @@
+# AUDIT SHEET: latsol-nguyen-04 (Latsol Nguyen 04) | Batch qa-batch-07 | Part 2 (Q5-8 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q5 | ID=nguyen04-q005 | KEY=B (idx=1) | CAT= | SRC=4.pdf p.1 ===
+  CLUSTER CL-0183 (n=9, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-2-q018 (bonus-soal-2), bonus-soal-4-q005 (bonus-soal-4), bonus-soal-8-q018 (bonus-soal-8), bonus-soal-9-q018 (bonus-soal-9), nguyen02-q018 (latsol-nguyen-02), nguyen08-q018 (latsol-nguyen-08), nguyen09-q018 (latsol-nguyen-09), nguyen10-q005 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi B ("3原則。") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>細菌<rt>さいきん</rt></ruby>が<ruby>原因<rt>げんいん</rt></ruby>の<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>を<ruby>発生<rt>はっせい</rt></ruby>させないために<ruby>食中毒予防<rt>しょくちゅうどくよぼう</rt></ruby>がいくつありますか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ada berapa prinsip pencegahan keracunan makanan agar tidak terjadi keracunan makanan yang disebabkan oleh bakteri?
+  EXPLANATION: Sumber: 4.pdf, halaman 1, nomor 18. Bobot: 3.75 poin. Kunci jawaban: B.
+  KOTOBA_PROMPT: [kb-otaff51-0495] 細菌(さいきん) [noun] = bakteri | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-1477620] 発生(はっせい) [word] = timbulnya / kejadian | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-ext-0926-e9a39fe4b8] 食中毒予防(しょくちゅうどくよぼう) [word] = pencegahan keracunan makanan | [kb-v2-p4-205] いくつ(-) [word] = berapa banyak / berapa buah | [kb-v2-p1-136] ありますか(-) [inflected_verb, df:ある] = ada apa saja (dasar: ある)
+  OPT A: HTML=4<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 4 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+  OPT B: HTML=3<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 3 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+  OPT C: HTML=7<ruby>原則<rt>げんそく</rt></ruby>。
+    TRANS: 7 prinsip.
+    KOTOBA: [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar
+
+=== #Q6 | ID=nguyen04-q006 | KEY=A (idx=0) | CAT= | SRC=4.pdf p.2 ===
+  CLUSTER CL-0023 (n=10, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci1-q024 (ssw-pm-kunci-ujian-1), bonus-soal-1-q024 (bonus-soal-1), bonus-soal-4-q006 (bonus-soal-4), bonus-soal-8-q023 (bonus-soal-8), bonus-soal-10-q011 (bonus-soal-10), nguyen01-q024 (latsol-nguyen-01), nguyen02-q025 (latsol-nguyen-02), nguyen08-q023 (latsol-nguyen-08), nguyen10-q025 (latsol-nguyen-10)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan yang SALAH (間違っているもの/誤っているもの). Opsi A ("特定原材料を含む製品は一日の最初に製造する。") terbukti merupakan pernyataan yang salah berdasarkan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章・第3章 アレルゲン管理 / 消費者庁 食品表示基準, sedangkan opsi lainnya merupakan pernyataan yang benar.
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: アレルギーがほかの<ruby>食品<rt>しょくひん</rt></ruby>に<ruby>混<rt>ま</rt></ruby>ざってしまうことを<ruby>防<rt>ふせ</rt></ruby>ぐために、なにをしますか。<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Apa yang dilakukan untuk mencegah tercampurnya alergen ke dalam makanan lain? Pilihlah satu pernyataan yang salah.
+  EXPLANATION: Sumber: 4.pdf, halaman 2, nomor 6. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-v2-p2-018] アレルギー(-) [technical] = alergi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-audit-0412] 混ざって(まざって) [inflected_verb, df:混ざる] = tercampur ke dalam | [kb-v2-p1-199] 防ぐ(ふせぐ) [word] = mencegah | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-v2-p2-256] なに(-) [word] = apa | [kb-v2-p1-138] しますか(-) [inflected_verb, df:する] = harus bagaimana (dasar: する) | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>特定原材料<rt>とくていげんざいりょう</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>製品<rt>せいひん</rt></ruby>は<ruby>一日<rt>いちにち</rt></ruby>の<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>製造<rt>せいぞう</rt></ruby>する。
+    TRANS: Memproduksi produk yang mengandung bahan baku spesifik (alergen) pada urutan paling awal hari itu.
+    KOTOBA: [kb-otaff51-0432] 特定原材料(とくていげんざいりょう) [compound_technical] = bahan baku spesifik (alergen wajib label) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0551] 製品(せいひん) [noun] = produk jadi | [kb-1576260] 一日(いちにち) [word] = satu hari | [kb-1293990] 最初(さいしょ) [word] = pertama / awal | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat
+  OPT B: HTML=アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>とアレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>と<ruby>別々<rt>べつべつ</rt></ruby>に<ruby>保管<rt>ほかん</rt></ruby>する。
+    TRANS: Menyimpan bahan baku yang mengandung zat alergen secara terpisah dari bahan baku yang tidak mengandung zat alergen.
+    KOTOBA: [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-1603290] 別々(べつべつ) [word] = terpisah masing-masing | [kb-v2-p2-218] 保管する(ほかんする) [word] = menyimpan
+  OPT C: HTML=アレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>む<ruby>原材料<rt>げんざいりょう</rt></ruby>とアレルギー<ruby>物質<rt>ぶっしつ</rt></ruby>を<ruby>含<rt>ふく</rt></ruby>まない<ruby>原材料<rt>げんざいりょう</rt></ruby>を<ruby>同<rt>おな</rt></ruby>じラインで<ruby>製造<rt>せいぞう</rt></ruby>する<ruby>場合<rt>ばあい</rt></ruby>、<ruby>徹底的<rt>てっていてき</rt></ruby>に<ruby>洗浄<rt>せんじょう</rt></ruby>する。
+    TRANS: Apabila memproduksi bahan baku yang mengandung zat alergen dan yang tidak mengandung zat alergen pada lini yang sama, lakukan pencucian secara menyeluruh.
+    KOTOBA: [kb-otaff51-0036] アレルギー物質(あれるぎーぶっしつ) [compound_technical] = zat pemicu alergi (alergen) | [kb-v2-p1-200] 含む(ふくむ) [word] = mengandung | [kb-otaff51-0221] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-v2-p1-201] 含まない(ふくまない) [inflected_verb, df:含む] = tidak mengandung (dasar: 含む) | [kb-v2-p1-256] 同じ(おなじ) [word] = sama | [kb-v2-p1-042] ライン(-) [word] = lini produksi | [kb-otaff51-0712] 製造する(せいぞうする) [verb] = memproduksi / membuat | [kb-otaff51-0247] 場合(ばあい) [noun] = apabila / dalam kasus | [kb-1437680] 徹底的(てっていてき) [word] = menyeluruh / tuntas | [kb-otaff51-0385] 洗浄(せんじょう) [noun] = pencucian
+
+=== #Q7 | ID=nguyen04-q007 | KEY=C (idx=2) | CAT= | SRC=4.pdf p.2 ===
+  FLAGS: [TRANSLATION_CONTAINS_JP@promptTranslation] Untranslated JP: 整理
+  CLUSTER CL-0094 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=kunci-ujian-4-q007 (ssw-pm-kunci-ujian-4), bonus-soal-4-q007 (bonus-soal-4), bonus-soal-7-q007 (bonus-soal-7), nguyen07-q007 (latsol-nguyen-07)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi C ("必要なものは保管し、不要なものは捨てる") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第2章 一般衛生管理 / 食品衛生法, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5S<ruby>活動<rt>かつどう</rt></ruby>の<ruby>中<rt>なか</rt></ruby>の「<ruby>整理<rt>せいり</rt></ruby>」の<ruby>意味<rt>いみ</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu arti yang benar dari "Seiri (整理 / Ringkas)" dalam kegiatan 5S.
+  EXPLANATION: Sumber: 4.pdf, halaman 2, nomor 7. Bobot: 3.75 poin. Kunci jawaban: C.
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-v2-p1-068] 中(なか) [word] = di dalam | [kb-otaff51-0331] 整理(せいり) [noun] = Seiri (Ringkas: membuang barang yang tidak diperlukan) | [kb-1156800] 意味(いみ) [word] = Arti / makna ketentuan kerja standar | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=<ruby>必要<rt>ひつよう</rt></ruby>なものがすぐに<ruby>取<rt>と</rt></ruby>り<ruby>出<rt>だ</rt></ruby>せるように<ruby>置<rt>お</rt></ruby>き<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>決<rt>き</rt></ruby>めておく
+    TRANS: Menentukan tempat penyimpanan agar barang yang diperlukan dapat segera diambil
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p2-237] すぐに(-) [word] = segera | [kb-v2-p3-315] 取り出せる(とりだせる) [inflected, df:取り出す] = dapat mengambil keluar | [kb-v2-p1-023] 置き場所(おきばしょ) [word] = tempat penyimpanan | [kb-v2-p1-177] 決めて(きめて) [inflected_verb, df:決める] = menetapkan (dasar: 決める)
+  OPT B: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>とその<ruby>周辺<rt>しゅうへん</rt></ruby>をいつもきれいに<ruby>掃除<rt>そうじ</rt></ruby>する
+    TRANS: Selalu membersihkan tempat kerja dan area sekitarnya dengan bersih
+    KOTOBA: [kb-otaff51-0122] 作業場(さぎょうじょう) [noun] = area kerja / tempat kerja | [kb-1331300] 周辺(しゅうへん) [word] = Area sekitar mesin produksi | [kb-v2-p2-236] いつも(-) [word] = selalu | [kb-otaff51-0780] きれい(きれい) [adjective] = bersih / rapi | [kb-ext-1126-e68e83e999] 掃除(そうじ) [word] = pembersihan
+  OPT C: HTML=<ruby>必要<rt>ひつよう</rt></ruby>なものは<ruby>保管<rt>ほかん</rt></ruby>し、<ruby>不要<rt>ふよう</rt></ruby>なものは<ruby>捨<rt>す</rt></ruby>てる
+    TRANS: Menyimpan barang yang diperlukan dan membuang barang yang tidak diperlukan
+    KOTOBA: [kb-latsol-35dab93b6a] 必要な(ひつような) [word] = perlu / dibutuhkan | [kb-v2-p2-030] 保管し(ほかんし) [inflected, df:保管する] = menyimpan | [kb-latsol-90a80dc9bf] 不要な(ふような) [word] = tidak diperlukan | [kb-v2-p1-174] 捨てる(すてる) [word] = membuang
+
+=== #Q8 | ID=nguyen04-q008 | KEY=A (idx=0) | CAT= | SRC=4.pdf p.2 ===
+  CLUSTER CL-0193 (n=4, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-4-q008 (bonus-soal-4), bonus-soal-7-q008 (bonus-soal-7), nguyen07-q008 (latsol-nguyen-07)
+  PRIOR_KEY_AUDIT: VERIFIED_CORRECT | Pertanyaan meminta memilih pernyataan/arti yang BENAR (正しいもの). Opsi A ("つけない・増やさない・殺す（やっつける）") sesuai secara akurat dengan 飲食料品製造業特定技能1号学習用テキスト (OTAFF) 第1章 食品安全・品質管理の基本 / 厚生労働省 食中毒統計・予防マニュアル, sedangkan opsi lainnya tidak tepat.
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食中毒防止<rt>しょくちゅうどくぼうし</rt></ruby>の3<ruby>原則<rt>げんそく</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah yang benar mengenai 3 prinsip pencegahan keracunan makanan.
+  EXPLANATION: Sumber: 4.pdf, halaman 2, nomor 8. Bobot: 3.75 poin. Kunci jawaban: A.
+  KOTOBA_PROMPT: [kb-ext-0924-e9a39fe4b8] 食中毒防止(しょくちゅうどくぼうし) [word] = pencegahan keracunan makanan | [kb-otaff51-0219] 原則(げんそく) [noun] = prinsip dasar | [kb-otaff51-0356] 正しい(ただしい) [adjective] = benar / tepat | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah
+  OPT A: HTML=つけない・<ruby>増<rt>ふ</rt></ruby>やさない・<ruby>殺<rt>ころ</rt></ruby>す（やっつける）
+    TRANS: Tidak mencemari, tidak membiakkan, membunuh (membasmi)
+    KOTOBA: [kb-v2-p2-194] つけない(-) [inflected, df:つける] = tidak menempel / memakai | [kb-v2-p4-164] 増やさない(ふやさない) [inflected, df:増やす] = tidak memperbanyak | [kb-v2-p1-180] 殺す(ころす) [word] = membunuh (bakteri) | [kb-latsol-3a060b3b41] やっつける(やっつける) [word] = membasmi / membunuh (bakteri/mikroba)
+  OPT B: HTML=<ruby>温度<rt>おんど</rt></ruby>・<ruby>水分<rt>すいぶん</rt></ruby>・<ruby>栄養分<rt>えいようぶん</rt></ruby>
+    TRANS: Suhu, kadar air, nutrisi
+    KOTOBA: [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-otaff51-0371] 水分(すいぶん) [noun] = kadar air / cairan | [kb-1624300] 栄養分(えいようぶん) [word] = kandungan zat gizi
+  OPT C: HTML=<ruby>冷蔵<rt>れいぞう</rt></ruby>・<ruby>冷却<rt>れいきゃく</rt></ruby>・<ruby>冷凍<rt>れいとう</rt></ruby>
+    TRANS: Penyimpanan dingin, pendinginan, pembekuan
+    KOTOBA: [kb-otaff51-0167] 冷蔵(れいぞう) [noun] = pendinginan (chilling) | [kb-otaff51-0162] 冷却(れいきゃく) [noun] = pendinginan setelah pemanasan | [kb-otaff51-0156] 冷凍(れいとう) [noun] = pembekuan (freezing)

@@ -1,0 +1,74 @@
+# AUDIT SHEET: ssw-pm-kunci-ujian-2 (Soal Ujian 2 — CBTP Gino1) | Batch qa-batch-01 | Part 8 (Q29-32 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q29 | ID=kunci-ujian-2-q029 | KEY=C (idx=2) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.5 ===
+  CLUSTER CL-0060 (n=5, diffPrompt=false, diffOpt=true, diffTrans=true): twins=bonus-soal-2-q029 (bonus-soal-2), bonus-soal-8-q028 (bonus-soal-8), nguyen02-q029 (latsol-nguyen-02), nguyen08-q028 (latsol-nguyen-08)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>殺菌剤<rt>さっきんざい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>うときに<ruby>注意<rt>ちゅうい</rt></ruby>する<ruby>点<rt>てん</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai hal-hal yang harus diperhatikan saat menggunakan bahan sterilisasi/disinfektan.
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 5, Câu 29 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: C.
+  KOTOBA_PROMPT: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-v2-p1-184] 使う(つかう) [word] = menggunakan | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-v2-p2-178] 注意する(ちゅういする) [word] = memperhatikan / waspada | [kb-1441390] 点(てん) [standalone_term] = Poin / titik kendali dalam tahapan pengolahan | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>濃度<rt>のうど</rt></ruby>
+    TRANS: Konsentrasi bahan sterilisasi
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0415] 濃度(のうど) [noun] = konsentrasi / kepekatan | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>殺菌<rt>さっきん</rt></ruby>する<ruby>時間<rt>じかん</rt></ruby>.
+    TRANS: Waktu sterilisasi
+    KOTOBA: [kb-otaff51-0361] 殺菌(さっきん) [noun] = sterilisasi / pembasmian kuman | [kb-v2-p1-147] する(-) [word] = melakukan | [kb-otaff51-0336] 時間(じかん) [noun] = waktu / durasi
+  OPT C: HTML=<ruby>殺菌剤<rt>さっきんざい</rt></ruby>の<ruby>温度<rt>おんど</rt></ruby>
+    TRANS: Suhu bahan sterilisasi
+    KOTOBA: [kb-otaff51-0362] 殺菌剤(さっきんざい) [compound_technical] = bahan disinfektan / bakterisida | [kb-otaff51-0404] 温度(おんど) [noun] = suhu / temperatur | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+
+=== #Q30 | ID=kunci-ujian-2-q030 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.5 ===
+  CLUSTER CL-0061 (n=10, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-3-q004 (ssw-pm-kunci-ujian-3), kunci-ujian-11-q025 (ssw-pm-kunci-ujian-11), bonus-soal-2-q030 (bonus-soal-2), bonus-soal-8-q029 (bonus-soal-8), bonus-soal-9-q004 (bonus-soal-9), nguyen02-q030 (latsol-nguyen-02), nguyen03-q004 (latsol-nguyen-03), nguyen08-q029 (latsol-nguyen-08), nguyen09-q004 (latsol-nguyen-09)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: セレウス<ruby>菌<rt>きん</rt></ruby>による<ruby>食中毒<rt>しょくちゅうどく</rt></ruby>の<ruby>原因<rt>げんいん</rt></ruby>となる<ruby>食品<rt>しょくひん</rt></ruby>はどれですか
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pangan manakah yang menjadi penyebab keracunan makanan akibat bakteri Bacillus cereus?
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 5, Câu 30 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0054] セレウス菌(せれうすきん) [compound_technical] = bakteri Bacillus cereus | [kb-v2-p1-311] による(-) [particle] = disebabkan oleh / menurut | [kb-otaff51-0648] 食中毒(しょくちゅうどく) [compound_technical] = keracunan makanan | [kb-otaff51-0220] 原因(げんいん) [noun] = penyebab | [kb-v2-p2-266] となる(-) [expression] = menjadi | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik
+  OPT A: HTML=<ruby>牡蠣<rt>かき</rt></ruby>などの<ruby>二枚貝<rt>にまいがい</rt></ruby>
+    TRANS: Kerang bivalvia seperti tiram
+    KOTOBA: [kb-otaff51-0430] 牡蠣(かき) [noun] = tiram | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-otaff51-0106] 二枚貝(にまいがい) [compound_technical] = kerang berkeping dua (bivalvia) | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung
+  OPT B: HTML=<ruby>米<rt>こめ</rt></ruby>や<ruby>小麦<rt>こむぎ</rt></ruby>などを<ruby>使<rt>つか</rt></ruby>って<ruby>調理<rt>ちょうり</rt></ruby>された<ruby>食品<rt>しょくひん</rt></ruby>
+    TRANS: Pangan yang diolah menggunakan beras atau gandum
+    KOTOBA: [kb-1508750] 米(こめ) [standalone_term] = Beras mentah bahan baku pangan pokok | [kb-otaff51-0281] 小麦(こむぎ) [noun] = gandum | [kb-v2-p1-336] など(-) [particle] = dan lain-lain | [kb-v2-p1-185] 使って(つかって) [inflected_verb, df:使う] = menggunakan (dasar: 使う) | [kb-1429310] 調理(ちょうり) [word] = pengolahan / pemasakan | [kb-v2-p1-144] された(-) [inflected_verb, df:する] = yang dilakukan (dasar: する) | [kb-otaff51-0651] 食品(しょくひん) [noun] = makanan / produk pangan | [kb-v2-p1-342] や(-) [particle] = dan (daftar tidak lengkap) | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT C: HTML=<ruby>缶詰<rt>かんづめ</rt></ruby>
+    TRANS: Makanan kaleng
+    KOTOBA: [kb-otaff51-0504] 缶詰(かんづめ) [noun] = makanan kaleng
+
+=== #Q31 | ID=kunci-ujian-2-q031 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.5 ===
+  CLUSTER CL-0062 (n=7, diffPrompt=true, diffOpt=true, diffTrans=true): twins=kunci-ujian-6-q025 (ssw-pm-kunci-ujian-6), kunci-ujian-14-q039 (ssw-pm-kunci-ujian-14), bonus-soal-2-q031 (bonus-soal-2), bonus-soal-8-q030 (bonus-soal-8), nguyen02-q031 (latsol-nguyen-02), nguyen08-q030 (latsol-nguyen-08)
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>食肉<rt>しょくにく</rt></ruby>、<ruby>魚介類<rt>ぎょかいるい</rt></ruby>は<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>で<ruby>何度以下<rt>なんどいか</rt></ruby>で<ruby>保管<rt>ほかん</rt></ruby>すればいいですか。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Daging dan hasil laut (seafood) sebaiknya disimpan di dalam kulkas pada suhu berapa derajat atau lebih rendah?
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 5, Câu 31 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0661] 食肉(しょくにく) [noun] = daging segar | [kb-otaff51-0682] 魚介類(ぎょかいるい) [noun] = hasil laut (ikan dan kerang-kerangan) | [kb-otaff51-0168] 冷蔵庫(れいぞうこ) [noun] = lemari pendingin (kulkas/chiller) | [kb-ext-0183-e4bd95e5ba] 何度以下(なんどいか) [word] = berapa derajat atau kurang | [kb-v2-p2-216] 保管すれば(ほかんすれば) [inflected, df:保管する] = jika disimpan | [kb-v2-p1-249] いい(-) [word] = baik | [kb-v2-p1-310] ですか(-) [particle] = apakah (kata tanya sopan) | [kb-v2-p1-344] は(-) [particle] = partikel penanda topik | [kb-v2-p1-348] で(-) [particle] = partikel alat / tempat aksi
+  OPT A: HTML=4℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 4°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT B: HTML=10℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 10°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+  OPT C: HTML=15℃<ruby>以下<rt>いか</rt></ruby>
+    TRANS: 15°C atau lebih rendah
+    KOTOBA: [kb-latsol-celsius] ℃(ど) [word] = derajat Celcius (satuan suhu) | [kb-otaff51-0112] 以下(いか) [noun] = atau kurang / maksimal
+
+=== #Q32 | ID=kunci-ujian-2-q032 | KEY=B (idx=1) | CAT= | SRC=Kunci Soal Ujian 2.pdf p.5 ===
+  CLUSTER CL-0063 (n=5, diffPrompt=false, diffOpt=false, diffTrans=true): twins=bonus-soal-2-q032 (bonus-soal-2), bonus-soal-8-q031 (bonus-soal-8), nguyen02-q032 (latsol-nguyen-02), nguyen08-q031 (latsol-nguyen-08)
+  INSTR: <ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>熱中症<rt>ねっちゅうしょう</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>について、<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu jawaban yang salah mengenai gejala sengatan panas (heatstroke).
+  EXPLANATION: Sumber: Kunci Soal Ujian 2.pdf (Halaman 5, Câu 32 - Đề 2 - CBTP Gino1 — 3,75 poin) · Kunci Jawaban PDF: B.
+  KOTOBA_PROMPT: [kb-otaff51-0425] 熱中症(ねっちゅうしょう) [compound_technical] = sengatan panas (heatstroke) | [kb-otaff51-0454] 症状(しょうじょう) [noun] = gejala | [kb-v2-p1-315] について(-) [particle] = mengenai / tentang | [kb-otaff51-0625] 間違っている(まちがっている) [expression] = salah / keliru | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-otaff51-0085] 一つ(ひとつ) [noun] = satu | [kb-otaff51-0600] 選びなさい(えらびなさい) [expression] = pilihlah | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-346] を(-) [particle] = partikel penanda objek
+  OPT A: HTML=めまい、<ruby>立<rt>た</rt></ruby>ちくらみ、<ruby>手足<rt>てあし</rt></ruby>のしびれ、<ruby>気分<rt>きぶん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>い
+    TRANS: Pusing, pandangan berkunang-kunang saat berdiri, tangan dan kaki kesemutan/mati rasa, serta merasa mual/tidak enak badan
+    KOTOBA: [kb-v2-p2-094] めまい(-) [word] = pusing / pening | [kb-v2-p2-095] 立ちくらみ(たちくらみ) [word] = kunang-kunang saat berdiri | [kb-1328080] 手足(てあし) [word] = Tangan dan kaki pekerja pabrik | [kb-v2-p2-096] しびれ(-) [word] = kesemutan / mati rasa | [kb-1222590] 気分(きぶん) [word] = kondisi badan / perasaan | [kb-v2-p1-246] 悪い(わるい) [word] = buruk / tidak baik | [kb-v2-p1-350] の(-) [particle] = partikel kepemilikan / penghubung | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek
+  OPT B: HTML=<ruby>発熱<rt>はつねつ</rt></ruby>、<ruby>激<rt>はげ</rt></ruby>しい<ruby>腹痛<rt>ふくつう</rt></ruby>、<ruby>下痢<rt>げり</rt></ruby>
+    TRANS: Demam, sakit perut hebat, dan diare
+    KOTOBA: [kb-otaff51-0455] 発熱(はつねつ) [noun] = demam | [kb-v2-p2-228] 激しい(はげしい) [word] = hebat / parah | [kb-otaff51-0526] 腹痛(ふくつう) [noun] = sakit perut | [kb-otaff51-0092] 下痢(げり) [noun] = diare
+  OPT C: HTML=<ruby>返事<rt>へんじ</rt></ruby>がおかしい、<ruby>意識喪失<rt>いしきそうしつ</rt></ruby>、けいれん、からだが<ruby>熱<rt>あつ</rt></ruby>い
+    TRANS: Jawaban meracau/aneh saat diajak bicara, kehilangan kesadaran, kejang-kejang, dan suhu tubuh panas
+    KOTOBA: [kb-1512220] 返事(へんじ) [word] = jawaban / respons | [kb-v2-p2-229] おかしい(-) [word] = aneh / tidak wajar | [kb-1971050] 意識喪失(いしきそうしつ) [word] = kehilangan kesadaran / pingsan | [kb-v2-p2-097] けいれん(-) [word] = kejang | [kb-v2-p2-080] からだ(-) [word] = tubuh / badan | [kb-v2-p2-227] 熱い(あつい) [word] = panas | [kb-v2-p1-345] が(-) [particle] = partikel penanda subjek

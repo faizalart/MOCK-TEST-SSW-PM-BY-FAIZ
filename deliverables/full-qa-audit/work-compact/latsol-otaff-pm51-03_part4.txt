@@ -1,0 +1,75 @@
+# AUDIT SHEET: latsol-otaff-pm51-03 (Latsol OTAFF SSW PM Modul 5.1 - Paket 03) | Batch qa-batch-11 | Part 4 (Q13-16 of 40)
+# Review EVERY question, EVERY option, furigana <ruby><rt>, Japanese grammar/naturalness, Indonesian translation, AND every Kotoba entry.
+
+=== #Q13 | ID=otaff-pm51-03-q013 | KEY=B (idx=1) | CAT=第2章 2. 危害要因（Bab 2.2: Faktor Bahaya Pangan） | SRC=Bab 1-3.pdf p.19 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業者<rt>さぎょうしゃ</rt></ruby>がノロウイルスに<ruby>感染<rt>かんせん</rt></ruby>したときに、<ruby>工場内<rt>こうじょうない</rt></ruby>をしっかり<ruby>消毒<rt>しょうどく</rt></ruby>し、おう<ruby>吐物<rt>とぶつ</rt></ruby>を<ruby>専門用具<rt>せんもんようぐ</rt></ruby>で<ruby>正<rt>ただ</rt></ruby>しく<ruby>処理<rt>しょり</rt></ruby>することは、ノロウイルス<ruby>食中毒予防<rt>しょくちゅうどくよぼう</rt></ruby>の4<ruby>原則<rt>げんそく</rt></ruby>のどれにあたりますか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Ketika ada pekerja yang terinfeksi Norovirus, tindakan mendisinfeksi bagian dalam pabrik secara menyeluruh dan menangani muntahan dengan benar menggunakan peralatan khusus termasuk prinsip yang mana dari 4 prinsip pencegahan Norovirus? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 19 (Bab 2.2(3)②, hal. 14 teks). Bobot: 3 poin. Kunci jawaban: B. Mendisinfeksi pabrik dan menangani muntahan menggunakan peralatan khusus saat terjadi infeksi pekerja disebut 「拡げない」 (tidak menyebarkan).
+  INLINE_KOTOBA_COUNT: 23
+  KOTOBA_PROMPT: [kb-2451180] 作業者(さぎょうしゃ) [word] = pekerja / operator | [kb-latsol-0d8497339a] ノロウイルス(のろういるす) [word] = Norovirus | [kb-1212470] 感染(かんせん) [word] = infeksi | [kb-v2-p1-303] ときに(-) [particle] = pada saat / ketika | [kb-1578700] 工場(こうじょう) [word] = pabrik | [kb-v2-p4-117] 内(うち) [word] = bagian dalam | [kb-v2-p2-239] しっかり(-) [word] = dengan saksama / erat | [kb-1350270] 消毒(しょうどく) [word] = disinfeksi | [kb-otaff51-0008] おう吐物(おうとぶつ) [compound_technical] = muntahan | [kb-v2-p4-066] 専門用具(せんもんようぐ) [compound_technical] = alat bantu khusus | [kb-v2-p2-222] 正しく(ただしく) [inflected, df:正しい] = dengan benar | [kb-1342510] 処理(しょり) [word] = perlakuan / pengolahan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-ext-0926-e9a39fe4b8] 食中毒予防(しょくちゅうどくよぼう) [word] = pencegahan keracunan makanan | [kb-1262070] 原則(げんそく) [word] = prinsip | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=「<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>まない」
+    TRANS: 'Tidak membawa masuk (Mochikomanai)'
+    KOTOBA: [kb-v2-p4-160] 持ち込まない(もちこまない) [inflected, df:持ち込む] = tidak membawa masuk
+  OPT B: HTML=「<ruby>拡<rt>ひろ</rt></ruby>げない」
+    TRANS: 'Tidak menyebarkan (Hirogenai)'
+    KOTOBA: [kb-v2-p6-360] 拡げない(ひろげない) [inflected, df:拡げる] = tidak menyebarkan
+  OPT C: HTML=「<ruby>増<rt>ふ</rt></ruby>やさない」
+    TRANS: 'Tidak membiakkan (Fuyasanai)'
+    KOTOBA: [kb-v2-p4-164] 増やさない(ふやさない) [inflected, df:増やす] = tidak memperbanyak
+
+=== #Q14 | ID=otaff-pm51-03-q014 | KEY=C (idx=2) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.20 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: 5Sの<ruby>活動<rt>かつどう</rt></ruby>のうち、「<ruby>整理<rt>せいり</rt></ruby>、<ruby>整頓<rt>せいとん</rt></ruby>、<ruby>清掃<rt>せいそう</rt></ruby>、<ruby>清潔<rt>せいけつ</rt></ruby>のルールを、<ruby>決<rt>き</rt></ruby>められたとおりに<ruby>実行<rt>じっこう</rt></ruby>できるようになること」はどれですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Di antara kegiatan 5S, manakah kegiatan 'membiasakan diri agar dapat menjalankan aturan Seiri, Seiton, Seisou, dan Seiketsu persis sebagaimana yang telah ditetapkan'? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 20 (Bab 2.3(1)⑤, hal. 15 teks). Bobot: 3 poin. Kunci jawaban: C. 習慣付け（Shukanzuke）またはしつけ（Shitsuke） adalah kemampuan mematuhi dan menjalankan aturan 4S sebelumnya secara konsisten sesuai ketentuan.
+  INLINE_KOTOBA_COUNT: 18
+  KOTOBA_PROMPT: [kb-otaff51-0001] 5S(ごえす) [compound_technical] = 5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke) | [kb-1208360] 活動(かつどう) [word] = aktivitas / kegiatan | [kb-v2-p2-247] うち(-) [word] = di antara | [kb-1376250] 整理(せいり) [word] = Seiri (ringkas) | [kb-1376230] 整頓(せいとん) [word] = Seiton (rapi) | [kb-1378320] 清掃(せいそう) [word] = Seiso (resik / bersih-bersih) | [kb-1378200] 清潔(せいけつ) [word] = Seiketsu (bersih) | [kb-v2-p3-022] ルール(-) [word] = aturan | [kb-v2-p1-132] 決められた(きめられた) [inflected_verb, df:決める] = yang telah ditetapkan (dasar: 決める) | [kb-1321040] 実行(じっこう) [word] = pelaksanaan | [kb-v2-p1-291] こと(-) [word] = hal / perkara | [kb-v2-p1-264] どれ(-) [word] = yang mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>整理<rt>せいり</rt></ruby>（Seiri）
+    TRANS: Seiri (Ringkas)
+    KOTOBA: [kb-1376250] 整理(せいり) [word] = Seiri (ringkas)
+  OPT B: HTML=<ruby>清掃<rt>せいそう</rt></ruby>（Seisou）
+    TRANS: Seisou (Resik)
+    KOTOBA: [kb-1378320] 清掃(せいそう) [word] = Seiso (resik / bersih-bersih)
+  OPT C: HTML=<ruby>習慣付<rt>しゅうかんづ</rt></ruby>け（Shuukanzuke）またはしつけ（Shitsuke）
+    TRANS: Shuukanzuke atau Shitsuke (Rajin / Disiplin)
+    KOTOBA: [kb-otaff51-0506] 習慣付け(しゅうかんづけ) [noun] = Shuukanzuke (Rajin/pembiasaan mematuhi aturan) | [kb-latsol-ad84dc5330] しつけ(しつけ) [word] = Shitsuke
+
+=== #Q15 | ID=otaff-pm51-03-q015 | KEY=B (idx=1) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.21 ===
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>区分衛生管理<rt>くぶんえいせいかんり</rt></ruby>において、「<ruby>原材料<rt>げんざいりょう</rt></ruby>の<ruby>受入<rt>うけい</rt></ruby>れ」や「<ruby>出荷<rt>しゅっか</rt></ruby>するために<ruby>段<rt>だん</rt></ruby>ボール<ruby>箱<rt>ばこ</rt></ruby>に<ruby>詰<rt>つ</rt></ruby>めた<ruby>製品<rt>せいひん</rt></ruby>」を<ruby>取<rt>と</rt></ruby>り<ruby>扱<rt>あつか</rt></ruby>う<ruby>区域<rt>くいき</rt></ruby>はどこですか。<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Dalam manajemen higiene pembagian zona, di zona manakah kegiatan 'penerimaan bahan baku dari luar' dan penanganan 'produk yang telah dimasukkan ke dalam kotak kardus untuk dikirim' dilakukan? Pilihlah satu yang benar.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 21–22 (Bab 2.3(2)①, hal. 16–17 teks). Bobot: 3 poin. Kunci jawaban: B. Area penerimaan bahan baku dari luar serta area pengemasan ke dalam kotak kardus untuk pengiriman termasuk 汚染作業区域 (zona kerja terkontaminasi).
+  INLINE_KOTOBA_COUNT: 19
+  KOTOBA_PROMPT: [kb-ext-0416-e58cbae588] 区分衛生管理(くぶんえいせいかんり) [word] = manajemen higiene pemisahan zona | [kb-v2-p3-338] において(-) [particle] = di / pada (formal) | [kb-1261430] 原材料(げんざいりょう) [compound_technical] = bahan baku | [kb-latsol-a29987ec64] 受入れ(うけいれ) [word] = penerimaan bahan baku | [kb-1338350] 出荷(しゅっか) [word] = pengiriman produk jadi | [kb-v2-p1-328] ために(-) [particle] = untuk / demi | [kb-otaff51-0360] 段ボール箱(だんぼーるばこ) [noun] = kotak kardus | [kb-otaff51-0885] 詰めた(つめた) [inflected_verb, df:詰める] = mengisi / mengepak | [kb-1380760] 製品(せいひん) [word] = produk | [kb-v2-p3-311] 取り扱う(とりあつかう) [word] = menangani / mengolah | [kb-1244090] 区域(くいき) [word] = zona / area pabrik | [kb-v2-p1-265] どこ(-) [word] = di mana | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>清潔作業区域<rt>せいけつさぎょうくいき</rt></ruby>
+    TRANS: Zona kerja bersih
+    KOTOBA: [kb-v2-p4-057] 清潔作業区域(せいけつさぎょうくいき) [compound_technical] = zona kerja bersih
+  OPT B: HTML=<ruby>汚染作業区域<rt>おせんさぎょうくいき</rt></ruby>
+    TRANS: Zona kerja terkontaminasi (Osen Sagyou Kuiki)
+    KOTOBA: [kb-ext-0151-e6b19ae69f] 汚染作業区域(おせんさぎょうくいき) [word] = zona kerja kotor / terkontaminasi
+  OPT C: HTML=<ruby>準清潔作業区域<rt>じゅんせいけつさぎょうくいき</rt></ruby>
+    TRANS: Zona kerja semi-bersih
+    KOTOBA: [kb-ext-0845-e6ba96e6b8] 準清潔作業区域(じゅんせいけつさぎょうくいき) [word] = zona kerja semi-bersih
+
+=== #Q16 | ID=otaff-pm51-03-q016 | KEY=A (idx=0) | CAT=第2章 3. 一般衛生管理（Bab 2.3: Manajemen Higiene Umum） | SRC=Bab 1-3.pdf p.22 ===
+  FLAGS: [KOTOBA_READING_CONFLICT_WITH_RUBY@kotoba:opt:B] kb-1203250 "外": kotoba="そと" vs ruby="はず" || [NUMBER_MISMATCH@optTranslation:C] JP number "1" missing in ID "Menyiram lantai area kerja dengan air sepanjang hari agar tetap basah supaya deb"
+  INSTR: <ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  PROMPT_HTML: <ruby>作業場<rt>さぎょうじょう</rt></ruby>の「<ruby>排水溝<rt>はいすいこう</rt></ruby>」や「<ruby>大<rt>おお</rt></ruby>きな<ruby>機械<rt>きかい</rt></ruby>の<ruby>下<rt>した</rt></ruby>」、「<ruby>床<rt>ゆか</rt></ruby>」の<ruby>衛生管理<rt>えいせいかんり</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。
+  QUESTION_TEXT: (synced)
+  PROMPT_TRANS: Pilihlah satu tindakan yang benar mengenai manajemen higiene pada 'saluran pembuangan air (selokan)', 'bagian bawah mesin besar', dan 'lantai' di tempat kerja.
+  EXPLANATION: Sumber: Bab 1-3.pdf, halaman 22 (Bab 2.3(2)②, hal. 17 teks). Bobot: 3 poin. Kunci jawaban: A. Saluran air (排水溝) dan bawah mesin besar mudah menjadi sumber serangga sehingga tutup saluran harus dibuka dan dicuci, serta lantai tidak boleh dibiarkan basah karena memicu pertumbuhan mikroba.
+  INLINE_KOTOBA_COUNT: 32
+  KOTOBA_PROMPT: [kb-ext-0639-e4bd9ce6a5] 作業場(さぎょうじょう) [compound_technical] = area kerja | [kb-1472390] 排水溝(はいすいこう) [word] = saluran pembuangan air limbah | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-1220810] 機械(きかい) [word] = mesin | [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p1-086] 床(ゆか) [word] = lantai | [kb-1666860] 衛生管理(えいせいかんり) [word] = manajemen higiene sanitasi | [kb-v2-p1-321] として(-) [particle] = sebagai | [kb-v2-p1-245] 正しい(ただしい) [word] = yang benar | [kb-v2-p1-290] もの(-) [word] = hal / benda | [kb-ext-0088-e4b880e381] 一つ(ひとつ) [word] = satu (pilihan) | [kb-v2-p1-130] 選びなさい(えらびなさい) [inflected_verb, df:選ぶ] = pilihlah
+  OPT A: HTML=<ruby>排水溝<rt>はいすいこう</rt></ruby>や<ruby>大<rt>おお</rt></ruby>きな<ruby>機械<rt>きかい</rt></ruby>の<ruby>下<rt>した</rt></ruby>は<ruby>虫<rt>むし</rt></ruby>の<ruby>発生源<rt>はっせいげん</rt></ruby>になりやすいため、<ruby>排水溝<rt>はいすいこう</rt></ruby>は<ruby>蓋<rt>ふた</rt></ruby>を<ruby>外<rt>はず</rt></ruby>して<ruby>洗<rt>あら</rt></ruby>い、<ruby>床<rt>ゆか</rt></ruby>は<ruby>濡<rt>ぬ</rt></ruby>れたままにしない。
+    TRANS: Karena selokan dan kolong mesin besar mudah menjadi sarang kemunculan serangga, buka tutup selokan untuk dicuci dan jangan biarkan lantai tetap basah.
+    KOTOBA: [kb-1472390] 排水溝(はいすいこう) [word] = saluran pembuangan air limbah | [kb-v2-p1-258] 大きな(おおきな) [word] = besar | [kb-1220810] 機械(きかい) [word] = mesin | [kb-otaff51-0702] 下(した) [noun] = bagian bawah | [kb-v2-p4-111] 虫(むし) [word] = serangga / hama | [kb-2399420] 発生源(はっせいげん) [word] = sumber awal timbulnya bahaya | [kb-otaff51-0775] なりやすい(なりやすい) [inflected_verb, df:なる] = mudah menjadi | [kb-v2-p1-312] ため(-) [word] = demi / untuk | [kb-u1416-2d9af7b8a1] 蓋(ふた) [word] = tutup wadah | [kb-v2-p1-209] 外して(はずして) [inflected_verb, df:外す] = melepas (dasar: 外す) | [kb-otaff51-0744] 洗い(あらい) [inflected_verb, df:洗う] = mencuci | [kb-v2-p1-086] 床(ゆか) [word] = lantai | [kb-v2-p2-112] 濡れた(ぬれた) [inflected, df:濡れる] = basah | [kb-v2-p3-204] まま(-) [word] = apa adanya / tetap
+  OPT B: HTML=<ruby>排水溝<rt>はいすいこう</rt></ruby>の<ruby>蓋<rt>ふた</rt></ruby>は<ruby>重<rt>おも</rt></ruby>いので<ruby>絶対<rt>ぜったい</rt></ruby>に<ruby>外<rt>はず</rt></ruby>さず、<ruby>上<rt>うえ</rt></ruby>から<ruby>水<rt>みず</rt></ruby>をかけるだけにする。
+    TRANS: Jangan pernah membuka tutup selokan karena berat, cukup siram air dari atasnya saja.
+    KOTOBA: [kb-1472390] 排水溝(はいすいこう) [word] = saluran pembuangan air limbah | [kb-u1416-2d9af7b8a1] 蓋(ふた) [word] = tutup wadah | [kb-v2-p5-213] 重い(おもい) [word] = berat | [kb-1386840] 絶対(ぜったい) [word] = mutlak / sama sekali | [kb-1203250] 外(そと) [standalone_term] = Luar / area luar fasilitas pabrik | [kb-1352130] 上(うえ) [standalone_term] = Atas / bagian atas permukaan meja kerja | [kb-v2-p1-083] 水(みず) [word] = air | [kb-v2-p1-190] かける(-) [word] = memanggil / menegur
+  OPT C: HTML=<ruby>作業場<rt>さぎょうじょう</rt></ruby>の<ruby>床<rt>ゆか</rt></ruby>は、ほこりが<ruby>飛<rt>と</rt></ruby>ばないように1<ruby>日中水<rt>にちじゅうみず</rt></ruby>をまいて<ruby>濡<rt>ぬ</rt></ruby>らしておく。
+    TRANS: Menyiram lantai area kerja dengan air sepanjang hari agar tetap basah supaya debu tidak beterbangan.
+    KOTOBA: [kb-ext-0639-e4bd9ce6a5] 作業場(さぎょうじょう) [compound_technical] = area kerja | [kb-v2-p1-086] 床(ゆか) [word] = lantai | [kb-v2-p2-099] ほこり(-) [word] = debu | [kb-otaff51-1106] 飛ばないように(とばないように) [inflected_verb, df:飛ぶ] = agar tidak beterbangan | [kb-otaff51-1107] 1日中(いちにちじゅう) [expression] = sepanjang hari | [kb-v2-p1-083] 水(みず) [word] = air | [kb-otaff51-1108] まいて(まいて) [inflected_verb, df:まく] = menebarkan / menyiram | [kb-otaff51-1109] 濡らしておく(ぬらしておく) [inflected_verb, df:濡らす] = membiarkan basah
